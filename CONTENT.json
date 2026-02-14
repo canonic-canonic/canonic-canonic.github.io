@@ -1,0 +1,338 @@
+{
+  "fleet": {
+    "brand": {
+      "mark": "\u2229",
+      "label": "CANONIC",
+      "url": "https://canonic-foundation.github.io"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic-foundation.github.io"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic-industries.github.io"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic-magic.github.io"
+      },
+      {
+        "scope": "HADLEYLAB",
+        "label": "Hadley Lab",
+        "url": "https://hadleylab-dexter.github.io"
+      }
+    ]
+  },
+  "hero": {
+    "badge": "INDUSTRIES",
+    "title": "Governed Industries.",
+    "subtitle": "Industry is variable. Governance is constant.",
+    "description": "CANONIC maps regulated and operational domains into one governed taxonomy. Services compose primitives against industry constraints without changing the language.",
+    "cta": [
+      {
+        "label": "Try TALK",
+        "href": "#",
+        "talk": true
+      },
+      {
+        "label": "View Strata",
+        "href": "#strata"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "axiom-lead",
+      "quote": {
+        "bold": "INDUSTRY is the variable.",
+        "rest": "SERVICE = PRIMITIVE(s) + INDUSTRY."
+      }
+    },
+    {
+      "id": "overview",
+      "eyebrow": "THESIS",
+      "title": "One Taxonomy. Many Domains.",
+      "description": "INDUSTRIES organizes governed domains into strata so every service can compose INTEL + CHAT + COIN against a stable governance language.",
+      "cards": [
+        {
+          "class": "card",
+          "title": "Stable Language",
+          "text": "The primitives and governance checks stay fixed while industry constraints vary by scope."
+        },
+        {
+          "class": "card",
+          "title": "Composable Services",
+          "text": "Service behavior is derived from scope + standards, not ad-hoc vertical rewrites."
+        },
+        {
+          "class": "card",
+          "title": "Deterministic Governance",
+          "text": "Every domain links back to governed CANON artifacts for traceable constraints."
+        }
+      ]
+    },
+    {
+      "id": "strata",
+      "eyebrow": "STRATA",
+      "title": "4 Governed Strata",
+      "description": "14 VERTICALS, 4 REGULATORY, 2 HORIZONTAL, 1 META.",
+      "cards": [
+        {
+          "class": "sector",
+          "icon": "\ud83c\udfed",
+          "iconClass": "sector-icon",
+          "title": "VERTICALS",
+          "subtitle": "14 governed domains"
+        },
+        {
+          "class": "sector",
+          "icon": "\u2696\ufe0f",
+          "iconClass": "sector-icon",
+          "title": "REGULATORY",
+          "subtitle": "4 governed domains"
+        },
+        {
+          "class": "sector",
+          "icon": "\ud83d\udee1\ufe0f",
+          "iconClass": "sector-icon",
+          "title": "HORIZONTAL",
+          "subtitle": "2 governed domains"
+        },
+        {
+          "class": "sector",
+          "icon": "\ud83e\udde0",
+          "iconClass": "sector-icon",
+          "title": "META",
+          "subtitle": "1 governed domain"
+        }
+      ],
+      "columns": "repeat(4, minmax(180px, 1fr))",
+      "gap": "16px"
+    },
+    {
+      "id": "verticals",
+      "eyebrow": "VERTICALS",
+      "title": "14 Vertical Domains",
+      "cards": [
+        {
+          "class": "sector",
+          "icon": "\ud83c\udfe5",
+          "iconClass": "sector-icon",
+          "title": "Medicine",
+          "subtitle": "Clinical governance"
+        },
+        {
+          "class": "sector",
+          "icon": "\ud83d\udcb0",
+          "iconClass": "sector-icon",
+          "title": "Finance",
+          "subtitle": "Economic governance"
+        },
+        {
+          "class": "sector",
+          "icon": "\ud83d\udef0\ufe0f",
+          "iconClass": "sector-icon",
+          "title": "Aerospace",
+          "subtitle": "Mission governance"
+        },
+        {
+          "class": "sector",
+          "icon": "\ud83e\udd16",
+          "iconClass": "sector-icon",
+          "title": "Robotics",
+          "subtitle": "Action governance"
+        }
+      ],
+      "columns": "repeat(4, minmax(180px, 1fr))",
+      "gap": "16px",
+      "generated": {
+        "depth": 2,
+        "source": "canonic-canonic/INDUSTRIES/VERTICALS",
+        "children": [
+          {
+            "id": "aerospace",
+            "label": "AEROSPACE"
+          },
+          {
+            "id": "agriculture",
+            "label": "AGRICULTURE"
+          },
+          {
+            "id": "automotive",
+            "label": "AUTOMOTIVE"
+          },
+          {
+            "id": "defense",
+            "label": "DEFENSE"
+          },
+          {
+            "id": "education",
+            "label": "EDUCATION"
+          },
+          {
+            "id": "energy",
+            "label": "ENERGY"
+          },
+          {
+            "id": "finance",
+            "label": "FINANCE"
+          },
+          {
+            "id": "genomics",
+            "label": "GENOMICS"
+          },
+          {
+            "id": "logistics",
+            "label": "LOGISTICS"
+          },
+          {
+            "id": "manufacturing",
+            "label": "MANUFACTURING"
+          },
+          {
+            "id": "medicine",
+            "label": "MEDICINE"
+          },
+          {
+            "id": "quality",
+            "label": "QUALITY"
+          },
+          {
+            "id": "religion",
+            "label": "RELIGION"
+          },
+          {
+            "id": "robotics",
+            "label": "ROBOTICS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "regulatory",
+      "eyebrow": "REGULATORY",
+      "title": "4 Regulatory Domains",
+      "cards": [
+        {
+          "class": "card",
+          "title": "LAW",
+          "text": "Statutory and legal constraints mapped to governance dimensions."
+        },
+        {
+          "class": "card",
+          "title": "DATA",
+          "text": "Data governance and privacy compliance surfaces."
+        },
+        {
+          "class": "card",
+          "title": "GOVERNMENT",
+          "text": "Public-sector policy and operational constraints."
+        },
+        {
+          "class": "card",
+          "title": "BLOCKCHAIN",
+          "text": "On-chain governance and distributed compliance models."
+        }
+      ],
+      "columns": "repeat(2, minmax(260px, 1fr))",
+      "generated": {
+        "depth": 2,
+        "source": "canonic-canonic/INDUSTRIES/REGULATORY",
+        "children": [
+          {
+            "id": "blockchain",
+            "label": "BLOCKCHAIN"
+          },
+          {
+            "id": "data",
+            "label": "DATA"
+          },
+          {
+            "id": "government",
+            "label": "GOVERNMENT"
+          },
+          {
+            "id": "law",
+            "label": "LAW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "horizontal",
+      "eyebrow": "HORIZONTAL",
+      "title": "Cross-Cutting Domains",
+      "cards": [
+        {
+          "class": "card",
+          "title": "SAFETY",
+          "text": "Operational safety constraints across all vertical deployments."
+        },
+        {
+          "class": "card",
+          "title": "SECURITY",
+          "text": "Security posture constraints across all services and runtimes."
+        }
+      ],
+      "columns": "repeat(2, minmax(260px, 1fr))",
+      "generated": {
+        "depth": 2,
+        "source": "canonic-canonic/INDUSTRIES/HORIZONTAL",
+        "children": [
+          {
+            "id": "safety",
+            "label": "SAFETY"
+          },
+          {
+            "id": "security",
+            "label": "SECURITY"
+          }
+        ]
+      }
+    },
+    {
+      "id": "meta",
+      "eyebrow": "META",
+      "title": "Self-Referential Governance",
+      "feature": {
+        "eyebrow": "LEARNING",
+        "title": "Governance that updates from governed evidence.",
+        "text": "META captures how INDUSTRIES evolves without breaking the language contract.",
+        "tags": [
+          "INTEL",
+          "CHAT",
+          "COIN"
+        ]
+      },
+      "generated": {
+        "depth": 2,
+        "source": "canonic-canonic/INDUSTRIES/META",
+        "children": []
+      }
+    }
+  ],
+  "cta": {
+    "title": "Explore <span style=\"color:var(--accent)\">the Fleet</span>",
+    "description": "Open Foundation for language, MAGIC for operations, and Hadley Lab for live service proof.",
+    "buttons": [
+      {
+        "label": "Open Foundation",
+        "href": "https://canonic-foundation.github.io"
+      },
+      {
+        "label": "Open MAGIC",
+        "href": "https://canonic-magic.github.io"
+      },
+      {
+        "label": "Open Hadley Lab",
+        "href": "https://hadleylab-dexter.github.io"
+      }
+    ]
+  },
+  "footerTagline": "CANONIC Industries | Governed Taxonomy"
+}
