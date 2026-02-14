@@ -210,7 +210,8 @@
             "id": "robotics",
             "label": "ROBOTICS"
           }
-        ]
+        ],
+        "narrative": "INDUSTRIES expresses VERTICALS through 14 governed child scopes: AEROSPACE, AGRICULTURE, AUTOMOTIVE, DEFENSE, EDUCATION, ENERGY, +8 more. Source: canonic-canonic/INDUSTRIES/VERTICALS."
       }
     },
     {
@@ -260,7 +261,8 @@
             "id": "law",
             "label": "LAW"
           }
-        ]
+        ],
+        "narrative": "INDUSTRIES expresses REGULATORY through 4 governed child scopes: BLOCKCHAIN, DATA, GOVERNMENT, LAW. Source: canonic-canonic/INDUSTRIES/REGULATORY."
       }
     },
     {
@@ -292,7 +294,8 @@
             "id": "security",
             "label": "SECURITY"
           }
-        ]
+        ],
+        "narrative": "INDUSTRIES expresses HORIZONTAL through 2 governed child scopes: SAFETY, SECURITY. Source: canonic-canonic/INDUSTRIES/HORIZONTAL."
       }
     },
     {
@@ -312,7 +315,8 @@
       "generated": {
         "depth": 2,
         "source": "canonic-canonic/INDUSTRIES/META",
-        "children": []
+        "children": [],
+        "narrative": "INDUSTRIES governs META through canonic-canonic/INDUSTRIES/META. Depth 2 is ready for governed expansion."
       }
     }
   ],
