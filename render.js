@@ -27,6 +27,19 @@ var RENDER = (function () {
         return res.json();
     }
 
+    async function loadJSONFallback(primaryPath, fallbackPath) {
+        try {
+            return await loadJSON(primaryPath);
+        } catch (e) {
+            // Only fall back on "missing" (404). Preserve other failures (parse, 500, etc).
+            var msg = String((e && e.message) ? e.message : e);
+            if (fallbackPath && msg.indexOf(' 404') !== -1) {
+                return await loadJSON(fallbackPath);
+            }
+            throw e;
+        }
+    }
+
     function fmtNum(n) {
         var x = Number(n);
         if (!isFinite(x)) return String(n || '0');
@@ -126,7 +139,7 @@ var RENDER = (function () {
         bar.innerHTML = html;
     }
 
-    // ── NAV (SECONDARY AXIOMS) ──────────────────────────
+    // ── NAV (GOV-DERIVED) ──────────────────────────
     function labelFromId(id) {
         return String(id || '')
             .replace(/[-_]/g, ' ')
@@ -134,20 +147,50 @@ var RENDER = (function () {
     }
 
     function deriveSecondaryNav(contentData, canonData) {
+        var scope = String((canonData && canonData.scope) ? canonData.scope : '').toUpperCase();
         var items = [];
-        (contentData.sections || []).forEach(function (sec) {
-            if (!sec || !sec.id || !sec.generated) return;
-            items.push({
-                label: sec.title || labelFromId(sec.id),
-                href: '#' + sec.id,
-                type: 'axiom'
-            });
-        });
+        var sections = contentData.sections || [];
 
-        if ((canonData.scope || '').toUpperCase() === 'HADLEYLAB' && contentData.fleet && contentData.fleet.extra) {
-            contentData.fleet.extra.forEach(function (app) {
-                if (!app || !app.label || !app.href) return;
-                items.push({ label: app.label, href: app.href, type: 'flagship' });
+        // HADLEYLAB: show first GOV level with plural axioms; otherwise descend one level.
+        // Axioms are represented by sections that have generated.children (gov-derived children list).
+        if (scope === 'HADLEYLAB') {
+            var axiomSections = [];
+            sections.forEach(function (sec) {
+                var g = sec && sec.generated ? sec.generated : null;
+                if (!sec || !sec.id || !g || !g.children || !g.children.length) return;
+                axiomSections.push(sec);
+            });
+
+            if (axiomSections.length > 1) {
+                axiomSections.forEach(function (sec) {
+                    items.push({
+                        label: (sec.title || labelFromId(sec.id)).toUpperCase(),
+                        href: '#' + sec.id,
+                        type: 'gov'
+                    });
+                });
+            } else if (axiomSections.length === 1) {
+                (axiomSections[0].generated.children || []).forEach(function (c) {
+                    var lbl = String((c && c.label) ? c.label : '').toUpperCase();
+                    if (!lbl) return;
+                    items.push({
+                        label: lbl,
+                        href: '/' + lbl + '/',
+                        type: 'gov'
+                    });
+                });
+            }
+        }
+
+        // Default: use generated sections as in-page anchors.
+        if (!items.length) {
+            sections.forEach(function (sec) {
+                if (!sec || !sec.id || !sec.generated) return;
+                items.push({
+                    label: sec.title || labelFromId(sec.id),
+                    href: '#' + sec.id,
+                    type: 'section'
+                });
             });
         }
 
@@ -171,9 +214,16 @@ var RENDER = (function () {
 
         var html = '<div class="nav-inner">';
         html += '<div style="display:flex;align-items:center;gap:10px;">';
-        if (scopeIcon) html += '<span style="font-size:18px;color:var(--accent);line-height:1;">' + scopeIcon + '</span>';
+        if (scopeIcon) {
+            var iconStyle = 'font-size:18px;color:var(--accent);line-height:1;';
+            // HadleyLab mark: rotate ☲ 90° to form the inverse-H monogram.
+            if (String(scopeName || '').toUpperCase() === 'HADLEYLAB' && String(scopeIcon) === '\u2632') {
+                iconStyle += 'display:inline-block;transform:rotate(90deg);transform-origin:50% 50%;';
+            }
+            html += '<span style="' + iconStyle + '">' + scopeIcon + '</span>';
+        }
         html += '<span style="font-family:var(--mono);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--dim);">' +
-            String(scopeName || 'SCOPE').toUpperCase() + ' · AXIOMS</span>';
+            String(scopeName || 'SCOPE').toUpperCase() + '</span>';
         html += '</div>';
 
         html += '<ul class="nav-links">';
@@ -808,8 +858,8 @@ var RENDER = (function () {
     async function init() {
         try {
             var results = await Promise.all([
-                loadJSON('./CANON.json'),
-                loadJSON('./CONTENT.json')
+                loadJSONFallback('./CANON.json', '/CANON.json'),
+                loadJSONFallback('./CONTENT.json', '/CONTENT.json')
             ]);
             canon = results[0];
             content = results[1];
