@@ -1,27 +1,27 @@
 {
-  "schema": "canonic:econ.public.v1",
+  "canon": "ECON.v1",
   "work_equals_coin": true,
-  "generated_at": "2026-02-15T22:04:12.621844Z",
+  "generated_at": "2026-02-15T23:44:42.949341Z",
   "ledger": {
-    "head": "53eaa3825dd5691b1adcb50bd588a391aaa98279ac4e55713c2266665bf8ff14",
-    "entries": 250,
-    "total": 50454,
+    "head": "743faa98f381e3a513346f38cbc49d86bc52f34945901e74a385c2573d2b91ee",
+    "entries": 267,
+    "total": 54789,
     "by_key": [
       {
         "k": "hadleylab-dexter.github.io",
-        "v": 15210
+        "v": 15975
       },
       {
         "k": ".canonic",
-        "v": 8876
-      },
-      {
-        "k": "MAGIC",
-        "v": 5226
+        "v": 9896
       },
       {
         "k": "canonic-magic.github.io",
-        "v": 4719
+        "v": 5739
+      },
+      {
+        "k": "MAGIC",
+        "v": 5736
       },
       {
         "k": "DEXTER",
@@ -29,11 +29,11 @@
       },
       {
         "k": "canonic-foundation.github.io",
-        "v": 2424
+        "v": 3189
       },
       {
         "k": "Canonic",
-        "v": 2040
+        "v": 2295
       },
       {
         "k": "SHOP",
