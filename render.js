@@ -139,6 +139,44 @@ var RENDER = (function () {
         bar.innerHTML = html;
     }
 
+    // ── HEADER OFFSETS (FIXED BARS MUST NOT BLOCK CONTENT) ──────────
+    // The nav can grow taller when secondary items overflow. Measure actual
+    // eco-bar + nav heights and publish them as CSS vars used throughout
+    // DESIGN.css (hero padding, scroll-margin-top, etc).
+    var _headerSyncBound = false;
+    function syncHeaderOffsets() {
+        var eco = document.getElementById('ecoBar');
+        var nav = document.getElementById('nav');
+        if (!eco && !nav) return;
+
+        var ecoH = eco ? Math.round(eco.getBoundingClientRect().height) : 0;
+        var navH = nav ? Math.round(nav.getBoundingClientRect().height) : 0;
+
+        // Fallback to configured vars if DOM is not measurable yet.
+        if (!ecoH || !navH) {
+            try {
+                var cs = getComputedStyle(document.documentElement);
+                if (!ecoH) ecoH = parseInt(cs.getPropertyValue('--eco-h'), 10) || 0;
+                if (!navH) navH = parseInt(cs.getPropertyValue('--nav-h'), 10) || 0;
+            } catch (e) {}
+        }
+
+        var total = ecoH + navH;
+        if (ecoH) document.documentElement.style.setProperty('--eco-h', ecoH + 'px');
+        if (navH) document.documentElement.style.setProperty('--nav-h', navH + 'px');
+        if (total) document.documentElement.style.setProperty('--header-offset', total + 'px');
+    }
+
+    function bindHeaderOffsetSync() {
+        if (_headerSyncBound) return;
+        _headerSyncBound = true;
+        var t = null;
+        window.addEventListener('resize', function () {
+            if (t) clearTimeout(t);
+            t = setTimeout(function () { syncHeaderOffsets(); }, 60);
+        });
+    }
+
     // ── NAV (GOV-DERIVED) ──────────────────────────
     function labelFromId(id) {
         return String(id || '')
@@ -883,6 +921,11 @@ var RENDER = (function () {
         if (content.fleet) renderEcoBar(content.fleet, canon.scope);
         var secondaryNav = deriveSecondaryNav(content, canon);
         renderNav(canon.scope || canon.name, canon.navIcon, secondaryNav);
+        bindHeaderOffsetSync();
+        // Compute offsets after nav is in DOM; re-run after layout settles.
+        syncHeaderOffsets();
+        setTimeout(syncHeaderOffsets, 0);
+        if (typeof requestAnimationFrame !== 'undefined') requestAnimationFrame(syncHeaderOffsets);
         if (content.hero) renderHero(content.hero);
         if (content.stats) renderStats(content.stats);
         if (content.sections) renderSections(content.sections);
@@ -891,7 +934,7 @@ var RENDER = (function () {
         if (content.fleet) renderFooter(content.fleet, content.footer, content.footerTagline);
         if (window.location.hash) {
             var t = document.querySelector(window.location.hash);
-            if (t) setTimeout(function () { t.scrollIntoView({ block: 'start' }); }, 0);
+            if (t) setTimeout(function () { syncHeaderOffsets(); t.scrollIntoView({ block: 'start' }); }, 0);
         }
     }
 
