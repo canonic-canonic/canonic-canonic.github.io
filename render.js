@@ -27,6 +27,74 @@ var RENDER = (function () {
         return res.json();
     }
 
+    function fmtNum(n) {
+        var x = Number(n);
+        if (!isFinite(x)) return String(n || '0');
+        try { return x.toLocaleString(); } catch (_) { return String(x); }
+    }
+
+    function shortHash(h) {
+        h = String(h || '');
+        if (h.length <= 16) return h;
+        return h.slice(0, 12) + '...' + h.slice(-4);
+    }
+
+    function renderEconPanel(containerId, spec) {
+        var el = document.getElementById(containerId);
+        if (!el) return;
+
+        var title = (spec && spec.title) ? spec.title : 'Economic View';
+        var src = (spec && spec.src) ? spec.src : './econ.json';
+
+        el.innerHTML =
+            '<div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--fg-tertiary);">Econ · Public</div>' +
+            '<div style="font-size:18px;font-weight:800;margin-top:6px;">' + title + '</div>' +
+            '<div class="muted" style="margin-top:10px;">Loading ' + src + '...</div>';
+
+        loadJSON(src).then(function (data) {
+            var ledger = (data && data.ledger) ? data.ledger : {};
+            var byKey = ledger.by_key || [];
+            var updated = data.generated_at || '';
+            var head = ledger.head || '';
+
+            var html = '';
+            html += '<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex-wrap:wrap;">';
+            html += '<div>';
+            html += '<div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--fg-tertiary);">WORK = COIN</div>';
+            html += '<div style="font-size:18px;font-weight:800;margin-top:6px;">' + title + '</div>';
+            html += '<div class="muted" style="margin-top:8px;font-size:12px;">Derived from private VAULT chain. No private actors published.</div>';
+            html += '</div>';
+            html += '<div style="font-family:var(--mono);font-size:11px;color:var(--fg-tertiary);text-align:right;min-width:220px;">';
+            if (updated) html += '<div>updated: ' + updated + '</div>';
+            if (head) html += '<div>head: ' + shortHash(head) + '</div>';
+            html += '</div>';
+            html += '</div>';
+
+            html += '<div class="stats" style="margin-top:14px;">';
+            html += '<div class="stat"><div class="stat-value">' + fmtNum(ledger.entries || 0) + '</div><div class="stat-label">entries</div></div>';
+            html += '<div class="stat"><div class="stat-value">' + fmtNum(ledger.total || 0) + '</div><div class="stat-label">total COIN</div></div>';
+            html += '</div>';
+
+            if (byKey && byKey.length) {
+                html += '<table class="comp-table" style="margin-top:16px;">';
+                html += '<thead><tr><th>scope</th><th style="text-align:right;">coin</th></tr></thead><tbody>';
+                byKey.forEach(function (row) {
+                    if (!row || !row.k) return;
+                    html += '<tr><td style="font-family:var(--mono);font-size:12px;">' + row.k + '</td><td style="text-align:right;font-family:var(--mono);">' + fmtNum(row.v || 0) + '</td></tr>';
+                });
+                html += '</tbody></table>';
+            } else {
+                html += '<div class="muted" style="margin-top:14px;">No minted work yet.</div>';
+            }
+
+            el.innerHTML = html;
+        }).catch(function () {
+            el.innerHTML =
+                '<div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--fg-tertiary);">Econ · Public</div>' +
+                '<div style="margin-top:10px;font-family:var(--mono);font-size:12px;color:var(--fg-tertiary);">missing: ' + src + '</div>';
+        });
+    }
+
     // ── ACCENT ────────────────────────────────────────────
     function applyAccent(accent) {
         if (!accent) return;
@@ -288,6 +356,13 @@ var RENDER = (function () {
             if (sec.title) html += '<h2 class="section-title text-center">' + sec.title + '</h2>';
             if (sec.description) html += '<p class="description">' + sec.description + '</p>';
 
+            // Econ panel (public-safe JSON: e.g. ./econ.json)
+            var econId = null;
+            if (sec.econ) {
+                econId = 'econ-' + sec.id;
+                html += '<div id="' + econId + '" class="card" style="margin-top:22px;padding:18px;"></div>';
+            }
+
             // Cards grid
             if (sec.cards && sec.cards.length) {
                 html += renderCards(sec);
@@ -423,6 +498,10 @@ var RENDER = (function () {
 
             if (sec.wrapClass) html += '</div>';
             el.innerHTML = html;
+
+            if (sec.econ && econId) {
+                renderEconPanel(econId, sec.econ);
+            }
         });
     }
 
