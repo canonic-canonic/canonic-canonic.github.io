@@ -118,15 +118,66 @@ const TALK = {
         }
     },
 
-    // ── Load CANON.json — REQUIRED governance source ────────────────
-    async loadCanon() {
-        try {
-            var res = await fetch('./CANON.json');
-            if (!res.ok) throw new Error('CANON.json ' + res.status);
-            var canon = await res.json();
+	    // ── Load CANON.json — REQUIRED governance source ────────────────
+	    async loadCanon() {
+	        try {
+	            // Optional inheritance chain. Governed and explicit: no hardcoded defaults.
+	            // Child scopes may add but should not weaken (min/max principle).
+	            const MAX_INHERIT_DEPTH = 6;
 
-            // MUST have systemPrompt
-            if (!canon.systemPrompt) throw new Error('CANON.json missing systemPrompt');
+	            const validateInheritsPath = (p) => {
+	                if (!p || typeof p !== 'string') throw new Error('CANON.json inherits must be a string');
+	                if (p.indexOf('://') !== -1) throw new Error('CANON.json inherits must be relative (no scheme)');
+	                if (p[0] === '/') throw new Error('CANON.json inherits must be relative (no absolute path)');
+	                return p;
+	            };
+
+	            const mergeCanon = (parent, child) => {
+	                parent = parent || {};
+	                child = child || {};
+	                var out = {};
+	                for (var k in parent) out[k] = parent[k];
+	                for (var k2 in child) {
+	                    var pv = parent[k2];
+	                    var cv = child[k2];
+	                    // Min/max: booleans are monotonic (parent=true cannot be disabled downstream).
+	                    if (typeof pv === 'boolean' && typeof cv === 'boolean') out[k2] = (pv || cv);
+	                    else out[k2] = cv;
+	                }
+	                return out;
+	            };
+
+	            const loadCanonFile = async (path) => {
+	                var res = await fetch(path);
+	                if (!res.ok) throw new Error(path + ' ' + res.status);
+	                return await res.json();
+	            };
+
+	            const loadCanonRec = async (path, depth, seen) => {
+	                depth = depth || 0;
+	                seen = seen || {};
+	                if (depth > MAX_INHERIT_DEPTH) throw new Error('CANON.json inherits too deep');
+	                if (seen[path]) throw new Error('CANON.json inherits cycle');
+	                seen[path] = true;
+
+	                var child = await loadCanonFile(path);
+	                var inherits = child && child.inherits;
+	                if (!inherits) return child;
+
+	                var list = Array.isArray(inherits) ? inherits : [inherits];
+	                var merged = {};
+	                for (var i = 0; i < list.length; i++) {
+	                    var p = validateInheritsPath(list[i]);
+	                    var parent = await loadCanonRec(p, depth + 1, seen);
+	                    merged = mergeCanon(merged, parent);
+	                }
+	                return mergeCanon(merged, child);
+	            };
+
+	            var canon = await loadCanonRec('./CANON.json');
+
+	            // MUST have systemPrompt
+	            if (!canon.systemPrompt) throw new Error('CANON.json missing systemPrompt');
 
             this.canon = canon;
             this.system = canon.systemPrompt;

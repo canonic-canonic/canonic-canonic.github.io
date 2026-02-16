@@ -42,6 +42,66 @@ var RENDER = (function () {
         return res.json();
     }
 
+    // Governed inheritance chain for JSON artifacts (CANON.json / CONTENT.json).
+    // Child scopes may add but should not weaken feature gates (min/max principle).
+    async function loadGovernedJSON(path, opts) {
+        opts = opts || {};
+        var maxDepth = (typeof opts.maxDepth === 'number') ? opts.maxDepth : 6;
+
+        function isPlainObject(x) {
+            return !!x && typeof x === 'object' && !Array.isArray(x);
+        }
+
+        function validateInheritsPath(p) {
+            if (!p || typeof p !== 'string') throw new Error(path + ' inherits must be a string');
+            if (p.indexOf('://') !== -1) throw new Error(path + ' inherits must be relative (no scheme)');
+            if (p[0] === '/') throw new Error(path + ' inherits must be relative (no absolute path)');
+            return p;
+        }
+
+        function deepMerge(parent, child) {
+            parent = parent || {};
+            child = child || {};
+
+            var out = {};
+            for (var k in parent) out[k] = parent[k];
+            for (var k2 in child) {
+                var pv = parent[k2];
+                var cv = child[k2];
+                // Min/max: booleans are monotonic (parent=true cannot be disabled downstream).
+                if (typeof pv === 'boolean' && typeof cv === 'boolean') out[k2] = (pv || cv);
+                else if (isPlainObject(pv) && isPlainObject(cv)) out[k2] = deepMerge(pv, cv);
+                else out[k2] = cv; // arrays + scalars override
+            }
+
+            return out;
+        }
+
+        async function loadRec(p, depth, seen) {
+            depth = depth || 0;
+            seen = seen || {};
+            if (depth > maxDepth) throw new Error(path + ' inherits too deep');
+            if (seen[p]) throw new Error(path + ' inherits cycle');
+            seen[p] = true;
+
+            var cur = await loadJSON(p);
+            var inherits = cur && cur.inherits;
+            if (!inherits) return cur;
+
+            var list = Array.isArray(inherits) ? inherits : [inherits];
+            var merged = {};
+            for (var i = 0; i < list.length; i++) {
+                var parentPath = validateInheritsPath(list[i]);
+                var parentObj = await loadRec(parentPath, depth + 1, seen);
+                merged = deepMerge(merged, parentObj);
+            }
+
+            return deepMerge(merged, cur);
+        }
+
+        return loadRec(path);
+    }
+
     function fmtNum(n) {
         var x = Number(n);
         if (!isFinite(x)) return String(n || '0');
@@ -1062,8 +1122,8 @@ var RENDER = (function () {
         var results;
         try {
             results = await Promise.all([
-                loadJSON('./CANON.json'),
-                loadJSON('./CONTENT.json')
+                loadGovernedJSON('./CANON.json'),
+                loadGovernedJSON('./CONTENT.json')
             ]);
         } catch (e) {
             fatal((e && e.message) ? e.message : e);
