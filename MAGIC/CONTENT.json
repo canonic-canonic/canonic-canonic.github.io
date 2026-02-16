@@ -1,0 +1,689 @@
+{
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "magic://canonic-canonic/FOUNDATION"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "magic://canonic-canonic/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "magic://canonic-canonic/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "magic://canonic-canonic/MAGIC"
+      },
+      {
+        "scope": "HADLEYLAB",
+        "label": "Hadley Lab",
+        "url": "https://hadleylab-canonic.github.io/DEXTER/"
+      }
+    ]
+  },
+  "nav": [
+    {
+      "label": "Galaxy",
+      "href": "#galaxy"
+    },
+    {
+      "label": "Primitives",
+      "href": "#primitives"
+    },
+    {
+      "label": "Services",
+      "href": "#compositions"
+    },
+    {
+      "label": "Pricing",
+      "href": "#compliance"
+    }
+  ],
+  "hero": {
+    "badge": "BY CANON",
+    "title": "Operate governed <span class=\"accent\">work</span>.",
+    "description": "MAGIC is the operational layer of CANONIC. It turns governance into shipping software: primitives, services, pricing, and a marketplace. Start free. Upgrade when you need private workspaces, commercial terms, or enterprise validation.",
+    "cta": [
+      {
+        "label": "Try TALK",
+        "href": "#",
+        "class": "btn-green",
+        "talk": true
+      },
+      {
+        "label": "See Pricing",
+        "href": "#compliance",
+        "class": "btn-secondary"
+      },
+      {
+        "label": "See Live Proof",
+        "href": "https://hadleylab-dexter.github.io",
+        "class": "btn-secondary"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "axiom-lead",
+      "quote": {
+        "bold": "Work is the product. Validation is the engine.",
+        "rest": "MAGIC is how a governed ecosystem scales without losing trust."
+      }
+    },
+    {
+      "id": "axiom-block",
+      "cards": [
+        {
+          "class": "axiom-block",
+          "title": "Coin = Work",
+          "text": "In the CANONIC economy, every coin is backed by validated work. Not speculation. Not sentiment. Work. You contribute, the system validates, you earn. Value flows from what you build, not what you trade.",
+          "flow": [
+            "Work",
+            "Validate",
+            "Coin",
+            "Distribute",
+            "Commerce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thesis-lead",
+      "quote": {
+        "bold": "Distributed work is the product.",
+        "rest": "Every organization contributes. Every contribution is validated. Every validation earns. The galaxy grows one unit of work at a time."
+      }
+    },
+    {
+      "id": "galaxy",
+      "title": "The Galaxy",
+      "eyebrow": "THE PROOF",
+      "description": "Every node is a governed project. Every edge is an inheritance chain. Every color is a category. 21+ organizations. 250+ projects. 80+ compliance standards. This is what governed work looks like.",
+      "galaxy": {
+        "height": "70vh",
+        "hud": true,
+        "search": true,
+        "dock": true
+      },
+      "generated": {
+        "depth": 2,
+        "source": "canonic-canonic/MAGIC/GALAXY",
+        "children": [
+          {
+            "id": "orgs",
+            "label": "ORGS"
+          },
+          {
+            "id": "users",
+            "label": "USERS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "galaxy-stats",
+      "wrapClass": "galaxy",
+      "galaxyStats": [
+        {
+          "value": "21+",
+          "label": "Organizations"
+        },
+        {
+          "value": "250+",
+          "label": "Projects"
+        },
+        {
+          "value": "80+",
+          "label": "Standards"
+        },
+        {
+          "value": "21",
+          "label": "Domains"
+        }
+      ],
+      "cta": {
+        "label": "Full Screen Galaxy →",
+        "href": "./MAGIC.html"
+      }
+    },
+    {
+      "id": "primitives",
+      "title": "Three Primitives. One Standard.",
+      "eyebrow": "THE REASON",
+      "description": "Every node you just saw composes from three building blocks. Together they form an autonomous agent. This is the entire system.",
+      "cards": [
+        {
+          "class": "primitive-card",
+          "icon": "🧠",
+          "iconGradient": [
+            "#bf5af2",
+            "#a78bfa"
+          ],
+          "title": "INTEL",
+          "titleColor": "#bf5af2",
+          "subtitle": "What you KNOW",
+          "text": "The intelligence layer. It reads, validates, and learns. Galaxy compliance, ledger integrity, transcript chains, people graphs — six agents. One orchestrator. Every service starts with knowledge.",
+          "badge": {
+            "label": "Knowledge",
+            "color": "#bf5af2"
+          },
+          "statusBadge": "LIVE"
+        },
+        {
+          "class": "primitive-card",
+          "icon": "💬",
+          "iconGradient": [
+            "#ec4899",
+            "#f472b6"
+          ],
+          "title": "CHAT",
+          "titleColor": "#ec4899",
+          "subtitle": "What you SAY",
+          "text": "Domain-specific interfaces grounded in evidence. Healthcare, legal, finance — each speaks its own language. TALK is the service. Industry is the only variable. Same architecture, different vocabulary.",
+          "badge": {
+            "label": "Services",
+            "color": "#ec4899"
+          },
+          "cta": {
+            "label": "Try TALK",
+            "href": "#",
+            "class": "btn-pink",
+            "talk": true
+          }
+        },
+        {
+          "class": "primitive-card",
+          "icon": "💰",
+          "iconGradient": [
+            "#ff9f0a",
+            "#fbbf24"
+          ],
+          "title": "COIN",
+          "titleColor": "#ff9f0a",
+          "subtitle": "What you DO",
+          "text": "The value layer. Every unit of work is validated and compensated. Coin equals work. No speculation. Contribute compute. Crowdsource knowledge. Build together. Get paid for real work.",
+          "badge": {
+            "label": "Commerce",
+            "color": "#ff9f0a"
+          },
+          "cta": {
+            "label": "View Plans",
+            "href": "#compliance",
+            "class": "btn-gold"
+          }
+        }
+      ],
+      "banner": {
+        "eyebrow": "CANONIC GOVERNANCE",
+        "title": "255 = Full Compliance = MAGIC",
+        "text": "Eight compliance checks. Score 0–255. When all pass, your project reaches full compliance. That’s MAGIC.",
+        "badges": [
+          {
+            "label": "INTEL",
+            "color": "#bf5af2"
+          },
+          {
+            "label": "CHAT",
+            "color": "#ec4899"
+          },
+          {
+            "label": "COIN",
+            "color": "#ff9f0a"
+          }
+        ]
+      },
+      "generated": {
+        "depth": 2,
+        "source": "canonic-canonic/MAGIC",
+        "children": [
+          {
+            "id": "gtm",
+            "label": "GTM"
+          },
+          {
+            "id": "market",
+            "label": "MARKET"
+          },
+          {
+            "id": "orgs",
+            "label": "ORGS"
+          },
+          {
+            "id": "sales",
+            "label": "SALES"
+          },
+          {
+            "id": "toolchain",
+            "label": "TOOLCHAIN"
+          },
+          {
+            "id": "users",
+            "label": "USERS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "compositions",
+      "title": "Services Compose Primitives",
+      "eyebrow": "HOW SERVICES WORK",
+      "description": "Three primitives compose into products. Here is the simple translation: INTEL is what you know (validated knowledge), CHAT is how you deliver it (interfaces), and COIN is how you account for it (work-backed value).",
+      "table": {
+        "headers": [
+          "Service",
+          "Built From",
+          "What It Does"
+        ],
+        "cellClasses": [
+          null,
+          "formula",
+          "desc"
+        ],
+        "rows": [
+          [
+            "💬 TALK",
+            "CHAT + INTEL",
+            "A governed assistant that explains itself and cites its sources"
+          ],
+          [
+            "🔒 VAULT",
+            "COIN + INTEL",
+            "Private storage and policy: keep secrets secret, publish only what is safe"
+          ],
+          [
+            "🛒 SHOP",
+            "COIN + INTEL + CHAT",
+            "Sell governed artifacts with clear terms and a consistent interface"
+          ],
+          [
+            "🤖 AGENT",
+            "INTEL + CHAT + COIN",
+            "Autonomous systems that act inside governed boundaries"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "how",
+      "title": "Zero to Governed",
+      "eyebrow": "HOW TO JOIN",
+      "description": "Four steps. Zero to governed commerce. No consultants required.",
+      "cards": [
+        {
+          "class": "primitive-card",
+          "icon": "🏢",
+          "iconGradient": [
+            "#00ff88",
+            "#2997ff"
+          ],
+          "title": "Join",
+          "titleColor": "#00ff88",
+          "subtitle": "Bring your org",
+          "text": "MAGIC maps every project, every team, every asset into one governed workspace. Discovery is automatic."
+        },
+        {
+          "class": "primitive-card",
+          "icon": "🧭",
+          "iconGradient": [
+            "#bf5af2",
+            "#a78bfa"
+          ],
+          "title": "Validate",
+          "titleColor": "#bf5af2",
+          "subtitle": "8 dimensions",
+          "text": "Eight questions. Eighty standards. MAGIC scores your work against real compliance frameworks — automatically."
+        },
+        {
+          "class": "primitive-card",
+          "icon": "🎯",
+          "iconGradient": [
+            "#2997ff",
+            "#60a5fa"
+          ],
+          "title": "Comply",
+          "titleColor": "#2997ff",
+          "subtitle": "Earn your tier",
+          "text": "Your compliance score grows with every contribution. Full compliance unlocks full commerce. The galaxy rewards real work."
+        },
+        {
+          "class": "primitive-card",
+          "icon": "💰",
+          "iconGradient": [
+            "#ff9f0a",
+            "#fbbf24"
+          ],
+          "title": "Earn",
+          "titleColor": "#ff9f0a",
+          "subtitle": "Coin = Work",
+          "text": "Every validated contribution earns. Distribute compute. Crowdsource knowledge. Build together. Get paid."
+        }
+      ]
+    },
+    {
+      "id": "surface",
+      "title": "Surface",
+      "eyebrow": "PLATFORM",
+      "description": "The platform lane: toolchain + surfaces. Governed inputs. Deterministic outputs.",
+      "generated": {
+        "depth": 2,
+        "source": "canonic-canonic/MAGIC/SURFACE",
+        "children": [
+          {
+            "id": "android",
+            "label": "ANDROID"
+          },
+          {
+            "id": "apple",
+            "label": "APPLE"
+          },
+          {
+            "id": "design",
+            "label": "DESIGN"
+          },
+          {
+            "id": "services",
+            "label": "SERVICES"
+          },
+          {
+            "id": "toolchain",
+            "label": "TOOLCHAIN"
+          }
+        ]
+      }
+    },
+    {
+      "id": "compliance",
+      "title": "Choose Your Tier",
+      "eyebrow": "PRICING",
+      "description": "Start free. Upgrade for private work, commercial terms, and enterprise validation. Every tier is designed to make buying easier: fewer meetings, more proof.",
+      "tiers": [
+        {
+          "name": "Community",
+          "price": "Free",
+          "sub": "Forever",
+          "features": [
+            "Full platform access",
+            "Learning communities",
+            "Public governance",
+            "Earn through validated work"
+          ],
+          "ctaLabel": "Get Started",
+          "ctaHref": "#",
+          "ctaTalk": true
+        },
+        {
+          "name": "Business",
+          "price": "$100",
+          "sub": "per year",
+          "featured": true,
+          "features": [
+            "Private workspace",
+            "Marketplace listing",
+            "Commercial licensing",
+            "Automated validation",
+            "Clear platform fee"
+          ],
+          "ctaLabel": "Open DEAL",
+          "ctaHref": "https://hadleylab-dexter.github.io/SERVICES/DEAL/"
+        },
+        {
+          "name": "Enterprise",
+          "price": "Contract",
+          "sub": "Tailored governance",
+          "features": [
+            "Dedicated validation",
+            "Custom compliance mapping",
+            "Foundation-aligned certification",
+            "Vendor diligence support"
+          ],
+          "ctaLabel": "Contact",
+          "ctaHref": "https://hadleylab-dexter.github.io/SERVICES/DEAL/"
+        },
+        {
+          "name": "Foundation",
+          "price": "Free",
+          "sub": "Nonprofits",
+          "features": [
+            "Enterprise-grade tools",
+            "Full governance surface",
+            "Open infrastructure",
+            "No cost"
+          ],
+          "ctaLabel": "Apply",
+          "ctaHref": "https://hadleylab-dexter.github.io/SERVICES/DEAL/"
+        }
+      ],
+      "axiom": "Make buying safe. Make shipping fast. Make proof portable.",
+      "generated": {
+        "depth": 2,
+        "source": "canonic-canonic/MAGIC/COMPLIANCE",
+        "children": [
+          {
+            "id": "gtm",
+            "label": "GTM"
+          },
+          {
+            "id": "market",
+            "label": "MARKET"
+          },
+          {
+            "id": "sales",
+            "label": "SALES"
+          }
+        ]
+      },
+      "switcher": {
+        "kicker": "PRICING, EXPLAINED",
+        "ariaLabel": "MAGIC tiers",
+        "tabs": [
+          {
+            "label": "Community",
+            "title": "Learn and build in public.",
+            "text": "Best for individuals and early experiments. You get the system, the language, and the ability to earn through validated work.",
+            "bullets": [
+              "Free platform access",
+              "Learning communities",
+              "Public work by default"
+            ],
+            "cta": {
+              "label": "Get Started",
+              "href": "#",
+              "talk": true,
+              "class": "btn"
+            }
+          },
+          {
+            "label": "Business",
+            "title": "Sell governed services.",
+            "text": "Best for teams who need a private workspace and commercial licensing. This is the tier you buy to ship products.",
+            "bullets": [
+              "Private workspace",
+              "Commercial licensing",
+              "Listed in marketplace"
+            ],
+            "cta": {
+              "label": "Open DEAL",
+              "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/",
+              "class": "btn btn-secondary"
+            }
+          },
+          {
+            "label": "Enterprise",
+            "title": "High assurance for regulated buyers.",
+            "text": "Best for organizations with strict validation requirements. Dedicated support, custom compliance mapping, and predictable governance.",
+            "bullets": [
+              "Dedicated validation",
+              "Custom compliance mapping",
+              "Foundation certification alignment"
+            ],
+            "cta": {
+              "label": "Talk to Sales",
+              "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/",
+              "class": "btn btn-secondary"
+            }
+          },
+          {
+            "label": "Foundation",
+            "title": "Nonprofits get enterprise-grade tools.",
+            "text": "We do this because the architecture makes it possible. Lower friction means more governed public goods.",
+            "bullets": [
+              "Enterprise-grade tools",
+              "Full governance surface",
+              "No cost"
+            ],
+            "cta": {
+              "label": "Apply",
+              "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/",
+              "class": "btn btn-secondary"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "communities",
+      "title": "Learning Communities",
+      "eyebrow": "WHO’S BUILDING",
+      "description": "Communities are how the ecosystem compounds: people learn together, publish governed artifacts, and ship products that buyers can trust.",
+      "cards": [
+        {
+          "class": "primitive-card",
+          "icon": "🧬",
+          "iconGradient": [
+            "#ec4899",
+            "#f472b6"
+          ],
+          "title": "Healthcare",
+          "titleColor": "#ec4899",
+          "subtitle": "Clinical AI",
+          "text": "Radiologists training models. Oncologists validating protocols. Clinicians building the future of medicine — together.",
+          "badge": {
+            "label": "LIVE",
+            "color": "#ec4899"
+          }
+        },
+        {
+          "class": "primitive-card",
+          "icon": "⚡",
+          "iconGradient": [
+            "#ff9f0a",
+            "#fbbf24"
+          ],
+          "title": "Compute",
+          "titleColor": "#ff9f0a",
+          "subtitle": "Tokenized GPU",
+          "text": "Contribute compute. Train models. Run inference. Every GPU cycle is validated work. Every cycle earns.",
+          "badge": {
+            "label": "COMING SOON",
+            "color": "#ff9f0a"
+          }
+        },
+        {
+          "class": "primitive-card",
+          "icon": "📚",
+          "iconGradient": [
+            "#bf5af2",
+            "#a78bfa"
+          ],
+          "title": "Knowledge",
+          "titleColor": "#bf5af2",
+          "subtitle": "Crowdsourced Intelligence",
+          "text": "Experts annotating data. Teams curating knowledge. Communities teaching machines — and each other.",
+          "badge": {
+            "label": "BETA",
+            "color": "#bf5af2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "marketplace",
+      "title": "The Marketplace",
+      "eyebrow": "WHAT’S AVAILABLE",
+      "description": "A single catalog of governed applications. Not “app store vibes” — actual verifiable constraints and clear access terms.",
+      "table": {
+        "headers": [
+          "Category",
+          "Applications",
+          "Access"
+        ],
+        "cellClasses": [
+          null,
+          "desc",
+          "formula"
+        ],
+        "rows": [
+          [
+            "🔧 Platform",
+            "Agent, Knowledge, Evolution",
+            "Free"
+          ],
+          [
+            "💼 Productivity",
+            "Email, Calendar, Social, Analytics",
+            "Business"
+          ],
+          [
+            "🏥 Specialist",
+            "MammoChat, PsychChat, Genomics, InvestorChat",
+            "Enterprise"
+          ],
+          [
+            "🏭 Industries",
+            "Robotics, Automotive, Aerospace, Manufacturing, Energy, Logistics, Agriculture, Education",
+            "Enterprise"
+          ]
+        ]
+      }
+    }
+  ],
+  "cta": {
+    "class": "cta",
+    "title": "Build the Future",
+    "description": "Join the galaxy. Distribute work. Earn through contribution. Three primitives. Infinite services. It’s MAGIC.",
+    "buttons": [
+      {
+        "label": "Start for Free",
+        "href": "#",
+        "talk": true
+      },
+      {
+        "label": "View Plans",
+        "href": "#compliance"
+      },
+      {
+        "label": "Explore Galaxy",
+        "href": "#galaxy"
+      }
+    ]
+  },
+  "footer": {
+    "links": [
+      {
+        "label": "Galaxy",
+        "href": "./MAGIC.html"
+      },
+      {
+        "label": "Foundation",
+        "href": "magic://canonic-canonic/FOUNDATION"
+      },
+      {
+        "label": "Hadley Lab",
+        "href": "https://hadleylab-dexter.github.io"
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/canonic-magic"
+      }
+    ],
+    "tagline": "MAGIC | Distribute Work. Govern Value. | CANONIC"
+  },
+  "footerTagline": "MAGIC | CANONIC operational layer."
+}

@@ -1,0 +1,543 @@
+{
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "magic://canonic-canonic/FOUNDATION"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "magic://canonic-canonic/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "magic://canonic-canonic/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "magic://canonic-canonic/MAGIC"
+      },
+      {
+        "scope": "HADLEYLAB",
+        "label": "Hadley Lab",
+        "url": "https://hadleylab-canonic.github.io/DEXTER/"
+      }
+    ]
+  },
+  "hero": {
+    "badge": "FOUNDATION CERTIFICATION",
+    "title": "Compliance you can <span class=\"accent\">prove</span>.",
+    "subtitle": "Turn audits into automated checks.",
+    "description": "CANONIC Foundation certifies governed software. Instead of a once-a-year scramble, compliance becomes a continuous score your customers can verify anytime. In plain terms: your repo becomes the audit trail.",
+    "cta": [
+      {
+        "label": "Try TALK",
+        "href": "#",
+        "talk": true
+      },
+      {
+        "label": "See The Language",
+        "href": "#language"
+      },
+      {
+        "label": "See Pricing (MAGIC)",
+        "href": "magic://canonic-canonic/MAGIC#tiers"
+      }
+    ]
+  },
+  "nav": [
+    {
+      "label": "Language",
+      "href": "#language"
+    },
+    {
+      "label": "Idioms",
+      "href": "#idioms"
+    },
+    {
+      "label": "Tools",
+      "href": "#programming"
+    },
+    {
+      "label": "Industries",
+      "href": "#industries"
+    },
+    {
+      "label": "Shop",
+      "href": "#shop"
+    },
+    {
+      "label": "Thesis",
+      "href": "#thesis"
+    },
+    {
+      "label": "Join",
+      "href": "#cta"
+    }
+  ],
+  "sections": [
+    {
+      "id": "axiom-lead",
+      "quote": {
+        "bold": "Trust closes deals. Proof closes them faster.",
+        "rest": "Foundation gives buyers a simple answer to a hard question: does this system follow the rules we care about?"
+      }
+    },
+    {
+      "id": "language",
+      "eyebrow": "LANGUAGE",
+      "title": "The Language",
+      "description": "Governance sounds abstract until you make it concrete. CANONIC starts with three artifacts that any team can understand: a contract (rules), a design language (interface), and a spec (requirements).",
+      "cards": [
+        {
+          "class": "card",
+          "title": "📋 Contract (Rules)",
+          "text": "What is required, what is forbidden, and what “done” means. This is how you keep teams aligned and regulators calm."
+        },
+        {
+          "class": "card",
+          "title": "🎨 Design (Interface)",
+          "text": "One visual language across every surface. Familiar UI reduces friction and makes governance feel natural, not bureaucratic."
+        },
+        {
+          "class": "card",
+          "title": "📐 Spec (Requirements)",
+          "text": "Standards become tests. Tests become a score. A score becomes a receipt your customer can verify."
+        }
+      ],
+      "generated": {
+        "depth": 2,
+        "source": "canonic-canonic/FOUNDATION",
+        "children": [
+          {
+            "id": "blogs",
+            "label": "BLOGS"
+          },
+          {
+            "id": "doctrine",
+            "label": "DOCTRINE"
+          },
+          {
+            "id": "papers",
+            "label": "PAPERS"
+          },
+          {
+            "id": "programming",
+            "label": "PROGRAMMING"
+          },
+          {
+            "id": "reserves",
+            "label": "RESERVES"
+          }
+        ]
+      },
+      "switcher": {
+        "kicker": "WHO THIS IS FOR",
+        "ariaLabel": "Foundation outcomes",
+        "tabs": [
+          {
+            "label": "Founders",
+            "title": "Sell trust, not slides.",
+            "text": "Enterprise buyers do not buy promises. They buy risk reduction. Foundation gives you a public, verifiable compliance posture that survives vendor diligence.",
+            "bullets": [
+              "A single score (0–255) across checks",
+              "Evidence attached to every check",
+              "Always up to date, not annual"
+            ],
+            "cta": {
+              "label": "Open Hadley Lab Proof",
+              "href": "https://hadleylab-dexter.github.io",
+              "class": "btn btn-secondary"
+            },
+            "footnote": "Layperson translation: “governed” means the rules are written down and the system can prove it followed them."
+          },
+          {
+            "label": "Engineers",
+            "title": "Make compliance a CI gate.",
+            "text": "Instead of spreadsheets and meetings, you get deterministic checks on every commit. If it passes, it ships. If it fails, it stops.",
+            "bullets": [
+              "Automated validation",
+              "No ad-hoc exceptions",
+              "Clear ownership boundaries"
+            ],
+            "cta": {
+              "label": "Try TALK",
+              "href": "#",
+              "talk": true,
+              "class": "btn"
+            }
+          },
+          {
+            "label": "Security",
+            "title": "Evidence, not narratives.",
+            "text": "Security teams need audit-ready artifacts: who changed what, when, and why. Foundation treats those artifacts as first-class outputs.",
+            "bullets": [
+              "Traceable changes",
+              "Repeatable checks",
+              "Fewer surprises"
+            ],
+            "cta": {
+              "label": "Explore Industries",
+              "href": "magic://canonic-canonic/INDUSTRIES",
+              "class": "btn btn-secondary"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "idioms",
+      "eyebrow": "AXIOMS",
+      "title": "Three Axioms",
+      "description": "Three first principles keep the system simple enough to explain to a non-technical buyer and strict enough to enforce in code.",
+      "cards": [
+        {
+          "class": "q-card",
+          "num": "I",
+          "title": "TRIAD",
+          "text": "Every scope declares its rules, vocabulary, and plain-language purpose. Like a passport: identity, language, intent."
+        },
+        {
+          "class": "q-card",
+          "num": "II",
+          "title": "INHERITANCE",
+          "text": "Governance flows from parent to child. A regulated domain inherits constraints. A product inherits them too. No loopholes."
+        },
+        {
+          "class": "q-card",
+          "num": "III",
+          "title": "INTROSPECTION",
+          "text": "The system checks itself. Undefined terms and missing evidence get flagged before humans have to debate them."
+        }
+      ],
+      "quote": {
+        "bold": "Simple rules. Hard guarantees.",
+        "rest": "That is what makes certification possible."
+      }
+    },
+    {
+      "id": "programming",
+      "eyebrow": "OPERATIONS",
+      "title": "The Tools",
+      "description": "Foundation certification is powered by automated validation. Your organization gets a repeatable process, not a yearly fire drill.",
+      "feature": {
+        "eyebrow": "ENTERPRISE",
+        "title": "Continuous certification for real teams.",
+        "text": "Validation runs where you build: in your repos, your CI, your workflow. Every change is checked against standards and governance boundaries.",
+        "tags": [
+          "Audit-ready",
+          "Always on",
+          "No consultant loop"
+        ]
+      },
+      "cards": [
+        {
+          "class": "card",
+          "icon": "1",
+          "iconClass": "step-num",
+          "title": "✅ Certify",
+          "text": "We scan your entire organization and score every project. Certification is public, verifiable, and permanent — a trust signal your customers can check in seconds."
+        },
+        {
+          "class": "card",
+          "icon": "2",
+          "iconClass": "step-num",
+          "title": "🔄 Validate",
+          "text": "Automated checks run on every commit. If it passes, it ships. If it doesn’t, it stops. No exceptions, no escalation meetings, no finger-pointing."
+        },
+        {
+          "class": "card",
+          "icon": "3",
+          "iconClass": "step-num",
+          "title": "🤝 Pair",
+          "text": "We match certified developers with regulated industries. The right builder for the right problem, with a verified track record that speaks for itself."
+        },
+        {
+          "class": "card",
+          "icon": "4",
+          "iconClass": "step-num",
+          "title": "🏛 Govern",
+          "text": "We oversee the project to completion. Every deliverable validated. Every milestone verified. Every dollar accounted for. Governance that earns its keep."
+        }
+      ],
+      "columns": "auto-fit, minmax(220px, 1fr)",
+      "generated": {
+        "depth": 2,
+        "source": "canonic-canonic/FOUNDATION/PROGRAMMING",
+        "children": [
+          {
+            "id": "c",
+            "label": "C"
+          },
+          {
+            "id": "python",
+            "label": "PYTHON"
+          },
+          {
+            "id": "swift",
+            "label": "SWIFT"
+          },
+          {
+            "id": "typescript",
+            "label": "TYPESCRIPT"
+          }
+        ]
+      }
+    },
+    {
+      "id": "industries",
+      "eyebrow": "DOMAINS",
+      "title": "21 Governed Domains",
+      "description": "14 verticals, 4 regulatory, 2 horizontal, 1 meta. Every compliance framework is a cost center — until you automate it. We turn mandatory overhead into a competitive advantage across every regulated industry.",
+      "cards": [
+        {
+          "class": "sector",
+          "icon": "🏥",
+          "iconClass": "sector-icon",
+          "title": "Medicine",
+          "subtitle": "HIPAA, FHIR, HL7, mCODE"
+        },
+        {
+          "class": "sector",
+          "icon": "💰",
+          "iconClass": "sector-icon",
+          "title": "Finance",
+          "subtitle": "SOC2, PCI DSS, SOX, Basel III"
+        },
+        {
+          "class": "sector",
+          "icon": "🛡",
+          "iconClass": "sector-icon",
+          "title": "Defense",
+          "subtitle": "CMMC 2.0, FedRAMP, NIST"
+        },
+        {
+          "class": "sector",
+          "icon": "🧬",
+          "iconClass": "sector-icon",
+          "title": "Genomics",
+          "subtitle": "GA4GH, VCF 4.3, ACMG/AMP"
+        },
+        {
+          "class": "sector",
+          "icon": "✅",
+          "iconClass": "sector-icon",
+          "title": "Quality",
+          "subtitle": "ISO 9001/13485, IATF 16949"
+        },
+        {
+          "class": "sector",
+          "icon": "🕊",
+          "iconClass": "sector-icon",
+          "title": "Religion",
+          "subtitle": "Universal D∩E∩T∩R∩O∩S"
+        },
+        {
+          "class": "sector",
+          "icon": "🤖",
+          "iconClass": "sector-icon",
+          "title": "Robotics",
+          "subtitle": "ISO 10218, ISO/TS 15066"
+        },
+        {
+          "class": "sector",
+          "icon": "🚗",
+          "iconClass": "sector-icon",
+          "title": "Automotive",
+          "subtitle": "ISO 26262, SAE J3016"
+        },
+        {
+          "class": "sector",
+          "icon": "✈️",
+          "iconClass": "sector-icon",
+          "title": "Aerospace",
+          "subtitle": "DO-178C, AS9100D"
+        },
+        {
+          "class": "sector",
+          "icon": "🏭",
+          "iconClass": "sector-icon",
+          "title": "Manufacturing",
+          "subtitle": "IEC 62443, ISA-95"
+        },
+        {
+          "class": "sector",
+          "icon": "⚡",
+          "iconClass": "sector-icon",
+          "title": "Energy",
+          "subtitle": "NERC CIP, IEC 61850"
+        },
+        {
+          "class": "sector",
+          "icon": "📦",
+          "iconClass": "sector-icon",
+          "title": "Logistics",
+          "subtitle": "GS1, ISO 28000"
+        },
+        {
+          "class": "sector",
+          "icon": "🌾",
+          "iconClass": "sector-icon",
+          "title": "Agriculture",
+          "subtitle": "ISO 18497, ISOBUS"
+        },
+        {
+          "class": "sector",
+          "icon": "🎓",
+          "iconClass": "sector-icon",
+          "title": "Education",
+          "subtitle": "FERPA, SCORM, xAPI"
+        },
+        {
+          "class": "sector",
+          "icon": "⚖️",
+          "iconClass": "sector-icon",
+          "title": "Legal",
+          "subtitle": "35 USC, UCC, Securities"
+        },
+        {
+          "class": "sector",
+          "icon": "🔗",
+          "iconClass": "sector-icon",
+          "title": "Blockchain",
+          "subtitle": "DeFi Governance, DAO"
+        },
+        {
+          "class": "sector",
+          "icon": "🔐",
+          "iconClass": "sector-icon",
+          "title": "Data",
+          "subtitle": "GDPR, CCPA, LGPD"
+        },
+        {
+          "class": "sector",
+          "icon": "🏛️",
+          "iconClass": "sector-icon",
+          "title": "Government",
+          "subtitle": "Federal, State, Municipal"
+        },
+        {
+          "class": "sector",
+          "icon": "🛡️",
+          "iconClass": "sector-icon",
+          "title": "Safety",
+          "subtitle": "DO-178C, ISO 26262, IEC 61508"
+        },
+        {
+          "class": "sector",
+          "icon": "🔒",
+          "iconClass": "sector-icon",
+          "title": "Security",
+          "subtitle": "ISO 27001, NIST 800-53"
+        }
+      ],
+      "columns": "auto-fit, minmax(140px, 1fr)",
+      "gap": "16px",
+      "generated": {
+        "depth": 2,
+        "source": "canonic-canonic/INDUSTRIES",
+        "children": [
+          {
+            "id": "horizontal",
+            "label": "HORIZONTAL"
+          },
+          {
+            "id": "meta",
+            "label": "META"
+          },
+          {
+            "id": "regulatory",
+            "label": "REGULATORY"
+          },
+          {
+            "id": "verticals",
+            "label": "VERTICALS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "shop",
+      "eyebrow": "SHOP",
+      "title": "The Library",
+      "description": "Everything we know, published for free. The theory, the economics, the protocol, the sector playbooks. Open infrastructure makes the whole ecosystem stronger.",
+      "cards": [
+        {
+          "class": "shop-card",
+          "title": "📖 The Theory",
+          "text": "The mathematical proof behind governed economics. Why validated work creates durable value — and speculation doesn’t.",
+          "badge": "FREE"
+        },
+        {
+          "class": "shop-card",
+          "title": "💎 The Economics",
+          "text": "How the token model works. How contributors earn. How value flows from specification to product to market.",
+          "badge": "FREE"
+        },
+        {
+          "class": "shop-card",
+          "title": "📐 The Protocol",
+          "text": "The complete validation protocol. 80+ compliance standards mapped to 8 dimensions. One file your team can adopt today.",
+          "badge": "FREE"
+        },
+        {
+          "class": "shop-card",
+          "title": "🗺 Industry Guides",
+          "text": "Industry-specific playbooks for 21 domains including healthcare, finance, defense, robotics, automotive, aerospace, manufacturing, energy, and more. Written by practitioners, not consultants.",
+          "badge": "FREE"
+        }
+      ],
+      "columns": "auto-fit, minmax(220px, 1fr)",
+      "gap": "16px"
+    },
+    {
+      "id": "thesis",
+      "feature": {
+        "eyebrow": "THE THESIS",
+        "title": "Specification beats speculation.",
+        "text": "Protocols can create enormous value. CANONIC is built for regulated reality: standards, evidence, and repeatability. Value comes from validated work and provable compliance, not hype.",
+        "tags": [
+          "Work creates value",
+          "Proof is portable",
+          "Standards are code"
+        ]
+      }
+    },
+    {
+      "id": "magic-cta",
+      "feature": {
+        "eyebrow": "CERTIFIED BY THE FOUNDATION",
+        "title": "MAGIC is how you operate the standard.",
+        "text": "Foundation defines certification. MAGIC runs the operational layer: tiers, commerce, and services. Want to see it in motion? Hadley Lab is the live beta ground where governed products ship.",
+        "tags": [
+          "Foundation certified",
+          "Live proof in Hadley Lab"
+        ]
+      }
+    }
+  ],
+  "cta": {
+    "title": "Ready to make compliance <span style=\"color:var(--accent)\">easy</span>?",
+    "description": "Start with the Foundation language, then use MAGIC to ship governed services. Hadley Lab shows the product surface end-to-end.",
+    "buttons": [
+      {
+        "label": "Open MAGIC Pricing",
+        "href": "magic://canonic-canonic/MAGIC#tiers"
+      },
+      {
+        "label": "Open Hadley Lab",
+        "href": "https://hadleylab-dexter.github.io"
+      },
+      {
+        "label": "Try TALK",
+        "href": "#",
+        "talk": true
+      }
+    ]
+  },
+  "footerTagline": "CANONIC Foundation | Certification that sells."
+}

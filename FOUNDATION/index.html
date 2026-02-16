@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-scope="foundation">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANONIC Foundation — Certification</title>
+    <meta name="description" content="The certification body for governed software. Compliance on git. Verified developers. RESERVES = WORK.">
+    <link rel="stylesheet" href="/DESIGN.css?v=5">
+</head>
+<body>
+    <!-- Structure only. render.js reads CONTENT.json → fills every container. -->
+
+    <div class="eco-bar" id="ecoBar"></div>
+    <nav id="nav"></nav>
+
+    <div id="hero"></div>
+
+    <div class="container">
+        <div id="axiom-lead"></div>
+
+        <section id="language"></section>
+        <section id="idioms"></section>
+        <section id="programming"></section>
+        <section id="industries"></section>
+        <section id="shop"></section>
+        <section id="thesis"></section>
+        <section id="magic-cta"></section>
+
+        <section class="cta-section" id="cta"></section>
+    </div>
+
+    <footer id="footer"></footer>
+
+    <!-- TALK OVERLAY -->
+    <div class="talk-overlay" id="talkOverlay">
+        <div class="talk-overlay-header">
+            <div class="talk-dot"></div>
+            <span class="talk-scope">FOUNDATION TALK</span>
+            <button type="button" class="talk-overlay-close" onclick="TALK.close()">ESC</button>
+        </div>
+        <div class="talk-messages" id="talkMessages"></div>
+        <div class="talk-input-row">
+            <input type="text" id="talkChatInput" placeholder="Ask about certification, compliance, governance..." autocomplete="off">
+            <button type="button" id="talkSend" onclick="TALK.send()">SEND</button>
+        </div>
+    </div>
+
+    <script src="/render.js?v=5"></script>
+    <script src="/talk.js?v=5"></script>
+    <script>RENDER.init().then(function() { TALK.init(); });</script>
+</body>
+</html>

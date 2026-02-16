@@ -1,0 +1,7 @@
+# MAGIC — VOCABULARY
+
+inherits: .
+
+---
+
+*MAGIC | VOCABULARY | CANONIC*

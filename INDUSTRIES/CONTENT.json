@@ -1,7 +1,7 @@
 {
   "fleet": {
     "brand": {
-      "mark": "\u2229",
+      "mark": "∩",
       "label": "CANONIC",
       "url": "https://canonic-foundation.github.io"
     },
@@ -9,22 +9,22 @@
       {
         "scope": "FOUNDATION",
         "label": "Foundation",
-        "url": "https://canonic-foundation.github.io"
+        "url": "https://canonic-canonic.github.io/FOUNDATION/"
       },
       {
         "scope": "INDUSTRIES",
         "label": "Industries",
-        "url": "https://canonic-industries.github.io"
+        "url": "https://canonic-canonic.github.io/INDUSTRIES/"
       },
       {
         "scope": "MAGIC",
         "label": "MAGIC",
-        "url": "https://canonic-magic.github.io"
+        "url": "https://canonic-canonic.github.io/MAGIC/"
       },
       {
         "scope": "HADLEYLAB",
         "label": "Hadley Lab",
-        "url": "https://hadleylab-dexter.github.io"
+        "url": "https://hadleylab-canonic.github.io/DEXTER/"
       }
     ]
   },
@@ -112,7 +112,7 @@
           {
             "label": "Medicine",
             "title": "Patient safety and clinical evidence.",
-            "text": "In medicine, the system must explain itself and respect privacy. \u201cGood enough\u201d is not acceptable when decisions affect care.",
+            "text": "In medicine, the system must explain itself and respect privacy. “Good enough” is not acceptable when decisions affect care.",
             "bullets": [
               "Privacy and consent",
               "Clinical terminology explained",
@@ -180,28 +180,28 @@
       "cards": [
         {
           "class": "sector",
-          "icon": "\ud83c\udfed",
+          "icon": "🏭",
           "iconClass": "sector-icon",
           "title": "VERTICALS",
           "subtitle": "14 governed domains"
         },
         {
           "class": "sector",
-          "icon": "\u2696\ufe0f",
+          "icon": "⚖️",
           "iconClass": "sector-icon",
           "title": "REGULATORY",
           "subtitle": "4 governed domains"
         },
         {
           "class": "sector",
-          "icon": "\ud83d\udee1\ufe0f",
+          "icon": "🛡️",
           "iconClass": "sector-icon",
           "title": "HORIZONTAL",
           "subtitle": "2 governed domains"
         },
         {
           "class": "sector",
-          "icon": "\ud83e\udde0",
+          "icon": "🧠",
           "iconClass": "sector-icon",
           "title": "META",
           "subtitle": "1 governed domain"
@@ -218,28 +218,28 @@
       "cards": [
         {
           "class": "sector",
-          "icon": "\ud83c\udfe5",
+          "icon": "🏥",
           "iconClass": "sector-icon",
           "title": "Medicine",
           "subtitle": "Clinical governance"
         },
         {
           "class": "sector",
-          "icon": "\ud83d\udcb0",
+          "icon": "💰",
           "iconClass": "sector-icon",
           "title": "Finance",
           "subtitle": "Economic governance"
         },
         {
           "class": "sector",
-          "icon": "\ud83d\udef0\ufe0f",
+          "icon": "🛰️",
           "iconClass": "sector-icon",
           "title": "Aerospace",
           "subtitle": "Mission governance"
         },
         {
           "class": "sector",
-          "icon": "\ud83e\udd16",
+          "icon": "🤖",
           "iconClass": "sector-icon",
           "title": "Robotics",
           "subtitle": "Action governance"
@@ -365,7 +365,7 @@
       "id": "horizontal",
       "eyebrow": "HORIZONTAL",
       "title": "Cross-Cutting Domains",
-      "description": "Horizontal domains are controls that apply everywhere: safety, security, and reliability. They are not optional and they are not \u201clater.\u201d",
+      "description": "Horizontal domains are controls that apply everywhere: safety, security, and reliability. They are not optional and they are not “later.”",
       "cards": [
         {
           "class": "card",

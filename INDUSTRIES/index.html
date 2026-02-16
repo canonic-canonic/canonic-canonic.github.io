@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" data-scope="industries">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANONIC Industries — Governed Domains</title>
+    <meta name="description" content="Governed industry taxonomy for CANONIC: verticals, regulatory domains, horizontal controls, and meta learning.">
+    <link rel="stylesheet" href="/DESIGN.css?v=2">
+</head>
+<body>
+    <div class="eco-bar" id="ecoBar"></div>
+    <nav id="nav"></nav>
+
+    <div id="hero"></div>
+
+    <div class="container">
+        <div id="axiom-lead"></div>
+        <section id="overview"></section>
+        <section id="strata"></section>
+        <section id="verticals"></section>
+        <section id="regulatory"></section>
+        <section id="horizontal"></section>
+        <section id="meta"></section>
+        <section class="cta-section" id="cta"></section>
+    </div>
+
+    <footer id="footer"></footer>
+
+    <div class="talk-overlay" id="talkOverlay">
+        <div class="talk-overlay-header">
+            <div class="talk-dot"></div>
+            <span class="talk-scope">INDUSTRIES TALK</span>
+            <button type="button" class="talk-overlay-close" onclick="TALK.close()">ESC</button>
+        </div>
+        <div class="talk-messages" id="talkMessages"></div>
+        <div class="talk-input-row">
+            <input type="text" id="talkChatInput" placeholder="Ask about industries, standards, and governance strata..." autocomplete="off">
+            <button type="button" id="talkSend" onclick="TALK.send()">SEND</button>
+        </div>
+    </div>
+
+    <script src="/render.js?v=2"></script>
+    <script src="/talk.js?v=2"></script>
+    <script>RENDER.init().then(function() { TALK.init(); });</script>
+</body>
+</html>

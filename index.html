@@ -1,46 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" data-scope="industries">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CANONIC Industries — Governed Domains</title>
-    <meta name="description" content="Governed industry taxonomy for CANONIC: verticals, regulatory domains, horizontal controls, and meta learning.">
-    <link rel="stylesheet" href="./DESIGN.css?v=2">
+    <title>CANONIC</title>
+    <link rel="stylesheet" href="/DESIGN.css?v=1">
+    <style>
+        body { background: #0a0a0a; color: #e0e0e0; font-family: system-ui, sans-serif; margin: 0; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+        .org-root { text-align: center; }
+        .org-mark { font-size: 4rem; margin-bottom: 1rem; }
+        .org-label { font-size: 1.5rem; font-weight: 700; letter-spacing: 0.15em; margin-bottom: 2rem; }
+        .users { display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; }
+        .user-link { display: block; padding: 1.5rem 2.5rem; border: 1px solid #333; border-radius: 8px; text-decoration: none; color: #e0e0e0; font-weight: 600; letter-spacing: 0.1em; transition: border-color 0.2s; }
+        .user-link:hover { border-color: #00ff88; color: #00ff88; }
+        .user-link .scope { font-size: 0.75rem; opacity: 0.5; display: block; margin-top: 0.25rem; }
+    </style>
 </head>
 <body>
-    <div class="eco-bar" id="ecoBar"></div>
-    <nav id="nav"></nav>
-
-    <div id="hero"></div>
-
-    <div class="container">
-        <div id="axiom-lead"></div>
-        <section id="overview"></section>
-        <section id="strata"></section>
-        <section id="verticals"></section>
-        <section id="regulatory"></section>
-        <section id="horizontal"></section>
-        <section id="meta"></section>
-        <section class="cta-section" id="cta"></section>
-    </div>
-
-    <footer id="footer"></footer>
-
-    <div class="talk-overlay" id="talkOverlay">
-        <div class="talk-overlay-header">
-            <div class="talk-dot"></div>
-            <span class="talk-scope">INDUSTRIES TALK</span>
-            <button type="button" class="talk-overlay-close" onclick="TALK.close()">ESC</button>
-        </div>
-        <div class="talk-messages" id="talkMessages"></div>
-        <div class="talk-input-row">
-            <input type="text" id="talkChatInput" placeholder="Ask about industries, standards, and governance strata..." autocomplete="off">
-            <button type="button" id="talkSend" onclick="TALK.send()">SEND</button>
+    <div class="org-root">
+        <div class="org-mark">&cap;</div>
+        <div class="org-label">CANONIC</div>
+        <div class="users">
+            <a class="user-link" href="/FOUNDATION/">FOUNDATION<span class="scope">Certification</span></a>
+            <a class="user-link" href="/INDUSTRIES/">INDUSTRIES<span class="scope">Governed Domains</span></a>
+            <a class="user-link" href="/MAGIC/">MAGIC<span class="scope">Operations Platform</span></a>
         </div>
     </div>
-
-    <script src="./render.js?v=2"></script>
-    <script src="./talk.js?v=2"></script>
-    <script>RENDER.init().then(function() { TALK.init(); });</script>
 </body>
 </html>

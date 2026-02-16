@@ -1,0 +1,60 @@
+{
+  "canon": "ECON.v1",
+  "work_equals_coin": true,
+  "ledger": {
+    "head": "978ed630d47c7159b3885c5c7b59a845cb157b4024428a73e5cf811ef216a28c",
+    "entries": 342,
+    "total": 73914,
+    "by_key": [
+      {
+        "k": "hadleylab-dexter.github.io",
+        "v": 19800
+      },
+      {
+        "k": ".canonic",
+        "v": 16016
+      },
+      {
+        "k": "canonic-magic.github.io",
+        "v": 9054
+      },
+      {
+        "k": "canonic-foundation.github.io",
+        "v": 6504
+      },
+      {
+        "k": "MAGIC",
+        "v": 5736
+      },
+      {
+        "k": "Canonic",
+        "v": 4845
+      },
+      {
+        "k": "DEXTER",
+        "v": 3825
+      },
+      {
+        "k": "SHOP",
+        "v": 1530
+      },
+      {
+        "k": "ORGS",
+        "v": 1020
+      },
+      {
+        "k": "PROGRAMMING",
+        "v": 1020
+      },
+      {
+        "k": "VAULT",
+        "v": 1020
+      },
+      {
+        "k": "FOUNDATION",
+        "v": 510
+      }
+    ]
+  },
+  "service": "ROOT"
+}
