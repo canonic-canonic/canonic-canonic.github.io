@@ -1,4 +1,4 @@
-/* GENERATED - site=FOUNDATION scope=FOUNDATION accent=#7c3aed */
+/* GENERATED - site=MAGIC scope=MAGIC accent=#00ff88 */
 /**
  * MAGIC DESIGN — THE CANONIC FLEET DESIGN LANGUAGE
  *
@@ -48,8 +48,8 @@
     --shadow-lg: 0 24px 64px rgba(0, 0, 0, 0.6);
 
     /* ── Accent (override per scope via CANON.json) ── */
-    --accent: #7c3aed;
-    --accent-rgb: 124, 58, 237;
+    --accent: #00ff88;
+    --accent-rgb: 0, 255, 136;
 
     /* ── Category Palette (DESIGN.md §Color System) ── */
     --kernel: #ff0088;

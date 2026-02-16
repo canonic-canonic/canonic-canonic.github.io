@@ -1,0 +1,3 @@
+[submodule "INDUSTRIES"]
+	path = INDUSTRIES
+	url = https://github.com/canonic-canonic/canonic-industries.github.io.git
