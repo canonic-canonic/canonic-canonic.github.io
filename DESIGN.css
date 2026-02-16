@@ -111,8 +111,11 @@
 
     /* ── Header geometry (fleet-wide behavior) ── */
     --eco-h: 40px;
+    /* --eco-offset is the *effective* eco-bar offset used for nav + scroll padding.
+       It can be set to 0 when eco-bar is auto-hidden (eco-bar height remains unchanged). */
+    --eco-offset: var(--eco-h);
     --nav-h: 64px;
-    --header-offset: calc(var(--eco-h) + var(--nav-h));
+    --header-offset: calc(var(--eco-offset) + var(--nav-h));
 }
 
 
@@ -248,6 +251,13 @@ img { max-width: 100%; display: block; }
     justify-content: space-between;
     align-items: center;
     overflow-x: auto;
+    transition: transform 220ms var(--ease-out), opacity 220ms var(--ease-out);
+}
+
+:root[data-eco-hidden="1"] .eco-bar {
+    transform: translateY(calc(-1 * (var(--eco-h) + 10px)));
+    opacity: 0;
+    pointer-events: none;
 }
 
 .eco-brand {
@@ -337,7 +347,7 @@ img { max-width: 100%; display: block; }
 /* Nav — frosted glass (offset for eco-bar) */
 nav {
     position: fixed;
-    top: var(--eco-h);
+    top: var(--eco-offset);
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.7);

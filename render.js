@@ -268,6 +268,7 @@ var RENDER = (function () {
         var nav = document.getElementById('nav');
         if (!eco && !nav) return;
 
+        var ecoHidden = document.documentElement.getAttribute('data-eco-hidden') === '1';
         var ecoH = eco ? Math.round(eco.getBoundingClientRect().height) : 0;
         var navH = nav ? Math.round(nav.getBoundingClientRect().height) : 0;
 
@@ -276,12 +277,15 @@ var RENDER = (function () {
             try {
                 var cs = getComputedStyle(document.documentElement);
                 if (!ecoH) ecoH = parseInt(cs.getPropertyValue('--eco-h'), 10) || 0;
+                // eco-offset is derived below; only fall back eco-h.
                 if (!navH) navH = parseInt(cs.getPropertyValue('--nav-h'), 10) || 0;
             } catch (e) {}
         }
 
-        var total = ecoH + navH;
+        var ecoOffset = ecoHidden ? 0 : ecoH;
+        var total = ecoOffset + navH;
         if (ecoH) document.documentElement.style.setProperty('--eco-h', ecoH + 'px');
+        document.documentElement.style.setProperty('--eco-offset', ecoOffset + 'px');
         if (navH) document.documentElement.style.setProperty('--nav-h', navH + 'px');
         if (total) document.documentElement.style.setProperty('--header-offset', total + 'px');
     }
@@ -294,6 +298,55 @@ var RENDER = (function () {
             if (t) clearTimeout(t);
             t = setTimeout(function () { syncHeaderOffsets(); }, 60);
         });
+    }
+
+    // ── ECO-BAR AUTOHIDE (SEQUENTIAL FIXED BARS) ─────────────────────
+    // Behavior:
+    // - Scroll down: hide eco-bar first (nav remains fixed).
+    // - Scroll up / near top: show eco-bar.
+    function bindEcoAutoHide() {
+        var lastY = window.scrollY || 0;
+        var hidden = false;
+        var ticking = false;
+
+        function setHidden(next) {
+            if (next === hidden) return;
+            hidden = next;
+            if (hidden) {
+                document.documentElement.setAttribute('data-eco-hidden', '1');
+            } else {
+                document.documentElement.removeAttribute('data-eco-hidden');
+            }
+            syncHeaderOffsets();
+        }
+
+        function onScroll() {
+            var y = window.scrollY || 0;
+            var dy = y - lastY;
+            lastY = y;
+
+            // Always show near top.
+            if (y < 24) {
+                setHidden(false);
+                return;
+            }
+
+            // Only react to meaningful deltas to avoid jitter.
+            if (dy > 10) {
+                setHidden(true);
+            } else if (dy < -10) {
+                setHidden(false);
+            }
+        }
+
+        window.addEventListener('scroll', function () {
+            if (ticking) return;
+            ticking = true;
+            (typeof requestAnimationFrame !== 'undefined' ? requestAnimationFrame : setTimeout)(function () {
+                ticking = false;
+                try { onScroll(); } catch (_) {}
+            }, 0);
+        }, { passive: true });
     }
 
     // ── NAV (GOV-DERIVED) ──────────────────────────
@@ -787,7 +840,7 @@ var RENDER = (function () {
             // Generated depth-2 content (compiled from GOV tree)
             if (sec.generated && ((sec.generated.children && sec.generated.children.length) || sec.generated.narrative)) {
                 html += '<div style="margin-top:20px;padding:18px;border:1px solid var(--border);border-radius:12px;background:var(--bg-soft);">';
-                html += '<div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--fg-tertiary);margin-bottom:12px;">Depth 2 · Gov Derived</div>';
+                html += '<div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--fg-tertiary);margin-bottom:12px;">Governed Tree</div>';
                 if (sec.generated.narrative) {
                     html += '<p style="margin:0 0 12px 0;font-size:13px;line-height:1.6;color:var(--fg-secondary);">' + sec.generated.narrative + '</p>';
                 }
@@ -799,7 +852,7 @@ var RENDER = (function () {
                     html += '</div>';
                 }
                 if (sec.generated.source) {
-                    html += '<div style="margin-top:10px;font-size:11px;color:var(--fg-tertiary);font-family:var(--mono);">source: ' + sec.generated.source + '</div>';
+                    html += '<div style="margin-top:10px;font-size:11px;color:var(--fg-tertiary);font-family:var(--mono);">governed source: ' + sec.generated.source + '</div>';
                 }
                 html += '</div>';
             }
@@ -1150,6 +1203,7 @@ var RENDER = (function () {
         if (content.fleet) renderEcoBar(content.fleet, canon.scope);
         renderNav(canon.scope || canon.name, canon.navIcon, content.nav);
         bindHeaderOffsetSync();
+        bindEcoAutoHide();
         // Compute offsets after nav is in DOM; re-run after layout settles.
         syncHeaderOffsets();
         setTimeout(syncHeaderOffsets, 0);
