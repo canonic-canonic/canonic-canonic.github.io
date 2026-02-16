@@ -189,9 +189,15 @@ var RENDER = (function () {
         var items = [];
         var sections = contentData.sections || [];
 
-        // HADLEYLAB: show first GOV level with plural axioms; otherwise descend one level.
+        // HADLEYLAB: prefer explicit nav order from CONTENT.json (conversion + section flow).
+        // Fallback: show first GOV level with plural axioms; otherwise descend one level.
         // Axioms are represented by sections that have generated.children (gov-derived children list).
         if (scope === 'HADLEYLAB') {
+            if (contentData.nav && contentData.nav.length) {
+                return contentData.nav.map(function (n) {
+                    return { label: n.label, href: n.href, type: 'section' };
+                });
+            }
             var axiomSections = [];
             sections.forEach(function (sec) {
                 var g = sec && sec.generated ? sec.generated : null;

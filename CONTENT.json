@@ -32,7 +32,7 @@
     "badge": "INDUSTRIES",
     "title": "Governed Industries.",
     "subtitle": "Industry is variable. Governance is constant.",
-    "description": "CANONIC maps regulated and operational domains into one governed taxonomy. Services compose primitives against industry constraints without changing the language.",
+    "description": "21 domains. 4 strata. One governed taxonomy. Services compose INTEL + CHAT + COIN against industry constraints without rewriting the language.",
     "cta": [
       {
         "label": "Try TALK",
@@ -42,6 +42,10 @@
       {
         "label": "View Strata",
         "href": "#strata"
+      },
+      {
+        "label": "See Live Proof",
+        "href": "https://hadleylab-dexter.github.io"
       }
     ]
   },
@@ -118,6 +122,7 @@
       "id": "verticals",
       "eyebrow": "VERTICALS",
       "title": "14 Vertical Domains",
+      "description": "Domain-specific constraints: safety levels, standards, failure modes, and acceptable risk. The primitives stay constant; the industry layer sets the boundaries.",
       "cards": [
         {
           "class": "sector",
@@ -218,6 +223,7 @@
       "id": "regulatory",
       "eyebrow": "REGULATORY",
       "title": "4 Regulatory Domains",
+      "description": "Cross-domain rule sets: statutes, data privacy, public-sector policy, and on-chain governance. These scopes define what is permitted, required, and prohibited.",
       "cards": [
         {
           "class": "card",
@@ -269,6 +275,7 @@
       "id": "horizontal",
       "eyebrow": "HORIZONTAL",
       "title": "Cross-Cutting Domains",
+      "description": "Constraints that apply everywhere. Safety and security are not verticals; they are mandatory overlays across every industry.",
       "cards": [
         {
           "class": "card",
@@ -302,6 +309,7 @@
       "id": "meta",
       "eyebrow": "META",
       "title": "Self-Referential Governance",
+      "description": "Governance of governance. INDUSTRIES is introspectable: terms, standards, and mappings are validated against the language that defines them.",
       "feature": {
         "eyebrow": "LEARNING",
         "title": "Governance that updates from governed evidence.",

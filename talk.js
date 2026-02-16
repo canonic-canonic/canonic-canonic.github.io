@@ -33,6 +33,8 @@ const TALK = {
     system: null,
     governed: false,
     intelLedger: [],
+    canon: null,
+    plugins: [],
 
     // ── Initialize ──────────────────────────────────────────────────
     init(config) {
@@ -64,8 +66,42 @@ const TALK = {
             }
         });
 
-        // CANON.json is REQUIRED — load governance, then INTEL
-        this.loadCanon().then(function() { TALK.loadIntel(); });
+        // CANON.json is REQUIRED — load governance, then INTEL, then optional plugins.
+        this.loadCanon().then(function() {
+            TALK.loadIntel();
+            TALK.initPlugins();
+        });
+    },
+
+    // ── Plugins (optional, governed by CANON.json flags) ────────────
+    initPlugins() {
+        // No hardcoded behavior. Plugins must be explicitly enabled by CANON.json.
+        this.plugins = [];
+
+        // mCODE (clinical): enabled only when the scope CANON.json declares `"mcode": true`
+        // and the page has loaded the plugin.
+        if (this.canon && this.canon.mcode) {
+            // Support both `window.MCODE` and global bindings (classic scripts).
+            var mcodePlugin = null;
+            try {
+                if (typeof window !== 'undefined') {
+                    if (typeof window.MCODE !== 'undefined') mcodePlugin = window.MCODE;
+                    else if (typeof MCODE !== 'undefined') mcodePlugin = MCODE;
+                }
+            } catch {}
+
+            if (mcodePlugin) this.plugins.push(mcodePlugin);
+        }
+
+        // Initialize plugins. Fail-closed: plugin failures must not break TALK.
+        for (var i = 0; i < this.plugins.length; i++) {
+            var p = this.plugins[i];
+            try {
+                if (p && typeof p.init === 'function') p.init(this);
+            } catch (e) {
+                console.warn('[TALK] plugin init failed:', e);
+            }
+        }
     },
 
     // ── Load CANON.json — REQUIRED governance source ────────────────
@@ -78,6 +114,7 @@ const TALK = {
             // MUST have systemPrompt
             if (!canon.systemPrompt) throw new Error('CANON.json missing systemPrompt');
 
+            this.canon = canon;
             this.system = canon.systemPrompt;
             this.scope = canon.scope || canon.name || 'CANONIC';
             this.governed = true;
@@ -335,6 +372,20 @@ const TALK = {
         if (!text) return;
         input.value = '';
 
+        // Optional plugin hook: beforeSend (e.g., mCODE extraction + state attach)
+        var config = {};
+        for (var i = 0; i < this.plugins.length; i++) {
+            var p = this.plugins[i];
+            try {
+                if (p && p.hooks && typeof p.hooks.beforeSend === 'function') {
+                    var out = p.hooks.beforeSend({ text: text, config: config, talk: this });
+                    if (out && typeof out.text === 'string') text = out.text;
+                }
+            } catch (e) {
+                console.warn('[TALK] plugin beforeSend failed:', e);
+            }
+        }
+
         this.add(text, 'user');
         this.messages.push({ role: 'user', content: text });
 
@@ -349,7 +400,8 @@ const TALK = {
                     message: text,
                     history: this.messages.slice(-10),
                     system: this.system,
-                    scope: this.scope
+                    scope: this.scope,
+                    config: config
                 })
             });
 
@@ -361,6 +413,19 @@ const TALK = {
             var reply = data.message || data.text ||
                 (data.content && data.content[0] && data.content[0].text) ||
                 'Could not process that.';
+
+            // Optional plugin hook: afterReceive (e.g., mCODE extraction from assistant reply)
+            for (var j = 0; j < this.plugins.length; j++) {
+                var p2 = this.plugins[j];
+                try {
+                    if (p2 && p2.hooks && typeof p2.hooks.afterReceive === 'function') {
+                        var out2 = p2.hooks.afterReceive({ reply: reply, config: config, talk: this, response: data });
+                        if (out2 && typeof out2.reply === 'string') reply = out2.reply;
+                    }
+                } catch (e) {
+                    console.warn('[TALK] plugin afterReceive failed:', e);
+                }
+            }
 
             var msgEl = this.add('', 'assistant');
             var textEl = msgEl ? (msgEl.querySelector('div') || msgEl.firstChild) : null;
