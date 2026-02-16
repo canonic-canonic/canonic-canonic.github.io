@@ -3,23 +3,23 @@
     "brand": {
       "mark": "\u2229",
       "label": "CANONIC",
-      "url": "magic://canonic-canonic/FOUNDATION"
+      "url": "/"
     },
     "sites": [
       {
         "scope": "FOUNDATION",
         "label": "Foundation",
-        "url": "magic://canonic-canonic/FOUNDATION"
+        "url": "https://canonic-canonic.github.io/FOUNDATION"
       },
       {
         "scope": "INDUSTRIES",
         "label": "Industries",
-        "url": "magic://canonic-canonic/INDUSTRIES"
+        "url": "https://canonic-canonic.github.io/INDUSTRIES"
       },
       {
         "scope": "MAGIC",
         "label": "MAGIC",
-        "url": "magic://canonic-canonic/MAGIC"
+        "url": "https://canonic-canonic.github.io/MAGIC"
       },
       {
         "scope": "HADLEYLAB",
@@ -45,7 +45,7 @@
       },
       {
         "label": "See Pricing (MAGIC)",
-        "href": "magic://canonic-canonic/MAGIC#tiers"
+        "href": "https://canonic-canonic.github.io/MAGIC#tiers"
       }
     ]
   },
@@ -182,7 +182,7 @@
             ],
             "cta": {
               "label": "Explore Industries",
-              "href": "magic://canonic-canonic/INDUSTRIES",
+              "href": "https://canonic-canonic.github.io/INDUSTRIES",
               "class": "btn btn-secondary"
             }
           }
@@ -526,7 +526,7 @@
     "buttons": [
       {
         "label": "Open MAGIC Pricing",
-        "href": "magic://canonic-canonic/MAGIC#tiers"
+        "href": "https://canonic-canonic.github.io/MAGIC#tiers"
       },
       {
         "label": "Open Hadley Lab",

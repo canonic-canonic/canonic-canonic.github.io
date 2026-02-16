@@ -3,23 +3,23 @@
     "brand": {
       "mark": "\u2229",
       "label": "CANONIC",
-      "url": "magic://canonic-canonic/FOUNDATION"
+      "url": "/"
     },
     "sites": [
       {
         "scope": "FOUNDATION",
         "label": "Foundation",
-        "url": "magic://canonic-canonic/FOUNDATION"
+        "url": "https://canonic-canonic.github.io/FOUNDATION"
       },
       {
         "scope": "INDUSTRIES",
         "label": "Industries",
-        "url": "magic://canonic-canonic/INDUSTRIES"
+        "url": "https://canonic-canonic.github.io/INDUSTRIES"
       },
       {
         "scope": "MAGIC",
         "label": "MAGIC",
-        "url": "magic://canonic-canonic/MAGIC"
+        "url": "https://canonic-canonic.github.io/MAGIC"
       },
       {
         "scope": "HADLEYLAB",
@@ -150,7 +150,7 @@
             ],
             "cta": {
               "label": "Open Foundation",
-              "href": "magic://canonic-canonic/FOUNDATION",
+              "href": "https://canonic-canonic.github.io/FOUNDATION",
               "class": "btn btn-secondary"
             }
           },
@@ -165,7 +165,7 @@
             ],
             "cta": {
               "label": "Open MAGIC",
-              "href": "magic://canonic-canonic/MAGIC",
+              "href": "https://canonic-canonic.github.io/MAGIC",
               "class": "btn btn-secondary"
             }
           }
@@ -426,7 +426,7 @@
       },
       {
         "label": "Open MAGIC",
-        "href": "magic://canonic-canonic/MAGIC"
+        "href": "https://canonic-canonic.github.io/MAGIC"
       },
       {
         "label": "Try TALK",

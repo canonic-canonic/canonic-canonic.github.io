@@ -3,23 +3,23 @@
     "brand": {
       "mark": "\u2229",
       "label": "CANONIC",
-      "url": "magic://canonic-canonic/FOUNDATION"
+      "url": "/"
     },
     "sites": [
       {
         "scope": "FOUNDATION",
         "label": "Foundation",
-        "url": "magic://canonic-canonic/FOUNDATION"
+        "url": "https://canonic-canonic.github.io/FOUNDATION"
       },
       {
         "scope": "INDUSTRIES",
         "label": "Industries",
-        "url": "magic://canonic-canonic/INDUSTRIES"
+        "url": "https://canonic-canonic.github.io/INDUSTRIES"
       },
       {
         "scope": "MAGIC",
         "label": "MAGIC",
-        "url": "magic://canonic-canonic/MAGIC"
+        "url": "https://canonic-canonic.github.io/MAGIC"
       },
       {
         "scope": "HADLEYLAB",
@@ -672,7 +672,7 @@
       },
       {
         "label": "Foundation",
-        "href": "magic://canonic-canonic/FOUNDATION"
+        "href": "https://canonic-canonic.github.io/FOUNDATION"
       },
       {
         "label": "Hadley Lab",
