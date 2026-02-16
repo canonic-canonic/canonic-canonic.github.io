@@ -1,30 +1,30 @@
 {
   "fleet": {
     "brand": {
-      "mark": "∩",
+      "mark": "\u2229",
       "label": "CANONIC",
-      "url": "https://canonic-foundation.github.io"
+      "url": "magic://canonic-canonic/FOUNDATION"
     },
     "sites": [
       {
         "scope": "FOUNDATION",
         "label": "Foundation",
-        "url": "https://canonic-canonic.github.io/FOUNDATION/"
+        "url": "magic://canonic-canonic/FOUNDATION"
       },
       {
         "scope": "INDUSTRIES",
         "label": "Industries",
-        "url": "https://canonic-canonic.github.io/INDUSTRIES/"
+        "url": "magic://canonic-canonic/INDUSTRIES"
       },
       {
         "scope": "MAGIC",
         "label": "MAGIC",
-        "url": "https://canonic-canonic.github.io/MAGIC/"
+        "url": "magic://canonic-canonic/MAGIC"
       },
       {
         "scope": "HADLEYLAB",
         "label": "Hadley Lab",
-        "url": "https://hadleylab-canonic.github.io/DEXTER/"
+        "url": "https://hadleylab-dexter.github.io"
       }
     ]
   },
@@ -32,7 +32,7 @@
     "badge": "INDUSTRIES",
     "title": "One platform. Many <span class=\"accent\">industries</span>.",
     "subtitle": "Industry constraints change. The architecture stays the same.",
-    "description": "CANONIC Industries is the map: a governed taxonomy of domains and constraints. You choose the industry. CANONIC enforces the rules. Services compose without rewriting the system every time.",
+    "description": "CANONIC Industries is the map: every regulated domain and its constraints, organized in one place. You choose the industry. CANONIC enforces the rules. Services work together without rewriting the system every time.",
     "cta": [
       {
         "label": "Try TALK",
@@ -80,7 +80,7 @@
       "id": "axiom-lead",
       "quote": {
         "bold": "Industry sets the boundaries.",
-        "rest": "Services stay composable because the rules are governed, not reinvented."
+        "rest": "Services work together because the rules are shared, not reinvented."
       }
     },
     {
@@ -96,8 +96,8 @@
         },
         {
           "class": "card",
-          "title": "Composable Services",
-          "text": "The same primitives (knowledge, chat, ledger) combine into services across domains."
+          "title": "Services That Work Together",
+          "text": "The same building blocks (knowledge, chat, ledger) combine into services across domains."
         },
         {
           "class": "card",
@@ -112,7 +112,7 @@
           {
             "label": "Medicine",
             "title": "Patient safety and clinical evidence.",
-            "text": "In medicine, the system must explain itself and respect privacy. “Good enough” is not acceptable when decisions affect care.",
+            "text": "In medicine, the system must explain itself and respect privacy. \u201cGood enough\u201d is not acceptable when decisions affect care.",
             "bullets": [
               "Privacy and consent",
               "Clinical terminology explained",
@@ -146,11 +146,11 @@
             "bullets": [
               "Accessible language",
               "Evidence attached",
-              "Deterministic process"
+              "Repeatable process"
             ],
             "cta": {
               "label": "Open Foundation",
-              "href": "https://canonic-foundation.github.io",
+              "href": "magic://canonic-canonic/FOUNDATION",
               "class": "btn btn-secondary"
             }
           },
@@ -165,7 +165,7 @@
             ],
             "cta": {
               "label": "Open MAGIC",
-              "href": "https://canonic-magic.github.io",
+              "href": "magic://canonic-canonic/MAGIC",
               "class": "btn btn-secondary"
             }
           }
@@ -180,28 +180,28 @@
       "cards": [
         {
           "class": "sector",
-          "icon": "🏭",
+          "icon": "\ud83c\udfed",
           "iconClass": "sector-icon",
           "title": "VERTICALS",
           "subtitle": "14 governed domains"
         },
         {
           "class": "sector",
-          "icon": "⚖️",
+          "icon": "\u2696\ufe0f",
           "iconClass": "sector-icon",
           "title": "REGULATORY",
           "subtitle": "4 governed domains"
         },
         {
           "class": "sector",
-          "icon": "🛡️",
+          "icon": "\ud83d\udee1\ufe0f",
           "iconClass": "sector-icon",
           "title": "HORIZONTAL",
           "subtitle": "2 governed domains"
         },
         {
           "class": "sector",
-          "icon": "🧠",
+          "icon": "\ud83e\udde0",
           "iconClass": "sector-icon",
           "title": "META",
           "subtitle": "1 governed domain"
@@ -218,28 +218,28 @@
       "cards": [
         {
           "class": "sector",
-          "icon": "🏥",
+          "icon": "\ud83c\udfe5",
           "iconClass": "sector-icon",
           "title": "Medicine",
           "subtitle": "Clinical governance"
         },
         {
           "class": "sector",
-          "icon": "💰",
+          "icon": "\ud83d\udcb0",
           "iconClass": "sector-icon",
           "title": "Finance",
           "subtitle": "Economic governance"
         },
         {
           "class": "sector",
-          "icon": "🛰️",
+          "icon": "\ud83d\udef0\ufe0f",
           "iconClass": "sector-icon",
           "title": "Aerospace",
           "subtitle": "Mission governance"
         },
         {
           "class": "sector",
-          "icon": "🤖",
+          "icon": "\ud83e\udd16",
           "iconClass": "sector-icon",
           "title": "Robotics",
           "subtitle": "Action governance"
@@ -365,7 +365,7 @@
       "id": "horizontal",
       "eyebrow": "HORIZONTAL",
       "title": "Cross-Cutting Domains",
-      "description": "Horizontal domains are controls that apply everywhere: safety, security, and reliability. They are not optional and they are not “later.”",
+      "description": "Horizontal domains are controls that apply everywhere: safety, security, and reliability. They are not optional and they are not \u201clater.\u201d",
       "cards": [
         {
           "class": "card",
@@ -397,8 +397,8 @@
     {
       "id": "meta",
       "eyebrow": "META",
-      "title": "Self-Referential Governance",
-      "description": "Meta is governance of governance. It is how the taxonomy evolves without breaking the language contract.",
+      "title": "How Standards Evolve",
+      "description": "Meta is how the system updates itself safely. When industries change, the shared standards adapt without breaking what already works.",
       "feature": {
         "eyebrow": "LEARNING",
         "title": "Updates without chaos.",
@@ -406,7 +406,7 @@
         "tags": [
           "Traceable",
           "Compatible",
-          "Deterministic"
+          "Predictable"
         ]
       },
       "generated": {
@@ -426,7 +426,7 @@
       },
       {
         "label": "Open MAGIC",
-        "href": "https://canonic-magic.github.io"
+        "href": "magic://canonic-canonic/MAGIC"
       },
       {
         "label": "Try TALK",

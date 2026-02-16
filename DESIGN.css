@@ -1,4 +1,4 @@
-/* GENERATED - site=canonic-industries.github.io scope=INDUSTRIES accent=#bf5af2 */
+/* GENERATED - site=hadleylab-dexter.github.io scope=HADLEYLAB accent=#60a5fa */
 /**
  * MAGIC DESIGN — THE CANONIC FLEET DESIGN LANGUAGE
  *
@@ -48,8 +48,8 @@
     --shadow-lg: 0 24px 64px rgba(0, 0, 0, 0.6);
 
     /* ── Accent (override per scope via CANON.json) ── */
-    --accent: #bf5af2;
-    --accent-rgb: 191, 90, 242;
+    --accent: #60a5fa;
+    --accent-rgb: 96, 165, 250;
 
     /* ── Category Palette (DESIGN.md §Color System) ── */
     --kernel: #ff0088;

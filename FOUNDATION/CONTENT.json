@@ -1,7 +1,7 @@
 {
   "fleet": {
     "brand": {
-      "mark": "∩",
+      "mark": "\u2229",
       "label": "CANONIC",
       "url": "magic://canonic-canonic/FOUNDATION"
     },
@@ -24,7 +24,7 @@
       {
         "scope": "HADLEYLAB",
         "label": "Hadley Lab",
-        "url": "https://hadleylab-canonic.github.io/DEXTER/"
+        "url": "https://hadleylab-dexter.github.io"
       }
     ]
   },
@@ -95,17 +95,17 @@
       "cards": [
         {
           "class": "card",
-          "title": "📋 Contract (Rules)",
-          "text": "What is required, what is forbidden, and what “done” means. This is how you keep teams aligned and regulators calm."
+          "title": "\ud83d\udccb Contract (Rules)",
+          "text": "What is required, what is forbidden, and what \u201cdone\u201d means. This is how you keep teams aligned and regulators calm."
         },
         {
           "class": "card",
-          "title": "🎨 Design (Interface)",
+          "title": "\ud83c\udfa8 Design (Interface)",
           "text": "One visual language across every surface. Familiar UI reduces friction and makes governance feel natural, not bureaucratic."
         },
         {
           "class": "card",
-          "title": "📐 Spec (Requirements)",
+          "title": "\ud83d\udcd0 Spec (Requirements)",
           "text": "Standards become tests. Tests become a score. A score becomes a receipt your customer can verify."
         }
       ],
@@ -144,7 +144,7 @@
             "title": "Sell trust, not slides.",
             "text": "Enterprise buyers do not buy promises. They buy risk reduction. Foundation gives you a public, verifiable compliance posture that survives vendor diligence.",
             "bullets": [
-              "A single score (0–255) across checks",
+              "A single score (0\u2013255) across checks",
               "Evidence attached to every check",
               "Always up to date, not annual"
             ],
@@ -153,12 +153,12 @@
               "href": "https://hadleylab-dexter.github.io",
               "class": "btn btn-secondary"
             },
-            "footnote": "Layperson translation: “governed” means the rules are written down and the system can prove it followed them."
+            "footnote": "Layperson translation: \u201cgoverned\u201d means the rules are written down and the system can prove it followed them."
           },
           {
             "label": "Engineers",
-            "title": "Make compliance a CI gate.",
-            "text": "Instead of spreadsheets and meetings, you get deterministic checks on every commit. If it passes, it ships. If it fails, it stops.",
+            "title": "Compliance that checks itself.",
+            "text": "Instead of spreadsheets and meetings, you get automated checks on every change. If it passes, it ships. If it fails, it stops.",
             "bullets": [
               "Automated validation",
               "No ad-hoc exceptions",
@@ -198,20 +198,20 @@
         {
           "class": "q-card",
           "num": "I",
-          "title": "TRIAD",
-          "text": "Every scope declares its rules, vocabulary, and plain-language purpose. Like a passport: identity, language, intent."
+          "title": "IDENTITY",
+          "text": "Every project declares its rules, vocabulary, and plain-language purpose. Like a passport: identity, language, intent."
         },
         {
           "class": "q-card",
           "num": "II",
-          "title": "INHERITANCE",
-          "text": "Governance flows from parent to child. A regulated domain inherits constraints. A product inherits them too. No loopholes."
+          "title": "FLOW-DOWN",
+          "text": "Rules flow from top to bottom. A regulated industry sets constraints. Products built in that industry inherit them automatically. No loopholes."
         },
         {
           "class": "q-card",
           "num": "III",
-          "title": "INTROSPECTION",
-          "text": "The system checks itself. Undefined terms and missing evidence get flagged before humans have to debate them."
+          "title": "SELF-CHECK",
+          "text": "The system checks itself. Missing definitions and gaps in evidence get flagged before anyone has to argue about them."
         }
       ],
       "quote": {
@@ -239,28 +239,28 @@
           "class": "card",
           "icon": "1",
           "iconClass": "step-num",
-          "title": "✅ Certify",
-          "text": "We scan your entire organization and score every project. Certification is public, verifiable, and permanent — a trust signal your customers can check in seconds."
+          "title": "\u2705 Certify",
+          "text": "We scan your entire organization and score every project. Certification is public, verifiable, and permanent \u2014 a trust signal your customers can check in seconds."
         },
         {
           "class": "card",
           "icon": "2",
           "iconClass": "step-num",
-          "title": "🔄 Validate",
-          "text": "Automated checks run on every commit. If it passes, it ships. If it doesn’t, it stops. No exceptions, no escalation meetings, no finger-pointing."
+          "title": "\ud83d\udd04 Validate",
+          "text": "Automated checks run on every change. If it passes, it ships. If it doesn\u2019t, it stops. No exceptions, no escalation meetings, no finger-pointing."
         },
         {
           "class": "card",
           "icon": "3",
           "iconClass": "step-num",
-          "title": "🤝 Pair",
+          "title": "\ud83e\udd1d Pair",
           "text": "We match certified developers with regulated industries. The right builder for the right problem, with a verified track record that speaks for itself."
         },
         {
           "class": "card",
           "icon": "4",
           "iconClass": "step-num",
-          "title": "🏛 Govern",
+          "title": "\ud83c\udfdb Govern",
           "text": "We oversee the project to completion. Every deliverable validated. Every milestone verified. Every dollar accounted for. Governance that earns its keep."
         }
       ],
@@ -292,144 +292,144 @@
       "id": "industries",
       "eyebrow": "DOMAINS",
       "title": "21 Governed Domains",
-      "description": "14 verticals, 4 regulatory, 2 horizontal, 1 meta. Every compliance framework is a cost center — until you automate it. We turn mandatory overhead into a competitive advantage across every regulated industry.",
+      "description": "14 verticals, 4 regulatory, 2 horizontal, 1 meta. Every compliance framework is a cost center \u2014 until you automate it. We turn mandatory overhead into a competitive advantage across every regulated industry.",
       "cards": [
         {
           "class": "sector",
-          "icon": "🏥",
+          "icon": "\ud83c\udfe5",
           "iconClass": "sector-icon",
           "title": "Medicine",
           "subtitle": "HIPAA, FHIR, HL7, mCODE"
         },
         {
           "class": "sector",
-          "icon": "💰",
+          "icon": "\ud83d\udcb0",
           "iconClass": "sector-icon",
           "title": "Finance",
           "subtitle": "SOC2, PCI DSS, SOX, Basel III"
         },
         {
           "class": "sector",
-          "icon": "🛡",
+          "icon": "\ud83d\udee1",
           "iconClass": "sector-icon",
           "title": "Defense",
           "subtitle": "CMMC 2.0, FedRAMP, NIST"
         },
         {
           "class": "sector",
-          "icon": "🧬",
+          "icon": "\ud83e\uddec",
           "iconClass": "sector-icon",
           "title": "Genomics",
           "subtitle": "GA4GH, VCF 4.3, ACMG/AMP"
         },
         {
           "class": "sector",
-          "icon": "✅",
+          "icon": "\u2705",
           "iconClass": "sector-icon",
           "title": "Quality",
           "subtitle": "ISO 9001/13485, IATF 16949"
         },
         {
           "class": "sector",
-          "icon": "🕊",
+          "icon": "\ud83d\udd4a",
           "iconClass": "sector-icon",
           "title": "Religion",
-          "subtitle": "Universal D∩E∩T∩R∩O∩S"
+          "subtitle": "Universal D\u2229E\u2229T\u2229R\u2229O\u2229S"
         },
         {
           "class": "sector",
-          "icon": "🤖",
+          "icon": "\ud83e\udd16",
           "iconClass": "sector-icon",
           "title": "Robotics",
           "subtitle": "ISO 10218, ISO/TS 15066"
         },
         {
           "class": "sector",
-          "icon": "🚗",
+          "icon": "\ud83d\ude97",
           "iconClass": "sector-icon",
           "title": "Automotive",
           "subtitle": "ISO 26262, SAE J3016"
         },
         {
           "class": "sector",
-          "icon": "✈️",
+          "icon": "\u2708\ufe0f",
           "iconClass": "sector-icon",
           "title": "Aerospace",
           "subtitle": "DO-178C, AS9100D"
         },
         {
           "class": "sector",
-          "icon": "🏭",
+          "icon": "\ud83c\udfed",
           "iconClass": "sector-icon",
           "title": "Manufacturing",
           "subtitle": "IEC 62443, ISA-95"
         },
         {
           "class": "sector",
-          "icon": "⚡",
+          "icon": "\u26a1",
           "iconClass": "sector-icon",
           "title": "Energy",
           "subtitle": "NERC CIP, IEC 61850"
         },
         {
           "class": "sector",
-          "icon": "📦",
+          "icon": "\ud83d\udce6",
           "iconClass": "sector-icon",
           "title": "Logistics",
           "subtitle": "GS1, ISO 28000"
         },
         {
           "class": "sector",
-          "icon": "🌾",
+          "icon": "\ud83c\udf3e",
           "iconClass": "sector-icon",
           "title": "Agriculture",
           "subtitle": "ISO 18497, ISOBUS"
         },
         {
           "class": "sector",
-          "icon": "🎓",
+          "icon": "\ud83c\udf93",
           "iconClass": "sector-icon",
           "title": "Education",
           "subtitle": "FERPA, SCORM, xAPI"
         },
         {
           "class": "sector",
-          "icon": "⚖️",
+          "icon": "\u2696\ufe0f",
           "iconClass": "sector-icon",
           "title": "Legal",
           "subtitle": "35 USC, UCC, Securities"
         },
         {
           "class": "sector",
-          "icon": "🔗",
+          "icon": "\ud83d\udd17",
           "iconClass": "sector-icon",
           "title": "Blockchain",
           "subtitle": "DeFi Governance, DAO"
         },
         {
           "class": "sector",
-          "icon": "🔐",
+          "icon": "\ud83d\udd10",
           "iconClass": "sector-icon",
           "title": "Data",
           "subtitle": "GDPR, CCPA, LGPD"
         },
         {
           "class": "sector",
-          "icon": "🏛️",
+          "icon": "\ud83c\udfdb\ufe0f",
           "iconClass": "sector-icon",
           "title": "Government",
           "subtitle": "Federal, State, Municipal"
         },
         {
           "class": "sector",
-          "icon": "🛡️",
+          "icon": "\ud83d\udee1\ufe0f",
           "iconClass": "sector-icon",
           "title": "Safety",
           "subtitle": "DO-178C, ISO 26262, IEC 61508"
         },
         {
           "class": "sector",
-          "icon": "🔒",
+          "icon": "\ud83d\udd12",
           "iconClass": "sector-icon",
           "title": "Security",
           "subtitle": "ISO 27001, NIST 800-53"
@@ -468,25 +468,25 @@
       "cards": [
         {
           "class": "shop-card",
-          "title": "📖 The Theory",
-          "text": "The mathematical proof behind governed economics. Why validated work creates durable value — and speculation doesn’t.",
+          "title": "\ud83d\udcd6 The Theory",
+          "text": "The reasoning behind governed economics. Why validated work creates lasting value \u2014 and speculation doesn\u2019t.",
           "badge": "FREE"
         },
         {
           "class": "shop-card",
-          "title": "💎 The Economics",
+          "title": "\ud83d\udc8e The Economics",
           "text": "How the token model works. How contributors earn. How value flows from specification to product to market.",
           "badge": "FREE"
         },
         {
           "class": "shop-card",
-          "title": "📐 The Protocol",
+          "title": "\ud83d\udcd0 The Protocol",
           "text": "The complete validation protocol. 80+ compliance standards mapped to 8 dimensions. One file your team can adopt today.",
           "badge": "FREE"
         },
         {
           "class": "shop-card",
-          "title": "🗺 Industry Guides",
+          "title": "\ud83d\uddfa Industry Guides",
           "text": "Industry-specific playbooks for 21 domains including healthcare, finance, defense, robotics, automotive, aerospace, manufacturing, energy, and more. Written by practitioners, not consultants.",
           "badge": "FREE"
         }
@@ -503,7 +503,7 @@
         "tags": [
           "Work creates value",
           "Proof is portable",
-          "Standards are code"
+          "Standards are enforceable"
         ]
       }
     },

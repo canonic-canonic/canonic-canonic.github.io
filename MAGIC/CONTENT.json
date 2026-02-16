@@ -1,7 +1,7 @@
 {
   "fleet": {
     "brand": {
-      "mark": "∩",
+      "mark": "\u2229",
       "label": "CANONIC",
       "url": "magic://canonic-canonic/FOUNDATION"
     },
@@ -24,7 +24,7 @@
       {
         "scope": "HADLEYLAB",
         "label": "Hadley Lab",
-        "url": "https://hadleylab-canonic.github.io/DEXTER/"
+        "url": "https://hadleylab-dexter.github.io"
       }
     ]
   },
@@ -49,7 +49,7 @@
   "hero": {
     "badge": "BY CANON",
     "title": "Operate governed <span class=\"accent\">work</span>.",
-    "description": "MAGIC is the operational layer of CANONIC. It turns governance into shipping software: primitives, services, pricing, and a marketplace. Start free. Upgrade when you need private workspaces, commercial terms, or enterprise validation.",
+    "description": "MAGIC is the operational layer of CANONIC. It turns governance into shipping software: building blocks, services, pricing, and a marketplace. Start free. Upgrade when you need private workspaces, commercial terms, or enterprise validation.",
     "cta": [
       {
         "label": "Try TALK",
@@ -83,7 +83,7 @@
         {
           "class": "axiom-block",
           "title": "Coin = Work",
-          "text": "In the CANONIC economy, every coin is backed by validated work. Not speculation. Not sentiment. Work. You contribute, the system validates, you earn. Value flows from what you build, not what you trade.",
+          "text": "In the CANONIC economy, every coin is backed by validated work. You contribute, the system validates, you earn. Value comes from what you build, not what you trade.",
           "flow": [
             "Work",
             "Validate",
@@ -98,14 +98,14 @@
       "id": "thesis-lead",
       "quote": {
         "bold": "Distributed work is the product.",
-        "rest": "Every organization contributes. Every contribution is validated. Every validation earns. The galaxy grows one unit of work at a time."
+        "rest": "Organizations contribute. Contributions get validated. Validated work earns. The galaxy grows one delivery at a time."
       }
     },
     {
       "id": "galaxy",
       "title": "The Galaxy",
       "eyebrow": "THE PROOF",
-      "description": "Every node is a governed project. Every edge is an inheritance chain. Every color is a category. 21+ organizations. 250+ projects. 80+ compliance standards. This is what governed work looks like.",
+      "description": "Every dot is a project. Lines connect projects to the standards they follow. Colors show which industry they belong to. 21+ organizations. 250+ projects. 80+ compliance standards. This is what governed work looks like.",
       "galaxy": {
         "height": "70vh",
         "hud": true,
@@ -149,7 +149,7 @@
         }
       ],
       "cta": {
-        "label": "Full Screen Galaxy →",
+        "label": "Full Screen Galaxy \u2192",
         "href": "./MAGIC.html"
       }
     },
@@ -157,11 +157,11 @@
       "id": "primitives",
       "title": "Three Primitives. One Standard.",
       "eyebrow": "THE REASON",
-      "description": "Every node you just saw composes from three building blocks. Together they form an autonomous agent. This is the entire system.",
+      "description": "Every project in the galaxy is built from three building blocks. Together they form a complete governed agent. This is the entire system.",
       "cards": [
         {
           "class": "primitive-card",
-          "icon": "🧠",
+          "icon": "\ud83e\udde0",
           "iconGradient": [
             "#bf5af2",
             "#a78bfa"
@@ -169,7 +169,7 @@
           "title": "INTEL",
           "titleColor": "#bf5af2",
           "subtitle": "What you KNOW",
-          "text": "The intelligence layer. It reads, validates, and learns. Galaxy compliance, ledger integrity, transcript chains, people graphs — six agents. One orchestrator. Every service starts with knowledge.",
+          "text": "The knowledge layer. It reads, validates, and learns. Compliance scoring, ledger checks, conversation history, team profiles \u2014 all managed automatically. Every service starts with knowledge.",
           "badge": {
             "label": "Knowledge",
             "color": "#bf5af2"
@@ -178,7 +178,7 @@
         },
         {
           "class": "primitive-card",
-          "icon": "💬",
+          "icon": "\ud83d\udcac",
           "iconGradient": [
             "#ec4899",
             "#f472b6"
@@ -186,7 +186,7 @@
           "title": "CHAT",
           "titleColor": "#ec4899",
           "subtitle": "What you SAY",
-          "text": "Domain-specific interfaces grounded in evidence. Healthcare, legal, finance — each speaks its own language. TALK is the service. Industry is the only variable. Same architecture, different vocabulary.",
+          "text": "Industry-specific interfaces based on real data. Healthcare, legal, finance \u2014 each speaks its own language. TALK is the service. Industry is the only variable. Same platform, different vocabulary.",
           "badge": {
             "label": "Services",
             "color": "#ec4899"
@@ -200,7 +200,7 @@
         },
         {
           "class": "primitive-card",
-          "icon": "💰",
+          "icon": "\ud83d\udcb0",
           "iconGradient": [
             "#ff9f0a",
             "#fbbf24"
@@ -208,7 +208,7 @@
           "title": "COIN",
           "titleColor": "#ff9f0a",
           "subtitle": "What you DO",
-          "text": "The value layer. Every unit of work is validated and compensated. Coin equals work. No speculation. Contribute compute. Crowdsource knowledge. Build together. Get paid for real work.",
+          "text": "The value layer. Every unit of work is validated and compensated. Coin equals work. Contribute compute, share knowledge, build together, and get paid for what you actually deliver.",
           "badge": {
             "label": "Commerce",
             "color": "#ff9f0a"
@@ -222,8 +222,8 @@
       ],
       "banner": {
         "eyebrow": "CANONIC GOVERNANCE",
-        "title": "255 = Full Compliance = MAGIC",
-        "text": "Eight compliance checks. Score 0–255. When all pass, your project reaches full compliance. That’s MAGIC.",
+        "title": "When all 8 checks pass, you\u2019re certified.",
+        "text": "Your project is scored across eight compliance dimensions, from 0 to 255. A perfect score means full certification. That\u2019s MAGIC.",
         "badges": [
           {
             "label": "INTEL",
@@ -274,7 +274,7 @@
       "id": "compositions",
       "title": "Services Compose Primitives",
       "eyebrow": "HOW SERVICES WORK",
-      "description": "Three primitives compose into products. Here is the simple translation: INTEL is what you know (validated knowledge), CHAT is how you deliver it (interfaces), and COIN is how you account for it (work-backed value).",
+      "description": "Three building blocks compose into products. INTEL is what you know (validated knowledge), CHAT is how you deliver it (interfaces), and COIN is how you account for it (work-backed value).",
       "table": {
         "headers": [
           "Service",
@@ -288,22 +288,22 @@
         ],
         "rows": [
           [
-            "💬 TALK",
+            "\ud83d\udcac TALK",
             "CHAT + INTEL",
             "A governed assistant that explains itself and cites its sources"
           ],
           [
-            "🔒 VAULT",
+            "\ud83d\udd12 VAULT",
             "COIN + INTEL",
             "Private storage and policy: keep secrets secret, publish only what is safe"
           ],
           [
-            "🛒 SHOP",
+            "\ud83d\uded2 SHOP",
             "COIN + INTEL + CHAT",
             "Sell governed artifacts with clear terms and a consistent interface"
           ],
           [
-            "🤖 AGENT",
+            "\ud83e\udd16 AGENT",
             "INTEL + CHAT + COIN",
             "Autonomous systems that act inside governed boundaries"
           ]
@@ -318,7 +318,7 @@
       "cards": [
         {
           "class": "primitive-card",
-          "icon": "🏢",
+          "icon": "\ud83c\udfe2",
           "iconGradient": [
             "#00ff88",
             "#2997ff"
@@ -330,7 +330,7 @@
         },
         {
           "class": "primitive-card",
-          "icon": "🧭",
+          "icon": "\ud83e\udded",
           "iconGradient": [
             "#bf5af2",
             "#a78bfa"
@@ -338,11 +338,11 @@
           "title": "Validate",
           "titleColor": "#bf5af2",
           "subtitle": "8 dimensions",
-          "text": "Eight questions. Eighty standards. MAGIC scores your work against real compliance frameworks — automatically."
+          "text": "Eight questions. Eighty standards. MAGIC scores your work against real compliance frameworks \u2014 automatically."
         },
         {
           "class": "primitive-card",
-          "icon": "🎯",
+          "icon": "\ud83c\udfaf",
           "iconGradient": [
             "#2997ff",
             "#60a5fa"
@@ -350,11 +350,11 @@
           "title": "Comply",
           "titleColor": "#2997ff",
           "subtitle": "Earn your tier",
-          "text": "Your compliance score grows with every contribution. Full compliance unlocks full commerce. The galaxy rewards real work."
+          "text": "Your compliance score grows with every contribution. Full compliance unlocks full commerce. Higher scores mean more opportunities."
         },
         {
           "class": "primitive-card",
-          "icon": "💰",
+          "icon": "\ud83d\udcb0",
           "iconGradient": [
             "#ff9f0a",
             "#fbbf24"
@@ -362,7 +362,7 @@
           "title": "Earn",
           "titleColor": "#ff9f0a",
           "subtitle": "Coin = Work",
-          "text": "Every validated contribution earns. Distribute compute. Crowdsource knowledge. Build together. Get paid."
+          "text": "Every validated contribution earns. Share compute, contribute knowledge, build together, and get paid."
         }
       ]
     },
@@ -370,7 +370,7 @@
       "id": "surface",
       "title": "Surface",
       "eyebrow": "PLATFORM",
-      "description": "The platform lane: toolchain + surfaces. Governed inputs. Deterministic outputs.",
+      "description": "The platform layer: toolchain and surfaces. Governed inputs, reliable outputs.",
       "generated": {
         "depth": 2,
         "source": "canonic-canonic/MAGIC/SURFACE",
@@ -550,12 +550,12 @@
     {
       "id": "communities",
       "title": "Learning Communities",
-      "eyebrow": "WHO’S BUILDING",
+      "eyebrow": "WHO\u2019S BUILDING",
       "description": "Communities are how the ecosystem compounds: people learn together, publish governed artifacts, and ship products that buyers can trust.",
       "cards": [
         {
           "class": "primitive-card",
-          "icon": "🧬",
+          "icon": "\ud83e\uddec",
           "iconGradient": [
             "#ec4899",
             "#f472b6"
@@ -563,7 +563,7 @@
           "title": "Healthcare",
           "titleColor": "#ec4899",
           "subtitle": "Clinical AI",
-          "text": "Radiologists training models. Oncologists validating protocols. Clinicians building the future of medicine — together.",
+          "text": "Radiologists training models. Oncologists validating protocols. Clinicians building the future of medicine \u2014 together.",
           "badge": {
             "label": "LIVE",
             "color": "#ec4899"
@@ -571,7 +571,7 @@
         },
         {
           "class": "primitive-card",
-          "icon": "⚡",
+          "icon": "\u26a1",
           "iconGradient": [
             "#ff9f0a",
             "#fbbf24"
@@ -587,7 +587,7 @@
         },
         {
           "class": "primitive-card",
-          "icon": "📚",
+          "icon": "\ud83d\udcda",
           "iconGradient": [
             "#bf5af2",
             "#a78bfa"
@@ -595,7 +595,7 @@
           "title": "Knowledge",
           "titleColor": "#bf5af2",
           "subtitle": "Crowdsourced Intelligence",
-          "text": "Experts annotating data. Teams curating knowledge. Communities teaching machines — and each other.",
+          "text": "Experts annotating data. Teams curating knowledge. Communities teaching machines \u2014 and each other.",
           "badge": {
             "label": "BETA",
             "color": "#bf5af2"
@@ -606,8 +606,8 @@
     {
       "id": "marketplace",
       "title": "The Marketplace",
-      "eyebrow": "WHAT’S AVAILABLE",
-      "description": "A single catalog of governed applications. Not “app store vibes” — actual verifiable constraints and clear access terms.",
+      "eyebrow": "WHAT\u2019S AVAILABLE",
+      "description": "A single catalog of governed applications. Every listing has verifiable compliance and clear access terms.",
       "table": {
         "headers": [
           "Category",
@@ -621,22 +621,22 @@
         ],
         "rows": [
           [
-            "🔧 Platform",
+            "\ud83d\udd27 Platform",
             "Agent, Knowledge, Evolution",
             "Free"
           ],
           [
-            "💼 Productivity",
+            "\ud83d\udcbc Productivity",
             "Email, Calendar, Social, Analytics",
             "Business"
           ],
           [
-            "🏥 Specialist",
+            "\ud83c\udfe5 Specialist",
             "MammoChat, PsychChat, Genomics, InvestorChat",
             "Enterprise"
           ],
           [
-            "🏭 Industries",
+            "\ud83c\udfed Industries",
             "Robotics, Automotive, Aerospace, Manufacturing, Energy, Logistics, Agriculture, Education",
             "Enterprise"
           ]
@@ -647,7 +647,7 @@
   "cta": {
     "class": "cta",
     "title": "Build the Future",
-    "description": "Join the galaxy. Distribute work. Earn through contribution. Three primitives. Infinite services. It’s MAGIC.",
+    "description": "Join the galaxy. Contribute work. Earn through validated delivery. Three building blocks. Unlimited services. That\u2019s MAGIC.",
     "buttons": [
       {
         "label": "Start for Free",
