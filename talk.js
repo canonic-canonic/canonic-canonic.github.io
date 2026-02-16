@@ -407,13 +407,23 @@ const TALK = {
         var msgContainer = document.getElementById('talkMessages');
 
         try {
+            // Ensure live governed UI data is available to the model even if the server
+            // does not explicitly forward `config` into the LLM context.
+            var sys = this.system;
+            try {
+                if (config && config.trials) {
+                    sys += '\n\nLIVE_TRIALS_CONTEXT (from ClinicalTrials.gov panel, governed):\n' + JSON.stringify(config.trials);
+                    sys += '\n\nRules: Treat LIVE_TRIALS_CONTEXT as the only trial list you can see right now. If the user asks for a specific institution/location and the context is not filtered, ask for ZIP/city/radius and explain the limitation.';
+                }
+            } catch {}
+
             var res = await fetch(this.api, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     message: text,
                     history: this.messages.slice(-10),
-                    system: this.system,
+                    system: sys,
                     scope: this.scope,
                     config: config
                 })
