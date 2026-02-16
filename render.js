@@ -19,25 +19,27 @@ var RENDER = (function () {
     var canon = null;
     var content = null;
 
+    function fatal(msg) {
+        var m = String(msg || 'RENDER fatal');
+        try { console.error('[RENDER] ' + m); } catch (_) {}
+        try {
+            document.body.innerHTML =
+                '<div class="container" style="padding:calc(var(--header-offset) + 24px) 24px 80px;max-width:980px;">' +
+                '<div class="card" style="padding:22px;border:1px solid rgba(255,69,58,0.35);">' +
+                '<div style="font-family:var(--mono);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,69,58,0.95);">STATE MACHINE FAIL</div>' +
+                '<div style="margin-top:10px;font-size:18px;font-weight:800;">Invalid surface</div>' +
+                '<div class="muted" style="margin-top:8px;font-family:var(--mono);font-size:12px;white-space:pre-wrap;">' + m + '</div>' +
+                '</div></div>';
+        } catch (_) {}
+        throw new Error(m);
+    }
+
     // ── LOAD ──────────────────────────────────────────────
     async function loadJSON(path) {
         var sep = path.indexOf('?') === -1 ? '?' : '&';
         var res = await fetch(path + sep + 'v=' + Date.now());
         if (!res.ok) throw new Error(path + ' ' + res.status);
         return res.json();
-    }
-
-    async function loadJSONFallback(primaryPath, fallbackPath) {
-        try {
-            return await loadJSON(primaryPath);
-        } catch (e) {
-            // Only fall back on "missing" (404). Preserve other failures (parse, 500, etc).
-            var msg = String((e && e.message) ? e.message : e);
-            if (fallbackPath && msg.indexOf(' 404') !== -1) {
-                return await loadJSON(fallbackPath);
-            }
-            throw e;
-        }
     }
 
     function fmtNum(n) {
@@ -104,6 +106,63 @@ var RENDER = (function () {
         }).catch(function () {
             el.innerHTML =
                 '<div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--fg-tertiary);">Econ · Public</div>' +
+                '<div style="margin-top:10px;font-family:var(--mono);font-size:12px;color:var(--fg-tertiary);">missing: ' + src + '</div>';
+        });
+    }
+
+    function renderWalletPanel(containerId, spec) {
+        var el = document.getElementById(containerId);
+        if (!el) return;
+
+        var title = (spec && spec.title) ? spec.title : 'Wallet';
+        var src = (spec && spec.src) ? spec.src : './wallet.json';
+
+        el.innerHTML =
+            '<div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--fg-tertiary);">Wallet · Public</div>' +
+            '<div style="font-size:18px;font-weight:800;margin-top:6px;">' + title + '</div>' +
+            '<div class="muted" style="margin-top:10px;">Loading ' + src + '...</div>';
+
+        loadJSON(src).then(function (data) {
+            var w = (data && data.wallet) ? data.wallet : {};
+            var totals = w.totals || {};
+            var updated = w.updated_at || '';
+
+            var html = '';
+            html += '<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex-wrap:wrap;">';
+            html += '<div>';
+            html += '<div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--fg-tertiary);">COIN = WORK</div>';
+            html += '<div style="font-size:18px;font-weight:800;margin-top:6px;">' + title + '</div>';
+            html += '<div class="muted" style="margin-top:8px;font-size:12px;">Public rollup. No private purchaser identity published.</div>';
+            html += '</div>';
+            html += '<div style="font-family:var(--mono);font-size:11px;color:var(--fg-tertiary);text-align:right;min-width:220px;">';
+            if (updated) html += '<div>updated: ' + updated + '</div>';
+            html += '</div>';
+            html += '</div>';
+
+            html += '<div class="stats" style="margin-top:14px;">';
+            html += '<div class="stat"><div class="stat-value">' + fmtNum(w.events || 0) + '</div><div class="stat-label">events</div></div>';
+            html += '<div class="stat"><div class="stat-value">' + fmtNum(w.balance || 0) + '</div><div class="stat-label">balance</div></div>';
+            html += '<div class="stat"><div class="stat-value">' + fmtNum(totals.SALE || 0) + '</div><div class="stat-label">sales</div></div>';
+            html += '<div class="stat"><div class="stat-value">' + fmtNum(totals.net || 0) + '</div><div class="stat-label">net</div></div>';
+            html += '</div>';
+
+            var products = w.products || [];
+            if (products.length) {
+                html += '<table class="comp-table" style="margin-top:16px;">';
+                html += '<thead><tr><th>product</th><th style="text-align:right;">price</th></tr></thead><tbody>';
+                products.slice(0, 24).forEach(function (p) {
+                    if (!p) return;
+                    var name = p.name || p.id || 'product';
+                    var price = p.price_coin != null ? (String(p.price_coin) + ' COIN') : (p.price_usd != null ? ('$' + String(p.price_usd)) : '');
+                    html += '<tr><td style="font-family:var(--mono);font-size:12px;">' + name + '</td><td style="text-align:right;font-family:var(--mono);">' + price + '</td></tr>';
+                });
+                html += '</tbody></table>';
+            }
+
+            el.innerHTML = html;
+        }).catch(function () {
+            el.innerHTML =
+                '<div style="font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--fg-tertiary);">Wallet · Public</div>' +
                 '<div style="margin-top:10px;font-family:var(--mono);font-size:12px;color:var(--fg-tertiary);">missing: ' + src + '</div>';
         });
     }
@@ -184,72 +243,13 @@ var RENDER = (function () {
             .replace(/\b\w/g, function (c) { return c.toUpperCase(); });
     }
 
-    function deriveSecondaryNav(contentData, canonData) {
-        var scope = String((canonData && canonData.scope) ? canonData.scope : '').toUpperCase();
-        var items = [];
-        var sections = contentData.sections || [];
-
-        // HADLEYLAB: prefer explicit nav order from CONTENT.json (conversion + section flow).
-        // Fallback: show first GOV level with plural axioms; otherwise descend one level.
-        // Axioms are represented by sections that have generated.children (gov-derived children list).
-        if (scope === 'HADLEYLAB') {
-            if (contentData.nav && contentData.nav.length) {
-                return contentData.nav.map(function (n) {
-                    return { label: n.label, href: n.href, type: 'section' };
-                });
-            }
-            var axiomSections = [];
-            sections.forEach(function (sec) {
-                var g = sec && sec.generated ? sec.generated : null;
-                if (!sec || !sec.id || !g || !g.children || !g.children.length) return;
-                axiomSections.push(sec);
-            });
-
-            if (axiomSections.length > 1) {
-                axiomSections.forEach(function (sec) {
-                    items.push({
-                        label: (sec.title || labelFromId(sec.id)).toUpperCase(),
-                        href: '#' + sec.id,
-                        type: 'gov'
-                    });
-                });
-            } else if (axiomSections.length === 1) {
-                (axiomSections[0].generated.children || []).forEach(function (c) {
-                    var lbl = String((c && c.label) ? c.label : '').toUpperCase();
-                    if (!lbl) return;
-                    items.push({
-                        label: lbl,
-                        href: '/' + lbl + '/',
-                        type: 'gov'
-                    });
-                });
-            }
-        }
-
-        // Default: use generated sections as in-page anchors.
-        if (!items.length) {
-            sections.forEach(function (sec) {
-                if (!sec || !sec.id || !sec.generated) return;
-                items.push({
-                    label: sec.title || labelFromId(sec.id),
-                    href: '#' + sec.id,
-                    type: 'section'
-                });
-            });
-        }
-
-        if (!items.length && contentData.nav && contentData.nav.length) {
-            return contentData.nav.map(function (n) {
-                return { label: n.label, href: n.href, type: 'section' };
-            });
-        }
-
-        var seen = Object.create(null);
-        return items.filter(function (item) {
-            if (!item || !item.href || seen[item.href]) return false;
-            seen[item.href] = true;
-            return true;
-        }).slice(0, 10);
+    function requireNav(contentData) {
+        var nav = (contentData && contentData.nav) ? contentData.nav : null;
+        if (!nav || !nav.length) fatal('CONTENT.json missing nav (state machine: no fallbacks)');
+        nav.forEach(function (n, i) {
+            if (!n || !n.label || !n.href) fatal('CONTENT.json nav[' + i + '] missing label/href');
+        });
+        return nav;
     }
 
     function renderNav(scopeName, scopeIcon, navItems) {
@@ -260,10 +260,6 @@ var RENDER = (function () {
         html += '<div style="display:flex;align-items:center;gap:10px;">';
         if (scopeIcon) {
             var iconStyle = 'font-size:18px;color:var(--accent);line-height:1;';
-            // HadleyLab mark: rotate ☲ 90° to form the inverse-H monogram.
-            if (String(scopeName || '').toUpperCase() === 'HADLEYLAB' && String(scopeIcon) === '\u2632') {
-                iconStyle += 'display:inline-block;transform:rotate(90deg);transform-origin:50% 50%;';
-            }
             html += '<span style="' + iconStyle + '">' + scopeIcon + '</span>';
         }
         html += '<span style="font-family:var(--mono);font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--dim);">' +
@@ -305,8 +301,8 @@ var RENDER = (function () {
             return;
         }
 
-        // Standard hero
-        var html = '';
+        // Standard hero (must carry .hero padding so fixed eco-bar + nav never block content)
+        var html = '<div class="hero">';
         if (hero.badge) html += '<div class="hero-badge">' + hero.badge + '</div>';
         html += '<h1 class="gradient-text">' + hero.title + '</h1>';
         if (hero.subtitle) html += '<p class="subtitle">' + hero.subtitle + '</p>';
@@ -321,6 +317,7 @@ var RENDER = (function () {
             });
             html += '</div>';
         }
+        html += '</div>';
         el.innerHTML = html;
     }
 
@@ -597,11 +594,16 @@ var RENDER = (function () {
             if (sec.title) html += '<h2 class="section-title text-center">' + sec.title + '</h2>';
             if (sec.description) html += '<p class="description">' + sec.description + '</p>';
 
-            // Econ panel (public-safe JSON: e.g. ./econ.json)
+            // Econ + wallet panels (public-safe JSON: e.g. ./econ.json, ./wallet.json)
             var econId = null;
             if (sec.econ) {
                 econId = 'econ-' + sec.id;
                 html += '<div id="' + econId + '" class="card" style="margin-top:22px;padding:18px;"></div>';
+            }
+            var walletId = null;
+            if (sec.wallet) {
+                walletId = 'wallet-' + sec.id;
+                html += '<div id="' + walletId + '" class="card" style="margin-top:14px;padding:18px;"></div>';
             }
 
             // Cards grid
@@ -748,6 +750,9 @@ var RENDER = (function () {
 
             if (sec.econ && econId) {
                 renderEconPanel(econId, sec.econ);
+            }
+            if (sec.wallet && walletId) {
+                renderWalletPanel(walletId, sec.wallet);
             }
         });
     }
@@ -1054,17 +1059,21 @@ var RENDER = (function () {
 
     // ── INIT ──────────────────────────────────────────────
     async function init() {
+        var results;
         try {
-            var results = await Promise.all([
-                loadJSONFallback('./CANON.json', '/CANON.json'),
-                loadJSONFallback('./CONTENT.json', '/CONTENT.json')
+            results = await Promise.all([
+                loadJSON('./CANON.json'),
+                loadJSON('./CONTENT.json')
             ]);
-            canon = results[0];
-            content = results[1];
         } catch (e) {
-            console.warn('[RENDER] ' + e.message);
-            return;
+            fatal((e && e.message) ? e.message : e);
         }
+        canon = results[0];
+        content = results[1];
+
+        // State machine: required governed fields.
+        if (!canon || !canon.scope) fatal('CANON.json missing scope');
+        requireNav(content);
 
         // Apply accent from governance
         applyAccent(canon.accent);
@@ -1079,8 +1088,7 @@ var RENDER = (function () {
 
         // Render from CONTENT.json
         if (content.fleet) renderEcoBar(content.fleet, canon.scope);
-        var secondaryNav = deriveSecondaryNav(content, canon);
-        renderNav(canon.scope || canon.name, canon.navIcon, secondaryNav);
+        renderNav(canon.scope || canon.name, canon.navIcon, content.nav);
         bindHeaderOffsetSync();
         // Compute offsets after nav is in DOM; re-run after layout settles.
         syncHeaderOffsets();

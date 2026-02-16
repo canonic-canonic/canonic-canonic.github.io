@@ -49,6 +49,32 @@
       }
     ]
   },
+  "nav": [
+    {
+      "label": "Overview",
+      "href": "#overview"
+    },
+    {
+      "label": "Strata",
+      "href": "#strata"
+    },
+    {
+      "label": "Verticals",
+      "href": "#verticals"
+    },
+    {
+      "label": "Regulatory",
+      "href": "#regulatory"
+    },
+    {
+      "label": "Horizontal",
+      "href": "#horizontal"
+    },
+    {
+      "label": "Meta",
+      "href": "#meta"
+    }
+  ],
   "sections": [
     {
       "id": "axiom-lead",
