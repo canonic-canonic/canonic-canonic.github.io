@@ -30,9 +30,9 @@
   },
   "hero": {
     "badge": "INDUSTRIES",
-    "title": "Governed Industries.",
-    "subtitle": "Industry is variable. Governance is constant.",
-    "description": "21 domains. 4 strata. One governed taxonomy. Services compose INTEL + CHAT + COIN against industry constraints without rewriting the language.",
+    "title": "One platform. Many <span class=\"accent\">industries</span>.",
+    "subtitle": "Industry constraints change. The architecture stays the same.",
+    "description": "CANONIC Industries is the map: a governed taxonomy of domains and constraints. You choose the industry. CANONIC enforces the rules. Services compose without rewriting the system every time.",
     "cta": [
       {
         "label": "Try TALK",
@@ -40,11 +40,11 @@
         "talk": true
       },
       {
-        "label": "View Strata",
+        "label": "See The Strata",
         "href": "#strata"
       },
       {
-        "label": "See Live Proof",
+        "label": "See Live Proof (Hadley Lab)",
         "href": "https://hadleylab-dexter.github.io"
       }
     ]
@@ -53,38 +53,104 @@
     {
       "id": "axiom-lead",
       "quote": {
-        "bold": "INDUSTRY is the variable.",
-        "rest": "SERVICE = PRIMITIVE(s) + INDUSTRY."
+        "bold": "Industry sets the boundaries.",
+        "rest": "Services stay composable because the rules are governed, not reinvented."
       }
     },
     {
       "id": "overview",
       "eyebrow": "THESIS",
       "title": "One Taxonomy. Many Domains.",
-      "description": "INDUSTRIES organizes governed domains into strata so every service can compose INTEL + CHAT + COIN against a stable governance language.",
+      "description": "This is the part most platforms skip: the industry layer. We model constraints so products behave correctly by default, and buyers can understand what changes when you move domains.",
       "cards": [
         {
           "class": "card",
-          "title": "Stable Language",
-          "text": "The primitives and governance checks stay fixed while industry constraints vary by scope."
+          "title": "Plain-English Constraints",
+          "text": "Each domain spells out what is allowed, required, and risky, in words a buyer can read."
         },
         {
           "class": "card",
           "title": "Composable Services",
-          "text": "Service behavior is derived from scope + standards, not ad-hoc vertical rewrites."
+          "text": "The same primitives (knowledge, chat, ledger) combine into services across domains."
         },
         {
           "class": "card",
-          "title": "Deterministic Governance",
-          "text": "Every domain links back to governed CANON artifacts for traceable constraints."
+          "title": "Audit-Friendly",
+          "text": "Every domain maps back to governed artifacts so diligence is faster and cheaper."
         }
-      ]
+      ],
+      "switcher": {
+        "kicker": "WHAT CHANGES BY DOMAIN",
+        "ariaLabel": "Industry examples",
+        "tabs": [
+          {
+            "label": "Medicine",
+            "title": "Patient safety and clinical evidence.",
+            "text": "In medicine, the system must explain itself and respect privacy. \u201cGood enough\u201d is not acceptable when decisions affect care.",
+            "bullets": [
+              "Privacy and consent",
+              "Clinical terminology explained",
+              "Evidence and citations"
+            ],
+            "cta": {
+              "label": "Open MammoChat",
+              "href": "https://hadleylab-dexter.github.io/CHAT/MAMMOCHAT/",
+              "class": "btn btn-secondary"
+            }
+          },
+          {
+            "label": "Finance",
+            "title": "Controls, policy, and accountability.",
+            "text": "In finance, the system must avoid advice claims and be explicit about assumptions. The output needs guardrails.",
+            "bullets": [
+              "Clear boundaries",
+              "Audit logs",
+              "Policy-first UI"
+            ],
+            "cta": {
+              "label": "Open FinChat",
+              "href": "https://hadleylab-dexter.github.io/CHAT/FINCHAT/",
+              "class": "btn btn-secondary"
+            }
+          },
+          {
+            "label": "Government",
+            "title": "Transparency and public accountability.",
+            "text": "Public systems must be explainable to non-experts. Governance is how you keep the system legible under scrutiny.",
+            "bullets": [
+              "Accessible language",
+              "Evidence attached",
+              "Deterministic process"
+            ],
+            "cta": {
+              "label": "Open Foundation",
+              "href": "https://canonic-foundation.github.io",
+              "class": "btn btn-secondary"
+            }
+          },
+          {
+            "label": "Defense",
+            "title": "High assurance, fewer surprises.",
+            "text": "Defense environments require disciplined boundaries: what a system can do, what it cannot do, and how it proves it followed the rules.",
+            "bullets": [
+              "Strong constraints",
+              "Repeatable validation",
+              "Clear provenance"
+            ],
+            "cta": {
+              "label": "Open MAGIC",
+              "href": "https://canonic-magic.github.io",
+              "class": "btn btn-secondary"
+            }
+          }
+        ]
+      }
     },
     {
       "id": "strata",
       "eyebrow": "STRATA",
       "title": "4 Governed Strata",
-      "description": "14 VERTICALS, 4 REGULATORY, 2 HORIZONTAL, 1 META.",
+      "description": "Strata are the simplest way to explain the world: vertical domains (what you build), regulatory domains (rules you must follow), horizontal domains (controls everyone needs), and meta (how the system evolves).",
       "cards": [
         {
           "class": "sector",
@@ -223,27 +289,27 @@
       "id": "regulatory",
       "eyebrow": "REGULATORY",
       "title": "4 Regulatory Domains",
-      "description": "Cross-domain rule sets: statutes, data privacy, public-sector policy, and on-chain governance. These scopes define what is permitted, required, and prohibited.",
+      "description": "Regulatory domains are the rulebooks. They define what you must do, what you must not do, and what you must be able to prove.",
       "cards": [
         {
           "class": "card",
           "title": "LAW",
-          "text": "Statutory and legal constraints mapped to governance dimensions."
+          "text": "Legal constraints and process literacy, translated into actionable rules."
         },
         {
           "class": "card",
           "title": "DATA",
-          "text": "Data governance and privacy compliance surfaces."
+          "text": "Privacy and data handling policies. Who can see what, and why."
         },
         {
           "class": "card",
           "title": "GOVERNMENT",
-          "text": "Public-sector policy and operational constraints."
+          "text": "Public-sector operational requirements: transparency, procurement reality, audit trails."
         },
         {
           "class": "card",
           "title": "BLOCKCHAIN",
-          "text": "On-chain governance and distributed compliance models."
+          "text": "Distributed governance models where verification is part of the protocol."
         }
       ],
       "columns": "repeat(2, minmax(260px, 1fr))",
@@ -275,17 +341,17 @@
       "id": "horizontal",
       "eyebrow": "HORIZONTAL",
       "title": "Cross-Cutting Domains",
-      "description": "Constraints that apply everywhere. Safety and security are not verticals; they are mandatory overlays across every industry.",
+      "description": "Horizontal domains are controls that apply everywhere: safety, security, and reliability. They are not optional and they are not \u201clater.\u201d",
       "cards": [
         {
           "class": "card",
           "title": "SAFETY",
-          "text": "Operational safety constraints across all vertical deployments."
+          "text": "Rules that prevent harm when systems are deployed in the real world."
         },
         {
           "class": "card",
           "title": "SECURITY",
-          "text": "Security posture constraints across all services and runtimes."
+          "text": "Rules that protect systems and data against misuse, theft, and compromise."
         }
       ],
       "columns": "repeat(2, minmax(260px, 1fr))",
@@ -309,15 +375,15 @@
       "id": "meta",
       "eyebrow": "META",
       "title": "Self-Referential Governance",
-      "description": "Governance of governance. INDUSTRIES is introspectable: terms, standards, and mappings are validated against the language that defines them.",
+      "description": "Meta is governance of governance. It is how the taxonomy evolves without breaking the language contract.",
       "feature": {
         "eyebrow": "LEARNING",
-        "title": "Governance that updates from governed evidence.",
-        "text": "META captures how INDUSTRIES evolves without breaking the language contract.",
+        "title": "Updates without chaos.",
+        "text": "When standards change, META captures the change as governed evidence so services can update safely.",
         "tags": [
-          "INTEL",
-          "CHAT",
-          "COIN"
+          "Traceable",
+          "Compatible",
+          "Deterministic"
         ]
       },
       "generated": {
@@ -329,22 +395,23 @@
     }
   ],
   "cta": {
-    "title": "Explore <span style=\"color:var(--accent)\">the Fleet</span>",
-    "description": "Open Foundation for language, MAGIC for operations, and Hadley Lab for live service proof.",
+    "title": "Build for your industry. <span style=\"color:var(--accent)\">Ship</span> with proof.",
+    "description": "Open the map, then see the product surface in Hadley Lab and the operational layer in MAGIC.",
     "buttons": [
       {
-        "label": "Open Foundation",
-        "href": "https://canonic-foundation.github.io"
+        "label": "Open Hadley Lab",
+        "href": "https://hadleylab-dexter.github.io"
       },
       {
         "label": "Open MAGIC",
         "href": "https://canonic-magic.github.io"
       },
       {
-        "label": "Open Hadley Lab",
-        "href": "https://hadleylab-dexter.github.io"
+        "label": "Try TALK",
+        "href": "#",
+        "talk": true
       }
     ]
   },
-  "footerTagline": "CANONIC Industries | Governed Taxonomy"
+  "footerTagline": "CANONIC Industries | The governed domain map."
 }

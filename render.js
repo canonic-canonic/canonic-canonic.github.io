@@ -354,10 +354,156 @@ var RENDER = (function () {
         }
     }
 
+    // ── SWITCHER (interactive narrative tabs) ────────────
+    function renderSwitcher(sw, secId) {
+        if (!sw) return '';
+        var tabs = sw.tabs || [];
+        if (!tabs.length) return '';
+
+        var id = 'switcher-' + String(secId || 'x');
+        var html = '<div class="switcher" data-switcher="' + id + '"' + (sw.default != null ? ' data-default="' + sw.default + '"' : '') + '>';
+        if (sw.kicker) html += '<div class="switcher-kicker">' + sw.kicker + '</div>';
+
+        html += '<div class="switcher-tabs" role="tablist" aria-label="' + (sw.ariaLabel || 'Explore') + '">';
+        tabs.forEach(function (t, i) {
+            var active = i === 0 ? ' active' : '';
+            html += '<button type="button" class="switcher-tab' + active + '" role="tab" aria-selected="' + (i === 0 ? 'true' : 'false') + '" data-tab="' + i + '">' + (t.label || ('Tab ' + (i + 1))) + '</button>';
+        });
+        html += '</div>';
+
+        html += '<div class="switcher-panels">';
+        tabs.forEach(function (t, i) {
+            html += '<div class="switcher-panel"' + (i === 0 ? '' : ' hidden') + ' role="tabpanel" data-panel="' + i + '">';
+            html += '<div class="switcher-copy">';
+            if (t.title) html += '<h3>' + t.title + '</h3>';
+            if (t.text) html += '<p>' + t.text + '</p>';
+            if (t.bullets && t.bullets.length) {
+                html += '<ul class="switcher-bullets">';
+                t.bullets.forEach(function (b) { html += '<li>' + b + '</li>'; });
+                html += '</ul>';
+            }
+            if (t.cta) {
+                var cls = t.cta.class || 'btn btn-secondary';
+                if (cls.indexOf('btn') !== 0) cls = 'btn ' + cls;
+                var onclick = t.cta.talk ? ' onclick="TALK.open();return false"' : '';
+                html += '<div style="margin-top:14px;"><a href="' + (t.cta.href || '#') + '" class="' + cls + '"' + onclick + '>' + t.cta.label + '</a></div>';
+            }
+            if (t.footnote) html += '<div class="switcher-footnote">' + t.footnote + '</div>';
+            html += '</div>';
+
+            // Lightweight “cool graphic”: optional inline SVG or fallback diagram.
+            html += '<div class="switcher-graphic">';
+            if (t.graphic) {
+                html += t.graphic;
+            } else {
+                html += '<svg viewBox="0 0 420 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram">';
+                html += '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="rgba(var(--accent-rgb,59,130,246),0.9)"/><stop offset="1" stop-color="rgba(var(--accent-rgb,59,130,246),0.2)"/></linearGradient></defs>';
+                html += '<rect x="0" y="0" width="420" height="240" rx="16" fill="rgba(255,255,255,0.02)"/>';
+                html += '<path d="M60 170 C140 90, 210 90, 290 170" stroke="rgba(var(--accent-rgb,59,130,246),0.55)" stroke-width="2.5" fill="none"/>';
+                html += '<path d="M130 70 C180 40, 240 40, 290 70" stroke="rgba(255,255,255,0.18)" stroke-width="2" fill="none"/>';
+                html += '<circle cx="60" cy="170" r="18" fill="rgba(var(--accent-rgb,59,130,246),0.18)" stroke="rgba(var(--accent-rgb,59,130,246),0.6)"/>';
+                html += '<circle cx="210" cy="70" r="18" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.18)"/>';
+                html += '<circle cx="360" cy="170" r="18" fill="url(#g)" stroke="rgba(var(--accent-rgb,59,130,246),0.65)"/>';
+                html += '<text x="60" y="176" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.7)" font-family="var(--mono)">CANON</text>';
+                html += '<text x="210" y="76" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.7)" font-family="var(--mono)">MAGIC</text>';
+                html += '<text x="360" y="176" text-anchor="middle" font-size="11" fill="rgba(0,0,0,0.75)" font-family="var(--mono)">RUNTIME</text>';
+                html += '</svg>';
+            }
+            html += '</div>';
+
+            html += '</div>';
+        });
+        html += '</div></div>';
+        return html;
+    }
+
+    function bindSwitchers(root) {
+        try {
+            var nodes = (root || document).querySelectorAll('[data-switcher]');
+            nodes.forEach(function (sw) {
+                if (sw.__bound) return;
+                sw.__bound = true;
+
+                var buttons = sw.querySelectorAll('.switcher-tab');
+                var panels = sw.querySelectorAll('.switcher-panel');
+                var def = parseInt(sw.getAttribute('data-default') || '0', 10);
+                if (!isFinite(def) || def < 0) def = 0;
+                if (def >= buttons.length) def = 0;
+
+                function setActive(idx) {
+                    buttons.forEach(function (b, i) {
+                        var on = i === idx;
+                        b.classList.toggle('active', on);
+                        b.setAttribute('aria-selected', on ? 'true' : 'false');
+                    });
+                    panels.forEach(function (p, i) {
+                        var on = i === idx;
+                        p.hidden = !on;
+                        p.classList.toggle('active', on);
+                    });
+                }
+
+                setActive(def);
+
+                buttons.forEach(function (b) {
+                    b.addEventListener('click', function () {
+                        var idx = parseInt(b.getAttribute('data-tab') || '0', 10);
+                        if (!isFinite(idx)) idx = 0;
+                        setActive(idx);
+                    });
+                });
+            });
+        } catch (e) {}
+    }
+
     // ── DEMO HERO (iPhone Mock) ─────────────────────────
     function renderDemoHero(el, hero) {
         var d = hero.demo;
-        var msgs = d.messages || [];
+        var variants = (d && d.products && d.products.length) ? d.products : [d];
+        var activeIdx = parseInt((d && d.active != null) ? d.active : 0, 10);
+        if (!isFinite(activeIdx) || activeIdx < 0 || activeIdx >= variants.length) activeIdx = 0;
+        var demoId = 'demo-' + Math.floor(Math.random() * 1000000000);
+
+        function renderPhone(cfg) {
+            cfg = cfg || {};
+            var msgs = cfg.messages || [];
+
+            var html = '<div class="iphone"><div class="iphone-screen"><div class="app-preview">';
+            html += '<div class="chat-header">' + (cfg.productIcon || '') + ' ' + (cfg.product || '') + '</div>';
+
+            html += '<div class="chat-messages">';
+            var msgIdx = 0;
+            var typIdx = 0;
+            msgs.forEach(function (m) {
+                msgIdx++;
+                if (m.role === 'user') {
+                    html += '<div class="chat-msg chat-user msg-' + msgIdx + '">' + m.text + '</div>';
+                    typIdx++;
+                    html += '<div class="typing-indicator typing-' + typIdx + '"><span></span><span></span><span></span></div>';
+                } else {
+                    html += '<div class="chat-msg chat-bot msg-' + msgIdx + '">' + m.text + '</div>';
+                    if (m.citation) {
+                        msgIdx++;
+                        html += '<div class="chat-msg chat-cite msg-' + msgIdx + '">\ud83d\udccb ' + m.citation + '</div>';
+                    }
+                }
+            });
+            html += '</div>';
+
+            html += '<div class="chat-input-area"><div class="chat-input">';
+            var inputIdx = 0;
+            msgs.forEach(function (m) {
+                if (m.role === 'user') {
+                    inputIdx++;
+                    html += '<div class="input-text-wrapper input-wrapper-' + inputIdx + '">';
+                    html += '<span class="input-text">' + m.text + '</span><span class="input-cursor"></span></div>';
+                }
+            });
+            html += '</div><div class="chat-send">\u279A</div></div>';
+
+            html += '</div></div></div>';
+            return html;
+        }
 
         // Left column: text
         var html = '<div class="hero-split"><div class="hero-split-inner">';
@@ -375,49 +521,50 @@ var RENDER = (function () {
             });
             html += '</div>';
         }
+
+        // Optional demo tabs (if multiple variants are supplied)
+        if (variants.length > 1) {
+            html += '<div class="demo-tabs" data-demo="' + demoId + '" role="tablist" aria-label="Demo">';
+            variants.forEach(function (v, i) {
+                var on = i === activeIdx ? ' active' : '';
+                var label = (v && v.product) ? v.product : ('Demo ' + (i + 1));
+                var icon = (v && v.productIcon) ? (v.productIcon + ' ') : '';
+                html += '<button type="button" class="demo-tab' + on + '" role="tab" aria-selected="' + (i === activeIdx ? 'true' : 'false') + '" data-demo-idx="' + i + '">' + icon + label + '</button>';
+            });
+            html += '</div>';
+        }
         html += '</div>';
 
         // Right column: iPhone mock
         html += '<div class="device-container"><div class="device-glow"></div>';
-        html += '<div class="iphone"><div class="iphone-screen"><div class="app-preview">';
-        html += '<div class="chat-header">' + (d.productIcon || '') + ' ' + (d.product || '') + '</div>';
-
-        // Chat messages
-        html += '<div class="chat-messages">';
-        var msgIdx = 0;
-        var typIdx = 0;
-        msgs.forEach(function (m) {
-            msgIdx++;
-            if (m.role === 'user') {
-                html += '<div class="chat-msg chat-user msg-' + msgIdx + '">' + m.text + '</div>';
-                // Add typing indicator after user message
-                typIdx++;
-                html += '<div class="typing-indicator typing-' + typIdx + '"><span></span><span></span><span></span></div>';
-            } else {
-                html += '<div class="chat-msg chat-bot msg-' + msgIdx + '">' + m.text + '</div>';
-                if (m.citation) {
-                    msgIdx++;
-                    html += '<div class="chat-msg chat-cite msg-' + msgIdx + '">\ud83d\udccb ' + m.citation + '</div>';
-                }
-            }
-        });
+        html += '<div id="' + demoId + '-device">' + renderPhone(variants[activeIdx]) + '</div>';
         html += '</div>';
-
-        // Input area with typewriter
-        html += '<div class="chat-input-area"><div class="chat-input">';
-        var inputIdx = 0;
-        msgs.forEach(function (m) {
-            if (m.role === 'user') {
-                inputIdx++;
-                html += '<div class="input-text-wrapper input-wrapper-' + inputIdx + '">';
-                html += '<span class="input-text">' + m.text + '</span><span class="input-cursor"></span></div>';
-            }
-        });
-        html += '</div><div class="chat-send">\u279A</div></div>';
-
-        html += '</div></div></div></div>';
         html += '</div></div>';
         el.innerHTML = html;
+
+        // Bind demo tab switching (rerenders the phone mock to restart CSS animations).
+        if (variants.length > 1) {
+            try {
+                var wrap = el.querySelector('[data-demo="' + demoId + '"]');
+                var dev = document.getElementById(demoId + '-device');
+                if (wrap && dev) {
+                    wrap.querySelectorAll('.demo-tab').forEach(function (btn) {
+                        btn.addEventListener('click', function () {
+                            var idx = parseInt(btn.getAttribute('data-demo-idx') || '0', 10);
+                            if (!isFinite(idx) || idx < 0 || idx >= variants.length) idx = 0;
+                            // Button states
+                            wrap.querySelectorAll('.demo-tab').forEach(function (b) {
+                                var on = b === btn;
+                                b.classList.toggle('active', on);
+                                b.setAttribute('aria-selected', on ? 'true' : 'false');
+                            });
+                            // Rerender device
+                            dev.innerHTML = renderPhone(variants[idx]);
+                        });
+                    });
+                }
+            } catch (e) {}
+        }
     }
 
     // ── STATS ─────────────────────────────────────────────
@@ -460,6 +607,11 @@ var RENDER = (function () {
             // Cards grid
             if (sec.cards && sec.cards.length) {
                 html += renderCards(sec);
+            }
+
+            // Switcher (interactive narrative)
+            if (sec.switcher) {
+                html += renderSwitcher(sec.switcher, sec.id);
             }
 
             // Products
@@ -592,6 +744,7 @@ var RENDER = (function () {
 
             if (sec.wrapClass) html += '</div>';
             el.innerHTML = html;
+            bindSwitchers(el);
 
             if (sec.econ && econId) {
                 renderEconPanel(econId, sec.econ);
@@ -689,7 +842,8 @@ var RENDER = (function () {
         var html = '<div class="apps-grid">';
         deals.forEach(function (d) {
             var vaultStyle = d.vault ? 'border-color:rgba(212,175,55,0.2);opacity:0.65;' : '';
-            html += '<a href="' + (d.href || '#') + '" class="app-card" style="' + vaultStyle + '">';
+            var onclick = d.talk ? ' onclick="TALK.open();return false"' : '';
+            html += '<a href="' + (d.href || '#') + '" class="app-card" style="' + vaultStyle + '"' + onclick + '>';
 
             // Icon
             if (d.iconGradient) {
