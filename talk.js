@@ -93,6 +93,20 @@ const TALK = {
             if (mcodePlugin) this.plugins.push(mcodePlugin);
         }
 
+        // TRIALS (clinical matching): enabled only when the scope CANON.json declares `"trials": true`
+        // and the page has loaded the plugin.
+        if (this.canon && this.canon.trials) {
+            var trialsPlugin = null;
+            try {
+                if (typeof window !== 'undefined') {
+                    if (typeof window.TRIALS !== 'undefined') trialsPlugin = window.TRIALS;
+                    else if (typeof TRIALS !== 'undefined') trialsPlugin = TRIALS;
+                }
+            } catch {}
+
+            if (trialsPlugin) this.plugins.push(trialsPlugin);
+        }
+
         // Initialize plugins. Fail-closed: plugin failures must not break TALK.
         for (var i = 0; i < this.plugins.length; i++) {
             var p = this.plugins[i];
