@@ -580,7 +580,7 @@
   "cta": {
     "class": "cta",
     "title": "Build the Future",
-    "description": "Join the galaxy. Contribute work. Earn through validated delivery. Three building blocks. Unlimited services. That\u2019s MAGIC.",
+    "description": "Start a conversation, start a deal, or explore the galaxy. Every path is governed.",
     "buttons": [
       {
         "label": "Start for Free",
@@ -588,12 +588,12 @@
         "talk": true
       },
       {
-        "label": "View Plans",
-        "href": "#compliance"
+        "label": "Open DEAL",
+        "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/"
       },
       {
-        "label": "Explore Galaxy",
-        "href": "#galaxy"
+        "label": "View Plans",
+        "href": "#compliance"
       }
     ]
   },

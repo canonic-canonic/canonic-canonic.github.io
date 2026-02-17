@@ -1,7 +1,0 @@
-# LEARNING — VOCABULARY
-
-inherits: .
-
----
-
-*LEARNING | VOCABULARY | CANONIC*

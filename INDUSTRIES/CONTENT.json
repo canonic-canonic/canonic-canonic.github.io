@@ -149,9 +149,10 @@
               "Repeatable process"
             ],
             "cta": {
-              "label": "Open Foundation",
-              "href": "https://canonic-canonic.github.io/FOUNDATION",
-              "class": "btn btn-secondary"
+              "label": "Ask TALK",
+              "href": "#",
+              "talk": true,
+              "class": "btn"
             }
           },
           {
@@ -164,9 +165,9 @@
               "Clear provenance"
             ],
             "cta": {
-              "label": "Open MAGIC",
-              "href": "https://canonic-canonic.github.io/MAGIC",
-              "class": "btn btn-secondary"
+              "label": "Start a Deal",
+              "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/",
+              "class": "btn"
             }
           }
         ]
@@ -208,7 +209,13 @@
         }
       ],
       "columns": "repeat(4, minmax(180px, 1fr))",
-      "gap": "16px"
+      "gap": "16px",
+      "cta": {
+        "label": "Ask about your industry",
+        "href": "#",
+        "talk": true,
+        "class": "btn"
+      }
     },
     {
       "id": "verticals",
@@ -338,6 +345,11 @@
         }
       ],
       "columns": "repeat(2, minmax(260px, 1fr))",
+      "cta": {
+        "label": "Try LawChat",
+        "href": "https://hadleylab-dexter.github.io/CHAT/LAWCHAT/",
+        "class": "btn btn-secondary"
+      },
       "generated": {
         "depth": 2,
         "source": "canonic-canonic/INDUSTRIES/REGULATORY",
@@ -379,6 +391,12 @@
         }
       ],
       "columns": "repeat(2, minmax(260px, 1fr))",
+      "cta": {
+        "label": "Ask TALK",
+        "href": "#",
+        "talk": true,
+        "class": "btn"
+      },
       "generated": {
         "depth": 2,
         "source": "canonic-canonic/INDUSTRIES/HORIZONTAL",
@@ -409,6 +427,12 @@
           "Predictable"
         ]
       },
+      "cta": {
+        "label": "Ask TALK",
+        "href": "#",
+        "talk": true,
+        "class": "btn"
+      },
       "generated": {
         "depth": 2,
         "source": "canonic-canonic/INDUSTRIES/META",
@@ -418,20 +442,20 @@
   ],
   "cta": {
     "title": "Build for your industry. <span style=\"color:var(--accent)\">Ship</span> with proof.",
-    "description": "Open the map, then see the product surface in Hadley Lab and the operational layer in MAGIC.",
+    "description": "Start a deal, ask a question, or see the live proof. Every path is governed.",
     "buttons": [
       {
-        "label": "Open Hadley Lab",
-        "href": "https://hadleylab-dexter.github.io"
+        "label": "Start a Deal",
+        "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/"
       },
       {
-        "label": "Open MAGIC",
-        "href": "https://canonic-canonic.github.io/MAGIC"
-      },
-      {
-        "label": "Try TALK",
+        "label": "Ask TALK",
         "href": "#",
         "talk": true
+      },
+      {
+        "label": "See Live Proof",
+        "href": "https://hadleylab-dexter.github.io"
       }
     ]
   },
