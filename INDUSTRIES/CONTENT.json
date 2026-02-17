@@ -32,7 +32,7 @@
     "badge": "INDUSTRIES",
     "title": "One platform. Many <span class=\"accent\">industries</span>.",
     "subtitle": "Industry constraints change. The architecture stays the same.",
-    "description": "CANONIC Industries is the map: every regulated domain and its constraints, organized in one place. You choose the industry. CANONIC enforces the rules. Services work together without rewriting the system every time.",
+    "description": "Every regulated domain and its constraints, organized in one place. You choose the industry. The system enforces the rules. Services work together without rewriting anything.",
     "cta": [
       {
         "label": "Try TALK",
@@ -87,7 +87,7 @@
       "id": "overview",
       "eyebrow": "THESIS",
       "title": "One Taxonomy. Many Domains.",
-      "description": "This is the part most platforms skip: the industry layer. We model constraints so products behave correctly by default, and buyers can understand what changes when you move domains.",
+      "description": "Most platforms skip the industry layer. We model constraints so products behave correctly by default \u2014 and buyers understand what changes when you switch domains.",
       "cards": [
         {
           "class": "card",
@@ -176,7 +176,7 @@
       "id": "strata",
       "eyebrow": "STRATA",
       "title": "4 Governed Strata",
-      "description": "Strata are the simplest way to explain the world: vertical domains (what you build), regulatory domains (rules you must follow), horizontal domains (controls everyone needs), and meta (how the system evolves).",
+      "description": "Verticals are what you build. Regulatory are the rules you follow. Horizontal are the controls everyone needs. Meta is how it all evolves.",
       "cards": [
         {
           "class": "sector",

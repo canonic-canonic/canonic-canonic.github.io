@@ -32,7 +32,7 @@
     "badge": "FOUNDATION CERTIFICATION",
     "title": "Compliance you can <span class=\"accent\">prove</span>.",
     "subtitle": "Turn audits into automated checks.",
-    "description": "CANONIC Foundation certifies governed software. Instead of a once-a-year scramble, compliance becomes a continuous score your customers can verify anytime. In plain terms: your repo becomes the audit trail.",
+    "description": "Your repo becomes the audit trail. Compliance is a continuous score your customers can verify anytime \u2014 not a once-a-year scramble.",
     "cta": [
       {
         "label": "Try TALK",
@@ -91,22 +91,22 @@
       "id": "language",
       "eyebrow": "LANGUAGE",
       "title": "The Language",
-      "description": "Governance sounds abstract until you make it concrete. CANONIC starts with three artifacts that any team can understand: a contract (rules), a design language (interface), and a spec (requirements).",
+      "description": "Three things every team writes. Together they turn governance from an idea into something you can verify, ship, and sell.",
       "cards": [
         {
           "class": "card",
-          "title": "\ud83d\udccb Contract (Rules)",
-          "text": "What is required, what is forbidden, and what \u201cdone\u201d means. This is how you keep teams aligned and regulators calm."
+          "title": "\ud83d\udccb The Rules",
+          "text": "What is required, what is forbidden, and what \u201cdone\u201d means. Teams stay aligned. Regulators stay calm."
         },
         {
           "class": "card",
-          "title": "\ud83c\udfa8 Design (Interface)",
-          "text": "One visual language across every surface. Familiar UI reduces friction and makes governance feel natural, not bureaucratic."
+          "title": "\ud83c\udfa8 The Interface",
+          "text": "One visual language across every surface. Familiar UI makes governance feel natural, not bureaucratic."
         },
         {
           "class": "card",
-          "title": "\ud83d\udcd0 Spec (Requirements)",
-          "text": "Standards become tests. Tests become a score. A score becomes a receipt your customer can verify."
+          "title": "\ud83d\udcd0 The Tests",
+          "text": "Standards become tests. Tests become a score. The score becomes a receipt your customer can verify."
         }
       ],
       "generated": {
@@ -292,7 +292,7 @@
       "id": "industries",
       "eyebrow": "DOMAINS",
       "title": "21 Governed Domains",
-      "description": "14 verticals, 4 regulatory, 2 horizontal, 1 meta. Every compliance framework is a cost center \u2014 until you automate it. We turn mandatory overhead into a competitive advantage across every regulated industry.",
+      "description": "Every compliance framework is a cost center \u2014 until you automate it. 21 domains, each with its own standards, mapped to one scoring system.",
       "cards": [
         {
           "class": "sector",
@@ -464,30 +464,30 @@
       "id": "shop",
       "eyebrow": "SHOP",
       "title": "The Library",
-      "description": "Everything we know, published for free. The theory, the economics, the protocol, the sector playbooks. Open infrastructure makes the whole ecosystem stronger.",
+      "description": "Everything we know, published for free. Theory, economics, protocol, and sector playbooks. Open infrastructure makes the whole ecosystem stronger.",
       "cards": [
         {
           "class": "shop-card",
-          "title": "\ud83d\udcd6 The Theory",
-          "text": "The reasoning behind governed economics. Why validated work creates lasting value \u2014 and speculation doesn\u2019t.",
+          "title": "\ud83d\udcd6 Theory",
+          "text": "Why validated work creates lasting value \u2014 and speculation doesn\u2019t.",
           "badge": "FREE"
         },
         {
           "class": "shop-card",
-          "title": "\ud83d\udc8e The Economics",
-          "text": "How the token model works. How contributors earn. How value flows from specification to product to market.",
+          "title": "\ud83d\udc8e Economics",
+          "text": "How contributors earn. How value flows from specification to product to market.",
           "badge": "FREE"
         },
         {
           "class": "shop-card",
-          "title": "\ud83d\udcd0 The Protocol",
-          "text": "The complete validation protocol. 80+ compliance standards mapped to 8 dimensions. One file your team can adopt today.",
+          "title": "\ud83d\udcd0 Protocol",
+          "text": "80+ compliance standards mapped to 8 dimensions. One file your team can adopt today.",
           "badge": "FREE"
         },
         {
           "class": "shop-card",
           "title": "\ud83d\uddfa Industry Guides",
-          "text": "Industry-specific playbooks for 21 domains including healthcare, finance, defense, robotics, automotive, aerospace, manufacturing, energy, and more. Written by practitioners, not consultants.",
+          "text": "Playbooks for 21 domains: healthcare, finance, defense, robotics, and more. Written by practitioners, not consultants.",
           "badge": "FREE"
         }
       ],
