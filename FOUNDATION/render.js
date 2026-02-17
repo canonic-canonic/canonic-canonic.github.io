@@ -259,10 +259,18 @@ var RENDER = (function () {
     }
 
     // ── HEADER OFFSETS (FIXED BARS MUST NOT BLOCK CONTENT) ──────────
-    // The nav can grow taller when secondary items overflow. Measure actual
-    // eco-bar + nav heights and publish them as CSS vars used throughout
-    // DESIGN.css (hero padding, scroll-margin-top, etc).
+    // Measure actual eco-bar + nav heights and publish them as CSS vars.
+    //
+    // CRITICAL: --header-offset is STATIC (eco-h + nav-h in CSS).
+    // DO NOT set --header-offset dynamically here — hero padding and
+    // scroll-padding depend on it being constant.  Changing it on eco-hide
+    // shifts content → triggers browser scroll-anchoring → flips scrollY
+    // → re-triggers eco-hide → infinite oscillation loop.
+    //
+    // Only --eco-offset varies (nav positioning). --eco-h and --nav-h are
+    // measurement updates that keep the static --header-offset accurate.
     var _headerSyncBound = false;
+    var _lastEcoOffset = -1;
     function syncHeaderOffsets() {
         var eco = document.getElementById('ecoBar');
         var nav = document.getElementById('nav');
@@ -277,17 +285,21 @@ var RENDER = (function () {
             try {
                 var cs = getComputedStyle(document.documentElement);
                 if (!ecoH) ecoH = parseInt(cs.getPropertyValue('--eco-h'), 10) || 0;
-                // eco-offset is derived below; only fall back eco-h.
                 if (!navH) navH = parseInt(cs.getPropertyValue('--nav-h'), 10) || 0;
             } catch (e) {}
         }
 
         var ecoOffset = ecoHidden ? 0 : ecoH;
-        var total = ecoOffset + navH;
+
+        // Publish measured heights (keeps CSS --header-offset accurate).
         if (ecoH) document.documentElement.style.setProperty('--eco-h', ecoH + 'px');
-        document.documentElement.style.setProperty('--eco-offset', ecoOffset + 'px');
         if (navH) document.documentElement.style.setProperty('--nav-h', navH + 'px');
-        if (total) document.documentElement.style.setProperty('--header-offset', total + 'px');
+
+        // Only update --eco-offset when it actually changes (avoids transition re-fire).
+        if (ecoOffset !== _lastEcoOffset) {
+            _lastEcoOffset = ecoOffset;
+            document.documentElement.style.setProperty('--eco-offset', ecoOffset + 'px');
+        }
     }
 
     function bindHeaderOffsetSync() {
@@ -616,6 +628,230 @@ var RENDER = (function () {
             svg += '<text x="' + rx.toFixed(1) + '" y="' + (ry + 4).toFixed(1) + '" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.4)" font-family="var(--mono)">' + right + '</text>';
             svg += '</svg>';
             return svg;
+        },
+
+        // ── Financial Dashboard Figures ──────────────────────
+
+        // Area chart: revenue/growth trajectory (Webull-style gradient fill)
+        'area-chart': function (opts) {
+            var points = (opts && opts.points) || [];
+            var label = (opts && opts.label) || '';
+            var prefix = (opts && opts.prefix) || '';
+            var suffix = (opts && opts.suffix) || '';
+            if (!points.length) return '';
+            var w = 420, h = 240;
+            var padL = 50, padR = 20, padT = 30, padB = 40;
+            var chartW = w - padL - padR, chartH = h - padT - padB;
+            var a = 'rgba(var(--accent-rgb,59,130,246),';
+            var maxY = 0;
+            points.forEach(function (p) { if (p.y > maxY) maxY = p.y; });
+            maxY = maxY * 1.15; // headroom
+
+            function px(i) { return padL + (i / (points.length - 1)) * chartW; }
+            function py(v) { return padT + chartH - (v / maxY) * chartH; }
+
+            var svg = '<svg viewBox="0 0 ' + w + ' ' + h + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="' + label + '">';
+            // Gradient def
+            svg += '<defs><linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">';
+            svg += '<stop offset="0%" stop-color="' + a + '0.4)"/>';
+            svg += '<stop offset="100%" stop-color="' + a + '0.02)"/>';
+            svg += '</linearGradient></defs>';
+            svg += '<rect x="0" y="0" width="' + w + '" height="' + h + '" rx="16" fill="rgba(255,255,255,0.02)"/>';
+
+            // Grid lines
+            for (var g = 0; g <= 4; g++) {
+                var gy = padT + (g / 4) * chartH;
+                var gVal = maxY * (1 - g / 4);
+                svg += '<line x1="' + padL + '" y1="' + gy.toFixed(1) + '" x2="' + (w - padR) + '" y2="' + gy.toFixed(1) + '" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>';
+                svg += '<text x="' + (padL - 6) + '" y="' + (gy + 3).toFixed(1) + '" text-anchor="end" font-size="9" fill="rgba(255,255,255,0.3)" font-family="var(--mono)">' + prefix + Math.round(gVal) + suffix + '</text>';
+            }
+
+            // Area fill path
+            var areaD = 'M' + px(0).toFixed(1) + ' ' + py(points[0].y).toFixed(1);
+            for (var i = 1; i < points.length; i++) {
+                var cpx = (px(i - 1) + px(i)) / 2;
+                areaD += ' C' + cpx.toFixed(1) + ' ' + py(points[i - 1].y).toFixed(1) + ',' + cpx.toFixed(1) + ' ' + py(points[i].y).toFixed(1) + ',' + px(i).toFixed(1) + ' ' + py(points[i].y).toFixed(1);
+            }
+            areaD += ' L' + px(points.length - 1).toFixed(1) + ' ' + (padT + chartH) + ' L' + px(0).toFixed(1) + ' ' + (padT + chartH) + ' Z';
+            svg += '<path d="' + areaD + '" fill="url(#areaGrad)"/>';
+
+            // Line path
+            var lineD = 'M' + px(0).toFixed(1) + ' ' + py(points[0].y).toFixed(1);
+            for (var j = 1; j < points.length; j++) {
+                var cpx2 = (px(j - 1) + px(j)) / 2;
+                lineD += ' C' + cpx2.toFixed(1) + ' ' + py(points[j - 1].y).toFixed(1) + ',' + cpx2.toFixed(1) + ' ' + py(points[j].y).toFixed(1) + ',' + px(j).toFixed(1) + ' ' + py(points[j].y).toFixed(1);
+            }
+            svg += '<path d="' + lineD + '" stroke="' + a + '0.9)" stroke-width="2.5" fill="none" stroke-linecap="round"/>';
+
+            // Data points + labels
+            points.forEach(function (p, i) {
+                var x = px(i), y = py(p.y);
+                svg += '<circle cx="' + x.toFixed(1) + '" cy="' + y.toFixed(1) + '" r="4" fill="' + a + '1)" stroke="rgba(0,0,0,0.3)" stroke-width="1"/>';
+                svg += '<text x="' + x.toFixed(1) + '" y="' + (y - 10).toFixed(1) + '" text-anchor="middle" font-size="10" font-weight="700" fill="rgba(255,255,255,0.8)" font-family="var(--mono)">' + prefix + p.y + suffix + '</text>';
+                // X-axis label
+                svg += '<text x="' + x.toFixed(1) + '" y="' + (h - 8) + '" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.4)" font-family="var(--mono)">' + p.x + '</text>';
+            });
+
+            svg += '</svg>';
+            return svg;
+        },
+
+        // Bar chart: horizontal bars for scenarios/comparisons
+        'bar-chart': function (opts) {
+            var bars = (opts && opts.bars) || [];
+            if (!bars.length) return '';
+            var w = 420, h = 40 + bars.length * 52;
+            var padL = 110, padR = 90, padT = 20;
+            var barH = 28, gap = 24;
+            var a = 'rgba(var(--accent-rgb,59,130,246),';
+
+            // Find max numeric value for scaling
+            var maxVal = 0;
+            bars.forEach(function (b) {
+                var num = parseFloat(String(b.value).replace(/[$,BMTKk]/g, ''));
+                if (isNaN(num)) num = 0;
+                // Scale by suffix
+                var str = String(b.value);
+                if (str.indexOf('T') >= 0) num *= 1000;
+                else if (str.indexOf('B') >= 0) num *= 1;
+                else if (str.indexOf('M') >= 0) num *= 0.001;
+                if (num > maxVal) maxVal = num;
+                b._num = num;
+            });
+
+            var barW = w - padL - padR;
+            var svg = '<svg viewBox="0 0 ' + w + ' ' + h + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Valuation scenarios">';
+            svg += '<rect x="0" y="0" width="' + w + '" height="' + h + '" rx="16" fill="rgba(255,255,255,0.02)"/>';
+
+            bars.forEach(function (b, i) {
+                var y = padT + i * (barH + gap);
+                var pct = maxVal > 0 ? (b._num / maxVal) : 0;
+                var bw = Math.max(pct * barW, 4);
+                var alpha = 0.3 + pct * 0.7;
+
+                // Track
+                svg += '<rect x="' + padL + '" y="' + y + '" width="' + barW + '" height="' + barH + '" rx="6" fill="rgba(255,255,255,0.03)"/>';
+                // Fill
+                svg += '<rect x="' + padL + '" y="' + y + '" width="' + bw.toFixed(1) + '" height="' + barH + '" rx="6" fill="' + a + alpha.toFixed(2) + ')"/>';
+                // Label (left)
+                svg += '<text x="' + (padL - 8) + '" y="' + (y + barH / 2 + 4) + '" text-anchor="end" font-size="11" fill="rgba(255,255,255,0.6)" font-family="var(--mono)">' + b.label + '</text>';
+                // Value (right)
+                svg += '<text x="' + (w - 12) + '" y="' + (y + barH / 2 + 4) + '" text-anchor="end" font-size="12" font-weight="700" fill="' + a + '0.95)" font-family="var(--mono)">' + b.value + '</text>';
+            });
+
+            svg += '</svg>';
+            return svg;
+        },
+
+        // Gauge: arc meter for percentages/coverage (like score-meter but configurable)
+        'gauge': function (opts) {
+            var value = (opts && opts.value != null) ? opts.value : 50;
+            var max = (opts && opts.max) || 100;
+            var label = (opts && opts.label) || '';
+            var unit = (opts && opts.unit) || '';
+            var pct = Math.min(value / max, 1);
+            var w = 420, h = 240;
+            var cx = w / 2, cy = 160, r = 100;
+            var a = 'rgba(var(--accent-rgb,59,130,246),';
+
+            // 270° sweep (from 225° to -45°, i.e. bottom-left to bottom-right)
+            var startAngle = (225 * Math.PI) / 180;
+            var totalSweep = (270 * Math.PI) / 180;
+            var endAngle = startAngle - totalSweep;
+            var fillAngle = startAngle - totalSweep * pct;
+
+            function arcPt(angle) {
+                return [(cx + r * Math.cos(angle)).toFixed(1), (cy - r * Math.sin(angle)).toFixed(1)];
+            }
+
+            var startPt = arcPt(startAngle);
+            var endPt = arcPt(endAngle);
+            var fillPt = arcPt(fillAngle);
+            var largeArc = pct > 0.5 ? 1 : 0;
+
+            var svg = '<svg viewBox="0 0 ' + w + ' ' + h + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="' + label + '">';
+            svg += '<rect x="0" y="0" width="' + w + '" height="' + h + '" rx="16" fill="rgba(255,255,255,0.02)"/>';
+
+            // Track arc (full 270°)
+            svg += '<path d="M' + startPt[0] + ' ' + startPt[1] + ' A' + r + ' ' + r + ' 0 1 1 ' + endPt[0] + ' ' + endPt[1] + '" stroke="rgba(255,255,255,0.08)" stroke-width="14" fill="none" stroke-linecap="round"/>';
+
+            // Fill arc
+            if (pct > 0.001) {
+                svg += '<path d="M' + startPt[0] + ' ' + startPt[1] + ' A' + r + ' ' + r + ' 0 ' + largeArc + ' 1 ' + fillPt[0] + ' ' + fillPt[1] + '" stroke="' + a + '0.85)" stroke-width="14" fill="none" stroke-linecap="round"/>';
+            }
+
+            // Center value
+            svg += '<text x="' + cx + '" y="' + (cy - 16) + '" text-anchor="middle" font-size="40" font-weight="800" fill="' + a + '0.95)" font-family="var(--sans)">' + value + unit + '</text>';
+            svg += '<text x="' + cx + '" y="' + (cy + 8) + '" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.4)" font-family="var(--mono)" letter-spacing="0.15em">' + label + '</text>';
+
+            // Scale labels
+            svg += '<text x="' + startPt[0] + '" y="' + (parseFloat(startPt[1]) + 20) + '" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.3)" font-family="var(--mono)">0</text>';
+            svg += '<text x="' + endPt[0] + '" y="' + (parseFloat(endPt[1]) + 20) + '" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.3)" font-family="var(--mono)">' + max + '</text>';
+
+            svg += '</svg>';
+            return svg;
+        },
+
+        // Donut: COIN distribution / asset allocation
+        'donut': function (opts) {
+            var segments = (opts && opts.segments) || [];
+            var total = (opts && opts.total) || 0;
+            var label = (opts && opts.label) || '';
+            if (!segments.length) return '';
+            var w = 420, h = 300;
+            var cx = w / 2, cy = 130, r = 80, innerR = 50;
+            var a = 'rgba(var(--accent-rgb,59,130,246),';
+
+            // Calculate total if not provided
+            if (!total) segments.forEach(function (s) { total += s.value; });
+
+            var svg = '<svg viewBox="0 0 ' + w + ' ' + h + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="' + label + ' distribution">';
+            svg += '<rect x="0" y="0" width="' + w + '" height="' + h + '" rx="16" fill="rgba(255,255,255,0.02)"/>';
+
+            // Draw segments
+            var angle = -Math.PI / 2; // start at top
+            var gapAngle = 0.03; // small gap between segments
+            segments.forEach(function (seg, i) {
+                var pct = total > 0 ? seg.value / total : 0;
+                var sweep = pct * Math.PI * 2 - gapAngle;
+                if (sweep < 0.01) return;
+                var alpha = Math.max(0.25, 1 - i * 0.12);
+                var startA = angle + gapAngle / 2;
+                var endA = startA + sweep;
+
+                var x1 = cx + r * Math.cos(startA), y1 = cy + r * Math.sin(startA);
+                var x2 = cx + r * Math.cos(endA), y2 = cy + r * Math.sin(endA);
+                var ix1 = cx + innerR * Math.cos(endA), iy1 = cy + innerR * Math.sin(endA);
+                var ix2 = cx + innerR * Math.cos(startA), iy2 = cy + innerR * Math.sin(startA);
+                var large = sweep > Math.PI ? 1 : 0;
+
+                svg += '<path d="M' + x1.toFixed(1) + ' ' + y1.toFixed(1) +
+                    ' A' + r + ' ' + r + ' 0 ' + large + ' 1 ' + x2.toFixed(1) + ' ' + y2.toFixed(1) +
+                    ' L' + ix1.toFixed(1) + ' ' + iy1.toFixed(1) +
+                    ' A' + innerR + ' ' + innerR + ' 0 ' + large + ' 0 ' + ix2.toFixed(1) + ' ' + iy2.toFixed(1) +
+                    ' Z" fill="' + a + alpha.toFixed(2) + ')"/>';
+
+                angle += pct * Math.PI * 2;
+            });
+
+            // Center label
+            svg += '<text x="' + cx + '" y="' + (cy - 6) + '" text-anchor="middle" font-size="20" font-weight="800" fill="rgba(255,255,255,0.9)" font-family="var(--sans)">' + fmtNum(total) + '</text>';
+            svg += '<text x="' + cx + '" y="' + (cy + 12) + '" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.4)" font-family="var(--mono)" letter-spacing="0.15em">' + label + '</text>';
+
+            // Legend (below donut, 2 columns)
+            var legY = cy + r + 28;
+            var col1X = 30, col2X = w / 2 + 10;
+            segments.slice(0, 8).forEach(function (seg, i) {
+                var lx = i % 2 === 0 ? col1X : col2X;
+                var ly = legY + Math.floor(i / 2) * 18;
+                var alpha = Math.max(0.25, 1 - i * 0.12);
+                svg += '<rect x="' + lx + '" y="' + (ly - 6) + '" width="8" height="8" rx="2" fill="' + a + alpha.toFixed(2) + ')"/>';
+                svg += '<text x="' + (lx + 14) + '" y="' + ly + '" font-size="10" fill="rgba(255,255,255,0.6)" font-family="var(--mono)">' + seg.label + '</text>';
+                svg += '<text x="' + (lx + 170) + '" y="' + ly + '" text-anchor="end" font-size="10" fill="rgba(255,255,255,0.4)" font-family="var(--mono)">' + fmtNum(seg.value) + '</text>';
+            });
+
+            svg += '</svg>';
+            return svg;
         }
     };
 
@@ -846,6 +1082,21 @@ var RENDER = (function () {
         el.innerHTML = html;
     }
 
+    // ── METRIC CARD (E*Trade/Webull-style KPI) ─────────────
+    function renderMetricCard(m) {
+        if (!m) return '';
+        var trendColor = m.trend === 'up' ? '#00ff88' : m.trend === 'down' ? '#ff4444' : 'var(--dim)';
+        var arrow = m.trend === 'up' ? '&#9650;' : m.trend === 'down' ? '&#9660;' : '';
+        var html = '<div class="metric-card">';
+        html += '<div class="metric-label">' + (m.label || '') + '</div>';
+        html += '<div class="metric-value">' + (m.value || '') + '</div>';
+        if (m.change) {
+            html += '<div class="metric-change" style="color:' + trendColor + '">' + arrow + ' ' + m.change + '</div>';
+        }
+        html += '</div>';
+        return html;
+    }
+
     // ── SECTIONS ──────────────────────────────────────────
     function renderSections(sections) {
         if (!sections || !sections.length) return;
@@ -902,6 +1153,34 @@ var RENDER = (function () {
             // Banner (governance banner)
             if (sec.banner) {
                 html += renderBanner(sec.banner);
+            }
+
+            // Dashboard (financial layout: metrics + charts in responsive grid)
+            if (sec.dashboard && sec.dashboard.length) {
+                html += '<div class="dashboard">';
+                sec.dashboard.forEach(function (widget) {
+                    var span = widget.span === 2 ? ' dashboard-wide' : '';
+                    html += '<div class="dashboard-widget' + span + '">';
+                    if (widget.metric) {
+                        html += renderMetricCard(widget.metric);
+                    }
+                    if (widget.figure) {
+                        html += '<div class="dashboard-chart">' + renderFigure(widget.figure) + '</div>';
+                    }
+                    if (widget.table) {
+                        html += '<table class="comp-table"><thead><tr>';
+                        widget.table.headers.forEach(function (h) { html += '<th>' + h + '</th>'; });
+                        html += '</tr></thead><tbody>';
+                        widget.table.rows.forEach(function (r) {
+                            html += '<tr>';
+                            r.forEach(function (cell) { html += '<td>' + cell + '</td>'; });
+                            html += '</tr>';
+                        });
+                        html += '</tbody></table>';
+                    }
+                    html += '</div>';
+                });
+                html += '</div>';
             }
 
             // Table
@@ -1362,10 +1641,22 @@ var RENDER = (function () {
         renderNav(canon.scope || canon.name, canon.navIcon, content.nav);
         bindHeaderOffsetSync();
         bindEcoAutoHide();
-        // Compute offsets after nav is in DOM; re-run after layout settles.
+        // Compute offsets after nav is in DOM; suppress transition during
+        // initial sync so measured eco-h/nav-h don't cause a visible "fall".
+        var _nav = document.getElementById('nav');
+        if (_nav) _nav.style.transition = 'none';
         syncHeaderOffsets();
-        setTimeout(syncHeaderOffsets, 0);
-        if (typeof requestAnimationFrame !== 'undefined') requestAnimationFrame(syncHeaderOffsets);
+        if (typeof requestAnimationFrame !== 'undefined') {
+            requestAnimationFrame(function () {
+                syncHeaderOffsets();
+                if (_nav) { void _nav.offsetHeight; _nav.style.transition = ''; }
+            });
+        } else {
+            setTimeout(function () {
+                syncHeaderOffsets();
+                if (_nav) { _nav.style.transition = ''; }
+            }, 0);
+        }
         if (content.hero) renderHero(content.hero);
         if (content.stats) renderStats(content.stats);
         if (content.sections) renderSections(content.sections);

@@ -111,11 +111,14 @@
 
     /* ── Header geometry (fleet-wide behavior) ── */
     --eco-h: 40px;
-    /* --eco-offset is the *effective* eco-bar offset used for nav + scroll padding.
-       It can be set to 0 when eco-bar is auto-hidden (eco-bar height remains unchanged). */
+    /* --eco-offset is the *effective* eco-bar top offset used ONLY for nav positioning.
+       Set to 0 when eco-bar is auto-hidden; eco-h stays unchanged. */
     --eco-offset: var(--eco-h);
     --nav-h: 64px;
-    --header-offset: calc(var(--eco-offset) + var(--nav-h));
+    /* --header-offset is STATIC (eco-h + nav-h). Never varies with eco visibility.
+       Content layout (hero padding, scroll-padding, scroll-margin) depends on this
+       being stable — dynamic changes cause scroll-anchoring feedback loops. */
+    --header-offset: calc(var(--eco-h) + var(--nav-h));
 }
 
 
@@ -3468,4 +3471,81 @@ section[id],
 .container > div[id],
 .container > section[id] {
     scroll-margin-top: calc(var(--header-offset) + 18px);
+}
+
+/* ── Layer: Dashboard (VAULT financial surfaces) ──────────────── */
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 16px;
+    margin-top: 32px;
+}
+.dashboard-wide { grid-column: 1 / -1; }
+.dashboard-widget {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 16px;
+    padding: 24px;
+    min-height: 180px;
+    transition: border-color 0.2s;
+}
+.dashboard-widget:hover {
+    border-color: rgba(var(--accent-rgb), 0.18);
+}
+
+/* Metric Cards (E*Trade / Webull style) */
+.metric-card { padding: 8px 0; }
+.metric-label {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--dim);
+}
+.metric-value {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--fg);
+    margin-top: 4px;
+    font-feature-settings: "tnum";
+    line-height: 1.1;
+}
+.metric-change {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 6px;
+    font-family: var(--mono);
+}
+
+/* Chart containers */
+.dashboard-chart { margin-top: 12px; }
+.dashboard-chart svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Compact table inside dashboard widget */
+.dashboard-widget .comp-table {
+    font-size: 13px;
+    margin-top: 8px;
+}
+.dashboard-widget .comp-table th {
+    font-size: 10px;
+    letter-spacing: 0.08em;
+}
+
+/* Responsive: stack to single column on mobile */
+@media (max-width: 680px) {
+    .dashboard { grid-template-columns: 1fr; }
+    .metric-value { font-size: 26px; }
+    .dashboard-widget { padding: 18px; min-height: 140px; }
+}
+
+/* Light theme adjustments */
+[data-theme="light"] .dashboard-widget {
+    background: rgba(0,0,0,0.02);
+    border-color: rgba(0,0,0,0.06);
+}
+[data-theme="light"] .dashboard-widget:hover {
+    border-color: rgba(var(--accent-rgb), 0.24);
 }

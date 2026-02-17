@@ -12,8 +12,6 @@ inherits: canonic-canonic/FOUNDATION/ROADMAP.md
 | 2026-02-14 | Root governance triad established at site root (CANON/VOCAB/ROADMAP) |
 | 2026-02-14 | MAGIC validation closure at runtime root (255/255 tier:5 VALID) |
 | 2026-02-15 | Fleet visual QA gate (desktop + mobile) |
-| 2026-02-16 | MAGIC 255 closure — all scopes at 255/255, LEARNING triads governed |
-| 2026-02-16 | FOUNDATION/MAGIC nested scope triad fully governed |
 
 ## Next
 
@@ -23,4 +21,4 @@ inherits: canonic-canonic/FOUNDATION/ROADMAP.md
 
 ---
 
-*FOUNDATION-WEB | ROADMAP | 2026-02-16*
+*FOUNDATION-WEB | ROADMAP | 2026-02-14*
