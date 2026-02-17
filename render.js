@@ -477,15 +477,18 @@ var RENDER = (function () {
             var endAngle = 0;
             var needleAngle = startAngle + (endAngle - startAngle) * pct;
             var cx = 210, cy = 160, r = 100;
+            // SVG y-axis is inverted: subtract sin for upward arc
+            var fillX = (cx + r * Math.cos(needleAngle)).toFixed(1);
+            var fillY = (cy - r * Math.sin(needleAngle)).toFixed(1);
             var nx = cx + r * 0.72 * Math.cos(needleAngle);
-            var ny = cy + r * 0.72 * Math.sin(needleAngle);
+            var ny = cy - r * 0.72 * Math.sin(needleAngle);
             var a = 'rgba(var(--accent-rgb,59,130,246),';
             return '<svg viewBox="0 0 420 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Compliance score">' +
                 '<rect x="0" y="0" width="420" height="240" rx="16" fill="rgba(255,255,255,0.02)"/>' +
-                // Track arc
+                // Track arc (full semicircle, upward)
                 '<path d="M' + (cx - r) + ' ' + cy + ' A' + r + ' ' + r + ' 0 0 1 ' + (cx + r) + ' ' + cy + '" stroke="rgba(255,255,255,0.08)" stroke-width="12" fill="none" stroke-linecap="round"/>' +
-                // Fill arc
-                '<path d="M' + (cx - r) + ' ' + cy + ' A' + r + ' ' + r + ' 0 0 1 ' + (cx + r * Math.cos(needleAngle)).toFixed(1) + ' ' + (cy + r * Math.sin(needleAngle)).toFixed(1) + '" stroke="' + a + '0.8)" stroke-width="12" fill="none" stroke-linecap="round"/>' +
+                // Fill arc (partial, follows the same upward path)
+                '<path d="M' + (cx - r) + ' ' + cy + ' A' + r + ' ' + r + ' 0 0 1 ' + fillX + ' ' + fillY + '" stroke="' + a + '0.8)" stroke-width="12" fill="none" stroke-linecap="round"/>' +
                 // Needle
                 '<line x1="' + cx + '" y1="' + cy + '" x2="' + nx.toFixed(1) + '" y2="' + ny.toFixed(1) + '" stroke="rgba(255,255,255,0.6)" stroke-width="2" stroke-linecap="round"/>' +
                 '<circle cx="' + cx + '" cy="' + cy + '" r="4" fill="' + a + '0.9)"/>' +
