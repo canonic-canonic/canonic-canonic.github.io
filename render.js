@@ -438,7 +438,8 @@ var RENDER = (function () {
                 var cls = btn.class || (i === 0 ? 'btn' : 'btn btn-secondary');
                 if (cls.indexOf('btn') !== 0) cls = 'btn ' + cls;
                 var onclick = btn.talk ? ' onclick="TALK.open();return false"' : '';
-                html += '<a href="' + (btn.href || '#') + '" class="' + cls + '"' + onclick + '>' + btn.label + '</a>';
+                var titleAttr = btn.title ? ' title="' + btn.title + '"' : '';
+                html += '<a href="' + (btn.href || '#') + '" class="' + cls + '"' + onclick + titleAttr + '>' + btn.label + '</a>';
             });
             html += '</div>';
         }
@@ -461,7 +462,8 @@ var RENDER = (function () {
                 var cls = btn.class || 'btn';
                 if (cls.indexOf('btn') !== 0) cls = 'btn ' + cls;
                 var onclick = btn.talk ? ' onclick="TALK.open();return false"' : '';
-                html += '<a href="' + (btn.href || '#') + '" class="' + cls + '"' + onclick + '>' + btn.label + '</a>';
+                var titleAttr = btn.title ? ' title="' + btn.title + '"' : '';
+                html += '<a href="' + (btn.href || '#') + '" class="' + cls + '"' + onclick + titleAttr + '>' + btn.label + '</a>';
             });
             html += '</div>';
         }
@@ -896,7 +898,8 @@ var RENDER = (function () {
                 var cls = t.cta.class || 'btn btn-secondary';
                 if (cls.indexOf('btn') !== 0) cls = 'btn ' + cls;
                 var onclick = t.cta.talk ? ' onclick="TALK.open();return false"' : '';
-                html += '<div style="margin-top:14px;"><a href="' + (t.cta.href || '#') + '" class="' + cls + '"' + onclick + '>' + t.cta.label + '</a></div>';
+                var titleAttr = t.cta.title ? ' title="' + t.cta.title + '"' : '';
+                html += '<div style="margin-top:14px;"><a href="' + (t.cta.href || '#') + '" class="' + cls + '"' + onclick + titleAttr + '>' + t.cta.label + '</a></div>';
             }
             if (t.footnote) html += '<div class="switcher-footnote">' + t.footnote + '</div>';
             html += '</div>';
@@ -1018,7 +1021,8 @@ var RENDER = (function () {
                 var cls = btn.class || 'btn';
                 if (cls.indexOf('btn') !== 0) cls = 'btn ' + cls;
                 var onclick = btn.talk ? ' onclick="TALK.open();return false"' : '';
-                html += '<a href="' + (btn.href || '#') + '" class="' + cls + '"' + onclick + '>' + btn.label + '</a>';
+                var titleAttr = btn.title ? ' title="' + btn.title + '"' : '';
+                html += '<a href="' + (btn.href || '#') + '" class="' + cls + '"' + onclick + titleAttr + '>' + btn.label + '</a>';
             });
             html += '</div>';
         }
@@ -1213,7 +1217,8 @@ var RENDER = (function () {
                     html += '</ul>';
                     var ctaCls = t.featured ? 'tier-cta tier-cta-primary' : 'tier-cta tier-cta-secondary';
                     var onclick = t.ctaTalk ? ' onclick="TALK.open();return false"' : '';
-                    html += '<a href="' + (t.ctaHref || '#') + '" class="' + ctaCls + '"' + onclick + '>' + t.ctaLabel + '</a>';
+                    var titleAttr = t.ctaTitle ? ' title="' + t.ctaTitle + '"' : '';
+                    html += '<a href="' + (t.ctaHref || '#') + '" class="' + ctaCls + '"' + onclick + titleAttr + '>' + t.ctaLabel + '</a>';
                     html += '</div>';
                 });
                 html += '</div>';
@@ -1269,7 +1274,10 @@ var RENDER = (function () {
             // Section CTA (inline button)
             if (sec.cta) {
                 var onclick = sec.cta.talk ? ' onclick="TALK.open();return false"' : '';
-                html += '<div style="text-align:center;margin-top:32px;"><a href="' + (sec.cta.href || '#') + '" class="btn"' + onclick + '>' + sec.cta.label + '</a></div>';
+                var secCtaCls = sec.cta.class || 'btn';
+                if (secCtaCls.indexOf('btn') !== 0) secCtaCls = 'btn ' + secCtaCls;
+                var titleAttr = sec.cta.title ? ' title="' + sec.cta.title + '"' : '';
+                html += '<div style="text-align:center;margin-top:32px;"><a href="' + (sec.cta.href || '#') + '" class="' + secCtaCls + '"' + onclick + titleAttr + '>' + sec.cta.label + '</a></div>';
             }
 
             // Axiom quote
@@ -1366,7 +1374,9 @@ var RENDER = (function () {
             if (c.cta) {
                 var cCls = c.cta.class || 'btn';
                 if (cCls.indexOf('btn') !== 0) cCls = 'btn ' + cCls;
-                html += '<a href="' + (c.cta.href || '#') + '" class="' + cCls + '" style="margin-top:16px;font-size:12px;padding:8px 16px;display:inline-block;">' + c.cta.label + '</a>';
+                var cOnclick = c.cta.talk ? ' onclick="TALK.open();return false"' : '';
+                var cTitle = c.cta.title ? ' title="' + c.cta.title + '"' : '';
+                html += '<a href="' + (c.cta.href || '#') + '" class="' + cCls + '"' + cOnclick + cTitle + ' style="margin-top:16px;font-size:12px;padding:8px 16px;display:inline-block;">' + c.cta.label + '</a>';
             }
 
             html += '</div>';
@@ -1536,7 +1546,8 @@ var RENDER = (function () {
             var cls = btn.class || (i === 0 ? 'btn' : 'btn btn-secondary');
             if (cls.indexOf('btn') !== 0) cls = 'btn ' + cls;
             var onclick = btn.talk ? ' onclick="TALK.open();return false"' : '';
-            html += '<a href="' + (btn.href || '#') + '" class="' + cls + '"' + onclick + '>' + btn.label + '</a>';
+            var titleAttr = btn.title ? ' title="' + btn.title + '"' : '';
+            html += '<a href="' + (btn.href || '#') + '" class="' + cls + '"' + onclick + titleAttr + '>' + btn.label + '</a>';
         });
         html += '</div>';
         if (cta.class) html += '</div>';

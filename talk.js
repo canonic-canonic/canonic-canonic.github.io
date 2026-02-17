@@ -35,6 +35,15 @@ const TALK = {
     intelLedger: [],
     canon: null,
     plugins: [],
+    currentProvider: 'auto',
+    providers: {
+        auto:      'https://api.canonic.org/chat',
+        anthropic: 'https://anthropic.canonic.org/chat',
+        runpod:    'https://runpod.canonic.org/chat',
+        vastai:    'https://vast.canonic.org/chat',
+        openai:    'https://openai.canonic.org/chat',
+        deepseek:  'https://deepseek.canonic.org/chat'
+    },
 
     // ── Initialize ──────────────────────────────────────────────────
     init(config) {
@@ -502,6 +511,23 @@ const TALK = {
                 }
             }
 
+            // Session chain: persist provider metadata for BAKEOFF evidence
+            if (data.trace_id) {
+                try {
+                    var chainKey = 'canonic_session_chain_' + (this.scope || 'UNGOVERNED');
+                    var chain = JSON.parse(localStorage.getItem(chainKey) || '[]');
+                    chain.push({
+                        trace_id: data.trace_id,
+                        provider_used: data.provider_used || '',
+                        scope: data.scope || this.scope,
+                        elapsed_ms: data.elapsed_ms || 0,
+                        ts: new Date().toISOString()
+                    });
+                    if (chain.length > 500) chain.splice(0, chain.length - 500);
+                    localStorage.setItem(chainKey, JSON.stringify(chain));
+                } catch (ce) { /* localStorage unavailable */ }
+            }
+
             var msgEl = this.add('', 'assistant');
             var textEl = msgEl ? (msgEl.querySelector('div') || msgEl.firstChild) : null;
             if (textEl) {
@@ -516,5 +542,44 @@ const TALK = {
         }
 
         input.focus();
+    },
+
+    // BAKEOFF: switch provider mid-session (frictionless)
+    switchProvider(provider) {
+        var p = String(provider || 'auto').toLowerCase();
+        if (!this.providers[p]) p = 'auto';
+        var prev = this.currentProvider;
+        this.currentProvider = p;
+        this.api = this.providers[p];
+
+        // Record switch event in session chain
+        try {
+            var chainKey = 'canonic_session_chain_' + (this.scope || 'UNGOVERNED');
+            var chain = JSON.parse(localStorage.getItem(chainKey) || '[]');
+            chain.push({
+                event: 'switch',
+                from: prev,
+                to: p,
+                scope: this.scope,
+                ts: new Date().toISOString()
+            });
+            if (chain.length > 500) chain.splice(0, chain.length - 500);
+            localStorage.setItem(chainKey, JSON.stringify(chain));
+        } catch (e) { /* localStorage unavailable */ }
+
+        // Update UI indicator
+        var dot = document.querySelector('.talk-dot');
+        if (dot) dot.setAttribute('data-provider', p);
+        var label = document.getElementById('talkProviderLabel');
+        if (label) label.textContent = p.toUpperCase();
+
+        this.add('Switched to ' + p.toUpperCase() + '.', 'system');
+    },
+
+    // BAKEOFF evidence: return session chain for a given scope
+    getSessionChain(scope) {
+        var key = 'canonic_session_chain_' + (scope || this.scope || 'UNGOVERNED');
+        try { return JSON.parse(localStorage.getItem(key) || '[]'); }
+        catch (e) { return []; }
     }
 };

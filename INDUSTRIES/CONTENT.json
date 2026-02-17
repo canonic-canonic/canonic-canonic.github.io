@@ -35,9 +35,11 @@
     "description": "Every regulated domain and its constraints, organized in one place. You choose the industry. The system enforces the rules. Services work together without rewriting anything.",
     "cta": [
       {
-        "label": "Try TALK",
+        "label": "INDUSTRY TALK",
         "href": "#",
-        "talk": true
+        "class": "btn-green",
+        "talk": true,
+        "title": "Ask about your industry?"
       },
       {
         "label": "See The Strata",
@@ -121,7 +123,8 @@
             "cta": {
               "label": "Open MammoChat",
               "href": "https://hadleylab-dexter.github.io/CHAT/MAMMOCHAT/",
-              "class": "btn btn-secondary"
+              "class": "btn btn-secondary",
+              "title": "Ask about breast health?"
             }
           },
           {
@@ -136,7 +139,8 @@
             "cta": {
               "label": "Open FinChat",
               "href": "https://hadleylab-dexter.github.io/CHAT/FINCHAT/",
-              "class": "btn btn-secondary"
+              "class": "btn btn-secondary",
+              "title": "Ask about finance?"
             }
           },
           {
@@ -149,10 +153,10 @@
               "Repeatable process"
             ],
             "cta": {
-              "label": "Ask TALK",
-              "href": "#",
-              "talk": true,
-              "class": "btn"
+              "label": "Government Inquiry",
+              "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/?for=government",
+              "class": "btn",
+              "title": "Ask about government procurement?"
             }
           },
           {
@@ -165,9 +169,10 @@
               "Clear provenance"
             ],
             "cta": {
-              "label": "Start a Deal",
-              "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/",
-              "class": "btn"
+              "label": "Defense Procurement",
+              "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/?for=defense",
+              "class": "btn",
+              "title": "Ask about defense procurement?"
             }
           }
         ]
@@ -211,10 +216,11 @@
       "columns": "repeat(4, minmax(180px, 1fr))",
       "gap": "16px",
       "cta": {
-        "label": "Ask about your industry",
+        "label": "INDUSTRY TALK",
         "href": "#",
         "talk": true,
-        "class": "btn"
+        "class": "btn-green",
+        "title": "Ask about your industry?"
       }
     },
     {
@@ -392,10 +398,11 @@
       ],
       "columns": "repeat(2, minmax(260px, 1fr))",
       "cta": {
-        "label": "Ask TALK",
+        "label": "SAFETY TALK",
         "href": "#",
         "talk": true,
-        "class": "btn"
+        "class": "btn-green",
+        "title": "Ask about safety standards?"
       },
       "generated": {
         "depth": 2,
@@ -428,10 +435,11 @@
         ]
       },
       "cta": {
-        "label": "Ask TALK",
+        "label": "META TALK",
         "href": "#",
         "talk": true,
-        "class": "btn"
+        "class": "btn-green",
+        "title": "Ask about standards evolution?"
       },
       "generated": {
         "depth": 2,
@@ -445,13 +453,16 @@
     "description": "Start a deal, ask a question, or see the live proof. Every path is governed.",
     "buttons": [
       {
-        "label": "Start a Deal",
-        "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/"
+        "label": "Industry Inquiry",
+        "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/?for=industry",
+        "title": "Ask about your industry?"
       },
       {
-        "label": "Ask TALK",
+        "label": "INDUSTRY TALK",
         "href": "#",
-        "talk": true
+        "class": "btn-green",
+        "talk": true,
+        "title": "Ask about your industry?"
       },
       {
         "label": "See Live Proof",

@@ -35,9 +35,11 @@
     "description": "Your repo becomes the audit trail. Compliance is a continuous score your customers can verify anytime \u2014 not a once-a-year scramble.",
     "cta": [
       {
-        "label": "Try TALK",
+        "label": "CERT TALK",
         "href": "#",
-        "talk": true
+        "class": "btn-green",
+        "talk": true,
+        "title": "Ask about certification?"
       },
       {
         "label": "See The Language",
@@ -154,9 +156,10 @@
               "label": "COMPLIANCE"
             },
             "cta": {
-              "label": "Start a Deal",
-              "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/",
-              "class": "btn"
+              "label": "Investor Inquiry",
+              "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/?for=investor",
+              "class": "btn",
+              "title": "Ask about investing?"
             },
             "footnote": "Layperson translation: \u201cgoverned\u201d means the rules are written down and the system can prove it followed them."
           },
@@ -179,10 +182,10 @@
               ]
             },
             "cta": {
-              "label": "Try TALK",
-              "href": "#",
-              "talk": true,
-              "class": "btn"
+              "label": "Start a Pilot",
+              "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/?for=developer",
+              "class": "btn",
+              "title": "Ask about a developer pilot?"
             }
           },
           {
@@ -204,10 +207,10 @@
               ]
             },
             "cta": {
-              "label": "Ask TALK",
-              "href": "#",
-              "talk": true,
-              "class": "btn"
+              "label": "Request Evaluation",
+              "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/?for=security",
+              "class": "btn",
+              "title": "Ask about a security evaluation?"
             }
           }
         ]
@@ -505,9 +508,10 @@
           "text": "Tell us what you need. We return a governed plan, a timeline, and a price.",
           "badge": "START",
           "cta": {
-            "label": "Open DEAL",
-            "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/",
-            "class": "btn-secondary"
+            "label": "Certification Inquiry",
+            "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/?for=certification",
+            "class": "btn-secondary",
+            "title": "Ask about certification?"
           }
         },
         {
@@ -516,10 +520,11 @@
           "text": "Ask about compliance, pricing, pilots, or the architecture in plain English.",
           "badge": "LIVE",
           "cta": {
-            "label": "Ask TALK",
+            "label": "CERT TALK",
             "href": "#",
-            "class": "btn-secondary",
-            "talk": true
+            "class": "btn-green",
+            "talk": true,
+            "title": "Ask about certification?"
           }
         },
         {
@@ -583,13 +588,16 @@
     "description": "Ask a question, start a deal, or see the live proof. Every conversation is governed.",
     "buttons": [
       {
-        "label": "Start a Deal",
-        "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/"
+        "label": "Certification Inquiry",
+        "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/?for=certification",
+        "title": "Ask about certification?"
       },
       {
-        "label": "Ask TALK",
+        "label": "CERT TALK",
         "href": "#",
-        "talk": true
+        "class": "btn-green",
+        "talk": true,
+        "title": "Ask about certification?"
       },
       {
         "label": "See Pricing",

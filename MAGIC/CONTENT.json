@@ -52,10 +52,11 @@
     "description": "Ship software with built-in compliance. Three primitives compose into services, a marketplace, and a governed economy. Start free. Upgrade when you need private workspaces or enterprise validation.",
     "cta": [
       {
-        "label": "Try TALK",
+        "label": "MAGIC TALK",
         "href": "#",
         "class": "btn-green",
-        "talk": true
+        "talk": true,
+        "title": "Ask about MAGIC?"
       },
       {
         "label": "See Pricing",
@@ -192,10 +193,11 @@
             "color": "#ec4899"
           },
           "cta": {
-            "label": "Try TALK",
+            "label": "CHAT TALK",
             "href": "#",
-            "class": "btn-pink",
-            "talk": true
+            "class": "btn-green",
+            "talk": true,
+            "title": "Ask about CHAT?"
           }
         },
         {
@@ -414,9 +416,10 @@
             "Public governance",
             "Earn through validated work"
           ],
-          "ctaLabel": "Get Started",
+          "ctaLabel": "COMMUNITY TALK",
           "ctaHref": "#",
-          "ctaTalk": true
+          "ctaTalk": true,
+          "ctaTitle": "Ask about getting started?"
         },
         {
           "name": "Business",
@@ -430,8 +433,9 @@
             "Automated validation",
             "Clear platform fee"
           ],
-          "ctaLabel": "Open DEAL",
-          "ctaHref": "https://hadleylab-dexter.github.io/SERVICES/DEAL/"
+          "ctaLabel": "Start Pilot",
+          "ctaHref": "https://hadleylab-dexter.github.io/SERVICES/DEAL/?for=pilot",
+          "ctaTitle": "Ask about starting a pilot?"
         },
         {
           "name": "Enterprise",
@@ -443,8 +447,9 @@
             "Foundation-aligned certification",
             "Vendor diligence support"
           ],
-          "ctaLabel": "Contact",
-          "ctaHref": "https://hadleylab-dexter.github.io/SERVICES/DEAL/"
+          "ctaLabel": "Enterprise Contract",
+          "ctaHref": "https://hadleylab-dexter.github.io/SERVICES/DEAL/?for=enterprise",
+          "ctaTitle": "Ask about enterprise contracts?"
         },
         {
           "name": "Foundation",
@@ -457,7 +462,8 @@
             "No cost"
           ],
           "ctaLabel": "Apply",
-          "ctaHref": "https://hadleylab-dexter.github.io/SERVICES/DEAL/"
+          "ctaHref": "https://hadleylab-dexter.github.io/SERVICES/DEAL/?for=nonprofit",
+          "ctaTitle": "Ask about nonprofit access?"
         }
       ],
       "axiom": "Make buying safe. Make shipping fast. Make proof portable.",
@@ -583,13 +589,14 @@
     "description": "Start a conversation, start a deal, or explore the galaxy. Every path is governed.",
     "buttons": [
       {
-        "label": "Start for Free",
+        "label": "MAGIC TALK",
         "href": "#",
-        "talk": true
+        "talk": true,
+        "title": "Ask about MAGIC?"
       },
       {
-        "label": "Open DEAL",
-        "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/"
+        "label": "Start a Pilot",
+        "href": "https://hadleylab-dexter.github.io/SERVICES/DEAL/?for=pilot"
       },
       {
         "label": "View Plans",
