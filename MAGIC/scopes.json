@@ -37,8 +37,8 @@
     "repo": "canonic-canonic",
     "id": "gov:canonic-canonic:FOUNDATION:BOOKS",
     "label": "BOOKS",
-    "bits": 185,
-    "size": 60,
+    "bits": 255,
+    "size": 80,
     "color": "#64748b",
     "category": "ORG",
     "inherits": "gov:canonic-canonic:FOUNDATION"
@@ -59,8 +59,8 @@
     "repo": "canonic-canonic",
     "id": "gov:canonic-canonic:FOUNDATION:EVIDENCE",
     "label": "EVIDENCE",
-    "bits": 185,
-    "size": 60,
+    "bits": 255,
+    "size": 80,
     "color": "#64748b",
     "category": "ORG",
     "inherits": "gov:canonic-canonic:FOUNDATION"
@@ -70,8 +70,8 @@
     "repo": "canonic-canonic",
     "id": "gov:canonic-canonic:FOUNDATION:MED",
     "label": "MED",
-    "bits": 185,
-    "size": 60,
+    "bits": 255,
+    "size": 80,
     "color": "#64748b",
     "category": "ORG",
     "inherits": "gov:canonic-canonic:FOUNDATION"
@@ -261,6 +261,17 @@
     "size": 80,
     "color": "#ff9f0a",
     "category": "COMMERCE",
+    "inherits": "gov:hadleylab-canonic:DEXTER"
+  },
+  {
+    "source": "gov",
+    "repo": "hadleylab-canonic",
+    "id": "gov:hadleylab-canonic:DEXTER:VITAE",
+    "label": "VITAE",
+    "bits": 255,
+    "size": 80,
+    "color": "#64748b",
+    "category": "ORG",
     "inherits": "gov:hadleylab-canonic:DEXTER"
   },
   {
