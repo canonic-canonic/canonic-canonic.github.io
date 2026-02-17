@@ -148,6 +148,11 @@
               "Evidence attached to every check",
               "Always up to date, not annual"
             ],
+            "figure": {
+              "type": "score-meter",
+              "score": 212,
+              "label": "COMPLIANCE"
+            },
             "cta": {
               "label": "Open Hadley Lab Proof",
               "href": "https://hadleylab-dexter.github.io",
@@ -164,6 +169,15 @@
               "No ad-hoc exceptions",
               "Clear ownership boundaries"
             ],
+            "figure": {
+              "type": "pipeline",
+              "steps": [
+                "Code",
+                "Check",
+                "Pass",
+                "Ship"
+              ]
+            },
             "cta": {
               "label": "Try TALK",
               "href": "#",
@@ -180,6 +194,15 @@
               "Repeatable checks",
               "Fewer surprises"
             ],
+            "figure": {
+              "type": "audit-trail",
+              "items": [
+                "Who",
+                "What",
+                "When",
+                "Why"
+              ]
+            },
             "cta": {
               "label": "Explore Industries",
               "href": "https://canonic-canonic.github.io/INDUSTRIES",
@@ -232,7 +255,16 @@
           "Audit-ready",
           "Always on",
           "No consultant loop"
-        ]
+        ],
+        "figure": {
+          "type": "pipeline",
+          "steps": [
+            "Certify",
+            "Validate",
+            "Pair",
+            "Govern"
+          ]
+        }
       },
       "cards": [
         {
@@ -504,7 +536,13 @@
           "Work creates value",
           "Proof is portable",
           "Standards are enforceable"
-        ]
+        ],
+        "figure": {
+          "type": "balance",
+          "left": "Spec",
+          "right": "Hype",
+          "tilt": -12
+        }
       }
     },
     {
@@ -516,7 +554,15 @@
         "tags": [
           "Foundation certified",
           "Live proof in Hadley Lab"
-        ]
+        ],
+        "figure": {
+          "type": "flow-chain",
+          "nodes": [
+            "Foundation",
+            "MAGIC",
+            "Hadley Lab"
+          ]
+        }
       }
     }
   ],

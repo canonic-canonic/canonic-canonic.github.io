@@ -460,7 +460,25 @@
           "ctaHref": "https://hadleylab-dexter.github.io/SERVICES/DEAL/"
         }
       ],
-      "axiom": "Make buying safe. Make shipping fast. Make proof portable."
+      "axiom": "Make buying safe. Make shipping fast. Make proof portable.",
+      "generated": {
+        "depth": 2,
+        "source": "canonic-canonic/MAGIC/COMPLIANCE",
+        "children": [
+          {
+            "id": "gtm",
+            "label": "GTM"
+          },
+          {
+            "id": "market",
+            "label": "MARKET"
+          },
+          {
+            "id": "sales",
+            "label": "SALES"
+          }
+        ]
+      }
     },
     {
       "id": "communities",

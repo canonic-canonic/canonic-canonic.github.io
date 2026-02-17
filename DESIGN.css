@@ -1,4 +1,3 @@
-/* GENERATED - site=FOUNDATION scope=FOUNDATION accent=#7c3aed */
 /**
  * MAGIC DESIGN — THE CANONIC FLEET DESIGN LANGUAGE
  *
@@ -48,8 +47,8 @@
     --shadow-lg: 0 24px 64px rgba(0, 0, 0, 0.6);
 
     /* ── Accent (override per scope via CANON.json) ── */
-    --accent: #7c3aed;
-    --accent-rgb: 124, 58, 237;
+    --accent: #3b82f6;
+    --accent-rgb: 59, 130, 246;
 
     /* ── Category Palette (DESIGN.md §Color System) ── */
     --kernel: #ff0088;
@@ -908,6 +907,81 @@ footer a:hover { opacity: 1; }
 }
 
 .switcher-graphic svg { width: 100%; height: auto; display: block; }
+
+/* Feature block (vaas-style) */
+.vaas {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 32px;
+    align-items: center;
+    padding: 48px 40px;
+    border-radius: 20px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    overflow: hidden;
+}
+.vaas-content { position: relative; z-index: 1; }
+.vaas-eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 12px;
+}
+.vaas-title {
+    font-size: clamp(22px, 3vw, 30px);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--fg);
+    margin-bottom: 12px;
+}
+.vaas-desc {
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--fg-secondary);
+    max-width: 540px;
+}
+.vaas-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+}
+.vaas-tag {
+    font-family: var(--mono);
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 999px;
+    background: rgba(var(--accent-rgb, 59, 130, 246), 0.12);
+    color: var(--accent);
+    border: 1px solid rgba(var(--accent-rgb, 59, 130, 246), 0.2);
+    letter-spacing: 0.03em;
+}
+.vaas-mark {
+    font-size: clamp(100px, 15vw, 180px);
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.025);
+    line-height: 1;
+    -webkit-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+.vaas-graphic {
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: radial-gradient(120% 120% at 0% 0%, rgba(var(--accent-rgb, 59, 130, 246), 0.1) 0%, rgba(255, 255, 255, 0.02) 55%);
+    padding: 14px;
+    overflow: hidden;
+    max-width: 320px;
+}
+.vaas-graphic svg { width: 100%; height: auto; display: block; }
+@media (max-width: 720px) {
+    .vaas { grid-template-columns: 1fr; padding: 32px 24px; }
+    .vaas-mark { position: absolute; right: -20px; bottom: -20px; opacity: 0.6; }
+    .vaas-graphic { max-width: 100%; }
+}
 
 /* Message (Chat) — Apple Messages feel */
 .message {

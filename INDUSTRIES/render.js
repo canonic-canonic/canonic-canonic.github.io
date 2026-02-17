@@ -464,6 +464,167 @@ var RENDER = (function () {
         }
     }
 
+    // ── FIGURES (programmatic SVG generators) ────────────
+    // Content declares `"figure": "type"` — renderer draws it. No hardcoded SVG in content.
+    var FIGURES = {
+        // Score meter: 0–255 arc with a needle and score label
+        'score-meter': function (opts) {
+            var score = (opts && opts.score) || 212;
+            var label = (opts && opts.label) || 'SCORE';
+            var pct = score / 255;
+            // Arc geometry: 180° sweep
+            var startAngle = Math.PI;
+            var endAngle = 0;
+            var needleAngle = startAngle + (endAngle - startAngle) * pct;
+            var cx = 210, cy = 160, r = 100;
+            var nx = cx + r * 0.72 * Math.cos(needleAngle);
+            var ny = cy + r * 0.72 * Math.sin(needleAngle);
+            var a = 'rgba(var(--accent-rgb,59,130,246),';
+            return '<svg viewBox="0 0 420 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Compliance score">' +
+                '<rect x="0" y="0" width="420" height="240" rx="16" fill="rgba(255,255,255,0.02)"/>' +
+                // Track arc
+                '<path d="M' + (cx - r) + ' ' + cy + ' A' + r + ' ' + r + ' 0 0 1 ' + (cx + r) + ' ' + cy + '" stroke="rgba(255,255,255,0.08)" stroke-width="12" fill="none" stroke-linecap="round"/>' +
+                // Fill arc
+                '<path d="M' + (cx - r) + ' ' + cy + ' A' + r + ' ' + r + ' 0 0 1 ' + (cx + r * Math.cos(needleAngle)).toFixed(1) + ' ' + (cy + r * Math.sin(needleAngle)).toFixed(1) + '" stroke="' + a + '0.8)" stroke-width="12" fill="none" stroke-linecap="round"/>' +
+                // Needle
+                '<line x1="' + cx + '" y1="' + cy + '" x2="' + nx.toFixed(1) + '" y2="' + ny.toFixed(1) + '" stroke="rgba(255,255,255,0.6)" stroke-width="2" stroke-linecap="round"/>' +
+                '<circle cx="' + cx + '" cy="' + cy + '" r="4" fill="' + a + '0.9)"/>' +
+                // Score text
+                '<text x="' + cx + '" y="' + (cy - 20) + '" text-anchor="middle" font-size="36" font-weight="800" fill="' + a + '0.95)" font-family="var(--sans)">' + score + '</text>' +
+                '<text x="' + cx + '" y="' + (cy - 2) + '" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.4)" font-family="var(--mono)" letter-spacing="0.15em">' + label + '</text>' +
+                // Scale labels
+                '<text x="' + (cx - r - 4) + '" y="' + (cy + 18) + '" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.3)" font-family="var(--mono)">0</text>' +
+                '<text x="' + (cx + r + 4) + '" y="' + (cy + 18) + '" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.3)" font-family="var(--mono)">255</text>' +
+                '</svg>';
+        },
+
+        // Pipeline: horizontal flow of labeled steps with connecting arrows
+        'pipeline': function (opts) {
+            var steps = (opts && opts.steps) || ['Code', 'Check', 'Ship'];
+            var n = steps.length;
+            var w = 420, h = 180;
+            var padX = 50, stepW = (w - padX * 2) / n;
+            var cy = h / 2;
+            var a = 'rgba(var(--accent-rgb,59,130,246),';
+            var svg = '<svg viewBox="0 0 ' + w + ' ' + h + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pipeline">';
+            svg += '<rect x="0" y="0" width="' + w + '" height="' + h + '" rx="16" fill="rgba(255,255,255,0.02)"/>';
+            steps.forEach(function (s, i) {
+                var cx = padX + stepW * i + stepW / 2;
+                // Circle node
+                var fill = i === n - 1 ? a + '0.25)' : 'rgba(255,255,255,0.04)';
+                var stroke = i === n - 1 ? a + '0.7)' : 'rgba(255,255,255,0.15)';
+                svg += '<circle cx="' + cx + '" cy="' + cy + '" r="28" fill="' + fill + '" stroke="' + stroke + '" stroke-width="1.5"/>';
+                svg += '<text x="' + cx + '" y="' + (cy + 4) + '" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.75)" font-family="var(--mono)">' + s + '</text>';
+                // Connector arrow
+                if (i < n - 1) {
+                    var x1 = cx + 30, x2 = padX + stepW * (i + 1) + stepW / 2 - 30;
+                    svg += '<line x1="' + x1 + '" y1="' + cy + '" x2="' + x2 + '" y2="' + cy + '" stroke="' + a + '0.35)" stroke-width="1.5"/>';
+                    svg += '<polygon points="' + x2 + ',' + (cy - 4) + ' ' + (x2 + 6) + ',' + cy + ' ' + x2 + ',' + (cy + 4) + '" fill="' + a + '0.5)"/>';
+                }
+            });
+            // Step numbers
+            steps.forEach(function (s, i) {
+                var cx = padX + stepW * i + stepW / 2;
+                svg += '<text x="' + cx + '" y="' + (cy + 50) + '" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.3)" font-family="var(--mono)">' + (i + 1) + '</text>';
+            });
+            svg += '</svg>';
+            return svg;
+        },
+
+        // Audit trail: stacked evidence blocks linked vertically
+        'audit-trail': function (opts) {
+            var items = (opts && opts.items) || ['Who', 'What', 'When', 'Why'];
+            var w = 420, h = 240;
+            var a = 'rgba(var(--accent-rgb,59,130,246),';
+            var svg = '<svg viewBox="0 0 ' + w + ' ' + h + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Audit trail">';
+            svg += '<rect x="0" y="0" width="' + w + '" height="' + h + '" rx="16" fill="rgba(255,255,255,0.02)"/>';
+            var blockH = 36, gap = 10, totalH = items.length * (blockH + gap) - gap;
+            var startY = (h - totalH) / 2;
+            items.forEach(function (item, i) {
+                var y = startY + i * (blockH + gap);
+                var alpha = 0.08 + (i / items.length) * 0.12;
+                svg += '<rect x="100" y="' + y + '" width="220" height="' + blockH + '" rx="8" fill="rgba(255,255,255,' + alpha.toFixed(2) + ')" stroke="' + a + (0.15 + i * 0.1).toFixed(2) + ')" stroke-width="1"/>';
+                svg += '<text x="210" y="' + (y + blockH / 2 + 4) + '" text-anchor="middle" font-size="12" fill="rgba(255,255,255,0.7)" font-family="var(--mono)">' + item + '</text>';
+                // Link line
+                if (i < items.length - 1) {
+                    var lineY = y + blockH;
+                    svg += '<line x1="210" y1="' + lineY + '" x2="210" y2="' + (lineY + gap) + '" stroke="' + a + '0.3)" stroke-width="1.5" stroke-dasharray="3 2"/>';
+                }
+                // Hash icon
+                svg += '<text x="86" y="' + (y + blockH / 2 + 4) + '" text-anchor="end" font-size="10" fill="' + a + '0.4)" font-family="var(--mono)">#' + (i + 1) + '</text>';
+            });
+            svg += '</svg>';
+            return svg;
+        },
+
+        // Flow chain: Foundation → MAGIC → Hadley Lab etc.
+        'flow-chain': function (opts) {
+            var nodes = (opts && opts.nodes) || ['Foundation', 'MAGIC', 'Hadley Lab'];
+            var colors = (opts && opts.colors) || [];
+            var w = 420, h = 180;
+            var a = 'rgba(var(--accent-rgb,59,130,246),';
+            var n = nodes.length;
+            var padX = 40, segW = (w - padX * 2) / (n - 1 || 1);
+            var cy = h / 2;
+            var svg = '<svg viewBox="0 0 ' + w + ' ' + h + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Flow">';
+            svg += '<rect x="0" y="0" width="' + w + '" height="' + h + '" rx="16" fill="rgba(255,255,255,0.02)"/>';
+            // Connection curve
+            if (n > 1) {
+                var pathD = 'M' + padX + ' ' + cy;
+                for (var i = 1; i < n; i++) {
+                    var px = padX + segW * (i - 1), nx = padX + segW * i;
+                    var midX = (px + nx) / 2;
+                    pathD += ' C' + midX + ' ' + (cy - 40) + ', ' + midX + ' ' + (cy - 40) + ', ' + nx + ' ' + cy;
+                }
+                svg += '<path d="' + pathD + '" stroke="' + a + '0.35)" stroke-width="2" fill="none"/>';
+            }
+            nodes.forEach(function (nd, i) {
+                var x = padX + segW * i;
+                var c = (colors[i]) || a + '0.2)';
+                svg += '<circle cx="' + x + '" cy="' + cy + '" r="22" fill="' + c + '" stroke="' + a + '0.5)" stroke-width="1.5"/>';
+                svg += '<text x="' + x + '" y="' + (cy + 42) + '" text-anchor="middle" font-size="10" fill="rgba(255,255,255,0.6)" font-family="var(--mono)">' + nd + '</text>';
+            });
+            svg += '</svg>';
+            return svg;
+        },
+
+        // Spec vs speculation: simple balance/weight metaphor
+        'balance': function (opts) {
+            var left = (opts && opts.left) || 'Spec';
+            var right = (opts && opts.right) || 'Hype';
+            var tilt = (opts && opts.tilt) || -8;
+            var w = 420, h = 200;
+            var a = 'rgba(var(--accent-rgb,59,130,246),';
+            var cx = w / 2, baseY = 160, topY = 60;
+            var svg = '<svg viewBox="0 0 ' + w + ' ' + h + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Balance">';
+            svg += '<rect x="0" y="0" width="' + w + '" height="' + h + '" rx="16" fill="rgba(255,255,255,0.02)"/>';
+            // Fulcrum
+            svg += '<polygon points="' + (cx - 12) + ',' + baseY + ' ' + (cx + 12) + ',' + baseY + ' ' + cx + ',' + (baseY - 16) + '" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>';
+            // Beam (tilted)
+            var beamLen = 140;
+            var rad = tilt * Math.PI / 180;
+            var lx = cx - beamLen * Math.cos(rad), ly = (baseY - 20) + beamLen * Math.sin(rad);
+            var rx = cx + beamLen * Math.cos(rad), ry = (baseY - 20) - beamLen * Math.sin(rad);
+            svg += '<line x1="' + lx.toFixed(1) + '" y1="' + ly.toFixed(1) + '" x2="' + rx.toFixed(1) + '" y2="' + ry.toFixed(1) + '" stroke="rgba(255,255,255,0.25)" stroke-width="2.5" stroke-linecap="round"/>';
+            // Pans
+            svg += '<circle cx="' + lx.toFixed(1) + '" cy="' + ly.toFixed(1) + '" r="18" fill="' + a + '0.2)" stroke="' + a + '0.5)" stroke-width="1.5"/>';
+            svg += '<text x="' + lx.toFixed(1) + '" y="' + (ly + 4).toFixed(1) + '" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.7)" font-family="var(--mono)">' + left + '</text>';
+            svg += '<circle cx="' + rx.toFixed(1) + '" cy="' + ry.toFixed(1) + '" r="18" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"/>';
+            svg += '<text x="' + rx.toFixed(1) + '" y="' + (ry + 4).toFixed(1) + '" text-anchor="middle" font-size="9" fill="rgba(255,255,255,0.4)" font-family="var(--mono)">' + right + '</text>';
+            svg += '</svg>';
+            return svg;
+        }
+    };
+
+    function renderFigure(fig) {
+        if (!fig) return '';
+        var type = (typeof fig === 'string') ? fig : fig.type;
+        var opts = (typeof fig === 'object') ? fig : {};
+        var fn = FIGURES[type];
+        if (!fn) return '';
+        return fn(opts);
+    }
+
     // ── SWITCHER (interactive narrative tabs) ────────────
     function renderSwitcher(sw, secId) {
         if (!sw) return '';
@@ -501,23 +662,14 @@ var RENDER = (function () {
             if (t.footnote) html += '<div class="switcher-footnote">' + t.footnote + '</div>';
             html += '</div>';
 
-            // Lightweight “cool graphic”: optional inline SVG or fallback diagram.
+            // Figure: data-driven SVG from FIGURES registry, inline SVG, or fallback.
             html += '<div class="switcher-graphic">';
-            if (t.graphic) {
+            if (t.figure) {
+                html += renderFigure(t.figure);
+            } else if (t.graphic) {
                 html += t.graphic;
             } else {
-                html += '<svg viewBox="0 0 420 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram">';
-                html += '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="rgba(var(--accent-rgb,59,130,246),0.9)"/><stop offset="1" stop-color="rgba(var(--accent-rgb,59,130,246),0.2)"/></linearGradient></defs>';
-                html += '<rect x="0" y="0" width="420" height="240" rx="16" fill="rgba(255,255,255,0.02)"/>';
-                html += '<path d="M60 170 C140 90, 210 90, 290 170" stroke="rgba(var(--accent-rgb,59,130,246),0.55)" stroke-width="2.5" fill="none"/>';
-                html += '<path d="M130 70 C180 40, 240 40, 290 70" stroke="rgba(255,255,255,0.18)" stroke-width="2" fill="none"/>';
-                html += '<circle cx="60" cy="170" r="18" fill="rgba(var(--accent-rgb,59,130,246),0.18)" stroke="rgba(var(--accent-rgb,59,130,246),0.6)"/>';
-                html += '<circle cx="210" cy="70" r="18" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.18)"/>';
-                html += '<circle cx="360" cy="170" r="18" fill="url(#g)" stroke="rgba(var(--accent-rgb,59,130,246),0.65)"/>';
-                html += '<text x="60" y="176" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.7)" font-family="var(--mono)">CANON</text>';
-                html += '<text x="210" y="76" text-anchor="middle" font-size="11" fill="rgba(255,255,255,0.7)" font-family="var(--mono)">MAGIC</text>';
-                html += '<text x="360" y="176" text-anchor="middle" font-size="11" fill="rgba(0,0,0,0.75)" font-family="var(--mono)">RUNTIME</text>';
-                html += '</svg>';
+                html += renderFigure({ type: 'flow-chain', nodes: ['CANON', 'MAGIC', 'RUNTIME'] });
             }
             html += '</div>';
 
@@ -798,7 +950,15 @@ var RENDER = (function () {
                     f.tags.forEach(function (t) { html += '<span class="vaas-tag">' + t + '</span>'; });
                     html += '</div>';
                 }
-                html += '</div><span class="vaas-mark">\u2229</span></div>';
+                html += '</div>';
+                if (f.figure) {
+                    html += '<div class="vaas-graphic">' + renderFigure(f.figure) + '</div>';
+                } else if (f.graphic) {
+                    html += '<div class="vaas-graphic">' + f.graphic + '</div>';
+                } else {
+                    html += '<span class="vaas-mark">\u2229</span>';
+                }
+                html += '</div>';
             }
 
             // Galaxy (inline section — not hero)
