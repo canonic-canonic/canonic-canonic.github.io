@@ -1,194 +1,357 @@
 /**
- * magic.js — Galaxy Graph Controller
+ * magic.js — Galaxy Scope Finder
  *
- * Loads scopes.json → renders vis-network Galaxy.
- * Shared data layer: web (vis-network), iOS (SwiftUI), Android (Compose).
- * Min code. Max reuse. All native.
+ * Loads galaxy.json → renders navigable hierarchical Finder.
+ * Every scope. Every dimension. One view. Drill down, breadcrumb up.
+ * No external dependencies. Same data contract: web / iOS / Android.
  *
  * MAGIC DESIGN | CANONIC | 2026-02
  */
 
-var GALAXY = (function () {
-    'use strict';
+const GALAXY = (() => {
+  let data = null;
+  let nodeMap = {};       // id → node
+  let childrenOf = {};    // parentId → [node]
+  let edgesFrom = {};     // nodeId → [edge]
+  let edgesTo = {};       // nodeId → [edge]
+  let currentId = null;   // current scope (null = root)
+  let searchHits = null;
 
-    var network = null;
-    var scopes = [];
-    var detail = null;
+  const $ = id => document.getElementById(id);
+  const el = (tag, cls) => { const e = document.createElement(tag); if (cls) e.className = cls; return e; };
 
-    // ── TIER ────────────────────────────────────────────
-    function tierFor(bits) {
-        if (bits >= 255) return { name: 'MAGIC', color: '#00ff88', badge: '\u2726' };
-        if (bits >= 127) return { name: 'AGENT', color: '#2997ff', badge: '\u25C6' };
-        if (bits >= 63)  return { name: 'ENTERPRISE', color: '#bf5af2', badge: 'E' };
-        if (bits >= 39)  return { name: 'BUSINESS', color: '#ff9f0a', badge: 'B' };
-        if (bits >= 35)  return { name: 'COMMUNITY', color: '#fbbf24', badge: 'C' };
-        return { name: 'NONE', color: '#ff453a', badge: '\u2014' };
+  const KIND_ICON = {
+    ORG: '\u2726', SCOPE: '\u25CB', SERVICE: '\u2699',
+    USER: '\u2022', DEAL: '\u25C8', VERTICAL: '\u25C6',
+  };
+
+  const KIND_ORDER = { ORG: 0, SCOPE: 1, VERTICAL: 2, SERVICE: 3, DEAL: 4, USER: 5 };
+
+  // ── Init ──────────────────────────────────────────────────────────────────
+
+  async function init() {
+    try {
+      const res = await fetch('./galaxy.json');
+      data = await res.json();
+    } catch (e) {
+      $('galaxy').innerHTML = '<p style="color:#ff453a;padding:40px;font-family:monospace">galaxy.json not found — run build</p>';
+      return;
     }
 
-    // ── COMPLIANCE RING SVG ─────────────────────────────
-    function ringHTML(bits, ringSize) {
-        var sz = ringSize || 90;
-        var cx = sz / 2;
-        var tiers = [
-            { threshold: 35, r: sz * 0.47, stroke: 4, opacity: 0.15 },
-            { threshold: 39, r: sz * 0.40, stroke: 5, opacity: 0.35 },
-            { threshold: 63, r: sz * 0.33, stroke: 6, opacity: 0.70 }
-        ];
-        var svg = '<svg width="' + sz + '" height="' + sz + '" viewBox="0 0 ' + sz + ' ' + sz + '">';
-        tiers.forEach(function (t) {
-            var circ = 2 * Math.PI * t.r;
-            var pct = Math.min(bits / 255, 1);
-            svg += '<circle cx="' + cx + '" cy="' + cx + '" r="' + t.r + '" fill="none" stroke="#00ff88" stroke-width="' + t.stroke + '" opacity="' + t.opacity + '" stroke-dasharray="' + (circ * pct) + ' ' + circ + '" stroke-linecap="round" transform="rotate(-90 ' + cx + ' ' + cx + ')" style="transition:stroke-dasharray 0.8s"/>';
-        });
-        svg += '<text x="' + cx + '" y="' + cx + '" text-anchor="middle" dominant-baseline="central" fill="#fff" font-size="' + (sz * 0.22) + '" font-weight="700" font-family="-apple-system,system-ui,sans-serif">' + bits + '</text>';
-        svg += '</svg>';
-        return svg;
+    // Build indices
+    data.nodes.forEach(n => {
+      nodeMap[n.id] = n;
+      const pid = n.parent || '__ROOT__';
+      (childrenOf[pid] = childrenOf[pid] || []).push(n);
+    });
+    data.edges.forEach(e => {
+      (edgesFrom[e.from] = edgesFrom[e.from] || []).push(e);
+      (edgesTo[e.to] = edgesTo[e.to] || []).push(e);
+    });
+
+    // Sort children: kind priority, then label
+    for (const key of Object.keys(childrenOf)) {
+      childrenOf[key].sort((a, b) => {
+        const ka = KIND_ORDER[a.kind] ?? 9;
+        const kb = KIND_ORDER[b.kind] ?? 9;
+        return ka !== kb ? ka - kb : a.label.localeCompare(b.label);
+      });
     }
 
-    // ── DETAIL PANEL ────────────────────────────────────
-    function showDetail(scope) {
-        detail = scope;
-        var panel = document.getElementById('detailPanel');
-        if (!panel) return;
-        var t = tierFor(scope.bits);
-        var html = '<div class="dp-header"><span class="dp-name">' + scope.label + '</span><button class="dp-close" onclick="GALAXY.closeDetail()">\u00d7</button></div>';
-        html += '<div class="dp-ring">' + ringHTML(scope.bits, 140) + '</div>';
-        html += '<div class="dp-tier" style="color:' + t.color + '">' + t.badge + ' ' + t.name + '</div>';
-        html += '<div class="dp-meta">';
-        html += '<div class="dp-row"><span class="dp-label">Category</span><span class="dp-value" style="color:' + scope.color + '">' + scope.category + '</span></div>';
-        html += '<div class="dp-row"><span class="dp-label">Repo</span><span class="dp-value">' + scope.repo + '</span></div>';
-        html += '<div class="dp-row"><span class="dp-label">Bits</span><span class="dp-value">' + scope.bits + '/255</span></div>';
-        if (scope.inherits) html += '<div class="dp-row"><span class="dp-label">Inherits</span><span class="dp-value">' + scope.inherits + '</span></div>';
-        html += '</div>';
+    setupListeners();
+    render();
+  }
 
-        var children = scopes.filter(function (s) { return s.inherits === scope.id; });
-        if (children.length) {
-            html += '<div class="dp-section"><div class="dp-section-title">Inheritors</div><div class="dp-inheritors">';
-            children.forEach(function (c) {
-                html += '<span class="dp-child" style="border-color:' + c.color + ';color:' + c.color + '" onclick="GALAXY.focusScope(\'' + c.id + '\')">' + c.label + '</span>';
-            });
-            html += '</div></div>';
+  // ── Listeners ─────────────────────────────────────────────────────────────
+
+  function setupListeners() {
+    $('galaxySearch').addEventListener('input', e => {
+      const term = e.target.value.trim().toUpperCase();
+      searchHits = term.length >= 2
+        ? data.nodes.filter(n =>
+            n.label.includes(term) ||
+            n.id.toUpperCase().includes(term) ||
+            (n.category || '').toUpperCase().includes(term) ||
+            (n.kind || '').includes(term)
+          ).slice(0, 60)
+        : null;
+      render();
+    });
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') {
+        if (searchHits) {
+          searchHits = null;
+          $('galaxySearch').value = '';
+          render();
+        } else if (currentId) {
+          navigateUp();
         }
+      }
+    });
+  }
 
-        panel.innerHTML = html;
-        panel.classList.add('open');
+  // ── Navigation ────────────────────────────────────────────────────────────
+
+  function drillInto(id) {
+    currentId = id;
+    searchHits = null;
+    $('galaxySearch').value = '';
+    render();
+    $('galaxy').scrollTop = 0;
+  }
+
+  function navigateUp() {
+    if (!currentId) return;
+    const node = nodeMap[currentId];
+    currentId = node ? node.parent : null;
+    render();
+    $('galaxy').scrollTop = 0;
+  }
+
+  function navigateTo(id) {
+    currentId = id || null;
+    searchHits = null;
+    $('galaxySearch').value = '';
+    render();
+    $('galaxy').scrollTop = 0;
+  }
+
+  // ── Render ────────────────────────────────────────────────────────────────
+
+  function render() {
+    const g = $('galaxy');
+    g.innerHTML = '';
+
+    // Breadcrumbs
+    g.appendChild(makeBreadcrumbs());
+
+    // Scope header (when drilled in)
+    if (currentId && nodeMap[currentId]) {
+      g.appendChild(makeScopeHeader(nodeMap[currentId]));
     }
 
-    function closeDetail() {
-        var panel = document.getElementById('detailPanel');
-        if (panel) panel.classList.remove('open');
-        detail = null;
+    // Content
+    if (searchHits) {
+      const label = el('div', 'section-label');
+      label.textContent = `${searchHits.length} result${searchHits.length !== 1 ? 's' : ''}`;
+      g.appendChild(label);
+      g.appendChild(makeGrid(searchHits));
+    } else {
+      const children = childrenOf[currentId || '__ROOT__'] || [];
+      if (children.length > 0) {
+        g.appendChild(makeGrid(children));
+      } else if (currentId) {
+        g.appendChild(makeLeafDetail(nodeMap[currentId]));
+      }
     }
 
-    // ── SEARCH ──────────────────────────────────────────
-    function handleSearch(query) {
-        if (!network || !scopes.length) return;
-        var q = query.toLowerCase().trim();
-        if (!q) {
-            network.setSelection({ nodes: [], edges: [] });
-            return;
+    // HUD
+    makeHUD();
+
+    // Close detail panel
+    $('detailPanel').classList.remove('open');
+  }
+
+  function makeBreadcrumbs() {
+    const bar = el('div', 'breadcrumbs');
+    const trail = [];
+    let id = currentId;
+    while (id) {
+      const n = nodeMap[id];
+      if (!n) break;
+      trail.unshift({ id: n.id, label: n.label });
+      id = n.parent;
+    }
+    trail.unshift({ id: null, label: 'GALAXY' });
+
+    trail.forEach((crumb, i) => {
+      const span = el('span', i === trail.length - 1 ? 'crumb crumb-active' : 'crumb');
+      span.textContent = crumb.label;
+      if (i < trail.length - 1) span.onclick = () => navigateTo(crumb.id);
+      bar.appendChild(span);
+      if (i < trail.length - 1) {
+        const sep = el('span', 'crumb-sep');
+        sep.textContent = ' \u203A ';
+        bar.appendChild(sep);
+      }
+    });
+    return bar;
+  }
+
+  function makeScopeHeader(node) {
+    const header = el('div', 'scope-header');
+
+    const kindBadge = el('span', 'scope-header-kind');
+    kindBadge.textContent = node.kind;
+    kindBadge.style.color = node.color;
+    header.appendChild(kindBadge);
+
+    const title = el('h1', 'scope-header-title');
+    title.textContent = node.label;
+    title.style.color = node.color;
+    header.appendChild(title);
+
+    const sub = el('div', 'scope-header-sub');
+    const parts = [node.category || ''];
+    if (node.path && node.path !== '.') parts.push(node.path);
+    if (node.children > 0) parts.push(`${node.children} children`);
+    sub.textContent = parts.join(' \u00B7 ');
+    header.appendChild(sub);
+
+    // Cross-axiom connections (inherits edges that aren't parent-child)
+    const allEdges = [...(edgesFrom[node.id] || []), ...(edgesTo[node.id] || [])];
+    if (allEdges.length > 0) {
+      const connBar = el('div', 'scope-connections');
+      const connLabel = el('span', 'conn-label');
+      connLabel.textContent = 'INHERITS ';
+      connBar.appendChild(connLabel);
+      allEdges.forEach(edge => {
+        const otherId = edge.from === node.id ? edge.to : edge.from;
+        const otherNode = nodeMap[otherId];
+        if (!otherNode) return;
+        const tag = el('span', 'conn-tag');
+        tag.textContent = otherNode.label;
+        tag.style.borderColor = otherNode.color;
+        tag.style.color = otherNode.color;
+        tag.onclick = e => { e.stopPropagation(); drillInto(otherId); };
+        connBar.appendChild(tag);
+      });
+      header.appendChild(connBar);
+    }
+
+    return header;
+  }
+
+  function makeGrid(nodes) {
+    const grid = el('div', 'scope-grid');
+
+    nodes.forEach(node => {
+      const card = el('div', `scope-card kind-${node.kind.toLowerCase()}`);
+      card.style.setProperty('--accent', node.color || '#64748b');
+
+      // Top row: icon + kind + connections badge
+      const top = el('div', 'card-top');
+      const icon = el('span', 'card-icon');
+      icon.textContent = KIND_ICON[node.kind] || '\u25CB';
+      icon.style.color = node.color;
+      top.appendChild(icon);
+
+      const kind = el('span', 'card-kind');
+      kind.textContent = node.kind;
+      kind.style.color = node.color;
+      top.appendChild(kind);
+
+      const nodeEdges = [...(edgesFrom[node.id] || []), ...(edgesTo[node.id] || [])];
+      if (nodeEdges.length > 0) {
+        const badge = el('span', 'card-conn-badge');
+        badge.textContent = `${nodeEdges.length}\u2194`;
+        badge.title = `${nodeEdges.length} cross-axiom connection${nodeEdges.length > 1 ? 's' : ''}`;
+        top.appendChild(badge);
+      }
+      card.appendChild(top);
+
+      // Label
+      const label = el('div', 'card-label');
+      label.textContent = node.label;
+      card.appendChild(label);
+
+      // Meta
+      const meta = el('div', 'card-meta');
+      const metaParts = [];
+      if (node.children > 0) metaParts.push(`${node.children} scope${node.children > 1 ? 's' : ''}`);
+      if (node.category) metaParts.push(node.category);
+      meta.textContent = metaParts.join(' \u00B7 ');
+      card.appendChild(meta);
+
+      // Click
+      card.onclick = () => {
+        if (node.children > 0) {
+          drillInto(node.id);
+        } else {
+          openDetail(node);
         }
-        var matches = scopes.filter(function (s) {
-            return s.label.toLowerCase().indexOf(q) >= 0 || s.category.toLowerCase().indexOf(q) >= 0;
-        });
-        network.setSelection({ nodes: matches.map(function (m) { return m.id; }), edges: [] });
-        if (matches.length === 1) {
-            network.focus(matches[0].id, { scale: 1.5, animation: { duration: 400, easingFunction: 'easeInOutQuad' } });
-            showDetail(matches[0]);
-        }
+      };
+
+      grid.appendChild(card);
+    });
+
+    return grid;
+  }
+
+  function makeLeafDetail(node) {
+    const detail = el('div', 'leaf-detail');
+
+    const rows = [
+      ['Kind', node.kind],
+      ['Category', node.category],
+      ['Path', node.path],
+      ['Repo', node.repo],
+    ];
+    rows.forEach(([k, v]) => {
+      const row = el('div', 'leaf-row');
+      const key = el('span', 'leaf-key');
+      key.textContent = k;
+      const val = el('span', 'leaf-val');
+      val.textContent = v || '\u2014';
+      row.appendChild(key);
+      row.appendChild(val);
+      detail.appendChild(row);
+    });
+
+    // Connections
+    const allEdges = [...(edgesFrom[node.id] || []), ...(edgesTo[node.id] || [])];
+    if (allEdges.length > 0) {
+      const section = el('div', 'leaf-section');
+      const stitle = el('div', 'leaf-section-title');
+      stitle.textContent = 'CONNECTIONS';
+      section.appendChild(stitle);
+      allEdges.forEach(edge => {
+        const otherId = edge.from === node.id ? edge.to : edge.from;
+        const otherNode = nodeMap[otherId];
+        const row = el('div', 'leaf-edge');
+        row.textContent = `${edge.kind} \u2192 ${otherNode ? otherNode.label : otherId}`;
+        row.style.color = otherNode ? otherNode.color : '#64748b';
+        if (otherNode) row.onclick = () => navigateTo(otherNode.parent || otherNode.id);
+        section.appendChild(row);
+      });
+      detail.appendChild(section);
     }
 
-    function focusScope(id) {
-        var scope = scopes.find(function (s) { return s.id === id; });
-        if (!scope) return;
-        network.focus(id, { scale: 1.5, animation: { duration: 400, easingFunction: 'easeInOutQuad' } });
-        showDetail(scope);
-    }
+    return detail;
+  }
 
-    // ── GRAPH ───────────────────────────────────────────
-    function buildGraph(container) {
-        var nodes = scopes.map(function (s) {
-            return {
-                id: s.id, label: s.label, size: s.size,
-                color: { background: s.color, border: s.color, highlight: { background: s.color, border: '#fff' } },
-                font: { color: '#fff', size: Math.max(11, s.size * 0.28), face: '-apple-system,system-ui,sans-serif' },
-                borderWidth: 2, borderWidthSelected: 3
-            };
-        });
+  function openDetail(node) {
+    const panel = $('detailPanel');
+    panel.innerHTML = '';
+    panel.classList.add('open');
 
-        var edges = [];
-        scopes.forEach(function (s) {
-            if (s.inherits) {
-                edges.push({
-                    from: s.inherits, to: s.id,
-                    color: { color: 'rgba(255,255,255,0.08)', highlight: 'rgba(255,255,255,0.3)' },
-                    width: 1, smooth: { type: 'continuous' }
-                });
-            }
-        });
+    const header = el('div', 'dp-header');
+    const name = el('div', 'dp-name');
+    name.textContent = node.label;
+    name.style.color = node.color;
+    header.appendChild(name);
+    const close = el('button', 'dp-close');
+    close.textContent = '\u00D7';
+    close.onclick = () => panel.classList.remove('open');
+    header.appendChild(close);
+    panel.appendChild(header);
 
-        var data = { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) };
-        var options = {
-            physics: {
-                barnesHut: { gravitationalConstant: -8000, centralGravity: 0.4, springLength: 280, damping: 0.85 },
-                stabilization: { iterations: 300 }
-            },
-            nodes: { shape: 'dot' },
-            edges: { arrows: { to: { enabled: false } } },
-            interaction: { hover: true, tooltipDelay: 200, zoomView: true, dragView: true }
-        };
+    panel.appendChild(makeLeafDetail(node));
+  }
 
-        network = new vis.Network(container, data, options);
+  function makeHUD() {
+    const hud = $('hud');
+    if (!data) return;
+    const counts = {};
+    data.nodes.forEach(n => { counts[n.kind] = (counts[n.kind] || 0) + 1; });
+    const total = data.nodes.length;
+    hud.innerHTML = `<div class="hud-label">${total} SCOPES</div>` +
+      Object.entries(counts)
+        .sort((a, b) => b[1] - a[1])
+        .map(([k, v]) => `<div class="hud-label">${v} ${k}</div>`)
+        .join('');
+  }
 
-        network.on('click', function (params) {
-            if (params.nodes.length === 1) {
-                var scope = scopes.find(function (s) { return s.id === params.nodes[0]; });
-                if (scope) showDetail(scope);
-            } else { closeDetail(); }
-        });
-
-        network.on('doubleClick', function (params) {
-            if (params.nodes.length === 1) {
-                network.focus(params.nodes[0], { scale: 2, animation: { duration: 400, easingFunction: 'easeInOutQuad' } });
-            }
-        });
-    }
-
-    // ── HUD ─────────────────────────────────────────────
-    function renderHUD() {
-        var hud = document.getElementById('hud');
-        if (!hud) return;
-        var total = scopes.length;
-        var avgBits = Math.round(scopes.reduce(function (sum, s) { return sum + s.bits; }, 0) / total);
-        hud.innerHTML = ringHTML(avgBits, 90) + '<div class="hud-label">' + total + ' SCOPES</div>';
-    }
-
-    // ── INIT ────────────────────────────────────────────
-    async function init(el) {
-        var res = await fetch('./scopes.json');
-        scopes = await res.json();
-
-        var container = el || document.getElementById('galaxy');
-        if (!container) return;
-
-        buildGraph(container);
-        renderHUD();
-
-        var search = document.getElementById('galaxySearch');
-        if (search) {
-            search.addEventListener('input', function () { handleSearch(this.value); });
-            search.addEventListener('keydown', function (e) {
-                if (e.key === 'Escape') { this.value = ''; handleSearch(''); this.blur(); }
-            });
-        }
-
-        document.addEventListener('keydown', function (e) {
-            if (e.key === 'Escape') {
-                closeDetail();
-                if (network) network.fit({ animation: { duration: 400, easingFunction: 'easeInOutQuad' } });
-            }
-        });
-    }
-
-    return { init: init, closeDetail: closeDetail, focusScope: focusScope, scopes: function () { return scopes; } };
+  return { init };
 })();

@@ -1,0 +1,2579 @@
+{
+  "generated": "2026-02-17T21:03:17Z",
+  "nodes": [
+    {
+      "id": "canonic-canonic",
+      "kind": "ORG",
+      "label": "CANONIC",
+      "repo": "canonic-canonic",
+      "path": ".",
+      "parent": null,
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "children": 3
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/BLOGS",
+      "kind": "SCOPE",
+      "label": "BLOGS",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/BLOGS",
+      "parent": "canonic-canonic/FOUNDATION",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/BOOKS",
+      "kind": "SCOPE",
+      "label": "BOOKS",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/BOOKS",
+      "parent": "canonic-canonic/FOUNDATION",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION",
+      "kind": "SCOPE",
+      "label": "FOUNDATION",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION",
+      "parent": "canonic-canonic",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "children": 8
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/DOCTRINE",
+      "kind": "SCOPE",
+      "label": "DOCTRINE",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/DOCTRINE",
+      "parent": "canonic-canonic/FOUNDATION",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/EVIDENCE",
+      "kind": "SCOPE",
+      "label": "EVIDENCE",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/EVIDENCE",
+      "parent": "canonic-canonic/FOUNDATION",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/MED",
+      "kind": "SCOPE",
+      "label": "MED",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/MED",
+      "parent": "canonic-canonic/FOUNDATION",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 1
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/MED/ONCO",
+      "kind": "SCOPE",
+      "label": "ONCO",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/MED/ONCO",
+      "parent": "canonic-canonic/FOUNDATION/MED",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 1
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/MED/ONCO/MAMMO",
+      "kind": "SCOPE",
+      "label": "MAMMO",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/MED/ONCO/MAMMO",
+      "parent": "canonic-canonic/FOUNDATION/MED/ONCO",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/PAPERS",
+      "kind": "SCOPE",
+      "label": "PAPERS",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/PAPERS",
+      "parent": "canonic-canonic/FOUNDATION",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/PROGRAMMING",
+      "kind": "SCOPE",
+      "label": "PROGRAMMING",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/PROGRAMMING",
+      "parent": "canonic-canonic/FOUNDATION",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "children": 5
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/PROGRAMMING/EVIDENCE",
+      "kind": "SCOPE",
+      "label": "EVIDENCE",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/PROGRAMMING/EVIDENCE",
+      "parent": "canonic-canonic/FOUNDATION/PROGRAMMING",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/PROGRAMMING/c",
+      "kind": "SCOPE",
+      "label": "C",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/PROGRAMMING/c",
+      "parent": "canonic-canonic/FOUNDATION/PROGRAMMING",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 1
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/PROGRAMMING/c/EVIDENCE",
+      "kind": "SCOPE",
+      "label": "EVIDENCE",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/PROGRAMMING/c/EVIDENCE",
+      "parent": "canonic-canonic/FOUNDATION/PROGRAMMING/c",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/PROGRAMMING/python",
+      "kind": "SCOPE",
+      "label": "PYTHON",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/PROGRAMMING/python",
+      "parent": "canonic-canonic/FOUNDATION/PROGRAMMING",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 1
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/PROGRAMMING/python/EVIDENCE",
+      "kind": "SCOPE",
+      "label": "EVIDENCE",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/PROGRAMMING/python/EVIDENCE",
+      "parent": "canonic-canonic/FOUNDATION/PROGRAMMING/python",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/PROGRAMMING/swift",
+      "kind": "SCOPE",
+      "label": "SWIFT",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/PROGRAMMING/swift",
+      "parent": "canonic-canonic/FOUNDATION/PROGRAMMING",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 1
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/PROGRAMMING/swift/EVIDENCE",
+      "kind": "SCOPE",
+      "label": "EVIDENCE",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/PROGRAMMING/swift/EVIDENCE",
+      "parent": "canonic-canonic/FOUNDATION/PROGRAMMING/swift",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/PROGRAMMING/typescript",
+      "kind": "SCOPE",
+      "label": "TYPESCRIPT",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/PROGRAMMING/typescript",
+      "parent": "canonic-canonic/FOUNDATION/PROGRAMMING",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 1
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/PROGRAMMING/typescript/EVIDENCE",
+      "kind": "SCOPE",
+      "label": "EVIDENCE",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/PROGRAMMING/typescript/EVIDENCE",
+      "parent": "canonic-canonic/FOUNDATION/PROGRAMMING/typescript",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/RESERVES",
+      "kind": "SCOPE",
+      "label": "RESERVES",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/RESERVES",
+      "parent": "canonic-canonic/FOUNDATION",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES",
+      "kind": "SCOPE",
+      "label": "INDUSTRIES",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES",
+      "parent": "canonic-canonic",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 4
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/HORIZONTAL",
+      "kind": "SCOPE",
+      "label": "HORIZONTAL",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/HORIZONTAL",
+      "parent": "canonic-canonic/INDUSTRIES",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 2
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/HORIZONTAL/SAFETY",
+      "kind": "SCOPE",
+      "label": "SAFETY",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/HORIZONTAL/SAFETY",
+      "parent": "canonic-canonic/INDUSTRIES/HORIZONTAL",
+      "color": "#2997ff",
+      "category": "OPERATIONS",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/HORIZONTAL/SECURITY",
+      "kind": "SCOPE",
+      "label": "SECURITY",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/HORIZONTAL/SECURITY",
+      "parent": "canonic-canonic/INDUSTRIES/HORIZONTAL",
+      "color": "#2997ff",
+      "category": "OPERATIONS",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/META",
+      "kind": "SCOPE",
+      "label": "META",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/META",
+      "parent": "canonic-canonic/INDUSTRIES",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/REGULATORY/BLOCKCHAIN",
+      "kind": "SCOPE",
+      "label": "BLOCKCHAIN",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/REGULATORY/BLOCKCHAIN",
+      "parent": "canonic-canonic/INDUSTRIES/REGULATORY",
+      "color": "#2997ff",
+      "category": "OPERATIONS",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/REGULATORY",
+      "kind": "SCOPE",
+      "label": "REGULATORY",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/REGULATORY",
+      "parent": "canonic-canonic/INDUSTRIES",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 4
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/REGULATORY/DATA",
+      "kind": "SCOPE",
+      "label": "DATA",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/REGULATORY/DATA",
+      "parent": "canonic-canonic/INDUSTRIES/REGULATORY",
+      "color": "#2997ff",
+      "category": "OPERATIONS",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/REGULATORY/GOVERNMENT",
+      "kind": "SCOPE",
+      "label": "GOVERNMENT",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/REGULATORY/GOVERNMENT",
+      "parent": "canonic-canonic/INDUSTRIES/REGULATORY",
+      "color": "#2997ff",
+      "category": "OPERATIONS",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/REGULATORY/LAW",
+      "kind": "SCOPE",
+      "label": "LAW",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/REGULATORY/LAW",
+      "parent": "canonic-canonic/INDUSTRIES/REGULATORY",
+      "color": "#2997ff",
+      "category": "OPERATIONS",
+      "children": 1
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/REGULATORY/LAW/PATENT",
+      "kind": "SCOPE",
+      "label": "PATENT",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/REGULATORY/LAW/PATENT",
+      "parent": "canonic-canonic/INDUSTRIES/REGULATORY/LAW",
+      "color": "#2997ff",
+      "category": "OPERATIONS",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/AEROSPACE",
+      "kind": "VERTICAL",
+      "label": "AEROSPACE",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/AEROSPACE",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/AGRICULTURE",
+      "kind": "VERTICAL",
+      "label": "AGRICULTURE",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/AGRICULTURE",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/AUTOMOTIVE",
+      "kind": "VERTICAL",
+      "label": "AUTOMOTIVE",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/AUTOMOTIVE",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "kind": "SCOPE",
+      "label": "VERTICALS",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS",
+      "parent": "canonic-canonic/INDUSTRIES",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 14
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/DEFENSE",
+      "kind": "VERTICAL",
+      "label": "DEFENSE",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/DEFENSE",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/EDUCATION",
+      "kind": "VERTICAL",
+      "label": "EDUCATION",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/EDUCATION",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/ENERGY",
+      "kind": "VERTICAL",
+      "label": "ENERGY",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/ENERGY",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/FINANCE",
+      "kind": "VERTICAL",
+      "label": "FINANCE",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/FINANCE",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/GENOMICS",
+      "kind": "VERTICAL",
+      "label": "GENOMICS",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/GENOMICS",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/LOGISTICS",
+      "kind": "VERTICAL",
+      "label": "LOGISTICS",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/LOGISTICS",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/MANUFACTURING",
+      "kind": "VERTICAL",
+      "label": "MANUFACTURING",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/MANUFACTURING",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE",
+      "kind": "VERTICAL",
+      "label": "MEDICINE",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/MEDICINE",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 3
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/credentialing",
+      "kind": "VERTICAL",
+      "label": "CREDENTIALING",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/MEDICINE/credentialing",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology",
+      "kind": "VERTICAL",
+      "label": "ONCOLOGY",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/MEDICINE/oncology",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 1
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology/breast",
+      "kind": "VERTICAL",
+      "label": "BREAST",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/MEDICINE/oncology/breast",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/psychiatry",
+      "kind": "VERTICAL",
+      "label": "PSYCHIATRY",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/MEDICINE/psychiatry",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/QUALITY",
+      "kind": "VERTICAL",
+      "label": "QUALITY",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/QUALITY",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "kind": "VERTICAL",
+      "label": "RELIGION",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 6
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/buddhism",
+      "kind": "VERTICAL",
+      "label": "BUDDHISM",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/buddhism",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "kind": "VERTICAL",
+      "label": "CHRISTIANITY",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 5
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/sda",
+      "kind": "VERTICAL",
+      "label": "SDA",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/sda",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/ancient",
+      "kind": "VERTICAL",
+      "label": "ANCIENT",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/christianity/ancient",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/catholic",
+      "kind": "VERTICAL",
+      "label": "CATHOLIC",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/christianity/catholic",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/orthodox",
+      "kind": "VERTICAL",
+      "label": "ORTHODOX",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/christianity/orthodox",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/protestant",
+      "kind": "VERTICAL",
+      "label": "PROTESTANT",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/christianity/protestant",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism",
+      "kind": "VERTICAL",
+      "label": "HINDUISM",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/hinduism",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam",
+      "kind": "VERTICAL",
+      "label": "ISLAM",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/islam",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 3
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/nation-of-islam",
+      "kind": "VERTICAL",
+      "label": "NATION-OF-ISLAM",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/islam/nation-of-islam",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/shia",
+      "kind": "VERTICAL",
+      "label": "SHIA",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/islam/shia",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/sunni",
+      "kind": "VERTICAL",
+      "label": "SUNNI",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/islam/sunni",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/judaism",
+      "kind": "VERTICAL",
+      "label": "JUDAISM",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/judaism",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/sikhism",
+      "kind": "VERTICAL",
+      "label": "SIKHISM",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/sikhism",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/ROBOTICS",
+      "kind": "VERTICAL",
+      "label": "ROBOTICS",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/ROBOTICS",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC",
+      "kind": "SCOPE",
+      "label": "MAGIC",
+      "repo": "canonic-canonic",
+      "path": "MAGIC",
+      "parent": "canonic-canonic",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 3
+    },
+    {
+      "id": "canonic-canonic/MAGIC/COMPLIANCE",
+      "kind": "SCOPE",
+      "label": "COMPLIANCE",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/COMPLIANCE",
+      "parent": "canonic-canonic/MAGIC",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 4
+    },
+    {
+      "id": "canonic-canonic/MAGIC/COMPLIANCE/EVIDENCE",
+      "kind": "SCOPE",
+      "label": "EVIDENCE",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/COMPLIANCE/EVIDENCE",
+      "parent": "canonic-canonic/MAGIC/COMPLIANCE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/COMPLIANCE/GTM",
+      "kind": "SCOPE",
+      "label": "GTM",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/COMPLIANCE/GTM",
+      "parent": "canonic-canonic/MAGIC/COMPLIANCE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/COMPLIANCE/MARKET",
+      "kind": "SCOPE",
+      "label": "MARKET",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/COMPLIANCE/MARKET",
+      "parent": "canonic-canonic/MAGIC/COMPLIANCE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/COMPLIANCE/SALES",
+      "kind": "SCOPE",
+      "label": "SALES",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/COMPLIANCE/SALES",
+      "parent": "canonic-canonic/MAGIC/COMPLIANCE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/GALAXY",
+      "kind": "SCOPE",
+      "label": "GALAXY",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/GALAXY",
+      "parent": "canonic-canonic/MAGIC",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 2
+    },
+    {
+      "id": "canonic-canonic/MAGIC/GALAXY/ORGS",
+      "kind": "SCOPE",
+      "label": "ORGS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/GALAXY/ORGS",
+      "parent": "canonic-canonic/MAGIC/GALAXY",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 1
+    },
+    {
+      "id": "canonic-canonic/MAGIC/GALAXY/ORGS/EVIDENCE",
+      "kind": "SCOPE",
+      "label": "EVIDENCE",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/GALAXY/ORGS/EVIDENCE",
+      "parent": "canonic-canonic/MAGIC/GALAXY/ORGS",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/GALAXY/USERS",
+      "kind": "SCOPE",
+      "label": "USERS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/GALAXY/USERS",
+      "parent": "canonic-canonic/MAGIC/GALAXY",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/ANDROID",
+      "kind": "SCOPE",
+      "label": "ANDROID",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/ANDROID",
+      "parent": "canonic-canonic/MAGIC/SURFACE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/APPLE",
+      "kind": "SCOPE",
+      "label": "APPLE",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/APPLE",
+      "parent": "canonic-canonic/MAGIC/SURFACE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE",
+      "kind": "SCOPE",
+      "label": "SURFACE",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE",
+      "parent": "canonic-canonic/MAGIC",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 5
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/DESIGN",
+      "kind": "SCOPE",
+      "label": "DESIGN",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/DESIGN",
+      "parent": "canonic-canonic/MAGIC/SURFACE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/SERVICES",
+      "kind": "SCOPE",
+      "label": "SERVICES",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/SERVICES",
+      "parent": "canonic-canonic/MAGIC/SURFACE",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 1
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/SERVICES/VAULT",
+      "kind": "SCOPE",
+      "label": "VAULT",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/SERVICES/VAULT",
+      "parent": "canonic-canonic/MAGIC/SURFACE/SERVICES",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "children": 4
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/SERVICES/VAULT/COIN",
+      "kind": "SCOPE",
+      "label": "COIN",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/SERVICES/VAULT/COIN",
+      "parent": "canonic-canonic/MAGIC/SURFACE/SERVICES/VAULT",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/SERVICES/VAULT/EVIDENCE",
+      "kind": "SCOPE",
+      "label": "EVIDENCE",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/SERVICES/VAULT/EVIDENCE",
+      "parent": "canonic-canonic/MAGIC/SURFACE/SERVICES/VAULT",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/SERVICES/VAULT/INTEL",
+      "kind": "SCOPE",
+      "label": "INTEL",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/SERVICES/VAULT/INTEL",
+      "parent": "canonic-canonic/MAGIC/SURFACE/SERVICES/VAULT",
+      "color": "#2997ff",
+      "category": "OPERATIONS",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/SERVICES/VAULT/LEDGER",
+      "kind": "SCOPE",
+      "label": "LEDGER",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/SERVICES/VAULT/LEDGER",
+      "parent": "canonic-canonic/MAGIC/SURFACE/SERVICES/VAULT",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/TOOLCHAIN",
+      "kind": "SCOPE",
+      "label": "TOOLCHAIN",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/TOOLCHAIN",
+      "parent": "canonic-canonic/MAGIC/SURFACE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic",
+      "kind": "ORG",
+      "label": "HADLEYLAB",
+      "repo": "hadleylab-canonic",
+      "path": ".",
+      "parent": null,
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER",
+      "kind": "SCOPE",
+      "label": "DEXTER",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER",
+      "parent": "hadleylab-canonic",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 5
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/BLOG",
+      "kind": "SERVICE",
+      "label": "BLOG",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/BLOG",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/BOOK",
+      "kind": "SERVICE",
+      "label": "BOOK",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/BOOK",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/CALENDAR",
+      "kind": "SERVICE",
+      "label": "CALENDAR",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/CALENDAR",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES",
+      "kind": "SCOPE",
+      "label": "SERVICES",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES",
+      "parent": "hadleylab-canonic/DEXTER",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 18
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/DEAL",
+      "kind": "SERVICE",
+      "label": "DEAL",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/DEAL",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/DECK",
+      "kind": "SERVICE",
+      "label": "DECK",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/DECK",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/EMAIL",
+      "kind": "SERVICE",
+      "label": "EMAIL",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/EMAIL",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/HEALTH",
+      "kind": "SERVICE",
+      "label": "HEALTH",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/HEALTH",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/IMESSAGE",
+      "kind": "SERVICE",
+      "label": "IMESSAGE",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/IMESSAGE",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/LEARNING",
+      "kind": "SERVICE",
+      "label": "LEARNING",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/LEARNING",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/LINKEDIN",
+      "kind": "SERVICE",
+      "label": "LINKEDIN",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/LINKEDIN",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/MAGIC/BAKEOFF",
+      "kind": "SERVICE",
+      "label": "BAKEOFF",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/MAGIC/BAKEOFF",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES/MAGIC",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/MAGIC",
+      "kind": "SERVICE",
+      "label": "MAGIC",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/MAGIC",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "children": 3
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/MAGIC/RUNPOD",
+      "kind": "SERVICE",
+      "label": "RUNPOD",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/MAGIC/RUNPOD",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES/MAGIC",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/MAGIC/VASTAI",
+      "kind": "SERVICE",
+      "label": "VASTAI",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/MAGIC/VASTAI",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES/MAGIC",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/PAPER",
+      "kind": "SERVICE",
+      "label": "PAPER",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/PAPER",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/PATENT",
+      "kind": "SERVICE",
+      "label": "PATENT",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/PATENT",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#2997ff",
+      "category": "OPERATIONS",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/PLAYBOOKS",
+      "kind": "SERVICE",
+      "label": "PLAYBOOKS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/PLAYBOOKS",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/SHOP",
+      "kind": "SERVICE",
+      "label": "SHOP",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/SHOP",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/TALK",
+      "kind": "SERVICE",
+      "label": "TALK",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/TALK",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 5
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/TALK/FINCHAT",
+      "kind": "SERVICE",
+      "label": "FINCHAT",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/TALK/FINCHAT",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES/TALK",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/TALK/LAWCHAT",
+      "kind": "SERVICE",
+      "label": "LAWCHAT",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/TALK/LAWCHAT",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES/TALK",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/TALK/MAMMOCHAT",
+      "kind": "SERVICE",
+      "label": "MAMMOCHAT",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/TALK/MAMMOCHAT",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES/TALK",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/TALK/MEDCHAT",
+      "kind": "SERVICE",
+      "label": "MEDCHAT",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/TALK/MEDCHAT",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES/TALK",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/TALK/ONCOCHAT",
+      "kind": "SERVICE",
+      "label": "ONCOCHAT",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/TALK/ONCOCHAT",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES/TALK",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/VAULT",
+      "kind": "SERVICE",
+      "label": "VAULT",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/VAULT",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SERVICES/VITAE",
+      "kind": "SERVICE",
+      "label": "VITAE",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SERVICES/VITAE",
+      "parent": "hadleylab-canonic/DEXTER/SERVICES",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SHOP/BLOGS",
+      "kind": "SCOPE",
+      "label": "BLOGS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SHOP/BLOGS",
+      "parent": "hadleylab-canonic/DEXTER/SHOP",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SHOP/BOOKS/ATULISMS",
+      "kind": "SCOPE",
+      "label": "ATULISMS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SHOP/BOOKS/ATULISMS",
+      "parent": "hadleylab-canonic/DEXTER/SHOP/BOOKS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "children": 1
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SHOP/BOOKS/ATULISMS/CHAPTERS",
+      "kind": "SCOPE",
+      "label": "CHAPTERS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SHOP/BOOKS/ATULISMS/CHAPTERS",
+      "parent": "hadleylab-canonic/DEXTER/SHOP/BOOKS/ATULISMS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SHOP/BOOKS",
+      "kind": "SCOPE",
+      "label": "BOOKS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SHOP/BOOKS",
+      "parent": "hadleylab-canonic/DEXTER/SHOP",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SHOP/BOOKS/CHAPTERS",
+      "kind": "SCOPE",
+      "label": "CHAPTERS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SHOP/BOOKS/CHAPTERS",
+      "parent": "hadleylab-canonic/DEXTER/SHOP/BOOKS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SHOP",
+      "kind": "SCOPE",
+      "label": "SHOP",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SHOP",
+      "parent": "hadleylab-canonic/DEXTER",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "children": 5
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SHOP/CHAT",
+      "kind": "SCOPE",
+      "label": "CHAT",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SHOP/CHAT",
+      "parent": "hadleylab-canonic/DEXTER/SHOP",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SHOP/DECKS",
+      "kind": "SCOPE",
+      "label": "DECKS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SHOP/DECKS",
+      "parent": "hadleylab-canonic/DEXTER/SHOP",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "children": 5
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SHOP/DECKS/DECK",
+      "kind": "SCOPE",
+      "label": "DECK",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SHOP/DECKS/DECK",
+      "parent": "hadleylab-canonic/DEXTER/SHOP/DECKS",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SHOP/DECKS/GABE-FITCH",
+      "kind": "SCOPE",
+      "label": "GABE-FITCH",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SHOP/DECKS/GABE-FITCH",
+      "parent": "hadleylab-canonic/DEXTER/SHOP/DECKS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SHOP/DECKS/HOWARD",
+      "kind": "SCOPE",
+      "label": "HOWARD",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SHOP/DECKS/HOWARD",
+      "parent": "hadleylab-canonic/DEXTER/SHOP/DECKS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SHOP/DECKS/MALEK",
+      "kind": "SCOPE",
+      "label": "MALEK",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SHOP/DECKS/MALEK",
+      "parent": "hadleylab-canonic/DEXTER/SHOP/DECKS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SHOP/DECKS/PMWC",
+      "kind": "SCOPE",
+      "label": "PMWC",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SHOP/DECKS/PMWC",
+      "parent": "hadleylab-canonic/DEXTER/SHOP/DECKS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/SHOP/PAPERS",
+      "kind": "SCOPE",
+      "label": "PAPERS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/SHOP/PAPERS",
+      "parent": "hadleylab-canonic/DEXTER/SHOP",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/afsana-akter",
+      "kind": "USER",
+      "label": "AFSANA-AKTER",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/afsana-akter",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/alex-evans",
+      "kind": "USER",
+      "label": "ALEX-EVANS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/alex-evans",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/alyssa-tanaka",
+      "kind": "USER",
+      "label": "ALYSSA-TANAKA",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/alyssa-tanaka",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/andrew-trister",
+      "kind": "USER",
+      "label": "ANDREW-TRISTER",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/andrew-trister",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/anil-bajnath",
+      "kind": "USER",
+      "label": "ANIL-BAJNATH",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/anil-bajnath",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/atul-butte",
+      "kind": "USER",
+      "label": "ATUL-BUTTE",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/atul-butte",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/avinash-boodoosingh",
+      "kind": "USER",
+      "label": "AVINASH-BOODOOSINGH",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/avinash-boodoosingh",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/beau-norgeot",
+      "kind": "USER",
+      "label": "BEAU-NORGEOT",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/beau-norgeot",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/david-metcalf",
+      "kind": "USER",
+      "label": "DAVID-METCALF",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/david-metcalf",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/david-slonim",
+      "kind": "USER",
+      "label": "DAVID-SLONIM",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/david-slonim",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/deborah-german",
+      "kind": "USER",
+      "label": "DEBORAH-GERMAN",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/deborah-german",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/elena-cyrus",
+      "kind": "USER",
+      "label": "ELENA-CYRUS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/elena-cyrus",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/fatima-boukrim",
+      "kind": "USER",
+      "label": "FATIMA-BOUKRIM",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/fatima-boukrim",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/gabe-fitch",
+      "kind": "USER",
+      "label": "GABE-FITCH",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/gabe-fitch",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/geoff-seyon",
+      "kind": "USER",
+      "label": "GEOFF-SEYON",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/geoff-seyon",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/gini-deshpande",
+      "kind": "USER",
+      "label": "GINI-DESHPANDE",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/gini-deshpande",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/ir4y",
+      "kind": "USER",
+      "label": "IR4Y",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/ir4y",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/isabella-johnston",
+      "kind": "USER",
+      "label": "ISABELLA-JOHNSTON",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/isabella-johnston",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/jane-gibson",
+      "kind": "USER",
+      "label": "JANE-GIBSON",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/jane-gibson",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/junaid-kalia",
+      "kind": "USER",
+      "label": "JUNAID-KALIA",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/junaid-kalia",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/kunal-patel",
+      "kind": "USER",
+      "label": "KUNAL-PATEL",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/kunal-patel",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/maria-hupp",
+      "kind": "USER",
+      "label": "MARIA-HUPP",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/maria-hupp",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/mariana-dangiolo",
+      "kind": "USER",
+      "label": "MARIANA-DANGIOLO",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/mariana-dangiolo",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/marina-sirota",
+      "kind": "USER",
+      "label": "MARINA-SIROTA",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/marina-sirota",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/mark-malek",
+      "kind": "USER",
+      "label": "MARK-MALEK",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/mark-malek",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/mike-miller",
+      "kind": "USER",
+      "label": "MIKE-MILLER",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/mike-miller",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/minh-nguyen",
+      "kind": "USER",
+      "label": "MINH-NGUYEN",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/minh-nguyen",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/mubarak-shah",
+      "kind": "USER",
+      "label": "MUBARAK-SHAH",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/mubarak-shah",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/neville-calleja",
+      "kind": "USER",
+      "label": "NEVILLE-CALLEJA",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/neville-calleja",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/rima-arnaout",
+      "kind": "USER",
+      "label": "RIMA-ARNAOUT",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/rima-arnaout",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/rob-herzog",
+      "kind": "USER",
+      "label": "ROB-HERZOG",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/rob-herzog",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/rob-purinton",
+      "kind": "USER",
+      "label": "ROB-PURINTON",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/rob-purinton",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/robin-williams",
+      "kind": "USER",
+      "label": "ROBIN-WILLIAMS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/robin-williams",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/shyamali",
+      "kind": "USER",
+      "label": "SHYAMALI",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/shyamali",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/ted-goldstein",
+      "kind": "USER",
+      "label": "TED-GOLDSTEIN",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/ted-goldstein",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/terrence-fullum",
+      "kind": "USER",
+      "label": "TERRENCE-FULLUM",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/terrence-fullum",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS/yana",
+      "kind": "USER",
+      "label": "YANA",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS/yana",
+      "parent": "hadleylab-canonic/DEXTER/USERS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT",
+      "kind": "SCOPE",
+      "label": "VAULT",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT",
+      "parent": "hadleylab-canonic/DEXTER",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "children": 8
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/ADVENTHEALTH",
+      "kind": "DEAL",
+      "label": "ADVENTHEALTH",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/ADVENTHEALTH",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/ANDREW-TRISTER",
+      "kind": "DEAL",
+      "label": "ANDREW-TRISTER",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/ANDREW-TRISTER",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/ATOM-AVINASH",
+      "kind": "DEAL",
+      "label": "ATOM-AVINASH",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/ATOM-AVINASH",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/ATUL-BUTTE",
+      "kind": "DEAL",
+      "label": "ATUL-BUTTE",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/ATUL-BUTTE",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/BEAU-NORGEOT",
+      "kind": "DEAL",
+      "label": "BEAU-NORGEOT",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/BEAU-NORGEOT",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "kind": "SCOPE",
+      "label": "DEALS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS",
+      "parent": "hadleylab-canonic/DEXTER/VAULT",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "children": 23
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/CANONIC-DEX",
+      "kind": "DEAL",
+      "label": "CANONIC-DEX",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/CANONIC-DEX",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/CANONIC-FATIMA",
+      "kind": "DEAL",
+      "label": "CANONIC-FATIMA",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/CANONIC-FATIMA",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/CANONIC-ISABELLA",
+      "kind": "DEAL",
+      "label": "CANONIC-ISABELLA",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/CANONIC-ISABELLA",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/CANONIC-YANA",
+      "kind": "DEAL",
+      "label": "CANONIC-YANA",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/CANONIC-YANA",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/GABE-FITCH",
+      "kind": "DEAL",
+      "label": "GABE-FITCH",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/GABE-FITCH",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/GEOFF-AFSANA",
+      "kind": "DEAL",
+      "label": "GEOFF-AFSANA",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/GEOFF-AFSANA",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/HOWARD",
+      "kind": "DEAL",
+      "label": "HOWARD",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/HOWARD",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/MAMMOCHAT",
+      "kind": "DEAL",
+      "label": "MAMMOCHAT",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/MAMMOCHAT",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/MARINA-SIROTA",
+      "kind": "DEAL",
+      "label": "MARINA-SIROTA",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/MARINA-SIROTA",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/MARK-MALEK",
+      "kind": "DEAL",
+      "label": "MARK-MALEK",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/MARK-MALEK",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/MINH-TRINH",
+      "kind": "DEAL",
+      "label": "MINH-TRINH",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/MINH-TRINH",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/OC-MAMMOCHAT",
+      "kind": "DEAL",
+      "label": "OC-MAMMOCHAT",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/OC-MAMMOCHAT",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/PMWC-2026",
+      "kind": "DEAL",
+      "label": "PMWC-2026",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/PMWC-2026",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/RIMA-ARNAOUT",
+      "kind": "DEAL",
+      "label": "RIMA-ARNAOUT",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/RIMA-ARNAOUT",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/SHYAMALI",
+      "kind": "DEAL",
+      "label": "SHYAMALI",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/SHYAMALI",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/TED-GOLDSTEIN",
+      "kind": "DEAL",
+      "label": "TED-GOLDSTEIN",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/TED-GOLDSTEIN",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/TEMPLATES",
+      "kind": "DEAL",
+      "label": "TEMPLATES",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/TEMPLATES",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/DEALS/UCF-DAVID",
+      "kind": "DEAL",
+      "label": "UCF-DAVID",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/DEALS/UCF-DAVID",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/DEALS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/FINANCIALS",
+      "kind": "SCOPE",
+      "label": "FINANCIALS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/FINANCIALS",
+      "parent": "hadleylab-canonic/DEXTER/VAULT",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/FORECASTS",
+      "kind": "SCOPE",
+      "label": "FORECASTS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/FORECASTS",
+      "parent": "hadleylab-canonic/DEXTER/VAULT",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/INTEL",
+      "kind": "SCOPE",
+      "label": "INTEL",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/INTEL",
+      "parent": "hadleylab-canonic/DEXTER/VAULT",
+      "color": "#2997ff",
+      "category": "OPERATIONS",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/KYC",
+      "kind": "SCOPE",
+      "label": "KYC",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/KYC",
+      "parent": "hadleylab-canonic/DEXTER/VAULT",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/LEDGER",
+      "kind": "SCOPE",
+      "label": "LEDGER",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/LEDGER",
+      "parent": "hadleylab-canonic/DEXTER/VAULT",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/PATENTS/APPLICATIONS",
+      "kind": "SCOPE",
+      "label": "APPLICATIONS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/PATENTS/APPLICATIONS",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/PATENTS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/PATENTS",
+      "kind": "SCOPE",
+      "label": "PATENTS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/PATENTS",
+      "parent": "hadleylab-canonic/DEXTER/VAULT",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 5
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/PATENTS/DISCLOSURES",
+      "kind": "SCOPE",
+      "label": "DISCLOSURES",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/PATENTS/DISCLOSURES",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/PATENTS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/PATENTS/DUE-DILIGENCE",
+      "kind": "SCOPE",
+      "label": "DUE-DILIGENCE",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/PATENTS/DUE-DILIGENCE",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/PATENTS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/PATENTS/OUTPUT",
+      "kind": "SCOPE",
+      "label": "OUTPUT",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/PATENTS/OUTPUT",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/PATENTS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/PATENTS/PROVISIONALS",
+      "kind": "SCOPE",
+      "label": "PROVISIONALS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/PATENTS/PROVISIONALS",
+      "parent": "hadleylab-canonic/DEXTER/VAULT/PATENTS",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VAULT/RESERVES",
+      "kind": "SCOPE",
+      "label": "RESERVES",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VAULT/RESERVES",
+      "parent": "hadleylab-canonic/DEXTER/VAULT",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/VITAE",
+      "kind": "SCOPE",
+      "label": "VITAE",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/VITAE",
+      "parent": "hadleylab-canonic/DEXTER",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/LEARNING",
+      "kind": "SCOPE",
+      "label": "LEARNING",
+      "repo": "hadleylab-canonic",
+      "path": "LEARNING",
+      "parent": "hadleylab-canonic",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist",
+      "kind": "VERTICAL",
+      "label": "ADVENTIST",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/christianity/adventist",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "color": "#64748b",
+      "category": "SCOPE",
+      "children": 1
+    },
+    {
+      "id": "hadleylab-canonic/DEXTER/USERS",
+      "kind": "SCOPE",
+      "label": "USERS",
+      "repo": "hadleylab-canonic",
+      "path": "DEXTER/USERS",
+      "parent": "hadleylab-canonic/DEXTER",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "children": 37
+    }
+  ],
+  "edges": [
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/FOUNDATION/PROGRAMMING/c/EVIDENCE",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/FOUNDATION/PROGRAMMING/python/EVIDENCE",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/FOUNDATION/PROGRAMMING/swift",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/FOUNDATION/PROGRAMMING/swift/EVIDENCE",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/FOUNDATION/PROGRAMMING/typescript/EVIDENCE",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/FOUNDATION/RESERVES",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/INDUSTRIES",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/sda",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/protestant"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/MAGIC",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/MAGIC/GALAXY/ORGS",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/MAGIC/GALAXY/USERS",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/MAGIC/SURFACE/SERVICES/VAULT",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/MAGIC/SURFACE/TOOLCHAIN",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic",
+      "to": "canonic-canonic"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/SERVICES/MAGIC",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/SERVICES/TALK/MAMMOCHAT",
+      "to": "hadleylab-canonic/DEXTER/SERVICES/TALK/ONCOCHAT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/SERVICES/VAULT",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/afsana-akter",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/alex-evans",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/alyssa-tanaka",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/andrew-trister",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/anil-bajnath",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/atul-butte",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/avinash-boodoosingh",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/beau-norgeot",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/david-metcalf",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/david-slonim",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/deborah-german",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/elena-cyrus",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/fatima-boukrim",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/gabe-fitch",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/geoff-seyon",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/gini-deshpande",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/ir4y",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/isabella-johnston",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/jane-gibson",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/junaid-kalia",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/kunal-patel",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/maria-hupp",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/mariana-dangiolo",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/marina-sirota",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/mark-malek",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/mike-miller",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/minh-nguyen",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/mubarak-shah",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/neville-calleja",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/rima-arnaout",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/rob-herzog",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/rob-purinton",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/robin-williams",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/shyamali",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/ted-goldstein",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/terrence-fullum",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/USERS/yana",
+      "to": "hadleylab-canonic/DEXTER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/VAULT/DEALS/ATOM-AVINASH",
+      "to": "hadleylab-canonic/DEXTER/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/VAULT/DEALS/MARK-MALEK",
+      "to": "hadleylab-canonic/DEXTER/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEXTER/VAULT/PATENTS",
+      "to": "hadleylab-canonic/DEXTER/SHOP"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/LEARNING",
+      "to": "hadleylab-canonic/."
+    }
+  ]
+}
