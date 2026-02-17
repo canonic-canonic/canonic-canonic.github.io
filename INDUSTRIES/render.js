@@ -151,13 +151,11 @@ var RENDER = (function () {
             html += '</div>';
 
             if (byKey && byKey.length) {
-                html += '<table class="comp-table" style="margin-top:16px;">';
-                html += '<thead><tr><th>scope</th><th style="text-align:right;">coin</th></tr></thead><tbody>';
-                byKey.forEach(function (row) {
-                    if (!row || !row.k) return;
-                    html += '<tr><td style="font-family:var(--mono);font-size:12px;">' + row.k + '</td><td style="text-align:right;font-family:var(--mono);">' + fmtNum(row.v || 0) + '</td></tr>';
+                var econRows = byKey.filter(function(r) { return r && r.k; }).map(function(r) {
+                    return ['<span style="font-family:var(--mono);font-size:12px;">' + r.k + '</span>',
+                            '<span style="font-family:var(--mono);">' + fmtNum(r.v || 0) + '</span>'];
                 });
-                html += '</tbody></table>';
+                html += renderSimpleTable(['scope', 'coin'], econRows, { style: 'margin-top:16px' });
             } else {
                 html += '<div class="muted" style="margin-top:14px;">No minted work yet.</div>';
             }
@@ -208,15 +206,13 @@ var RENDER = (function () {
 
             var products = w.products || [];
             if (products.length) {
-                html += '<table class="comp-table" style="margin-top:16px;">';
-                html += '<thead><tr><th>product</th><th style="text-align:right;">price</th></tr></thead><tbody>';
-                products.slice(0, 24).forEach(function (p) {
-                    if (!p) return;
+                var walletRows = products.slice(0, 24).filter(function(p) { return !!p; }).map(function(p) {
                     var name = p.name || p.id || 'product';
                     var price = p.price_coin != null ? (String(p.price_coin) + ' COIN') : (p.price_usd != null ? ('$' + String(p.price_usd)) : '');
-                    html += '<tr><td style="font-family:var(--mono);font-size:12px;">' + name + '</td><td style="text-align:right;font-family:var(--mono);">' + price + '</td></tr>';
+                    return ['<span style="font-family:var(--mono);font-size:12px;">' + name + '</span>',
+                            '<span style="font-family:var(--mono);">' + price + '</span>'];
                 });
-                html += '</tbody></table>';
+                html += renderSimpleTable(['product', 'price'], walletRows, { style: 'margin-top:16px' });
             }
 
             el.innerHTML = html;
@@ -227,17 +223,62 @@ var RENDER = (function () {
         });
     }
 
-    // ── ACCENT ────────────────────────────────────────────
-    function applyAccent(accent) {
-        if (!accent) return;
-        document.documentElement.style.setProperty('--accent', accent);
-        // Decompose hex → RGB for rgba() usage: rgba(var(--accent-rgb), 0.1)
-        var hex = accent.replace('#', '');
+    // ── UTIL: hex to rgb ─────────────────────────────────
+    function hexToRgb(hex) {
+        if (!hex || hex.charAt(0) !== '#') return '96,165,250';
+        hex = hex.replace('#', '');
         if (hex.length === 3) hex = hex[0]+hex[0]+hex[1]+hex[1]+hex[2]+hex[2];
         var r = parseInt(hex.substring(0, 2), 16);
         var g = parseInt(hex.substring(2, 4), 16);
         var b = parseInt(hex.substring(4, 6), 16);
-        if (!isNaN(r)) document.documentElement.style.setProperty('--accent-rgb', r + ', ' + g + ', ' + b);
+        return r + ',' + g + ',' + b;
+    }
+
+    // ── UTIL: accent RGBA prefix for SVG figures ────────
+    var ACCENT_RGBA = 'rgba(var(--accent-rgb,59,130,246),';
+
+    // ── UTIL: render a single button/CTA link ──────────
+    function renderButton(btn, defaultClass) {
+        var cls = btn.class || defaultClass || 'btn';
+        if ((' ' + cls + ' ').indexOf(' btn ') === -1) cls = 'btn ' + cls;
+        var onclick = btn.talk ? ' onclick="TALK.open();return false"' : '';
+        var titleAttr = btn.title ? ' title="' + btn.title + '"' : '';
+        return '<a href="' + (btn.href || '#') + '" class="' + cls + '"' + onclick + titleAttr + '>' + btn.label + '</a>';
+    }
+
+    // ── UTIL: render hero CTA button group ──────────────
+    function renderHeroCTA(cta) {
+        if (!cta || !cta.length) return '';
+        var html = '<div class="hero-cta">';
+        cta.forEach(function (btn) { html += renderButton(btn); });
+        html += '</div>';
+        return html;
+    }
+
+    // ── UTIL: render a simple table ─────────────────────
+    function renderSimpleTable(headers, rows, opts) {
+        opts = opts || {};
+        var html = '<table class="comp-table"' + (opts.style ? ' style="' + opts.style + '"' : '') + '>';
+        html += '<thead><tr>';
+        headers.forEach(function (h) { html += '<th>' + h + '</th>'; });
+        html += '</tr></thead><tbody>';
+        rows.forEach(function (r) {
+            html += '<tr>';
+            (Array.isArray(r) ? r : [r]).forEach(function (cell, i) {
+                var cls = opts.cellClasses && opts.cellClasses[i] ? ' class="' + opts.cellClasses[i] + '"' : '';
+                html += '<td' + cls + '>' + cell + '</td>';
+            });
+            html += '</tr>';
+        });
+        html += '</tbody></table>';
+        return html;
+    }
+
+    // ── ACCENT ────────────────────────────────────────────
+    function applyAccent(accent) {
+        if (!accent) return;
+        document.documentElement.style.setProperty('--accent', accent);
+        document.documentElement.style.setProperty('--accent-rgb', hexToRgb(accent));
     }
     // ── ECO-BAR (ROOT AXIOMS) ───────────────────────────
     function renderEcoBar(fleet, currentScope) {
@@ -432,17 +473,7 @@ var RENDER = (function () {
         html += '<h1 class="gradient-text">' + hero.title + '</h1>';
         if (hero.subtitle) html += '<p class="subtitle">' + hero.subtitle + '</p>';
         if (hero.description) html += '<p class="description">' + hero.description + '</p>';
-        if (hero.cta && hero.cta.length) {
-            html += '<div class="hero-cta">';
-            hero.cta.forEach(function (btn, i) {
-                var cls = btn.class || (i === 0 ? 'btn' : 'btn btn-secondary');
-                if (cls.indexOf('btn') !== 0) cls = 'btn ' + cls;
-                var onclick = btn.talk ? ' onclick="TALK.open();return false"' : '';
-                var titleAttr = btn.title ? ' title="' + btn.title + '"' : '';
-                html += '<a href="' + (btn.href || '#') + '" class="' + cls + '"' + onclick + titleAttr + '>' + btn.label + '</a>';
-            });
-            html += '</div>';
-        }
+        html += renderHeroCTA(hero.cta);
         html += '</div>';
         el.innerHTML = html;
     }
@@ -456,17 +487,7 @@ var RENDER = (function () {
         html += '<h1 class="gradient-text">' + hero.title + '</h1>';
         if (hero.subtitle) html += '<p class="subtitle">' + hero.subtitle + '</p>';
         if (hero.description) html += '<p class="description">' + hero.description + '</p>';
-        if (hero.cta && hero.cta.length) {
-            html += '<div class="hero-cta">';
-            hero.cta.forEach(function (btn) {
-                var cls = btn.class || 'btn';
-                if (cls.indexOf('btn') !== 0) cls = 'btn ' + cls;
-                var onclick = btn.talk ? ' onclick="TALK.open();return false"' : '';
-                var titleAttr = btn.title ? ' title="' + btn.title + '"' : '';
-                html += '<a href="' + (btn.href || '#') + '" class="' + cls + '"' + onclick + titleAttr + '>' + btn.label + '</a>';
-            });
-            html += '</div>';
-        }
+        html += renderHeroCTA(hero.cta);
         html += '</div>';
         html += '<div id="galaxyContainer" class="galaxy-container" style="height:' + (g.height || '70vh') + ';"></div>';
         html += '</div>';
@@ -496,7 +517,7 @@ var RENDER = (function () {
             var fillY = (cy - r * Math.sin(needleAngle)).toFixed(1);
             var nx = cx + r * 0.72 * Math.cos(needleAngle);
             var ny = cy - r * 0.72 * Math.sin(needleAngle);
-            var a = 'rgba(var(--accent-rgb,59,130,246),';
+            var a = ACCENT_RGBA;
             return '<svg viewBox="0 0 420 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Compliance score">' +
                 '<rect x="0" y="0" width="420" height="240" rx="16" fill="rgba(255,255,255,0.02)"/>' +
                 // Track arc (full semicircle, upward)
@@ -522,7 +543,7 @@ var RENDER = (function () {
             var w = 420, h = 180;
             var padX = 50, stepW = (w - padX * 2) / n;
             var cy = h / 2;
-            var a = 'rgba(var(--accent-rgb,59,130,246),';
+            var a = ACCENT_RGBA;
             var svg = '<svg viewBox="0 0 ' + w + ' ' + h + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pipeline">';
             svg += '<rect x="0" y="0" width="' + w + '" height="' + h + '" rx="16" fill="rgba(255,255,255,0.02)"/>';
             steps.forEach(function (s, i) {
@@ -552,7 +573,7 @@ var RENDER = (function () {
         'audit-trail': function (opts) {
             var items = (opts && opts.items) || ['Who', 'What', 'When', 'Why'];
             var w = 420, h = 240;
-            var a = 'rgba(var(--accent-rgb,59,130,246),';
+            var a = ACCENT_RGBA;
             var svg = '<svg viewBox="0 0 ' + w + ' ' + h + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Audit trail">';
             svg += '<rect x="0" y="0" width="' + w + '" height="' + h + '" rx="16" fill="rgba(255,255,255,0.02)"/>';
             var blockH = 36, gap = 10, totalH = items.length * (blockH + gap) - gap;
@@ -579,7 +600,7 @@ var RENDER = (function () {
             var nodes = (opts && opts.nodes) || ['Foundation', 'MAGIC', 'Hadley Lab'];
             var colors = (opts && opts.colors) || [];
             var w = 420, h = 180;
-            var a = 'rgba(var(--accent-rgb,59,130,246),';
+            var a = ACCENT_RGBA;
             var n = nodes.length;
             var padX = 40, segW = (w - padX * 2) / (n - 1 || 1);
             var cy = h / 2;
@@ -611,7 +632,7 @@ var RENDER = (function () {
             var right = (opts && opts.right) || 'Hype';
             var tilt = (opts && opts.tilt) || -8;
             var w = 420, h = 200;
-            var a = 'rgba(var(--accent-rgb,59,130,246),';
+            var a = ACCENT_RGBA;
             var cx = w / 2, baseY = 160, topY = 60;
             var svg = '<svg viewBox="0 0 ' + w + ' ' + h + '" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Balance">';
             svg += '<rect x="0" y="0" width="' + w + '" height="' + h + '" rx="16" fill="rgba(255,255,255,0.02)"/>';
@@ -644,7 +665,7 @@ var RENDER = (function () {
             var w = 420, h = 240;
             var padL = 50, padR = 20, padT = 30, padB = 40;
             var chartW = w - padL - padR, chartH = h - padT - padB;
-            var a = 'rgba(var(--accent-rgb,59,130,246),';
+            var a = ACCENT_RGBA;
             var maxY = 0;
             points.forEach(function (p) { if (p.y > maxY) maxY = p.y; });
             maxY = maxY * 1.15; // headroom
@@ -705,7 +726,7 @@ var RENDER = (function () {
             var w = 420, h = 40 + bars.length * 52;
             var padL = 110, padR = 90, padT = 20;
             var barH = 28, gap = 24;
-            var a = 'rgba(var(--accent-rgb,59,130,246),';
+            var a = ACCENT_RGBA;
 
             // Find max numeric value for scaling
             var maxVal = 0;
@@ -754,7 +775,7 @@ var RENDER = (function () {
             var pct = Math.min(value / max, 1);
             var w = 420, h = 240;
             var cx = w / 2, cy = 160, r = 100;
-            var a = 'rgba(var(--accent-rgb,59,130,246),';
+            var a = ACCENT_RGBA;
 
             // 270° sweep (from 225° to -45°, i.e. bottom-left to bottom-right)
             var startAngle = (225 * Math.PI) / 180;
@@ -802,7 +823,7 @@ var RENDER = (function () {
             if (!segments.length) return '';
             var w = 420, h = 300;
             var cx = w / 2, cy = 130, r = 80, innerR = 50;
-            var a = 'rgba(var(--accent-rgb,59,130,246),';
+            var a = ACCENT_RGBA;
 
             // Calculate total if not provided
             if (!total) segments.forEach(function (s) { total += s.value; });
@@ -895,11 +916,7 @@ var RENDER = (function () {
                 html += '</ul>';
             }
             if (t.cta) {
-                var cls = t.cta.class || 'btn btn-secondary';
-                if (cls.indexOf('btn') !== 0) cls = 'btn ' + cls;
-                var onclick = t.cta.talk ? ' onclick="TALK.open();return false"' : '';
-                var titleAttr = t.cta.title ? ' title="' + t.cta.title + '"' : '';
-                html += '<div style="margin-top:14px;"><a href="' + (t.cta.href || '#') + '" class="' + cls + '"' + onclick + titleAttr + '>' + t.cta.label + '</a></div>';
+                html += '<div style="margin-top:14px;">' + renderButton(t.cta, 'btn btn-secondary') + '</div>';
             }
             if (t.footnote) html += '<div class="switcher-footnote">' + t.footnote + '</div>';
             html += '</div>';
@@ -1015,17 +1032,7 @@ var RENDER = (function () {
         if (hero.badge) html += '<div class="hero-badge">' + hero.badge + '</div>';
         html += '<h1>' + hero.title + '</h1>';
         if (hero.description) html += '<p>' + hero.description + '</p>';
-        if (hero.cta && hero.cta.length) {
-            html += '<div class="hero-cta">';
-            hero.cta.forEach(function (btn) {
-                var cls = btn.class || 'btn';
-                if (cls.indexOf('btn') !== 0) cls = 'btn ' + cls;
-                var onclick = btn.talk ? ' onclick="TALK.open();return false"' : '';
-                var titleAttr = btn.title ? ' title="' + btn.title + '"' : '';
-                html += '<a href="' + (btn.href || '#') + '" class="' + cls + '"' + onclick + titleAttr + '>' + btn.label + '</a>';
-            });
-            html += '</div>';
-        }
+        html += renderHeroCTA(hero.cta);
 
         // Optional demo tabs (if multiple variants are supplied)
         if (variants.length > 1) {
@@ -1172,15 +1179,7 @@ var RENDER = (function () {
                         html += '<div class="dashboard-chart">' + renderFigure(widget.figure) + '</div>';
                     }
                     if (widget.table) {
-                        html += '<table class="comp-table"><thead><tr>';
-                        widget.table.headers.forEach(function (h) { html += '<th>' + h + '</th>'; });
-                        html += '</tr></thead><tbody>';
-                        widget.table.rows.forEach(function (r) {
-                            html += '<tr>';
-                            r.forEach(function (cell) { html += '<td>' + cell + '</td>'; });
-                            html += '</tr>';
-                        });
-                        html += '</tbody></table>';
+                        html += renderSimpleTable(widget.table.headers, widget.table.rows);
                     }
                     html += '</div>';
                 });
@@ -1189,18 +1188,7 @@ var RENDER = (function () {
 
             // Table
             if (sec.table) {
-                html += '<table class="comp-table"><thead><tr>';
-                sec.table.headers.forEach(function (h) { html += '<th>' + h + '</th>'; });
-                html += '</tr></thead><tbody>';
-                sec.table.rows.forEach(function (r) {
-                    html += '<tr>';
-                    r.forEach(function (cell, i) {
-                        var cls = sec.table.cellClasses && sec.table.cellClasses[i] ? ' class="' + sec.table.cellClasses[i] + '"' : '';
-                        html += '<td' + cls + '>' + cell + '</td>';
-                    });
-                    html += '</tr>';
-                });
-                html += '</tbody></table>';
+                html += renderSimpleTable(sec.table.headers, sec.table.rows, { cellClasses: sec.table.cellClasses });
             }
 
             // Tiers
@@ -1273,15 +1261,9 @@ var RENDER = (function () {
 
             // Section CTA (inline button or button group)
             if (sec.cta) {
-                html += '<div style="text-align:center;margin-top:32px;">';
+                html += '<div class="cta-buttons" style="margin-top:32px;">';
                 var secButtons = sec.cta.buttons || [sec.cta];
-                secButtons.forEach(function(btn) {
-                    var onclick = btn.talk ? ' onclick="TALK.open();return false"' : '';
-                    var secCtaCls = btn.class || 'btn';
-                    if (secCtaCls.indexOf('btn') !== 0) secCtaCls = 'btn ' + secCtaCls;
-                    var titleAttr = btn.title ? ' title="' + btn.title + '"' : '';
-                    html += '<a href="' + (btn.href || '#') + '" class="' + secCtaCls + '"' + onclick + titleAttr + '>' + btn.label + '</a> ';
-                });
+                secButtons.forEach(function(btn) { html += renderButton(btn) + ' '; });
                 html += '</div>';
             }
 
@@ -1377,11 +1359,9 @@ var RENDER = (function () {
 
             // Card-level CTA
             if (c.cta) {
-                var cCls = c.cta.class || 'btn';
-                if (cCls.indexOf('btn') !== 0) cCls = 'btn ' + cCls;
-                var cOnclick = c.cta.talk ? ' onclick="TALK.open();return false"' : '';
-                var cTitle = c.cta.title ? ' title="' + c.cta.title + '"' : '';
-                html += '<a href="' + (c.cta.href || '#') + '" class="' + cCls + '"' + cOnclick + cTitle + ' style="margin-top:16px;font-size:12px;padding:8px 16px;display:inline-block;">' + c.cta.label + '</a>';
+                var cardBtn = Object.assign({}, c.cta);
+                cardBtn.class = (cardBtn.class || 'btn') + ' btn-sm';
+                html += '<div style="margin-top:16px;">' + renderButton(cardBtn) + '</div>';
             }
 
             html += '</div>';
@@ -1548,11 +1528,7 @@ var RENDER = (function () {
             html += '<div class="cta-buttons">';
         }
         (cta.buttons || []).forEach(function (btn, i) {
-            var cls = btn.class || (i === 0 ? 'btn' : 'btn btn-secondary');
-            if (cls.indexOf('btn') !== 0) cls = 'btn ' + cls;
-            var onclick = btn.talk ? ' onclick="TALK.open();return false"' : '';
-            var titleAttr = btn.title ? ' title="' + btn.title + '"' : '';
-            html += '<a href="' + (btn.href || '#') + '" class="' + cls + '"' + onclick + titleAttr + '>' + btn.label + '</a>';
+            html += renderButton(btn, i === 0 ? 'btn' : 'btn btn-secondary');
         });
         html += '</div>';
         if (cta.class) html += '</div>';
@@ -1612,15 +1588,69 @@ var RENDER = (function () {
         }
     }
 
-    // ── UTIL: hex to rgb ─────────────────────────────────
-    function hexToRgb(hex) {
-        if (!hex || hex.charAt(0) !== '#') return '96,165,250';
-        hex = hex.replace('#', '');
-        if (hex.length === 3) hex = hex[0]+hex[0]+hex[1]+hex[1]+hex[2]+hex[2];
-        var r = parseInt(hex.substring(0, 2), 16);
-        var g = parseInt(hex.substring(2, 4), 16);
-        var b = parseInt(hex.substring(4, 6), 16);
-        return r + ',' + g + ',' + b;
+    // ── TABS ──────────────────────────────────────────────
+    function renderTabs(tabs) {
+        if (!tabs || !tabs.length) return;
+        var container = document.querySelector('.container');
+        if (!container) return;
+
+        var bar = document.createElement('div');
+        bar.className = 'page-tabs';
+        bar.setAttribute('role', 'tablist');
+        bar.setAttribute('aria-label', 'Page');
+
+        var allGoverned = {};
+        tabs.forEach(function (tab) {
+            (tab.sections || []).forEach(function (sid) {
+                allGoverned[sid] = tab.label;
+            });
+        });
+
+        var defaultIdx = 0;
+        tabs.forEach(function (tab, i) {
+            if (tab.default) defaultIdx = i;
+        });
+
+        tabs.forEach(function (tab, i) {
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'page-tab' + (i === defaultIdx ? ' active' : '');
+            btn.setAttribute('role', 'tab');
+            btn.setAttribute('aria-selected', i === defaultIdx ? 'true' : 'false');
+            btn.setAttribute('data-tab-idx', i);
+            btn.textContent = tab.label;
+            bar.appendChild(btn);
+        });
+
+        container.parentNode.insertBefore(bar, container);
+
+        function showTab(idx) {
+            bar.querySelectorAll('.page-tab').forEach(function (b, i) {
+                var on = i === idx;
+                b.classList.toggle('active', on);
+                b.setAttribute('aria-selected', on ? 'true' : 'false');
+            });
+            var activeIds = {};
+            (tabs[idx].sections || []).forEach(function (sid) {
+                activeIds[sid] = true;
+            });
+            container.querySelectorAll('section[id]').forEach(function (sec) {
+                if (allGoverned[sec.id]) {
+                    sec.style.display = activeIds[sec.id] ? '' : 'none';
+                }
+            });
+        }
+
+        bar.querySelectorAll('.page-tab').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                var idx = parseInt(btn.getAttribute('data-tab-idx') || '0', 10);
+                if (!isFinite(idx) || idx < 0 || idx >= tabs.length) idx = 0;
+                showTab(idx);
+                container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
+
+        showTab(defaultIdx);
     }
 
     // ── INIT ──────────────────────────────────────────────
@@ -1676,6 +1706,7 @@ var RENDER = (function () {
         if (content.hero) renderHero(content.hero);
         if (content.stats) renderStats(content.stats);
         if (content.sections) renderSections(content.sections);
+        if (content.tabs) renderTabs(content.tabs);
         applyAnchorOffsets();
         if (content.cta) renderCTA(content.cta);
         if (content.fleet) renderFooter(content.fleet, content.footer, content.footerTagline);

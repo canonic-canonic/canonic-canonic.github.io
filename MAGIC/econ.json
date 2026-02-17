@@ -2,17 +2,17 @@
   "canon": "ECON.v1",
   "work_equals_coin": true,
   "ledger": {
-    "head": "ae4d571ed12d85129b7e9a64574216d6bd7c66fc3ca4ae0aefe31fa197033fea",
-    "entries": 426,
-    "total": 94118,
+    "head": "3305ebb2695e3c5eb07fa37bf20a612f9f915d9a715d5610db8e009860e4e714",
+    "entries": 467,
+    "total": 103997,
     "by_key": [
       {
         "k": "hadleylab-dexter.github.io",
-        "v": 24900
+        "v": 29745
       },
       {
         "k": ".canonic",
-        "v": 23857
+        "v": 25576
       },
       {
         "k": "canonic-magic.github.io",
@@ -20,11 +20,11 @@
       },
       {
         "k": "MAGIC",
-        "v": 8286
+        "v": 9051
       },
       {
         "k": "Canonic",
-        "v": 7263
+        "v": 9048
       },
       {
         "k": "canonic-foundation.github.io",
@@ -36,7 +36,7 @@
       },
       {
         "k": "FOUNDATION",
-        "v": 2805
+        "v": 3570
       },
       {
         "k": "SHOP",
