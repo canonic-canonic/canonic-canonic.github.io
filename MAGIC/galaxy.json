@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "cf4fbefddd8985a4"
+    "gov_hash": "3c4cc85092e04912"
   },
-  "generated": "2026-03-15T19:22:23Z",
+  "generated": "2026-03-15T20:24:51Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -6896,7 +6896,7 @@
       "missing_dims": [],
       "has_intel": false,
       "roadmap_now": "[x] DAG-parallel phase orchestrator (build-dag)",
-      "learning_count": 9,
+      "learning_count": 15,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "services/BUILD",
       "children": 0,
@@ -7154,20 +7154,14 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "Dexter Hadley, MD/PhD (Penn). Stanford Research Associate (Butte Lab). Faculty at UCSF and UCF (Founding Chief of AI). C",
-      "roadmap_now": "Graph-native compiler: BFS from CLAUDE node in galaxy graph",
-      "learning_count": 7,
+      "roadmap_now": "[x] Graph-native compiler: BFS from CLAUDE node in galaxy graph",
+      "learning_count": 14,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "services/CLAUDE",
       "children": 0,
       "wallet": null,
       "talk": null,
       "learning": [
-        {
-          "date": "2026-03-13",
-          "signal": "MAIL_CONSOLIDATION",
-          "pattern": "Email drains consolidating all accounts into self-hosted MailPlus on NAS. Gmail is the hub, Yahoo/GMX/mail.com are inter",
-          "source": "NAS mail architecture"
-        },
         {
           "date": "2026-03-13",
           "signal": "LEVUKA_COLLAB",
@@ -7221,6 +7215,12 @@
           "signal": "METALEARNING",
           "pattern": "The agent that builds the system must also update the governed LEARNING and ROADMAP after every session. Session pattern",
           "source": "This session"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "COMPILER_METALEARNING",
+          "pattern": "Metalearning closure hardened into the compiler itself. Three mechanisms: (1) intake-promote script reads ~/.claude/proj",
+          "source": "Compiler metalearning session"
         }
       ],
       "score": 128
@@ -9266,7 +9266,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CONVERSATIONS. EVERY SESSION LEDGERED. EVERY RESPONSE GOVERNED.**",
       "roadmap_now": "5 industry TALK services operational (MAMMO, MED, ONCO, LAW, FIN)",
-      "learning_count": 15,
+      "learning_count": 19,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "services/TALK",
       "children": 15,
