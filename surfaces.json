@@ -563,6 +563,11 @@
       "path": "/MAGIC/TOOLCHAIN/bin/",
       "scope": "bin",
       "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/users/",
+      "scope": "users",
+      "surface_type": "JEKYLL_DEFAULT"
     }
   ]
 }

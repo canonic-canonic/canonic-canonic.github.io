@@ -3,7 +3,7 @@
     "contract": "canonic-canonic/MAGIC/SERVICES/STAR/STAR.md",
     "rule": "edit the contract or compiler \u2014 not this file"
   },
-  "generated": "2026-03-15T05:56:01Z",
+  "generated": "2026-03-15T16:42:57Z",
   "users": {
     "AVINASH": {
       "total": 11,
@@ -151,8 +151,68 @@
       ]
     },
     "DEXTER": {
-      "total": 668,
+      "total": 673,
       "entries": [
+        {
+          "id": "e09528ad343d",
+          "ts": "2026-03-15T00:00:00Z",
+          "stream": "LEARNING",
+          "type": "INFRA_USER",
+          "scope": "canonic-canonic/USERS/DEXTER",
+          "principal": "DEXTER",
+          "summary": "INFRA_USER: DEXTER registered as USER of canonic-canonic, the infrastructure layer. Builder of the MAGIC that ev",
+          "ref": "Hardening plan Phase 1A",
+          "primitive": "INTEL",
+          "meta": {}
+        },
+        {
+          "id": "cc6a74fdb54c",
+          "ts": "2026-03-10T00:00:00Z",
+          "stream": "LEARNING",
+          "type": "Accepted invitation to RunnerMVP org",
+          "scope": "DEXTER",
+          "principal": "DEXTER",
+          "summary": "Accepted invitation to RunnerMVP org: GOVERNOR_GENERAL role \u2014 Robert leads, Dexter builds",
+          "ref": "GitHub org invitation",
+          "primitive": "INTEL",
+          "meta": {}
+        },
+        {
+          "id": "def3975ee484",
+          "ts": "2026-03-10T00:00:00Z",
+          "stream": "LEARNING",
+          "type": "Bootstrapped runner-canonic GOV repo",
+          "scope": "DEXTER",
+          "principal": "DEXTER",
+          "summary": "Bootstrapped runner-canonic GOV repo: Same canonic-canonic kernel applied to distributed org",
+          "ref": "GOV bootstrap",
+          "primitive": "INTEL",
+          "meta": {}
+        },
+        {
+          "id": "a04e0c2f3b76",
+          "ts": "2026-03-10T00:00:00Z",
+          "stream": "LEARNING",
+          "type": "Accepted invitation to RunnerMVP org",
+          "scope": "runner-canonic/USERS/DEXTER",
+          "principal": "DEXTER",
+          "summary": "Accepted invitation to RunnerMVP org: GOVERNOR_GENERAL role \u2014 Robert leads, Dexter builds",
+          "ref": "GitHub org invitation",
+          "primitive": "INTEL",
+          "meta": {}
+        },
+        {
+          "id": "cb8e43eb540b",
+          "ts": "2026-03-10T00:00:00Z",
+          "stream": "LEARNING",
+          "type": "Bootstrapped runner-canonic GOV repo",
+          "scope": "runner-canonic/USERS/DEXTER",
+          "principal": "DEXTER",
+          "summary": "Bootstrapped runner-canonic GOV repo: Same canonic-canonic kernel applied to distributed org",
+          "ref": "GOV bootstrap",
+          "primitive": "INTEL",
+          "meta": {}
+        },
         {
           "id": "08077aa78980",
           "ts": "2026-02-27T06:19:55.171731Z",
@@ -12524,8 +12584,20 @@
       ]
     },
     "ROBERT": {
-      "total": 11,
+      "total": 13,
       "entries": [
+        {
+          "id": "2426f57247cc",
+          "ts": "2026-03-15T00:00:00Z",
+          "stream": "LEARNING",
+          "type": "INFRA_USER",
+          "scope": "canonic-canonic/USERS/ROBERT",
+          "principal": "ROBERT",
+          "summary": "INFRA_USER: ROBERT registered as USER of canonic-canonic, the infrastructure layer. Links identity to the distri",
+          "ref": "Hardening plan Phase 1A",
+          "primitive": "INTEL",
+          "meta": {}
+        },
         {
           "id": "afd5f853b1ce",
           "ts": "2026-03-10T00:00:00Z",
@@ -12559,6 +12631,18 @@
           "principal": "ROBERT",
           "summary": "RUNNER + NONA migrated to RunnerMVP/runner-canonic: Services now governed in Robert's galaxy, not TALKS",
           "ref": "runner-canonic bootstrap",
+          "primitive": "INTEL",
+          "meta": {}
+        },
+        {
+          "id": "f58dbb4978ed",
+          "ts": "2026-03-10T00:00:00Z",
+          "stream": "LEARNING",
+          "type": "GRADUATION",
+          "scope": "canonic-canonic/USERS/ROBERT",
+          "principal": "ROBERT",
+          "summary": "GRADUATION: ROBERT graduated from hadleylab-canonic USER to own ORG (runner-canonic). First distributed CANONIC ",
+          "ref": "runner-canonic creation",
           "primitive": "INTEL",
           "meta": {}
         },
