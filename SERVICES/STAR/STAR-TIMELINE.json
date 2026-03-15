@@ -3,11 +3,27 @@
     "contract": "canonic-canonic/MAGIC/SERVICES/STAR/STAR.md",
     "rule": "edit the contract or compiler \u2014 not this file"
   },
-  "generated": "2026-03-15T16:42:57Z",
+  "generated": "2026-03-15T19:36:48Z",
   "users": {
     "AVINASH": {
-      "total": 11,
+      "total": 12,
       "entries": [
+        {
+          "id": "324a091f5dcc",
+          "ts": "2026-03-15T17:19:37.475167Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "AVINASH",
+          "summary": "CLOSE +0 COIN \u2014 CLOSE epoch 2026-03",
+          "ref": "d7b84e11a0ae",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
         {
           "id": "0989ba540bde",
           "ts": "2026-02-24T00:00:00Z",
@@ -151,8 +167,40 @@
       ]
     },
     "DEXTER": {
-      "total": 673,
+      "total": 675,
       "entries": [
+        {
+          "id": "42067e521283",
+          "ts": "2026-03-15T19:35:43.156323Z",
+          "stream": "VAULT",
+          "type": "MINT:READ",
+          "scope": "WEB",
+          "principal": "DEXTER",
+          "summary": "MINT:READ +1 COIN \u2014 read:/talks/mammochat/",
+          "ref": "read:DEXTER:47a320cff516:2026-03-15",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "PAGEVIEW"
+          }
+        },
+        {
+          "id": "e182bd4553fe",
+          "ts": "2026-03-15T17:19:37.485961Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "DEXTER",
+          "summary": "CLOSE +0 COIN \u2014 CLOSE epoch 2026-03",
+          "ref": "1799440c4803",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
         {
           "id": "e09528ad343d",
           "ts": "2026-03-15T00:00:00Z",
@@ -10904,8 +10952,24 @@
       ]
     },
     "FATIMA": {
-      "total": 91,
+      "total": 92,
       "entries": [
+        {
+          "id": "202478dc73a4",
+          "ts": "2026-03-15T17:19:37.487179Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "FATIMA",
+          "summary": "CLOSE +0 COIN \u2014 CLOSE epoch 2026-03",
+          "ref": "bf34490887ea",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
         {
           "id": "34fb9019d919",
           "ts": "2026-03-01T00:00:00Z",
@@ -12005,8 +12069,24 @@
       ]
     },
     "ILYA": {
-      "total": 11,
+      "total": 12,
       "entries": [
+        {
+          "id": "69f2c0a32181",
+          "ts": "2026-03-15T17:19:37.489254Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "ILYA",
+          "summary": "CLOSE +0 COIN \u2014 CLOSE epoch 2026-03",
+          "ref": "b66776d72209",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
         {
           "id": "312bf4349041",
           "ts": "2026-02-24T00:00:00Z",
@@ -12150,8 +12230,24 @@
       ]
     },
     "ISABELLA": {
-      "total": 11,
+      "total": 12,
       "entries": [
+        {
+          "id": "14fc0519ff57",
+          "ts": "2026-03-15T17:19:37.490134Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "ISABELLA",
+          "summary": "CLOSE +0 COIN \u2014 CLOSE epoch 2026-03",
+          "ref": "532698c88a77",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
         {
           "id": "31e1038271be",
           "ts": "2026-02-24T00:00:00Z",
@@ -12295,8 +12391,24 @@
       ]
     },
     "JP": {
-      "total": 23,
+      "total": 24,
       "entries": [
+        {
+          "id": "1a85e883a0bb",
+          "ts": "2026-03-15T17:19:37.490950Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "JP",
+          "summary": "CLOSE +0 COIN \u2014 CLOSE epoch 2026-03",
+          "ref": "96dbf1bdd935",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
         {
           "id": "69fd7110cd5f",
           "ts": "2026-02-24T00:00:00Z",
@@ -12584,8 +12696,24 @@
       ]
     },
     "ROBERT": {
-      "total": 13,
+      "total": 14,
       "entries": [
+        {
+          "id": "934398c7eb43",
+          "ts": "2026-03-15T17:19:37.491841Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "ROBERT",
+          "summary": "CLOSE +0 COIN \u2014 CLOSE epoch 2026-03",
+          "ref": "03c144794a78",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
         {
           "id": "2426f57247cc",
           "ts": "2026-03-15T00:00:00Z",
@@ -12753,8 +12881,24 @@
       ]
     },
     "YANA": {
-      "total": 13,
+      "total": 14,
       "entries": [
+        {
+          "id": "41866e5233da",
+          "ts": "2026-03-15T17:19:37.495034Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "YANA",
+          "summary": "CLOSE +0 COIN \u2014 CLOSE epoch 2026-03",
+          "ref": "cc424ad49a4f",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
         {
           "id": "8a8e83d428f7",
           "ts": "2026-02-24T00:00:00Z",

@@ -5898,11 +5898,35 @@
       "signal": "GOVERNANCE_DELTA",
       "text": "canonic-canonic: 247→255 (gradient +8) by GIT",
       "source": "idf:f687d2719c64b39b"
+    },
+    {
+      "date": "2026-03-15",
+      "signal": "INFRA_USERS",
+      "text": "canonic-canonic is the infrastructure layer. DEXTER and ROBERT registered as USERs. Orgs build on infra, users govern orgs.",
+      "source": "Hardening plan Phase 1A"
+    },
+    {
+      "date": "2026-03-15",
+      "signal": "ROBERT_FLATTEN",
+      "text": "ROBERT_FLATTEN applied to runner-canonic. Same pattern as DEXTER_FLATTEN on hadleylab-canonic. The repo IS the principal, everyone else is a USER.",
+      "source": "Hardening plan Phase 1B"
+    },
+    {
+      "date": "2026-03-15",
+      "signal": "GOV_REPO_REG",
+      "text": "runner-canonic registered as GOV repo in CANONIC.git. Three GOV repos: canonic-canonic (infra), hadleylab-canonic (Dexter's org), runner-canonic (Robert's org).",
+      "source": "Hardening plan Phase 1C"
+    },
+    {
+      "date": "2026-03-15",
+      "signal": "HARDENING_ROADMAP",
+      "text": "13 hardening gates absorbed into governed ROADMAPs. 4 CLOSED (architecture + Ed25519), 9 OPEN (crypto, econ, pipeline). Gov first: roadmap before implementation.",
+      "source": "Hardening plan"
     }
   ],
   "stats": {
-    "total": 983,
+    "total": 987,
     "community_questions": 0,
-    "domain_patterns": 983
+    "domain_patterns": 987
   }
 }

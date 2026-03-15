@@ -992,7 +992,12 @@ inherits: canonic-canonic/CANON.md
 | 2026-02-26 | GOVERNANCE_DELTA | canonic-canonic: 0→247 (gradient +247) by GIT | idf:45a9e35d1b061cab |
 | 2026-02-27 | GOVERNANCE_DELTA | canonic-canonic: 247→255 (gradient +8) by GIT | idf:f687d2719c64b39b |
 
+| 2026-03-15 | INFRA_USERS | canonic-canonic is the infrastructure layer. DEXTER and ROBERT registered as USERs. Orgs build on infra, users govern orgs. | Hardening plan Phase 1A |
+| 2026-03-15 | ROBERT_FLATTEN | ROBERT_FLATTEN applied to runner-canonic. Same pattern as DEXTER_FLATTEN on hadleylab-canonic. The repo IS the principal, everyone else is a USER. | Hardening plan Phase 1B |
+| 2026-03-15 | GOV_REPO_REG | runner-canonic registered as GOV repo in CANONIC.git. Three GOV repos: canonic-canonic (infra), hadleylab-canonic (Dexter's org), runner-canonic (Robert's org). | Hardening plan Phase 1C |
+| 2026-03-15 | HARDENING_ROADMAP | 13 hardening gates absorbed into governed ROADMAPs. 4 CLOSED (architecture + Ed25519), 9 OPEN (crypto, econ, pipeline). Gov first: roadmap before implementation. | Hardening plan |
+
 ---
 
-*LEARNING | canonic-canonic | 2026-02-16*
+*LEARNING | canonic-canonic | 2026-03-15*
 <!-- _generated: build-surfaces -->
