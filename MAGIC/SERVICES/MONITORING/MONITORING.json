@@ -1,0 +1,394 @@
+{
+  "hero": {
+    "badge": "MONITORING",
+    "title": "MONITORING",
+    "description": "MONITORING is continuous governance scoring. Real-time visibility, not snapshots.",
+    "cta": [
+      {
+        "label": "Open MONITORING",
+        "href": "/magic/services/monitoring/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "canon-metrics-endpoint",
+      "eyebrow": "METRICS ENDPOINT",
+      "title": "Metrics Endpoint",
+      "description": "``\nGET /api/v1/metrics → Prometheus text format\n\nCounters:\n  canonic_api_requests_total{endpoint,method,status}\n  canonic_auth_total{result}\n\nHistograms:\n  canonic_api_request_duration_seconds{endpoint}\n  canonic_vault_command_duration_seconds{command}\n``"
+    },
+    {
+      "id": "canon-health-check",
+      "eyebrow": "HEALTH CHECK",
+      "title": "Health Check",
+      "description": "``\nGET /api/v1/health → fast local checks (Docker HEALTHCHECK default)\nGET /api/v1/health?deep=true → full governance tree scan\n`\n\n### Fast (default)\n\n`json\n{\n  \"status\": \"ok\",\n  \"port\": 8255,\n  \"uptime_s\": 12345,\n  \"checks\": {\n    \"ledger_head\": \"ok\",\n    \"vault_dir\": \"ok\",\n    \"wallet_valid\": \"ok\"\n  }\n}\n`\n\n### Deep (?deep=true)\n\nWalks the entire governance tree. All surface discovery is fleet-agnostic — the health check reads HTTP.md (the HTTP contract) to discover fleet sites, lanes, proxy domains, and the API base. Zero hardcoded domains.\n\n#### Discovery chain\n\nParse TOOLCHAIN/HTTP.md → extract ## Fleet (sites), ## Service Frontends (lanes per site), ## Domains (proxy domains), ## API (base URL)\nFor each fleet site, build surface URLs from its declared lanes (e.g. hadleylab.org has /services/, canonic.org has /foundation/, /industries/, /magic/)\nFor each proxy domain, check its declared target (e.g. mammo.chat → hadleylab.org target)\nFor the API base, check declared endpoints (e.g. /api/v1/shop)\nHTTP HEAD every discovered surface\nReport violations for non-200 responses, unreachable surfaces, non-compliant scopes\n\n#### URL case\n\nAll checked URLs use lowercase canonical form. Cloudflare Workers normalize uppercase governance paths to lowercase at the edge (per HTTP.md ## Routing).\n\n#### Response\n\n`json\n{\n  \"status\": \"ok | degraded\",\n  \"port\": 8255,\n  \"uptime_s\": 12345,\n  \"checks\": { \"ledger_head\": \"ok\", \"vault_dir\": \"ok\", \"wallet_valid\": \"ok\" },\n  \"fleet\": [\n    { \"site\": \"hadleylab.org\", \"lanes\": [\"services\", \"papers\", \"blogs\", \"books\", \"talks\", \"decks\", \"dexter/vitae\"] },\n    { \"site\": \"canonic.org\", \"lanes\": [\"foundation\", \"industries\", \"magic\"] }\n  ],\n  \"surfaces\": [\n    { \"url\": \"https://hadleylab.org/services/clinical/\", \"scope\": \"CLINICAL\", \"status\": \"ok\" },\n    { \"url\": \"https://mammo.chat/\", \"scope\": \"TALK/MAMMOCHAT\", \"status\": \"ok\" }\n  ],\n  \"violations\": [\n    { \"type\": \"SURFACE_ERROR\", \"scope\": \"DOMAINS\", \"url\": \"https://hadleylab.org/services/domains/\", \"detail\": \"HTTP 404\" },\n    { \"type\": \"GOV_NONCOMPLIANT\", \"scope\": \"DOMAINS\", \"missing\": [\"DOMAINS.md\"] }\n  ]\n}\n`\n\n#### Violation types\n\nSURFACE_ERROR, GOV_NONCOMPLIANT, MISSING_MANIFEST, MANIFEST_PARSE_ERROR, PREFLIGHT_ERROR, SURFACE_CONTRACT_MISMATCH, PDF_ORPHAN, PDF_MISSING.\n\n### Scope Classification\n\nDeep health classifies TALK scopes by reading Capabilities from CANON.md. The DOMAIN_PROXY capability distinguishes products (full front ends with marketing surfaces) from service contracts (governed operations, no consumer marketing).\n\nDiscovery: parse ## Capabilities from each TALK scope's CANON.md → classify → apply type-appropriate validation.\n\n### Surface Contract Validation\n\nAfter HTTP HEAD, deep health fetches page HTML for each JEKYLL surface and validates against SURFACE.md type contracts:\n\n| Surface Type | Required Elements |\n|-------------|-------------------|\n| JEKYLL_PAPER | controls.js loaded, KaTeX loaded, .view-gov present, #pdfViewer present when pdf: compiled |\n| JEKYLL_BOOK | Same as PAPER + contribute gate elements (#gate, #gatedContent) |\n| JEKYLL_DECK | deck.js loaded, .slide elements present |\n| JEKYLL_SERVICE (TALK_PRODUCT) | Hero section, Community Learning Dashboard, Partners section, Evidence section, demo CTA linking .chat surface |\n| JEKYLL_SERVICE (TALK_CONTRACT) | Hero section, Evidence section. No community learning dashboard required. No .chat/.ai demo CTA required. |\n\nReports SURFACE_CONTRACT_MISMATCH with detail of what's missing:\n`json\n{ \"type\": \"SURFACE_CONTRACT_MISMATCH\", \"scope\": \"canonic-whitepaper\", \"url\": \"https://hadleylab.org/PAPERS/canonic-whitepaper/\", \"detail\": \"missing controls.js\" }\n{ \"type\": \"SURFACE_CONTRACT_MISMATCH\", \"scope\": \"TALK/MAMMOCHAT\", \"url\": \"https://mammochat.ai/\", \"detail\": \"missing community learning dashboard (TALK_PRODUCT)\" }\n`\n\n### PDF Integrity Checks\n\nFor JEKYLL_PAPER and JEKYLL_BOOK surfaces, deep health validates PDF artifact alignment:\n\n| Check | Violation | Detail |\n|-------|-----------|--------|\n| .pdf file exists in scope directory but pdf: not in front matter | PDF_ORPHAN | Compiled artifact unreachable — no viewer, no download |\n| pdf: declared in front matter but .pdf file missing at path | PDF_MISSING | Broken reference — viewer will fail to load |\n\n`json\n{ \"type\": \"PDF_ORPHAN\", \"scope\": \"opts-ego\", \"detail\": \"opts-ego.pdf exists but pdf: not declared in front matter\" }\n{ \"type\": \"PDF_MISSING\", \"scope\": \"example\", \"detail\": \"pdf: /PAPERS/example/example.pdf declared but file not found\" }\n``",
+      "table": {
+        "headers": [
+          "Classification",
+          "Signal",
+          "Domain Model",
+          "Examples"
+        ],
+        "rows": [
+          [
+            "TALK_PRODUCT",
+            "`DOMAIN_PROXY` in Capabilities",
+            "`.chat` + `.ai` + optional `.com`/`.org` proxy domains",
+            "MAMMOCHAT, CARIBCHAT"
+          ],
+          [
+            "TALK_CONTRACT",
+            "No `DOMAIN_PROXY`",
+            "`{scope}.hadleylab.org` subdomain only",
+            "RUNNER"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-maturity-model",
+      "eyebrow": "MATURITY MODEL",
+      "title": "Maturity Model",
+      "description": "Deep health computes a semantic maturity assessment for every manifest scope — the same 8-bit governance scoring as magic validate, plus runtime dimensions that measure how far each scope has progressed from contract to flagship.\n\n### Governance Score (8-bit, 255 max)\n\nReimplements the C kernel (magic.c) scoring in Python. Operates on filesystem paths — no shell calls.\n\nCompliance tiers: NONE(0), COMMUNITY(35), BUSINESS(43), ENTERPRISE(63), AGENT(127), FULL(255).\nState: VALID(255), FLAGGED(≥63), FAIL(<63).\n\n### Runtime Maturity Dimensions\n\n| Dimension | What it checks | Source |\n|-----------|---------------|--------|\n| governance | 8-bit score per scope | Filesystem (8-bit governance model) |\n| classification | TALK_PRODUCT vs TALK_CONTRACT (from DOMAIN_PROXY capability) | Parse CANON.md ## Capabilities |\n| capabilities | Declared capabilities in CANON.md | Parse CANON.md constraints |\n| intel | INTEL.md exists | Filesystem |\n| surface | HTTP HEAD on service/content page | Network (from _scan_gov_tree) |\n| domain | TALK_PRODUCT: proxy domain(s) provisioned. TALK_CONTRACT: subdomain provisioned. | HTTP.json domains table |\n| tracking | TALK_PRODUCT: per-domain GA4/Meta/LinkedIn/Twitter/Reddit/Google Ads IDs. TALK_CONTRACT: inherited from fleet site. | HTTP.json sites + domains tables |\n| ledger | Gradient history entries | ~/.canonic/LEDGER/ chain walk |\n| coin | COIN economics declared | scope CANON.md or SHOP references |\n\n### Maturity Tiers (derived, not declared)\n\nTier requirements differ by scope classification. TALK_PRODUCT scopes require proxy domains, full tracking, and community learning surfaces. TALK_CONTRACT scopes require only a subdomain and governance surface — no consumer marketing infrastructure.\n\n#### TALK_PRODUCT (DOMAIN_PROXY capability)\n\n| Tier | Name | Requirements |\n|------|------|-------------|\n| T0 | Contract | governance == 255 + surface 200 |\n| T1 | Content | T0 + INTEL.md + content page 200 + community learning dashboard |\n| T2 | Domain | T1 + proxy domain(s) in HTTP.json (.chat + .ai) + domain 200 |\n| T3 | Tracked | T2 + all tracking IDs provisioned for proxy domains |\n| T4 | Flagship | T3 + search console verified + COIN economics |\n\n#### TALK_CONTRACT (no DOMAIN_PROXY)\n\n| Tier | Name | Requirements |\n|------|------|-------------|\n| T0 | Contract | governance == 255 + surface 200 |\n| T1 | Content | T0 + INTEL.md + content page 200 |\n| T2 | Domain | T1 + subdomain in HTTP.json + subdomain 200 |\n| T3 | Tracked | T2 + fleet-level tracking IDs (inherited from hadleylab.org) |\n| T4 | Flagship | T3 + COIN economics |\n\n#### Default (non-TALK scopes)\n\n| Tier | Name | Requirements |\n|------|------|-------------|\n| T0 | Contract | governance == 255 + surface 200 |\n| T1 | Content | T0 + INTEL.md + content page 200 |\n| T2 | Domain | T1 + proxy domain(s) in HTTP.json + domain 200 |\n| T3 | Tracked | T2 + all tracking IDs provisioned |\n| T4 | Flagship | T3 + search console verified + COIN economics |\n\n### Maturity Response Shape\n\n``json\n{\n  \"maturity\": {\n    \"summary\": { \"T0\": 40, \"T1\": 15, \"T2\": 2, \"T3\": 1, \"T4\": 0, \"below\": 8 },\n    \"scopes\": [\n      {\n        \"scope\": \"TALK/MAMMOCHAT\",\n        \"classification\": \"TALK_PRODUCT\",\n        \"governance\": { \"score\": 255, \"tier\": \"FULL\", \"state\": \"VALID\", \"checks\": {\"D\":true,\"E\":true,\"T\":true,\"R\":true,\"O\":true,\"S\":true,\"L\":true,\"LANG\":true} },\n        \"capabilities\": [\"CHAT\", \"INTEL_LEDGER\", \"DOMAIN_PROXY\"],\n        \"intel\": true,\n        \"surface\": \"ok\",\n        \"domains\": [\"mammo.chat\", \"mammochat.ai\", \"mammochat.com\"],\n        \"tracking\": { \"ga4\": true, \"meta\": true, \"linkedin\": true, \"twitter\": true, \"reddit\": true, \"google_ads\": true },\n        \"ledger_entries\": 5,\n        \"coin\": true,\n        \"tier\": \"T4\",\n        \"gaps\": []\n      },\n      {\n        \"scope\": \"TALK/RUNNER\",\n        \"classification\": \"TALK_CONTRACT\",\n        \"governance\": { \"score\": 255, \"tier\": \"FULL\", \"state\": \"VALID\", \"checks\": {\"D\":true,\"E\":true,\"T\":true,\"R\":true,\"O\":true,\"S\":true,\"L\":true,\"LANG\":true} },\n        \"capabilities\": [\"CHAT\", \"INTEL_LEDGER\"],\n        \"intel\": true,\n        \"surface\": \"ok\",\n        \"domains\": [\"gorunner.pro\"],\n        \"tracking\": { \"ga4\": \"inherited\", \"meta\": \"inherited\", \"linkedin\": \"inherited\", \"twitter\": \"inherited\", \"reddit\": \"inherited\", \"google_ads\": \"inherited\" },\n        \"ledger_entries\": 2,\n        \"coin\": true,\n        \"tier\": \"T4\",\n        \"gaps\": []\n      }\n    ]\n  }\n}\n`\n\nThe gaps array tells you exactly what's needed for the next tier — e.g. \"INTEL.md missing (→T1)\", \"no proxy domain (→T2)\"`.",
+      "table": {
+        "headers": [
+          "Bit",
+          "Dim",
+          "Check",
+          "File"
+        ],
+        "rows": [
+          [
+            "0x01",
+            "D",
+            "Declarative",
+            "CANON.md exists"
+          ],
+          [
+            "0x02",
+            "E",
+            "Evidential",
+            "VOCAB.md exists"
+          ],
+          [
+            "0x04",
+            "T",
+            "Transparent",
+            "ROADMAP.md exists"
+          ],
+          [
+            "0x08",
+            "R",
+            "Reproducible",
+            "{SCOPE}.md exists"
+          ],
+          [
+            "0x10",
+            "O",
+            "Operational",
+            "COVERAGE.md exists"
+          ],
+          [
+            "0x20",
+            "S",
+            "Structural",
+            "CANON.md has `inherits:` + `## Axiom` + `MUST`/`SHOULD`"
+          ],
+          [
+            "0x40",
+            "L",
+            "Linguistic",
+            "LEARNING.md exists"
+          ],
+          [
+            "0x80",
+            "LANG",
+            "Language",
+            "LANGUAGE.md / DESIGN.md / DESIGN.css (inherited)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-compile-freshness",
+      "eyebrow": "COMPILE FRESHNESS",
+      "title": "Compile Freshness",
+      "description": "Deep health reports compile freshness per fleet site. Governed by TOOLCHAIN/FRESHNESS/FRESHNESS.md.\n\n``json\n{\n  \"freshness\": {\n    \"cache_entries\": 306,\n    \"cache_age_s\": 3600,\n    \"stale_scopes\": [\"SERVICES/TALK\", \"blogs/2026-03-11\"],\n    \"toolchain_current\": true\n  }\n}\n``",
+      "table": {
+        "headers": [
+          "Metric",
+          "Source"
+        ],
+        "rows": [
+          [
+            "cache_entries",
+            "Count of cached scope entries in .build-cache.json"
+          ],
+          [
+            "cache_age_s",
+            "Seconds since last full build (cache file mtime)"
+          ],
+          [
+            "stale_scopes",
+            "Scopes where source mtime > cache mtime"
+          ],
+          [
+            "toolchain_current",
+            "True if toolchain_hash matches cache"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-governance-score-tracking",
+      "eyebrow": "GOVERNANCE SCORE TRACKING",
+      "title": "Governance Score Tracking",
+      "description": "``\nmagic validate → 255/255 required\n  On drop: alert via NOTIFIER\n  On recovery: log restoration event to LEDGER\n``"
+    },
+    {
+      "id": "canon-retention",
+      "eyebrow": "RETENTION",
+      "title": "Retention",
+      "description": "- Raw metrics: 30-day rolling window (in-memory counters reset on restart)\n- Structured logs: persisted by Cloudflare dashboard (worker) or stderr capture (API)\n- Governance scores: permanent in LEDGER"
+    },
+    {
+      "id": "canon-service",
+      "eyebrow": "SERVICE",
+      "title": "Service",
+      "description": "``\nname       = canonic-api (shared endpoint)\nscope      = SERVICES/MONITORING\ndomain     = localhost:8255 (container) / api.canonic.org (proxy)\nruntime    = Python HTTP server (containerized)\n``"
+    },
+    {
+      "id": "canon-architecture",
+      "eyebrow": "ARCHITECTURE",
+      "title": "Architecture",
+      "description": "``\nPROMETHEUS / GRAFANA / OPS\n    |\nlocalhost:8255 (Python HTTP — shared with API service)\n    |\n    ├── /api/v1/metrics  → counters + histograms (Prometheus text format)\n    └── /api/v1/health   → subsystem checks (fast) or full gov tree scan (?deep=true)\n\nCOUNTERS:\n    canonic_api_requests_total{endpoint,method,status}\n    canonic_auth_total{result}\n\nHISTOGRAMS:\n    canonic_api_request_duration_seconds{endpoint}\n    canonic_vault_command_duration_seconds{command}\n\nGOVERNANCE:\n    magic validate → 255/255 required\n    On drop: alert via NOTIFIER\n    On recovery: log restoration event to LEDGER\n``"
+    },
+    {
+      "id": "canon-configuration",
+      "eyebrow": "CONFIGURATION",
+      "title": "Configuration",
+      "table": {
+        "headers": [
+          "Type",
+          "Key",
+          "Source"
+        ],
+        "rows": [
+          [
+            "var",
+            "METRICS_RETENTION_DAYS",
+            "config.json (default 30)"
+          ],
+          [
+            "var",
+            "HEALTH_CHECK_INTERVAL_S",
+            "config.json (default 60)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-clients",
+      "eyebrow": "CLIENTS",
+      "title": "Clients",
+      "description": "*MONITORING | SPEC | SERVICES*",
+      "table": {
+        "headers": [
+          "Client",
+          "Runtime",
+          "Uses"
+        ],
+        "rows": [
+          [
+            "Prometheus",
+            "Scraper",
+            "/api/v1/metrics"
+          ],
+          [
+            "Docker health",
+            "Container",
+            "/api/v1/health"
+          ],
+          [
+            "OPS dashboard",
+            "Browser",
+            "/api/v1/health, /api/v1/metrics"
+          ],
+          [
+            "CI pipeline",
+            "Build",
+            "magic validate (governance gate)"
+          ]
+        ]
+      }
+    }
+  ],
+  "_generated": {
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/SERVICES/MONITORING/MONITORING.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "MONITORING | CANONIC",
+  "canon": {
+    "axiom": "MONITORING is continuous governance scoring. Real-time visibility, not snapshots.",
+    "constraints": "MUST:     Expose /metrics endpoint (Prometheus-compatible) on API service\nMUST:     Track request count, latency p50/p95/p99, error rate per endpoint\nMUST:     Alert on governance score drop (magic validate < 255)\nMUST:     Log all metric collection to LEDGER\nMUST:     Discover fleet sites, lanes, and proxy domains from HTTP.md — never hardcode\nMUST:     Use lowercase canonical URLs for all surface checks\nMUST:     Score every manifest scope using 8-bit governance model (same logic as magic.c)\nMUST:     Compute maturity tier (T0–T4) per scope with gaps array\nMUST:     Include maturity summary and per-scope detail in deep health response\nMUST NOT: Block service on metrics collection failure\nMUST NOT: Store raw metrics beyond 30-day retention\nMUST NOT: Hardcode fleet domains, lanes, or endpoint URLs in health check code\nMUST NOT: Shell out to magic binary — reimplement scoring in Python",
+    "inherits": "canonic-canonic/MAGIC/SERVICES",
+    "spec": [
+      {
+        "title": "Purpose",
+        "body": "**MONITORING provides continuous observability for all runtime services. Prometheus-compatible metrics, structured logging, and governance score tracking.**"
+      },
+      {
+        "title": "Metrics Endpoint",
+        "body": "```\nGET /api/v1/metrics → Prometheus text format\n\nCounters:\n  canonic_api_requests_total{endpoint,method,status}\n  canonic_auth_total{result}\n\nHistograms:\n  canonic_api_request_duration_seconds{endpoint}\n  canonic_vault_command_duration_seconds{command}\n```"
+      },
+      {
+        "title": "Health Check",
+        "body": "```\nGET /api/v1/health → fast local checks (Docker HEALTHCHECK default)\nGET /api/v1/health?deep=true → full governance tree scan\n```\n\n### Fast (default)\n\n```json\n{\n  \"status\": \"ok\",\n  \"port\": 8255,\n  \"uptime_s\": 12345,\n  \"checks\": {\n    \"ledger_head\": \"ok\",\n    \"vault_dir\": \"ok\",\n    \"wallet_valid\": \"ok\"\n  }\n}\n```\n\n### Deep (?deep=true)\n\nWalks the entire governance tree. **All surface discovery is fleet-agnostic** — the health check reads HTTP.md (the HTTP contract) to discover fleet sites, lanes, proxy domains, and the API base. Zero hardcoded domains.\n\n#### Discovery chain\n\n1. Parse `TOOLCHAIN/HTTP.md` → extract `## Fleet` (sites), `## Service Frontends` (lanes per site), `## Domains` (proxy domains), `## API` (base URL)\n2. For each fleet site, build surface URLs from its declared lanes (e.g. hadleylab.org has `/services/`, canonic.org has `/foundation/`, `/industries/`, `/magic/`)\n3. For each proxy domain, check its declared target (e.g. `mammo.chat` → hadleylab.org target)\n4. For the API base, check declared endpoints (e.g. `/api/v1/shop`)\n5. HTTP HEAD every discovered surface\n6. Report violations for non-200 responses, unreachable surfaces, non-compliant scopes\n\n#### URL case\n\nAll checked URLs use **lowercase** canonical form. Cloudflare Workers normalize uppercase governance paths to lowercase at the edge (per HTTP.md `## Routing`).\n\n#### Response\n\n```json\n{\n  \"status\": \"ok | degraded\",\n  \"port\": 8255,\n  \"uptime_s\": 12345,\n  \"checks\": { \"ledger_head\": \"ok\", \"vault_dir\": \"ok\", \"wallet_valid\": \"ok\" },\n  \"fleet\": [\n    { \"site\": \"hadleylab.org\", \"lanes\": [\"services\", \"papers\", \"blogs\", \"books\", \"talks\", \"decks\", \"dexter/vitae\"] },\n    { \"site\": \"canonic.org\", \"lanes\": [\"foundation\", \"industries\", \"magic\"] }\n  ],\n  \"surfaces\": [\n    { \"url\": \"https://hadleylab.org/services/clinical/\", \"scope\": \"CLINICAL\", \"status\": \"ok\" },\n    { \"url\": \"https://mammo.chat/\", \"scope\": \"TALK/MAMMOCHAT\", \"status\": \"ok\" }\n  ],\n  \"violations\": [\n    { \"type\": \"SURFACE_ERROR\", \"scope\": \"DOMAINS\", \"url\": \"https://hadleylab.org/services/domains/\", \"detail\": \"HTTP 404\" },\n    { \"type\": \"GOV_NONCOMPLIANT\", \"scope\": \"DOMAINS\", \"missing\": [\"DOMAINS.md\"] }\n  ]\n}\n```\n\n#### Violation types\n\n`SURFACE_ERROR`, `GOV_NONCOMPLIANT`, `MISSING_MANIFEST`, `MANIFEST_PARSE_ERROR`, `PREFLIGHT_ERROR`, `SURFACE_CONTRACT_MISMATCH`, `PDF_ORPHAN`, `PDF_MISSING`.\n\n### Scope Classification\n\nDeep health classifies TALK scopes by reading `Capabilities` from CANON.md. The `DOMAIN_PROXY` capability distinguishes **products** (full front ends with marketing surfaces) from **service contracts** (governed operations, no consumer marketing).\n\n| Classification | Signal | Domain Model | Examples |\n|----------------|--------|-------------|----------|\n| TALK_PRODUCT | `DOMAIN_PROXY` in Capabilities | `.chat` + `.ai` + optional `.com`/`.org` proxy domains | MAMMOCHAT, CARIBCHAT |\n| TALK_CONTRACT | No `DOMAIN_PROXY` | `{scope}.hadleylab.org` subdomain only | RUNNER |\n\nDiscovery: parse `## Capabilities` from each TALK scope's CANON.md → classify → apply type-appropriate validation.\n\n### Surface Contract Validation\n\nAfter HTTP HEAD, deep health fetches page HTML for each JEKYLL surface and validates against SURFACE.md type contracts:\n\n| Surface Type | Required Elements |\n|-------------|-------------------|\n| JEKYLL_PAPER | `controls.js` loaded, KaTeX loaded, `.view-gov` present, `#pdfViewer` present when `pdf:` compiled |\n| JEKYLL_BOOK | Same as PAPER + contribute gate elements (`#gate`, `#gatedContent`) |\n| JEKYLL_DECK | `deck.js` loaded, `.slide` elements present |\n| JEKYLL_SERVICE (TALK_PRODUCT) | Hero section, Community Learning Dashboard, Partners section, Evidence section, demo CTA linking `.chat` surface |\n| JEKYLL_SERVICE (TALK_CONTRACT) | Hero section, Evidence section. No community learning dashboard required. No `.chat`/`.ai` demo CTA required. |\n\nReports `SURFACE_CONTRACT_MISMATCH` with detail of what's missing:\n```json\n{ \"type\": \"SURFACE_CONTRACT_MISMATCH\", \"scope\": \"canonic-whitepaper\", \"url\": \"https://hadleylab.org/PAPERS/canonic-whitepaper/\", \"detail\": \"missing controls.js\" }\n{ \"type\": \"SURFACE_CONTRACT_MISMATCH\", \"scope\": \"TALK/MAMMOCHAT\", \"url\": \"https://mammochat.ai/\", \"detail\": \"missing community learning dashboard (TALK_PRODUCT)\" }\n```\n\n### PDF Integrity Checks\n\nFor JEKYLL_PAPER and JEKYLL_BOOK surfaces, deep health validates PDF artifact alignment:\n\n| Check | Violation | Detail |\n|-------|-----------|--------|\n| `.pdf` file exists in scope directory but `pdf:` not in front matter | `PDF_ORPHAN` | Compiled artifact unreachable — no viewer, no download |\n| `pdf:` declared in front matter but `.pdf` file missing at path | `PDF_MISSING` | Broken reference — viewer will fail to load |\n\n```json\n{ \"type\": \"PDF_ORPHAN\", \"scope\": \"opts-ego\", \"detail\": \"opts-ego.pdf exists but pdf: not declared in front matter\" }\n{ \"type\": \"PDF_MISSING\", \"scope\": \"example\", \"detail\": \"pdf: /PAPERS/example/example.pdf declared but file not found\" }\n```"
+      },
+      {
+        "title": "Maturity Model",
+        "body": "Deep health computes a **semantic maturity assessment** for every manifest scope — the same 8-bit governance scoring as `magic validate`, plus runtime dimensions that measure how far each scope has progressed from contract to flagship.\n\n### Governance Score (8-bit, 255 max)\n\nReimplements the C kernel (`magic.c`) scoring in Python. Operates on filesystem paths — no shell calls.\n\n| Bit | Dim | Check | File |\n|-----|-----|-------|------|\n| 0x01 | D | Declarative | CANON.md exists |\n| 0x02 | E | Evidential | VOCAB.md exists |\n| 0x04 | T | Transparent | ROADMAP.md exists |\n| 0x08 | R | Reproducible | {SCOPE}.md exists |\n| 0x10 | O | Operational | COVERAGE.md exists |\n| 0x20 | S | Structural | CANON.md has `inherits:` + `## Axiom` + `MUST`/`SHOULD` |\n| 0x40 | L | Linguistic | LEARNING.md exists |\n| 0x80 | LANG | Language | LANGUAGE.md / DESIGN.md / DESIGN.css (inherited) |\n\nCompliance tiers: NONE(0), COMMUNITY(35), BUSINESS(43), ENTERPRISE(63), AGENT(127), FULL(255).\nState: VALID(255), FLAGGED(≥63), FAIL(<63).\n\n### Runtime Maturity Dimensions\n\n| Dimension | What it checks | Source |\n|-----------|---------------|--------|\n| governance | 8-bit score per scope | Filesystem (8-bit governance model) |\n| classification | TALK_PRODUCT vs TALK_CONTRACT (from DOMAIN_PROXY capability) | Parse CANON.md `## Capabilities` |\n| capabilities | Declared capabilities in CANON.md | Parse CANON.md constraints |\n| intel | INTEL.md exists | Filesystem |\n| surface | HTTP HEAD on service/content page | Network (from `_scan_gov_tree`) |\n| domain | TALK_PRODUCT: proxy domain(s) provisioned. TALK_CONTRACT: subdomain provisioned. | HTTP.json `domains` table |\n| tracking | TALK_PRODUCT: per-domain GA4/Meta/LinkedIn/Twitter/Reddit/Google Ads IDs. TALK_CONTRACT: inherited from fleet site. | HTTP.json `sites` + `domains` tables |\n| ledger | Gradient history entries | `~/.canonic/LEDGER/` chain walk |\n| coin | COIN economics declared | scope CANON.md or SHOP references |\n\n### Maturity Tiers (derived, not declared)\n\nTier requirements differ by scope classification. TALK_PRODUCT scopes require proxy domains, full tracking, and community learning surfaces. TALK_CONTRACT scopes require only a subdomain and governance surface — no consumer marketing infrastructure.\n\n#### TALK_PRODUCT (DOMAIN_PROXY capability)\n\n| Tier | Name | Requirements |\n|------|------|-------------|\n| T0 | Contract | governance == 255 + surface 200 |\n| T1 | Content | T0 + INTEL.md + content page 200 + community learning dashboard |\n| T2 | Domain | T1 + proxy domain(s) in HTTP.json (`.chat` + `.ai`) + domain 200 |\n| T3 | Tracked | T2 + all tracking IDs provisioned for proxy domains |\n| T4 | Flagship | T3 + search console verified + COIN economics |\n\n#### TALK_CONTRACT (no DOMAIN_PROXY)\n\n| Tier | Name | Requirements |\n|------|------|-------------|\n| T0 | Contract | governance == 255 + surface 200 |\n| T1 | Content | T0 + INTEL.md + content page 200 |\n| T2 | Domain | T1 + subdomain in HTTP.json + subdomain 200 |\n| T3 | Tracked | T2 + fleet-level tracking IDs (inherited from hadleylab.org) |\n| T4 | Flagship | T3 + COIN economics |\n\n#### Default (non-TALK scopes)\n\n| Tier | Name | Requirements |\n|------|------|-------------|\n| T0 | Contract | governance == 255 + surface 200 |\n| T1 | Content | T0 + INTEL.md + content page 200 |\n| T2 | Domain | T1 + proxy domain(s) in HTTP.json + domain 200 |\n| T3 | Tracked | T2 + all tracking IDs provisioned |\n| T4 | Flagship | T3 + search console verified + COIN economics |\n\n### Maturity Response Shape\n\n```json\n{\n  \"maturity\": {\n    \"summary\": { \"T0\": 40, \"T1\": 15, \"T2\": 2, \"T3\": 1, \"T4\": 0, \"below\": 8 },\n    \"scopes\": [\n      {\n        \"scope\": \"TALK/MAMMOCHAT\",\n        \"classification\": \"TALK_PRODUCT\",\n        \"governance\": { \"score\": 255, \"tier\": \"FULL\", \"state\": \"VALID\", \"checks\": {\"D\":true,\"E\":true,\"T\":true,\"R\":true,\"O\":true,\"S\":true,\"L\":true,\"LANG\":true} },\n        \"capabilities\": [\"CHAT\", \"INTEL_LEDGER\", \"DOMAIN_PROXY\"],\n        \"intel\": true,\n        \"surface\": \"ok\",\n        \"domains\": [\"mammo.chat\", \"mammochat.ai\", \"mammochat.com\"],\n        \"tracking\": { \"ga4\": true, \"meta\": true, \"linkedin\": true, \"twitter\": true, \"reddit\": true, \"google_ads\": true },\n        \"ledger_entries\": 5,\n        \"coin\": true,\n        \"tier\": \"T4\",\n        \"gaps\": []\n      },\n      {\n        \"scope\": \"TALK/RUNNER\",\n        \"classification\": \"TALK_CONTRACT\",\n        \"governance\": { \"score\": 255, \"tier\": \"FULL\", \"state\": \"VALID\", \"checks\": {\"D\":true,\"E\":true,\"T\":true,\"R\":true,\"O\":true,\"S\":true,\"L\":true,\"LANG\":true} },\n        \"capabilities\": [\"CHAT\", \"INTEL_LEDGER\"],\n        \"intel\": true,\n        \"surface\": \"ok\",\n        \"domains\": [\"gorunner.pro\"],\n        \"tracking\": { \"ga4\": \"inherited\", \"meta\": \"inherited\", \"linkedin\": \"inherited\", \"twitter\": \"inherited\", \"reddit\": \"inherited\", \"google_ads\": \"inherited\" },\n        \"ledger_entries\": 2,\n        \"coin\": true,\n        \"tier\": \"T4\",\n        \"gaps\": []\n      }\n    ]\n  }\n}\n```\n\nThe `gaps` array tells you exactly what's needed for the next tier — e.g. `\"INTEL.md missing (→T1)\"`, `\"no proxy domain (→T2)\"`."
+      },
+      {
+        "title": "Compile Freshness",
+        "body": "Deep health reports compile freshness per fleet site. Governed by `TOOLCHAIN/FRESHNESS/FRESHNESS.md`.\n\n| Metric | Source |\n|--------|--------|\n| cache_entries | Count of cached scope entries in .build-cache.json |\n| cache_age_s | Seconds since last full build (cache file mtime) |\n| stale_scopes | Scopes where source mtime > cache mtime |\n| toolchain_current | True if toolchain_hash matches cache |\n\n```json\n{\n  \"freshness\": {\n    \"cache_entries\": 306,\n    \"cache_age_s\": 3600,\n    \"stale_scopes\": [\"SERVICES/TALK\", \"blogs/2026-03-11\"],\n    \"toolchain_current\": true\n  }\n}\n```"
+      },
+      {
+        "title": "Governance Score Tracking",
+        "body": "```\nmagic validate → 255/255 required\n  On drop: alert via NOTIFIER\n  On recovery: log restoration event to LEDGER\n```"
+      },
+      {
+        "title": "Retention",
+        "body": "- Raw metrics: 30-day rolling window (in-memory counters reset on restart)\n- Structured logs: persisted by Cloudflare dashboard (worker) or stderr capture (API)\n- Governance scores: permanent in LEDGER\n\n---\n\n---"
+      },
+      {
+        "title": "Service",
+        "body": "```\nname       = canonic-api (shared endpoint)\nscope      = SERVICES/MONITORING\ndomain     = localhost:8255 (container) / api.canonic.org (proxy)\nruntime    = Python HTTP server (containerized)\n```\n\n---"
+      },
+      {
+        "title": "Routes",
+        "body": "| Route | Method | Purpose | Primitive |\n|-------|--------|---------|-----------|\n| `/api/v1/metrics` | GET | Prometheus-compatible metrics | INTEL |\n| `/api/v1/health` | GET | Extended health check with subsystem status | INTEL |\n\n---"
+      },
+      {
+        "title": "Architecture",
+        "body": "```\nPROMETHEUS / GRAFANA / OPS\n    |\nlocalhost:8255 (Python HTTP — shared with API service)\n    |\n    ├── /api/v1/metrics  → counters + histograms (Prometheus text format)\n    └── /api/v1/health   → subsystem checks (fast) or full gov tree scan (?deep=true)\n\nCOUNTERS:\n    canonic_api_requests_total{endpoint,method,status}\n    canonic_auth_total{result}\n\nHISTOGRAMS:\n    canonic_api_request_duration_seconds{endpoint}\n    canonic_vault_command_duration_seconds{command}\n\nGOVERNANCE:\n    magic validate → 255/255 required\n    On drop: alert via NOTIFIER\n    On recovery: log restoration event to LEDGER\n```\n\n---"
+      },
+      {
+        "title": "Configuration",
+        "body": "| Type | Key | Source |\n|------|-----|--------|\n| var | METRICS_RETENTION_DAYS | config.json (default 30) |\n| var | HEALTH_CHECK_INTERVAL_S | config.json (default 60) |\n\n---"
+      },
+      {
+        "title": "Clients",
+        "body": "| Client | Runtime | Uses |\n|--------|---------|------|\n| Prometheus | Scraper | /api/v1/metrics |\n| Docker health | Container | /api/v1/health |\n| OPS dashboard | Browser | /api/v1/health, /api/v1/metrics |\n| CI pipeline | Build | magic validate (governance gate) |\n\n---"
+      }
+    ],
+    "intel": [
+      {
+        "title": "Endpoint Inventory",
+        "body": "| Endpoint | Method | Auth | Purpose |\n|----------|--------|------|---------|\n| `/api/v1/health` | GET | None | Fast local checks (ledger head, vault dir, wallet) |\n| `/api/v1/health?deep=true` | GET | None | Full governance tree scan + maturity model |\n| `/api/v1/metrics` | GET | None | Prometheus-compatible metrics export |"
+      },
+      {
+        "title": "Maturity Model Coverage",
+        "body": "| Dimension | Assessed | Source |\n|-----------|----------|--------|\n| governance | 8-bit score (D/E/T/R/O/S/L/LANG) | Filesystem — Python reimplementation of magic.c |\n| capabilities | Parsed from CANON.md | Filesystem |\n| intel | INTEL.md existence | Filesystem |\n| surface | HTTP HEAD check | Network (fleet-agnostic via HTTP.json) |\n| domain | Proxy domain lookup | HTTP.json domains table |\n| tracking | GA4/Meta/LinkedIn/Twitter/Reddit/Google Ads | HTTP.json sites table |\n| ledger | Gradient history entries | ~/.canonic/LEDGER/ chain walk |\n| coin | COIN references in CANON.md | Filesystem |"
+      },
+      {
+        "title": "Scoring Fidelity",
+        "body": "Python scoring must match `magic.c` output for all 67 scopes. Cross-check method: run `magic validate` on each scope directory, compare 8-bit scores.\n\nKnown differences: None (Python reimplementation follows same logic)."
+      },
+      {
+        "title": "Prompt Quality",
+        "body": "Every scope at every tier receives exactly one actionable prompt describing the specific gap and how to close it. TALK instances get axiom-aware prompts. Infra scopes get self-assessment prompts."
+      },
+      {
+        "title": "Performance",
+        "body": "| Metric | Budget | Actual |\n|--------|--------|--------|\n| Fast health check | < 100ms | ~5ms |\n| Deep health check | < 15s | ~8s |\n| Surface timeout per URL | 5s | Configured |"
+      },
+      {
+        "title": "Test",
+        "body": "| prompt | expect | cross |\n|--------|--------|-------|\n| What does the fast health check return? | status, port, uptime, checks (ledger_head, vault_dir, wallet_valid) | MONITORING.md |\n| What does the deep health check add? | fleet, surfaces, violations, maturity (summary + per-scope) | MONITORING.md |\n| How many maturity dimensions are assessed? | 8: governance, capabilities, intel, surface, domain, tracking, ledger, coin | CANON.md |\n| What are the maturity tiers? | T0 (Contract), T1 (Content), T2 (Domain), T3 (Tracked), T4 (Flagship) | MONITORING.md |\n| How is governance scored? | 8-bit model: D+E+T+R+O+S+L+LANG = 255 max | magic.c reference |\n\n---"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02 | ~~No observability exists~~ | ~~API logs to stderr as plain text~~ — CLOSED: `_log()` emits structured JSON per request (ts, level, endpoint, method, status, latency_ms) | api binary |\n| 2026-02 | ~~Worker logs invisible~~ | ~~Cloudflare captures console.log but no structured format~~ — CLOSED: Worker emits JSON console.log for wrangler tail | worker.js |\n| 2026-02 | ~~Health check minimal~~ | ~~Only status and port~~ — CLOSED: /health returns extended JSON with ledger_head, vault_dir, wallet_valid subsystem checks | api binary |\n| 2026-02 | In-memory counters sufficient | API is single-process — no need for external metrics store at current scale | Architecture decision |\n| 2026-02-28 | METRICS_LIVE | /api/v1/metrics serves Prometheus text format — canonic_api_requests_total, canonic_auth_total, canonic_api_request_duration_seconds | api `_handle_metrics()` |\n| 2026-02-28 | STRUCTURED_LOGGING_LIVE | Every request logged as JSON to stderr — endpoint, method, status, latency_ms, ip, optional user | api `_log()` |\n| 2026-02-28 | HEALTH_EXTENDED_LIVE | /api/v1/health checks ledger_head, vault_dir, wallet_valid — returns overall status + uptime_s | api `/health` handler |\n| 2026-03-01 | SESSION_LEDGERED | hello | 213d4ed9-79dd-4562-8ef7-139ee7e5a22a |\n\n---"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {
+      "next": [
+        "Governance score alerting via NOTIFIER",
+        "Dashboard integration (Grafana or Cloudflare Analytics)",
+        "SLA tracking (uptime, latency p99 targets)",
+        "Automated canary deploys with metric gates"
+      ]
+    },
+    "vocab": [
+      {
+        "term": "MONITORING",
+        "definition": "Continuous observability service. Real-time visibility into runtime behavior."
+      },
+      {
+        "term": "SURFACE_CONTRACT_MISMATCH",
+        "definition": "Surface renders (HTTP 200) but doesn't match its SURFACE.md type contract — missing required elements, scripts, or structure."
+      },
+      {
+        "term": "PDF_ORPHAN",
+        "definition": "Compiled PDF file exists in scope directory but `pdf:` not declared in front matter — artifact unreachable."
+      },
+      {
+        "term": "PDF_MISSING",
+        "definition": "`pdf:` declared in front matter but PDF file not found at the declared path — broken reference."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "SERVICES",
+        "axiom": "SERVICES are SURFACE routes with governed boundaries.",
+        "constraints": "MUST:     Every service composes INTEL (mandatory — knowledge backs every operation)\nMUST:     Primitives are files, services are directories: INTEL→LEARNING, CHAT→TALK, COIN→SHOP\nMUST:     COIN is optional — adds economics (the economic shadow of WORK)\nMUST:     TALK is optional — adds governed conversation product\nMUST:     NOTIFIER is optional — adds governed cross-scope delivery (NOTIFY + INTEL)\nMUST:     Treat each service scope as a governed boundary (no cross-scope leakage)\nMUST:     Drive routes and UI from governed indices (no hardcoding)\nMUST:     NETWORK services MUST declare Routes table with Method + Primitive\nMUST:     NETWORK services MUST declare Architecture showing client → worker → backend\nMUST:     NETWORK services MUST declare Configuration with all vars and secrets\nMUST:     COMPILER services MUST declare Interface with input/output contract\nMUST NOT: Embed runtime state into governed scopes\nMUST NOT: Ship a service without declaring its API surface in CANON.md"
+      },
+      {
+        "scope": "SURFACE",
+        "axiom": "SURFACE is the platform lane.",
+        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

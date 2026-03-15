@@ -1,0 +1,38 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/SURFACE/JEKYLL/BOOKS/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-20",
+      "signal": "BOOK extends PAPER extends BLOG",
+      "text": "Layout inheritance hierarchy — additive composition, not fork",
+      "source": "DESIGN/LAYOUTS.md"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "Standalone layouts required for long content",
+      "text": "Liquid stack overflow at 44KB+ — no {% include %} in paper/book",
+      "source": "PAPERS/DESIGN.md"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "PARTS and CHAPTERS are first-class TOC structure",
+      "text": "Books need richer structure than papers — PARTS group CHAPTERS",
+      "source": "BOOKS.md"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "Same .md source compiles to HTML and PDF",
+      "text": "LaTeX backend on same source — no format-specific authoring",
+      "source": "CANON.md"
+    }
+  ],
+  "stats": {
+    "total": 4,
+    "community_questions": 0,
+    "domain_patterns": 4
+  }
+}

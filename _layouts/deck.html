@@ -1,0 +1,113 @@
+<!-- LAYOUT: DECK | Presentations | DESIGN.md 255 Map -->
+<!-- Same section data as default, rendered as slides instead of scrollable page -->
+{% assign scope_key = page.scope | default: site.scope | downcase %}
+{% assign sd = site.data[scope_key] %}
+{% assign scope_up = page.scope | default: site.scope | upcase %}
+{% assign badge_label = page.badge | default: sd.badge_label | default: scope_up %}
+{% assign sections = page.sections | default: sd.sections %}
+{% assign current_view = page.view | default: "web" %}
+<!DOCTYPE html>
+<html lang="en" data-scope="{{ page.scope | default: site.scope | downcase }}">
+<head>
+  {% include HEAD.html %}
+</head>
+<body class="deck-mode">
+
+  {% include NAV-UNIFIED.html mode="deck" slide_count=sections.size %}
+
+  {% include VIEW-GOV.html badge=badge_label %}
+
+  <!-- ═══ VIEW: WEB — The compiled deck surface ═══ -->
+  <div class="view-web"{% if current_view == "gov" %} style="display:none"{% endif %}>
+  <main class="deck-main">
+    <div class="slide-area">
+      <div class="slide-container">
+        {% for section in sections %}
+        <div class="slide{% if forloop.first %} active{% endif %}" data-slide="{{ forloop.index }}">
+          {% assign _parts = section.title | split: " — " %}
+          {% if _parts.size > 1 %}
+          <div class="slide-eyebrow">{{ _parts[0] | upcase }}</div>
+          <h1 class="slide-heading">{{ _parts[1] }}</h1>
+          {% else %}
+          {% if section.eyebrow %}<div class="slide-eyebrow">{{ section.eyebrow }}</div>{% endif %}
+          {% if section.title %}<h1 class="slide-heading">{{ section.title }}</h1>{% endif %}
+          {% endif %}
+          {% if section.description %}<div class="slide-story">{{ section.description }}</div>{% endif %}
+
+          {% if section.dashboard %}
+          <div class="slide-dashboard">
+            {% for widget in section.dashboard %}
+            <div class="slide-widget{% if widget.span == 2 %} span-2{% endif %}">
+              {% if widget.metric %}
+              <div class="metric-card">
+                <div class="metric-value">{{ widget.metric.value }}</div>
+                <div class="metric-label">{{ widget.metric.label }}</div>
+                {% if widget.metric.change %}<div class="metric-change {{ widget.metric.trend }}">{{ widget.metric.change }}</div>{% endif %}
+              </div>
+              {% endif %}
+              {% if widget.table %}{% include TABLE.html table=widget.table %}{% endif %}
+              {% if widget.figure %}
+              <div class="slide-figure">
+                {% assign fig = widget.figure %}
+                {% if fig.type == "timeline" %}{% include figures/TIMELINE.html items=fig.items %}
+                {% elsif fig.type == "score-meter" %}{% include figures/SCORE.html score=fig.score label=fig.label %}
+                {% elsif fig.type == "bar-chart" %}{% include figures/BARS.html bars=fig.bars %}
+                {% elsif fig.type == "hero-stats" %}{% include figures/HERO-STATS.html items=fig.items footer=fig.footer %}
+                {% elsif fig.type == "architecture" %}{% include figures/ARCHITECTURE.html layers=fig.layers label=fig.label %}
+                {% elsif fig.type == "funnel" %}{% include figures/FUNNEL.html left=fig.left left_label=fig.left_label left_items=fig.left_items bridge=fig.bridge bridge_label=fig.bridge_label bridge_sub=fig.bridge_sub right=fig.right right_label=fig.right_label right_items=fig.right_items result=fig.result %}
+                {% elsif fig.type == "tier-cards" %}{% include figures/TIER-CARDS.html cards=fig.cards %}
+                {% elsif fig.type == "app-grid" %}{% include figures/APP-GRID.html apps=fig.apps %}
+                {% elsif fig.type == "pipeline" %}{% include figures/PIPELINE.html steps=fig.steps %}
+                {% elsif fig.type == "flow-chain" %}{% include figures/FLOW.html nodes=fig.nodes %}
+                {% elsif fig.type == "audit-trail" %}{% include figures/AUDIT.html items=fig.items %}
+                {% elsif fig.type == "balance" %}{% include figures/BALANCE.html left=fig.left right=fig.right tilt=fig.tilt %}
+                {% elsif fig.type == "area-chart" %}{% include figures/AREA.html points=fig.points label=fig.label prefix=fig.prefix suffix=fig.suffix %}
+                {% elsif fig.type == "donut" %}{% include figures/DONUT.html segments=fig.segments total=fig.total label=fig.label %}
+                {% elsif fig.type == "gauge" %}{% include figures/GAUGE.html value=fig.value max=fig.max label=fig.label unit=fig.unit %}
+                {% elsif fig.type == "wallet-hero" %}{% include figures/WALLET-HERO.html id=fig.id balance=fig.balance actions=fig.actions %}
+                {% elsif fig.type == "transactions" %}{% include figures/TRANSACTIONS.html id=fig.id items=fig.items %}
+                {% elsif fig.type == "memorial" %}{% include figures/MEMORIAL.html items=fig.items %}
+                {% elsif fig.type == "book" %}{% include figures/BOOK.html items=fig.items %}
+                {% elsif fig.type == "federation" %}{% include figures/FEDERATION.html items=fig.items %}
+                {% else %}
+                <div class="figure-items">{% for item in fig.items %}<div class="figure-item">{{ item }}</div>{% endfor %}</div>
+                {% endif %}
+              </div>
+              {% endif %}
+            </div>
+            {% endfor %}
+          </div>
+          {% endif %}
+
+          {% if section.cards %}
+          <div class="slide-cards">
+            {% for card in section.cards %}
+            <div class="slide-card">
+              {% if card.icon %}<span class="card-icon">{{ card.icon }}</span>{% endif %}
+              <strong>{{ card.title }}</strong>
+              {% if card.desc %}<p>{{ card.desc }}</p>{% endif %}
+              {% if card.text %}<p>{{ card.text }}</p>{% endif %}
+            </div>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+
+      <div class="slide-nav">
+        {% for section in sections %}
+        <div class="nav-dot{% if forloop.first %} active{% endif %}" onclick="DECK.go({{ forloop.index }})"></div>
+        {% endfor %}
+      </div>
+    </div>
+  </main>
+
+  {% include CONTROLS.html %}
+
+  <footer class="deck-footer">{{ page.footerTagline | default: page.title | default: site.title }}</footer>
+  </div><!-- /view-web -->
+
+  {% include SCRIPTS.html deck=true %}
+</body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/SERVICES/TALK/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-19",
+      "signal": "TALK = CHAT + INTEL composed",
+      "text": "TALK is the governed conversation service; CHAT is the primitive, TALK is the product",
+      "source": "SERVICES/TALK/CANON.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "TALK is optional service",
+      "text": "COIN and TALK are optional; only INTEL (WORK) is mandatory across all principals",
+      "source": "canonic-canonic/FOUNDATION/DOCTRINE"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "Per-USER dashboard at /CHAT/{USER}/",
+      "text": "Every USER principal gets a governed TALK dashboard; cross-user messages via governed inbox",
+      "source": "SERVICES/TALK/CANON.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "Disclaimer is mandatory",
+      "text": "TALK must never operate without disclaimer — governance constraint inherited from CHAT",
+      "source": "SERVICES/TALK/CANON.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "Industry vertical determines voice",
+      "text": "TALK channels are never generic; voice, disclaimer, and knowledge scope derive from industry CANON",
+      "source": "SERVICES/CHAT/CANON.md"
+    },
+    {
+      "date": "2026-02-27",
+      "signal": "COIN gate closes revenue loop",
+      "text": "TALK composes COIN — premium tiers (ENTERPRISE 1 COIN/turn, AGENT 3 COIN/turn) require SPEND; provider costs covered by COIN flow, not external subsidy",
+      "source": "SERVICES/TALK/CANON.md"
+    },
+    {
+      "date": "2026-02-27",
+      "signal": "TALK = CHAT + INTEL + COIN",
+      "text": "Axiom updated: COIN is the third primitive in TALK composition; CHAT becomes self-funding",
+      "source": "SERVICES/TALK/CANON.md"
+    }
+  ],
+  "stats": {
+    "total": 7,
+    "community_questions": 0,
+    "domain_patterns": 7
+  }
+}

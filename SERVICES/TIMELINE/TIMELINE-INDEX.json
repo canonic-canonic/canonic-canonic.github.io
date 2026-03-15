@@ -1,0 +1,54 @@
+{
+  "_generated": {
+    "contract": "hadleylab-canonic/SERVICES/TIMELINE/CANON.md",
+    "rule": "edit the contract or compiler \u2014 not this file"
+  },
+  "generated": "2026-03-15T13:31:56Z",
+  "total_events": 24610,
+  "lanes": {
+    "CALENDAR": {
+      "count": 5520,
+      "earliest": "1970-05-20T00:00:00Z",
+      "latest": "2031-12-31T00:00:00Z"
+    },
+    "LEARNING": {
+      "count": 18216,
+      "earliest": "2013-10-09T00:00:00Z",
+      "latest": "2026-03-15T00:00:00Z"
+    },
+    "TRANSCRIPT": {
+      "count": 145,
+      "earliest": "2026-02-09T00:00:00Z",
+      "latest": "2026-03-10T00:00:00Z"
+    },
+    "COIN": {
+      "count": 687,
+      "earliest": "2026-02-21T17:28:04.309431Z",
+      "latest": "2026-02-27T06:19:58.814796Z"
+    },
+    "LEDGER": {
+      "count": 7,
+      "earliest": "2026-02-26T19:29:24.622827Z",
+      "latest": "2026-03-13T20:50:35.035043Z"
+    },
+    "CONTACTS": {
+      "count": 35,
+      "earliest": "2026-03-15T13:31:56Z",
+      "latest": "2026-03-15T13:31:56Z"
+    }
+  },
+  "principals": [
+    "AVINASH",
+    "DEXTER",
+    "FATIMA",
+    "GIT",
+    "ILYA",
+    "ISABELLA",
+    "JP",
+    "ROBERT",
+    "SYSTEM",
+    "TREASURY",
+    "YANA"
+  ],
+  "index_path": "/Users/iDrDex/.canonic/timeline/INDEX.jsonl"
+}

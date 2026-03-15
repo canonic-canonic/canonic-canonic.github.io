@@ -1,0 +1,138 @@
+{
+  "hero": {
+    "badge": "DESIGN",
+    "title": "DESIGN",
+    "description": "Frontend rendering layer. CANON.md → HTML → Native. One stylesheet. All surfaces.",
+    "cta": [
+      {
+        "label": "Open DESIGN",
+        "href": "/magic/surface/design/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "children",
+      "eyebrow": "DESIGN",
+      "title": "DESIGN",
+      "cards": [
+        {
+          "icon": "∩",
+          "title": "TALK",
+          "desc": "api.canonic.org is the CANONIC service worker. All primitives. All streams. Zero hardcoding.",
+          "href": "/magic/surface/design/TALK/",
+          "class": "card"
+        }
+      ]
+    },
+    {
+      "id": "canon-scope",
+      "eyebrow": "SCOPE",
+      "title": "Scope",
+      "description": "DESIGN is the rendering layer. CANON.md governs. HTML, Swift, Kotlin execute. One stylesheet — all surfaces.\n\n``\nsource    = RUNTIME/DESIGN.css\nscope     = global\nlayer     = CSS Layer 1–12\ninherits  = canonic-foundation LANGUAGE/DESIGN.md\n``"
+    },
+    {
+      "id": "canon-hierarchy",
+      "eyebrow": "HIERARCHY",
+      "title": "Hierarchy",
+      "description": "``\nMAGIC\n└── SURFACE\n    └── DESIGN        ← this scope\n        ├── JEKYLL     (remote_theme — GitHub Pages compiler)\n        ├── APPLE      (native — SwiftUI)\n        └── ANDROID    (native — Kotlin)\n``"
+    },
+    {
+      "id": "canon-evolution",
+      "eyebrow": "EVOLUTION",
+      "title": "Evolution",
+      "description": "*DESIGN | SURFACE | MAGIC*",
+      "table": {
+        "headers": [
+          "Date",
+          "Event"
+        ],
+        "rows": [
+          [
+            "2025-12",
+            "DESIGN.css universal stylesheet established"
+          ],
+          [
+            "2026-01",
+            "remote_theme distribution via DESIGN-theme"
+          ],
+          [
+            "2026-02",
+            "TALK = DESIGN(CHAT + INTEL) — surface composition"
+          ]
+        ]
+      }
+    }
+  ],
+  "_generated": {
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/SURFACE/DESIGN/DESIGN.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "DESIGN | CANONIC",
+  "canon": {
+    "axiom": "Frontend rendering layer. CANON.md → HTML → Native. One stylesheet. All surfaces.",
+    "constraints": "DESIGN = CANON.md → CANON.json → HTML/Swift/Kotlin\nDESIGN.css = universal renderer\nTALK = DESIGN(CHAT + INTEL)",
+    "inherits": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
+    "spec": [
+      {
+        "title": "Scope",
+        "body": "DESIGN is the rendering layer. CANON.md governs. HTML, Swift, Kotlin execute. One stylesheet — all surfaces.\n\n```\nsource    = RUNTIME/DESIGN.css\nscope     = global\nlayer     = CSS Layer 1–12\ninherits  = canonic-foundation LANGUAGE/DESIGN.md\n```"
+      },
+      {
+        "title": "Constraints",
+        "body": "```\nMUST:     Use DESIGN.css for all visual presentation\nMUST:     Inherit from RUNTIME/DESIGN.css via fleet sync\nMUST NOT: Duplicate styles outside DESIGN.css\n```"
+      },
+      {
+        "title": "Hierarchy",
+        "body": "```\nMAGIC\n└── SURFACE\n    └── DESIGN        ← this scope\n        ├── JEKYLL     (remote_theme — GitHub Pages compiler)\n        ├── APPLE      (native — SwiftUI)\n        └── ANDROID    (native — Kotlin)\n```"
+      },
+      {
+        "title": "Evolution",
+        "body": "| Date | Event |\n|------|-------|\n| 2025-12 | DESIGN.css universal stylesheet established |\n| 2026-01 | remote_theme distribution via DESIGN-theme |\n| 2026-02 | TALK = DESIGN(CHAT + INTEL) — surface composition |\n\n---"
+      }
+    ],
+    "learning": [],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "DESIGN",
+        "definition": "Frontend rendering layer; CANON.md → compiled artifacts"
+      }
+    ],
+    "chain": [
+      {
+        "scope": "JEKYLL",
+        "axiom": "JEKYLL is MAGIC made visible. DESIGN is the language. JEKYLL is the compiler.",
+        "constraints": "MUST:     Derive visuals from governed primitives (no ad hoc style drift)\nMUST:     Keep design language in GOV; runtime renders only\nMUST:     Card icons render inline preceding the card title (not stacked)\nMUST:     Hero demo cycles all governed TALK products (not a subset)\nMUST NOT: Introduce visual rules outside governed contracts"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/COMPLIANCE/SALES/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-19",
+      "signal": "SALES = CHAT about MAGIC",
+      "text": "SALES is the conversation function — how MAGIC talks to buyers, not about buyers",
+      "source": "SALES/CANON.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "Lead with buyer pain, not features",
+      "text": "Every sales conversation must start from the buyer's compliance risk, not MAGIC's architecture",
+      "source": "SALES/CANON.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "Price to compliance value",
+      "text": "MAGIC ENTERPRISE at $100K/year < 5% cost of one HIPAA breach ($1.9M average) — value anchor, not cost-plus",
+      "source": "SALES/CANON.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "MAMMOCHAT is the reference deployment",
+      "text": "20K+ governed encounters at AdventHealth (550+ facilities) proves production healthcare governance",
+      "source": "SALES/CANON.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "Land ENTERPRISE, expand to AGENT",
+      "text": "Expansion motion: start at tier 63, grow to tier 127 as AI deployment increases",
+      "source": "SALES/CANON.md"
+    }
+  ],
+  "stats": {
+    "total": 5,
+    "community_questions": 0,
+    "domain_patterns": 5
+  }
+}

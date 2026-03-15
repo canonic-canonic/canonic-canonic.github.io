@@ -1,0 +1,27 @@
+{
+  "katex": {
+    "version": "0.16.21",
+    "css": "https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css",
+    "css_integrity": "sha384-zh0CIslj+VczCZtlzBcjt5ppRcsAmDnRem7ESsYwWwg3m/OaJ2l4x7YBZl9Kxxib",
+    "js": "https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.js",
+    "js_integrity": "sha384-Rma6DA2IPUwhNxmrB/7S3Tno0YY7sFu9WSYMCuulLhIqYSGZ2gKCJWIqhBWqMQfh",
+    "auto_render": "https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/contrib/auto-render.min.js",
+    "auto_render_integrity": "sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh"
+  },
+  "pdfjs": {
+    "version": "3.11.174",
+    "js": "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js",
+    "js_integrity": "sha384-/1qUCSGwTur9vjf/z9lmu/eCUYbpOTgSjmpbMQZ1/CtX2v/WcAIKqRv+U1DUCG6e",
+    "worker": "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js",
+    "viewer_css": "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/web/viewer.css",
+    "viewer_mjs": "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/web/viewer.mjs"
+  },
+  "mermaid": {
+    "version": "11.12.3",
+    "esm": "https://cdn.jsdelivr.net/npm/mermaid@11.12.3/dist/mermaid.esm.min.mjs"
+  },
+  "_generated": {
+    "contract": "canonic-canonic/MAGIC/TOOLCHAIN/DEPS.md",
+    "rule": "edit the contract or compiler — not this file"
+  }
+}

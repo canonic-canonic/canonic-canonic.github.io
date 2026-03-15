@@ -1,0 +1,156 @@
+{
+  "hero": {
+    "badge": "DECKS",
+    "title": "DECKS",
+    "description": "DECKS are governed presentation artifacts. Every pitch is a CANON-named scope.",
+    "cta": [
+      {
+        "label": "Open DECKS",
+        "href": "/magic/surface/jekyll/decks/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "canon-interface",
+      "eyebrow": "INTERFACE",
+      "title": "Interface",
+      "table": {
+        "headers": [
+          "Artifact",
+          "Format",
+          "Source"
+        ],
+        "rows": [
+          [
+            "Deck",
+            "Directory with `{NAME}.json`",
+            "`DECKS/{NAME}/`"
+          ],
+          [
+            "Slides",
+            "JSON array in `{NAME}.json`",
+            "Compiled from governance"
+          ],
+          [
+            "Index",
+            "`DECKS.json`",
+            "Compiled from deck metadata"
+          ],
+          [
+            "Governance",
+            "`CANON.json` per deck",
+            "Compiled from CANON.md"
+          ],
+          [
+            "Surface",
+            "`index.md`",
+            "Jekyll page, renders deck table"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-rendering",
+      "eyebrow": "RENDERING",
+      "title": "Rendering",
+      "description": "Deck index renders via layout: default with deck table. Individual decks render via layout: deck (DESIGN theme). Slides are driven by deck.js.\n\n*DECKS | SPEC | CANONIC*"
+    }
+  ],
+  "_generated": {
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/SURFACE/JEKYLL/DECKS/DECKS.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "DECKS | CANONIC",
+  "canon": {
+    "axiom": "DECKS are governed presentation artifacts. Every pitch is a CANON-named scope.",
+    "constraints": "MUST:     Every deck is a named directory (audience is the scope name)\nMUST:     Each deck directory contains {DECK}.json (compiled slide data)\nMUST:     DECKS.json index is compiled — never hand-edited\nMUST:     Deck content references governed services and LEDGER evidence\nMUST:     Deck rendering uses DESIGN theme layout: deck\nMUST NOT: Create ungoverned presentations (every pitch must have a scope)\nMUST NOT: Hand-edit compiled indices (DECKS.json, CANON.json)",
+    "inherits": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
+    "spec": [
+      {
+        "title": "Purpose",
+        "body": "**DECKS are governed pitch presentations. Each deck is an audience-named scope with compiled slide data.**\n\nDecks transform governance artifacts into investor/partner/customer-facing narratives. The DECKS index (DECKS.json) is compiled from deck metadata — the source of truth is the deck directories themselves.\n\n---"
+      },
+      {
+        "title": "Interface",
+        "body": "| Artifact | Format | Source |\n|----------|--------|--------|\n| Deck | Directory with `{NAME}.json` | `DECKS/{NAME}/` |\n| Slides | JSON array in `{NAME}.json` | Compiled from governance |\n| Index | `DECKS.json` | Compiled from deck metadata |\n| Governance | `CANON.json` per deck | Compiled from CANON.md |\n| Surface | `index.md` | Jekyll page, renders deck table |\n\n---"
+      },
+      {
+        "title": "Rendering",
+        "body": "Deck index renders via `layout: default` with deck table. Individual decks render via `layout: deck` (DESIGN theme). Slides are driven by `deck.js`.\n\n---"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-19 | Audience names the scope | HOWARD, JP-CAPITAL, MALEK — deck directory = audience identity | DECKS/ |\n| 2026-02-19 | deck.js drives all rendering | Slides are data (JSON), not markup — DESIGN theme compiles | deck.js |\n| 2026-02-20 | DECKS.json is compiled index | Hand-editing forbidden — source of truth is deck directories | DECKS.md |\n\n---"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {
+      "now": [
+        "Deck directories render via DESIGN theme `layout: deck`",
+        "DECKS.json compiled index drives the listing page",
+        "deck.js handles slide navigation and rendering"
+      ],
+      "next": [
+        "LEARNING.json per-deck for audience-specific TALK context",
+        "Deck analytics (view tracking tied to LEDGER)",
+        "Export to PDF via DESIGN print styles"
+      ],
+      "later": [
+        "Deck versioning (audience sees latest, git tracks history)",
+        "COIN integration (pitch → DEAL → LEDGER)",
+        "Collaborative deck editing via governed merge"
+      ]
+    },
+    "vocab": [
+      {
+        "term": "DECK",
+        "definition": "A governed presentation. Named by audience. Rendered as slide sequence."
+      },
+      {
+        "term": "DECKS",
+        "definition": "Collection of governed presentation artifacts."
+      },
+      {
+        "term": "SURFACE",
+        "definition": "The rendering layer. Compiles GOV into native UI."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "JEKYLL",
+        "axiom": "JEKYLL is MAGIC made visible. DESIGN is the language. JEKYLL is the compiler.",
+        "constraints": "MUST:     Derive visuals from governed primitives (no ad hoc style drift)\nMUST:     Keep design language in GOV; runtime renders only\nMUST:     Card icons render inline preceding the card title (not stacked)\nMUST:     Hero demo cycles all governed TALK products (not a subset)\nMUST NOT: Introduce visual rules outside governed contracts"
+      }
+    ]
+  }
+}

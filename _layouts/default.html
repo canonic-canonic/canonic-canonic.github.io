@@ -1,0 +1,127 @@
+<!-- LAYOUT: default | ONE extensible layout | DESIGN.md 255 Map -->
+<!-- Renders: nav, hero, sections (cards/dashboard/table/tiers/about/etc), econ, cta, footer, talk -->
+<!-- Content resolves from: page front matter OR _data/{scope}.json -->
+{% assign scope_key = page.scope | default: site.scope | downcase %}
+{% assign sd = site.data[scope_key] %}
+{% assign hero = page.hero | default: sd.hero %}
+{% assign nav = page.nav | default: sd.nav %}
+{% assign sections = page.sections | default: sd.sections %}
+{% assign cta = page.cta | default: sd.cta %}
+{% assign footer_data = page.footer | default: sd.footer %}
+<!DOCTYPE html>
+<html lang="en" data-scope="{{ page.scope | default: site.scope | downcase }}">
+<head>
+  {% include HEAD.html %}
+</head>
+<body{% if page.galaxy %} class="galaxy-page"{% endif %}>
+
+  {% include NAV-UNIFIED.html nav=nav %}
+
+  {% assign current_view = page.view | default: "web" %}
+  {% if page.galaxy %}
+  {% include GALAXY.html %}
+  {% else %}
+
+  {% include VIEW-GOV.html %}
+
+  <!-- ═══ VIEW: WEB — The compiled web surface ═══ -->
+  <div class="view-web"{% if current_view == "gov" %} style="display:none"{% endif %}>
+  <div id="hero">{% include HERO.html hero=hero %}</div>
+
+  {% if page.stats %}<div id="stats">{% include STATS.html %}</div>{% endif %}
+
+  <div class="container">
+    {% for section in sections %}
+    <section id="{{ section.id }}">
+      {% if section.quote %}
+      <div class="axiom-quote"><strong>{{ section.quote.bold }}</strong> {{ section.quote.rest }}</div>
+      {% endif %}
+
+      {% if section.eyebrow %}<div class="section-eyebrow text-center">{{ section.eyebrow }}</div>{% endif %}
+      {% if section.title %}<h2 class="section-title text-center">{{ section.title }}</h2>{% endif %}
+      {% if section.description %}<div class="description">{{ section.description | markdownify }}</div>{% endif %}
+
+      {% if section.feature %}
+      <div class="feature-block">
+        {% if section.feature.eyebrow %}<div class="section-eyebrow">{{ section.feature.eyebrow }}</div>{% endif %}
+        {% if section.feature.title %}<h3 class="feature-title">{{ section.feature.title }}</h3>{% endif %}
+        {% if section.feature.text %}<p class="muted feature-text">{{ section.feature.text }}</p>{% endif %}
+        {% if section.feature.tags %}<div class="tag-cloud">
+          {% for tag in section.feature.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+        </div>{% endif %}
+        {% if section.feature.figure %}
+        <div class="chart-wrap">
+          {% assign fig = section.feature.figure %}
+          {% if fig.type == "score-meter" %}{% include figures/SCORE.html score=fig.score label=fig.label %}
+          {% elsif fig.type == "pipeline" %}{% include figures/PIPELINE.html steps=fig.steps %}
+          {% elsif fig.type == "audit-trail" %}{% include figures/AUDIT.html items=fig.items %}
+          {% elsif fig.type == "flow-chain" %}{% include figures/FLOW.html nodes=fig.nodes %}
+          {% elsif fig.type == "balance" %}{% include figures/BALANCE.html left=fig.left right=fig.right tilt=fig.tilt %}
+          {% elsif fig.type == "gauge" %}{% include figures/GAUGE.html value=fig.value max=fig.max label=fig.label unit=fig.unit %}
+          {% elsif fig.type == "donut" %}{% include figures/DONUT.html segments=fig.segments total=fig.total label=fig.label %}
+          {% elsif fig.type == "area-chart" %}{% include figures/AREA.html points=fig.points label=fig.label prefix=fig.prefix suffix=fig.suffix %}
+          {% elsif fig.type == "bar-chart" %}{% include figures/BARS.html bars=fig.bars %}
+          {% elsif fig.type == "timeline" %}{% include figures/TIMELINE.html items=fig.items %}
+          {% elsif fig.type == "hero-stats" %}{% include figures/HERO-STATS.html items=fig.items footer=fig.footer %}
+          {% elsif fig.type == "architecture" %}{% include figures/ARCHITECTURE.html layers=fig.layers label=fig.label %}
+          {% elsif fig.type == "funnel" %}{% include figures/FUNNEL.html left=fig.left left_label=fig.left_label left_items=fig.left_items bridge=fig.bridge bridge_label=fig.bridge_label bridge_sub=fig.bridge_sub right=fig.right right_label=fig.right_label right_items=fig.right_items result=fig.result %}
+          {% elsif fig.type == "tier-cards" %}{% include figures/TIER-CARDS.html cards=fig.cards %}
+          {% elsif fig.type == "app-grid" %}{% include figures/APP-GRID.html apps=fig.apps %}
+          {% elsif fig.type == "wallet-hero" %}{% include figures/WALLET-HERO.html id=fig.id balance=fig.balance actions=fig.actions %}
+          {% elsif fig.type == "transactions" %}{% include figures/TRANSACTIONS.html id=fig.id items=fig.items %}
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+
+      {% if section.cards %}{% include CARDS.html cards=section.cards columns=section.columns gap=section.gap %}{% endif %}
+      {% if section.dashboard %}{% include DASHBOARD.html widgets=section.dashboard %}{% endif %}
+      {% if section.table %}{% include TABLE.html table=section.table %}{% endif %}
+      {% if section.tiers %}{% include TIERS.html tiers=section.tiers axiom=section.axiom %}{% endif %}
+      {% if section.products %}{% include PRODUCTS.html products=section.products %}{% endif %}
+      {% if section.deals %}{% include DEALS.html deals=section.deals %}{% endif %}
+      {% if section.about %}{% include ABOUT.html about=section.about %}{% endif %}
+      {% if section.banner %}{% include BANNER.html banner=section.banner %}{% endif %}
+      {% if section.article %}{% include ARTICLE.html article=section.article %}{% endif %}
+      {% if section.posts %}{% include POSTS.html posts=section.posts %}{% endif %}
+      {% if section.switcher %}{% include SWITCHER.html switcher=section.switcher id=section.id %}{% endif %}
+      {% if section.proof %}{% include PROOF.html body=section.proof %}{% endif %}
+
+      {% if section.cta %}<div class="section-cta">
+        {% if section.cta.buttons %}
+          {% for btn in section.cta.buttons %}<a href="{{ btn.href }}" class="btn{% unless forloop.first %} btn-secondary{% endunless %}"{% if btn.talk %} onclick="TALK.open();return false"{% endif %}>{{ btn.label }}</a> {% endfor %}
+        {% elsif section.cta.label %}
+          <a href="{{ section.cta.href }}" class="btn"{% if section.cta.talk %} onclick="TALK.open();return false"{% endif %}>{{ section.cta.label }}</a>
+        {% endif %}
+      </div>{% endif %}
+
+      {% if section.generated.children %}
+      <div class="governed-scopes">
+        <div class="section-eyebrow">Governed Scopes</div>
+        <div class="tag-cloud">
+          {% for c in section.generated.children %}{% if c.href %}<a href="{{ c.href }}" class="tag tag-link">{{ c.label }}</a>{% else %}<span class="tag">{{ c.label }}</span>{% endif %}{% endfor %}
+        </div>
+      </div>
+      {% endif %}
+    </section>
+    {% endfor %}
+
+    {{ content }}
+
+    {% if page.econ %}{% include ECON.html %}{% endif %}
+    {% if page.wallet %}{% include WALLET.html %}{% endif %}
+  </div>
+
+  {% if cta %}
+  <section id="cta">{% include CTA.html cta=cta %}</section>
+  {% endif %}
+  </div><!-- /view-web -->
+
+  <footer id="footer">{% include FOOTER.html footer=footer_data %}</footer>
+
+  {% endif %}
+
+  {% include SCRIPTS.html %}
+</body>
+</html>

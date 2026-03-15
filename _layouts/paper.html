@@ -1,0 +1,343 @@
+<!-- LAYOUT: paper | STANDALONE | DESIGN.md 255 Map -->
+<!-- Extends BLOG (post.html) class. Adds: tri-view (GOV + WEB + TEX), math, contribute gate. -->
+<!-- STANDALONE: No includes — Liquid stack overflow on content >44KB. -->
+<!-- TRI-VIEW: GOV (contract prose) + WEB (1-col, like blogs) + TEX (PDF.js canvas, 2-col from PDF). CONTROLS.viewTo() toggles. -->
+{% assign scope_key = page.scope | default: site.scope | downcase %}
+{% assign sd = site.data[scope_key] %}
+{% assign scope_up = page.scope | default: site.scope | upcase %}
+{% assign back_label = page.back_label | default: sd.back_label | default: scope_up %}
+{% assign back_href = page.back_href | default: sd.back_href %}
+{% assign badge_label = page.badge | default: sd.badge_label | default: scope_up %}
+{% assign accent = page.accent | default: sd.accent | default: site.accent %}
+{% assign accent_rgb = page.accent_rgb | default: sd.accent_rgb | default: site.accent_rgb %}
+{% assign fleet = site.data.fleet %}
+{% assign deps = site.data.deps %}
+<!DOCTYPE html>
+<html lang="en" data-scope="{{ page.scope | default: site.scope | downcase }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
+  <title>{{ page.title | default: sd.name | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/DESIGN.css' | relative_url }}">
+  <style>:root{--accent:{{ accent }};--accent-rgb:{{ accent_rgb }};}</style>
+  <!-- KaTeX (papers always have math) — governed by DEPS.md -->
+  <link rel="stylesheet" href="{{ deps.katex.css }}" integrity="{{ deps.katex.css_integrity }}" crossorigin="anonymous">
+  <script defer src="{{ deps.katex.js }}" integrity="{{ deps.katex.js_integrity }}" crossorigin="anonymous"></script>
+  <script defer src="{{ deps.katex.auto_render }}" integrity="{{ deps.katex.auto_render_integrity }}" crossorigin="anonymous"
+    onload="renderMathInElement(document.body, {
+      delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$', right: '$', display: false},
+        {left: '\\[', right: '\\]', display: true},
+        {left: '\\(', right: '\\)', display: false}
+      ],
+      throwOnError: false
+    });"></script>
+</head>
+<body class="post-page paper-page">
+
+  <!-- NAV (inlined, post mode) -->
+  <header class="nav" id="nav" role="navigation">
+    <div class="nav-left">
+      <a class="nav-brand" href="{{ fleet.brand.url | default: '/' | relative_url }}" aria-label="Home">
+        <span class="nav-mark">{{ fleet.brand.mark | default: "\u2229" }}</span>
+        <span class="nav-fleet">{{ fleet.brand.label | default: "CANONIC" }}</span>
+      </a>
+    </div>
+    <div class="nav-center">
+      {% if back_href %}<a href="{{ back_href | relative_url }}" class="nav-back">&larr; {{ back_label | default: "Back" }}</a>{% endif %}
+    </div>
+    <div class="nav-right">
+      <button class="nav-talk" type="button" onclick="TALK.open()" aria-label="Open TALK">
+        <span class="nav-dot"></span>
+        <span class="nav-talk-label">TALK</span>
+      </button>
+      {% if page.pdf %}
+      <a href="{{ page.pdf | relative_url }}" class="nav-ctrl{% if page.gate == 'contribute' %} gated-ctrl{% endif %}" download title="Download PDF">&#8615; PDF</a>
+      {% endif %}
+      {% if page.views %}
+      <button class="nav-ctrl nav-view{% if page.gate == 'contribute' %} gated-ctrl{% endif %}" type="button"
+        data-views='{{ page.views | jsonify }}' data-current="{{ page.view | default: 'gov' }}"
+        onclick="(function(b){var vs=JSON.parse(b.dataset.views),c=b.dataset.current,i=(vs.indexOf(c)+1)%vs.length;b.dataset.current=vs[i];b.textContent=vs[i].toUpperCase();CONTROLS.viewTo(vs[i]);})(this)"
+        title="Toggle view">
+        {{ page.view | default: "gov" | upcase }}
+      </button>
+      {% endif %}
+      {% if page.gate == "contribute" %}
+      <a href="#Contribute" class="nav-ctrl gated-ctrl" data-view-only="web" title="Contribute" onclick="event.preventDefault();var s=document.getElementById('Contribute');if(s){s.scrollIntoView({behavior:'smooth'});}">CONTRIBUTE</a>
+      {% endif %}
+      <button class="nav-theme" type="button" onclick="toggleTheme()" id="theme-btn" title="Toggle light/dark">&#9790;</button>
+    </div>
+  </header>
+
+  {% if page.gate == "contribute" %}
+  <!-- ═══ CONTRIBUTE GATE: identity required before content ═══ -->
+  <div class="gate-contribute" id="gate">
+    <div class="gate-inner">
+      <p class="gate-text">Tell us who you are to read, explore, and contribute. Your identity is logged with provenance. Open access. Governed record.</p>
+      <form class="gate-form" id="gateForm">
+        <input type="text" id="g-name" placeholder="Full Name" required>
+        <input type="email" id="g-email" placeholder="Email" required>
+        <input type="text" id="g-affiliation" placeholder="Affiliation" required>
+        <button type="submit" class="btn">ENTER</button>
+      </form>
+    </div>
+  </div>
+  <div class="gated-content" id="gatedContent">
+  {% endif %}
+
+  {% if page.pdf %}
+  <!-- ═══ TEX VIEW: PDF.js full viewer (iframe) — governed by DEPS.md ═══ -->
+  <div class="pdf-viewer-mode" id="pdfViewer"{% if page.gate == "contribute" %} style="display:none"{% elsif page.view != "tex" %} style="display:none"{% endif %}>
+    <iframe id="pdfFrame" src="{{ '/assets/pdfjs/viewer.html' | relative_url }}?file={{ page.pdf | relative_url }}" class="pdf-iframe" title="PDF Viewer" allowfullscreen></iframe>
+  </div>
+  <style>.pdf-iframe{width:100%;height:calc(100vh - 56px);border:none;display:block;}</style>
+  {% endif %}
+
+  <!-- ═══ GOV + WEB VIEW: contract prose (article serves both — GOV is fixed contract, WEB is same content with TALK) ═══ -->
+  <article class="post paper container view-gov view-web"{% if page.pdf and page.gate != "contribute" and page.view == "tex" %} style="display:none"{% endif %}>
+    <!-- Academic title block -->
+    <header class="paper-title-block">
+      <div class="paper-foundation">CANONIC Foundation</div>
+      <h1 class="paper-title">{{ page.title }}</h1>
+      {% if page.date %}<time class="paper-date">{{ page.date | date: "%B %d, %Y" }}</time>{% endif %}
+    </header>
+
+    <!-- Figure (inlined — all 17 types) -->
+    {% if page.figure %}
+    <figure class="post-figure">
+      {% assign fig = page.figure %}
+
+      {% if fig.type == "score-meter" %}
+      {% assign score = fig.score | default: 255 %}
+      {% assign pct = score | times: 100 | divided_by: 255 %}
+      <div class="score-meter">
+        <svg viewBox="0 0 420 240" xmlns="http://www.w3.org/2000/svg" class="figure-svg">
+          <path d="M 60 200 A 150 150 0 0 1 360 200" fill="none" stroke="var(--glass-strong)" stroke-width="16" stroke-linecap="round"/>
+          <path d="M 60 200 A 150 150 0 0 1 360 200" fill="none" stroke="var(--accent)" stroke-width="16" stroke-linecap="round"
+                stroke-dasharray="{{ pct | times: 4.71 }} 471" opacity="0.9"/>
+          <text x="210" y="170" text-anchor="middle" fill="var(--fg)" font-size="72" font-weight="800" font-family="var(--font)">{{ score }}</text>
+          <text x="210" y="205" text-anchor="middle" fill="var(--accent)" font-size="16" font-weight="700" letter-spacing="0.2em" font-family="var(--mono)">{{ fig.label }}</text>
+        </svg>
+      </div>
+
+      {% elsif fig.type == "pipeline" %}
+      <div class="figure-pipeline" data-figure="pipeline" data-steps='{{ fig.steps | jsonify }}'>
+        <noscript>{% for step in fig.steps %}{{ step }}{% unless forloop.last %} &rarr; {% endunless %}{% endfor %}</noscript>
+      </div>
+
+      {% elsif fig.type == "audit-trail" %}
+      <div class="figure-audit" data-figure="audit-trail" data-items='{{ fig.items | jsonify }}'>
+        <noscript>{% for item in fig.items %}<div>{{ item }}</div>{% endfor %}</noscript>
+      </div>
+
+      {% elsif fig.type == "flow-chain" %}
+      <div class="figure-flow" data-figure="flow-chain" data-nodes='{{ fig.nodes | jsonify }}'>
+        <noscript>{% for node in fig.nodes %}{{ node }}{% unless forloop.last %} &rarr; {% endunless %}{% endfor %}</noscript>
+      </div>
+
+      {% elsif fig.type == "balance" %}
+      <div class="figure-balance" data-figure="balance" data-left="{{ fig.left }}" data-right="{{ fig.right }}" data-tilt="{{ fig.tilt | default: -8 }}">
+        <noscript>{{ fig.left }} vs {{ fig.right }}</noscript>
+      </div>
+
+      {% elsif fig.type == "gauge" %}
+      <div class="figure-gauge" data-figure="gauge" data-value="{{ fig.value }}" data-max="{{ fig.max | default: 100 }}" data-label="{{ fig.label }}" data-unit="{{ fig.unit }}">
+        <noscript>{{ fig.label }}: {{ fig.value }}{{ fig.unit }}</noscript>
+      </div>
+
+      {% elsif fig.type == "donut" %}
+      <div class="figure-donut" data-figure="donut" data-segments='{{ fig.segments | jsonify }}' data-total="{{ fig.total }}" data-label="{{ fig.label }}">
+        <noscript>{{ fig.label }}</noscript>
+      </div>
+
+      {% elsif fig.type == "bar-chart" %}
+      {% assign bar_count = fig.bars | size %}
+      {% assign svg_h = bar_count | times: 40 | plus: 20 %}
+      {% assign max_val = 0 %}
+      {% for bar in fig.bars %}
+        {% assign test_num = bar.value | plus: 0 %}
+        {% if test_num > max_val %}{% assign max_val = test_num %}{% endif %}
+      {% endfor %}
+      <svg viewBox="0 0 420 {{ svg_h }}" xmlns="http://www.w3.org/2000/svg" class="figure-svg">
+        {% for bar in fig.bars %}
+        {% assign y = forloop.index0 | times: 40 | plus: 10 %}
+        {% assign bar_num = bar.value | plus: 0 %}
+        {% if max_val > 0 %}{% assign width = bar_num | times: 280 | divided_by: max_val %}{% else %}{% assign width = 180 %}{% endif %}
+        <text x="0" y="{{ y | plus: 14 }}" fill="var(--fg-secondary)" font-size="12" font-family="var(--mono)">{{ bar.label }}</text>
+        <rect x="120" y="{{ y }}" width="{{ width }}" height="24" rx="4" fill="rgba(var(--accent-rgb),0.35)"/>
+        <text x="{{ width | plus: 128 }}" y="{{ y | plus: 16 }}" fill="var(--accent)" font-size="12" font-weight="700" font-family="var(--mono)">{{ bar.value }}</text>
+        {% endfor %}
+      </svg>
+
+      {% elsif fig.type == "architecture" %}
+      <div class="moat">
+        {% if fig.label %}<div class="moat-label">{{ fig.label }}</div>{% endif %}
+        <div class="arch">
+          {% for layer in fig.layers %}
+          {% if layer.type == "frontend" or layer.type == "backend" %}
+          <div class="arch-layer arch-{{ layer.type }}">
+            <div class="arch-id">{{ layer.id }}</div>
+            <div class="arch-title">{{ layer.title }}</div>
+            <div class="arch-desc">{{ layer.desc }}</div>
+          </div>
+          {% if forloop.last == false %}<div class="arch-connector"><div class="arch-arrow"></div></div>{% endif %}
+          {% elsif layer.type == "stdlib" %}
+          <div class="arch-lib">
+            <div class="arch-id">{{ layer.id }}</div>
+            <div class="arch-lib-name">{{ layer.title }}</div>
+            <div class="arch-lib-type">{{ layer.desc }}</div>
+          </div>
+          {% else %}
+          <div class="arch-layer">
+            <div class="arch-title">{{ layer }}</div>
+          </div>
+          {% if forloop.last == false %}<div class="arch-connector"><div class="arch-arrow"></div></div>{% endif %}
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
+      {% elsif fig.type == "funnel" %}
+      {% if fig.stages %}
+      <div class="figure-pipeline" data-figure="pipeline" data-steps='{{ fig.stages | jsonify }}'>
+        <noscript>{% for s in fig.stages %}{{ s }}{% unless forloop.last %} &rarr; {% endunless %}{% endfor %}</noscript>
+      </div>
+      {% if fig.label %}<div style="text-align:center;margin-top:var(--space-sm);font-family:var(--mono);font-size:var(--font-xs);color:var(--accent);letter-spacing:0.1em;">{{ fig.label }}</div>{% endif %}
+      {% endif %}
+
+      {% endif %}
+    </figure>
+    {% endif %}
+
+    {% if page.abstract %}
+    <div class="paper-abstract">
+      <strong>Abstract.</strong> {{ page.abstract }}
+    </div>
+    {% endif %}
+
+    <div class="paper-body prose">
+      {{ content }}
+    </div>
+
+    <div class="paper-colophon">CANONIC &cap; FOUNDATION</div>
+  </article>
+
+  {% if page.gate == "contribute" %}
+  </div><!-- /gatedContent -->
+  {% endif %}
+
+  <!-- FOOTER (inlined) -->
+  <footer id="footer">
+    {% if fleet.sites %}
+    {% for s in fleet.sites %}{% unless forloop.first %} &middot; {% endunless %}<a href="{{ s.url }}">{{ s.label }}</a>{% endfor %}
+     &middot; <a href="#" onclick="TALK.open();return false">TALK</a>
+    <br><br>{{ page.footerTagline | default: site.tagline | default: "CANONIC" }}
+    {% endif %}
+  </footer>
+
+  <!-- SCRIPTS (inlined) -->
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/figures.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/controls.js' | relative_url }}"></script>
+  <!-- Reactive controls: disable nav buttons that don't apply to the current view -->
+  <script>
+  (function(){
+    var origViewTo=CONTROLS.viewTo;
+    CONTROLS.viewTo=function(target){
+      origViewTo(target);
+      document.querySelectorAll('[data-view-only]').forEach(function(el){
+        var allowed=el.getAttribute('data-view-only').split(',');
+        if(allowed.indexOf(target)===-1){el.classList.add('ctrl-disabled');}
+        else{el.classList.remove('ctrl-disabled');}
+      });
+    };
+  })();
+  </script>
+  <style>.ctrl-disabled{opacity:0.35;pointer-events:none;cursor:default;}</style>
+  {% if page.talk %}
+  <!-- TALK (inlined) -->
+  <div class="talk-overlay" id="talkOverlay" data-position="{{ page.talk | default: 'side' }}">
+    <div class="talk-overlay-header">
+      <div class="talk-dot"></div>
+      <span class="talk-scope">{{ site.talk_label | default: "TALK" }}</span>
+      <select id="talkProviderSelect" onchange="TALK.switchProvider(this.value)" class="talk-provider-select">
+        <option value="auto">AUTO</option>
+        <option value="anthropic">ANTHROPIC</option>
+        <option value="runpod">RUNPOD</option>
+        <option value="vastai">VAST.AI</option>
+        <option value="deepseek">DEEPSEEK</option>
+      </select>
+      <span id="talkProviderLabel" class="talk-provider-label">AUTO</span>
+      <button type="button" class="talk-overlay-close" onclick="TALK.close()">ESC</button>
+    </div>
+    <div class="talk-messages" id="talkMessages"></div>
+    <div class="talk-input-row">
+      <input type="text" id="talkChatInput" placeholder="{{ page.talk_placeholder | default: 'Ask anything...' }}" autocomplete="off">
+      <button type="button" id="talkSend" onclick="TALK.send()">SEND</button>
+    </div>
+  </div>
+  <script src="{{ '/assets/js/talk.js' | relative_url }}"></script>
+  <script>TALK.init();</script>
+  {% endif %}
+
+  <!-- Mermaid (papers may have diagrams) — theme-reactive — governed by DEPS.md -->
+  <script type="module">
+    import mermaid from '{{ deps.mermaid.esm }}';
+    const sources=new Map();
+    document.querySelectorAll('code.language-mermaid').forEach(c=>{
+      const d=document.createElement('div');
+      d.classList.add('mermaid');
+      d.textContent=c.textContent;
+      sources.set(d,c.textContent);
+      c.parentElement.replaceWith(d);
+    });
+    function getTheme(){return document.documentElement.getAttribute('data-theme')==='light'?'default':'dark';}
+    mermaid.initialize({startOnLoad:true,theme:getTheme()});
+    new MutationObserver(function(){
+      mermaid.initialize({startOnLoad:false,theme:getTheme()});
+      document.querySelectorAll('.mermaid').forEach(function(el){
+        const src=sources.get(el)||el.getAttribute('data-mermaid-source')||el.textContent;
+        if(!src)return;
+        el.removeAttribute('data-processed');
+        el.innerHTML=src;
+        sources.set(el,src);
+      });
+      mermaid.run({nodes:document.querySelectorAll('.mermaid')});
+    }).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+  </script>
+
+  {% if page.gate == "contribute" %}
+  <!-- Contribute gate script — governs unlock flow -->
+  <script>
+  (function(){
+    var KEY='canonic-gate-'+{{ page.scope | jsonify }};
+    var stored=localStorage.getItem(KEY);
+    function unlock(){
+      var gate=document.getElementById('gate');
+      var content=document.getElementById('gatedContent');
+      if(gate)gate.classList.add('hidden');
+      if(content)content.classList.add('unlocked');
+      document.querySelectorAll('.gated-ctrl').forEach(function(el){el.style.display='';});
+      // Auto-select WEB: GOV and TEX are fixed formats — WEB is the interactive surface
+      if(typeof CONTROLS!=='undefined'&&CONTROLS.viewTo)CONTROLS.viewTo('web');
+    }
+    document.querySelectorAll('.gated-ctrl').forEach(function(el){el.style.display='none';});
+    if(stored){try{var d=JSON.parse(stored);if(d&&d.name){unlock();}}catch(e){}}
+    document.getElementById('gateForm').addEventListener('submit',function(e){
+      e.preventDefault();
+      var entry={name:document.getElementById('g-name').value.trim(),email:document.getElementById('g-email').value.trim(),affiliation:document.getElementById('g-affiliation').value.trim(),timestamp:new Date().toISOString(),scope:{{ page.scope | jsonify }}};
+      localStorage.setItem(KEY,JSON.stringify(entry));
+      unlock();
+    });
+  })();
+  </script>
+  {% endif %}
+
+  <!-- PDF.js now runs inside /assets/pdfjs/viewer.html iframe — no parent-page scripts needed -->
+
+</body>
+</html>

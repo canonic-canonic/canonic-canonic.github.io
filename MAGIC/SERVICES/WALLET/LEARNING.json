@@ -1,0 +1,44 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/SERVICES/WALLET/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-19",
+      "signal": "One WALLET per USER",
+      "text": "WALLET is per-USER economic identity — discovered from {USER}/{USER}.md, never duplicated",
+      "source": "SERVICES/WALLET/CANON.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "Balance is derived, never stored",
+      "text": "Balance = sum of all TIMELINE events; WALLET.json compiled from TIMELINE, never hand-edited",
+      "source": "SERVICES/WALLET/CANON.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "_generated marker in compiled JSON",
+      "text": "All WALLET.json outputs carry _generated flag — hand-editing blocked; fix compiler, not output",
+      "source": "Phase 7 _generated pattern"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "No negative balance",
+      "text": "SPEND fails on insufficient COIN — strict non-negative constraint",
+      "source": "SERVICES/WALLET/CANON.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "COIN cannot exist outside a WALLET",
+      "text": "No orphan value — every COIN lives in exactly one WALLET at all times",
+      "source": "SERVICES/WALLET/CANON.md"
+    }
+  ],
+  "stats": {
+    "total": 5,
+    "community_questions": 0,
+    "domain_patterns": 5
+  }
+}

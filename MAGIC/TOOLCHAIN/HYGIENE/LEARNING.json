@@ -1,0 +1,26 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/TOOLCHAIN/HYGIENE/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-28",
+      "signal": "GATE_HARDENED",
+      "text": "HYGIENE gate promoted from SOFT (warn) to HARD (fail CI) — non-schema files in governed scopes block build",
+      "source": "magic-validate.yml"
+    },
+    {
+      "date": "2026-02-28",
+      "signal": "SCHEMA_ENFORCED",
+      "text": "CI validates every .md file in governed scopes against HYGIENE/CANON.md schema + {SCOPE}.md naming convention + 2 exceptions (COMPOSITION.md, MATRIX.md)",
+      "source": "magic-validate.yml"
+    }
+  ],
+  "stats": {
+    "total": 2,
+    "community_questions": 0,
+    "domain_patterns": 2
+  }
+}

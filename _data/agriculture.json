@@ -1,0 +1,623 @@
+{
+  "hero": {
+    "badge": "AGRICULTURE",
+    "title": "AGRICULTURE",
+    "description": "Example",
+    "cta": [
+      {
+        "label": "Open AGRICULTURE",
+        "href": "/industries/verticals/agriculture/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "canon-specification",
+      "eyebrow": "SPECIFICATION",
+      "title": "Specification",
+      "description": "``\nAGRICULTURE = AGRICULTURAL_STANDARD × CANONIC\n            = Structure(agriculture) × (C1, C2, Temporal, Relational, C5, C6)\n``\n\nLattice: 6 governance checks = ENTERPRISE (#63)"
+    },
+    {
+      "id": "canon-dimensional-mapping",
+      "eyebrow": "DIMENSIONAL MAPPING",
+      "title": "Dimensional Mapping",
+      "table": {
+        "headers": [
+          "Dimension",
+          "Bit",
+          "Agricultural Governance"
+        ],
+        "rows": [
+          [
+            "C1",
+            "private",
+            "Crop governance declarations — no application without verified prescription"
+          ],
+          [
+            "C2",
+            "private",
+            "Field evidence chain — sensor data, yield maps, soil tests as immutable proof"
+          ],
+          [
+            "T (Temporal)",
+            "4",
+            "Growing season timing — planting windows, spray intervals, harvest deadlines, REI"
+          ],
+          [
+            "R (Relational)",
+            "8",
+            "Field boundaries — geofenced zones, buffer strips, organic/conventional separation"
+          ],
+          [
+            "C5",
+            "private",
+            "Farm operations — governed equipment actuation, application rate enforcement"
+          ],
+          [
+            "C6",
+            "private",
+            "Agricultural structure — USDA/ISO/EPA standards conformance, certification hierarchy"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-sil-to-magic-tier-mapping",
+      "eyebrow": "SIL-TO-MAGIC TIER MAPPING",
+      "title": "SIL-to-MAGIC Tier Mapping",
+      "table": {
+        "headers": [
+          "SIL",
+          "Risk",
+          "MAGIC Tier",
+          "Bits",
+          "Governance"
+        ],
+        "rows": [
+          [
+            "SIL 1",
+            "Negligible",
+            "COMMUNITY",
+            "#35",
+            "Basic field monitoring, yield data collection"
+          ],
+          [
+            "SIL 2",
+            "Marginal",
+            "BUSINESS",
+            "#43",
+            "Precision application, equipment safety"
+          ],
+          [
+            "SIL 3",
+            "Critical",
+            "ENTERPRISE",
+            "#63",
+            "Autonomous operations, food safety compliance"
+          ],
+          [
+            "SIL 4",
+            "Catastrophic",
+            "AGENT",
+            "#127",
+            "Autonomous fleet supervision, critical pesticide governance"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-subdomains",
+      "eyebrow": "SUBDOMAINS",
+      "title": "Subdomains",
+      "description": "### Row Crops\n\n``\nStandard:    USDA GAP, FSMA Produce Safety Rule, NRCS conservation practices\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Corn, soybeans, wheat, cotton, rice — large-scale mechanized production\nKey Systems: ISOBUS-equipped planters/sprayers/combines, VRA, yield monitoring\nInnovation:  MAGIC checkset governs variable-rate prescriptions, section control, harvest logistics\n`\n\n### Specialty Crops\n\n`\nStandard:    USDA GAP, GlobalG.A.P. IFA, California LGMA, FSMA PSR\nSIL Range:   SIL 2-3\nGovernance:  ENTERPRISE (#63) for food safety compliance\nApplication: Fruits, vegetables, nuts, nursery — high-value, labor-intensive\nKey Systems: Drip irrigation, IPM scouting, cold chain, traceability\nInnovation:  MAGIC checkset governs harvest-to-cooler timing, food safety evidence chain\n`\n\n### Livestock\n\n`\nStandard:    USDA APHIS (Animal Health), BQA (Beef Quality Assurance), NAIS/ADT\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Cattle, swine, poultry — animal health, welfare, identification\nKey Systems: RFID ear tags (ISO 11784/11785), feed management, health records\nInnovation:  MAGIC checkset governs animal identification, movement tracking, treatment records\n`\n\n### Dairy\n\n`\nStandard:    PMO (Grade \"A\" Pasteurized Milk Ordinance), USDA AMS, ISO 22000\nSIL Range:   SIL 2-3\nGovernance:  ENTERPRISE (#63) for food safety\nApplication: Milking operations, herd health, milk quality, dairy processing\nKey Systems: Automated milking systems (AMS/VMS), bulk tank monitoring, SCC testing\nInnovation:  MAGIC checkset governs milking equipment CIP (clean-in-place), quality evidence chain\n`\n\n### Aquaculture\n\n`\nStandard:    FDA 21 CFR 123 (Seafood HACCP), BAP (Best Aquaculture Practices), ASC\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Finfish, shellfish, shrimp farming — water quality, feed management\nKey Systems: Water quality sensors (DO, pH, temperature), automated feeders, biosecurity\nInnovation:  MAGIC checkset governs water quality thresholds, feed rate governance, harvest decisions\n`\n\n### Forestry\n\n`\nStandard:    FSC (Forest Stewardship Council), SFI (Sustainable Forestry Initiative), PEFC\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Timber harvest, reforestation, wildfire management, carbon sequestration\nKey Systems: LiDAR inventory, GIS mapping, harvester telemetry, chain-of-custody\nInnovation:  MAGIC checkset governs harvest boundaries, replanting compliance, carbon credit evidence\n``"
+    },
+    {
+      "id": "canon-regulatory-landscape",
+      "eyebrow": "REGULATORY LANDSCAPE",
+      "title": "Regulatory Landscape",
+      "table": {
+        "headers": [
+          "Standard",
+          "Scope",
+          "Governance"
+        ],
+        "rows": [
+          [
+            "USDA GAP",
+            "Good agricultural practices audit",
+            "BUSINESS (#43)"
+          ],
+          [
+            "GlobalG.A.P. IFA v6",
+            "International farm assurance (218 control points)",
+            "ENTERPRISE (#63)"
+          ],
+          [
+            "NOP (7 CFR 205)",
+            "USDA organic certification",
+            "ENTERPRISE (#63)"
+          ],
+          [
+            "ISO 18497",
+            "Autonomous agricultural machinery safety",
+            "ENTERPRISE (#63)"
+          ],
+          [
+            "ISO 25119",
+            "Agricultural control system safety",
+            "BUSINESS (#43)"
+          ],
+          [
+            "ISO 11783 (ISOBUS)",
+            "Agricultural data network",
+            "BUSINESS (#43)"
+          ],
+          [
+            "FSMA Produce Safety Rule",
+            "FDA produce growing/harvesting standards",
+            "ENTERPRISE (#63)"
+          ],
+          [
+            "ISO 22000",
+            "Food safety management systems",
+            "ENTERPRISE (#63)"
+          ],
+          [
+            "FIFRA (7 USC 136)",
+            "EPA pesticide regulation",
+            "BUSINESS (#43)"
+          ],
+          [
+            "FSMA 204",
+            "Food traceability (KDE/CTE)",
+            "ENTERPRISE (#63)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-prior-art-landscape",
+      "eyebrow": "PRIOR ART LANDSCAPE",
+      "title": "Prior Art Landscape",
+      "description": "Gap: No existing system provides governance-gated agricultural operations with O(1) bitwise compliance checking across precision application, autonomous actuation, and food safety traceability.",
+      "table": {
+        "headers": [
+          "Competitor",
+          "Approach",
+          "MAGIC checkset Distinction"
+        ],
+        "rows": [
+          [
+            "John Deere",
+            "Autonomous tractors, See & Spray, Operations Center",
+            "Proprietary ecosystem, no open governance standard, no bitwise verification"
+          ],
+          [
+            "Trimble",
+            "Precision agriculture, guidance, VRA",
+            "Data management and guidance, no governance-gated actuation"
+          ],
+          [
+            "Blue River (now Deere)",
+            "Computer vision weed detection (See & Spray)",
+            "ML-based targeting, no formal governance framework or SIL mapping"
+          ],
+          [
+            "Climate Corp (now Bayer)",
+            "Data-driven agronomic insights",
+            "Advisory analytics, no governance language, no compliance verification"
+          ],
+          [
+            "AGCO/Fendt",
+            "Xaver swarm robotics concept",
+            "Prototype swarm, no governance-gated fleet supervision framework"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-patent-mapping",
+      "eyebrow": "PATENT MAPPING",
+      "title": "Patent Mapping",
+      "table": {
+        "headers": [
+          "PROV",
+          "Relevance",
+          "Claims"
+        ],
+        "rows": [
+          [
+            "PROV-006",
+            "PRIMARY",
+            "Governance-gated autonomous equipment actuation, geofence enforcement"
+          ],
+          [
+            "PROV-003",
+            "Secondary",
+            "Federated crop models across cooperative farms, multi-field optimization"
+          ],
+          [
+            "PROV-004",
+            "Supporting",
+            "Transcompilation of USDA/ISO/EPA standards to governed executables"
+          ],
+          [
+            "PROV-001",
+            "Foundational",
+            "MAGIC private-check encoding for agricultural governance verification"
+          ],
+          [
+            "PROV-002",
+            "Supporting",
+            "COIN=WORK for harvest attestation, organic certification evidence"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-cross-domain-compositions",
+      "eyebrow": "CROSS-DOMAIN COMPOSITIONS",
+      "title": "Cross-Domain Compositions",
+      "description": "``\nAGRICULTURE × ROBOTICS       = Autonomous tractors, harvest robots (ISO 18497 + ISO 10218)\nAGRICULTURE × LOGISTICS      = Farm-to-fork traceability, cold chain (FSMA 204 + GS1)\nAGRICULTURE × ENERGY         = Rural energy, biogas, solar farming (IEEE 1547 + USDA)\nAGRICULTURE × QUALITY        = Certification audits, quality management (GlobalG.A.P. + ISO 9001)\nAGRICULTURE × GENOMICS       = Crop genomics, GMO governance, breeding programs (NOP + sequencing)\nAGRICULTURE × MEDICINE       = Nutraceuticals, medicinal plants (FSMA + FDA 21 CFR)\nAGRICULTURE × DEFENSE        = Agricultural security, food supply resilience (USDA + DoD)\nAGRICULTURE × FINANCE        = Crop insurance, commodity trading (USDA RMA + CFTC)\nAGRICULTURE × SAFETY         = Worker protection, equipment safety (OSHA + ISO 18497)\nAGRICULTURE × SECURITY       = Biosecurity, agro-terrorism prevention (USDA APHIS + HSPD-9)\n``\n\n10 cross-domain compositions. Each strengthens PROV-006 and PROV-003 patent claims."
+    },
+    {
+      "id": "canon-axioms",
+      "eyebrow": "AXIOMS",
+      "title": "Axioms",
+      "description": "### 1. Soil Stewardship\n\nAgricultural operations MUST maintain or improve soil health. Practices MUST comply with conservation requirements.\n\nExample: A corn-soybean rotation on highly erodible land MUST follow an NRCS conservation plan. Cover crops, no-till, and waterway maintenance are not optional — they are conditions of USDA program eligibility. Soil health metrics (organic matter, aggregate stability) MUST be documented.\n\n### 2. Food Safety Chain\n\nEvery food product MUST be traceable from field to consumer. Key Data Elements MUST be recorded at each Critical Tracking Event.\n\nExample: FSMA Rule 204 requires that a head of romaine lettuce carries: grower, field, harvest date, cooler, shipper, receiver, and lot code at every handoff. A foodborne illness outbreak MUST be traceable to the specific field and harvest day within 24 hours.\n\n### 3. Precision Application\n\nInputs (seed, fertilizer, pesticide) MUST be applied per verified prescription at the right rate, right place, right time. No blanket application.\n\nExample: A variable-rate nitrogen prescription maps 180 lb/acre on productive zones and 120 lb/acre on low-yield zones. The ISOBUS controller MUST execute the prescription within ±5% of target rate. Section control MUST prevent double application on overlaps. The as-applied map MUST reconcile to the prescription.\n\n### 4. Worker Protection\n\nAgricultural workers MUST be protected from chemical exposure, equipment hazards, and heat stress per applicable regulations.\n\nExample: EPA Worker Protection Standard (40 CFR 170) requires: 36-hour Restricted Entry Interval after organophosphate application, posted notification signs, decontamination sites within ¼ mile, and annual safety training. No worker enters the treated field until REI expires.\n\n### 5. Environmental Compliance\n\nAgricultural operations MUST comply with environmental regulations governing water, air, and chemical use.\n\nExample: A CAFO (Concentrated Animal Feeding Operation) with 1,000+ cattle requires a NPDES permit under the Clean Water Act. Nutrient management plan MUST demonstrate: nitrogen and phosphorus application ≤ agronomic rates, setbacks from waterways, and manure storage integrity. Annual reporting to EPA."
+    },
+    {
+      "id": "canon-examples",
+      "eyebrow": "EXAMPLES",
+      "title": "Examples",
+      "description": "``\nDECLARE(OrganicCertification) = NOP × CANONIC\n\nWhere:\n  NOP (National Organic Program, 7 CFR 205) provides Structure:\n    - Organic system plan\n    - Prohibited substances list (National List)\n    - Buffer zones and contamination prevention\n    - Record-keeping requirements\n    - Annual inspection requirements\n\n  CANONIC provides Governance:\n    - C1: Organic practice claims\n    - C2: Input records, soil test evidence, field maps\n    - Temporal: 3-year transition period, annual inspection cycle\n    - Relational: Field boundaries, buffer zones, certifier jurisdiction\n    - C5: Farm operations (planting, pest management, harvest)\n    - C6: NOP/USDA standards conformance\n\nResult:\n  OrganicCertification = ENTERPRISE (#63)\n\n  Certification Lifecycle:\n    Transition     — 3-year no-prohibited-substances period\n    Plan           — Organic system plan submitted\n    Inspect        — Annual inspection passed\n    Certify        — Certifier issues certificate\n    Maintain       — Annual renewal, continuous compliance\n`\n\n`\nDECLARE(PrecisionApplication) = ISOBUS × CANONIC\n\nWhere:\n  ISOBUS (ISO 11783) provides Structure:\n    - Task Controller (TC) specification\n    - Process Data Dictionary (PDD)\n    - Device Description (XML/DDI)\n    - Section Control\n    - Variable Rate Application\n\n  CANONIC provides Governance:\n    - C1: Application rate claims per prescription\n    - C2: As-applied map evidence vs. prescription\n    - Temporal: Application windows, REI, growth stage\n    - Relational: Field boundaries, buffer zones, equipment calibration\n    - C5: Application operations (calibrate, apply, verify)\n    - C6: ISOBUS/EPA conformance\n\nResult:\n  PrecisionApplication = BUSINESS (#43) to ENTERPRISE (#63)\n\n  Application Lifecycle:\n    Prescribe      — VRA prescription created\n    Calibrate      — Equipment calibrated to product\n    Apply          — Application executed per prescription\n    Verify         — As-applied vs. prescribed reconciled\n    Report         — Regulatory reporting complete\n``"
+    },
+    {
+      "id": "canon-validators",
+      "eyebrow": "VALIDATORS",
+      "title": "Validators",
+      "table": {
+        "headers": [
+          "Validator",
+          "Checks",
+          "Example Failure"
+        ],
+        "rows": [
+          [
+            "C1",
+            "Crop governance and application claims declared",
+            "Application without prescription"
+          ],
+          [
+            "C2",
+            "Field evidence (as-applied maps, soil tests, yield data) complete",
+            "Harvest without traceability lot"
+          ],
+          [
+            "Temporal",
+            "Planting windows, REI, harvest deadlines",
+            "Worker entry before REI expiry"
+          ],
+          [
+            "Relational",
+            "Field boundaries, buffer zones, organic/conventional separation",
+            "Drift contamination of organic field"
+          ],
+          [
+            "C5",
+            "Farm operations executed per SOP (calibration, application)",
+            "Sprayer not calibrated before application"
+          ],
+          [
+            "C6",
+            "USDA/EPA/ISOBUS standards conformance",
+            "Non-compliant pesticide record"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-application",
+      "eyebrow": "APPLICATION",
+      "title": "Application",
+      "description": "To create a CANONIC agriculture vertical:\n\nIdentify agricultural domain (row crops, specialty, livestock, dairy, aquaculture, forestry)\nDetermine risk level and map to MAGIC tier\nCreate scope with CANON.md inheriting /AGRICULTURE/\nDefine crop/livestock governance claims per applicable standards\nMap to regulatory framework (USDA GAP, NOP, FSMA, EPA WPS)\nImplement validators for traceability, application accuracy, safety compliance\nDocument coverage with field evidence\n\nResult: Owned agriculture vertical with food-safety-governed, precision-managed operations.\n\n*AGRICULTURE | SPECIFICATION | VERTICALS | INDUSTRIES*"
+    }
+  ],
+  "_generated": {
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/INDUSTRIES/VERTICALS/AGRICULTURE/AGRICULTURE.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "AGRICULTURE | CANONIC",
+  "canon": {
+    "axiom": "Example",
+    "constraints": "MUST:     Cite ISO 18497, USDA standard, or domain-specific regulation for agricultural claims\nMUST:     Distinguish between precision farming (data-driven optimization) and autonomous farming (governance-gated actuation)\nMUST NOT: Present yield data collection as equivalent to governed crop management decisions",
+    "inherits": "canonic-canonic/INDUSTRIES/VERTICALS",
+    "spec": [
+      {
+        "title": "Specification",
+        "body": "```\nAGRICULTURE = AGRICULTURAL_STANDARD × CANONIC\n            = Structure(agriculture) × (C1, C2, Temporal, Relational, C5, C6)\n```\n\n**Lattice**: 6 governance checks = ENTERPRISE (#63)\n\n---"
+      },
+      {
+        "title": "Dimensional Mapping",
+        "body": "| Dimension | Bit | Agricultural Governance |\n|-----------|-----|------------------------|\n| C1 | private | Crop governance declarations — no application without verified prescription |\n| C2 | private | Field evidence chain — sensor data, yield maps, soil tests as immutable proof |\n| T (Temporal) | 4 | Growing season timing — planting windows, spray intervals, harvest deadlines, REI |\n| R (Relational) | 8 | Field boundaries — geofenced zones, buffer strips, organic/conventional separation |\n| C5 | private | Farm operations — governed equipment actuation, application rate enforcement |\n| C6 | private | Agricultural structure — USDA/ISO/EPA standards conformance, certification hierarchy |\n\n---"
+      },
+      {
+        "title": "SIL-to-MAGIC Tier Mapping",
+        "body": "| SIL | Risk | MAGIC Tier | Bits | Governance |\n|-----|------|-------------|------|------------|\n| SIL 1 | Negligible | COMMUNITY | #35 | Basic field monitoring, yield data collection |\n| SIL 2 | Marginal | BUSINESS | #43 | Precision application, equipment safety |\n| SIL 3 | Critical | ENTERPRISE | #63 | Autonomous operations, food safety compliance |\n| SIL 4 | Catastrophic | AGENT | #127 | Autonomous fleet supervision, critical pesticide governance |\n\n---"
+      },
+      {
+        "title": "Subdomains",
+        "body": "### Row Crops\n\n```\nStandard:    USDA GAP, FSMA Produce Safety Rule, NRCS conservation practices\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Corn, soybeans, wheat, cotton, rice — large-scale mechanized production\nKey Systems: ISOBUS-equipped planters/sprayers/combines, VRA, yield monitoring\nInnovation:  MAGIC checkset governs variable-rate prescriptions, section control, harvest logistics\n```\n\n### Specialty Crops\n\n```\nStandard:    USDA GAP, GlobalG.A.P. IFA, California LGMA, FSMA PSR\nSIL Range:   SIL 2-3\nGovernance:  ENTERPRISE (#63) for food safety compliance\nApplication: Fruits, vegetables, nuts, nursery — high-value, labor-intensive\nKey Systems: Drip irrigation, IPM scouting, cold chain, traceability\nInnovation:  MAGIC checkset governs harvest-to-cooler timing, food safety evidence chain\n```\n\n### Livestock\n\n```\nStandard:    USDA APHIS (Animal Health), BQA (Beef Quality Assurance), NAIS/ADT\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Cattle, swine, poultry — animal health, welfare, identification\nKey Systems: RFID ear tags (ISO 11784/11785), feed management, health records\nInnovation:  MAGIC checkset governs animal identification, movement tracking, treatment records\n```\n\n### Dairy\n\n```\nStandard:    PMO (Grade \"A\" Pasteurized Milk Ordinance), USDA AMS, ISO 22000\nSIL Range:   SIL 2-3\nGovernance:  ENTERPRISE (#63) for food safety\nApplication: Milking operations, herd health, milk quality, dairy processing\nKey Systems: Automated milking systems (AMS/VMS), bulk tank monitoring, SCC testing\nInnovation:  MAGIC checkset governs milking equipment CIP (clean-in-place), quality evidence chain\n```\n\n### Aquaculture\n\n```\nStandard:    FDA 21 CFR 123 (Seafood HACCP), BAP (Best Aquaculture Practices), ASC\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Finfish, shellfish, shrimp farming — water quality, feed management\nKey Systems: Water quality sensors (DO, pH, temperature), automated feeders, biosecurity\nInnovation:  MAGIC checkset governs water quality thresholds, feed rate governance, harvest decisions\n```\n\n### Forestry\n\n```\nStandard:    FSC (Forest Stewardship Council), SFI (Sustainable Forestry Initiative), PEFC\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Timber harvest, reforestation, wildfire management, carbon sequestration\nKey Systems: LiDAR inventory, GIS mapping, harvester telemetry, chain-of-custody\nInnovation:  MAGIC checkset governs harvest boundaries, replanting compliance, carbon credit evidence\n```\n\n---"
+      },
+      {
+        "title": "Regulatory Landscape",
+        "body": "| Standard | Scope | Governance |\n|----------|-------|------------|\n| USDA GAP | Good agricultural practices audit | BUSINESS (#43) |\n| GlobalG.A.P. IFA v6 | International farm assurance (218 control points) | ENTERPRISE (#63) |\n| NOP (7 CFR 205) | USDA organic certification | ENTERPRISE (#63) |\n| ISO 18497 | Autonomous agricultural machinery safety | ENTERPRISE (#63) |\n| ISO 25119 | Agricultural control system safety | BUSINESS (#43) |\n| ISO 11783 (ISOBUS) | Agricultural data network | BUSINESS (#43) |\n| FSMA Produce Safety Rule | FDA produce growing/harvesting standards | ENTERPRISE (#63) |\n| ISO 22000 | Food safety management systems | ENTERPRISE (#63) |\n| FIFRA (7 USC 136) | EPA pesticide regulation | BUSINESS (#43) |\n| FSMA 204 | Food traceability (KDE/CTE) | ENTERPRISE (#63) |\n\n---"
+      },
+      {
+        "title": "Prior Art Landscape",
+        "body": "| Competitor | Approach | MAGIC checkset Distinction |\n|-----------|----------|-------------------|\n| John Deere | Autonomous tractors, See & Spray, Operations Center | Proprietary ecosystem, no open governance standard, no bitwise verification |\n| Trimble | Precision agriculture, guidance, VRA | Data management and guidance, no governance-gated actuation |\n| Blue River (now Deere) | Computer vision weed detection (See & Spray) | ML-based targeting, no formal governance framework or SIL mapping |\n| Climate Corp (now Bayer) | Data-driven agronomic insights | Advisory analytics, no governance language, no compliance verification |\n| AGCO/Fendt | Xaver swarm robotics concept | Prototype swarm, no governance-gated fleet supervision framework |\n\n**Gap**: No existing system provides governance-gated agricultural operations with O(1) bitwise compliance checking across precision application, autonomous actuation, and food safety traceability.\n\n---"
+      },
+      {
+        "title": "Patent Mapping",
+        "body": "| PROV | Relevance | Claims |\n|------|-----------|--------|\n| PROV-006 | PRIMARY | Governance-gated autonomous equipment actuation, geofence enforcement |\n| PROV-003 | Secondary | Federated crop models across cooperative farms, multi-field optimization |\n| PROV-004 | Supporting | Transcompilation of USDA/ISO/EPA standards to governed executables |\n| PROV-001 | Foundational | MAGIC private-check encoding for agricultural governance verification |\n| PROV-002 | Supporting | COIN=WORK for harvest attestation, organic certification evidence |\n\n---"
+      },
+      {
+        "title": "Cross-Domain Compositions",
+        "body": "```\nAGRICULTURE × ROBOTICS       = Autonomous tractors, harvest robots (ISO 18497 + ISO 10218)\nAGRICULTURE × LOGISTICS      = Farm-to-fork traceability, cold chain (FSMA 204 + GS1)\nAGRICULTURE × ENERGY         = Rural energy, biogas, solar farming (IEEE 1547 + USDA)\nAGRICULTURE × QUALITY        = Certification audits, quality management (GlobalG.A.P. + ISO 9001)\nAGRICULTURE × GENOMICS       = Crop genomics, GMO governance, breeding programs (NOP + sequencing)\nAGRICULTURE × MEDICINE       = Nutraceuticals, medicinal plants (FSMA + FDA 21 CFR)\nAGRICULTURE × DEFENSE        = Agricultural security, food supply resilience (USDA + DoD)\nAGRICULTURE × FINANCE        = Crop insurance, commodity trading (USDA RMA + CFTC)\nAGRICULTURE × SAFETY         = Worker protection, equipment safety (OSHA + ISO 18497)\nAGRICULTURE × SECURITY       = Biosecurity, agro-terrorism prevention (USDA APHIS + HSPD-9)\n```\n\n**10 cross-domain compositions. Each strengthens PROV-006 and PROV-003 patent claims.**\n\n\n---"
+      },
+      {
+        "title": "Axioms",
+        "body": "### 1. Soil Stewardship\n\nAgricultural operations MUST maintain or improve soil health. Practices MUST comply with conservation requirements.\n\n**Example**: A corn-soybean rotation on highly erodible land MUST follow an NRCS conservation plan. Cover crops, no-till, and waterway maintenance are not optional — they are conditions of USDA program eligibility. Soil health metrics (organic matter, aggregate stability) MUST be documented.\n\n---\n\n### 2. Food Safety Chain\n\nEvery food product MUST be traceable from field to consumer. Key Data Elements MUST be recorded at each Critical Tracking Event.\n\n**Example**: FSMA Rule 204 requires that a head of romaine lettuce carries: grower, field, harvest date, cooler, shipper, receiver, and lot code at every handoff. A foodborne illness outbreak MUST be traceable to the specific field and harvest day within 24 hours.\n\n---\n\n### 3. Precision Application\n\nInputs (seed, fertilizer, pesticide) MUST be applied per verified prescription at the right rate, right place, right time. No blanket application.\n\n**Example**: A variable-rate nitrogen prescription maps 180 lb/acre on productive zones and 120 lb/acre on low-yield zones. The ISOBUS controller MUST execute the prescription within ±5% of target rate. Section control MUST prevent double application on overlaps. The as-applied map MUST reconcile to the prescription.\n\n---\n\n### 4. Worker Protection\n\nAgricultural workers MUST be protected from chemical exposure, equipment hazards, and heat stress per applicable regulations.\n\n**Example**: EPA Worker Protection Standard (40 CFR 170) requires: 36-hour Restricted Entry Interval after organophosphate application, posted notification signs, decontamination sites within ¼ mile, and annual safety training. No worker enters the treated field until REI expires.\n\n---\n\n### 5. Environmental Compliance\n\nAgricultural operations MUST comply with environmental regulations governing water, air, and chemical use.\n\n**Example**: A CAFO (Concentrated Animal Feeding Operation) with 1,000+ cattle requires a NPDES permit under the Clean Water Act. Nutrient management plan MUST demonstrate: nitrogen and phosphorus application ≤ agronomic rates, setbacks from waterways, and manure storage integrity. Annual reporting to EPA.\n\n---"
+      },
+      {
+        "title": "Examples",
+        "body": "```\nDECLARE(OrganicCertification) = NOP × CANONIC\n\nWhere:\n  NOP (National Organic Program, 7 CFR 205) provides Structure:\n    - Organic system plan\n    - Prohibited substances list (National List)\n    - Buffer zones and contamination prevention\n    - Record-keeping requirements\n    - Annual inspection requirements\n\n  CANONIC provides Governance:\n    - C1: Organic practice claims\n    - C2: Input records, soil test evidence, field maps\n    - Temporal: 3-year transition period, annual inspection cycle\n    - Relational: Field boundaries, buffer zones, certifier jurisdiction\n    - C5: Farm operations (planting, pest management, harvest)\n    - C6: NOP/USDA standards conformance\n\nResult:\n  OrganicCertification = ENTERPRISE (#63)\n\n  Certification Lifecycle:\n    Transition     — 3-year no-prohibited-substances period\n    Plan           — Organic system plan submitted\n    Inspect        — Annual inspection passed\n    Certify        — Certifier issues certificate\n    Maintain       — Annual renewal, continuous compliance\n```\n\n```\nDECLARE(PrecisionApplication) = ISOBUS × CANONIC\n\nWhere:\n  ISOBUS (ISO 11783) provides Structure:\n    - Task Controller (TC) specification\n    - Process Data Dictionary (PDD)\n    - Device Description (XML/DDI)\n    - Section Control\n    - Variable Rate Application\n\n  CANONIC provides Governance:\n    - C1: Application rate claims per prescription\n    - C2: As-applied map evidence vs. prescription\n    - Temporal: Application windows, REI, growth stage\n    - Relational: Field boundaries, buffer zones, equipment calibration\n    - C5: Application operations (calibrate, apply, verify)\n    - C6: ISOBUS/EPA conformance\n\nResult:\n  PrecisionApplication = BUSINESS (#43) to ENTERPRISE (#63)\n\n  Application Lifecycle:\n    Prescribe      — VRA prescription created\n    Calibrate      — Equipment calibrated to product\n    Apply          — Application executed per prescription\n    Verify         — As-applied vs. prescribed reconciled\n    Report         — Regulatory reporting complete\n```"
+      },
+      {
+        "title": "Validators",
+        "body": "| Validator | Checks | Example Failure |\n|-----------|--------|------------------|\n| C1 | Crop governance and application claims declared | Application without prescription |\n| C2 | Field evidence (as-applied maps, soil tests, yield data) complete | Harvest without traceability lot |\n| Temporal | Planting windows, REI, harvest deadlines | Worker entry before REI expiry |\n| Relational | Field boundaries, buffer zones, organic/conventional separation | Drift contamination of organic field |\n| C5 | Farm operations executed per SOP (calibration, application) | Sprayer not calibrated before application |\n| C6 | USDA/EPA/ISOBUS standards conformance | Non-compliant pesticide record |"
+      },
+      {
+        "title": "Application",
+        "body": "To create a CANONIC agriculture vertical:\n\n1. **Identify agricultural domain** (row crops, specialty, livestock, dairy, aquaculture, forestry)\n2. **Determine risk level** and map to MAGIC tier\n3. **Create scope** with CANON.md inheriting /AGRICULTURE/\n4. **Define crop/livestock governance claims** per applicable standards\n5. **Map to regulatory framework** (USDA GAP, NOP, FSMA, EPA WPS)\n6. **Implement validators** for traceability, application accuracy, safety compliance\n7. **Document coverage** with field evidence\n\n**Result**: Owned agriculture vertical with food-safety-governed, precision-managed operations.\n\n---"
+      }
+    ],
+    "learning": [],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "ASABE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ASAE",
+        "definition": "American Society of Agricultural Engineers."
+      },
+      {
+        "term": "CCP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CERCLA",
+        "definition": "Comprehensive Environmental Response, Compensation, and Liability Act."
+      },
+      {
+        "term": "CFR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CFU",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CTF",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CVT",
+        "definition": "Continuously Variable Transmission."
+      },
+      {
+        "term": "DPR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "EPA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ET",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FDA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FIFRA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FOV",
+        "definition": "Field of View."
+      },
+      {
+        "term": "FSMA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FTL",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "GAP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "GLN",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "GNSS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "GTIN",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "HACCP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IEC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IFA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IH",
+        "definition": "In-House."
+      },
+      {
+        "term": "IPM",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ISO",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ISOBUS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "LGMA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NOP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NPDES",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NRCS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "OSHA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PPE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PSR",
+        "definition": "Power System Reliability."
+      },
+      {
+        "term": "PTO",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "REI",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ROPS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "RUP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SAE",
+        "definition": "Society of Automotive Engineers"
+      },
+      {
+        "term": "SDS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SMV",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SSCC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SSSA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "USC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "USDA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "VRA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "WPS",
+        "definition": "Governed term in this scope vocabulary."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "INDUSTRIES",
+        "axiom": "INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.",
+        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+<!-- LAYOUT: CUSTOM | DESIGN.md 255 Map | CUSTOM surface -->
+<!-- Passthrough: governed nav + minimal chrome, hand-crafted content passed through -->
+<!-- GOV view composable — every surface exposes its governance contract -->
+<!DOCTYPE html>
+<html lang="en" data-scope="{{ page.scope | default: site.scope | downcase }}">
+<head>
+  {% include HEAD.html %}
+  {% if page.custom_head %}{{ page.custom_head }}{% endif %}
+</head>
+<body data-layout="custom">
+
+  {% unless page.nav == false %}{% include NAV-UNIFIED.html %}{% endunless %}
+
+  {% include VIEW-GOV.html %}
+
+  <!-- ═══ VIEW: WEB — The hand-crafted custom surface ═══ -->
+  {% assign current_view = page.view | default: "web" %}
+  <div class="view-web"{% if current_view == "gov" %} style="display:none"{% endif %}>
+    {{ content }}
+  </div>
+
+  {% include SCRIPTS.html %}
+</body>
+</html>

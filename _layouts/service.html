@@ -1,0 +1,196 @@
+<!-- LAYOUT: service | STANDALONE | DESIGN.md 255 Map -->
+<!-- SERVICE contract viewer: tri-view (MD contract + HTML surface + TEX print). -->
+<!-- STANDALONE: No includes — Liquid stack overflow on content >44KB. -->
+<!-- TRI-VIEW: MD (contract prose) + HTML (hero + sections + TALK) + TEX (PDF.js). CONTROLS.viewTo() switches. -->
+{% assign scope_key = page.scope | default: site.scope | downcase %}
+{% assign sd = site.data[scope_key] %}
+{% assign scope_up = page.scope | default: site.scope | upcase %}
+{% assign back_label = page.back_label | default: sd.back_label | default: "SERVICES" %}
+{% assign back_href = page.back_href | default: sd.back_href | default: "/DEXTER/SERVICES/" %}
+{% assign badge_label = page.badge | default: sd.badge_label | default: scope_up %}
+{% assign accent = page.accent | default: sd.accent | default: site.accent %}
+{% assign accent_rgb = page.accent_rgb | default: sd.accent_rgb | default: site.accent_rgb %}
+{% assign fleet = site.data.fleet %}
+{% assign deps = site.data.deps %}
+{% assign current_view = page.view | default: "web" %}
+<!DOCTYPE html>
+<html lang="en" data-scope="{{ page.scope | default: site.scope | downcase }}">
+<head>
+  <!-- HEAD (inlined — standalone layout, no includes) -->
+  {% assign page_title = page.title | default: sd.name | default: site.title %}
+  {% assign page_desc = page.description | default: site.description %}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://api.canonic.org https://www.googletagmanager.com https://www.googleadservices.com https://connect.facebook.net https://snap.licdn.com https://static.ads-twitter.com https://www.redditstatic.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: https:; connect-src 'self' https://api.canonic.org https://*.canonic.org https://www.google-analytics.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://connect.facebook.net https://snap.licdn.com https://static.ads-twitter.com https://alb.reddit.com; font-src 'self' https://cdn.jsdelivr.net; worker-src 'self' blob:; frame-ancestors 'none';">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_desc }}">
+  <link rel="canonical" href="{{ page.url | absolute_url | downcase }}">
+  <!-- OG -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ page_desc }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="{{ '/assets/og.png' | absolute_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page_title }}">
+  <meta name="twitter:description" content="{{ page_desc }}">
+  <meta name="twitter:image" content="{{ '/assets/og.png' | absolute_url }}">
+  <!-- SEO -->
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebPage","name":"{{ page_title }}","description":"{{ page_desc }}","url":"{{ page.url | absolute_url }}","publisher":{"@type":"Organization","name":"{{ site.title }}","url":"{{ site.url }}"}}
+  </script>
+  <link rel="stylesheet" href="{{ '/assets/css/DESIGN.css' | relative_url }}">
+  <style>:root{--accent:{{ accent }};--accent-rgb:{{ accent_rgb }};}</style>
+  <!-- TRACKING -->
+  {% if site.ga4_id %}<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4_id }}"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ site.ga4_id }}');</script>{% endif %}
+  {% if site.google_ads_id %}<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('config','{{ site.google_ads_id }}');</script>{% endif %}
+</head>
+<body class="post-page paper-page service-page">
+
+  <!-- NAV (inlined, post mode) -->
+  <header class="nav" id="nav" role="navigation">
+    <div class="nav-left">
+      <a class="nav-brand" href="{{ fleet.brand.url | default: '/' | relative_url }}" aria-label="Home">
+        <span class="nav-mark">{{ fleet.brand.mark | default: "\u2229" }}</span>
+        <span class="nav-fleet">{{ fleet.brand.label | default: "CANONIC" }}</span>
+      </a>
+    </div>
+    <div class="nav-center">
+      {% if back_href %}<a href="{{ back_href | relative_url }}" class="nav-back">&larr; {{ back_label | default: "Back" }}</a>{% endif %}
+    </div>
+    <div class="nav-right">
+      <button class="nav-talk" type="button" onclick="TALK.open()" aria-label="Open TALK">
+        <span class="nav-dot"></span>
+        <span class="nav-talk-label">TALK</span>
+      </button>
+      {% if page.views and page.views.size > 1 %}
+      <div class="view-toggle" id="viewToggle">
+        {% for v in page.views %}
+        {% unless forloop.first %}<span class="view-toggle-arrow">&rarr;</span>{% endunless %}
+        <button class="view-toggle-btn{% if current_view == v %} active{% endif %}"
+          type="button" data-target="{{ v }}" onclick="CONTROLS.viewTo('{{ v }}')"
+          {% if v == 'tex' and page.pdf == nil %}style="opacity:0.3;pointer-events:none"{% endif %}>
+          {{ v | upcase }}</button>
+        {% endfor %}
+      </div>
+      {% endif %}
+      {% if page.pdf %}
+      <a href="{{ page.pdf | relative_url }}" class="nav-ctrl" download title="Download PDF">&#8615; PDF</a>
+      {% endif %}
+      <button class="nav-theme" type="button" onclick="toggleTheme()" id="theme-btn" title="Toggle light/dark">&#9790;</button>
+    </div>
+  </header>
+
+  {% include VIEW-GOV.html badge=badge_label %}
+
+  <!-- ═══ VIEW: WEB — The compiled web surface (hero + sections) ═══ -->
+  <div class="view-web"{% if current_view != "web" %} style="display:none"{% endif %}>
+    {% if page.hero %}
+    <section class="hero">
+      {% if page.hero.badge %}<div class="hero-badge">{{ page.hero.badge }}</div>{% endif %}
+      {% if page.hero.title %}<h1 class="hero-title gradient-text">{{ page.hero.title }}</h1>{% endif %}
+      {% if page.hero.description %}<p class="hero-description">{{ page.hero.description }}</p>{% endif %}
+      {% if page.hero.cta %}
+      <div class="cta-buttons">
+        {% for btn in page.hero.cta %}
+        <a href="{{ btn.href | relative_url }}" class="btn {{ btn.class | default: 'btn-primary' }}"{% if btn.talk %} onclick="TALK.open();return false"{% endif %}>{{ btn.label }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </section>
+    {% endif %}
+
+    {% if page.sections %}
+    <div class="container">
+      {% for section in page.sections %}
+      <section class="feature-block">
+        {% if section.title %}<h2 class="feature-title">{{ section.title }}</h2>{% endif %}
+        {% if section.text %}<p class="feature-text">{{ section.text }}</p>{% endif %}
+      </section>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Dashboard sections from _data/{scope}.json (compiled by build-surfaces) -->
+    {% assign data_sections = sd.sections %}
+    {% if data_sections %}
+    {% for section in data_sections %}
+    {% if section.dashboard %}
+    <section id="{{ section.id }}" class="container" style="margin-bottom:var(--space-2xl)">
+      {% if section.eyebrow %}<div class="section-eyebrow text-center" style="font-family:var(--mono);font-size:var(--font-xs);letter-spacing:0.15em;color:var(--muted);margin-bottom:var(--space-xs)">{{ section.eyebrow }}</div>{% endif %}
+      {% if section.title %}<h2 class="section-title text-center" style="margin-bottom:var(--space-lg)">{{ section.title }}</h2>{% endif %}
+      {% include DASHBOARD.html widgets=section.dashboard %}
+    </section>
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+
+    <!-- Fallback: if no hero/sections/dashboard, show content in HTML chrome -->
+    {% unless page.hero or page.sections or data_sections %}
+    <div class="container" style="padding:var(--space-xl) 0;">
+      <div class="hero-badge" style="margin-bottom:var(--space-md);">{{ badge_label }}</div>
+      <h1 class="gradient-text" style="margin-bottom:var(--space-lg);">{{ page.title }}</h1>
+      <p class="muted" style="font-family:var(--mono);font-size:var(--font-xs);letter-spacing:0.1em;margin-bottom:var(--space-lg);">COMPILED SURFACE &middot; VIEW: WEB</p>
+      <div class="prose">{{ content }}</div>
+    </div>
+    {% endunless %}
+  </div>
+
+  {% include VIEW-TEX.html %}
+
+  <!-- FOOTER (inlined) -->
+  <footer id="footer">
+    {% if fleet.sites %}
+    {% for s in fleet.sites %}{% unless forloop.first %} &middot; {% endunless %}<a href="{{ s.url }}">{{ s.label }}</a>{% endfor %}
+     &middot; <a href="#" onclick="TALK.open();return false">TALK</a>
+    <br><br>{{ page.footerTagline | default: site.tagline | default: "CANONIC" }}
+    {% endif %}
+  </footer>
+
+  <!-- SCRIPTS (inlined) -->
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/nav.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/figures.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/controls.js' | relative_url }}"></script>
+  {% if page.talk %}
+  <!-- TALK (inlined) -->
+  <div class="talk-overlay" id="talkOverlay" data-position="{{ page.talk | default: 'side' }}">
+    <div class="talk-overlay-header">
+      <div class="talk-dot"></div>
+      <span class="talk-scope">{{ site.talk_label | default: "TALK" }}</span>
+      <select id="talkProviderSelect" onchange="TALK.switchProvider(this.value)" class="talk-provider-select">
+        <option value="auto">AUTO</option>
+        <option value="anthropic">ANTHROPIC</option>
+        <option value="runpod">RUNPOD</option>
+        <option value="vastai">VAST.AI</option>
+        <option value="deepseek">DEEPSEEK</option>
+      </select>
+      <span id="talkProviderLabel" class="talk-provider-label">AUTO</span>
+      <button type="button" class="talk-overlay-close" onclick="TALK.close()">ESC</button>
+    </div>
+    <div class="talk-messages" id="talkMessages"></div>
+    <div class="talk-input-row">
+      <input type="text" id="talkChatInput" placeholder="{{ page.talk_placeholder | default: 'Ask anything...' }}" autocomplete="off">
+      <button type="button" id="talkSend" onclick="TALK.send()">SEND</button>
+    </div>
+  </div>
+  <script src="{{ '/assets/js/talk.js' | relative_url }}"></script>
+  <script>TALK.init();</script>
+  {% endif %}
+
+  {% if page.pdf %}
+  <!-- PDF.js + pdf-viewer.js (conditional) — governed by DEPS.md -->
+  <script src="{{ deps.pdfjs.js }}" integrity="{{ deps.pdfjs.js_integrity }}" crossorigin="anonymous"></script>
+  <script>pdfjsLib.GlobalWorkerOptions.workerSrc='{{ deps.pdfjs.worker }}';</script>
+  <script src="{{ '/assets/js/pdf-viewer.js' | relative_url }}"></script>
+  <script>PDFVIEWER.init('{{ page.pdf | relative_url }}');</script>
+  {% endif %}
+
+</body>
+</html>

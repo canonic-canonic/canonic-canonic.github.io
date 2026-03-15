@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "badge": "META",
+    "title": "META",
+    "description": "META surface.",
+    "cta": [
+      {
+        "label": "Open META",
+        "href": "/industries/meta/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [],
+  "_generated": {
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/INDUSTRIES/META/META.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "META | CANONIC"
+}

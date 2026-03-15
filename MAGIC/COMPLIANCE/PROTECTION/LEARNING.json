@@ -1,0 +1,32 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/COMPLIANCE/PROTECTION/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-24",
+      "signal": "NEW_SCOPE",
+      "text": "PROTECTION scope created — closes the gap between 255 scored and 255 enforced",
+      "source": "PROTECTION/CANON.md"
+    },
+    {
+      "date": "2026-02-24",
+      "signal": "Advisory is not a gate",
+      "text": "MAGIC 255 without branch protection means anyone can force-push past the gate",
+      "source": "Audit finding"
+    },
+    {
+      "date": "2026-02-24",
+      "signal": "Four rules",
+      "text": "BRANCH_PROTECTION + REVIEW_GATE + CODEOWNERS + HOOK_ENFORCEMENT — four layers of enforcement",
+      "source": "PROTECTION/PROTECTION.md"
+    }
+  ],
+  "stats": {
+    "total": 3,
+    "community_questions": 0,
+    "domain_patterns": 3
+  }
+}

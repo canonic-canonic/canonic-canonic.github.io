@@ -1,0 +1,185 @@
+{
+  "hero": {
+    "badge": "CERTIFICATION",
+    "title": "CERTIFICATION",
+    "description": "CERTIFICATION is COMPLIANCE made portable. Git is the certification engine. A tag is a badge. A badge is a tag. 255 or reject.",
+    "cta": [
+      {
+        "label": "Open CERTIFICATION",
+        "href": "/magic/compliance/certification/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "canon-tag-convention",
+      "eyebrow": "TAG CONVENTION",
+      "title": "Tag Convention",
+      "description": "``\ncert/{USER}/{TIER}/{YYYY-MM-DD}\n`\n\nExamples:\n\n- cert/DEXTER/FULL/2026-02-25\n- cert/ILYA/ENTERPRISE/2026-02-25\n- cert/YANA/AGENT/2026-02-25`"
+    },
+    {
+      "id": "canon-tier-mapping",
+      "eyebrow": "TIER MAPPING",
+      "title": "Tier Mapping",
+      "description": "Tiers are discovered from DESIGN.md — never hardcoded. Certification levels map 1:1 to MAGIC tiers.",
+      "table": {
+        "headers": [
+          "Tier",
+          "Score",
+          "Certification Level",
+          "Proof"
+        ],
+        "rows": [
+          [
+            "COMMUNITY",
+            "35",
+            "CONTRIBUTOR",
+            "CANON.md + VOCAB.md + structure"
+          ],
+          [
+            "BUSINESS",
+            "43",
+            "DEVELOPER",
+            "+ {SCOPE}.md spec"
+          ],
+          [
+            "ENTERPRISE",
+            "63",
+            "CERTIFIED DEVELOPER",
+            "+ ROADMAP.md + COVERAGE.md"
+          ],
+          [
+            "AGENT",
+            "127",
+            "SENIOR DEVELOPER",
+            "+ LEARNING.md (growth evidence)"
+          ],
+          [
+            "FULL",
+            "255",
+            "PRINCIPAL",
+            "+ LANG (inherits and extends DESIGN)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-proof-chain",
+      "eyebrow": "PROOF CHAIN",
+      "title": "Proof Chain",
+      "description": "USER scope exists in GOV tree with VITAE.md (identity evidence)\nmagic validate runs on USER scope — returns tier score\nScore maps to certification level (tier table parsed from DESIGN.md)\ngit tag -s cert/{USER}/{TIER}/{YYYY-MM-DD} — signed, immutable\nTAGS.md row appended — auditable registry\nbuild-surfaces discovers cert tags → compiles _data/developers.json\nFOUNDATION/DEVELOPERS renders certified developer directory"
+    },
+    {
+      "id": "canon-verification",
+      "eyebrow": "VERIFICATION",
+      "title": "Verification",
+      "description": "Anyone can verify a certification:\n\n``bash\ngit checkout cert/{USER}/{TIER}/{DATE}\nmagic validate {USER_SCOPE_PATH}\n# Returns same tier score — reproducible\n``"
+    },
+    {
+      "id": "canon-signing",
+      "eyebrow": "SIGNING",
+      "title": "Signing",
+      "description": "Founder signs (git tag -s) until CI automation is established. Future: Ed25519 via VAULT.\n\n*CERTIFICATION | COMPLIANCE | MAGIC*"
+    }
+  ],
+  "_generated": {
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/COMPLIANCE/CERTIFICATION/CERTIFICATION.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "CERTIFICATION | CANONIC",
+  "canon": {
+    "axiom": "CERTIFICATION is COMPLIANCE made portable. Git is the certification engine. A tag is a badge. A badge is a tag. 255 or reject.",
+    "constraints": "MUST:     Certify via magic validate — tier score IS the credential\nMUST:     Issue via git tag — immutable, signed, auditable\nMUST:     Register in TAGS.md — append-only\nMUST:     Discover certified devs from GOV tree — never hardcode rosters\nMUST:     Require VITAE.md — identity evidence gate\nMUST NOT: Certify without magic validate passing\nMUST NOT: Hardcode developer lists — discover from GOV tree\nMUST NOT: Issue unsigned tags in production",
+    "inherits": "canonic-canonic/MAGIC/COMPLIANCE",
+    "spec": [
+      {
+        "title": "Tag Convention",
+        "body": "```\ncert/{USER}/{TIER}/{YYYY-MM-DD}\n```\n\nExamples:\n\n- `cert/DEXTER/FULL/2026-02-25`\n- `cert/ILYA/ENTERPRISE/2026-02-25`\n- `cert/YANA/AGENT/2026-02-25`\n\n---"
+      },
+      {
+        "title": "Tier Mapping",
+        "body": "Tiers are discovered from DESIGN.md — never hardcoded. Certification levels map 1:1 to MAGIC tiers.\n\n| Tier | Score | Certification Level | Proof |\n|------|-------|-------------------|-------|\n| COMMUNITY | 35 | CONTRIBUTOR | CANON.md + VOCAB.md + structure |\n| BUSINESS | 43 | DEVELOPER | + {SCOPE}.md spec |\n| ENTERPRISE | 63 | CERTIFIED DEVELOPER | + ROADMAP.md + COVERAGE.md |\n| AGENT | 127 | SENIOR DEVELOPER | + LEARNING.md (growth evidence) |\n| FULL | 255 | PRINCIPAL | + LANG (inherits and extends DESIGN) |\n\n---"
+      },
+      {
+        "title": "Proof Chain",
+        "body": "1. USER scope exists in GOV tree with VITAE.md (identity evidence)\n2. `magic validate` runs on USER scope — returns tier score\n3. Score maps to certification level (tier table parsed from DESIGN.md)\n4. `git tag -s cert/{USER}/{TIER}/{YYYY-MM-DD}` — signed, immutable\n5. TAGS.md row appended — auditable registry\n6. `build-surfaces` discovers cert tags → compiles `_data/developers.json`\n7. FOUNDATION/DEVELOPERS renders certified developer directory\n\n---"
+      },
+      {
+        "title": "Verification",
+        "body": "Anyone can verify a certification:\n\n```bash\ngit checkout cert/{USER}/{TIER}/{DATE}\nmagic validate {USER_SCOPE_PATH}\n# Returns same tier score — reproducible\n```\n\n---"
+      },
+      {
+        "title": "Signing",
+        "body": "Founder signs (`git tag -s`) until CI automation is established. Future: Ed25519 via VAULT.\n\n---"
+      }
+    ],
+    "intel": [
+      {
+        "title": "Cross-Axiomatic References",
+        "body": "| Scope | Relationship | What flows |\n|-------|-------------|-----------|\n| IDENTITY | Upstream | Ed25519 keys, KYC anchors — proves WHO is certified |\n| VITAE | Upstream | Professional credentials — proves WHAT they've done |\n| TAGS.md | Registry | Append-only cert tag records — proves WHEN |\n| FOUNDATION/DEVELOPERS | Downstream | Public listing — compiled from cert tags + VITAE |\n| SALES | Downstream | Deal flow — certification tier justifies rate card |\n| GALAXY | Topology | ORG membership — routes certified dev to org |\n\n---"
+      },
+      {
+        "title": "Migration Pattern",
+        "body": "INTEL carries certification knowledge across scopes without exposing internals:\n\n```\nIDENTITY (private keys) → INTEL → CERTIFICATION (public tier)\nVITAE (full record)     → INTEL → DEVELOPERS (public card)\nSALES (deal pipeline)   ← INTEL ← CERTIFICATION (rate justification)\n```\n\n---"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-25 | Scope created | CERTIFICATION scope established — git tags as badges, COMPLIANCE made portable | CANON.md |\n\n---"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "CERTIFICATION",
+        "definition": "COMPLIANCE made portable. Tier score validated by magic, issued as git tag."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "COMPLIANCE",
+        "axiom": "COMPLIANCE is the tier algebra.",
+        "constraints": "MUST:     Define tier thresholds and required surface artifacts\nMUST:     Treat tier gates as cumulative (children add; children do not weaken)\nMUST:     Keep tier rules in GOV; runtime interprets only\nMUST NOT: Duplicate tier algebra in sibling scopes"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

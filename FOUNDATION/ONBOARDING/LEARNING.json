@@ -1,0 +1,20 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/Users/iDrDex/CANONIC/canonic-canonic/FOUNDATION/ONBOARDING/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-27",
+      "signal": "TRIAD_COMPLETE",
+      "text": "ONBOARDING scope governance completed — full MAGIC 255",
+      "source": "CANON.md"
+    }
+  ],
+  "stats": {
+    "total": 1,
+    "community_questions": 0,
+    "domain_patterns": 1
+  }
+}

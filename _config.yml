@@ -1,0 +1,26 @@
+# _generated: edit HTTP.md or build-surfaces — not this file
+remote_theme: canonic-canonic/DESIGN
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+
+scope: CANONIC
+accent: "#00ff88"
+accent_rgb: "0,255,136"
+title: "CANONIC"
+description: "Distribute Work. Govern Value."
+url: "https://canonic.org"
+tagline: "CANONIC | Governance Intelligence"
+image: "/assets/og.png"
+ga4_id: "G-FS0FDCM8EB"
+google_ads_id: "AW-2784372644"
+meta_pixel_id: "237958571262318"
+linkedin_partner_id: "520335172"
+twitter_pixel_id: "18ce53yfp0n"
+reddit_pixel_id: "a2_ilt7lbzhyelg"
+
+exclude:
+  # MAGIC governance filenames (auto-generated from DIMS)
+  - README.md
+

@@ -1,0 +1,121 @@
+{
+  "hero": {
+    "badge": "DOCTRINE",
+    "title": "DOCTRINE",
+    "description": "DOCTRINE is fixed. DRY. Mathematical. Enforced by structure.",
+    "cta": [
+      {
+        "label": "Open DOCTRINE",
+        "href": "/foundation/doctrine/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "canon-spine",
+      "eyebrow": "SPINE",
+      "title": "Spine",
+      "description": "``\nCANONIC DOCTRINE\n────────────────\nChapter 1: THEORY      — Code Evolution (Kimura, drift, 255-bit)\nChapter 2: COMPLIANCE  — Magic of Compliance (tiers, MAGIC)\nChapter 3: ACTORS      — GOV-DEV Separation (roles, surfaces, ledger chain)\n``\n\nEach chapter is one doctrine. THEORY is one chapter."
+    },
+    {
+      "id": "canon-qualities",
+      "eyebrow": "QUALITIES",
+      "title": "Qualities",
+      "description": "``\nDRY      — No repetition\nDOCTRINE — Rules/principles\nMATH     — Mathematical\nFIXED    — Immutable\nPURE     — No fluff\n``"
+    },
+    {
+      "id": "canon-validation",
+      "eyebrow": "VALIDATION",
+      "title": "Validation",
+      "description": "A DOCTRINE MUST:\n- Have a spine (ordered chapters)\n- Be dry (no emotional arc)\n- Be mathematical (bits, tiers, formulas)\n- Be fixed (immutable once published)\n- Be pure (no narrative fluff)"
+    }
+  ],
+  "_generated": {
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/FOUNDATION/DOCTRINE/DOCTRINE.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "DOCTRINE | CANONIC",
+  "canon": {
+    "axiom": "DOCTRINE is fixed. DRY. Mathematical. Enforced by structure.",
+    "constraints": "MUST:     Inherit from SHOP\nMUST:     Keep doctrine dry — no narrative arc, no fluff\nMUST:     Keep doctrine fixed — edits are versioned, never overwritten\nMUST:     Encode the spine (ordered chapters) in DOCTRINE.md\nMUST:     Keep kernel details out of public APIs (magic.h only exposes tiers + 255)\nMUST:     Maintain inheritance chain for all doctrine artifacts\nMUST NOT: Duplicate tier algebra already defined by MAGIC",
+    "inherits": "canonic-canonic/FOUNDATION",
+    "spec": [
+      {
+        "title": "Spine",
+        "body": "```\nCANONIC DOCTRINE\n────────────────\nChapter 1: THEORY      — Code Evolution (Kimura, drift, 255-bit)\nChapter 2: COMPLIANCE  — Magic of Compliance (tiers, MAGIC)\nChapter 3: ACTORS      — GOV-DEV Separation (roles, surfaces, ledger chain)\n```\n\nEach chapter is one doctrine. THEORY is one chapter.\n\n---"
+      },
+      {
+        "title": "Qualities",
+        "body": "```\nDRY      — No repetition\nDOCTRINE — Rules/principles\nMATH     — Mathematical\nFIXED    — Immutable\nPURE     — No fluff\n```\n\n---"
+      },
+      {
+        "title": "Validation",
+        "body": "A DOCTRINE MUST:\n- Have a spine (ordered chapters)\n- Be dry (no emotional arc)\n- Be mathematical (bits, tiers, formulas)\n- Be fixed (immutable once published)\n- Be pure (no narrative fluff)\n\n---"
+      },
+      {
+        "title": "Structure",
+        "body": "```\ncanonic-canonic/FOUNDATION/DOCTRINE/\n├── CANON.md\n├── VOCAB.md\n├── README.md\n├── ROADMAP.md\n├── COVERAGE.md\n└── DOCTRINE.md\n```\n\n---\n\n*DOCTRINE | SHOP | canonic-canonic/FOUNDATION/DOCTRINE*"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-19 | DOCTRINE is fixed and DRY | No narrative arc, no fluff — mathematical, enforced by structure, edits are versioned not overwritten | DOCTRINE/CANON.md |\n| 2026-02-19 | Three foundation axioms | TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three | FOUNDATION/LEARNING.md |\n| 2026-02-19 | INTEL is WORK — mandatory primitive | Only INTEL (WORK) is mandatory across all principals; COIN and TALK are optional services | FOUNDATION/DOCTRINE |\n| 2026-02-19 | Primitives are files, services are directories | INTEL.md, CHAT.md, COIN.md are primitives; SERVICES/LEARNING/, SERVICES/TALK/ are composed services | Phase 7 cross-axiomatic |\n| 2026-02-19 | Kernel details not in public APIs | magic.h exposes only tiers + 255; internal dimension mechanics stay private | DOCTRINE/CANON.md |\n\n---"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "DRY",
+        "definition": "No repetition. Single source of truth."
+      },
+      {
+        "term": "FOUNDATION",
+        "definition": "The constitutional layer — language, dimensions, rules that MAGIC enforces"
+      },
+      {
+        "term": "FULL",
+        "definition": "Tier 255 — all 8 internal checks satisfied, maximum governance"
+      },
+      {
+        "term": "SHOP",
+        "definition": "Governed term in this scope vocabulary."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

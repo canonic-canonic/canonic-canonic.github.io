@@ -1,0 +1,32 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/SURFACE/JEKYLL/DECKS/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-19",
+      "signal": "Audience names the scope",
+      "text": "HOWARD, JP-CAPITAL, MALEK — deck directory = audience identity",
+      "source": "DECKS/"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "deck.js drives all rendering",
+      "text": "Slides are data (JSON), not markup — DESIGN theme compiles",
+      "source": "deck.js"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "DECKS.json is compiled index",
+      "text": "Hand-editing forbidden — source of truth is deck directories",
+      "source": "DECKS.md"
+    }
+  ],
+  "stats": {
+    "total": 3,
+    "community_questions": 0,
+    "domain_patterns": 3
+  }
+}
