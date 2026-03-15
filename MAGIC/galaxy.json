@@ -6905,12 +6905,6 @@
       "learning": [
         {
           "date": "2026-03-14",
-          "signal": "HASH_SKIP",
-          "pattern": "Incremental builds skip galaxy.json entirely when no CANON.md files changed. SHA-256 of all mtimes stored in output for ",
-          "source": "build-galaxy-json"
-        },
-        {
-          "date": "2026-03-14",
           "signal": "GRAPH_NATIVE",
           "pattern": "GovGraph extracted from compile-claude-md into shared gov_graph.py. BFS replaces inherits-chain-only walk for all INTEL ",
           "source": "gov_graph.py creation"
@@ -6962,6 +6956,12 @@
           "signal": "CANONICAL_STRIP",
           "pattern": "Cloudflare Worker RewriteURL must strip TARGET_PATH from canonical/OG URLs. Without path stripping, vanity domains leak ",
           "source": "build-domains fix"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "PURE_DAG",
+          "pattern": "Legacy sequential runner (build-seq) replaced by DAG-parallel runner as sole entry point. PIPELINE.toml updated from 14 ",
+          "source": "Pure DAG Compiler session"
         }
       ],
       "score": 128
