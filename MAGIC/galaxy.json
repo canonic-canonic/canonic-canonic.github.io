@@ -6905,36 +6905,6 @@
       "learning": [
         {
           "date": "2026-03-14",
-          "signal": "DAG_PARALLEL",
-          "pattern": "Sequential for-loop replaced with Kahn's topological sort + ProcessPoolExecutor. Phases run in parallel batches by depen",
-          "source": "build-dag implementation"
-        },
-        {
-          "date": "2026-03-14",
-          "signal": "GOV_BOUNDARY",
-          "pattern": "Compiler gate is primary enforcer, .gitignore is governed secondary defense. File-level extension scanning catches what ",
-          "source": "validate-gov-boundary hardening"
-        },
-        {
-          "date": "2026-03-14",
-          "signal": "NO_FALLBACK",
-          "pattern": "No sequential fallback when DAG.json missing. Fail fast, fix faster. Compliance or not.",
-          "source": "User feedback"
-        },
-        {
-          "date": "2026-03-14",
-          "signal": "PROCESS_POOL",
-          "pattern": "ThreadPoolExecutor is GIL-limited on CPU-bound parse/emit. ProcessPoolExecutor gives true parallelism but requires seria",
-          "source": "build-surfaces refactor"
-        },
-        {
-          "date": "2026-03-14",
-          "signal": "LRU_CACHE",
-          "pattern": "Many scopes share ancestors in the inherits chain. parse_header and parse_axiom called repeatedly on same files. Mtime-k",
-          "source": "magic_lib optimization"
-        },
-        {
-          "date": "2026-03-14",
           "signal": "HASH_SKIP",
           "pattern": "Incremental builds skip galaxy.json entirely when no CANON.md files changed. SHA-256 of all mtimes stored in output for ",
           "source": "build-galaxy-json"
@@ -6956,6 +6926,42 @@
           "signal": "CHAIN_DELETE",
           "pattern": "extract_intel_chain and extract_learning_chain deleted from magic_lib.py. No fallbacks. Graph BFS is the only discovery ",
           "source": "magic_lib cleanup"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "EMIT_STABLE",
+          "pattern": "emit_json_stable() in magic_lib \u2014 write-if-changed pattern that strips timestamp keys before comparison. Eliminates wall",
+          "source": "Idempotent build session"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "FRESHNESS_BUG",
+          "pattern": "Blog/paper freshness check did `continue` before compiled.add() and stale cleanup. Fresh-cached items vanished from comp",
+          "source": "build_surfaces_catalog.py fix"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "DETERMINISTIC_BFS",
+          "pattern": "BFS neighbor iteration must be sorted for deterministic CANON.json output. Python dict/set iteration order varies, causi",
+          "source": "gov_graph.py fix"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "PHASE_CLEAN",
+          "pattern": "Phase numbering must be clean sequential integers (00-16), no suffix hacks (01a, 08a, 09a, 09b). Suffix phases indicate ",
+          "source": "Phase renumbering"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "YAML_ESCAPE",
+          "pattern": "_yaml_str() must escape inner double quotes and backslashes. Unescaped quotes cause silent Jekyll YAML parse failure, ma",
+          "source": "build_surfaces_talk.py fix"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "CANONICAL_STRIP",
+          "pattern": "Cloudflare Worker RewriteURL must strip TARGET_PATH from canonical/OG URLs. Without path stripping, vanity domains leak ",
+          "source": "build-domains fix"
         }
       ],
       "score": 128
@@ -7157,24 +7163,6 @@
       "talk": null,
       "learning": [
         {
-          "date": "2026-02-26",
-          "signal": "BOOK_REBUILD",
-          "pattern": "Both books (Canon + Doctrine) scrapped and rebuilt from scratch. Canon: 9 parts, 44 chapters (governors speak idioms). D",
-          "source": "Book rebuild session"
-        },
-        {
-          "date": "2026-03-11",
-          "signal": "BUILD_CACHE",
-          "pattern": "Build pipeline refactored with caching and intermittent compile. Generated outputs may need explicit compile trigger rat",
-          "source": "Build pipeline refactor"
-        },
-        {
-          "date": "2026-03-13",
-          "signal": "TRANSCRIPT_GOV",
-          "pattern": "TRANSCRIPT service unifies all conversation evidence (Claude sessions, email, iMessage, WhatsApp) under one governance m",
-          "source": "TRANSCRIPT service creation"
-        },
-        {
           "date": "2026-03-13",
           "signal": "MAIL_CONSOLIDATION",
           "pattern": "Email drains consolidating all accounts into self-hosted MailPlus on NAS. Gmail is the hub, Yahoo/GMX/mail.com are inter",
@@ -7197,6 +7185,42 @@
           "signal": "GALAXY_GRAPH_COMPILE",
           "pattern": "Compilation is graph traversal. The galaxy (394 nodes, 564 edges) is the input graph. BFS from CLAUDE discovers cross-sc",
           "source": "Graph-native compiler design"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "IDEMPOTENT_BUILD",
+          "pattern": "Compiler must produce identical output on consecutive builds when inputs unchanged. Timestamps only write when content c",
+          "source": "Compiler stabilization session"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "GOV_OVERRIDE",
+          "pattern": "Hand-crafted GOV index.md with sections takes precedence over auto-generated surfaces. The compiler serves the contract,",
+          "source": "Community learning surface refactor"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "INSTANCE_LEARNING",
+          "pattern": "Community learning surfaces source from TALKS/{scope}/LEARNING.md (user session ledgers with SESSION_LEDGERED entries), ",
+          "source": "Community learning source fix"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "TIER_DECLARATION",
+          "pattern": "Every TALK scope in the Fleet table declares FREE or FREEMIUM. COIN validation gate (gate_tier_declaration) enforces. Co",
+          "source": "Free vs commercial differentiation"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "RUNTIME_GOVERNED",
+          "pattern": "The compiler repo (~/.canonic) must be pushed to GitHub (canonic-canonic/.canonic). Ungoverned runtime means ungoverned ",
+          "source": "Runtime governance gap"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "METALEARNING",
+          "pattern": "The agent that builds the system must also update the governed LEARNING and ROADMAP after every session. Session pattern",
+          "source": "This session"
         }
       ],
       "score": 128
@@ -9260,30 +9284,6 @@
       },
       "learning": [
         {
-          "date": "2026-02-10",
-          "signal": "Append-only correction ledgers prevent knowledge regression",
-          "pattern": "MAMMOCHAT DCIS correction",
-          "source": ""
-        },
-        {
-          "date": "2026-02-14",
-          "signal": "Services with empty ledgers (FINCHAT, LAWCHAT) indicate unexercised domains \u2014 not failure",
-          "pattern": "Audit observation",
-          "source": ""
-        },
-        {
-          "date": "2026-02-16",
-          "signal": "NEW_SCOPE",
-          "pattern": "New governance domain: DEXTER/CHAT",
-          "source": "7aa451b"
-        },
-        {
-          "date": "2026-02-16",
-          "signal": "NEW_SCOPE",
-          "pattern": "New governance domain: SERVICES/MAGIC/BAKEOFF",
-          "source": "7aa451b"
-        },
-        {
           "date": "2026-02-16",
           "signal": "NEW_SCOPE",
           "pattern": "New governance domain: SERVICES/TALK",
@@ -9318,6 +9318,30 @@
           "signal": "TRANSCRIPT_GOV",
           "pattern": "TALK session ledger governed by TRANSCRIPT as CHAT lane \u2014 every trace_id is transcript://chat/{scope}/{trace_id}. Commun",
           "source": "Fleet integration"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "COMMUNITY_SOURCE",
+          "pattern": "Community learning surfaces source from TALKS/{scope}/LEARNING.md (SESSION_LEDGERED entries from real users), not SERVIC",
+          "source": "Community learning fix"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "FREE_VS_FREEMIUM",
+          "pattern": "Fleet table declares Tier (FREE/FREEMIUM) and Free (what's free) per scope. MAMMOCHAT and CARIBCHAT are free forever. OM",
+          "source": "Tier differentiation"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "EXPERT_COIN",
+          "pattern": "On freemium apps, community learning itself has economic value. Experts contribute knowledge (earn credits), consumers a",
+          "source": "Economic model insight"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "REALTY_FLEET",
+          "pattern": "REALTY added as 8th fleet flagship (FREEMIUM). SLOANE, BRYANSTON, BLANDFORD are sub-fleet houses, not fleet-level entrie",
+          "source": "Fleet restructure"
         }
       ],
       "score": 128
