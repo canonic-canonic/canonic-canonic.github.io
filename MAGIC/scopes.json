@@ -821,6 +821,17 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SERVICES:HACKERNEWS",
+      "label": "HACKERNEWS",
+      "bits": 179,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:SERVICES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:ICLOUD",
       "label": "ICLOUD",
       "bits": 255,
@@ -975,6 +986,17 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SERVICES:REDDIT",
+      "label": "REDDIT",
+      "bits": 179,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:SERVICES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:RESERVES",
       "label": "RESERVES",
       "bits": 255,
@@ -1056,6 +1078,17 @@
       "label": "TRANSCRIPT",
       "bits": 255,
       "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:SERVICES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SERVICES:TWITTER",
+      "label": "TWITTER",
+      "bits": 247,
+      "size": 60,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:SERVICES"
