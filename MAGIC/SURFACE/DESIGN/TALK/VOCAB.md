@@ -1,6 +1,7 @@
 # TALK — VOCAB
 
 inherits: canonic-canonic/MAGIC/SURFACE/DESIGN
+case: mixed
 
 ---
 

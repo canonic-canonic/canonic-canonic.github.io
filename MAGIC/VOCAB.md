@@ -1,6 +1,7 @@
 # VOCAB
 
 inherits: canonic-canonic/FOUNDATION/VOCAB.md
+drift: intentional
 
 | Term | Definition |
 |------|-----------|

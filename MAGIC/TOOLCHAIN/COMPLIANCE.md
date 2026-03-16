@@ -48,6 +48,14 @@ Runtime code reads CANONIC-internal values from compiled TOOLCHAIN JSON. Missing
 | ~/CANONIC/canonic-canonic/MAGIC/magic.c | C kernel |
 | ~/.canonic/bin/bootstrap | Shell bootstrap |
 
+## MAGIC Dimension Exemptions
+
+Certain scope kinds are exempt from specific dimensions when the dimension does not apply to their function.
+
+| Scope Kind | Exempt Dimension | Reason |
+|------------|-----------------|--------|
+| LEARNING | COVERAGE (O) | LEARNING scopes are documentation spines that accumulate patterns from sessions. They have no operational surface to monitor, so the operational health dimension (COVERAGE.md) does not apply. Scored as if O is present. |
+
 ---
 
 *COMPLIANCE | CONTRACT | TOOLCHAIN*

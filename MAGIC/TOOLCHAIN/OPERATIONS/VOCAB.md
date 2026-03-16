@@ -1,6 +1,7 @@
 # OPERATIONS — VOCAB
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN
+case: mixed
 
 ---
 

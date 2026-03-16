@@ -1,6 +1,7 @@
 # VOCAB
 
 inherits: canonic-canonic/MAGIC/SERVICES/CONTRIBUTE
+drift: intentional
 
 | Term | Definition |
 |------|-----------|

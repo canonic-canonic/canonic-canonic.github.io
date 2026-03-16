@@ -104,8 +104,10 @@ MUST NOT: Use {% raw %}{% include %}{% endraw %} in standalone layouts (paper.ht
 | `STAR.html` | Personal portal overlay: INTEL + CHAT + COIN composed into unified surface with TIMELINE | All layouts |
 | `VIEW-GOV.html` | Full service contract renderer from CANON.json (axiom, constraints, law sections) | service, post |
 | `VIEW-TEX.html` | PDF.js canvas viewer when `page.pdf` frontmatter is set (composable PDF display) | paper, book, service |
+| `TIMELINE.html` | Time-axis of galaxy: month/week/day views from TIMELINE INDEX | default (TIMELINE) |
+| `FLEET-NAV.html` | Cross-fleet navigation bar from page.fleet frontmatter | custom layouts |
 
-**34 section includes.**
+**36 section includes.**
 
 ---
 
@@ -170,6 +172,7 @@ DESIGN.css layer → `_sass/_{NAME}.scss`
 | 19: LATEX | `_LATEX.scss` | — | — |
 | 20: CONTROLS | `_CONTROLS.scss` | — | — |
 | 21: STAR | `_STAR.scss` | — | — |
+| 22: TIMELINE | `_TIMELINE.scss` | — | — |
 
 ---
 
@@ -207,7 +210,7 @@ MUST NOT: Change global tokens — deck-mode scoped only
 
 **Layer 19 — LATEX:** Academic whitepaper rendering for `layout: paper` and `layout: book`. Two modes: (1) **PDF viewer** — when `pdf:` front matter set, renders compiled LaTeX PDF via PDF.js with book-spread presentation (2-page facing on desktop ≥768px, single-page vertical scroll on mobile). Apple-style effects: page-turn animation (`rotateY`, 400ms), spine shadow, page depth shadows, hover lift. Navigation: keyboard (←/→, j/k, Space), touch swipe, hash URL, click edges. (2) **Markdown fallback** — when no `pdf:`, renders Markdown→HTML. All viewer CSS uses Layer 0 tokens — zero hardcoded values. Downloads: PDF for paper/book, PPT+PDF for deck.
 
-**21 Sass partials.** Main: `assets/css/DESIGN.scss` imports all.
+**22 Sass partials.** Main: `assets/css/DESIGN.scss` imports all.
 
 ---
 
@@ -304,8 +307,9 @@ Kept (inherently interactive). Cannot pre-render.
 
 | `galaxy.js` | Interactive governance tree visualization (loads galaxy.json into vis-network with branches and clickable leaves) | DESIGN-theme |
 | `star.js` | Personal portal: composes INTEL + CHAT + COIN into unified surface with TIMELINE cross-axiomatic lane | DESIGN-theme |
+| `timeline.js` | TIMELINE time navigation: month/week/day switching, lane filtering, event loading from TIMELINE INDEX | DESIGN-theme |
 
-**14 client scripts (10 local + 4 CDN).** PDF.js added for paper/book PDF viewer.
+**15 client scripts (11 local + 4 CDN).** PDF.js added for paper/book PDF viewer.
 
 ---
 

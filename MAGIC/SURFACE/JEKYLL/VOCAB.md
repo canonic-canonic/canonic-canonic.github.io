@@ -1,6 +1,7 @@
 # VOCAB
 
 inherits: .
+drift: intentional
 
 | Term | Definition |
 |------|-----------|

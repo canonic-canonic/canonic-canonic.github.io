@@ -1,6 +1,7 @@
 # DESIGN-theme — VOCABULARY
 
 inherits: canonic-canonic/MAGIC/SURFACE/JEKYLL
+case: mixed
 
 ---
 
