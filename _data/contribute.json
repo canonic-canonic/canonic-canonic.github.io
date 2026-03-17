@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "CONTRIBUTE",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "2",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +68,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Cross-scope contribution aggregation",
-                "status": "pending"
-              },
-              {
-                "label": "Contributor reputation (verified contribution count → tier)",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Cross-scope contribution aggregation"
+              ],
+              [
+                "Later",
+                "Contributor reputation (verified contribution count → tier)"
+              ],
+              [
+                "Later",
+                "Federated contribution (external scopes submit to governed ledger)"
+              ]
             ]
           }
         }
@@ -83,17 +98,23 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-26",
-                "label": "CONTRIBUTE promoted to library-scope service — ATULISMS first consumer"
-              },
-              {
-                "year": "2026-02-26",
-                "label": "Scope must be a parameter, not a constant — ATULISMS proved the pattern"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-26",
+                "SERVICE_CREATED",
+                "CONTRIBUTE promoted to library-scope service — ATULISMS first consumer"
+              ],
+              [
+                "2026-02-26",
+                "HARDCODING_REMOVED",
+                "Scope must be a parameter, not a constant — ATULISMS proved the pattern"
+              ]
             ]
           }
         }

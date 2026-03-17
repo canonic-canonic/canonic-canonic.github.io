@@ -39,16 +39,68 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "DOCTRINE",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "5",
+            "change": "patterns",
+            "trend": "up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-19",
+                "DOCTRINE is fixed and DRY",
+                "No narrative arc, no fluff — mathematical, enforced by structure, edits are vers"
+              ],
+              [
+                "2026-02-19",
+                "Three foundation axioms",
+                "TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three"
+              ],
+              [
+                "2026-02-19",
+                "INTEL is WORK — mandatory primitive",
+                "Only INTEL (WORK) is mandatory across all principals; COIN and TALK are optional"
+              ],
+              [
+                "2026-02-19",
+                "Primitives are files, services are directories",
+                "INTEL.md, CHAT.md, COIN.md are primitives; SERVICES/LEARNING/, SERVICES/TALK/ ar"
+              ],
+              [
+                "2026-02-19",
+                "Kernel details not in public APIs",
+                "magic.h exposes only tiers + 255; internal dimension mechanics stay private"
+              ]
+            ]
           }
         }
       ]

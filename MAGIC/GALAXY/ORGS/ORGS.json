@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "ORGS",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "CHILDREN",
+            "value": "6",
+            "change": "scopes",
+            "trend": "neutral"
           }
         }
       ]
@@ -60,41 +68,60 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Federation identity model defined",
-                "status": "active"
-              },
-              {
-                "label": "VITAE validation against MAGIC",
-                "status": "active"
-              },
-              {
-                "label": "{org}/{user} distribution pattern established (`github.com/{",
-                "status": "active"
-              },
-              {
-                "label": "VITAE → 255-bit compliance path per user",
-                "status": "pending"
-              },
-              {
-                "label": "Credential verification pipeline (automated)",
-                "status": "pending"
-              },
-              {
-                "label": "Org-user registry with federation keys",
-                "status": "pending"
-              },
-              {
-                "label": "[ ] User onboarding flow via \"+\"",
-                "status": "pending"
-              },
-              {
-                "label": "[ ] VITAE generation for new users",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Now",
+                "Federation identity model defined"
+              ],
+              [
+                "Now",
+                "VITAE validation against MAGIC"
+              ],
+              [
+                "Now",
+                "{org}/{user} distribution pattern established (`github.com/{org}/{user}`; duplic"
+              ],
+              [
+                "Now",
+                "First user: Avinash (COIN minted)"
+              ],
+              [
+                "Next",
+                "VITAE → 255-bit compliance path per user"
+              ],
+              [
+                "Next",
+                "Credential verification pipeline (automated)"
+              ],
+              [
+                "Next",
+                "Org-user registry with federation keys"
+              ],
+              [
+                "Next",
+                "Multi-org user governance"
+              ],
+              [
+                "Next",
+                "ORG→GitHub org mapping enforcement"
+              ],
+              [
+                "Later",
+                "[ ] User onboarding flow via \"+\""
+              ],
+              [
+                "Later",
+                "[ ] VITAE generation for new users"
+              ],
+              [
+                "Later",
+                "[ ] Tier progression tracking"
+              ]
             ]
           }
         }

@@ -39,16 +39,32 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "PROGRAMMING",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "86",
+            "change": "patterns",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "CHILDREN",
+            "value": "4",
+            "change": "scopes",
+            "trend": "neutral"
           }
         }
       ]
@@ -60,17 +76,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "CANONIC as programming paradigm formalization",
-                "status": "pending"
-              },
-              {
-                "label": "App Store expansion: each canonic-* becomes its own MAGIC ap",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "CANONIC as programming paradigm formalization"
+              ],
+              [
+                "Later",
+                "App Store expansion: each canonic-* becomes its own MAGIC app (multiLEDGER)"
+              ],
+              [
+                "Later",
+                "Language spec: governance as code; Validator SDK; developer documentation"
+              ]
             ]
           }
         }
@@ -83,29 +106,38 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-20",
-                "label": "Epoch 001: Compiler Correspondence — Governance maps isomorphically to compilati"
-              },
-              {
-                "year": "2026-02-20",
-                "label": "Epoch 002: Validation Decidability — Scope validity decidable in O(n); invalid c"
-              },
-              {
-                "year": "2026-02-20",
-                "label": "Epoch 003: MagicServer — SPM CLI + HTTP server; CKernel + MagicServer + MagicCLI"
-              },
-              {
-                "year": "2026-02-20",
-                "label": "Epoch 004: MAGIC TIME (extinct) — Standalone menu bar app; APP was a noun, its S"
-              },
-              {
-                "year": "2026-02-20",
-                "label": "Epoch 005: THE LANGUAGE defines itself — VOCAB.md defines every concept in CANON"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-20",
+                "EVOLUTION",
+                "Epoch 001: Compiler Correspondence — Governance maps isomorphically to compilati"
+              ],
+              [
+                "2026-02-20",
+                "EVOLUTION",
+                "Epoch 002: Validation Decidability — Scope validity decidable in O(n); invalid c"
+              ],
+              [
+                "2026-02-20",
+                "EVOLUTION",
+                "Epoch 003: MagicServer — SPM CLI + HTTP server; CKernel + MagicServer + MagicCLI"
+              ],
+              [
+                "2026-02-20",
+                "EVOLUTION",
+                "Epoch 004: MAGIC TIME (extinct) — Standalone menu bar app; APP was a noun, its S"
+              ],
+              [
+                "2026-02-20",
+                "EVOLUTION",
+                "Epoch 005: THE LANGUAGE defines itself — VOCAB.md defines every concept in CANON"
+              ]
             ]
           }
         }

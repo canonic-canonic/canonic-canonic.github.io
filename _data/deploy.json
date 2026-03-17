@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "DEPLOY",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "9",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,21 +68,28 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Container registry integration (GitHub Packages or Docker Hu",
-                "status": "pending"
-              },
-              {
-                "label": "Blue-green deployment for API service",
-                "status": "pending"
-              },
-              {
-                "label": "Automated rollback on health check failure",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Next",
+                "Container registry integration (GitHub Packages or Docker Hub)"
+              ],
+              [
+                "Next",
+                "Blue-green deployment for API service"
+              ],
+              [
+                "Next",
+                "Automated rollback on health check failure"
+              ],
+              [
+                "Next",
+                "Deploy notifications via NOTIFIER"
+              ]
             ]
           }
         }
@@ -87,29 +102,38 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-28",
-                "label": "Two Cloudflare tokens hardcoded in .claude/settings.json permissions array — rot"
-              },
-              {
-                "year": "2026-02-28",
-                "label": "`rollback` script in bin/ — resets fleet site to previous _generated commit, for"
-              },
-              {
-                "year": "2026-02-28",
-                "label": "`build-domains` in bin/ — provisions DNS from HTTP.md ## Zones + deploys vanity "
-              },
-              {
-                "year": "2026-02-28",
-                "label": "Dockerfile at ~/.canonic/Dockerfile — python:3.11-slim, port 8255, nobody user, "
-              },
-              {
-                "year": "2026-02-28",
-                "label": "magic-build.yml: validate → build → test-compiler → drift scan → LEDGER verify →"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-28",
+                "SECRETS_EXPOSED",
+                "Two Cloudflare tokens hardcoded in .claude/settings.json permissions array — rot"
+              ],
+              [
+                "2026-02-28",
+                "ROLLBACK_LIVE",
+                "`rollback` script in bin/ — resets fleet site to previous _generated commit, for"
+              ],
+              [
+                "2026-02-28",
+                "BUILD_DOMAINS_LIVE",
+                "`build-domains` in bin/ — provisions DNS from HTTP.md ## Zones + deploys vanity "
+              ],
+              [
+                "2026-02-28",
+                "DOCKERFILE_LIVE",
+                "Dockerfile at ~/.canonic/Dockerfile — python:3.11-slim, port 8255, nobody user, "
+              ],
+              [
+                "2026-02-28",
+                "CI_PIPELINE_COMPLETE",
+                "magic-build.yml: validate → build → test-compiler → drift scan → LEDGER verify →"
+              ]
             ]
           }
         }

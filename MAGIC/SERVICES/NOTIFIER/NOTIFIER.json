@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "NOTIFIER",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "5",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +68,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Federated NOTIFIER across GALAXY topology: governed delivery",
-                "status": "pending"
-              },
-              {
-                "label": "Priority routing: GOV-declared urgency levels (IMMEDIATE, ST",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Federated NOTIFIER across GALAXY topology: governed delivery spanning org bounda"
+              ],
+              [
+                "Later",
+                "Priority routing: GOV-declared urgency levels (IMMEDIATE, STANDARD, DIGEST)"
+              ],
+              [
+                "Later",
+                "Digest mode: batch inbox entries into periodic summaries for low-frequency princ"
+              ]
             ]
           }
         }
@@ -83,29 +98,38 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-26",
-                "label": "Direct mapping at ledger write time eliminates polling — instant cross-scope del"
-              },
-              {
-                "year": "2026-02-26",
-                "label": "notify: header in CANON.md declares delivery routes — compiler emits, runtime ex"
-              },
-              {
-                "year": "2026-02-26",
-                "label": "Per-principal inbox capped at 500 entries — prevents unbounded growth"
-              },
-              {
-                "year": "2026-02-27",
-                "label": "NOTIFIER elevated from inline notify to first-class governed service"
-              },
-              {
-                "year": "2026-02-27",
-                "label": "NOTIFIER is peer to TALK — both first-class SERVICES, both compose INTEL"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-26",
+                "NOTIFY_INLINE",
+                "Direct mapping at ledger write time eliminates polling — instant cross-scope del"
+              ],
+              [
+                "2026-02-26",
+                "GOV_ROUTE",
+                "notify: header in CANON.md declares delivery routes — compiler emits, runtime ex"
+              ],
+              [
+                "2026-02-26",
+                "INBOX_BOUNDED",
+                "Per-principal inbox capped at 500 entries — prevents unbounded growth"
+              ],
+              [
+                "2026-02-27",
+                "SERVICE_FORMALIZED",
+                "NOTIFIER elevated from inline notify to first-class governed service"
+              ],
+              [
+                "2026-02-27",
+                "TALK_PEER",
+                "NOTIFIER is peer to TALK — both first-class SERVICES, both compose INTEL"
+              ]
             ]
           }
         }

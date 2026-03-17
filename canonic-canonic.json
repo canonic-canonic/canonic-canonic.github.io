@@ -39,16 +39,16 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "CANONIC-CANONIC",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
           }
         }
       ]
@@ -60,29 +60,38 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-27",
-                "label": "canonic-canonic: 247→255 (gradient +8) by GIT"
-              },
-              {
-                "year": "2026-03-15",
-                "label": "canonic-canonic is the infrastructure layer. DEXTER and ROBERT registered as USE"
-              },
-              {
-                "year": "2026-03-15",
-                "label": "ROBERT_FLATTEN applied to runner-canonic. Same pattern as DEXTER_FLATTEN on hadl"
-              },
-              {
-                "year": "2026-03-15",
-                "label": "runner-canonic registered as GOV repo in CANONIC.git. Three GOV repos: canonic-c"
-              },
-              {
-                "year": "2026-03-15",
-                "label": "13 hardening gates absorbed into governed ROADMAPs. 4 CLOSED (architecture + Ed2"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-27",
+                "",
+                "canonic-canonic: 247→255 (gradient +8) by GIT"
+              ],
+              [
+                "2026-03-15",
+                "",
+                "canonic-canonic is the infrastructure layer. DEXTER and ROBERT registered as USE"
+              ],
+              [
+                "2026-03-15",
+                "",
+                "ROBERT_FLATTEN applied to runner-canonic. Same pattern as DEXTER_FLATTEN on hadl"
+              ],
+              [
+                "2026-03-15",
+                "",
+                "runner-canonic registered as GOV repo in CANONIC.git. Three GOV repos: canonic-c"
+              ],
+              [
+                "2026-03-15",
+                "",
+                "13 hardening gates absorbed into governed ROADMAPs. 4 CLOSED (architecture + Ed2"
+              ]
             ]
           }
         }

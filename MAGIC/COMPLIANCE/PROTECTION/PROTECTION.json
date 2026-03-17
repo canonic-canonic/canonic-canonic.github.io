@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "PROTECTION",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "3",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +68,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Cross-org branch protection federation (GALAXY repos)",
-                "status": "pending"
-              },
-              {
-                "label": "Automated protection drift detection and remediation",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Cross-org branch protection federation (GALAXY repos)"
+              ],
+              [
+                "Later",
+                "Automated protection drift detection and remediation"
+              ],
+              [
+                "Later",
+                "Multi-reviewer requirements for critical paths (VAULT, COIN)"
+              ]
             ]
           }
         }
@@ -83,13 +98,28 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-24",
-                "label": "PROTECTION scope created — closes the gap between 255 scored and 255 enforced"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-24",
+                "NEW_SCOPE",
+                "PROTECTION scope created — closes the gap between 255 scored and 255 enforced"
+              ],
+              [
+                "2026-02-24",
+                "Advisory is not a gate",
+                "MAGIC 255 without branch protection means anyone can force-push past the gate"
+              ],
+              [
+                "2026-02-24",
+                "Four rules",
+                "BRANCH_PROTECTION + REVIEW_GATE + CODEOWNERS + HOOK_ENFORCEMENT — four layers of"
+              ]
             ]
           }
         }

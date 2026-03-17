@@ -39,23 +39,92 @@
   },
   "sections": [
     {
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "RUNNERMVP",
+      "dashboard": [
+        {
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "4",
+            "change": "patterns",
+            "trend": "up"
+          }
+        }
+      ]
+    },
+    {
       "id": "roadmap",
       "eyebrow": "ROADMAP",
       "title": "Now / Next / Later",
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Multi-agent fleet: multiple Lake Nona realtors",
-                "status": "pending"
-              },
-              {
-                "label": "On-demand task runners (DoorDash model) for physical tasks",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Multi-agent fleet: multiple Lake Nona realtors"
+              ],
+              [
+                "Later",
+                "On-demand task runners (DoorDash model) for physical tasks"
+              ],
+              [
+                "Later",
+                "AI task routing: auto-assign based on vendor location + credentials + availabili"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-25",
+                "Robert Glover met Dexter at Lake Nona — RUNNER concept born",
+                "\"DoorDash for Realtors\" — task management for listing operations"
+              ],
+              [
+                "2026-03-10",
+                "Robert created RunnerMVP org + Runner-MVP repo independently",
+                "First distributed user driving product — built MVP with vibe-coding agent"
+              ],
+              [
+                "2026-03-10",
+                "Robert invited Dexter to RunnerMVP org — GOV/DEV roles established",
+                "GOVERNOR (Robert) decides. GOVERNOR_GENERAL (Dexter) executes."
+              ],
+              [
+                "2026-03-10",
+                "ORG registered in GALAXY/ORGS — first distributed CANONIC product",
+                "Same governance kernel (canonic-canonic submodule) applied to independent org"
+              ]
             ]
           }
         }

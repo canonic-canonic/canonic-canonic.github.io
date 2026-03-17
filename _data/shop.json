@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "SHOP",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "5",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +68,64 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Stripe checkout → COIN → SHOP purchase flow",
-                "status": "pending"
-              },
-              {
-                "label": "SHOP product catalog in dashboard surfaces",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Next",
+                "Stripe checkout → COIN → SHOP purchase flow"
+              ],
+              [
+                "Next",
+                "SHOP product catalog in dashboard surfaces"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-19",
+                "Every USER is a SHOP",
+                "SHOP compiles the public projection aggregate — every USER principal with artifa"
+              ],
+              [
+                "2026-02-19",
+                "Discovery walks SHOP.md files",
+                "Projection discovery via {USER}/**/SHOP.md, not just SERVICES/**/SHOP.md — broad"
+              ],
+              [
+                "2026-02-19",
+                "VAULT-to-SHOP promotion",
+                "Private learning (VAULT) promotes to SHOP when confirmed and safe; no secrets in"
+              ],
+              [
+                "2026-02-19",
+                "Drift-gate before publish",
+                "Regenerate before publish, block on mismatch — no hand-edited compiled outputs"
+              ],
+              [
+                "2026-02-19",
+                "SHOP instances per principal",
+                "Each hadleylab-canonic USER principal declares SHOP.md for their governed artifa"
+              ]
             ]
           }
         }

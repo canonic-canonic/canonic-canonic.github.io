@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "IDENTITY",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "8",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,21 +68,28 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Rollout window enforcement (unsigned → rejected)",
-                "status": "pending"
-              },
-              {
-                "label": "Key rotation with revocation ledger",
-                "status": "pending"
-              },
-              {
-                "label": "Cross-ORG key federation",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Next",
+                "Rollout window enforcement (unsigned → rejected)"
+              ],
+              [
+                "Next",
+                "Key rotation with revocation ledger"
+              ],
+              [
+                "Next",
+                "Cross-ORG key federation"
+              ],
+              [
+                "Next",
+                "Hardware key support (YubiKey)"
+              ]
             ]
           }
         }
@@ -87,25 +102,38 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-28",
-                "label": "`vault keygen --user USER` generates Ed25519 key-pair (KEY.pub + KEY.priv) at ~/"
-              },
-              {
-                "year": "2026-02-28",
-                "label": "`vault auth --user USER` mints signed Bearer token (EdDSA, 1h expiry) — GitHub O"
-              },
-              {
-                "year": "2026-02-28",
-                "label": "`vault verify-sig` validates event signatures against public keys — integrated i"
-              },
-              {
-                "year": "2026-02-28",
-                "label": "GitHub OAuth flow: /auth/github → GitHub authorize → /auth/github/callback → mat"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-20",
+                "~~Rollout window needed~~",
+                "~~Existing 17 events unsigned~~ — CLOSED: signature_cutoff defined in vault_lib."
+              ],
+              [
+                "2026-02-28",
+                "KEYGEN_LIVE",
+                "`vault keygen --user USER` generates Ed25519 key-pair (KEY.pub + KEY.priv) at ~/"
+              ],
+              [
+                "2026-02-28",
+                "AUTH_LIVE",
+                "`vault auth --user USER` mints signed Bearer token (EdDSA, 1h expiry) — GitHub O"
+              ],
+              [
+                "2026-02-28",
+                "VERIFY_SIG_LIVE",
+                "`vault verify-sig` validates event signatures against public keys — integrated i"
+              ],
+              [
+                "2026-02-28",
+                "GITHUB_OAUTH_LIVE",
+                "GitHub OAuth flow: /auth/github → GitHub authorize → /auth/github/callback → mat"
+              ]
             ]
           }
         }

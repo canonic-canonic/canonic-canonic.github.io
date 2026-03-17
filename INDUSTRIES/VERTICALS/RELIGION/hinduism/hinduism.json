@@ -39,16 +39,16 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "VERTICAL",
+      "title": "HINDUISM",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +60,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Full Hindu governance: doctrine, practice, and institution g",
-                "status": "pending"
-              },
-              {
-                "label": "CHAT layer: tradition-aware Hindu scholarly communication",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Full Hindu governance: doctrine, practice, and institution governed across all s"
+              ],
+              [
+                "Later",
+                "CHAT layer: tradition-aware Hindu scholarly communication"
+              ],
+              [
+                "Later",
+                "COIN integration: Hindu institutional intelligence as metered service"
+              ]
             ]
           }
         }

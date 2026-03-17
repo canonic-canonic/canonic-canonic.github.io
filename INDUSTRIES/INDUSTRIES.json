@@ -39,16 +39,32 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "INDUSTRIES",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "118",
+            "change": "patterns",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "CHILDREN",
+            "value": "4",
+            "change": "scopes",
+            "trend": "neutral"
           }
         }
       ]
@@ -60,17 +76,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Full industry coverage: every vertical wires INTEL + CHAT + ",
-                "status": "pending"
-              },
-              {
-                "label": "Industry-specific COIN economics (per-vertical credit flows)",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Full industry coverage: every vertical wires INTEL + CHAT + COIN autonomously"
+              ],
+              [
+                "Later",
+                "Industry-specific COIN economics (per-vertical credit flows)"
+              ],
+              [
+                "Later",
+                "Federated governance across industries with shared compliance surface"
+              ]
             ]
           }
         }
@@ -83,29 +106,38 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-14",
-                "label": "New governance domain: LEARNING"
-              },
-              {
-                "year": "2026-02-14",
-                "label": "New constraint: MUST: Declare governance."
-              },
-              {
-                "year": "2026-02-14",
-                "label": "New concept: GOVERNED"
-              },
-              {
-                "year": "2026-02-14",
-                "label": "New concept: ROOT"
-              },
-              {
-                "year": "2026-02-14",
-                "label": "New concept: POLISH"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-14",
+                "NEW_SCOPE",
+                "New governance domain: LEARNING"
+              ],
+              [
+                "2026-02-14",
+                "NEW_CONSTRAINT",
+                "New constraint: MUST: Declare governance."
+              ],
+              [
+                "2026-02-14",
+                "NEW_TERM",
+                "New concept: GOVERNED"
+              ],
+              [
+                "2026-02-14",
+                "NEW_TERM",
+                "New concept: ROOT"
+              ],
+              [
+                "2026-02-14",
+                "NEW_TERM",
+                "New concept: POLISH"
+              ]
             ]
           }
         }

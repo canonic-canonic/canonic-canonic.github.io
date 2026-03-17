@@ -39,16 +39,16 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "VERTICAL",
+      "title": "BUDDHISM",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +60,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Full Buddhist governance: doctrine, practice, and institutio",
-                "status": "pending"
-              },
-              {
-                "label": "CHAT layer: tradition-aware Buddhist scholarly communication",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Full Buddhist governance: doctrine, practice, and institution governed across al"
+              ],
+              [
+                "Later",
+                "CHAT layer: tradition-aware Buddhist scholarly communication"
+              ],
+              [
+                "Later",
+                "COIN integration: Buddhist institutional intelligence as metered service"
+              ]
             ]
           }
         }

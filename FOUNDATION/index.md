@@ -13,26 +13,26 @@ nav:
   - label: MAGIC
     href: "#magic"
 stats:
-  - value: "302"
-    label: "GOVERNED SCOPES"
+  - value: "28"
+    label: "PARTNER ORGS"
     href: "/MAGIC/#galaxy"
-    source: "Galaxy graph — 302 nodes across the fleet"
+    source: "magic scan galaxy"
   - value: "255"
     label: "MAGIC SCORE"
     href: "/MAGIC/#compiler"
-    source: "magic validate — full closure"
-  - value: "149K+"
-    label: "COIN MINTED"
-    href: "https://hadleylab.org/PAPERS/economics-of-governed-work/"
-    source: "COIN ledger — 697 economic events"
-  - value: "$38M+"
+    source: "magic validate"
+  - value: "NCT"
+    label: "CLINICAL TRIAL"
+    href: "https://clinicaltrials.gov/study/NCT06604078"
+    source: "NCT06604078 — MammoChat clinical trial"
+  - value: "$35M+"
     label: "FUNDED RESEARCH"
     href: "https://hadleylab.org/DEXTER/VITAE/"
     source: "Hadley Lab — PI funding"
 hero:
   badge: THE FOUNDATION
-  title: "The constitution ratified before the AI operates."
-  description: "FOUNDATION is the specification layer where governance compiles before agents deploy. Every AI agent, every service, every scope inherits from this constitution. Three books define the standard. Five compliance tiers gate deployment. One 255-bit score proves total governance. Organizations build on it. Regulators audit it. The blockchain proves it."
+  title: "The constitution ratified before the platform operates."
+  description: "FOUNDATION is the specification layer. Organizations build on it. Regulators constrain it. MAGIC validates it. Hadley Lab proves it. Three sections. Three books. One standard — 255 bits — that governs clinical AI, real estate, finance, law, and every domain that follows."
   cta:
     - label: Visit Hadley Lab
       href: https://hadleylab.org
@@ -40,20 +40,20 @@ hero:
       href: /
 sections:
   - id: developers
-    eyebrow: "DEVELOPER CERTIFICATION"
-    title: "Get certified. Build governed agents."
-    description: "CANONIC developer certification proves you can build AI agents that validate to 255. The certification is Git-native: your VITAE.md lives in the governance tree, your tier score comes from `magic validate`, and your credential resolves to a signed tag. No exam. No annual renewal. The code is the proof. Start at COMMUNITY (35 bits, free), iterate to FULL (255 bits), and your certification is as auditable as the agents you build."
+    eyebrow: "IMPLEMENTATION"
+    title: "Standards & Certification."
+    description: "If you can write Markdown, you can write governance. Create a directory. Add CANON.md with an axiom and constraints. Add README.md with the public interface. Add VOCAB.md with defined terms. Run the validator. Score 35. Iterate toward 255. The Doctrine is the manual. Hadley Lab is the first certified organization — the reference implementation that proves it works."
     switcher:
       kicker: "One platform. One target. Any domain."
       tabs:
         - label: First Certified
-          title: "Hadley Lab — 302 governed scopes, 255/255."
-          text: "Hadley Lab is the reference implementation. 302 governed scopes across the galaxy. 93 service scopes. Five clinical AI agents, including MammoChat (free, live clinical trial NCT06604078). Three real estate agents governing a $12.2M portfolio. 149,000+ COIN minted on the ledger. Every agent contracted, every step auditable. Built by Dexter Hadley, MD/PhD."
+          title: "Hadley Lab — the reference implementation."
+          text: "Hadley Lab is not a customer. Hadley Lab is the proof. 9 governance domains validated to 255. Four clinical AIs — including MammoChat, a free breast health companion running as a live clinical trial (NCT06604078). Three real estate agents governing a $12.2M portfolio. Financial and legal intelligence. 20,000+ governed encounters. $35M+ in PI funding. Built by Dexter Hadley, MD/PhD."
           bullets:
-            - "302 governed scopes — 255/255 across the fleet"
-            - "5 clinical AIs — MammoChat (NCT06604078), OncoChat, OmicsChat, MedChat, CaribChat"
-            - "149,000+ COIN minted — 697 ledgered events"
-            - "$38M+ PI funding — NIH, Florida DOH, PCORI"
+            - "255/255 across 9 governance domains"
+            - "4 clinical AIs — MammoChat (NCT06604078), OncoChat, OmicsChat, MedChat"
+            - "3 real estate agents — $12.2M portfolio"
+            - "$35M+ PI funding — NIH, Florida DOH"
           figure:
             type: score-meter
             score: 255
@@ -62,13 +62,12 @@ sections:
             label: Visit Hadley Lab
             href: https://hadleylab.org
         - label: Getting Started
-          title: "Three files. One command. Your first 35 bits."
-          text: "Create a directory. Add CANON.md (your axiom and constraints), README.md (the public interface), VOCAB.md (every term defined). Run `magic validate`. You score 35 — COMMUNITY tier, free forever. From there, add specification, coverage, learning, and language. Each addition flips a bit. At 255, your governance is mathematically closed and your agents can mint COIN."
+          title: "The governance framework."
+          text: "The minimum viable governance is three files — CANON.md declares what the scope is, README.md describes the public interface, VOCAB.md defines every term. This triad validates to COMMUNITY tier (35 bits). From there, add specifications, coverage, learning, and language to climb toward 255. One compliance target."
           bullets:
-            - "COMMUNITY (35 bits): CANON.md + README.md + VOCAB.md — free"
-            - "BUSINESS (63 bits): + specification + structure — $100/year, certified"
-            - "ENTERPRISE (127 bits): + coverage + roadmap — contract, continuous pipeline"
-            - "MAGIC (255 bits): all 8 dimensions — COIN minting enabled"
+            - "TRIAD: CANON.md + README.md + VOCAB.md = 35 bits"
+            - "Languages: Python, Swift, TypeScript, C, Markdown"
+            - "Pipeline: Author → Commit → Validate → Ship"
           figure:
             type: flow-chain
             nodes:

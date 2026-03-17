@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "VERTICAL",
+      "title": "ONCOLOGY",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "CHILDREN",
+            "value": "1",
+            "change": "scopes",
+            "trend": "neutral"
           }
         }
       ]
@@ -60,17 +68,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Full mCODE profile coverage across all oncology subspecialti",
-                "status": "pending"
-              },
-              {
-                "label": "Cross-institutional tumor board federation via CHAT layer",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Full mCODE profile coverage across all oncology subspecialties"
+              ],
+              [
+                "Later",
+                "Cross-institutional tumor board federation via CHAT layer"
+              ],
+              [
+                "Later",
+                "COIN integration: oncology intelligence as metered clinical decision support"
+              ]
             ]
           }
         }

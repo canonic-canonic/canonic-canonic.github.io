@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "CONTROLS",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "3",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,13 +68,16 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Per-page control overrides via CANON.md header",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Per-page control overrides via CANON.md header"
+              ]
             ]
           }
         }
@@ -79,21 +90,28 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-27",
-                "label": "Three dimensions (talk, download, view) declared in SURFACE.json per type — comp"
-              },
-              {
-                "year": "2026-03-04",
-                "label": "Fifth dimension added: gate (contribute \\"
-              },
-              {
-                "year": "2026-03-04",
-                "label": "All nav-right controls act on content within the same page — no navigation, no n"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-27",
+                "CONTROLS_FORMALIZED",
+                "Three dimensions (talk, download, view) declared in SURFACE.json per type — comp"
+              ],
+              [
+                "2026-03-04",
+                "GATE_DIMENSION",
+                "Fifth dimension added: gate (contribute \\"
+              ],
+              [
+                "2026-03-04",
+                "WITHIN_CONTEXT",
+                "All nav-right controls act on content within the same page — no navigation, no n"
+              ]
             ]
           }
         }

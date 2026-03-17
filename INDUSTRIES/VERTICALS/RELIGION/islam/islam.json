@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "VERTICAL",
+      "title": "ISLAM",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "CHILDREN",
+            "value": "3",
+            "change": "scopes",
+            "trend": "neutral"
           }
         }
       ]
@@ -60,17 +68,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Full Islamic governance: doctrine, law, and institution gove",
-                "status": "pending"
-              },
-              {
-                "label": "CHAT layer: tradition-aware Islamic scholarly communication",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Full Islamic governance: doctrine, law, and institution governed across all trad"
+              ],
+              [
+                "Later",
+                "CHAT layer: tradition-aware Islamic scholarly communication"
+              ],
+              [
+                "Later",
+                "COIN integration: Islamic institutional intelligence as metered service"
+              ]
             ]
           }
         }

@@ -39,16 +39,16 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "META",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +60,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Self-improving governance: meta-patterns feed back into kern",
-                "status": "pending"
-              },
-              {
-                "label": "Meta-domain operates as the introspection layer for the enti",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Self-improving governance: meta-patterns feed back into kernel rules"
+              ],
+              [
+                "Later",
+                "Meta-domain operates as the introspection layer for the entire CANONIC system"
+              ],
+              [
+                "Later",
+                "Automated cross-strata compliance reporting derived from meta-patterns"
+              ]
             ]
           }
         }

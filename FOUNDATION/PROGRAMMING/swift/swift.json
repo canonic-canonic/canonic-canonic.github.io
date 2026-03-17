@@ -39,16 +39,16 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "SWIFT",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +60,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Swift as primary native runtime: App Store distribution via ",
-                "status": "pending"
-              },
-              {
-                "label": "Secure Enclave passkey authentication replacing SSH key mode",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Swift as primary native runtime: App Store distribution via MAGIC app"
+              ],
+              [
+                "Later",
+                "Secure Enclave passkey authentication replacing SSH key model"
+              ],
+              [
+                "Later",
+                "Swift runtime as reference for all Apple-native canonic-* apps"
+              ]
             ]
           }
         }

@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "PAPERS",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "4",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,41 +68,87 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Papers render via DESIGN theme `layout: post` with math enab",
-                "status": "active"
-              },
-              {
-                "label": "PAPERS.json compiled index drives the listing page",
-                "status": "active"
-              },
-              {
-                "label": "Build pipeline compiles papers from .md source",
-                "status": "active"
-              },
-              {
-                "label": "LaTeX PDF export from same .md source",
-                "status": "pending"
-              },
-              {
-                "label": "Auto-generated TOC from heading structure",
-                "status": "pending"
-              },
-              {
-                "label": "Figure rendering via data-figure JSON",
-                "status": "pending"
-              },
-              {
-                "label": "Citation graph visualization (paper → paper references)",
-                "status": "pending"
-              },
-              {
-                "label": "COIN integration (paper → LEDGER → MINT)",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Now",
+                "Papers render via DESIGN theme `layout: post` with math enabled"
+              ],
+              [
+                "Now",
+                "PAPERS.json compiled index drives the listing page"
+              ],
+              [
+                "Now",
+                "Build pipeline compiles papers from .md source"
+              ],
+              [
+                "Next",
+                "LaTeX PDF export from same .md source"
+              ],
+              [
+                "Next",
+                "Auto-generated TOC from heading structure"
+              ],
+              [
+                "Next",
+                "Figure rendering via data-figure JSON"
+              ],
+              [
+                "Later",
+                "Citation graph visualization (paper → paper references)"
+              ],
+              [
+                "Later",
+                "COIN integration (paper → LEDGER → MINT)"
+              ],
+              [
+                "Later",
+                "Peer review workflow via TALK"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-20",
+                "SPEC = {SCOPE} — each paper IS a governed scope",
+                "Paper .md IS the specification, not just content"
+              ],
+              [
+                "2026-02-20",
+                "Governance .md without front matter crashes Jekyll",
+                "PAPERS dir must be compiled, not served raw"
+              ],
+              [
+                "2026-02-20",
+                "Papers need richer structure than blogs",
+                "TOC, appendices, figures, math, PDF export, citations"
+              ],
+              [
+                "2026-02-20",
+                "GOV tree must be pure",
+                "Content and governance coexist as source, compile separates them"
+              ]
             ]
           }
         }

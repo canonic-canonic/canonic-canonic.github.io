@@ -2,7 +2,7 @@
 layout: default
 scope: CANONIC
 title: CANONIC
-description: "AI agents contracted on a governed evolutionary blockchain. Every step auditable. Every claim traced. Every output validated to 255 bits. Program the governance. The AI enforces it."
+description: "A learning language of compliance. Three capabilities — intelligence, communication, and accountability — compose into governed services. Every claim validated to 255 bits. Violations become inadmissible."
 footerTagline: "CANONIC — The Machine"
 talk: side
 nav:
@@ -19,26 +19,26 @@ nav:
   - label: Hadley Lab
     href: "#proof"
 stats:
-  - value: "302"
-    label: "GOVERNED SCOPES"
-    href: "/MAGIC/#galaxy"
-    source: "Galaxy graph — 302 nodes, 564 edges, BFS-discoverable"
-  - value: "93"
-    label: "SERVICE SCOPES"
-    href: "https://hadleylab.org/services/"
-    source: "Service catalog — 93 governed services across the fleet"
-  - value: "149K+"
-    label: "COIN MINTED"
-    href: "https://hadleylab.org/PAPERS/economics-of-governed-work/"
-    source: "COIN ledger — 149,567 COIN, 697 economic events"
   - value: "21"
     label: "GOVERNED INDUSTRIES"
     href: "/INDUSTRIES/"
     source: "INDUSTRIES tree — 15 verticals + 4 regulatory + 2 horizontal"
+  - value: "$255B"
+    label: "ANNUAL WASTE"
+    href: "https://hadleylab.org/PAPERS/the-255-billion-dollar-wound/"
+    source: "The $255 Billion Wound paper — American healthcare alone"
+  - value: "20K+"
+    label: "GOVERNED ENCOUNTERS"
+    href: "https://hadleylab.org/BLOGS/2026-01-31-mammochat-to-magic/"
+    source: "MammoChat + clinical fleet — real patients, real data"
+  - value: "51"
+    label: "ENTERPRISE HOSPITALS"
+    href: "https://hadleylab.org/DEXTER/DEALS/ADVENTHEALTH/"
+    source: "AdventHealth — 550 facilities, 9 states"
 hero:
-  badge: THE GOVERNED AI PLATFORM
-  title: "AI agents that cannot lie about work done."
-  description: "CANONIC contracts AI agents on a governed evolutionary blockchain where every step is auditable, every claim is traced to evidence, and every output validates to 255 bits before it ships. The task becomes programming governance and leaving the AI to enforce it. Patented. Proven across 21 industries. Running in production."
+  badge: THE COMPLIANCE PLATFORM
+  title: "Govern AI. Prove Compliance."
+  description: "A learning language of compliance — discovered, patented, and proven across 21 industries. A platform that connects organizations in a governed regulatory environment. A patented bit encoder that makes violations inadmissible at full compliance."
   cta:
     - label: Talk to Us
       href: "#"
@@ -147,13 +147,13 @@ hero:
           - text: "domains: 3  min: 255  max: 255"
 sections:
   - id: magic
-    eyebrow: "THREE PRIMITIVES"
-    title: "Know. Speak. Prove."
-    description: "Every AI agent composes from three governed primitives. INTEL is the knowledge layer, where every claim resolves to evidence. CHAT is the communication layer, where every response inherits its domain's constraints. COIN is the accountability layer, where every unit of work mints a verifiable receipt on the ledger. Remove any primitive and the agent cannot ship."
+    eyebrow: "THREE CAPABILITIES"
+    title: "Intelligence. Communication. Accountability."
+    description: "Every governed service composes from three capabilities. INTEL is what you know. CHAT is what you say. COIN is what you do. Remove any one and the system fails."
     feature:
-      eyebrow: "ONE BLOCKCHAIN"
-      title: "The same governed chain audits a mammogram and a mortgage."
-      text: "<a href=\"https://hadleylab.org/TALKS/MAMMOCHAT/\">MammoChat</a> traces clinical evidence to NCCN guidelines. <a href=\"https://hadleylab.org/TALKS/REALTY/\">REALTY</a> traces property data to public records. <a href=\"https://hadleylab.org/TALKS/FINCHAT/\">FinChat</a> traces financial filings. Different domains, different regulations, identical governance chain. The agent cannot fabricate what the ledger does not contain."
+      eyebrow: "ONE ARCHITECTURE"
+      title: "The same platform governs a mammogram and a mortgage."
+      text: "<a href=\"https://hadleylab.org/TALKS/MAMMOCHAT/\">MammoChat</a> traces clinical evidence to NCCN guidelines. <a href=\"https://hadleylab.org/TALKS/REALTY/\">REALTY</a> traces property data to public records. <a href=\"https://hadleylab.org/TALKS/FINCHAT/\">FinChat</a> traces financial filings. Different domains. Identical governance."
       figure:
         type: flow-chain
         nodes:
@@ -169,8 +169,8 @@ sections:
           href: https://hadleylab.org
   - id: industries
     eyebrow: "21 GOVERNED DOMAINS"
-    title: "One platform. Any regulated industry. Zero audit cost."
-    description: "Your AI agents inherit their industry's constraints automatically. Medicine gets HIPAA. Finance gets SOX. Defense gets ITAR. The [MAGIC compliance engine](/MAGIC/#compiler) validates on every commit, and the blockchain ledgers every validation event. The auditor opens the ledger, not the filing cabinet."
+    title: "One platform. Any regulated industry."
+    description: "Every service inherits its industry's constraints. The [MAGIC compliance engine](/MAGIC/#compiler) validates governance — the constraints come from the [industry tree](/INDUSTRIES/)."
     switcher:
       kicker: "Same platform. Different regulations."
       tabs:
@@ -218,75 +218,75 @@ sections:
           href: /INDUSTRIES/
   - id: tiers
     eyebrow: "COMPLIANCE TIERS"
-    title: "Pick your compliance level. Every tier is auditable."
-    description: "Traditional compliance is a cost center: lawyers, auditors, annual reviews, remediation cycles. CANONIC inverts this. You program your governance tier, the AI enforces it, and the blockchain proves it. Every tier is a stable plateau in the 255-bit fitness space. Start free. Scale to full autonomy."
+    title: "Five levels. One compliance target."
+    description: "Every scope validates toward 255. Each tier is a stable plateau — a bitmask where every bit carries governance information."
     tiers:
       - name: COMMUNITY
-        price: "FREE"
-        sub: "forever"
+        price: "35"
+        sub: "bits"
         features:
-          - "Three governed files — CANON.md + README.md + VOCAB.md"
-          - "35-bit compliance score — minimum viable governance"
-          - "Full framework access and open documentation"
-          - "Foundation tools and community support"
+          - "CANON.md — the declaration"
+          - "README.md — the interface"
+          - "VOCAB.md — the type system"
+          - "The minimum viable governance"
         ctaLabel: "Start free"
         ctaHref: "#"
         ctaTalk: true
       - name: BUSINESS
-        price: "$100"
-        sub: "/year"
+        price: "63"
+        sub: "bits"
         features:
           - "Everything in COMMUNITY"
-          - "Specification document — publishable and auditable"
-          - "63-bit compliance — structure and organization validated"
-          - "Listed as certified developer in the CANONIC network"
-        ctaLabel: "Get certified"
+          - "Specification document"
+          - "Structure and organization"
+          - "Publishable and auditable"
+        ctaLabel: "Get started"
         ctaHref: "#"
         ctaTalk: true
       - name: ENTERPRISE
-        price: "CONTRACT"
-        sub: "custom"
+        price: "127"
+        sub: "bits"
         features:
           - "Everything in BUSINESS"
-          - "127-bit compliance — 8 diagnostics answered, roadmap public"
-          - "Continuous governance pipeline — validate on every commit"
-          - "Private CANON — enterprise-grade governance for your org"
+          - "Coverage — 8 diagnostics answered"
+          - "Roadmap — versioned and public"
+          - "Continuous governance pipeline"
         ctaLabel: "Talk to us"
         ctaHref: "#"
         ctaTalk: true
         featured: true
       - name: AGENT
-        price: "CONTRACT"
-        sub: "autonomous"
+        price: "224"
+        sub: "bits"
         features:
           - "Everything in ENTERPRISE"
-          - "224-bit compliance — AI agents that learn from errors"
-          - "Governed evidence chain — every reference verifiable"
-          - "Autonomous refinement — the agent improves its own governance"
-        ctaLabel: "Deploy agents"
+          - "Learning — system improves from errors"
+          - "Evidence chain — references and proof"
+          - "Autonomous governance refinement"
+        ctaLabel: "Talk to us"
         ctaHref: "#"
         ctaTalk: true
       - name: MAGIC
         price: "255"
-        sub: "full closure"
+        sub: "bits"
         features:
           - "Everything in AGENT"
-          - "255-bit compliance — all 8 dimensions satisfied"
-          - "COIN minting — governance work becomes revenue"
-          - "Inherited design language — governance scales across your org"
+          - "Language — inherited design system"
+          - "Full compliance — all 8 dimensions"
+          - "COIN minting — governance becomes revenue"
         ctaLabel: "Deploy now"
         ctaHref: "#"
         ctaTalk: true
         featured: true
-    axiom: "Governance without proof is theory. Proof without governance is anecdote. CANONIC is both."
+    axiom: "Governance without proof is theory. Proof without governance is anecdote."
   - id: economy
     eyebrow: "THE ECONOMY"
-    title: "Your compliance overhead becomes revenue."
-    description: "Every governance improvement your AI agent makes mints COIN proportional to the score gradient. The work is auditable on the ledger. The supply is bounded by governed scopes times 255. There is no inflation, only governance. 149,000+ COIN minted. 697 economic events ledgered. The economy is live."
+    title: "Compliance becomes an asset."
+    description: "Traditional compliance is a cost center. CANONIC inverts this — every governance improvement mints COIN proportional to the score gradient. The overhead becomes the product."
     feature:
       eyebrow: "COIN = WORK"
-      title: "The blockchain proves the work was done."
-      text: "Every COIN traces to a governance improvement: a scope validated, a coverage gap closed, a learning pattern promoted. Improve a scope from 0 to 35 and the ledger mints 35 COIN. Reach 255 and your governance work has minted exactly 255 COIN, each one verifiable. The economy grows by governing more, not by inflating. No staking. No speculation. Work or nothing."
+      title: "The gradient is the reward."
+      text: "Improve a scope from 0 to 35 and mint 35 COIN. Reach 255 and your governance work has minted exactly 255 COIN. Supply is bounded by governed scopes times 255. The economy grows by governing more — not by inflating."
       figure:
         type: pipeline
         steps:
@@ -303,7 +303,7 @@ sections:
   - id: library
     eyebrow: "THE EVIDENCE"
     title: "Read the evidence."
-    description: "[10 papers](https://hadleylab.org/PAPERS/). [56 essays](https://hadleylab.org/BLOGS/). [5 books](https://hadleylab.org/BOOKS/). Every claim sourced. Every proof published. This is not a roadmap: this is the audit trail."
+    description: "[9 papers](https://hadleylab.org/PAPERS/). [47 essays](https://hadleylab.org/BLOGS/). [6 books](https://hadleylab.org/BOOKS/). Every claim sourced. Every proof published."
     cards:
       - class: card
         title: "Governance as Compilation"
@@ -348,9 +348,9 @@ sections:
         - label: All Books
           href: https://hadleylab.org/BOOKS/
   - id: proof
-    eyebrow: "THE PROOF"
-    title: "Hadley Lab ships what the machine governs."
-    description: "[Hadley Lab](https://hadleylab.org) is the reference implementation. Five clinical AIs in production, including [MammoChat](https://hadleylab.org/TALKS/MAMMOCHAT/) (free to every patient, live clinical trial [NCT06604078](https://clinicaltrials.gov/study/NCT06604078)). Three real estate agents governing a [$12.2M portfolio](https://hadleylab.org/TALKS/REALTY/). 302 governed scopes across the galaxy. 93 service scopes. 149,000+ COIN minted. Built by [Dexter Hadley, MD/PhD](https://hadleylab.org/DEXTER/VITAE/) — 65+ publications, $38M+ in funded research, 14 years, 7,062 commits."
+    eyebrow: "CLINICAL PROOF"
+    title: "Hadley Lab."
+    description: "The platform defines governance. [Hadley Lab](https://hadleylab.org) ships software under it. Four clinical AIs — including [MammoChat](https://hadleylab.org/TALKS/MAMMOCHAT/), free to every patient, running as a live clinical trial ([NCT06604078](https://clinicaltrials.gov/study/NCT06604078)). Three real estate agents governing a [$12.2M portfolio](https://hadleylab.org/TALKS/REALTY/). [20,000+ governed encounters](https://hadleylab.org/BLOGS/2026-01-31-mammochat-to-magic/). Built by [Dexter Hadley, MD/PhD](https://hadleylab.org/DEXTER/VITAE/) — 121+ publications, ~$35M in funded research."
     cta:
       buttons:
         - label: Visit Hadley Lab

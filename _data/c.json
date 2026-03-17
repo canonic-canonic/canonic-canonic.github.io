@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "C",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "5",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +68,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "C kernel as reference implementation for all future runtime ",
-                "status": "pending"
-              },
-              {
-                "label": "Bare-metal deployment: kernel-level compliance on embedded a",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "C kernel as reference implementation for all future runtime neofunctionalization"
+              ],
+              [
+                "Later",
+                "Bare-metal deployment: kernel-level compliance on embedded and edge devices"
+              ],
+              [
+                "Later",
+                "C ABI stability guarantee: versioned FFI contract for all dependent runtimes"
+              ]
             ]
           }
         }
@@ -83,29 +98,38 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-14",
-                "label": "New constraint: MUST:     Keep kernel internals non-public in governed interface"
-              },
-              {
-                "year": "2026-02-06",
-                "label": "Epoch 001: Canonical Bindings — C bindings created; universal substrate, portabl"
-              },
-              {
-                "year": "2026-02-06",
-                "label": "Epoch 002: Governance Scaffold — TRIAD instantiated for C bindings"
-              },
-              {
-                "year": "2026-02-08",
-                "label": "Epoch 003: L/LANG/T Bits — Bit-level precision for C binding to 255-bit table"
-              },
-              {
-                "year": "2026-02-08",
-                "label": "Epoch 004: EVO to INTEL — Evolution primitive renamed to intelligence service"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-14",
+                "NEW_CONSTRAINT",
+                "New constraint: MUST:     Keep kernel internals non-public in governed interface"
+              ],
+              [
+                "2026-02-06",
+                "EVOLUTION",
+                "Epoch 001: Canonical Bindings — C bindings created; universal substrate, portabl"
+              ],
+              [
+                "2026-02-06",
+                "EVOLUTION",
+                "Epoch 002: Governance Scaffold — TRIAD instantiated for C bindings"
+              ],
+              [
+                "2026-02-08",
+                "EVOLUTION",
+                "Epoch 003: L/LANG/T Bits — Bit-level precision for C binding to 255-bit table"
+              ],
+              [
+                "2026-02-08",
+                "EVOLUTION",
+                "Epoch 004: EVO to INTEL — Evolution primitive renamed to intelligence service"
+              ]
             ]
           }
         }

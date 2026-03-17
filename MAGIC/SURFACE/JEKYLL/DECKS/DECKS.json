@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "DECKS",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "3",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,41 +68,82 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Deck directories render via DESIGN theme `layout: deck`",
-                "status": "active"
-              },
-              {
-                "label": "DECKS.json compiled index drives the listing page",
-                "status": "active"
-              },
-              {
-                "label": "deck.js handles slide navigation and rendering",
-                "status": "active"
-              },
-              {
-                "label": "LEARNING.json per-deck for audience-specific TALK context",
-                "status": "pending"
-              },
-              {
-                "label": "Deck analytics (view tracking tied to LEDGER)",
-                "status": "pending"
-              },
-              {
-                "label": "Export to PDF via DESIGN print styles",
-                "status": "pending"
-              },
-              {
-                "label": "Deck versioning (audience sees latest, git tracks history)",
-                "status": "pending"
-              },
-              {
-                "label": "COIN integration (pitch → DEAL → LEDGER)",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Now",
+                "Deck directories render via DESIGN theme `layout: deck`"
+              ],
+              [
+                "Now",
+                "DECKS.json compiled index drives the listing page"
+              ],
+              [
+                "Now",
+                "deck.js handles slide navigation and rendering"
+              ],
+              [
+                "Next",
+                "LEARNING.json per-deck for audience-specific TALK context"
+              ],
+              [
+                "Next",
+                "Deck analytics (view tracking tied to LEDGER)"
+              ],
+              [
+                "Next",
+                "Export to PDF via DESIGN print styles"
+              ],
+              [
+                "Later",
+                "Deck versioning (audience sees latest, git tracks history)"
+              ],
+              [
+                "Later",
+                "COIN integration (pitch → DEAL → LEDGER)"
+              ],
+              [
+                "Later",
+                "Collaborative deck editing via governed merge"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-19",
+                "Audience names the scope",
+                "HOWARD, JP-CAPITAL, MALEK — deck directory = audience identity"
+              ],
+              [
+                "2026-02-19",
+                "deck.js drives all rendering",
+                "Slides are data (JSON), not markup — DESIGN theme compiles"
+              ],
+              [
+                "2026-02-20",
+                "DECKS.json is compiled index",
+                "Hand-editing forbidden — source of truth is deck directories"
+              ]
             ]
           }
         }

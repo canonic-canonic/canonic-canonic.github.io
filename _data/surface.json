@@ -39,16 +39,32 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "SURFACE",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "13",
+            "change": "patterns",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "CHILDREN",
+            "value": "6",
+            "change": "scopes",
+            "trend": "neutral"
           }
         }
       ]
@@ -60,17 +76,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Platform-as-projection: every new principal surface auto-sca",
-                "status": "pending"
-              },
-              {
-                "label": "SURFACE sells tiers, proof features evidence: clean separati",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Platform-as-projection: every new principal surface auto-scaffolds from GOV tree"
+              ],
+              [
+                "Later",
+                "SURFACE sells tiers, proof features evidence: clean separation enforced across a"
+              ],
+              [
+                "Later",
+                "Replay-safe deployment: any fleet site can be rebuilt from GOV state at any hist"
+              ]
             ]
           }
         }
@@ -83,29 +106,38 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2025-12-29",
-                "label": "Epoch 004: Dividends-and-Deaths — The compiler insight; governance is compilatio"
-              },
-              {
-                "year": "2026-01-05",
-                "label": "Epoch 005: canonic-machine — Three axioms crystallized; 9 repos; 867 commits in "
-              },
-              {
-                "year": "2026-01-27",
-                "label": "Epoch 006: Agent Enters — First transcript: 8 words; CANNON to CANONIC transitio"
-              },
-              {
-                "year": "2026-01-31",
-                "label": "Epoch 007: STEALTH LAUNCH — Full governance live; 19 GitHub orgs; 185+ repos"
-              },
-              {
-                "year": "2026-02-03",
-                "label": "Epoch 008: Exponential Learning — 14.5x velocity explosion; 54 commits in one da"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2025-12-29",
+                "EVOLUTION",
+                "Epoch 004: Dividends-and-Deaths — The compiler insight; governance is compilatio"
+              ],
+              [
+                "2026-01-05",
+                "EVOLUTION",
+                "Epoch 005: canonic-machine — Three axioms crystallized; 9 repos; 867 commits in "
+              ],
+              [
+                "2026-01-27",
+                "EVOLUTION",
+                "Epoch 006: Agent Enters — First transcript: 8 words; CANNON to CANONIC transitio"
+              ],
+              [
+                "2026-01-31",
+                "EVOLUTION",
+                "Epoch 007: STEALTH LAUNCH — Full governance live; 19 GitHub orgs; 185+ repos"
+              ],
+              [
+                "2026-02-03",
+                "EVOLUTION",
+                "Epoch 008: Exponential Learning — 14.5x velocity explosion; 54 commits in one da"
+              ]
             ]
           }
         }

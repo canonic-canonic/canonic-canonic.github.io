@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "VERTICAL",
+      "title": "REAL_ESTATE",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "5",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,29 +68,38 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-17",
-                "label": "Real estate is public ledger — natural governance target"
-              },
-              {
-                "year": "2026-02-17",
-                "label": "PROPERTY = governed entity with parcel ID as identity"
-              },
-              {
-                "year": "2026-02-17",
-                "label": "REALTOR-CHAT = INTEL(county records) + CHAT(property agent) + COIN(transaction w"
-              },
-              {
-                "year": "2026-02-17",
-                "label": "Guinea pig pattern: prove governance on public ledger → scale to regulated indus"
-              },
-              {
-                "year": "2026-02-17",
-                "label": "PROV-001 governs property data, PROV-002 mints transaction COIN, PROV-005 creden"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-17",
+                "NEW_VERTICAL",
+                "Real estate is public ledger — natural governance target"
+              ],
+              [
+                "2026-02-17",
+                "COMPOSITION",
+                "PROPERTY = governed entity with parcel ID as identity"
+              ],
+              [
+                "2026-02-17",
+                "COMPOSITION",
+                "REALTOR-CHAT = INTEL(county records) + CHAT(property agent) + COIN(transaction w"
+              ],
+              [
+                "2026-02-17",
+                "STRATEGY",
+                "Guinea pig pattern: prove governance on public ledger → scale to regulated indus"
+              ],
+              [
+                "2026-02-17",
+                "PATENT_LINK",
+                "PROV-001 governs property data, PROV-002 mints transaction COIN, PROV-005 creden"
+              ]
             ]
           }
         }

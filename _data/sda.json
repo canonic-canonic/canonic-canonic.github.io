@@ -39,16 +39,16 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "VERTICAL",
+      "title": "SDA",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +60,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Full SDA governance: doctrine, health, education, and instit",
-                "status": "pending"
-              },
-              {
-                "label": "CHAT layer: SDA institutional communication (General Confere",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Full SDA governance: doctrine, health, education, and institution governed acros"
+              ],
+              [
+                "Later",
+                "CHAT layer: SDA institutional communication (General Conference, divisions, unio"
+              ],
+              [
+                "Later",
+                "COIN integration: Adventist institutional intelligence as metered service"
+              ]
             ]
           }
         }

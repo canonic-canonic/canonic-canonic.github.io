@@ -39,16 +39,32 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "COMPLIANCE",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "5",
+            "change": "patterns",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "CHILDREN",
+            "value": "7",
+            "change": "scopes",
+            "trend": "neutral"
           }
         }
       ]
@@ -60,17 +76,68 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Cross-org compliance federation: tier algebra projects acros",
-                "status": "pending"
-              },
-              {
-                "label": "Dynamic tier thresholds: compliance rules evolve via governe",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Cross-org compliance federation: tier algebra projects across GALAXY identity bo"
+              ],
+              [
+                "Later",
+                "Dynamic tier thresholds: compliance rules evolve via governed CANON.md amendment"
+              ],
+              [
+                "Later",
+                "Continuous compliance monitoring: real-time tier score derived from LEDGER gradi"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-19",
+                "COMPLIANCE is the tier algebra",
+                "Tiers are cumulative governance surfaces; inheritance is monotonic — children ad"
+              ],
+              [
+                "2026-02-19",
+                "Tier gates live in GOV only",
+                "Runtime interprets tier rules but never stores them — no duplicate tier algebra "
+              ],
+              [
+                "2026-02-19",
+                "Tier 127 is AGENT level",
+                "AGENT = INTEL + CHAT + COIN composed at tier 127 — the CLAUDE operating tier"
+              ],
+              [
+                "2026-02-19",
+                "Validation score = compliance score",
+                "magic validate returns 0-255; 255 = fully compliant; anything less = governance "
+              ],
+              [
+                "2026-02-19",
+                "Three foundation axioms constrain all tiers",
+                "TRIAD, INHERITANCE, INTROSPECTION — every tier must satisfy all three"
+              ]
             ]
           }
         }

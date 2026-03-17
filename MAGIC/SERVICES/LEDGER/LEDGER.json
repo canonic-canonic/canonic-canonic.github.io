@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "LEDGER",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "9",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,25 +68,38 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-03-10",
-                "label": "Federation topology governs distributed witness network — peers discovered from "
-              },
-              {
-                "year": "2026-03-10",
-                "label": "Cross-ORG DIGEST + WITNESS countersigning protocol — Ed25519 signed, 2-of-N thre"
-              },
-              {
-                "year": "2026-03-10",
-                "label": "Bitcoin OP_RETURN anchoring governed but deferred until 5+ independent ORGs witn"
-              },
-              {
-                "year": "2026-03-10",
-                "label": "Federation grows from Robert's vendor network — photographer, inspector, title, "
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-19",
+                "LEDGER promoted to flat service peer",
+                "Epoch 2 flatten: LEDGER moved from VAULT child to flat SERVICES peer alongside C"
+              ],
+              [
+                "2026-03-10",
+                "FEDERATION_GOVERNED",
+                "Federation topology governs distributed witness network — peers discovered from "
+              ],
+              [
+                "2026-03-10",
+                "WITNESS_PROTOCOL_SHIPPED",
+                "Cross-ORG DIGEST + WITNESS countersigning protocol — Ed25519 signed, 2-of-N thre"
+              ],
+              [
+                "2026-03-10",
+                "ANCHOR_DEFERRED",
+                "Bitcoin OP_RETURN anchoring governed but deferred until 5+ independent ORGs witn"
+              ],
+              [
+                "2026-03-10",
+                "NATURAL_ONBOARDING",
+                "Federation grows from Robert's vendor network — photographer, inspector, title, "
+              ]
             ]
           }
         }

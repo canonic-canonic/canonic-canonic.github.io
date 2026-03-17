@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "INIT",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "4",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +68,20 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Template library: pre-built INIT profiles for common scope t",
-                "status": "pending"
-              },
-              {
-                "label": "Cross-repo INIT: bootstrap scopes across GALAXY org boundari",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Template library: pre-built INIT profiles for common scope types (SERVICE, VERTI"
+              ],
+              [
+                "Later",
+                "Cross-repo INIT: bootstrap scopes across GALAXY org boundaries with federated in"
+              ]
             ]
           }
         }
@@ -83,13 +94,33 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-20",
-                "label": "INIT scope created to govern scope bootstrapping — closes the \"canonic init\" gap"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-20",
+                "NEW_SCOPE",
+                "INIT scope created to govern scope bootstrapping — closes the \"canonic init\" gap"
+              ],
+              [
+                "2026-02-20",
+                "Four phases, one pipeline",
+                "RESOLVE → SCAFFOLD → PROMOTE → VALIDATE — each phase gates the next, each is ide"
+              ],
+              [
+                "2026-02-20",
+                "TRIAD is floor",
+                "No scope exists below COMMUNITY tier — CANON.md + VOCAB.md + README.md is the mi"
+              ],
+              [
+                "2026-02-20",
+                "Inherits must resolve before COVERAGE",
+                "Parent scope must exist before a child claims compliance — broken chains are rej"
+              ]
             ]
           }
         }

@@ -39,16 +39,16 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "VERTICAL",
+      "title": "PSYCHIATRY",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +60,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Full psychiatric governance: diagnostic validity through rec",
-                "status": "pending"
-              },
-              {
-                "label": "CHAT layer: secure provider-patient communication with enhan",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Full psychiatric governance: diagnostic validity through recovery tracking, all "
+              ],
+              [
+                "Later",
+                "CHAT layer: secure provider-patient communication with enhanced mental health pr"
+              ],
+              [
+                "Later",
+                "COIN integration: psychiatric decision support as metered service with privacy-p"
+              ]
             ]
           }
         }

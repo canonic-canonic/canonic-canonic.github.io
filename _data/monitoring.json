@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "MONITORING",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "8",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,21 +68,28 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Governance score alerting via NOTIFIER",
-                "status": "pending"
-              },
-              {
-                "label": "Dashboard integration (Grafana or Cloudflare Analytics)",
-                "status": "pending"
-              },
-              {
-                "label": "SLA tracking (uptime, latency p99 targets)",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Next",
+                "Governance score alerting via NOTIFIER"
+              ],
+              [
+                "Next",
+                "Dashboard integration (Grafana or Cloudflare Analytics)"
+              ],
+              [
+                "Next",
+                "SLA tracking (uptime, latency p99 targets)"
+              ],
+              [
+                "Next",
+                "Automated canary deploys with metric gates"
+              ]
             ]
           }
         }
@@ -87,25 +102,38 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-28",
-                "label": "/api/v1/metrics serves Prometheus text format — canonic_api_requests_total, cano"
-              },
-              {
-                "year": "2026-02-28",
-                "label": "Every request logged as JSON to stderr — endpoint, method, status, latency_ms, i"
-              },
-              {
-                "year": "2026-02-28",
-                "label": "/api/v1/health checks ledger_head, vault_dir, wallet_valid — returns overall sta"
-              },
-              {
-                "year": "2026-03-01",
-                "label": "hello"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02",
+                "In-memory counters sufficient",
+                "API is single-process — no need for external metrics store at current scale"
+              ],
+              [
+                "2026-02-28",
+                "METRICS_LIVE",
+                "/api/v1/metrics serves Prometheus text format — canonic_api_requests_total, cano"
+              ],
+              [
+                "2026-02-28",
+                "STRUCTURED_LOGGING_LIVE",
+                "Every request logged as JSON to stderr — endpoint, method, status, latency_ms, i"
+              ],
+              [
+                "2026-02-28",
+                "HEALTH_EXTENDED_LIVE",
+                "/api/v1/health checks ledger_head, vault_dir, wallet_valid — returns overall sta"
+              ],
+              [
+                "2026-03-01",
+                "SESSION_LEDGERED",
+                "hello"
+              ]
             ]
           }
         }

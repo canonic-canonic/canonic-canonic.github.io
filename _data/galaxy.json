@@ -39,16 +39,32 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "GALAXY",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "11",
+            "change": "patterns",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "CHILDREN",
+            "value": "2",
+            "change": "scopes",
+            "trend": "neutral"
           }
         }
       ]
@@ -60,17 +76,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Multi-org GALAXY federation: governed work topology spans in",
-                "status": "pending"
-              },
-              {
-                "label": "Revocation ledger: compromised keys are invalidated across t",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Multi-org GALAXY federation: governed work topology spans independent organizati"
+              ],
+              [
+                "Later",
+                "Revocation ledger: compromised keys are invalidated across the entire galaxy wit"
+              ],
+              [
+                "Later",
+                "Galaxy-scale COIN settlement: economic events route across identity boundaries w"
+              ]
             ]
           }
         }
@@ -83,29 +106,38 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-03-01",
-                "label": "README.md boilerplate extinct: 18-line template → 3-line lean form (scope + axio"
-              },
-              {
-                "year": "2026-03-01",
-                "label": "VOCAB redundant entries extinct: child scopes must not duplicate parent VOCAB"
-              },
-              {
-                "year": "2026-03-01",
-                "label": "build-surfaces modularized: monolith (1797 lines) → 4 extracted modules (dashboa"
-              },
-              {
-                "year": "2026-03-01",
-                "label": "design-diff-gate shell wrapper extinct: Python-only CLI replaces shell+Python du"
-              },
-              {
-                "year": "2026-03-01",
-                "label": "SCSS micro-files extinct: _GRID.scss → _LAYOUT.scss, _ANIMATION.scss → _UTILITIE"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-03-01",
+                "EXTINCTION",
+                "README.md boilerplate extinct: 18-line template → 3-line lean form (scope + axio"
+              ],
+              [
+                "2026-03-01",
+                "EXTINCTION",
+                "VOCAB redundant entries extinct: child scopes must not duplicate parent VOCAB"
+              ],
+              [
+                "2026-03-01",
+                "EVOLUTION",
+                "build-surfaces modularized: monolith (1797 lines) → 4 extracted modules (dashboa"
+              ],
+              [
+                "2026-03-01",
+                "EXTINCTION",
+                "design-diff-gate shell wrapper extinct: Python-only CLI replaces shell+Python du"
+              ],
+              [
+                "2026-03-01",
+                "EXTINCTION",
+                "SCSS micro-files extinct: _GRID.scss → _LAYOUT.scss, _ANIMATION.scss → _UTILITIE"
+              ]
             ]
           }
         }

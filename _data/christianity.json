@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "VERTICAL",
+      "title": "CHRISTIANITY",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "CHILDREN",
+            "value": "5",
+            "change": "scopes",
+            "trend": "neutral"
           }
         }
       ]
@@ -60,17 +68,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Full Christian governance: every sub-tradition wires INTEL +",
-                "status": "pending"
-              },
-              {
-                "label": "CHAT layer: ecumenical and intra-denominational scholarly co",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Full Christian governance: every sub-tradition wires INTEL + CHAT + COIN indepen"
+              ],
+              [
+                "Later",
+                "CHAT layer: ecumenical and intra-denominational scholarly communication"
+              ],
+              [
+                "Later",
+                "COIN integration: Christian institutional intelligence as metered service"
+              ]
             ]
           }
         }

@@ -39,16 +39,32 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "VERTICALS",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "8",
+            "change": "patterns",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "CHILDREN",
+            "value": "15",
+            "change": "scopes",
+            "trend": "neutral"
           }
         }
       ]
@@ -60,17 +76,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Every vertical operates as autonomous governance node with f",
-                "status": "pending"
-              },
-              {
-                "label": "Verticals self-register and self-validate through magic scan",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Every vertical operates as autonomous governance node with full #63 ENTERPRISE c"
+              ],
+              [
+                "Later",
+                "Verticals self-register and self-validate through magic scan"
+              ],
+              [
+                "Later",
+                "Federated vertical network: cross-vertical intelligence sharing via INTEL layer"
+              ]
             ]
           }
         }
@@ -83,29 +106,38 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-14",
-                "label": "Medical verticals have deepest nesting (oncology → breast → MAMMOCHAT)"
-              },
-              {
-                "year": "2026-02-14",
-                "label": "SIL/DAL/ASIL-to-MAGIC tier mapping is the bridge between domain safety levels an"
-              },
-              {
-                "year": "2026-02-19",
-                "label": "Axioms + Validators + Examples + Application added to all 8 modernized verticals"
-              },
-              {
-                "year": "2026-02-19",
-                "label": "META dissolved into INTEL→LEARNING — ontological not strata"
-              },
-              {
-                "year": "2026-02-19",
-                "label": "INDUSTRIES made ontological — nodes not strings, instance binding via SHOP.md"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-14",
+                "SEED",
+                "Medical verticals have deepest nesting (oncology → breast → MAMMOCHAT)"
+              ],
+              [
+                "2026-02-14",
+                "SEED",
+                "SIL/DAL/ASIL-to-MAGIC tier mapping is the bridge between domain safety levels an"
+              ],
+              [
+                "2026-02-19",
+                "NEW_COMPOSITION",
+                "Axioms + Validators + Examples + Application added to all 8 modernized verticals"
+              ],
+              [
+                "2026-02-19",
+                "EVOLUTION",
+                "META dissolved into INTEL→LEARNING — ontological not strata"
+              ],
+              [
+                "2026-02-19",
+                "NEW_COMPOSITION",
+                "INDUSTRIES made ontological — nodes not strings, instance binding via SHOP.md"
+              ]
             ]
           }
         }

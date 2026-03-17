@@ -39,16 +39,16 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "VERTICAL",
+      "title": "ANCIENT",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +60,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Full ancient church governance: pre-1054 Christianity govern",
-                "status": "pending"
-              },
-              {
-                "label": "CHAT layer: patristic scholarship and ecumenical dialogue su",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Full ancient church governance: pre-1054 Christianity governed as shared heritag"
+              ],
+              [
+                "Later",
+                "CHAT layer: patristic scholarship and ecumenical dialogue support"
+              ],
+              [
+                "Later",
+                "COIN integration: ancient church scholarly intelligence as metered service"
+              ]
             ]
           }
         }

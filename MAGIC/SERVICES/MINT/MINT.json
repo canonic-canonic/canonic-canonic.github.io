@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "MINT",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "5",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,21 +68,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Automated backfill of historical LEDGER entries",
-                "status": "pending"
-              },
-              {
-                "label": "Multi-ORG MINT federation",
-                "status": "pending"
-              },
-              {
-                "label": "MINT:WORK from non-git sources (content, service delivery)",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Next",
+                "Automated backfill of historical LEDGER entries"
+              ],
+              [
+                "Next",
+                "Multi-ORG MINT federation"
+              ],
+              [
+                "Next",
+                "MINT:WORK from non-git sources (content, service delivery)"
+              ]
             ]
           }
         }
@@ -87,13 +98,38 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-28",
-                "label": "`vault reconcile` bridges LEDGER gradients to WALLET events — idempotent via wor"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-20",
+                "~~LEDGER↔WALLET disconnect~~",
+                "~~132,843 COIN in LEDGER vs ~5,500 in WALLETs~~ — CLOSED: `vault reconcile` brid"
+              ],
+              [
+                "2026-02-20",
+                "Gradient = COIN",
+                ".idf gradient field (to_bits - from_bits) is the natural COIN amount — governanc"
+              ],
+              [
+                "2026-02-20",
+                "Idempotency via work_ref",
+                "Dedup by idf_id in work_ref prevents double-minting on commit amend or hook re-r"
+              ],
+              [
+                "2026-02-20",
+                "Single committer bootstrap",
+                "Only DEXTER commits to git — identity mapping is 1:1 initially, federation comes"
+              ],
+              [
+                "2026-02-28",
+                "RECONCILE_LIVE",
+                "`vault reconcile` bridges LEDGER gradients to WALLET events — idempotent via wor"
+              ]
             ]
           }
         }

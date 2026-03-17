@@ -39,16 +39,16 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "VERTICAL",
+      "title": "CATHOLIC",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +60,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Full Catholic governance: doctrine, canon law, and sacrament",
-                "status": "pending"
-              },
-              {
-                "label": "CHAT layer: Catholic institutional communication (Holy See, ",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Full Catholic governance: doctrine, canon law, and sacramental operation governe"
+              ],
+              [
+                "Later",
+                "CHAT layer: Catholic institutional communication (Holy See, dioceses, religious "
+              ],
+              [
+                "Later",
+                "COIN integration: Catholic institutional intelligence as metered service"
+              ]
             ]
           }
         }

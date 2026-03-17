@@ -39,16 +39,32 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "TOOLCHAIN",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "11",
+            "change": "patterns",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "CHILDREN",
+            "value": "10",
+            "change": "scopes",
+            "trend": "neutral"
           }
         }
       ]
@@ -60,29 +76,38 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-28",
-                "label": "4 new CI gates: secret scan (GOV tree), WALLET chain verification, post-deploy h"
-              },
-              {
-                "year": "2026-03-02",
-                "label": "hadleylab-dexter → hadleylab-canonic org rename; fleet repo migrated; old .githu"
-              },
-              {
-                "year": "2026-03-08",
-                "label": "Compiler hardening: dedup 6 functions to single homes, STRATEGIES dispatch repla"
-              },
-              {
-                "year": "2026-03-08",
-                "label": "classify_kind() reads `kind:` from CANON.md header — VALID_KINDS={ORG,SERVICE,US"
-              },
-              {
-                "year": "2026-03-08",
-                "label": "Wrote code before .md — caught mid-session. Remediated: updated TOOLCHAIN.md (Ar"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-28",
+                "CI_GATES_EXPANDED",
+                "4 new CI gates: secret scan (GOV tree), WALLET chain verification, post-deploy h"
+              ],
+              [
+                "2026-03-02",
+                "DOMAIN_EVOLUTION",
+                "hadleylab-dexter → hadleylab-canonic org rename; fleet repo migrated; old .githu"
+              ],
+              [
+                "2026-03-08",
+                "MAGIC_255_HARDENING",
+                "Compiler hardening: dedup 6 functions to single homes, STRATEGIES dispatch repla"
+              ],
+              [
+                "2026-03-08",
+                "DECLARATIVE_KIND",
+                "classify_kind() reads `kind:` from CANON.md header — VALID_KINDS={ORG,SERVICE,US"
+              ],
+              [
+                "2026-03-08",
+                "GOV_FIRST_VIOLATION",
+                "Wrote code before .md — caught mid-session. Remediated: updated TOOLCHAIN.md (Ar"
+              ]
             ]
           }
         }

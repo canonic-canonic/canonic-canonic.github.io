@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "ANDROID",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "3",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +68,58 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Full SERVICES parity: Android surface projects INTEL, CHAT, ",
-                "status": "pending"
-              },
-              {
-                "label": "Play Store compliance gate: `magic validate` + native integr",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Full SERVICES parity: Android surface projects INTEL, CHAT, COIN, and LEDGER wit"
+              ],
+              [
+                "Later",
+                "Play Store compliance gate: `magic validate` + native integration checks require"
+              ],
+              [
+                "Later",
+                "Offline-first governed rendering: Android app caches GOV state and renders deter"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-19",
+                "Android is 1:1 projection of web surface",
+                "Same GOV, same lanes, same outcomes — rendering is native, governance is compile"
+              ],
+              [
+                "2026-02-19",
+                "No baked constants in app bundle",
+                "Read governed config at runtime — no provider lists, thresholds, or lane maps sh"
+              ],
+              [
+                "2026-02-19",
+                "Validation delegated to governed truth",
+                "No local policy forks — scoring and validation come from the governance tree onl"
+              ]
             ]
           }
         }

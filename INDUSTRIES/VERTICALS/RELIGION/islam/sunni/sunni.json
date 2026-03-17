@@ -39,16 +39,16 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "VERTICAL",
+      "title": "SUNNI",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +60,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Full Sunni governance: doctrine, jurisprudence, and institut",
-                "status": "pending"
-              },
-              {
-                "label": "CHAT layer: inter-madhab scholarly communication",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Full Sunni governance: doctrine, jurisprudence, and institution governed across "
+              ],
+              [
+                "Later",
+                "CHAT layer: inter-madhab scholarly communication"
+              ],
+              [
+                "Later",
+                "COIN integration: Sunni institutional intelligence as metered service"
+              ]
             ]
           }
         }

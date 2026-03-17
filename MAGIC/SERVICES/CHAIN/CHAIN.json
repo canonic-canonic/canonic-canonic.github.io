@@ -39,16 +39,24 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "CHAIN",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "6",
+            "change": "patterns",
+            "trend": "up"
           }
         }
       ]
@@ -60,21 +68,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Cross-USER chain merkle roots for ORG-level verification",
-                "status": "pending"
-              },
-              {
-                "label": "Chain export for external audit",
-                "status": "pending"
-              },
-              {
-                "label": "Automatic chain repair on detected corruption",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Next",
+                "Cross-USER chain merkle roots for ORG-level verification"
+              ],
+              [
+                "Next",
+                "Chain export for external audit"
+              ],
+              [
+                "Next",
+                "Automatic chain repair on detected corruption"
+              ]
             ]
           }
         }
@@ -87,17 +98,38 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "timeline",
-            "items": [
-              {
-                "year": "2026-02-28",
-                "label": "`vault migrate-chain` retroactively chains unchained TIMELINE events from genesi"
-              },
-              {
-                "year": "2026-02-28",
-                "label": "`vault verify-wallet --user USER` walks TIMELINE forward, verifies prev pointers"
-              }
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-20",
+                "~~Spec-runtime drift~~",
+                "~~Spec declares \"hash includes prev\" but runtime does not~~ — CLOSED: runtime no"
+              ],
+              [
+                "2026-02-20",
+                "12-char truncated hash",
+                "Existing event IDs use SHA256[:12] — maintained for chain IDs to preserve compat"
+              ],
+              [
+                "2026-02-20",
+                "Balance must be derived",
+                "WALLET.json balance is incrementally updated but should match full TIMELINE deri"
+              ],
+              [
+                "2026-02-28",
+                "CHAIN_LIVE",
+                "`vault migrate-chain` retroactively chains unchained TIMELINE events from genesi"
+              ],
+              [
+                "2026-02-28",
+                "VERIFY_WALLET_LIVE",
+                "`vault verify-wallet --user USER` walks TIMELINE forward, verifies prev pointers"
+              ]
             ]
           }
         }

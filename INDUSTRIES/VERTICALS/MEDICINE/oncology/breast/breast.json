@@ -39,16 +39,16 @@
   },
   "sections": [
     {
-      "id": "governance",
-      "eyebrow": "GOVERNANCE",
-      "title": "MAGIC",
+      "id": "status",
+      "eyebrow": "VERTICAL",
+      "title": "BREAST",
       "dashboard": [
         {
-          "figure": {
-            "type": "gauge",
-            "value": 255,
-            "max": 255,
-            "label": "MAGIC"
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
           }
         }
       ]
@@ -60,17 +60,24 @@
       "dashboard": [
         {
           "span": 2,
-          "figure": {
-            "type": "pipeline",
-            "steps": [
-              {
-                "label": "Full breast oncology decision support: screening through sur",
-                "status": "pending"
-              },
-              {
-                "label": "Cross-institutional breast cancer registry federation",
-                "status": "pending"
-              }
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Full breast oncology decision support: screening through survivorship, governed "
+              ],
+              [
+                "Later",
+                "Cross-institutional breast cancer registry federation"
+              ],
+              [
+                "Later",
+                "COIN integration: breast oncology intelligence as metered service for clinical a"
+              ]
             ]
           }
         }
