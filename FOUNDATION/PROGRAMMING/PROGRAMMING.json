@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "PROGRAMMING",
+    "badge": "USER",
     "title": "PROGRAMMING",
     "description": "DEV — programming language implementations.",
     "cta": [
@@ -38,6 +38,79 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "CANONIC as programming paradigm formalization",
+                "status": "pending"
+              },
+              {
+                "label": "App Store expansion: each canonic-* becomes its own MAGIC ap",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-20",
+                "label": "Epoch 001: Compiler Correspondence — Governance maps isomorphically to compilati"
+              },
+              {
+                "year": "2026-02-20",
+                "label": "Epoch 002: Validation Decidability — Scope validity decidable in O(n); invalid c"
+              },
+              {
+                "year": "2026-02-20",
+                "label": "Epoch 003: MagicServer — SPM CLI + HTTP server; CKernel + MagicServer + MagicCLI"
+              },
+              {
+                "year": "2026-02-20",
+                "label": "Epoch 004: MAGIC TIME (extinct) — Standalone menu bar app; APP was a noun, its S"
+              },
+              {
+                "year": "2026-02-20",
+                "label": "Epoch 005: THE LANGUAGE defines itself — VOCAB.md defines every concept in CANON"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "children",
       "eyebrow": "PROGRAMMING",

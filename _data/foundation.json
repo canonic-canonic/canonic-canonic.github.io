@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "FOUNDATION",
+    "badge": "USER",
     "title": "FOUNDATION",
     "description": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
     "cta": [
@@ -38,6 +38,56 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-14",
+                "label": "New governance domain: MAGIC/SALES/LEARNING"
+              },
+              {
+                "year": "2026-02-14",
+                "label": "New governance domain: MAGIC/TOOLCHAIN"
+              },
+              {
+                "year": "2026-02-14",
+                "label": "New governance domain: MAGIC/TOOLCHAIN/LEARNING"
+              },
+              {
+                "year": "2026-02-14",
+                "label": "New governance domain: MAGIC/VAULT/LEARNING"
+              },
+              {
+                "year": "2026-02-01",
+                "label": "New concept: [REDACTED]"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "children",
       "eyebrow": "FOUNDATION",

@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "WALLET",
+    "badge": "USER",
     "title": "WALLET",
     "description": "WALLET is the per-USER economic identity. Every USER has one. Every COIN lives in one.",
     "cta": [
@@ -38,6 +38,48 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "TRANSFER via @USERNAME in dashboards",
+                "status": "pending"
+              },
+              {
+                "label": "SPEND via SHOP product purchase",
+                "status": "pending"
+              },
+              {
+                "label": "SETTLE via Stripe payout",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-events",
       "eyebrow": "EVENTS",

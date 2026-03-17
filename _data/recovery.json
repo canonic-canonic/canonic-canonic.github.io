@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "RECOVERY",
+    "badge": "USER",
     "title": "RECOVERY",
     "description": "CANONIC survives any single point of failure.",
     "cta": [
@@ -38,6 +38,63 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Automated backup verification (checksum + MAGIC 255 on resto",
+                "status": "pending"
+              },
+              {
+                "label": "Cross-org backup federation (GALAXY repos backed up by multi",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-24",
+                "label": "RECOVERY scope created — closes the disaster recovery governance gap"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-failure-modes",
       "eyebrow": "FAILURE MODES",

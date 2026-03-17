@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "canonic-canonic",
+    "badge": "USER",
     "title": "canonic-canonic",
     "description": "SPEC is governance. `canonic-canonic/` is the spec root.",
     "cta": [
@@ -38,6 +38,56 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-27",
+                "label": "canonic-canonic: 247→255 (gradient +8) by GIT"
+              },
+              {
+                "year": "2026-03-15",
+                "label": "canonic-canonic is the infrastructure layer. DEXTER and ROBERT registered as USE"
+              },
+              {
+                "year": "2026-03-15",
+                "label": "ROBERT_FLATTEN applied to runner-canonic. Same pattern as DEXTER_FLATTEN on hadl"
+              },
+              {
+                "year": "2026-03-15",
+                "label": "runner-canonic registered as GOV repo in CANONIC.git. Three GOV repos: canonic-c"
+              },
+              {
+                "year": "2026-03-15",
+                "label": "13 hardening gates absorbed into governed ROADMAPs. 4 CLOSED (architecture + Ed2"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "children",
       "eyebrow": "canonic-canonic",

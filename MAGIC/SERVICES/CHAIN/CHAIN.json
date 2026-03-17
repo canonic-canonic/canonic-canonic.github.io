@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "CHAIN",
+    "badge": "USER",
     "title": "CHAIN",
     "description": "Every WALLET event chains to its predecessor. Balance is provable.",
     "cta": [
@@ -38,6 +38,71 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Cross-USER chain merkle roots for ORG-level verification",
+                "status": "pending"
+              },
+              {
+                "label": "Chain export for external audit",
+                "status": "pending"
+              },
+              {
+                "label": "Automatic chain repair on detected corruption",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-28",
+                "label": "`vault migrate-chain` retroactively chains unchained TIMELINE events from genesi"
+              },
+              {
+                "year": "2026-02-28",
+                "label": "`vault verify-wallet --user USER` walks TIMELINE forward, verifies prev pointers"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-record-shape-extension",
       "eyebrow": "RECORD SHAPE EXTENSION",

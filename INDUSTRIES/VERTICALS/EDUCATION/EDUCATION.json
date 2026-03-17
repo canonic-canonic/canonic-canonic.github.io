@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "EDUCATION",
+    "badge": "USER",
     "title": "EDUCATION",
     "description": "Example",
     "cta": [
@@ -38,6 +38,21 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
     {
       "id": "canon-specification",
       "eyebrow": "SPECIFICATION",

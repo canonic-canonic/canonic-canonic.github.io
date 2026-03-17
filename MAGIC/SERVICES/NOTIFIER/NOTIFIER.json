@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "NOTIFIER",
+    "badge": "USER",
     "title": "NOTIFIER",
     "description": "NOTIFIER is NOTIFY + INTEL composed. Scope determines the route. Ledger determines the proof.",
     "cta": [
@@ -38,6 +38,79 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Federated NOTIFIER across GALAXY topology: governed delivery",
+                "status": "pending"
+              },
+              {
+                "label": "Priority routing: GOV-declared urgency levels (IMMEDIATE, ST",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-26",
+                "label": "Direct mapping at ledger write time eliminates polling — instant cross-scope del"
+              },
+              {
+                "year": "2026-02-26",
+                "label": "notify: header in CANON.md declares delivery routes — compiler emits, runtime ex"
+              },
+              {
+                "year": "2026-02-26",
+                "label": "Per-principal inbox capped at 500 entries — prevents unbounded growth"
+              },
+              {
+                "year": "2026-02-27",
+                "label": "NOTIFIER elevated from inline notify to first-class governed service"
+              },
+              {
+                "year": "2026-02-27",
+                "label": "NOTIFIER is peer to TALK — both first-class SERVICES, both compose INTEL"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-composition",
       "eyebrow": "COMPOSITION",

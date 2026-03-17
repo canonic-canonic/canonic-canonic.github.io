@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "SALES",
+    "badge": "USER",
     "title": "SALES",
     "description": "CHAT about MAGIC. How MAGIC talks to buyers.",
     "cta": [
@@ -38,6 +38,21 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
     {
       "id": "canon-ecosystem",
       "eyebrow": "ECOSYSTEM",

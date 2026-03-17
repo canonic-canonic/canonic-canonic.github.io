@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "SEMANTIC",
+    "badge": "USER",
     "title": "SEMANTIC",
     "description": "Every term resolves. Every chain closes. Every score reflects reality.",
     "cta": [
@@ -38,6 +38,63 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Automated stub resolution: agent-assisted VOCAB filling guid",
+                "status": "pending"
+              },
+              {
+                "label": "Semantic scoring: extend MAGIC 255 with semantic dimensions ",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-20",
+                "label": "SEMANTIC scope created to govern vocabulary closure and inheritance integrity — "
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-rules",
       "eyebrow": "RULES",

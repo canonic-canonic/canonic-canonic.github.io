@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "PROTECTION",
+    "badge": "USER",
     "title": "PROTECTION",
     "description": "No commit reaches main without passing the 255 gate.",
     "cta": [
@@ -38,6 +38,63 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Cross-org branch protection federation (GALAXY repos)",
+                "status": "pending"
+              },
+              {
+                "label": "Automated protection drift detection and remediation",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-24",
+                "label": "PROTECTION scope created — closes the gap between 255 scored and 255 enforced"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-rules",
       "eyebrow": "RULES",

@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "CERTIFICATION",
+    "badge": "USER",
     "title": "CERTIFICATION",
     "description": "CERTIFICATION is COMPLIANCE made portable. Git is the certification engine. A tag is a badge. A badge is a tag. 255 or reject.",
     "cta": [
@@ -38,6 +38,21 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
     {
       "id": "canon-tag-convention",
       "eyebrow": "TAG CONVENTION",

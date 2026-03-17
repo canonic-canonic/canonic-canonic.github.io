@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "RunnerMVP",
+    "badge": "USER",
     "title": "RunnerMVP",
     "description": "RUNNER is the real estate task marketplace. Post a task. A pro handles it. Every effort earns COIN. Robert Glover is GOVERNOR. Dexter Hadley is GOVERNOR_GENERAL.",
     "cta": [
@@ -38,6 +38,29 @@
     ]
   },
   "sections": [
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Multi-agent fleet: multiple Lake Nona realtors",
+                "status": "pending"
+              },
+              {
+                "label": "On-demand task runners (DoorDash model) for physical tasks",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-identity",
       "eyebrow": "IDENTITY",

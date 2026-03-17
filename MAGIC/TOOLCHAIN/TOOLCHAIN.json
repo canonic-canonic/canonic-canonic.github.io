@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "TOOLCHAIN",
+    "badge": "USER",
     "title": "TOOLCHAIN",
     "description": "Governance drives code. Never the reverse.",
     "cta": [
@@ -38,6 +38,56 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-28",
+                "label": "4 new CI gates: secret scan (GOV tree), WALLET chain verification, post-deploy h"
+              },
+              {
+                "year": "2026-03-02",
+                "label": "hadleylab-dexter → hadleylab-canonic org rename; fleet repo migrated; old .githu"
+              },
+              {
+                "year": "2026-03-08",
+                "label": "Compiler hardening: dedup 6 functions to single homes, STRATEGIES dispatch repla"
+              },
+              {
+                "year": "2026-03-08",
+                "label": "classify_kind() reads `kind:` from CANON.md header — VALID_KINDS={ORG,SERVICE,US"
+              },
+              {
+                "year": "2026-03-08",
+                "label": "Wrote code before .md — caught mid-session. Remediated: updated TOOLCHAIN.md (Ar"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "children",
       "eyebrow": "TOOLCHAIN",

@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "SERVICES",
+    "badge": "USER",
     "title": "SERVICES",
     "description": "SERVICES are SURFACE routes with governed boundaries.",
     "cta": [
@@ -38,6 +38,44 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Federated service routing across GALAXY identity boundaries ",
+                "status": "pending"
+              },
+              {
+                "label": "Runtime service discovery protocol replacing static governed",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "children",
       "eyebrow": "SERVICES",

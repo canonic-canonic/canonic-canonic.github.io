@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "MAGIC",
+    "badge": "USER",
     "title": "MAGIC",
     "description": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
     "cta": [
@@ -38,6 +38,56 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-03-01",
+                "label": "New constraint: README.md MUST be lean (scope + inherits + axiom) — no boilerpla"
+              },
+              {
+                "year": "2026-03-01",
+                "label": "build-surfaces monolith → modular: dashboard, discover, fleet, gc extracted"
+              },
+              {
+                "year": "2026-03-01",
+                "label": "Extinction: design-diff-gate shell wrapper removed (155 lines) — Python CLI is c"
+              },
+              {
+                "year": "2026-03-01",
+                "label": "Extinction: _GRID.scss merged into _LAYOUT.scss (23 lines), _ANIMATION.scss merg"
+              },
+              {
+                "year": "2026-03-01",
+                "label": "New constraint: enforce-bloat-gate runs on every commit — blocks COVERAGE boiler"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "children",
       "eyebrow": "MAGIC",

@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "GALAXY",
+    "badge": "USER",
     "title": "GALAXY",
     "description": "GALAXY is distributed work topology.",
     "cta": [
@@ -38,6 +38,79 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Multi-org GALAXY federation: governed work topology spans in",
+                "status": "pending"
+              },
+              {
+                "label": "Revocation ledger: compromised keys are invalidated across t",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-03-01",
+                "label": "README.md boilerplate extinct: 18-line template → 3-line lean form (scope + axio"
+              },
+              {
+                "year": "2026-03-01",
+                "label": "VOCAB redundant entries extinct: child scopes must not duplicate parent VOCAB"
+              },
+              {
+                "year": "2026-03-01",
+                "label": "build-surfaces modularized: monolith (1797 lines) → 4 extracted modules (dashboa"
+              },
+              {
+                "year": "2026-03-01",
+                "label": "design-diff-gate shell wrapper extinct: Python-only CLI replaces shell+Python du"
+              },
+              {
+                "year": "2026-03-01",
+                "label": "SCSS micro-files extinct: _GRID.scss → _LAYOUT.scss, _ANIMATION.scss → _UTILITIE"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "children",
       "eyebrow": "GALAXY",

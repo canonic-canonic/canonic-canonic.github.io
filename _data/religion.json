@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "RELIGION",
+    "badge": "USER",
     "title": "RELIGION",
     "description": "RELIGION surface.",
     "cta": [
@@ -38,6 +38,52 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-20",
+                "label": "Lattice Formula: All traditions follow D→E→T→R→O→S accumulation; schism reverses"
+              },
+              {
+                "year": "2026-02-20",
+                "label": "Taxonomy: Proto-Semitic → Judaism → Christianity → Islam; Indo-European → Hindui"
+              },
+              {
+                "year": "2026-02-20",
+                "label": "Shared Abrahamic formula: SDA and Sunni Islam share same TIER, different CONTENT"
+              },
+              {
+                "year": "2026-02-20",
+                "label": "Phase pattern: DECLARATION → EVIDENCE → TEMPORAL CHAIN → COMMUNITY → ENFORCEMENT"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "children",
       "eyebrow": "RELIGION",

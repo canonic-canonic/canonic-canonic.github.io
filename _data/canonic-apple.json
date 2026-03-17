@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "canonic-apple",
+    "badge": "USER",
     "title": "canonic-apple",
     "description": "Apple platform integration. iOS and macOS SURFACE client.",
     "cta": [
@@ -38,6 +38,44 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Platform marketplace integration",
+                "status": "pending"
+              },
+              {
+                "label": "Performance optimization",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-identity",
       "eyebrow": "IDENTITY",

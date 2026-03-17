@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "INDUSTRIES",
+    "badge": "USER",
     "title": "INDUSTRIES",
     "description": "INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.",
     "cta": [
@@ -38,6 +38,79 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Full industry coverage: every vertical wires INTEL + CHAT + ",
+                "status": "pending"
+              },
+              {
+                "label": "Industry-specific COIN economics (per-vertical credit flows)",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-14",
+                "label": "New governance domain: LEARNING"
+              },
+              {
+                "year": "2026-02-14",
+                "label": "New constraint: MUST: Declare governance."
+              },
+              {
+                "year": "2026-02-14",
+                "label": "New concept: GOVERNED"
+              },
+              {
+                "year": "2026-02-14",
+                "label": "New concept: ROOT"
+              },
+              {
+                "year": "2026-02-14",
+                "label": "New concept: POLISH"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "children",
       "eyebrow": "INDUSTRIES",

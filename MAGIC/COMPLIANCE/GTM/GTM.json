@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "GTM",
+    "badge": "USER",
     "title": "GTM",
     "description": "COIN about MAGIC. How MAGIC executes in the market.",
     "cta": [
@@ -38,6 +38,21 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
     {
       "id": "canon-ecosystem",
       "eyebrow": "ECOSYSTEM",

@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "BLOGS",
+    "badge": "USER",
     "title": "BLOGS",
     "description": "BLOGS are governed literary artifacts. Every post is a timestamped disclosure.",
     "cta": [
@@ -38,6 +38,68 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Posts render via DESIGN theme `layout: post`",
+                "status": "active"
+              },
+              {
+                "label": "BLOGS.json compiled index drives the listing page",
+                "status": "active"
+              },
+              {
+                "label": "PROOF include fetches CANON.json for governance badges",
+                "status": "active"
+              },
+              {
+                "label": "LEARNING.json per-scope for TALK widget context",
+                "status": "pending"
+              },
+              {
+                "label": "Post-level PROOF verification (commit hash → LEDGER .idf)",
+                "status": "pending"
+              },
+              {
+                "label": "RSS/Atom feed generation",
+                "status": "pending"
+              },
+              {
+                "label": "Cross-scope post aggregation (HADLEYLAB + CANONIC blogs)",
+                "status": "pending"
+              },
+              {
+                "label": "Post authorship tied to USER WALLET (COIN per post)",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-interface",
       "eyebrow": "INTERFACE",

@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "USERS",
+    "badge": "USER",
     "title": "USERS",
     "description": "USERS are GitHub identities projected into ORGs.",
     "cta": [
@@ -38,6 +38,40 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-20",
+                "label": "Epoch 001: USERS Scope — Every user is an ORG; VITAE = identity; CANON = governa"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-dashboard-contract",
       "eyebrow": "DASHBOARD CONTRACT",

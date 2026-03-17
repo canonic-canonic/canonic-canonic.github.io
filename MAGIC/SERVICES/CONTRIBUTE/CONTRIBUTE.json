@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "CONTRIBUTE",
+    "badge": "USER",
     "title": "CONTRIBUTE",
     "description": "CONTRIBUTE is WORK recorded. Every contribution ledgered. Every WORK mints COIN.",
     "cta": [
@@ -38,6 +38,67 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Cross-scope contribution aggregation",
+                "status": "pending"
+              },
+              {
+                "label": "Contributor reputation (verified contribution count → tier)",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-26",
+                "label": "CONTRIBUTE promoted to library-scope service — ATULISMS first consumer"
+              },
+              {
+                "year": "2026-02-26",
+                "label": "Scope must be a parameter, not a constant — ATULISMS proved the pattern"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-record-shape",
       "eyebrow": "RECORD SHAPE",

@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "PAPERS",
+    "badge": "USER",
     "title": "PAPERS",
     "description": "PAPERS are governed academic artifacts. Each paper IS a scope. SPEC = {SCOPE}.",
     "cta": [
@@ -38,6 +38,68 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Papers render via DESIGN theme `layout: post` with math enab",
+                "status": "active"
+              },
+              {
+                "label": "PAPERS.json compiled index drives the listing page",
+                "status": "active"
+              },
+              {
+                "label": "Build pipeline compiles papers from .md source",
+                "status": "active"
+              },
+              {
+                "label": "LaTeX PDF export from same .md source",
+                "status": "pending"
+              },
+              {
+                "label": "Auto-generated TOC from heading structure",
+                "status": "pending"
+              },
+              {
+                "label": "Figure rendering via data-figure JSON",
+                "status": "pending"
+              },
+              {
+                "label": "Citation graph visualization (paper → paper references)",
+                "status": "pending"
+              },
+              {
+                "label": "COIN integration (paper → LEDGER → MINT)",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-interface-paper-front-matter",
       "eyebrow": "INTERFACE — PAPER FRONT MATTER",

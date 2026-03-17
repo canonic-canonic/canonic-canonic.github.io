@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "ONBOARDING",
+    "badge": "USER",
     "title": "ONBOARDING",
     "description": "ONBOARDING is the contributor entry point. One runbook. Ten minutes. Your first governed scope.",
     "cta": [
@@ -38,6 +38,59 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Self-service contributor portal",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-27",
+                "label": "ONBOARDING scope governance completed — full MAGIC 255"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-prerequisites",
       "eyebrow": "PREREQUISITES",

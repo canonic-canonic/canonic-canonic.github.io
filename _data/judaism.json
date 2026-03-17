@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "judaism",
+    "badge": "USER",
     "title": "judaism",
     "description": "Example",
     "cta": [
@@ -38,6 +38,44 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Full Jewish governance: doctrine, law, and institution gover",
+                "status": "pending"
+              },
+              {
+                "label": "CHAT layer: inter-movement and intra-movement scholarly comm",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-ecosystem",
       "eyebrow": "ECOSYSTEM",

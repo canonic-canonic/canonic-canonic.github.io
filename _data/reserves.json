@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "RESERVES",
+    "badge": "USER",
     "title": "RESERVES",
     "description": "Status",
     "cta": [
@@ -38,6 +38,44 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Perpetual motion economics: COIN consumed produces MORE WORK",
+                "status": "pending"
+              },
+              {
+                "label": "Cross-org federated reserves with multi-ledger reconciliatio",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-primitives",
       "eyebrow": "PRIMITIVES",

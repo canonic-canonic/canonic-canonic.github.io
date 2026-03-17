@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "DECKS",
+    "badge": "USER",
     "title": "DECKS",
     "description": "DECKS are governed presentation artifacts. Every pitch is a CANON-named scope.",
     "cta": [
@@ -38,6 +38,68 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Deck directories render via DESIGN theme `layout: deck`",
+                "status": "active"
+              },
+              {
+                "label": "DECKS.json compiled index drives the listing page",
+                "status": "active"
+              },
+              {
+                "label": "deck.js handles slide navigation and rendering",
+                "status": "active"
+              },
+              {
+                "label": "LEARNING.json per-deck for audience-specific TALK context",
+                "status": "pending"
+              },
+              {
+                "label": "Deck analytics (view tracking tied to LEDGER)",
+                "status": "pending"
+              },
+              {
+                "label": "Export to PDF via DESIGN print styles",
+                "status": "pending"
+              },
+              {
+                "label": "Deck versioning (audience sees latest, git tracks history)",
+                "status": "pending"
+              },
+              {
+                "label": "COIN integration (pitch → DEAL → LEDGER)",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-interface",
       "eyebrow": "INTERFACE",

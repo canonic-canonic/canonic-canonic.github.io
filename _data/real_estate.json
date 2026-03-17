@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "REAL_ESTATE",
+    "badge": "USER",
     "title": "REAL_ESTATE",
     "description": "Example",
     "cta": [
@@ -38,6 +38,56 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-17",
+                "label": "Real estate is public ledger — natural governance target"
+              },
+              {
+                "year": "2026-02-17",
+                "label": "PROPERTY = governed entity with parcel ID as identity"
+              },
+              {
+                "year": "2026-02-17",
+                "label": "REALTOR-CHAT = INTEL(county records) + CHAT(property agent) + COIN(transaction w"
+              },
+              {
+                "year": "2026-02-17",
+                "label": "Guinea pig pattern: prove governance on public ledger → scale to regulated indus"
+              },
+              {
+                "year": "2026-02-17",
+                "label": "PROV-001 governs property data, PROV-002 mints transaction COIN, PROV-005 creden"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-domain-declaration",
       "eyebrow": "DOMAIN DECLARATION",

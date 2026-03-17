@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "APPLE",
+    "badge": "USER",
     "title": "APPLE",
     "description": "MAGIC on Apple is native, governed, fast.",
     "cta": [
@@ -38,6 +38,44 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Full SERVICES parity: iOS surface projects INTEL, CHAT, COIN",
+                "status": "pending"
+              },
+              {
+                "label": "App Store compliance gate: `magic validate` + native integra",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-architecture",
       "eyebrow": "ARCHITECTURE",

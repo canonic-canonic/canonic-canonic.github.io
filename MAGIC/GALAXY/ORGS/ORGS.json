@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "ORGS",
+    "badge": "USER",
     "title": "ORGS",
     "description": "ORGS = federation identity. Users authenticate. Users maintain VITAE.",
     "cta": [
@@ -38,6 +38,68 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Federation identity model defined",
+                "status": "active"
+              },
+              {
+                "label": "VITAE validation against MAGIC",
+                "status": "active"
+              },
+              {
+                "label": "{org}/{user} distribution pattern established (`github.com/{",
+                "status": "active"
+              },
+              {
+                "label": "VITAE → 255-bit compliance path per user",
+                "status": "pending"
+              },
+              {
+                "label": "Credential verification pipeline (automated)",
+                "status": "pending"
+              },
+              {
+                "label": "Org-user registry with federation keys",
+                "status": "pending"
+              },
+              {
+                "label": "[ ] User onboarding flow via \"+\"",
+                "status": "pending"
+              },
+              {
+                "label": "[ ] VITAE generation for new users",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "children",
       "eyebrow": "ORGS",

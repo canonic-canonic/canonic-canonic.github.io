@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "API",
+    "badge": "USER",
     "title": "API",
     "description": "API is the network surface for COIN. Every endpoint authenticated. Every response governed.",
     "cta": [
@@ -38,6 +38,83 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Stripe webhook integration",
+                "status": "pending"
+              },
+              {
+                "label": "Rate limiting per USER",
+                "status": "pending"
+              },
+              {
+                "label": "OpenAPI spec generation from governance",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-28",
+                "label": "CORS origins governed: canonic.org, hadleylab.org, api.canonic.org — never wildc"
+              },
+              {
+                "year": "2026-02-28",
+                "label": "In-memory per-IP rate limiting: 60 req/min — returns 429 when exceeded"
+              },
+              {
+                "year": "2026-02-28",
+                "label": "SIGTERM handler sets _shutting_down flag, returns 503, drains in-flight requests"
+              },
+              {
+                "year": "2026-02-28",
+                "label": "Exponential backoff with jitter on GitHub and Stripe calls — max 3 attempts"
+              },
+              {
+                "year": "2026-02-28",
+                "label": "Stripe webhook signature verified via HMAC-SHA256 before processing checkout.ses"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-endpoints",
       "eyebrow": "ENDPOINTS",

@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "TALK",
+    "badge": "USER",
     "title": "TALK",
     "description": "api.canonic.org is the CANONIC service worker. All primitives. All streams. Zero hardcoding.",
     "cta": [
@@ -38,6 +38,40 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-27",
+                "label": "TALK (SURFACE/DESIGN) scope governance completed — full MAGIC 255"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-services",
       "eyebrow": "SERVICES",

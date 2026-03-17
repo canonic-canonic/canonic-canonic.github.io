@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "HYGIENE",
+    "badge": "USER",
     "title": "HYGIENE",
     "description": "No drift. Every file in a governed scope has a reason. The validator proves it.",
     "cta": [
@@ -38,6 +38,44 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-28",
+                "label": "HYGIENE gate promoted from SOFT (warn) to HARD (fail CI) — non-schema files in g"
+              },
+              {
+                "year": "2026-02-28",
+                "label": "CI validates every .md file in governed scopes against HYGIENE/CANON.md schema +"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-scope",
       "eyebrow": "SCOPE",

@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "CONFIG",
+    "badge": "USER",
     "title": "CONFIG",
     "description": "CONFIG = INTEL. Runtime configuration. Zero hardcoding.",
     "cta": [
@@ -38,6 +38,21 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
     {
       "id": "canon-scope",
       "eyebrow": "SCOPE",

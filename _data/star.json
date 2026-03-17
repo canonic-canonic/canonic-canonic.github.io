@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "STAR",
+    "badge": "USER",
     "title": "STAR",
     "description": "STAR is your personal portal in the GALAXY. INTEL + CHAT + COIN composed into a unified personal surface. The TIMELINE is the joint lane for all cross-axiomatic intel.",
     "cta": [
@@ -38,6 +38,29 @@
     ]
   },
   "sections": [
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "iOS SwiftUI STAR view (reads same API)",
+                "status": "pending"
+              },
+              {
+                "label": "TIMELINE filters (by stream, by primitive, by date range)",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-composition",
       "eyebrow": "COMPOSITION",

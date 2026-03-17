@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "sikhism",
+    "badge": "USER",
     "title": "sikhism",
     "description": "Example",
     "cta": [
@@ -38,6 +38,44 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Full Sikh governance: doctrine, practice, and institution go",
+                "status": "pending"
+              },
+              {
+                "label": "CHAT layer: Sikh institutional communication (takhts, gurdwa",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-ecosystem",
       "eyebrow": "ECOSYSTEM",

@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "swift",
+    "badge": "USER",
     "title": "swift",
     "description": "IOS_NATIVE = Apple ecosystem. Mobile SHOP.",
     "cta": [
@@ -38,6 +38,44 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Swift as primary native runtime: App Store distribution via ",
+                "status": "pending"
+              },
+              {
+                "label": "Secure Enclave passkey authentication replacing SSH key mode",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-ecosystem",
       "eyebrow": "ECOSYSTEM",

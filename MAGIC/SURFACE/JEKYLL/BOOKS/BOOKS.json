@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "BOOKS",
+    "badge": "USER",
     "title": "BOOKS",
     "description": "BOOKS are governed long-form artifacts. Each book IS a scope with PARTS and CHAPTERS.",
     "cta": [
@@ -38,6 +38,68 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Books render via DESIGN theme `layout: book` (BOOK class ext",
+                "status": "active"
+              },
+              {
+                "label": "BOOKS.json compiled index drives the listing page",
+                "status": "active"
+              },
+              {
+                "label": "TOC auto-generated from PARTS and CHAPTERS heading structure",
+                "status": "active"
+              },
+              {
+                "label": "LaTeX PDF export from same .md source",
+                "status": "pending"
+              },
+              {
+                "label": "PARTS/CHAPTERS navigation (prev/next chapter)",
+                "status": "pending"
+              },
+              {
+                "label": "Per-chapter PROOF verification (commit hash → LEDGER .idf)",
+                "status": "pending"
+              },
+              {
+                "label": "COIN integration (book → LEDGER → MINT)",
+                "status": "pending"
+              },
+              {
+                "label": "Peer review workflow via TALK",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-interface-book-front-matter",
       "eyebrow": "INTERFACE — BOOK FRONT MATTER",

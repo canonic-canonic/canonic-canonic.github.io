@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "DESIGN",
+    "badge": "USER",
     "title": "DESIGN",
     "description": "Frontend rendering layer. CANON.md → HTML → Native. One stylesheet. All surfaces.",
     "cta": [
@@ -38,6 +38,21 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
     {
       "id": "children",
       "eyebrow": "DESIGN",

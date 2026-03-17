@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "SHOP",
+    "badge": "USER",
     "title": "SHOP",
     "description": "SHOP compiles the public projection aggregate. Every USER is a SHOP. Every artifact has a price.",
     "cta": [
@@ -38,6 +38,44 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Stripe checkout → COIN → SHOP purchase flow",
+                "status": "pending"
+              },
+              {
+                "label": "SHOP product catalog in dashboard surfaces",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-discovery",
       "eyebrow": "DISCOVERY",

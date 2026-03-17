@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "VOCAB",
+    "badge": "USER",
     "title": "VOCAB",
     "description": "One term, one definition, at the highest scope. Children inherit, not duplicate.",
     "cta": [
@@ -37,7 +37,23 @@
       }
     ]
   },
-  "sections": [],
+  "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    }
+  ],
   "_generated": {
     "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/TOOLCHAIN/VOCAB/VOCAB.md",
     "rule": "edit the contract or compiler — not this file"

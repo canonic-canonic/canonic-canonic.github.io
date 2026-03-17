@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "MINT",
+    "badge": "USER",
     "title": "MINT",
     "description": "MINT bridges WORK and ATTENTION to WALLET. Gradients mint COIN. Reads mint COIN. Every mint ledgered.",
     "cta": [
@@ -38,6 +38,67 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Automated backfill of historical LEDGER entries",
+                "status": "pending"
+              },
+              {
+                "label": "Multi-ORG MINT federation",
+                "status": "pending"
+              },
+              {
+                "label": "MINT:WORK from non-git sources (content, service delivery)",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-28",
+                "label": "`vault reconcile` bridges LEDGER gradients to WALLET events — idempotent via wor"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-integration-point",
       "eyebrow": "INTEGRATION POINT",

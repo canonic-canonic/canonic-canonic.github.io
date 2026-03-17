@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "DOCTRINE",
+    "badge": "USER",
     "title": "DOCTRINE",
     "description": "DOCTRINE is fixed. DRY. Mathematical. Enforced by structure.",
     "cta": [
@@ -38,6 +38,21 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
     {
       "id": "canon-spine",
       "eyebrow": "SPINE",

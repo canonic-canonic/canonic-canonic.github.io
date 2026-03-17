@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "META",
+    "badge": "USER",
     "title": "META",
     "description": "META surface.",
     "cta": [
@@ -37,7 +37,46 @@
       }
     ]
   },
-  "sections": [],
+  "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Self-improving governance: meta-patterns feed back into kern",
+                "status": "pending"
+              },
+              {
+                "label": "Meta-domain operates as the introspection layer for the enti",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
   "_generated": {
     "contract": "/Users/iDrDex/CANONIC/canonic-canonic/INDUSTRIES/META/META.md",
     "rule": "edit the contract or compiler — not this file"

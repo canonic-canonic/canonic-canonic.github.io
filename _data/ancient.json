@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "ancient",
+    "badge": "USER",
     "title": "ancient",
     "description": "Pre-schism Christianity. The first three ecumenical councils (Nicaea 325, Constantinople 381, Ephesus 431) define branches that predate Catholic-Orthodox (1054) and Protestant (1517) divisions.",
     "cta": [
@@ -38,6 +38,44 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Full ancient church governance: pre-1054 Christianity govern",
+                "status": "pending"
+              },
+              {
+                "label": "CHAT layer: patristic scholarship and ecumenical dialogue su",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-scope",
       "eyebrow": "SCOPE",

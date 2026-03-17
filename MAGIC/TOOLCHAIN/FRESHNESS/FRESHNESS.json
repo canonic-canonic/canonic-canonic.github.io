@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "FRESHNESS",
+    "badge": "USER",
     "title": "FRESHNESS",
     "description": "Unchanged sources produce identical outputs. Skip the work. Trust the cache.",
     "cta": [
@@ -38,6 +38,44 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-03-11",
+                "label": "Phase 02 surfaces compilation takes 134s for 306 surfaces — all recompiled regar"
+              },
+              {
+                "year": "2026-03-11",
+                "label": "FRESHNESS declared as TOOLCHAIN contract before any compiler code — gov drives c"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-transaction",
       "eyebrow": "TRANSACTION",

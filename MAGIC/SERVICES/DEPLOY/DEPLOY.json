@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "DEPLOY",
+    "badge": "USER",
     "title": "DEPLOY",
     "description": "DEPLOY is governed artifact delivery. Build validates, deploy ships, rollback recovers.",
     "cta": [
@@ -38,6 +38,83 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Container registry integration (GitHub Packages or Docker Hu",
+                "status": "pending"
+              },
+              {
+                "label": "Blue-green deployment for API service",
+                "status": "pending"
+              },
+              {
+                "label": "Automated rollback on health check failure",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-28",
+                "label": "Two Cloudflare tokens hardcoded in .claude/settings.json permissions array — rot"
+              },
+              {
+                "year": "2026-02-28",
+                "label": "`rollback` script in bin/ — resets fleet site to previous _generated commit, for"
+              },
+              {
+                "year": "2026-02-28",
+                "label": "`build-domains` in bin/ — provisions DNS from HTTP.md ## Zones + deploys vanity "
+              },
+              {
+                "year": "2026-02-28",
+                "label": "Dockerfile at ~/.canonic/Dockerfile — python:3.11-slim, port 8255, nobody user, "
+              },
+              {
+                "year": "2026-02-28",
+                "label": "magic-build.yml: validate → build → test-compiler → drift scan → LEDGER verify →"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-pipeline",
       "eyebrow": "PIPELINE",

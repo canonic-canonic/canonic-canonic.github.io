@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "VERTICALS",
+    "badge": "USER",
     "title": "VERTICALS",
     "description": "VERTICALS surface.",
     "cta": [
@@ -38,6 +38,79 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "pipeline",
+            "steps": [
+              {
+                "label": "Every vertical operates as autonomous governance node with f",
+                "status": "pending"
+              },
+              {
+                "label": "Verticals self-register and self-validate through magic scan",
+                "status": "pending"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-02-14",
+                "label": "Medical verticals have deepest nesting (oncology → breast → MAMMOCHAT)"
+              },
+              {
+                "year": "2026-02-14",
+                "label": "SIL/DAL/ASIL-to-MAGIC tier mapping is the bridge between domain safety levels an"
+              },
+              {
+                "year": "2026-02-19",
+                "label": "Axioms + Validators + Examples + Application added to all 8 modernized verticals"
+              },
+              {
+                "year": "2026-02-19",
+                "label": "META dissolved into INTEL→LEARNING — ontological not strata"
+              },
+              {
+                "year": "2026-02-19",
+                "label": "INDUSTRIES made ontological — nodes not strings, instance binding via SHOP.md"
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "children",
       "eyebrow": "VERTICALS",

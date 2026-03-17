@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "LEDGER",
+    "badge": "USER",
     "title": "LEDGER",
     "description": "LEDGER is the append-only truth. Every economic event recorded. No erasure.",
     "cta": [
@@ -38,6 +38,52 @@
     ]
   },
   "sections": [
+    {
+      "id": "governance",
+      "eyebrow": "GOVERNANCE",
+      "title": "MAGIC",
+      "dashboard": [
+        {
+          "figure": {
+            "type": "gauge",
+            "value": 255,
+            "max": 255,
+            "label": "MAGIC"
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "figure": {
+            "type": "timeline",
+            "items": [
+              {
+                "year": "2026-03-10",
+                "label": "Federation topology governs distributed witness network — peers discovered from "
+              },
+              {
+                "year": "2026-03-10",
+                "label": "Cross-ORG DIGEST + WITNESS countersigning protocol — Ed25519 signed, 2-of-N thre"
+              },
+              {
+                "year": "2026-03-10",
+                "label": "Bitcoin OP_RETURN anchoring governed but deferred until 5+ independent ORGs witn"
+              },
+              {
+                "year": "2026-03-10",
+                "label": "Federation grows from Robert's vendor network — photographer, inspector, title, "
+              }
+            ]
+          }
+        }
+      ]
+    },
     {
       "id": "canon-record-shape",
       "eyebrow": "RECORD SHAPE",
