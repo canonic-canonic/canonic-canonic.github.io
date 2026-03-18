@@ -1995,11 +1995,29 @@ var GALAXY = (function () {
 
     function toggleView() {
         _viewMode = _viewMode === 'finder' ? 'graph' : 'finder';
-        if (_viewMode === 'finder' && network) {
-            network.destroy();
-            network = null;
+        var container = document.getElementById('galaxy');
+        if (_viewMode === 'graph') {
+            // Switch to force-directed graph
+            var finderEl = document.getElementById('finderView');
+            if (finderEl) finderEl.style.display = 'none';
+            if (container) {
+                container.style.display = 'block';
+                container.innerHTML = '';
+            }
+            buildGraph(container);
+            renderControlPanel();
+            if (network) {
+                network.once('stabilizationIterationsDone', function () {
+                    var loader = document.getElementById('galaxyLoader');
+                    if (loader) loader.classList.add('hidden');
+                });
+            }
+        } else {
+            // Switch to Finder
+            if (network) { network.destroy(); network = null; }
+            if (container) container.style.display = 'none';
+            renderFinderView();
         }
-        renderFinderView();
     }
 
     // ── MAGIC:// HASH ROUTING ──────────────────────────────
