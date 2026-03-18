@@ -3,7 +3,7 @@
     "contract": "hadleylab-canonic/SERVICES/TIMELINE/CANON.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "generated": "2026-03-18T15:52:10Z",
+  "generated": "2026-03-18T16:45:34Z",
   "total_events": 13958,
   "lanes": {
     "LEARNING": {
@@ -18,8 +18,8 @@
     },
     "CONTACTS": {
       "count": 5,
-      "earliest": "2026-03-18T15:52:09Z",
-      "latest": "2026-03-18T15:52:09Z"
+      "earliest": "2026-03-18T16:45:33Z",
+      "latest": "2026-03-18T16:45:33Z"
     }
   },
   "principals": [
