@@ -1,8 +1,8 @@
 ---
 layout: default
 scope: MAGIC
-title: MAGIC
-description: "The enforcement layer. INTEL + CHAT + COIN. The compliance engine that turns governance declarations into compliance scores."
+title: "MAGIC — The AI Compliance Engine | CANONIC"
+description: "The AI compliance engine that turns governance declarations into 255-bit compliance scores. Three capabilities (INTEL + CHAT + COIN), five tiers, and a COIN economy that makes governance profitable."
 footerTagline: "MAGIC — The Machine"
 talk: side
 nav:
@@ -16,6 +16,8 @@ nav:
     href: "#economy"
   - label: Network
     href: "#galaxy"
+  - label: Fleet
+    href: "#fleet"
   - label: Proof
     href: "#proof"
 stats:
@@ -139,7 +141,7 @@ sections:
     tiers:
       - name: COMMUNITY
         price: "35"
-        sub: "D + E + S"
+        sub: "Foundation"
         features:
           - "CANON.md — Declaration"
           - "README.md — Interface"
@@ -150,7 +152,7 @@ sections:
         ctaTalk: true
       - name: BUSINESS
         price: "63"
-        sub: "+ R"
+        sub: "+ Specification"
         features:
           - "Everything in COMMUNITY"
           - "Specification — Reproducibility"
@@ -160,7 +162,7 @@ sections:
         ctaTalk: true
       - name: ENTERPRISE
         price: "127"
-        sub: "+ T + O"
+        sub: "+ Transparency + Operations"
         features:
           - "Everything in BUSINESS"
           - "Transparency — Roadmap"
@@ -172,7 +174,7 @@ sections:
         featured: true
       - name: AGENT
         price: "224"
-        sub: "+ L"
+        sub: "+ Learning"
         features:
           - "Everything in ENTERPRISE"
           - "Learning — self-improvement"
@@ -241,10 +243,37 @@ sections:
           href: https://hadleylab.org
         - label: Read the neutral theory
           href: https://hadleylab.org/PAPERS/neutral-theory/
+  - id: fleet
+    eyebrow: "THE FLEET"
+    title: "Shipped products running under MAGIC."
+    description: "The compliance engine validates real products with real users. [MammoChat](https://hadleylab.org/TALKS/MAMMOCHAT/) governs breast health as a live clinical trial. [RUNNER](https://hadleylab.org/TALKS/RUNNER/) governs every listing task in a $12.2M real estate portfolio. [REAL TALK](https://hadleylab.org/TALKS/REALTY/) answers property questions from public records. Same engine. Different domains."
+    feature:
+      eyebrow: "TWO FLAGSHIPS"
+      title: "MammoChat + RUNNER. Clinical AI + Real Estate."
+      text: "MammoChat: 20,000+ governed encounters, 51 enterprise hospitals, NCT06604078. RUNNER: $12.2M portfolio, 3 properties, 2 countries, 12 service categories. Both at 255. Both live. Both minting COIN."
+      figure:
+        type: app-grid
+        apps:
+          - label: MammoChat
+            href: https://hadleylab.org/TALKS/MAMMOCHAT/
+          - label: RUNNER
+            href: https://hadleylab.org/TALKS/RUNNER/
+          - label: OncoChat
+            href: https://hadleylab.org/TALKS/ONCOCHAT/
+          - label: REAL TALK
+            href: https://hadleylab.org/TALKS/REALTY/
+          - label: OmicsChat
+            href: https://hadleylab.org/TALKS/OMICSCHAT/
+          - label: NONA
+            href: https://hadleylab.org/TALKS/NONA/
+    cta:
+      buttons:
+        - label: Visit Hadley Lab
+          href: https://hadleylab.org
   - id: proof
-    eyebrow: "FIRST IMPLEMENTATION"
-    title: "The proof that the engine works."
-    description: "Hadley Lab is the first organization to validate to 255 under MAGIC. 9 governance domains. 4 clinical AIs — including MammoChat, a free breast health companion running as a live clinical trial (NCT06604078), funded by a $2M Florida Department of Health grant. 3 real estate agents governing a $12.2M portfolio. Financial and legal intelligence. 20,000+ governed encounters. $35M+ in PI funding. Built by Dexter Hadley, MD/PhD — 23 years in academic medicine, 121+ publications. CANONIC is the platform. Hadley Lab is the proof."
+    eyebrow: "PROVEN IN PRODUCTION"
+    title: "Built by a lab that lives under its own governance."
+    description: "[Hadley Lab](https://hadleylab.org) is the first organization certified to 255 under MAGIC. 9 governance domains. 4 clinical AIs. 3 real estate agents. 20,000+ governed encounters. The lab is the proof that the engine works at production scale."
     feature:
       eyebrow: "255/255"
       title: "9 governance domains. All at 255."
@@ -258,7 +287,7 @@ sections:
         - label: Visit Hadley Lab
           href: https://hadleylab.org
         - label: Read the origin story
-          href: https://hadleylab.org/BLOGS/2026-01-31-mammochat-to-magic/
+          href: https://hadleylab.org/BLOGS/2026-02-18-why-we-built-this/
 views:
   - gov
   - web

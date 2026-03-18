@@ -1,69 +1,105 @@
 ---
 layout: default
 scope: FOUNDATION
-title: Foundation
-description: "Standards and certification. The constitution ratified before the platform operates."
+title: "CANONIC Foundation — Standards & Certification for AI Governance"
+description: "The open standard for AI governance. Two books, 94 chapters, one compliance target. For governors who need to understand AI risk and developers who need to build compliant systems."
 footerTagline: "Foundation — The Machine"
 talk: side
 nav:
-  - label: Standards
+  - label: For Governors
+    href: "#governors"
+  - label: For Developers
     href: "#developers"
-  - label: Governance
-    href: "#governance"
-  - label: MAGIC
-    href: "#magic"
+  - label: Certification
+    href: "#certification"
+  - label: Evidence
+    href: "#evidence"
 stats:
+  - value: "94"
+    label: "CHAPTERS"
+    href: "#governors"
+    source: "Canon (44) + Doctrine (50) — two books, one standard"
+  - value: "255"
+    label: "MAGIC SCORE"
+    href: "/MAGIC/"
+    source: "magic validate — full compliance"
   - value: "28"
     label: "PARTNER ORGS"
     href: "/MAGIC/#galaxy"
     source: "magic scan galaxy"
-  - value: "255"
-    label: "MAGIC SCORE"
-    href: "/MAGIC/#compiler"
-    source: "magic validate"
   - value: "NCT"
     label: "CLINICAL TRIAL"
     href: "https://clinicaltrials.gov/study/NCT06604078"
     source: "NCT06604078 — MammoChat clinical trial"
-  - value: "$35M+"
-    label: "FUNDED RESEARCH"
-    href: "https://hadleylab.org/DEXTER/VITAE/"
-    source: "Hadley Lab — PI funding"
 hero:
   badge: THE FOUNDATION
-  title: "The constitution ratified before the platform operates."
-  description: "FOUNDATION is the specification layer. Organizations build on it. Regulators constrain it. MAGIC validates it. Hadley Lab proves it. Three sections. Three books. One standard — 255 bits — that governs clinical AI, real estate, finance, law, and every domain that follows."
+  title: "The standard. Two languages. One target."
+  description: "FOUNDATION is the specification layer — the constitution ratified before the platform operates. Two books written for two audiences: the Canon for governors who need to understand AI risk, and the Doctrine for developers who need to build compliant systems. One compliance target: 255 bits. Developed by Hadley Lab, the first organization certified to MAGIC 255."
   cta:
-    - label: Visit Hadley Lab
-      href: https://hadleylab.org
-    - label: Back to CANONIC
-      href: /
+    - label: Read the Canon
+      href: https://hadleylab.org/BOOKS/CANONIC-CANON/
+    - label: Read the Doctrine
+      href: https://hadleylab.org/BOOKS/CANONIC-DOCTRINE/
 sections:
+  - id: governors
+    eyebrow: "FOR GOVERNORS"
+    title: "The CANONIC Canon."
+    description: "You run the organization. You sign off on AI deployments. You face the auditor. The Canon is written for you — 9 parts, 44 chapters of flowing human prose that explains what AI governance is, why it matters, and how the 255-bit compliance framework works. Every abstract concept gets a concrete clinical instantiation. Every claim sourced."
+    feature:
+      eyebrow: "THE THEORY"
+      title: "Governors speak idioms. This book speaks yours."
+      text: "From the problem (ungoverned AI wastes $255B a year in healthcare alone) through the solution (eight governance dimensions, five compliance tiers, one mathematical target) to the proof (MammoChat, RUNNER, and the full fleet). Kimura's neutral theory, 255-bit fitness, phylogenetic inheritance — unified into one framework a board can understand."
+      figure:
+        type: score-meter
+        score: 255
+        label: "CANON"
+    cards:
+      - class: card
+        title: "The $255 Billion Wound"
+        text: "American healthcare wastes $255B a year on governance it cannot prove. The paper that quantifies the problem the Canon solves."
+        statusBadge: "PAPER"
+        href: https://hadleylab.org/PAPERS/the-255-billion-dollar-wound/
+        cta: "Read the paper"
+      - class: card
+        title: "Governance as Compilation"
+        text: "The thesis. Governance is structurally isomorphic to program compilation. MAGIC is the compliance engine. 255 is the target."
+        statusBadge: "PAPER"
+        href: https://hadleylab.org/PAPERS/governance-as-compilation/
+        cta: "Read the paper"
+      - class: card
+        title: "AlphaGo at 10"
+        text: "Ten years ago, a machine proved intuition was computable. It forgot to prove it was trustworthy."
+        statusBadge: "ESSAY"
+        href: https://hadleylab.org/BLOGS/2026-03-15-alphago-at-10/
+        cta: "Read the essay"
+    cta:
+      buttons:
+        - label: Read the Canon
+          href: https://hadleylab.org/BOOKS/CANONIC-CANON/
+        - label: Talk to Us
+          href: "#"
+          talk: true
   - id: developers
-    eyebrow: "IMPLEMENTATION"
-    title: "Standards & Certification."
-    description: "If you can write Markdown, you can write governance. Create a directory. Add CANON.md with an axiom and constraints. Add README.md with the public interface. Add VOCAB.md with defined terms. Run the validator. Score 35. Iterate toward 255. The Doctrine is the manual. Hadley Lab is the first certified organization — the reference implementation that proves it works."
+    eyebrow: "FOR DEVELOPERS"
+    title: "The CANONIC Doctrine."
+    description: "You write the code. You build the services. You ship the product. The Doctrine is written for you — 8 parts, 50 chapters that take you from your first CANON.md to a fully governed service at 255. DRY. MATH. FIXED. PURE. Every pattern has a working implementation."
+    feature:
+      eyebrow: "THE MANUAL"
+      title: "Devs speak programming. This book speaks yours."
+      text: "Your first axiom. Your first TRIAD (CANON.md + README.md + VOCAB.md = 35 bits). Your first scope. Your first service. Your first 255. FHIR to INTEL to CHAT to COIN pipeline examples. Python, Swift, TypeScript, Markdown. Clinical informatics examples throughout — because healthcare is where governance is hardest."
+      figure:
+        type: pipeline
+        steps:
+          - "Author"
+          - "Commit"
+          - "Validate"
+          - "Ship"
     switcher:
       kicker: "One platform. One target. Any domain."
       tabs:
-        - label: First Certified
-          title: "Hadley Lab — the reference implementation."
-          text: "Hadley Lab is not a customer. Hadley Lab is the proof. 9 governance domains validated to 255. Four clinical AIs — including MammoChat, a free breast health companion running as a live clinical trial (NCT06604078). Three real estate agents governing a $12.2M portfolio. Financial and legal intelligence. 20,000+ governed encounters. $35M+ in PI funding. Built by Dexter Hadley, MD/PhD."
-          bullets:
-            - "255/255 across 9 governance domains"
-            - "4 clinical AIs — MammoChat (NCT06604078), OncoChat, OmicsChat, MedChat"
-            - "3 real estate agents — $12.2M portfolio"
-            - "$35M+ PI funding — NIH, Florida DOH"
-          figure:
-            type: score-meter
-            score: 255
-            label: "HADLEY LAB"
-          cta:
-            label: Visit Hadley Lab
-            href: https://hadleylab.org
         - label: Getting Started
-          title: "The governance framework."
-          text: "The minimum viable governance is three files — CANON.md declares what the scope is, README.md describes the public interface, VOCAB.md defines every term. This triad validates to COMMUNITY tier (35 bits). From there, add specifications, coverage, learning, and language to climb toward 255. One compliance target."
+          title: "Three files. 35 bits. Five minutes."
+          text: "The minimum viable governance is three files — CANON.md declares what the scope is, README.md describes the public interface, VOCAB.md defines every term. This triad validates to COMMUNITY tier (35 bits). From there, add specifications, coverage, learning, and language to climb toward 255."
           bullets:
             - "TRIAD: CANON.md + README.md + VOCAB.md = 35 bits"
             - "Languages: Python, Swift, TypeScript, C, Markdown"
@@ -92,13 +128,6 @@ sections:
               - "ORG"
               - "USER"
               - "SCOPE"
-    cards:
-      - class: card
-        title: "The CANONIC Doctrine"
-        text: "The dev manual. How to BUILD in CANONIC. Your first axiom. Your first TRIAD. Your first scope. Your first service. Your first 255. DRY. MATH. FIXED. PURE."
-        statusBadge: "BOOK 2"
-        href: https://hadleylab.org/BOOKS/CANONIC-DOCTRINE/
-        cta: "Read the Doctrine"
     cta:
       buttons:
         - label: Read the Doctrine
@@ -106,19 +135,10 @@ sections:
         - label: Talk to Us
           href: "#"
           talk: true
-  - id: governance
-    eyebrow: "THE RULES"
-    title: "Governance."
-    description: "Every governed scope begins with an axiom — a single assertion from which all governance derives. The axiom is the entry point, the way main() is the entry point of a program. Without it, there is nothing to compile. Constraints flow downward through the inherits chain. A child scope can extend its parent's governance but cannot weaken it. Governance only accumulates. The CANON is the theory."
-    feature:
-      eyebrow: "EIGHT DIMENSIONS"
-      title: "255 = all eight satisfied."
-      text: "Declaration. Evidence. Transparency. Reproducibility. Operations. Structure. Learning. Language. Each dimension contributes a binary weight to the 255-bit score. The score is a bitmask — every bit carries information. A score of 254 means exactly one dimension is missing, and the bitmask tells you which one."
-      figure:
-        type: gauge
-        value: 255
-        max: 255
-        label: "MAGIC SCORE"
+  - id: certification
+    eyebrow: "CERTIFICATION"
+    title: "Eight dimensions. Five tiers. One target."
+    description: "Every governed scope validates toward 255. Declaration. Evidence. Transparency. Reproducibility. Operations. Structure. Learning. Language. Each dimension contributes to the compliance score. The score is a bitmask — every bit carries information."
     cards:
       - class: card
         title: "Declaration"
@@ -144,67 +164,59 @@ sections:
       - class: card
         title: "Language"
         text: "DESIGN inherited. The governance language is inherited, not invented. Consistency across the entire stack."
-    feature:
-      eyebrow: "THE THEORY"
-      title: "The CANONIC CANON."
-      text: "Seven parts. Twenty-three chapters. Kimura's neutral theory, 255-bit fitness, Ewens's sampling formula, phylogenetic inheritance — unified into one framework. Drift wins. Code evolves. Governance emerges. At 255-bit equilibrium, all change is drift."
-      figure:
-        type: balance
-        left: "Spec"
-        right: "Hype"
-        tilt: -12
-    cta:
-      buttons:
-        - label: Read the CANON
-          href: https://hadleylab.org/BOOKS/CANONIC-CANON/
-        - label: Read the governance thesis
-          href: https://hadleylab.org/PAPERS/governance-as-compilation/
-  - id: magic
-    eyebrow: "THE COMPLIANCE ENGINE"
-    title: "MAGIC."
-    description: "MAGIC is the enforcement layer. It reads governance declarations, resolves the inheritance chain, and produces a 255-bit compliance score. When governance validates, it ships. When it does not validate, it does not ship. There is no waiver process. There is no exception committee. Three capabilities — INTEL, CHAT, COIN — compose into services. Five tiers mark the compliance plateaus. The economy is real: governance work that validates mints COIN."
-    feature:
-      eyebrow: "FIVE TIERS"
-      title: "COMMUNITY → BUSINESS → ENTERPRISE → AGENT → MAGIC"
-      text: "Each tier is a stable plateau in the 255-bit fitness space. COMMUNITY (35) is the starting point — three files, three constraints. MAGIC (255) is the peak — all eight dimensions satisfied, COIN minting enabled, governance mathematically closed. The progression is the compliance pipeline in action."
-      figure:
-        type: area-chart
-        points:
-          - x: "0"
-            y: 0
-          - x: "COM"
-            y: 35
-          - x: "BIZ"
-            y: 63
-          - x: "ENT"
-            y: 127
-          - x: "AGT"
-            y: 224
-          - x: "255"
-            y: 255
-        label: "COMPLIANCE TIERS"
-    cards:
-      - class: card
-        title: "INTEL"
-        text: "What you know. Evidence, data, citations. Every claim has a source. Every source is on the record."
-      - class: card
-        title: "CHAT"
-        text: "What you say. Conversation, interface, voice. Governed dialogue that inherits its domain's constraints."
-      - class: card
-        title: "COIN"
-        text: "What you do. Work receipts, ledger entries, economic proof. Compliance is not a cost center."
-      - class: card
-        title: "The Art of the CANONIC Deal"
-        text: "Commerce and governance as one design. How governance creates deal flow — 27 active deals, $12.2M portfolio, $2M grant, patent prosecution. The business book."
-        statusBadge: "BOOK 5"
-        href: https://hadleylab.org/BOOKS/ART-OF-THE-CANONIC-DEAL/
-        cta: "Read the book"
     cta:
       buttons:
         - label: See the full MAGIC spec
           href: /MAGIC/
-        - label: Read the economics
-          href: https://hadleylab.org/PAPERS/economics-of-governed-work/
+        - label: See the tier system
+          href: /#tiers
+  - id: evidence
+    eyebrow: "THE EVIDENCE"
+    title: "Read the proof."
+    description: "Hadley Lab is the first organization certified to 255. The proof fleet ships software under the same governance standard described in these books. Every claim below traces to governed evidence."
+    cards:
+      - class: card
+        title: "The CANONIC Canon"
+        text: "The theory of code governance intelligence. 9 parts, 44 chapters. Governors speak idioms."
+        statusBadge: "BOOK 1"
+        href: https://hadleylab.org/BOOKS/CANONIC-CANON/
+        cta: "Read the book"
+      - class: card
+        title: "The CANONIC Doctrine"
+        text: "The implementation manual. 8 parts, 50 chapters. Devs speak programming."
+        statusBadge: "BOOK 2"
+        href: https://hadleylab.org/BOOKS/CANONIC-DOCTRINE/
+        cta: "Read the book"
+      - class: card
+        title: "The Art of the CANONIC Deal"
+        text: "Commerce and governance as one design. How governance creates deal flow."
+        statusBadge: "BOOK 5"
+        href: https://hadleylab.org/BOOKS/ART-OF-THE-CANONIC-DEAL/
+        cta: "Read the book"
+      - class: card
+        title: "Why We Built This"
+        text: "The origin story. A surgeon, a hallucination, and the 14-year journey to a governance framework."
+        statusBadge: "ORIGIN"
+        href: https://hadleylab.org/BLOGS/2026-02-18-why-we-built-this/
+        cta: "Read the story"
+      - class: card
+        title: "MammoChat to MAGIC"
+        text: "How one mammogram changed everything. From a BI-RADS 4 finding nobody could trace to a framework that proves $7.5B in violations were preventable."
+        statusBadge: "ORIGIN"
+        href: https://hadleylab.org/BLOGS/2026-01-31-mammochat-to-magic/
+        cta: "Read the essay"
+      - class: card
+        title: "Content as Proof of Work"
+        text: "Bitcoin burns electricity. CANONIC publishes a book. The content is the work. The work is the COIN."
+        statusBadge: "PAPER"
+        href: https://hadleylab.org/PAPERS/content-as-proof-of-work/
+        cta: "Read the paper"
+    cta:
+      buttons:
+        - label: All Papers
+          href: https://hadleylab.org/PAPERS/
+        - label: All Books
+          href: https://hadleylab.org/BOOKS/
 views:
   - gov
   - web

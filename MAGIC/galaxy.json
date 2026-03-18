@@ -4,7 +4,7 @@
     "rule": "edit the contract or compiler \u2014 not this file",
     "gov_hash": "ef02e182edbd96c1"
   },
-  "generated": "2026-03-18T02:45:28Z",
+  "generated": "2026-03-18T14:19:52Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -41,11 +41,11 @@
   "stats": {
     "total": 743,
     "avg_bits": 252,
-    "below_magic": 20,
+    "below_magic": 19,
     "intel_coverage": 146,
     "total_coin": 149567,
     "total_events": 697,
-    "total_sessions": 146,
+    "total_sessions": 148,
     "active_channels": 5,
     "user_count": 34,
     "org_count": 5,
@@ -9503,8 +9503,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 146,
-        "last_session": "2026-03-17",
+        "sessions": 148,
+        "last_session": "2026-03-18",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -9535,8 +9535,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 146,
-        "last_session": "2026-03-17",
+        "sessions": 148,
+        "last_session": "2026-03-18",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -9576,8 +9576,8 @@
       "children": 16,
       "wallet": null,
       "talk": {
-        "sessions": 146,
-        "last_session": "2026-03-17",
+        "sessions": 148,
+        "last_session": "2026-03-18",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -9672,8 +9672,8 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 60,
-        "last_session": "2026-03-17",
+        "sessions": 62,
+        "last_session": "2026-03-18",
         "channels": [
           "CARIBCHAT"
         ]
@@ -9749,8 +9749,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 146,
-        "last_session": "2026-03-17",
+        "sessions": 148,
+        "last_session": "2026-03-18",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -9783,8 +9783,8 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 146,
-        "last_session": "2026-03-17",
+        "sessions": 148,
+        "last_session": "2026-03-18",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -9842,8 +9842,8 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 146,
-        "last_session": "2026-03-17",
+        "sessions": 148,
+        "last_session": "2026-03-18",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -9969,8 +9969,8 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 146,
-        "last_session": "2026-03-17",
+        "sessions": 148,
+        "last_session": "2026-03-18",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -10026,8 +10026,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 146,
-        "last_session": "2026-03-17",
+        "sessions": 148,
+        "last_session": "2026-03-18",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -10174,8 +10174,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 146,
-        "last_session": "2026-03-17",
+        "sessions": 148,
+        "last_session": "2026-03-18",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -10234,8 +10234,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 146,
-        "last_session": "2026-03-17",
+        "sessions": 148,
+        "last_session": "2026-03-18",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -10266,8 +10266,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 146,
-        "last_session": "2026-03-17",
+        "sessions": 148,
+        "last_session": "2026-03-18",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -10839,31 +10839,19 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "Govern Caribbean cancer guidelines \u2014 CAOH, CARPHA, NCCN Resource Stratification",
-      "learning_count": 67,
+      "learning_count": 69,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/CARIBCHAT",
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 60,
-        "last_session": "2026-03-17",
+        "sessions": 62,
+        "last_session": "2026-03-18",
         "channels": [
           "CARIBCHAT"
         ]
       },
       "learning": [
-        {
-          "date": "2026-03-12",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Here are some emergency number Counter Trafficking Unit: 800-4288  Children\u2019s Au",
-          "source": "1da02e7b-0007-4291-bfb9-55b00f9fd815"
-        },
-        {
-          "date": "2026-03-12",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "https://health.gov.tt/sites/default/files/nacc/Portals/Documents/GBV%20Referral%",
-          "source": "4bac1d73-3121-4071-8639-e0e594f0a66d"
-        },
         {
           "date": "2026-03-12",
           "signal": "SESSION_LEDGERED",
@@ -10911,6 +10899,18 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "I heard there is a conference coming up. what is it?",
           "source": "883f75ad-e904-4c3d-b856-a9744c7f49a5"
+        },
+        {
+          "date": "2026-03-18",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Which Caricom Countries  have  implemented national cancer control  programs",
+          "source": "4345880e-81d9-4ee2-9a1d-732b97241602"
+        },
+        {
+          "date": "2026-03-18",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Which Palliative Care programs exist in the Caribbean",
+          "source": "b5891654-7511-43ad-86fc-83eb7786c107"
         }
       ],
       "score": 128
@@ -12034,16 +12034,14 @@
       "parent": "hadleylab-canonic",
       "category": "SERVICES",
       "color": "#ec4899",
-      "bits": 211,
+      "bits": 223,
       "tier": "NONE",
       "missing_dims": [
-        "T",
-        "R",
         "S"
       ],
       "has_intel": false,
       "next_tier": "FULL",
-      "next_tier_gap": 44,
+      "next_tier_gap": 32,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "users",
@@ -12051,7 +12049,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 105
+      "score": 111
     },
     {
       "id": "hadleylab-canonic/USERS/CRAIG",
@@ -13554,25 +13552,18 @@
       "parent": "runner-canonic",
       "category": "SERVICES",
       "color": "#ec4899",
-      "bits": 169,
-      "tier": "NONE",
-      "missing_dims": [
-        "E",
-        "T",
-        "O",
-        "L"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "principal": true,
       "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 86,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "services",
       "children": 7,
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 84
+      "score": 128
     },
     {
       "id": "runner-canonic/SERVICES/COIN",
@@ -13681,8 +13672,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 146,
-        "last_session": "2026-03-17",
+        "sessions": 148,
+        "last_session": "2026-03-18",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -23664,8 +23655,8 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 146,
-        "last_session": "2026-03-17",
+        "sessions": 148,
+        "last_session": "2026-03-18",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",

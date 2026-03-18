@@ -141,7 +141,7 @@
       "id": "canon-step-5-validate",
       "eyebrow": "STEP 5: VALIDATE",
       "title": "Step 5: Validate",
-      "description": "``bash\nmagic validate ~/CANONIC/canonic-canonic/FOUNDATION/MY_SCOPE\n``\n\nThis returns a score from 0 to 255. Each dimension adds bits:\n\nAt minimum, aim for COMMUNITY tier (D + E + S = 35 bits).",
+      "description": "``bash\nmagic validate ~/CANONIC/canonic-canonic/FOUNDATION/MY_SCOPE\n``\n\nThis returns a score from 0 to 255. Each dimension adds bits:\n\nAt minimum, aim for COMMUNITY tier (Declaration + Evidence + Structure = 35 bits).",
       "table": {
         "headers": [
           "Dimension",
@@ -160,32 +160,32 @@
             "✓"
           ],
           [
-            "Structural (S)",
+            "Structure",
             "inherits + axiom + constraints",
             "✓"
           ],
           [
-            "Reproducible (R)",
+            "Reproducibility",
             "{SCOPE}.md",
             "✓"
           ],
           [
-            "Transparent (T)",
+            "Transparency",
             "ROADMAP.md",
             "optional"
           ],
           [
-            "Operational (O)",
+            "Operations",
             "COVERAGE.md",
             "✓"
           ],
           [
-            "Linguistic (L)",
+            "Learning",
             "LEARNING.md",
             "optional"
           ],
           [
-            "Language (LANG)",
+            "Language",
             "inherited from parent",
             "automatic"
           ]
@@ -247,7 +247,7 @@
       },
       {
         "title": "Step 5: Validate",
-        "body": "```bash\nmagic validate ~/CANONIC/canonic-canonic/FOUNDATION/MY_SCOPE\n```\n\nThis returns a score from 0 to 255. Each dimension adds bits:\n\n| Dimension | File | Bits |\n|-----------|------|------|\n| Declarative (D) | CANON.md | ✓ |\n| Evidential (E) | VOCAB.md | ✓ |\n| Structural (S) | inherits + axiom + constraints | ✓ |\n| Reproducible (R) | {SCOPE}.md | ✓ |\n| Transparent (T) | ROADMAP.md | optional |\n| Operational (O) | COVERAGE.md | ✓ |\n| Linguistic (L) | LEARNING.md | optional |\n| Language (LANG) | inherited from parent | automatic |\n\nAt minimum, aim for COMMUNITY tier (D + E + S = 35 bits).\n\n---"
+        "body": "```bash\nmagic validate ~/CANONIC/canonic-canonic/FOUNDATION/MY_SCOPE\n```\n\nThis returns a score from 0 to 255. Each dimension adds bits:\n\n| Dimension | File | Bits |\n|-----------|------|------|\n| Declarative (D) | CANON.md | ✓ |\n| Evidential (E) | VOCAB.md | ✓ |\n| Structure | inherits + axiom + constraints | ✓ |\n| Reproducibility | {SCOPE}.md | ✓ |\n| Transparency | ROADMAP.md | optional |\n| Operations | COVERAGE.md | ✓ |\n| Learning | LEARNING.md | optional |\n| Language | inherited from parent | automatic |\n\nAt minimum, aim for COMMUNITY tier (Declaration + Evidence + Structure = 35 bits).\n\n---"
       },
       {
         "title": "Step 6: Build",

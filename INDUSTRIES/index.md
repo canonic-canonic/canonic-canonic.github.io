@@ -1,8 +1,8 @@
 ---
 layout: default
 scope: INDUSTRIES
-title: Industries
-description: "21 governed domains. 15 verticals. 4 regulatory. 2 horizontal. Same platform. Different regulations."
+title: "CANONIC Industries — AI Governance Across 21 Regulated Domains"
+description: "AI governance for healthcare (HIPAA, NCCN), real estate, finance (SOX, Basel III), defense (ITAR, CMMC), and 17 more regulated industries. Same compliance engine. Different constraints. 255-bit validation."
 footerTagline: "Industries — The Machine"
 talk: side
 nav:
@@ -67,8 +67,8 @@ sections:
             label: Try MammoChat
             href: https://hadleylab.org/TALKS/MAMMOCHAT/
         - label: Real Estate
-          title: "$12.2M governed portfolio."
-          text: "Three AI agents governing a real estate portfolio across Lake Nona, Florida and London. REALTY answers property questions from public records. RUNNER handles every listing task — signs, lockboxes, photographers, closings. NONA connects buyers and sellers to available realtors in real time. Every interaction governed. Every transaction ledgered. Every COIN minted."
+          title: "$12.2M governed portfolio. RUNNER is the flagship."
+          text: "Three AI agents governing a real estate portfolio across Lake Nona, Florida and London. RUNNER handles every listing task — signs, lockboxes, photographers, closings. REAL TALK answers property questions from public records. NONA connects buyers and sellers to available realtors in real time. Every interaction governed. Every transaction ledgered. Every COIN minted."
           bullets:
             - "$12.2M — 3 properties, 2 countries"
             - "JP Capital Realty — licensed brokerage"
@@ -234,10 +234,45 @@ sections:
     cta:
       buttons:
         - label: Start a Pilot
-          href: https://hadleylab.org
+          href: "#"
           talk: true
         - label: See the tier system
           href: /#tiers
+  - id: evidence
+    eyebrow: "THE EVIDENCE"
+    title: "Read the proof by industry."
+    description: "Every industry claim traces to published evidence."
+    cards:
+      - class: card
+        title: "The $255 Billion Wound"
+        text: "American healthcare wastes $255B a year on governance it cannot prove. 20 health systems. $6.8B in violations. 82% preventable."
+        statusBadge: "MEDICINE"
+        href: https://hadleylab.org/PAPERS/the-255-billion-dollar-wound/
+        cta: "Read the paper"
+      - class: card
+        title: "The €344 Billion Euro Wound"
+        text: "Two continents. Same gap. Same mathematical solution. France, Germany, England — the global case."
+        statusBadge: "GLOBAL"
+        href: https://hadleylab.org/PAPERS/the-344-billion-euro-wound/
+        cta: "Read the paper"
+      - class: card
+        title: "The Fleet"
+        text: "One platform, eight products, three primitives. How MammoChat routes to OmicsChat when genetics matter."
+        statusBadge: "PRODUCT"
+        href: https://hadleylab.org/BLOGS/2026-02-15-the-fleet/
+        cta: "Read the essay"
+      - class: card
+        title: "Every Variant Classified"
+        text: "ACMG 5-class variant classification. ClinVar integration. StarGEO heritage. Precision medicine governed."
+        statusBadge: "GENOMICS"
+        href: https://hadleylab.org/BLOGS/2026-02-16-every-variant-classified/
+        cta: "Read the essay"
+    cta:
+      buttons:
+        - label: All Papers
+          href: https://hadleylab.org/PAPERS/
+        - label: Visit Hadley Lab
+          href: https://hadleylab.org
 views:
   - gov
   - web

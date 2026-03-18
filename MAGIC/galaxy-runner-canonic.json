@@ -4,7 +4,7 @@
     "rule": "edit the contract or compiler \u2014 not this file",
     "gov_hash": "ef02e182edbd96c1"
   },
-  "generated": "2026-03-18T02:45:28Z",
+  "generated": "2026-03-18T14:19:52Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -47,7 +47,7 @@
   ],
   "stats": {
     "total": 18,
-    "avg_bits": 215
+    "avg_bits": 225
   },
   "nodes": [
     {
@@ -78,18 +78,11 @@
       "parent": "runner-canonic",
       "category": "SERVICES",
       "color": "#ec4899",
-      "bits": 169,
-      "tier": "NONE",
-      "missing_dims": [
-        "E",
-        "T",
-        "O",
-        "L"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "principal": true,
       "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 86,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "services",
       "children": 7
@@ -103,22 +96,15 @@
       "parent": "runner-canonic",
       "category": "SERVICES",
       "color": "#ec4899",
-      "bits": 169,
-      "tier": "NONE",
-      "missing_dims": [
-        "E",
-        "T",
-        "O",
-        "L"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "privacy": "PRIVATE",
       "readers": [
         "iDrDex",
         "rglov0224-sys"
       ],
       "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 86,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "vitae",
       "children": 0
