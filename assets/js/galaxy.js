@@ -778,6 +778,39 @@ var GALAXY = (function () {
             });
         }
         html += '</div>';
+
+        // FEDERATION — multi-org overview
+        var orgs = galaxy.nodes.filter(function (n) { return n.kind === 'ORG'; });
+        if (orgs.length > 1) {
+            html += '<div style="font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:0.12em;padding:8px 16px 4px">FEDERATION \u00b7 ' + orgs.length + ' orgs</div>';
+            html += '<div class="intel-tasks">';
+            orgs.forEach(function (org) {
+                var orgTier = tierFor(org.bits || 0);
+                var orgTierClass = (org.bits || 0) >= 255 ? ' unicorn-text' : '';
+                var childScopes = galaxy.nodes.filter(function (n) { return n.repo === org.repo && n.kind !== 'ORG' && n.kind !== 'USER'; });
+                var orgHealth = childScopes.length > 0 ? Math.round(100 * childScopes.filter(function (s) { return (s.bits || 0) >= 35; }).length / childScopes.length) : 0;
+                var orgBalance = org.wallet ? org.wallet.balance : 0;
+                var chainOk = org.wallet ? org.wallet.chain_valid !== false : true;
+                var fedEdges = (galaxy.edges || []).filter(function (e) { return e.kind === 'FEDERATION' && (e.from === org.id || e.to === org.id); });
+
+                html += '<div class="intel-task" data-node="' + org.id + '" onclick="event.stopPropagation(); GALAXY.navigateToScope(\'' + org.id + '\')">';
+                html += '<span class="intel-task-bits" style="color:' + orgTier.color + '">' + (org.bits || 0) + '</span>';
+                html += '<div class="intel-task-info">';
+                html += '<div class="intel-task-name' + orgTierClass + '" style="' + (orgTierClass ? '' : 'color:' + (org.color || '#f5f5f7')) + '">' + org.label + '</div>';
+                html += '<div class="intel-task-action">' + childScopes.length + ' scopes \u00b7 ' + orgHealth + '% health';
+                if (orgBalance > 0) html += ' \u00b7 ' + formatCoin(orgBalance) + ' CREDIT';
+                if (fedEdges.length > 0) html += ' \u00b7 ' + fedEdges.length + ' fed links';
+                html += '</div>';
+                html += '</div>';
+                // Chain status indicator
+                if (org.wallet && org.wallet.events > 0) {
+                    html += '<span style="font-size:10px;color:' + (chainOk ? '#00ff88' : '#ff453a') + '" title="' + (chainOk ? 'Chain valid' : 'Chain broken') + '"><i class="fas fa-' + (chainOk ? 'check-circle' : 'exclamation-triangle') + '"></i></span>';
+                }
+                html += '</div>';
+            });
+            html += '</div>';
+        }
+
         return html;
     }
 
