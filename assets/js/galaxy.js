@@ -333,7 +333,7 @@ var GALAXY = (function () {
             // COIN (economy)
             if (node.wallet) {
                 html += '<div class="dp-intel"><div class="dp-intel-label" style="color:#ffd60a">ECONOMY</div>';
-                html += '<div class="dp-intel-value" style="font-size:18px;font-weight:700;color:#ffd60a;text-shadow:0 0 12px rgba(255,214,10,0.3)">' + formatCoin(node.wallet.balance) + ' <span style="opacity:0.4;font-size:10px;font-weight:400">COIN</span></div>';
+                html += '<div class="dp-intel-value" style="font-size:18px;font-weight:700;color:#ffd60a;text-shadow:0 0 12px rgba(255,214,10,0.3)">' + formatCoin(node.wallet.balance) + ' <span style="opacity:0.4;font-size:10px;font-weight:400">CREDIT</span></div>';
                 html += '<div style="display:flex;gap:12px;margin-top:4px">';
                 html += '<span style="font-family:var(--mono);font-size:10px;color:#86868b">' + node.wallet.events + ' events</span>';
                 if (node.wallet.last_close) {
@@ -531,7 +531,7 @@ var GALAXY = (function () {
         html += '</div>';
         html += '<div class="cp-stats">';
         html += '<div class="cp-tier' + tierClass + '" style="' + (tierClass ? '' : 'color:' + tier.color) + '">' + tier.badge + ' ' + tier.name + '</div>';
-        html += '<span class="cp-coin" onclick="GALAXY.toggleCoinFeed()" title="COIN"><i class="fas fa-coins"></i> ' + formatCoin(balance) + '</span>';
+        html += '<span class="cp-coin" onclick="GALAXY.toggleCoinFeed()" title="Credit"><i class="fas fa-coins"></i> ' + formatCoin(balance) + '</span>';
         if (label) {
             html += '<div class="cp-scope-label">' + label + '</div>';
         }
@@ -687,7 +687,7 @@ var GALAXY = (function () {
         // ECONOMY
         if (scope.wallet) {
             html += '<div class="intel-section"><div class="intel-section-title" style="color:#ffd60a">ECONOMY</div>';
-            html += '<div style="font-family:var(--mono);font-size:18px;font-weight:700;color:#ffd60a;text-shadow:0 0 12px rgba(255,214,10,0.3);padding:4px 0">' + formatCoin(scope.wallet.balance) + ' <span style="opacity:0.4;font-size:10px;font-weight:400">COIN</span></div>';
+            html += '<div style="font-family:var(--mono);font-size:18px;font-weight:700;color:#ffd60a;text-shadow:0 0 12px rgba(255,214,10,0.3);padding:4px 0">' + formatCoin(scope.wallet.balance) + ' <span style="opacity:0.4;font-size:10px;font-weight:400">CREDIT</span></div>';
             html += '<div style="font-family:var(--mono);font-size:10px;color:var(--dim)">' + scope.wallet.events + ' events</div>';
             html += '</div>';
         }
@@ -894,7 +894,7 @@ var GALAXY = (function () {
 
         nodeMatches.forEach(function (n) {
             var tierInfo = tierFor(n.bits || 0);
-            var coinStr = (n.wallet && n.wallet.balance > 0) ? formatCoin(n.wallet.balance) + ' COIN' : '';
+            var coinStr = (n.wallet && n.wallet.balance > 0) ? formatCoin(n.wallet.balance) + ' credit' : '';
             var lUrl = launchUrl(n);
 
             html += '<div class="lp-row" onclick="GALAXY.launchpadSelect(\'' + n.id + '\')">';
@@ -1518,7 +1518,7 @@ var GALAXY = (function () {
         html += '<span class="sc-tier" style="color:' + tierInfo.color + '">' + tierInfo.badge + ' ' + bits + '</span>';
         if (node.kind) html += '<span class="sc-kind">' + node.kind + '</span>';
         if (isFolder) html += '<span class="sc-children">' + node.children + ' scopes</span>';
-        if (coinStr) html += '<span class="sc-coin">' + coinStr + ' COIN</span>';
+        if (coinStr) html += '<span class="sc-coin">' + coinStr + ' credit</span>';
         html += '</div>';
         html += '</div>';
 
