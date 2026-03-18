@@ -217,9 +217,4 @@ sections:
           href: https://hadleylab.org/PAPERS/
         - label: All Books
           href: https://hadleylab.org/BOOKS/
-views:
-  - gov
-  - web
 ---
-
-<!-- _generated: build-surfaces -->

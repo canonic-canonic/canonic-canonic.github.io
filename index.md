@@ -35,7 +35,7 @@ stats:
     source: "MammoChat + clinical fleet — real patients, real data"
   - value: "51"
     label: "ENTERPRISE HOSPITALS"
-    href: "https://hadleylab.org/DEXTER/DEALS/ADVENTHEALTH/"
+    href: "https://hadleylab.org/TALKS/MAMMOCHAT/"
     source: "AdventHealth — 550 facilities, 9 states"
 hero:
   badge: AI GOVERNANCE PLATFORM
@@ -266,7 +266,7 @@ sections:
       tabs:
         - label: Medicine
           title: "Clinical AI"
-          text: "HIPAA. NCCN. mCODE. Every recommendation traced to evidence. <a href=\"https://hadleylab.org/TALKS/MAMMOCHAT/\">MammoChat</a> is the reference — 20,000+ governed encounters at a <a href=\"https://hadleylab.org/DEXTER/DEALS/ADVENTHEALTH/\">550-facility health system</a> across 9 states."
+          text: "HIPAA. NCCN. mCODE. Every recommendation traced to evidence. <a href=\"https://hadleylab.org/TALKS/MAMMOCHAT/\">MammoChat</a> is the reference — 20,000+ governed encounters at a <a href=\"https://hadleylab.org/TALKS/MAMMOCHAT/\">550-facility health system</a> across 9 states."
           figure:
             type: pipeline
             steps:
@@ -447,9 +447,4 @@ sections:
           href: https://hadleylab.org
         - label: Read the origin story
           href: https://hadleylab.org/BLOGS/2026-02-18-why-we-built-this/
-views:
-  - gov
-  - web
 ---
-
-<!-- _generated: build-surfaces -->

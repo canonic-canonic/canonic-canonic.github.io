@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /FOUNDATION/
+Allow: /INDUSTRIES/
+Allow: /MAGIC/
+Disallow: /MAGIC/GALAXY/
+Disallow: /MAGIC/DESIGN/
+Disallow: /MAGIC/TOOLCHAIN/
+Disallow: /MAGIC/SURFACE/
+Disallow: /FOUNDATION/ONBOARDING/
+Disallow: /FOUNDATION/PROGRAMMING/
+Disallow: /FOUNDATION/RESERVES/
+Sitemap: https://canonic.org/sitemap.xml
