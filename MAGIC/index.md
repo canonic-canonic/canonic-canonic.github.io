@@ -103,7 +103,7 @@ sections:
     feature:
       eyebrow: "EIGHT DIMENSIONS"
       title: "255 = all eight satisfied."
-      text: "Declaration. Evidence. Transparency. Reproducibility. Operations. Structure. Learning. Language. Each dimension contributes a binary weight. The score is a bitmask — every bit carries information. A score of 254 means exactly one dimension is missing, and the bitmask tells you which one."
+      text: "Eight questions. Eight bits. Each question either has an answer or it does not. The score is a bitmask — every bit carries information. A score of 254 means exactly one question is unanswered, and the bitmask tells you which one."
       figure:
         type: gauge
         value: 255
@@ -111,28 +111,28 @@ sections:
         label: "MAGIC SCORE"
     cards:
       - class: card
-        title: "Declaration"
+        title: "What does this system do?"
         text: "CANON.md exists. The system states what it is and what it believes."
       - class: card
-        title: "Evidence"
+        title: "What terms does it define?"
         text: "VOCAB.md exists. Every term defined. No ambiguity. No hallucination by design."
       - class: card
-        title: "Transparency"
+        title: "Where is it going?"
         text: "ROADMAP.md exists. What shipped, what is next, and when. Versioned and public."
       - class: card
-        title: "Reproducibility"
+        title: "How is it specified?"
         text: "The specification document exists. Exact interface and boundaries described."
       - class: card
-        title: "Operations"
+        title: "How healthy is it?"
         text: "COVERAGE.md exists. Eight diagnostic questions answered. No gaps."
       - class: card
-        title: "Structure"
+        title: "How is it organized?"
         text: "Inheritance, constraints, and axioms enforced in code — not a policy binder."
       - class: card
-        title: "Learning"
+        title: "What has it learned?"
         text: "LEARNING.md exists. The system learns from its own errors. Each incident closes a gap."
       - class: card
-        title: "Language"
+        title: "What language does it speak?"
         text: "DESIGN inherited. The governance language is inherited, not invented. Consistency across the stack."
   - id: tiers
     eyebrow: "COMPLIANCE TIERS"
@@ -143,9 +143,9 @@ sections:
         price: "35"
         sub: "Foundation"
         features:
-          - "CANON.md — Declaration"
+          - "CANON.md — the axiom"
           - "README.md — Interface"
-          - "VOCAB.md — Evidence"
+          - "VOCAB.md — defined terms"
           - "Minimum viable governance"
         ctaLabel: "Start here"
         ctaHref: "#"
@@ -155,7 +155,7 @@ sections:
         sub: "+ Specification"
         features:
           - "Everything in COMMUNITY"
-          - "Specification — Reproducibility"
+          - "Specification — the interface"
           - "Structure and organization"
         ctaLabel: "Get started"
         ctaHref: "#"
@@ -165,8 +165,8 @@ sections:
         sub: "+ Transparency + Operations"
         features:
           - "Everything in BUSINESS"
-          - "Transparency — Roadmap"
-          - "Operations — Coverage"
+          - "Roadmap — where it's going"
+          - "Coverage — how healthy it is"
           - "Continuous governance"
         ctaLabel: "Talk to us"
         ctaHref: "#"
@@ -177,7 +177,7 @@ sections:
         sub: "+ Learning"
         features:
           - "Everything in ENTERPRISE"
-          - "Learning — self-improvement"
+          - "Self-improvement from errors"
           - "Error-driven refinement"
         ctaLabel: "Talk to us"
         ctaHref: "#"
@@ -187,7 +187,7 @@ sections:
         sub: "FULL"
         features:
           - "Everything in AGENT"
-          - "Language — inherited DESIGN"
+          - "Inherited design system"
           - "All 8 dimensions"
           - "COIN minting enabled"
         ctaLabel: "Deploy now"

@@ -138,31 +138,31 @@ sections:
   - id: certification
     eyebrow: "CERTIFICATION"
     title: "Eight dimensions. Five tiers. One target."
-    description: "Every governed scope validates toward 255. Declaration. Evidence. Transparency. Reproducibility. Operations. Structure. Learning. Language. Each dimension contributes to the compliance score. The score is a bitmask — every bit carries information."
+    description: "Every governed scope validates toward 255. Eight questions, eight bits, one score. Each question either has an answer or it does not. The score is a bitmask — every bit carries information."
     cards:
       - class: card
-        title: "Declaration"
+        title: "What does this system do?"
         text: "CANON.md exists. The system states what it is, what it believes, and what it will not do."
       - class: card
-        title: "Evidence"
+        title: "What terms does it define?"
         text: "VOCAB.md exists. Every term defined. No ambiguity. No hallucination by design."
       - class: card
-        title: "Transparency"
+        title: "Where is it going?"
         text: "ROADMAP.md exists. What shipped, what is next, and when. Versioned and public."
       - class: card
-        title: "Reproducibility"
+        title: "How is it specified?"
         text: "The specification document exists. Exact interface and boundaries described."
       - class: card
-        title: "Operations"
+        title: "How healthy is it?"
         text: "COVERAGE.md exists. Eight diagnostic questions answered. No gaps permitted."
       - class: card
-        title: "Structure"
+        title: "How is it organized?"
         text: "Inheritance, constraints, and axioms enforced in code — not a policy binder."
       - class: card
-        title: "Learning"
+        title: "What has it learned?"
         text: "LEARNING.md exists. The system learns from its own errors. Each incident closes a gap."
       - class: card
-        title: "Language"
+        title: "What language does it speak?"
         text: "DESIGN inherited. The governance language is inherited, not invented. Consistency across the entire stack."
     cta:
       buttons:

@@ -350,8 +350,8 @@ sections:
         sub: "bits"
         features:
           - "Everything in ENTERPRISE"
-          - "Learning — system improves from errors"
-          - "Evidence chain — references and proof"
+          - "Self-improvement — system learns from errors"
+          - "Proof chain — references and evidence"
           - "Autonomous governance refinement"
         ctaLabel: "Talk to us"
         ctaHref: "#"
@@ -361,8 +361,8 @@ sections:
         sub: "bits"
         features:
           - "Everything in AGENT"
-          - "Language — inherited design system"
-          - "Full compliance — all 8 dimensions"
+          - "Inherited design system"
+          - "Full compliance — all 8 questions answered"
           - "COIN minting — governance becomes revenue"
         ctaLabel: "Deploy now"
         ctaHref: "#"
