@@ -1,0 +1,38 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/home/runner/CANONIC/canonic-canonic/MAGIC/SURFACE/JEKYLL/PAPERS/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-20",
+      "signal": "SPEC = {SCOPE} — each paper IS a governed scope",
+      "text": "Paper .md IS the specification, not just content",
+      "source": "LANGUAGE.md"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "Governance .md without front matter crashes Jekyll",
+      "text": "PAPERS dir must be compiled, not served raw",
+      "source": "bin/build-surfaces"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "Papers need richer structure than blogs",
+      "text": "TOC, appendices, figures, math, PDF export, citations",
+      "source": "PAPERS.md"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "GOV tree must be pure",
+      "text": "Content and governance coexist as source, compile separates them",
+      "source": "CANON.md"
+    }
+  ],
+  "stats": {
+    "total": 4,
+    "community_questions": 0,
+    "domain_patterns": 4
+  }
+}

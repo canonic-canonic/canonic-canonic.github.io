@@ -1,0 +1,87 @@
+{
+  "name": "CANONIC",
+  "scope": "finder",
+  "surface_type": "JEKYLL_DEFAULT",
+  "accent": "#00ff88",
+  "brand": {
+    "mark": "☲",
+    "markRotate": 90,
+    "label": "FINDER",
+    "tagline": "FINDER is hierarchical navigation for the governed topology."
+  },
+  "placeholder": "Ask about FINDER...",
+  "welcome": "Welcome to **FINDER**.\n\nFINDER is hierarchical navigation for the governed topology.",
+  "disclaimer": "AI-generated content. Verify independently.",
+  "systemPrompt": "You are TALK, the CANONIC conversation service for CANONIC.\n\nCurrent scope: FINDER.\nAxiom: FINDER is hierarchical navigation for the governed topology.\n\nGovernance chain (root to leaf):\n- FOUNDATION: SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.\n- MAGIC: INTEL. CHAT. COIN. — Three primitives. One governed economy.\n- GALAXY: GALAXY is the operating surface of distributed CANONIC.\n- FINDER: FINDER is hierarchical navigation for the governed topology.\n\n\nIndustry verticals (LIVE): FINANCE, MEDICINE.\nIndustry verticals (DEFERRED): AEROSPACE, AGRICULTURE, AUTOMOTIVE, DEFENSE, EDUCATION, ENERGY, GENOMICS, LOGISTICS, MANUFACTURING, QUALITY, REAL_ESTATE, RELIGION, ROBOTICS.\nRegulatory domains: BLOCKCHAIN, DATA, GOVERNMENT, LAW.\nHorizontal domains (cross-cutting): SAFETY, SECURITY.\nComposition: VERTICAL × HORIZONTAL = domain-specific compliance (e.g. MEDICINE × SECURITY = HIPAA).\nFleet: CANONIC, Foundation, Industries, MAGIC, Hadley Lab\n\nConstraints:\nMUST:     Render breadcrumb bar at top (scope path as clickable segments)\nMUST:     Distinguish folders (children > 0) from leaves (children = 0) visually\nMUST:     Click folder navigates into scope (push breadcrumb, render children)\nMUST:     Click leaf opens detail panel (INTEL, COIN, TALK for that scope)\nMUST:     Support graph view toggle (scoped subgraph, not full galaxy)\nMUST:     Update magic:// URI hash on every navigation (browser back/forward)\nMUST:     Render children as cards (category icon, label, tier ring, children count, COIN)\nMUST:     Collapse breadcrumb to back-arrow + scope name on mobile (< 768px)\nMUST:     Lazy-load vis-network (only when graph view toggled, not on Finder init)\nMUST:     Scope search to current Finder context (with \"search all\" toggle)\nMUST NOT: Show all 302 nodes at once (scoped to current breadcrumb level)\nMUST NOT: Require pinch-zoom or pan to navigate (breadcrumbs replace spatial memory)\nMUST NOT: Break browser history (every navigation is a pushState)\n\nINTEL context:\n[MAGIC]\n**INTEL — what you KNOW. The orchestrator. Every service wires INTEL.**\n[SURFACE]\n**INTEL — what you KNOW. The orchestrator. Every service wires INTEL.**\n\n\nLEARNING patterns:\n[MAGIC]\n| 2026-02-16 | NEW_TERM | New concept: MCODE | 00a5849 |\n| 2026-02-16 | NEW_TERM | New concept: SWITCHER | fb9f2ec |\n| 2026-02-16 | NEW_TERM | New concept: EXPLAINED | fb9f2ec |\n[USERS]\n| 2026-02-20 | EVOLUTION | Epoch 001: USERS Scope — Every user is an ORG; VITAE = identity; CANON = governance; same 8 questions, same 255 | EVOLUTION.md (archived to git) |\n[CANONIC]\n| Pattern | Source | Scope |\n[FOUNDATION]\n| Pattern | Source | Scope |\n[COMPLIANCE]\n| 2026-02-19 | COMPLIANCE is the tier algebra | Tiers are cumulative governance surfaces; inheritance is monotonic — children add, never weaken | COMPLIANCE/CANON.md |\n[SERVICES]\n| 2026-02-19 | INTEL is WORK — mandatory primitive | INTEL is the only mandatory primitive; COIN and TALK are optional services | canonic-canonic/FOUNDATION/DOCTRINE |\n\n\nSurface controls: talk=side, view=web\n\nRules:\n- Be concise and accurate.\n- Cite sources when making claims.\n- If you don't know, say so.\n- Reference the governance chain when relevant.\n\nKnown routes:\n- web_docs: https://canonic.org/\n- web_surface: https://canonic.org/magic/galaxy/finder/",
+  "breadcrumbs": [
+    {
+      "label": "∩",
+      "href": "/"
+    },
+    {
+      "label": "magic",
+      "href": "/magic/"
+    },
+    {
+      "label": "galaxy",
+      "href": "/magic/galaxy/"
+    },
+    {
+      "label": "finder",
+      "href": "/magic/galaxy/finder/"
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/GALAXY/FINDER/CANON.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "controls": {
+    "talk": "side",
+    "view": "web",
+    "views": [
+      "gov"
+    ],
+    "downloads": []
+  },
+  "_tier": {
+    "name": "COMMUNITY",
+    "score": 163,
+    "intel": true
+  },
+  "canon": {
+    "axiom": "FINDER is hierarchical navigation for the governed topology.",
+    "constraints": "MUST:     Render breadcrumb bar at top (scope path as clickable segments)\nMUST:     Distinguish folders (children > 0) from leaves (children = 0) visually\nMUST:     Click folder navigates into scope (push breadcrumb, render children)\nMUST:     Click leaf opens detail panel (INTEL, COIN, TALK for that scope)\nMUST:     Support graph view toggle (scoped subgraph, not full galaxy)\nMUST:     Update magic:// URI hash on every navigation (browser back/forward)\nMUST:     Render children as cards (category icon, label, tier ring, children count, COIN)\nMUST:     Collapse breadcrumb to back-arrow + scope name on mobile (< 768px)\nMUST:     Lazy-load vis-network (only when graph view toggled, not on Finder init)\nMUST:     Scope search to current Finder context (with \"search all\" toggle)\nMUST NOT: Show all 302 nodes at once (scoped to current breadcrumb level)\nMUST NOT: Require pinch-zoom or pan to navigate (breadcrumbs replace spatial memory)\nMUST NOT: Break browser history (every navigation is a pushState)",
+    "inherits": "canonic-canonic/MAGIC/GALAXY",
+    "vocab": [
+      {
+        "term": "BREADCRUMB",
+        "definition": "Clickable scope path at the top of the Finder. Each segment navigates to that level."
+      },
+      {
+        "term": "FOLDER",
+        "definition": "A galaxy node with children > 0. Click navigates into the scope."
+      },
+      {
+        "term": "LEAF",
+        "definition": "A galaxy node with children = 0. Click opens detail panel."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "GALAXY",
+        "axiom": "GALAXY is the operating surface of distributed CANONIC.",
+        "constraints": "MUST:     Require GitHub OAuth authentication (no anonymous galaxy access)\nMUST:     Resolve principal from GitHub session (session.user → galaxy scope)\nMUST:     Serve as the primary operating surface (no fleet chrome in galaxy mode)\nMUST:     Compose INTEL + COIN + TALK as native primitives (not plugins)\nMUST:     Support scoped galaxies per principal (USER, ORG, superuser)\nMUST:     Support hierarchical Finder navigation (breadcrumbs, folder/leaf)\nMUST:     Support conversational editing (scope creation, INTEL editing via TALK)\nMUST:     Use magic:// URI as the navigation protocol with browser back/forward\nMUST:     Attribute every action to the authenticated GitHub identity\nMUST:     Gate reader-restricted scopes via session identity (canSeeNode)\nMUST:     Encode ORG/USER topology (stars/planets)\nMUST:     Treat identity boundaries as first-class (no collapse)\nMUST:     Drive galaxy surfaces from governed indices (no hardcoding)\nMUST:     Compliance ring on every non-USER node (ring IS the product)\nMUST:     Ring segments map 1:1 to MAGIC dimensions\nMUST:     Tier glow color from tier threshold, not category\nMUST:     INTEL flow visible on edges (animated if INTEL.md present)\nMUST:     Principals render as flagship (icon + ring + glow)\nMUST:     Brand marks (∩, ☲) render on ORG nodes from governed BRAND.md\nMUST:     All visual encoding derived from compiled data (galaxy.json)\nMUST:     galaxy.json is reproducible — build-galaxy-json discovers ORGS/*/CANON.md\nMUST:     GALAXY surface is reproducible — DESIGN theme renders galaxy.json, nothing else\nMUST:     Remove GOV directory = remove from galaxy — no other action required\nMUST NOT: Allow unauthenticated access to the operating surface\nMUST NOT: Require terminal or dev tools for governance operations\nMUST NOT: Show fleet site chrome (nav, footer) in galaxy operating mode\nMUST NOT: Hardcode principal scoping (discover from galaxy graph)\nMUST NOT: Introduce global namespaces that break projection\nMUST NOT: Hardcode compliance score in renderer (read node.bits)\nMUST NOT: Render principals as plain text boxes\nMUST NOT: Hand-edit galaxy.json — fix the compiler or the GOV tree"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

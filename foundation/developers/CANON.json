@@ -1,0 +1,117 @@
+{
+  "name": "CANONIC",
+  "scope": "developers",
+  "surface_type": "JEKYLL_DEFAULT",
+  "accent": "#00ff88",
+  "brand": {
+    "mark": "☲",
+    "markRotate": 90,
+    "label": "DEVELOPERS",
+    "tagline": "DEVELOPERS is the certification surface. Every certified developer is discoverable. Every credential is verifiable. Git proves it."
+  },
+  "placeholder": "Ask about DEVELOPERS...",
+  "welcome": "Welcome to **DEVELOPERS**.\n\nDEVELOPERS is the certification surface. Every certified developer is discoverable. Every credential is verifiable. Git proves it.",
+  "disclaimer": "AI-generated content. Verify independently.",
+  "systemPrompt": "You are TALK, the CANONIC conversation service for CANONIC.\n\nCurrent scope: DEVELOPERS.\nAxiom: DEVELOPERS is the certification surface. Every certified developer is discoverable. Every credential is verifiable. Git proves it.\n\nGovernance chain (root to leaf):\n- FOUNDATION: SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.\n- DEVELOPERS: DEVELOPERS is the certification surface. Every certified developer is discoverable. Every credential is verifiable. Git proves it.\n\n\nIndustry verticals (LIVE): FINANCE, MEDICINE.\nIndustry verticals (DEFERRED): AEROSPACE, AGRICULTURE, AUTOMOTIVE, DEFENSE, EDUCATION, ENERGY, GENOMICS, LOGISTICS, MANUFACTURING, QUALITY, REAL_ESTATE, RELIGION, ROBOTICS.\nRegulatory domains: BLOCKCHAIN, DATA, GOVERNMENT, LAW.\nHorizontal domains (cross-cutting): SAFETY, SECURITY.\nComposition: VERTICAL × HORIZONTAL = domain-specific compliance (e.g. MEDICINE × SECURITY = HIPAA).\nFleet: CANONIC, Foundation, Industries, MAGIC, Hadley Lab\n\nConstraints:\nMUST:     Discover developers from GOV tree — walk VITAE.md + cert/ tags\nMUST:     Compile to _data/developers.json via build-surfaces\nMUST:     Render on FOUNDATION site with tier badges\nMUST:     Every listed developer has a matching cert/ tag in TAGS.md\nMUST NOT: List uncertified developers\nMUST NOT: Hardcode developer lists — discover from GOV tree\nMUST NOT: Hand-edit developers.json — fix the compiler or contract\n\nINTEL context:\n[DEVELOPERS]\n| Scope | Relationship | What flows |\n[MAGIC]\n**INTEL — what you KNOW. The orchestrator. Every service wires INTEL.**\n\n\nLEARNING patterns:\n[FOUNDATION]\n| Pattern | Source | Scope |\n| TRIAD | v0 paper | Every scope has CANON.md + VOCAB.md + README.md |\n| INHERITANCE | v0 paper | Children inherit parents |\n| INTROSPECTION | v0 paper | The system validates itself |\n| COMPILER CORRESPONDENCE | v0 paper | Syntax + Scope + Type System |\n[CANONIC]\n| Pattern | Source | Scope |\n| TRIAD | v0 paper | Every scope closes CANON + VOCAB + README (and promotes to COVERAGE/ROADMAP/LEARNING). |\n| INHERITANCE | v0 paper | Children inherit parents; children add, never weaken. |\n[DOCTRINE]\n| 2026-02-19 | DOCTRINE is fixed and DRY | No narrative arc, no fluff — mathematical, enforced by structure, edits are versioned not overwritten | DOCTRINE/CANON.md |\n| 2026-02-19 | Three foundation axioms | TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three | FOUNDATION/LEARNING.md |\n| 2026-02-19 | INTEL is WORK — mandatory primitive | Only INTEL (WORK) is mandatory across all principals; COIN and TALK are optional services | FOUNDATION/DOCTRINE |\n[ONBOARDING]\n| 2026-02-27 | TRIAD_COMPLETE | ONBOARDING scope governance completed — full MAGIC 255 | CANON.md |\n[PROGRAMMING]\n| Type | Example |\n| Transpiler patterns | Which C → X translations succeed |\n| Phylogenetic distance | How far each language drifts from Python (ancestral) |\n[RESERVES]\n| 2026-02-19 | Reserve structure mirrors tiers | Reserve allocation structure mirrors governance tiers — FOUNDATION architecture determines economic shape | FOUNDATION architecture |\n| 2026-02-19 | Allocation is irreversible | Allocation decisions cannot be unwound — learning must precede commitment | DEAL operations |\n| 2026-02-19 | RESERVES reconcile against LEDGER | Every reserve allocation evidenced; reconciliation at close verifies integrity | canonic-canonic RESERVES/CANON.md |\n[INDUSTRIES]\n| — | SEED | INDUSTRY is the variable — primitives are fixed | MAGIC LEARNING.md |\n[MAGIC]\n| 2026-02-16 | NEW_TERM | New concept: MCODE | 00a5849 |\n[C]\n| Pattern | Source |\n\n\nSurface controls: talk=side, view=web\n\nContent (DEVELOPERS.md, 5 sections):\n- Discovery:\nWalk GOV tree for VITAE.md files across all governed repos. Cross-reference against cert/ tags in TAGS.md. Only developers with matching cert tags are listed.\n\n``\nGOV tree → VITAE.md discovery → cert/ tag match → developers.json → FOUNDATION page\n``\n- Card Schema:\n| Field | Source | Required |\n| --- | --- | --- |\n| name | VITAE.md | YES |\n| github | VITAE.md | YES |\n| title | VITAE.md | YES |\n| org | GALAXY inheritance | YES |\n| tier | cert/ tag | YES |\n| tier_score | magic validate | YES |\n| focus | VITAE.md | NO |\n| vitae_url | Compiled route | YES |\n| cert_date | cert/ tag date | YES |\n| cert_tag | Git tag ref | YES |\n- Sort:\nBy tier (FULL first), then alphabetical within tier.\n- Output:\n_data/developers.json — compiled by build-surfaces with _generated marker.\n- Surface:\nFOUNDATION page renders developer cards. Each card links to VITAE. Each card has \"Verify This Credential\" — checkout cert tag, run magic validate, get same score.\n\n*DEVELOPERS | FOUNDATION*\n\n\nRules:\n- Be concise and accurate.\n- Cite sources when making claims.\n- If you don't know, say so.\n- Reference the governance chain when relevant.\n\nKnown routes:\n- web_docs: https://canonic.org/\n- web_surface: https://canonic.org/foundation/developers/",
+  "breadcrumbs": [
+    {
+      "label": "∩",
+      "href": "/"
+    },
+    {
+      "label": "foundation",
+      "href": "/foundation/"
+    },
+    {
+      "label": "developers",
+      "href": "/foundation/developers/"
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/FOUNDATION/DEVELOPERS/DEVELOPERS.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "controls": {
+    "talk": "side",
+    "view": "web",
+    "views": [
+      "gov"
+    ],
+    "downloads": []
+  },
+  "_tier": {
+    "name": "FULL",
+    "score": 255,
+    "intel": true
+  },
+  "canon": {
+    "axiom": "DEVELOPERS is the certification surface. Every certified developer is discoverable. Every credential is verifiable. Git proves it.",
+    "constraints": "MUST:     Discover developers from GOV tree — walk VITAE.md + cert/ tags\nMUST:     Compile to _data/developers.json via build-surfaces\nMUST:     Render on FOUNDATION site with tier badges\nMUST:     Every listed developer has a matching cert/ tag in TAGS.md\nMUST NOT: List uncertified developers\nMUST NOT: Hardcode developer lists — discover from GOV tree\nMUST NOT: Hand-edit developers.json — fix the compiler or contract",
+    "inherits": "canonic-canonic/FOUNDATION",
+    "spec": [
+      {
+        "title": "Discovery",
+        "body": "Walk GOV tree for VITAE.md files across all governed repos. Cross-reference against cert/ tags in TAGS.md. Only developers with matching cert tags are listed.\n\n```\nGOV tree → VITAE.md discovery → cert/ tag match → developers.json → FOUNDATION page\n```\n\n---"
+      },
+      {
+        "title": "Card Schema",
+        "body": "| Field | Source | Required |\n|-------|--------|----------|\n| name | VITAE.md | YES |\n| github | VITAE.md | YES |\n| title | VITAE.md | YES |\n| org | GALAXY inheritance | YES |\n| tier | cert/ tag | YES |\n| tier_score | magic validate | YES |\n| focus | VITAE.md | NO |\n| vitae_url | Compiled route | YES |\n| cert_date | cert/ tag date | YES |\n| cert_tag | Git tag ref | YES |\n\n---"
+      },
+      {
+        "title": "Sort",
+        "body": "By tier (FULL first), then alphabetical within tier.\n\n---"
+      },
+      {
+        "title": "Output",
+        "body": "`_data/developers.json` — compiled by build-surfaces with `_generated` marker.\n\n---"
+      },
+      {
+        "title": "Surface",
+        "body": "FOUNDATION page renders developer cards. Each card links to VITAE. Each card has \"Verify This Credential\" — checkout cert tag, run `magic validate`, get same score.\n\n---"
+      }
+    ],
+    "intel": [
+      {
+        "title": "Cross-Axiomatic References",
+        "body": "| Scope | Relationship | What flows |\n|-------|-------------|-----------|\n| CERTIFICATION | Upstream | Tier definitions, tag convention — what certification means |\n| VITAE | Upstream | Professional credentials — source data for developer cards |\n| GALAXY | Topology | ORG membership — routes developer to org |\n| TAGS.md | Registry | cert/ tags — which developers are certified |\n| SALES | Downstream | Enterprise contact flow — buyer discovers certified team |\n| TALK | Downstream | Governed CHAT — buyer contacts developer via TALK overlay |\n\n---"
+      },
+      {
+        "title": "Migration Pattern",
+        "body": "INTEL carries developer knowledge across scopes without exposing internals:\n\n```\nVITAE (full record)       → INTEL → DEVELOPERS (public card subset)\nCERTIFICATION (tier)      → INTEL → DEVELOPERS (badge display)\nDEVELOPERS (listing)      → INTEL → SALES (proof in deal cycle)\nDEVELOPERS (contact)      → INTEL → TALK (governed conversation)\n```\n\n---"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-25 | Scope created | DEVELOPERS scope established — certification surface on FOUNDATION, discovered from GOV tree | CANON.md |\n\n---"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "DEVELOPER",
+        "definition": "A governed USER with a cert/ tag. Discovered from GOV tree."
+      },
+      {
+        "term": "DIRECTORY",
+        "definition": "The compiled listing of certified developers on FOUNDATION."
+      },
+      {
+        "term": "LISTING",
+        "definition": "A single developer card in the directory. Compiled from VITAE + cert tag."
+      },
+      {
+        "term": "VERIFIED",
+        "definition": "A developer whose cert/ tag has been independently validated via magic validate."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

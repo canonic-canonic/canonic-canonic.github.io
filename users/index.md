@@ -6,9 +6,6 @@ description: ""
 footerTagline: "USERS"
 talk: side
 view: web
-views:
-  - gov
-  - web
 hero:
   badge: USERS
   title: "USERS"

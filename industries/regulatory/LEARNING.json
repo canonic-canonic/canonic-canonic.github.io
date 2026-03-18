@@ -1,0 +1,38 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/home/runner/CANONIC/canonic-canonic/INDUSTRIES/REGULATORY/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-14",
+      "signal": "SEED",
+      "text": "REGULATORY defaults to PATENT (#57) — missing C6 (no universal structural standard)",
+      "source": "REGULATORY.md"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "SEED",
+      "text": "BLOCKCHAIN is #53 (PROVENANCE), not ENTERPRISE — records claims, not truth",
+      "source": "BLOCKCHAIN.md"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "SEED",
+      "text": "Every REGULATORY domain composes with every VERTICAL = compliance product",
+      "source": "COMPOSITION.md"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "SEED",
+      "text": "Privacy laws (GDPR, CCPA, LGPD) all map to same lattice level (#57)",
+      "source": "DATA.md"
+    }
+  ],
+  "stats": {
+    "total": 4,
+    "community_questions": 0,
+    "domain_patterns": 4
+  }
+}

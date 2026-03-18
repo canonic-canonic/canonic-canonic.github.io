@@ -1,0 +1,201 @@
+{
+  "name": "CANONIC",
+  "scope": "real_estate",
+  "surface_type": "JEKYLL_DEFAULT",
+  "accent": "#00ff88",
+  "brand": {
+    "mark": "☲",
+    "markRotate": 90,
+    "label": "REAL_ESTATE",
+    "tagline": "Example"
+  },
+  "placeholder": "Ask about REAL_ESTATE...",
+  "welcome": "Welcome to **REAL_ESTATE**.\n\nExample",
+  "disclaimer": "AI-generated content. Verify independently.",
+  "systemPrompt": "You are TALK, the CANONIC conversation service for CANONIC.\n\nCurrent scope: REAL_ESTATE.\nAxiom: Example\n\nGovernance chain (root to leaf):\n- FOUNDATION: SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.\n- MAGIC: INTEL. CHAT. COIN. — Three primitives. One governed economy.\n- INDUSTRIES: INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.\n- REAL_ESTATE: Example\n\n\nIndustry verticals (LIVE): FINANCE, MEDICINE.\nIndustry verticals (DEFERRED): AEROSPACE, AGRICULTURE, AUTOMOTIVE, DEFENSE, EDUCATION, ENERGY, GENOMICS, LOGISTICS, MANUFACTURING, QUALITY, REAL_ESTATE, RELIGION, ROBOTICS.\nRegulatory domains: BLOCKCHAIN, DATA, GOVERNMENT, LAW.\nHorizontal domains (cross-cutting): SAFETY, SECURITY.\nComposition: VERTICAL × HORIZONTAL = domain-specific compliance (e.g. MEDICINE × SECURITY = HIPAA).\nFleet: CANONIC, Foundation, Industries, MAGIC, Hadley Lab\n\nConstraints:\nMUST:     Cite specific statute or standard for real estate claims\nMUST:     Distinguish state law from federal requirements\nMUST:     Verify claims against county public records\nMUST NOT: Present property valuations without methodology disclosure\nMUST NOT: Operate without proper licensure verification\n\nINTEL context:\n[MAGIC]\n**INTEL — what you KNOW. The orchestrator. Every service wires INTEL.**\n\n\nLEARNING patterns:\n[VERTICALS]\n| 2026-02-14 | SEED | All verticals = ENTERPRISE (#63) — no exceptions | INDUSTRIES.md |\n| 2026-02-14 | SEED | Two valid spec patterns coexist: traditional (MEDICINE) and modernized (ROBOTICS) | MEDICINE.md, ROBOTICS.md |\n| 2026-02-14 | SEED | Cross-domain compositions strengthen patent claims (PROV-001 through PROV-006) | Per-vertical Patent Mapping |\n| 2026-02-14 | SEED | Medical verticals have deepest nesting (oncology → breast → MAMMOCHAT) | MEDICINE.md |\n| 2026-02-14 | SEED | SIL/DAL/ASIL-to-MAGIC tier mapping is the bridge between domain safety levels and governance | ROBOTICS.md, AEROSPACE.md, AUTOMOTIVE.md |\n[INDUSTRIES]\n| — | SEED | INDUSTRY is the variable — primitives are fixed | MAGIC LEARNING.md |\n| — | SEED | Each vertical maps INTEL + CHAT + COIN to domain-specific standards | Architecture |\n| — | SEED | Medical verticals have deepest nesting (oncology → breast → MAMMOCHAT) | hadleylab-canonic proof |\n[RELIGION]\n| 2026-02-20 | EVOLUTION | Lattice Formula: All traditions follow D→E→T→R→O→S accumulation; schism reverses dimensions; reformation = subtraction + reconstruction | EVOLUTION.md (archived to git) |\n| 2026-02-20 | EVOLUTION | Taxonomy: Proto-Semitic → Judaism → Christianity → Islam; Indo-European → Hinduism → Buddhism → Jainism → Sikhism; East Asian; Modern/New | EVOLUTION.md (archived to git) |\n| 2026-02-20 | EVOLUTION | Shared Abrahamic formula: SDA and Sunni Islam share same TIER, different CONTENT; both ENTERPRISE | EVOLUTION.md (archived to git) |\n[CANONIC]\n| Pattern | Source | Scope |\n[HORIZONTAL]\n| 2026-02-14 | SEED | SAFETY and SECURITY are ALWAYS ENTERPRISE (#63) — no exceptions, no shortcuts | SAFETY.md |\n[REGULATORY]\n| 2026-02-14 | SEED | REGULATORY defaults to PATENT (#57) — missing C6 (no universal structural standard) | REGULATORY.md |\n[MAGIC]\n| 2026-02-16 | NEW_TERM | New concept: MCODE | 00a5849 |\n\n\nSurface controls: talk=side, view=web\n\nContent (REAL_ESTATE.md, 13 sections):\n- Domain Declaration:\n``\nREAL_ESTATE = PROPERTY_STANDARD x CANONIC\n            = Structure(property) x (C1, C2, Temporal, Relational, C5)\n            = owned real estate vertical\n``\n- Lattice Formula:\n``\nREAL_ESTATE = C1 ∩ C2 ∩ Temporal ∩ Relational ∩ C5 ∩ C6\n            = ENTERPRISE (#63)\n``\n\nReal Estate requires full Enterprise because:\n- C1: Listings, disclosures, and contracts make claims (price, condition, ownership)\n- C2: Public records prove ownership, liens, assessments, title chain\n- Temporal: Listing dates, contract deadlines, inspection periods, closing dates, recording timestamps\n- Relational: County jurisdiction, state licensing boards, MLS membership, brokerage relationships, lender requirements\n- C5: State real estate commission enforcement (FREC/DBPR in FL), NAR ethics committees, title insurance underwriters\n- C6: MLS data standards (RESO/RETS), IDX display rules, FAR/BAR contract forms, USPAP appraisal standards\n- Axioms:\n### 1. Public Ledger\n\nReal estate IS a public ledger. Every transfer, lien, and encumbrance is recorded with the county. The deed book is the original blockchain.\n\nExample: Orange County Comptroller — Official Records search. Deed recorded at Book/Page. Instrument number is the hash. Recording date is the timestamp. The county recorder is the consensus mechanism. No private state — everything is public record.\n\n### 2. Property as Entity\n\nEach property is a governed entity with its own identity, history, and compliance state.\n\nExample: Parcel ID 25-2330-1234-00-001 — this is the property's identity. It has an assessor record (value), a recorder history (chain of title), a tax account (obligations), a zoning classification (permitted use), a flood zone designation (risk), and building permits (improvements). The property exists independent of its current owner. Owners change. The parcel persists.\n\n### 3. Agent as Fiduciary\n\nThe licensed agent is a governed intermediary. Every action is a fiduciary obligation.\n\nExample: A listing agent's duties are contractually defined in the listing agreement. Every showing, every offer, every counteroffer, every disclosure is a governed action. The agent's license number is their credential. The brokerage is their ORG. The MLS is their network. Every action = WORK = COIN.\n\n### 4. Transaction as Lifecycle\n\nEvery real estate transaction follows a governed lifecycle from listing to closing.\n\nExample: Pre-listing (CMA, listing agreement, disclosures) → Active (MLS, showings, marketing) → Under Contract (inspection, appraisal, title, financing) → Closing (settlement, deed transfer, recording) → Post-closing (tax proration adjustments, warranty claims). Each phase has required documents, deadlines, and compliance checkpoints.\n\n### 5. Credential Chain\n\nEvery participant in a transaction MUST be credentialed. Agents, appraisers, inspectors, title agents, lenders — all licensed and verifiable.\n\nExample: Agent license verified through DBPR (myfloridalicense.com). Appraiser license through FREAB. Home inspector through FL 468. Title agent through FL 626. Mortgage loan originator through NMLS. Every credential has a license number, status, expiration, and disciplinary history. All publicly verifiable.\n- Subdomains:\n| Subdomain | Standard | Formula | Description |\n| --- | --- | --- | --- |\n| Residential | FAR/BAR + F.S. 475 | ENTERPRISE | Single-family, condo, townhome |\n| Commercial | CCIM + UCC | ENTERPRISE | Office, retail, industrial, multifamily |\n| Appraisal | USPAP + FIRREA | BUSINESS | Property valuation |\n| Title | ALTA + F.S. 627 | BUSINESS | Title search, insurance, closing |\n| Property Management | F.S. 475 + F.S. 83 | BUSINESS | Leasing, maintenance, tenant relations |\n| Mortgage | TRID + Dodd-Frank | ENTERPRISE | Lending, underwriting, servicing |\n- Regulatory Mapping:\n| Framework | Lattice | Scope |\n| --- | --- | --- |\n| Fair Housing Act (42 USC 3601) | 5 governance checks | Anti-discrimination |\n| RESPA (12 USC 2601) | 5 governance checks | Settlement procedures |\n| TRID (Reg Z + RESPA) | 6 governance checks | Integrated disclosure |\n| FL Statute 475 | 5 governance checks | Agent licensing |\n| FL Statute 689 | 4 governance checks | Property transfers |\n| FL Statute 718/720 | 5 governance checks | Condo/HOA governance |\n| FIRPTA (26 USC 1445) | 5 governance checks | Foreign seller withholding |\n| USPAP | 6 governance checks | Appraisal standards |\n- Example: Property Credentialing Vertical:\n``\nDECLARE(PropertyCredential) = COUNTY_RECORDS x CANONIC\n\nWhere:\n  COUNTY_RECORDS provides Structure:\n    - Parcel ID (property identity)\n    - Deed history (chain of title)\n    - Assessment records (value)\n    - Tax records (obligations)\n    - Zoning/permits (entitlements)\n    - Liens/encumbrances (burdens)\n\n  CANONIC provides Governance:\n    - C1: Property claims stated (ownership, value, condition)\n    - C2: County records as evidence\n    - Temporal: Recording dates, assessment dates\n    - Relational: County, state, MLS jurisdiction\n    - C5: Title insurance underwriter verification\n    - C6: RESO data standards\n\nResult:\n  PropertyCredential = ENTERPRISE (#63)\n\n  Credential Lifecycle:\n    Search         — Records pulled\n    Verify         — Chain confirmed\n    Clear          — Jurisdiction mapped\n    Insure         — Title commitment issued\n    Certify        — Property credentialed\n``\n- Example: REALTOR-CHAT Service:\n``\nDECLARE(RealtorChat) = PROPERTY_DATA x CANONIC\n\nWhere:\n  PROPERTY_DATA provides INTEL:\n    - MLS listing data\n    - County public records\n    - Market comparables\n    - Neighborhood data\n    - School ratings\n    - Flood/environmental data\n\n  CANONIC provides CHAT:\n    - Industry voice = Real Estate\n    - Disclaimer = Not legal/financial advice\n    - Agent credential = License number verified\n    - Property credential = Parcel ID verified\n\n  CANONIC provides COIN:\n    - Every showing inquiry = WORK\n    - Every offer discussion = WORK\n    - Every disclosure served = WORK\n    - WORK = COIN = ledgered\n\nResult:\n  RealtorChat = INTEL + CHAT + COIN\n  Each property gets its own governed agent\n  Agent fleet scales with listings\n``\n- Validators:\n| Validator | Checks | Example Failure |\n| --- | --- | --- |\n| C1 | Property claims stated | Listing without legal description |\n| C2 | Public record verification | Ownership claimed without deed reference |\n| Temporal | Dates and deadlines | Expired listing shown as active |\n| Relational | Jurisdiction and licensing | Agent operating without state license |\n| C5 | Regulatory compliance | RESPA violation (undisclosed fees) |\n| C6 | Data standard conformance | MLS fields missing required RESO attributes |\n- Application:\nTo create a CANONIC real estate vertical:\n\nIdentify property (parcel ID, county, state)\nCreate scope with CANON.md inheriting /REAL_ESTATE/\nPull public records (assessor, recorder, clerk)\nVerify chain of title (deed history)\nDocument credentials (agent license, brokerage)\nEstablish temporal controls (listing dates, contract deadlines)\nMap jurisdiction (county, state, MLS)\nDeploy REALTOR-CHAT (governed AI agent per property)\n\nResult: Owned real estate vertical with public-record-verified governance.\n- Cross-Domain Compositions:\n``\nREAL_ESTATE × FINANCE      = Mortgage governance, TRID compliance (RESPA + GAAP + Dodd-Frank)\nREAL_ESTATE × LAW          = Title law, contract enforcement (FAR/BAR + UCC)\nREAL_ESTATE × QUALITY      = Property inspection, appraisal standards (USPAP + ASHI)\nREAL_ESTATE × ENERGY       = Energy efficiency, solar permitting (HERS + Title 24)\nREAL_ESTATE × MANUFACTURING = Construction management, building codes (ICC + OSHA)\nREAL_ESTATE × LOGISTICS    = Moving/relocation, property furnishing (DOT + GSA)\nREAL_ESTATE × EDUCATION    = School district mapping, campus real estate (NCES + SACSCOC)\nREAL_ESTATE × MEDICINE     = Healthcare facility compliance (CMS CoP + FGI)\nREAL_ESTATE × DEFENSE      = Military housing, BRAC governance (DLA + DoD)\nREAL_ESTATE × AGRICULTURE  = Agricultural land, conservation easements (NRCS + F.S. 570)\n``\n\n10 cross-domain compositions. Each strengthens PROV-001 and PROV-002 patent claims.\n- Live Proof — Hadley Lab:\n| Product | Deployment | Standards | URL |\n| --- | --- | --- | --- |\n| REAL-TALK | JP Capital Realty · 3 agents · $12.2M portfolio | FAR/BAR + USPAP + F.S. 475 + flood zone | [hadleylab.org/chat/realty/](https://hadleylab.org/chat/realty/) |\nSame 8 MAGIC dimensions as MammoChat. Different domain constraints. Identical governance proof. The real estate fleet demonstrates that MAGIC 255 is domain-agnostic — the architecture works whether the subject matter is a BI-RADS finding or a Lake Nona listing.\n- Prior Art Landscape:\n| Competitor | Approach | MAGIC checkset Distinction |\n| --- | --- | --- |\n| Zillow/Zestimate | AVM property valuation, listing aggregation | Consumer estimates, no governance language, no bitwise compliance |\n| CoStar/LoopNet | Commercial real estate data + analytics | Data platform, no governance framework |\n| Corelogic | Property data, title/tax records | Data aggregation, no governance gates, no O(1) checking |\n| Dotloop (Zillow) | Transaction management + e-signing | Workflow tool, no compliance encoding |\n| Matterport | 3D property scanning + digital twins | Visualization, no governance integration |\nGap: No existing system provides governance-gated real estate transactions with O(1) bitwise compliance checking across public records, title chain, licensing, and cross-domain composition.\n- Patent Mapping:\n| PROV | Relevance | Claims |\n| --- | --- | --- |\n| PROV-001 | PRIMARY | MAGIC private-check encoding for property governance verification |\n| PROV-002 | PRIMARY | COIN=WORK for transaction attestation, showing/offer evidence |\n| PROV-004 | Supporting | Transcompilation of RESPA/TRID/USPAP standards to governed executables |\n| PROV-003 | Supporting | Federated property governance across jurisdictions |\n*REAL_ESTATE | SPECIFICATION | VERTICALS | INDUSTRIES*\n\n\nRules:\n- Be concise and accurate.\n- Cite sources when making claims.\n- If you don't know, say so.\n- Reference the governance chain when relevant.\n\nKnown routes:\n- web_docs: https://canonic.org/\n- web_surface: https://canonic.org/industries/verticals/real_estate/",
+  "breadcrumbs": [
+    {
+      "label": "∩",
+      "href": "/"
+    },
+    {
+      "label": "industries",
+      "href": "/industries/"
+    },
+    {
+      "label": "verticals",
+      "href": "/industries/verticals/"
+    },
+    {
+      "label": "real_estate",
+      "href": "/industries/verticals/real_estate/"
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/INDUSTRIES/VERTICALS/REAL_ESTATE/REAL_ESTATE.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "controls": {
+    "talk": "side",
+    "view": "web",
+    "views": [
+      "gov"
+    ],
+    "downloads": []
+  },
+  "_tier": {
+    "name": "FULL",
+    "score": 255,
+    "intel": true
+  },
+  "canon": {
+    "axiom": "Example",
+    "constraints": "MUST:     Cite specific statute or standard for real estate claims\nMUST:     Distinguish state law from federal requirements\nMUST:     Verify claims against county public records\nMUST NOT: Present property valuations without methodology disclosure\nMUST NOT: Operate without proper licensure verification",
+    "inherits": "canonic-canonic/INDUSTRIES/VERTICALS",
+    "spec": [
+      {
+        "title": "Domain Declaration",
+        "body": "```\nREAL_ESTATE = PROPERTY_STANDARD x CANONIC\n            = Structure(property) x (C1, C2, Temporal, Relational, C5)\n            = owned real estate vertical\n```\n\n---"
+      },
+      {
+        "title": "Lattice Formula",
+        "body": "```\nREAL_ESTATE = C1 ∩ C2 ∩ Temporal ∩ Relational ∩ C5 ∩ C6\n            = ENTERPRISE (#63)\n```\n\nReal Estate requires full Enterprise because:\n- **C1**: Listings, disclosures, and contracts make claims (price, condition, ownership)\n- **C2**: Public records prove ownership, liens, assessments, title chain\n- **Temporal**: Listing dates, contract deadlines, inspection periods, closing dates, recording timestamps\n- **Relational**: County jurisdiction, state licensing boards, MLS membership, brokerage relationships, lender requirements\n- **C5**: State real estate commission enforcement (FREC/DBPR in FL), NAR ethics committees, title insurance underwriters\n- **C6**: MLS data standards (RESO/RETS), IDX display rules, FAR/BAR contract forms, USPAP appraisal standards\n\n---"
+      },
+      {
+        "title": "Axioms",
+        "body": "### 1. Public Ledger\n\nReal estate IS a public ledger. Every transfer, lien, and encumbrance is recorded with the county. The deed book is the original blockchain.\n\n**Example**: Orange County Comptroller — Official Records search. Deed recorded at Book/Page. Instrument number is the hash. Recording date is the timestamp. The county recorder is the consensus mechanism. No private state — everything is public record.\n\n---\n\n### 2. Property as Entity\n\nEach property is a governed entity with its own identity, history, and compliance state.\n\n**Example**: Parcel ID 25-2330-1234-00-001 — this is the property's identity. It has an assessor record (value), a recorder history (chain of title), a tax account (obligations), a zoning classification (permitted use), a flood zone designation (risk), and building permits (improvements). The property exists independent of its current owner. Owners change. The parcel persists.\n\n---\n\n### 3. Agent as Fiduciary\n\nThe licensed agent is a governed intermediary. Every action is a fiduciary obligation.\n\n**Example**: A listing agent's duties are contractually defined in the listing agreement. Every showing, every offer, every counteroffer, every disclosure is a governed action. The agent's license number is their credential. The brokerage is their ORG. The MLS is their network. Every action = WORK = COIN.\n\n---\n\n### 4. Transaction as Lifecycle\n\nEvery real estate transaction follows a governed lifecycle from listing to closing.\n\n**Example**: Pre-listing (CMA, listing agreement, disclosures) → Active (MLS, showings, marketing) → Under Contract (inspection, appraisal, title, financing) → Closing (settlement, deed transfer, recording) → Post-closing (tax proration adjustments, warranty claims). Each phase has required documents, deadlines, and compliance checkpoints.\n\n---\n\n### 5. Credential Chain\n\nEvery participant in a transaction MUST be credentialed. Agents, appraisers, inspectors, title agents, lenders — all licensed and verifiable.\n\n**Example**: Agent license verified through DBPR (myfloridalicense.com). Appraiser license through FREAB. Home inspector through FL 468. Title agent through FL 626. Mortgage loan originator through NMLS. Every credential has a license number, status, expiration, and disciplinary history. All publicly verifiable.\n\n---"
+      },
+      {
+        "title": "Subdomains",
+        "body": "| Subdomain | Standard | Formula | Description |\n|-----------|----------|---------|-------------|\n| Residential | FAR/BAR + F.S. 475 | ENTERPRISE | Single-family, condo, townhome |\n| Commercial | CCIM + UCC | ENTERPRISE | Office, retail, industrial, multifamily |\n| Appraisal | USPAP + FIRREA | BUSINESS | Property valuation |\n| Title | ALTA + F.S. 627 | BUSINESS | Title search, insurance, closing |\n| Property Management | F.S. 475 + F.S. 83 | BUSINESS | Leasing, maintenance, tenant relations |\n| Mortgage | TRID + Dodd-Frank | ENTERPRISE | Lending, underwriting, servicing |\n\n---"
+      },
+      {
+        "title": "Regulatory Mapping",
+        "body": "| Framework | Lattice | Scope |\n|-----------|---------|-------|\n| Fair Housing Act (42 USC 3601) | 5 governance checks | Anti-discrimination |\n| RESPA (12 USC 2601) | 5 governance checks | Settlement procedures |\n| TRID (Reg Z + RESPA) | 6 governance checks | Integrated disclosure |\n| FL Statute 475 | 5 governance checks | Agent licensing |\n| FL Statute 689 | 4 governance checks | Property transfers |\n| FL Statute 718/720 | 5 governance checks | Condo/HOA governance |\n| FIRPTA (26 USC 1445) | 5 governance checks | Foreign seller withholding |\n| USPAP | 6 governance checks | Appraisal standards |\n\n---"
+      },
+      {
+        "title": "Example: Property Credentialing Vertical",
+        "body": "```\nDECLARE(PropertyCredential) = COUNTY_RECORDS x CANONIC\n\nWhere:\n  COUNTY_RECORDS provides Structure:\n    - Parcel ID (property identity)\n    - Deed history (chain of title)\n    - Assessment records (value)\n    - Tax records (obligations)\n    - Zoning/permits (entitlements)\n    - Liens/encumbrances (burdens)\n\n  CANONIC provides Governance:\n    - C1: Property claims stated (ownership, value, condition)\n    - C2: County records as evidence\n    - Temporal: Recording dates, assessment dates\n    - Relational: County, state, MLS jurisdiction\n    - C5: Title insurance underwriter verification\n    - C6: RESO data standards\n\nResult:\n  PropertyCredential = ENTERPRISE (#63)\n\n  Credential Lifecycle:\n    Search         — Records pulled\n    Verify         — Chain confirmed\n    Clear          — Jurisdiction mapped\n    Insure         — Title commitment issued\n    Certify        — Property credentialed\n```\n\n---"
+      },
+      {
+        "title": "Example: REALTOR-CHAT Service",
+        "body": "```\nDECLARE(RealtorChat) = PROPERTY_DATA x CANONIC\n\nWhere:\n  PROPERTY_DATA provides INTEL:\n    - MLS listing data\n    - County public records\n    - Market comparables\n    - Neighborhood data\n    - School ratings\n    - Flood/environmental data\n\n  CANONIC provides CHAT:\n    - Industry voice = Real Estate\n    - Disclaimer = Not legal/financial advice\n    - Agent credential = License number verified\n    - Property credential = Parcel ID verified\n\n  CANONIC provides COIN:\n    - Every showing inquiry = WORK\n    - Every offer discussion = WORK\n    - Every disclosure served = WORK\n    - WORK = COIN = ledgered\n\nResult:\n  RealtorChat = INTEL + CHAT + COIN\n  Each property gets its own governed agent\n  Agent fleet scales with listings\n```\n\n---"
+      },
+      {
+        "title": "Validators",
+        "body": "| Validator | Checks | Example Failure |\n|-----------|--------|-----------------|\n| C1 | Property claims stated | Listing without legal description |\n| C2 | Public record verification | Ownership claimed without deed reference |\n| Temporal | Dates and deadlines | Expired listing shown as active |\n| Relational | Jurisdiction and licensing | Agent operating without state license |\n| C5 | Regulatory compliance | RESPA violation (undisclosed fees) |\n| C6 | Data standard conformance | MLS fields missing required RESO attributes |\n\n---"
+      },
+      {
+        "title": "Application",
+        "body": "To create a CANONIC real estate vertical:\n\n1. **Identify property** (parcel ID, county, state)\n2. **Create scope** with CANON.md inheriting /REAL_ESTATE/\n3. **Pull public records** (assessor, recorder, clerk)\n4. **Verify chain of title** (deed history)\n5. **Document credentials** (agent license, brokerage)\n6. **Establish temporal controls** (listing dates, contract deadlines)\n7. **Map jurisdiction** (county, state, MLS)\n8. **Deploy REALTOR-CHAT** (governed AI agent per property)\n\n**Result**: Owned real estate vertical with public-record-verified governance.\n\n---"
+      },
+      {
+        "title": "Cross-Domain Compositions",
+        "body": "```\nREAL_ESTATE × FINANCE      = Mortgage governance, TRID compliance (RESPA + GAAP + Dodd-Frank)\nREAL_ESTATE × LAW          = Title law, contract enforcement (FAR/BAR + UCC)\nREAL_ESTATE × QUALITY      = Property inspection, appraisal standards (USPAP + ASHI)\nREAL_ESTATE × ENERGY       = Energy efficiency, solar permitting (HERS + Title 24)\nREAL_ESTATE × MANUFACTURING = Construction management, building codes (ICC + OSHA)\nREAL_ESTATE × LOGISTICS    = Moving/relocation, property furnishing (DOT + GSA)\nREAL_ESTATE × EDUCATION    = School district mapping, campus real estate (NCES + SACSCOC)\nREAL_ESTATE × MEDICINE     = Healthcare facility compliance (CMS CoP + FGI)\nREAL_ESTATE × DEFENSE      = Military housing, BRAC governance (DLA + DoD)\nREAL_ESTATE × AGRICULTURE  = Agricultural land, conservation easements (NRCS + F.S. 570)\n```\n\n**10 cross-domain compositions. Each strengthens PROV-001 and PROV-002 patent claims.**\n\n---"
+      },
+      {
+        "title": "Live Proof — Hadley Lab",
+        "body": "| Product | Deployment | Standards | URL |\n|---------|------------|-----------|-----|\n| REAL-TALK | JP Capital Realty · 3 agents · $12.2M portfolio | FAR/BAR + USPAP + F.S. 475 + flood zone | [hadleylab.org/chat/realty/](https://hadleylab.org/chat/realty/) |\n\nSame 8 MAGIC dimensions as MammoChat. Different domain constraints. Identical governance proof. The real estate fleet demonstrates that MAGIC 255 is domain-agnostic — the architecture works whether the subject matter is a BI-RADS finding or a Lake Nona listing.\n\n---"
+      },
+      {
+        "title": "Prior Art Landscape",
+        "body": "| Competitor | Approach | MAGIC checkset Distinction |\n|-----------|----------|-------------------|\n| Zillow/Zestimate | AVM property valuation, listing aggregation | Consumer estimates, no governance language, no bitwise compliance |\n| CoStar/LoopNet | Commercial real estate data + analytics | Data platform, no governance framework |\n| Corelogic | Property data, title/tax records | Data aggregation, no governance gates, no O(1) checking |\n| Dotloop (Zillow) | Transaction management + e-signing | Workflow tool, no compliance encoding |\n| Matterport | 3D property scanning + digital twins | Visualization, no governance integration |\n\n**Gap**: No existing system provides governance-gated real estate transactions with O(1) bitwise compliance checking across public records, title chain, licensing, and cross-domain composition.\n\n---"
+      },
+      {
+        "title": "Patent Mapping",
+        "body": "| PROV | Relevance | Claims |\n|------|-----------|--------|\n| PROV-001 | PRIMARY | MAGIC private-check encoding for property governance verification |\n| PROV-002 | PRIMARY | COIN=WORK for transaction attestation, showing/offer evidence |\n| PROV-004 | Supporting | Transcompilation of RESPA/TRID/USPAP standards to governed executables |\n| PROV-003 | Supporting | Federated property governance across jurisdictions |\n\n---\n\n*REAL_ESTATE | SPECIFICATION | VERTICALS | INDUSTRIES*"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-17 | NEW_VERTICAL | Real estate is public ledger — natural governance target | iMessage JP-DEX |\n| 2026-02-17 | COMPOSITION | PROPERTY = governed entity with parcel ID as identity | REAL_ESTATE.md |\n| 2026-02-17 | COMPOSITION | REALTOR-CHAT = INTEL(county records) + CHAT(property agent) + COIN(transaction work) | REAL_ESTATE.md |\n| 2026-02-17 | STRATEGY | Guinea pig pattern: prove governance on public ledger → scale to regulated industry | iMessage JP-DEX |\n| 2026-02-17 | PATENT_LINK | PROV-001 governs property data, PROV-002 mints transaction COIN, PROV-005 credentials agents | DEAL JP-CAPITAL |\n\n---\n\n*LEARNING | REAL_ESTATE | VERTICALS | INDUSTRIES*"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "CMA",
+        "definition": "Comparative Market Analysis."
+      },
+      {
+        "term": "DBPR",
+        "definition": "Department of Business and Professional Regulation (Florida)."
+      },
+      {
+        "term": "FAR",
+        "definition": "Florida Association of Realtors."
+      },
+      {
+        "term": "FEMA",
+        "definition": "Federal Emergency Management Agency."
+      },
+      {
+        "term": "FIRREA",
+        "definition": "Financial Institutions Reform, Recovery, and Enforcement Act."
+      },
+      {
+        "term": "FL",
+        "definition": "Florida."
+      },
+      {
+        "term": "FREAB",
+        "definition": "Florida Real Estate Appraisal Board."
+      },
+      {
+        "term": "FREC",
+        "definition": "Florida Real Estate Commission."
+      },
+      {
+        "term": "HOA",
+        "definition": "Homeowners Association."
+      },
+      {
+        "term": "MLS",
+        "definition": "Multiple Listing Service."
+      },
+      {
+        "term": "NAR",
+        "definition": "National Association of Realtors."
+      },
+      {
+        "term": "REAL_ESTATE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "RESPA",
+        "definition": "Real Estate Settlement Procedures Act."
+      },
+      {
+        "term": "TRID",
+        "definition": "TILA-RESPA Integrated Disclosure."
+      },
+      {
+        "term": "USC",
+        "definition": "United States Code."
+      },
+      {
+        "term": "USPAP",
+        "definition": "Uniform Standards of Professional Appraisal Practice."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "INDUSTRIES",
+        "axiom": "INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.",
+        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

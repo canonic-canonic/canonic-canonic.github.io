@@ -1,6 +1,6 @@
 {
   "_generated": {
-    "contract": "/Users/iDrDex/.canonic/TOOLCHAIN/SURFACE.json",
+    "contract": "canonic-canonic/MAGIC/TOOLCHAIN/SURFACE.json",
     "rule": "edit the contract or compiler \u2014 not this file"
   },
   "scopes": [
@@ -414,94 +414,6 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:DEALS",
-      "label": "DEALS",
-      "bits": 255,
-      "size": 80,
-      "color": "#ff9f0a",
-      "category": "COMMERCE",
-      "inherits": "gov:hadleylab-canonic:."
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:DEALS:BAKEOFF",
-      "label": "BAKEOFF",
-      "bits": 255,
-      "size": 80,
-      "color": "#00ff88",
-      "category": "RUNTIME",
-      "inherits": "gov:hadleylab-canonic:DEALS"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:DEALS:EXCELLENTING",
-      "label": "EXCELLENTING",
-      "bits": 255,
-      "size": 80,
-      "color": "#64748b",
-      "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:DEALS"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:DEALS:LEVUKA-VENTURE-LAB",
-      "label": "LEVUKA-VENTURE-LAB",
-      "bits": 255,
-      "size": 80,
-      "color": "#64748b",
-      "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:DEALS"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:DEALS:LLU",
-      "label": "LLU",
-      "bits": 255,
-      "size": 80,
-      "color": "#64748b",
-      "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:DEALS"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:DEALS:MALTA-ENTERPRISE",
-      "label": "MALTA-ENTERPRISE",
-      "bits": 255,
-      "size": 80,
-      "color": "#64748b",
-      "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:DEALS"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:DEALS:OC-MAMMOCHAT",
-      "label": "OC-MAMMOCHAT",
-      "bits": 255,
-      "size": 80,
-      "color": "#64748b",
-      "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:DEALS"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:DEALS:RUNNER-CHAIN",
-      "label": "RUNNER-CHAIN",
-      "bits": 255,
-      "size": 80,
-      "color": "#64748b",
-      "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:DEALS"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS",
       "label": "DECKS",
       "bits": 255,
@@ -564,28 +476,6 @@
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:DECKS"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:GRANTS",
-      "label": "GRANTS",
-      "bits": 255,
-      "size": 80,
-      "color": "#64748b",
-      "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:."
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:GRANTS:EHDS-GOV",
-      "label": "EHDS-GOV",
-      "bits": 255,
-      "size": 80,
-      "color": "#64748b",
-      "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:GRANTS"
     },
     {
       "source": "gov",
@@ -1458,6 +1348,116 @@
     },
     {
       "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:deals",
+      "label": "DEALS",
+      "bits": 247,
+      "size": 60,
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "inherits": "gov:hadleylab-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:deals:BAKEOFF",
+      "label": "BAKEOFF",
+      "bits": 255,
+      "size": 80,
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "inherits": "gov:hadleylab-canonic:deals"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:deals:EXCELLENTING",
+      "label": "EXCELLENTING",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:deals"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:deals:LEVUKA-VENTURE-LAB",
+      "label": "LEVUKA-VENTURE-LAB",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:deals"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:deals:LLU",
+      "label": "LLU",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:deals"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:deals:MALTA-ENTERPRISE",
+      "label": "MALTA-ENTERPRISE",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:deals"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:deals:OC-MAMMOCHAT",
+      "label": "OC-MAMMOCHAT",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:deals"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:deals:RUNNER-CHAIN",
+      "label": "RUNNER-CHAIN",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:deals"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:grants",
+      "label": "GRANTS",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:grants:EHDS-GOV",
+      "label": "EHDS-GOV",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:grants"
+    },
+    {
+      "source": "gov",
       "repo": "runner-canonic",
       "id": "gov:runner-canonic:.",
       "label": "RUNNER",
@@ -1565,6 +1565,50 @@
       "color": "#ec4899",
       "category": "SERVICES",
       "inherits": "gov:runner-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
+      "id": "gov:runner-canonic:canonic-canonic",
+      "label": "CANONIC-CANONIC",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:runner-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
+      "id": "gov:runner-canonic:canonic-canonic:FOUNDATION",
+      "label": "FOUNDATION",
+      "bits": 255,
+      "size": 80,
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "inherits": "gov:runner-canonic:canonic-canonic"
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
+      "id": "gov:runner-canonic:canonic-canonic:INDUSTRIES",
+      "label": "INDUSTRIES",
+      "bits": 255,
+      "size": 80,
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "inherits": "gov:runner-canonic:canonic-canonic"
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
+      "id": "gov:runner-canonic:canonic-canonic:MAGIC",
+      "label": "MAGIC",
+      "bits": 255,
+      "size": 80,
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "inherits": "gov:runner-canonic:canonic-canonic"
     },
     {
       "source": "magic",

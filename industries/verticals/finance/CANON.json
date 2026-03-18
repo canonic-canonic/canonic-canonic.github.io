@@ -1,0 +1,316 @@
+{
+  "name": "CANONIC",
+  "scope": "finance",
+  "surface_type": "JEKYLL_DEFAULT",
+  "accent": "#00ff88",
+  "brand": {
+    "mark": "☲",
+    "markRotate": 90,
+    "label": "FINANCE",
+    "tagline": "Example"
+  },
+  "placeholder": "Ask about FINANCE...",
+  "welcome": "Welcome to **FINANCE**.\n\nExample",
+  "disclaimer": "AI-generated content. Verify independently.",
+  "systemPrompt": "You are TALK, the CANONIC conversation service for CANONIC.\n\nCurrent scope: FINANCE.\nAxiom: Example\n\nGovernance chain (root to leaf):\n- FOUNDATION: SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.\n- MAGIC: INTEL. CHAT. COIN. — Three primitives. One governed economy.\n- INDUSTRIES: INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.\n- FINANCE: Example\n\n\nIndustry verticals (LIVE): FINANCE, MEDICINE.\nIndustry verticals (DEFERRED): AEROSPACE, AGRICULTURE, AUTOMOTIVE, DEFENSE, EDUCATION, ENERGY, GENOMICS, LOGISTICS, MANUFACTURING, QUALITY, REAL_ESTATE, RELIGION, ROBOTICS.\nRegulatory domains: BLOCKCHAIN, DATA, GOVERNMENT, LAW.\nHorizontal domains (cross-cutting): SAFETY, SECURITY.\nComposition: VERTICAL × HORIZONTAL = domain-specific compliance (e.g. MEDICINE × SECURITY = HIPAA).\nFleet: CANONIC, Foundation, Industries, MAGIC, Hadley Lab\n\nConstraints:\nMUST:     Cite specific regulation or standard for financial claims\nMUST:     Distinguish US GAAP from IFRS where applicable\nMUST NOT: Present financial projections without risk disclosure framework\n\nINTEL context:\n[MAGIC]\n**INTEL — what you KNOW. The orchestrator. Every service wires INTEL.**\n\n\nLEARNING patterns:\n[VERTICALS]\n| 2026-02-14 | SEED | All verticals = ENTERPRISE (#63) — no exceptions | INDUSTRIES.md |\n| 2026-02-14 | SEED | Two valid spec patterns coexist: traditional (MEDICINE) and modernized (ROBOTICS) | MEDICINE.md, ROBOTICS.md |\n| 2026-02-14 | SEED | Cross-domain compositions strengthen patent claims (PROV-001 through PROV-006) | Per-vertical Patent Mapping |\n| 2026-02-14 | SEED | Medical verticals have deepest nesting (oncology → breast → MAMMOCHAT) | MEDICINE.md |\n| 2026-02-14 | SEED | SIL/DAL/ASIL-to-MAGIC tier mapping is the bridge between domain safety levels and governance | ROBOTICS.md, AEROSPACE.md, AUTOMOTIVE.md |\n[INDUSTRIES]\n| — | SEED | INDUSTRY is the variable — primitives are fixed | MAGIC LEARNING.md |\n| — | SEED | Each vertical maps INTEL + CHAT + COIN to domain-specific standards | Architecture |\n| — | SEED | Medical verticals have deepest nesting (oncology → breast → MAMMOCHAT) | hadleylab-canonic proof |\n[REAL_ESTATE]\n| 2026-02-17 | NEW_VERTICAL | Real estate is public ledger — natural governance target | iMessage JP-DEX |\n| 2026-02-17 | COMPOSITION | PROPERTY = governed entity with parcel ID as identity | REAL_ESTATE.md |\n| 2026-02-17 | COMPOSITION | REALTOR-CHAT = INTEL(county records) + CHAT(property agent) + COIN(transaction work) | REAL_ESTATE.md |\n[RELIGION]\n| 2026-02-20 | EVOLUTION | Lattice Formula: All traditions follow D→E→T→R→O→S accumulation; schism reverses dimensions; reformation = subtraction + reconstruction | EVOLUTION.md (archived to git) |\n| 2026-02-20 | EVOLUTION | Taxonomy: Proto-Semitic → Judaism → Christianity → Islam; Indo-European → Hinduism → Buddhism → Jainism → Sikhism; East Asian; Modern/New | EVOLUTION.md (archived to git) |\n| 2026-02-20 | EVOLUTION | Shared Abrahamic formula: SDA and Sunni Islam share same TIER, different CONTENT; both ENTERPRISE | EVOLUTION.md (archived to git) |\n[CANONIC]\n| Pattern | Source | Scope |\n[HORIZONTAL]\n| 2026-02-14 | SEED | SAFETY and SECURITY are ALWAYS ENTERPRISE (#63) — no exceptions, no shortcuts | SAFETY.md |\n[REGULATORY]\n| 2026-02-14 | SEED | REGULATORY defaults to PATENT (#57) — missing C6 (no universal structural standard) | REGULATORY.md |\n[MAGIC]\n| 2026-02-16 | NEW_TERM | New concept: MCODE | 00a5849 |\n\n\nSurface controls: talk=side, view=web\n\nContent (FINANCE.md, 13 sections):\n- Domain Declaration:\n``\nFINANCE = FINANCIAL_STANDARD × CANONIC\n        = Structure(financial) × (C1, C2, Temporal, Relational, C5)\n        = owned financial vertical\n``\n- Lattice Formula:\n``\nFINANCE = C1 ∩ C2 ∩ Temporal ∩ Relational ∩ C5 ∩ C6\n        = ENTERPRISE (#63)\n``\n\nFinance requires full Enterprise because:\n- C1: Financial statements make claims\n- C2: Audit trails prove accuracy\n- Temporal: Reporting periods, fiscal years\n- Relational: Regulatory jurisdiction (SEC, state)\n- C5: Auditors, regulators enforce\n- C6: GAAP/IFRS accounting standards\n- Axioms:\n### 1. Materiality\n\nFinancial information MUST be accurate for material amounts. Materiality is defined by what would influence a reasonable investor's decision.\n\nExample: A $50,000 expense misclassification in a company with $10M revenue (0.5%) may not be material. The same error in a company with $500K revenue (10%) is material.\n\n### 2. Audit Trail\n\nEvery financial transaction MUST have a complete, immutable audit trail.\n\nExample: A payment of $25,000 to a vendor must trace to: purchase order, receiving report, invoice, approval, payment authorization, and bank transaction. Any gap breaks the trail.\n\n### 3. Period Integrity\n\nFinancial data MUST respect accounting period boundaries. Transactions MUST be recorded in the correct period.\n\nExample: Revenue recognized on December 31 must reflect goods delivered or services rendered by that date. Recognizing January delivery as December revenue is a period violation.\n\n### 4. Segregation of Duties\n\nCritical financial functions MUST be separated across different individuals.\n\nExample: The person who approves vendor payments MUST NOT be the same person who creates vendors in the system or reconciles bank statements.\n\n### 5. Reconciliation\n\nAccount balances MUST reconcile to supporting detail and external sources.\n\nExample: The cash balance per general ledger MUST reconcile to bank statements. Differences MUST be identified, documented, and resolved monthly.\n- Subdomains:\n| Subdomain | Standard | Formula | Description |\n| --- | --- | --- | --- |\n| Accounting | GAAP/IFRS | BUSINESS | Financial statements |\n| Audit | GAAS/PCAOB | BUSINESS | Independent verification |\n| Tax | IRC/Treasury | BUSINESS | Tax compliance |\n| Banking | Basel/OCC | ENTERPRISE | Bank regulation |\n| Securities | SEC Rules | BUSINESS | Capital markets |\n| Payments | PCI-DSS | ENTERPRISE | Card processing |\n- Regulatory Mapping:\n| Framework | Lattice | Scope |\n| --- | --- | --- |\n| SOX Section 302 | 5 governance checks | CEO/CFO certification |\n| SOX Section 404 | 6 governance checks | Internal controls |\n| SOC 1 Type II | 5 governance checks | Service organization controls |\n| SOC 2 Type II | 6 governance checks | Security controls |\n| PCI-DSS v4.0 | 6 governance checks | Payment card security |\n| FINRA Rules | 5 governance checks | Broker-dealer compliance |\n| Basel III | 5 governance checks | Bank capital requirements |\n- Example: SOX Compliance Vertical:\n``\nDECLARE(SOX) = PCAOB_STANDARDS × CANONIC\n\nWhere:\n  PCAOB provides Structure:\n    - Control framework (COSO)\n    - Documentation requirements\n    - Testing procedures\n    - Reporting format\n\n  CANONIC provides Governance:\n    - C1: Control assertions\n    - C2: Test results, evidence\n    - Temporal: Testing periods, reporting dates\n    - Relational: Entity scope, jurisdictions\n    - C5: Auditor attestation\n\nResult:\n  SOX = ENTERPRISE (#63)\n\n  Control Lifecycle:\n    Design         — Control documented\n    Implement      — Control operating\n    Test           — Evidence of operation\n    Certify        — Management assertion\n    Attest         — Auditor opinion\n``\n- Example: Financial Close Vertical:\n``\nDECLARE(Close) = GAAP × CANONIC\n\nWhere:\n  GAAP provides Structure:\n    - Chart of accounts\n    - Journal entry format\n    - Financial statement presentation\n    - Disclosure requirements\n\n  CANONIC provides Governance:\n    - C1: Account balances as claims\n    - C2: Supporting schedules\n    - Temporal: Period end dates\n    - Relational: Legal entity structure\n    - C6: GAAP presentation\n\nResult:\n  Close = SPECIFICATION (#58)\n\n  Close Lifecycle:\n    Cutoff         — Period boundary\n    Record         — Transactions posted\n    Reconcile      — Balances verified\n    Adjust         — Corrections made\n    Report         — Statements issued\n    Audit          — External attestation\n``\n- Validators:\n| Validator | Checks | Example Failure |\n| --- | --- | --- |\n| C1 | Financial claims stated | Missing revenue recognition policy |\n| C2 | Audit trail complete | Journal entry without support |\n| Temporal | Period cutoff correct | Backdated transaction |\n| Relational | Entity scope defined | Intercompany not eliminated |\n| C5 | Controls operating | Segregation violation |\n| C6 | GAAP conformance | Non-standard presentation |\n- Application:\nTo create a CANONIC financial vertical:\n\nIdentify accounting framework (GAAP, IFRS)\nCreate scope with CANON.md inheriting /FINANCE/\nDefine financial claims (policies, assertions)\nDocument evidence (reconciliations, support)\nEstablish temporal controls (period close, cutoff)\nDefine entity structure (legal entities, consolidation)\nImplement controls (SOX, segregation)\nMap to standards (GAAP presentation)\n\nResult: Owned financial vertical with audit-ready governance.\n- Cross-Domain Compositions:\n``\nFINANCE × REAL_ESTATE    = Mortgage governance, TRID compliance (RESPA + GAAP)\nFINANCE × MEDICINE       = Healthcare billing, revenue cycle (CPT/HCPCS + GAAP)\nFINANCE × DEFENSE        = Defense contracting, DCAA audit (FAR/DFARS + GAAP)\nFINANCE × ENERGY         = Energy trading, market settlement (FERC + SOX)\nFINANCE × MANUFACTURING  = Cost accounting, inventory valuation (ISA-95 + GAAP)\nFINANCE × EDUCATION      = Student financial aid, Title IV (FISAP + GAAP)\nFINANCE × LOGISTICS      = Trade finance, letters of credit (UCP 600 + Basel)\nFINANCE × GENOMICS       = Genetic testing market, DTC regulation (FDA + SEC)\nFINANCE × AGRICULTURE    = Crop insurance, commodity futures (CFTC + GAAP)\nFINANCE × QUALITY        = Internal controls, SOC reporting (COSO + GAAS)\n``\n\n10 cross-domain compositions. Each strengthens PROV-001 and PROV-002 patent claims.\n- Live Proof — Hadley Lab:\n| Product | Domain | Standards | URL |\n| --- | --- | --- | --- |\n| FinChat | Financial information | GAAP awareness + sourced data + non-advisory | [hadleylab.org/chat/finchat/](https://hadleylab.org/chat/finchat/) |\nFinChat demonstrates MAGIC 255 governance applied to financial information. Every answer sourced. Non-advisory by design. Same INTEL + CHAT + COIN composition as the clinical AI suite.\n- Prior Art Landscape:\n| Competitor | Approach | MAGIC checkset Distinction |\n| --- | --- | --- |\n| Workiva | SOX compliance workflow | Document management, no governance language, no bitwise compliance |\n| AuditBoard | Risk and compliance management | Workflow automation, no governance framework |\n| Bloomberg Terminal | Financial data and analytics | Information platform, no governance gates |\n| BlackLine | Financial close automation | Process automation, no O(1) compliance checking |\n| Avalara | Tax compliance automation | Tax-specific, no cross-domain governance |\nGap: No existing system provides governance-gated financial compliance with O(1) bitwise checking across SOX, GAAP, audit standards, and cross-domain composition.\n- Patent Mapping:\n| PROV | Relevance | Claims |\n| --- | --- | --- |\n| PROV-001 | PRIMARY | MAGIC private-check encoding for financial governance verification |\n| PROV-002 | PRIMARY | COIN=WORK for audit trail attestation, SOX evidence |\n| PROV-004 | Supporting | Transcompilation of GAAP/SOX/Basel standards to governed executables |\n| PROV-003 | Supporting | Federated financial compliance across jurisdictions |\n*FINANCE | SPECIFICATION | VERTICALS | INDUSTRIES*\n\n\nRules:\n- Be concise and accurate.\n- Cite sources when making claims.\n- If you don't know, say so.\n- Reference the governance chain when relevant.\n\nKnown routes:\n- web_docs: https://canonic.org/\n- web_surface: https://canonic.org/industries/verticals/finance/",
+  "breadcrumbs": [
+    {
+      "label": "∩",
+      "href": "/"
+    },
+    {
+      "label": "industries",
+      "href": "/industries/"
+    },
+    {
+      "label": "verticals",
+      "href": "/industries/verticals/"
+    },
+    {
+      "label": "finance",
+      "href": "/industries/verticals/finance/"
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/INDUSTRIES/VERTICALS/FINANCE/FINANCE.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "controls": {
+    "talk": "side",
+    "view": "web",
+    "views": [
+      "gov"
+    ],
+    "downloads": []
+  },
+  "_tier": {
+    "name": "FULL",
+    "score": 255,
+    "intel": true
+  },
+  "canon": {
+    "axiom": "Example",
+    "constraints": "MUST:     Cite specific regulation or standard for financial claims\nMUST:     Distinguish US GAAP from IFRS where applicable\nMUST NOT: Present financial projections without risk disclosure framework",
+    "inherits": "canonic-canonic/INDUSTRIES/VERTICALS",
+    "spec": [
+      {
+        "title": "Domain Declaration",
+        "body": "```\nFINANCE = FINANCIAL_STANDARD × CANONIC\n        = Structure(financial) × (C1, C2, Temporal, Relational, C5)\n        = owned financial vertical\n```\n\n---"
+      },
+      {
+        "title": "Lattice Formula",
+        "body": "```\nFINANCE = C1 ∩ C2 ∩ Temporal ∩ Relational ∩ C5 ∩ C6\n        = ENTERPRISE (#63)\n```\n\nFinance requires full Enterprise because:\n- **C1**: Financial statements make claims\n- **C2**: Audit trails prove accuracy\n- **Temporal**: Reporting periods, fiscal years\n- **Relational**: Regulatory jurisdiction (SEC, state)\n- **C5**: Auditors, regulators enforce\n- **C6**: GAAP/IFRS accounting standards\n\n---"
+      },
+      {
+        "title": "Axioms",
+        "body": "### 1. Materiality\n\nFinancial information MUST be accurate for material amounts. Materiality is defined by what would influence a reasonable investor's decision.\n\n**Example**: A $50,000 expense misclassification in a company with $10M revenue (0.5%) may not be material. The same error in a company with $500K revenue (10%) is material.\n\n---\n\n### 2. Audit Trail\n\nEvery financial transaction MUST have a complete, immutable audit trail.\n\n**Example**: A payment of $25,000 to a vendor must trace to: purchase order, receiving report, invoice, approval, payment authorization, and bank transaction. Any gap breaks the trail.\n\n---\n\n### 3. Period Integrity\n\nFinancial data MUST respect accounting period boundaries. Transactions MUST be recorded in the correct period.\n\n**Example**: Revenue recognized on December 31 must reflect goods delivered or services rendered by that date. Recognizing January delivery as December revenue is a period violation.\n\n---\n\n### 4. Segregation of Duties\n\nCritical financial functions MUST be separated across different individuals.\n\n**Example**: The person who approves vendor payments MUST NOT be the same person who creates vendors in the system or reconciles bank statements.\n\n---\n\n### 5. Reconciliation\n\nAccount balances MUST reconcile to supporting detail and external sources.\n\n**Example**: The cash balance per general ledger MUST reconcile to bank statements. Differences MUST be identified, documented, and resolved monthly.\n\n---"
+      },
+      {
+        "title": "Subdomains",
+        "body": "| Subdomain | Standard | Formula | Description |\n|-----------|----------|---------|-------------|\n| Accounting | GAAP/IFRS | BUSINESS | Financial statements |\n| Audit | GAAS/PCAOB | BUSINESS | Independent verification |\n| Tax | IRC/Treasury | BUSINESS | Tax compliance |\n| Banking | Basel/OCC | ENTERPRISE | Bank regulation |\n| Securities | SEC Rules | BUSINESS | Capital markets |\n| Payments | PCI-DSS | ENTERPRISE | Card processing |\n\n---"
+      },
+      {
+        "title": "Regulatory Mapping",
+        "body": "| Framework | Lattice | Scope |\n|-----------|---------|-------|\n| SOX Section 302 | 5 governance checks | CEO/CFO certification |\n| SOX Section 404 | 6 governance checks | Internal controls |\n| SOC 1 Type II | 5 governance checks | Service organization controls |\n| SOC 2 Type II | 6 governance checks | Security controls |\n| PCI-DSS v4.0 | 6 governance checks | Payment card security |\n| FINRA Rules | 5 governance checks | Broker-dealer compliance |\n| Basel III | 5 governance checks | Bank capital requirements |\n\n---"
+      },
+      {
+        "title": "Example: SOX Compliance Vertical",
+        "body": "```\nDECLARE(SOX) = PCAOB_STANDARDS × CANONIC\n\nWhere:\n  PCAOB provides Structure:\n    - Control framework (COSO)\n    - Documentation requirements\n    - Testing procedures\n    - Reporting format\n\n  CANONIC provides Governance:\n    - C1: Control assertions\n    - C2: Test results, evidence\n    - Temporal: Testing periods, reporting dates\n    - Relational: Entity scope, jurisdictions\n    - C5: Auditor attestation\n\nResult:\n  SOX = ENTERPRISE (#63)\n\n  Control Lifecycle:\n    Design         — Control documented\n    Implement      — Control operating\n    Test           — Evidence of operation\n    Certify        — Management assertion\n    Attest         — Auditor opinion\n```\n\n---"
+      },
+      {
+        "title": "Example: Financial Close Vertical",
+        "body": "```\nDECLARE(Close) = GAAP × CANONIC\n\nWhere:\n  GAAP provides Structure:\n    - Chart of accounts\n    - Journal entry format\n    - Financial statement presentation\n    - Disclosure requirements\n\n  CANONIC provides Governance:\n    - C1: Account balances as claims\n    - C2: Supporting schedules\n    - Temporal: Period end dates\n    - Relational: Legal entity structure\n    - C6: GAAP presentation\n\nResult:\n  Close = SPECIFICATION (#58)\n\n  Close Lifecycle:\n    Cutoff         — Period boundary\n    Record         — Transactions posted\n    Reconcile      — Balances verified\n    Adjust         — Corrections made\n    Report         — Statements issued\n    Audit          — External attestation\n```\n\n---"
+      },
+      {
+        "title": "Validators",
+        "body": "| Validator | Checks | Example Failure |\n|-----------|--------|-----------------|\n| C1 | Financial claims stated | Missing revenue recognition policy |\n| C2 | Audit trail complete | Journal entry without support |\n| Temporal | Period cutoff correct | Backdated transaction |\n| Relational | Entity scope defined | Intercompany not eliminated |\n| C5 | Controls operating | Segregation violation |\n| C6 | GAAP conformance | Non-standard presentation |\n\n---"
+      },
+      {
+        "title": "Application",
+        "body": "To create a CANONIC financial vertical:\n\n1. **Identify accounting framework** (GAAP, IFRS)\n2. **Create scope** with CANON.md inheriting /FINANCE/\n3. **Define financial claims** (policies, assertions)\n4. **Document evidence** (reconciliations, support)\n5. **Establish temporal controls** (period close, cutoff)\n6. **Define entity structure** (legal entities, consolidation)\n7. **Implement controls** (SOX, segregation)\n8. **Map to standards** (GAAP presentation)\n\n**Result**: Owned financial vertical with audit-ready governance.\n\n---"
+      },
+      {
+        "title": "Cross-Domain Compositions",
+        "body": "```\nFINANCE × REAL_ESTATE    = Mortgage governance, TRID compliance (RESPA + GAAP)\nFINANCE × MEDICINE       = Healthcare billing, revenue cycle (CPT/HCPCS + GAAP)\nFINANCE × DEFENSE        = Defense contracting, DCAA audit (FAR/DFARS + GAAP)\nFINANCE × ENERGY         = Energy trading, market settlement (FERC + SOX)\nFINANCE × MANUFACTURING  = Cost accounting, inventory valuation (ISA-95 + GAAP)\nFINANCE × EDUCATION      = Student financial aid, Title IV (FISAP + GAAP)\nFINANCE × LOGISTICS      = Trade finance, letters of credit (UCP 600 + Basel)\nFINANCE × GENOMICS       = Genetic testing market, DTC regulation (FDA + SEC)\nFINANCE × AGRICULTURE    = Crop insurance, commodity futures (CFTC + GAAP)\nFINANCE × QUALITY        = Internal controls, SOC reporting (COSO + GAAS)\n```\n\n**10 cross-domain compositions. Each strengthens PROV-001 and PROV-002 patent claims.**\n\n---"
+      },
+      {
+        "title": "Live Proof — Hadley Lab",
+        "body": "| Product | Domain | Standards | URL |\n|---------|--------|-----------|-----|\n| FinChat | Financial information | GAAP awareness + sourced data + non-advisory | [hadleylab.org/chat/finchat/](https://hadleylab.org/chat/finchat/) |\n\nFinChat demonstrates MAGIC 255 governance applied to financial information. Every answer sourced. Non-advisory by design. Same INTEL + CHAT + COIN composition as the clinical AI suite.\n\n---"
+      },
+      {
+        "title": "Prior Art Landscape",
+        "body": "| Competitor | Approach | MAGIC checkset Distinction |\n|-----------|----------|-------------------|\n| Workiva | SOX compliance workflow | Document management, no governance language, no bitwise compliance |\n| AuditBoard | Risk and compliance management | Workflow automation, no governance framework |\n| Bloomberg Terminal | Financial data and analytics | Information platform, no governance gates |\n| BlackLine | Financial close automation | Process automation, no O(1) compliance checking |\n| Avalara | Tax compliance automation | Tax-specific, no cross-domain governance |\n\n**Gap**: No existing system provides governance-gated financial compliance with O(1) bitwise checking across SOX, GAAP, audit standards, and cross-domain composition.\n\n---"
+      },
+      {
+        "title": "Patent Mapping",
+        "body": "| PROV | Relevance | Claims |\n|------|-----------|--------|\n| PROV-001 | PRIMARY | MAGIC private-check encoding for financial governance verification |\n| PROV-002 | PRIMARY | COIN=WORK for audit trail attestation, SOX evidence |\n| PROV-004 | Supporting | Transcompilation of GAAP/SOX/Basel standards to governed executables |\n| PROV-003 | Supporting | Federated financial compliance across jurisdictions |\n\n---"
+      }
+    ],
+    "learning": [],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "ASC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "BI",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "BSA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CCAR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CDD",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CECL",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CFPB",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CFTC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CMS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "COSO",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CPT",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DFAST",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ECOA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ES",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "EU",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FATF",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FCRA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FDA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FINANCE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FINRA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "GAAP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "HCPCS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IFRS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "II",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "III",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IRC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IV",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "LCR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NAIC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NSFR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NTAP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "OCC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "OECD",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PCAOB",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PMA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "QSBS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "RBC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SBIR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SEC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SOX",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "STTR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "TCJA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "TILA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "US",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "VII",
+        "definition": "Governed term in this scope vocabulary."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "INDUSTRIES",
+        "axiom": "INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.",
+        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

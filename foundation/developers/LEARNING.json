@@ -1,0 +1,20 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/home/runner/CANONIC/canonic-canonic/FOUNDATION/DEVELOPERS/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-25",
+      "signal": "Scope created",
+      "text": "DEVELOPERS scope established — certification surface on FOUNDATION, discovered from GOV tree",
+      "source": "CANON.md"
+    }
+  ],
+  "stats": {
+    "total": 1,
+    "community_questions": 0,
+    "domain_patterns": 1
+  }
+}

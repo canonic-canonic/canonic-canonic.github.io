@@ -1,0 +1,44 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/home/runner/CANONIC/canonic-canonic/MAGIC/SERVICES/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-19",
+      "signal": "INTEL is WORK — mandatory primitive",
+      "text": "INTEL is the only mandatory primitive; COIN and TALK are optional services",
+      "source": "canonic-canonic/FOUNDATION/DOCTRINE"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "Primitives are files, services are directories",
+      "text": "INTEL.md, CHAT.md, COIN.md = primitives; SERVICES/LEARNING/, SERVICES/TALK/, SERVICES/SHOP/ = service directories",
+      "source": "Phase 7 cross-axiomatic"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "Epoch 2 flatten",
+      "text": "COIN, INTEL, LEDGER, EVIDENCE promoted from VAULT children to flat SERVICES peers",
+      "source": "SERVICES/VAULT/LEARNING.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "Three foundation axioms govern all services",
+      "text": "TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these axioms",
+      "source": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "_generated markers block hand-editing",
+      "text": "All compiled JSON outputs carry _generated — fix compiler or contract, never the output",
+      "source": "Phase 7 governance"
+    }
+  ],
+  "stats": {
+    "total": 5,
+    "community_questions": 0,
+    "domain_patterns": 5
+  }
+}

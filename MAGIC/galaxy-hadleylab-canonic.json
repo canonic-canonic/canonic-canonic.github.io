@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "ef02e182edbd96c1"
+    "gov_hash": "4b4d5dea3b4e344e"
   },
-  "generated": "2026-03-18T14:19:52Z",
+  "generated": "2026-03-18T15:52:04Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -136,24 +136,6 @@
       "children": 8
     },
     {
-      "id": "hadleylab-canonic/DEALS",
-      "kind": "SCOPE",
-      "label": "DEALS",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS",
-      "parent": "hadleylab-canonic",
-      "category": "COMMERCE",
-      "color": "#ff9f0a",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "| Claim | Source |",
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals",
-      "children": 7
-    },
-    {
       "id": "hadleylab-canonic/DECKS",
       "kind": "SCOPE",
       "label": "DECKS",
@@ -174,25 +156,6 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "decks",
       "children": 6
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS",
-      "kind": "SCOPE",
-      "label": "GRANTS",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS",
-      "parent": "hadleylab-canonic",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "learning_count": 4,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "grants",
-      "children": 1
     },
     {
       "id": "hadleylab-canonic/PAPERS",
@@ -297,6 +260,51 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "vitae",
+      "children": 1
+    },
+    {
+      "id": "hadleylab-canonic/deals",
+      "kind": "SCOPE",
+      "label": "DEALS",
+      "repo": "hadleylab-canonic",
+      "path": "deals",
+      "parent": "hadleylab-canonic",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "| Claim | Source |",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals",
+      "children": 7
+    },
+    {
+      "id": "hadleylab-canonic/grants",
+      "kind": "SCOPE",
+      "label": "GRANTS",
+      "repo": "hadleylab-canonic",
+      "path": "grants",
+      "parent": "hadleylab-canonic",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants",
       "children": 1
     },
     {
@@ -1502,7 +1510,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR MEMORIAL. EVERY WORD SOURCED. EVERY CONTRIBUTION GOVERNED.**",
       "roadmap_now": "Finalize all 13 chapters and secure Gini Deshpande blessing",
-      "learning_count": 2,
+      "learning_count": 9,
       "coverage_score": 255,
       "surface_type": "JEKYLL_BOOK",
       "fleet_path": "books/ATULISMS",
@@ -1836,143 +1844,6 @@
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/DEALS/BAKEOFF",
-      "kind": "SCOPE",
-      "label": "BAKEOFF",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/BAKEOFF",
-      "parent": "hadleylab-canonic/DEALS",
-      "category": "RUNTIME",
-      "color": "#00ff88",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR PARTNER. EVERY COMMIT COUNTED. EVERY CAPABILITY MAPPED.**",
-      "learning_count": 1,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/BAKEOFF",
-      "children": 3
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/EXCELLENTING",
-      "kind": "SCOPE",
-      "label": "EXCELLENTING",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/EXCELLENTING",
-      "parent": "hadleylab-canonic/DEALS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR CONSORTIUM. EVERY PARTNER GOVERNED. EVERY COMMITMENT EVIDENCED. EVERY CORRIDOR MAPPED.**",
-      "roadmap_now": "[ ] Cross-intro Youness \u2194 Neville (oncology corridor)",
-      "learning_count": 6,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/EXCELLENTING",
-      "children": 2
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
-      "kind": "SCOPE",
-      "label": "LEVUKA-VENTURE-LAB",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/LEVUKA-VENTURE-LAB",
-      "parent": "hadleylab-canonic/DEALS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**HE DIAGNOSES. WE FIX. EVERY DRIFT MAPPED. EVERY CORRECTION PROVEN. EVERY AXIOM CROSSED.**",
-      "learning_count": 4,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/LEVUKA-VENTURE-LAB",
-      "children": 1
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/LLU",
-      "kind": "SCOPE",
-      "label": "LLU",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/LLU",
-      "parent": "hadleylab-canonic/DEALS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR INSTITUTION. EVERY CONTACT GOVERNED. EVERY MEETING EVIDENCED. EVERY AXIOM MAPPED.**",
-      "roadmap_now": "[ ] Confirm Dr. Harris phone/office via Karen or Henley",
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/LLU",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "kind": "SCOPE",
-      "label": "MALTA-ENTERPRISE",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/MALTA-ENTERPRISE",
-      "parent": "hadleylab-canonic/DEALS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR GATEWAY. EVERY CONTACT GOVERNED. EVERY SCHEME MAPPED. EVERY TIMELINE EVIDENCED.**",
-      "roadmap_now": "[ ] Send WORK-TALK + BUSINESS-PLAN to Stephen",
-      "learning_count": 33,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/MALTA-ENTERPRISE",
-      "children": 5
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/OC-MAMMOCHAT",
-      "kind": "SCOPE",
-      "label": "OC-MAMMOCHAT",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/OC-MAMMOCHAT",
-      "parent": "hadleylab-canonic/DEALS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR VEHICLE. EVERY LICENSE GOVERNED. EVERY IN-KIND EVIDENCED. EVERY CORRIDOR MAPPED.**",
-      "roadmap_now": "[ ] FRAND Template (deliverable 4.1) \u2014 DAVID SLONIM",
-      "learning_count": 10,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/OC-MAMMOCHAT",
-      "children": 1
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/RUNNER-CHAIN",
-      "kind": "SCOPE",
-      "label": "RUNNER-CHAIN",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/RUNNER-CHAIN",
-      "parent": "hadleylab-canonic/DEALS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR CHAIN. EVERY NODE GOVERNED. EVERY COIN EVIDENCED.**",
-      "learning_count": 1,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/RUNNER-CHAIN",
-      "children": 2
-    },
-    {
       "id": "hadleylab-canonic/DECKS/BEDA",
       "kind": "SCOPE",
       "label": "BEDA",
@@ -2089,26 +1960,6 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "decks/shop",
       "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "kind": "SCOPE",
-      "label": "EHDS-GOV",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/EHDS-GOV",
-      "parent": "hadleylab-canonic/GRANTS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "[ ] Neville confirms PI \u2014 portal registration",
-      "learning_count": 8,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "grants/EHDS-GOV",
-      "children": 1
     },
     {
       "id": "hadleylab-canonic/PAPERS/SHOP",
@@ -3335,7 +3186,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "Govern Caribbean cancer guidelines \u2014 CAOH, CARPHA, NCCN Resource Stratification",
-      "learning_count": 69,
+      "learning_count": 67,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/CARIBCHAT",
       "children": 1
@@ -3862,6 +3713,163 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "vitae/shop",
       "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/BAKEOFF",
+      "kind": "SCOPE",
+      "label": "BAKEOFF",
+      "repo": "hadleylab-canonic",
+      "path": "deals/BAKEOFF",
+      "parent": "hadleylab-canonic/deals",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR PARTNER. EVERY COMMIT COUNTED. EVERY CAPABILITY MAPPED.**",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/bakeoff",
+      "children": 3
+    },
+    {
+      "id": "hadleylab-canonic/deals/EXCELLENTING",
+      "kind": "SCOPE",
+      "label": "EXCELLENTING",
+      "repo": "hadleylab-canonic",
+      "path": "deals/EXCELLENTING",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR CONSORTIUM. EVERY PARTNER GOVERNED. EVERY COMMITMENT EVIDENCED. EVERY CORRIDOR MAPPED.**",
+      "roadmap_now": "[ ] Cross-intro Youness \u2194 Neville (oncology corridor)",
+      "learning_count": 6,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/excellenting",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/deals/LEVUKA-VENTURE-LAB",
+      "kind": "SCOPE",
+      "label": "LEVUKA-VENTURE-LAB",
+      "repo": "hadleylab-canonic",
+      "path": "deals/LEVUKA-VENTURE-LAB",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**HE DIAGNOSES. WE FIX. EVERY DRIFT MAPPED. EVERY CORRECTION PROVEN. EVERY AXIOM CROSSED.**",
+      "learning_count": 4,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/levuka-venture-lab",
+      "children": 1
+    },
+    {
+      "id": "hadleylab-canonic/deals/LLU",
+      "kind": "SCOPE",
+      "label": "LLU",
+      "repo": "hadleylab-canonic",
+      "path": "deals/LLU",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR INSTITUTION. EVERY CONTACT GOVERNED. EVERY MEETING EVIDENCED. EVERY AXIOM MAPPED.**",
+      "roadmap_now": "[ ] Confirm Dr. Harris phone/office via Karen or Henley",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/llu",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "kind": "SCOPE",
+      "label": "MALTA-ENTERPRISE",
+      "repo": "hadleylab-canonic",
+      "path": "deals/MALTA-ENTERPRISE",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR GATEWAY. EVERY CONTACT GOVERNED. EVERY SCHEME MAPPED. EVERY TIMELINE EVIDENCED.**",
+      "roadmap_now": "[ ] Send WORK-TALK + BUSINESS-PLAN to Stephen",
+      "learning_count": 33,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/malta-enterprise",
+      "children": 5
+    },
+    {
+      "id": "hadleylab-canonic/deals/OC-MAMMOCHAT",
+      "kind": "SCOPE",
+      "label": "OC-MAMMOCHAT",
+      "repo": "hadleylab-canonic",
+      "path": "deals/OC-MAMMOCHAT",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR VEHICLE. EVERY LICENSE GOVERNED. EVERY IN-KIND EVIDENCED. EVERY CORRIDOR MAPPED.**",
+      "roadmap_now": "[ ] FRAND Template (deliverable 4.1) \u2014 DAVID SLONIM",
+      "learning_count": 10,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/oc-mammochat",
+      "children": 1
+    },
+    {
+      "id": "hadleylab-canonic/deals/RUNNER-CHAIN",
+      "kind": "SCOPE",
+      "label": "RUNNER-CHAIN",
+      "repo": "hadleylab-canonic",
+      "path": "deals/RUNNER-CHAIN",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR CHAIN. EVERY NODE GOVERNED. EVERY COIN EVIDENCED.**",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/runner-chain",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/grants/EHDS-GOV",
+      "kind": "SCOPE",
+      "label": "EHDS-GOV",
+      "repo": "hadleylab-canonic",
+      "path": "grants/EHDS-GOV",
+      "parent": "hadleylab-canonic/grants",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "[ ] Neville confirms PI \u2014 portal registration",
+      "learning_count": 8,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ehds-gov",
+      "children": 1
     },
     {
       "id": "hadleylab-canonic/BOOKS/ATULISMS/CHAPTERS",
@@ -4420,230 +4428,6 @@
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/DEALS/BAKEOFF/DECK-TALK-ILYA-YANA",
-      "kind": "CONTENT",
-      "label": "DECK-TALK-ILYA-YANA",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/BAKEOFF/DECK-TALK-ILYA-YANA",
-      "parent": "hadleylab-canonic/DEALS/BAKEOFF",
-      "color": "#00ff88",
-      "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/BAKEOFF/deck-talk-ilya-yana",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/BAKEOFF/WORK-TALK-ILYA-YANA",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-ILYA-YANA",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/BAKEOFF/WORK-TALK-ILYA-YANA",
-      "parent": "hadleylab-canonic/DEALS/BAKEOFF",
-      "color": "#00ff88",
-      "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/BAKEOFF/work-talk-ilya-yana",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/BAKEOFF/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/BAKEOFF/index",
-      "parent": "hadleylab-canonic/DEALS/BAKEOFF",
-      "color": "#00ff88",
-      "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/BAKEOFF/index",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/EXCELLENTING/WORK-TALK-NEVILLE",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-NEVILLE",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/EXCELLENTING/WORK-TALK-NEVILLE",
-      "parent": "hadleylab-canonic/DEALS/EXCELLENTING",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/EXCELLENTING/work-talk-neville",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/EXCELLENTING/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/EXCELLENTING/index",
-      "parent": "hadleylab-canonic/DEALS/EXCELLENTING",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/EXCELLENTING/index",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/LEVUKA-VENTURE-LAB/index",
-      "parent": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/LEVUKA-VENTURE-LAB/index",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/BUSINESS-PLAN",
-      "kind": "CONTENT",
-      "label": "BUSINESS-PLAN",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/MALTA-ENTERPRISE/BUSINESS-PLAN",
-      "parent": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/MALTA-ENTERPRISE/business-plan",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-CHRIS-BORG-REPLY",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
-      "parent": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/MALTA-ENTERPRISE/work-talk-chris-borg-reply",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-CHRIS-BORG",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
-      "parent": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/MALTA-ENTERPRISE/work-talk-chris-borg",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-STEPHEN-BP",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
-      "parent": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/MALTA-ENTERPRISE/work-talk-stephen-bp",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/MALTA-ENTERPRISE/index",
-      "parent": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/MALTA-ENTERPRISE/index",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/OC-MAMMOCHAT/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/OC-MAMMOCHAT/index",
-      "parent": "hadleylab-canonic/DEALS/OC-MAMMOCHAT",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/OC-MAMMOCHAT/index",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/RUNNER-CHAIN/WORK-TALK-MIKE",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-MIKE",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/RUNNER-CHAIN/WORK-TALK-MIKE",
-      "parent": "hadleylab-canonic/DEALS/RUNNER-CHAIN",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/RUNNER-CHAIN/work-talk-mike",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/RUNNER-CHAIN/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/RUNNER-CHAIN/index",
-      "parent": "hadleylab-canonic/DEALS/RUNNER-CHAIN",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/RUNNER-CHAIN/index",
-      "children": 0
-    },
-    {
       "id": "hadleylab-canonic/DECKS/BEDA/DECK",
       "kind": "CONTENT",
       "label": "DECK",
@@ -4705,22 +4489,6 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DECK",
       "fleet_path": "decks/PMWC/deck",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS",
-      "kind": "CONTENT",
-      "label": "SPECIFIC-AIMS",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/EHDS-GOV/SPECIFIC-AIMS",
-      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "grants/EHDS-GOV/specific-aims",
       "children": 0
     },
     {
@@ -7695,6 +7463,246 @@
       "children": 2
     },
     {
+      "id": "hadleylab-canonic/deals/BAKEOFF/DECK-TALK-ILYA-YANA",
+      "kind": "CONTENT",
+      "label": "DECK-TALK-ILYA-YANA",
+      "repo": "hadleylab-canonic",
+      "path": "deals/BAKEOFF/DECK-TALK-ILYA-YANA",
+      "parent": "hadleylab-canonic/deals/BAKEOFF",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/bakeoff/deck-talk-ilya-yana",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/BAKEOFF/WORK-TALK-ILYA-YANA",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-ILYA-YANA",
+      "repo": "hadleylab-canonic",
+      "path": "deals/BAKEOFF/WORK-TALK-ILYA-YANA",
+      "parent": "hadleylab-canonic/deals/BAKEOFF",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/bakeoff/work-talk-ilya-yana",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/BAKEOFF/index",
+      "kind": "CONTENT",
+      "label": "INDEX",
+      "repo": "hadleylab-canonic",
+      "path": "deals/BAKEOFF/index",
+      "parent": "hadleylab-canonic/deals/BAKEOFF",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/bakeoff/index",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/EXCELLENTING/WORK-TALK-NEVILLE",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-NEVILLE",
+      "repo": "hadleylab-canonic",
+      "path": "deals/EXCELLENTING/WORK-TALK-NEVILLE",
+      "parent": "hadleylab-canonic/deals/EXCELLENTING",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/excellenting/work-talk-neville",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/EXCELLENTING/index",
+      "kind": "CONTENT",
+      "label": "INDEX",
+      "repo": "hadleylab-canonic",
+      "path": "deals/EXCELLENTING/index",
+      "parent": "hadleylab-canonic/deals/EXCELLENTING",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/excellenting/index",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/LEVUKA-VENTURE-LAB/index",
+      "kind": "CONTENT",
+      "label": "INDEX",
+      "repo": "hadleylab-canonic",
+      "path": "deals/LEVUKA-VENTURE-LAB/index",
+      "parent": "hadleylab-canonic/deals/LEVUKA-VENTURE-LAB",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/levuka-venture-lab/index",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/MALTA-ENTERPRISE/BUSINESS-PLAN",
+      "kind": "CONTENT",
+      "label": "BUSINESS-PLAN",
+      "repo": "hadleylab-canonic",
+      "path": "deals/MALTA-ENTERPRISE/BUSINESS-PLAN",
+      "parent": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/malta-enterprise/business-plan",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-CHRIS-BORG-REPLY",
+      "repo": "hadleylab-canonic",
+      "path": "deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
+      "parent": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/malta-enterprise/work-talk-chris-borg-reply",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-CHRIS-BORG",
+      "repo": "hadleylab-canonic",
+      "path": "deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
+      "parent": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/malta-enterprise/work-talk-chris-borg",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-STEPHEN-BP",
+      "repo": "hadleylab-canonic",
+      "path": "deals/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
+      "parent": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/malta-enterprise/work-talk-stephen-bp",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/MALTA-ENTERPRISE/index",
+      "kind": "CONTENT",
+      "label": "INDEX",
+      "repo": "hadleylab-canonic",
+      "path": "deals/MALTA-ENTERPRISE/index",
+      "parent": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/malta-enterprise/index",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/OC-MAMMOCHAT/index",
+      "kind": "CONTENT",
+      "label": "INDEX",
+      "repo": "hadleylab-canonic",
+      "path": "deals/OC-MAMMOCHAT/index",
+      "parent": "hadleylab-canonic/deals/OC-MAMMOCHAT",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/oc-mammochat/index",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/RUNNER-CHAIN/WORK-TALK-MIKE",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-MIKE",
+      "repo": "hadleylab-canonic",
+      "path": "deals/RUNNER-CHAIN/WORK-TALK-MIKE",
+      "parent": "hadleylab-canonic/deals/RUNNER-CHAIN",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/runner-chain/work-talk-mike",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/RUNNER-CHAIN/index",
+      "kind": "CONTENT",
+      "label": "INDEX",
+      "repo": "hadleylab-canonic",
+      "path": "deals/RUNNER-CHAIN/index",
+      "parent": "hadleylab-canonic/deals/RUNNER-CHAIN",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/runner-chain/index",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/EHDS-GOV/SPECIFIC-AIMS",
+      "kind": "CONTENT",
+      "label": "SPECIFIC-AIMS",
+      "repo": "hadleylab-canonic",
+      "path": "grants/EHDS-GOV/SPECIFIC-AIMS",
+      "parent": "hadleylab-canonic/grants/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ehds-gov/specific-aims",
+      "children": 0
+    },
+    {
       "id": "hadleylab-canonic/BOOKS/ATULISMS/CHAPTERS/00-PREFACE",
       "kind": "CONTENT",
       "label": "00-PREFACE",
@@ -9929,6 +9937,29 @@
       "children": 0
     },
     {
+      "id": "canonic-canonic/MAGIC/SERVICES/LEARNING",
+      "kind": "SCOPE",
+      "label": "LEARNING",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/LEARNING",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 239,
+      "tier": "BUSINESS",
+      "missing_dims": [
+        "O"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 16,
+      "roadmap_now": "Govern INTEL\u2192LEARNING primitive-to-service mapping across all scopes",
+      "learning_count": 13,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/services/learning",
+      "children": 0
+    },
+    {
       "id": "canonic-canonic/MAGIC",
       "kind": "SCOPE",
       "label": "MAGIC",
@@ -9968,29 +9999,6 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
       "children": 6
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/LEARNING",
-      "kind": "SCOPE",
-      "label": "LEARNING",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/LEARNING",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "KNOWLEDGE",
-      "color": "#bf5af2",
-      "bits": 239,
-      "tier": "BUSINESS",
-      "missing_dims": [
-        "O"
-      ],
-      "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 16,
-      "roadmap_now": "Govern INTEL\u2192LEARNING primitive-to-service mapping across all scopes",
-      "learning_count": 13,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "magic/services/learning",
-      "children": 0
     }
   ],
   "edges": [
@@ -10011,58 +10019,8 @@
     },
     {
       "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/BAKEOFF",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/EXCELLENTING",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/LLU",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/OC-MAMMOCHAT",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/RUNNER-CHAIN",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
       "from": "hadleylab-canonic/DECKS",
       "to": "hadleylab-canonic/SERVICES/DECK"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/GRANTS",
-      "to": "hadleylab-canonic/SERVICES/GRANT"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "to": "hadleylab-canonic/SERVICES/GRANT"
     },
     {
       "kind": "INHERITS",
@@ -10280,6 +10238,56 @@
       "to": "hadleylab-canonic/SERVICES/VITAE"
     },
     {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/BAKEOFF",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/EXCELLENTING",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/LEVUKA-VENTURE-LAB",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/LLU",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/OC-MAMMOCHAT",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/RUNNER-CHAIN",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/grants",
+      "to": "hadleylab-canonic/SERVICES/GRANT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/grants/EHDS-GOV",
+      "to": "hadleylab-canonic/SERVICES/GRANT"
+    },
+    {
       "kind": "PARENT",
       "from": "canonic-canonic/MAGIC",
       "to": "canonic-canonic"
@@ -10386,46 +10394,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/BAKEOFF",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS",
-      "to": "hadleylab-canonic"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/EXCELLENTING",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/LLU",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/OC-MAMMOCHAT",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/RUNNER-CHAIN",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/BEDA",
       "to": "hadleylab-canonic/DECKS"
     },
@@ -10453,16 +10421,6 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/PMWC",
       "to": "hadleylab-canonic/DECKS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS",
-      "to": "hadleylab-canonic"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "to": "hadleylab-canonic/GRANTS"
     },
     {
       "kind": "PARENT",
@@ -11153,6 +11111,56 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/VITAE",
       "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/BAKEOFF",
+      "to": "hadleylab-canonic/deals"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals",
+      "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/EXCELLENTING",
+      "to": "hadleylab-canonic/deals"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/LEVUKA-VENTURE-LAB",
+      "to": "hadleylab-canonic/deals"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/LLU",
+      "to": "hadleylab-canonic/deals"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "to": "hadleylab-canonic/deals"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/OC-MAMMOCHAT",
+      "to": "hadleylab-canonic/deals"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/RUNNER-CHAIN",
+      "to": "hadleylab-canonic/deals"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants",
+      "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/EHDS-GOV",
+      "to": "hadleylab-canonic/grants"
     },
     {
       "kind": "PARENT",
@@ -12236,76 +12244,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/BAKEOFF/DECK-TALK-ILYA-YANA",
-      "to": "hadleylab-canonic/DEALS/BAKEOFF"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/BAKEOFF/WORK-TALK-ILYA-YANA",
-      "to": "hadleylab-canonic/DEALS/BAKEOFF"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/BAKEOFF/index",
-      "to": "hadleylab-canonic/DEALS/BAKEOFF"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/EXCELLENTING/WORK-TALK-NEVILLE",
-      "to": "hadleylab-canonic/DEALS/EXCELLENTING"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/EXCELLENTING/index",
-      "to": "hadleylab-canonic/DEALS/EXCELLENTING"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB/index",
-      "to": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/BUSINESS-PLAN",
-      "to": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
-      "to": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
-      "to": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
-      "to": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/index",
-      "to": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/OC-MAMMOCHAT/index",
-      "to": "hadleylab-canonic/DEALS/OC-MAMMOCHAT"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/RUNNER-CHAIN/WORK-TALK-MIKE",
-      "to": "hadleylab-canonic/DEALS/RUNNER-CHAIN"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/RUNNER-CHAIN/index",
-      "to": "hadleylab-canonic/DEALS/RUNNER-CHAIN"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/BEDA/DECK",
       "to": "hadleylab-canonic/DECKS/BEDA"
     },
@@ -12328,11 +12266,6 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/PMWC/DECK",
       "to": "hadleylab-canonic/DECKS/PMWC"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS",
-      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
     },
     {
       "kind": "PARENT",
@@ -13073,6 +13006,81 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/VITAE/SHOP",
       "to": "hadleylab-canonic/VITAE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/BAKEOFF/DECK-TALK-ILYA-YANA",
+      "to": "hadleylab-canonic/deals/BAKEOFF"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/BAKEOFF/WORK-TALK-ILYA-YANA",
+      "to": "hadleylab-canonic/deals/BAKEOFF"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/BAKEOFF/index",
+      "to": "hadleylab-canonic/deals/BAKEOFF"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/EXCELLENTING/WORK-TALK-NEVILLE",
+      "to": "hadleylab-canonic/deals/EXCELLENTING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/EXCELLENTING/index",
+      "to": "hadleylab-canonic/deals/EXCELLENTING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/LEVUKA-VENTURE-LAB/index",
+      "to": "hadleylab-canonic/deals/LEVUKA-VENTURE-LAB"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE/BUSINESS-PLAN",
+      "to": "hadleylab-canonic/deals/MALTA-ENTERPRISE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
+      "to": "hadleylab-canonic/deals/MALTA-ENTERPRISE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
+      "to": "hadleylab-canonic/deals/MALTA-ENTERPRISE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
+      "to": "hadleylab-canonic/deals/MALTA-ENTERPRISE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE/index",
+      "to": "hadleylab-canonic/deals/MALTA-ENTERPRISE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/OC-MAMMOCHAT/index",
+      "to": "hadleylab-canonic/deals/OC-MAMMOCHAT"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/RUNNER-CHAIN/WORK-TALK-MIKE",
+      "to": "hadleylab-canonic/deals/RUNNER-CHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/RUNNER-CHAIN/index",
+      "to": "hadleylab-canonic/deals/RUNNER-CHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/EHDS-GOV/SPECIFIC-AIMS",
+      "to": "hadleylab-canonic/grants/EHDS-GOV"
     },
     {
       "kind": "PARENT",

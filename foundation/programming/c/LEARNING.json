@@ -1,0 +1,44 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/home/runner/CANONIC/canonic-canonic/FOUNDATION/PROGRAMMING/c/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_CONSTRAINT",
+      "text": "New constraint: MUST:     Keep kernel internals non-public in governed interfaces",
+      "source": "efd8f1b"
+    },
+    {
+      "date": "2026-02-06",
+      "signal": "EVOLUTION",
+      "text": "Epoch 001: Canonical Bindings — C bindings created; universal substrate, portable bedrock",
+      "source": "38206c2"
+    },
+    {
+      "date": "2026-02-06",
+      "signal": "EVOLUTION",
+      "text": "Epoch 002: Governance Scaffold — TRIAD instantiated for C bindings",
+      "source": "f25a44d"
+    },
+    {
+      "date": "2026-02-08",
+      "signal": "EVOLUTION",
+      "text": "Epoch 003: L/LANG/T Bits — Bit-level precision for C binding to 255-bit table",
+      "source": "68d97dd"
+    },
+    {
+      "date": "2026-02-08",
+      "signal": "EVOLUTION",
+      "text": "Epoch 004: EVO to INTEL — Evolution primitive renamed to intelligence service",
+      "source": "4bf6360"
+    }
+  ],
+  "stats": {
+    "total": 5,
+    "community_questions": 0,
+    "domain_patterns": 5
+  }
+}

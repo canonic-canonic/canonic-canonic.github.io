@@ -1,0 +1,38 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/home/runner/CANONIC/canonic-canonic/MAGIC/SERVICES/STAR/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-03-04",
+      "signal": "STAR = personal portal in GALAXY",
+      "text": "GALAXY shows organizational topology (spatial). STAR shows personal topology (temporal). Every USER gets a STAR.",
+      "source": "SERVICES/STAR/CANON.md"
+    },
+    {
+      "date": "2026-03-04",
+      "signal": "TIMELINE = joint lane for cross-axiomatic intel",
+      "text": "TIMELINE is a read-only JOIN across 7 event sources (VAULT, LEDGER, CALENDAR, NOTIFIER, LEARNING, CAMPAIGN, TALK). Three primitive filters: INTEL, CHAT, COIN.",
+      "source": "SERVICES/STAR/STAR.md"
+    },
+    {
+      "date": "2026-03-04",
+      "signal": "8 lanes wire to existing services",
+      "text": "TIMELINE, SERVICES, INTEL, ECON, VAULT, IDENTITY, MEDIA, GOV — each reads from existing governed data, never duplicates",
+      "source": "SERVICES/STAR/STAR.md"
+    },
+    {
+      "date": "2026-03-04",
+      "signal": "STAR composes INTEL + CHAT + COIN",
+      "text": "All three primitives: INTEL (knowledge accumulation), CHAT (messaging + conversations), COIN (economics + work)",
+      "source": "SERVICES/STAR/CANON.md"
+    }
+  ],
+  "stats": {
+    "total": 4,
+    "community_questions": 0,
+    "domain_patterns": 4
+  }
+}

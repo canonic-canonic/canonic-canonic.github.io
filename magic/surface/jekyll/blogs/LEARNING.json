@@ -1,0 +1,32 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/home/runner/CANONIC/canonic-canonic/MAGIC/SURFACE/JEKYLL/BLOGS/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-19",
+      "signal": "Posts map 1:1 to governed work",
+      "text": "Every blog post references specific commits and MAGIC discoveries",
+      "source": "BLOGS/CANON.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "BLOGS.json is compiled, not authored",
+      "text": "Index auto-generated from post front matter — hand-editing forbidden",
+      "source": "BLOGS.md"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "jekyll-optional-front-matter causes stack overflow on governance .md files",
+      "text": "Exclude governance filenames from Jekyll processing via MAGIC DIMS",
+      "source": "bin/build-surfaces"
+    }
+  ],
+  "stats": {
+    "total": 3,
+    "community_questions": 0,
+    "domain_patterns": 3
+  }
+}
