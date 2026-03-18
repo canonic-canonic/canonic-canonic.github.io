@@ -342,6 +342,20 @@ var GALAXY = (function () {
                 html += '</div></div>';
             }
 
+            // LEDGER (signature chain)
+            if (node.wallet && node.wallet.events > 0) {
+                var chainOk = node.wallet.chain_valid !== false;
+                var sigIcon = chainOk ? '\uf058' : '\uf071';
+                var sigColor = chainOk ? '#00ff88' : '#ff453a';
+                var sigLabel = chainOk ? 'CHAIN VALID' : 'CHAIN BROKEN';
+                html += '<div class="dp-intel"><div class="dp-intel-label" style="color:' + sigColor + '"><span style="font-family:\'Font Awesome 5 Free\';font-weight:900;margin-right:4px">' + sigIcon + '</span>LEDGER</div>';
+                html += '<div style="display:flex;gap:12px;align-items:center">';
+                html += '<span style="font-family:var(--mono);font-size:10px;color:' + sigColor + '">' + sigLabel + '</span>';
+                html += '<span style="font-family:var(--mono);font-size:10px;color:#86868b">' + node.wallet.events + ' events</span>';
+                if (node.wallet.last_close) html += '<span style="font-family:var(--mono);font-size:10px;color:#86868b">close ' + node.wallet.last_close + '</span>';
+                html += '</div></div>';
+            }
+
             // TALK (chat activity)
             if (node.talk && node.talk.sessions > 0) {
                 html += '<div class="dp-intel"><div class="dp-intel-label" style="color:#2997ff">TALK</div>';
@@ -526,13 +540,16 @@ var GALAXY = (function () {
         // COIN transaction feed (dropdown, toggled)
         html += '<div class="cp-coin-feed" id="coinFeed" style="display:none">';
         var feedSource = scoped || (galaxy.master ? nodeMap[galaxy.master.id] : null);
-        if (feedSource && feedSource.wallet && feedSource.wallet.transactions) {
-            feedSource.wallet.transactions.slice(0, 8).forEach(function (tx) {
-                var isCredit = tx.amount >= 0;
+        var txns = feedSource && feedSource.wallet ? (feedSource.wallet.recent_transactions || feedSource.wallet.transactions) : null;
+        if (txns && txns.length > 0) {
+            txns.slice(-8).reverse().forEach(function (tx) {
+                var amount = tx.amount || tx.credit || -(tx.debit || 0);
+                var isCredit = amount >= 0;
                 html += '<div class="coin-tx">';
-                html += '<span class="coin-tx-type" style="color:' + (isCredit ? '#00ff88' : '#ff453a') + '">' + (isCredit ? '+' : '') + tx.amount + '</span>';
-                html += '<span class="coin-tx-desc">' + (tx.type || tx.description || 'transaction') + '</span>';
-                if (tx.date) html += '<span class="coin-tx-date">' + tx.date + '</span>';
+                html += '<span class="coin-tx-type" style="color:' + (isCredit ? '#00ff88' : '#ff453a') + '">' + (isCredit ? '+' : '') + amount + '</span>';
+                html += '<span class="coin-tx-desc">' + (tx.type || tx.description || tx.kind || 'transaction') + '</span>';
+                var date = tx.date || (tx.ts ? tx.ts.slice(0, 10) : '');
+                if (date) html += '<span class="coin-tx-date">' + date + '</span>';
                 html += '</div>';
             });
         } else {
