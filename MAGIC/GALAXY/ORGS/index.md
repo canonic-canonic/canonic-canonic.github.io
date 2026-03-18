@@ -4,7 +4,7 @@ scope: ORGS
 title: "ORGS"
 description: "ORGS = federation identity. Users authenticate. Users maintain VITAE."
 footerTagline: "ORGS"
-talk: side
+talk: native
 view: web
 views:
   - gov

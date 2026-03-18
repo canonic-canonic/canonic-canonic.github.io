@@ -337,12 +337,12 @@
     {
       "path": "/MAGIC/GALAXY/",
       "scope": "galaxy",
-      "surface_type": "GALAXY"
+      "surface_type": "JEKYLL_DEFAULT"
     },
     {
       "path": "/MAGIC/GALAXY/ORGS/",
       "scope": "orgs",
-      "surface_type": "JEKYLL_DEFAULT"
+      "surface_type": "GALAXY"
     },
     {
       "path": "/MAGIC/GALAXY/ORGS/RunnerMVP/",
@@ -387,7 +387,7 @@
     {
       "path": "/MAGIC/SERVICES/",
       "scope": "services",
-      "surface_type": "JEKYLL_DEFAULT"
+      "surface_type": "JEKYLL_ECON"
     },
     {
       "path": "/MAGIC/SERVICES/CHAIN/",
@@ -522,7 +522,7 @@
     {
       "path": "/MAGIC/TOOLCHAIN/",
       "scope": "toolchain",
-      "surface_type": "JEKYLL_DEFAULT"
+      "surface_type": "JEKYLL_ECON"
     },
     {
       "path": "/MAGIC/TOOLCHAIN/CONFIG/",

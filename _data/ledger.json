@@ -58,6 +58,14 @@
             "change": "patterns",
             "trend": "up"
           }
+        },
+        {
+          "metric": {
+            "label": "CHILDREN",
+            "value": "4",
+            "change": "scopes",
+            "trend": "neutral"
+          }
         }
       ]
     },

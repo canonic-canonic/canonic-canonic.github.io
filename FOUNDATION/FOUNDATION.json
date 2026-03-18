@@ -62,7 +62,7 @@
         {
           "metric": {
             "label": "CHILDREN",
-            "value": "5",
+            "value": "7",
             "change": "scopes",
             "trend": "neutral"
           }

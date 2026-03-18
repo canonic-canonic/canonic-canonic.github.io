@@ -4,7 +4,7 @@
     "rule": "edit the contract or compiler \u2014 not this file",
     "gov_hash": "ef02e182edbd96c1"
   },
-  "generated": "2026-03-18T01:56:08Z",
+  "generated": "2026-03-18T02:45:28Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -46,8 +46,8 @@
     }
   ],
   "stats": {
-    "total": 119,
-    "avg_bits": 245
+    "total": 167,
+    "avg_bits": 248
   },
   "nodes": [
     {
@@ -68,7 +68,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
-      "children": 4
+      "children": 6
     },
     {
       "id": "canonic-canonic/FOUNDATION",
@@ -87,7 +87,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "foundation",
-      "children": 5
+      "children": 7
     },
     {
       "id": "canonic-canonic/INDUSTRIES",
@@ -107,7 +107,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "industries",
-      "children": 4
+      "children": 6
     },
     {
       "id": "canonic-canonic/MAGIC",
@@ -128,7 +128,39 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic",
-      "children": 5
+      "children": 12
+    },
+    {
+      "id": "canonic-canonic/canonic-canonic",
+      "kind": "CONTENT",
+      "label": "CANONIC-CANONIC",
+      "repo": "canonic-canonic",
+      "path": "./canonic-canonic",
+      "parent": "canonic-canonic",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/index",
+      "kind": "CONTENT",
+      "label": "INDEX",
+      "repo": "canonic-canonic",
+      "path": "./index",
+      "parent": "canonic-canonic",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "index",
+      "children": 0
     },
     {
       "id": "canonic-canonic/USERS",
@@ -193,7 +225,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "foundation/doctrine",
-      "children": 0
+      "children": 1
     },
     {
       "id": "canonic-canonic/FOUNDATION/ONBOARDING",
@@ -233,7 +265,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "foundation/programming",
-      "children": 4
+      "children": 5
     },
     {
       "id": "canonic-canonic/FOUNDATION/RESERVES",
@@ -253,6 +285,38 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "foundation/reserves",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/LANGUAGE",
+      "kind": "CONTENT",
+      "label": "LANGUAGE",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/LANGUAGE",
+      "parent": "canonic-canonic/FOUNDATION",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "foundation/language",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/index",
+      "kind": "CONTENT",
+      "label": "INDEX",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/index",
+      "parent": "canonic-canonic/FOUNDATION",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "foundation/index",
       "children": 0
     },
     {
@@ -335,6 +399,38 @@
       "children": 15
     },
     {
+      "id": "canonic-canonic/INDUSTRIES/COMPOSITION",
+      "kind": "CONTENT",
+      "label": "COMPOSITION",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/COMPOSITION",
+      "parent": "canonic-canonic/INDUSTRIES",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "industries/composition",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/index",
+      "kind": "CONTENT",
+      "label": "INDEX",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/index",
+      "parent": "canonic-canonic/INDUSTRIES",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "industries/index",
+      "children": 0
+    },
+    {
       "id": "canonic-canonic/MAGIC/COMPLIANCE",
       "kind": "SCOPE",
       "label": "COMPLIANCE",
@@ -352,27 +448,23 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic/compliance",
-      "children": 7
+      "children": 8
     },
     {
       "id": "canonic-canonic/MAGIC/GALAXY",
-      "kind": "SCOPE",
+      "kind": "CONTENT",
       "label": "GALAXY",
       "repo": "canonic-canonic",
       "path": "MAGIC/GALAXY",
       "parent": "canonic-canonic/MAGIC",
-      "category": "RUNTIME",
       "color": "#00ff88",
+      "category": "RUNTIME",
       "bits": 255,
       "tier": "FULL",
-      "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Encode ORG/USER topology (stars/planets): governed identity boundaries are first-class in GALAXY str",
-      "learning_count": 11,
-      "coverage_score": 255,
-      "surface_type": "GALAXY",
+      "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic/galaxy",
-      "children": 4
+      "children": 9
     },
     {
       "id": "canonic-canonic/MAGIC/SERVICES",
@@ -390,9 +482,9 @@
       "roadmap_now": "Enforce governed boundary isolation across all service scopes (no cross-scope state leakage between ",
       "learning_count": 5,
       "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
+      "surface_type": "JEKYLL_ECON",
       "fleet_path": "magic/services",
-      "children": 15
+      "children": 16
     },
     {
       "id": "canonic-canonic/MAGIC/SURFACE",
@@ -413,7 +505,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic/surface",
-      "children": 6
+      "children": 13
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN",
@@ -430,9 +522,105 @@
       "has_intel": false,
       "learning_count": 11,
       "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
+      "surface_type": "JEKYLL_ECON",
       "fleet_path": "magic/toolchain",
-      "children": 10
+      "children": 22
+    },
+    {
+      "id": "canonic-canonic/MAGIC/CHAT",
+      "kind": "CONTENT",
+      "label": "CHAT",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/CHAT",
+      "parent": "canonic-canonic/MAGIC",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/chat",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/COIN",
+      "kind": "CONTENT",
+      "label": "COIN",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/COIN",
+      "parent": "canonic-canonic/MAGIC",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/coin",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/EVOLUTION",
+      "kind": "CONTENT",
+      "label": "EVOLUTION",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/EVOLUTION",
+      "parent": "canonic-canonic/MAGIC",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/evolution",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/ORGS",
+      "kind": "CONTENT",
+      "label": "ORGS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/ORGS",
+      "parent": "canonic-canonic/MAGIC",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/orgs",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/PROTOCOL",
+      "kind": "CONTENT",
+      "label": "PROTOCOL",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/PROTOCOL",
+      "parent": "canonic-canonic/MAGIC",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/protocol",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/index",
+      "kind": "CONTENT",
+      "label": "INDEX",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/index",
+      "parent": "canonic-canonic/MAGIC",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/index",
+      "children": 0
     },
     {
       "id": "canonic-canonic/USERS/DEXTER",
@@ -460,7 +648,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "users/dexter",
-      "children": 0
+      "children": 1
     },
     {
       "id": "canonic-canonic/USERS/ROBERT",
@@ -489,6 +677,22 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "users/robert",
+      "children": 1
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/DOCTRINE/governance-actors",
+      "kind": "CONTENT",
+      "label": "GOVERNANCE-ACTORS",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/DOCTRINE/governance-actors",
+      "parent": "canonic-canonic/FOUNDATION/DOCTRINE",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "foundation/doctrine/governance-actors",
       "children": 0
     },
     {
@@ -564,6 +768,22 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "foundation/programming/typescript",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/PROGRAMMING/TEST_SPEC",
+      "kind": "CONTENT",
+      "label": "TEST_SPEC",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/PROGRAMMING/TEST_SPEC",
+      "parent": "canonic-canonic/FOUNDATION/PROGRAMMING",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "foundation/programming/test_spec",
       "children": 0
     },
     {
@@ -1100,6 +1320,22 @@
       "children": 0
     },
     {
+      "id": "canonic-canonic/MAGIC/COMPLIANCE/MATRIX",
+      "kind": "CONTENT",
+      "label": "MATRIX",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/COMPLIANCE/MATRIX",
+      "parent": "canonic-canonic/MAGIC/COMPLIANCE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/compliance/matrix",
+      "children": 0
+    },
+    {
       "id": "canonic-canonic/MAGIC/GALAXY/FINDER",
       "kind": "SCOPE",
       "label": "FINDER",
@@ -1125,20 +1361,17 @@
     },
     {
       "id": "canonic-canonic/MAGIC/GALAXY/ORGS",
-      "kind": "SCOPE",
+      "kind": "CONTENT",
       "label": "ORGS",
       "repo": "canonic-canonic",
       "path": "MAGIC/GALAXY/ORGS",
       "parent": "canonic-canonic/MAGIC/GALAXY",
-      "category": "RUNTIME",
       "color": "#00ff88",
+      "category": "RUNTIME",
       "bits": 255,
       "tier": "FULL",
-      "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Federation identity model defined",
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
+      "surface_type": "GALAXY",
       "fleet_path": "magic/galaxy/orgs",
       "children": 6
     },
@@ -1183,6 +1416,70 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic/galaxy/users",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/GALAXY/GITHUB",
+      "kind": "CONTENT",
+      "label": "GITHUB",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/GALAXY/GITHUB",
+      "parent": "canonic-canonic/MAGIC/GALAXY",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "GALAXY",
+      "fleet_path": "magic/galaxy/github",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/GALAXY/IDENTITY",
+      "kind": "CONTENT",
+      "label": "IDENTITY",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/GALAXY/IDENTITY",
+      "parent": "canonic-canonic/MAGIC/GALAXY",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "GALAXY",
+      "fleet_path": "magic/galaxy/identity",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/GALAXY/URI",
+      "kind": "CONTENT",
+      "label": "URI",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/GALAXY/URI",
+      "parent": "canonic-canonic/MAGIC/GALAXY",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "GALAXY",
+      "fleet_path": "magic/galaxy/uri",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/GALAXY/index",
+      "kind": "CONTENT",
+      "label": "INDEX",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/GALAXY/index",
+      "parent": "canonic-canonic/MAGIC/GALAXY",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "GALAXY",
+      "fleet_path": "magic/galaxy/index",
       "children": 0
     },
     {
@@ -1326,7 +1623,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic/services/ledger",
-      "children": 0
+      "children": 4
     },
     {
       "id": "canonic-canonic/MAGIC/SERVICES/MINT",
@@ -1489,41 +1786,49 @@
       "children": 0
     },
     {
+      "id": "canonic-canonic/MAGIC/SERVICES/ECON",
+      "kind": "CONTENT",
+      "label": "ECON",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/ECON",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "magic/services/econ",
+      "children": 0
+    },
+    {
       "id": "canonic-canonic/MAGIC/SURFACE/ANDROID",
-      "kind": "SCOPE",
+      "kind": "CONTENT",
       "label": "ANDROID",
       "repo": "canonic-canonic",
       "path": "MAGIC/SURFACE/ANDROID",
       "parent": "canonic-canonic/MAGIC/SURFACE",
-      "category": "RUNTIME",
       "color": "#00ff88",
+      "category": "RUNTIME",
       "bits": 255,
       "tier": "FULL",
-      "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Establish Android project scaffold: native rendering shell that reads governed config at runtime (ze",
-      "learning_count": 3,
-      "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic/surface/android",
       "children": 0
     },
     {
       "id": "canonic-canonic/MAGIC/SURFACE/APPLE",
-      "kind": "SCOPE",
+      "kind": "CONTENT",
       "label": "APPLE",
       "repo": "canonic-canonic",
       "path": "MAGIC/SURFACE/APPLE",
       "parent": "canonic-canonic/MAGIC/SURFACE",
-      "category": "RUNTIME",
       "color": "#00ff88",
+      "category": "RUNTIME",
       "bits": 255,
       "tier": "FULL",
-      "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Establish iOS project scaffold: native rendering shell that reads governed config at runtime (zero b",
-      "learning_count": 3,
-      "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic/surface/apple",
       "children": 0
@@ -1603,7 +1908,87 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic/surface/jekyll",
-      "children": 4
+      "children": 5
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/CHAT",
+      "kind": "CONTENT",
+      "label": "CHAT",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/CHAT",
+      "parent": "canonic-canonic/MAGIC/SURFACE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/surface/chat",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/COIN",
+      "kind": "CONTENT",
+      "label": "COIN",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/COIN",
+      "parent": "canonic-canonic/MAGIC/SURFACE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/surface/coin",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/PROTOCOL",
+      "kind": "CONTENT",
+      "label": "PROTOCOL",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/PROTOCOL",
+      "parent": "canonic-canonic/MAGIC/SURFACE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/surface/protocol",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/ROLLOUT",
+      "kind": "CONTENT",
+      "label": "ROLLOUT",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/ROLLOUT",
+      "parent": "canonic-canonic/MAGIC/SURFACE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/surface/rollout",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/TALK",
+      "kind": "CONTENT",
+      "label": "TALK",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/TALK",
+      "parent": "canonic-canonic/MAGIC/SURFACE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/surface/talk",
+      "children": 0
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN/CONFIG",
@@ -1716,7 +2101,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic/toolchain/operations",
-      "children": 0
+      "children": 1
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN/RUNTIME",
@@ -1790,6 +2175,230 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic/toolchain/bin",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/TOOLCHAIN/CATEGORIES",
+      "kind": "CONTENT",
+      "label": "CATEGORIES",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/TOOLCHAIN/CATEGORIES",
+      "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "magic/toolchain/categories",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/TOOLCHAIN/COIN",
+      "kind": "CONTENT",
+      "label": "COIN",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/TOOLCHAIN/COIN",
+      "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "magic/toolchain/coin",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/TOOLCHAIN/COMPLIANCE",
+      "kind": "CONTENT",
+      "label": "COMPLIANCE",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/TOOLCHAIN/COMPLIANCE",
+      "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "magic/toolchain/compliance",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/TOOLCHAIN/DEPS",
+      "kind": "CONTENT",
+      "label": "DEPS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/TOOLCHAIN/DEPS",
+      "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "magic/toolchain/deps",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/TOOLCHAIN/ECON",
+      "kind": "CONTENT",
+      "label": "ECON",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/TOOLCHAIN/ECON",
+      "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "magic/toolchain/econ",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/TOOLCHAIN/HTTP",
+      "kind": "CONTENT",
+      "label": "HTTP",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/TOOLCHAIN/HTTP",
+      "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "magic/toolchain/http",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/TOOLCHAIN/PRIMITIVES",
+      "kind": "CONTENT",
+      "label": "PRIMITIVES",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/TOOLCHAIN/PRIMITIVES",
+      "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "magic/toolchain/primitives",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/TOOLCHAIN/SURFACE",
+      "kind": "CONTENT",
+      "label": "SURFACE",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/TOOLCHAIN/SURFACE",
+      "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "magic/toolchain/surface",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/TOOLCHAIN/TAG",
+      "kind": "CONTENT",
+      "label": "TAG",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/TOOLCHAIN/TAG",
+      "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "magic/toolchain/tag",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/TOOLCHAIN/TAGS",
+      "kind": "CONTENT",
+      "label": "TAGS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/TOOLCHAIN/TAGS",
+      "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "magic/toolchain/tags",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/TOOLCHAIN/WALLET",
+      "kind": "CONTENT",
+      "label": "WALLET",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/TOOLCHAIN/WALLET",
+      "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "magic/toolchain/wallet",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/TOOLCHAIN/WORKSPACE",
+      "kind": "CONTENT",
+      "label": "WORKSPACE",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/TOOLCHAIN/WORKSPACE",
+      "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "magic/toolchain/workspace",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/USERS/DEXTER/VITAE",
+      "kind": "CONTENT",
+      "label": "VITAE",
+      "repo": "canonic-canonic",
+      "path": "USERS/DEXTER/VITAE",
+      "parent": "canonic-canonic/USERS/DEXTER",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "users/dexter/vitae",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/USERS/ROBERT/VITAE",
+      "kind": "CONTENT",
+      "label": "VITAE",
+      "repo": "canonic-canonic",
+      "path": "USERS/ROBERT/VITAE",
+      "parent": "canonic-canonic/USERS/ROBERT",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "users/robert/vitae",
       "children": 0
     },
     {
@@ -1884,7 +2493,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "industries/verticals/religion/buddhism",
-      "children": 0
+      "children": 1
     },
     {
       "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
@@ -1922,7 +2531,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "industries/verticals/religion/hinduism",
-      "children": 0
+      "children": 1
     },
     {
       "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam",
@@ -1960,7 +2569,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "industries/verticals/religion/judaism",
-      "children": 0
+      "children": 1
     },
     {
       "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/sikhism",
@@ -2104,6 +2713,70 @@
       "children": 0
     },
     {
+      "id": "canonic-canonic/MAGIC/SERVICES/LEDGER/ANCHOR",
+      "kind": "CONTENT",
+      "label": "ANCHOR",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/LEDGER/ANCHOR",
+      "parent": "canonic-canonic/MAGIC/SERVICES/LEDGER",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/services/ledger/anchor",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/LEDGER/FEDERATION",
+      "kind": "CONTENT",
+      "label": "FEDERATION",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/LEDGER/FEDERATION",
+      "parent": "canonic-canonic/MAGIC/SERVICES/LEDGER",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/services/ledger/federation",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/LEDGER/VAULT",
+      "kind": "CONTENT",
+      "label": "VAULT",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/LEDGER/VAULT",
+      "parent": "canonic-canonic/MAGIC/SERVICES/LEDGER",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/services/ledger/vault",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/LEDGER/WITNESS",
+      "kind": "CONTENT",
+      "label": "WITNESS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/LEDGER/WITNESS",
+      "parent": "canonic-canonic/MAGIC/SERVICES/LEDGER",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/services/ledger/witness",
+      "children": 0
+    },
+    {
       "id": "canonic-canonic/MAGIC/SURFACE/DESIGN/TALK",
       "kind": "SCOPE",
       "label": "TALK",
@@ -2203,6 +2876,38 @@
       "children": 0
     },
     {
+      "id": "canonic-canonic/MAGIC/SURFACE/JEKYLL/LAYOUTS",
+      "kind": "CONTENT",
+      "label": "LAYOUTS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/JEKYLL/LAYOUTS",
+      "parent": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/surface/jekyll/layouts",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/TOOLCHAIN/OPERATIONS/FLEET",
+      "kind": "CONTENT",
+      "label": "FLEET",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/TOOLCHAIN/OPERATIONS/FLEET",
+      "parent": "canonic-canonic/MAGIC/TOOLCHAIN/OPERATIONS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/toolchain/operations/fleet",
+      "children": 0
+    },
+    {
       "id": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology/breast",
       "kind": "VERTICAL",
       "label": "BREAST",
@@ -2219,6 +2924,22 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "industries/verticals/medicine/oncology/breast",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/buddhism/BRANCHES",
+      "kind": "CONTENT",
+      "label": "BRANCHES",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/buddhism/BRANCHES",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/buddhism",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "industries/verticals/religion/buddhism/branches",
       "children": 0
     },
     {
@@ -2324,6 +3045,22 @@
       "children": 1
     },
     {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism/BRANCHES",
+      "kind": "CONTENT",
+      "label": "BRANCHES",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/hinduism/BRANCHES",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "industries/verticals/religion/hinduism/branches",
+      "children": 0
+    },
+    {
       "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/nation-of-islam",
       "kind": "VERTICAL",
       "label": "NATION-OF-ISLAM",
@@ -2378,6 +3115,22 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "industries/verticals/religion/islam/sunni",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/judaism/BRANCHES",
+      "kind": "CONTENT",
+      "label": "BRANCHES",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/judaism/BRANCHES",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/judaism",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "industries/verticals/religion/judaism/branches",
       "children": 0
     },
     {
@@ -3040,6 +3793,266 @@
       "kind": "PARENT",
       "from": "canonic-canonic/USERS/ROBERT",
       "to": "canonic-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/canonic-canonic",
+      "to": "canonic-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/index",
+      "to": "canonic-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/FOUNDATION/LANGUAGE",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/FOUNDATION/index",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/FOUNDATION/DOCTRINE/governance-actors",
+      "to": "canonic-canonic/FOUNDATION/DOCTRINE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/FOUNDATION/PROGRAMMING/TEST_SPEC",
+      "to": "canonic-canonic/FOUNDATION/PROGRAMMING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES/COMPOSITION",
+      "to": "canonic-canonic/INDUSTRIES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES/index",
+      "to": "canonic-canonic/INDUSTRIES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/buddhism/BRANCHES",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/buddhism"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism/BRANCHES",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/judaism/BRANCHES",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/judaism"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/CHAT",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/COIN",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/EVOLUTION",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/GALAXY",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/ORGS",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/PROTOCOL",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/index",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/COMPLIANCE/MATRIX",
+      "to": "canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/GALAXY/GITHUB",
+      "to": "canonic-canonic/MAGIC/GALAXY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/GALAXY/IDENTITY",
+      "to": "canonic-canonic/MAGIC/GALAXY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/GALAXY/ORGS",
+      "to": "canonic-canonic/MAGIC/GALAXY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/GALAXY/URI",
+      "to": "canonic-canonic/MAGIC/GALAXY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/GALAXY/index",
+      "to": "canonic-canonic/MAGIC/GALAXY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/ECON",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/LEDGER/ANCHOR",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/LEDGER/FEDERATION",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/LEDGER/VAULT",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/LEDGER/WITNESS",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SURFACE/ANDROID",
+      "to": "canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SURFACE/APPLE",
+      "to": "canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SURFACE/CHAT",
+      "to": "canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SURFACE/COIN",
+      "to": "canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SURFACE/PROTOCOL",
+      "to": "canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SURFACE/ROLLOUT",
+      "to": "canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SURFACE/TALK",
+      "to": "canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SURFACE/JEKYLL/LAYOUTS",
+      "to": "canonic-canonic/MAGIC/SURFACE/JEKYLL"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/TOOLCHAIN/CATEGORIES",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/TOOLCHAIN/COIN",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/TOOLCHAIN/COMPLIANCE",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/TOOLCHAIN/DEPS",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/TOOLCHAIN/ECON",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/TOOLCHAIN/HTTP",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/TOOLCHAIN/PRIMITIVES",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/TOOLCHAIN/SURFACE",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/TOOLCHAIN/TAG",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/TOOLCHAIN/TAGS",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/TOOLCHAIN/WALLET",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/TOOLCHAIN/WORKSPACE",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/TOOLCHAIN/OPERATIONS/FLEET",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN/OPERATIONS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/USERS/DEXTER/VITAE",
+      "to": "canonic-canonic/USERS/DEXTER"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/USERS/ROBERT/VITAE",
+      "to": "canonic-canonic/USERS/ROBERT"
     },
     {
       "kind": "PARENT",

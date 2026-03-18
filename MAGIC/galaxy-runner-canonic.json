@@ -4,7 +4,7 @@
     "rule": "edit the contract or compiler \u2014 not this file",
     "gov_hash": "ef02e182edbd96c1"
   },
-  "generated": "2026-03-18T01:56:08Z",
+  "generated": "2026-03-18T02:45:28Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -46,8 +46,8 @@
     }
   ],
   "stats": {
-    "total": 15,
-    "avg_bits": 206
+    "total": 18,
+    "avg_bits": 215
   },
   "nodes": [
     {
@@ -67,7 +67,7 @@
       "learning_count": 7,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
-      "children": 2
+      "children": 4
     },
     {
       "id": "runner-canonic/SERVICES",
@@ -121,6 +121,38 @@
       "next_tier_gap": 86,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "vitae",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/ONBOARDING_EMAIL",
+      "kind": "CONTENT",
+      "label": "ONBOARDING_EMAIL",
+      "repo": "runner-canonic",
+      "path": "./ONBOARDING_EMAIL",
+      "parent": "runner-canonic",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "onboarding_email",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/runner-canonic",
+      "kind": "CONTENT",
+      "label": "RUNNER-CANONIC",
+      "repo": "runner-canonic",
+      "path": "./runner-canonic",
+      "parent": "runner-canonic",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "runner-canonic",
       "children": 0
     },
     {
@@ -201,7 +233,7 @@
       "roadmap_now": "Governance artifacts complete (MAGIC 255)",
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "services/ledger",
-      "children": 0
+      "children": 1
     },
     {
       "id": "runner-canonic/SERVICES/SHOP",
@@ -309,6 +341,22 @@
       "children": 0
     },
     {
+      "id": "runner-canonic/SERVICES/LEDGER/GENESIS",
+      "kind": "CONTENT",
+      "label": "GENESIS",
+      "repo": "runner-canonic",
+      "path": "SERVICES/LEDGER/GENESIS",
+      "parent": "runner-canonic/SERVICES/LEDGER",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "services/ledger/genesis",
+      "children": 0
+    },
+    {
       "id": "runner-canonic/SERVICES/TALK/NONA",
       "kind": "SERVICE",
       "label": "NONA",
@@ -365,7 +413,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic",
-      "children": 5
+      "children": 12
     }
   ],
   "edges": [
@@ -473,6 +521,21 @@
       "kind": "PARENT",
       "from": "runner-canonic/VITAE",
       "to": "runner-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/ONBOARDING_EMAIL",
+      "to": "runner-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/runner-canonic",
+      "to": "runner-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/SERVICES/LEDGER/GENESIS",
+      "to": "runner-canonic/SERVICES/LEDGER"
     },
     {
       "kind": "PARENT",

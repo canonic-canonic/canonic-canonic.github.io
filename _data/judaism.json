@@ -50,6 +50,14 @@
             "change": "FULL",
             "trend": "up"
           }
+        },
+        {
+          "metric": {
+            "label": "CHILDREN",
+            "value": "1",
+            "change": "scopes",
+            "trend": "neutral"
+          }
         }
       ]
     },
