@@ -48,5 +48,334 @@
     "name": "FULL",
     "score": 255,
     "intel": true
+  },
+  "canon": {
+    "axiom": "Example",
+    "constraints": "MUST:     Cite ISO 26262, SAE J3016, or domain-specific standard for automotive claims\nMUST:     Map ASIL level to MAGIC checkset governance tier\nMUST:     Distinguish between SAE Levels 0-5 with explicit ODD and fallback definitions\nMUST NOT: Present Level 2 (partial automation) as autonomous driving",
+    "inherits": "canonic-canonic/INDUSTRIES/VERTICALS",
+    "spec": [
+      {
+        "title": "Specification",
+        "body": "```\nAUTOMOTIVE = AUTOMOTIVE_STANDARD × CANONIC\n           = Structure(automotive) × (C1, C2, Temporal, Relational, C5, C6)\n```\n\n**Lattice**: 6 governance checks = ENTERPRISE (#63)\n\n---"
+      },
+      {
+        "title": "Dimensional Mapping",
+        "body": "| Dimension | Bit | Automotive Governance |\n|-----------|-----|----------------------|\n| C1 | private | Safety goals — ASIL-classified hazard declarations from HARA |\n| C2 | private | ASIL evidence — test reports, FMEA, safety case, PPAP documentation |\n| T (Temporal) | 4 | OTA timing — update windows, rollback deadlines, safety response latency |\n| R (Relational) | 8 | V2X boundaries — communication range, trust domains, certificate authorities |\n| C5 | private | Driving operations — SAE level mode transitions, ODD monitoring, fallback |\n| C6 | private | Vehicle architecture — E/E topology, domain controllers, zonal architecture |\n\n---"
+      },
+      {
+        "title": "ASIL-to-MAGIC Tier Mapping",
+        "body": "| ASIL | Risk | MAGIC Tier | Bits | Governance |\n|------|------|-------------|------|------------|\n| ASIL A | Low | COMMUNITY | #35 | Basic safety monitoring, single-point fault detection |\n| ASIL B | Medium | BUSINESS | #43 | Dual-channel verification, diagnostic coverage ≥ 90% |\n| ASIL C | High | ENTERPRISE | #63 | Full governance, SPFM ≥ 97% |\n| ASIL D | Highest | AGENT | #127 | + C7 governance, SPFM ≥ 99%, PMHF < 10^-8/h |\n\n---"
+      },
+      {
+        "title": "Subdomains",
+        "body": "### Passenger Vehicles\n\n```\nStandard:    ISO 26262 (Functional Safety), FMVSS, EU GSR\nASIL Range:  ASIL A-D\nGovernance:  ENTERPRISE (#63) minimum for safety-critical\nApplication: Sedans, SUVs, minivans, hatchbacks\nKey Systems: Braking (ABS/ESC), steering (EPS), airbags, ADAS\nRegulation:  NHTSA (US), UNECE (EU), MLIT (Japan), GB (China)\n```\n\n### Commercial Vehicles\n\n```\nStandard:    ISO 26262, UNECE R13 (braking), R79 (steering)\nASIL Range:  ASIL B-D\nGovernance:  ENTERPRISE (#63) minimum\nApplication: Trucks, buses, trailers, construction vehicles\nKey Systems: Advanced Emergency Braking (AEB), Electronic Stability Control (ESC)\nRegulation:  FMCSA (US), EU Directive 2007/46/EC\nInnovation:  MAGIC checkset governs platooning coordination, fleet-wide OTA\n```\n\n### Electric Vehicles (EV)\n\n```\nStandard:    ISO 26262, IEC 61851 (EV charging), ISO 15118 (V2G communication)\nASIL Range:  ASIL B-D (battery management = ASIL D)\nGovernance:  ENTERPRISE (#63) minimum\nApplication: BEV, PHEV, FCEV\nKey Systems: Battery Management System (BMS), thermal management, charging\nKey Hazards: Thermal runaway, electrical isolation failure, high-voltage exposure\nInnovation:  MAGIC checkset governs cell-level monitoring, charging session governance\n```\n\n### Autonomous Vehicles\n\n```\nStandard:    SAE J3016, ISO 26262, UNECE R157 (ALKS), ISO/PAS 21448 (SOTIF)\nASIL Range:  ASIL D\nGovernance:  AGENT (#127) for Level 4-5\nApplication: Robotaxis, autonomous trucks, last-mile delivery\nKey Systems: Sensor fusion (LiDAR, camera, radar), planning, decision-making\nRegulation:  NHTSA ADS framework, UNECE WP.29, StVG (Germany)\nInnovation:  MAGIC checkset governs ODD transitions, sensor fusion gating, MRC execution\n```\n\n### Connected Vehicles\n\n```\nStandard:    IEEE 802.11p, 3GPP C-V2X, SAE J2735/J2945, ISO/SAE 21434\nASIL Range:  ASIL A-C\nGovernance:  BUSINESS (#43) minimum\nApplication: V2V safety warnings, V2I traffic optimization, V2P protection\nKey Systems: On-Board Unit (OBU), Roadside Unit (RSU), SCMS PKI\nInnovation:  MAGIC checkset governs message authentication, trust boundary enforcement\n```\n\n### Motorsport\n\n```\nStandard:    FIA regulations, homologation requirements, race-specific safety\nASIL Range:  ASIL B-C (race systems), ASIL D (safety systems)\nGovernance:  BUSINESS (#43) minimum\nApplication: Formula 1, WEC, WRC, NASCAR, Formula E\nKey Systems: Telemetry, HANS device, halo, energy recovery (KERS/MGU)\nInnovation:  MAGIC checkset governs real-time telemetry governance, strategy compliance\n```\n\n---"
+      },
+      {
+        "title": "Regulatory Landscape",
+        "body": "| Standard | Scope | Governance |\n|----------|-------|------------|\n| ISO 26262 | Functional safety — road vehicles | ASIL A-D → MAGIC checkset tier |\n| SAE J3016 | Driving automation levels | Level-dependent |\n| IATF 16949 | Automotive quality management | ENTERPRISE (#63) |\n| UNECE WP.29 | Global vehicle regulations | Type approval framework |\n| ISO/SAE 21434 | Cybersecurity engineering | CAL 1-4 → MAGIC checkset tier |\n| FMVSS | US federal motor vehicle safety | ENTERPRISE (#63) |\n| EU GSR | EU general safety regulation | ENTERPRISE (#63) |\n| ISO/PAS 21448 | Safety of the Intended Functionality (SOTIF) | ENTERPRISE (#63) |\n| ISO 15118 | Vehicle-to-grid communication | BUSINESS (#43) |\n| UNECE R157 | Automated Lane Keeping Systems | AGENT (#127) |\n\n---"
+      },
+      {
+        "title": "Prior Art Landscape",
+        "body": "| Competitor | Approach | MAGIC checkset Distinction |\n|-----------|----------|-------------------|\n| Tesla FSD | End-to-end neural network, vision-only | No governance framework, no formal safety case, no bitwise verification |\n| Waymo | Safety reports, simulation-heavy validation | Safety reports but no bitwise governance, no governance language |\n| Mobileye RSS | Formal safety model (Responsibility-Sensitive Safety) | Mathematical safety model but no governance language, no bitwise encoding |\n| AUTOSAR | Standardized automotive SW architecture | Architecture standard, no governance gates, no compliance verification |\n| ISO/PAS 21448 SOTIF | Safety of intended functionality analysis | Analysis methodology, no runtime governance, no bitwise checking |\n\n**Gap**: No existing system provides governance-gated vehicle control with O(1) bitwise compliance checking across ASIL levels and SAE autonomy levels simultaneously.\n\n---"
+      },
+      {
+        "title": "Patent Mapping",
+        "body": "| PROV | Relevance | Claims |\n|------|-----------|--------|\n| PROV-006 | PRIMARY | Governance-gated vehicle actuation, ASIL mapping, ODD enforcement |\n| PROV-001 | Foundational | MAGIC private-check encoding for automotive governance verification |\n| PROV-004 | Supporting | Transcompilation of ISO 26262/SAE J3016 to governed executables |\n\n---"
+      },
+      {
+        "title": "Cross-Domain Compositions",
+        "body": "```\nAUTOMOTIVE × ROBOTICS       = Autonomous vehicles (ISO 26262 + SAE J3016 + ISO 10218)\nAUTOMOTIVE × MANUFACTURING  = Vehicle production governance (IATF 16949 + IEC 62443)\nAUTOMOTIVE × ENERGY         = EV charging governance (ISO 15118 + IEC 61851)\nAUTOMOTIVE × LOGISTICS      = Fleet management, autonomous trucking (SAE J3016 + ISO 3691-4)\nAUTOMOTIVE × AEROSPACE      = Flying cars / eVTOL (ISO 26262 + DO-178C)\nAUTOMOTIVE × DEFENSE        = Military vehicles (ISO 26262 + MIL-STD-882)\nAUTOMOTIVE × QUALITY        = Production quality (IATF 16949 + ISO 9001)\nAUTOMOTIVE × SECURITY       = Vehicle cybersecurity (ISO/SAE 21434 + IEC 62443)\n```\n\n**8 cross-domain compositions. Each strengthens PROV-006 patent claims.**\n\n\n---"
+      },
+      {
+        "title": "Axioms",
+        "body": "### 1. Functional Safety Integrity\n\nVehicle systems MUST achieve the ASIL level determined by hazard analysis and risk assessment. No safety goal without ASIL assignment.\n\n**Example**: Electric power steering loss at highway speed = ASIL D. The steering ECU MUST achieve SPFM ≥ 99%, PMHF < 10⁻⁸/h, and latent fault metric ≥ 90%. These metrics are not negotiable — they derive from the physics of the hazard.\n\n---\n\n### 2. OTA Update Governance\n\nOver-the-air software updates to safety-relevant systems MUST be governed. No update without impact analysis, rollback capability, and informed consent.\n\n**Example**: A brake calibration update pushed OTA MUST pass: (1) ISO 26262 change impact analysis, (2) SOTIF analysis for new behavior, (3) cybersecurity impact per ISO/SAE 21434, (4) regulatory notification per UNECE R156. The vehicle MUST verify update integrity before applying. Rollback MUST be available for 72 hours.\n\n---\n\n### 3. Cybersecurity by Design\n\nVehicle cybersecurity MUST be engineered from concept, not bolted on. Threat analysis MUST precede design.\n\n**Example**: ISO/SAE 21434 requires TARA (Threat Analysis and Risk Assessment) at concept phase. A connected ECU with V2X capability MUST have: asset identification, threat scenarios, attack feasibility ratings, and cybersecurity goals — before a single line of code is written.\n\n---\n\n### 4. Type Approval Compliance\n\nVehicles MUST meet type approval requirements of every market where they are sold. No market entry without authority approval.\n\n**Example**: A vehicle sold in the US and EU MUST comply with FMVSS (NHTSA) and UNECE regulations (EU). FMVSS 126 (ESC) and UNECE R140 (ESC) have different test procedures for the same function. Both MUST pass independently.\n\n---\n\n### 5. Recall Response\n\nWhen a safety defect is identified, the manufacturer MUST initiate recall within the timeframe required by law. No delay for business reasons.\n\n**Example**: NHTSA requires manufacturers to notify the agency within 5 business days of determining a safety defect exists. 49 CFR Part 573. The recall remedy MUST be provided at no cost to the owner. Every affected VIN MUST be traceable.\n\n---"
+      },
+      {
+        "title": "Examples",
+        "body": "```\nDECLARE(ASIL_D_SafetyCase) = ISO_26262 × CANONIC\n\nWhere:\n  ISO 26262 provides Structure:\n    - Hazard analysis and risk assessment (Part 3)\n    - System design (Part 4)\n    - Hardware design (Part 5)\n    - Software design (Part 6)\n    - Safety validation (Part 4)\n\n  CANONIC provides Governance:\n    - C1: Safety goals with ASIL assignment\n    - C2: Safety case evidence (FMEA, FTA, DFA, testing)\n    - Temporal: Product development lifecycle, field monitoring\n    - Relational: OEM/Tier1/Tier2 boundaries, market jurisdictions\n    - C5: Vehicle operations (driving modes, degraded states)\n    - C6: ISO 26262/AUTOSAR conformance\n\nResult:\n  ASIL_D_SafetyCase = AGENT (#127)\n\n  Safety Lifecycle:\n    Concept        — HARA completed, safety goals assigned\n    Design         — Technical safety concept\n    Implement      — SW/HW safety requirements verified\n    Validate       — Safety validation complete\n    Release        — Type approval granted\n```\n\n```\nDECLARE(AutonomousVehicleODD) = SAE_J3016 × CANONIC\n\nWhere:\n  SAE J3016 provides Structure:\n    - Automation levels (0-5)\n    - Operational Design Domain (ODD)\n    - Dynamic Driving Task (DDT)\n    - DDT fallback\n    - Minimal Risk Condition (MRC)\n\n  CANONIC provides Governance:\n    - C1: ODD boundary claims (speed, weather, road type)\n    - C2: Scenario evidence (simulation, test track, public road)\n    - Temporal: ODD entry/exit timing, MRC response time\n    - Relational: Geographic/regulatory boundaries\n    - C5: Automated driving mode transitions\n    - C6: SAE/ISO/UNECE conformance\n\nResult:\n  AutonomousVehicleODD at Level 4 = AGENT (#127)\n\n  ODD Lifecycle:\n    Define         — ODD parameters specified\n    Simulate       — Scenario coverage in simulation\n    Test           — Track + public road validation\n    Certify        — Regulatory approval\n    Operate        — Public deployment within ODD\n```"
+      },
+      {
+        "title": "Validators",
+        "body": "| Validator | Checks | Example Failure |\n|-----------|--------|------------------|\n| C1 | Safety goals stated with ASIL assignment from HARA | ECU without safety classification |\n| C2 | Safety case evidence complete (FMEA, FTA, test reports) | Missing diagnostic coverage analysis |\n| Temporal | OTA update windows, recall response timelines | Recall notification beyond 5-day deadline |\n| Relational | OEM/tier boundaries, market jurisdictions, V2X trust domains | OTA pushed outside approved market |\n| C5 | Driving mode transitions governed, fallback operating | ADS engaged outside ODD |\n| C6 | ISO 26262/AUTOSAR/UNECE conformance validated | Non-compliant safety architecture |"
+      },
+      {
+        "title": "Application",
+        "body": "To create a CANONIC automotive vertical:\n\n1. **Identify vehicle system** (powertrain, chassis, ADAS, ADS, body)\n2. **Perform HARA** and assign ASIL, map to MAGIC tier\n3. **Create scope** with CANON.md inheriting /AUTOMOTIVE/\n4. **Define safety goals** with ASIL assignment and technical safety concepts\n5. **Map to regulatory framework** (ISO 26262, SAE J3016, UNECE)\n6. **Implement validators** for safety evidence, OTA governance, cybersecurity\n7. **Document coverage** with safety case artifacts\n\n**Result**: Owned automotive vertical with ASIL-governed, type-approved operations.\n\n---"
+      }
+    ],
+    "learning": [],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "AIAG",
+        "definition": "Automotive Industry Action Group."
+      },
+      {
+        "term": "ALKS",
+        "definition": "Automated Lane Keeping System."
+      },
+      {
+        "term": "AP",
+        "definition": "Application Protocol or Access Point."
+      },
+      {
+        "term": "ASIL",
+        "definition": "Automotive Safety Integrity Level"
+      },
+      {
+        "term": "AUTOMOTIVE",
+        "definition": "Automotive industry vertical governance scope."
+      },
+      {
+        "term": "BSM",
+        "definition": "Basic Safety Message"
+      },
+      {
+        "term": "CAL",
+        "definition": "Cybersecurity Assurance Level"
+      },
+      {
+        "term": "CRL",
+        "definition": "Certificate Revocation List or Configuration Release."
+      },
+      {
+        "term": "CSMS",
+        "definition": "Cyber Security Management System (energy sector)."
+      },
+      {
+        "term": "CSR",
+        "definition": "Corporate Social Responsibility."
+      },
+      {
+        "term": "DDT",
+        "definition": "Delivery Date/Time."
+      },
+      {
+        "term": "DEKRA",
+        "definition": "German vehicle inspection and certification organization."
+      },
+      {
+        "term": "DFMEA",
+        "definition": "Design Failure Mode and Effects Analysis."
+      },
+      {
+        "term": "DSRC",
+        "definition": "Dedicated Short-Range Communications"
+      },
+      {
+        "term": "ECU",
+        "definition": "Electronic Control Unit"
+      },
+      {
+        "term": "EDR",
+        "definition": "Event Data Recorder — vehicle black box."
+      },
+      {
+        "term": "ELKS",
+        "definition": "ELK Stack (Elasticsearch, Logstash, Kibana) reference."
+      },
+      {
+        "term": "EU",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "EV",
+        "definition": "Electric Vehicle."
+      },
+      {
+        "term": "FMEA",
+        "definition": "Failure Mode and Effects Analysis"
+      },
+      {
+        "term": "FMVSS",
+        "definition": "Federal Motor Vehicle Safety Standards"
+      },
+      {
+        "term": "GNSS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "GRR",
+        "definition": "Gauge Repeatability and Reproducibility."
+      },
+      {
+        "term": "GSR",
+        "definition": "General Safety Regulation"
+      },
+      {
+        "term": "HARA",
+        "definition": "Hazard Analysis and Risk Assessment"
+      },
+      {
+        "term": "HSM",
+        "definition": "Hardware Security Module"
+      },
+      {
+        "term": "HW",
+        "definition": "Hardware"
+      },
+      {
+        "term": "IATF",
+        "definition": "International Automotive Task Force"
+      },
+      {
+        "term": "IEEE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ISA",
+        "definition": "International Society of Automation."
+      },
+      {
+        "term": "ISO",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "LFM",
+        "definition": "Latent Fault Metric"
+      },
+      {
+        "term": "MAP",
+        "definition": "Mapping or index artifact."
+      },
+      {
+        "term": "MRC",
+        "definition": "Minimal Risk Condition"
+      },
+      {
+        "term": "MSA",
+        "definition": "Measurement Systems Analysis"
+      },
+      {
+        "term": "NCAP",
+        "definition": "Network Capable Application Processor."
+      },
+      {
+        "term": "ODD",
+        "definition": "Operating Design Domain"
+      },
+      {
+        "term": "OEDR",
+        "definition": "Object and Event Detection and Response"
+      },
+      {
+        "term": "OS",
+        "definition": "Operating system."
+      },
+      {
+        "term": "OTA",
+        "definition": "Over-the-Air"
+      },
+      {
+        "term": "PFMEA",
+        "definition": "Process Failure Mode and Effects Analysis."
+      },
+      {
+        "term": "PKI",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PMHF",
+        "definition": "Probabilistic Metric for Random Hardware Failures"
+      },
+      {
+        "term": "PPAP",
+        "definition": "Production Part Approval Process"
+      },
+      {
+        "term": "PSW",
+        "definition": "Part Submission Warrant (PPAP)."
+      },
+      {
+        "term": "RPN",
+        "definition": "Risk Priority Number (FMEA)."
+      },
+      {
+        "term": "SAE",
+        "definition": "Society of Automotive Engineers"
+      },
+      {
+        "term": "SCMS",
+        "definition": "Security Credential Management System"
+      },
+      {
+        "term": "SOME",
+        "definition": "Partial coverage reference."
+      },
+      {
+        "term": "SPC",
+        "definition": "Statistical Process Control"
+      },
+      {
+        "term": "SPFM",
+        "definition": "Single-Point Fault Metric"
+      },
+      {
+        "term": "SW",
+        "definition": "Software"
+      },
+      {
+        "term": "TARA",
+        "definition": "Threat Analysis and Risk Assessment"
+      },
+      {
+        "term": "TIM",
+        "definition": "Thermal Interface Material."
+      },
+      {
+        "term": "TPMS",
+        "definition": "Tire Pressure Monitoring System."
+      },
+      {
+        "term": "TUV",
+        "definition": "Technischer Uberwachungsverein — German technical inspection."
+      },
+      {
+        "term": "UNECE",
+        "definition": "United Nations Economic Commission for Europe"
+      },
+      {
+        "term": "US",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "USB",
+        "definition": "Universal Serial Bus."
+      },
+      {
+        "term": "VDA",
+        "definition": "Verband der Automobilindustrie — German automotive standards."
+      },
+      {
+        "term": "WAVE",
+        "definition": "Wave energy reference."
+      },
+      {
+        "term": "WP",
+        "definition": "Waypoint or Work Package."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "INDUSTRIES",
+        "axiom": "INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.",
+        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
   }
 }

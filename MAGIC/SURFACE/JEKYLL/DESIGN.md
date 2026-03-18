@@ -33,8 +33,9 @@ SURFACE.json surface type → `_layouts/{NAME}.html`
 | JEKYLL_BOOK | `book.html` | Standalone book: tri-view (GOV contract + WEB parts/chapters + TEX full PDF.js viewer iframe). Default view: web. |
 | JEKYLL_TALK | `talk.html` | Full-page TALK: immersive chat with header, logo, name, subtitle. FULL_PAGE capability. |
 | JEKYLL_SERVICE | `service.html` | Service contract viewer: tri-view (GOV contract + WEB hero/sections + TEX full PDF.js viewer iframe). Standalone. Default view: web. |
+| GALAXY | `galaxy.html` | Chrome-free operating surface: auth gate, Finder navigation, INTEL/COIN/TALK primitives. No NAV, no FOOTER. Galaxy owns every pixel. |
 
-**9 layouts. All share HEAD.html + SCRIPTS.html includes (standalone layouts inline equivalent).**
+**10 layouts. All share HEAD.html + SCRIPTS.html includes (standalone layouts inline equivalent).**
 
 ---
 

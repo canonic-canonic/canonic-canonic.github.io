@@ -48,5 +48,190 @@
     "name": "FULL",
     "score": 255,
     "intel": true
+  },
+  "canon": {
+    "axiom": "Example",
+    "constraints": "MUST:     Cite specific safety standard or regulation for claims\nMUST:     Distinguish between safety integrity levels across domains\nMUST NOT: Present compliance with one domain's safety standard as covering another",
+    "inherits": "canonic-canonic/INDUSTRIES/HORIZONTAL",
+    "spec": [
+      {
+        "title": "Domain Declaration",
+        "body": "```\nSAFETY = SAFETY_STANDARD × CANONIC\n       = Structure(safety) × (C1, C2, Temporal, Relational, C5)\n       = owned safety-critical vertical\n```\n\n---"
+      },
+      {
+        "title": "Lattice Formula",
+        "body": "```\nSAFETY = C1 ∩ C2 ∩ Temporal ∩ Relational ∩ C5 ∩ C6\n       = ENTERPRISE (#63)\n```\n\nSafety-critical systems ALWAYS require full Enterprise because:\n- **C1**: Safety requirements must be stated explicitly\n- **C2**: Safety must be proven, not assumed\n- **Temporal**: Development phases, operational lifecycles\n- **Relational**: System boundaries, hazard interfaces\n- **C5**: Certification authorities enforce\n- **C6**: Industry safety standards (DO-178C, ISO 26262)\n\n**There is no shortcut for safety.**\n\n---"
+      },
+      {
+        "title": "Axioms",
+        "body": "### 1. Safety is Non-Negotiable\n\nSafety requirements MUST NOT be traded against cost, schedule, or performance without explicit hazard analysis and residual risk acceptance.\n\n**Example**: A proposed software change would save $50,000 but bypasses a safety interlock. The change MUST be evaluated through formal hazard analysis. If residual risk exceeds acceptable threshold, the change is rejected regardless of cost savings.\n\n---\n\n### 2. Hazard Identification\n\nAll reasonably foreseeable hazards MUST be systematically identified and analyzed.\n\n**Example**: A flight control system undergoes: Preliminary Hazard Analysis, System Hazard Analysis, Subsystem Hazard Analysis, Software Hazard Analysis, and Interface Hazard Analysis. Each level identifies hazards invisible at other levels.\n\n---\n\n### 3. Risk Reduction\n\nIdentified hazards MUST be mitigated to acceptable risk levels through design, safeguards, or warnings (in that order of preference).\n\n**Example**: A robot arm hazard of \"crush injury to operator\" is mitigated by: (1) redesigning to reduce force (design), (2) adding presence-sensing safety curtain (safeguard), (3) posting warning label (warning). Design solutions are always preferred.\n\n---\n\n### 4. Traceability\n\nSafety requirements MUST trace bidirectionally from hazards through design to verification evidence.\n\n**Example**: Hazard H-001 → Safety Requirement SR-001 → Design Element DE-001 → Test Case TC-001 → Test Result TR-001. Any break in chain means safety is not demonstrated.\n\n---\n\n### 5. Independent Assessment\n\nSafety-critical systems MUST be assessed by parties independent of the development team.\n\n**Example**: A medical device software team completes development. An independent software quality assurance team reviews requirements, design, code, and test results. They report directly to management, not through the development team.\n\n---"
+      },
+      {
+        "title": "Subdomains",
+        "body": "| Subdomain | Standard | Formula | Industry |\n|-----------|----------|---------|----------|\n| Aviation Software | DO-178C | ENTERPRISE | Aerospace |\n| Aviation Hardware | DO-254 | ENTERPRISE | Aerospace |\n| Automotive | ISO 26262 | ENTERPRISE | Automotive |\n| Medical Devices | IEC 62304 | ENTERPRISE | Healthcare |\n| Industrial | IEC 61508 | ENTERPRISE | Process/machinery |\n| Nuclear | NRC regulations | ENTERPRISE | Nuclear power |\n| Rail | EN 50128 | ENTERPRISE | Railway |\n\n**Pattern**: ALL safety standards = ENTERPRISE (#63)\n\n---"
+      },
+      {
+        "title": "Safety Integrity Levels",
+        "body": "| Domain | Levels | Highest | Meaning |\n|--------|--------|---------|---------|\n| Aviation | DAL A-E | DAL A | Catastrophic failure condition |\n| Automotive | ASIL A-D | ASIL D | Life-threatening injury |\n| Industrial | SIL 1-4 | SIL 4 | Catastrophic consequence |\n| Medical | Class A-C | Class C | Death or serious injury |\n\n**Higher level = more rigorous lattice enforcement.**\n\n---"
+      },
+      {
+        "title": "Example: Aviation Software (DO-178C)",
+        "body": "```\nDECLARE(DO178C) = RTCA_DO-178C × CANONIC\n\nWhere:\n  DO-178C provides Structure:\n    - Software development processes\n    - Verification objectives (by DAL)\n    - Life cycle data requirements\n    - Certification liaison\n\n  CANONIC provides Governance:\n    - C1: Requirements as claims\n    - C2: Verification evidence\n    - Temporal: Development phases\n    - Relational: System/software boundary\n    - C5: DER/certification authority\n\nResult:\n  DO178C = ENTERPRISE (#63)\n\n  Certification Lifecycle:\n    Planning       — PSAC, SDP, SVP, SCMP, SQAP\n    Requirements   — HLR, LLR traced to system\n    Design         — Architecture documented\n    Code           — Implementation traced\n    Verification   — Testing complete\n    Configuration  — All data controlled\n    Certification  — SCI/SOI complete\n```\n\n---"
+      },
+      {
+        "title": "Example: Automotive Safety (ISO 26262)",
+        "body": "```\nDECLARE(ISO26262) = ISO_26262 × CANONIC\n\nWhere:\n  ISO 26262 provides Structure:\n    - Safety lifecycle (12 parts)\n    - ASIL determination\n    - Hardware/software requirements\n    - Functional safety assessment\n\n  CANONIC provides Governance:\n    - C1: Safety goals, requirements\n    - C2: Work products, confirmation measures\n    - Temporal: Development phases\n    - Relational: Item definition boundaries\n    - C5: Safety manager, assessor\n\nResult:\n  ISO26262 = ENTERPRISE (#63)\n\n  Safety Lifecycle:\n    Concept        — Item definition\n    HARA           — Hazard analysis\n    FSC            — Functional safety concept\n    TSC            — Technical safety concept\n    Development    — HW/SW implementation\n    Production     — Manufacturing\n    Operation      — Field use\n```\n\n---"
+      },
+      {
+        "title": "Safety Evidence",
+        "body": "| Evidence Type | Lattice | Purpose |\n|---------------|---------|---------|\n| Hazard Log | BUSINESS | Hazard tracking |\n| Safety Requirements | (#23) | Safety claims |\n| Design Rationale | (#25) | Design justification |\n| Verification Results | (#33) | Test evidence |\n| Traceability Matrix | BUSINESS | Bidirectional trace |\n| Safety Case | ENTERPRISE | Certification argument |\n\n---"
+      },
+      {
+        "title": "Validators",
+        "body": "| Validator | Checks | Example Failure |\n|-----------|--------|-----------------|\n| C1 | Safety requirements exist | Missing safety goal |\n| C2 | Evidence complete | Untested safety requirement |\n| Temporal | Phases completed | Skipped review milestone |\n| Relational | Boundaries defined | Unclear system scope |\n| C5 | Assessment complete | No independent review |\n| C6 | Standard conformance | Missing required work product |\n\n---"
+      },
+      {
+        "title": "Application",
+        "body": "To create a CANONIC safety vertical:\n\n1. **Identify applicable safety standard** (DO-178C, ISO 26262, etc.)\n2. **Create scope** with CANON.md inheriting /SAFETY/\n3. **Define safety requirements** from hazard analysis\n4. **Document evidence** for all verification\n5. **Establish development phases** with reviews\n6. **Define system boundaries** and interfaces\n7. **Implement independent assessment**\n8. **Compile safety case** for certification\n\n**Result**: Owned safety-critical vertical with certifiable evidence.\n\n---"
+      },
+      {
+        "title": "The Safety Imperative",
+        "body": "```\n∀ system ∈ SAFETY-CRITICAL:\n  system = ENTERPRISE (#63)\n\nNo exceptions. No shortcuts. Lives depend on it.\n```\n\n---"
+      }
+    ],
+    "learning": [],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "ASIL",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ASRS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CANON",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CFR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CPSC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CPSIA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CSA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DAL",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "EU",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FMEA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FMECA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "HAZOP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IEC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ISO",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NASA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NIOSH",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NTSB",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "OSHA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "OT",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PPE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PSM",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "RAPEX",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SAFETY",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SIL",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "STAMP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "STPA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "UL",
+        "definition": "Governed term in this scope vocabulary."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "INDUSTRIES",
+        "axiom": "INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.",
+        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
   }
 }

@@ -48,5 +48,173 @@
     "name": "BUSINESS",
     "score": 239,
     "intel": true
+  },
+  "canon": {
+    "axiom": "LEARNING is INTEL applied. Every discovery governed. Every gradient evidenced.",
+    "constraints": "MUST:     Compose INTEL primitive — every discovery evidence-linked\nMUST:     Follow governed record shape (generalized IDF)\nMUST:     Source from governed operations only — no fabricated patterns\nMUST:     Backpropagate gradients to upstream scopes\nMUST:     Every scope has LEARNING.md — the pattern table is the compact form\nMUST:     LEARNING.md pattern table: Date | Signal | Pattern | Source\nMUST:     Ingest LEDGER streams — TALK, CONTRIBUTE, EMAIL, PROVISION are INTEL sources\nMUST:     Every ingested LEDGER entry becomes a LEARNING.md pattern row\nMUST NOT: Fabricate discoveries\nMUST NOT: Store unstructured data outside governed record shape\nMUST:     GC frozen epochs — after rotation, delete the archive file (rotation event in active LEARNING.md is the record)\nMUST NOT: Bypass provenance chain — every gradient traces to evidence\nMUST NOT: Ignore LEDGER streams — silence is not governance\nMUST:     Flat service layout — no singleton stage directories\nMUST:     CAS fanout — git-style 2-char prefix buckets (hash[:2]/hash[2:])\nMUST:     Manifest sharding — one shard per signal type, thin index\nMUST:     Incremental discovery — checkpoint per repo, scan only new commits\nMUST NOT: Store 100K+ entries in a single manifest file\nMUST NOT: Store 100K+ files in a single flat CAS directory\nMUST:     Consume patterns — build reads LEARNING.md back into governance recommendations\nMUST:     Surface regression signals — repeated DEBIT:DRIFT on a scope triggers intervention alert\nMUST:     Surface growth signals — repeated MINT:WORK on a scope triggers expansion recommendation\nMUST:     Feed INTEL — consumed patterns wire into system prompts via CANON.json intel_refs\nMUST NOT: Capture without consumption — write-only LEARNING is not LEARNING",
+    "inherits": "canonic-canonic/MAGIC/SERVICES",
+    "spec": [
+      {
+        "title": "Purpose",
+        "body": "**LEARNING is the governed discovery service. INTEL primitive applied as operational gradients.**\n\nINTEL (primitive) is what you KNOW = WORK. LEARNING (service) extracts governed discoveries at scale — the gradients, the deltas, the patterns that emerge from WORK. IDFs (Invention Disclosure Forms) are the archetype. LEARNING generalizes IDFs to every governed scope.\n\n---"
+      },
+      {
+        "title": "Composition",
+        "body": "```\nPrimitive:  INTEL (what you KNOW = WORK)\nService:    LEARNING (governed discovery extraction)\nArchetype:  IDF (Invention Disclosure Form — PATENTS domain)\nInstance:   {PRINCIPAL}/SERVICES/LEARNING/ (inherits SERVICES/LEARNING)\nDimension:  LEARNING.md exists in every scope (pattern table)\n```\n\n---"
+      },
+      {
+        "title": "Pipeline",
+        "body": "```\nLEDGER streams → learning-ingest → GOV LEARNING.md → build-surfaces → LEARNING.json\n```\n\n### Ingest Sources\n\n| Source | LEDGER Type | Signal |\n|--------|------------|--------|\n| Git commits | GRADIENT | GOVERNANCE_DELTA |\n| TALK sessions | TALK | SESSION_LEDGERED |\n| Contributions | CONTRIBUTE | CONTRIBUTION_RECEIVED |\n| Correspondence | EMAIL | CORRESPONDENCE_SENT |\n| Infrastructure | PROVISION | INFRASTRUCTURE_PROVISIONED |\n| Payments | SHOP | PAYMENT_RECEIVED |\n| Auth events | AUTH | AUTH_EVENT |\n| Omics queries | OMICS | OMICS_QUERY |\n\n### Ingest Process\n\n```\n1. Read LEDGER entries since last checkpoint\n2. For each entry: derive scope, signal, pattern summary\n3. Append pattern row to scope's LEARNING.md:\n     | Date | Signal | Pattern | Source |\n4. Update checkpoint (~/.canonic/learning/ledger-sync.json)\n5. Backpropagate to parent scopes (gradient aggregation)\n```\n\n---"
+      },
+      {
+        "title": "Storage Architecture",
+        "body": "### CAS (Content-Addressable Store)\n\n```\n~/.canonic/learning/PATTERNS/\n├── {hash[:2]}/\n│   └── {hash[2:]}.json       — individual pattern record\n└── INDEX.json                 — thin manifest (hash → scope + date)\n```\n\nGit-style 2-char prefix buckets. No flat directory with 100K+ files.\n\n### Manifest Sharding\n\n```\n~/.canonic/learning/BOUNDARIES/\n├── {hash[:2]}/\n│   └── {hash[2:]}.json       — individual boundary record\n├── BOUNDARIES.json            — thin index (hash → type + scope)\n└── shard/\n    └── {SIGNAL_TYPE}.json     — per-signal-type shard\n```\n\n6 boundary types: NEW_TERM, NEW_SCOPE, NEW_COMPOSITION, NEW_CONSTRAINT, EVOLUTION, EXTINCTION.\n\n### Checkpoint\n\n```\n~/.canonic/learning/ledger-sync.json\n{\n  \"last_ledger_id\": \"<hash>\",\n  \"last_ts\": \"<ISO 8601>\",\n  \"repos\": { \"<repo>\": \"<last_commit_scanned>\" }\n}\n```\n\nIncremental discovery — per-repo checkpoint, scan only new commits.\n\n---"
+      },
+      {
+        "title": "Runtime Structure",
+        "body": "```\n~/.canonic/services/LEARNING/\n├── discover.py               — pattern detection\n├── scan.py                   — boundary scanning\n├── learn.py                  — adaptive learning\n├── propagate.py              — pattern propagation\n├── boundary.py               — boundary classification\n├── BOUNDARIES.json           — boundary type definitions\n└── PATTERNS.json             — learned patterns (hash-keyed)\n\n~/.canonic/bin/learning-ingest  — LEDGER → LEARNING.md pipeline\n```\n\n---"
+      },
+      {
+        "title": "Build Integration",
+        "body": "```\nbuild step 10b:  ledger-sync           — KV ledger → LEARNING.md\n                 learning-ingest       — LEDGER → GOV LEARNING.md (soft — don't break build)\nbuild step 10c:  learning-consume      — LEARNING.md → COVERAGE.md recommendations (soft gate)\nbuild surfaces:  build-surfaces        — LEARNING.md → LEARNING.json\n                                         COVERAGE.json includes learning-derived rows\n```\n\n---"
+      },
+      {
+        "title": "Consumption",
+        "body": "LEARNING is not a ledger — it is a governor. Capture without consumption is not LEARNING.\n\n### Read-Back Pipeline\n\n```\nbuild → read LEARNING.md → detect regression/growth/stale patterns → surface in COVERAGE.md\n```\n\n### Signals\n\n| Signal | Trigger | Output |\n|--------|---------|--------|\n| REGRESSION | 3+ DEBIT:DRIFT on same scope within epoch | COVERAGE.md gap row |\n| GROWTH | 3+ MINT:WORK on same scope within epoch | COVERAGE.md strength row |\n| STALE | No LEARNING.md entry for 30+ days | COVERAGE.md stale row |\n\n### INTEL Wiring\n\nConsumed patterns wire into system prompts via `CANON.json intel_refs`. The system doesn't just record what happened — it tells you what to do next. Patterns that repeat become constraints. Constraints that hold become dimensions. Dimensions that validate become tiers.\n\n---"
+      },
+      {
+        "title": "Differentiation",
+        "body": "| | INTEL (primitive) | LEARNING (service) |\n|---|---|---|\n| Layer | Axiom | Composition |\n| Form | File (INTEL.md) | Directory (SERVICES/LEARNING/) |\n| Function | Cross-axiomatic knowledge = WORK | Governed discovery extraction = gradients |\n| Scope | Every scope | Per-principal service instance |\n| Analogy | The work itself | The IDF that captures what the work discovered |\n\n---"
+      },
+      {
+        "title": "Record Shape (Generalized IDF)",
+        "body": "### Full Record (service-level)\n\n```\nPattern:      What was discovered\nDate:         When the gradient was observed\nPriority:     Source evidence (commit SHA, governed operation)\nDimensions:   MAGIC 8-dimension validation\nAssertions:   Structured claims about the discovery\nEvidence:     Provenance chain (commit + file)\nReferences:   Related patterns across scopes\nGradient:     What changed — the delta (novelty)\n```\n\n### Compact Record (scope-level LEARNING.md)\n\nEvery scope's LEARNING.md uses the pattern table — the compact form:\n\n```\n| Date | Signal | Pattern | Source |\n```\n\nThis is the IDF distilled: Date = Filing Date, Signal = Title, Pattern = Claims, Source = Evidence.\n\n---"
+      },
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-19 | IDFs are the LEARNING archetype | Invention Disclosure Forms capture governed discoveries in patent domain; LEARNING generalizes this to ALL scopes | IDF-001 + user insight |\n| 2026-02-19 | LEARNING = gradients | LEARNING captures the delta — what changed, what was discovered, what's new. Every gradient evidence-linked. | SERVICES/LEARNING/CANON.md |\n| 2026-02-19 | INTEL = WORK | INTEL primitive = what you KNOW = WORK. Every service does WORK, therefore every service composes INTEL. | SERVICES/CANON.md |\n| 2026-02-19 | Compact form is the pattern table | Date/Signal/Pattern/Source is the governed format — IDF distilled to 4 columns | Root LEARNING.md convention |\n| 2026-02-19 | Backpropagation is core operation | Patterns extracted from governed operations propagate upstream to parent scopes | SERVICES/LEARNING/CANON.md |\n| 2026-02-19 | LEARNING.md exists in every scope | Governance dimension file present at every level — the scope's gradient record | MAGIC 255 dimension |\n| 2026-02-26 | ARCHITECTURE | CAS fanout: git-style 2-char prefix for BOUNDARY and PATTERN stores | Scalability at 193K+ objects |\n| 2026-02-26 | ARCHITECTURE | Manifest sharding: BOUNDARIES.json split by signal type (6 shards + index) | 23.8MB monolith eliminated |\n| 2026-02-26 | ARCHITECTURE | Incremental discovery: per-repo checkpoint for resumable boundary detection | Full rescan eliminated |\n| 2026-02-26 | ARCHITECTURE | Flat service layout: stage scripts colocated, singleton dirs removed | LEARNING/LEARNING/ double eliminated |\n| 2026-02-27 | PIPELINE | LEDGER → learning-ingest → GOV LEARNING.md → build-surfaces → LEARNING.json | Infra audit |\n| 2026-02-27 | CONSUMPTION | Capture without consumption is not LEARNING — build reads LEARNING.md back, detects regression/growth/stale, surfaces in COVERAGE.md | SERVICES/LEARNING/CANON.md |\n| 2026-02-27 | INTEL WIRING | Consumed patterns wire into system prompts via CANON.json intel_refs — the system tells you what to do next | SERVICES/LEARNING/CANON.md |\n\n---\n\n---"
+      },
+      {
+        "title": "Interface",
+        "body": "```\nINPUT:\n    LEDGER streams (GRADIENT, TALK, CONTRIBUTE, EMAIL, PROVISION, SHOP, AUTH, OMICS)\n    Git commits (per-repo incremental scan)\n    Checkpoint: ~/.canonic/learning/ledger-sync.json\n\nOUTPUT:\n    GOV LEARNING.md pattern rows:  Date | Signal | Pattern | Source\n    CAS store:  ~/.canonic/learning/PATTERNS/{hash[:2]}/{hash[2:]}.json\n    Boundaries: ~/.canonic/learning/BOUNDARIES/{hash[:2]}/{hash[2:]}.json\n    Manifests:  ~/.canonic/learning/BOUNDARIES/shard/{SIGNAL_TYPE}.json\n\nPIPELINE:\n    LEDGER streams → learning-ingest → GOV LEARNING.md → build-surfaces → LEARNING.json\n\nCOMMANDS:\n    learning-ingest          — LEDGER → GOV LEARNING.md (soft — don't break build)\n    discover.py              — pattern detection from governed operations\n    scan.py                  — boundary scanning across scopes\n    propagate.py             — pattern propagation to parent scopes\n    boundary.py              — boundary classification (6 types)\n\nBUILD INTEGRATION:\n    step 10b:  ledger-sync → learning-ingest (soft gate)\n    surfaces:  build-surfaces → LEARNING.md → LEARNING.json\n```\n\n---"
+      },
+      {
+        "title": "Record Shape",
+        "body": "The LEARNING record generalizes the IDF structure:\n\n| Field | IDF Origin | LEARNING Generalization |\n|-------|-----------|------------------------|\n| Pattern | Title | What was discovered |\n| Date | Filing Date | When the gradient was observed |\n| Priority | Priority Claim | Source evidence (commit, operation, observation) |\n| Dimensions | MAGIC Dimensions | 8-dimension validation (maps to 255) |\n| Assertions | Claims | Structured claims about the discovery |\n| Evidence | Commit/File Evidence | Provenance chain |\n| References | Cross-References | Related patterns across scopes |\n| Gradient | Novelty Statement | What changed — the delta |\n\n---"
+      },
+      {
+        "title": "Consumption",
+        "body": "```\nPIPELINE (read-back):\n    build → read LEARNING.md → detect regression/growth patterns → surface in COVERAGE.md\n\nSIGNALS:\n    REGRESSION:   3+ DEBIT:DRIFT on same scope within epoch → COVERAGE.md gap row\n    GROWTH:       3+ MINT:WORK on same scope within epoch  → COVERAGE.md strength row\n    STALE:        No LEARNING.md entry for 30+ days         → COVERAGE.md stale row\n\nBUILD INTEGRATION:\n    step 10c:  learning-consume → COVERAGE.md recommendations (soft gate)\n    surfaces:  build-surfaces → COVERAGE.json includes learning-derived rows\n```\n\nConsumption closes the loop: LEARNING is not a ledger — it is a governor. Patterns that repeat become constraints. Constraints that hold become dimensions. Dimensions that validate become tiers. The system learns.\n\n---"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Purpose",
+        "body": "**LEARNING is the governed discovery service. INTEL primitive applied as operational gradients.**\n\nINTEL (primitive) is what you KNOW = WORK. LEARNING (service) extracts governed discoveries at scale — the gradients, the deltas, the patterns that emerge from WORK. IDFs (Invention Disclosure Forms) are the archetype. LEARNING generalizes IDFs to every governed scope.\n\n---"
+      },
+      {
+        "title": "Composition",
+        "body": "```\nPrimitive:  INTEL (what you KNOW = WORK)\nService:    LEARNING (governed discovery extraction)\nArchetype:  IDF (Invention Disclosure Form — PATENTS domain)\nInstance:   {PRINCIPAL}/SERVICES/LEARNING/ (inherits SERVICES/LEARNING)\nDimension:  LEARNING.md exists in every scope (pattern table)\n```\n\n---"
+      },
+      {
+        "title": "Pipeline",
+        "body": "```\nLEDGER streams → learning-ingest → GOV LEARNING.md → build-surfaces → LEARNING.json\n```\n\n### Ingest Sources\n\n| Source | LEDGER Type | Signal |\n|--------|------------|--------|\n| Git commits | GRADIENT | GOVERNANCE_DELTA |\n| TALK sessions | TALK | SESSION_LEDGERED |\n| Contributions | CONTRIBUTE | CONTRIBUTION_RECEIVED |\n| Correspondence | EMAIL | CORRESPONDENCE_SENT |\n| Infrastructure | PROVISION | INFRASTRUCTURE_PROVISIONED |\n| Payments | SHOP | PAYMENT_RECEIVED |\n| Auth events | AUTH | AUTH_EVENT |\n| Omics queries | OMICS | OMICS_QUERY |\n\n### Ingest Process\n\n```\n1. Read LEDGER entries since last checkpoint\n2. For each entry: derive scope, signal, pattern summary\n3. Append pattern row to scope's LEARNING.md:\n     | Date | Signal | Pattern | Source |\n4. Update checkpoint (~/.canonic/learning/ledger-sync.json)\n5. Backpropagate to parent scopes (gradient aggregation)\n```\n\n---"
+      },
+      {
+        "title": "Storage Architecture",
+        "body": "### CAS (Content-Addressable Store)\n\n```\n~/.canonic/learning/PATTERNS/\n├── {hash[:2]}/\n│   └── {hash[2:]}.json       — individual pattern record\n└── INDEX.json                 — thin manifest (hash → scope + date)\n```\n\nGit-style 2-char prefix buckets. No flat directory with 100K+ files.\n\n### Manifest Sharding\n\n```\n~/.canonic/learning/BOUNDARIES/\n├── {hash[:2]}/\n│   └── {hash[2:]}.json       — individual boundary record\n├── BOUNDARIES.json            — thin index (hash → type + scope)\n└── shard/\n    └── {SIGNAL_TYPE}.json     — per-signal-type shard\n```\n\n6 boundary types: NEW_TERM, NEW_SCOPE, NEW_COMPOSITION, NEW_CONSTRAINT, EVOLUTION, EXTINCTION.\n\n### Checkpoint\n\n```\n~/.canonic/learning/ledger-sync.json\n{\n  \"last_ledger_id\": \"<hash>\",\n  \"last_ts\": \"<ISO 8601>\",\n  \"repos\": { \"<repo>\": \"<last_commit_scanned>\" }\n}\n```\n\nIncremental discovery — per-repo checkpoint, scan only new commits.\n\n---"
+      },
+      {
+        "title": "Runtime Structure",
+        "body": "```\n~/.canonic/services/LEARNING/\n├── discover.py               — pattern detection\n├── scan.py                   — boundary scanning\n├── learn.py                  — adaptive learning\n├── propagate.py              — pattern propagation\n├── boundary.py               — boundary classification\n├── BOUNDARIES.json           — boundary type definitions\n└── PATTERNS.json             — learned patterns (hash-keyed)\n\n~/.canonic/bin/learning-ingest  — LEDGER → LEARNING.md pipeline\n```\n\n---"
+      },
+      {
+        "title": "Build Integration",
+        "body": "```\nbuild step 10b:  ledger-sync           — KV ledger → LEARNING.md\n                 learning-ingest       — LEDGER → GOV LEARNING.md (soft — don't break build)\nbuild step 10c:  learning-consume      — LEARNING.md → COVERAGE.md recommendations (soft gate)\nbuild surfaces:  build-surfaces        — LEARNING.md → LEARNING.json\n                                         COVERAGE.json includes learning-derived rows\n```\n\n---"
+      },
+      {
+        "title": "Consumption",
+        "body": "LEARNING is not a ledger — it is a governor. Capture without consumption is not LEARNING.\n\n### Read-Back Pipeline\n\n```\nbuild → read LEARNING.md → detect regression/growth/stale patterns → surface in COVERAGE.md\n```\n\n### Signals\n\n| Signal | Trigger | Output |\n|--------|---------|--------|\n| REGRESSION | 3+ DEBIT:DRIFT on same scope within epoch | COVERAGE.md gap row |\n| GROWTH | 3+ MINT:WORK on same scope within epoch | COVERAGE.md strength row |\n| STALE | No LEARNING.md entry for 30+ days | COVERAGE.md stale row |\n\n### INTEL Wiring\n\nConsumed patterns wire into system prompts via `CANON.json intel_refs`. The system doesn't just record what happened — it tells you what to do next. Patterns that repeat become constraints. Constraints that hold become dimensions. Dimensions that validate become tiers.\n\n---"
+      },
+      {
+        "title": "Differentiation",
+        "body": "| | INTEL (primitive) | LEARNING (service) |\n|---|---|---|\n| Layer | Axiom | Composition |\n| Form | File (INTEL.md) | Directory (SERVICES/LEARNING/) |\n| Function | Cross-axiomatic knowledge = WORK | Governed discovery extraction = gradients |\n| Scope | Every scope | Per-principal service instance |\n| Analogy | The work itself | The IDF that captures what the work discovered |\n\n---"
+      },
+      {
+        "title": "Record Shape (Generalized IDF)",
+        "body": "### Full Record (service-level)\n\n```\nPattern:      What was discovered\nDate:         When the gradient was observed\nPriority:     Source evidence (commit SHA, governed operation)\nDimensions:   MAGIC 8-dimension validation\nAssertions:   Structured claims about the discovery\nEvidence:     Provenance chain (commit + file)\nReferences:   Related patterns across scopes\nGradient:     What changed — the delta (novelty)\n```\n\n### Compact Record (scope-level LEARNING.md)\n\nEvery scope's LEARNING.md uses the pattern table — the compact form:\n\n```\n| Date | Signal | Pattern | Source |\n```\n\nThis is the IDF distilled: Date = Filing Date, Signal = Title, Pattern = Claims, Source = Evidence.\n\n---"
+      },
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-19 | IDFs are the LEARNING archetype | Invention Disclosure Forms capture governed discoveries in patent domain; LEARNING generalizes this to ALL scopes | IDF-001 + user insight |\n| 2026-02-19 | LEARNING = gradients | LEARNING captures the delta — what changed, what was discovered, what's new. Every gradient evidence-linked. | SERVICES/LEARNING/CANON.md |\n| 2026-02-19 | INTEL = WORK | INTEL primitive = what you KNOW = WORK. Every service does WORK, therefore every service composes INTEL. | SERVICES/CANON.md |\n| 2026-02-19 | Compact form is the pattern table | Date/Signal/Pattern/Source is the governed format — IDF distilled to 4 columns | Root LEARNING.md convention |\n| 2026-02-19 | Backpropagation is core operation | Patterns extracted from governed operations propagate upstream to parent scopes | SERVICES/LEARNING/CANON.md |\n| 2026-02-19 | LEARNING.md exists in every scope | Governance dimension file present at every level — the scope's gradient record | MAGIC 255 dimension |\n| 2026-02-26 | ARCHITECTURE | CAS fanout: git-style 2-char prefix for BOUNDARY and PATTERN stores | Scalability at 193K+ objects |\n| 2026-02-26 | ARCHITECTURE | Manifest sharding: BOUNDARIES.json split by signal type (6 shards + index) | 23.8MB monolith eliminated |\n| 2026-02-26 | ARCHITECTURE | Incremental discovery: per-repo checkpoint for resumable boundary detection | Full rescan eliminated |\n| 2026-02-26 | ARCHITECTURE | Flat service layout: stage scripts colocated, singleton dirs removed | LEARNING/LEARNING/ double eliminated |\n| 2026-02-27 | PIPELINE | LEDGER → learning-ingest → GOV LEARNING.md → build-surfaces → LEARNING.json | Infra audit |\n| 2026-02-27 | CONSUMPTION | Capture without consumption is not LEARNING — build reads LEARNING.md back, detects regression/growth/stale, surfaces in COVERAGE.md | SERVICES/LEARNING/CANON.md |\n| 2026-02-27 | INTEL WIRING | Consumed patterns wire into system prompts via CANON.json intel_refs — the system tells you what to do next | SERVICES/LEARNING/CANON.md |\n\n---\n\n---"
+      },
+      {
+        "title": "Interface",
+        "body": "```\nINPUT:\n    LEDGER streams (GRADIENT, TALK, CONTRIBUTE, EMAIL, PROVISION, SHOP, AUTH, OMICS)\n    Git commits (per-repo incremental scan)\n    Checkpoint: ~/.canonic/learning/ledger-sync.json\n\nOUTPUT:\n    GOV LEARNING.md pattern rows:  Date | Signal | Pattern | Source\n    CAS store:  ~/.canonic/learning/PATTERNS/{hash[:2]}/{hash[2:]}.json\n    Boundaries: ~/.canonic/learning/BOUNDARIES/{hash[:2]}/{hash[2:]}.json\n    Manifests:  ~/.canonic/learning/BOUNDARIES/shard/{SIGNAL_TYPE}.json\n\nPIPELINE:\n    LEDGER streams → learning-ingest → GOV LEARNING.md → build-surfaces → LEARNING.json\n\nCOMMANDS:\n    learning-ingest          — LEDGER → GOV LEARNING.md (soft — don't break build)\n    discover.py              — pattern detection from governed operations\n    scan.py                  — boundary scanning across scopes\n    propagate.py             — pattern propagation to parent scopes\n    boundary.py              — boundary classification (6 types)\n\nBUILD INTEGRATION:\n    step 10b:  ledger-sync → learning-ingest (soft gate)\n    surfaces:  build-surfaces → LEARNING.md → LEARNING.json\n```\n\n---"
+      },
+      {
+        "title": "Record Shape",
+        "body": "The LEARNING record generalizes the IDF structure:\n\n| Field | IDF Origin | LEARNING Generalization |\n|-------|-----------|------------------------|\n| Pattern | Title | What was discovered |\n| Date | Filing Date | When the gradient was observed |\n| Priority | Priority Claim | Source evidence (commit, operation, observation) |\n| Dimensions | MAGIC Dimensions | 8-dimension validation (maps to 255) |\n| Assertions | Claims | Structured claims about the discovery |\n| Evidence | Commit/File Evidence | Provenance chain |\n| References | Cross-References | Related patterns across scopes |\n| Gradient | Novelty Statement | What changed — the delta |\n\n---"
+      },
+      {
+        "title": "Consumption",
+        "body": "```\nPIPELINE (read-back):\n    build → read LEARNING.md → detect regression/growth patterns → surface in COVERAGE.md\n\nSIGNALS:\n    REGRESSION:   3+ DEBIT:DRIFT on same scope within epoch → COVERAGE.md gap row\n    GROWTH:       3+ MINT:WORK on same scope within epoch  → COVERAGE.md strength row\n    STALE:        No LEARNING.md entry for 30+ days         → COVERAGE.md stale row\n\nBUILD INTEGRATION:\n    step 10c:  learning-consume → COVERAGE.md recommendations (soft gate)\n    surfaces:  build-surfaces → COVERAGE.json includes learning-derived rows\n```\n\nConsumption closes the loop: LEARNING is not a ledger — it is a governor. Patterns that repeat become constraints. Constraints that hold become dimensions. Dimensions that validate become tiers. The system learns.\n\n---"
+      }
+    ],
+    "roadmap": {
+      "later": [
+        "Autonomous pattern extraction: LEARNING service self-discovers governance gaps via INTEL analysis",
+        "Federated LEARNING across GALAXY topology: patterns propagate across org boundaries",
+        "LEARNING quality metrics derived from LEDGER evidence (pattern hit rate, propagation depth)"
+      ]
+    },
+    "vocab": [
+      {
+        "term": "CAS",
+        "definition": "Content-Addressable Storage — immutable objects keyed by SHA256 hash"
+      },
+      {
+        "term": "IDF",
+        "definition": "Invention Disclosure Form — the LEARNING archetype (patent domain)"
+      },
+      {
+        "term": "INTEL",
+        "definition": "Primitive — what you KNOW = WORK. Cross-axiomatic file (INTEL.md)"
+      },
+      {
+        "term": "LEARNING",
+        "definition": "Service — governed discovery extraction. Generalizes IDFs to all scopes"
+      },
+      {
+        "term": "MAGIC",
+        "definition": "255-bit validator. 8 dimensions x 5 tiers"
+      },
+      {
+        "term": "SERVICES",
+        "definition": "SURFACE routes with governed boundaries"
+      }
+    ],
+    "chain": [
+      {
+        "scope": "SERVICES",
+        "axiom": "SERVICES are SURFACE routes with governed boundaries.",
+        "constraints": "MUST:     Every service composes INTEL (mandatory — knowledge backs every operation)\nMUST:     Primitives are files, services are directories: INTEL→LEARNING, CHAT→TALK, COIN→SHOP\nMUST:     COIN is optional — adds economics (the economic shadow of WORK)\nMUST:     TALK is optional — adds governed conversation product\nMUST:     NOTIFIER is optional — adds governed cross-scope delivery (NOTIFY + INTEL)\nMUST:     Treat each service scope as a governed boundary (no cross-scope leakage)\nMUST:     Drive routes and UI from governed indices (no hardcoding)\nMUST:     NETWORK services MUST declare Routes table with Method + Primitive\nMUST:     NETWORK services MUST declare Architecture showing client → worker → backend\nMUST:     NETWORK services MUST declare Configuration with all vars and secrets\nMUST:     COMPILER services MUST declare Interface with input/output contract\nMUST NOT: Embed runtime state into governed scopes\nMUST NOT: Ship a service without declaring its API surface in CANON.md"
+      },
+      {
+        "scope": "SURFACE",
+        "axiom": "SURFACE is the platform lane.",
+        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
   }
 }

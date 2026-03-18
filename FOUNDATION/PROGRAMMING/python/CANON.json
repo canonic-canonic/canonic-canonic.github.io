@@ -48,5 +48,57 @@
     "name": "FULL",
     "score": 255,
     "intel": true
+  },
+  "canon": {
+    "axiom": "PYTHON = Ancestral runtime. The server. The intelligence.",
+    "constraints": "MUST:     Serve as the canonical HTTP interface\nMUST:     Read scoring logic from governed configuration\nMUST NOT: Hardcode paths or module names in law",
+    "inherits": "canonic-canonic/FOUNDATION/PROGRAMMING/",
+    "spec": [
+      {
+        "title": "Ecosystem",
+        "body": "| Dimension | Value |\n|-----------|-------|\n| Language | python |\n| Parent | PROGRAMMING |\n| Primitives | INTEL (spec) + CHAT (docs) + COIN (SDK) |\n| Peer Languages | EVIDENCE, c, swift, typescript |\n\n---"
+      },
+      {
+        "title": "Routes",
+        "body": "```\npython → SDK                Language SDK for MAGIC primitives\nINTEL → SPEC               Language specification\nCOIN → PACKAGE             Published SDK artifact\n```\n\n---"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "| Pattern | Source |\n|---------|--------|\n| Two-stage healing: C kernel scaffolds, Python settles TRIAD | magic-heal architecture |\n| TRIAD settlement algorithm (heal_canon, heal_scopes, heal_readme, heal_vocab) | magic-heal 15KB |\n| Python wraps C — never replaces it | Boundary law |\n| Ancestral per phylogenetic model — all languages drift from Python structure | PROGRAMMING LEARNING.md |\n| Epoch 001: Ancestral Runtime — Python established as foundational service runtime and execution bridge | EVOLUTION.md (archived to git) |\n| Epoch 002: Governance Alignment — Triad and programming scope artifacts aligned with FOUNDATION governance | EVOLUTION.md (archived to git) |\n| Epoch 003: Evidence Closure — EVIDENCE scope added for parity with C and Swift runtime governance | EVOLUTION.md (archived to git) |\n\n---"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "FOUNDATION",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "HTTP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PROGRAMMING",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PYTHON",
+        "definition": "Governed term in this scope vocabulary."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "PROGRAMMING",
+        "axiom": "DEV — programming language implementations."
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
   }
 }

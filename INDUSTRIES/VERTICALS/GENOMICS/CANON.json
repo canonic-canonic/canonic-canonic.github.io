@@ -48,5 +48,222 @@
     "name": "FULL",
     "score": 255,
     "intel": true
+  },
+  "canon": {
+    "axiom": "Example",
+    "constraints": "MUST:     Cite specific regulation or genomic standard for claims\nMUST:     Distinguish between research-use and clinical-grade genomic data\nMUST NOT: Present genomic findings without variant classification context",
+    "inherits": "canonic-canonic/INDUSTRIES/VERTICALS",
+    "spec": [
+      {
+        "title": "Domain Declaration",
+        "body": "```\nGENOMICS = GENOMIC_STANDARD × CANONIC\n         = Structure(genomics) × (C1, C2, Temporal, Relational, C5, C6)\n         = owned genomic data vertical\n```\n\n---"
+      },
+      {
+        "title": "Lattice Formula",
+        "body": "```\nGENOMICS = C1 ∩ C2 ∩ Temporal ∩ Relational ∩ C5 ∩ C6\n         = ENTERPRISE (#63)\n```\n\nGenomics is full Enterprise because:\n- **C1**: Variant classifications must be stated (pathogenic, benign, VUS)\n- **C2**: Every classification must cite supporting evidence (ClinVar, COSMIC)\n- **Temporal**: Variant classifications change over time (reclassification)\n- **Relational**: Gene → variant → disease → treatment chains\n- **C5**: CLIA compliance, genetic counseling requirements\n- **C6**: GA4GH standards (VCF, FHIR Genomics, Phenopackets)\n\n---"
+      },
+      {
+        "title": "Axioms",
+        "body": "### 1. Patient Sovereignty Over Genomic Data\n\nThe patient owns their genomic data. Consent MUST be explicit for every use.\n\n**Example**: A patient's whole genome sequence is stored. Research use requires separate consent from clinical use. The patient can revoke access at any time. GINA protections apply.\n\n---\n\n### 2. Variant Classification Integrity\n\nVariant classifications MUST follow recognized guidelines (ACMG/AMP) and be traceable.\n\n**Example**: BRCA1 c.68_69delAG classified as \"Pathogenic\" — this MUST reference: ACMG criteria applied (PVS1, PM2, PP3), supporting evidence (ClinVar ID, publications), and date of classification. Reclassification creates new entry, preserving original.\n\n---\n\n### 3. Temporal Reclassification\n\nGenomic knowledge evolves. Classifications MUST be versioned, not overwritten.\n\n**Example**: A variant classified as VUS in 2023 is reclassified to Likely Pathogenic in 2025 based on new functional studies. Both classifications exist in the record with timestamps. Patients with this variant are notified of reclassification.\n\n---\n\n### 4. Cross-Domain Composition\n\nGenomics composes with other medical subdomains for precision medicine.\n\n**Example**: MEDICINE × GENOMICS = pharmacogenomics (drug response prediction). MEDICINE × ONCOLOGY × GENOMICS = tumor profiling (MAMMOCHAT + variant analysis). The genomic layer adds molecular evidence to clinical decisions.\n\n---\n\n### 5. Analytical Validity\n\nEvery genomic assay MUST demonstrate analytical validity before clinical use. Sensitivity, specificity, and reproducibility MUST be quantified.\n\n**Example**: A clinical NGS panel for hereditary cancer genes MUST demonstrate: ≥99.9% sensitivity for SNVs, ≥99% sensitivity for small indels, ≥95% sensitivity for CNVs >1 exon, ≥99.9% specificity, and inter-run concordance ≥99.5%. These metrics MUST be established through validation studies using characterized reference materials (Genome in a Bottle NA12878). The assay does not go clinical until validation is complete and documented.\n\n---\n\n### 6. Genetic Counseling Requirement\n\nGenomic results with clinical significance MUST be accompanied by genetic counseling. No result disclosure without interpretation support.\n\n**Example**: A patient receives a positive BRCA1 pathogenic variant result. Before disclosure: a board-certified genetic counselor (CGC) reviews the case, prepares a counseling session covering penetrance estimates (72% breast cancer risk by age 80), risk management options (enhanced screening, prophylactic surgery, chemoprevention), family implications (50% chance for first-degree relatives), and psychological support resources. The result is NOT released directly to the patient portal without counseling. The counseling session is documented in the medical record with CPT 96040.\n\n---\n\n### 7. Bioinformatics Pipeline Governance\n\nEvery computational step from raw reads to variant calls MUST be versioned, reproducible, and validated. No black-box algorithms.\n\n**Example**: A clinical WES pipeline consists of: FASTQ QC (FastQC v0.12.1) → alignment (BWA-MEM2 v2.2.1, GRCh38) → duplicate marking (GATK MarkDuplicates v4.5) → variant calling (GATK HaplotypeCaller v4.5) → annotation (VEP v110) → filtering (gnomAD v4.0, ClinVar 2025-01). Every tool version, reference genome build, and filter threshold MUST be documented. A pipeline version change requires re-validation with truth set comparison. Results from different pipeline versions MUST NOT be directly compared without harmonization.\n\n---"
+      },
+      {
+        "title": "Subdomains",
+        "body": "| Subdomain | Standard | Formula | Description |\n|-----------|----------|---------|-------------|\n| Clinical Genetics | ACMG/AMP | ENTERPRISE | Germline variant interpretation |\n| Somatic Genomics | AMP/ASCO/CAP | ENTERPRISE | Tumor variant interpretation |\n| Pharmacogenomics | CPIC/PharmGKB | BUSINESS | Drug-gene interactions |\n| Newborn Screening | ACMG/RUSP | ENTERPRISE | Recommended Uniform Screening Panel |\n| Reproductive Genetics | ACMG/ACOG | ENTERPRISE | Carrier screening, NIPT, PGT |\n| Population Genomics | GA4GH/gnomAD | BUSINESS | Allele frequency databases |\n| Functional Genomics | ENCODE/GTEx | (#25) | Gene function and expression |\n| Epigenomics | IHEC/BLUEPRINT | (#22) | DNA methylation, histone modification |\n| Metagenomics | QIIME2/DADA2 | (#25) | Microbiome composition and function |\n| Transcriptomics | ENCODE/GTEx | BUSINESS | Gene expression profiling (RNA-seq) |\n| Structural Genomics | ClinGen/ClinVar | BUSINESS | Structural variants, SVs, CNVs |\n| Single-Cell Genomics | HCA/10x | (#25) | Single-cell resolution analysis |\n\n---"
+      },
+      {
+        "title": "Standards Mapping",
+        "body": "| Standard | Lattice | Scope |\n|----------|---------|-------|\n| GA4GH Beacon | — | Variant discovery |\n| VCF 4.3 | — | Variant storage |\n| FHIR Genomics | 6 governance checks | Clinical integration |\n| Phenopackets | — | Phenotype-genotype linking |\n| ClinVar | — | Variant classification database |\n| COSMIC | — | Somatic mutation catalog |\n| OMIM | — | Gene-disease relationships |\n\n---"
+      },
+      {
+        "title": "Regulatory Mapping",
+        "body": "| Framework | Lattice | Scope |\n|-----------|---------|-------|\n| CLIA '88 (42 CFR 493) | 6 governance checks | Clinical laboratory certification |\n| CAP Laboratory Accreditation | 6 governance checks | Lab quality and proficiency |\n| FDA LDT Proposed Rule (2024) | 5 governance checks | Laboratory-developed test oversight |\n| FDA IVD (21 CFR 809) | 6 governance checks | In vitro diagnostic regulation |\n| GINA (Genetic Information Nondiscrimination Act) | 4 governance checks | Genetic discrimination protection |\n| State Genetic Testing Laws | 5 governance checks | Varies by jurisdiction (NY CLEP strictest) |\n| HIPAA (45 CFR 164) | 5 governance checks | Genetic data as PHI |\n| 21st Century Cures Act | 3 governance checks | Information blocking, patient access |\n| EU IVDR (2017/746) | 6 governance checks | EU in vitro diagnostic regulation |\n| Common Rule (45 CFR 46) | 5 governance checks | Human subjects research protection |\n\n---"
+      },
+      {
+        "title": "Test Complexity-to-MAGIC Tier Mapping",
+        "body": "| CLIA Complexity | Test Type | MAGIC Tier | Governance |\n|-----------------|-----------|------------|------------|\n| Waived | DTC saliva kit (ancestry) | COMMUNITY (#35) | Consumer disclosure only |\n| Moderate | PGx panel (pre-analytical automated) | BUSINESS (#43) | Pharmacist review |\n| High (non-NGS) | Single-gene Sanger sequencing | PATENT (#57) | Clinical lab director review |\n| High (NGS panel) | Targeted gene panel (50-500 genes) | ENTERPRISE (#63) | Full ACMG interpretation |\n| High (WES) | Whole exome sequencing | ENTERPRISE (#63) | ACMG + trio analysis |\n| High (WGS) | Whole genome sequencing | ENTERPRISE (#63) | ACMG + SV/CNV + pharmacogenomics |\n| Research Use Only | Discovery sequencing | (#25) | Not for clinical decisions |\n\n**Pattern**: Higher analytical complexity → more lattice dimensions required. Clinical decisions MUST NOT be made on tests below PATENT tier.\n\n---"
+      },
+      {
+        "title": "Reclassification Governance",
+        "body": "Genomic variant classification is not static. Knowledge evolves. Reclassification is the temporal dimension that makes genomics governance uniquely complex.\n\n### Reclassification Triggers\n\n| Trigger | Source | Example |\n|---------|--------|---------|\n| New functional data | Research publication | In vitro splicing assay changes VUS to Likely Pathogenic |\n| Population frequency update | gnomAD release | Variant found at >5% in specific population → Benign |\n| New clinical data | ClinVar submission | Multiple unrelated families with same phenotype → Pathogenic |\n| Standard revision | ACMG/AMP update | Evidence code weighting changed |\n| Segregation data | Family studies | Co-segregation in large family increases PP1 strength |\n\n### Reclassification Protocol\n\n```\nIF reclassification_event:\n  1. Generate new classification with timestamp\n  2. Preserve original classification (MUST NOT overwrite)\n  3. Document delta: which evidence codes changed and why\n  4. Identify all patients who carry this variant\n  5. Notify ordering providers of reclassification\n  6. Update clinical decision support rules\n  7. Trigger genetic counseling for affected patients if clinically significant change\n  8. Submit to ClinVar with assertion criteria\n```\n\n### Temporal Complexity\n\n```\nVariant: BRCA2 c.8167G>C (p.Asp2723His)\n\nTimeline:\n  2018-03: Classified VUS (PM2, PP3)\n  2019-11: Functional study published — abnormal HDR assay\n  2020-02: Reclassified Likely Pathogenic (PM2, PP3, PS3_moderate)\n  2021-08: Second functional study confirms — splicing defect\n  2021-09: Reclassified Pathogenic (PM2, PP3, PS3_strong, PS4_moderate)\n  2021-10: 47 patients notified, 12 management changes, 3 prophylactic surgeries\n\nEach classification = immutable record\nEach reclassification = new record pointing to previous\nChain = complete temporal governance of genomic knowledge\n```\n\n---"
+      },
+      {
+        "title": "Validators",
+        "body": "| Validator | Checks | Example Failure |\n|-----------|--------|-----------------|\n| C1 | Variant classifications stated with ACMG criteria | Classification without evidence codes |\n| C2 | Citations to ClinVar, publications, functional data | Assertion without supporting evidence |\n| Temporal | Classification dates and reclassification history | Overwritten classification |\n| Relational | Gene → variant → disease → treatment chain valid | Orphaned variant |\n| C5 | CLIA compliance, genetic counseling documented | Result released without counseling |\n| C6 | GA4GH/VCF/FHIR conformance | Invalid VCF format |\n\n---"
+      },
+      {
+        "title": "Examples",
+        "body": "```\nDECLARE(ClinicalGenomics) = ACMG_AMP × CANONIC\n\nWhere:\n  ACMG/AMP provides Structure:\n    - 28 evidence criteria (PVS1, PS1-4, PM1-6, PP1-5, BA1, BS1-4, BP1-7)\n    - 5-tier classification (Pathogenic, Likely Pathogenic, VUS, Likely Benign, Benign)\n    - Gene-disease clinical validity framework\n    - Variant curation workflow\n\n  CANONIC provides Governance:\n    - C1: Variant classification claims with evidence codes\n    - C2: Supporting evidence (ClinVar, functional data, population frequency)\n    - Temporal: Classification date, reclassification history\n    - Relational: Gene → variant → disease → treatment chain\n    - C5: Lab operations (CLIA compliance, genetic counseling)\n    - C6: ACMG/AMP/GA4GH conformance\n\nResult:\n  ClinicalGenomics = ENTERPRISE (#63)\n\n  Classification Lifecycle:\n    Sequence       — Specimen processed, variants called\n    Annotate       — Population frequency, in silico predictions\n    Classify       — ACMG criteria applied, evidence weighed\n    Report         — Clinical report issued, counseling provided\n    Govern         — ClinVar submission, reclassification monitored\n```\n\n```\nDECLARE(TumorProfiling) = AMP_ASCO_CAP × CANONIC\n\nWhere:\n  AMP/ASCO/CAP provides Structure:\n    - 4-tier somatic variant classification\n    - Therapeutic, diagnostic, prognostic significance\n    - Biomarker reporting requirements\n    - Companion diagnostic linkage\n\n  CANONIC provides Governance:\n    - C1: Variant significance claims (Tier I-IV)\n    - C2: Evidence (clinical trials, FDA approvals, NCCN guidelines)\n    - Temporal: Knowledge base update cycle, reclassification\n    - Relational: Tumor → variant → therapy → trial chain\n    - C5: Lab operations (CLIA, CAP proficiency testing)\n    - C6: AMP/ASCO/CAP/FHIR Genomics conformance\n\nResult:\n  TumorProfiling = ENTERPRISE (#63)\n\n  Profiling Lifecycle:\n    Biopsy         — Specimen accessioned, tumor content verified\n    Sequence       — NGS panel run, variants called\n    Interpret      — AMP/ASCO/CAP criteria applied\n    Report         — Actionable variants reported to oncologist\n    Treat          — Matched therapy initiated, trial enrolled\n```\n\n```\nDECLARE(PharmacogenomicsGuidance) = CPIC × CANONIC\n\nWhere:\n  CPIC (Clinical Pharmacogenetics Implementation Consortium) provides Structure:\n    - Gene-drug interaction guidelines (>25 gene-drug pairs)\n    - Diplotype to phenotype translation tables\n    - Dosing recommendations per metabolizer status\n    - Allele function assignments\n    - Frequency tables per biogeographic group\n\n  CANONIC provides Governance:\n    - C1: Metabolizer phenotype claims (PM, IM, NM, RM, UM)\n    - C2: Genotyping evidence (star allele calls, activity scores)\n    - Temporal: Guideline version, allele definition updates\n    - Relational: Gene → diplotype → phenotype → drug → dose chain\n    - C5: Clinical decision support rules, pharmacist review\n    - C6: CPIC/PharmGKB/FHIR PGx conformance\n\nResult:\n  PharmacogenomicsGuidance = PATENT (#57)\n\n  PGx Lifecycle:\n    Genotype       — Star alleles called from sequencing data\n    Translate      — Diplotype → phenotype per CPIC table\n    Recommend      — Dosing recommendation generated\n    Review         — Pharmacist reviews, CDS fires in EHR\n    Govern         — CPIC guideline version tracked, updates trigger re-review\n```\n\n```\nDECLARE(LiquidBiopsy) = FDA_CDx × CANONIC\n\nWhere:\n  FDA Companion Diagnostic Framework provides Structure:\n    - Premarket approval (PMA) or 510(k) pathway\n    - Analytical validation requirements\n    - Clinical validation (concordance with tissue)\n    - Intended use statement (specific drug/indication)\n    - Labeling requirements\n\n  CANONIC provides Governance:\n    - C1: Variant detection claims per analyte (ctDNA, CTCs)\n    - C2: Analytical evidence (LOD, sensitivity at 0.1% VAF, specificity)\n    - Temporal: Sample collection to result TAT, ctDNA half-life considerations\n    - Relational: Blood draw → cfDNA extraction → library → sequencing → variant chain\n    - C5: Lab operations (pre-analytical: tube type, processing time, storage temp)\n    - C6: FDA CDx/CAP/CLIA/FHIR Genomics conformance\n\nResult:\n  LiquidBiopsy = ENTERPRISE (#63)\n\n  Testing Lifecycle:\n    Collect        — Streck tube, processed within 72h\n    Extract        — cfDNA isolated, quantity assessed\n    Sequence       — Panel sequenced, UMI error correction\n    Call           — Variants called above LOD threshold\n    Report         — Actionable variants reported, CDx match\n    Treat          — Matched therapy, monitoring schedule set\n```\n\n```\nDECLARE(NewbornScreeningGenomics) = ACMG_RUSP × CANONIC\n\nWhere:\n  ACMG/RUSP provides Structure:\n    - Recommended Uniform Screening Panel (37 core conditions)\n    - Secondary conditions (26 conditions)\n    - Screening algorithm per condition\n    - Confirmatory testing requirements\n    - Follow-up and treatment protocols\n\n  CANONIC provides Governance:\n    - C1: Screening result claims (positive/negative/borderline)\n    - C2: Confirmatory evidence (biochemical, molecular, functional)\n    - Temporal: Critical time windows (e.g., PKU treatment within 7 days)\n    - Relational: Newborn → specimen → screen → confirm → treat → follow-up chain\n    - C5: State NBS program operations, parental notification\n    - C6: ACMG/RUSP/CLSI NBS01 conformance\n\nResult:\n  NewbornScreeningGenomics = AGENT (#127) — time-critical, life-or-death\n\n  Screening Lifecycle:\n    Collect        — Heel prick, DBS collected 24-48h after birth\n    Screen         — MS/MS or molecular screening performed\n    Flag           — Positive screen flagged, parent notified\n    Confirm        — Confirmatory testing (sequencing, enzyme assay)\n    Treat          — Treatment initiated within time window\n    Govern         — Long-term follow-up, outcome tracking\n    Protect    = AGENT (#127)               — Time-critical governance, no delay tolerated\n```\n\n---"
+      },
+      {
+        "title": "Cross-Domain Compositions",
+        "body": "```\nGENOMICS × MEDICINE        = Precision medicine (ACMG/AMP + mCODE + FHIR Genomics)\nGENOMICS × MEDICINE/ONCOLOGY = Tumor profiling, matched therapy (AMP/ASCO/CAP + NCCN)\nGENOMICS × MEDICINE/PHARMACY = Pharmacogenomics, CDS alerts (CPIC + PharmGKB + FHIR PGx)\nGENOMICS × AGRICULTURE     = Crop genomics, GMO governance (NOP + sequencing protocols)\nGENOMICS × DEFENSE         = Biosurveillance, pathogen genomics, biodefense (DoD + CDC + BARDA)\nGENOMICS × EDUCATION       = Bioinformatics curriculum, genetic counseling training (ABET + ACGC)\nGENOMICS × QUALITY         = Lab accreditation, proficiency testing, EQA (CAP + ISO 15189 + EMQN)\nGENOMICS × ROBOTICS        = Automated sequencing, liquid handling, lab automation (IEC 61010 + GA4GH)\nGENOMICS × FINANCE         = Genetic testing market, DTC regulation, health economics (FDA + FTC + ICER)\nGENOMICS × LOGISTICS       = Biospecimen shipping, cold chain, biobanking (IATA DG + GDP + ISBER)\nGENOMICS × MANUFACTURING   = Sequencer manufacturing, reagent production (ISO 13485 + GMP)\nGENOMICS × ENERGY          = Bioenergy, microbial genomics for biofuels (DOE JGI + GA4GH)\nGENOMICS × REAL_ESTATE     = Lab facility design, BSL compliance (CDC/NIH BMBL + building codes)\nGENOMICS × LAW             = Genetic privacy, GINA enforcement, forensic DNA (DOJ + CODIS + GINA)\nGENOMICS × AUTOMOTIVE      = Biosensor automotive, allergen monitoring (emerging)\n```\n\n**15 cross-domain compositions. Each strengthens PROV-001 and PROV-003 patent claims.**\n\n---"
+      },
+      {
+        "title": "Prior Art Landscape",
+        "body": "| Competitor | Approach | MAGIC checkset Distinction |\n|-----------|----------|-------------------|\n| Illumina DRAGEN | Bioinformatics pipeline, variant calling, secondary analysis | Analysis platform — no governance framework, no bitwise compliance, no reclassification tracking |\n| 23andMe | DTC genetic testing, PRS reports, ancestry | Consumer reporting — no clinical governance, no ACMG compliance, no counseling requirement |\n| Foundation Medicine | Comprehensive tumor profiling (FoundationOne CDx, Liquid) | Clinical reporting — no governance language, no O(1) checking, no cross-domain composition |\n| Invitae | Clinical genetic testing, variant curation (280+ gene panels) | CLIA lab — no governance abstraction, no bitwise encoding, no temporal reclassification chain |\n| ClinVar (NCBI) | Variant classification database, community curation | Aggregation only — no governance gates, no reclassification enforcement, no pipeline governance |\n| Genomics England | National genome program (100K Genomes), NHS integration | Government program — no commercial governance framework, no O(1) compliance |\n| Tempus | AI-driven genomic + clinical data platform (oncology focus) | ML analytics — no formal governance language, no bitwise verification, no ACMG integration |\n| Color Health | Population-scale genetic testing, employer/health system programs | Screening platform — no governance depth, no somatic analysis, no reclassification protocol |\n| Sophia Genetics | AI for genomic data analysis (SOPHiA DDM) | Analysis middleware — no governance framework, no patent-grade compliance encoding |\n| Myriad Genetics | Hereditary cancer testing (myRisk, BRACAnalysis) | Proprietary testing — closed ecosystem, no governance abstraction, no cross-institutional learning |\n\n**Gap**: No existing system provides governance-gated genomic classification with O(1) bitwise compliance checking across variant interpretation, reclassification tracking, pipeline versioning, genetic counseling enforcement, and cross-domain composition. Every competitor addresses one slice. CANONIC governs the full chain: specimen → pipeline → classification → reclassification → counseling → clinical action → outcome tracking.\n\n---"
+      },
+      {
+        "title": "Patent Mapping",
+        "body": "| PROV | Relevance | Claims |\n|------|-----------|--------|\n| PROV-001 | PRIMARY | MAGIC private-check encoding for genomic governance verification — variant classification, pipeline version, CLIA compliance as bitwise gates |\n| PROV-003 | PRIMARY | Federated variant curation across labs — cross-institutional reclassification propagation, ClinVar submission governance, multi-lab concordance |\n| PROV-004 | Secondary | Transcompilation of ACMG/AMP/GA4GH/CPIC standards to governed executables — 28 evidence criteria as computable rules |\n| PROV-002 | Secondary | COIN=WORK for variant curation attestation — genetic counseling as governed work, reclassification notification as auditable event |\n| PROV-006 | Supporting | Governance-gated lab automation — sequencer actuation under CLIA governance, liquid handler compliance |\n\n---"
+      },
+      {
+        "title": "Application",
+        "body": "To create a CANONIC genomics vertical:\n\n1. **Identify genomics domain** (clinical genetics, somatic, pharmacogenomics, reproductive, newborn screening, population, functional, metagenomics)\n2. **Determine classification framework** (ACMG/AMP germline, AMP/ASCO/CAP somatic, CPIC pharmacogenomics)\n3. **Determine CLIA complexity** and map to MAGIC tier — clinical decisions require PATENT (#57) minimum\n4. **Create scope** with CANON.md inheriting /GENOMICS/\n5. **Define variant classification claims** per evidence criteria — all 28 ACMG codes if germline, 4-tier if somatic\n6. **Version bioinformatics pipeline** — every tool version, reference genome, annotation database documented\n7. **Map to regulatory framework** (CLIA, CAP, GA4GH, FDA IVD/LDT, GINA, state laws)\n8. **Implement reclassification protocol** — temporal governance of evolving variant knowledge\n9. **Enforce genetic counseling requirement** — no result disclosure without interpretation support\n10. **Implement validators** for classification evidence, pipeline reproducibility, counseling compliance\n11. **Document coverage** with lab evidence — proficiency testing results, analytical validation data\n12. **Submit to community databases** — ClinVar, ClinGen, PharmGKB as governed contributions\n\n**Result**: Owned genomics vertical with classification-governed, temporally-versioned, evidence-traced, counseling-enforced operations. The deepest governance chain in CANONIC because genomic knowledge is the most dynamic — every classification is a living document.\n\n---"
+      }
+    ],
+    "learning": [],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "BAM",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "BED",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "BRCA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CAP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CFR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CLIA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "COSMIC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CPIC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CRAM",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DNA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DRS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DTC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "EU",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FASTQ",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FDA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FHIR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FTC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "GDPR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "GENOMICS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "GINA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "HIPAA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "II",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IRB",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NAGPRA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NCBI",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NIH",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PHI",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SCOTUS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "TES",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "USC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "VCF",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "VUS",
+        "definition": "Governed term in this scope vocabulary."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "INDUSTRIES",
+        "axiom": "INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.",
+        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
   }
 }

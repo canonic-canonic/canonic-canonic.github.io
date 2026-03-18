@@ -48,5 +48,54 @@
     "name": "FULL",
     "score": 255,
     "intel": true
+  },
+  "canon": {
+    "axiom": "FFI = Foreign function interface. Kernel. Bare metal.",
+    "inherits": "canonic-canonic/FOUNDATION/PROGRAMMING",
+    "spec": [
+      {
+        "title": "Ecosystem",
+        "body": "| Dimension | Value |\n|-----------|-------|\n| Language | c |\n| Parent | PROGRAMMING |\n| Primitives | INTEL (spec) + CHAT (docs) + COIN (SDK) |\n| Peer Languages | EVIDENCE, python, swift, typescript |\n\n---"
+      },
+      {
+        "title": "Routes",
+        "body": "```\nc → SDK                Language SDK for MAGIC primitives\nINTEL → SPEC               Language specification\nCOIN → PACKAGE             Published SDK artifact\n```\n\n---"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| Pattern | Source |\n| Kernel internals stay in C and out of public interfaces | magic.c architecture |\n| 35KB binary proves governance can be minimal | Compiled artifact |\n| O(1) compliance checking via single bitwise AND | MAGIC checkset implementation |\n| heal/scan/validate/ledger — four verbs, one kernel | CLI interface |\n| All other languages are neofunctionalizations of C | PROGRAMMING phylogenetic model |\n| 2026-02-14 | NEW_CONSTRAINT | New constraint: MUST:     Keep kernel internals non-public in governed interfaces | efd8f1b |\n| 2026-02-06 | EVOLUTION | Epoch 001: Canonical Bindings — C bindings created; universal substrate, portable bedrock | 38206c2 |\n| 2026-02-06 | EVOLUTION | Epoch 002: Governance Scaffold — TRIAD instantiated for C bindings | f25a44d |\n| 2026-02-08 | EVOLUTION | Epoch 003: L/LANG/T Bits — Bit-level precision for C binding to 255-bit table | 68d97dd |\n| 2026-02-08 | EVOLUTION | Epoch 004: EVO to INTEL — Evolution primitive renamed to intelligence service | 4bf6360 |\n\n---\n\n*LEARNING | c | 2026-02-17*"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {
+      "later": [
+        "C kernel as reference implementation for all future runtime neofunctionalization",
+        "Bare-metal deployment: kernel-level compliance on embedded and edge devices",
+        "C ABI stability guarantee: versioned FFI contract for all dependent runtimes"
+      ]
+    },
+    "vocab": [
+      {
+        "term": "FFI",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SPEC",
+        "definition": "Governed term in this scope vocabulary."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "PROGRAMMING",
+        "axiom": "DEV — programming language implementations."
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
   }
 }

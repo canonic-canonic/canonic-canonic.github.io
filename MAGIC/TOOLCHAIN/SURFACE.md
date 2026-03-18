@@ -27,6 +27,7 @@ Compiler: Jekyll (remote_theme: canonic-canonic/DESIGN)
 | JEKYLL_BOOK | book | Standalone book: views (gov + web + tex) + download. Avoids Liquid stack overflow. |
 | JEKYLL_TALK | talk | Full-page TALK: immersive chat, design tables, FULL_PAGE capability. Views: gov, web. |
 | JEKYLL_SERVICE | service | Service contract: views (gov + web + tex) + TALK. Standalone. |
+| GALAXY | galaxy | Chrome-free operating surface: auth gate, Finder, INTEL/COIN/TALK primitives. No nav/footer. |
 
 ## Requirements
 
@@ -139,6 +140,18 @@ Compiler: Jekyll (remote_theme: canonic-canonic/DESIGN)
 | controls.download | pdf |
 | controls.view | web |
 | controls.views | gov, web, tex |
+
+### GALAXY
+
+| Key | Value |
+|-----|-------|
+| files | CANON.json, index.md |
+| md_contains | layout: galaxy |
+| json_require | CANON.json: scope, surface_type |
+| controls.talk | native |
+| controls.download | |
+| controls.view | web |
+| controls.views | web |
 
 ## Controls
 

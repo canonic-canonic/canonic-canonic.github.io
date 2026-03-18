@@ -52,5 +52,65 @@
     "name": "FULL",
     "score": 255,
     "intel": true
+  },
+  "canon": {
+    "axiom": "BLOGS are governed literary artifacts. Every post is a timestamped disclosure.",
+    "constraints": "MUST:     Every post declares front matter (title, date, layout: post)\nMUST:     Posts live in _posts/ following Jekyll naming: YYYY-MM-DD-slug.md\nMUST:     BLOGS.json index is compiled — never hand-edited\nMUST:     CANON.json is compiled — never hand-edited\nMUST:     Post content maps to governed work (LEDGER commits, MAGIC discoveries)\nMUST NOT: Publish ungoverned narrative (fiction without evidence)\nMUST NOT: Hand-edit compiled indices (BLOGS.json, CANON.json)",
+    "inherits": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
+    "spec": [
+      {
+        "title": "Purpose",
+        "body": "**BLOGS are the literary surface of CANONIC. Every post is a governed disclosure backed by LEDGER evidence.**\n\nPosts transform commit-level work into human-readable narrative. The BLOGS index (BLOGS.json) is compiled from front matter — the source of truth is the post files themselves.\n\n---"
+      },
+      {
+        "title": "Interface",
+        "body": "| Artifact | Format | Source |\n|----------|--------|--------|\n| Post | `.md` with front matter | `_posts/YYYY-MM-DD-slug.md` |\n| Index | `BLOGS.json` | Compiled from post front matter |\n| Governance | `CANON.json` | Compiled from CANON.md |\n| Surface | `index.md` | Jekyll page, fetches BLOGS.json |\n\n---"
+      },
+      {
+        "title": "Rendering",
+        "body": "Posts render via `layout: post` (DESIGN theme). The BLOGS index renders via `layout: default` with POSTS.html include. Both are governed by DESIGN/JEKYLL.\n\n---"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-19 | Posts map 1:1 to governed work | Every blog post references specific commits and MAGIC discoveries | BLOGS/CANON.md |\n| 2026-02-19 | BLOGS.json is compiled, not authored | Index auto-generated from post front matter — hand-editing forbidden | BLOGS.md |\n| 2026-02-20 | jekyll-optional-front-matter causes stack overflow on governance .md files | Exclude governance filenames from Jekyll processing via MAGIC DIMS | bin/build-surfaces |\n\n---"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {
+      "now": [
+        "Posts render via DESIGN theme `layout: post`",
+        "BLOGS.json compiled index drives the listing page",
+        "PROOF include fetches CANON.json for governance badges"
+      ],
+      "next": [
+        "LEARNING.json per-scope for TALK widget context",
+        "Post-level PROOF verification (commit hash → LEDGER .idf)",
+        "RSS/Atom feed generation"
+      ],
+      "later": [
+        "Cross-scope post aggregation (HADLEYLAB + CANONIC blogs)",
+        "Post authorship tied to USER WALLET (COIN per post)",
+        "Search indexing via INTEL"
+      ]
+    },
+    "vocab": [
+      {
+        "term": "CANON",
+        "definition": "Governance contract. Axiom + constraints for this scope."
+      },
+      {
+        "term": "SURFACE",
+        "definition": "The rendering layer. Compiles GOV into native UI."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "JEKYLL",
+        "axiom": "JEKYLL is MAGIC made visible. DESIGN is the language. JEKYLL is the compiler.",
+        "constraints": "MUST:     Derive visuals from governed primitives (no ad hoc style drift)\nMUST:     Keep design language in GOV; runtime renders only\nMUST:     Card icons render inline preceding the card title (not stacked)\nMUST:     Hero demo cycles all governed TALK products (not a subset)\nMUST NOT: Introduce visual rules outside governed contracts"
+      }
+    ]
   }
 }

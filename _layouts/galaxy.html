@@ -1,0 +1,71 @@
+<!-- LAYOUT: galaxy | Chrome-free operating surface | GALAXY is the OS of MAGIC -->
+<!-- No NAV-UNIFIED, no FOOTER, no hero. Galaxy owns every pixel. -->
+<!-- Auth required: renders login gate if no session. -->
+{% assign scope_key = page.scope | default: site.scope | downcase %}
+{% assign sd = site.data[scope_key] %}
+<!DOCTYPE html>
+<html lang="en" data-scope="{{ page.scope | default: site.scope | downcase }}">
+<head>
+  {% include HEAD.html %}
+</head>
+<body class="galaxy-surface">
+
+  <!-- AUTH GATE: login screen shown if no valid session -->
+  <div id="galaxyAuthGate" class="galaxy-auth-gate">
+    <div class="galaxy-auth-card">
+      <div class="auth-brand">
+        <span class="auth-mark">&#8745;</span>
+        <span class="auth-title">CANONIC</span>
+      </div>
+      <div class="auth-subtitle">GALAXY</div>
+      <div class="auth-tagline">The operating surface of distributed governance</div>
+      <button id="galaxyLoginBtn" class="auth-login-btn" onclick="galaxyLogin()">
+        <i class="fab fa-github"></i> Sign in with GitHub
+      </button>
+    </div>
+  </div>
+
+  <!-- GALAXY OPERATING SURFACE: hidden until authenticated -->
+  <div id="galaxySurface" class="galaxy-surface-container" style="display:none;">
+    {% include GALAXY.html %}
+  </div>
+
+  <!-- Scripts: auth + galaxy (no nav.js, no figures.js — chrome-free) -->
+  <!-- FA + vis-network loaded by GALAXY.html include above -->
+  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+  {% include AUTH.html %}
+  <script src="{{ '/assets/js/auth.js?v=4' | relative_url }}"></script>
+  <script src="{{ '/assets/js/galaxy.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/controls.js' | relative_url }}"></script>
+  <script>
+    function galaxyLogin() {
+      var apiBase = AUTH._apiBase || 'https://api.canonic.org';
+      window.location.href = apiBase + '/auth/github?redirect=' + encodeURIComponent(window.location.href);
+    }
+
+    (function initGalaxySurface() {
+      AUTH.init();
+      var token = localStorage.getItem('canonic_session_token');
+      if (token) {
+        // Validate session before showing surface
+        fetch((AUTH._apiBase || 'https://api.canonic.org') + '/auth/session', {
+          method: 'POST',
+          headers: { 'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json' }
+        }).then(function(r) {
+          if (r.ok) return r.json();
+          throw new Error('session invalid');
+        }).then(function(session) {
+          document.getElementById('galaxyAuthGate').style.display = 'none';
+          document.getElementById('galaxySurface').style.display = 'block';
+          GALAXY.init({ session: session });
+        }).catch(function() {
+          // Invalid session — show login
+          localStorage.removeItem('canonic_session_token');
+          document.getElementById('galaxyAuthGate').style.display = '';
+        });
+      }
+      // else: auth gate already visible
+    })();
+  </script>
+</body>
+</html>

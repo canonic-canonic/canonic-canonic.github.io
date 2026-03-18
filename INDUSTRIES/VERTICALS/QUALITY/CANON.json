@@ -48,5 +48,190 @@
     "name": "FULL",
     "score": 255,
     "intel": true
+  },
+  "canon": {
+    "axiom": "Example",
+    "constraints": "MUST:     Cite specific ISO clause or CFR section for quality claims\nMUST:     Distinguish between voluntary standards and regulatory requirements\nMUST NOT: Present ISO certification as regulatory approval",
+    "inherits": "canonic-canonic/INDUSTRIES/VERTICALS",
+    "spec": [
+      {
+        "title": "Domain Declaration",
+        "body": "```\nQUALITY = QUALITY_STANDARD × CANONIC\n        = Structure(quality) × (C1, C2, Temporal, Relational, C5)\n        = owned quality vertical\n```\n\n---"
+      },
+      {
+        "title": "Lattice Formula",
+        "body": "```\nQUALITY = C1 ∩ C2 ∩ Temporal ∩ Relational ∩ C5 ∩ C6\n        = ENTERPRISE (#63)\n```\n\nQuality requires full Enterprise because:\n- **C1**: Quality policy and objectives must be stated\n- **C2**: Conformance must be demonstrated\n- **Temporal**: Audit cycles, corrective action timelines\n- **Relational**: Process boundaries, scope definition\n- **C5**: Management review, auditors enforce\n- **C6**: ISO/industry QMS standards\n\n---"
+      },
+      {
+        "title": "Axioms",
+        "body": "### 1. Customer Focus\n\nQuality systems MUST be oriented toward meeting customer requirements and enhancing satisfaction.\n\n**Example**: A software product team collects customer feedback through support tickets, surveys, and usage analytics. Product requirements trace to customer needs. Release decisions consider customer impact.\n\n---\n\n### 2. Process Approach\n\nWork MUST be managed as processes with defined inputs, activities, outputs, and controls.\n\n**Example**: A manufacturing process defines: raw material specifications (input), machining steps (activities), finished part specifications (output), and inspection checkpoints (controls). Each element is documented and measured.\n\n---\n\n### 3. Continual Improvement\n\nThe organization MUST continually improve the effectiveness of the quality management system.\n\n**Example**: Monthly quality metrics show defect rate trending upward. Root cause analysis identifies training gap. Corrective action: update training program. Verification: defect rate returns to baseline within two months.\n\n---\n\n### 4. Evidence-Based Decision Making\n\nDecisions MUST be based on analysis of data and information.\n\n**Example**: A decision to change suppliers requires: current supplier performance data, alternative supplier evaluation, cost-benefit analysis, risk assessment, and approval documentation. Opinion alone is insufficient.\n\n---\n\n### 5. Nonconformance Control\n\nNonconforming products or services MUST be identified, controlled, and prevented from unintended use.\n\n**Example**: An inspection finds a batch of components out of specification. The batch is: physically segregated, labeled as nonconforming, evaluated for disposition (rework, scrap, use-as-is), and documented. Release requires authorized approval.\n\n---"
+      },
+      {
+        "title": "Subdomains",
+        "body": "| Subdomain | Standard | Formula | Industry |\n|-----------|----------|---------|----------|\n| General | ISO 9001 | ENTERPRISE | All industries |\n| Medical Devices | ISO 13485 | ENTERPRISE | Healthcare |\n| Automotive | IATF 16949 | ENTERPRISE | Automotive |\n| Aerospace | AS9100 | ENTERPRISE | Aviation |\n| Laboratory | ISO 17025 | ENTERPRISE | Testing/calibration |\n| Pharmaceutical | GMP | ENTERPRISE | Drug manufacturing |\n\n**Pattern**: All quality standards = ENTERPRISE (#63)\n\n---"
+      },
+      {
+        "title": "Regulatory Mapping",
+        "body": "| Framework | Lattice | Scope |\n|-----------|---------|-------|\n| ISO 9001:2015 | 6 governance checks | Quality management system |\n| ISO 13485:2016 | 6 governance checks | Medical device QMS |\n| IATF 16949:2016 | 6 governance checks | Automotive QMS |\n| AS9100D | 6 governance checks | Aerospace QMS |\n| 21 CFR Part 820 | 6 governance checks | FDA QSR |\n| 21 CFR Part 211 | 6 governance checks | FDA GMP |\n\n---"
+      },
+      {
+        "title": "Example: ISO 9001 Vertical",
+        "body": "```\nDECLARE(ISO9001) = ISO_9001 × CANONIC\n\nWhere:\n  ISO 9001 provides Structure:\n    - Context of organization (Clause 4)\n    - Leadership (Clause 5)\n    - Planning (Clause 6)\n    - Support (Clause 7)\n    - Operation (Clause 8)\n    - Performance evaluation (Clause 9)\n    - Improvement (Clause 10)\n\n  CANONIC provides Governance:\n    - C1: Quality policy as CANON\n    - C2: Records in COVERAGE\n    - Temporal: Audit schedules, review cycles\n    - Relational: Scope boundaries, process interactions\n    - C5: Management review, certification body\n\nResult:\n  ISO9001 = ENTERPRISE (#63)\n\n  Certification Lifecycle:\n    Gap Assessment   = COMMUNITY         - Current state vs. standard\n    Documentation  — QMS documented\n    Implementation — Processes operating\n    Internal Audit   = BUSINESS  - Self-assessment\n    Stage 1 Audit    = BUSINESS  - Documentation review\n    Stage 2 Audit    = ENTERPRISE- Implementation audit\n    Certified      — Certificate issued\n    Surveillance   — Annual audits\n```\n\n---"
+      },
+      {
+        "title": "Example: Corrective Action Process",
+        "body": "```\nDECLARE(CAPA) = FDA_CAPA × CANONIC\n\nWhere:\n  CAPA Framework:\n    - Identification of nonconformance\n    - Root cause analysis\n    - Corrective action\n    - Preventive action\n    - Verification of effectiveness\n\n  CANONIC provides Governance:\n    - C1: Problem statement, root cause\n    - C2: Investigation records, test results\n    - Temporal: Due dates, verification timeline\n    - C5: Approval, closure\n\nResult:\n  CAPA = REGULATION (#27)\n\n  CAPA Lifecycle:\n    Identify       — Nonconformance reported\n    Contain        — Immediate action\n    Analyze        — Root cause determined\n    Correct        — Action implemented\n    Verify         — Effectiveness confirmed\n    Close          — CAPA completed\n```\n\n---"
+      },
+      {
+        "title": "Quality Records",
+        "body": "| Record Type | Lattice | Purpose |\n|-------------|---------|---------|\n| Quality Policy | D | Management commitment |\n| Quality Manual | (#11) | QMS documentation |\n| Procedure | (#31) | Process definition |\n| Work Instruction | (#11) | Task guidance |\n| Inspection Record | (#12) | Conformance evidence |\n| Audit Report | BUSINESS | Assessment findings |\n| Management Review | BUSINESS | Performance evaluation |\n| CAPA Record | (#27) | Improvement documentation |\n\n---"
+      },
+      {
+        "title": "Validators",
+        "body": "| Validator | Checks | Example Failure |\n|-----------|--------|-----------------|\n| C1 | Quality policy exists | Missing quality objectives |\n| C2 | Records maintained | No inspection documentation |\n| Temporal | Reviews conducted | Overdue management review |\n| Relational | Scope defined | Unclear process boundaries |\n| C5 | Actions implemented | Open CAPA past due date |\n| C6 | Standard conformance | Missing required procedure |\n\n---"
+      },
+      {
+        "title": "Application",
+        "body": "To create a CANONIC quality vertical:\n\n1. **Select quality standard** (ISO 9001, 13485, etc.)\n2. **Create scope** with CANON.md inheriting /QUALITY/\n3. **Define quality policy** and objectives\n4. **Document processes** (procedures, work instructions)\n5. **Establish records** (inspection, audit, review)\n6. **Define process boundaries** (scope, interactions)\n7. **Implement management system** (audits, reviews)\n8. **Achieve certification** (registrar audit)\n\n**Result**: Owned quality vertical with certified QMS.\n\n---"
+      },
+      {
+        "title": "Cross-Domain Compositions",
+        "body": "```\nQUALITY × MEDICINE       = Clinical quality, ISO 13485 (NCQA + ISO 9001)\nQUALITY × AEROSPACE      = Aviation quality, AS9100 (IAQG + ISO 9001)\nQUALITY × AUTOMOTIVE     = Automotive quality, IATF 16949 (IATF + ISO 9001)\nQUALITY × MANUFACTURING  = Manufacturing quality, GMP (ISA-95 + ISO 9001)\nQUALITY × DEFENSE        = Defense quality, MIL-Q-9858 (DoD + ISO 9001)\nQUALITY × GENOMICS       = Lab accreditation, CAP proficiency (CAP + ISO 15189)\nQUALITY × ENERGY         = Nuclear quality, NQA-1 (NRC + ISO 9001)\nQUALITY × LOGISTICS      = Supply chain quality, ISO 28000 (GS1 + ISO 9001)\nQUALITY × FINANCE        = Internal controls, SOC reporting (COSO + ISO 9001)\nQUALITY × EDUCATION      = Academic quality, accreditation (SACSCOC + ISO 21001)\n```\n\n**10 cross-domain compositions. Each strengthens PROV-001 and PROV-004 patent claims.**\n\n---"
+      },
+      {
+        "title": "Prior Art Landscape",
+        "body": "| Competitor | Approach | MAGIC checkset Distinction |\n|-----------|----------|-------------------|\n| ETQ Reliance | Quality management software | Workflow tool, no governance language, no bitwise compliance |\n| MasterControl | Document + quality management | Document control, no governance framework |\n| Qualio | Cloud QMS for life sciences | SaaS QMS, no O(1) compliance checking |\n| Veeva Vault Quality | Pharma-specific quality suite | Industry-specific, no cross-domain governance |\n| SAP QM | ERP-integrated quality module | Enterprise module, no governance encoding |\n\n**Gap**: No existing system provides governance-gated quality management with O(1) bitwise checking across ISO 9001, 13485, AS9100, and cross-domain composition.\n\n---"
+      },
+      {
+        "title": "Patent Mapping",
+        "body": "| PROV | Relevance | Claims |\n|------|-----------|--------|\n| PROV-001 | PRIMARY | MAGIC private-check encoding for quality governance verification |\n| PROV-004 | PRIMARY | Transcompilation of ISO/GMP/AS standards to governed executables |\n| PROV-002 | Supporting | COIN=WORK for audit attestation, CAPA evidence |\n| PROV-003 | Supporting | Federated quality compliance across suppliers |\n\n---"
+      }
+    ],
+    "learning": [],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "APQR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CAPA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CFR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DHF",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DHR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DMAIC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DMR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "EU",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FDA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FTA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "GMP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "GUM",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ICH",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IEC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ISO",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "MDD",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "MDR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "MSA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PDCA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PET",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "QMS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "QMSR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "QUALITY",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SI",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SPC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "UDI",
+        "definition": "Governed term in this scope vocabulary."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "INDUSTRIES",
+        "axiom": "INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.",
+        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
   }
 }

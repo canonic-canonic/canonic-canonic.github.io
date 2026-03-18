@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "GALAXY",
-    "description": "GALAXY is distributed work topology.",
+    "description": "GALAXY is the operating surface of distributed CANONIC.",
     "cta": [
       {
         "label": "Open GALAXY",
@@ -62,7 +62,7 @@
         {
           "metric": {
             "label": "CHILDREN",
-            "value": "2",
+            "value": "4",
             "change": "scopes",
             "trend": "neutral"
           }
@@ -150,9 +150,23 @@
       "cards": [
         {
           "icon": "∩",
+          "title": "FINDER",
+          "desc": "FINDER is hierarchical navigation for the governed topology.",
+          "href": "/magic/galaxy/FINDER/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
           "title": "ORGS",
           "desc": "ORGS = federation identity. Users authenticate. Users maintain VITAE.",
           "href": "/magic/galaxy/ORGS/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "PRIMITIVES",
+          "desc": "INTEL, COIN, and TALK are the three native primitives of the GALAXY operating surface.",
+          "href": "/magic/galaxy/PRIMITIVES/",
           "class": "card"
         },
         {
@@ -255,8 +269,8 @@
   },
   "footerTagline": "GALAXY | CANONIC",
   "canon": {
-    "axiom": "GALAXY is distributed work topology.",
-    "constraints": "MUST:     Encode ORG/USER topology (stars/planets)\nMUST:     Treat identity boundaries as first-class (no collapse)\nMUST:     Drive galaxy surfaces from governed indices (no hardcoding)\nMUST:     Compliance ring on every non-USER node (ring IS the product)\nMUST:     Ring segments map 1:1 to MAGIC dimensions\nMUST:     Tier glow color from tier threshold, not category\nMUST:     INTEL flow visible on edges (animated if INTEL.md present)\nMUST:     Principals render as flagship (icon + ring + glow)\nMUST:     Brand marks (∩, ☲) render on ORG nodes from governed BRAND.md\nMUST:     All visual encoding derived from compiled data (galaxy.json)\nMUST:     galaxy.json is reproducible — build-galaxy-json discovers ORGS/*/CANON.md\nMUST:     GALAXY surface is reproducible — DESIGN theme renders galaxy.json, nothing else\nMUST:     Remove GOV directory = remove from galaxy — no other action required\nMUST NOT: Introduce global namespaces that break projection\nMUST NOT: Hardcode compliance score in renderer (read node.bits)\nMUST NOT: Render principals as plain text boxes\nMUST NOT: Hand-edit galaxy.json — fix the compiler or the GOV tree",
+    "axiom": "GALAXY is the operating surface of distributed CANONIC.",
+    "constraints": "MUST:     Require GitHub OAuth authentication (no anonymous galaxy access)\nMUST:     Resolve principal from GitHub session (session.user → galaxy scope)\nMUST:     Serve as the primary operating surface (no fleet chrome in galaxy mode)\nMUST:     Compose INTEL + COIN + TALK as native primitives (not plugins)\nMUST:     Support scoped galaxies per principal (USER, ORG, superuser)\nMUST:     Support hierarchical Finder navigation (breadcrumbs, folder/leaf)\nMUST:     Support conversational editing (scope creation, INTEL editing via TALK)\nMUST:     Use magic:// URI as the navigation protocol with browser back/forward\nMUST:     Attribute every action to the authenticated GitHub identity\nMUST:     Gate reader-restricted scopes via session identity (canSeeNode)\nMUST:     Encode ORG/USER topology (stars/planets)\nMUST:     Treat identity boundaries as first-class (no collapse)\nMUST:     Drive galaxy surfaces from governed indices (no hardcoding)\nMUST:     Compliance ring on every non-USER node (ring IS the product)\nMUST:     Ring segments map 1:1 to MAGIC dimensions\nMUST:     Tier glow color from tier threshold, not category\nMUST:     INTEL flow visible on edges (animated if INTEL.md present)\nMUST:     Principals render as flagship (icon + ring + glow)\nMUST:     Brand marks (∩, ☲) render on ORG nodes from governed BRAND.md\nMUST:     All visual encoding derived from compiled data (galaxy.json)\nMUST:     galaxy.json is reproducible — build-galaxy-json discovers ORGS/*/CANON.md\nMUST:     GALAXY surface is reproducible — DESIGN theme renders galaxy.json, nothing else\nMUST:     Remove GOV directory = remove from galaxy — no other action required\nMUST NOT: Allow unauthenticated access to the operating surface\nMUST NOT: Require terminal or dev tools for governance operations\nMUST NOT: Show fleet site chrome (nav, footer) in galaxy operating mode\nMUST NOT: Hardcode principal scoping (discover from galaxy graph)\nMUST NOT: Introduce global namespaces that break projection\nMUST NOT: Hardcode compliance score in renderer (read node.bits)\nMUST NOT: Render principals as plain text boxes\nMUST NOT: Hand-edit galaxy.json — fix the compiler or the GOV tree",
     "inherits": "canonic-canonic/MAGIC",
     "spec": [
       {

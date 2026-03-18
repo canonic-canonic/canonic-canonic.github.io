@@ -48,5 +48,254 @@
     "name": "FULL",
     "score": 255,
     "intel": true
+  },
+  "canon": {
+    "axiom": "Example",
+    "constraints": "MUST:     Cite FAR clause, CFR section, or statute for procurement/compliance claims\nMUST:     Distinguish federal from state/local government requirements\nMUST NOT: Present agency guidance as having force of law without statutory basis",
+    "inherits": "canonic-canonic/INDUSTRIES/REGULATORY",
+    "spec": [
+      {
+        "title": "Domain Declaration",
+        "body": "```\nGOVERNMENT = REGULATORY_STANDARD × CANONIC\n           = Structure(government) × (C1, C2, Temporal, Relational, C5)\n           = owned government vertical\n```\n\n---"
+      },
+      {
+        "title": "Lattice Formula",
+        "body": "```\nGOVERNMENT = C1 ∩ C2 ∩ Temporal ∩ Relational ∩ C5\n           = PATENT (#57)\n```\n\nGovernment typically at PATENT level because:\n- **C1**: Statutes and regulations are claims\n- **C2**: Compliance must be documented\n- **Temporal**: Effective dates, reporting periods\n- **Relational**: Jurisdiction (federal, state, local)\n- **C5**: Agencies enforce\n- Structure varies by domain (no universal standard)\n\n---"
+      },
+      {
+        "title": "Axioms",
+        "body": "### 1. Statutory Authority\n\nGovernment action MUST be authorized by statute. Ultra vires acts are void.\n\n**Example**: An agency regulation requiring new disclosures must cite the statutory provision granting authority to promulgate such rules. A regulation without statutory basis can be challenged and invalidated.\n\n---\n\n### 2. Due Process\n\nIndividuals MUST receive notice and opportunity to be heard before adverse government action.\n\n**Example**: Before revoking a professional license, the agency must: provide written notice of alleged violations, allow time to respond, conduct a hearing if requested, and issue a written decision with appeal rights.\n\n---\n\n### 3. Public Accountability\n\nGovernment operations MUST be transparent and subject to public oversight.\n\n**Example**: A federal agency must respond to Freedom of Information Act requests within 20 business days. Exemptions (national security, privacy) must be specifically cited. Wrongful withholding is actionable.\n\n---\n\n### 4. Equal Treatment\n\nGovernment MUST apply laws equally without arbitrary discrimination.\n\n**Example**: A permitting agency cannot approve identical applications differently based on applicant identity. Different outcomes require documented differences in the applications themselves.\n\n---\n\n### 5. Record Retention\n\nGovernment records MUST be retained according to approved schedules.\n\n**Example**: Federal agencies must follow NARA-approved retention schedules. Destroying records before schedule expiration, or during litigation hold, violates federal law.\n\n---"
+      },
+      {
+        "title": "Subdomains",
+        "body": "| Subdomain | Framework | Formula | Scope |\n|-----------|-----------|---------|-------|\n| Federal IT | FISMA | 5 governance checks | Federal information systems |\n| Federal Acquisition | FAR | ENTERPRISE | Government contracting |\n| State/Local | Varies | 5 governance checks | Jurisdiction-specific |\n| Public Records | FOIA/state laws | — | Transparency |\n| Administrative | APA | 5 governance checks | Rulemaking, adjudication |\n| Elections | HAVA/state | 5 governance checks | Election administration |\n\n---"
+      },
+      {
+        "title": "Regulatory Mapping",
+        "body": "| Framework | Lattice | Scope |\n|-----------|---------|-------|\n| FISMA | 5 governance checks | Federal IT security |\n| FedRAMP | 6 governance checks | Cloud service authorization |\n| FAR/DFARS | 6 governance checks | Federal procurement |\n| FOIA | — | Public records access |\n| APA | 5 governance checks | Administrative procedure |\n| OMB Circulars | 5 governance checks | Agency management |\n| Antideficiency Act | 5 governance checks | Fiscal compliance |\n\n---"
+      },
+      {
+        "title": "Example: Federal Contractor Compliance",
+        "body": "```\nDECLARE(Contractor) = FAR × CANONIC\n\nWhere:\n  FAR provides Structure:\n    - Contract types and clauses\n    - Socioeconomic requirements\n    - Cost accounting standards\n    - Contract administration\n\n  CANONIC provides Governance:\n    - C1: Contract requirements\n    - C2: Performance documentation\n    - Temporal: Period of performance, milestones\n    - Relational: Contract scope, modifications\n    - C5: Contracting officer oversight\n\nResult:\n  Contractor = ENTERPRISE (#63)\n\n  Contract Lifecycle:\n    Solicitation   — Requirements defined\n    Proposal       — Offer submitted\n    Award          — Contract executed\n    Performance    — Work delivered\n    Close-out      — Final acceptance\n```\n\n---"
+      },
+      {
+        "title": "Example: FedRAMP Authorization",
+        "body": "```\nDECLARE(FedRAMP) = NIST_800-53 × CANONIC\n\nWhere:\n  FedRAMP provides Structure:\n    - Security control baselines (Low, Moderate, High)\n    - Assessment procedures\n    - Authorization packages\n    - Continuous monitoring\n\n  CANONIC provides Governance:\n    - C1: Security controls as claims\n    - C2: Assessment evidence\n    - Temporal: Authorization timeline, ConMon\n    - Relational: Authorization boundary\n    - C5: JAB/Agency ATO\n\nResult:\n  FedRAMP = ENTERPRISE (#63)\n\n  Authorization Lifecycle:\n    Preparation    — SSP drafted\n    Readiness      — RAR completed\n    Assessment     — 3PAO testing\n    Authorization  — ATO issued\n    Continuous     — Monthly reporting\n```\n\n---"
+      },
+      {
+        "title": "Compliance Records",
+        "body": "| Record Type | Lattice | Purpose |\n|-------------|---------|---------|\n| Statute | BUSINESS | Legal authority |\n| Regulation | BUSINESS | Implementing rules |\n| Policy | (#29) | Agency guidance |\n| Contract | BUSINESS | Binding agreement |\n| Authorization | BUSINESS | Approval to operate |\n| Audit Report | BUSINESS | Compliance assessment |\n| Public Records Request | BUSINESS | FOIA/transparency |\n\n---"
+      },
+      {
+        "title": "Validators",
+        "body": "| Validator | Checks | Example Failure |\n|-----------|--------|-----------------|\n| C1 | Requirements documented | Missing contract clause |\n| C2 | Compliance demonstrated | No deliverable evidence |\n| Temporal | Deadlines met | Late report submission |\n| Relational | Jurisdiction correct | Wrong agency authority |\n| C5 | Oversight functioning | Missing CO approval |\n\n---"
+      },
+      {
+        "title": "Application",
+        "body": "To create a CANONIC government vertical:\n\n1. **Identify applicable authorities** (statutes, regulations)\n2. **Create scope** with CANON.md inheriting /GOVERNMENT/\n3. **Define compliance requirements** as axioms\n4. **Document evidence** (reports, certifications)\n5. **Establish timelines** (reporting periods, deadlines)\n6. **Map jurisdictions** (federal, state, local)\n7. **Implement oversight** (audit, review)\n8. **Maintain records** (retention schedules)\n\n**Result**: Owned government vertical with regulatory compliance.\n\n---"
+      }
+    ],
+    "learning": [],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "CFR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CHIP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CMMC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CMS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "COFC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CUI",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DFARS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DSH",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "EO",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "EPA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ESRD",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FAR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FDA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FDCA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FISMA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FOIA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FTC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "GAO",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "GOVERNMENT",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "GSA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IHS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "II",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IT",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NARA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NIH",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NIST",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NPRM",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NSF",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "OIG",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "OIRA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "OMB",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PII",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PRA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SAM",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SBIR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SDVOSB",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "STTR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "TRICARE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "US",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "USC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "VA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "VHA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "WOSB",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ZTA",
+        "definition": "Governed term in this scope vocabulary."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "INDUSTRIES",
+        "axiom": "INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.",
+        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
   }
 }

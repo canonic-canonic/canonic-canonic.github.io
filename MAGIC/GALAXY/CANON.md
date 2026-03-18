@@ -277,15 +277,27 @@ MUST NOT: Graph clump into tight ball — gravitationalConstant ≤ -15000
 
 ## Axiom
 
-**GALAXY is distributed work topology.**
+**GALAXY is the operating surface of distributed CANONIC.**
 
-Commercial purpose: route governed work across identity boundaries without breaking ownership.
+Every principal navigates, governs, and transacts through GALAXY. INTEL surfaces knowledge. COIN surfaces economy. TALK surfaces conversation. Navigation is hierarchical. Editing is conversational. The graph is the truth; the Finder is the interface.
+
+Commercial purpose: route governed work across identity boundaries without breaking ownership, through an operating surface that non-developers can program by conversation.
 
 ---
 
 ## Constraints
 
 ```
+MUST:     Require GitHub OAuth authentication (no anonymous galaxy access)
+MUST:     Resolve principal from GitHub session (session.user → galaxy scope)
+MUST:     Serve as the primary operating surface (no fleet chrome in galaxy mode)
+MUST:     Compose INTEL + COIN + TALK as native primitives (not plugins)
+MUST:     Support scoped galaxies per principal (USER, ORG, superuser)
+MUST:     Support hierarchical Finder navigation (breadcrumbs, folder/leaf)
+MUST:     Support conversational editing (scope creation, INTEL editing via TALK)
+MUST:     Use magic:// URI as the navigation protocol with browser back/forward
+MUST:     Attribute every action to the authenticated GitHub identity
+MUST:     Gate reader-restricted scopes via session identity (canSeeNode)
 MUST:     Encode ORG/USER topology (stars/planets)
 MUST:     Treat identity boundaries as first-class (no collapse)
 MUST:     Drive galaxy surfaces from governed indices (no hardcoding)
@@ -299,6 +311,10 @@ MUST:     All visual encoding derived from compiled data (galaxy.json)
 MUST:     galaxy.json is reproducible — build-galaxy-json discovers ORGS/*/CANON.md
 MUST:     GALAXY surface is reproducible — DESIGN theme renders galaxy.json, nothing else
 MUST:     Remove GOV directory = remove from galaxy — no other action required
+MUST NOT: Allow unauthenticated access to the operating surface
+MUST NOT: Require terminal or dev tools for governance operations
+MUST NOT: Show fleet site chrome (nav, footer) in galaxy operating mode
+MUST NOT: Hardcode principal scoping (discover from galaxy graph)
 MUST NOT: Introduce global namespaces that break projection
 MUST NOT: Hardcode compliance score in renderer (read node.bits)
 MUST NOT: Render principals as plain text boxes

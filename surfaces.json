@@ -337,7 +337,7 @@
     {
       "path": "/MAGIC/GALAXY/",
       "scope": "galaxy",
-      "surface_type": "JEKYLL_DEFAULT"
+      "surface_type": "GALAXY"
     },
     {
       "path": "/MAGIC/GALAXY/ORGS/",
@@ -367,6 +367,16 @@
     {
       "path": "/MAGIC/GALAXY/USERS/",
       "scope": "users",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/GALAXY/finder/",
+      "scope": "finder",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/GALAXY/primitives/",
+      "scope": "primitives",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {

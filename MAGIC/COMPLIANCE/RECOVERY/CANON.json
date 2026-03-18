@@ -48,5 +48,93 @@
     "name": "FULL",
     "score": 255,
     "intel": true
+  },
+  "canon": {
+    "axiom": "CANONIC survives any single point of failure.",
+    "constraints": "MUST:     Maintain offsite backup of all GOV repos (minimum 2 geographic regions)\nMUST:     Backup LEDGER and VAULT independently of GOV repos\nMUST:     Test restore from backup quarterly (next: 2026-Q2)\nMUST:     Document restore runbook in this scope\nMUST:     Version-pin all CI dependencies (no floating tags)\nMUST:     Maintain local clones of all GOV repos (CANONIC.git manifest is the index)\nMUST NOT: Store backup credentials in governance tree\nMUST NOT: Depend on a single provider for all copies (GitHub is primary, not sole)",
+    "inherits": "canonic-canonic/MAGIC/COMPLIANCE",
+    "spec": [
+      {
+        "title": "Failure Modes",
+        "body": "| Failure | Impact | Recovery |\n|---------|--------|----------|\n| Laptop loss | Local GOV + runtime lost | Clone from GitHub + restore runtime from backup |\n| GitHub account compromise | Remote GOV repos at risk | Rotate tokens, restore from offsite backup, re-push |\n| GitHub outage | CI/CD unavailable | Local magic validate continues; push when restored |\n| LEDGER corruption | Economic history lost | Restore from backup; reconcile via CLOSE |\n| VAULT breach | Private data exposed | Rotate keys, revoke access, audit LEDGER for unauthorized events |"
+      },
+      {
+        "title": "Backup Targets",
+        "body": "```\nGOV repos:       ~/CANONIC/ (git bundle or mirror)\nRuntime:         ~/.canonic/ (encrypted archive)\nLEDGER:          ~/.canonic/LEDGER/ (append-only, versioned)\nVAULT:           ~/.canonic/VAULT/ (encrypted, auth-gated)\nCI secrets:      GitHub Actions secrets (documented, not backed up in tree)\n```"
+      },
+      {
+        "title": "SLAs",
+        "body": "```\nRTO (Recovery Time Objective):  4 hours from fresh machine\nRPO (Recovery Point Objective): last committed state (git push cadence)\nBackup cadence:                 daily (automated) or per-push (manual)\nRestore test cadence:           quarterly\n```\n\n---"
+      },
+      {
+        "title": "Automation",
+        "body": "### Backup Commands\n\n```\nbackup snapshot           — encrypted tar.gz of VAULT, LEDGER, SERVICES, learning\nbackup restore <path>     — decrypt and restore from snapshot\nbackup verify <path>      — decrypt, validate LEDGER chain, verify WALLETs\n```\n\nEncryption: `gpg --symmetric --cipher-algo AES256` (passphrase from `BACKUP_PASSPHRASE` env var).\n\n### LEDGER Archival\n\nMonthly encrypted snapshot of LEDGER to offsite storage. Append-only — never prune active LEDGER.\n\n```\nSchedule:    1st of each month\nTarget:      ~/.canonic/BACKUPS/LEDGER-{YYYY-MM}.tar.gz.gpg\nRetention:   permanent (LEDGER is economic truth)\n```\n\n### VAULT Backup\n\nDaily encrypted snapshot of VAULT directory.\n\n```\nSchedule:    daily (cron or CI)\nTarget:      ~/.canonic/BACKUPS/VAULT-{YYYY-MM-DD}.tar.gz.gpg\nRetention:   30 days rolling\n```\n\n### Restore Test Procedure\n\nQuarterly SLA verification:\n\n```\n1. Create fresh temporary directory\n2. Run: backup restore <latest-snapshot>\n3. Run: vault verify (LEDGER chain integrity)\n4. Run: vault verify-wallet --user DEXTER (balance derivation)\n5. Run: vault verify-sig (signature verification)\n6. Document result in LEARNING.md\n```\n\n---\n\n---"
+      },
+      {
+        "title": "Restore Runbook",
+        "body": "```\n1. Clone ROOT from backup:    git clone <backup-origin> ~/CANONIC\n2. Init submodules:           git submodule update --init --recursive\n3. Restore runtime:           rsync <backup>/canonic/ ~/.canonic/\n4. Wire hooks:                ~/.canonic/bin/install-hooks\n5. Validate:                  cd ~/CANONIC && magic validate\n6. Verify LEDGER:             diff <backup-ledger> ~/.canonic/LEDGER/\n7. Verify COIN supply:        magic close --dry-run (reconcile without committing)\n```\n\n---"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-24 | NEW_SCOPE | RECOVERY scope created — closes the disaster recovery governance gap | RECOVERY/CANON.md |\n| 2026-02-24 | GitHub is primary, not sole | Governance on a single provider is a single point of failure — offsite backup required | Audit finding |\n| 2026-02-24 | RTO 4h, RPO last-push | Acceptable recovery targets for a governance-first system with local clones | RECOVERY/RECOVERY.md |\n\n---"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {
+      "later": [
+        "Automated backup verification (checksum + MAGIC 255 on restored state)",
+        "Cross-org backup federation (GALAXY repos backed up by multiple orgs)",
+        "LEDGER integrity proofs (hash-chain verification independent of git)"
+      ]
+    },
+    "vocab": [
+      {
+        "term": "BACKUP",
+        "definition": "Copy of governance or runtime state stored offsite for recovery"
+      },
+      {
+        "term": "OFFSITE",
+        "definition": "Geographic or provider separation from primary storage"
+      },
+      {
+        "term": "RESTORE",
+        "definition": "Process of rebuilding governance and runtime from backup"
+      },
+      {
+        "term": "RPO",
+        "definition": "Recovery Point Objective — maximum acceptable data loss measured in time"
+      },
+      {
+        "term": "RTO",
+        "definition": "Recovery Time Objective — maximum acceptable downtime from failure to recovery"
+      },
+      {
+        "term": "RUNBOOK",
+        "definition": "Step-by-step procedure for restoring the system from a specific failure mode"
+      },
+      {
+        "term": "SINGLE_POINT_OF_FAILURE",
+        "definition": "Any component whose loss alone destroys the system"
+      }
+    ],
+    "chain": [
+      {
+        "scope": "COMPLIANCE",
+        "axiom": "COMPLIANCE is the tier algebra.",
+        "constraints": "MUST:     Define tier thresholds and required surface artifacts\nMUST:     Treat tier gates as cumulative (children add; children do not weaken)\nMUST:     Keep tier rules in GOV; runtime interprets only\nMUST NOT: Duplicate tier algebra in sibling scopes"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
   }
 }

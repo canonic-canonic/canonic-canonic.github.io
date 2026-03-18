@@ -1,10 +1,11 @@
 /**
  * galaxy.js — GALAXY · CANONIC ∩ MAGIC
  *
- * Loads galaxy.json → vis-network.
+ * Operating surface of distributed CANONIC.
+ * Finder navigation (breadcrumbs, folder/leaf) + force-directed graph (toggle).
  * Dual drawers: left (INTEL), right (DETAIL).
  * Control panel: brand + score + tier pills (top-left).
- * Category legend (top-right). Search bar (bottom center).
+ * Category legend (top-right). Search/TALK bar (bottom center).
  *
  * MAGIC 255 | CANONIC | 2026-03
  */
@@ -23,6 +24,12 @@ var GALAXY = (function () {
     var _rightOpen = false;
     var _searchOpen = false;
     var _selectedNodeId = null;
+
+    // ── FINDER STATE ──────────────────────────────────────
+    var _navStack = [];          // breadcrumb path: array of scope IDs
+    var _currentScope = null;    // current scope root node ID (null = galaxy root)
+    var _viewMode = 'finder';    // 'finder' | 'graph'
+    var _session = null;         // GitHub auth session (passed from layout)
 
     // ── AUTH (sourced from compiled galaxy.json — no hardcoding) ──
     var AUTH_API = '';
@@ -472,8 +479,8 @@ var GALAXY = (function () {
         var el = document.getElementById('controlPanel');
         if (!el || !galaxy) return;
 
-        // Interactively scoped: show selected node or master
-        var scoped = _selectedNodeId ? nodeMap[_selectedNodeId] : null;
+        // Interactively scoped: show selected node, current Finder scope, or master
+        var scoped = _selectedNodeId ? nodeMap[_selectedNodeId] : (_currentScope ? nodeMap[_currentScope] : null);
         var bits, balance, tier, label;
         if (scoped) {
             bits = scoped.bits || 0;
@@ -510,11 +517,28 @@ var GALAXY = (function () {
         html += '</div>';
         html += '<div class="cp-stats">';
         html += '<div class="cp-tier' + tierClass + '" style="' + (tierClass ? '' : 'color:' + tier.color) + '">' + tier.badge + ' ' + tier.name + '</div>';
-        html += '<a class="cp-coin" href="https://hadleylab.org/timeline/" target="_blank" title="Open Wallet"><i class="fas fa-coins"></i> ' + formatCoin(balance) + '</a>';
+        html += '<span class="cp-coin" onclick="GALAXY.toggleCoinFeed()" title="COIN"><i class="fas fa-coins"></i> ' + formatCoin(balance) + '</span>';
         if (label) {
             html += '<div class="cp-scope-label">' + label + '</div>';
         }
         html += '</div></div>';
+
+        // COIN transaction feed (dropdown, toggled)
+        html += '<div class="cp-coin-feed" id="coinFeed" style="display:none">';
+        var feedSource = scoped || (galaxy.master ? nodeMap[galaxy.master.id] : null);
+        if (feedSource && feedSource.wallet && feedSource.wallet.transactions) {
+            feedSource.wallet.transactions.slice(0, 8).forEach(function (tx) {
+                var isCredit = tx.amount >= 0;
+                html += '<div class="coin-tx">';
+                html += '<span class="coin-tx-type" style="color:' + (isCredit ? '#00ff88' : '#ff453a') + '">' + (isCredit ? '+' : '') + tx.amount + '</span>';
+                html += '<span class="coin-tx-desc">' + (tx.type || tx.description || 'transaction') + '</span>';
+                if (tx.date) html += '<span class="coin-tx-date">' + tx.date + '</span>';
+                html += '</div>';
+            });
+        } else {
+            html += '<div class="coin-tx-empty">No transactions</div>';
+        }
+        html += '</div>';
 
         // Fleet stats row
         var st = galaxy.stats || {};
@@ -588,8 +612,111 @@ var GALAXY = (function () {
         el.innerHTML = html;
     }
 
-    // ── INTEL TAB (task list with fix buttons) ────────────
+    // ── INTEL TAB (context-sensitive: scope or fleet-wide) ─
     function renderIntelTab() {
+        // If in Finder mode with a current scope, show scope-specific INTEL
+        if (_viewMode === 'finder' && _currentScope && nodeMap[_currentScope]) {
+            return renderScopeIntel(nodeMap[_currentScope]);
+        }
+        return renderFleetIntel();
+    }
+
+    function renderScopeIntel(scope) {
+        var bits = (typeof scope.bits === 'number') ? scope.bits : 0;
+        var tier = tierFor(bits);
+        var tierClass = bits >= 255 ? ' unicorn-text' : '';
+
+        var html = '<div style="display:flex;align-items:center;gap:12px;padding:12px 16px;border-bottom:1px solid var(--border)">';
+        html += ringHTML(bits, 48);
+        html += '<div style="flex:1;min-width:0">';
+        html += '<div class="' + tierClass + '" style="font-family:var(--mono);font-size:14px;font-weight:700;letter-spacing:0.08em;' + (tierClass ? '' : 'color:' + tier.color) + '">' + scope.label + '</div>';
+        html += '<div style="font-family:var(--mono);font-size:10px;color:' + tier.color + '">' + tier.badge + ' ' + tier.name + ' \u00b7 ' + bits + '/255</div>';
+        html += '</div></div>';
+
+        // INTEL summary
+        if (scope.intel_summary) {
+            html += '<div class="intel-section"><div class="intel-section-title">INTEL</div>';
+            html += '<div class="intel-section-body">' + scope.intel_summary + '</div></div>';
+        }
+
+        // ROADMAP
+        if (scope.roadmap_now) {
+            html += '<div class="intel-section"><div class="intel-section-title">ROADMAP</div>';
+            html += '<div class="intel-section-body">' + scope.roadmap_now + '</div></div>';
+        }
+
+        // LEARNING patterns
+        if (scope.learning && scope.learning.length > 0) {
+            html += '<div class="intel-section"><div class="intel-section-title">LEARNING (' + scope.learning.length + ')</div>';
+            scope.learning.forEach(function (p) {
+                html += '<div class="dp-learning-row"><span class="dp-learning-signal">' + p.signal + '</span><span class="dp-learning-pattern">' + p.pattern + '</span><span class="dp-learning-date">' + p.date + '</span></div>';
+            });
+            html += '</div>';
+        } else if (scope.learning_count) {
+            html += '<div class="intel-section"><div class="intel-section-title">LEARNING</div>';
+            html += '<div class="intel-section-body">' + scope.learning_count + ' patterns</div></div>';
+        }
+
+        // Missing dimensions (coverage gaps)
+        if (scope.missing_dims && scope.missing_dims.length > 0) {
+            html += '<div class="intel-section"><div class="intel-section-title">COVERAGE GAPS</div>';
+            html += '<div class="dp-dims">';
+            scope.missing_dims.forEach(function (d) {
+                html += '<span class="dp-dim-fix" onclick="event.stopPropagation(); GALAXY.fixDim(\'' + scope.id + '\',\'' + d + '\')">' + d + ' <i class="fas fa-wrench" style="font-size:8px;margin-left:2px"></i></span>';
+            });
+            html += '</div></div>';
+        }
+
+        // ECONOMY
+        if (scope.wallet) {
+            html += '<div class="intel-section"><div class="intel-section-title" style="color:#ffd60a">ECONOMY</div>';
+            html += '<div style="font-family:var(--mono);font-size:18px;font-weight:700;color:#ffd60a;text-shadow:0 0 12px rgba(255,214,10,0.3);padding:4px 0">' + formatCoin(scope.wallet.balance) + ' <span style="opacity:0.4;font-size:10px;font-weight:400">COIN</span></div>';
+            html += '<div style="font-family:var(--mono);font-size:10px;color:var(--dim)">' + scope.wallet.events + ' events</div>';
+            html += '</div>';
+        }
+
+        // TALK activity
+        if (scope.talk && scope.talk.sessions > 0) {
+            html += '<div class="intel-section"><div class="intel-section-title" style="color:#2997ff">TALK</div>';
+            html += '<div style="font-family:var(--mono);font-size:14px;font-weight:700;color:#2997ff">' + scope.talk.sessions + ' <span style="opacity:0.4;font-size:10px;font-weight:400">sessions</span></div>';
+            if (scope.talk.channels && scope.talk.channels.length > 0) {
+                html += '<div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:4px">';
+                scope.talk.channels.forEach(function (ch) {
+                    html += '<span style="font-family:var(--mono);font-size:9px;padding:2px 6px;border-radius:4px;background:rgba(41,151,255,0.1);color:#2997ff;border:1px solid rgba(41,151,255,0.15)">' + ch + '</span>';
+                });
+                html += '</div>';
+            }
+            html += '</div>';
+        }
+
+        // Child scopes with gaps (tasks within this scope)
+        var children = getChildren(scope.id);
+        var childTasks = children.filter(function (n) {
+            return typeof n.bits === 'number' && n.bits < 255 && n.bits > 0 && n.next_tier;
+        }).sort(function (a, b) { return (a.next_tier_gap || 999) - (b.next_tier_gap || 999); });
+
+        if (childTasks.length > 0) {
+            html += '<div style="font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:0.12em;padding:8px 16px 4px">SCOPE TASKS \u00b7 ' + childTasks.length + '</div>';
+            html += '<div class="intel-tasks">';
+            childTasks.forEach(function (n) {
+                var t = tierFor(n.bits);
+                var action = n.roadmap_now || (n.missing_dims && n.missing_dims.length > 0 ? 'Add ' + n.missing_dims.join(', ') : 'Increase compliance');
+                var gapLabel = n.next_tier ? '+' + n.next_tier_gap + ' \u2192 ' + n.next_tier : '';
+                html += '<div class="intel-task" data-node="' + n.id + '" onclick="event.stopPropagation(); GALAXY.fixFromIntel(\'' + n.id + '\')">';
+                html += '<span class="intel-task-bits" style="color:' + t.color + '">' + n.bits + '</span>';
+                html += '<div class="intel-task-info"><div class="intel-task-name" style="color:' + (n.color || '#f5f5f7') + '">' + n.label + '</div>';
+                html += '<div class="intel-task-action">' + action + '</div></div>';
+                if (gapLabel) html += '<span class="intel-task-gap">' + gapLabel + '</span>';
+                html += '<button type="button" class="intel-task-fix" onclick="event.stopPropagation(); GALAXY.fixScope(\'' + n.id + '\')" title="Fix"><i class="fas fa-wrench"></i></button>';
+                html += '</div>';
+            });
+            html += '</div>';
+        }
+
+        return html;
+    }
+
+    function renderFleetIntel() {
         var users = 0, totalBits = 0, bitCount = 0, health = 0, scopeCount = 0;
         galaxy.nodes.forEach(function (n) {
             if (n.kind === 'USER') { users++; return; }
@@ -600,7 +727,6 @@ var GALAXY = (function () {
         });
         var avgBits = bitCount > 0 ? Math.round(totalBits / bitCount) : 0;
         var avgTier = tierFor(avgBits);
-        var stats = galaxy.stats || {};
         var healthPct = scopeCount > 0 ? Math.round(100 * health / scopeCount) : 0;
 
         var tierClass = avgBits >= 255 ? ' unicorn-text' : '';
@@ -611,7 +737,7 @@ var GALAXY = (function () {
         html += '<div style="font-family:var(--mono);font-size:9px;color:var(--dim);opacity:0.5">' + galaxy.nodes.length + ' nodes \u00b7 ' + healthPct + '% fleet \u00b7 ' + users + ' people</div>';
         html += '</div></div>';
 
-        // INTEL tasks
+        // INTEL tasks (fleet-wide)
         var tasks = galaxy.nodes.filter(function (n) {
             return n.kind !== 'USER' && typeof n.bits === 'number' && n.bits < 255 && n.bits > 0 && n.next_tier;
         }).sort(function (a, b) { return (a.next_tier_gap || 999) - (b.next_tier_gap || 999); }).slice(0, 30);
@@ -1261,6 +1387,599 @@ var GALAXY = (function () {
         renderCatLegend();
     }
 
+    // ── FINDER NAVIGATION ──────────────────────────────────
+    function getChildren(scopeId) {
+        if (!galaxy) return [];
+        return galaxy.nodes.filter(function (n) {
+            return n.parent === scopeId && canSeeNode(n);
+        });
+    }
+
+    function getRootNodes() {
+        if (!galaxy) return [];
+        // Root = ORG nodes (no parent or parent not in nodeMap)
+        return galaxy.nodes.filter(function (n) {
+            return n.kind === 'ORG' && canSeeNode(n);
+        });
+    }
+
+    function getBreadcrumb(scopeId) {
+        var crumbs = [];
+        var cur = scopeId;
+        while (cur && nodeMap[cur]) {
+            crumbs.unshift({ id: cur, label: nodeMap[cur].label });
+            cur = nodeMap[cur].parent;
+        }
+        return crumbs;
+    }
+
+    function navigateTo(scopeId) {
+        if (scopeId && !nodeMap[scopeId]) return;
+        _currentScope = scopeId;
+        if (scopeId) {
+            _navStack = getBreadcrumb(scopeId).map(function (c) { return c.id; });
+        } else {
+            _navStack = [];
+        }
+        _selectedNodeId = null;
+
+        // Contextual primitive updates
+        renderFinderView();
+        renderControlPanel();
+        if (_leftOpen) openLeftDrawer();  // Refresh INTEL pane with new scope
+        _talkHistory = [];                // Reset TALK history per scope
+        if (_talkMode) {
+            var input = document.getElementById('searchInput');
+            if (input) input.placeholder = 'Talk to ' + (scopeId && nodeMap[scopeId] ? nodeMap[scopeId].label : 'GALAXY') + '...';
+        }
+        updateHash();
+    }
+
+    function navigateBack() {
+        if (_navStack.length > 1) {
+            _navStack.pop();
+            _currentScope = _navStack[_navStack.length - 1];
+        } else {
+            _navStack = [];
+            _currentScope = null;
+        }
+        _selectedNodeId = null;
+
+        // Contextual primitive updates
+        renderFinderView();
+        renderControlPanel();
+        if (_leftOpen) openLeftDrawer();
+        _talkHistory = [];
+        updateHash();
+    }
+
+    function renderBreadcrumb() {
+        var crumbs = _currentScope ? getBreadcrumb(_currentScope) : [];
+        var html = '<div class="finder-breadcrumb">';
+
+        // Home/root button
+        html += '<span class="bc-segment bc-home' + (!_currentScope ? ' bc-active' : '') + '" onclick="GALAXY.navigateTo(null)">';
+        html += '<i class="fas fa-th-large"></i>';
+        html += '</span>';
+
+        crumbs.forEach(function (c, i) {
+            html += '<span class="bc-sep">/</span>';
+            var isLast = i === crumbs.length - 1;
+            html += '<span class="bc-segment' + (isLast ? ' bc-active' : '') + '" onclick="GALAXY.navigateTo(\'' + c.id + '\')">' + c.label + '</span>';
+        });
+
+        html += '</div>';
+        return html;
+    }
+
+    function renderScopeCard(node) {
+        var isFolder = node.children > 0;
+        var bits = (typeof node.bits === 'number') ? node.bits : 0;
+        var tierInfo = tierFor(bits);
+        var coinStr = (node.wallet && node.wallet.balance > 0) ? formatCoin(node.wallet.balance) : '';
+        var icon = iconFor(node);
+        var name = node.kind === 'USER' ? titleCase(node.label.toLowerCase()) : node.label;
+
+        var html = '<div class="scope-card' + (isFolder ? ' scope-folder' : ' scope-leaf') + '" ';
+        if (isFolder) {
+            html += 'onclick="GALAXY.navigateTo(\'' + node.id + '\')"';
+        } else {
+            html += 'onclick="GALAXY.selectScope(\'' + node.id + '\')"';
+        }
+        html += '>';
+
+        // Icon
+        html += '<div class="sc-icon" style="color:' + (node.color || '#64748b') + '">';
+        html += '<span style="font-family:\'Font Awesome 5 Free\';font-weight:900">' + icon + '</span>';
+        if (isFolder) html += '<span class="sc-folder-badge"><i class="fas fa-chevron-right"></i></span>';
+        html += '</div>';
+
+        // Info
+        html += '<div class="sc-info">';
+        html += '<div class="sc-name">' + name + '</div>';
+        html += '<div class="sc-meta">';
+        html += '<span class="sc-tier" style="color:' + tierInfo.color + '">' + tierInfo.badge + ' ' + bits + '</span>';
+        if (node.kind) html += '<span class="sc-kind">' + node.kind + '</span>';
+        if (isFolder) html += '<span class="sc-children">' + node.children + ' scopes</span>';
+        if (coinStr) html += '<span class="sc-coin">' + coinStr + ' COIN</span>';
+        html += '</div>';
+        html += '</div>';
+
+        // Mini ring
+        html += '<div class="sc-ring">' + ringHTML(bits, 32, true) + '</div>';
+
+        html += '</div>';
+        return html;
+    }
+
+    function renderFinderView() {
+        var container = document.getElementById('galaxy');
+        if (!container || !galaxy) return;
+
+        var children = _currentScope ? getChildren(_currentScope) : getRootNodes();
+
+        // Sort: folders first, then by bits descending
+        children.sort(function (a, b) {
+            var aFolder = (a.children > 0) ? 1 : 0;
+            var bFolder = (b.children > 0) ? 1 : 0;
+            if (aFolder !== bFolder) return bFolder - aFolder;
+            return (b.bits || 0) - (a.bits || 0);
+        });
+
+        var html = '';
+
+        // Breadcrumb bar
+        html += renderBreadcrumb();
+
+        // Scope summary (if we're inside a scope)
+        if (_currentScope && nodeMap[_currentScope]) {
+            var scope = nodeMap[_currentScope];
+            var scopeBits = (typeof scope.bits === 'number') ? scope.bits : 0;
+            var scopeTier = tierFor(scopeBits);
+            html += '<div class="finder-scope-header">';
+            html += '<div class="fsh-ring">' + ringHTML(scopeBits, 48, true) + '</div>';
+            html += '<div class="fsh-info">';
+            html += '<div class="fsh-name" style="color:' + (scope.color || '#f5f5f7') + '">' + scope.label + '</div>';
+            html += '<div class="fsh-tier" style="color:' + scopeTier.color + '">' + scopeTier.badge + ' ' + scopeTier.name + ' · ' + scopeBits + '/255</div>';
+            if (scope.intel_summary) html += '<div class="fsh-intel">' + scope.intel_summary + '</div>';
+            html += '</div>';
+            // View toggle
+            html += '<div class="fsh-actions">';
+            html += '<button class="fsh-toggle' + (_viewMode === 'graph' ? ' active' : '') + '" onclick="GALAXY.toggleView()" title="Toggle graph view"><i class="fas fa-project-diagram"></i></button>';
+            html += '</div>';
+            html += '</div>';
+        } else {
+            // Root level header
+            html += '<div class="finder-scope-header">';
+            html += '<div class="fsh-info">';
+            html += '<div class="fsh-name" style="color:var(--accent, #00ff88)">GALAXY</div>';
+            var st = galaxy.stats || {};
+            html += '<div class="fsh-tier" style="color:var(--dim)">' + (st.total || galaxy.nodes.length) + ' nodes · ' + (st.org_count || 0) + ' orgs · ' + (st.user_count || 0) + ' users</div>';
+            html += '</div>';
+            html += '<div class="fsh-actions">';
+            html += '<button class="fsh-toggle' + (_viewMode === 'graph' ? ' active' : '') + '" onclick="GALAXY.toggleView()" title="Toggle graph view"><i class="fas fa-project-diagram"></i></button>';
+            html += '</div>';
+            html += '</div>';
+        }
+
+        // Content area
+        if (children.length === 0) {
+            html += '<div class="finder-empty">No scopes found</div>';
+        } else {
+            html += '<div class="finder-grid">';
+            children.forEach(function (n) {
+                html += renderScopeCard(n);
+            });
+            html += '</div>';
+        }
+
+        // Show graph container or finder
+        if (_viewMode === 'graph') {
+            container.innerHTML = '';
+            container.style.display = 'block';
+            var finderEl = document.getElementById('finderView');
+            if (finderEl) finderEl.style.display = 'none';
+            buildScopedGraph(container);
+        } else {
+            container.style.display = 'none';
+            var finderEl = document.getElementById('finderView');
+            if (!finderEl) {
+                finderEl = document.createElement('div');
+                finderEl.id = 'finderView';
+                finderEl.className = 'finder-view';
+                container.parentNode.insertBefore(finderEl, container.nextSibling);
+            }
+            finderEl.style.display = 'block';
+            finderEl.innerHTML = html;
+        }
+    }
+
+    function buildScopedGraph(container) {
+        // Build vis-network for current scope's subgraph only
+        if (!galaxy || typeof vis === 'undefined') return;
+
+        var scopeNodes = _currentScope ? getChildren(_currentScope) : getRootNodes();
+        if (_currentScope && nodeMap[_currentScope]) scopeNodes.unshift(nodeMap[_currentScope]);
+
+        var FA = '"Font Awesome 5 Free"';
+        var visNodes = scopeNodes.map(function (n) {
+            var bits = (typeof n.bits === 'number') ? n.bits : 0;
+            var size = 16 + (bits / 255) * 28;
+            if (n.kind === 'ORG') size = 52;
+            else if (n.id === _currentScope) size = 40;
+            return {
+                id: n.id,
+                label: n.kind === 'USER' ? titleCase(n.label.toLowerCase()) : n.label,
+                shape: 'icon',
+                icon: { face: FA, weight: '900', code: iconFor(n), size: size, color: n.color || '#64748b' },
+                font: { color: n.color || '#86868b', size: 10, vadjust: 4, face: 'SF Mono, Menlo, monospace' },
+                shadow: tierShadow(bits),
+                mass: n.id === _currentScope ? 3 : 1
+            };
+        });
+
+        var scopeIdSet = new Set(visNodes.map(function (n) { return n.id; }));
+        var visEdges = [];
+        var eid = 0;
+        scopeNodes.forEach(function (n) {
+            if (n.parent && scopeIdSet.has(n.parent)) {
+                var parent = nodeMap[n.parent];
+                var c = parent ? (parent.color || '#64748b') : '#64748b';
+                visEdges.push({
+                    id: 'se' + (eid++), from: n.parent, to: n.id,
+                    color: { color: hexToRgba(c, 0.15), highlight: hexToRgba(c, 0.5) },
+                    width: 1.5, smooth: { type: 'continuous' }
+                });
+            }
+        });
+
+        nodeDS = new vis.DataSet(visNodes);
+        edgeDS = new vis.DataSet(visEdges);
+
+        network = new vis.Network(container, { nodes: nodeDS, edges: edgeDS }, {
+            physics: {
+                barnesHut: {
+                    gravitationalConstant: -4000, centralGravity: 0.3,
+                    springLength: 120, springConstant: 0.06, damping: 0.9
+                },
+                stabilization: { iterations: 200 }
+            },
+            nodes: { shape: 'dot' },
+            edges: { arrows: { to: { enabled: false } } },
+            interaction: { hover: true, tooltipDelay: 200, zoomView: true, dragView: true }
+        });
+
+        network.on('click', function (params) {
+            if (params.nodes.length === 1) {
+                var nid = params.nodes[0];
+                var node = nodeMap[nid];
+                if (node && node.children > 0 && nid !== _currentScope) {
+                    navigateTo(nid);
+                } else if (node) {
+                    selectScope(nid);
+                }
+            }
+        });
+    }
+
+    // ── TALK INTERFACE (dual-mode: search + chat) ────────
+    var _talkMode = false;      // false = search, true = chat
+    var _talkHistory = [];      // conversation history for current scope
+
+    function toggleTalkMode() {
+        _talkMode = !_talkMode;
+        var input = document.getElementById('searchInput');
+        var modeBtn = document.getElementById('talkModeBtn');
+        if (input) {
+            input.placeholder = _talkMode ? 'Talk to ' + (_currentScope ? nodeMap[_currentScope].label : 'GALAXY') + '...' : 'Search galaxy...';
+        }
+        if (modeBtn) {
+            modeBtn.classList.toggle('active', _talkMode);
+            modeBtn.innerHTML = _talkMode ? '<i class="fas fa-search"></i>' : '<i class="fas fa-comment"></i>';
+            modeBtn.title = _talkMode ? 'Switch to search' : 'Switch to TALK';
+        }
+        var kbdHint = document.querySelector('.sb-kbd');
+        if (kbdHint) kbdHint.style.display = _talkMode ? 'none' : '';
+    }
+
+    function handleTalkSubmit(message) {
+        if (!message.trim()) return;
+        if (!_talkMode) return;
+
+        // Check for governance commands first
+        var govCmd = detectGovCommand(message);
+        if (govCmd) {
+            var resultsInner = document.getElementById('searchResultsInner');
+            var resultsWrap = document.getElementById('searchResults');
+            if (resultsWrap) resultsWrap.classList.add('open');
+            if (resultsInner) {
+                resultsInner.innerHTML += '<div class="talk-msg talk-user"><span class="talk-who">YOU</span>' + escapeHtml(message) + '</div>';
+                resultsInner.innerHTML += '<div class="talk-msg talk-assistant"><span class="talk-who">GALAXY</span>Executing: ' + govCmd.action + '...</div>';
+            }
+            var input = document.getElementById('searchInput');
+            if (input) input.value = '';
+            executeGovCommand(govCmd);
+            return;
+        }
+
+        var scope = _currentScope ? nodeMap[_currentScope] : null;
+        var scopeLabel = scope ? scope.label : 'GALAXY';
+        var scopeContext = scope ? (scope.intel_summary || scope.label) : 'Galaxy root';
+
+        // Show user message in results panel
+        var resultsInner = document.getElementById('searchResultsInner');
+        var resultsWrap = document.getElementById('searchResults');
+        if (resultsWrap) resultsWrap.classList.add('open');
+
+        if (resultsInner) {
+            resultsInner.innerHTML += '<div class="talk-msg talk-user"><span class="talk-who">YOU</span>' + escapeHtml(message) + '</div>';
+            resultsInner.innerHTML += '<div class="talk-msg talk-assistant" id="talkStream"><span class="talk-who">' + scopeLabel + '</span><span class="talk-text">...</span></div>';
+            resultsInner.scrollTop = resultsInner.scrollHeight;
+        }
+
+        // Build history
+        _talkHistory.push({ role: 'user', content: message });
+
+        // Clear input
+        var input = document.getElementById('searchInput');
+        if (input) input.value = '';
+
+        // POST to /chat with SSE streaming
+        var apiBase = AUTH_API || 'https://api.canonic.org';
+        var token = null;
+        try { token = localStorage.getItem('canonic_session_token'); } catch (_) {}
+
+        var headers = { 'Content-Type': 'application/json' };
+        if (token) headers['Authorization'] = 'Bearer ' + token;
+
+        fetch(apiBase + '/chat', {
+            method: 'POST',
+            headers: headers,
+            body: JSON.stringify({
+                message: message,
+                history: _talkHistory.slice(-10),
+                scope: _currentScope || 'GALAXY',
+                system: 'GALAXY operating surface. Scope: ' + scopeLabel + '. Context: ' + scopeContext,
+                stream: true
+            })
+        }).then(function (res) {
+            if (!res.ok) throw new Error('TALK error: ' + res.status);
+            var reader = res.body.getReader();
+            var decoder = new TextDecoder();
+            var fullText = '';
+            var streamEl = document.querySelector('#talkStream .talk-text');
+
+            function readChunk() {
+                reader.read().then(function (result) {
+                    if (result.done) {
+                        _talkHistory.push({ role: 'assistant', content: fullText });
+                        return;
+                    }
+                    var chunk = decoder.decode(result.value, { stream: true });
+                    // Parse SSE: lines starting with "data: "
+                    chunk.split('\n').forEach(function (line) {
+                        if (line.indexOf('data: ') === 0) {
+                            var data = line.slice(6);
+                            if (data === '[DONE]') return;
+                            try {
+                                var parsed = JSON.parse(data);
+                                var text = parsed.delta || parsed.text || parsed.content || '';
+                                fullText += text;
+                                if (streamEl) streamEl.textContent = fullText;
+                            } catch (_) {
+                                // Non-JSON SSE data — treat as raw text
+                                fullText += data;
+                                if (streamEl) streamEl.textContent = fullText;
+                            }
+                        }
+                    });
+                    if (resultsInner) resultsInner.scrollTop = resultsInner.scrollHeight;
+                    readChunk();
+                });
+            }
+            readChunk();
+        }).catch(function (err) {
+            var streamEl = document.querySelector('#talkStream .talk-text');
+            if (streamEl) streamEl.textContent = 'Error: ' + err.message;
+        });
+    }
+
+    function escapeHtml(str) {
+        var div = document.createElement('div');
+        div.textContent = str;
+        return div.innerHTML;
+    }
+
+    // ── TALK GOVERNANCE COMMANDS ────────────────────────────
+    // Detect governance intent from user messages and call admin endpoints
+    function detectGovCommand(message) {
+        var msg = message.toLowerCase().trim();
+
+        // "create scope X under Y"
+        var createMatch = msg.match(/create\s+scope\s+(\w+)(?:\s+under\s+(.+))?/i);
+        if (createMatch) {
+            return {
+                action: 'SCOPE_CREATE',
+                name: createMatch[1].toUpperCase(),
+                parent: createMatch[2] ? createMatch[2].trim() : (_currentScope || 'hadleylab-canonic/SERVICES'),
+                axiom: message, // Use the full message as initial axiom
+            };
+        }
+
+        // "update intel: ..."
+        var intelMatch = msg.match(/update\s+intel[:\s]+(.+)/i);
+        if (intelMatch) {
+            return {
+                action: 'INTEL_UPDATE',
+                scope: _currentScope || 'GALAXY',
+                intel: intelMatch[1].trim(),
+            };
+        }
+
+        // "add learning: ..."
+        var learnMatch = msg.match(/add\s+learning[:\s]+(.+)/i);
+        if (learnMatch) {
+            return {
+                action: 'LEARNING_ADD',
+                scope: _currentScope || 'GALAXY',
+                pattern: learnMatch[1].trim(),
+            };
+        }
+
+        // "/rebuild" — trigger build pipeline
+        if (msg === '/rebuild' || msg === 'rebuild galaxy') {
+            return { action: 'REBUILD' };
+        }
+
+        // "/navigate X" or "go to X" — navigate to scope
+        var navMatch = msg.match(/(?:\/navigate|go\s+to)\s+(.+)/i);
+        if (navMatch) {
+            return { action: 'NAVIGATE', target: navMatch[1].trim().toUpperCase() };
+        }
+
+        // "/mutations" — list pending mutations
+        if (msg === '/mutations' || msg === 'show mutations') {
+            return { action: 'MUTATIONS_LIST' };
+        }
+
+        return null;
+    }
+
+    function executeGovCommand(cmd) {
+        var apiBase = AUTH_API || 'https://api.canonic.org';
+        var token = null;
+        try { token = localStorage.getItem('canonic_session_token'); } catch (_) {}
+        var headers = { 'Content-Type': 'application/json' };
+        if (token) headers['Authorization'] = 'Bearer ' + token;
+
+        var endpoint, body;
+        if (cmd.action === 'SCOPE_CREATE') {
+            endpoint = '/admin/scope/create';
+            body = { parent: cmd.parent, name: cmd.name, axiom: cmd.axiom };
+        } else if (cmd.action === 'INTEL_UPDATE') {
+            endpoint = '/admin/intel/update';
+            body = { scope: cmd.scope, intel: cmd.intel };
+        } else if (cmd.action === 'LEARNING_ADD') {
+            endpoint = '/admin/learning/add';
+            body = { scope: cmd.scope, pattern: cmd.pattern };
+        } else if (cmd.action === 'REBUILD') {
+            endpoint = '/admin/rebuild';
+            body = {};
+        } else if (cmd.action === 'MUTATIONS_LIST') {
+            endpoint = '/admin/mutations';
+            // GET request, handled below
+            fetch(apiBase + endpoint, { headers: headers })
+                .then(function (r) { return r.json(); })
+                .then(function (data) {
+                    if (resultsInner) {
+                        var count = data.count || 0;
+                        var msg = count > 0
+                            ? count + ' pending mutations:\n' + (data.pending || []).map(function (p) { return '  ' + p.key; }).join('\n')
+                            : 'No pending mutations.';
+                        resultsInner.innerHTML += '<div class="talk-msg talk-assistant"><span class="talk-who">SYSTEM</span>' + escapeHtml(msg) + '</div>';
+                        resultsInner.scrollTop = resultsInner.scrollHeight;
+                    }
+                }).catch(function (err) {
+                    if (resultsInner) resultsInner.innerHTML += '<div class="talk-msg talk-user"><span class="talk-who">ERROR</span>' + err.message + '</div>';
+                });
+            return;
+        } else if (cmd.action === 'NAVIGATE') {
+            // Find scope by label match
+            var target = cmd.target;
+            var found = null;
+            Object.keys(nodeMap).forEach(function (id) {
+                if (nodeMap[id].label === target || id.toUpperCase().indexOf(target) !== -1) {
+                    found = id;
+                }
+            });
+            if (found) {
+                navigateToScope(found);
+                if (resultsInner) {
+                    resultsInner.innerHTML += '<div class="talk-msg talk-assistant"><span class="talk-who">SYSTEM</span>Navigated to ' + nodeMap[found].label + '</div>';
+                }
+            } else {
+                if (resultsInner) {
+                    resultsInner.innerHTML += '<div class="talk-msg talk-user"><span class="talk-who">SYSTEM</span>Scope not found: ' + target + '</div>';
+                }
+            }
+            return;
+        } else {
+            return;
+        }
+
+        var resultsInner = document.getElementById('searchResultsInner');
+
+        fetch(apiBase + endpoint, {
+            method: 'POST',
+            headers: headers,
+            body: JSON.stringify(body),
+        }).then(function (r) { return r.json(); })
+        .then(function (data) {
+            if (resultsInner) {
+                var statusClass = data.ok ? 'talk-assistant' : 'talk-user';
+                resultsInner.innerHTML += '<div class="talk-msg ' + statusClass + '"><span class="talk-who">SYSTEM</span>' + (data.message || data.error || 'Done') + '</div>';
+                resultsInner.scrollTop = resultsInner.scrollHeight;
+            }
+        }).catch(function (err) {
+            if (resultsInner) {
+                resultsInner.innerHTML += '<div class="talk-msg talk-user"><span class="talk-who">ERROR</span>' + err.message + '</div>';
+            }
+        });
+    }
+
+    // ── COIN FEED TOGGLE ──────────────────────────────────
+    var _coinFeedOpen = false;
+    function toggleCoinFeed() {
+        _coinFeedOpen = !_coinFeedOpen;
+        var el = document.getElementById('coinFeed');
+        if (el) el.style.display = _coinFeedOpen ? 'block' : 'none';
+    }
+
+    function selectScope(nodeId) {
+        var node = nodeMap[nodeId];
+        if (!node) return;
+        _selectedNodeId = nodeId;
+        renderControlPanel();
+        openRightDrawer();
+    }
+
+    function toggleView() {
+        _viewMode = _viewMode === 'finder' ? 'graph' : 'finder';
+        if (_viewMode === 'finder' && network) {
+            network.destroy();
+            network = null;
+        }
+        renderFinderView();
+    }
+
+    // ── MAGIC:// HASH ROUTING ──────────────────────────────
+    function updateHash() {
+        if (_currentScope) {
+            window.location.hash = '#magic://' + _currentScope;
+        } else {
+            if (window.location.hash) history.pushState(null, '', window.location.pathname + window.location.search);
+        }
+    }
+
+    function parseHash() {
+        var hash = window.location.hash;
+        if (!hash || hash.indexOf('#magic://') !== 0) return null;
+        return hash.replace('#magic://', '');
+    }
+
+    function handleHashChange() {
+        var scopeId = parseHash();
+        if (scopeId && nodeMap[scopeId]) {
+            _currentScope = scopeId;
+            _navStack = getBreadcrumb(scopeId).map(function (c) { return c.id; });
+            renderFinderView();
+        } else if (!scopeId) {
+            _currentScope = null;
+            _navStack = [];
+            renderFinderView();
+        }
+    }
+
     // ── TRANSFORM SCOPES → GALAXY ────────────────────────
     function transformScopes(scopes) {
         var childCount = {};
@@ -1284,11 +2003,44 @@ var GALAXY = (function () {
     }
 
     // ── INIT ─────────────────────────────────────────────
-    async function init(el) {
-        _authUser = await validateGalaxyAuth();
+    async function init(opts) {
+        // Accept options: { session, el }
+        var el = null;
+        if (opts && opts.session) {
+            _session = opts.session;
+            _authUser = opts.session;
+        } else if (opts && opts.nodeType) {
+            // Legacy: init(element)
+            el = opts;
+        } else {
+            _authUser = await validateGalaxyAuth();
+        }
 
-        var res = await fetch('../galaxy.json');
-        var raw = await res.json();
+        // Load galaxy data: scoped from worker if authenticated, static otherwise
+        var raw = null;
+        if (_session) {
+            // Try scoped galaxy from worker
+            try {
+                var token = null;
+                try { token = localStorage.getItem('canonic_session_token'); } catch (_) {}
+                if (token) {
+                    var scopedRes = await fetch((AUTH_API || 'https://api.canonic.org') + '/galaxy/scope', {
+                        headers: { 'Authorization': 'Bearer ' + token }
+                    });
+                    if (scopedRes.ok) {
+                        var scopedData = await scopedRes.json();
+                        if (!scopedData.fallback) {
+                            raw = scopedData;
+                        }
+                    }
+                }
+            } catch (_) {}
+        }
+        if (!raw) {
+            // Fallback: static galaxy.json
+            var res = await fetch('../galaxy.json');
+            raw = await res.json();
+        }
         galaxy = Array.isArray(raw) ? transformScopes(raw) : raw;
 
         // Load HTTP.json for vanity domains
@@ -1299,17 +2051,45 @@ var GALAXY = (function () {
 
         AUTH_API = galaxy.api_base || '';
         _compiledTiers = galaxy.tiers || [];
+
+        // Build nodeMap for all nodes
+        galaxy.nodes.forEach(function (n) { nodeMap[n.id] = n; });
+
         var container = el || document.getElementById('galaxy');
         if (!container) return;
-        buildGraph(container);
-        renderControlPanel();
-        renderCatLegend();
 
-        if (network) {
-            network.once('stabilizationIterationsDone', function () {
-                var loader = document.getElementById('galaxyLoader');
-                if (loader) loader.classList.add('hidden');
-            });
+        // Determine view mode: Finder if galaxy layout, graph if legacy
+        var isGalaxySurface = document.body.classList.contains('galaxy-surface');
+        if (isGalaxySurface) {
+            _viewMode = 'finder';
+            // Check for deep link
+            var deepLink = parseHash();
+            if (deepLink && nodeMap[deepLink]) {
+                _currentScope = deepLink;
+                _navStack = getBreadcrumb(deepLink).map(function (c) { return c.id; });
+            }
+            renderFinderView();
+            renderControlPanel();
+            renderCatLegend();
+
+            // Hide loader
+            var loader = document.getElementById('galaxyLoader');
+            if (loader) loader.classList.add('hidden');
+
+            // Listen for hash changes (browser back/forward)
+            window.addEventListener('hashchange', handleHashChange);
+        } else {
+            // Legacy: full force-directed graph
+            buildGraph(container);
+            renderControlPanel();
+            renderCatLegend();
+
+            if (network) {
+                network.once('stabilizationIterationsDone', function () {
+                    var loader = document.getElementById('galaxyLoader');
+                    if (loader) loader.classList.add('hidden');
+                });
+            }
         }
 
         // Search keybinding (Cmd+K / Ctrl+K)
@@ -1326,17 +2106,28 @@ var GALAXY = (function () {
                 } else if (_rightOpen) {
                     closeRightDrawer();
                 } else {
-                    if (_collapseAll) _collapseAll();
-                    closeDetail();
-                    if (network) network.fit({ animation: { duration: 400, easingFunction: 'easeInOutQuad' } });
+                    if (_viewMode === 'finder') {
+                        navigateBack();
+                    } else {
+                        if (_collapseAll) _collapseAll();
+                        closeDetail();
+                        if (network) network.fit({ animation: { duration: 400, easingFunction: 'easeInOutQuad' } });
+                    }
                 }
+            }
+            // Backspace navigates back in Finder (when not in input)
+            if (e.key === 'Backspace' && _viewMode === 'finder' && document.activeElement.tagName !== 'INPUT') {
+                e.preventDefault();
+                navigateBack();
             }
         });
 
-        // Search input
+        // Search/TALK input
         var searchInput = document.getElementById('searchInput');
         if (searchInput) {
-            searchInput.addEventListener('input', function () { handleSearchInput(this.value); });
+            searchInput.addEventListener('input', function () {
+                if (!_talkMode) handleSearchInput(this.value);
+            });
             searchInput.addEventListener('focus', function () {
                 if (_leftOpen) closeLeftDrawer();
                 if (_rightOpen) closeRightDrawer();
@@ -1344,6 +2135,15 @@ var GALAXY = (function () {
             });
             searchInput.addEventListener('keydown', function (e) {
                 if (e.key === 'Escape') closeSearch();
+                if (e.key === 'Enter' && _talkMode) {
+                    e.preventDefault();
+                    handleTalkSubmit(searchInput.value);
+                }
+                // "/" prefix auto-switches to TALK mode
+                if (e.key === '/' && !_talkMode && searchInput.value === '') {
+                    e.preventDefault();
+                    toggleTalkMode();
+                }
             });
         }
 
@@ -1406,6 +2206,13 @@ var GALAXY = (function () {
         fixDim: fixDim,
         fixFromIntel: fixFromIntel,
         clearScope: clearScope,
-        auth: function () { return _authUser; }
+        auth: function () { return _authUser; },
+        // Finder navigation
+        navigateTo: navigateTo,
+        navigateBack: navigateBack,
+        selectScope: selectScope,
+        toggleView: toggleView,
+        toggleCoinFeed: toggleCoinFeed,
+        toggleTalkMode: toggleTalkMode
     };
 })();

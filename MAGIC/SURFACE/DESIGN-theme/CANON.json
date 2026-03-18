@@ -48,5 +48,40 @@
     "name": "FULL",
     "score": 255,
     "intel": true
+  },
+  "canon": {
+    "axiom": "This repo IS the JEKYLL service runtime. `remote_theme: canonic-canonic/DESIGN`.",
+    "constraints": "MUST:     Match DESIGN.md 255 Map exactly\nMUST:     Compile via GitHub Pages Jekyll\nMUST NOT: Contain content\nMUST NOT: Contain custom compilers",
+    "inherits": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
+    "spec": [
+      {
+        "title": "Scope",
+        "body": "DESIGN-theme IS the JEKYLL service runtime. `remote_theme: canonic-canonic/DESIGN`. Fleet sites consume this theme — contains no content."
+      },
+      {
+        "title": "Hierarchy",
+        "body": "```\nMAGIC\n└── SURFACE\n    └── DESIGN\n        └── JEKYLL\n            └── DESIGN-theme\n                ├── _includes/\n                ├── _layouts/\n                ├── _sass/\n                ├── assets/\n                └── demo/\n```"
+      },
+      {
+        "title": "Evolution",
+        "body": "| Date | Event |\n|------|-------|\n| 2025-12 | Jekyll theme established |\n| 2026-01 | DESIGN.css universal |\n| 2026-02 | Fleet sites consuming via _config.yml remote_theme |\n\n---\n\n*DESIGN-theme | SURFACE | MAGIC*"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "- Remote_theme distribution — fleet sites consume, never fork\n- One stylesheet — DESIGN.css universal\n- No content in theme — content in fleet repos\n- Jekyll compilation — GitHub Pages native\n\n---\n\n*LEARNING | DESIGN-theme | MAGIC*"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [],
+    "chain": [
+      {
+        "scope": "JEKYLL",
+        "axiom": "JEKYLL is MAGIC made visible. DESIGN is the language. JEKYLL is the compiler.",
+        "constraints": "MUST:     Derive visuals from governed primitives (no ad hoc style drift)\nMUST:     Keep design language in GOV; runtime renders only\nMUST:     Card icons render inline preceding the card title (not stacked)\nMUST:     Hero demo cycles all governed TALK products (not a subset)\nMUST NOT: Introduce visual rules outside governed contracts"
+      }
+    ]
   }
 }

@@ -56,5 +56,60 @@
     "name": "FULL",
     "score": 255,
     "intel": true
+  },
+  "canon": {
+    "axiom": "Breast cancer intelligence governed by evidence-based standards. BI-RADS, mCODE, NCCN.",
+    "constraints": "MUST:     Cite clinical standard for every claim (BI-RADS, mCODE, NCCN, AJCC)\nMUST:     Distinguish DCIS from invasive carcinoma\nMUST NOT: Generate treatment recommendations without guideline citation",
+    "inherits": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology",
+    "spec": [
+      {
+        "title": "Scope",
+        "body": "Breast cancer intelligence governance. Mammography, pathology, treatment pathways."
+      },
+      {
+        "title": "Standards",
+        "body": "| Standard | Domain |\n|----------|--------|\n| BI-RADS 5th Edition | Mammographic assessment |\n| mCODE-STU3 | Structured cancer data |\n| NCCN 2024 | Treatment pathways |\n| AJCC 8th Edition | Staging |\n\n---"
+      }
+    ],
+    "learning": [],
+    "coverage": "255/255",
+    "roadmap": {
+      "later": [
+        "Full breast oncology decision support: screening through survivorship, governed by clinical standards",
+        "Cross-institutional breast cancer registry federation",
+        "COIN integration: breast oncology intelligence as metered service for clinical and research use"
+      ]
+    },
+    "vocab": [
+      {
+        "term": "BREAST",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DCIS",
+        "definition": "Governed term in this scope vocabulary."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "oncology",
+        "constraints": "Required mCODE profiles:\n- CancerPatient\n- PrimaryCancerCondition\n- TNMStageGroup\n- CancerRelatedProcedure\n- CancerRelatedMedicationStatement\n- TumorMarker\n- GenomicsReport\n- CancerDiseaseStatus"
+      },
+      {
+        "scope": "MEDICINE",
+        "axiom": "Example",
+        "constraints": "MUST:     Cite specific regulation (CFR, statute, or standard) for compliance claims\nMUST:     Distinguish federal from state from international jurisdiction\nMUST NOT: Present clinical guidance without evidence level classification"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "axiom": "INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.",
+        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      }
+    ]
   }
 }
