@@ -2066,31 +2066,10 @@ var GALAXY = (function () {
             _authUser = await validateGalaxyAuth();
         }
 
-        // Load galaxy data: scoped from worker if authenticated, static otherwise
-        var raw = null;
-        if (_session) {
-            // Try scoped galaxy from worker
-            try {
-                var token = null;
-                try { token = localStorage.getItem('canonic_session_token'); } catch (_) {}
-                if (token) {
-                    var scopedRes = await fetch((AUTH_API || 'https://api.canonic.org') + '/galaxy/scope', {
-                        headers: { 'Authorization': 'Bearer ' + token }
-                    });
-                    if (scopedRes.ok) {
-                        var scopedData = await scopedRes.json();
-                        if (!scopedData.fallback) {
-                            raw = scopedData;
-                        }
-                    }
-                }
-            } catch (_) {}
-        }
-        if (!raw) {
-            // Fallback: static galaxy.json
-            var res = await fetch('../galaxy.json');
-            raw = await res.json();
-        }
+        // Load full galaxy — static galaxy.json is the compiled source of truth
+        // Scoped views filter client-side based on session grants
+        var res = await fetch('../galaxy.json');
+        var raw = await res.json();
         galaxy = Array.isArray(raw) ? transformScopes(raw) : raw;
 
         // Load HTTP.json for vanity domains
