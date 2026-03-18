@@ -71,7 +71,7 @@ var GALAXY = (function () {
     }
 
     function formatCoin(n) {
-        return n.toLocaleString();
+        return (n || 0).toLocaleString();
     }
 
     // ── LAUNCH URL RESOLVER ──
