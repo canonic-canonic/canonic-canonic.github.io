@@ -1998,6 +1998,7 @@ var GALAXY = (function () {
         var container = document.getElementById('galaxy');
         if (_viewMode === 'graph') {
             // Switch to force-directed graph
+            if (network) { network.destroy(); network = null; }
             var finderEl = document.getElementById('finderView');
             if (finderEl) finderEl.style.display = 'none';
             if (container) {
