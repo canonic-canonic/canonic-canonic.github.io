@@ -328,7 +328,7 @@ sections:
         features:
           - "Everything in COMMUNITY"
           - "Specification document"
-          - "Structure and organization"
+          - "Organized and auditable"
           - "Publishable and auditable"
         ctaLabel: "Get started"
         ctaHref: "#"

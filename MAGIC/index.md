@@ -156,13 +156,13 @@ sections:
         features:
           - "Everything in COMMUNITY"
           - "Specification — the interface"
-          - "Structure and organization"
+          - "Organized and auditable"
         ctaLabel: "Get started"
         ctaHref: "#"
         ctaTalk: true
       - name: ENTERPRISE
         price: "127"
-        sub: "+ Transparency + Operations"
+        sub: "+ Visibility + Health"
         features:
           - "Everything in BUSINESS"
           - "Roadmap — where it's going"
@@ -174,7 +174,7 @@ sections:
         featured: true
       - name: AGENT
         price: "224"
-        sub: "+ Learning"
+        sub: "+ Self-Improvement"
         features:
           - "Everything in ENTERPRISE"
           - "Self-improvement from errors"
