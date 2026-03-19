@@ -40,7 +40,7 @@ stats:
 hero:
   badge: AI GOVERNANCE PLATFORM
   title: "Your AI ships. Can you prove it's compliant?"
-  description: "CANONIC is the governance platform that turns compliance from a cost center into a competitive advantage. Proven across medicine, real estate, finance, and 18 more regulated industries. 20,000+ governed encounters. One compliance target: 255."
+  description: "Every regulated AI needs a compliance score before it ships. CANONIC compiles governance declarations into a 255-bit attestation, validated by the same engine that governs 20,000+ clinical encounters across 51 enterprise hospitals. Medicine, real estate, finance, defense: 21 industries, one target."
   cta:
     - label: Talk to Us
       href: "#"
