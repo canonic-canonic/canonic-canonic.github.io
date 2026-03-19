@@ -436,6 +436,17 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:DEALS:CAOH",
+      "label": "CAOH",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:DEALS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DEALS:EXCELLENTING",
       "label": "EXCELLENTING",
       "bits": 255,
