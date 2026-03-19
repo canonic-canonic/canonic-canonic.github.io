@@ -107,14 +107,14 @@ This returns a score from 0 to 255. Each dimension adds bits:
 |-----------|------|------|
 | Declarative (D) | CANON.md | ✓ |
 | Evidential (E) | VOCAB.md | ✓ |
-| Structural (S) | inherits + axiom + constraints | ✓ |
-| Reproducible (R) | {SCOPE}.md | ✓ |
-| Transparent (T) | ROADMAP.md | optional |
-| Operational (O) | COVERAGE.md | ✓ |
-| Linguistic (L) | LEARNING.md | optional |
-| Language (LANG) | inherited from parent | automatic |
+| Structure | inherits + axiom + constraints | ✓ |
+| Reproducibility | {SCOPE}.md | ✓ |
+| Transparency | ROADMAP.md | optional |
+| Operations | COVERAGE.md | ✓ |
+| Learning | LEARNING.md | optional |
+| Language | inherited from parent | automatic |
 
-At minimum, aim for COMMUNITY tier (D + E + S = 35 bits).
+At minimum, aim for COMMUNITY tier (Declaration + Evidence + Structure = 35 bits).
 
 ---
 

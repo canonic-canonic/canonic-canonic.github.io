@@ -6,6 +6,14 @@ description: ""
 footerTagline: "META"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /industries/meta/meta.pdf
+downloads:
+  - label: "PDF"
+    href: "/industries/meta/meta.pdf"
 hero:
   badge: META
   title: "META"
@@ -17,3 +25,5 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+*META | CANON | INDUSTRIES*

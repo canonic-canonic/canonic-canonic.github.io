@@ -1,8 +1,8 @@
 ---
 layout: default
 scope: MAGIC
-title: MAGIC
-description: "The enforcement layer. INTEL + CHAT + COIN. The compliance engine that turns governance declarations into compliance scores."
+title: "MAGIC — The AI Compliance Engine | CANONIC"
+description: "The AI compliance engine that turns governance declarations into 255-bit compliance scores. Three capabilities (INTEL + CHAT + COIN), five tiers, and a COIN economy that makes governance profitable."
 footerTagline: "MAGIC — The Machine"
 talk: side
 nav:
@@ -16,6 +16,8 @@ nav:
     href: "#economy"
   - label: Network
     href: "#galaxy"
+  - label: Fleet
+    href: "#fleet"
   - label: Proof
     href: "#proof"
 stats:
@@ -101,7 +103,7 @@ sections:
     feature:
       eyebrow: "EIGHT DIMENSIONS"
       title: "255 = all eight satisfied."
-      text: "Declaration. Evidence. Transparency. Reproducibility. Operations. Structure. Learning. Language. Each dimension contributes a binary weight. The score is a bitmask — every bit carries information. A score of 254 means exactly one dimension is missing, and the bitmask tells you which one."
+      text: "Eight questions. Eight bits. Each question either has an answer or it does not. The score is a bitmask — every bit carries information. A score of 254 means exactly one question is unanswered, and the bitmask tells you which one."
       figure:
         type: gauge
         value: 255
@@ -109,28 +111,28 @@ sections:
         label: "MAGIC SCORE"
     cards:
       - class: card
-        title: "Declaration"
+        title: "What does this system do?"
         text: "CANON.md exists. The system states what it is and what it believes."
       - class: card
-        title: "Evidence"
+        title: "What terms does it define?"
         text: "VOCAB.md exists. Every term defined. No ambiguity. No hallucination by design."
       - class: card
-        title: "Transparency"
+        title: "Where is it going?"
         text: "ROADMAP.md exists. What shipped, what is next, and when. Versioned and public."
       - class: card
-        title: "Reproducibility"
+        title: "How is it specified?"
         text: "The specification document exists. Exact interface and boundaries described."
       - class: card
-        title: "Operations"
+        title: "How healthy is it?"
         text: "COVERAGE.md exists. Eight diagnostic questions answered. No gaps."
       - class: card
-        title: "Structure"
+        title: "How is it organized?"
         text: "Inheritance, constraints, and axioms enforced in code — not a policy binder."
       - class: card
-        title: "Learning"
+        title: "What has it learned?"
         text: "LEARNING.md exists. The system learns from its own errors. Each incident closes a gap."
       - class: card
-        title: "Language"
+        title: "What language does it speak?"
         text: "DESIGN inherited. The governance language is inherited, not invented. Consistency across the stack."
   - id: tiers
     eyebrow: "COMPLIANCE TIERS"
@@ -139,32 +141,32 @@ sections:
     tiers:
       - name: COMMUNITY
         price: "35"
-        sub: "D + E + S"
+        sub: "Foundation"
         features:
-          - "CANON.md — Declaration"
+          - "CANON.md — the axiom"
           - "README.md — Interface"
-          - "VOCAB.md — Evidence"
+          - "VOCAB.md — defined terms"
           - "Minimum viable governance"
         ctaLabel: "Start here"
         ctaHref: "#"
         ctaTalk: true
       - name: BUSINESS
         price: "63"
-        sub: "+ R"
+        sub: "+ Specification"
         features:
           - "Everything in COMMUNITY"
-          - "Specification — Reproducibility"
-          - "Structure and organization"
+          - "Specification — the interface"
+          - "Organized and auditable"
         ctaLabel: "Get started"
         ctaHref: "#"
         ctaTalk: true
       - name: ENTERPRISE
         price: "127"
-        sub: "+ T + O"
+        sub: "+ Visibility + Health"
         features:
           - "Everything in BUSINESS"
-          - "Transparency — Roadmap"
-          - "Operations — Coverage"
+          - "Roadmap — where it's going"
+          - "Coverage — how healthy it is"
           - "Continuous governance"
         ctaLabel: "Talk to us"
         ctaHref: "#"
@@ -172,10 +174,10 @@ sections:
         featured: true
       - name: AGENT
         price: "224"
-        sub: "+ L"
+        sub: "+ Self-Improvement"
         features:
           - "Everything in ENTERPRISE"
-          - "Learning — self-improvement"
+          - "Self-improvement from errors"
           - "Error-driven refinement"
         ctaLabel: "Talk to us"
         ctaHref: "#"
@@ -185,7 +187,7 @@ sections:
         sub: "FULL"
         features:
           - "Everything in AGENT"
-          - "Language — inherited DESIGN"
+          - "Inherited design system"
           - "All 8 dimensions"
           - "COIN minting enabled"
         ctaLabel: "Deploy now"
@@ -241,10 +243,37 @@ sections:
           href: https://hadleylab.org
         - label: Read the neutral theory
           href: https://hadleylab.org/PAPERS/neutral-theory/
+  - id: fleet
+    eyebrow: "THE FLEET"
+    title: "Shipped products running under MAGIC."
+    description: "The compliance engine validates real products with real users. [MammoChat](https://hadleylab.org/TALKS/MAMMOCHAT/) governs breast health as a live clinical trial. [RUNNER](https://hadleylab.org/TALKS/RUNNER/) governs every listing task in a $12.2M real estate portfolio. [REAL TALK](https://hadleylab.org/TALKS/REALTY/) answers property questions from public records. Same engine. Different domains."
+    feature:
+      eyebrow: "TWO FLAGSHIPS"
+      title: "MammoChat + RUNNER. Clinical AI + Real Estate."
+      text: "MammoChat: 20,000+ governed encounters, 51 enterprise hospitals, NCT06604078. RUNNER: $12.2M portfolio, 3 properties, 2 countries, 12 service categories. Both at 255. Both live. Both minting COIN."
+      figure:
+        type: app-grid
+        apps:
+          - label: MammoChat
+            href: https://hadleylab.org/TALKS/MAMMOCHAT/
+          - label: RUNNER
+            href: https://hadleylab.org/TALKS/RUNNER/
+          - label: OncoChat
+            href: https://hadleylab.org/TALKS/ONCOCHAT/
+          - label: REAL TALK
+            href: https://hadleylab.org/TALKS/REALTY/
+          - label: OmicsChat
+            href: https://hadleylab.org/TALKS/OMICSCHAT/
+          - label: NONA
+            href: https://hadleylab.org/TALKS/NONA/
+    cta:
+      buttons:
+        - label: Visit Hadley Lab
+          href: https://hadleylab.org
   - id: proof
-    eyebrow: "FIRST IMPLEMENTATION"
-    title: "The proof that the engine works."
-    description: "Hadley Lab is the first organization to validate to 255 under MAGIC. 9 governance domains. 4 clinical AIs — including MammoChat, a free breast health companion running as a live clinical trial (NCT06604078), funded by a $2M Florida Department of Health grant. 3 real estate agents governing a $12.2M portfolio. Financial and legal intelligence. 20,000+ governed encounters. $35M+ in PI funding. Built by Dexter Hadley, MD/PhD — 23 years in academic medicine, 121+ publications. CANONIC is the platform. Hadley Lab is the proof."
+    eyebrow: "PROVEN IN PRODUCTION"
+    title: "Built by a lab that lives under its own governance."
+    description: "[Hadley Lab](https://hadleylab.org) is the first organization certified to 255 under MAGIC. 9 governance domains. 4 clinical AIs. 3 real estate agents. 20,000+ governed encounters. The lab is the proof that the engine works at production scale."
     feature:
       eyebrow: "255/255"
       title: "9 governance domains. All at 255."
@@ -258,7 +287,5 @@ sections:
         - label: Visit Hadley Lab
           href: https://hadleylab.org
         - label: Read the origin story
-          href: https://hadleylab.org/BLOGS/2026-01-31-mammochat-to-magic/
+          href: https://hadleylab.org/BLOGS/2026-02-18-why-we-built-this/
 ---
-
-<!-- _generated: build-surfaces -->

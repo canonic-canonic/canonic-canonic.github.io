@@ -6,6 +6,14 @@ description: "Breast cancer intelligence governed by evidence-based standards. B
 footerTagline: "breast"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /industries/verticals/medicine/oncology/breast/breast.pdf
+downloads:
+  - label: "PDF"
+    href: "/industries/verticals/medicine/oncology/breast/breast.pdf"
 hero:
   badge: breast
   title: "breast"
@@ -17,3 +25,15 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+## Constraints
+
+```
+MUST:     Cite clinical standard for every claim (BI-RADS, mCODE, NCCN, AJCC)
+MUST:     Distinguish DCIS from invasive carcinoma
+MUST NOT: Generate treatment recommendations without guideline citation
+```
+
+---
+
+*BREAST ONCOLOGY | CANON | oncology*

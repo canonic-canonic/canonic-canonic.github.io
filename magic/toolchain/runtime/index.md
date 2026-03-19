@@ -6,6 +6,9 @@ description: "Shared fleet primitives. talk.js + fleet.json. JEKYLL is the compi
 footerTagline: "RUNTIME"
 talk: side
 view: web
+views:
+  - gov
+  - web
 hero:
   badge: RUNTIME
   title: "RUNTIME"
@@ -17,3 +20,16 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+## Constraints
+
+```
+MUST:     One talk.js — scope-specific INTEL wired via systemPrompt
+MUST:     Jekyll remote_theme distributes DESIGN to all fleet sites
+MUST NOT: Hardcode site-specific content in shared assets
+MUST NOT: Introduce custom compilers — Jekyll is the compiler
+```
+
+---
+
+*RUNTIME | CANON | TOOLCHAIN*

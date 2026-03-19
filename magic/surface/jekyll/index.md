@@ -6,6 +6,14 @@ description: "JEKYLL is MAGIC made visible. DESIGN is the language. JEKYLL is th
 footerTagline: "JEKYLL"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /magic/surface/jekyll/jekyll.pdf
+downloads:
+  - label: "PDF"
+    href: "/magic/surface/jekyll/jekyll.pdf"
 hero:
   badge: JEKYLL
   title: "JEKYLL"
@@ -17,3 +25,21 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+No decoration. No divergence. Every pixel maps to a governed primitive.
+
+---
+
+## Constraints
+
+```
+MUST:     Derive visuals from governed primitives (no ad hoc style drift)
+MUST:     Keep design language in GOV; runtime renders only
+MUST:     Card icons render inline preceding the card title (not stacked)
+MUST:     Hero demo cycles all governed TALK products (not a subset)
+MUST NOT: Introduce visual rules outside governed contracts
+```
+
+---
+
+*JEKYLL | CANON | JEKYLL*

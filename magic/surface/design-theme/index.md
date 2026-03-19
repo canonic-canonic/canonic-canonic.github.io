@@ -6,6 +6,9 @@ description: "This repo IS the JEKYLL service runtime. `remote_theme: canonic-ca
 footerTagline: "DESIGN-theme"
 talk: side
 view: web
+views:
+  - gov
+  - web
 hero:
   badge: DESIGN-theme
   title: "DESIGN-theme"
@@ -17,3 +20,16 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+## Constraints
+
+```
+MUST:     Match DESIGN.md 255 Map exactly
+MUST:     Compile via GitHub Pages Jekyll
+MUST NOT: Contain content
+MUST NOT: Contain custom compilers
+```
+
+---
+
+*DESIGN | CANON | JEKYLL*

@@ -6,6 +6,14 @@ description: "DOCTRINE is fixed. DRY. Mathematical. Enforced by structure."
 footerTagline: "DOCTRINE"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /foundation/doctrine/doctrine.pdf
+downloads:
+  - label: "PDF"
+    href: "/foundation/doctrine/doctrine.pdf"
 hero:
   badge: DOCTRINE
   title: "DOCTRINE"
@@ -17,3 +25,19 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+## Constraints
+
+```
+MUST:     Inherit from SHOP
+MUST:     Keep doctrine dry — no narrative arc, no fluff
+MUST:     Keep doctrine fixed — edits are versioned, never overwritten
+MUST:     Encode the spine (ordered chapters) in DOCTRINE.md
+MUST:     Keep kernel details out of public APIs (magic.h only exposes tiers + 255)
+MUST:     Maintain inheritance chain for all doctrine artifacts
+MUST NOT: Duplicate tier algebra already defined by MAGIC
+```
+
+---
+
+*DOCTRINE | CANON | FOUNDATION*

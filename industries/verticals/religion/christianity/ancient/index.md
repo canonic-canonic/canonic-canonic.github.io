@@ -6,6 +6,14 @@ description: "Pre-schism Christianity. The first three ecumenical councils (Nica
 footerTagline: "ancient"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /industries/verticals/religion/christianity/ancient/ancient.pdf
+downloads:
+  - label: "PDF"
+    href: "/industries/verticals/religion/christianity/ancient/ancient.pdf"
 hero:
   badge: ancient
   title: "ancient"
@@ -17,3 +25,15 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+## Constraints
+
+```
+MUST:     Cite conciliar source for doctrinal claims
+MUST:     Distinguish pre-Nicene from post-Nicene traditions
+MUST NOT: Retroject later denominational categories onto early church
+```
+
+---
+
+*ANCIENT CHURCHES | CANON | christianity*

@@ -6,6 +6,14 @@ description: "NOTIFIER is NOTIFY + INTEL composed. Scope determines the route. L
 footerTagline: "NOTIFIER"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /magic/services/notifier/notifier.pdf
+downloads:
+  - label: "PDF"
+    href: "/magic/services/notifier/notifier.pdf"
 hero:
   badge: NOTIFIER
   title: "NOTIFIER"
@@ -17,3 +25,23 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+## Constraints
+
+```
+MUST:     Wire INTEL — never deliver without context
+MUST:     Scope determines the route — notify: header in GOV → direct mapping at write time
+MUST:     Every delivery ledgered — sender scope, receiver scope, timestamp, content hash
+MUST:     Inline at ledger write — no polling, no delay
+MUST:     Inbox per principal — governed, bounded, auditable
+MUST:     Cross-scope only — NOTIFIER bridges identity boundaries
+MUST:     GOV declares routes — notify: field in CANON.md headers
+MUST NOT: Deliver without governed route (no ad-hoc messaging)
+MUST NOT: Poll — direct mapping or nothing
+MUST NOT: Leak content across scope boundaries without declared notify: route
+MUST NOT: Fabricate delivery receipts
+```
+
+---
+
+*NOTIFIER | CANON | SERVICES*

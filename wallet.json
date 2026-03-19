@@ -2,13 +2,13 @@
   "canon": "WALLET",
   "work_equals_coin": true,
   "wallet": {
-    "canon": "WALLET",
+    "canon": "WALLET.v1",
     "currency": "COIN",
     "work_equals_coin": true,
     "events": 0,
     "balance": 0,
     "last_close": "",
-    "updated_at": "2026-03-18T15:52:05.755719Z",
+    "updated_at": "2026-02-16T03:40:00Z",
     "totals": {
       "SALE": 0,
       "DONATION": 0,

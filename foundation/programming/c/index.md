@@ -6,6 +6,14 @@ description: "FFI = Foreign function interface. Kernel. Bare metal."
 footerTagline: "c"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /foundation/programming/c/c.pdf
+downloads:
+  - label: "PDF"
+    href: "/foundation/programming/c/c.pdf"
 hero:
   badge: c
   title: "c"
@@ -17,3 +25,21 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+Compliance runtime for foreign function interface. C implementation.
+
+Neofunctionalized from Rust for universal FFI across all runtimes.
+C ABI is the universal bridge between language runtimes.
+
+---
+
+## Constraints
+
+1. C MUST validate against SPEC.
+2. C MUST implement the full compliance specification.
+3. C MUST provide FFI bindings for other runtimes.
+4. C SHOULD enable kernel-level compliance.
+
+---
+
+*CANONIC-C | CANON | PROGRAMMING*

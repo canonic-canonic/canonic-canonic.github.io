@@ -6,6 +6,9 @@ description: ""
 footerTagline: "adventist"
 talk: side
 view: web
+views:
+  - gov
+  - web
 hero:
   badge: adventist
   title: "adventist"

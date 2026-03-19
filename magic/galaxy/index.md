@@ -5,6 +5,9 @@ title: "GALAXY"
 description: "GALAXY is the operating surface of distributed CANONIC."
 galaxy: true
 auth: true
+views:
+  - gov
+  - web
 ---
 
 ## Axiom
