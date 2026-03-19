@@ -9,6 +9,11 @@ view: web
 views:
   - gov
   - web
+  - tex
+pdf: /industries/verticals/verticals.pdf
+downloads:
+  - label: "PDF"
+    href: "/industries/verticals/verticals.pdf"
 hero:
   badge: VERTICALS
   title: "VERTICALS"
@@ -20,3 +25,5 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+*VERTICALS | CANON | INDUSTRIES*

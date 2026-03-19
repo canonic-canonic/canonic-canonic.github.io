@@ -9,6 +9,11 @@ view: web
 views:
   - gov
   - web
+  - tex
+pdf: /magic/surface/design/talk/talk.pdf
+downloads:
+  - label: "PDF"
+    href: "/magic/surface/design/talk/talk.pdf"
 hero:
   badge: TALK
   title: "TALK"
@@ -20,3 +25,26 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+```
+name       = canonic-services
+scope      = DESIGN/TALK
+domain     = api.canonic.org
+runtime    = Cloudflare Workers
+provider   = anthropic/openai/deepseek/runpod/vastai (switchable)
+```
+
+---
+
+## Constraints
+
+1. MUST route all services through api.canonic.org
+2. MUST use wrangler secrets for all API keys — zero hardcoding
+3. MUST support provider switching via PROVIDER var
+4. MUST validate CORS for all origins
+5. MUST NOT expose secrets in responses
+6. MUST govern every new route in this CANON.md
+
+---
+
+*TALK | CANON | DESIGN*

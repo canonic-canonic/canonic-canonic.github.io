@@ -9,6 +9,11 @@ view: web
 views:
   - gov
   - web
+  - tex
+pdf: /magic/toolchain/operations/operations.pdf
+downloads:
+  - label: "PDF"
+    href: "/magic/toolchain/operations/operations.pdf"
 hero:
   badge: OPERATIONS
   title: "OPERATIONS"
@@ -20,3 +25,17 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+## Constraints
+
+```
+MUST:     All fleet sites declared in FLEET.md
+MUST:     Shared assets synced via bin/sync-fleet
+MUST:     Recovery documented — full runtime restored in five commands
+MUST NOT: Deploy undeclared sites
+MUST NOT: Manual asset copying — sync-fleet is the mechanism
+```
+
+---
+
+*OPERATIONS | CANON | TOOLCHAIN*

@@ -20,3 +20,21 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+## Constraints
+
+```
+MUST:     ORG declares governance scope and domains
+MUST:     ORG inherits from GALAXY/ORGS
+MUST:     GOVERNOR (Robert) decides — GOVERNOR_GENERAL (Dexter) executes
+MUST:     All task types governed in .md — compiled to CANON.json — consumed by app
+MUST:     Vendor credentialing via KYC (FL DBPR, USPAP, FREAB, NMLS)
+MUST:     Fiduciary compliance (FL 475.278) enforced per task
+MUST:     Every task lifecycle event ledgered — post, claim, evidence, complete
+MUST NOT: Deploy ungoverned task types
+MUST NOT: Skip vendor credential verification
+```
+
+---
+
+*RUNNERMVP | CANON | ORGS*

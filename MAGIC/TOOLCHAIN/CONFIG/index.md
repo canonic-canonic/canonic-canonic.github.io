@@ -9,6 +9,11 @@ view: web
 views:
   - gov
   - web
+  - tex
+pdf: /magic/toolchain/config/config.pdf
+downloads:
+  - label: "PDF"
+    href: "/magic/toolchain/config/config.pdf"
 hero:
   badge: CONFIG
   title: "CONFIG"
@@ -20,3 +25,24 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+```
+service    = CONFIG
+primitive  = INTEL
+function   = CONFIGURE
+```
+
+---
+
+## Constraints
+
+```
+MUST:     All configuration through governed files
+MUST:     Secrets via wrangler secret — never in config
+MUST NOT: Hardcode API keys or endpoints
+MUST NOT: Duplicate config across services
+```
+
+---
+
+*CONFIG | CANON | TOOLCHAIN*

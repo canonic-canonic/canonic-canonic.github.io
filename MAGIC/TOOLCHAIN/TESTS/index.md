@@ -9,6 +9,11 @@ view: web
 views:
   - gov
   - web
+  - tex
+pdf: /magic/toolchain/tests/tests.pdf
+downloads:
+  - label: "PDF"
+    href: "/magic/toolchain/tests/tests.pdf"
 hero:
   badge: TESTS
   title: "TESTS"
@@ -20,3 +25,16 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+## Constraints
+
+```
+MUST:     Every fixture is a self-contained scope with CANON.md + VOCAB.md + README.md
+MUST:     Expected output strips volatile fields (_generated timestamp)
+MUST:     Test runner discovers fixtures by walking — never a hardcoded list
+MUST NOT: Allow compiler regressions to reach deploy
+```
+
+---
+
+*TESTS | CANON | TOOLCHAIN*

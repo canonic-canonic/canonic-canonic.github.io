@@ -9,6 +9,11 @@ view: web
 views:
   - gov
   - web
+  - tex
+pdf: /foundation/programming/python/python.pdf
+downloads:
+  - label: "PDF"
+    href: "/foundation/programming/python/python.pdf"
 hero:
   badge: python
   title: "python"
@@ -20,3 +25,15 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+## Constraints
+
+```
+MUST:     Serve as the canonical HTTP interface
+MUST:     Read scoring logic from governed configuration
+MUST NOT: Hardcode paths or module names in law
+```
+
+---
+
+*CANONIC-PYTHON | CANON | PROGRAMMING*

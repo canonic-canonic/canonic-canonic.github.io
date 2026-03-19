@@ -9,6 +9,11 @@ view: web
 views:
   - gov
   - web
+  - tex
+pdf: /industries/regulatory/regulatory.pdf
+downloads:
+  - label: "PDF"
+    href: "/industries/regulatory/regulatory.pdf"
 hero:
   badge: REGULATORY
   title: "REGULATORY"
@@ -20,3 +25,5 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+*REGULATORY | CANON | INDUSTRIES*

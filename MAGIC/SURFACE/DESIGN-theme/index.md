@@ -20,3 +20,16 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+## Constraints
+
+```
+MUST:     Match DESIGN.md 255 Map exactly
+MUST:     Compile via GitHub Pages Jekyll
+MUST NOT: Contain content
+MUST NOT: Contain custom compilers
+```
+
+---
+
+*DESIGN | CANON | JEKYLL*

@@ -9,6 +9,11 @@ view: web
 views:
   - gov
   - web
+  - tex
+pdf: /magic/compliance/certification/certification.pdf
+downloads:
+  - label: "PDF"
+    href: "/magic/compliance/certification/certification.pdf"
 hero:
   badge: CERTIFICATION
   title: "CERTIFICATION"
@@ -20,3 +25,20 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+## Constraints
+
+```
+MUST:     Certify via magic validate — tier score IS the credential
+MUST:     Issue via git tag — immutable, signed, auditable
+MUST:     Register in TAGS.md — append-only
+MUST:     Discover certified devs from GOV tree — never hardcode rosters
+MUST:     Require VITAE.md — identity evidence gate
+MUST NOT: Certify without magic validate passing
+MUST NOT: Hardcode developer lists — discover from GOV tree
+MUST NOT: Issue unsigned tags in production
+```
+
+---
+
+*CERTIFICATION | CANON | COMPLIANCE*

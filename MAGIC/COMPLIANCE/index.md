@@ -9,6 +9,11 @@ view: web
 views:
   - gov
   - web
+  - tex
+pdf: /magic/compliance/compliance.pdf
+downloads:
+  - label: "PDF"
+    href: "/magic/compliance/compliance.pdf"
 hero:
   badge: COMPLIANCE
   title: "COMPLIANCE"
@@ -20,3 +25,20 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+Tiers are cumulative governance surfaces. Inheritance is monotonic.
+
+---
+
+## Constraints
+
+```
+MUST:     Define tier thresholds and required surface artifacts
+MUST:     Treat tier gates as cumulative (children add; children do not weaken)
+MUST:     Keep tier rules in GOV; runtime interprets only
+MUST NOT: Duplicate tier algebra in sibling scopes
+```
+
+---
+
+*COMPLIANCE | CANON | MAGIC*

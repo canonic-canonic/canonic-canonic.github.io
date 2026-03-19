@@ -9,6 +9,11 @@ view: web
 views:
   - gov
   - web
+  - tex
+pdf: /magic/services/talk/talk.pdf
+downloads:
+  - label: "PDF"
+    href: "/magic/services/talk/talk.pdf"
 hero:
   badge: TALK
   title: "TALK"
@@ -20,3 +25,35 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+TALK is the governed conversation service. CHAT is the primitive. TALK is the product. COIN closes the revenue loop.
+
+---
+
+## Constraints
+
+```
+MUST:     Wire INTEL — never speak without knowledge
+MUST:     Wire COIN — premium tiers require SPEND per conversation
+MUST:     Industry determines the voice — never generic
+MUST:     Every channel governed by CANON.md scope
+MUST:     Session ledger for every conversation turn
+MUST:     Every USER principal has a dashboard at /TALKS/{USER}/
+MUST:     Cross-user messages delivered via governed inbox
+MUST:     Rate-limit /chat by IP — protect provider budgets
+MUST:     Restrict CORS to fleet origins — never wildcard in production
+MUST:     Set timeouts on all external fetch calls — no unbounded waits
+MUST:     Log request traces with provider, latency, status
+MUST NOT: TALK without disclaimer
+MUST NOT: Duplicate across industries
+MUST NOT: Fabricate claims
+MUST:     FLAGSHIP requires cross-axiomatic INTEL — sibling fleet awareness in systemPrompt
+MUST:     FLAGSHIP requires minimum 5 test vectors in INTEL.md
+MUST:     FLAGSHIP requires cross-domain routing table (when to reference legal, financial, clinical)
+MUST:     FLAGSHIP requires explicit COIN structure (not implicit)
+MUST:     FLAGSHIP requires active LEARNING ledger with SESSION_LEDGERED signals
+```
+
+---
+
+*TALK | CANON | SERVICES*

@@ -9,6 +9,11 @@ view: web
 views:
   - gov
   - web
+  - tex
+pdf: /industries/horizontal/horizontal.pdf
+downloads:
+  - label: "PDF"
+    href: "/industries/horizontal/horizontal.pdf"
 hero:
   badge: HORIZONTAL
   title: "HORIZONTAL"
@@ -20,3 +25,5 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+*HORIZONTAL | CANON | INDUSTRIES*
