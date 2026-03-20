@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "b9568f57442030cf"
+    "gov_hash": "bd80b8156e8bbdc7"
   },
-  "generated": "2026-03-20T00:58:54Z",
+  "generated": "2026-03-20T01:36:10Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -74,8 +74,8 @@
   },
   "stats": {
     "total": 758,
-    "avg_bits": 251,
-    "below_magic": 28,
+    "avg_bits": 252,
+    "below_magic": 25,
     "intel_coverage": 158,
     "total_coin": 149567,
     "total_events": 697,
@@ -2559,7 +2559,6 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "[ ] Finder-first navigation: breadcrumb spine + full-width card grid, same drawer model as Graph (le",
       "learning_count": 11,
       "coverage_score": 255,
       "surface_type": "GALAXY",
@@ -2640,14 +2639,10 @@
       "parent": "canonic-canonic/MAGIC/GALAXY",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 239,
-      "tier": "BUSINESS",
-      "missing_dims": [
-        "O"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 16,
       "roadmap_now": "[ ] Full-width card grid: CSS grid, auto-fill minmax(200px, 1fr), glass cards with icon + label + ti",
       "learning_count": 4,
       "surface_type": "JEKYLL_DEFAULT",
@@ -2657,13 +2652,31 @@
       "talk": null,
       "learning": [
         {
+          "date": "2026-03-17",
+          "signal": "BREADCRUMB_FIRST",
+          "pattern": "Breadcrumb spine replaces spatial memory. Users navigate into scopes like folders, not by panning a graph. Force-directe",
+          "source": "FINDER/CANON.md"
+        },
+        {
+          "date": "2026-03-17",
+          "signal": "FOLDER_LEAF",
+          "pattern": "Children > 0 means folder (navigate deeper), children === 0 means leaf (open detail). Single rule, no ambiguity. Cards r",
+          "source": "FINDER/CANON.md"
+        },
+        {
+          "date": "2026-03-19",
+          "signal": "SAME_DRAWERS",
+          "pattern": "Finder and Graph share the same drawer model: left = INTEL (scoped to breadcrumb level in Finder, fleet-wide in Graph), ",
+          "source": "Design session"
+        },
+        {
           "date": "2026-03-19",
           "signal": "NON_BLOCKING",
           "pattern": "HUD elements must never overlay content. Control panel is narrow, breadcrumb bar is full-width but thin, card grid clear",
           "source": "Design session"
         }
       ],
-      "score": 119
+      "score": 128
     },
     {
       "id": "canonic-canonic/MAGIC/GALAXY/ORGS",
@@ -2822,14 +2835,10 @@
       "parent": "canonic-canonic/MAGIC/GALAXY",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 239,
-      "tier": "BUSINESS",
-      "missing_dims": [
-        "O"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 16,
       "roadmap_now": "[ ] Wire TALK toggle: search dock switches between search mode and conversation mode, carries curren",
       "learning_count": 3,
       "surface_type": "JEKYLL_DEFAULT",
@@ -2839,13 +2848,25 @@
       "talk": null,
       "learning": [
         {
+          "date": "2026-03-17",
+          "signal": "CONTEXTUAL_UPDATE",
+          "pattern": "Navigate to any scope and all three primitives (INTEL, COIN, TALK) update contextually. The scope's CANON axiom becomes ",
+          "source": "PRIMITIVES/CANON.md"
+        },
+        {
+          "date": "2026-03-17",
+          "signal": "NOT_PLUGINS",
+          "pattern": "Primitives are native to the operating surface, not sidebars bolted onto a graph. They compose in every view. The search",
+          "source": "PRIMITIVES/CANON.md"
+        },
+        {
           "date": "2026-03-19",
           "signal": "FIX_OPENS_TALK",
           "pattern": "INTEL coverage gap \"fix\" button opens TALK with a contextual prompt. The user describes the fix in conversation, TALK cr",
           "source": "Design session"
         }
       ],
-      "score": 119
+      "score": 128
     },
     {
       "id": "canonic-canonic/MAGIC/GALAXY/USERS",
@@ -3277,14 +3298,10 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "KNOWLEDGE",
       "color": "#bf5af2",
-      "bits": 239,
-      "tier": "BUSINESS",
-      "missing_dims": [
-        "O"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 16,
       "roadmap_now": "Govern INTEL\u2192LEARNING primitive-to-service mapping across all scopes",
       "learning_count": 13,
       "surface_type": "JEKYLL_DEFAULT",
@@ -3294,13 +3311,67 @@
       "talk": null,
       "learning": [
         {
+          "date": "2026-02-19",
+          "signal": "Compact form is the pattern table",
+          "pattern": "Date/Signal/Pattern/Source is the governed format \u2014 IDF distilled to 4 columns",
+          "source": "Root LEARNING.md convention"
+        },
+        {
+          "date": "2026-02-19",
+          "signal": "Backpropagation is core operation",
+          "pattern": "Patterns extracted from governed operations propagate upstream to parent scopes",
+          "source": "SERVICES/LEARNING/CANON.md"
+        },
+        {
+          "date": "2026-02-19",
+          "signal": "LEARNING.md exists in every scope",
+          "pattern": "Governance dimension file present at every level \u2014 the scope's gradient record",
+          "source": "MAGIC 255 dimension"
+        },
+        {
+          "date": "2026-02-26",
+          "signal": "ARCHITECTURE",
+          "pattern": "CAS fanout: git-style 2-char prefix for BOUNDARY and PATTERN stores",
+          "source": "Scalability at 193K+ objects"
+        },
+        {
+          "date": "2026-02-26",
+          "signal": "ARCHITECTURE",
+          "pattern": "Manifest sharding: BOUNDARIES.json split by signal type (6 shards + index)",
+          "source": "23.8MB monolith eliminated"
+        },
+        {
+          "date": "2026-02-26",
+          "signal": "ARCHITECTURE",
+          "pattern": "Incremental discovery: per-repo checkpoint for resumable boundary detection",
+          "source": "Full rescan eliminated"
+        },
+        {
+          "date": "2026-02-26",
+          "signal": "ARCHITECTURE",
+          "pattern": "Flat service layout: stage scripts colocated, singleton dirs removed",
+          "source": "LEARNING/LEARNING/ double eliminated"
+        },
+        {
+          "date": "2026-02-27",
+          "signal": "PIPELINE",
+          "pattern": "LEDGER \u2192 learning-ingest \u2192 GOV LEARNING.md \u2192 build-surfaces \u2192 LEARNING.json",
+          "source": "Infra audit"
+        },
+        {
+          "date": "2026-02-27",
+          "signal": "CONSUMPTION",
+          "pattern": "Capture without consumption is not LEARNING \u2014 build reads LEARNING.md back, detects regression/growth/stale, surfaces in",
+          "source": "SERVICES/LEARNING/CANON.md"
+        },
+        {
           "date": "2026-02-27",
           "signal": "INTEL WIRING",
           "pattern": "Consumed patterns wire into system prompts via CANON.json intel_refs \u2014 the system tells you what to do next",
           "source": "SERVICES/LEARNING/CANON.md"
         }
       ],
-      "score": 119
+      "score": 128
     },
     {
       "id": "canonic-canonic/MAGIC/SERVICES/LEDGER",
@@ -6963,26 +7034,22 @@
       "parent": "hadleylab-canonic",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 129,
+      "bits": 215,
       "tier": "NONE",
       "missing_dims": [
-        "E",
-        "T",
         "R",
-        "O",
-        "S",
-        "L"
+        "S"
       ],
       "has_intel": false,
       "next_tier": "FULL",
-      "next_tier_gap": 126,
+      "next_tier_gap": 40,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "irbs",
       "children": 1,
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 64
+      "score": 107
     },
     {
       "id": "hadleylab-canonic/IRBS/CARIBCHAT",
@@ -6993,19 +7060,15 @@
       "parent": "hadleylab-canonic/IRBS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 129,
+      "bits": 215,
       "tier": "NONE",
       "missing_dims": [
-        "E",
-        "T",
         "R",
-        "O",
-        "S",
-        "L"
+        "S"
       ],
       "has_intel": false,
       "next_tier": "FULL",
-      "next_tier_gap": 126,
+      "next_tier_gap": 40,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "irbs/caribchat",
       "children": 6,
@@ -7018,7 +7081,7 @@
         ]
       },
       "learning": null,
-      "score": 64
+      "score": 107
     },
     {
       "id": "hadleylab-canonic/PAPERS",
@@ -20410,7 +20473,7 @@
       "parent": "hadleylab-canonic/IRBS/CARIBCHAT",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 129,
+      "bits": 215,
       "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
@@ -20419,7 +20482,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 64
+      "score": 107
     },
     {
       "id": "hadleylab-canonic/IRBS/CARIBCHAT/ICF",
@@ -20430,7 +20493,7 @@
       "parent": "hadleylab-canonic/IRBS/CARIBCHAT",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 129,
+      "bits": 215,
       "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
@@ -20439,7 +20502,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 64
+      "score": 107
     },
     {
       "id": "hadleylab-canonic/IRBS/CARIBCHAT/LISTING",
@@ -20450,7 +20513,7 @@
       "parent": "hadleylab-canonic/IRBS/CARIBCHAT",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 129,
+      "bits": 215,
       "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
@@ -20459,7 +20522,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 64
+      "score": 107
     },
     {
       "id": "hadleylab-canonic/IRBS/CARIBCHAT/PROTOCOL",
@@ -20470,7 +20533,7 @@
       "parent": "hadleylab-canonic/IRBS/CARIBCHAT",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 129,
+      "bits": 215,
       "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
@@ -20479,7 +20542,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 64
+      "score": 107
     },
     {
       "id": "hadleylab-canonic/IRBS/CARIBCHAT/SECURITY",
@@ -20490,7 +20553,7 @@
       "parent": "hadleylab-canonic/IRBS/CARIBCHAT",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 129,
+      "bits": 215,
       "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
@@ -20499,7 +20562,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 64
+      "score": 107
     },
     {
       "id": "hadleylab-canonic/IRBS/CARIBCHAT/WAIVER",
@@ -20510,7 +20573,7 @@
       "parent": "hadleylab-canonic/IRBS/CARIBCHAT",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 129,
+      "bits": 215,
       "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
@@ -20519,7 +20582,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 64
+      "score": 107
     },
     {
       "id": "hadleylab-canonic/PAPERS/SHOP",

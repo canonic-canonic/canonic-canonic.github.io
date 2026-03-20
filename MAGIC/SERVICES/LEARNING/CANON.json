@@ -45,8 +45,8 @@
     "downloads": []
   },
   "_tier": {
-    "name": "BUSINESS",
-    "score": 239,
+    "name": "FULL",
+    "score": 255,
     "intel": true
   },
   "canon": {
@@ -161,6 +161,7 @@
         "body": "```\nPIPELINE (read-back):\n    build → read LEARNING.md → detect regression/growth patterns → surface in COVERAGE.md\n\nSIGNALS:\n    REGRESSION:   3+ DEBIT:DRIFT on same scope within epoch → COVERAGE.md gap row\n    GROWTH:       3+ MINT:WORK on same scope within epoch  → COVERAGE.md strength row\n    STALE:        No LEARNING.md entry for 30+ days         → COVERAGE.md stale row\n\nBUILD INTEGRATION:\n    step 10c:  learning-consume → COVERAGE.md recommendations (soft gate)\n    surfaces:  build-surfaces → COVERAGE.json includes learning-derived rows\n```\n\nConsumption closes the loop: LEARNING is not a ledger — it is a governor. Patterns that repeat become constraints. Constraints that hold become dimensions. Dimensions that validate become tiers. The system learns.\n\n---"
       }
     ],
+    "coverage": "",
     "roadmap": {
       "later": [
         "Autonomous pattern extraction: LEARNING service self-discovers governance gaps via INTEL analysis",

@@ -45,8 +45,8 @@
     "downloads": []
   },
   "_tier": {
-    "name": "BUSINESS",
-    "score": 239,
+    "name": "FULL",
+    "score": 255,
     "intel": true
   },
   "canon": {
@@ -65,6 +65,7 @@
         "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-03-17 | BREADCRUMB_FIRST | Breadcrumb spine replaces spatial memory. Users navigate into scopes like folders, not by panning a graph. Force-directed graph becomes secondary toggle, lazy-loaded only on demand. | FINDER/CANON.md |\n| 2026-03-17 | FOLDER_LEAF | Children > 0 means folder (navigate deeper), children === 0 means leaf (open detail). Single rule, no ambiguity. Cards render both with visual distinction. | FINDER/CANON.md |\n| 2026-03-19 | SAME_DRAWERS | Finder and Graph share the same drawer model: left = INTEL (scoped to breadcrumb level in Finder, fleet-wide in Graph), right = DETAIL on selection. No sidebar. Consistent mental model across views. | Design session |\n| 2026-03-19 | NON_BLOCKING | HUD elements must never overlay content. Control panel is narrow, breadcrumb bar is full-width but thin, card grid clears both with padding. No modals, no traps. | Design session |\n\n---"
       }
     ],
+    "coverage": "",
     "roadmap": {},
     "vocab": [
       {
