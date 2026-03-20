@@ -3,9 +3,39 @@
     "contract": "hadleylab-canonic/SERVICES/CONTACTS/CANON.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "generated": "2026-03-20T00:51:43Z",
-  "count": 1,
+  "generated": "2026-03-20T16:33:09Z",
+  "count": 2,
   "briefs": [
+    {
+      "ts": "2026-03-20T17:00:00Z",
+      "summary": "Conference call to discuss Canonic etc @ D to call 650-503-3950 ",
+      "location": "D to call 650-503-3950 ",
+      "end": "2026-03-20T17:30:00Z",
+      "participants": [
+        {
+          "name": "David Slonim",
+          "email": "dslonim@slonimlaw.com",
+          "galaxy_node": "SERVICES/LEARNING/david-slonim",
+          "intel": {
+            "node": "SERVICES/LEARNING/david-slonim",
+            "sections": {
+              "relationship": "```\nStatus:      Active — FOUNDATION co-founder, substantively engaged\nRole:        Co-Founder, General Counsel, Board Director\nScope:       Foundation formation, IP Trust, FRAND licensing, estate/elder law vertical\nAdvisory:    UCF strategy\n```",
+              "strategic_value": "```\n├── CANONIC Foundation co-founder (General Counsel + Board Director)\n├── IP Trust + Assignment drafter (CHARTER/TRUST scope owner)\n├── Estate planning + elder law = governed vertical (INDUSTRIES/VERTICALS/REAL_ESTATE)\n├── Business structure formation (Articles, Bylaws, COI Policy)\n├── Government...",
+              "deal_status": "| Step | Action | Status |\n|------|--------|--------|\n| 1 | Engagement | COMPLETE |\n| 2 | WORK TALK delivered (6 drafts + 6 provisionals) | COMPLETE — Resend ID: 299d5aa1 |\n| 3 | David reviewed drafts..."
+            }
+          }
+        },
+        {
+          "name": "Dexter Hadley",
+          "email": "dexter.hadley@gmail.com"
+        },
+        {
+          "name": "Founder",
+          "email": "founder@canonic.org"
+        }
+      ],
+      "prompt": "## Pre-Meeting Brief: Conference call to discuss Canonic etc @ D to call 650-503-3950 \n**When:** 2026-03-20 17:00 UTC\n**Where:** D to call 650-503-3950 \n\n### David Slonim\n\n**Relationship:**\n```\nStatus:      Active — FOUNDATION co-founder, substantively engaged\nRole:        Co-Founder, General Counsel, Board Director\nScope:       Foundation formation, IP Trust, FRAND licensing, estate/elder law vertical\nAdvisory:    UCF strategy\n```\n\n**Strategic Value:**\n```\n├── CANONIC Foundation co-founder (General Counsel + Board Director)\n├── IP Trust + Assignment drafter (CHARTER/TRUST scope owner)\n├── Estate planning + elder law = governed vertical (INDUSTRIES/VERTICALS/REAL_ESTATE)\n├── Business structure formation (Articles, Bylaws, COI Policy)\n├── Government...\n\n**Deal Status:**\n| Step | Action | Status |\n|------|--------|--------|\n| 1 | Engagement | COMPLETE |\n| 2 | WORK TALK delivered (6 drafts + 6 provisionals) | COMPLETE — Resend ID: 299d5aa1 |\n| 3 | David reviewed drafts...\n\n### Dexter Hadley\n*Not resolved to galaxy. Unknown contact.*\n\n### Founder\n*Not resolved to galaxy. Unknown contact.*\n"
+    },
     {
       "ts": "2026-03-20T19:00:00Z",
       "summary": "CANONIC GoRunner.pro 🚀",

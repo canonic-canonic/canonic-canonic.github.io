@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "bd80b8156e8bbdc7"
+    "gov_hash": "c2a6dc59c42ad011"
   },
-  "generated": "2026-03-20T02:12:23Z",
+  "generated": "2026-03-20T16:33:11Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -74,18 +74,18 @@
     ]
   },
   "stats": {
-    "total": 758,
+    "total": 757,
     "avg_bits": 252,
     "below_magic": 25,
-    "intel_coverage": 158,
+    "intel_coverage": 157,
     "total_coin": 149567,
     "total_events": 697,
-    "total_sessions": 172,
+    "total_sessions": 173,
     "active_channels": 6,
     "user_count": 34,
     "org_count": 5,
     "svc_count": 95,
-    "scope_count": 175,
+    "scope_count": 170,
     "fleet_health_pct": 99
   },
   "nodes": [
@@ -2549,20 +2549,17 @@
     },
     {
       "id": "canonic-canonic/MAGIC/GALAXY",
-      "kind": "SCOPE",
+      "kind": "CONTENT",
       "label": "GALAXY",
       "repo": "canonic-canonic",
       "path": "MAGIC/GALAXY",
       "parent": "canonic-canonic/MAGIC",
-      "category": "RUNTIME",
       "color": "#00ff88",
+      "category": "RUNTIME",
       "bits": 255,
       "tier": "FULL",
-      "missing_dims": [],
       "has_intel": false,
-      "learning_count": 11,
-      "coverage_score": 255,
-      "surface_type": "GALAXY",
+      "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic/galaxy",
       "children": 9,
       "wallet": null,
@@ -2681,20 +2678,17 @@
     },
     {
       "id": "canonic-canonic/MAGIC/GALAXY/ORGS",
-      "kind": "SCOPE",
+      "kind": "CONTENT",
       "label": "ORGS",
       "repo": "canonic-canonic",
       "path": "MAGIC/GALAXY/ORGS",
       "parent": "canonic-canonic/MAGIC/GALAXY",
-      "category": "RUNTIME",
       "color": "#00ff88",
+      "category": "RUNTIME",
       "bits": 255,
       "tier": "FULL",
-      "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Federation identity model defined",
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
+      "surface_type": "GALAXY",
       "fleet_path": "magic/galaxy/orgs",
       "children": 6,
       "wallet": null,
@@ -3918,20 +3912,16 @@
     },
     {
       "id": "canonic-canonic/MAGIC/SURFACE/ANDROID",
-      "kind": "SCOPE",
+      "kind": "CONTENT",
       "label": "ANDROID",
       "repo": "canonic-canonic",
       "path": "MAGIC/SURFACE/ANDROID",
       "parent": "canonic-canonic/MAGIC/SURFACE",
-      "category": "RUNTIME",
       "color": "#00ff88",
+      "category": "RUNTIME",
       "bits": 255,
       "tier": "FULL",
-      "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Establish Android project scaffold: native rendering shell that reads governed config at runtime (ze",
-      "learning_count": 3,
-      "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic/surface/android",
       "children": 0,
@@ -3961,20 +3951,16 @@
     },
     {
       "id": "canonic-canonic/MAGIC/SURFACE/APPLE",
-      "kind": "SCOPE",
+      "kind": "CONTENT",
       "label": "APPLE",
       "repo": "canonic-canonic",
       "path": "MAGIC/SURFACE/APPLE",
       "parent": "canonic-canonic/MAGIC/SURFACE",
-      "category": "RUNTIME",
       "color": "#00ff88",
+      "category": "RUNTIME",
       "bits": 255,
       "tier": "FULL",
-      "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Establish iOS project scaffold: native rendering shell that reads governed config at runtime (zero b",
-      "learning_count": 3,
-      "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic/surface/apple",
       "children": 0,
@@ -5451,7 +5437,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
-      "children": 17,
+      "children": 16,
       "wallet": {
         "balance": 149567,
         "events": 697,
@@ -5997,28 +5983,6 @@
           "source": ""
         }
       ],
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/DEALS",
-      "kind": "SCOPE",
-      "label": "DEALS",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS",
-      "parent": "hadleylab-canonic",
-      "category": "COMMERCE",
-      "color": "#ff9f0a",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "| Claim | Source |",
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals",
-      "children": 8,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
       "score": 128
     },
     {
@@ -7075,7 +7039,7 @@
       "children": 6,
       "wallet": null,
       "talk": {
-        "sessions": 83,
+        "sessions": 84,
         "last_session": "2026-03-20",
         "channels": [
           "CARIBCHAT"
@@ -9943,7 +9907,7 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 172,
+        "sessions": 173,
         "last_session": "2026-03-20",
         "channels": [
           "CARIBCHAT",
@@ -9976,7 +9940,7 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 172,
+        "sessions": 173,
         "last_session": "2026-03-20",
         "channels": [
           "CARIBCHAT",
@@ -10018,7 +9982,7 @@
       "children": 16,
       "wallet": null,
       "talk": {
-        "sessions": 172,
+        "sessions": 173,
         "last_session": "2026-03-20",
         "channels": [
           "CARIBCHAT",
@@ -10115,7 +10079,7 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 83,
+        "sessions": 84,
         "last_session": "2026-03-20",
         "channels": [
           "CARIBCHAT"
@@ -10192,7 +10156,7 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 172,
+        "sessions": 173,
         "last_session": "2026-03-20",
         "channels": [
           "CARIBCHAT",
@@ -10227,7 +10191,7 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 172,
+        "sessions": 173,
         "last_session": "2026-03-20",
         "channels": [
           "CARIBCHAT",
@@ -10287,7 +10251,7 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 172,
+        "sessions": 173,
         "last_session": "2026-03-20",
         "channels": [
           "CARIBCHAT",
@@ -10468,7 +10432,7 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 172,
+        "sessions": 173,
         "last_session": "2026-03-20",
         "channels": [
           "CARIBCHAT",
@@ -10617,7 +10581,7 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 172,
+        "sessions": 173,
         "last_session": "2026-03-20",
         "channels": [
           "CARIBCHAT",
@@ -10678,7 +10642,7 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 172,
+        "sessions": 173,
         "last_session": "2026-03-20",
         "channels": [
           "CARIBCHAT",
@@ -10711,7 +10675,7 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 172,
+        "sessions": 173,
         "last_session": "2026-03-20",
         "channels": [
           "CARIBCHAT",
@@ -11285,25 +11249,19 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 98,
+      "learning_count": 99,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/CARIBCHAT",
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 83,
+        "sessions": 84,
         "last_session": "2026-03-20",
         "channels": [
           "CARIBCHAT"
         ]
       },
       "learning": [
-        {
-          "date": "2026-03-19",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "As a friend what\u2019s the best way to support someone post lumpectomy  an ongoing c",
-          "source": "e862977f-23a3-4f3b-835a-395433eccbdb"
-        },
         {
           "date": "2026-03-19",
           "signal": "SESSION_LEDGERED",
@@ -11357,6 +11315,12 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "Which country has a breast cancer Navigation program",
           "source": "6d0de9c4-7ae7-40ea-a70f-4e169e1b11ff"
+        },
+        {
+          "date": "2026-03-20",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What is Cancer Incidence in Trinidad and Tobago, common cancers in both sexes, s",
+          "source": "47b11b6e-6729-49a4-b12d-6e57d1952311"
         }
       ],
       "score": 128
@@ -14128,7 +14092,7 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 172,
+        "sessions": 173,
         "last_session": "2026-03-20",
         "channels": [
           "CARIBCHAT",
@@ -14534,87 +14498,6 @@
       "score": 128
     },
     {
-      "id": "canonic-canonic/MAGIC/GALAXY",
-      "kind": "CONTENT",
-      "label": "GALAXY",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/GALAXY",
-      "parent": "canonic-canonic/MAGIC",
-      "color": "#00ff88",
-      "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "magic/galaxy",
-      "children": 9,
-      "wallet": null,
-      "talk": null,
-      "learning": [
-        {
-          "date": "2026-02-19",
-          "signal": "Identity boundaries are first-class",
-          "pattern": "ORG and USER projections never collapse \u2014 each maintains its own governance scope",
-          "source": "GALAXY/CANON.md"
-        },
-        {
-          "date": "2026-02-19",
-          "signal": "Surfaces driven from governed indices",
-          "pattern": "Galaxy visualization (web, iOS, Android) consumes scopes.json \u2014 no hardcoded galaxy data",
-          "source": "TOOLCHAIN/CANON.md"
-        },
-        {
-          "date": "2026-02-19",
-          "signal": "ORGS learn from USER projections",
-          "pattern": "Federation patterns: which org-user pairs produce the most WORK; which reach 255-bit compliance",
-          "source": "ORGS/LEARNING.md"
-        },
-        {
-          "date": "2026-03-01",
-          "signal": "EVOLUTION",
-          "pattern": "COVERAGE.md source \u2192 generated: compiler emits from CANON axiom + validate bits, GOV trees carry no source COVERAGE",
-          "source": "bloat-extinction"
-        },
-        {
-          "date": "2026-03-01",
-          "signal": "NEW_CONSTRAINT",
-          "pattern": "COVERAGE.md is a compiler output \u2014 fix compiler or contract, never hand-edit source COVERAGE",
-          "source": "bloat-extinction"
-        },
-        {
-          "date": "2026-03-01",
-          "signal": "EXTINCTION",
-          "pattern": "README.md boilerplate extinct: 18-line template \u2192 3-line lean form (scope + axiom)",
-          "source": "bloat-extinction"
-        },
-        {
-          "date": "2026-03-01",
-          "signal": "EXTINCTION",
-          "pattern": "VOCAB redundant entries extinct: child scopes must not duplicate parent VOCAB",
-          "source": "bloat-extinction"
-        },
-        {
-          "date": "2026-03-01",
-          "signal": "EVOLUTION",
-          "pattern": "build-surfaces modularized: monolith (1797 lines) \u2192 4 extracted modules (dashboard, discover, fleet, gc)",
-          "source": "bloat-extinction"
-        },
-        {
-          "date": "2026-03-01",
-          "signal": "EXTINCTION",
-          "pattern": "design-diff-gate shell wrapper extinct: Python-only CLI replaces shell+Python duplication",
-          "source": "bloat-extinction"
-        },
-        {
-          "date": "2026-03-01",
-          "signal": "EXTINCTION",
-          "pattern": "SCSS micro-files extinct: _GRID.scss \u2192 _LAYOUT.scss, _ANIMATION.scss \u2192 _UTILITIES.scss",
-          "source": "bloat-extinction"
-        }
-      ],
-      "score": 128
-    },
-    {
       "id": "canonic-canonic/MAGIC/ORGS",
       "kind": "CONTENT",
       "label": "ORGS",
@@ -14729,26 +14612,6 @@
       "surface_type": "GALAXY",
       "fleet_path": "magic/galaxy/identity",
       "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "canonic-canonic/MAGIC/GALAXY/ORGS",
-      "kind": "CONTENT",
-      "label": "ORGS",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/GALAXY/ORGS",
-      "parent": "canonic-canonic/MAGIC/GALAXY",
-      "color": "#00ff88",
-      "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "GALAXY",
-      "fleet_path": "magic/galaxy/orgs",
-      "children": 6,
       "wallet": null,
       "talk": null,
       "learning": null,
@@ -14892,84 +14755,6 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 128
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SURFACE/ANDROID",
-      "kind": "CONTENT",
-      "label": "ANDROID",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SURFACE/ANDROID",
-      "parent": "canonic-canonic/MAGIC/SURFACE",
-      "color": "#00ff88",
-      "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "magic/surface/android",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": [
-        {
-          "date": "2026-02-19",
-          "signal": "Android is 1:1 projection of web surface",
-          "pattern": "Same GOV, same lanes, same outcomes \u2014 rendering is native, governance is compiled upstream",
-          "source": "ANDROID/CANON.md"
-        },
-        {
-          "date": "2026-02-19",
-          "signal": "No baked constants in app bundle",
-          "pattern": "Read governed config at runtime \u2014 no provider lists, thresholds, or lane maps shipped in bundle",
-          "source": "ANDROID/CANON.md"
-        },
-        {
-          "date": "2026-02-19",
-          "signal": "Validation delegated to governed truth",
-          "pattern": "No local policy forks \u2014 scoring and validation come from the governance tree only",
-          "source": "ANDROID/CANON.md"
-        }
-      ],
-      "score": 128
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SURFACE/APPLE",
-      "kind": "CONTENT",
-      "label": "APPLE",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SURFACE/APPLE",
-      "parent": "canonic-canonic/MAGIC/SURFACE",
-      "color": "#00ff88",
-      "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "magic/surface/apple",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": [
-        {
-          "date": "2026-02-19",
-          "signal": "Apple/iOS is 1:1 projection of web surface",
-          "pattern": "Same GOV, same lanes, same outcomes \u2014 rendering is native, governance is compiled upstream",
-          "source": "APPLE/CANON.md"
-        },
-        {
-          "date": "2026-02-19",
-          "signal": "No baked constants in app bundle",
-          "pattern": "Read governed config at runtime \u2014 no provider lists, thresholds, or lane maps shipped in bundle",
-          "source": "APPLE/CANON.md"
-        },
-        {
-          "date": "2026-02-19",
-          "signal": "Validation delegated to governed truth",
-          "pattern": "No local policy forks \u2014 scoring and validation come from the governance tree only",
-          "source": "APPLE/CANON.md"
-        }
-      ],
       "score": 128
     },
     {
@@ -24313,7 +24098,7 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 172,
+        "sessions": 173,
         "last_session": "2026-03-20",
         "channels": [
           "CARIBCHAT",
@@ -24472,62 +24257,12 @@
     },
     {
       "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/BAKEOFF",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/CAOH",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/EXCELLENTING",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/LLU",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/OC-MAMMOCHAT",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/RUNNER-CHAIN",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
       "from": "hadleylab-canonic/DECKS",
       "to": "hadleylab-canonic/SERVICES/DECK"
     },
     {
       "kind": "INHERITS",
       "from": "hadleylab-canonic/GRANTS",
-      "to": "hadleylab-canonic/SERVICES/GRANT"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV",
       "to": "hadleylab-canonic/SERVICES/GRANT"
     },
     {
@@ -24542,82 +24277,7 @@
     },
     {
       "kind": "INHERITS",
-      "from": "hadleylab-canonic/TALKS/BLANDFORD",
-      "to": "hadleylab-canonic/SERVICES/TALK"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/TALKS/BRYANSTON",
-      "to": "hadleylab-canonic/SERVICES/TALK"
-    },
-    {
-      "kind": "INHERITS",
       "from": "hadleylab-canonic/TALKS",
-      "to": "hadleylab-canonic/SERVICES/TALK"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/TALKS/CARIBCHAT",
-      "to": "hadleylab-canonic/SERVICES/TALK"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/TALKS/DEV",
-      "to": "hadleylab-canonic/SERVICES/TALK"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/TALKS/FINCHAT",
-      "to": "hadleylab-canonic/SERVICES/TALK"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/TALKS/LAWCHAT",
-      "to": "hadleylab-canonic/SERVICES/TALK"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/TALKS/MAMMOCHAT",
-      "to": "hadleylab-canonic/SERVICES/TALK"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/TALKS/MEDCHAT",
-      "to": "hadleylab-canonic/SERVICES/TALK"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/TALKS/NONA",
-      "to": "hadleylab-canonic/SERVICES/TALK"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/TALKS/OMICSCHAT",
-      "to": "hadleylab-canonic/SERVICES/TALK"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/TALKS/ONCOCHAT",
-      "to": "hadleylab-canonic/SERVICES/TALK"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/TALKS/REALTY",
-      "to": "hadleylab-canonic/SERVICES/TALK"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/TALKS/RUNNER",
-      "to": "hadleylab-canonic/SERVICES/TALK"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/TALKS/SLOANE",
-      "to": "hadleylab-canonic/SERVICES/TALK"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/TALKS/VITAE",
       "to": "hadleylab-canonic/SERVICES/TALK"
     },
     {
@@ -25482,51 +25142,6 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/CHARTER/TRUST",
       "to": "hadleylab-canonic/CHARTER"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/BAKEOFF",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS",
-      "to": "hadleylab-canonic"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/CAOH",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/EXCELLENTING",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/LLU",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/OC-MAMMOCHAT",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/RUNNER-CHAIN",
-      "to": "hadleylab-canonic/DEALS"
     },
     {
       "kind": "PARENT",

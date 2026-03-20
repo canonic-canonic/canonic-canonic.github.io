@@ -40,7 +40,7 @@
   "sections": [
     {
       "id": "status",
-      "eyebrow": "SCOPE",
+      "eyebrow": "CONTENT",
       "title": "GALAXY",
       "dashboard": [
         {
@@ -48,14 +48,6 @@
             "label": "MAGIC",
             "value": "255/255",
             "change": "FULL",
-            "trend": "up"
-          }
-        },
-        {
-          "metric": {
-            "label": "LEARNING",
-            "value": "11",
-            "change": "patterns",
             "trend": "up"
           }
         },
