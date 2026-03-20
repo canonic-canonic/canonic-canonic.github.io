@@ -777,6 +777,28 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SERVICES:DEMO",
+      "label": "DEMO",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:SERVICES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SERVICES:DESIGN",
+      "label": "DESIGN",
+      "bits": 255,
+      "size": 80,
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "inherits": "gov:hadleylab-canonic:SERVICES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:DEV",
       "label": "DEV",
       "bits": 255,
