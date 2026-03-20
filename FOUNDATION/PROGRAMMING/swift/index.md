@@ -9,6 +9,11 @@ view: web
 views:
   - gov
   - web
+  - tex
+pdf: /foundation/programming/swift/swift.pdf
+downloads:
+  - label: "PDF"
+    href: "/foundation/programming/swift/swift.pdf"
 hero:
   badge: swift
   title: "swift"

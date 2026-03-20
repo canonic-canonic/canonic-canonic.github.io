@@ -9,6 +9,11 @@ view: web
 views:
   - gov
   - web
+  - tex
+pdf: /magic/galaxy/orgs/runnermvp/runnermvp.pdf
+downloads:
+  - label: "PDF"
+    href: "/magic/galaxy/orgs/runnermvp/runnermvp.pdf"
 hero:
   badge: RunnerMVP
   title: "RunnerMVP"

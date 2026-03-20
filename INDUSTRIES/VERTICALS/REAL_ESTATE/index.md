@@ -9,6 +9,11 @@ view: web
 views:
   - gov
   - web
+  - tex
+pdf: /industries/verticals/real_estate/real_estate.pdf
+downloads:
+  - label: "PDF"
+    href: "/industries/verticals/real_estate/real_estate.pdf"
 hero:
   badge: REAL_ESTATE
   title: "REAL_ESTATE"

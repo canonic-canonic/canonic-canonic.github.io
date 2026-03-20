@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "09972d22d3c5db04"
+    "gov_hash": "b9568f57442030cf"
   },
-  "generated": "2026-03-19T13:47:29Z",
+  "generated": "2026-03-20T00:58:54Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -46,7 +46,7 @@
     }
   ],
   "stats": {
-    "total": 580,
+    "total": 584,
     "avg_bits": 253
   },
   "nodes": [
@@ -128,7 +128,9 @@
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
-      "has_intel": false,
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR FOUNDATION. EVERY FILING EVIDENCED. EVERY DOLLAR LEDGERED.**",
+      "roadmap_now": "[ ] CHARTER INTEL.md \u2014 operational knowledge (key contacts, filing status, scope dependencies)",
       "learning_count": 8,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -259,7 +261,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "services",
-      "children": 49
+      "children": 51
     },
     {
       "id": "hadleylab-canonic/TALKS",
@@ -1747,7 +1749,9 @@
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
-      "has_intel": false,
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR ACCOUNTS. EVERY DOLLAR TRACED. EVERY DISBURSEMENT AUTHORIZED.**",
+      "roadmap_now": "[ ] INTEL.md \u2014 account architecture, fiscal policies, reconciliation cadence (MAGIC 255 closure)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "charter/BANK",
@@ -1765,7 +1769,9 @@
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
-      "has_intel": false,
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR DIRECTORS. EVERY RESOLUTION RECORDED. EVERY MEETING MINUTED.**",
+      "roadmap_now": "[ ] INTEL.md \u2014 directors, officers, meeting cadence, resolution registry (MAGIC 255 closure)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "charter/BOARD",
@@ -1783,7 +1789,9 @@
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
-      "has_intel": false,
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR ENTITY. EVERY FILING RECEIPTED. EVERY NUMBER RECORDED.**",
+      "roadmap_now": "[ ] INTEL.md \u2014 filing status, registered agent, entity number, EIN (MAGIC 255 closure)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "charter/ENTITY",
@@ -1801,8 +1809,9 @@
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "[ ] Articles of Incorporation \u2014 DAVID SLONIM \u2192 JULIO HERNANDEZ files",
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR LICENSES. EVERY TIER TEMPLATED. EVERY EXECUTION EVIDENCED.**",
+      "roadmap_now": "[ ] INTEL.md \u2014 tier rates, template status, license registry, OncoNex chain (MAGIC 255 closure)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "charter/LICENSING",
@@ -1820,7 +1829,9 @@
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
-      "has_intel": false,
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR PORTFOLIO. EVERY PROVISIONAL TRACKED. EVERY DEADLINE CALENDARED.**",
+      "roadmap_now": "[ ] INTEL.md \u2014 portfolio inventory, deadline calendar, counsel contacts (MAGIC 255 closure)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "charter/PROSECUTION",
@@ -1838,7 +1849,9 @@
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
-      "has_intel": false,
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR EXEMPTION. EVERY FILING CALENDARED. EVERY DEADLINE TRACKED.**",
+      "roadmap_now": "[ ] INTEL.md \u2014 filing status, exemption timeline, compliance calendar (MAGIC 255 closure)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "charter/TAX",
@@ -1856,7 +1869,9 @@
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
-      "has_intel": false,
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR TRUST. EVERY ASSIGNMENT RECORDED. EVERY REVERSION SPECIFIED.**",
+      "roadmap_now": "[ ] INTEL.md \u2014 instrument status, assignment inventory, reversion terms (MAGIC 255 closure)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "charter/TRUST",
@@ -1892,7 +1907,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR PARTNER. EVERY COMMIT COUNTED. EVERY CAPABILITY MAPPED.**",
-      "learning_count": 1,
+      "learning_count": 4,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "deals/BAKEOFF",
       "children": 3
@@ -1931,11 +1946,11 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CONSORTIUM. EVERY PARTNER GOVERNED. EVERY COMMITMENT EVIDENCED. EVERY CORRIDOR MAPPED.**",
-      "roadmap_now": "[ ] Cross-intro Youness \u2194 Neville (oncology corridor)",
-      "learning_count": 6,
+      "roadmap_now": "[ ] Confirm Excellenting legal entity details (CIF, registration)",
+      "learning_count": 7,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "deals/EXCELLENTING",
-      "children": 2
+      "children": 3
     },
     {
       "id": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
@@ -2049,7 +2064,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR PARTNER. EVERY COMMIT LEDGERED. EVERY DEPLOYMENT GOVERNED. EVERY DEAL EVIDENCED.**",
-      "learning_count": 5,
+      "learning_count": 9,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DECK",
       "fleet_path": "decks/BEDA",
@@ -2167,7 +2182,7 @@
       "missing_dims": [],
       "has_intel": false,
       "roadmap_now": "[ ] Neville confirms PI \u2014 portal registration",
-      "learning_count": 8,
+      "learning_count": 11,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "grants/EHDS-GOV",
@@ -2197,7 +2212,7 @@
       "next_tier_gap": 126,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "irbs/caribchat",
-      "children": 5
+      "children": 6
     },
     {
       "id": "hadleylab-canonic/PAPERS/SHOP",
@@ -2445,7 +2460,8 @@
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
-      "has_intel": false,
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR PIPELINE. EVERY PHASE DECLARED. EVERY DEPENDENCY GOVERNED.**",
       "learning_count": 17,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "services/BUILD",
@@ -2505,7 +2521,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "Dexter Hadley, MD/PhD (Penn). Stanford Research Associate (Butte Lab). Faculty at UCSF and UCF (Founding Chief of AI). C",
-      "learning_count": 16,
+      "learning_count": 18,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "services/CLAUDE",
@@ -2569,7 +2585,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR SERVICE. EVERY CAPABILITY TRACED. EVERY INTEGRATION GOVERNED.**",
-      "roadmap_now": "[ ] Resolution API (vault resolve --email/--phone/--name)",
+      "roadmap_now": "[ ] CALENDAR enrichment (participant.email \u2192 resolved INTEL via CONTACTS index)",
       "learning_count": 7,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
@@ -2615,6 +2631,51 @@
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "services/DECK",
       "children": 5
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/DEMO",
+      "kind": "SERVICE",
+      "label": "DEMO",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/DEMO",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "**Every demo is evidence. The capture process is governed. The artifact is versioned. The email is ledgered.**",
+      "roadmap_now": "[ ] COVERAGE.md (MAGIC 255 closure)",
+      "learning_count": 8,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "services/DEMO",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/DESIGN",
+      "kind": "SERVICE",
+      "label": "DESIGN",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/DESIGN",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR DESIGN SURFACE. EVERY TOKEN TRACED. EVERY VISUAL GOVERNED.**",
+      "roadmap_now": "[ ] CANON.md \u2014 create proper CANON.md with axiom/inherits header (MAGIC 255 closure, DESIGN.md exist",
+      "learning_count": 7,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "services/DESIGN",
+      "children": 0
     },
     {
       "id": "hadleylab-canonic/SERVICES/DEV",
@@ -3423,8 +3484,8 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
-      "roadmap_now": "Govern Caribbean cancer guidelines \u2014 CAOH, CARPHA, NCCN Resource Stratification",
-      "learning_count": 88,
+      "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
+      "learning_count": 98,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/CARIBCHAT",
       "children": 1
@@ -3523,7 +3584,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR MEDICINE. EVERY CLAIM SOURCED. EVERY RECOMMENDATION EVIDENCED. EVERY INTERACTION GOVERNED.**",
       "roadmap_now": "Governance at 255 \u2014 all artifacts validated",
-      "learning_count": 10,
+      "learning_count": 11,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/MEDCHAT",
       "children": 1
@@ -3703,6 +3764,7 @@
       "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "users/AFSANA",
+      "organization": "MammoSight",
       "children": 2
     },
     {
@@ -3726,6 +3788,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "users/AVINASH",
+      "organization": "Atom",
       "children": 2
     },
     {
@@ -3748,6 +3811,7 @@
       "intel_summary": "| Field | Value |",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "users/CRAIG",
+      "organization": "Loma Linda University",
       "children": 4
     },
     {
@@ -3772,6 +3836,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "users/FATIMA",
+      "organization": "CANONIC",
       "children": 4
     },
     {
@@ -3790,6 +3855,7 @@
       "learning_count": 2,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "users/GEOFF",
+      "organization": "Celeritas",
       "children": 2
     },
     {
@@ -3815,6 +3881,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "users/ILYA",
+      "organization": "BedaSoftware",
       "children": 2
     },
     {
@@ -3838,6 +3905,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "users/ISABELLA",
+      "organization": "E4C",
       "children": 2
     },
     {
@@ -3861,6 +3929,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "users/JP",
+      "organization": "JP Capital",
       "children": 2
     },
     {
@@ -3887,6 +3956,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "users/ROBERT",
+      "organization": "PinnacleGrp",
       "children": 2
     },
     {
@@ -3909,6 +3979,7 @@
       "intel_summary": "| Field | Value |",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "users/SARAH",
+      "organization": "Evermint Health",
       "children": 4
     },
     {
@@ -3934,6 +4005,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "users/YANA",
+      "organization": "BedaSoftware",
       "children": 2
     },
     {
@@ -4589,6 +4661,22 @@
       "children": 0
     },
     {
+      "id": "hadleylab-canonic/DEALS/EXCELLENTING/WORK-TALK-ONCONEX",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-ONCONEX",
+      "repo": "hadleylab-canonic",
+      "path": "DEALS/EXCELLENTING/WORK-TALK-ONCONEX",
+      "parent": "hadleylab-canonic/DEALS/EXCELLENTING",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/EXCELLENTING/work-talk-onconex",
+      "children": 0
+    },
+    {
       "id": "hadleylab-canonic/DEALS/EXCELLENTING/index",
       "kind": "CONTENT",
       "label": "INDEX",
@@ -4842,6 +4930,22 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "irbs/caribchat/exempt",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/IRBS/CARIBCHAT/ICF",
+      "kind": "CONTENT",
+      "label": "ICF",
+      "repo": "hadleylab-canonic",
+      "path": "IRBS/CARIBCHAT/ICF",
+      "parent": "hadleylab-canonic/IRBS/CARIBCHAT",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 129,
+      "tier": "NONE",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "irbs/caribchat/icf",
       "children": 0
     },
     {
@@ -10130,29 +10234,6 @@
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/LEARNING",
-      "kind": "SCOPE",
-      "label": "LEARNING",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/LEARNING",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "KNOWLEDGE",
-      "color": "#bf5af2",
-      "bits": 239,
-      "tier": "BUSINESS",
-      "missing_dims": [
-        "O"
-      ],
-      "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 16,
-      "roadmap_now": "Govern INTEL\u2192LEARNING primitive-to-service mapping across all scopes",
-      "learning_count": 13,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "magic/services/learning",
-      "children": 0
-    },
-    {
       "id": "canonic-canonic",
       "kind": "ORG",
       "label": "CANONIC",
@@ -10192,6 +10273,29 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic",
       "children": 12
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/LEARNING",
+      "kind": "SCOPE",
+      "label": "LEARNING",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/LEARNING",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 239,
+      "tier": "BUSINESS",
+      "missing_dims": [
+        "O"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 16,
+      "roadmap_now": "Govern INTEL\u2192LEARNING primitive-to-service mapping across all scopes",
+      "learning_count": 13,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/services/learning",
+      "children": 0
     }
   ],
   "edges": [
@@ -10844,6 +10948,16 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/DECK/RUNNER-CHAIN",
       "to": "hadleylab-canonic/SERVICES/DECK"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/DEMO",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/DESIGN",
+      "to": "hadleylab-canonic/SERVICES"
     },
     {
       "kind": "PARENT",
@@ -12487,6 +12601,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS/EXCELLENTING/WORK-TALK-ONCONEX",
+      "to": "hadleylab-canonic/DEALS/EXCELLENTING"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/DEALS/EXCELLENTING/index",
       "to": "hadleylab-canonic/DEALS/EXCELLENTING"
     },
@@ -12568,6 +12687,11 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/IRBS/CARIBCHAT/EXEMPT",
+      "to": "hadleylab-canonic/IRBS/CARIBCHAT"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/IRBS/CARIBCHAT/ICF",
       "to": "hadleylab-canonic/IRBS/CARIBCHAT"
     },
     {

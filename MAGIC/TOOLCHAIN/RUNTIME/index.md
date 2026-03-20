@@ -9,6 +9,11 @@ view: web
 views:
   - gov
   - web
+  - tex
+pdf: /magic/toolchain/runtime/runtime.pdf
+downloads:
+  - label: "PDF"
+    href: "/magic/toolchain/runtime/runtime.pdf"
 hero:
   badge: RUNTIME
   title: "RUNTIME"

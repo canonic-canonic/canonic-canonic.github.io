@@ -24,4 +24,3 @@ exclude:
   # MAGIC governance filenames (auto-generated from DIMS)
   - README.md
 
-

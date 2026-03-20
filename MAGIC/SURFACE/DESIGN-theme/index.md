@@ -9,6 +9,11 @@ view: web
 views:
   - gov
   - web
+  - tex
+pdf: /magic/surface/design-theme/design-theme.pdf
+downloads:
+  - label: "PDF"
+    href: "/magic/surface/design-theme/design-theme.pdf"
 hero:
   badge: DESIGN-theme
   title: "DESIGN-theme"
