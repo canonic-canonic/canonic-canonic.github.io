@@ -4,7 +4,7 @@
     "rule": "edit the contract or compiler \u2014 not this file",
     "gov_hash": "bd80b8156e8bbdc7"
   },
-  "generated": "2026-03-20T01:36:10Z",
+  "generated": "2026-03-20T02:12:23Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -66,7 +66,8 @@
       "finder",
       "graph"
     ],
-    "hud": [
+    "hud": "widget",
+    "hud_fields": [
       "identity",
       "ring",
       "coin"
