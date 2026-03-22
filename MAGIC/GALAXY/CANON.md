@@ -311,6 +311,12 @@ MUST:     All visual encoding derived from compiled data (galaxy.json)
 MUST:     galaxy.json is reproducible — build-galaxy-json discovers ORGS/*/CANON.md
 MUST:     GALAXY surface is reproducible — DESIGN theme renders galaxy.json, nothing else
 MUST:     Remove GOV directory = remove from galaxy — no other action required
+MUST:     HUD fixed top-left in both views (same position, same content, Finder and Graph)
+MUST:     Search/TALK bar fixed bottom-center in both views (always visible, never auto-hide)
+MUST:     Content area fills between HUD and search bar (cards in Finder, network in Graph)
+MUST:     HUD widget flows as first card in Finder grid, floats in Graph
+MUST:     Mobile layout: 2-column grid, HUD spans full width, no wasted space
+MUST:     view_config in galaxy.json declares default_view, views, hud mode, hud fields
 MUST NOT: Allow unauthenticated access to the operating surface
 MUST NOT: Require terminal or dev tools for governance operations
 MUST NOT: Show fleet site chrome (nav, footer) in galaxy operating mode
@@ -319,6 +325,7 @@ MUST NOT: Introduce global namespaces that break projection
 MUST NOT: Hardcode compliance score in renderer (read node.bits)
 MUST NOT: Render principals as plain text boxes
 MUST NOT: Hand-edit galaxy.json — fix the compiler or the GOV tree
+MUST NOT: Differ HUD or search bar position between Finder and Graph views
 ```
 
 ---

@@ -1,0 +1,128 @@
+{
+  "_generated": {
+    "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
+    "rule": "edit the contract or compiler \u2014 not this file",
+    "gov_hash": "523fbdf96b650c9f"
+  },
+  "generated": "2026-03-22T16:42:09Z",
+  "api_base": "https://api.canonic.org",
+  "tiers": [
+    {
+      "name": "FULL",
+      "threshold": 255,
+      "color": "#00ff88",
+      "badge": "\u2726"
+    },
+    {
+      "name": "AGENT",
+      "threshold": 127,
+      "color": "#2997ff",
+      "badge": "\u25c6"
+    },
+    {
+      "name": "ENTERPRISE",
+      "threshold": 63,
+      "color": "#bf5af2",
+      "badge": "E"
+    },
+    {
+      "name": "BUSINESS",
+      "threshold": 43,
+      "color": "#ff9f0a",
+      "badge": "B"
+    },
+    {
+      "name": "COMMUNITY",
+      "threshold": 35,
+      "color": "#fbbf24",
+      "badge": "C"
+    }
+  ],
+  "root": "hadleylab-canonic/USERS/AFSANA",
+  "breadcrumb": [
+    {
+      "id": "hadleylab-canonic",
+      "label": "HADLEYLAB"
+    },
+    {
+      "id": "hadleylab-canonic/USERS",
+      "label": "USERS"
+    },
+    {
+      "id": "hadleylab-canonic/USERS/AFSANA",
+      "label": "AFSANA"
+    }
+  ],
+  "stats": {
+    "total": 3,
+    "avg_bits": 247
+  },
+  "nodes": [
+    {
+      "id": "hadleylab-canonic/USERS/AFSANA",
+      "kind": "USER",
+      "label": "AFSANA",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/AFSANA",
+      "parent": "hadleylab-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "users/AFSANA",
+      "organization": "MammoSight",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/AFSANA/VITAE",
+      "kind": "CONTENT",
+      "label": "VITAE",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/AFSANA/VITAE",
+      "parent": "hadleylab-canonic/USERS/AFSANA",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "users/AFSANA/vitae",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/AFSANA/afsana-akter",
+      "kind": "CONTENT",
+      "label": "AFSANA-AKTER",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/AFSANA/afsana-akter",
+      "parent": "hadleylab-canonic/USERS/AFSANA",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "users/AFSANA/afsana-akter",
+      "children": 0
+    }
+  ],
+  "edges": [
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/AFSANA/VITAE",
+      "to": "hadleylab-canonic/USERS/AFSANA"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/AFSANA/afsana-akter",
+      "to": "hadleylab-canonic/USERS/AFSANA"
+    }
+  ]
+}

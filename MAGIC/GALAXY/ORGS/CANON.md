@@ -23,6 +23,7 @@ inherits: canonic-canonic/MAGIC
 | hadleylab-canonic | github.com/hadleylab-canonic | hadleylab.org | Private principal — proof fleet |
 | canonic-apple | github.com/canonic-apple | — | Platform SDK |
 | RunnerMVP | github.com/RunnerMVP | gorunner.pro | Distributed ORG — real estate operations |
+| beda-software | github.com/beda-software | beda.software | Distributed ORG — engineering + FHIR + Apple |
 
 ---
 

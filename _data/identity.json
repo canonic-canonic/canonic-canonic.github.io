@@ -110,28 +110,23 @@
             ],
             "rows": [
               [
-                "2026-02-20",
-                "~~Rollout window needed~~",
-                "~~Existing 17 events unsigned~~ — CLOSED: signature_cutoff defined in vault_lib."
-              ],
-              [
                 "2026-02-28",
-                "KEYGEN_LIVE",
+                "",
                 "`vault keygen --user USER` generates Ed25519 key-pair (KEY.pub + KEY.priv) at ~/"
               ],
               [
                 "2026-02-28",
-                "AUTH_LIVE",
+                "",
                 "`vault auth --user USER` mints signed Bearer token (EdDSA, 1h expiry) — GitHub O"
               ],
               [
                 "2026-02-28",
-                "VERIFY_SIG_LIVE",
+                "",
                 "`vault verify-sig` validates event signatures against public keys — integrated i"
               ],
               [
                 "2026-02-28",
-                "GITHUB_OAUTH_LIVE",
+                "",
                 "GitHub OAuth flow: /auth/github → GitHub authorize → /auth/github/callback → mat"
               ]
             ]

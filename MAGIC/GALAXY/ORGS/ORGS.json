@@ -197,6 +197,12 @@
             "github.com/RunnerMVP",
             "gorunner.pro",
             "Distributed ORG — real estate operations"
+          ],
+          [
+            "beda-software",
+            "github.com/beda-software",
+            "beda.software",
+            "Distributed ORG — engineering + FHIR + Apple"
           ]
         ]
       }
@@ -214,7 +220,7 @@
     "spec": [
       {
         "title": "Registry",
-        "body": "| ORG | GitHub | Fleet | Role |\n|-----|--------|-------|------|\n| canonic-canonic | github.com/canonic-canonic | canonic.org | Public GOV — the kernel |\n| hadleylab-canonic | github.com/hadleylab-canonic | hadleylab.org | Private principal — proof fleet |\n| canonic-apple | github.com/canonic-apple | — | Platform SDK |\n| RunnerMVP | github.com/RunnerMVP | gorunner.pro | Distributed ORG — real estate operations |\n\n---"
+        "body": "| ORG | GitHub | Fleet | Role |\n|-----|--------|-------|------|\n| canonic-canonic | github.com/canonic-canonic | canonic.org | Public GOV — the kernel |\n| hadleylab-canonic | github.com/hadleylab-canonic | hadleylab.org | Private principal — proof fleet |\n| canonic-apple | github.com/canonic-apple | — | Platform SDK |\n| RunnerMVP | github.com/RunnerMVP | gorunner.pro | Distributed ORG — real estate operations |\n| beda-software | github.com/beda-software | beda.software | Distributed ORG — engineering + FHIR + Apple |\n\n---"
       },
       {
         "title": "Constraints",

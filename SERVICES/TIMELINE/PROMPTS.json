@@ -3,54 +3,7 @@
     "contract": "hadleylab-canonic/SERVICES/CONTACTS/CANON.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "generated": "2026-03-20T17:03:00Z",
-  "count": 1,
-  "briefs": [
-    {
-      "ts": "2026-03-20T19:00:00Z",
-      "summary": "CANONIC GoRunner.pro 🚀",
-      "location": "",
-      "end": "2026-03-20T20:00:00Z",
-      "participants": [
-        {
-          "name": "Hadleylaboratory",
-          "email": "hadleylaboratory@gmail.com"
-        },
-        {
-          "name": "Yana",
-          "email": "yana@beda.software"
-        },
-        {
-          "name": "Robert Glover",
-          "email": "robert@pinnaclegrp.us",
-          "galaxy_node": "SERVICES/LEARNING/robert-glover",
-          "intel": {
-            "node": "SERVICES/LEARNING/robert-glover",
-            "sections": {
-              "relationship": "```\nMet:         2026-02-25 (Lake Nona, in person)\nConnection:  Lake Nona neighbors — Dexter and Robert are friends\nOnboard:     Same day. Demo session → first distributed user of the GALAXY.\nRole:        First distributed real estate user (no GitHub)\nKYC:         LinkedIn verified. DBPR pending. Gi...",
-              "correspondence": [
-                {
-                  "date": "2026-03-09",
-                  "text": "Email"
-                },
-                {
-                  "date": "2026-03-10",
-                  "text": "Email"
-                },
-                {
-                  "date": "2026-03-10",
-                  "text": "Email"
-                }
-              ]
-            }
-          }
-        },
-        {
-          "name": "Troublegirl007",
-          "email": "troublegirl007@gmail.com"
-        }
-      ],
-      "prompt": "## Pre-Meeting Brief: CANONIC GoRunner.pro 🚀\n**When:** 2026-03-20 19:00 UTC\n\n### Hadleylaboratory\n*Not resolved to galaxy. Unknown contact.*\n\n### Yana\n*Not resolved to galaxy. Unknown contact.*\n\n### Robert Glover\n\n**Relationship:**\n```\nMet:         2026-02-25 (Lake Nona, in person)\nConnection:  Lake Nona neighbors — Dexter and Robert are friends\nOnboard:     Same day. Demo session → first distributed user of the GALAXY.\nRole:        First distributed real estate user (no GitHub)\nKYC:         LinkedIn verified. DBPR pending. Gi...\n\n**Recent Correspondence:**\n- 2026-03-09: Email\n- 2026-03-10: Email\n- 2026-03-10: Email\n\n### Troublegirl007\n*Not resolved to galaxy. Unknown contact.*\n"
-    }
-  ]
+  "generated": "2026-03-22T16:38:47Z",
+  "count": 0,
+  "briefs": []
 }

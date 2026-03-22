@@ -107,12 +107,12 @@
             "rows": [
               [
                 "2026-02-26",
-                "SERVICE_CREATED",
+                "",
                 "CONTRIBUTE promoted to library-scope service — ATULISMS first consumer"
               ],
               [
                 "2026-02-26",
-                "HARDCODING_REMOVED",
+                "",
                 "Scope must be a parameter, not a constant — ATULISMS proved the pattern"
               ]
             ]

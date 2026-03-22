@@ -603,8 +603,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:IRBS",
       "label": "IRBS",
-      "bits": 215,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:."
@@ -614,8 +614,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:IRBS:CARIBCHAT",
       "label": "CARIBCHAT",
-      "bits": 215,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:IRBS"

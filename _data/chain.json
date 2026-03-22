@@ -106,28 +106,13 @@
             ],
             "rows": [
               [
-                "2026-02-20",
-                "~~Spec-runtime drift~~",
-                "~~Spec declares \"hash includes prev\" but runtime does not~~ — CLOSED: runtime no"
-              ],
-              [
-                "2026-02-20",
-                "12-char truncated hash",
-                "Existing event IDs use SHA256[:12] — maintained for chain IDs to preserve compat"
-              ],
-              [
-                "2026-02-20",
-                "Balance must be derived",
-                "WALLET.json balance is incrementally updated but should match full TIMELINE deri"
-              ],
-              [
                 "2026-02-28",
-                "CHAIN_LIVE",
+                "",
                 "`vault migrate-chain` retroactively chains unchained TIMELINE events from genesi"
               ],
               [
                 "2026-02-28",
-                "VERIFY_WALLET_LIVE",
+                "",
                 "`vault verify-wallet --user USER` walks TIMELINE forward, verifies prev pointers"
               ]
             ]

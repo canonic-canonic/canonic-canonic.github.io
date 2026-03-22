@@ -116,45 +116,6 @@
       ]
     },
     {
-      "id": "activity",
-      "eyebrow": "LEARNING",
-      "title": "Recent Activity",
-      "dashboard": [
-        {
-          "span": 2,
-          "table": {
-            "headers": [
-              "Date",
-              "Signal",
-              "Pattern"
-            ],
-            "rows": [
-              [
-                "2026-02-20",
-                "SPEC = {SCOPE} — each paper IS a governed scope",
-                "Paper .md IS the specification, not just content"
-              ],
-              [
-                "2026-02-20",
-                "Governance .md without front matter crashes Jekyll",
-                "PAPERS dir must be compiled, not served raw"
-              ],
-              [
-                "2026-02-20",
-                "Papers need richer structure than blogs",
-                "TOC, appendices, figures, math, PDF export, citations"
-              ],
-              [
-                "2026-02-20",
-                "GOV tree must be pure",
-                "Content and governance coexist as source, compile separates them"
-              ]
-            ]
-          }
-        }
-      ]
-    },
-    {
       "id": "canon-interface-paper-front-matter",
       "eyebrow": "INTERFACE — PAPER FRONT MATTER",
       "title": "Interface — Paper Front Matter",

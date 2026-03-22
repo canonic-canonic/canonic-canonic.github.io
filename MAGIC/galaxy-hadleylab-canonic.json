@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "3788fa01fab6abb6"
+    "gov_hash": "523fbdf96b650c9f"
   },
-  "generated": "2026-03-20T17:03:27Z",
+  "generated": "2026-03-22T16:42:09Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -46,8 +46,8 @@
     }
   ],
   "stats": {
-    "total": 584,
-    "avg_bits": 254
+    "total": 585,
+    "avg_bits": 255
   },
   "nodes": [
     {
@@ -92,7 +92,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "blogs",
-      "children": 65
+      "children": 66
     },
     {
       "id": "hadleylab-canonic/BOOKS",
@@ -209,15 +209,10 @@
       "parent": "hadleylab-canonic",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 215,
-      "tier": "NONE",
-      "missing_dims": [
-        "R",
-        "S"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 40,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "irbs",
       "children": 1
@@ -1496,6 +1491,23 @@
       "date": "2026-03-18"
     },
     {
+      "id": "hadleylab-canonic/BLOGS/2026-03-22-the-lawyer-who-won",
+      "kind": "CONTENT",
+      "label": "THE LAWYER WHO WON",
+      "repo": "hadleylab-canonic",
+      "path": "BLOGS/2026-03-22-the-lawyer-who-won",
+      "parent": "hadleylab-canonic/BLOGS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_POST",
+      "fleet_path": "blogs/2026-03-22-the-lawyer-who-won",
+      "children": 0,
+      "date": "2026-03-22"
+    },
+    {
       "id": "hadleylab-canonic/BLOGS/SHOP",
       "kind": "CONTENT",
       "label": "SHOP",
@@ -2197,15 +2209,10 @@
       "parent": "hadleylab-canonic/IRBS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 215,
-      "tier": "NONE",
-      "missing_dims": [
-        "R",
-        "S"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 40,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "irbs/caribchat",
       "children": 6
@@ -3444,6 +3451,11 @@
       "learning_count": 11,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/BLANDFORD",
+      "cross_intel": [
+        "REALTY",
+        "BRYANSTON",
+        "SLOANE"
+      ],
       "children": 1
     },
     {
@@ -3464,6 +3476,11 @@
       "learning_count": 12,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/BRYANSTON",
+      "cross_intel": [
+        "REALTY",
+        "BLANDFORD",
+        "SLOANE"
+      ],
       "children": 1
     },
     {
@@ -3481,9 +3498,13 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 99,
+      "learning_count": 106,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/CARIBCHAT",
+      "cross_intel": [
+        "MAMMOCHAT",
+        "ONCOCHAT"
+      ],
       "children": 1
     },
     {
@@ -3504,6 +3525,9 @@
       "learning_count": 1,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/DEV",
+      "cross_intel": [
+        "LAWCHAT"
+      ],
       "children": 2
     },
     {
@@ -3524,6 +3548,9 @@
       "learning_count": 8,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/FINCHAT",
+      "cross_intel": [
+        "MEDCHAT"
+      ],
       "children": 1
     },
     {
@@ -3544,6 +3571,9 @@
       "learning_count": 8,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/LAWCHAT",
+      "cross_intel": [
+        "MEDCHAT"
+      ],
       "children": 1
     },
     {
@@ -3563,6 +3593,11 @@
       "learning_count": 30,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/MAMMOCHAT",
+      "cross_intel": [
+        "ONCOCHAT",
+        "CARIBCHAT",
+        "OMICSCHAT"
+      ],
       "children": 1
     },
     {
@@ -3583,6 +3618,10 @@
       "learning_count": 11,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/MEDCHAT",
+      "cross_intel": [
+        "ONCOCHAT",
+        "OMICSCHAT"
+      ],
       "children": 1
     },
     {
@@ -3603,6 +3642,10 @@
       "learning_count": 7,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/NONA",
+      "cross_intel": [
+        "REALTY",
+        "VITAE"
+      ],
       "children": 1
     },
     {
@@ -3623,6 +3666,11 @@
       "learning_count": 23,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/OMICSCHAT",
+      "cross_intel": [
+        "MAMMOCHAT",
+        "ONCOCHAT",
+        "MEDCHAT"
+      ],
       "children": 1
     },
     {
@@ -3643,6 +3691,11 @@
       "learning_count": 11,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/ONCOCHAT",
+      "cross_intel": [
+        "MAMMOCHAT",
+        "OMICSCHAT",
+        "MEDCHAT"
+      ],
       "children": 1
     },
     {
@@ -3663,6 +3716,13 @@
       "learning_count": 5,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/REALTY",
+      "cross_intel": [
+        "BLANDFORD",
+        "SLOANE",
+        "BRYANSTON",
+        "FINCHAT",
+        "LAWCHAT"
+      ],
       "children": 1
     },
     {
@@ -3683,6 +3743,9 @@
       "learning_count": 78,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/RUNNER",
+      "cross_intel": [
+        "VITAE"
+      ],
       "children": 1
     },
     {
@@ -3703,6 +3766,11 @@
       "learning_count": 10,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/SLOANE",
+      "cross_intel": [
+        "REALTY",
+        "BLANDFORD",
+        "BRYANSTON"
+      ],
       "children": 1
     },
     {
@@ -3723,6 +3791,11 @@
       "learning_count": 6,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/VITAE",
+      "cross_intel": [
+        "RUNNER",
+        "NONA",
+        "REALTY"
+      ],
       "children": 1
     },
     {
@@ -4921,8 +4994,8 @@
       "parent": "hadleylab-canonic/IRBS/CARIBCHAT",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 215,
-      "tier": "NONE",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "irbs/caribchat/exempt",
@@ -4937,8 +5010,8 @@
       "parent": "hadleylab-canonic/IRBS/CARIBCHAT",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 215,
-      "tier": "NONE",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "irbs/caribchat/icf",
@@ -4953,8 +5026,8 @@
       "parent": "hadleylab-canonic/IRBS/CARIBCHAT",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 215,
-      "tier": "NONE",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "irbs/caribchat/listing",
@@ -4969,8 +5042,8 @@
       "parent": "hadleylab-canonic/IRBS/CARIBCHAT",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 215,
-      "tier": "NONE",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "irbs/caribchat/protocol",
@@ -4985,8 +5058,8 @@
       "parent": "hadleylab-canonic/IRBS/CARIBCHAT",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 215,
-      "tier": "NONE",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "irbs/caribchat/security",
@@ -5001,8 +5074,8 @@
       "parent": "hadleylab-canonic/IRBS/CARIBCHAT",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 215,
-      "tier": "NONE",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "irbs/caribchat/waiver",
@@ -10230,25 +10303,24 @@
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC",
-      "kind": "SCOPE",
-      "label": "MAGIC",
+      "id": "canonic-canonic",
+      "kind": "ORG",
+      "label": "CANONIC",
       "repo": "canonic-canonic",
-      "path": "MAGIC",
-      "parent": "canonic-canonic",
-      "category": "RUNTIME",
-      "color": "#00ff88",
+      "path": ".",
+      "parent": null,
+      "category": "ORG",
+      "color": "#64748b",
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**INTEL \u2014 what you KNOW. The orchestrator. Every service wires INTEL.**",
-      "roadmap_now": "MAGIC 255/255 \u2014 Full governance compliance across all 9 domains",
-      "learning_count": 373,
+      "has_intel": false,
+      "roadmap_now": "[ ] Key rotation escalation \u2014 promote from soft gate (WARN) to hard gate (FAIL) in phase 8f",
+      "learning_count": 983,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "magic",
-      "children": 12
+      "fleet_path": "",
+      "children": 6
     },
     {
       "id": "canonic-canonic/MAGIC/SERVICES/LEARNING",
@@ -10270,24 +10342,25 @@
       "children": 0
     },
     {
-      "id": "canonic-canonic",
-      "kind": "ORG",
-      "label": "CANONIC",
+      "id": "canonic-canonic/MAGIC",
+      "kind": "SCOPE",
+      "label": "MAGIC",
       "repo": "canonic-canonic",
-      "path": ".",
-      "parent": null,
-      "category": "ORG",
-      "color": "#64748b",
+      "path": "MAGIC",
+      "parent": "canonic-canonic",
+      "category": "RUNTIME",
+      "color": "#00ff88",
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "[ ] Key rotation escalation \u2014 promote from soft gate (WARN) to hard gate (FAIL) in phase 8f",
-      "learning_count": 983,
+      "has_intel": true,
+      "intel_summary": "**INTEL \u2014 what you KNOW. The orchestrator. Every service wires INTEL.**",
+      "roadmap_now": "MAGIC 255/255 \u2014 Full governance compliance across all 9 domains",
+      "learning_count": 373,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "",
-      "children": 6
+      "fleet_path": "magic",
+      "children": 12
     }
   ],
   "edges": [
@@ -10320,6 +10393,11 @@
       "kind": "INHERITS",
       "from": "hadleylab-canonic/GRANTS",
       "to": "hadleylab-canonic/SERVICES/GRANT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/IRBS",
+      "to": "hadleylab-canonic/SERVICES/CLINICAL"
     },
     {
       "kind": "INHERITS",
@@ -10460,6 +10538,186 @@
       "kind": "INHERITS",
       "from": "hadleylab-canonic/VITAE",
       "to": "hadleylab-canonic/SERVICES/VITAE"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/BLANDFORD",
+      "to": "hadleylab-canonic/TALKS/REALTY"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/BLANDFORD",
+      "to": "hadleylab-canonic/TALKS/BRYANSTON"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/BLANDFORD",
+      "to": "hadleylab-canonic/TALKS/SLOANE"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/BRYANSTON",
+      "to": "hadleylab-canonic/TALKS/REALTY"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/BRYANSTON",
+      "to": "hadleylab-canonic/TALKS/BLANDFORD"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/BRYANSTON",
+      "to": "hadleylab-canonic/TALKS/SLOANE"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/CARIBCHAT",
+      "to": "hadleylab-canonic/TALKS/MAMMOCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/CARIBCHAT",
+      "to": "hadleylab-canonic/TALKS/ONCOCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/DEV",
+      "to": "hadleylab-canonic/TALKS/LAWCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/FINCHAT",
+      "to": "hadleylab-canonic/TALKS/MEDCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/LAWCHAT",
+      "to": "hadleylab-canonic/TALKS/MEDCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/MAMMOCHAT",
+      "to": "hadleylab-canonic/TALKS/ONCOCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/MAMMOCHAT",
+      "to": "hadleylab-canonic/TALKS/CARIBCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/MAMMOCHAT",
+      "to": "hadleylab-canonic/TALKS/OMICSCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/MEDCHAT",
+      "to": "hadleylab-canonic/TALKS/ONCOCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/MEDCHAT",
+      "to": "hadleylab-canonic/TALKS/OMICSCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/NONA",
+      "to": "hadleylab-canonic/TALKS/REALTY"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/NONA",
+      "to": "hadleylab-canonic/TALKS/VITAE"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/OMICSCHAT",
+      "to": "hadleylab-canonic/TALKS/MAMMOCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/OMICSCHAT",
+      "to": "hadleylab-canonic/TALKS/ONCOCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/OMICSCHAT",
+      "to": "hadleylab-canonic/TALKS/MEDCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/ONCOCHAT",
+      "to": "hadleylab-canonic/TALKS/MAMMOCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/ONCOCHAT",
+      "to": "hadleylab-canonic/TALKS/OMICSCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/ONCOCHAT",
+      "to": "hadleylab-canonic/TALKS/MEDCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/REALTY",
+      "to": "hadleylab-canonic/TALKS/BLANDFORD"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/REALTY",
+      "to": "hadleylab-canonic/TALKS/SLOANE"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/REALTY",
+      "to": "hadleylab-canonic/TALKS/BRYANSTON"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/REALTY",
+      "to": "hadleylab-canonic/TALKS/FINCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/REALTY",
+      "to": "hadleylab-canonic/TALKS/LAWCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/RUNNER",
+      "to": "hadleylab-canonic/TALKS/VITAE"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/SLOANE",
+      "to": "hadleylab-canonic/TALKS/REALTY"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/SLOANE",
+      "to": "hadleylab-canonic/TALKS/BLANDFORD"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/SLOANE",
+      "to": "hadleylab-canonic/TALKS/BRYANSTON"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/VITAE",
+      "to": "hadleylab-canonic/TALKS/RUNNER"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/VITAE",
+      "to": "hadleylab-canonic/TALKS/NONA"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/VITAE",
+      "to": "hadleylab-canonic/TALKS/REALTY"
     },
     {
       "kind": "PARENT",
@@ -11679,6 +11937,11 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/BLOGS/2026-03-18-irb-without-a-law",
+      "to": "hadleylab-canonic/BLOGS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BLOGS/2026-03-22-the-lawyer-who-won",
       "to": "hadleylab-canonic/BLOGS"
     },
     {
