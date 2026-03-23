@@ -111,27 +111,27 @@
             "rows": [
               [
                 "2026-02-28",
-                "",
+                "CORS_RESTRICTED",
                 "CORS origins governed: canonic.org, hadleylab.org, api.canonic.org — never wildc"
               ],
               [
                 "2026-02-28",
-                "",
+                "RATE_LIMITED",
                 "In-memory per-IP rate limiting: 60 req/min — returns 429 when exceeded"
               ],
               [
                 "2026-02-28",
-                "",
+                "SIGTERM_DRAIN",
                 "SIGTERM handler sets _shutting_down flag, returns 503, drains in-flight requests"
               ],
               [
                 "2026-02-28",
-                "",
+                "RETRY_BACKOFF",
                 "Exponential backoff with jitter on GitHub and Stripe calls — max 3 attempts"
               ],
               [
                 "2026-02-28",
-                "",
+                "STRIPE_WEBHOOK_VERIFIED",
                 "Stripe webhook signature verified via HMAC-SHA256 before processing checkout.ses"
               ]
             ]

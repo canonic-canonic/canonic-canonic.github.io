@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "523fbdf96b650c9f"
+    "gov_hash": "808d2a1a4a927f7d"
   },
-  "generated": "2026-03-22T16:42:09Z",
+  "generated": "2026-03-23T17:28:23Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -46,7 +46,7 @@
     }
   ],
   "stats": {
-    "total": 585,
+    "total": 583,
     "avg_bits": 255
   },
   "nodes": [
@@ -68,7 +68,7 @@
       "github": "iDrDex",
       "has_intel": true,
       "intel_summary": "**INTEL crosses USER boundaries. When one principal acts, all dashboards update.**",
-      "learning_count": 5406,
+      "learning_count": 5407,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
@@ -109,12 +109,12 @@
       "privacy": "PUBLIC",
       "has_intel": true,
       "intel_summary": "| Claim | Source |",
-      "roadmap_now": "`magic validate` \u2192 255 on both books",
-      "learning_count": 29,
+      "roadmap_now": "[ ] Community review attribution in FRONT-MATTER acknowledgments section",
+      "learning_count": 30,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "books",
-      "children": 12
+      "children": 11
     },
     {
       "id": "hadleylab-canonic/CHARTER",
@@ -252,11 +252,11 @@
       "principal": true,
       "has_intel": true,
       "intel_summary": "| Claim | Source |",
-      "learning_count": 93,
+      "learning_count": 95,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "services",
-      "children": 51
+      "children": 52
     },
     {
       "id": "hadleylab-canonic/TALKS",
@@ -1581,7 +1581,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR GOVERNANCE. EVERY CLAIM SOURCED. EVERY CHAPTER INTEL-BACKED.**",
       "roadmap_now": "NYT POLISH PASS 3: Continue expanding chapters to 3K+ average",
-      "learning_count": 13,
+      "learning_count": 14,
       "coverage_score": 255,
       "surface_type": "JEKYLL_BOOK",
       "fleet_path": "books/CANONIC-CANON",
@@ -1603,7 +1603,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR BUILD. EVERY COMMAND SOURCED. EVERY CHAPTER INTEL-BACKED.**",
       "roadmap_now": "AUDIENCE: Ilya Beda (CTO BedaSoftware, FHIR expert) + Yana Beda (CEO, Apple/frontend)",
-      "learning_count": 14,
+      "learning_count": 15,
       "coverage_score": 255,
       "surface_type": "JEKYLL_BOOK",
       "fleet_path": "books/CANONIC-DOCTRINE",
@@ -1683,22 +1683,6 @@
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
       "fleet_path": "books/map",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/BOOKS/MASTER-BIBLIOGRAPHY",
-      "kind": "CONTENT",
-      "label": "MASTER-BIBLIOGRAPHY",
-      "repo": "hadleylab-canonic",
-      "path": "BOOKS/MASTER-BIBLIOGRAPHY",
-      "parent": "hadleylab-canonic/BOOKS",
-      "color": "#a78bfa",
-      "category": "CONTENT",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/master-bibliography",
       "children": 0
     },
     {
@@ -2076,11 +2060,11 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR PARTNER. EVERY COMMIT LEDGERED. EVERY DEPLOYMENT GOVERNED. EVERY DEAL EVIDENCED.**",
-      "learning_count": 9,
+      "learning_count": 13,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DECK",
       "fleet_path": "decks/BEDA",
-      "children": 1
+      "children": 2
     },
     {
       "id": "hadleylab-canonic/DECKS/DECK",
@@ -2511,6 +2495,30 @@
       "children": 1
     },
     {
+      "id": "hadleylab-canonic/SERVICES/CITATION",
+      "kind": "SERVICE",
+      "label": "CITATION",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/CITATION",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "**KNOW YOUR SOURCES. EVERY CLAIM TRACED. EVERY CITATION GOVERNED.**",
+      "roadmap_now": "[ ] the-255-billion-dollar-wound.md \u2014 359 uncited claims (68% gap)",
+      "learning_count": 3,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "services/CITATION",
+      "children": 1
+    },
+    {
       "id": "hadleylab-canonic/SERVICES/CLAUDE",
       "kind": "SERVICE",
       "label": "CLAUDE",
@@ -2524,7 +2532,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "Dexter Hadley, MD/PhD (Penn). Stanford Research Associate (Butte Lab). Faculty at UCSF and UCF (Founding Chief of AI). C",
-      "learning_count": 18,
+      "learning_count": 20,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "services/CLAUDE",
@@ -2565,7 +2573,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR ECONOMICS. EVERY MINT GOVERNED. EVERY BURN EVIDENCED.**",
       "roadmap_now": "MINT:READ attention pipeline \u2014 pageview \u2192 Worker \u2192 vault mint \u2192 author COIN",
-      "learning_count": 1,
+      "learning_count": 2,
       "coverage_score": 255,
       "coverage_open_gates": [
         "MINT_READ_DEDUP"
@@ -3017,6 +3025,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "NOTIFIER delivers governed cross-scope messages inline at ledger write time.",
+      "roadmap_now": "[ ] Wire CONTRIBUTE:REVIEW \u2192 notify contributor that feedback was acted upon",
       "learning_count": 2,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
@@ -4228,7 +4237,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_BOOK",
       "fleet_path": "books/CANONIC-CANON/CHAPTERS",
-      "children": 45
+      "children": 41
     },
     {
       "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/COMPILE",
@@ -4922,6 +4931,22 @@
       "children": 0
     },
     {
+      "id": "hadleylab-canonic/DECKS/BEDA/EMAIL-REVIEW-LOOP-2026-03-23",
+      "kind": "CONTENT",
+      "label": "EMAIL-REVIEW-LOOP-2026-03-23",
+      "repo": "hadleylab-canonic",
+      "path": "DECKS/BEDA/EMAIL-REVIEW-LOOP-2026-03-23",
+      "parent": "hadleylab-canonic/DECKS/BEDA",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DECK",
+      "fleet_path": "decks/BEDA/email-review-loop-2026-03-23",
+      "children": 0
+    },
+    {
       "id": "hadleylab-canonic/DECKS/HOWARD/DECK",
       "kind": "CONTENT",
       "label": "DECK",
@@ -5203,6 +5228,22 @@
       "has_intel": false,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "services/CAMPAIGN/playbook",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/CITATION/BIBLIOGRAPHY",
+      "kind": "CONTENT",
+      "label": "BIBLIOGRAPHY",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/CITATION/BIBLIOGRAPHY",
+      "parent": "hadleylab-canonic/SERVICES/CITATION",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "services/CITATION/bibliography",
       "children": 0
     },
     {
@@ -8821,11 +8862,11 @@
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/32-THE-MATHEMATICS-OF-GOVERNED-CHANGE",
+      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/32-HADLEYLAB-THE-LABORATORY",
       "kind": "CONTENT",
-      "label": "32-THE-MATHEMATICS-OF-GOVERNED-CHANGE",
+      "label": "32-HADLEYLAB-THE-LABORATORY",
       "repo": "hadleylab-canonic",
-      "path": "BOOKS/CANONIC-CANON/CHAPTERS/32-THE-MATHEMATICS-OF-GOVERNED-CHANGE",
+      "path": "BOOKS/CANONIC-CANON/CHAPTERS/32-HADLEYLAB-THE-LABORATORY",
       "parent": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS",
       "color": "#a78bfa",
       "category": "CONTENT",
@@ -8833,15 +8874,15 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/32-the-mathematics-of-governed-change",
+      "fleet_path": "books/CANONIC-CANON/CHAPTERS/32-hadleylab-the-laboratory",
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/33-DRIFT-AND-SELECTION-IN-CLINICAL-AI",
+      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/33-MAMMOCHAT",
       "kind": "CONTENT",
-      "label": "33-DRIFT-AND-SELECTION-IN-CLINICAL-AI",
+      "label": "33-MAMMOCHAT",
       "repo": "hadleylab-canonic",
-      "path": "BOOKS/CANONIC-CANON/CHAPTERS/33-DRIFT-AND-SELECTION-IN-CLINICAL-AI",
+      "path": "BOOKS/CANONIC-CANON/CHAPTERS/33-MAMMOCHAT",
       "parent": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS",
       "color": "#a78bfa",
       "category": "CONTENT",
@@ -8849,15 +8890,15 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/33-drift-and-selection-in-clinical-ai",
+      "fleet_path": "books/CANONIC-CANON/CHAPTERS/33-mammochat",
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/34-THE-GOVERNANCE-PHYLOGENY",
+      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/34-ONCOCHAT",
       "kind": "CONTENT",
-      "label": "34-THE-GOVERNANCE-PHYLOGENY",
+      "label": "34-ONCOCHAT",
       "repo": "hadleylab-canonic",
-      "path": "BOOKS/CANONIC-CANON/CHAPTERS/34-THE-GOVERNANCE-PHYLOGENY",
+      "path": "BOOKS/CANONIC-CANON/CHAPTERS/34-ONCOCHAT",
       "parent": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS",
       "color": "#a78bfa",
       "category": "CONTENT",
@@ -8865,15 +8906,15 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/34-the-governance-phylogeny",
+      "fleet_path": "books/CANONIC-CANON/CHAPTERS/34-oncochat",
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/35-THE-LEARNING-GOVERNANCE-STANDARD",
+      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/35-MEDCHAT",
       "kind": "CONTENT",
-      "label": "35-THE-LEARNING-GOVERNANCE-STANDARD",
+      "label": "35-MEDCHAT",
       "repo": "hadleylab-canonic",
-      "path": "BOOKS/CANONIC-CANON/CHAPTERS/35-THE-LEARNING-GOVERNANCE-STANDARD",
+      "path": "BOOKS/CANONIC-CANON/CHAPTERS/35-MEDCHAT",
       "parent": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS",
       "color": "#a78bfa",
       "category": "CONTENT",
@@ -8881,15 +8922,15 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/35-the-learning-governance-standard",
+      "fleet_path": "books/CANONIC-CANON/CHAPTERS/35-medchat",
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/36-HADLEYLAB-THE-LABORATORY",
+      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/36-LAWCHAT",
       "kind": "CONTENT",
-      "label": "36-HADLEYLAB-THE-LABORATORY",
+      "label": "36-LAWCHAT",
       "repo": "hadleylab-canonic",
-      "path": "BOOKS/CANONIC-CANON/CHAPTERS/36-HADLEYLAB-THE-LABORATORY",
+      "path": "BOOKS/CANONIC-CANON/CHAPTERS/36-LAWCHAT",
       "parent": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS",
       "color": "#a78bfa",
       "category": "CONTENT",
@@ -8897,15 +8938,15 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/36-hadleylab-the-laboratory",
+      "fleet_path": "books/CANONIC-CANON/CHAPTERS/36-lawchat",
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/37-MAMMOCHAT",
+      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/37-FINCHAT",
       "kind": "CONTENT",
-      "label": "37-MAMMOCHAT",
+      "label": "37-FINCHAT",
       "repo": "hadleylab-canonic",
-      "path": "BOOKS/CANONIC-CANON/CHAPTERS/37-MAMMOCHAT",
+      "path": "BOOKS/CANONIC-CANON/CHAPTERS/37-FINCHAT",
       "parent": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS",
       "color": "#a78bfa",
       "category": "CONTENT",
@@ -8913,15 +8954,15 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/37-mammochat",
+      "fleet_path": "books/CANONIC-CANON/CHAPTERS/37-finchat",
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/38-ONCOCHAT",
+      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/38-THE-CHAT-FLEET",
       "kind": "CONTENT",
-      "label": "38-ONCOCHAT",
+      "label": "38-THE-CHAT-FLEET",
       "repo": "hadleylab-canonic",
-      "path": "BOOKS/CANONIC-CANON/CHAPTERS/38-ONCOCHAT",
+      "path": "BOOKS/CANONIC-CANON/CHAPTERS/38-THE-CHAT-FLEET",
       "parent": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS",
       "color": "#a78bfa",
       "category": "CONTENT",
@@ -8929,15 +8970,15 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/38-oncochat",
+      "fleet_path": "books/CANONIC-CANON/CHAPTERS/38-the-chat-fleet",
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/39-MEDCHAT",
+      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/39-ATULISMS",
       "kind": "CONTENT",
-      "label": "39-MEDCHAT",
+      "label": "39-ATULISMS",
       "repo": "hadleylab-canonic",
-      "path": "BOOKS/CANONIC-CANON/CHAPTERS/39-MEDCHAT",
+      "path": "BOOKS/CANONIC-CANON/CHAPTERS/39-ATULISMS",
       "parent": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS",
       "color": "#a78bfa",
       "category": "CONTENT",
@@ -8945,15 +8986,15 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/39-medchat",
+      "fleet_path": "books/CANONIC-CANON/CHAPTERS/39-atulisms",
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/40-LAWCHAT",
+      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/40-THE-MOLECULAR-CLOCK",
       "kind": "CONTENT",
-      "label": "40-LAWCHAT",
+      "label": "40-THE-MOLECULAR-CLOCK",
       "repo": "hadleylab-canonic",
-      "path": "BOOKS/CANONIC-CANON/CHAPTERS/40-LAWCHAT",
+      "path": "BOOKS/CANONIC-CANON/CHAPTERS/40-THE-MOLECULAR-CLOCK",
       "parent": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS",
       "color": "#a78bfa",
       "category": "CONTENT",
@@ -8961,71 +9002,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/40-lawchat",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/41-FINCHAT",
-      "kind": "CONTENT",
-      "label": "41-FINCHAT",
-      "repo": "hadleylab-canonic",
-      "path": "BOOKS/CANONIC-CANON/CHAPTERS/41-FINCHAT",
-      "parent": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS",
-      "color": "#a78bfa",
-      "category": "CONTENT",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/41-finchat",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/42-THE-CHAT-FLEET",
-      "kind": "CONTENT",
-      "label": "42-THE-CHAT-FLEET",
-      "repo": "hadleylab-canonic",
-      "path": "BOOKS/CANONIC-CANON/CHAPTERS/42-THE-CHAT-FLEET",
-      "parent": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS",
-      "color": "#a78bfa",
-      "category": "CONTENT",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/42-the-chat-fleet",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/43-ATULISMS",
-      "kind": "CONTENT",
-      "label": "43-ATULISMS",
-      "repo": "hadleylab-canonic",
-      "path": "BOOKS/CANONIC-CANON/CHAPTERS/43-ATULISMS",
-      "parent": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS",
-      "color": "#a78bfa",
-      "category": "CONTENT",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/43-atulisms",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/44-THE-MOLECULAR-CLOCK",
-      "kind": "CONTENT",
-      "label": "44-THE-MOLECULAR-CLOCK",
-      "repo": "hadleylab-canonic",
-      "path": "BOOKS/CANONIC-CANON/CHAPTERS/44-THE-MOLECULAR-CLOCK",
-      "parent": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS",
-      "color": "#a78bfa",
-      "category": "CONTENT",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/44-the-molecular-clock",
+      "fleet_path": "books/CANONIC-CANON/CHAPTERS/40-the-molecular-clock",
       "children": 0
     },
     {
@@ -10303,6 +10280,27 @@
       "children": 0
     },
     {
+      "id": "canonic-canonic/MAGIC",
+      "kind": "SCOPE",
+      "label": "MAGIC",
+      "repo": "canonic-canonic",
+      "path": "MAGIC",
+      "parent": "canonic-canonic",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**INTEL \u2014 what you KNOW. The orchestrator. Every service wires INTEL.**",
+      "roadmap_now": "MAGIC 255/255 \u2014 Full governance compliance across all 9 domains",
+      "learning_count": 373,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic",
+      "children": 12
+    },
+    {
       "id": "canonic-canonic",
       "kind": "ORG",
       "label": "CANONIC",
@@ -10340,27 +10338,6 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic/services/learning",
       "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC",
-      "kind": "SCOPE",
-      "label": "MAGIC",
-      "repo": "canonic-canonic",
-      "path": "MAGIC",
-      "parent": "canonic-canonic",
-      "category": "RUNTIME",
-      "color": "#00ff88",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**INTEL \u2014 what you KNOW. The orchestrator. Every service wires INTEL.**",
-      "roadmap_now": "MAGIC 255/255 \u2014 Full governance compliance across all 9 domains",
-      "learning_count": 373,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "magic",
-      "children": 12
     }
   ],
   "edges": [
@@ -10988,6 +10965,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES",
       "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/CITATION",
+      "to": "hadleylab-canonic/SERVICES"
     },
     {
       "kind": "PARENT",
@@ -12061,11 +12043,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/MASTER-BIBLIOGRAPHY",
-      "to": "hadleylab-canonic/BOOKS"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/BOOKS/ORGANIZATION",
       "to": "hadleylab-canonic/BOOKS"
     },
@@ -12251,67 +12228,47 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/32-THE-MATHEMATICS-OF-GOVERNED-CHANGE",
+      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/32-HADLEYLAB-THE-LABORATORY",
       "to": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS"
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/33-DRIFT-AND-SELECTION-IN-CLINICAL-AI",
+      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/33-MAMMOCHAT",
       "to": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS"
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/34-THE-GOVERNANCE-PHYLOGENY",
+      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/34-ONCOCHAT",
       "to": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS"
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/35-THE-LEARNING-GOVERNANCE-STANDARD",
+      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/35-MEDCHAT",
       "to": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS"
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/36-HADLEYLAB-THE-LABORATORY",
+      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/36-LAWCHAT",
       "to": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS"
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/37-MAMMOCHAT",
+      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/37-FINCHAT",
       "to": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS"
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/38-ONCOCHAT",
+      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/38-THE-CHAT-FLEET",
       "to": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS"
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/39-MEDCHAT",
+      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/39-ATULISMS",
       "to": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS"
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/40-LAWCHAT",
-      "to": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/41-FINCHAT",
-      "to": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/42-THE-CHAT-FLEET",
-      "to": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/43-ATULISMS",
-      "to": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/44-THE-MOLECULAR-CLOCK",
+      "from": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS/40-THE-MOLECULAR-CLOCK",
       "to": "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS"
     },
     {
@@ -12796,6 +12753,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/DECKS/BEDA/EMAIL-REVIEW-LOOP-2026-03-23",
+      "to": "hadleylab-canonic/DECKS/BEDA"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/SHOP",
       "to": "hadleylab-canonic/DECKS"
     },
@@ -12913,6 +12875,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/LEDGER-CONSUMERS",
       "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/CITATION/BIBLIOGRAPHY",
+      "to": "hadleylab-canonic/SERVICES/CITATION"
     },
     {
       "kind": "PARENT",

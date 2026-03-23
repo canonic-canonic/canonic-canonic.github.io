@@ -92,6 +92,50 @@
       ]
     },
     {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-19",
+                "Per-USER dashboard at /CHAT/{USER}/",
+                "Every USER principal gets a governed TALK dashboard; cross-user messages via gov"
+              ],
+              [
+                "2026-02-19",
+                "Disclaimer is mandatory",
+                "TALK must never operate without disclaimer — governance constraint inherited fro"
+              ],
+              [
+                "2026-02-19",
+                "Industry vertical determines voice",
+                "TALK channels are never generic; voice, disclaimer, and knowledge scope derive f"
+              ],
+              [
+                "2026-02-27",
+                "COIN gate closes revenue loop",
+                "TALK composes COIN — premium tiers (ENTERPRISE 1 COIN/turn, AGENT 3 COIN/turn) r"
+              ],
+              [
+                "2026-02-27",
+                "TALK = CHAT + INTEL + COIN",
+                "Axiom updated: COIN is the third primitive in TALK composition; CHAT becomes sel"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "canon-composition",
       "eyebrow": "COMPOSITION",
       "title": "Composition",

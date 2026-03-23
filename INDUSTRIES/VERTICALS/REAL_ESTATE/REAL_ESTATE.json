@@ -77,27 +77,27 @@
             "rows": [
               [
                 "2026-02-17",
-                "",
+                "NEW_VERTICAL",
                 "Real estate is public ledger — natural governance target"
               ],
               [
                 "2026-02-17",
-                "",
+                "COMPOSITION",
                 "PROPERTY = governed entity with parcel ID as identity"
               ],
               [
                 "2026-02-17",
-                "",
+                "COMPOSITION",
                 "REALTOR-CHAT = INTEL(county records) + CHAT(property agent) + COIN(transaction w"
               ],
               [
                 "2026-02-17",
-                "",
+                "STRATEGY",
                 "Guinea pig pattern: prove governance on public ledger → scale to regulated indus"
               ],
               [
                 "2026-02-17",
-                "",
+                "PATENT_LINK",
                 "PROV-001 governs property data, PROV-002 mints transaction COIN, PROV-005 creden"
               ]
             ]

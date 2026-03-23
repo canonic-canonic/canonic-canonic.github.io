@@ -62,6 +62,30 @@
       ]
     },
     {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-25",
+                "Scope created",
+                "CERTIFICATION scope established — git tags as badges, COMPLIANCE made portable"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "canon-tag-convention",
       "eyebrow": "TAG CONVENTION",
       "title": "Tag Convention",

@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "523fbdf96b650c9f"
+    "gov_hash": "808d2a1a4a927f7d"
   },
-  "generated": "2026-03-22T16:42:09Z",
+  "generated": "2026-03-23T17:28:23Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -46,8 +46,8 @@
     }
   ],
   "stats": {
-    "total": 18,
-    "avg_bits": 225
+    "total": 193,
+    "avg_bits": 252
   },
   "nodes": [
     {
@@ -67,7 +67,7 @@
       "learning_count": 7,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
-      "children": 4
+      "children": 6
     },
     {
       "id": "runner-canonic/SERVICES",
@@ -108,6 +108,47 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "vitae",
       "children": 0
+    },
+    {
+      "id": "runner-canonic/app",
+      "kind": "SCOPE",
+      "label": "APP",
+      "repo": "runner-canonic",
+      "path": "app",
+      "parent": "runner-canonic",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "app",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic",
+      "kind": "SCOPE",
+      "label": "CANONIC-CANONIC",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic",
+      "parent": "runner-canonic",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Close repo-root governance surface (CANON/VOCAB/README/ROADMAP/COVERAGE/LEARNING).",
+      "learning_count": 979,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic",
+      "children": 5
     },
     {
       "id": "runner-canonic/ONBOARDING_EMAIL",
@@ -240,6 +281,27 @@
       "children": 0
     },
     {
+      "id": "runner-canonic/SERVICES/TALK",
+      "kind": "SERVICE",
+      "label": "TALK",
+      "repo": "runner-canonic",
+      "path": "SERVICES/TALK",
+      "parent": "runner-canonic/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "services/talk",
+      "children": 2
+    },
+    {
       "id": "runner-canonic/SERVICES/VAULT",
       "kind": "SERVICE",
       "label": "VAULT",
@@ -276,30 +338,96 @@
       "children": 0
     },
     {
-      "id": "runner-canonic/SERVICES/TALK",
-      "kind": "SERVICE",
-      "label": "TALK",
+      "id": "runner-canonic/canonic-canonic/FOUNDATION",
+      "kind": "SCOPE",
+      "label": "FOUNDATION",
       "repo": "runner-canonic",
-      "path": "SERVICES/TALK",
-      "parent": "runner-canonic/SERVICES",
-      "color": "#ec4899",
-      "category": "SERVICES",
-      "bits": 0,
-      "tier": "NONE",
-      "missing_dims": [
-        "D",
-        "E",
-        "T",
-        "R",
-        "O",
-        "S",
-        "L",
-        "LANG"
-      ],
+      "path": "canonic-canonic/FOUNDATION",
+      "parent": "runner-canonic/canonic-canonic",
+      "category": "GOVERNANCE",
+      "color": "#ffd60a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/talk",
-      "children": 2
+      "learning_count": 309,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/foundation",
+      "children": 7
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES",
+      "kind": "SCOPE",
+      "label": "INDUSTRIES",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES",
+      "parent": "runner-canonic/canonic-canonic",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "All 15 verticals fully specified with Axioms, Validators, Examples, Application",
+      "learning_count": 118,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries",
+      "children": 6
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC",
+      "kind": "SCOPE",
+      "label": "MAGIC",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC",
+      "parent": "runner-canonic/canonic-canonic",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**INTEL \u2014 what you KNOW. The orchestrator. Every service wires INTEL.**",
+      "roadmap_now": "MAGIC 255/255 \u2014 Full governance compliance across all 9 domains",
+      "learning_count": 373,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic",
+      "children": 12
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/CANONIC",
+      "kind": "CONTENT",
+      "label": "CANONIC",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/CANONIC",
+      "parent": "runner-canonic/canonic-canonic",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/canonic",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/index",
+      "kind": "CONTENT",
+      "label": "INDEX",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/index",
+      "parent": "runner-canonic/canonic-canonic",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/index",
+      "children": 0
     },
     {
       "id": "runner-canonic/USERS/DEXTER",
@@ -381,6 +509,3010 @@
       "children": 0
     },
     {
+      "id": "runner-canonic/canonic-canonic/FOUNDATION/DEVELOPERS",
+      "kind": "SCOPE",
+      "label": "DEVELOPERS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/FOUNDATION/DEVELOPERS",
+      "parent": "runner-canonic/canonic-canonic/FOUNDATION",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "| Scope | Relationship | What flows |",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/foundation/developers",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/FOUNDATION/DOCTRINE",
+      "kind": "SCOPE",
+      "label": "DOCTRINE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/FOUNDATION/DOCTRINE",
+      "parent": "runner-canonic/canonic-canonic/FOUNDATION",
+      "category": "GOVERNANCE",
+      "color": "#ffd60a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/foundation/doctrine",
+      "children": 1
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/FOUNDATION/ONBOARDING",
+      "kind": "SCOPE",
+      "label": "ONBOARDING",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/FOUNDATION/ONBOARDING",
+      "parent": "runner-canonic/canonic-canonic/FOUNDATION",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Govern ONBOARDING scope with full TRIAD + SPEC",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/foundation/onboarding",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING",
+      "kind": "SCOPE",
+      "label": "PROGRAMMING",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/FOUNDATION/PROGRAMMING",
+      "parent": "runner-canonic/canonic-canonic/FOUNDATION",
+      "category": "GOVERNANCE",
+      "color": "#ffd60a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Apple Native era: canonic-apple Xcode project (iOS + macOS) with C kernel and Swift runtime",
+      "learning_count": 86,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/foundation/programming",
+      "children": 5
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/FOUNDATION/RESERVES",
+      "kind": "SCOPE",
+      "label": "RESERVES",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/FOUNDATION/RESERVES",
+      "parent": "runner-canonic/canonic-canonic/FOUNDATION",
+      "category": "GOVERNANCE",
+      "color": "#ffd60a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Implement COIN = WORK accounting: AVAILABLE + ALLOCATED + PENDING = TOTAL",
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/foundation/reserves",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/FOUNDATION/LANGUAGE",
+      "kind": "CONTENT",
+      "label": "LANGUAGE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/FOUNDATION/LANGUAGE",
+      "parent": "runner-canonic/canonic-canonic/FOUNDATION",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/foundation/language",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/FOUNDATION/index",
+      "kind": "CONTENT",
+      "label": "INDEX",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/FOUNDATION/index",
+      "parent": "runner-canonic/canonic-canonic/FOUNDATION",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/foundation/index",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/HORIZONTAL",
+      "kind": "SCOPE",
+      "label": "HORIZONTAL",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/HORIZONTAL",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Expand SAFETY and SECURITY CANON.md to full depth",
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/horizontal",
+      "children": 2
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/META",
+      "kind": "SCOPE",
+      "label": "META",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/META",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Expand LEARNING CANON.md with pedagogical governance axioms",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/meta",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY",
+      "kind": "SCOPE",
+      "label": "REGULATORY",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/REGULATORY",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Expand all REGULATORY CANON.md to full regulatory depth across five MAGIC checkset checks (C1-C5)",
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/regulatory",
+      "children": 4
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "kind": "SCOPE",
+      "label": "VERTICALS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Expand all VERTICAL CANON.md to full depth: six MAGIC checkset checks (C1-C6 = #63 ENTERPRISE)",
+      "learning_count": 8,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals",
+      "children": 15
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/COMPOSITION",
+      "kind": "CONTENT",
+      "label": "COMPOSITION",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/COMPOSITION",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/composition",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/index",
+      "kind": "CONTENT",
+      "label": "INDEX",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/index",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/index",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE",
+      "kind": "SCOPE",
+      "label": "COMPLIANCE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/COMPLIANCE",
+      "parent": "runner-canonic/canonic-canonic/MAGIC",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Define tier thresholds and required surface artifacts: cumulative governance gates enforced via `mag",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/compliance",
+      "children": 8
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/GALAXY",
+      "kind": "CONTENT",
+      "label": "GALAXY",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/GALAXY",
+      "parent": "runner-canonic/canonic-canonic/MAGIC",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/galaxy",
+      "children": 7
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "kind": "SCOPE",
+      "label": "SERVICES",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES",
+      "parent": "runner-canonic/canonic-canonic/MAGIC",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Enforce governed boundary isolation across all service scopes (no cross-scope state leakage between ",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "canonic-canonic/magic/services",
+      "children": 16
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE",
+      "kind": "SCOPE",
+      "label": "SURFACE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE",
+      "parent": "runner-canonic/canonic-canonic/MAGIC",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**INTEL \u2014 what you KNOW. The orchestrator. Every service wires INTEL.**",
+      "roadmap_now": "Ship deterministic build/sync/deploy pipeline: GOV tree is the single source of truth, runtime proje",
+      "learning_count": 13,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface",
+      "children": 13
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "kind": "SCOPE",
+      "label": "TOOLCHAIN",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN",
+      "parent": "runner-canonic/canonic-canonic/MAGIC",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "learning_count": 11,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "canonic-canonic/magic/toolchain",
+      "children": 21
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/CHAT",
+      "kind": "CONTENT",
+      "label": "CHAT",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/CHAT",
+      "parent": "runner-canonic/canonic-canonic/MAGIC",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/chat",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/COIN",
+      "kind": "CONTENT",
+      "label": "COIN",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/COIN",
+      "parent": "runner-canonic/canonic-canonic/MAGIC",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/coin",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/EVOLUTION",
+      "kind": "CONTENT",
+      "label": "EVOLUTION",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/EVOLUTION",
+      "parent": "runner-canonic/canonic-canonic/MAGIC",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/evolution",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/ORGS",
+      "kind": "CONTENT",
+      "label": "ORGS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/ORGS",
+      "parent": "runner-canonic/canonic-canonic/MAGIC",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/orgs",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/PROTOCOL",
+      "kind": "CONTENT",
+      "label": "PROTOCOL",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/PROTOCOL",
+      "parent": "runner-canonic/canonic-canonic/MAGIC",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/protocol",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/index",
+      "kind": "CONTENT",
+      "label": "INDEX",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/index",
+      "parent": "runner-canonic/canonic-canonic/MAGIC",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/index",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/FOUNDATION/DOCTRINE/governance-actors",
+      "kind": "CONTENT",
+      "label": "GOVERNANCE-ACTORS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/FOUNDATION/DOCTRINE/governance-actors",
+      "parent": "runner-canonic/canonic-canonic/FOUNDATION/DOCTRINE",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/foundation/doctrine/governance-actors",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING/c",
+      "kind": "SCOPE",
+      "label": "C",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/FOUNDATION/PROGRAMMING/c",
+      "parent": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Maintain C kernel as FFI truth: header, source, shared library validated against SPEC",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/foundation/programming/c",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING/python",
+      "kind": "SCOPE",
+      "label": "PYTHON",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/FOUNDATION/PROGRAMMING/python",
+      "parent": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/foundation/programming/python",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING/swift",
+      "kind": "SCOPE",
+      "label": "SWIFT",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/FOUNDATION/PROGRAMMING/swift",
+      "parent": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Validate Swift runtime against SPEC: full compliance specification via @_silgen_name FFI",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/foundation/programming/swift",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING/typescript",
+      "kind": "SCOPE",
+      "label": "TYPESCRIPT",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/FOUNDATION/PROGRAMMING/typescript",
+      "parent": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/foundation/programming/typescript",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING/TEST_SPEC",
+      "kind": "CONTENT",
+      "label": "TEST_SPEC",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/FOUNDATION/PROGRAMMING/TEST_SPEC",
+      "parent": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/foundation/programming/test_spec",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/HORIZONTAL/SAFETY",
+      "kind": "SCOPE",
+      "label": "SAFETY",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/HORIZONTAL/SAFETY",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/HORIZONTAL",
+      "category": "OPERATIONS",
+      "color": "#2997ff",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/horizontal/safety",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/HORIZONTAL/SECURITY",
+      "kind": "SCOPE",
+      "label": "SECURITY",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/HORIZONTAL/SECURITY",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/HORIZONTAL",
+      "category": "OPERATIONS",
+      "color": "#2997ff",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/horizontal/security",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/BLOCKCHAIN",
+      "kind": "SCOPE",
+      "label": "BLOCKCHAIN",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/REGULATORY/BLOCKCHAIN",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY",
+      "category": "OPERATIONS",
+      "color": "#2997ff",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/regulatory/blockchain",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/DATA",
+      "kind": "SCOPE",
+      "label": "DATA",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/REGULATORY/DATA",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY",
+      "category": "OPERATIONS",
+      "color": "#2997ff",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/regulatory/data",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/GOVERNMENT",
+      "kind": "SCOPE",
+      "label": "GOVERNMENT",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/REGULATORY/GOVERNMENT",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY",
+      "category": "OPERATIONS",
+      "color": "#2997ff",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/regulatory/government",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/LAW",
+      "kind": "SCOPE",
+      "label": "LAW",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/REGULATORY/LAW",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY",
+      "category": "OPERATIONS",
+      "color": "#2997ff",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/regulatory/law",
+      "children": 1
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/AEROSPACE",
+      "kind": "SCOPE",
+      "label": "AEROSPACE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/AEROSPACE",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "DEFERRED",
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/aerospace",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/AGRICULTURE",
+      "kind": "SCOPE",
+      "label": "AGRICULTURE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/AGRICULTURE",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "DEFERRED",
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/agriculture",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/AUTOMOTIVE",
+      "kind": "SCOPE",
+      "label": "AUTOMOTIVE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/AUTOMOTIVE",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "DEFERRED",
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/automotive",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/DEFENSE",
+      "kind": "SCOPE",
+      "label": "DEFENSE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/DEFENSE",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "DEFERRED",
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/defense",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/EDUCATION",
+      "kind": "SCOPE",
+      "label": "EDUCATION",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/EDUCATION",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "DEFERRED",
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/education",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/ENERGY",
+      "kind": "SCOPE",
+      "label": "ENERGY",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/ENERGY",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "DEFERRED",
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/energy",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/FINANCE",
+      "kind": "SCOPE",
+      "label": "FINANCE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/FINANCE",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "LIVE",
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/finance",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/GENOMICS",
+      "kind": "SCOPE",
+      "label": "GENOMICS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/GENOMICS",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "DEFERRED",
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/genomics",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/LOGISTICS",
+      "kind": "SCOPE",
+      "label": "LOGISTICS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/LOGISTICS",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "DEFERRED",
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/logistics",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MANUFACTURING",
+      "kind": "SCOPE",
+      "label": "MANUFACTURING",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/MANUFACTURING",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "DEFERRED",
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/manufacturing",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE",
+      "kind": "SCOPE",
+      "label": "MEDICINE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "LIVE",
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/medicine",
+      "children": 3
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/QUALITY",
+      "kind": "SCOPE",
+      "label": "QUALITY",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/QUALITY",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "DEFERRED",
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/quality",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/REAL_ESTATE",
+      "kind": "SCOPE",
+      "label": "REAL_ESTATE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/REAL_ESTATE",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "DEFERRED",
+      "has_intel": false,
+      "roadmap_now": "REAL_ESTATE vertical created \u2014 full ENTERPRISE governance (#63)",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/real_estate",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "kind": "SCOPE",
+      "label": "RELIGION",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "DEFERRED",
+      "has_intel": false,
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion",
+      "children": 6
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/ROBOTICS",
+      "kind": "SCOPE",
+      "label": "ROBOTICS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/ROBOTICS",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "DEFERRED",
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/robotics",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/CERTIFICATION",
+      "kind": "SCOPE",
+      "label": "CERTIFICATION",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/COMPLIANCE/CERTIFICATION",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "| Scope | Relationship | What flows |",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/compliance/certification",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/GTM",
+      "kind": "SCOPE",
+      "label": "GTM",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/COMPLIANCE/GTM",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/compliance/gtm",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/MARKET",
+      "kind": "SCOPE",
+      "label": "MARKET",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/COMPLIANCE/MARKET",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/compliance/market",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/PROTECTION",
+      "kind": "SCOPE",
+      "label": "PROTECTION",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/COMPLIANCE/PROTECTION",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Define branch protection governance contract",
+      "learning_count": 3,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/compliance/protection",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/RECOVERY",
+      "kind": "SCOPE",
+      "label": "RECOVERY",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/COMPLIANCE/RECOVERY",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Define disaster recovery governance contract",
+      "learning_count": 3,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/compliance/recovery",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/SALES",
+      "kind": "SCOPE",
+      "label": "SALES",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/COMPLIANCE/SALES",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/compliance/sales",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/SEMANTIC",
+      "kind": "SCOPE",
+      "label": "SEMANTIC",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/COMPLIANCE/SEMANTIC",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Define three semantic validation rules: VOCABULARY CLOSURE, INHERITANCE INTEGRITY, COVERAGE ALIGNMEN",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/compliance/semantic",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/MATRIX",
+      "kind": "CONTENT",
+      "label": "MATRIX",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/COMPLIANCE/MATRIX",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/compliance/matrix",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS",
+      "kind": "CONTENT",
+      "label": "ORGS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/GALAXY/ORGS",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/GALAXY",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "GALAXY",
+      "fleet_path": "canonic-canonic/magic/galaxy/orgs",
+      "children": 3
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/GALAXY/USERS",
+      "kind": "SCOPE",
+      "label": "USERS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/GALAXY/USERS",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/GALAXY",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/galaxy/users",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/GALAXY/GITHUB",
+      "kind": "CONTENT",
+      "label": "GITHUB",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/GALAXY/GITHUB",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/GALAXY",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "GALAXY",
+      "fleet_path": "canonic-canonic/magic/galaxy/github",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/GALAXY/IDENTITY",
+      "kind": "CONTENT",
+      "label": "IDENTITY",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/GALAXY/IDENTITY",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/GALAXY",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "GALAXY",
+      "fleet_path": "canonic-canonic/magic/galaxy/identity",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/GALAXY/URI",
+      "kind": "CONTENT",
+      "label": "URI",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/GALAXY/URI",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/GALAXY",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "GALAXY",
+      "fleet_path": "canonic-canonic/magic/galaxy/uri",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/GALAXY/index",
+      "kind": "CONTENT",
+      "label": "INDEX",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/GALAXY/index",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/GALAXY",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "GALAXY",
+      "fleet_path": "canonic-canonic/magic/galaxy/index",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/API",
+      "kind": "SCOPE",
+      "label": "API",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/API",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR API. EVERY ENDPOINT AUTHENTICATED. EVERY RESPONSE GOVERNED. EVERY OPERATION EVIDENCED.**",
+      "roadmap_now": "API governance created (CANON.md + API.md + TRIAD)",
+      "learning_count": 11,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/api",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/CHAIN",
+      "kind": "SCOPE",
+      "label": "CHAIN",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/CHAIN",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "CHAIN governance created (CANON.md + CHAIN.md + TRIAD)",
+      "learning_count": 6,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/chain",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/CONTRIBUTE",
+      "kind": "SCOPE",
+      "label": "CONTRIBUTE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/CONTRIBUTE",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Enforce append-only contribution ledger per scope",
+      "learning_count": 2,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/contribute",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/DEPLOY",
+      "kind": "SCOPE",
+      "label": "DEPLOY",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/DEPLOY",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "DEPLOY governance created (CANON.md + DEPLOY.md + TRIAD)",
+      "learning_count": 9,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/deploy",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/IDENTITY",
+      "kind": "SCOPE",
+      "label": "IDENTITY",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/IDENTITY",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "IDENTITY governance created (CANON.md + IDENTITY.md + TRIAD)",
+      "learning_count": 8,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/identity",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEARNING",
+      "kind": "SCOPE",
+      "label": "LEARNING",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/LEARNING",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Govern INTEL\u2192LEARNING primitive-to-service mapping across all scopes",
+      "learning_count": 13,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/learning",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER",
+      "kind": "SCOPE",
+      "label": "LEDGER",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/LEDGER",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Enforce append-only integrity: every LEDGER record includes `id` (hash), `prev` (hash), `ts` (ns) wi",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/ledger",
+      "children": 1
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/MINT",
+      "kind": "SCOPE",
+      "label": "MINT",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/MINT",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "MINT governance created (CANON.md + MINT.md + TRIAD)",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/mint",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/MONITORING",
+      "kind": "SCOPE",
+      "label": "MONITORING",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/MONITORING",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR HEALTH SERVICE. EVERY ENDPOINT DOCUMENTED. EVERY SCORE VALIDATED. EVERY PROMPT ACTIONABLE.**",
+      "roadmap_now": "MONITORING governance created (CANON.md + MONITORING.md + TRIAD) \u2014 DONE",
+      "learning_count": 8,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/monitoring",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/NOTIFIER",
+      "kind": "SCOPE",
+      "label": "NOTIFIER",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/NOTIFIER",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR ROUTES. EVERY DELIVERY EVIDENCED. EVERY INBOX GOVERNED.**",
+      "roadmap_now": "Ship NOTIFIER as NOTIFY + INTEL composed: every delivery wires sender scope, receiver scope, and con",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/notifier",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/SHOP",
+      "kind": "SCOPE",
+      "label": "SHOP",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/SHOP",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "SHOP governance created (CANON.md + SHOP.md + TRIAD)",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/shop",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/STAR",
+      "kind": "SCOPE",
+      "label": "STAR",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/STAR",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Define STAR service contract: axiom, composition, lanes, TIMELINE model, API routes",
+      "learning_count": 4,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/star",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/TALK",
+      "kind": "SCOPE",
+      "label": "TALK",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/TALK",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Ship TALK as CHAT + INTEL composed: every TALK response wires `intel_refs` and shows governed discla",
+      "learning_count": 7,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/talk",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/VAULT",
+      "kind": "SCOPE",
+      "label": "VAULT",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/VAULT",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/vault",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/WALLET",
+      "kind": "SCOPE",
+      "label": "WALLET",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/WALLET",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "WALLET governance created (CANON.md + WALLET.md + TRIAD)",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/wallet",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/ECON",
+      "kind": "CONTENT",
+      "label": "ECON",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/ECON",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "canonic-canonic/magic/services/econ",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/ANDROID",
+      "kind": "CONTENT",
+      "label": "ANDROID",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/ANDROID",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/android",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/APPLE",
+      "kind": "CONTENT",
+      "label": "APPLE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/APPLE",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/apple",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/CONTROLS",
+      "kind": "SCOPE",
+      "label": "CONTROLS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/CONTROLS",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "CONTROLS unifies the content page control bar across all surface types.",
+      "roadmap_now": "Govern CONTROLS scope with full TRIAD + SPEC",
+      "learning_count": 3,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/controls",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/DESIGN",
+      "kind": "SCOPE",
+      "label": "DESIGN",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/DESIGN",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/design",
+      "children": 1
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/DESIGN-theme",
+      "kind": "SCOPE",
+      "label": "DESIGN-THEME",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/DESIGN-theme",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/design-theme",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL",
+      "kind": "SCOPE",
+      "label": "JEKYLL",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Complete JEKYLL theme compilation: 8 layouts, 20 section includes, 15 figure includes, 18 Sass parti",
+      "learning_count": 10,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/jekyll",
+      "children": 5
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/CHAT",
+      "kind": "CONTENT",
+      "label": "CHAT",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/CHAT",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/chat",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/COIN",
+      "kind": "CONTENT",
+      "label": "COIN",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/COIN",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/coin",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/PROTOCOL",
+      "kind": "CONTENT",
+      "label": "PROTOCOL",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/PROTOCOL",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/protocol",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/ROLLOUT",
+      "kind": "CONTENT",
+      "label": "ROLLOUT",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/ROLLOUT",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/rollout",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/TALK",
+      "kind": "CONTENT",
+      "label": "TALK",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/TALK",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/talk",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/CONFIG",
+      "kind": "SCOPE",
+      "label": "CONFIG",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/CONFIG",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/toolchain/config",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/HOOKS",
+      "kind": "SCOPE",
+      "label": "HOOKS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/HOOKS",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/toolchain/hooks",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/HYGIENE",
+      "kind": "SCOPE",
+      "label": "HYGIENE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/HYGIENE",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "learning_count": 2,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/toolchain/hygiene",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/INIT",
+      "kind": "SCOPE",
+      "label": "INIT",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/INIT",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Define INIT pipeline governance: 7-phase bootstrap contract (RESOLVE, SCAFFOLD, PROMOTE, VALIDATE, G",
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/toolchain/init",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/OPERATIONS",
+      "kind": "SCOPE",
+      "label": "OPERATIONS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/OPERATIONS",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/toolchain/operations",
+      "children": 1
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/RUNTIME",
+      "kind": "SCOPE",
+      "label": "RUNTIME",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/RUNTIME",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/toolchain/runtime",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/TESTS",
+      "kind": "SCOPE",
+      "label": "TESTS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/TESTS",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Govern TESTS scope with full TRIAD + SPEC",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/toolchain/tests",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/VOCAB",
+      "kind": "SCOPE",
+      "label": "VOCAB",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/VOCAB",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/toolchain/vocab",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/bin",
+      "kind": "SCOPE",
+      "label": "BIN",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/bin",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/toolchain/bin",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/CATEGORIES",
+      "kind": "CONTENT",
+      "label": "CATEGORIES",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/CATEGORIES",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "canonic-canonic/magic/toolchain/categories",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/COIN",
+      "kind": "CONTENT",
+      "label": "COIN",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/COIN",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "canonic-canonic/magic/toolchain/coin",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/COMPLIANCE",
+      "kind": "CONTENT",
+      "label": "COMPLIANCE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/COMPLIANCE",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "canonic-canonic/magic/toolchain/compliance",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/DEPS",
+      "kind": "CONTENT",
+      "label": "DEPS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/DEPS",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "canonic-canonic/magic/toolchain/deps",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/ECON",
+      "kind": "CONTENT",
+      "label": "ECON",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/ECON",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "canonic-canonic/magic/toolchain/econ",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/HTTP",
+      "kind": "CONTENT",
+      "label": "HTTP",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/HTTP",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "canonic-canonic/magic/toolchain/http",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/PRIMITIVES",
+      "kind": "CONTENT",
+      "label": "PRIMITIVES",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/PRIMITIVES",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "canonic-canonic/magic/toolchain/primitives",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/SURFACE",
+      "kind": "CONTENT",
+      "label": "SURFACE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/SURFACE",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "canonic-canonic/magic/toolchain/surface",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/TAG",
+      "kind": "CONTENT",
+      "label": "TAG",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/TAG",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "canonic-canonic/magic/toolchain/tag",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/TAGS",
+      "kind": "CONTENT",
+      "label": "TAGS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/TAGS",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "canonic-canonic/magic/toolchain/tags",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/WALLET",
+      "kind": "CONTENT",
+      "label": "WALLET",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/WALLET",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "canonic-canonic/magic/toolchain/wallet",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/WORKSPACE",
+      "kind": "CONTENT",
+      "label": "WORKSPACE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/WORKSPACE",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "canonic-canonic/magic/toolchain/workspace",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/LAW/PATENT",
+      "kind": "SCOPE",
+      "label": "PATENT",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/REGULATORY/LAW/PATENT",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/LAW",
+      "category": "OPERATIONS",
+      "color": "#2997ff",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/regulatory/law/patent",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/credentialing",
+      "kind": "SCOPE",
+      "label": "CREDENTIALING",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/credentialing",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Implement primary source verification for core credentials (medical license, DEA, NPI, board certifi",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/medicine/credentialing",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology",
+      "kind": "SCOPE",
+      "label": "ONCOLOGY",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Implement mCODE profile conformance for core oncology data elements (CancerPatient, PrimaryCancerCon",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/medicine/oncology",
+      "children": 1
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/psychiatry",
+      "kind": "SCOPE",
+      "label": "PSYCHIATRY",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/psychiatry",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Enforce DSM-5/ICD-11 diagnostic validity: symptom inventory, duration criteria, functional impairmen",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/medicine/psychiatry",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/buddhism",
+      "kind": "SCOPE",
+      "label": "BUDDHISM",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/buddhism",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Cite Pali CANON and Mahayana sutras for all doctrinal claims in CANON.md",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/buddhism",
+      "children": 1
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "kind": "SCOPE",
+      "label": "CHRISTIANITY",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Cite scriptural and conciliar sources for all doctrinal claims across sub-traditions",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/christianity",
+      "children": 5
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism",
+      "kind": "SCOPE",
+      "label": "HINDUISM",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Cite textual sources (shruti and smriti) for all doctrinal claims",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/hinduism",
+      "children": 1
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam",
+      "kind": "SCOPE",
+      "label": "ISLAM",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Cite Quranic ayah and authenticated hadith for all doctrinal claims",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/islam",
+      "children": 3
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/judaism",
+      "kind": "SCOPE",
+      "label": "JUDAISM",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/judaism",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Cite Torah, Talmud, and halakhic sources for all doctrinal claims",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/judaism",
+      "children": 1
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/sikhism",
+      "kind": "SCOPE",
+      "label": "SIKHISM",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/sikhism",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Cite Guru Granth Sahib and historical Guru teachings for all doctrinal claims",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/sikhism",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS/canonic-apple",
+      "kind": "SCOPE",
+      "label": "CANONIC-APPLE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/GALAXY/ORGS/canonic-apple",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "github": "canonic-apple",
+      "status": "ACTIVE",
+      "has_intel": false,
+      "roadmap_now": "ORG boundary declared and governed",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/galaxy/orgs/canonic-apple",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS/canonic-canonic",
+      "kind": "SCOPE",
+      "label": "CANONIC-CANONIC",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/GALAXY/ORGS/canonic-canonic",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "github": "canonic-canonic",
+      "status": "ACTIVE",
+      "has_intel": false,
+      "roadmap_now": "ORG boundary declared and governed",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/galaxy/orgs/canonic-canonic",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS/hadleylab-canonic",
+      "kind": "SCOPE",
+      "label": "HADLEYLAB-CANONIC",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/GALAXY/ORGS/hadleylab-canonic",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "github": "hadleylab-canonic",
+      "status": "ACTIVE",
+      "has_intel": false,
+      "roadmap_now": "ORG boundary declared and governed",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/galaxy/orgs/hadleylab-canonic",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER/VAULT",
+      "kind": "CONTENT",
+      "label": "VAULT",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/LEDGER/VAULT",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/ledger/vault",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/DESIGN/TALK",
+      "kind": "SCOPE",
+      "label": "TALK",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/DESIGN/TALK",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE/DESIGN",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/design/talk",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL/BLOGS",
+      "kind": "SCOPE",
+      "label": "BLOGS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/JEKYLL/BLOGS",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL",
+      "category": "CONTENT",
+      "color": "#a78bfa",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Posts render via DESIGN theme `layout: post`",
+      "learning_count": 3,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/jekyll/blogs",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL/BOOKS",
+      "kind": "SCOPE",
+      "label": "BOOKS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/JEKYLL/BOOKS",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL",
+      "category": "CONTENT",
+      "color": "#a78bfa",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Books render via DESIGN theme `layout: book` (BOOK class extends PAPER)",
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/jekyll/books",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL/DECKS",
+      "kind": "SCOPE",
+      "label": "DECKS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/JEKYLL/DECKS",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL",
+      "category": "CONTENT",
+      "color": "#a78bfa",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Deck directories render via DESIGN theme `layout: deck`",
+      "learning_count": 3,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/jekyll/decks",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL/PAPERS",
+      "kind": "SCOPE",
+      "label": "PAPERS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/JEKYLL/PAPERS",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL",
+      "category": "GOVERNANCE",
+      "color": "#ffd60a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Papers render via DESIGN theme `layout: post` with math enabled",
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/jekyll/papers",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL/LAYOUTS",
+      "kind": "CONTENT",
+      "label": "LAYOUTS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SURFACE/JEKYLL/LAYOUTS",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/surface/jekyll/layouts",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/OPERATIONS/FLEET",
+      "kind": "CONTENT",
+      "label": "FLEET",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/OPERATIONS/FLEET",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/OPERATIONS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/toolchain/operations/fleet",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology/breast",
+      "kind": "SCOPE",
+      "label": "BREAST",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology/breast",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Enforce BI-RADS classification with guideline citation for every imaging claim",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/medicine/oncology/breast",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/buddhism/BRANCHES",
+      "kind": "CONTENT",
+      "label": "BRANCHES",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/buddhism/BRANCHES",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/buddhism",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/buddhism/branches",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/ancient",
+      "kind": "SCOPE",
+      "label": "ANCIENT",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/ancient",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Cite conciliar sources (Nicaea 325, Constantinople 381, Ephesus 431) for all doctrinal claims",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/christianity/ancient",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/catholic",
+      "kind": "SCOPE",
+      "label": "CATHOLIC",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/catholic",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Cite magisterial sources (councils, encyclicals, CCC) for all doctrinal claims",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/christianity/catholic",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/orthodox",
+      "kind": "SCOPE",
+      "label": "ORTHODOX",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/orthodox",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Cite conciliar and patristic sources for all doctrinal claims",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/christianity/orthodox",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/protestant",
+      "kind": "SCOPE",
+      "label": "PROTESTANT",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/protestant",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Cite confessional standards for all doctrinal claims (Augsburg, Westminster, 39 Articles, etc.)",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/christianity/protestant",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist",
+      "kind": "SCOPE",
+      "label": "ADVENTIST",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 0,
+      "tier": "NONE",
+      "missing_dims": [
+        "D",
+        "E",
+        "T",
+        "R",
+        "O",
+        "S",
+        "L",
+        "LANG"
+      ],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/christianity/adventist",
+      "children": 1
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism/BRANCHES",
+      "kind": "CONTENT",
+      "label": "BRANCHES",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism/BRANCHES",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/hinduism/branches",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/nation-of-islam",
+      "kind": "SCOPE",
+      "label": "NATION-OF-ISLAM",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/nation-of-islam",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Cite NOI sources (Elijah Muhammad, Farrakhan) for all doctrinal claims",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/islam/nation-of-islam",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/shia",
+      "kind": "SCOPE",
+      "label": "SHIA",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/shia",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Cite Quran, hadith, and Imam teachings for all doctrinal claims",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/islam/shia",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/sunni",
+      "kind": "SCOPE",
+      "label": "SUNNI",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/sunni",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Cite Quran, authenticated hadith, and scholarly consensus for all doctrinal claims",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/islam/sunni",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/judaism/BRANCHES",
+      "kind": "CONTENT",
+      "label": "BRANCHES",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/judaism/BRANCHES",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/judaism",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/judaism/branches",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/sda",
+      "kind": "SCOPE",
+      "label": "SDA",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/sda",
+      "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Map 28 Fundamental Beliefs as declarative governance with Scripture citations",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/industries/verticals/religion/christianity/adventist/sda",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/protestant",
+      "kind": "VERTICAL",
+      "label": "PROTESTANT",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/christianity/protestant",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Cite confessional standards for all doctrinal claims (Augsburg, Westminster, 39 Articles, etc.)",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "industries/verticals/religion/christianity/protestant",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic",
+      "kind": "ORG",
+      "label": "CANONIC",
+      "repo": "canonic-canonic",
+      "path": ".",
+      "parent": null,
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "[ ] Key rotation escalation \u2014 promote from soft gate (WARN) to hard gate (FAIL) in phase 8f",
+      "learning_count": 983,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "",
+      "children": 6
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION/PROGRAMMING",
+      "kind": "SCOPE",
+      "label": "PROGRAMMING",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION/PROGRAMMING",
+      "parent": "canonic-canonic/FOUNDATION",
+      "category": "GOVERNANCE",
+      "color": "#ffd60a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Apple Native era: canonic-apple Xcode project (iOS + macOS) with C kernel and Swift runtime",
+      "learning_count": 86,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "foundation/programming",
+      "children": 5
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam",
+      "kind": "VERTICAL",
+      "label": "ISLAM",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/islam",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Cite Quranic ayah and authenticated hadith for all doctrinal claims",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "industries/verticals/religion/islam",
+      "children": 3
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES",
+      "kind": "SCOPE",
+      "label": "INDUSTRIES",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES",
+      "parent": "canonic-canonic",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "All 15 verticals fully specified with Axioms, Validators, Examples, Application",
+      "learning_count": 118,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "industries",
+      "children": 6
+    },
+    {
+      "id": "canonic-canonic/MAGIC/COMPLIANCE",
+      "kind": "SCOPE",
+      "label": "COMPLIANCE",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/COMPLIANCE",
+      "parent": "canonic-canonic/MAGIC",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Define tier thresholds and required surface artifacts: cumulative governance gates enforced via `mag",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/compliance",
+      "children": 8
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE",
+      "kind": "VERTICAL",
+      "label": "MEDICINE",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/MEDICINE",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "LIVE",
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "industries/verticals/medicine",
+      "children": 3
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "kind": "SCOPE",
+      "label": "VERTICALS",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS",
+      "parent": "canonic-canonic/INDUSTRIES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Expand all VERTICAL CANON.md to full depth: six MAGIC checkset checks (C1-C6 = #63 ENTERPRISE)",
+      "learning_count": 8,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "industries/verticals",
+      "children": 15
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/DESIGN",
+      "kind": "SCOPE",
+      "label": "DESIGN",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/DESIGN",
+      "parent": "canonic-canonic/MAGIC/SURFACE",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/surface/design",
+      "children": 1
+    },
+    {
+      "id": "canonic-canonic/FOUNDATION",
+      "kind": "SCOPE",
+      "label": "FOUNDATION",
+      "repo": "canonic-canonic",
+      "path": "FOUNDATION",
+      "parent": "canonic-canonic",
+      "category": "GOVERNANCE",
+      "color": "#ffd60a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "learning_count": 309,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "foundation",
+      "children": 7
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "kind": "VERTICAL",
+      "label": "RELIGION",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "status": "DEFERRED",
+      "has_intel": false,
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "industries/verticals/religion",
+      "children": 6
+    },
+    {
+      "id": "canonic-canonic/MAGIC/GALAXY/ORGS",
+      "kind": "CONTENT",
+      "label": "ORGS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/GALAXY/ORGS",
+      "parent": "canonic-canonic/MAGIC/GALAXY",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "GALAXY",
+      "fleet_path": "magic/galaxy/orgs",
+      "children": 6
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES",
+      "kind": "SCOPE",
+      "label": "SERVICES",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES",
+      "parent": "canonic-canonic/MAGIC",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Enforce governed boundary isolation across all service scopes (no cross-scope state leakage between ",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "magic/services",
+      "children": 16
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/REGULATORY/LAW",
+      "kind": "SCOPE",
+      "label": "LAW",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/REGULATORY/LAW",
+      "parent": "canonic-canonic/INDUSTRIES/REGULATORY",
+      "category": "OPERATIONS",
+      "color": "#2997ff",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "industries/regulatory/law",
+      "children": 1
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "kind": "VERTICAL",
+      "label": "CHRISTIANITY",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Cite scriptural and conciliar sources for all doctrinal claims across sub-traditions",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "industries/verticals/religion/christianity",
+      "children": 5
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/REGULATORY",
+      "kind": "SCOPE",
+      "label": "REGULATORY",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/REGULATORY",
+      "parent": "canonic-canonic/INDUSTRIES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Expand all REGULATORY CANON.md to full regulatory depth across five MAGIC checkset checks (C1-C5)",
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "industries/regulatory",
+      "children": 4
+    },
+    {
       "id": "canonic-canonic/MAGIC",
       "kind": "SCOPE",
       "label": "MAGIC",
@@ -400,9 +3532,133 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "magic",
       "children": 12
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
+      "kind": "SCOPE",
+      "label": "JEKYLL",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE/JEKYLL",
+      "parent": "canonic-canonic/MAGIC/SURFACE",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Complete JEKYLL theme compilation: 8 layouts, 20 section includes, 15 figure includes, 18 Sass parti",
+      "learning_count": 10,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/surface/jekyll",
+      "children": 5
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SURFACE",
+      "kind": "SCOPE",
+      "label": "SURFACE",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SURFACE",
+      "parent": "canonic-canonic/MAGIC",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**INTEL \u2014 what you KNOW. The orchestrator. Every service wires INTEL.**",
+      "roadmap_now": "Ship deterministic build/sync/deploy pipeline: GOV tree is the single source of truth, runtime proje",
+      "learning_count": 13,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "magic/surface",
+      "children": 13
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/HORIZONTAL",
+      "kind": "SCOPE",
+      "label": "HORIZONTAL",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/HORIZONTAL",
+      "parent": "canonic-canonic/INDUSTRIES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Expand SAFETY and SECURITY CANON.md to full depth",
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "industries/horizontal",
+      "children": 2
+    },
+    {
+      "id": "canonic-canonic/MAGIC/TOOLCHAIN",
+      "kind": "SCOPE",
+      "label": "TOOLCHAIN",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/TOOLCHAIN",
+      "parent": "canonic-canonic/MAGIC",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "learning_count": 11,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "magic/toolchain",
+      "children": 22
+    },
+    {
+      "id": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology",
+      "kind": "VERTICAL",
+      "label": "ONCOLOGY",
+      "repo": "canonic-canonic",
+      "path": "INDUSTRIES/VERTICALS/MEDICINE/oncology",
+      "parent": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Implement mCODE profile conformance for core oncology data elements (CancerPatient, PrimaryCancerCon",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "industries/verticals/medicine/oncology",
+      "children": 1
     }
   ],
   "edges": [
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/INDUSTRIES",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/MAGIC",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/MAGIC/GALAXY/ORGS",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/MAGIC/SERVICES",
+      "to": "canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/MAGIC/SURFACE/DESIGN",
+      "to": "canonic-canonic/MAGIC/SURFACE/JEKYLL"
+    },
     {
       "kind": "INHERITS",
       "from": "runner-canonic",
@@ -435,6 +3691,11 @@
     },
     {
       "kind": "INHERITS",
+      "from": "runner-canonic/SERVICES/TALK",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
       "from": "runner-canonic/SERVICES/VAULT",
       "to": "canonic-canonic/MAGIC"
     },
@@ -452,6 +3713,651 @@
       "kind": "INHERITS",
       "from": "runner-canonic/VITAE",
       "to": "runner-canonic/SERVICES/VITAE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic",
+      "to": "canonic-canonic"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/DEVELOPERS",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/DOCTRINE",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/ONBOARDING",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING/c",
+      "to": "canonic-canonic/FOUNDATION/PROGRAMMING"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING/python",
+      "to": "canonic-canonic/FOUNDATION/PROGRAMMING"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING/swift",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING/typescript",
+      "to": "canonic-canonic/FOUNDATION/PROGRAMMING"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/RESERVES",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/HORIZONTAL",
+      "to": "canonic-canonic/INDUSTRIES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/HORIZONTAL/SAFETY",
+      "to": "canonic-canonic/INDUSTRIES/HORIZONTAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/HORIZONTAL/SECURITY",
+      "to": "canonic-canonic/INDUSTRIES/HORIZONTAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/META",
+      "to": "canonic-canonic/INDUSTRIES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/BLOCKCHAIN",
+      "to": "canonic-canonic/INDUSTRIES/REGULATORY"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY",
+      "to": "canonic-canonic/INDUSTRIES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/DATA",
+      "to": "canonic-canonic/INDUSTRIES/REGULATORY"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/GOVERNMENT",
+      "to": "canonic-canonic/INDUSTRIES/REGULATORY"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/LAW",
+      "to": "canonic-canonic/INDUSTRIES/REGULATORY"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/LAW/PATENT",
+      "to": "canonic-canonic/INDUSTRIES/REGULATORY/LAW"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/AEROSPACE",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/AGRICULTURE",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/AUTOMOTIVE",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "to": "canonic-canonic/INDUSTRIES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/DEFENSE",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/EDUCATION",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/ENERGY",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/FINANCE",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/GENOMICS",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/LOGISTICS",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MANUFACTURING",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/credentialing",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology/breast",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/psychiatry",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/QUALITY",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/REAL_ESTATE",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/buddhism",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/sda",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/protestant"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/ancient",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/catholic",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/orthodox",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/protestant",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/nation-of-islam",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/shia",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/sunni",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/judaism",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/sikhism",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/ROBOTICS",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/CERTIFICATION",
+      "to": "canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/GTM",
+      "to": "canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/MARKET",
+      "to": "canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/PROTECTION",
+      "to": "canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/RECOVERY",
+      "to": "canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/SALES",
+      "to": "canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/SEMANTIC",
+      "to": "canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS/canonic-apple",
+      "to": "canonic-canonic/MAGIC/GALAXY/ORGS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS/canonic-canonic",
+      "to": "canonic-canonic/MAGIC/GALAXY/ORGS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS/hadleylab-canonic",
+      "to": "canonic-canonic/MAGIC/GALAXY/ORGS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/USERS",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/API",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "to": "canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/CHAIN",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/CONTRIBUTE",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/DEPLOY",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/IDENTITY",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEARNING",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/MINT",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/MONITORING",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/NOTIFIER",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/SHOP",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/STAR",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/TALK",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/VAULT",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/WALLET",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/ANDROID",
+      "to": "canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/APPLE",
+      "to": "canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/CONTROLS",
+      "to": "canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/DESIGN",
+      "to": "canonic-canonic/MAGIC/SURFACE/JEKYLL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/DESIGN/TALK",
+      "to": "canonic-canonic/MAGIC/SURFACE/DESIGN"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/DESIGN-theme",
+      "to": "canonic-canonic/MAGIC/SURFACE/JEKYLL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL/BLOGS",
+      "to": "canonic-canonic/MAGIC/SURFACE/JEKYLL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL/BOOKS",
+      "to": "canonic-canonic/MAGIC/SURFACE/JEKYLL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL",
+      "to": "canonic-canonic/MAGIC/SURFACE/JEKYLL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL/DECKS",
+      "to": "canonic-canonic/MAGIC/SURFACE/JEKYLL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL/PAPERS",
+      "to": "canonic-canonic/MAGIC/SURFACE/JEKYLL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/CONFIG",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/HOOKS",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/HYGIENE",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/INIT",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/OPERATIONS",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/RUNTIME",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/TESTS",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/VOCAB",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/bin",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/FOUNDATION",
+      "to": "canonic-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/FOUNDATION/PROGRAMMING",
+      "to": "canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES",
+      "to": "canonic-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES/HORIZONTAL",
+      "to": "canonic-canonic/INDUSTRIES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES/REGULATORY",
+      "to": "canonic-canonic/INDUSTRIES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES/REGULATORY/LAW",
+      "to": "canonic-canonic/INDUSTRIES/REGULATORY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "to": "canonic-canonic/INDUSTRIES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/protestant",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC",
+      "to": "canonic-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/COMPLIANCE",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SURFACE",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SURFACE/DESIGN",
+      "to": "canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
+      "to": "canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/TOOLCHAIN",
+      "to": "canonic-canonic/MAGIC"
     },
     {
       "kind": "PARENT",
@@ -476,6 +4382,11 @@
     {
       "kind": "PARENT",
       "from": "runner-canonic/SERVICES/SHOP",
+      "to": "runner-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/SERVICES/TALK",
       "to": "runner-canonic/SERVICES"
     },
     {
@@ -510,6 +4421,556 @@
     },
     {
       "kind": "PARENT",
+      "from": "runner-canonic/app",
+      "to": "runner-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic",
+      "to": "runner-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION",
+      "to": "runner-canonic/canonic-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/DEVELOPERS",
+      "to": "runner-canonic/canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/DOCTRINE",
+      "to": "runner-canonic/canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/ONBOARDING",
+      "to": "runner-canonic/canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING",
+      "to": "runner-canonic/canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING/c",
+      "to": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING/python",
+      "to": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING/swift",
+      "to": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING/typescript",
+      "to": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/RESERVES",
+      "to": "runner-canonic/canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES",
+      "to": "runner-canonic/canonic-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/HORIZONTAL",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/HORIZONTAL/SAFETY",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/HORIZONTAL"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/HORIZONTAL/SECURITY",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/HORIZONTAL"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/META",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/BLOCKCHAIN",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/DATA",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/GOVERNMENT",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/LAW",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/LAW/PATENT",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/LAW"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/AEROSPACE",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/AGRICULTURE",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/AUTOMOTIVE",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/DEFENSE",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/EDUCATION",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/ENERGY",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/FINANCE",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/GENOMICS",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/LOGISTICS",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MANUFACTURING",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/credentialing",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology/breast",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/psychiatry",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/QUALITY",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/REAL_ESTATE",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/buddhism",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/sda",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/ancient",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/catholic",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/orthodox",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/protestant",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/nation-of-islam",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/shia",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/sunni",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/judaism",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/sikhism",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/ROBOTICS",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC",
+      "to": "runner-canonic/canonic-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE",
+      "to": "runner-canonic/canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/CERTIFICATION",
+      "to": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/GTM",
+      "to": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/MARKET",
+      "to": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/PROTECTION",
+      "to": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/RECOVERY",
+      "to": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/SALES",
+      "to": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/SEMANTIC",
+      "to": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY",
+      "to": "runner-canonic/canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS",
+      "to": "runner-canonic/canonic-canonic/MAGIC/GALAXY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS/canonic-apple",
+      "to": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS/canonic-canonic",
+      "to": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS/hadleylab-canonic",
+      "to": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/USERS",
+      "to": "runner-canonic/canonic-canonic/MAGIC/GALAXY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/API",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES",
+      "to": "runner-canonic/canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/CHAIN",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/CONTRIBUTE",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/DEPLOY",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/IDENTITY",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEARNING",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/MINT",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/MONITORING",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/NOTIFIER",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/SHOP",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/STAR",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/TALK",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/VAULT",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/WALLET",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/ANDROID",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/APPLE",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE",
+      "to": "runner-canonic/canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/CONTROLS",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/DESIGN",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/DESIGN/TALK",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE/DESIGN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/DESIGN-theme",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL/BLOGS",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL/BOOKS",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL/DECKS",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL/PAPERS",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "to": "runner-canonic/canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/CONFIG",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/HOOKS",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/HYGIENE",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/INIT",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/OPERATIONS",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/RUNTIME",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/TESTS",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/VOCAB",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/bin",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
       "from": "runner-canonic/ONBOARDING_EMAIL",
       "to": "runner-canonic"
     },
@@ -525,13 +4986,248 @@
     },
     {
       "kind": "PARENT",
-      "from": "runner-canonic/SERVICES/TALK",
-      "to": "runner-canonic/SERVICES"
+      "from": "runner-canonic/canonic-canonic/CANONIC",
+      "to": "runner-canonic/canonic-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/index",
+      "to": "runner-canonic/canonic-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/LANGUAGE",
+      "to": "runner-canonic/canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/index",
+      "to": "runner-canonic/canonic-canonic/FOUNDATION"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/DOCTRINE/governance-actors",
+      "to": "runner-canonic/canonic-canonic/FOUNDATION/DOCTRINE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING/TEST_SPEC",
+      "to": "runner-canonic/canonic-canonic/FOUNDATION/PROGRAMMING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/COMPOSITION",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/index",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/buddhism/BRANCHES",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/buddhism"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism/BRANCHES",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/judaism/BRANCHES",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/judaism"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/CHAT",
+      "to": "runner-canonic/canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COIN",
+      "to": "runner-canonic/canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/EVOLUTION",
+      "to": "runner-canonic/canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY",
+      "to": "runner-canonic/canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/ORGS",
+      "to": "runner-canonic/canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/PROTOCOL",
+      "to": "runner-canonic/canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/index",
+      "to": "runner-canonic/canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/MATRIX",
+      "to": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/GITHUB",
+      "to": "runner-canonic/canonic-canonic/MAGIC/GALAXY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/IDENTITY",
+      "to": "runner-canonic/canonic-canonic/MAGIC/GALAXY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS",
+      "to": "runner-canonic/canonic-canonic/MAGIC/GALAXY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/URI",
+      "to": "runner-canonic/canonic-canonic/MAGIC/GALAXY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/index",
+      "to": "runner-canonic/canonic-canonic/MAGIC/GALAXY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/ECON",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER/VAULT",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/ANDROID",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/APPLE",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/CHAT",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/COIN",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/PROTOCOL",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/ROLLOUT",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/TALK",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL/LAYOUTS",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SURFACE/JEKYLL"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/CATEGORIES",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/COIN",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/COMPLIANCE",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/DEPS",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/ECON",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/HTTP",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/PRIMITIVES",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/SURFACE",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/TAG",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/TAGS",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/WALLET",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/WORKSPACE",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/OPERATIONS/FLEET",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/OPERATIONS"
     },
     {
       "kind": "PARENT",
       "from": "runner-canonic/USERS",
       "to": "runner-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist",
+      "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity"
     }
   ]
 }

@@ -711,6 +711,17 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SERVICES:CITATION",
+      "label": "CITATION",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:SERVICES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:CLAUDE",
       "label": "CLAUDE",
       "bits": 255,
@@ -1580,6 +1591,17 @@
     {
       "source": "gov",
       "repo": "runner-canonic",
+      "id": "gov:runner-canonic:SERVICES:TALK",
+      "label": "TALK",
+      "bits": 247,
+      "size": 60,
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "inherits": "gov:runner-canonic:SERVICES"
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
       "id": "gov:runner-canonic:SERVICES:VAULT",
       "label": "VAULT",
       "bits": 255,
@@ -1620,6 +1642,61 @@
       "color": "#ec4899",
       "category": "SERVICES",
       "inherits": "gov:runner-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
+      "id": "gov:runner-canonic:app",
+      "label": "APP",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:runner-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
+      "id": "gov:runner-canonic:canonic-canonic",
+      "label": "CANONIC-CANONIC",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:runner-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
+      "id": "gov:runner-canonic:canonic-canonic:FOUNDATION",
+      "label": "FOUNDATION",
+      "bits": 255,
+      "size": 80,
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "inherits": "gov:runner-canonic:canonic-canonic"
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
+      "id": "gov:runner-canonic:canonic-canonic:INDUSTRIES",
+      "label": "INDUSTRIES",
+      "bits": 255,
+      "size": 80,
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "inherits": "gov:runner-canonic:canonic-canonic"
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
+      "id": "gov:runner-canonic:canonic-canonic:MAGIC",
+      "label": "MAGIC",
+      "bits": 255,
+      "size": 80,
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "inherits": "gov:runner-canonic:canonic-canonic"
     },
     {
       "source": "magic",
