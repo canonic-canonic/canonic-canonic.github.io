@@ -9,10 +9,6 @@ inherits: canonic-canonic/FOUNDATION
 
 ---
 
-The certification surface. Certified developers listed on FOUNDATION.
-
----
-
 ## Discovery
 
 Walk GOV tree for VITAE.md files across all governed repos. Cross-reference against cert/ tags in TAGS.md. Only developers with matching cert tags are listed.

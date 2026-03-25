@@ -9,10 +9,6 @@ inherits: canonic-canonic/MAGIC/COMPLIANCE
 
 ---
 
-COMPLIANCE made portable. Git is the certification engine.
-
----
-
 ## Tag Convention
 
 ```

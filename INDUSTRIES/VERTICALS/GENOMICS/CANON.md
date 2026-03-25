@@ -456,10 +456,6 @@ To create a CANONIC genomics vertical:
 
 ---
 
-- Artifacts MUST conform to this scope.
-
----
-
 ## Axioms
 
 ### 1. Origin

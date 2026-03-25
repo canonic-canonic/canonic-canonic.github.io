@@ -42,11 +42,6 @@ MAGIC
 
 ---
 
-spec: DESIGN (remote_theme)
-version: 2026-02
-
----
-
 ## Axiom
 
 **This repo IS the JEKYLL service runtime. `remote_theme: canonic-canonic/DESIGN`.**

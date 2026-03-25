@@ -63,11 +63,6 @@ LEDGER      = GIT_LOG(VAULT)
 
 ---
 
-> **Status**: STEALTH (Announce after provisionals filed)
-> **Architecture**: FEDERATED SERVICE
-
----
-
 ## Axiom
 
 **COIN = WORK**

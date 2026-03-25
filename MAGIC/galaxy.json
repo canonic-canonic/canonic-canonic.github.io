@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "2b8b7dec76abebc9"
+    "gov_hash": "50e6d8dbdfe40de0"
   },
-  "generated": "2026-03-23T20:46:30Z",
+  "generated": "2026-03-25T00:54:05Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -74,18 +74,18 @@
     ]
   },
   "stats": {
-    "total": 914,
+    "total": 931,
     "avg_bits": 253,
-    "below_magic": 21,
-    "intel_coverage": 166,
+    "below_magic": 23,
+    "intel_coverage": 167,
     "total_coin": 149567,
     "total_events": 697,
-    "total_sessions": 180,
+    "total_sessions": 182,
     "active_channels": 6,
     "user_count": 34,
     "org_count": 5,
     "svc_count": 96,
-    "scope_count": 277,
+    "scope_count": 282,
     "fleet_health_pct": 99
   },
   "nodes": [
@@ -4844,11 +4844,11 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "| Claim | Source |",
-      "learning_count": 1277,
+      "learning_count": 1279,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "blogs",
-      "children": 66,
+      "children": 67,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -5039,7 +5039,7 @@
       "privacy": "PUBLIC",
       "has_intel": true,
       "intel_summary": "| Claim | Source |",
-      "roadmap_now": "[ ] Community review attribution in FRONT-MATTER acknowledgments section",
+      "roadmap_now": "[ ] Decision: absorb or expand ART-OF-THE-CANONIC-DEAL",
       "learning_count": 30,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -5127,7 +5127,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR GOVERNANCE. EVERY CLAIM SOURCED. EVERY CHAPTER INTEL-BACKED.**",
       "roadmap_now": "NYT POLISH PASS 3: Continue expanding chapters to 3K+ average",
-      "learning_count": 14,
+      "learning_count": 15,
       "coverage_score": 255,
       "surface_type": "JEKYLL_BOOK",
       "fleet_path": "books/CANONIC-CANON",
@@ -5135,12 +5135,6 @@
       "wallet": null,
       "talk": null,
       "learning": [
-        {
-          "date": "2026-02-26",
-          "signal": "NEW_SCOPE",
-          "pattern": "COIN = WORK. Book is BUSINESS-tier marketing product. Full editorial publishing house treatment.",
-          "source": "User directive"
-        },
         {
           "date": "2026-02-26",
           "signal": "GOV_FIRST",
@@ -5194,6 +5188,12 @@
           "signal": "NEW_PATTERN",
           "pattern": "COMMUNITY_REVIEW: ir4y + yanabeda read Canon/Doctrine via GitHub (2 unique visitors, March 17-20), signaled duplication ",
           "source": "GitHub traffic API + community feedback"
+        },
+        {
+          "date": "2026-03-23",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Hello. Im Fatima, what should I do here",
+          "source": "bff5e2ea-3603-498c-9802-a59db5c4c02b"
         }
       ],
       "score": 128
@@ -6925,38 +6925,14 @@
       "missing_dims": [],
       "has_intel": false,
       "roadmap_now": "[ ] Neville confirms PI \u2014 portal registration",
-      "learning_count": 11,
+      "learning_count": 15,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "grants/EHDS-GOV",
-      "children": 1,
+      "children": 6,
       "wallet": null,
       "talk": null,
       "learning": [
-        {
-          "date": "2025-07-10",
-          "signal": "First contact with Neville Calleja (via Fatima)",
-          "pattern": "WhatsApp",
-          "source": ""
-        },
-        {
-          "date": "2025-10-28",
-          "signal": "Fatima introduces Maysoun + Dexter",
-          "pattern": "Email",
-          "source": ""
-        },
-        {
-          "date": "2026-01-15",
-          "signal": "IHI Call 12 opens",
-          "pattern": "ihi.europa.eu",
-          "source": ""
-        },
-        {
-          "date": "2026-02-28",
-          "signal": "The \u20ac344 Billion Euro Wound published",
-          "pattern": "Paper",
-          "source": ""
-        },
         {
           "date": "2026-03-10",
           "signal": "EHDS-GOV deal structure created",
@@ -6990,6 +6966,30 @@
         {
           "date": "2026-03-19",
           "signal": "WORK-TALK-ONCONEX sent to Neville + Maysoun + Youness (CC Fatima) \u2014 first cross-intro, grant + business + meeting request",
+          "pattern": "Gov tree",
+          "source": ""
+        },
+        {
+          "date": "2026-03-24",
+          "signal": "Youness technical review received via Fatima (in Spanish) \u2014 5 substantive concerns: (1) zero prior art claim risky, (2) no EU patent strategy, (3) MAGIC 255 unvalidated by regulators, (4) financial dependency on grant + Malta Enterprise, (5) \"no competition\" is red flag. All concerns legitimate and constructive.",
+          "pattern": "Email (fatima.boukrim90@gmail.com)",
+          "source": ""
+        },
+        {
+          "date": "2026-03-24",
+          "signal": "Comprehensive response drafted (REVIEW-YOUNESS.md) \u2014 5 concerns addressed point-by-point with 70+ governed citations from BIBLIOGRAPHY. New citation codes I-40 through I-46 added for patent portfolio, prosecution strategy, IP trust, and grant. Concern #5 accepted: business plan will reframe \"no competition\" as \"empty quadrant.\"",
+          "pattern": "Gov tree",
+          "source": ""
+        },
+        {
+          "date": "2026-03-24",
+          "signal": "MULTILINGUAL_GOVERNANCE \u2014 Youness writes in Spanish, Dexter in English, framework governs in mathematics. Claude smooths language differences natively. This is a consortium strength, not friction. Demonstrates MAGIC 255 language-agnosticism in practice.",
+          "pattern": "This session",
+          "source": ""
+        },
+        {
+          "date": "2026-03-24",
+          "signal": "WORK-TALK-REVIEW sent to Youness + Maysoun + Neville (CC Fatima) \u2014 Word document attached for collaborative editing, 66 governed citations, all 5 concerns addressed with evidence. P-tier backfilled from 32 to 68 entries (full NCBI bibliography reconciled).",
           "pattern": "Gov tree",
           "source": ""
         }
@@ -7035,8 +7035,8 @@
       "children": 6,
       "wallet": null,
       "talk": {
-        "sessions": 91,
-        "last_session": "2026-03-22",
+        "sessions": 93,
+        "last_session": "2026-03-24",
         "channels": [
           "CARIBCHAT"
         ]
@@ -7058,6 +7058,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "| Claim | Source |",
+      "roadmap_now": "[ ] Audit all claims \u2014 map to BIBLIOGRAPHY entries",
       "learning_count": 9,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -7696,7 +7697,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "Dexter Hadley, MD/PhD (Penn). Stanford Research Associate (Butte Lab). Faculty at UCSF and UCF (Founding Chief of AI). C",
-      "learning_count": 21,
+      "learning_count": 23,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "services/CLAUDE",
@@ -7704,18 +7705,6 @@
       "wallet": null,
       "talk": null,
       "learning": [
-        {
-          "date": "2026-03-15",
-          "signal": "RUNTIME_GOVERNED",
-          "pattern": "The compiler repo (~/.canonic) must be pushed to GitHub (canonic-canonic/.canonic). Ungoverned runtime means ungoverned ",
-          "source": "Runtime governance gap"
-        },
-        {
-          "date": "2026-03-15",
-          "signal": "METALEARNING",
-          "pattern": "The agent that builds the system must also update the governed LEARNING and ROADMAP after every session. Session pattern",
-          "source": "This session"
-        },
         {
           "date": "2026-03-15",
           "signal": "COMPILER_METALEARNING",
@@ -7763,6 +7752,18 @@
           "signal": "USER_INTEL",
           "pattern": "Family and workspace: Dexter has 6 children, works from a home office in the garage in Orlando because inside is too lou",
           "source": "intake:user_family_workspace.md"
+        },
+        {
+          "date": "2026-03-24",
+          "signal": "REFERENCE_PROMOTED",
+          "pattern": "OPTS-EGO White Paper Sources: OPTS-EGO has two versions \u2014 protocanonic (~/Code/white-paper, 100+ citations) and retrocan",
+          "source": "intake:reference_opts_ego_whitepaper.md"
+        },
+        {
+          "date": "2026-03-25",
+          "signal": "PROJECT_INTEL",
+          "pattern": "Resolved items from library polish session: Three items from 2026-03-24 session \u2014 all resolved 2026-03-24. OPTS-EGO cita",
+          "source": "intake:project_open_items_2026_03_24.md"
         }
       ],
       "score": 128
@@ -9597,7 +9598,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "services/PATENT",
-      "children": 0,
+      "children": 1,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -9945,8 +9946,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 180,
-        "last_session": "2026-03-22",
+        "sessions": 182,
+        "last_session": "2026-03-24",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -9978,8 +9979,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 180,
-        "last_session": "2026-03-22",
+        "sessions": 182,
+        "last_session": "2026-03-24",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -10020,8 +10021,8 @@
       "children": 16,
       "wallet": null,
       "talk": {
-        "sessions": 180,
-        "last_session": "2026-03-22",
+        "sessions": 182,
+        "last_session": "2026-03-24",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -10117,8 +10118,8 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 91,
-        "last_session": "2026-03-22",
+        "sessions": 93,
+        "last_session": "2026-03-24",
         "channels": [
           "CARIBCHAT"
         ]
@@ -10194,8 +10195,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 180,
-        "last_session": "2026-03-22",
+        "sessions": 182,
+        "last_session": "2026-03-24",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -10229,8 +10230,8 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 180,
-        "last_session": "2026-03-22",
+        "sessions": 182,
+        "last_session": "2026-03-24",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -10289,8 +10290,8 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 180,
-        "last_session": "2026-03-22",
+        "sessions": 182,
+        "last_session": "2026-03-24",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -10470,8 +10471,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 180,
-        "last_session": "2026-03-22",
+        "sessions": 182,
+        "last_session": "2026-03-24",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -10619,8 +10620,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 180,
-        "last_session": "2026-03-22",
+        "sessions": 182,
+        "last_session": "2026-03-24",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -10680,8 +10681,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 180,
-        "last_session": "2026-03-22",
+        "sessions": 182,
+        "last_session": "2026-03-24",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -10713,8 +10714,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 180,
-        "last_session": "2026-03-22",
+        "sessions": 182,
+        "last_session": "2026-03-24",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -11297,7 +11298,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 106,
+      "learning_count": 108,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "talks/CARIBCHAT",
       "cross_intel": [
@@ -11307,25 +11308,13 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 91,
-        "last_session": "2026-03-22",
+        "sessions": 93,
+        "last_session": "2026-03-24",
         "channels": [
           "CARIBCHAT"
         ]
       },
       "learning": [
-        {
-          "date": "2026-03-19",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Prostate cancer in Jamaica",
-          "source": "1e6fc8ad-e37b-4d6f-ad61-5a816e17441a"
-        },
-        {
-          "date": "2026-03-20",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Which country has a breast cancer Navigation program",
-          "source": "6d0de9c4-7ae7-40ea-a70f-4e169e1b11ff"
-        },
         {
           "date": "2026-03-20",
           "signal": "SESSION_LEDGERED",
@@ -11373,6 +11362,18 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "How do I contact the navigators from caver society?",
           "source": "81ee6703-4b63-4eb1-8f9c-0f49adecdbb5"
+        },
+        {
+          "date": "2026-03-24",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What are the most common forms of cancer in trinidad",
+          "source": "87c5741d-1178-4220-9040-9f87409fd666"
+        },
+        {
+          "date": "2026-03-24",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What fruits are good for cancer",
+          "source": "842fe8aa-3ab6-460e-ba32-bff494e0fda6"
         }
       ],
       "score": 128
@@ -11941,6 +11942,7 @@
       "cross_intel": [
         "MAMMOCHAT",
         "OMICSCHAT",
+        "CARIBCHAT",
         "MEDCHAT"
       ],
       "children": 1,
@@ -14199,8 +14201,8 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 180,
-        "last_session": "2026-03-22",
+        "sessions": 182,
+        "last_session": "2026-03-24",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -14232,8 +14234,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 180,
-        "last_session": "2026-03-22",
+        "sessions": 182,
+        "last_session": "2026-03-24",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -14395,39 +14397,15 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Close repo-root governance surface (CANON/VOCAB/README/ROADMAP/COVERAGE/LEARNING).",
-      "learning_count": 979,
+      "roadmap_now": "[ ] Key rotation escalation \u2014 promote from soft gate (WARN) to hard gate (FAIL) in phase 8f",
+      "learning_count": 983,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "canonic-canonic",
-      "children": 5,
+      "children": 6,
       "wallet": null,
       "talk": null,
       "learning": [
-        {
-          "date": "2026-02-14",
-          "signal": "NEW_SCOPE",
-          "pattern": "New governance domain: MAGIC/LEARNING",
-          "source": "2e7a763"
-        },
-        {
-          "date": "2026-02-14",
-          "signal": "NEW_SCOPE",
-          "pattern": "New governance domain: MAGIC/MARKET/LEARNING",
-          "source": "2e7a763"
-        },
-        {
-          "date": "2026-02-14",
-          "signal": "NEW_SCOPE",
-          "pattern": "New governance domain: MAGIC/ORGS/LEARNING",
-          "source": "2e7a763"
-        },
-        {
-          "date": "2026-02-14",
-          "signal": "NEW_SCOPE",
-          "pattern": "New governance domain: MAGIC/SALES/LEARNING",
-          "source": "2e7a763"
-        },
         {
           "date": "2026-02-14",
           "signal": "NEW_SCOPE",
@@ -14463,6 +14441,30 @@
           "signal": "GOVERNANCE_DELTA",
           "pattern": "canonic-canonic: 247\u2192255 (gradient +8) by GIT",
           "source": "idf:f687d2719c64b39b"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "INFRA_USERS",
+          "pattern": "canonic-canonic is the infrastructure layer. DEXTER and ROBERT registered as USERs. Orgs build on infra, users govern or",
+          "source": "Hardening plan Phase 1A"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "ROBERT_FLATTEN",
+          "pattern": "ROBERT_FLATTEN applied to runner-canonic. Same pattern as DEXTER_FLATTEN on hadleylab-canonic. The repo IS the principal",
+          "source": "Hardening plan Phase 1B"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "GOV_REPO_REG",
+          "pattern": "runner-canonic registered as GOV repo in CANONIC.git. Three GOV repos: canonic-canonic (infra), hadleylab-canonic (Dexte",
+          "source": "Hardening plan Phase 1C"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "HARDENING_ROADMAP",
+          "pattern": "13 hardening gates absorbed into governed ROADMAPs. 4 CLOSED (architecture + Ed25519), 9 OPEN (crypto, econ, pipeline). ",
+          "source": "Hardening plan"
         }
       ],
       "score": 128
@@ -16663,7 +16665,7 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "canonic-canonic/magic/galaxy",
-      "children": 7,
+      "children": 9,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -16731,6 +16733,54 @@
       "score": 128
     },
     {
+      "id": "runner-canonic/canonic-canonic/MAGIC/GALAXY/FINDER",
+      "kind": "SCOPE",
+      "label": "FINDER",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/GALAXY/FINDER",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/GALAXY",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "[ ] Full-width card grid: CSS grid, auto-fill minmax(200px, 1fr), glass cards with icon + label + ti",
+      "learning_count": 4,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/galaxy/finder",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-03-17",
+          "signal": "BREADCRUMB_FIRST",
+          "pattern": "Breadcrumb spine replaces spatial memory. Users navigate into scopes like folders, not by panning a graph. Force-directe",
+          "source": "FINDER/CANON.md"
+        },
+        {
+          "date": "2026-03-17",
+          "signal": "FOLDER_LEAF",
+          "pattern": "Children > 0 means folder (navigate deeper), children === 0 means leaf (open detail). Single rule, no ambiguity. Cards r",
+          "source": "FINDER/CANON.md"
+        },
+        {
+          "date": "2026-03-19",
+          "signal": "SAME_DRAWERS",
+          "pattern": "Finder and Graph share the same drawer model: left = INTEL (scoped to breadcrumb level in Finder, fleet-wide in Graph), ",
+          "source": "Design session"
+        },
+        {
+          "date": "2026-03-19",
+          "signal": "NON_BLOCKING",
+          "pattern": "HUD elements must never overlay content. Control panel is narrow, breadcrumb bar is full-width but thin, card grid clear",
+          "source": "Design session"
+        }
+      ],
+      "score": 128
+    },
+    {
       "id": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS",
       "kind": "CONTENT",
       "label": "ORGS",
@@ -16744,10 +16794,60 @@
       "has_intel": false,
       "surface_type": "GALAXY",
       "fleet_path": "canonic-canonic/magic/galaxy/orgs",
-      "children": 3,
+      "children": 4,
       "wallet": null,
       "talk": null,
       "learning": null,
+      "score": 128
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS/RunnerMVP",
+      "kind": "SCOPE",
+      "label": "RUNNERMVP",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/GALAXY/ORGS/RunnerMVP",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "github": "RunnerMVP",
+      "status": "ACTIVE",
+      "has_intel": false,
+      "roadmap_now": "gorunner.pro DNS stays on DEXTER Cloudflare \u2014 GOV_GEN owns infrastructure",
+      "learning_count": 4,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/galaxy/orgs/runnermvp",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-02-25",
+          "signal": "Robert Glover met Dexter at Lake Nona \u2014 RUNNER concept born",
+          "pattern": "\"DoorDash for Realtors\" \u2014 task management for listing operations",
+          "source": "In-person demo"
+        },
+        {
+          "date": "2026-03-10",
+          "signal": "Robert created RunnerMVP org + Runner-MVP repo independently",
+          "pattern": "First distributed user driving product \u2014 built MVP with vibe-coding agent",
+          "source": "GitHub RunnerMVP org"
+        },
+        {
+          "date": "2026-03-10",
+          "signal": "Robert invited Dexter to RunnerMVP org \u2014 GOV/DEV roles established",
+          "pattern": "GOVERNOR (Robert) decides. GOVERNOR_GENERAL (Dexter) executes.",
+          "source": "GitHub org invitation"
+        },
+        {
+          "date": "2026-03-10",
+          "signal": "ORG registered in GALAXY/ORGS \u2014 first distributed CANONIC product",
+          "pattern": "Same governance kernel (canonic-canonic submodule) applied to independent org",
+          "source": "GALAXY/ORGS/RunnerMVP/"
+        }
+      ],
       "score": 128
     },
     {
@@ -16823,6 +16923,48 @@
       "wallet": null,
       "talk": null,
       "learning": null,
+      "score": 128
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/GALAXY/PRIMITIVES",
+      "kind": "SCOPE",
+      "label": "PRIMITIVES",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/GALAXY/PRIMITIVES",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/GALAXY",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "[ ] Wire TALK toggle: search dock switches between search mode and conversation mode, carries curren",
+      "learning_count": 3,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/galaxy/primitives",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-03-17",
+          "signal": "CONTEXTUAL_UPDATE",
+          "pattern": "Navigate to any scope and all three primitives (INTEL, COIN, TALK) update contextually. The scope's CANON axiom becomes ",
+          "source": "PRIMITIVES/CANON.md"
+        },
+        {
+          "date": "2026-03-17",
+          "signal": "NOT_PLUGINS",
+          "pattern": "Primitives are native to the operating surface, not sidebars bolted onto a graph. They compose in every view. The search",
+          "source": "PRIMITIVES/CANON.md"
+        },
+        {
+          "date": "2026-03-19",
+          "signal": "FIX_OPENS_TALK",
+          "pattern": "INTEL coverage gap \"fix\" button opens TALK with a contextual prompt. The user describes the fix in conversation, TALK cr",
+          "source": "Design session"
+        }
+      ],
       "score": 128
     },
     {
@@ -17343,12 +17485,11 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Enforce append-only integrity: every LEDGER record includes `id` (hash), `prev` (hash), `ts` (ns) wi",
-      "learning_count": 5,
+      "learning_count": 9,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "canonic-canonic/magic/services/ledger",
-      "children": 1,
+      "children": 4,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -17381,6 +17522,30 @@
           "signal": "LEDGER promoted to flat service peer",
           "pattern": "Epoch 2 flatten: LEDGER moved from VAULT child to flat SERVICES peer alongside COIN, INTEL, EVIDENCE",
           "source": "SERVICES/VAULT/LEARNING.md"
+        },
+        {
+          "date": "2026-03-10",
+          "signal": "FEDERATION_GOVERNED",
+          "pattern": "Federation topology governs distributed witness network \u2014 peers discovered from GALAXY/ORGS/, deterministic assignment, ",
+          "source": "SERVICES/LEDGER/FEDERATION.md"
+        },
+        {
+          "date": "2026-03-10",
+          "signal": "WITNESS_PROTOCOL_SHIPPED",
+          "pattern": "Cross-ORG DIGEST + WITNESS countersigning protocol \u2014 Ed25519 signed, 2-of-N threshold, recovery from surviving witnesses",
+          "source": "SERVICES/LEDGER/WITNESS.md"
+        },
+        {
+          "date": "2026-03-10",
+          "signal": "ANCHOR_DEFERRED",
+          "pattern": "Bitcoin OP_RETURN anchoring governed but deferred until 5+ independent ORGs witness \u2014 anchoring 2 nodes one party contro",
+          "source": "SERVICES/LEDGER/ANCHOR.md"
+        },
+        {
+          "date": "2026-03-10",
+          "signal": "NATURAL_ONBOARDING",
+          "pattern": "Federation grows from Robert's vendor network \u2014 photographer, inspector, title, appraiser, stager, closing coord \u2014 each ",
+          "source": "SERVICES/LEDGER/FEDERATION.md"
         }
       ],
       "score": 128
@@ -18417,7 +18582,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_ECON",
       "fleet_path": "canonic-canonic/magic/toolchain",
-      "children": 21,
+      "children": 22,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -18504,6 +18669,43 @@
       "wallet": null,
       "talk": null,
       "learning": null,
+      "score": 128
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/FRESHNESS",
+      "kind": "SCOPE",
+      "label": "FRESHNESS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/TOOLCHAIN/FRESHNESS",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "| Metric | Source | Purpose |",
+      "learning_count": 2,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/toolchain/freshness",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-03-11",
+          "signal": "FULL_BUILD_BASELINE",
+          "pattern": "Phase 02 surfaces compilation takes 134s for 306 surfaces \u2014 all recompiled regardless of changes",
+          "source": "build output timing"
+        },
+        {
+          "date": "2026-03-11",
+          "signal": "CONTRACT_FIRST",
+          "pattern": "FRESHNESS declared as TOOLCHAIN contract before any compiler code \u2014 gov drives code",
+          "source": "FRESHNESS.md"
+        }
+      ],
       "score": 128
     },
     {
@@ -21281,6 +21483,26 @@
       "fleet_path": "blogs/2026-03-22-the-lawyer-who-won",
       "children": 0,
       "date": "2026-03-22",
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/BLOGS/SERIES",
+      "kind": "CONTENT",
+      "label": "SERIES",
+      "repo": "hadleylab-canonic",
+      "path": "BLOGS/SERIES",
+      "parent": "hadleylab-canonic/BLOGS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_POST",
+      "fleet_path": "blogs/series",
+      "children": 0,
       "wallet": null,
       "talk": null,
       "learning": null,
@@ -24687,6 +24909,86 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/BUSINESS-PLAN-NIH",
+      "kind": "CONTENT",
+      "label": "BUSINESS-PLAN-NIH",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/EHDS-GOV/BUSINESS-PLAN-NIH",
+      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/business-plan-nih",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS-NIH",
+      "kind": "CONTENT",
+      "label": "REVIEW-YOUNESS-NIH",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/EHDS-GOV/REVIEW-YOUNESS-NIH",
+      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/review-youness-nih",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS",
+      "kind": "CONTENT",
+      "label": "REVIEW-YOUNESS",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/EHDS-GOV/REVIEW-YOUNESS",
+      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/review-youness",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS-NIH",
+      "kind": "CONTENT",
+      "label": "SPECIFIC-AIMS-NIH",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/EHDS-GOV/SPECIFIC-AIMS-NIH",
+      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/specific-aims-nih",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS",
       "kind": "CONTENT",
       "label": "SPECIFIC-AIMS",
@@ -24700,6 +25002,26 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "grants/EHDS-GOV/specific-aims",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/WORK-TALK-REVIEW",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-REVIEW",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/EHDS-GOV/WORK-TALK-REVIEW",
+      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/work-talk-review",
       "children": 0,
       "wallet": null,
       "talk": null,
@@ -26807,6 +27129,26 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/SERVICES/PATENT/CLAIMS",
+      "kind": "CONTENT",
+      "label": "CLAIMS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/PATENT/CLAIMS",
+      "parent": "hadleylab-canonic/SERVICES/PATENT",
+      "color": "#2997ff",
+      "category": "OPERATIONS",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "services/PATENT/claims",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "hadleylab-canonic/SERVICES/RESERVES/ASSET-REGISTRY",
       "kind": "CONTENT",
       "label": "ASSET-REGISTRY",
@@ -28463,6 +28805,46 @@
       "score": 128
     },
     {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER/ANCHOR",
+      "kind": "CONTENT",
+      "label": "ANCHOR",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/LEDGER/ANCHOR",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/ledger/anchor",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER/FEDERATION",
+      "kind": "CONTENT",
+      "label": "FEDERATION",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/LEDGER/FEDERATION",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/ledger/federation",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER/VAULT",
       "kind": "CONTENT",
       "label": "VAULT",
@@ -28476,6 +28858,26 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "canonic-canonic/magic/services/ledger/vault",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER/WITNESS",
+      "kind": "CONTENT",
+      "label": "WITNESS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/SERVICES/LEDGER/WITNESS",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/magic/services/ledger/witness",
       "children": 0,
       "wallet": null,
       "talk": null,
@@ -28861,6 +29263,46 @@
       "talk": null,
       "learning": null,
       "score": 128
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/USERS/DEXTER/VITAE",
+      "kind": "CONTENT",
+      "label": "VITAE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/USERS/DEXTER/VITAE",
+      "parent": "runner-canonic/canonic-canonic/USERS/DEXTER",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/users/dexter/vitae",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/USERS/ROBERT/VITAE",
+      "kind": "CONTENT",
+      "label": "VITAE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/USERS/ROBERT/VITAE",
+      "parent": "runner-canonic/canonic-canonic/USERS/ROBERT",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/users/robert/vitae",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
     },
     {
       "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist",
@@ -29462,6 +29904,36 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "canonic-canonic/industries/verticals/religion/christianity/adventist",
       "children": 1,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/USERS",
+      "kind": "SCOPE",
+      "label": "USERS",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/USERS",
+      "parent": "runner-canonic/canonic-canonic",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 0,
+      "tier": "NONE",
+      "missing_dims": [
+        "D",
+        "E",
+        "T",
+        "R",
+        "O",
+        "S",
+        "L",
+        "LANG"
+      ],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/users",
+      "children": 0,
       "wallet": null,
       "talk": null,
       "learning": null,
@@ -30077,8 +30549,18 @@
     },
     {
       "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/FINDER",
+      "to": "canonic-canonic/MAGIC/GALAXY"
+    },
+    {
+      "kind": "INHERITS",
       "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS",
       "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS/RunnerMVP",
+      "to": "canonic-canonic/MAGIC/GALAXY/ORGS"
     },
     {
       "kind": "INHERITS",
@@ -30094,6 +30576,11 @@
       "kind": "INHERITS",
       "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS/hadleylab-canonic",
       "to": "canonic-canonic/MAGIC/GALAXY/ORGS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/PRIMITIVES",
+      "to": "canonic-canonic/MAGIC/GALAXY"
     },
     {
       "kind": "INHERITS",
@@ -30252,6 +30739,11 @@
     },
     {
       "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/FRESHNESS",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "INHERITS",
       "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/HOOKS",
       "to": "canonic-canonic/MAGIC/TOOLCHAIN"
     },
@@ -30404,6 +30896,11 @@
       "kind": "CROSS_INTEL",
       "from": "hadleylab-canonic/TALKS/ONCOCHAT",
       "to": "hadleylab-canonic/TALKS/OMICSCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/ONCOCHAT",
+      "to": "hadleylab-canonic/TALKS/CARIBCHAT"
     },
     {
       "kind": "CROSS_INTEL",
@@ -32275,8 +32772,18 @@
     },
     {
       "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/FINDER",
+      "to": "runner-canonic/canonic-canonic/MAGIC/GALAXY"
+    },
+    {
+      "kind": "PARENT",
       "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS",
       "to": "runner-canonic/canonic-canonic/MAGIC/GALAXY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS/RunnerMVP",
+      "to": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS"
     },
     {
       "kind": "PARENT",
@@ -32292,6 +32799,11 @@
       "kind": "PARENT",
       "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS/hadleylab-canonic",
       "to": "runner-canonic/canonic-canonic/MAGIC/GALAXY/ORGS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/GALAXY/PRIMITIVES",
+      "to": "runner-canonic/canonic-canonic/MAGIC/GALAXY"
     },
     {
       "kind": "PARENT",
@@ -32446,6 +32958,11 @@
     {
       "kind": "PARENT",
       "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/CONFIG",
+      "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN/FRESHNESS",
       "to": "runner-canonic/canonic-canonic/MAGIC/TOOLCHAIN"
     },
     {
@@ -33061,6 +33578,11 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/BLOGS/2026-03-22-the-lawyer-who-won",
+      "to": "hadleylab-canonic/BLOGS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BLOGS/SERIES",
       "to": "hadleylab-canonic/BLOGS"
     },
     {
@@ -33915,7 +34437,32 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/BUSINESS-PLAN-NIH",
+      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS-NIH",
+      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS",
+      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS-NIH",
+      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS",
+      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/WORK-TALK-REVIEW",
       "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
     },
     {
@@ -34445,6 +34992,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/PATENT/CLAIMS",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/RESERVES/ASSET-REGISTRY",
       "to": "hadleylab-canonic/SERVICES/RESERVES"
     },
@@ -34830,7 +35382,22 @@
     },
     {
       "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER/ANCHOR",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER/FEDERATION",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "PARENT",
       "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER/VAULT",
+      "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER/WITNESS",
       "to": "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER"
     },
     {
@@ -34957,6 +35524,11 @@
       "kind": "PARENT",
       "from": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist",
       "to": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/USERS",
+      "to": "runner-canonic/canonic-canonic"
     },
     {
       "kind": "PARENT",
