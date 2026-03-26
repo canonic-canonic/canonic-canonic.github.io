@@ -326,6 +326,61 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:CAMPAIGNS",
+      "label": "CAMPAIGNS",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:CAMPAIGNS:HACKERNEWS",
+      "label": "HACKERNEWS",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:CAMPAIGNS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:CAMPAIGNS:LINKEDIN",
+      "label": "LINKEDIN",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:CAMPAIGNS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:CAMPAIGNS:REDDIT",
+      "label": "REDDIT",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:CAMPAIGNS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:CAMPAIGNS:TWITTER",
+      "label": "TWITTER",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:CAMPAIGNS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:CHARTER",
       "label": "CHARTER",
       "bits": 255,
@@ -579,6 +634,17 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:DECKS:RUNNER-CHAIN",
+      "label": "RUNNER-CHAIN",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:DECKS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:GRANTS",
       "label": "GRANTS",
       "bits": 255,
@@ -630,6 +696,83 @@
       "color": "#ffd60a",
       "category": "GOVERNANCE",
       "inherits": "gov:hadleylab-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PATENTS",
+      "label": "PATENTS",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PATENTS:PROV-001",
+      "label": "PROV-001",
+      "bits": 215,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PATENTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PATENTS:PROV-002",
+      "label": "PROV-002",
+      "bits": 215,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PATENTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PATENTS:PROV-003",
+      "label": "PROV-003",
+      "bits": 215,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PATENTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PATENTS:PROV-004",
+      "label": "PROV-004",
+      "bits": 215,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PATENTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PATENTS:PROV-005",
+      "label": "PROV-005",
+      "bits": 215,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PATENTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PATENTS:PROV-006",
+      "label": "PROV-006",
+      "bits": 215,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PATENTS"
     },
     {
       "source": "gov",
@@ -704,8 +847,8 @@
       "label": "CAMPAIGN",
       "bits": 255,
       "size": 80,
-      "color": "#64748b",
-      "category": "ORG",
+      "color": "#ec4899",
+      "category": "SERVICES",
       "inherits": "gov:hadleylab-canonic:SERVICES"
     },
     {
@@ -832,17 +975,6 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:SERVICES:EMAIL",
-      "label": "EMAIL",
-      "bits": 255,
-      "size": 80,
-      "color": "#ec4899",
-      "category": "SERVICES",
-      "inherits": "gov:hadleylab-canonic:SERVICES"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:FINANCIALS",
       "label": "FINANCIALS",
       "bits": 255,
@@ -887,34 +1019,12 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:SERVICES:HACKERNEWS",
-      "label": "HACKERNEWS",
-      "bits": 247,
-      "size": 60,
-      "color": "#64748b",
-      "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:SERVICES"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:ICLOUD",
       "label": "ICLOUD",
       "bits": 255,
       "size": 80,
       "color": "#64748b",
       "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:SERVICES"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:SERVICES:IMESSAGE",
-      "label": "IMESSAGE",
-      "bits": 255,
-      "size": 80,
-      "color": "#ec4899",
-      "category": "SERVICES",
       "inherits": "gov:hadleylab-canonic:SERVICES"
     },
     {
@@ -959,17 +1069,6 @@
       "size": 80,
       "color": "#ff9f0a",
       "category": "COMMERCE",
-      "inherits": "gov:hadleylab-canonic:SERVICES"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:SERVICES:LINKEDIN",
-      "label": "LINKEDIN",
-      "bits": 255,
-      "size": 80,
-      "color": "#ec4899",
-      "category": "SERVICES",
       "inherits": "gov:hadleylab-canonic:SERVICES"
     },
     {
@@ -1045,17 +1144,6 @@
       "label": "PLUGINS",
       "bits": 255,
       "size": 80,
-      "color": "#64748b",
-      "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:SERVICES"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:SERVICES:REDDIT",
-      "label": "REDDIT",
-      "bits": 247,
-      "size": 60,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:SERVICES"
@@ -1144,19 +1232,8 @@
       "label": "TRANSCRIPT",
       "bits": 255,
       "size": 80,
-      "color": "#64748b",
-      "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:SERVICES"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:SERVICES:TWITTER",
-      "label": "TWITTER",
-      "bits": 247,
-      "size": 60,
-      "color": "#64748b",
-      "category": "ORG",
+      "color": "#ec4899",
+      "category": "SERVICES",
       "inherits": "gov:hadleylab-canonic:SERVICES"
     },
     {
@@ -1190,17 +1267,6 @@
       "size": 80,
       "color": "#ec4899",
       "category": "SERVICES",
-      "inherits": "gov:hadleylab-canonic:SERVICES"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:SERVICES:WHATSAPP",
-      "label": "WHATSAPP",
-      "bits": 255,
-      "size": 80,
-      "color": "#64748b",
-      "category": "ORG",
       "inherits": "gov:hadleylab-canonic:SERVICES"
     },
     {
@@ -1378,6 +1444,50 @@
       "color": "#ec4899",
       "category": "SERVICES",
       "inherits": "gov:hadleylab-canonic:TALKS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:TRANSCRIPTS",
+      "label": "TRANSCRIPTS",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:TRANSCRIPTS:EMAIL",
+      "label": "EMAIL",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:TRANSCRIPTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:TRANSCRIPTS:IMESSAGE",
+      "label": "IMESSAGE",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:TRANSCRIPTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:TRANSCRIPTS:WHATSAPP",
+      "label": "WHATSAPP",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:TRANSCRIPTS"
     },
     {
       "source": "gov",
@@ -1606,8 +1716,8 @@
       "label": "VAULT",
       "bits": 255,
       "size": 80,
-      "color": "#ff9f0a",
-      "category": "COMMERCE",
+      "color": "#64748b",
+      "category": "ORG",
       "inherits": "gov:runner-canonic:SERVICES"
     },
     {

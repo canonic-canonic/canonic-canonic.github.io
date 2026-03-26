@@ -3,7 +3,7 @@
     "contract": "canonic-canonic/MAGIC/SERVICES/STAR/STAR.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "generated": "2026-03-24T21:36:50Z",
+  "generated": "2026-03-25T23:06:45Z",
   "users": {
     "AVINASH": {
       "total": 12,
@@ -12514,42 +12514,6 @@
           "meta": {}
         },
         {
-          "id": "b511ea7ff1fb",
-          "ts": "2026-02-17T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "COMPOSITION",
-          "scope": "JP-CAPITAL",
-          "principal": "JP",
-          "summary": "COMPOSITION: iMessage conversation → DECK in one session",
-          "ref": "WORK TALK",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
-          "id": "61f9ade7eca9",
-          "ts": "2026-02-17T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "INSIGHT",
-          "scope": "JP-CAPITAL",
-          "principal": "JP",
-          "summary": "INSIGHT: JP's own words (\"each house gets their own agent\") = slide content",
-          "ref": "iMessage",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
-          "id": "4b167a9ed711",
-          "ts": "2026-02-17T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "STRATEGY",
-          "scope": "JP-CAPITAL",
-          "principal": "JP",
-          "summary": "STRATEGY: RE → Healthcare bridge is the $B thesis",
-          "ref": "DEAL JP-CAPITAL",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
           "id": "631abe3caacc",
           "ts": "2026-02-17T00:00:00Z",
           "stream": "LEARNING",
@@ -12666,6 +12630,42 @@
           "principal": "JP",
           "summary": "GEOGRAPHY: Lake Nona corridor — same as Mike Miller, AdventHealth",
           "ref": "VITAE",
+          "primitive": "INTEL",
+          "meta": {}
+        },
+        {
+          "id": "b511ea7ff1fb",
+          "ts": "2026-02-17T00:00:00Z",
+          "stream": "LEARNING",
+          "type": "COMPOSITION",
+          "scope": "JP-CAPITAL",
+          "principal": "JP",
+          "summary": "COMPOSITION: iMessage conversation → DECK in one session",
+          "ref": "WORK TALK",
+          "primitive": "INTEL",
+          "meta": {}
+        },
+        {
+          "id": "61f9ade7eca9",
+          "ts": "2026-02-17T00:00:00Z",
+          "stream": "LEARNING",
+          "type": "INSIGHT",
+          "scope": "JP-CAPITAL",
+          "principal": "JP",
+          "summary": "INSIGHT: JP's own words (\"each house gets their own agent\") = slide content",
+          "ref": "iMessage",
+          "primitive": "INTEL",
+          "meta": {}
+        },
+        {
+          "id": "4b167a9ed711",
+          "ts": "2026-02-17T00:00:00Z",
+          "stream": "LEARNING",
+          "type": "STRATEGY",
+          "scope": "JP-CAPITAL",
+          "principal": "JP",
+          "summary": "STRATEGY: RE → Healthcare bridge is the $B thesis",
+          "ref": "DEAL JP-CAPITAL",
           "primitive": "INTEL",
           "meta": {}
         },
