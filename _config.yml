@@ -22,5 +22,26 @@ reddit_pixel_id: "a2_ilt7lbzhyelg"
 
 exclude:
   # MAGIC governance filenames (auto-generated from DIMS)
+  - CANON.md
+  - COVERAGE.md
+  - INTEL.md
+  - LEARNING.md
   - README.md
+  - ROADMAP.md
+  - VOCAB.md
+  # Private directories (governance internals, not for indexing)
+  - CAMPAIGNS/
+  - CHARTER/
+  - CLINICAL/
+  - DEALS/
+  - DECKS/
+  - FINANCIALS/
+  - GRANTS/
+  - SERVICES/
+  - USERS/
+  - _data/
+  - econ.json
+  - irbs/
+  - plugins/
+  - timeline/
 
