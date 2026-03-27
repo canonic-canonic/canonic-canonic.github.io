@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # TALK — VOCAB
 
 inherits: canonic-canonic/MAGIC/SURFACE/DESIGN

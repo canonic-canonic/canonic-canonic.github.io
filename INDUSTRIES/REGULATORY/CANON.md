@@ -3,6 +3,7 @@ layout: service
 title: "REGULATORY — CANON"
 scope: REGULATORY
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES

@@ -3,6 +3,7 @@ layout: service
 title: "DOCTRINE — CANON"
 scope: DOCTRINE
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/FOUNDATION

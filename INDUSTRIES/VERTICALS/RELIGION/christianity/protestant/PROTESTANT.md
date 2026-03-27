@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # PROTESTANT — Protestant Christianity
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/protestant/CANON.md

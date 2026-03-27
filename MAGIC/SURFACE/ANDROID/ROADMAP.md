@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ANDROID — ROADMAP
 
 inherits: .

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # AUTOMOTIVE
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

@@ -6,6 +6,7 @@ description: "HADLEYLAB ships software. Every app, book, paper, deal, and patent
 footerTagline: "hadleylab-canonic"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

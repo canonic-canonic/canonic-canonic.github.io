@@ -6,6 +6,7 @@ description: "No drift. Every file in a governed scope has a reason. The validat
 footerTagline: "HYGIENE"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # VOCAB — VOCAB
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

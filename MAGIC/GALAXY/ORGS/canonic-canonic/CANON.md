@@ -3,6 +3,7 @@ layout: service
 title: "CANONIC-CANONIC — CANON"
 scope: canonic-canonic
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/GALAXY/ORGS

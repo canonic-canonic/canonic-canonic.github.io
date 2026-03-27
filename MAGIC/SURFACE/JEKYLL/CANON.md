@@ -3,6 +3,7 @@ layout: service
 title: "JEKYLL — CANON"
 scope: JEKYLL
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SURFACE/JEKYLL

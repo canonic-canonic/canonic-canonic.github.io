@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # DEVELOPERS
 
 inherits: canonic-canonic/FOUNDATION/DEVELOPERS

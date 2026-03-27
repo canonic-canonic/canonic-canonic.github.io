@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # LEARNING
 
 inherits: canonic-canonic/MAGIC/SURFACE/JEKYLL

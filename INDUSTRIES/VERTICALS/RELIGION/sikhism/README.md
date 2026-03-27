@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SIKHISM
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION

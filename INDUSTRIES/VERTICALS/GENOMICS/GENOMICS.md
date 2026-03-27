@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # GENOMICS
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

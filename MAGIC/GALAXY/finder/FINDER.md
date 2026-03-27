@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # FINDER
 
 inherits: canonic-canonic/MAGIC/GALAXY/FINDER

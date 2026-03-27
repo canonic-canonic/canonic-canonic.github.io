@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # JUDAISM
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION

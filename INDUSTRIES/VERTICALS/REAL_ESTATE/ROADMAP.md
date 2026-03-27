@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # REAL_ESTATE — ROADMAP
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

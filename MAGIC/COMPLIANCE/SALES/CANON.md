@@ -3,6 +3,7 @@ layout: service
 title: "SALES — CANON"
 scope: SALES
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE

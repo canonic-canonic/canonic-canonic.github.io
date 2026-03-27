@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # MINT
 
 inherits: canonic-canonic/MAGIC/SERVICES

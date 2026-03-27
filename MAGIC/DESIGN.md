@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # MAGIC — DESIGN
 
 inherits: canonic-canonic/MAGIC

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # PRIMITIVES — ROADMAP
 
 inherits: canonic-canonic/MAGIC/GALAXY/PRIMITIVES

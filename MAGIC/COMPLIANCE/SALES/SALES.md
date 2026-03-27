@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SALES — SPEC
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE

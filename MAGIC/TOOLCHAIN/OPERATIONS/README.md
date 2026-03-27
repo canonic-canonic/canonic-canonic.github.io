@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # OPERATIONS
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

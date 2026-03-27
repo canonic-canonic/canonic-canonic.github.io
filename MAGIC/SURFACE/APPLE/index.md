@@ -6,6 +6,7 @@ description: "MAGIC on Apple is native, governed, fast."
 footerTagline: "APPLE"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

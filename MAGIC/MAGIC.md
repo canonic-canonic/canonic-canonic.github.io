@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # MAGIC
 
 inherits: canonic-canonic/MAGIC/CANON.md

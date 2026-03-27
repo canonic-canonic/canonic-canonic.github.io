@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # VOCAB
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology/VOCAB.md

@@ -6,6 +6,7 @@ description: "No commit reaches main without passing the 255 gate."
 footerTagline: "PROTECTION"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

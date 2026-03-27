@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # GTM
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE

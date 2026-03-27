@@ -3,6 +3,7 @@ layout: service
 title: "FINDER — CANON"
 scope: FINDER
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/GALAXY

@@ -3,6 +3,7 @@ layout: service
 title: "CONFIG — CANON"
 scope: CONFIG
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

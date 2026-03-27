@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # GENOMICS — LEARNING
 
 inherits: .

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # sikhism — ROADMAP
 
 inherits: .

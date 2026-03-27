@@ -3,6 +3,7 @@ layout: service
 title: "CANONIC-SWIFT — CANON"
 scope: swift
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/FOUNDATION

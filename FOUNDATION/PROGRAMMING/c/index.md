@@ -6,6 +6,7 @@ description: "FFI = Foreign function interface. Kernel. Bare metal."
 footerTagline: "c"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

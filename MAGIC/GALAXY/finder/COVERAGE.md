@@ -2,6 +2,7 @@
 layout: service
 title: "FINDER — COVERAGE"
 talk: true
+sitemap: false
 ---
 
 ## Covers

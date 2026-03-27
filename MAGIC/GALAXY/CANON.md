@@ -3,6 +3,7 @@ layout: service
 title: "GALAXY — CANON"
 scope: GALAXY
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC

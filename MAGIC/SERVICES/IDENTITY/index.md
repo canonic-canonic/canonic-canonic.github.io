@@ -6,6 +6,7 @@ description: "Every COIN action is signed. Every signature is verified."
 footerTagline: "IDENTITY"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

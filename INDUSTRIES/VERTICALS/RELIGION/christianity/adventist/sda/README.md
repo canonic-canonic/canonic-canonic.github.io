@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SEVENTH-DAY
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/protestant

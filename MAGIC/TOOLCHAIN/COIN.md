@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # COIN
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

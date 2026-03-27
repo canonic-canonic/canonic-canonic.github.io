@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # COMPLIANCE
 
 inherits: canonic-canonic/MAGIC

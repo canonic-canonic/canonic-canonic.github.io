@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # HOOKS — VOCAB
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

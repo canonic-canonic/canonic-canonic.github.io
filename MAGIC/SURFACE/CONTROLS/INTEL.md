@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CONTROLS — INTEL
 
 inherits: canonic-canonic/MAGIC/SURFACE

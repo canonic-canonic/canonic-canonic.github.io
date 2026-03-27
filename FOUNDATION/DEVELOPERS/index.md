@@ -6,6 +6,7 @@ description: "DEVELOPERS is the certification surface. Every certified developer
 footerTagline: "DEVELOPERS"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # LEARNING — CANONIC-CANONIC
 
 inherits: canonic-canonic/MAGIC/GALAXY/ORGS

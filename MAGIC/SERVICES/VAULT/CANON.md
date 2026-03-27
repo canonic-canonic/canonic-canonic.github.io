@@ -3,6 +3,7 @@ layout: service
 title: "VAULT — CANON"
 scope: VAULT
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SERVICES

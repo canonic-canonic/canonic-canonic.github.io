@@ -3,6 +3,7 @@ layout: service
 title: "TESTS — CANON"
 scope: TESTS
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

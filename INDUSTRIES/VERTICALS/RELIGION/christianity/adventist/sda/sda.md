@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SDA — SPEC
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/protestant

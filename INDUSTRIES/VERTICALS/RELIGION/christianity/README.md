@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CHRISTIANITY
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION

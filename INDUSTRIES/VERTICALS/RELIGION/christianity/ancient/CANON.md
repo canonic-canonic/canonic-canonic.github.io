@@ -3,6 +3,7 @@ layout: service
 title: "ANCIENT CHURCHES — CANON"
 scope: ancient
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity

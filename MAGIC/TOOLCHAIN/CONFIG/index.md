@@ -6,6 +6,7 @@ description: "CONFIG = INTEL. Runtime configuration. Zero hardcoding."
 footerTagline: "CONFIG"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

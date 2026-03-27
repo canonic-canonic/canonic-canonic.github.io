@@ -6,6 +6,7 @@ description: "Every WALLET event chains to its predecessor. Balance is provable.
 footerTagline: "CHAIN"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

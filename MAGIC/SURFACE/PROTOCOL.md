@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # MAGIC — Protocol
 
 8 checks. Score 0–255. magic.c enforces.

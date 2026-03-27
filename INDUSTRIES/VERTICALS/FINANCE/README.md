@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # FINANCE
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

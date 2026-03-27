@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # BUDDHISM
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION

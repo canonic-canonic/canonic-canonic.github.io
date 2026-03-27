@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ROBOTICS
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

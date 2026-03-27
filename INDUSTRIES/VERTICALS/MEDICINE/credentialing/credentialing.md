@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CREDENTIALING — SPEC
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE

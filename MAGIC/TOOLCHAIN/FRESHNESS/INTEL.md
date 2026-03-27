@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # FRESHNESS — INTEL
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

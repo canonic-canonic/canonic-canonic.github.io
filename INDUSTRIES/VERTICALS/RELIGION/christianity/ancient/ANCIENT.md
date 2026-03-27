@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ANCIENT — Ancient Christianity
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/ancient/CANON.md

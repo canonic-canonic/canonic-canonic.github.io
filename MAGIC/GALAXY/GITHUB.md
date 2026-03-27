@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # GITHUB — KYC + DISTRIBUTION CONTRACT
 
 inherits: canonic-canonic/MAGIC

@@ -6,6 +6,7 @@ description: "BLOGS are governed literary artifacts. Every post is a timestamped
 footerTagline: "BLOGS"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

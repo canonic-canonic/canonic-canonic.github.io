@@ -3,6 +3,7 @@ layout: service
 title: "ROMAN CATHOLIC — CANON"
 scope: catholic
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity

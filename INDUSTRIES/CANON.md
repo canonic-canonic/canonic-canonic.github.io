@@ -3,6 +3,7 @@ layout: service
 title: "INDUSTRIES — CANON"
 scope: INDUSTRIES
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC

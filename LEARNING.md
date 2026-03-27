@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # canonic-canonic — LEARNING (TERMINAL)
 
 inherits: canonic-canonic/CANON.md

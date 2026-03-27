@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # bin — ROADMAP
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

@@ -6,6 +6,7 @@ description: "Example"
 footerTagline: "ROBOTICS"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

@@ -6,6 +6,7 @@ description: "FINDER is hierarchical navigation for the governed topology."
 footerTagline: "FINDER"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

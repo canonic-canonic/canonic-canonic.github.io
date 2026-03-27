@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ECON
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

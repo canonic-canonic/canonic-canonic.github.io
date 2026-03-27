@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SEMANTIC — ROADMAP
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE/SEMANTIC

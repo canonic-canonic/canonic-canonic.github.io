@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # DECKS — LEARNING
 
 inherits: .

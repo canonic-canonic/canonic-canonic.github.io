@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # GTM — LEARNING
 
 inherits: .

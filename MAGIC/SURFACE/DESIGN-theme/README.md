@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # DESIGN
 
 inherits: canonic-canonic/MAGIC/SURFACE/JEKYLL

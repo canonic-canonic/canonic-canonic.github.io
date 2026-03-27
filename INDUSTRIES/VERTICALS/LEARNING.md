@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # VERTICALS — LEARNING
 
 inherits: .

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # GOVERNMENT
 
 inherits: canonic-canonic/INDUSTRIES/REGULATORY

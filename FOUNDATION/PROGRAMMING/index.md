@@ -6,6 +6,7 @@ description: "DEV — programming language implementations."
 footerTagline: "PROGRAMMING"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

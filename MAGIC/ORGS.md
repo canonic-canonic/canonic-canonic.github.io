@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ORGS
 
 inherits: canonic-canonic/MAGIC

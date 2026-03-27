@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # JEKYLL — LEARNING
 
 inherits: canonic-canonic/MAGIC/SURFACE/JEKYLL/CANON.md

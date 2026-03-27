@@ -6,6 +6,7 @@ description: "One term, one definition, at the highest scope. Children inherit, 
 footerTagline: "VOCAB"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

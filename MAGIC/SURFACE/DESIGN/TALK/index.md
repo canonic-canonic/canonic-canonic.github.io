@@ -6,6 +6,7 @@ description: "api.canonic.org is the CANONIC service worker. All primitives. All
 footerTagline: "TALK"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

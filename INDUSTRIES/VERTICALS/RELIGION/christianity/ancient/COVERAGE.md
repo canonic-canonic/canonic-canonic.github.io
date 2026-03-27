@@ -2,6 +2,7 @@
 layout: service
 title: "ANCIENT CHURCHES — COVERAGE"
 talk: true
+sitemap: false
 ---
 
 Score: 255/255

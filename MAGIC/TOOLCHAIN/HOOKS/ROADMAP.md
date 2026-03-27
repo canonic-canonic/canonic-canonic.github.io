@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # HOOKS — ROADMAP
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

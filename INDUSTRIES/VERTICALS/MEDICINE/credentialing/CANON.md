@@ -3,6 +3,7 @@ layout: service
 title: "CREDENTIALING — CANON"
 scope: credentialing
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE

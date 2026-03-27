@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CANONIC-MAGIC
 
 inherits: canonic-canonic/FOUNDATION

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CONFIG — VOCAB
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

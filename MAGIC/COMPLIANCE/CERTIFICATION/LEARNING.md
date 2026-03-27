@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CERTIFICATION — LEARNING
 
 inherits: .

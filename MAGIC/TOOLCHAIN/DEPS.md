@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # DEPS
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

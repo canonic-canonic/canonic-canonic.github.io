@@ -6,6 +6,7 @@ description: "Enforcement at commit time. Every push validated. Every commit led
 footerTagline: "HOOKS"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

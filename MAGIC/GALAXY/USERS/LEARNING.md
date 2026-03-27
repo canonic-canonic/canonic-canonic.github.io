@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # LEARNING — Users
 
 inherits: canonic-canonic/MAGIC/GALAXY/USERS

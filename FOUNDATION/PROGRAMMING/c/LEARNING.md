@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # c — LEARNING (TERMINAL)
 
 inherits: canonic-canonic/FOUNDATION/PROGRAMMING/c/CANON.md

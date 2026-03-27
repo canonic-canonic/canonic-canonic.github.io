@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SHIA
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam

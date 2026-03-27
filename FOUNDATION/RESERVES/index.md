@@ -6,6 +6,7 @@ description: "Status"
 footerTagline: "RESERVES"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # WALLET
 
 inherits: canonic-canonic/MAGIC/SERVICES

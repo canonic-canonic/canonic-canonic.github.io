@@ -3,6 +3,7 @@ layout: service
 title: "DATA — CANON"
 scope: DATA
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/REGULATORY

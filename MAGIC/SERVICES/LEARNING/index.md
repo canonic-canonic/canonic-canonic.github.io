@@ -6,6 +6,7 @@ description: "LEARNING is INTEL applied. Every discovery governed. Every gradien
 footerTagline: "LEARNING"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

@@ -3,6 +3,7 @@ layout: service
 title: "SHOP — CANON"
 scope: SHOP
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SERVICES

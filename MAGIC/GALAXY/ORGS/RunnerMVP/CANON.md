@@ -3,6 +3,7 @@ layout: service
 title: "RUNNERMVP — CANON"
 scope: RunnerMVP
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/GALAXY/ORGS

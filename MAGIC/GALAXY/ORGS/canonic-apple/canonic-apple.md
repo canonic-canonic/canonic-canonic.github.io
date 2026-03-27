@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CANONIC-APPLE — SPEC
 
 inherits: canonic-canonic/MAGIC/GALAXY/ORGS

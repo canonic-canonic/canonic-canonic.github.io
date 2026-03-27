@@ -3,6 +3,7 @@ layout: service
 title: "DEVELOPERS — CANON"
 scope: DEVELOPERS
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/FOUNDATION

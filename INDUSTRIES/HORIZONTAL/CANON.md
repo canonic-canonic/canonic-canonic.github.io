@@ -3,6 +3,7 @@ layout: service
 title: "HORIZONTAL — CANON"
 scope: HORIZONTAL
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES

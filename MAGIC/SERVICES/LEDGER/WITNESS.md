@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # WITNESS
 
 inherits: canonic-canonic/MAGIC/SERVICES/LEDGER

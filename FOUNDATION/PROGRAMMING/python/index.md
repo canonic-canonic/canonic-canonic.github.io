@@ -6,6 +6,7 @@ description: "PYTHON = Ancestral runtime. The server. The intelligence."
 footerTagline: "python"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

@@ -3,6 +3,7 @@ layout: service
 title: "MONITORING — CANON"
 scope: MONITORING
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SERVICES

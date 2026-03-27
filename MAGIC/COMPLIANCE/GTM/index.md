@@ -6,6 +6,7 @@ description: "COIN about MAGIC. How MAGIC executes in the market."
 footerTagline: "GTM"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

@@ -6,6 +6,7 @@ description: "LEDGER is the append-only truth. Every economic event recorded. No
 footerTagline: "LEDGER"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

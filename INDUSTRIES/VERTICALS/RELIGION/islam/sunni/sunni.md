@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SUNNI — SPEC
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam

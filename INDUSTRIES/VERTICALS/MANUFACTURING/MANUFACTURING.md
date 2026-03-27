@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # MANUFACTURING
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

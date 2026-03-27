@@ -2,6 +2,7 @@
 layout: service
 title: "PRIMITIVES — COVERAGE"
 talk: true
+sitemap: false
 ---
 
 ## Covers

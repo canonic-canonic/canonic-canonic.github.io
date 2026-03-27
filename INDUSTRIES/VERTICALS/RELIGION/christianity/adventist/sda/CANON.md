@@ -3,6 +3,7 @@ layout: service
 title: "SEVENTH-DAY ADVENTIST — CANON"
 scope: sda
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/protestant

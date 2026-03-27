@@ -6,6 +6,7 @@ description: "Example"
 footerTagline: "shia"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # INIT — ROADMAP
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN/INIT

@@ -3,6 +3,7 @@ layout: service
 title: "JUDAISM — CANON"
 scope: judaism
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # PSYCHIATRY
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE

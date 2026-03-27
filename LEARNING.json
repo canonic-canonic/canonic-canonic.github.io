@@ -5925,8 +5925,11 @@
     }
   ],
   "stats": {
-    "total": 987,
+    "total_raw": 0,
     "community_questions": 0,
-    "domain_patterns": 987
+    "filtered_low_entropy": 0,
+    "filtered_pct": 0,
+    "domain_patterns": 987,
+    "filtered_examples": []
   }
 }

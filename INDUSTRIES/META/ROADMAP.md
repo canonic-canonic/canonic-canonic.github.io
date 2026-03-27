@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # META — ROADMAP
 
 inherits: canonic-canonic/INDUSTRIES/META

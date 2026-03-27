@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SERVICES
 
 inherits: canonic-canonic/MAGIC/SURFACE

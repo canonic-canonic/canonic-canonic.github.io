@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # BLOCKCHAIN — ROADMAP
 
 inherits: .

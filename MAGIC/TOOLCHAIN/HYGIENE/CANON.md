@@ -3,6 +3,7 @@ layout: service
 title: "HYGIENE — CANON"
 scope: HYGIENE
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

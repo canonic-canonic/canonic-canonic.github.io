@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CANONIC-APPLE — ROADMAP
 
 inherits: .

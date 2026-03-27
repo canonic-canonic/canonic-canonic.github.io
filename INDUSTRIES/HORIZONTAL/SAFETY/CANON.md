@@ -3,6 +3,7 @@ layout: service
 title: "SAFETY — CANON"
 scope: SAFETY
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/HORIZONTAL

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CANONIC-CANONIC — SPEC
 
 inherits: canonic-canonic/MAGIC/GALAXY/ORGS

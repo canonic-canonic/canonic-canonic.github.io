@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # APPLE — LEARNING
 
 inherits: .

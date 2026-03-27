@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ONBOARDING — ROADMAP
 
 inherits: canonic-canonic/FOUNDATION/ONBOARDING

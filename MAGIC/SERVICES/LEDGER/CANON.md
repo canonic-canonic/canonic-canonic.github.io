@@ -3,6 +3,7 @@ layout: service
 title: "LEDGER — CANON"
 scope: LEDGER
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SERVICES

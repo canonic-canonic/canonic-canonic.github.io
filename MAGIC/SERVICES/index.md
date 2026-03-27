@@ -6,6 +6,7 @@ description: "SERVICES are SURFACE routes with governed boundaries."
 footerTagline: "SERVICES"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

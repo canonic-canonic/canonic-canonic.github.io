@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # FLEET — CANONIC Operations Manifest
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

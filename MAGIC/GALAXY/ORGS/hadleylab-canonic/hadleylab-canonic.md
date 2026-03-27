@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # HADLEYLAB-CANONIC — SPEC
 
 inherits: canonic-canonic/MAGIC/GALAXY/ORGS

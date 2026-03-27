@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # TESTS — VOCAB
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN/TESTS

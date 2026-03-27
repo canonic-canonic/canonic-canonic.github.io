@@ -3,6 +3,7 @@ layout: service
 title: "bin — CANON"
 scope: bin
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

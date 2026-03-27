@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # bin
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

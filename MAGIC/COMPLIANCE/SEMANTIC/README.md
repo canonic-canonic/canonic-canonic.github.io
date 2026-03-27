@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SEMANTIC
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # BUDDHISM — SPEC
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION

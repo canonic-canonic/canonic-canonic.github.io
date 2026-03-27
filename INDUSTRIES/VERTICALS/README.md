@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # VERTICALS
 
 inherits: canonic-canonic/INDUSTRIES

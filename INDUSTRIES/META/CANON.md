@@ -3,6 +3,7 @@ layout: service
 title: "META — CANON"
 scope: META
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES

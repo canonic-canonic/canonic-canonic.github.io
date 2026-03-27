@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CHAIN
 
 inherits: canonic-canonic/MAGIC/SERVICES/CHAIN

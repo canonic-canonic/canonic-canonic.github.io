@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # BREAST — Breast Oncology
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology/breast/CANON.md

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # RUNNERMVP
 
 inherits: canonic-canonic/MAGIC/GALAXY/ORGS

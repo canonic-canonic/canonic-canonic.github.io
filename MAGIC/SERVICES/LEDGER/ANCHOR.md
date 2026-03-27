@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ANCHOR
 
 inherits: canonic-canonic/MAGIC/SERVICES/LEDGER

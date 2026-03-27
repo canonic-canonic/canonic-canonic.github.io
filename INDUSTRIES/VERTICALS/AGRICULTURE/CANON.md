@@ -3,6 +3,7 @@ layout: service
 title: "AGRICULTURE — CANON"
 scope: AGRICULTURE
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

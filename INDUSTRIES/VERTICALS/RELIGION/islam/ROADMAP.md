@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # islam — ROADMAP
 
 inherits: .

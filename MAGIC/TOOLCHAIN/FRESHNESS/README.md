@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # FRESHNESS
 
 Freshness cache contracts for incremental build compilation.

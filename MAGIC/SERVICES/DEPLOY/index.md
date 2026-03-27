@@ -6,6 +6,7 @@ description: "DEPLOY is governed artifact delivery. Build validates, deploy ship
 footerTagline: "DEPLOY"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

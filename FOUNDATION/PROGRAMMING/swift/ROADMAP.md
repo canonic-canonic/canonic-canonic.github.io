@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # swift — ROADMAP
 
 inherits: .

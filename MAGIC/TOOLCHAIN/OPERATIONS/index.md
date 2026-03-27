@@ -6,6 +6,7 @@ description: "Fleet operations. Sites declared. Assets synced. Recovery document
 footerTagline: "OPERATIONS"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

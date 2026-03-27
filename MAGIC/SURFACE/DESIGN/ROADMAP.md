@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # DESIGN — ROADMAP
 
 inherits: canonic-canonic/MAGIC/SURFACE/JEKYLL

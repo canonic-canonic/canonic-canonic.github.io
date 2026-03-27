@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # INTEL
 
 inherits: canonic-canonic/MAGIC

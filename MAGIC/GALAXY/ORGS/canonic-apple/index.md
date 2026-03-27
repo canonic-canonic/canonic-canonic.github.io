@@ -6,6 +6,7 @@ description: "Apple platform integration. iOS and macOS SURFACE client."
 footerTagline: "canonic-apple"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

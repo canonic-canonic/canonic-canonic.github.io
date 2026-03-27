@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # nation-of-islam — ROADMAP
 
 inherits: .

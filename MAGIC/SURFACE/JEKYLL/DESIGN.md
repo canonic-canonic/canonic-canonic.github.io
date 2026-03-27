@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # JEKYLL — DESIGN
 
 inherits: canonic-canonic/MAGIC/SURFACE/JEKYLL/CANON.md

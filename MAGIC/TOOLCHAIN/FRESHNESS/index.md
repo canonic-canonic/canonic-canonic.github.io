@@ -6,6 +6,7 @@ description: "Unchanged sources produce identical outputs. Skip the work. Trust 
 footerTagline: "FRESHNESS"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

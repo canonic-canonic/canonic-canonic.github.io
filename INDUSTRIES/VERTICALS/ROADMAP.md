@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # VERTICALS — ROADMAP
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

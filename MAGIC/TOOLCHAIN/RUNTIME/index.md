@@ -6,6 +6,7 @@ description: "Shared fleet primitives. talk.js + fleet.json. JEKYLL is the compi
 footerTagline: "RUNTIME"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

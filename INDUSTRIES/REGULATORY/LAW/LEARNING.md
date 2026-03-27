@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # LAW — LEARNING
 
 inherits: .

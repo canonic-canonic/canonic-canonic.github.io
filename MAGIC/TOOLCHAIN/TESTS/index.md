@@ -6,6 +6,7 @@ description: "Compiler correctness is verified by deterministic fixture tests. G
 footerTagline: "TESTS"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

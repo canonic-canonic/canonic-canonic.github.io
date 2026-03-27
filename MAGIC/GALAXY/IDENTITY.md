@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # IDENTITY — TRUST CONTRACT
 
 inherits: canonic-canonic/MAGIC

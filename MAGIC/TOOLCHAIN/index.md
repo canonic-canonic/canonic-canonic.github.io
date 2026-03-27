@@ -6,6 +6,7 @@ description: "Governance drives code. Never the reverse."
 footerTagline: "TOOLCHAIN"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

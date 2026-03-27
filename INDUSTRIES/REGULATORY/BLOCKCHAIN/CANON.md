@@ -3,6 +3,7 @@ layout: service
 title: "BLOCKCHAIN — CANON"
 scope: BLOCKCHAIN
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/REGULATORY

@@ -3,6 +3,7 @@ layout: service
 title: "CONTRIBUTE — CANON"
 scope: CONTRIBUTE
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SERVICES

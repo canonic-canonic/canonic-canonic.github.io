@@ -3,6 +3,7 @@ layout: service
 title: "SIKHISM — CANON"
 scope: sikhism
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION

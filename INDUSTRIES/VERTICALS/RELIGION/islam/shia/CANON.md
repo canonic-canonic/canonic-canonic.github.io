@@ -3,6 +3,7 @@ layout: service
 title: "SHIA — CANON"
 scope: shia
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam

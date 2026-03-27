@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # DATA — LEARNING
 
 inherits: .

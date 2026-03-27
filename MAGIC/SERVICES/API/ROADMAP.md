@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # API — ROADMAP
 
 inherits: .

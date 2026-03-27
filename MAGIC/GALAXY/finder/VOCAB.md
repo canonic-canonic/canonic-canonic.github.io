@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # FINDER — VOCAB
 
 | Term | Definition |

@@ -3,6 +3,7 @@ layout: service
 title: "TALK — CANON"
 scope: TALK
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SERVICES

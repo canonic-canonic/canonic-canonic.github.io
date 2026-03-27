@@ -3,6 +3,7 @@ layout: service
 title: "VERTICALS — CANON"
 scope: VERTICALS
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES

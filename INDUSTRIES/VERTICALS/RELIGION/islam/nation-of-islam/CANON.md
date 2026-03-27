@@ -3,6 +3,7 @@ layout: service
 title: "NATION OF ISLAM — CANON"
 scope: nation-of-islam
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam

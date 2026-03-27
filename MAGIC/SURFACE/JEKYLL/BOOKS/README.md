@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # BOOKS
 
 inherits: canonic-canonic/MAGIC/SURFACE/JEKYLL

@@ -3,6 +3,7 @@ layout: service
 title: "GTM — CANON"
 scope: GTM
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE

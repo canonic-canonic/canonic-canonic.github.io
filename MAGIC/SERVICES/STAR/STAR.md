@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # STAR
 
 inherits: canonic-canonic/MAGIC/SERVICES

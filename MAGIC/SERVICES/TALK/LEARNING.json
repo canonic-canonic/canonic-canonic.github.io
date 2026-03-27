@@ -49,8 +49,11 @@
     }
   ],
   "stats": {
-    "total": 7,
+    "total_raw": 0,
     "community_questions": 0,
-    "domain_patterns": 7
+    "filtered_low_entropy": 0,
+    "filtered_pct": 0,
+    "domain_patterns": 7,
+    "filtered_examples": []
   }
 }

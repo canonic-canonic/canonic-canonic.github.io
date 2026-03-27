@@ -3,6 +3,7 @@ layout: service
 title: "FRESHNESS — CANON"
 scope: FRESHNESS
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

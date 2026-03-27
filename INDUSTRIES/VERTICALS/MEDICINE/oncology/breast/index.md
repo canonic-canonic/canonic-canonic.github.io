@@ -6,6 +6,7 @@ description: "Breast cancer intelligence governed by evidence-based standards. B
 footerTagline: "breast"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

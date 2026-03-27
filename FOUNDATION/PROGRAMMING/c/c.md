@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # C — SPEC
 
 inherits: canonic-canonic/FOUNDATION/PROGRAMMING

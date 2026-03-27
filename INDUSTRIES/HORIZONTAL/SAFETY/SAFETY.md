@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SAFETY
 
 inherits: canonic-canonic/INDUSTRIES/HORIZONTAL

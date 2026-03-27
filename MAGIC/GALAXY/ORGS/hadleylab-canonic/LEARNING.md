@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # LEARNING — HADLEYLAB-CANONIC
 
 inherits: canonic-canonic/MAGIC/GALAXY/ORGS

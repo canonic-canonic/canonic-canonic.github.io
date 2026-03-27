@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CONTROLS — LEARNING
 
 inherits: canonic-canonic/MAGIC/SURFACE

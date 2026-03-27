@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # TYPESCRIPT — SPEC
 
 inherits: canonic-canonic/FOUNDATION/PROGRAMMING/

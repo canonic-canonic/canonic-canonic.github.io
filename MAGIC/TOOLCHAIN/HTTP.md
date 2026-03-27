@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # HTTP
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN
@@ -48,19 +52,25 @@ compiler: http
 
 ## Domains
 
-TALK surface model: `.chat` = consumer chat (`/talks/{scope}/`), `.ai` = community learning (`/services/talk/{scope}/`). Legacy `.com`/`.org` alias the `.chat` surface. Vanity domains (`.pro`) serve as unified commercial surface — chat + marketing in one domain.
+TALK surface model: `{scope}.ai` = canonical sink (community learning + SEO primary), `app.{scope}.ai` = chat instance (noindex, canonical → `{scope}.ai`). Community surfaces colocated with instance at `/talks/{scope}/community/`. Service contract at `/services/talk/` stays pure (no instance projections).
 
-| Domain | Target | Serve |
-|--------|--------|-------|
-| mammo.chat | hadleylab.org/talks/mammochat/ | proxy |
-| mammochat.ai | hadleylab.org/services/talk/mammochat/ | proxy |
-| mammochat.com | hadleylab.org/talks/mammochat/ | proxy |
-| carib.chat | hadleylab.org/talks/caribchat/ | proxy |
-| caribchat.ai | hadleylab.org/services/talk/caribchat/ | proxy |
-| caribchat.org | hadleylab.org/talks/caribchat/ | proxy |
-| atulisms.com | hadleylab.org/books/atulisms/ | proxy |
-| omicschat.hadleylab.org | hadleylab.org/talks/omicschat/ | subdomain |
-| oncochat.hadleylab.org | hadleylab.org/talks/oncochat/ | subdomain |
+| Domain | Target | Serve | Surface |
+|--------|--------|-------|---------|
+| mammo.chat | hadleylab.org/talks/mammochat/ | proxy | instance (legacy alias) |
+| mammochat.ai | hadleylab.org/talks/mammochat/community/ | proxy | community (SEO sink) |
+| app.mammochat.ai | hadleylab.org/talks/mammochat/ | instance | instance (noindex) |
+| mammochat.com | hadleylab.org/talks/mammochat/ | proxy | instance (legacy alias) |
+| carib.chat | hadleylab.org/talks/caribchat/ | proxy | instance (legacy alias) |
+| caribchat.ai | hadleylab.org/talks/caribchat/community/ | proxy | community (SEO sink) |
+| app.caribchat.ai | hadleylab.org/talks/caribchat/ | instance | instance (noindex) |
+| caribchat.org | hadleylab.org/talks/caribchat/ | proxy | instance (legacy alias) |
+| omicschat.ai | hadleylab.org/talks/omicschat/community/ | proxy | community (SEO sink) |
+| app.omicschat.ai | hadleylab.org/talks/omicschat/ | instance | instance (noindex) |
+| onconex.ai | hadleylab.org/talks/oncochat/community/ | proxy | community (SEO sink) |
+| app.onconex.ai | hadleylab.org/talks/oncochat/ | instance | instance (noindex) |
+| atulisms.com | hadleylab.org/books/atulisms/ | proxy | book |
+| omicschat.hadleylab.org | hadleylab.org/talks/omicschat/ | subdomain | instance |
+| oncochat.hadleylab.org | hadleylab.org/talks/oncochat/ | subdomain | instance |
 | medchat.hadleylab.org | hadleylab.org/talks/medchat/ | subdomain |
 | finchat.hadleylab.org | hadleylab.org/talks/finchat/ | subdomain |
 | lawchat.hadleylab.org | hadleylab.org/talks/lawchat/ | subdomain |

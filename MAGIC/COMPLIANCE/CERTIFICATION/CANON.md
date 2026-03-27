@@ -3,6 +3,7 @@ layout: service
 title: "CERTIFICATION — CANON"
 scope: CERTIFICATION
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE

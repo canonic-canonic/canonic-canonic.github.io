@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # NATION-OF-ISLAM — SPEC
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam

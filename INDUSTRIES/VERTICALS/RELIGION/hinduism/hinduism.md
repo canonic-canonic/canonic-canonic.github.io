@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # HINDUISM — SPEC
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION

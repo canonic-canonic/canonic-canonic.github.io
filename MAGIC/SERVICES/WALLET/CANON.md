@@ -3,6 +3,7 @@ layout: service
 title: "WALLET — CANON"
 scope: WALLET
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SERVICES

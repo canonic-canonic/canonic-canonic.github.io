@@ -6,6 +6,7 @@ description: "DOCTRINE is fixed. DRY. Mathematical. Enforced by structure."
 footerTagline: "DOCTRINE"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

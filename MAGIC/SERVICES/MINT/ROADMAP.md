@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # MINT — ROADMAP
 
 inherits: .

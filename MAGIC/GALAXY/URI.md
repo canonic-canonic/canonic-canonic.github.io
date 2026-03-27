@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # magic:// — URI CONTRACT
 
 inherits: canonic-canonic/MAGIC

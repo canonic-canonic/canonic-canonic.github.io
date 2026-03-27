@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # PRIMITIVES — VOCAB
 
 | Term | Definition |

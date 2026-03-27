@@ -6,6 +6,7 @@ description: "WALLET is the per-USER economic identity. Every USER has one. Ever
 footerTagline: "WALLET"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

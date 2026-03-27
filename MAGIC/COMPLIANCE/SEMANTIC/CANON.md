@@ -3,6 +3,7 @@ layout: service
 title: "SEMANTIC — CANON"
 scope: SEMANTIC
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE

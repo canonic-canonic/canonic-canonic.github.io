@@ -3,6 +3,7 @@ layout: service
 title: "HADLEYLAB-CANONIC — CANON"
 scope: hadleylab-canonic
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/GALAXY/ORGS

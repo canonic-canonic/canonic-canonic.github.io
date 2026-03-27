@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # hinduism — ROADMAP
 
 inherits: .

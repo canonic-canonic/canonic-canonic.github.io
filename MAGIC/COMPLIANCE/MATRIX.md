@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CROSS-SURFACE — 255 MATRIX
 
 inherits: canonic-canonic/MAGIC

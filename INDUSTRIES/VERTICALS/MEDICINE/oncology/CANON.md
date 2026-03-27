@@ -3,6 +3,7 @@ layout: service
 title: "ONCOLOGY — CANON"
 scope: oncology
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE

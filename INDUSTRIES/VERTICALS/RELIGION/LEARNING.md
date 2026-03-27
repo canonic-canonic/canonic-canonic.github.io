@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # RELIGION — LEARNING
 
 inherits: .

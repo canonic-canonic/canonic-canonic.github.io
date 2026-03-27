@@ -3,6 +3,7 @@ layout: service
 title: "BREAST ONCOLOGY — CANON"
 scope: breast
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology

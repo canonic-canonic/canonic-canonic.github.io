@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # LEARNING — PYTHON
 
 inherits: canonic-canonic/FOUNDATION/PROGRAMMING/python

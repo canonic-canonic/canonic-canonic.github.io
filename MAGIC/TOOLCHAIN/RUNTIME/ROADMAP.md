@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # RUNTIME — ROADMAP
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

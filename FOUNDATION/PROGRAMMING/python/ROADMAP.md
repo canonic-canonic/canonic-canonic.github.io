@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # PYTHON — ROADMAP
 
 inherits: canonic-canonic/FOUNDATION/PROGRAMMING/

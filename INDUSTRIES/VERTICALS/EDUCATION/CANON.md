@@ -3,6 +3,7 @@ layout: service
 title: "EDUCATION — CANON"
 scope: EDUCATION
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

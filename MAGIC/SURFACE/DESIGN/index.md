@@ -6,6 +6,7 @@ description: "Frontend rendering layer. CANON.md → HTML → Native. One styles
 footerTagline: "DESIGN"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

@@ -3,6 +3,7 @@ layout: service
 title: "CANONIC-PYTHON — CANON"
 scope: python
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/FOUNDATION/PROGRAMMING/

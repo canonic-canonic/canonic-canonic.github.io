@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # HYGIENE — ROADMAP
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

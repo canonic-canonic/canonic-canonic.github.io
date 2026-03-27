@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # RUNNERMVP — SPEC
 
 inherits: canonic-canonic/MAGIC/GALAXY/ORGS

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CANONIC-PYTHON
 
 inherits: canonic-canonic/FOUNDATION/PROGRAMMING/

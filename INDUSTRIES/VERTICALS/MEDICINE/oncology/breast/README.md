@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # BREAST
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology

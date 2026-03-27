@@ -6,6 +6,7 @@ description: "VAULT compiles the private aggregate. Auth-gated. Ledger-backed."
 footerTagline: "VAULT"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

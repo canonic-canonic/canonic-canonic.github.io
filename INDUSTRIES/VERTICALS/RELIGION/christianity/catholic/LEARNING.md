@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # catholic — LEARNING
 
 inherits: .

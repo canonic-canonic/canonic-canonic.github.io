@@ -3,6 +3,7 @@ layout: service
 title: "PROGRAMMING — CANON"
 scope: PROGRAMMING
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/FOUNDATION

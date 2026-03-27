@@ -6,6 +6,7 @@ description: ""
 footerTagline: "HORIZONTAL"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

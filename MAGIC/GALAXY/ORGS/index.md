@@ -6,6 +6,7 @@ description: "ORGS = federation identity. Users authenticate. Users maintain VIT
 footerTagline: "ORGS"
 talk: native
 view: web
+sitemap: false
 views:
   - gov
   - web

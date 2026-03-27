@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # MANUFACTURING — LEARNING
 
 inherits: .

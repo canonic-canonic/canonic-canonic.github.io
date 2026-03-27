@@ -6,6 +6,7 @@ description: "RUNNER is the real estate task marketplace. Post a task. A pro han
 footerTagline: "RunnerMVP"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

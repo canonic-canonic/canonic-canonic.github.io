@@ -3,6 +3,7 @@ layout: service
 title: "AUTOMOTIVE — CANON"
 scope: AUTOMOTIVE
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

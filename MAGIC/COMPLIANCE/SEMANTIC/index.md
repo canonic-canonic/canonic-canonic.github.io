@@ -6,6 +6,7 @@ description: "Every term resolves. Every chain closes. Every score reflects real
 footerTagline: "SEMANTIC"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

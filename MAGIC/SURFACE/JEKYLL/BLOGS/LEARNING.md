@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # BLOGS — LEARNING
 
 inherits: .

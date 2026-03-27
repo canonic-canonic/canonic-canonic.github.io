@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # MEDICINE
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

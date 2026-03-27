@@ -3,6 +3,7 @@ layout: service
 title: "BOOKS — CANON"
 scope: BOOKS
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SURFACE/JEKYLL

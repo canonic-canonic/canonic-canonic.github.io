@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # LEARNING — RESERVES
 
 inherits: canonic-canonic/FOUNDATION

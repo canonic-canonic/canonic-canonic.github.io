@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # HORIZONTAL — LEARNING
 
 inherits: .

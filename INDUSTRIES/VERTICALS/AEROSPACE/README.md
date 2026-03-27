@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # AEROSPACE
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # VOCAB
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE/VOCAB.md

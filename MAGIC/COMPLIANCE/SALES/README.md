@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SALES
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE

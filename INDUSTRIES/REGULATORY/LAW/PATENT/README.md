@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # PATENT
 
 inherits: canonic-canonic/INDUSTRIES/REGULATORY/LAW

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # NOTIFIER — INTEL
 
 inherits: canonic-canonic/MAGIC/SERVICES/NOTIFIER

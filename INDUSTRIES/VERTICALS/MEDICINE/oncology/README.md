@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ONCOLOGY
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE

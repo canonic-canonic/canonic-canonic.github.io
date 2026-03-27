@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # EDUCATION
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

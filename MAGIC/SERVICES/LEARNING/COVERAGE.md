@@ -2,6 +2,7 @@
 layout: service
 title: "LEARNING — COVERAGE"
 talk: true
+sitemap: false
 ---
 
 ## Covers

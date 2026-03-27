@@ -6,6 +6,7 @@ description: "MONITORING is continuous governance scoring. Real-time visibility,
 footerTagline: "MONITORING"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # FRESHNESS
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

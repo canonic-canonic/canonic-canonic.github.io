@@ -6,6 +6,7 @@ description: "TALK is CHAT + INTEL + COIN composed. Industry determines the voic
 footerTagline: "TALK"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

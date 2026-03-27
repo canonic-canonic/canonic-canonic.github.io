@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ONCOLOGY — SPEC
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE

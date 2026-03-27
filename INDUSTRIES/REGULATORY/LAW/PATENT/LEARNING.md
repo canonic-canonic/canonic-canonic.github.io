@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # PATENT — LEARNING
 
 inherits: .

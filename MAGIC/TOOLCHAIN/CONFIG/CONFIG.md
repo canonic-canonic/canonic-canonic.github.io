@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CONFIG
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

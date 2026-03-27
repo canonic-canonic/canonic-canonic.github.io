@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CERTIFICATION — INTEL
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE/CERTIFICATION

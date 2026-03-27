@@ -6,6 +6,7 @@ description: "NOTIFIER is NOTIFY + INTEL composed. Scope determines the route. L
 footerTagline: "NOTIFIER"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

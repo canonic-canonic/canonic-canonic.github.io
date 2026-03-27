@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # FRESHNESS — VOCAB
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

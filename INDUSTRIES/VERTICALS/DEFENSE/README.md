@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # DEFENSE
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

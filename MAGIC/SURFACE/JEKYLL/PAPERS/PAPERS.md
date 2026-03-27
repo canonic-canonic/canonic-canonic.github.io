@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # PAPERS
 
 inherits: canonic-canonic/MAGIC/SURFACE/JEKYLL

@@ -3,6 +3,7 @@ layout: service
 title: "ENERGY — CANON"
 scope: ENERGY
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

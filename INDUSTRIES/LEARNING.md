@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # INDUSTRIES — LEARNING (TERMINAL)
 
 inherits: canonic-canonic/INDUSTRIES/CANON.md

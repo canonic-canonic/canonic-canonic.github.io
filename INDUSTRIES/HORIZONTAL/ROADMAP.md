@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # HORIZONTAL — ROADMAP
 
 inherits: canonic-canonic/INDUSTRIES/HORIZONTAL

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # HYGIENE — VOCAB
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

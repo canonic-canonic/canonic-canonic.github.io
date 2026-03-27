@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # RECOVERY — ROADMAP
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE/RECOVERY

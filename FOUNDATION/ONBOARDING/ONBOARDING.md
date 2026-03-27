@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ONBOARDING
 
 inherits: canonic-canonic/FOUNDATION/ONBOARDING

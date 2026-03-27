@@ -2,6 +2,7 @@
 layout: service
 title: "ORGS — COVERAGE"
 talk: true
+sitemap: false
 ---
 
 Score: 255/255

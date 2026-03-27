@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # RUNTIME — VOCAB
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

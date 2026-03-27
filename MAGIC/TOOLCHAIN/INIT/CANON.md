@@ -3,6 +3,7 @@ layout: service
 title: "INIT — CANON"
 scope: INIT
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

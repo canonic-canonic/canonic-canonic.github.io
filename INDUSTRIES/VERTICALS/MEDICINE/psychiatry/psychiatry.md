@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # PSYCHIATRY — SPEC
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE

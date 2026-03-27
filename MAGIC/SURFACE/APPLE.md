@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # APPLE
 
 inherits: canonic-canonic/MAGIC/GALAXY

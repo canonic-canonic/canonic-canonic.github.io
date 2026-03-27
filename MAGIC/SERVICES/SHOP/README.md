@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SHOP
 
 inherits: canonic-canonic/MAGIC/SERVICES

@@ -6,6 +6,7 @@ description: "STAR is your personal portal in the GALAXY. INTEL + CHAT + COIN co
 footerTagline: "STAR"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

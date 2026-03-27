@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # BLOCKCHAIN
 
 inherits: canonic-canonic/INDUSTRIES/REGULATORY

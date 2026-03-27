@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # RECOVERY — LEARNING
 
 inherits: .

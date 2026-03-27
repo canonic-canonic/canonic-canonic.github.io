@@ -3,6 +3,7 @@ layout: service
 title: "ANDROID — CANON"
 scope: ANDROID
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SURFACE

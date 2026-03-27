@@ -3,6 +3,7 @@ layout: service
 title: "QUALITY — CANON"
 scope: QUALITY
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

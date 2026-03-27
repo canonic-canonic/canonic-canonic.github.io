@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # META
 
 inherits: canonic-canonic/INDUSTRIES

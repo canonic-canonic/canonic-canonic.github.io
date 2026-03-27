@@ -3,6 +3,7 @@ layout: service
 title: "AEROSPACE — CANON"
 scope: AEROSPACE
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

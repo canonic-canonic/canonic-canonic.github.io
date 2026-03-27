@@ -3,6 +3,7 @@ layout: service
 title: "ROBOTICS — CANON"
 scope: ROBOTICS
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

@@ -3,6 +3,7 @@ layout: service
 title: "PROTESTANT — CANON"
 scope: protestant
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity

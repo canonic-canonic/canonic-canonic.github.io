@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # PYTHON — SPEC
 
 inherits: canonic-canonic/FOUNDATION/PROGRAMMING/

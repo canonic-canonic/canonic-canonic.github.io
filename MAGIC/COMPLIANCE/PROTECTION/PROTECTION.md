@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # PROTECTION
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE

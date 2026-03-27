@@ -3,6 +3,7 @@ layout: service
 title: "GOVERNMENT — CANON"
 scope: GOVERNMENT
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/REGULATORY

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # LAW
 
 inherits: canonic-canonic/INDUSTRIES/REGULATORY

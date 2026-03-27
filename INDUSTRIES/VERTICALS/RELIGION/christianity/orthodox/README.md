@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # EASTERN
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity

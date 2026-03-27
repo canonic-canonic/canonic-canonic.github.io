@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ENERGY
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

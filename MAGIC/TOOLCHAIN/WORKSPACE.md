@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # WORKSPACE — CANONIC CONTAINER MAP
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

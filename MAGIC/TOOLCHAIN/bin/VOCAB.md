@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # bin — VOCAB
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

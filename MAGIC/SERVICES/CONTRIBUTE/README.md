@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CONTRIBUTE
 
 inherits: canonic-canonic/MAGIC/SERVICES

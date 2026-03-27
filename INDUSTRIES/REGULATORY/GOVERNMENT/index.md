@@ -6,6 +6,7 @@ description: "Example"
 footerTagline: "GOVERNMENT"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

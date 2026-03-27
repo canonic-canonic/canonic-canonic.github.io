@@ -3,6 +3,7 @@ layout: service
 title: "LAW — CANON"
 scope: LAW
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/REGULATORY

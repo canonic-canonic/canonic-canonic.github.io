@@ -6,6 +6,7 @@ description: "CANONIC survives any single point of failure."
 footerTagline: "RECOVERY"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

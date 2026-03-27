@@ -6,6 +6,7 @@ description: "TYPESCRIPT = Web runtime wrapper for MAGIC kernel interfaces."
 footerTagline: "typescript"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

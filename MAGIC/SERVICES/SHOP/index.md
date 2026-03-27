@@ -6,6 +6,7 @@ description: "SHOP compiles the public projection aggregate. Every USER is a SHO
 footerTagline: "SHOP"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

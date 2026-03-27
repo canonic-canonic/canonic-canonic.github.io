@@ -3,6 +3,7 @@ layout: service
 title: "PROTECTION — CANON"
 scope: PROTECTION
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # PATENT — SPEC
 
 inherits: canonic-canonic/INDUSTRIES/REGULATORY/LAW

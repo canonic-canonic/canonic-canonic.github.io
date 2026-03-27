@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # DESIGN — VOCABULARY
 
 inherits: canonic-canonic/MAGIC/SURFACE/JEKYLL

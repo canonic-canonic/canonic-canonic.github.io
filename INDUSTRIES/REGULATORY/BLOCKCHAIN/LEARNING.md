@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # BLOCKCHAIN — LEARNING
 
 inherits: .

@@ -6,6 +6,7 @@ description: "CONTROLS is the unified control interface for all content surfaces
 footerTagline: "CONTROLS"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

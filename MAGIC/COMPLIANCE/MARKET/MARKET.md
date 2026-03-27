@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # MARKET — SPEC
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CONTRIBUTE — LEARNING
 
 inherits: canonic-canonic/MAGIC/SERVICES/CONTRIBUTE

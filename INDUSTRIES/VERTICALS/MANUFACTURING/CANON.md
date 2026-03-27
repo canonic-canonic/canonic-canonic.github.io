@@ -3,6 +3,7 @@ layout: service
 title: "MANUFACTURING — CANON"
 scope: MANUFACTURING
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

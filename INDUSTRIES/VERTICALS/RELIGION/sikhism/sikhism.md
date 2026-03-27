@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SIKHISM — SPEC
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION

@@ -3,6 +3,7 @@ layout: service
 title: "BLOGS — CANON"
 scope: BLOGS
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SURFACE/JEKYLL

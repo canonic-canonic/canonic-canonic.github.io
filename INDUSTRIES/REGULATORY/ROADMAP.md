@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # REGULATORY — ROADMAP
 
 inherits: canonic-canonic/INDUSTRIES/REGULATORY

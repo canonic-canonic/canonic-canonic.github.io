@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # VOCAB — ROADMAP
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # DECKS
 
 inherits: canonic-canonic/MAGIC/SURFACE/JEKYLL

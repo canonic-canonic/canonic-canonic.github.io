@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CHAT
 
 inherits: canonic-canonic/MAGIC

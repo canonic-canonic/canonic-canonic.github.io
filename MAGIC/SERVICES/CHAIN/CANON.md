@@ -3,6 +3,7 @@ layout: service
 title: "CHAIN — CANON"
 scope: CHAIN
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SERVICES

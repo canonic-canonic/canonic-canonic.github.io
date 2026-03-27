@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CONTROLS
 
 inherits: canonic-canonic/MAGIC/SURFACE

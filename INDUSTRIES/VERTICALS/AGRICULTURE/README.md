@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # AGRICULTURE
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

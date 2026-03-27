@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ANDROID
 
 inherits: canonic-canonic/MAGIC/SURFACE

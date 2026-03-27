@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # RESERVES
 
 inherits: canonic-canonic/MAGIC

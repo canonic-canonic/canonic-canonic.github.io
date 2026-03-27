@@ -3,6 +3,7 @@ layout: service
 title: "VOCAB — CANON"
 scope: VOCAB
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

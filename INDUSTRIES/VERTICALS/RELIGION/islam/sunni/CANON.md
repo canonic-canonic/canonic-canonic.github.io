@@ -3,6 +3,7 @@ layout: service
 title: "SUNNI — CANON"
 scope: sunni
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam

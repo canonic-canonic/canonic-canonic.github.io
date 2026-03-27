@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CANONIC — DESIGN
 
 inherits: canonic-canonic/MAGIC/DESIGN.md

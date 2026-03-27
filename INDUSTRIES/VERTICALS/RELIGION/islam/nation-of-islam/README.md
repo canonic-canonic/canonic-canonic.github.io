@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # NATION
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam

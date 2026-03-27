@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # LAYOUTS — Layout Inheritance Hierarchy
 
 inherits: canonic-canonic/MAGIC/SURFACE/JEKYLL

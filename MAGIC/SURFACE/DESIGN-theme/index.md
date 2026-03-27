@@ -6,6 +6,7 @@ description: "This repo IS the JEKYLL service runtime. `remote_theme: canonic-ca
 footerTagline: "DESIGN-theme"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

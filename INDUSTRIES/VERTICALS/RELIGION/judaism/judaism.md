@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # JUDAISM — SPEC
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION

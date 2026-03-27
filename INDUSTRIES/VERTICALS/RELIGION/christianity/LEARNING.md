@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # christianity — LEARNING
 
 inherits: .

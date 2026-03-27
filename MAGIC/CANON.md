@@ -3,6 +3,7 @@ layout: service
 title: "CANONIC-MAGIC — CANON"
 scope: MAGIC
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/FOUNDATION

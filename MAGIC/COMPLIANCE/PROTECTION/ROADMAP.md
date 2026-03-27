@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # PROTECTION — ROADMAP
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE/PROTECTION

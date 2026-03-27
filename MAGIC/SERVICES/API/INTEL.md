@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # API — INTEL
 
 inherits: canonic-canonic/MAGIC/SERVICES/API/

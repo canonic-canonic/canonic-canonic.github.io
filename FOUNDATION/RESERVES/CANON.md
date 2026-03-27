@@ -3,6 +3,7 @@ layout: service
 title: "RESERVES — CANON"
 scope: RESERVES
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC

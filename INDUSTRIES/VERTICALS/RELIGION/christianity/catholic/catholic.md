@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CATHOLIC — SPEC
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity

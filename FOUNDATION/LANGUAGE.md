@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # LANGUAGE
 
 inherits: canonic-canonic/FOUNDATION

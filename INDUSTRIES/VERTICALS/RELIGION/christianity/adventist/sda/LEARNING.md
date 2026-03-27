@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # sda — LEARNING
 
 inherits: .

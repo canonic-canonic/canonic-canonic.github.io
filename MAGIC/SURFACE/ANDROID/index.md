@@ -6,6 +6,7 @@ description: "MAGIC on Android is native, governed, fast."
 footerTagline: "ANDROID"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

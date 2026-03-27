@@ -3,6 +3,7 @@ layout: service
 title: "MARKET — CANON"
 scope: MARKET
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE

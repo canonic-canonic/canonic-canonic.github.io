@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # FOUNDATION — ROADMAP
 
 inherits: canonic-canonic/FOUNDATION

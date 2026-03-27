@@ -3,6 +3,7 @@ layout: service
 title: "USERS — CANON"
 scope: USERS
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC

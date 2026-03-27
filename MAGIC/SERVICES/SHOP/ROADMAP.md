@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SHOP — ROADMAP
 
 inherits: .

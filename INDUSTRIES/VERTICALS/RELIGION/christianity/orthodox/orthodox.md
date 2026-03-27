@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ORTHODOX — SPEC
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity

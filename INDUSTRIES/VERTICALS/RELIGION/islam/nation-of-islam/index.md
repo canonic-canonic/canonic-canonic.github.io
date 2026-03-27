@@ -6,6 +6,7 @@ description: "Example"
 footerTagline: "nation-of-islam"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

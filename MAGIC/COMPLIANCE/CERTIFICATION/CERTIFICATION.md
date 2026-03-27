@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CERTIFICATION
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE/CERTIFICATION

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # FOUNDATION — LEARNING (TERMINAL)
 
 inherits: FOUNDATION

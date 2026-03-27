@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # buddhism — ROADMAP
 
 inherits: .

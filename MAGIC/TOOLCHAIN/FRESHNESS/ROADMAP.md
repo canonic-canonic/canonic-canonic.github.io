@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # FRESHNESS — ROADMAP
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

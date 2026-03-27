@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ROLLOUT — COMPATIBILITY CONTRACT
 
 inherits: canonic-canonic/MAGIC

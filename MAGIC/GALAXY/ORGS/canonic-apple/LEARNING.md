@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # LEARNING — CANONIC-APPLE
 
 inherits: canonic-canonic/MAGIC/GALAXY/ORGS

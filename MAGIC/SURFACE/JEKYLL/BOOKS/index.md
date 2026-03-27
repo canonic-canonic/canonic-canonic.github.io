@@ -6,6 +6,7 @@ description: "BOOKS are governed long-form artifacts. Each book IS a scope with 
 footerTagline: "BOOKS"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

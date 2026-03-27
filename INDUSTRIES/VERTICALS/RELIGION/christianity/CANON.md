@@ -3,6 +3,7 @@ layout: service
 title: "CHRISTIANITY — CANON"
 scope: christianity
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION

@@ -3,6 +3,7 @@ layout: service
 title: "COMPLIANCE — CANON"
 scope: COMPLIANCE
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC

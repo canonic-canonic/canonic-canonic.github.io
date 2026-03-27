@@ -6,6 +6,7 @@ description: "IOS_NATIVE = Apple ecosystem. Mobile SHOP."
 footerTagline: "swift"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

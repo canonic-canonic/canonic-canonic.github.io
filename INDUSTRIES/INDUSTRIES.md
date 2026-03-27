@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # INDUSTRIES
 
 inherits: canonic-canonic/INDUSTRIES/CANON.md

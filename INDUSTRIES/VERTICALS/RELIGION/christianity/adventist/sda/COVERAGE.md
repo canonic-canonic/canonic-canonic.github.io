@@ -2,6 +2,7 @@
 layout: service
 title: "SEVENTH-DAY ADVENTIST — COVERAGE"
 talk: true
+sitemap: false
 ---
 
 Score: 255/255

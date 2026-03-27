@@ -3,6 +3,7 @@ layout: service
 title: "GENOMICS — CANON"
 scope: GENOMICS
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

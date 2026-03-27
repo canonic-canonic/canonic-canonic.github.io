@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # JEKYLL
 
 inherits: canonic-canonic/MAGIC/SURFACE

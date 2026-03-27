@@ -3,6 +3,7 @@ layout: service
 title: "LOGISTICS — CANON"
 scope: LOGISTICS
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

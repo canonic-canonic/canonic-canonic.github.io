@@ -3,6 +3,7 @@ layout: service
 title: "MINT — CANON"
 scope: MINT
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SERVICES

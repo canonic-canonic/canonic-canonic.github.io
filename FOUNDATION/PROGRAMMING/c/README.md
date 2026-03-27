@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CANONIC-C
 
 inherits: canonic-canonic/FOUNDATION/PROGRAMMING

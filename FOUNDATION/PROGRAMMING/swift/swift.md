@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SWIFT — SPEC
 
 inherits: canonic-canonic/FOUNDATION

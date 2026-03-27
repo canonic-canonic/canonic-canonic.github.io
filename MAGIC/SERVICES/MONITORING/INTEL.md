@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # MONITORING — INTEL
 
 inherits: canonic-canonic/MAGIC/SERVICES/MONITORING/

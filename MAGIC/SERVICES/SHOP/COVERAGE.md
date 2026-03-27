@@ -2,6 +2,7 @@
 layout: service
 title: "SHOP — COVERAGE"
 talk: true
+sitemap: false
 ---
 
 Score: 255/255

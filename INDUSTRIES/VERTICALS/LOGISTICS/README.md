@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # LOGISTICS
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

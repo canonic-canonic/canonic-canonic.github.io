@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # REAL_ESTATE — LEARNING (TERMINAL)
 
 inherits: .

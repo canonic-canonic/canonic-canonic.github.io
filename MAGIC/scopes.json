@@ -656,6 +656,17 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:GRANTS:ACS-FLATIRON",
+      "label": "ACS-FLATIRON",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:GRANTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:GRANTS:EHDS-GOV",
       "label": "EHDS-GOV",
       "bits": 255,

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # DOCTRINE
 
 inherits: canonic-canonic/FOUNDATION

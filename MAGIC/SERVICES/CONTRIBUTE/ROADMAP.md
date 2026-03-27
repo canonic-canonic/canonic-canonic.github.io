@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CONTRIBUTE — ROADMAP
 
 inherits: canonic-canonic/MAGIC/SERVICES/CONTRIBUTE

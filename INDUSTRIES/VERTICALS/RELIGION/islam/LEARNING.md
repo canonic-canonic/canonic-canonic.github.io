@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # islam — LEARNING
 
 inherits: .

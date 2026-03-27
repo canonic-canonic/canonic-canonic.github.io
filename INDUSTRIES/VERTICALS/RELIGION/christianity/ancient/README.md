@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ANCIENT
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity

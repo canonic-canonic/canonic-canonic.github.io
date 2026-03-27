@@ -3,6 +3,7 @@ layout: service
 title: "PATENT LAW — CANON"
 scope: PATENT
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/REGULATORY/LAW

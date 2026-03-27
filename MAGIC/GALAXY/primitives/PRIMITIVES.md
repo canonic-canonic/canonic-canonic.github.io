@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # PRIMITIVES
 
 inherits: canonic-canonic/MAGIC/GALAXY/PRIMITIVES

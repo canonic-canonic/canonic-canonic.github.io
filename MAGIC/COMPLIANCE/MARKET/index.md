@@ -6,6 +6,7 @@ description: "INTEL about MAGIC. What MAGIC knows about its market."
 footerTagline: "MARKET"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

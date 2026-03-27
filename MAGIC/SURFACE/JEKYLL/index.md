@@ -6,6 +6,7 @@ description: "JEKYLL is MAGIC made visible. DESIGN is the language. JEKYLL is th
 footerTagline: "JEKYLL"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

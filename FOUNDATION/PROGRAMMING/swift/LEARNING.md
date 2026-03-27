@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # LEARNING — SWIFT
 
 inherits: canonic-canonic/FOUNDATION/PROGRAMMING/swift

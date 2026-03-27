@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # HYGIENE
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ISLAM — SPEC
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION

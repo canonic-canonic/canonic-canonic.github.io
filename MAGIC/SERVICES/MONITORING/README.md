@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # MONITORING
 
 inherits: canonic-canonic/MAGIC/SERVICES

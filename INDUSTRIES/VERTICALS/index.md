@@ -6,6 +6,7 @@ description: ""
 footerTagline: "VERTICALS"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

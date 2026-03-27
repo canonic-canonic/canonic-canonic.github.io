@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # DOCTRINE — ROADMAP
 
 inherits: canonic-canonic/FOUNDATION/DOCTRINE

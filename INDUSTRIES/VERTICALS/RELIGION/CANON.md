@@ -3,6 +3,7 @@ layout: service
 title: "RELIGION — CANON"
 scope: RELIGION
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

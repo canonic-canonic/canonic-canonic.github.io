@@ -6,6 +6,7 @@ description: "SPEC is governance. The constitutional authority."
 footerTagline: "canonic-canonic"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

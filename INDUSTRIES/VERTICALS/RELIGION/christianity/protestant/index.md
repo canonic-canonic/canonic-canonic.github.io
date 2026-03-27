@@ -6,6 +6,7 @@ description: "Reformation Christianity. Sola scriptura, sola fide, priesthood of
 footerTagline: "protestant"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SUNNI
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam

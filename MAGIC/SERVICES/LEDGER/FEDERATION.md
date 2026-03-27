@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # FEDERATION
 
 inherits: canonic-canonic/MAGIC/SERVICES/LEDGER

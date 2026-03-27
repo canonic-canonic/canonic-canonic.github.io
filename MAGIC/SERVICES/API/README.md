@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # API
 
 inherits: canonic-canonic/MAGIC/SERVICES

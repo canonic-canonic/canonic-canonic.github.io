@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ROADMAP
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE/GTM

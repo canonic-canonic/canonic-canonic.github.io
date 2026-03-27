@@ -6,6 +6,7 @@ description: "API is the network surface for COIN. Every endpoint authenticated.
 footerTagline: "API"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

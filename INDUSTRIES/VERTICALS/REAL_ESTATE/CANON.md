@@ -3,6 +3,7 @@ layout: service
 title: "REAL_ESTATE — CANON"
 scope: REAL_ESTATE
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

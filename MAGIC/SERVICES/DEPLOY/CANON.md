@@ -3,6 +3,7 @@ layout: service
 title: "DEPLOY — CANON"
 scope: DEPLOY
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SERVICES

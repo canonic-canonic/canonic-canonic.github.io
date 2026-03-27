@@ -6,6 +6,7 @@ description: "PAPERS are governed academic artifacts. Each paper IS a scope. SPE
 footerTagline: "PAPERS"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

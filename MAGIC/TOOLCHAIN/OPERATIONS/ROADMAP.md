@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # OPERATIONS — ROADMAP
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

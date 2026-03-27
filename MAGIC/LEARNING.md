@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # MAGIC — LEARNING (TERMINAL)
 
 inherits: MAGIC

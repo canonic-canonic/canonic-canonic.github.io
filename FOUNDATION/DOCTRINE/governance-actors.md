@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # DOCTRINE Chapter 3: ACTORS — GOV-DEV Separation
 
 inherits: canonic-canonic/FOUNDATION/DOCTRINE

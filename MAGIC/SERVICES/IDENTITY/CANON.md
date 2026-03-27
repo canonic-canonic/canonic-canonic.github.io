@@ -3,6 +3,7 @@ layout: service
 title: "IDENTITY — CANON"
 scope: IDENTITY
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SERVICES

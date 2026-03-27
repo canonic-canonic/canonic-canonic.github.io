@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # FINDER — LEARNING
 
 inherits: canonic-canonic/MAGIC/GALAXY/FINDER

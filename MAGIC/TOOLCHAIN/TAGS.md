@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # TOOLCHAIN — TAGS
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

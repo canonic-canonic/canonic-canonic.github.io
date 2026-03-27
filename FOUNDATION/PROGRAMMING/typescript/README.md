@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CANONIC-TYPESCRIPT
 
 inherits: canonic-canonic/FOUNDATION/PROGRAMMING/

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # TALK — ROADMAP
 
 inherits: canonic-canonic/MAGIC/SURFACE/DESIGN

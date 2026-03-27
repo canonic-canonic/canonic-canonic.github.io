@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # HORIZONTAL
 
 inherits: canonic-canonic/INDUSTRIES

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # GALAXY
 
 inherits: canonic-canonic/MAGIC

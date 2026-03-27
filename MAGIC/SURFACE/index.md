@@ -6,6 +6,7 @@ description: "SURFACE is the platform lane."
 footerTagline: "SURFACE"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

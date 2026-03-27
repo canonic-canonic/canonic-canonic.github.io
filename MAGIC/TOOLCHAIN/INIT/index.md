@@ -6,6 +6,7 @@ description: "Every new scope enters the world the same way."
 footerTagline: "INIT"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

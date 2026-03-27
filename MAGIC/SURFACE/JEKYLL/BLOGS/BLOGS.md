@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # BLOGS
 
 inherits: canonic-canonic/MAGIC/SURFACE/JEKYLL

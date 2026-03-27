@@ -3,6 +3,7 @@ layout: service
 title: "HOOKS — CANON"
 scope: HOOKS
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

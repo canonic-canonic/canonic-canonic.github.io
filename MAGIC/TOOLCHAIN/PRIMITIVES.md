@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # PRIMITIVES
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN
@@ -22,15 +26,12 @@ compiler: objects
 | CALENDAR | INTEL (event extraction) + CHAT (correspondence timeline) + COIN (event ledger) | false |
 | DEAL | INTEL (counterparty research) + CHAT (negotiation) + COIN (deal economics) | true |
 | DECK | CHAT (narrative slides) + INTEL (evidence citations) + COIN (presentation event) | false |
-| EMAIL | INTEL (inbox extraction) + CHAT (WORK TALK composition) + COIN (send event) | false |
 | FINANCIALS | COIN (revenue actuals) + INTEL (market data) + CHAT (financial narrative) | true |
 | FORECASTS | COIN (actuals baseline) + INTEL (market intelligence) | true |
 | CLINICAL | INTEL (clinical extraction) + CHAT (clinical AI products) + COIN (access ledger) | true |
-| IMESSAGE | INTEL (message extraction + contact resolution) | false |
 | KYC | INTEL (identity verification) + COIN (trust tier) | false |
 | LEARNING | INTEL (four-channel extraction) + CHAT (pattern narrative) + COIN (compute ledger) | false |
 | LEDGER | COIN (native economic primitive) | true |
-| LINKEDIN | INTEL (profile + conversation extraction) | false |
 | MAGIC | INTEL + CHAT + COIN (all three — MAGIC is the composition) | false |
 | PAPER | INTEL (citations + evidence) + CHAT (research narrative) + COIN (publication event) | false |
 | PATENT | INTEL (prior art + IDF evidence) + COIN (gate transition minting) | true |
@@ -39,9 +40,9 @@ compiler: objects
 | SHOP | INTEL (discovery walk) + CHAT (public presentation) + COIN (catalog event) | false |
 | STAR | INTEL (knowledge accumulation) + CHAT (messaging + conversations) + COIN (economics + work) | false |
 | TALK | CHAT (native conversation) + INTEL (sourced responses) + COIN (session ledger) | false |
-| VAULT | COIN (economy dashboard) + INTEL (private intelligence) + CHAT (auth-gated) | true |
 | VITAE | INTEL (identity record) + CHAT (profile narrative) + COIN (credential events) | false |
-| WHATSAPP | INTEL (message extraction + JID resolution) | false |
+| CAMPAIGN | INTEL (emission evidence) + CHAT (platform voice) + COIN (emission work) | false |
+| TRANSCRIPT | INTEL (conversation evidence) + CHAT (session archive) + COIN (transcript ledger) | true |
 
 ---
 

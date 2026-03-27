@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # USERS — ROADMAP
 
 inherits: canonic-canonic/MAGIC/GALAXY/USERS

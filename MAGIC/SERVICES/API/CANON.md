@@ -3,6 +3,7 @@ layout: service
 title: "API — CANON"
 scope: API
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SERVICES

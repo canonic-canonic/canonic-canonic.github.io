@@ -6,6 +6,7 @@ description: "MINT bridges WORK and ATTENTION to WALLET. Gradients mint COIN. Re
 footerTagline: "MINT"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

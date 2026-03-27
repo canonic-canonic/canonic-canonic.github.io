@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # LEARNING — ORG Federation
 
 inherits: canonic-canonic/MAGIC/GALAXY/ORGS

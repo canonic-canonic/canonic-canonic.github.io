@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # PROTESTANT
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity

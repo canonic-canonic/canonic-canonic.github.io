@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # DEVELOPERS — INTEL
 
 inherits: canonic-canonic/FOUNDATION/DEVELOPERS

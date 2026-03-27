@@ -3,6 +3,7 @@ layout: service
 title: "SURFACE — CANON"
 scope: SURFACE
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC

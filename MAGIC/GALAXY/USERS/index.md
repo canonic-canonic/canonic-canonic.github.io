@@ -6,6 +6,7 @@ description: "USERS are GitHub identities projected into ORGs."
 footerTagline: "USERS"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

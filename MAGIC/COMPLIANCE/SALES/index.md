@@ -6,6 +6,7 @@ description: "CHAT about MAGIC. How MAGIC talks to buyers."
 footerTagline: "SALES"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

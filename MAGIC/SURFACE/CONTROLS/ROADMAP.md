@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CONTROLS — ROADMAP
 
 inherits: canonic-canonic/MAGIC/SURFACE/CONTROLS

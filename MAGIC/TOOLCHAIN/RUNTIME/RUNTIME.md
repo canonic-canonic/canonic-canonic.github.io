@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # RUNTIME
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

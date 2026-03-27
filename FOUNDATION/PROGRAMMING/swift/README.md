@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CANONIC-SWIFT
 
 inherits: canonic-canonic/FOUNDATION

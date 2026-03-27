@@ -3,6 +3,7 @@ layout: service
 title: "PSYCHIATRY — CANON"
 scope: psychiatry
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE

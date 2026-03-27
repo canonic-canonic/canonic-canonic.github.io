@@ -3,6 +3,7 @@ layout: service
 title: "DECKS — CANON"
 scope: DECKS
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SURFACE/JEKYLL

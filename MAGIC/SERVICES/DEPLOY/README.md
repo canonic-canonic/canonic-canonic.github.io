@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # DEPLOY
 
 inherits: canonic-canonic/MAGIC/SERVICES

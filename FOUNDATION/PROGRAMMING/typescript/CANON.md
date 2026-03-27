@@ -3,6 +3,7 @@ layout: service
 title: "CANONIC-TYPESCRIPT — CANON"
 scope: typescript
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/FOUNDATION/PROGRAMMING/

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # GTM — SPEC
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE

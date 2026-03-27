@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # VAULT
 
 inherits: canonic-canonic/MAGIC/SERVICES/VAULT

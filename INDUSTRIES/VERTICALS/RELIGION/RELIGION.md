@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # RELIGION
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # TALK
 
 inherits: canonic-canonic/MAGIC

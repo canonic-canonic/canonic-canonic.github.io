@@ -6,6 +6,7 @@ description: "CERTIFICATION is COMPLIANCE made portable. Git is the certificatio
 footerTagline: "CERTIFICATION"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

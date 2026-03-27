@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # TESTS
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

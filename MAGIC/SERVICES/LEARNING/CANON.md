@@ -3,6 +3,7 @@ layout: service
 title: "LEARNING — CANON"
 scope: LEARNING
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SERVICES

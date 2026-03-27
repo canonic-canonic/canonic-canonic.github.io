@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # RECOVERY
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE

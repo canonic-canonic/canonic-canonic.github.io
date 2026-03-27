@@ -6,6 +6,7 @@ description: "INTEL, COIN, and TALK are the three native primitives of the GALAX
 footerTagline: "PRIMITIVES"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

@@ -3,6 +3,7 @@ layout: service
 title: "STAR — CANON"
 scope: STAR
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SERVICES

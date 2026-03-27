@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ORGS — SPEC
 
 inherits: canonic-canonic/MAGIC

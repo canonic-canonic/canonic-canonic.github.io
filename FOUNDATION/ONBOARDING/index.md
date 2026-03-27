@@ -6,6 +6,7 @@ description: "ONBOARDING is the contributor entry point. One runbook. Ten minute
 footerTagline: "ONBOARDING"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

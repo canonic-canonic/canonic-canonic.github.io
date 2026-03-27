@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # TOOLCHAIN
 
 inherits: canonic-canonic/MAGIC

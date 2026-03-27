@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # HINDUISM
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION

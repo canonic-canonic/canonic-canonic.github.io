@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # OPERATIONS — VOCAB
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

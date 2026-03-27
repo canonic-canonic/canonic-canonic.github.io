@@ -3,6 +3,7 @@ layout: service
 title: "PRIMITIVES — CANON"
 scope: PRIMITIVES
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/GALAXY

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CANONIC-CANONIC
 
 inherits: canonic-canonic/CANONIC.md

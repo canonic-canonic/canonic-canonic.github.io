@@ -2,6 +2,7 @@
 layout: service
 title: "MARKET — COVERAGE"
 talk: true
+sitemap: false
 ---
 
 Score: 255/255

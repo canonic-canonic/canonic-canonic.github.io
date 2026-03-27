@@ -6,6 +6,7 @@ description: ""
 footerTagline: "REGULATORY"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

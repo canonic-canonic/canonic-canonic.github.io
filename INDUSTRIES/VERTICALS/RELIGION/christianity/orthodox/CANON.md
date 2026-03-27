@@ -3,6 +3,7 @@ layout: service
 title: "EASTERN ORTHODOX — CANON"
 scope: orthodox
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity

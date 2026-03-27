@@ -6,6 +6,7 @@ description: "CONTRIBUTE is WORK recorded. Every contribution ledgered. Every WO
 footerTagline: "CONTRIBUTE"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

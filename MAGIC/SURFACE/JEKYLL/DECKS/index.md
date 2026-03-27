@@ -6,6 +6,7 @@ description: "DECKS are governed presentation artifacts. Every pitch is a CANON-
 footerTagline: "DECKS"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

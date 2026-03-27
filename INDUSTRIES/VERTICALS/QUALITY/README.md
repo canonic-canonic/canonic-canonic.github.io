@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # QUALITY
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS

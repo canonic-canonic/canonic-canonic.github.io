@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # MARKET
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE

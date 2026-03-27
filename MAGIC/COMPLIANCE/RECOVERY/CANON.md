@@ -3,6 +3,7 @@ layout: service
 title: "RECOVERY — CANON"
 scope: RECOVERY
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/COMPLIANCE

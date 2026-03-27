@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # INIT — LEARNING
 
 inherits: .

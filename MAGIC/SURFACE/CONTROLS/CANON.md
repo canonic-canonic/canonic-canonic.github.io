@@ -3,6 +3,7 @@ layout: service
 title: "CONTROLS — CANON"
 scope: CONTROLS
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SURFACE

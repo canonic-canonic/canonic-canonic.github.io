@@ -3,6 +3,7 @@ layout: service
 title: "RUNTIME — CANON"
 scope: RUNTIME
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/TOOLCHAIN

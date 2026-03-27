@@ -3,6 +3,7 @@ layout: service
 title: "NOTIFIER — CANON"
 scope: NOTIFIER
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/MAGIC/SERVICES

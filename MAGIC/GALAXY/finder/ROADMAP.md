@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # FINDER — ROADMAP
 
 inherits: canonic-canonic/MAGIC/GALAXY/FINDER

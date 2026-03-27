@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CANONIC-MAGIC — ROADMAP
 
 inherits: canonic-canonic/FOUNDATION/ROADMAP.md

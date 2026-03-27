@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # ISLAM
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION

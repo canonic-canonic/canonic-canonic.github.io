@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # SHIA — SPEC
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # TEST_SPEC — Transpiler Test Standard
 
 inherits: canonic-canonic/MAGIC

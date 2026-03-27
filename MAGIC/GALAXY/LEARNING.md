@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # GALAXY — LEARNING
 
 inherits: .

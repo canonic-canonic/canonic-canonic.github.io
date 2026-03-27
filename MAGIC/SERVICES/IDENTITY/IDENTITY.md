@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # IDENTITY
 
 inherits: canonic-canonic/MAGIC/SERVICES/IDENTITY

@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # LEDGER
 
 inherits: canonic-canonic/MAGIC/SERVICES/LEDGER/

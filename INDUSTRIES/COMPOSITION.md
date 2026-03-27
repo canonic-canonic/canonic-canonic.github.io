@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # INDUSTRIES — COMPOSITION
 
 inherits: canonic-canonic/INDUSTRIES

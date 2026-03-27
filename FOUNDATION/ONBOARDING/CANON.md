@@ -3,6 +3,7 @@ layout: service
 title: "ONBOARDING — CANON"
 scope: ONBOARDING
 talk: true
+sitemap: false
 ---
 
 inherits: canonic-canonic/FOUNDATION

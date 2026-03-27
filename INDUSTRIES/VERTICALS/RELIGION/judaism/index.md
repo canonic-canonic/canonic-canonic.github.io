@@ -6,6 +6,7 @@ description: "Example"
 footerTagline: "judaism"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

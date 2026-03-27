@@ -6,6 +6,7 @@ description: "COMPLIANCE is the tier algebra."
 footerTagline: "COMPLIANCE"
 talk: side
 view: web
+sitemap: false
 views:
   - gov
   - web

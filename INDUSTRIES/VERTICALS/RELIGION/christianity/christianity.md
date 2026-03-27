@@ -1,3 +1,7 @@
+---
+sitemap: false
+---
+
 # CHRISTIANITY — SPEC
 
 inherits: canonic-canonic/INDUSTRIES/VERTICALS/RELIGION
