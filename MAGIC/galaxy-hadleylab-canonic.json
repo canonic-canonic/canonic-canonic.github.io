@@ -4,7 +4,7 @@
     "rule": "edit the contract or compiler \u2014 not this file",
     "gov_hash": "71fb1b62b04414f1"
   },
-  "generated": "2026-03-28T03:56:43Z",
+  "generated": "2026-03-28T04:03:48Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -9971,24 +9971,23 @@
       "children": 0
     },
     {
-      "id": "canonic-canonic",
-      "kind": "ORG",
-      "label": "CANONIC",
+      "id": "canonic-canonic/MAGIC/SERVICES/LEARNING",
+      "kind": "SCOPE",
+      "label": "LEARNING",
       "repo": "canonic-canonic",
-      "path": ".",
-      "parent": null,
-      "category": "ORG",
-      "color": "#64748b",
+      "path": "MAGIC/SERVICES/LEARNING",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "[ ] Key rotation escalation \u2014 promote from soft gate (WARN) to hard gate (FAIL) in phase 8f",
-      "learning_count": 983,
-      "coverage_score": 255,
+      "roadmap_now": "Govern INTEL\u2192LEARNING primitive-to-service mapping across all scopes",
+      "learning_count": 13,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "",
-      "children": 5
+      "fleet_path": "MAGIC/SERVICES/LEARNING",
+      "children": 0
     },
     {
       "id": "canonic-canonic/MAGIC",
@@ -10012,23 +10011,24 @@
       "children": 11
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/LEARNING",
-      "kind": "SCOPE",
-      "label": "LEARNING",
+      "id": "canonic-canonic",
+      "kind": "ORG",
+      "label": "CANONIC",
       "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/LEARNING",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "KNOWLEDGE",
-      "color": "#bf5af2",
+      "path": ".",
+      "parent": null,
+      "category": "ORG",
+      "color": "#64748b",
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Govern INTEL\u2192LEARNING primitive-to-service mapping across all scopes",
-      "learning_count": 13,
+      "roadmap_now": "[ ] Key rotation escalation \u2014 promote from soft gate (WARN) to hard gate (FAIL) in phase 8f",
+      "learning_count": 983,
+      "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/LEARNING",
-      "children": 0
+      "fleet_path": "",
+      "children": 5
     }
   ],
   "edges": [
