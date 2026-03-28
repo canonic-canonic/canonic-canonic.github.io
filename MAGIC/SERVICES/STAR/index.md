@@ -6,22 +6,21 @@ description: "STAR is your personal portal in the GALAXY. INTEL + CHAT + COIN co
 footerTagline: "STAR"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/services/star/star.pdf
+pdf: /MAGIC/SERVICES/STAR/star.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/services/star/star.pdf"
+    href: "/MAGIC/SERVICES/STAR/star.pdf"
 hero:
   badge: STAR
   title: "STAR"
   description: "STAR is your personal portal in the GALAXY. INTEL + CHAT + COIN composed into a unified personal surface. The TIMELINE is the joint lane for all cross-axiomatic intel."
   cta:
     - label: "Open STAR"
-      href: /magic/services/star/
+      href: /MAGIC/SERVICES/STAR/
       class: btn-secondary
       talk: true
 ---

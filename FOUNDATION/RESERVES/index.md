@@ -6,22 +6,21 @@ description: "Status"
 footerTagline: "RESERVES"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /foundation/reserves/reserves.pdf
+pdf: /FOUNDATION/RESERVES/reserves.pdf
 downloads:
   - label: "PDF"
-    href: "/foundation/reserves/reserves.pdf"
+    href: "/FOUNDATION/RESERVES/reserves.pdf"
 hero:
   badge: RESERVES
   title: "RESERVES"
   description: "Status"
   cta:
     - label: "Open RESERVES"
-      href: /foundation/reserves/
+      href: /FOUNDATION/RESERVES/
       class: btn-secondary
       talk: true
 ---

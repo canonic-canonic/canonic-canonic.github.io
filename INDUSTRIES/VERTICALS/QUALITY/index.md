@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "QUALITY"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/quality/quality.pdf
+pdf: /INDUSTRIES/VERTICALS/QUALITY/quality.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/quality/quality.pdf"
+    href: "/INDUSTRIES/VERTICALS/QUALITY/quality.pdf"
 hero:
   badge: QUALITY
   title: "QUALITY"
   description: "Example"
   cta:
     - label: "Open QUALITY"
-      href: /industries/verticals/quality/
+      href: /INDUSTRIES/VERTICALS/QUALITY/
       class: btn-secondary
       talk: true
 ---

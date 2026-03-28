@@ -6,22 +6,21 @@ description: ""
 footerTagline: "HORIZONTAL"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/horizontal/horizontal.pdf
+pdf: /INDUSTRIES/HORIZONTAL/horizontal.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/horizontal/horizontal.pdf"
+    href: "/INDUSTRIES/HORIZONTAL/horizontal.pdf"
 hero:
   badge: HORIZONTAL
   title: "HORIZONTAL"
   description: ""
   cta:
     - label: "Open HORIZONTAL"
-      href: /industries/horizontal/
+      href: /INDUSTRIES/HORIZONTAL/
       class: btn-secondary
       talk: true
 ---

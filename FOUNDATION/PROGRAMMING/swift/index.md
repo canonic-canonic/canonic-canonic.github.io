@@ -6,22 +6,21 @@ description: "IOS_NATIVE = Apple ecosystem. Mobile SHOP."
 footerTagline: "swift"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /foundation/programming/swift/swift.pdf
+pdf: /FOUNDATION/PROGRAMMING/swift/swift.pdf
 downloads:
   - label: "PDF"
-    href: "/foundation/programming/swift/swift.pdf"
+    href: "/FOUNDATION/PROGRAMMING/swift/swift.pdf"
 hero:
   badge: swift
   title: "swift"
   description: "IOS_NATIVE = Apple ecosystem. Mobile SHOP."
   cta:
     - label: "Open swift"
-      href: /foundation/programming/swift/
+      href: /FOUNDATION/PROGRAMMING/swift/
       class: btn-secondary
       talk: true
 ---

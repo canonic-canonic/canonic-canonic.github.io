@@ -6,22 +6,21 @@ description: "MONITORING is continuous governance scoring. Real-time visibility,
 footerTagline: "MONITORING"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/services/monitoring/monitoring.pdf
+pdf: /MAGIC/SERVICES/MONITORING/monitoring.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/services/monitoring/monitoring.pdf"
+    href: "/MAGIC/SERVICES/MONITORING/monitoring.pdf"
 hero:
   badge: MONITORING
   title: "MONITORING"
   description: "MONITORING is continuous governance scoring. Real-time visibility, not snapshots."
   cta:
     - label: "Open MONITORING"
-      href: /magic/services/monitoring/
+      href: /MAGIC/SERVICES/MONITORING/
       class: btn-secondary
       talk: true
 ---

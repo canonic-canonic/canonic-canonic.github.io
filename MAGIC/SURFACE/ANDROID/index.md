@@ -6,22 +6,21 @@ description: "MAGIC on Android is native, governed, fast."
 footerTagline: "ANDROID"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/surface/android/android.pdf
+pdf: /MAGIC/SURFACE/android/android.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/surface/android/android.pdf"
+    href: "/MAGIC/SURFACE/android/android.pdf"
 hero:
   badge: ANDROID
   title: "ANDROID"
   description: "MAGIC on Android is native, governed, fast."
   cta:
     - label: "Open ANDROID"
-      href: /magic/surface/android/
+      href: /MAGIC/SURFACE/android/
       class: btn-secondary
       talk: true
 ---

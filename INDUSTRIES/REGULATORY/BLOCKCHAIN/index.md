@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "BLOCKCHAIN"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/regulatory/blockchain/blockchain.pdf
+pdf: /INDUSTRIES/REGULATORY/BLOCKCHAIN/blockchain.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/regulatory/blockchain/blockchain.pdf"
+    href: "/INDUSTRIES/REGULATORY/BLOCKCHAIN/blockchain.pdf"
 hero:
   badge: BLOCKCHAIN
   title: "BLOCKCHAIN"
   description: "Example"
   cta:
     - label: "Open BLOCKCHAIN"
-      href: /industries/regulatory/blockchain/
+      href: /INDUSTRIES/REGULATORY/BLOCKCHAIN/
       class: btn-secondary
       talk: true
 ---

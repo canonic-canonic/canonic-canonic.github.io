@@ -6,7 +6,7 @@
     "cta": [
       {
         "label": "Open TALK",
-        "href": "/magic/services/talk/",
+        "href": "/MAGIC/SERVICES/TALK/",
         "class": "btn-secondary",
         "talk": true
       }

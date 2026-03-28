@@ -6,22 +6,21 @@ description: "Every COIN action is signed. Every signature is verified."
 footerTagline: "IDENTITY"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/services/identity/identity.pdf
+pdf: /MAGIC/SERVICES/IDENTITY/identity.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/services/identity/identity.pdf"
+    href: "/MAGIC/SERVICES/IDENTITY/identity.pdf"
 hero:
   badge: IDENTITY
   title: "IDENTITY"
   description: "Every COIN action is signed. Every signature is verified."
   cta:
     - label: "Open IDENTITY"
-      href: /magic/services/identity/
+      href: /MAGIC/SERVICES/IDENTITY/
       class: btn-secondary
       talk: true
 ---

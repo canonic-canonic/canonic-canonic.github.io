@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "AGRICULTURE"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/agriculture/agriculture.pdf
+pdf: /INDUSTRIES/VERTICALS/AGRICULTURE/agriculture.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/agriculture/agriculture.pdf"
+    href: "/INDUSTRIES/VERTICALS/AGRICULTURE/agriculture.pdf"
 hero:
   badge: AGRICULTURE
   title: "AGRICULTURE"
   description: "Example"
   cta:
     - label: "Open AGRICULTURE"
-      href: /industries/verticals/agriculture/
+      href: /INDUSTRIES/VERTICALS/AGRICULTURE/
       class: btn-secondary
       talk: true
 ---

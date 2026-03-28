@@ -6,22 +6,21 @@ description: "ONBOARDING is the contributor entry point. One runbook. Ten minute
 footerTagline: "ONBOARDING"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /foundation/onboarding/onboarding.pdf
+pdf: /FOUNDATION/ONBOARDING/onboarding.pdf
 downloads:
   - label: "PDF"
-    href: "/foundation/onboarding/onboarding.pdf"
+    href: "/FOUNDATION/ONBOARDING/onboarding.pdf"
 hero:
   badge: ONBOARDING
   title: "ONBOARDING"
   description: "ONBOARDING is the contributor entry point. One runbook. Ten minutes. Your first governed scope."
   cta:
     - label: "Open ONBOARDING"
-      href: /foundation/onboarding/
+      href: /FOUNDATION/ONBOARDING/
       class: btn-secondary
       talk: true
 ---

@@ -6,22 +6,21 @@ description: "LEDGER is the append-only truth. Every economic event recorded. No
 footerTagline: "LEDGER"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/services/ledger/ledger.pdf
+pdf: /MAGIC/SERVICES/LEDGER/ledger.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/services/ledger/ledger.pdf"
+    href: "/MAGIC/SERVICES/LEDGER/ledger.pdf"
 hero:
   badge: LEDGER
   title: "LEDGER"
   description: "LEDGER is the append-only truth. Every economic event recorded. No erasure."
   cta:
     - label: "Open LEDGER"
-      href: /magic/services/ledger/
+      href: /MAGIC/SERVICES/LEDGER/
       class: btn-secondary
       talk: true
 ---

@@ -6,22 +6,21 @@ description: "SURFACE is the platform lane."
 footerTagline: "SURFACE"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/surface/surface.pdf
+pdf: /MAGIC/SURFACE/surface.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/surface/surface.pdf"
+    href: "/MAGIC/SURFACE/surface.pdf"
 hero:
   badge: SURFACE
   title: "SURFACE"
   description: "SURFACE is the platform lane."
   cta:
     - label: "Open SURFACE"
-      href: /magic/surface/
+      href: /MAGIC/SURFACE/
       class: btn-secondary
       talk: true
 ---

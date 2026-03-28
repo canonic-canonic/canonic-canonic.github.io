@@ -6,22 +6,21 @@ description: "Three engines. Three tiers. Each axiom self-closes. Together = 255
 footerTagline: "bin"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/toolchain/bin/bin.pdf
+pdf: /MAGIC/TOOLCHAIN/bin/bin.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/toolchain/bin/bin.pdf"
+    href: "/MAGIC/TOOLCHAIN/bin/bin.pdf"
 hero:
   badge: bin
   title: "bin"
   description: "Three engines. Three tiers. Each axiom self-closes. Together = 255 = MAGIC."
   cta:
     - label: "Open bin"
-      href: /magic/toolchain/bin/
+      href: /MAGIC/TOOLCHAIN/bin/
       class: btn-secondary
       talk: true
 ---

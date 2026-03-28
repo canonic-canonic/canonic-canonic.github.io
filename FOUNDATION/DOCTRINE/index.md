@@ -6,22 +6,21 @@ description: "DOCTRINE is fixed. DRY. Mathematical. Enforced by structure."
 footerTagline: "DOCTRINE"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /foundation/doctrine/doctrine.pdf
+pdf: /FOUNDATION/DOCTRINE/doctrine.pdf
 downloads:
   - label: "PDF"
-    href: "/foundation/doctrine/doctrine.pdf"
+    href: "/FOUNDATION/DOCTRINE/doctrine.pdf"
 hero:
   badge: DOCTRINE
   title: "DOCTRINE"
   description: "DOCTRINE is fixed. DRY. Mathematical. Enforced by structure."
   cta:
     - label: "Open DOCTRINE"
-      href: /foundation/doctrine/
+      href: /FOUNDATION/DOCTRINE/
       class: btn-secondary
       talk: true
 ---

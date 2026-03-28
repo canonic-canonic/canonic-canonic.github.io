@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: galaxy
 scope: GALAXY
 title: "GALAXY"

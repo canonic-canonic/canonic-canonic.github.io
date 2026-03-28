@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "hinduism"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/religion/hinduism/hinduism.pdf
+pdf: /INDUSTRIES/VERTICALS/RELIGION/hinduism/hinduism.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/religion/hinduism/hinduism.pdf"
+    href: "/INDUSTRIES/VERTICALS/RELIGION/hinduism/hinduism.pdf"
 hero:
   badge: hinduism
   title: "hinduism"
   description: "Example"
   cta:
     - label: "Open hinduism"
-      href: /industries/verticals/religion/hinduism/
+      href: /INDUSTRIES/VERTICALS/RELIGION/hinduism/
       class: btn-secondary
       talk: true
 ---

@@ -6,22 +6,21 @@ description: "COMPLIANCE is the tier algebra."
 footerTagline: "COMPLIANCE"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/compliance/compliance.pdf
+pdf: /MAGIC/COMPLIANCE/compliance.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/compliance/compliance.pdf"
+    href: "/MAGIC/COMPLIANCE/compliance.pdf"
 hero:
   badge: COMPLIANCE
   title: "COMPLIANCE"
   description: "COMPLIANCE is the tier algebra."
   cta:
     - label: "Open COMPLIANCE"
-      href: /magic/compliance/
+      href: /MAGIC/COMPLIANCE/
       class: btn-secondary
       talk: true
 ---

@@ -6,7 +6,7 @@
     "cta": [
       {
         "label": "Open christianity",
-        "href": "/industries/verticals/religion/christianity/",
+        "href": "/INDUSTRIES/VERTICALS/RELIGION/christianity/",
         "class": "btn-secondary",
         "talk": true
       }
@@ -100,28 +100,28 @@
           "icon": "∩",
           "title": "ancient",
           "desc": "Pre-schism Christianity. The first three ecumenical councils (Nicaea 325, Constantinople 381, Ephesus 431) define branches that predate Catholic-Orthodox (1054) and Protestant (1517) divisions.",
-          "href": "/industries/verticals/religion/christianity/ancient/",
+          "href": "/INDUSTRIES/VERTICALS/RELIGION/christianity/ancient/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "catholic",
           "desc": "Example",
-          "href": "/industries/verticals/religion/christianity/catholic/",
+          "href": "/INDUSTRIES/VERTICALS/RELIGION/christianity/catholic/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "orthodox",
           "desc": "Example",
-          "href": "/industries/verticals/religion/christianity/orthodox/",
+          "href": "/INDUSTRIES/VERTICALS/RELIGION/christianity/orthodox/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "protestant",
           "desc": "Reformation Christianity. Sola scriptura, sola fide, priesthood of all believers.",
-          "href": "/industries/verticals/religion/christianity/protestant/",
+          "href": "/INDUSTRIES/VERTICALS/RELIGION/christianity/protestant/",
           "class": "card"
         }
       ]

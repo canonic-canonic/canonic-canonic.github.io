@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "sikhism"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/religion/sikhism/sikhism.pdf
+pdf: /INDUSTRIES/VERTICALS/RELIGION/sikhism/sikhism.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/religion/sikhism/sikhism.pdf"
+    href: "/INDUSTRIES/VERTICALS/RELIGION/sikhism/sikhism.pdf"
 hero:
   badge: sikhism
   title: "sikhism"
   description: "Example"
   cta:
     - label: "Open sikhism"
-      href: /industries/verticals/religion/sikhism/
+      href: /INDUSTRIES/VERTICALS/RELIGION/sikhism/
       class: btn-secondary
       talk: true
 ---

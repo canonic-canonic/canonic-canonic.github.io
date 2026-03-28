@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "DATA"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/regulatory/data/data.pdf
+pdf: /INDUSTRIES/REGULATORY/DATA/data.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/regulatory/data/data.pdf"
+    href: "/INDUSTRIES/REGULATORY/DATA/data.pdf"
 hero:
   badge: DATA
   title: "DATA"
   description: "Example"
   cta:
     - label: "Open DATA"
-      href: /industries/regulatory/data/
+      href: /INDUSTRIES/REGULATORY/DATA/
       class: btn-secondary
       talk: true
 ---

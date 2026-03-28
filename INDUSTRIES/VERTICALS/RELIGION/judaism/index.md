@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "judaism"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/religion/judaism/judaism.pdf
+pdf: /INDUSTRIES/VERTICALS/RELIGION/judaism/judaism.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/religion/judaism/judaism.pdf"
+    href: "/INDUSTRIES/VERTICALS/RELIGION/judaism/judaism.pdf"
 hero:
   badge: judaism
   title: "judaism"
   description: "Example"
   cta:
     - label: "Open judaism"
-      href: /industries/verticals/religion/judaism/
+      href: /INDUSTRIES/VERTICALS/RELIGION/judaism/
       class: btn-secondary
       talk: true
 ---

@@ -6,22 +6,21 @@ description: "INTEL about MAGIC. What MAGIC knows about its market."
 footerTagline: "MARKET"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/compliance/market/market.pdf
+pdf: /MAGIC/COMPLIANCE/MARKET/market.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/compliance/market/market.pdf"
+    href: "/MAGIC/COMPLIANCE/MARKET/market.pdf"
 hero:
   badge: MARKET
   title: "MARKET"
   description: "INTEL about MAGIC. What MAGIC knows about its market."
   cta:
     - label: "Open MARKET"
-      href: /magic/compliance/market/
+      href: /MAGIC/COMPLIANCE/MARKET/
       class: btn-secondary
       talk: true
 ---

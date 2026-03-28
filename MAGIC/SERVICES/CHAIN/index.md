@@ -6,22 +6,21 @@ description: "Every WALLET event chains to its predecessor. Balance is provable.
 footerTagline: "CHAIN"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/services/chain/chain.pdf
+pdf: /MAGIC/SERVICES/CHAIN/chain.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/services/chain/chain.pdf"
+    href: "/MAGIC/SERVICES/CHAIN/chain.pdf"
 hero:
   badge: CHAIN
   title: "CHAIN"
   description: "Every WALLET event chains to its predecessor. Balance is provable."
   cta:
     - label: "Open CHAIN"
-      href: /magic/services/chain/
+      href: /MAGIC/SERVICES/CHAIN/
       class: btn-secondary
       talk: true
 ---

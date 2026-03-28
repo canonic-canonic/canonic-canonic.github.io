@@ -6,22 +6,21 @@ description: "COIN about MAGIC. How MAGIC executes in the market."
 footerTagline: "GTM"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/compliance/gtm/gtm.pdf
+pdf: /MAGIC/COMPLIANCE/GTM/gtm.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/compliance/gtm/gtm.pdf"
+    href: "/MAGIC/COMPLIANCE/GTM/gtm.pdf"
 hero:
   badge: GTM
   title: "GTM"
   description: "COIN about MAGIC. How MAGIC executes in the market."
   cta:
     - label: "Open GTM"
-      href: /magic/compliance/gtm/
+      href: /MAGIC/COMPLIANCE/GTM/
       class: btn-secondary
       talk: true
 ---

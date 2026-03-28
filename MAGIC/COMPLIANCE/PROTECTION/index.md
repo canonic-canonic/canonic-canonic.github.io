@@ -6,22 +6,21 @@ description: "No commit reaches main without passing the 255 gate."
 footerTagline: "PROTECTION"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/compliance/protection/protection.pdf
+pdf: /MAGIC/COMPLIANCE/PROTECTION/protection.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/compliance/protection/protection.pdf"
+    href: "/MAGIC/COMPLIANCE/PROTECTION/protection.pdf"
 hero:
   badge: PROTECTION
   title: "PROTECTION"
   description: "No commit reaches main without passing the 255 gate."
   cta:
     - label: "Open PROTECTION"
-      href: /magic/compliance/protection/
+      href: /MAGIC/COMPLIANCE/PROTECTION/
       class: btn-secondary
       talk: true
 ---

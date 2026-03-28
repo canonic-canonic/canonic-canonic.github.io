@@ -6,22 +6,21 @@ description: "PYTHON = Ancestral runtime. The server. The intelligence."
 footerTagline: "python"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /foundation/programming/python/python.pdf
+pdf: /FOUNDATION/PROGRAMMING/python/python.pdf
 downloads:
   - label: "PDF"
-    href: "/foundation/programming/python/python.pdf"
+    href: "/FOUNDATION/PROGRAMMING/python/python.pdf"
 hero:
   badge: python
   title: "python"
   description: "PYTHON = Ancestral runtime. The server. The intelligence."
   cta:
     - label: "Open python"
-      href: /foundation/programming/python/
+      href: /FOUNDATION/PROGRAMMING/python/
       class: btn-secondary
       talk: true
 ---

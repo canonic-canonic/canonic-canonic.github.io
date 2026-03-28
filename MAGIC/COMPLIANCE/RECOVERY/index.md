@@ -6,22 +6,21 @@ description: "CANONIC survives any single point of failure."
 footerTagline: "RECOVERY"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/compliance/recovery/recovery.pdf
+pdf: /MAGIC/COMPLIANCE/RECOVERY/recovery.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/compliance/recovery/recovery.pdf"
+    href: "/MAGIC/COMPLIANCE/RECOVERY/recovery.pdf"
 hero:
   badge: RECOVERY
   title: "RECOVERY"
   description: "CANONIC survives any single point of failure."
   cta:
     - label: "Open RECOVERY"
-      href: /magic/compliance/recovery/
+      href: /MAGIC/COMPLIANCE/RECOVERY/
       class: btn-secondary
       talk: true
 ---

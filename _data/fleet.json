@@ -60,7 +60,7 @@
     }
   ],
   "_generated": {
-    "contract": "canonic-canonic/MAGIC/TOOLCHAIN/HTTP.json",
+    "contract": "MAGIC/TOOLCHAIN/HTTP.json",
     "rule": "edit the contract or compiler — not this file"
   }
 }

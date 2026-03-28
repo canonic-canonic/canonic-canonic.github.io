@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "orthodox"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/religion/christianity/orthodox/orthodox.pdf
+pdf: /INDUSTRIES/VERTICALS/RELIGION/christianity/orthodox/orthodox.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/religion/christianity/orthodox/orthodox.pdf"
+    href: "/INDUSTRIES/VERTICALS/RELIGION/christianity/orthodox/orthodox.pdf"
 hero:
   badge: orthodox
   title: "orthodox"
   description: "Example"
   cta:
     - label: "Open orthodox"
-      href: /industries/verticals/religion/christianity/orthodox/
+      href: /INDUSTRIES/VERTICALS/RELIGION/christianity/orthodox/
       class: btn-secondary
       talk: true
 ---

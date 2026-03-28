@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "PATENT"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/regulatory/law/patent/patent.pdf
+pdf: /INDUSTRIES/REGULATORY/LAW/PATENT/patent.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/regulatory/law/patent/patent.pdf"
+    href: "/INDUSTRIES/REGULATORY/LAW/PATENT/patent.pdf"
 hero:
   badge: PATENT
   title: "PATENT"
   description: "Example"
   cta:
     - label: "Open PATENT"
-      href: /industries/regulatory/law/patent/
+      href: /INDUSTRIES/REGULATORY/LAW/PATENT/
       class: btn-secondary
       talk: true
 ---

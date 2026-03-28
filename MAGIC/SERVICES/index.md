@@ -6,22 +6,21 @@ description: "SERVICES are SURFACE routes with governed boundaries."
 footerTagline: "SERVICES"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/services/services.pdf
+pdf: /MAGIC/SERVICES/services.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/services/services.pdf"
+    href: "/MAGIC/SERVICES/services.pdf"
 hero:
   badge: SERVICES
   title: "SERVICES"
   description: "SERVICES are SURFACE routes with governed boundaries."
   cta:
     - label: "Open SERVICES"
-      href: /magic/services/
+      href: /MAGIC/SERVICES/
       class: btn-secondary
       talk: true
 ---

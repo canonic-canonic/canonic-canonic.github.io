@@ -6,22 +6,21 @@ description: ""
 footerTagline: "credentialing"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/medicine/credentialing/credentialing.pdf
+pdf: /INDUSTRIES/VERTICALS/MEDICINE/credentialing/credentialing.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/medicine/credentialing/credentialing.pdf"
+    href: "/INDUSTRIES/VERTICALS/MEDICINE/credentialing/credentialing.pdf"
 hero:
   badge: credentialing
   title: "credentialing"
   description: ""
   cta:
     - label: "Open credentialing"
-      href: /industries/verticals/medicine/credentialing/
+      href: /INDUSTRIES/VERTICALS/MEDICINE/credentialing/
       class: btn-secondary
       talk: true
 ---

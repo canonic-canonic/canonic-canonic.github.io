@@ -6,22 +6,21 @@ description: ""
 footerTagline: "REGULATORY"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/regulatory/regulatory.pdf
+pdf: /INDUSTRIES/REGULATORY/regulatory.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/regulatory/regulatory.pdf"
+    href: "/INDUSTRIES/REGULATORY/regulatory.pdf"
 hero:
   badge: REGULATORY
   title: "REGULATORY"
   description: ""
   cta:
     - label: "Open REGULATORY"
-      href: /industries/regulatory/
+      href: /INDUSTRIES/REGULATORY/
       class: btn-secondary
       talk: true
 ---

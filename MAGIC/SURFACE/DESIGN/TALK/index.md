@@ -6,22 +6,21 @@ description: "api.canonic.org is the CANONIC service worker. All primitives. All
 footerTagline: "TALK"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/surface/design/talk/talk.pdf
+pdf: /MAGIC/SURFACE/DESIGN/TALK/talk.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/surface/design/talk/talk.pdf"
+    href: "/MAGIC/SURFACE/DESIGN/TALK/talk.pdf"
 hero:
   badge: TALK
   title: "TALK"
   description: "api.canonic.org is the CANONIC service worker. All primitives. All streams. Zero hardcoding."
   cta:
     - label: "Open TALK"
-      href: /magic/surface/design/talk/
+      href: /MAGIC/SURFACE/DESIGN/TALK/
       class: btn-secondary
       talk: true
 ---

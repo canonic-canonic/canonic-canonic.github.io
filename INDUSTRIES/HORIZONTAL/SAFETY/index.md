@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "SAFETY"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/horizontal/safety/safety.pdf
+pdf: /INDUSTRIES/HORIZONTAL/SAFETY/safety.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/horizontal/safety/safety.pdf"
+    href: "/INDUSTRIES/HORIZONTAL/SAFETY/safety.pdf"
 hero:
   badge: SAFETY
   title: "SAFETY"
   description: "Example"
   cta:
     - label: "Open SAFETY"
-      href: /industries/horizontal/safety/
+      href: /INDUSTRIES/HORIZONTAL/SAFETY/
       class: btn-secondary
       talk: true
 ---

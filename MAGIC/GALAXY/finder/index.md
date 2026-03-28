@@ -6,22 +6,21 @@ description: "FINDER is hierarchical navigation for the governed topology."
 footerTagline: "FINDER"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/galaxy/finder/finder.pdf
+pdf: /MAGIC/GALAXY/FINDER/finder.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/galaxy/finder/finder.pdf"
+    href: "/MAGIC/GALAXY/FINDER/finder.pdf"
 hero:
   badge: FINDER
   title: "FINDER"
   description: "FINDER is hierarchical navigation for the governed topology."
   cta:
     - label: "Open FINDER"
-      href: /magic/galaxy/finder/
+      href: /MAGIC/GALAXY/FINDER/
       class: btn-secondary
       talk: true
 ---

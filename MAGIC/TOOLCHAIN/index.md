@@ -6,22 +6,21 @@ description: "Governance drives code. Never the reverse."
 footerTagline: "TOOLCHAIN"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/toolchain/toolchain.pdf
+pdf: /MAGIC/TOOLCHAIN/toolchain.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/toolchain/toolchain.pdf"
+    href: "/MAGIC/TOOLCHAIN/toolchain.pdf"
 hero:
   badge: TOOLCHAIN
   title: "TOOLCHAIN"
   description: "Governance drives code. Never the reverse."
   cta:
     - label: "Open TOOLCHAIN"
-      href: /magic/toolchain/
+      href: /MAGIC/TOOLCHAIN/
       class: btn-secondary
       talk: true
 ---

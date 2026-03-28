@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "ENERGY"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/energy/energy.pdf
+pdf: /INDUSTRIES/VERTICALS/ENERGY/energy.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/energy/energy.pdf"
+    href: "/INDUSTRIES/VERTICALS/ENERGY/energy.pdf"
 hero:
   badge: ENERGY
   title: "ENERGY"
   description: "Example"
   cta:
     - label: "Open ENERGY"
-      href: /industries/verticals/energy/
+      href: /INDUSTRIES/VERTICALS/ENERGY/
       class: btn-secondary
       talk: true
 ---

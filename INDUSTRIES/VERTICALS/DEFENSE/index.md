@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "DEFENSE"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/defense/defense.pdf
+pdf: /INDUSTRIES/VERTICALS/DEFENSE/defense.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/defense/defense.pdf"
+    href: "/INDUSTRIES/VERTICALS/DEFENSE/defense.pdf"
 hero:
   badge: DEFENSE
   title: "DEFENSE"
   description: "Example"
   cta:
     - label: "Open DEFENSE"
-      href: /industries/verticals/defense/
+      href: /INDUSTRIES/VERTICALS/DEFENSE/
       class: btn-secondary
       talk: true
 ---

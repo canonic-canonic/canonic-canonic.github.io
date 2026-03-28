@@ -6,22 +6,21 @@ description: "INTEL, COIN, and TALK are the three native primitives of the GALAX
 footerTagline: "PRIMITIVES"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/galaxy/primitives/primitives.pdf
+pdf: /MAGIC/GALAXY/PRIMITIVES/primitives.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/galaxy/primitives/primitives.pdf"
+    href: "/MAGIC/GALAXY/PRIMITIVES/primitives.pdf"
 hero:
   badge: PRIMITIVES
   title: "PRIMITIVES"
   description: "INTEL, COIN, and TALK are the three native primitives of the GALAXY operating surface."
   cta:
     - label: "Open PRIMITIVES"
-      href: /magic/galaxy/primitives/
+      href: /MAGIC/GALAXY/PRIMITIVES/
       class: btn-secondary
       talk: true
 ---

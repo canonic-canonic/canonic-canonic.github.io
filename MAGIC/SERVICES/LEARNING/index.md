@@ -6,22 +6,21 @@ description: "LEARNING is INTEL applied. Every discovery governed. Every gradien
 footerTagline: "LEARNING"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/services/learning/learning.pdf
+pdf: /MAGIC/SERVICES/LEARNING/learning.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/services/learning/learning.pdf"
+    href: "/MAGIC/SERVICES/LEARNING/learning.pdf"
 hero:
   badge: LEARNING
   title: "LEARNING"
   description: "LEARNING is INTEL applied. Every discovery governed. Every gradient evidenced."
   cta:
     - label: "Open LEARNING"
-      href: /magic/services/learning/
+      href: /MAGIC/SERVICES/LEARNING/
       class: btn-secondary
       talk: true
 ---

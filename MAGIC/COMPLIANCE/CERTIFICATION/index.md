@@ -6,22 +6,21 @@ description: "CERTIFICATION is COMPLIANCE made portable. Git is the certificatio
 footerTagline: "CERTIFICATION"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/compliance/certification/certification.pdf
+pdf: /MAGIC/COMPLIANCE/CERTIFICATION/certification.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/compliance/certification/certification.pdf"
+    href: "/MAGIC/COMPLIANCE/CERTIFICATION/certification.pdf"
 hero:
   badge: CERTIFICATION
   title: "CERTIFICATION"
   description: "CERTIFICATION is COMPLIANCE made portable. Git is the certification engine. A tag is a badge. A badge is a tag. 255 or reject."
   cta:
     - label: "Open CERTIFICATION"
-      href: /magic/compliance/certification/
+      href: /MAGIC/COMPLIANCE/CERTIFICATION/
       class: btn-secondary
       talk: true
 ---

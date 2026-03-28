@@ -6,7 +6,7 @@
     "cta": [
       {
         "label": "Open islam",
-        "href": "/industries/verticals/religion/islam/",
+        "href": "/INDUSTRIES/VERTICALS/RELIGION/islam/",
         "class": "btn-secondary",
         "talk": true
       }
@@ -100,21 +100,21 @@
           "icon": "∩",
           "title": "nation-of-islam",
           "desc": "Example",
-          "href": "/industries/verticals/religion/islam/nation-of-islam/",
+          "href": "/INDUSTRIES/VERTICALS/RELIGION/islam/nation-of-islam/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "shia",
           "desc": "Example",
-          "href": "/industries/verticals/religion/islam/shia/",
+          "href": "/INDUSTRIES/VERTICALS/RELIGION/islam/shia/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "sunni",
           "desc": "Example",
-          "href": "/industries/verticals/religion/islam/sunni/",
+          "href": "/INDUSTRIES/VERTICALS/RELIGION/islam/sunni/",
           "class": "card"
         }
       ]

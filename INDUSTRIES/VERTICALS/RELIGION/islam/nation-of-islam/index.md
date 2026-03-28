@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "nation-of-islam"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/religion/islam/nation-of-islam/nation-of-islam.pdf
+pdf: /INDUSTRIES/VERTICALS/RELIGION/islam/nation-of-islam/nation-of-islam.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/religion/islam/nation-of-islam/nation-of-islam.pdf"
+    href: "/INDUSTRIES/VERTICALS/RELIGION/islam/nation-of-islam/nation-of-islam.pdf"
 hero:
   badge: nation-of-islam
   title: "nation-of-islam"
   description: "Example"
   cta:
     - label: "Open nation-of-islam"
-      href: /industries/verticals/religion/islam/nation-of-islam/
+      href: /INDUSTRIES/VERTICALS/RELIGION/islam/nation-of-islam/
       class: btn-secondary
       talk: true
 ---

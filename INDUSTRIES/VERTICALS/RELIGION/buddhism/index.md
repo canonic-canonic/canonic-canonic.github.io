@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "buddhism"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/religion/buddhism/buddhism.pdf
+pdf: /INDUSTRIES/VERTICALS/RELIGION/buddhism/buddhism.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/religion/buddhism/buddhism.pdf"
+    href: "/INDUSTRIES/VERTICALS/RELIGION/buddhism/buddhism.pdf"
 hero:
   badge: buddhism
   title: "buddhism"
   description: "Example"
   cta:
     - label: "Open buddhism"
-      href: /industries/verticals/religion/buddhism/
+      href: /INDUSTRIES/VERTICALS/RELIGION/buddhism/
       class: btn-secondary
       talk: true
 ---

@@ -6,7 +6,7 @@
     "cta": [
       {
         "label": "Open oncology",
-        "href": "/industries/verticals/medicine/oncology/",
+        "href": "/INDUSTRIES/VERTICALS/MEDICINE/oncology/",
         "class": "btn-secondary",
         "talk": true
       }
@@ -100,7 +100,7 @@
           "icon": "∩",
           "title": "breast",
           "desc": "Breast cancer intelligence governed by evidence-based standards. BI-RADS, mCODE, NCCN.",
-          "href": "/industries/verticals/medicine/oncology/breast/",
+          "href": "/INDUSTRIES/VERTICALS/MEDICINE/oncology/breast/",
           "class": "card"
         }
       ]

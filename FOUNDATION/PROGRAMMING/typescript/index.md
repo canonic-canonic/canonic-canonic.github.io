@@ -6,22 +6,21 @@ description: "TYPESCRIPT = Web runtime wrapper for MAGIC kernel interfaces."
 footerTagline: "typescript"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /foundation/programming/typescript/typescript.pdf
+pdf: /FOUNDATION/PROGRAMMING/typescript/typescript.pdf
 downloads:
   - label: "PDF"
-    href: "/foundation/programming/typescript/typescript.pdf"
+    href: "/FOUNDATION/PROGRAMMING/typescript/typescript.pdf"
 hero:
   badge: typescript
   title: "typescript"
   description: "TYPESCRIPT = Web runtime wrapper for MAGIC kernel interfaces."
   cta:
     - label: "Open typescript"
-      href: /foundation/programming/typescript/
+      href: /FOUNDATION/PROGRAMMING/typescript/
       class: btn-secondary
       talk: true
 ---

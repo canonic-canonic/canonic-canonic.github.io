@@ -6,22 +6,21 @@ description: "Frontend rendering layer. CANON.md → HTML → Native. One styles
 footerTagline: "DESIGN"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/surface/design/design.pdf
+pdf: /MAGIC/SURFACE/DESIGN/design.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/surface/design/design.pdf"
+    href: "/MAGIC/SURFACE/DESIGN/design.pdf"
 hero:
   badge: DESIGN
   title: "DESIGN"
   description: "Frontend rendering layer. CANON.md → HTML → Native. One stylesheet. All surfaces."
   cta:
     - label: "Open DESIGN"
-      href: /magic/surface/design/
+      href: /MAGIC/SURFACE/DESIGN/
       class: btn-secondary
       talk: true
 ---

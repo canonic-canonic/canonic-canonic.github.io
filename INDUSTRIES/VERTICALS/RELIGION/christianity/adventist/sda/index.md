@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "sda"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/religion/christianity/adventist/sda/sda.pdf
+pdf: /INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/sda/sda.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/religion/christianity/adventist/sda/sda.pdf"
+    href: "/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/sda/sda.pdf"
 hero:
   badge: sda
   title: "sda"
   description: "Example"
   cta:
     - label: "Open sda"
-      href: /industries/verticals/religion/christianity/adventist/sda/
+      href: /INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/sda/
       class: btn-secondary
       talk: true
 ---

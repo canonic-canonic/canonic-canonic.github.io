@@ -6,22 +6,21 @@ description: "MAGIC on Apple is native, governed, fast."
 footerTagline: "APPLE"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/surface/apple/apple.pdf
+pdf: /MAGIC/SURFACE/apple/apple.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/surface/apple/apple.pdf"
+    href: "/MAGIC/SURFACE/apple/apple.pdf"
 hero:
   badge: APPLE
   title: "APPLE"
   description: "MAGIC on Apple is native, governed, fast."
   cta:
     - label: "Open APPLE"
-      href: /magic/surface/apple/
+      href: /MAGIC/SURFACE/apple/
       class: btn-secondary
       talk: true
 ---

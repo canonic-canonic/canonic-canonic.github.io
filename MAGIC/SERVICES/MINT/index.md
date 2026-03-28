@@ -6,22 +6,21 @@ description: "MINT bridges WORK and ATTENTION to WALLET. Gradients mint COIN. Re
 footerTagline: "MINT"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/services/mint/mint.pdf
+pdf: /MAGIC/SERVICES/MINT/mint.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/services/mint/mint.pdf"
+    href: "/MAGIC/SERVICES/MINT/mint.pdf"
 hero:
   badge: MINT
   title: "MINT"
   description: "MINT bridges WORK and ATTENTION to WALLET. Gradients mint COIN. Reads mint COIN. Every mint ledgered."
   cta:
     - label: "Open MINT"
-      href: /magic/services/mint/
+      href: /MAGIC/SERVICES/MINT/
       class: btn-secondary
       talk: true
 ---

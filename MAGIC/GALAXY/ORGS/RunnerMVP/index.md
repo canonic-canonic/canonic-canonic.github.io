@@ -6,22 +6,21 @@ description: "RUNNER is the real estate task marketplace. Post a task. A pro han
 footerTagline: "RunnerMVP"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/galaxy/orgs/runnermvp/runnermvp.pdf
+pdf: /MAGIC/GALAXY/ORGS/RunnerMVP/runnermvp.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/galaxy/orgs/runnermvp/runnermvp.pdf"
+    href: "/MAGIC/GALAXY/ORGS/RunnerMVP/runnermvp.pdf"
 hero:
   badge: RunnerMVP
   title: "RunnerMVP"
   description: "RUNNER is the real estate task marketplace. Post a task. A pro handles it. Every effort earns COIN. Robert Glover is GOVERNOR. Dexter Hadley is GOVERNOR_GENERAL."
   cta:
     - label: "Open RunnerMVP"
-      href: /magic/galaxy/orgs/runnermvp/
+      href: /MAGIC/GALAXY/ORGS/RunnerMVP/
       class: btn-secondary
       talk: true
 ---

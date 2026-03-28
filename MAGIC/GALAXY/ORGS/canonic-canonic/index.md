@@ -6,22 +6,21 @@ description: "SPEC is governance. The constitutional authority."
 footerTagline: "canonic-canonic"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/galaxy/orgs/canonic-canonic/canonic-canonic.pdf
+pdf: /MAGIC/GALAXY/ORGS/canonic-canonic/canonic-canonic.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/galaxy/orgs/canonic-canonic/canonic-canonic.pdf"
+    href: "/MAGIC/GALAXY/ORGS/canonic-canonic/canonic-canonic.pdf"
 hero:
   badge: canonic-canonic
   title: "canonic-canonic"
   description: "SPEC is governance. The constitutional authority."
   cta:
     - label: "Open canonic-canonic"
-      href: /magic/galaxy/orgs/canonic-canonic/
+      href: /MAGIC/GALAXY/ORGS/canonic-canonic/
       class: btn-secondary
       talk: true
 ---

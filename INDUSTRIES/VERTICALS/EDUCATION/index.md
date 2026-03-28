@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "EDUCATION"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/education/education.pdf
+pdf: /INDUSTRIES/VERTICALS/EDUCATION/education.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/education/education.pdf"
+    href: "/INDUSTRIES/VERTICALS/EDUCATION/education.pdf"
 hero:
   badge: EDUCATION
   title: "EDUCATION"
   description: "Example"
   cta:
     - label: "Open EDUCATION"
-      href: /industries/verticals/education/
+      href: /INDUSTRIES/VERTICALS/EDUCATION/
       class: btn-secondary
       talk: true
 ---

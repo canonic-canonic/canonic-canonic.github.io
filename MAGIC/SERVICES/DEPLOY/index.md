@@ -6,22 +6,21 @@ description: "DEPLOY is governed artifact delivery. Build validates, deploy ship
 footerTagline: "DEPLOY"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/services/deploy/deploy.pdf
+pdf: /MAGIC/SERVICES/DEPLOY/deploy.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/services/deploy/deploy.pdf"
+    href: "/MAGIC/SERVICES/DEPLOY/deploy.pdf"
 hero:
   badge: DEPLOY
   title: "DEPLOY"
   description: "DEPLOY is governed artifact delivery. Build validates, deploy ships, rollback recovers."
   cta:
     - label: "Open DEPLOY"
-      href: /magic/services/deploy/
+      href: /MAGIC/SERVICES/DEPLOY/
       class: btn-secondary
       talk: true
 ---

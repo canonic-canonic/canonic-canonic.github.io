@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "MANUFACTURING"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/manufacturing/manufacturing.pdf
+pdf: /INDUSTRIES/VERTICALS/MANUFACTURING/manufacturing.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/manufacturing/manufacturing.pdf"
+    href: "/INDUSTRIES/VERTICALS/MANUFACTURING/manufacturing.pdf"
 hero:
   badge: MANUFACTURING
   title: "MANUFACTURING"
   description: "Example"
   cta:
     - label: "Open MANUFACTURING"
-      href: /industries/verticals/manufacturing/
+      href: /INDUSTRIES/VERTICALS/MANUFACTURING/
       class: btn-secondary
       talk: true
 ---

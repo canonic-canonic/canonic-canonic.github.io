@@ -4,24 +4,23 @@ scope: ORGS
 title: "ORGS"
 description: "ORGS = federation identity. Users authenticate. Users maintain VITAE."
 footerTagline: "ORGS"
-talk: native
+talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/galaxy/orgs/orgs.pdf
+pdf: /MAGIC/GALAXY/orgs/orgs.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/galaxy/orgs/orgs.pdf"
+    href: "/MAGIC/GALAXY/orgs/orgs.pdf"
 hero:
   badge: ORGS
   title: "ORGS"
   description: "ORGS = federation identity. Users authenticate. Users maintain VITAE."
   cta:
     - label: "Open ORGS"
-      href: /magic/galaxy/orgs/
+      href: /MAGIC/GALAXY/orgs/
       class: btn-secondary
       talk: true
 ---

@@ -6,22 +6,21 @@ description: "TALK is CHAT + INTEL + COIN composed. Industry determines the voic
 footerTagline: "TALK"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/services/talk/talk.pdf
+pdf: /MAGIC/SERVICES/TALK/talk.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/services/talk/talk.pdf"
+    href: "/MAGIC/SERVICES/TALK/talk.pdf"
 hero:
   badge: TALK
   title: "TALK"
   description: "TALK is CHAT + INTEL + COIN composed. Industry determines the voice. INTEL provides the knowledge. COIN gates premium access."
   cta:
     - label: "Open TALK"
-      href: /magic/services/talk/
+      href: /MAGIC/SERVICES/TALK/
       class: btn-secondary
       talk: true
 ---

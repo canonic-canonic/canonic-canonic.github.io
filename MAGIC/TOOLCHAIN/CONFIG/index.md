@@ -6,22 +6,21 @@ description: "CONFIG = INTEL. Runtime configuration. Zero hardcoding."
 footerTagline: "CONFIG"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/toolchain/config/config.pdf
+pdf: /MAGIC/TOOLCHAIN/CONFIG/config.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/toolchain/config/config.pdf"
+    href: "/MAGIC/TOOLCHAIN/CONFIG/config.pdf"
 hero:
   badge: CONFIG
   title: "CONFIG"
   description: "CONFIG = INTEL. Runtime configuration. Zero hardcoding."
   cta:
     - label: "Open CONFIG"
-      href: /magic/toolchain/config/
+      href: /MAGIC/TOOLCHAIN/CONFIG/
       class: btn-secondary
       talk: true
 ---

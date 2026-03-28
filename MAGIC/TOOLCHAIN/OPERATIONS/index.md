@@ -6,22 +6,21 @@ description: "Fleet operations. Sites declared. Assets synced. Recovery document
 footerTagline: "OPERATIONS"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/toolchain/operations/operations.pdf
+pdf: /MAGIC/TOOLCHAIN/OPERATIONS/operations.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/toolchain/operations/operations.pdf"
+    href: "/MAGIC/TOOLCHAIN/OPERATIONS/operations.pdf"
 hero:
   badge: OPERATIONS
   title: "OPERATIONS"
   description: "Fleet operations. Sites declared. Assets synced. Recovery documented."
   cta:
     - label: "Open OPERATIONS"
-      href: /magic/toolchain/operations/
+      href: /MAGIC/TOOLCHAIN/OPERATIONS/
       class: btn-secondary
       talk: true
 ---

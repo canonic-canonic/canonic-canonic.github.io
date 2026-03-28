@@ -6,7 +6,7 @@
     "cta": [
       {
         "label": "Open bin",
-        "href": "/magic/toolchain/bin/",
+        "href": "/MAGIC/TOOLCHAIN/bin/",
         "class": "btn-secondary",
         "talk": true
       }

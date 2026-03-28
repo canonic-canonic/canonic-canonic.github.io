@@ -6,22 +6,21 @@ description: "DECKS are governed presentation artifacts. Every pitch is a CANON-
 footerTagline: "DECKS"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/surface/jekyll/decks/decks.pdf
+pdf: /MAGIC/SURFACE/JEKYLL/DECKS/decks.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/surface/jekyll/decks/decks.pdf"
+    href: "/MAGIC/SURFACE/JEKYLL/DECKS/decks.pdf"
 hero:
   badge: DECKS
   title: "DECKS"
   description: "DECKS are governed presentation artifacts. Every pitch is a CANON-named scope."
   cta:
     - label: "Open DECKS"
-      href: /magic/surface/jekyll/decks/
+      href: /MAGIC/SURFACE/JEKYLL/DECKS/
       class: btn-secondary
       talk: true
 ---

@@ -2,14 +2,39 @@
   "canon": "ECON",
   "work_equals_coin": true,
   "ledger": {
-    "head": "",
-    "entries": 0,
-    "total": 0,
-    "by_key": []
+    "head": "fde876310d358e52c33c3ab194f53dd54bc2f6bbb46357d6b6d9e5457c40dc12",
+    "entries": 7,
+    "total": 1308,
+    "by_key": [
+      {
+        "k": "CANONIC",
+        "v": 255
+      },
+      {
+        "k": "MALTA-ENTERPRISE",
+        "v": 255
+      },
+      {
+        "k": "afsana-akter",
+        "v": 255
+      },
+      {
+        "k": "canonic-canonic",
+        "v": 255
+      },
+      {
+        "k": "hadleylab-canonic",
+        "v": 255
+      },
+      {
+        "k": ".canonic",
+        "v": 33
+      }
+    ]
   },
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/ECON.md",
-    "rule": "edit the contract or compiler \u2014 not this file"
+    "rule": "edit the contract or compiler — not this file"
   },
   "service": "SERVICES/STAR"
 }

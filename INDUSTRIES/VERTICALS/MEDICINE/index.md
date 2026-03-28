@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "MEDICINE"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/medicine/medicine.pdf
+pdf: /INDUSTRIES/VERTICALS/MEDICINE/medicine.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/medicine/medicine.pdf"
+    href: "/INDUSTRIES/VERTICALS/MEDICINE/medicine.pdf"
 hero:
   badge: MEDICINE
   title: "MEDICINE"
   description: "Example"
   cta:
     - label: "Open MEDICINE"
-      href: /industries/verticals/medicine/
+      href: /INDUSTRIES/VERTICALS/MEDICINE/
       class: btn-secondary
       talk: true
 ---

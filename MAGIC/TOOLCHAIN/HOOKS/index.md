@@ -6,22 +6,21 @@ description: "Enforcement at commit time. Every push validated. Every commit led
 footerTagline: "HOOKS"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/toolchain/hooks/hooks.pdf
+pdf: /MAGIC/TOOLCHAIN/HOOKS/hooks.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/toolchain/hooks/hooks.pdf"
+    href: "/MAGIC/TOOLCHAIN/HOOKS/hooks.pdf"
 hero:
   badge: HOOKS
   title: "HOOKS"
   description: "Enforcement at commit time. Every push validated. Every commit ledgered."
   cta:
     - label: "Open HOOKS"
-      href: /magic/toolchain/hooks/
+      href: /MAGIC/TOOLCHAIN/HOOKS/
       class: btn-secondary
       talk: true
 ---

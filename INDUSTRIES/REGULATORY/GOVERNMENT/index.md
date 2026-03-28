@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "GOVERNMENT"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/regulatory/government/government.pdf
+pdf: /INDUSTRIES/REGULATORY/GOVERNMENT/government.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/regulatory/government/government.pdf"
+    href: "/INDUSTRIES/REGULATORY/GOVERNMENT/government.pdf"
 hero:
   badge: GOVERNMENT
   title: "GOVERNMENT"
   description: "Example"
   cta:
     - label: "Open GOVERNMENT"
-      href: /industries/regulatory/government/
+      href: /INDUSTRIES/REGULATORY/GOVERNMENT/
       class: btn-secondary
       talk: true
 ---

@@ -6,22 +6,21 @@ description: ""
 footerTagline: "VERTICALS"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/verticals.pdf
+pdf: /INDUSTRIES/VERTICALS/verticals.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/verticals.pdf"
+    href: "/INDUSTRIES/VERTICALS/verticals.pdf"
 hero:
   badge: VERTICALS
   title: "VERTICALS"
   description: ""
   cta:
     - label: "Open VERTICALS"
-      href: /industries/verticals/
+      href: /INDUSTRIES/VERTICALS/
       class: btn-secondary
       talk: true
 ---

@@ -236,17 +236,17 @@ Rule: paths that do NOT start with a known shared prefix (`/assets/`, `/talks/`,
 
 | Label | Path | GOV |
 |-------|------|-----|
-| VITAE | vitae | hadleylab-canonic/VITAE |
-| TALKS | talks | hadleylab-canonic/TALKS |
-| BLOGS | blogs | hadleylab-canonic/BLOGS |
-| PAPERS | papers | hadleylab-canonic/PAPERS |
-| BOOKS | books | hadleylab-canonic/BOOKS |
-| DECKS | decks | hadleylab-canonic/DECKS |
-| DEALS | deals | hadleylab-canonic/DEALS |
-| GRANTS | grants | hadleylab-canonic/GRANTS |
-| CHARTER | charter | hadleylab-canonic/CHARTER |
-| SERVICES | services | hadleylab-canonic/SERVICES |
-| USERS | users | hadleylab-canonic/USERS |
+| VITAE | VITAE | hadleylab-canonic/VITAE |
+| TALKS | TALKS | hadleylab-canonic/TALKS |
+| BLOGS | BLOGS | hadleylab-canonic/BLOGS |
+| PAPERS | PAPERS | hadleylab-canonic/PAPERS |
+| BOOKS | BOOKS | hadleylab-canonic/BOOKS |
+| DECKS | DECKS | hadleylab-canonic/DECKS |
+| DEALS | DEALS | hadleylab-canonic/DEALS |
+| GRANTS | GRANTS | hadleylab-canonic/GRANTS |
+| CHARTER | CHARTER | hadleylab-canonic/CHARTER |
+| SERVICES | SERVICES | hadleylab-canonic/SERVICES |
+| USERS | USERS | hadleylab-canonic/USERS |
 
 ## Repos
 

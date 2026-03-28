@@ -6,22 +6,21 @@ description: ""
 footerTagline: "RELIGION"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/religion/religion.pdf
+pdf: /INDUSTRIES/VERTICALS/RELIGION/religion.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/religion/religion.pdf"
+    href: "/INDUSTRIES/VERTICALS/RELIGION/religion.pdf"
 hero:
   badge: RELIGION
   title: "RELIGION"
   description: ""
   cta:
     - label: "Open RELIGION"
-      href: /industries/verticals/religion/
+      href: /INDUSTRIES/VERTICALS/RELIGION/
       class: btn-secondary
       talk: true
 ---

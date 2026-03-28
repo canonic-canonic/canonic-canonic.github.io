@@ -6,22 +6,21 @@ description: "Reformation Christianity. Sola scriptura, sola fide, priesthood of
 footerTagline: "protestant"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/religion/christianity/protestant/protestant.pdf
+pdf: /INDUSTRIES/VERTICALS/RELIGION/christianity/protestant/protestant.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/religion/christianity/protestant/protestant.pdf"
+    href: "/INDUSTRIES/VERTICALS/RELIGION/christianity/protestant/protestant.pdf"
 hero:
   badge: protestant
   title: "protestant"
   description: "Reformation Christianity. Sola scriptura, sola fide, priesthood of all believers."
   cta:
     - label: "Open protestant"
-      href: /industries/verticals/religion/christianity/protestant/
+      href: /INDUSTRIES/VERTICALS/RELIGION/christianity/protestant/
       class: btn-secondary
       talk: true
 ---

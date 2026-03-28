@@ -6,22 +6,21 @@ description: "FFI = Foreign function interface. Kernel. Bare metal."
 footerTagline: "c"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /foundation/programming/c/c.pdf
+pdf: /FOUNDATION/PROGRAMMING/c/c.pdf
 downloads:
   - label: "PDF"
-    href: "/foundation/programming/c/c.pdf"
+    href: "/FOUNDATION/PROGRAMMING/c/c.pdf"
 hero:
   badge: c
   title: "c"
   description: "FFI = Foreign function interface. Kernel. Bare metal."
   cta:
     - label: "Open c"
-      href: /foundation/programming/c/
+      href: /FOUNDATION/PROGRAMMING/c/
       class: btn-secondary
       talk: true
 ---

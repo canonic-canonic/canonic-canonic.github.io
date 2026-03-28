@@ -6,22 +6,21 @@ description: "Unchanged sources produce identical outputs. Skip the work. Trust 
 footerTagline: "FRESHNESS"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/toolchain/freshness/freshness.pdf
+pdf: /MAGIC/TOOLCHAIN/FRESHNESS/freshness.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/toolchain/freshness/freshness.pdf"
+    href: "/MAGIC/TOOLCHAIN/FRESHNESS/freshness.pdf"
 hero:
   badge: FRESHNESS
   title: "FRESHNESS"
   description: "Unchanged sources produce identical outputs. Skip the work. Trust the cache."
   cta:
     - label: "Open FRESHNESS"
-      href: /magic/toolchain/freshness/
+      href: /MAGIC/TOOLCHAIN/FRESHNESS/
       class: btn-secondary
       talk: true
 ---

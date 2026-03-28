@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "FINANCE"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/finance/finance.pdf
+pdf: /INDUSTRIES/VERTICALS/FINANCE/finance.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/finance/finance.pdf"
+    href: "/INDUSTRIES/VERTICALS/FINANCE/finance.pdf"
 hero:
   badge: FINANCE
   title: "FINANCE"
   description: "Example"
   cta:
     - label: "Open FINANCE"
-      href: /industries/verticals/finance/
+      href: /INDUSTRIES/VERTICALS/FINANCE/
       class: btn-secondary
       talk: true
 ---

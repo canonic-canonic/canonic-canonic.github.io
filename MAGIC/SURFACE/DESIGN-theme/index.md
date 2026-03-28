@@ -6,22 +6,21 @@ description: "This repo IS the JEKYLL service runtime. `remote_theme: canonic-ca
 footerTagline: "DESIGN-theme"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/surface/design-theme/design-theme.pdf
+pdf: /MAGIC/SURFACE/DESIGN-theme/design-theme.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/surface/design-theme/design-theme.pdf"
+    href: "/MAGIC/SURFACE/DESIGN-theme/design-theme.pdf"
 hero:
   badge: DESIGN-theme
   title: "DESIGN-theme"
   description: "This repo IS the JEKYLL service runtime. `remote_theme: canonic-canonic/DESIGN`."
   cta:
     - label: "Open DESIGN-theme"
-      href: /magic/surface/design-theme/
+      href: /MAGIC/SURFACE/DESIGN-theme/
       class: btn-secondary
       talk: true
 ---

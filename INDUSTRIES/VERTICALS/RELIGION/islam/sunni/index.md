@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "sunni"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/religion/islam/sunni/sunni.pdf
+pdf: /INDUSTRIES/VERTICALS/RELIGION/islam/sunni/sunni.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/religion/islam/sunni/sunni.pdf"
+    href: "/INDUSTRIES/VERTICALS/RELIGION/islam/sunni/sunni.pdf"
 hero:
   badge: sunni
   title: "sunni"
   description: "Example"
   cta:
     - label: "Open sunni"
-      href: /industries/verticals/religion/islam/sunni/
+      href: /INDUSTRIES/VERTICALS/RELIGION/islam/sunni/
       class: btn-secondary
       talk: true
 ---

@@ -6,22 +6,21 @@ description: "Breast cancer intelligence governed by evidence-based standards. B
 footerTagline: "breast"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/medicine/oncology/breast/breast.pdf
+pdf: /INDUSTRIES/VERTICALS/MEDICINE/oncology/breast/breast.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/medicine/oncology/breast/breast.pdf"
+    href: "/INDUSTRIES/VERTICALS/MEDICINE/oncology/breast/breast.pdf"
 hero:
   badge: breast
   title: "breast"
   description: "Breast cancer intelligence governed by evidence-based standards. BI-RADS, mCODE, NCCN."
   cta:
     - label: "Open breast"
-      href: /industries/verticals/medicine/oncology/breast/
+      href: /INDUSTRIES/VERTICALS/MEDICINE/oncology/breast/
       class: btn-secondary
       talk: true
 ---

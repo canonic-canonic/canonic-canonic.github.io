@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "shia"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/religion/islam/shia/shia.pdf
+pdf: /INDUSTRIES/VERTICALS/RELIGION/islam/shia/shia.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/religion/islam/shia/shia.pdf"
+    href: "/INDUSTRIES/VERTICALS/RELIGION/islam/shia/shia.pdf"
 hero:
   badge: shia
   title: "shia"
   description: "Example"
   cta:
     - label: "Open shia"
-      href: /industries/verticals/religion/islam/shia/
+      href: /INDUSTRIES/VERTICALS/RELIGION/islam/shia/
       class: btn-secondary
       talk: true
 ---

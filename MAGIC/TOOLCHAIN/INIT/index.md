@@ -6,22 +6,21 @@ description: "Every new scope enters the world the same way."
 footerTagline: "INIT"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/toolchain/init/init.pdf
+pdf: /MAGIC/TOOLCHAIN/INIT/init.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/toolchain/init/init.pdf"
+    href: "/MAGIC/TOOLCHAIN/INIT/init.pdf"
 hero:
   badge: INIT
   title: "INIT"
   description: "Every new scope enters the world the same way."
   cta:
     - label: "Open INIT"
-      href: /magic/toolchain/init/
+      href: /MAGIC/TOOLCHAIN/INIT/
       class: btn-secondary
       talk: true
 ---

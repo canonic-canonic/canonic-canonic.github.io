@@ -6,22 +6,21 @@ description: "PAPERS are governed academic artifacts. Each paper IS a scope. SPE
 footerTagline: "PAPERS"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/surface/jekyll/papers/papers.pdf
+pdf: /MAGIC/SURFACE/JEKYLL/PAPERS/papers.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/surface/jekyll/papers/papers.pdf"
+    href: "/MAGIC/SURFACE/JEKYLL/PAPERS/papers.pdf"
 hero:
   badge: PAPERS
   title: "PAPERS"
   description: "PAPERS are governed academic artifacts. Each paper IS a scope. SPEC = {SCOPE}."
   cta:
     - label: "Open PAPERS"
-      href: /magic/surface/jekyll/papers/
+      href: /MAGIC/SURFACE/JEKYLL/PAPERS/
       class: btn-secondary
       talk: true
 ---

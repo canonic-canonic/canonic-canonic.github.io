@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "LAW"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/regulatory/law/law.pdf
+pdf: /INDUSTRIES/REGULATORY/LAW/law.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/regulatory/law/law.pdf"
+    href: "/INDUSTRIES/REGULATORY/LAW/law.pdf"
 hero:
   badge: LAW
   title: "LAW"
   description: "Example"
   cta:
     - label: "Open LAW"
-      href: /industries/regulatory/law/
+      href: /INDUSTRIES/REGULATORY/LAW/
       class: btn-secondary
       talk: true
 ---

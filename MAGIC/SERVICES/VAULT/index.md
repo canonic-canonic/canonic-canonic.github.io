@@ -6,22 +6,21 @@ description: "VAULT compiles the private aggregate. Auth-gated. Ledger-backed."
 footerTagline: "VAULT"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/services/vault/vault.pdf
+pdf: /MAGIC/SERVICES/VAULT/vault.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/services/vault/vault.pdf"
+    href: "/MAGIC/SERVICES/VAULT/vault.pdf"
 hero:
   badge: VAULT
   title: "VAULT"
   description: "VAULT compiles the private aggregate. Auth-gated. Ledger-backed."
   cta:
     - label: "Open VAULT"
-      href: /magic/services/vault/
+      href: /MAGIC/SERVICES/VAULT/
       class: btn-secondary
       talk: true
 ---

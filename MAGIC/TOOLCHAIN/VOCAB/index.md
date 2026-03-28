@@ -6,22 +6,21 @@ description: "One term, one definition, at the highest scope. Children inherit, 
 footerTagline: "VOCAB"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/toolchain/vocab/vocab.pdf
+pdf: /MAGIC/TOOLCHAIN/VOCAB/vocab.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/toolchain/vocab/vocab.pdf"
+    href: "/MAGIC/TOOLCHAIN/VOCAB/vocab.pdf"
 hero:
   badge: VOCAB
   title: "VOCAB"
   description: "One term, one definition, at the highest scope. Children inherit, not duplicate."
   cta:
     - label: "Open VOCAB"
-      href: /magic/toolchain/vocab/
+      href: /MAGIC/TOOLCHAIN/VOCAB/
       class: btn-secondary
       talk: true
 ---

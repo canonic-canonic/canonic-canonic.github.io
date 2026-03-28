@@ -6,22 +6,21 @@ description: "DEVELOPERS is the certification surface. Every certified developer
 footerTagline: "DEVELOPERS"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /foundation/developers/developers.pdf
+pdf: /FOUNDATION/DEVELOPERS/developers.pdf
 downloads:
   - label: "PDF"
-    href: "/foundation/developers/developers.pdf"
+    href: "/FOUNDATION/DEVELOPERS/developers.pdf"
 hero:
   badge: DEVELOPERS
   title: "DEVELOPERS"
   description: "DEVELOPERS is the certification surface. Every certified developer is discoverable. Every credential is verifiable. Git proves it."
   cta:
     - label: "Open DEVELOPERS"
-      href: /foundation/developers/
+      href: /FOUNDATION/DEVELOPERS/
       class: btn-secondary
       talk: true
 ---

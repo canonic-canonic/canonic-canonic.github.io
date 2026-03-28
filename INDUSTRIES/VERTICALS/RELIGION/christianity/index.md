@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "christianity"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/religion/christianity/christianity.pdf
+pdf: /INDUSTRIES/VERTICALS/RELIGION/christianity/christianity.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/religion/christianity/christianity.pdf"
+    href: "/INDUSTRIES/VERTICALS/RELIGION/christianity/christianity.pdf"
 hero:
   badge: christianity
   title: "christianity"
   description: "Example"
   cta:
     - label: "Open christianity"
-      href: /industries/verticals/religion/christianity/
+      href: /INDUSTRIES/VERTICALS/RELIGION/christianity/
       class: btn-secondary
       talk: true
 ---

@@ -6,22 +6,21 @@ description: "No drift. Every file in a governed scope has a reason. The validat
 footerTagline: "HYGIENE"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/toolchain/hygiene/hygiene.pdf
+pdf: /MAGIC/TOOLCHAIN/HYGIENE/hygiene.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/toolchain/hygiene/hygiene.pdf"
+    href: "/MAGIC/TOOLCHAIN/HYGIENE/hygiene.pdf"
 hero:
   badge: HYGIENE
   title: "HYGIENE"
   description: "No drift. Every file in a governed scope has a reason. The validator proves it."
   cta:
     - label: "Open HYGIENE"
-      href: /magic/toolchain/hygiene/
+      href: /MAGIC/TOOLCHAIN/HYGIENE/
       class: btn-secondary
       talk: true
 ---

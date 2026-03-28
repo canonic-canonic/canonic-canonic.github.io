@@ -6,22 +6,21 @@ description: "Compiler correctness is verified by deterministic fixture tests. G
 footerTagline: "TESTS"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/toolchain/tests/tests.pdf
+pdf: /MAGIC/TOOLCHAIN/TESTS/tests.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/toolchain/tests/tests.pdf"
+    href: "/MAGIC/TOOLCHAIN/TESTS/tests.pdf"
 hero:
   badge: TESTS
   title: "TESTS"
   description: "Compiler correctness is verified by deterministic fixture tests. Given a known GOV input, the compiler MUST produce the expected JSON output."
   cta:
     - label: "Open TESTS"
-      href: /magic/toolchain/tests/
+      href: /MAGIC/TOOLCHAIN/TESTS/
       class: btn-secondary
       talk: true
 ---

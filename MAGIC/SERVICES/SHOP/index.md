@@ -6,22 +6,21 @@ description: "SHOP compiles the public projection aggregate. Every USER is a SHO
 footerTagline: "SHOP"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/services/shop/shop.pdf
+pdf: /MAGIC/SERVICES/SHOP/shop.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/services/shop/shop.pdf"
+    href: "/MAGIC/SERVICES/SHOP/shop.pdf"
 hero:
   badge: SHOP
   title: "SHOP"
   description: "SHOP compiles the public projection aggregate. Every USER is a SHOP. Every artifact has a price."
   cta:
     - label: "Open SHOP"
-      href: /magic/services/shop/
+      href: /MAGIC/SERVICES/SHOP/
       class: btn-secondary
       talk: true
 ---

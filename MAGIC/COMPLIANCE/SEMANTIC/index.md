@@ -6,22 +6,21 @@ description: "Every term resolves. Every chain closes. Every score reflects real
 footerTagline: "SEMANTIC"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/compliance/semantic/semantic.pdf
+pdf: /MAGIC/COMPLIANCE/SEMANTIC/semantic.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/compliance/semantic/semantic.pdf"
+    href: "/MAGIC/COMPLIANCE/SEMANTIC/semantic.pdf"
 hero:
   badge: SEMANTIC
   title: "SEMANTIC"
   description: "Every term resolves. Every chain closes. Every score reflects reality."
   cta:
     - label: "Open SEMANTIC"
-      href: /magic/compliance/semantic/
+      href: /MAGIC/COMPLIANCE/SEMANTIC/
       class: btn-secondary
       talk: true
 ---

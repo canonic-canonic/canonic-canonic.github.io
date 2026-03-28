@@ -6,22 +6,21 @@ description: "JEKYLL is MAGIC made visible. DESIGN is the language. JEKYLL is th
 footerTagline: "JEKYLL"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/surface/jekyll/jekyll.pdf
+pdf: /MAGIC/SURFACE/JEKYLL/jekyll.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/surface/jekyll/jekyll.pdf"
+    href: "/MAGIC/SURFACE/JEKYLL/jekyll.pdf"
 hero:
   badge: JEKYLL
   title: "JEKYLL"
   description: "JEKYLL is MAGIC made visible. DESIGN is the language. JEKYLL is the compiler."
   cta:
     - label: "Open JEKYLL"
-      href: /magic/surface/jekyll/
+      href: /MAGIC/SURFACE/JEKYLL/
       class: btn-secondary
       talk: true
 ---

@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "ROBOTICS"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/robotics/robotics.pdf
+pdf: /INDUSTRIES/VERTICALS/ROBOTICS/robotics.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/robotics/robotics.pdf"
+    href: "/INDUSTRIES/VERTICALS/ROBOTICS/robotics.pdf"
 hero:
   badge: ROBOTICS
   title: "ROBOTICS"
   description: "Example"
   cta:
     - label: "Open ROBOTICS"
-      href: /industries/verticals/robotics/
+      href: /INDUSTRIES/VERTICALS/ROBOTICS/
       class: btn-secondary
       talk: true
 ---

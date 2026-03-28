@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "e804933ce32aa859"
+    "gov_hash": "71fb1b62b04414f1"
   },
-  "generated": "2026-03-26T20:33:47Z",
+  "generated": "2026-03-28T03:56:43Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -46,7 +46,7 @@
     }
   ],
   "stats": {
-    "total": 565,
+    "total": 558,
     "avg_bits": 254
   },
   "nodes": [
@@ -72,7 +72,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
-      "children": 18
+      "children": 17
     },
     {
       "id": "hadleylab-canonic/BLOGS",
@@ -91,7 +91,7 @@
       "learning_count": 1279,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "blogs",
+      "fleet_path": "BLOGS",
       "children": 67
     },
     {
@@ -113,7 +113,7 @@
       "learning_count": 30,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "books",
+      "fleet_path": "BOOKS",
       "children": 11
     },
     {
@@ -143,8 +143,8 @@
         "CALENDAR_EXECUTION"
       ],
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "campaigns",
-      "children": 11
+      "fleet_path": "CAMPAIGNS",
+      "children": 12
     },
     {
       "id": "hadleylab-canonic/CHARTER",
@@ -164,7 +164,7 @@
       "learning_count": 8,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "charter",
+      "fleet_path": "CHARTER",
       "children": 8
     },
     {
@@ -183,7 +183,7 @@
       "has_intel": true,
       "intel_summary": "| Claim | Source |",
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals",
+      "fleet_path": "DEALS",
       "readers": [
         "iDrDex"
       ],
@@ -208,8 +208,8 @@
       "learning_count": 89,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "decks",
-      "children": 7
+      "fleet_path": "DECKS",
+      "children": 8
     },
     {
       "id": "hadleylab-canonic/GRANTS",
@@ -227,7 +227,7 @@
       "learning_count": 4,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "grants",
+      "fleet_path": "GRANTS",
       "children": 2
     },
     {
@@ -244,7 +244,7 @@
       "missing_dims": [],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "irbs",
+      "fleet_path": "IRBS",
       "children": 1
     },
     {
@@ -265,7 +265,7 @@
       "learning_count": 9,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "papers",
+      "fleet_path": "PAPERS",
       "children": 12
     },
     {
@@ -290,7 +290,7 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "patents",
+      "fleet_path": "PATENTS",
       "children": 7
     },
     {
@@ -311,7 +311,7 @@
       "learning_count": 95,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "services",
+      "fleet_path": "SERVICES",
       "children": 34
     },
     {
@@ -332,8 +332,8 @@
       "roadmap_now": "Validate CANON.md coverage for all channel scopes \u2014 MAMMOCHAT, ONCOCHAT, MEDCHAT, LAWCHAT, FINCHAT, ",
       "learning_count": 5,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "talks",
-      "children": 16
+      "fleet_path": "TALKS",
+      "children": 15
     },
     {
       "id": "hadleylab-canonic/TRANSCRIPTS",
@@ -353,7 +353,7 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "transcripts",
+      "fleet_path": "TRANSCRIPTS",
       "children": 3
     },
     {
@@ -375,7 +375,7 @@
       "next_tier_gap": 32,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users",
+      "fleet_path": "USERS",
       "children": 4
     },
     {
@@ -396,7 +396,7 @@
       "learning_count": 4,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "vitae",
+      "fleet_path": "VITAE",
       "children": 1
     },
     {
@@ -464,22 +464,6 @@
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "./index",
-      "parent": "hadleylab-canonic",
-      "color": "#ec4899",
-      "category": "SERVICES",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "index",
-      "children": 0
-    },
-    {
       "id": "hadleylab-canonic/BLOGS/2025-12-29-the-compiler-insight",
       "kind": "CONTENT",
       "label": "THE COMPILER INSIGHT",
@@ -492,7 +476,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2025-12-29-the-compiler-insight",
+      "fleet_path": "BLOGS/2025-12-29-the-compiler-insight",
       "children": 0,
       "date": "2025-12-29"
     },
@@ -509,7 +493,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-01-05-governance-first",
+      "fleet_path": "BLOGS/2026-01-05-governance-first",
       "children": 0,
       "date": "2026-01-05"
     },
@@ -526,7 +510,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-01-10-three-files",
+      "fleet_path": "BLOGS/2026-01-10-three-files",
       "children": 0,
       "date": "2026-01-10"
     },
@@ -543,7 +527,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-01-15-nine-repos",
+      "fleet_path": "BLOGS/2026-01-15-nine-repos",
       "children": 0,
       "date": "2026-01-15"
     },
@@ -560,7 +544,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-01-19-chains-terminate-at-root",
+      "fleet_path": "BLOGS/2026-01-19-chains-terminate-at-root",
       "children": 0,
       "date": "2026-01-19"
     },
@@ -577,7 +561,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-01-23-amber",
+      "fleet_path": "BLOGS/2026-01-23-amber",
       "children": 0,
       "date": "2026-01-23"
     },
@@ -594,7 +578,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-01-24-migrate-from-the-machine",
+      "fleet_path": "BLOGS/2026-01-24-migrate-from-the-machine",
       "children": 0,
       "date": "2026-01-24"
     },
@@ -611,7 +595,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-01-27-eight-words",
+      "fleet_path": "BLOGS/2026-01-27-eight-words",
       "children": 0,
       "date": "2026-01-27"
     },
@@ -628,7 +612,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-01-30-six-theorems",
+      "fleet_path": "BLOGS/2026-01-30-six-theorems",
       "children": 0,
       "date": "2026-01-30"
     },
@@ -645,7 +629,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-01-31-mammochat-to-magic",
+      "fleet_path": "BLOGS/2026-01-31-mammochat-to-magic",
       "children": 0,
       "date": "2026-01-31"
     },
@@ -662,7 +646,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-01-31-stealth-launch",
+      "fleet_path": "BLOGS/2026-01-31-stealth-launch",
       "children": 0,
       "date": "2026-01-31"
     },
@@ -679,7 +663,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-03-coin-is-work",
+      "fleet_path": "BLOGS/2026-02-03-coin-is-work",
       "children": 0,
       "date": "2026-02-03"
     },
@@ -696,7 +680,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-03-speculation-vs-specification",
+      "fleet_path": "BLOGS/2026-02-03-speculation-vs-specification",
       "children": 0,
       "date": "2026-02-03"
     },
@@ -713,7 +697,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-05-14-years-7062-commits",
+      "fleet_path": "BLOGS/2026-02-05-14-years-7062-commits",
       "children": 0,
       "date": "2026-02-05"
     },
@@ -730,7 +714,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-07-the-evidence-chain",
+      "fleet_path": "BLOGS/2026-02-07-the-evidence-chain",
       "children": 0,
       "date": "2026-02-07"
     },
@@ -747,7 +731,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-08-how-we-build-with-claude",
+      "fleet_path": "BLOGS/2026-02-08-how-we-build-with-claude",
       "children": 0,
       "date": "2026-02-08"
     },
@@ -764,7 +748,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-09-the-gold-standard",
+      "fleet_path": "BLOGS/2026-02-09-the-gold-standard",
       "children": 0,
       "date": "2026-02-09"
     },
@@ -781,7 +765,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-10-how-ai-failures-become-ip",
+      "fleet_path": "BLOGS/2026-02-10-how-ai-failures-become-ip",
       "children": 0,
       "date": "2026-02-10"
     },
@@ -798,7 +782,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-10-the-machine-that-reads-everything",
+      "fleet_path": "BLOGS/2026-02-10-the-machine-that-reads-everything",
       "children": 0,
       "date": "2026-02-10"
     },
@@ -815,7 +799,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-11-729-hallucinations",
+      "fleet_path": "BLOGS/2026-02-11-729-hallucinations",
       "children": 0,
       "date": "2026-02-11"
     },
@@ -832,7 +816,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-11-mammochat-is-free",
+      "fleet_path": "BLOGS/2026-02-11-mammochat-is-free",
       "children": 0,
       "date": "2026-02-11"
     },
@@ -849,7 +833,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-11-the-exponential",
+      "fleet_path": "BLOGS/2026-02-11-the-exponential",
       "children": 0,
       "date": "2026-02-11"
     },
@@ -866,7 +850,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-11-what-happens-when-ai-hits-its-limits",
+      "fleet_path": "BLOGS/2026-02-11-what-happens-when-ai-hits-its-limits",
       "children": 0,
       "date": "2026-02-11"
     },
@@ -883,7 +867,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-12-intel",
+      "fleet_path": "BLOGS/2026-02-12-intel",
       "children": 0,
       "date": "2026-02-12"
     },
@@ -900,7 +884,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-12-ltm-paper",
+      "fleet_path": "BLOGS/2026-02-12-ltm-paper",
       "children": 0,
       "date": "2026-02-12"
     },
@@ -917,7 +901,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-12-one-user-19-organizations",
+      "fleet_path": "BLOGS/2026-02-12-one-user-19-organizations",
       "children": 0,
       "date": "2026-02-12"
     },
@@ -934,7 +918,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-13-market",
+      "fleet_path": "BLOGS/2026-02-13-market",
       "children": 0,
       "date": "2026-02-13"
     },
@@ -951,7 +935,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-13-one-person-many-scopes",
+      "fleet_path": "BLOGS/2026-02-13-one-person-many-scopes",
       "children": 0,
       "date": "2026-02-13"
     },
@@ -968,7 +952,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-13-your-filesystem-is-your-org-chart",
+      "fleet_path": "BLOGS/2026-02-13-your-filesystem-is-your-org-chart",
       "children": 0,
       "date": "2026-02-13"
     },
@@ -985,7 +969,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-14-how-governance-sells-itself",
+      "fleet_path": "BLOGS/2026-02-14-how-governance-sells-itself",
       "children": 0,
       "date": "2026-02-14"
     },
@@ -1002,7 +986,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-14-strategy",
+      "fleet_path": "BLOGS/2026-02-14-strategy",
       "children": 0,
       "date": "2026-02-14"
     },
@@ -1019,7 +1003,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-14-the-compliance-ladder",
+      "fleet_path": "BLOGS/2026-02-14-the-compliance-ladder",
       "children": 0,
       "date": "2026-02-14"
     },
@@ -1036,7 +1020,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-15-the-fleet",
+      "fleet_path": "BLOGS/2026-02-15-the-fleet",
       "children": 0,
       "date": "2026-02-15"
     },
@@ -1053,7 +1037,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-16-every-variant-classified",
+      "fleet_path": "BLOGS/2026-02-16-every-variant-classified",
       "children": 0,
       "date": "2026-02-16"
     },
@@ -1070,7 +1054,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-17-neutral",
+      "fleet_path": "BLOGS/2026-02-17-neutral",
       "children": 0,
       "date": "2026-02-17"
     },
@@ -1087,7 +1071,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-17-theory",
+      "fleet_path": "BLOGS/2026-02-17-theory",
       "children": 0,
       "date": "2026-02-17"
     },
@@ -1104,7 +1088,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-18-255-bit-promise",
+      "fleet_path": "BLOGS/2026-02-18-255-bit-promise",
       "children": 0,
       "date": "2026-02-18"
     },
@@ -1121,7 +1105,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-18-canonic-canon",
+      "fleet_path": "BLOGS/2026-02-18-canonic-canon",
       "children": 0,
       "date": "2026-02-18"
     },
@@ -1138,7 +1122,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-18-eniac-at-80",
+      "fleet_path": "BLOGS/2026-02-18-eniac-at-80",
       "children": 0,
       "date": "2026-02-18"
     },
@@ -1155,7 +1139,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-18-the-tree-of-knowledge",
+      "fleet_path": "BLOGS/2026-02-18-the-tree-of-knowledge",
       "children": 0,
       "date": "2026-02-18"
     },
@@ -1172,7 +1156,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-18-what-is-magic",
+      "fleet_path": "BLOGS/2026-02-18-what-is-magic",
       "children": 0,
       "date": "2026-02-18"
     },
@@ -1189,7 +1173,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-18-why-we-built-this",
+      "fleet_path": "BLOGS/2026-02-18-why-we-built-this",
       "children": 0,
       "date": "2026-02-18"
     },
@@ -1206,7 +1190,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-19-from-conversations-to-patents",
+      "fleet_path": "BLOGS/2026-02-19-from-conversations-to-patents",
       "children": 0,
       "date": "2026-02-19"
     },
@@ -1223,7 +1207,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-19-magic-galaxy",
+      "fleet_path": "BLOGS/2026-02-19-magic-galaxy",
       "children": 0,
       "date": "2026-02-19"
     },
@@ -1240,7 +1224,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-19-walking-the-magic",
+      "fleet_path": "BLOGS/2026-02-19-walking-the-magic",
       "children": 0,
       "date": "2026-02-19"
     },
@@ -1257,7 +1241,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-21-free-forever-governed-always",
+      "fleet_path": "BLOGS/2026-02-21-free-forever-governed-always",
       "children": 0,
       "date": "2026-02-21"
     },
@@ -1274,7 +1258,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-23-coin-for-humans",
+      "fleet_path": "BLOGS/2026-02-23-coin-for-humans",
       "children": 0,
       "date": "2026-02-23"
     },
@@ -1291,7 +1275,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-23-inherits-the-trust-chain",
+      "fleet_path": "BLOGS/2026-02-23-inherits-the-trust-chain",
       "children": 0,
       "date": "2026-02-23"
     },
@@ -1308,7 +1292,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-23-shop-your-work-for-sale",
+      "fleet_path": "BLOGS/2026-02-23-shop-your-work-for-sale",
       "children": 0,
       "date": "2026-02-23"
     },
@@ -1325,7 +1309,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-23-three-files-one-truth",
+      "fleet_path": "BLOGS/2026-02-23-three-files-one-truth",
       "children": 0,
       "date": "2026-02-23"
     },
@@ -1342,7 +1326,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-23-your-first-255",
+      "fleet_path": "BLOGS/2026-02-23-your-first-255",
       "children": 0,
       "date": "2026-02-23"
     },
@@ -1359,7 +1343,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-25-where-you-live",
+      "fleet_path": "BLOGS/2026-02-25-where-you-live",
       "children": 0,
       "date": "2026-02-25"
     },
@@ -1376,7 +1360,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-27-two-books-one-system",
+      "fleet_path": "BLOGS/2026-02-27-two-books-one-system",
       "children": 0,
       "date": "2026-02-27"
     },
@@ -1393,7 +1377,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-28-she-governs-he-builds",
+      "fleet_path": "BLOGS/2026-02-28-she-governs-he-builds",
       "children": 0,
       "date": "2026-02-28"
     },
@@ -1410,7 +1394,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-02-28-the-loop",
+      "fleet_path": "BLOGS/2026-02-28-the-loop",
       "children": 0,
       "date": "2026-02-28"
     },
@@ -1427,7 +1411,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-03-01-the-cutoff",
+      "fleet_path": "BLOGS/2026-03-01-the-cutoff",
       "children": 0,
       "date": "2026-03-01"
     },
@@ -1444,7 +1428,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-03-03-the-campaign-loop",
+      "fleet_path": "BLOGS/2026-03-03-the-campaign-loop",
       "children": 0,
       "date": "2026-03-03"
     },
@@ -1461,7 +1445,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-03-05-every-conversation-is-evidence",
+      "fleet_path": "BLOGS/2026-03-05-every-conversation-is-evidence",
       "children": 0,
       "date": "2026-03-05"
     },
@@ -1478,7 +1462,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-03-08-the-diagnostic",
+      "fleet_path": "BLOGS/2026-03-08-the-diagnostic",
       "children": 0,
       "date": "2026-03-08"
     },
@@ -1495,7 +1479,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-03-10-one-graph-302-nodes",
+      "fleet_path": "BLOGS/2026-03-10-one-graph-302-nodes",
       "children": 0,
       "date": "2026-03-10"
     },
@@ -1512,7 +1496,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-03-13-the-agent-that-governs-itself",
+      "fleet_path": "BLOGS/2026-03-13-the-agent-that-governs-itself",
       "children": 0,
       "date": "2026-03-13"
     },
@@ -1529,7 +1513,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-03-15-alphago-at-10",
+      "fleet_path": "BLOGS/2026-03-15-alphago-at-10",
       "children": 0,
       "date": "2026-03-15"
     },
@@ -1546,7 +1530,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-03-15-caribchat-at-caoh",
+      "fleet_path": "BLOGS/2026-03-15-caribchat-at-caoh",
       "children": 0,
       "date": "2026-03-15"
     },
@@ -1563,7 +1547,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-03-18-irb-without-a-law",
+      "fleet_path": "BLOGS/2026-03-18-irb-without-a-law",
       "children": 0,
       "date": "2026-03-18"
     },
@@ -1580,7 +1564,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/2026-03-22-the-lawyer-who-won",
+      "fleet_path": "BLOGS/2026-03-22-the-lawyer-who-won",
       "children": 0,
       "date": "2026-03-22"
     },
@@ -1597,7 +1581,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/series",
+      "fleet_path": "BLOGS/series",
       "children": 0
     },
     {
@@ -1613,7 +1597,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "blogs/shop",
+      "fleet_path": "BLOGS/shop",
       "children": 0
     },
     {
@@ -1633,7 +1617,7 @@
       "intel_summary": "**KNOW YOUR DEAL. EVERY PRICE GOVERNED. EVERY FRAMEWORK EVIDENCED. EVERY CLOSE SELF-EXECUTING.**",
       "coverage_score": 255,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ART-OF-THE-CANONIC-DEAL",
+      "fleet_path": "BOOKS/ART-OF-THE-CANONIC-DEAL",
       "children": 0
     },
     {
@@ -1655,7 +1639,7 @@
       "learning_count": 2,
       "coverage_score": 255,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS",
+      "fleet_path": "BOOKS/ATULISMS",
       "children": 7
     },
     {
@@ -1677,7 +1661,7 @@
       "learning_count": 15,
       "coverage_score": 255,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON",
+      "fleet_path": "BOOKS/CANONIC-CANON",
       "children": 3
     },
     {
@@ -1699,7 +1683,7 @@
       "learning_count": 15,
       "coverage_score": 255,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE",
       "children": 3
     },
     {
@@ -1721,7 +1705,7 @@
       "learning_count": 3,
       "coverage_score": 255,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CHAPTERS",
+      "fleet_path": "BOOKS/CHAPTERS",
       "children": 12
     },
     {
@@ -1743,7 +1727,7 @@
       "learning_count": 2,
       "coverage_score": 255,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/DIVIDENDS",
+      "fleet_path": "BOOKS/DIVIDENDS",
       "children": 4
     },
     {
@@ -1759,7 +1743,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/claims-registry",
+      "fleet_path": "BOOKS/claims-registry",
       "children": 0
     },
     {
@@ -1775,7 +1759,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/map",
+      "fleet_path": "BOOKS/map",
       "children": 0
     },
     {
@@ -1791,7 +1775,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/organization",
+      "fleet_path": "BOOKS/organization",
       "children": 0
     },
     {
@@ -1807,7 +1791,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/shop",
+      "fleet_path": "BOOKS/shop",
       "children": 0
     },
     {
@@ -1823,7 +1807,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/spine",
+      "fleet_path": "BOOKS/spine",
       "children": 0
     },
     {
@@ -1846,7 +1830,7 @@
       "intel_summary": "**KNOW YOUR TECHNICAL AUDIENCE. EVERY SUBMISSION FACTUAL. EVERY TITLE HONEST.**",
       "roadmap_now": "[ ] Set up HN comment monitoring \u2014 RSS feed, Firebase API polling, or hnreplies.com for reply notifi",
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "campaigns/hackernews",
+      "fleet_path": "CAMPAIGNS/HACKERNEWS",
       "children": 0
     },
     {
@@ -1867,7 +1851,7 @@
       "learning_count": 1,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "campaigns/linkedin",
+      "fleet_path": "CAMPAIGNS/LINKEDIN",
       "children": 4
     },
     {
@@ -1891,7 +1875,7 @@
       "roadmap_now": "[ ] Apply for Reddit API access via Responsible Builder Policy approval form (self-service OAuth clo",
       "learning_count": 9,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "campaigns/reddit",
+      "fleet_path": "CAMPAIGNS/REDDIT",
       "children": 0
     },
     {
@@ -1914,7 +1898,23 @@
       "intel_summary": "**KNOW YOUR AUDIENCE. EVERY EMISSION GOVERNED. EVERY METRIC CAPTURED.**",
       "roadmap_now": "[ ] API credentials \u2192 ~/.canonic/.env (governed, not in GOV tree)",
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "campaigns/twitter",
+      "fleet_path": "CAMPAIGNS/TWITTER",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/CAMPAIGNS/AIMED-2026",
+      "kind": "CONTENT",
+      "label": "AIMED-2026",
+      "repo": "hadleylab-canonic",
+      "path": "CAMPAIGNS/AIMED-2026",
+      "parent": "hadleylab-canonic/CAMPAIGNS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CAMPAIGNS/aimed-2026",
       "children": 0
     },
     {
@@ -1930,7 +1930,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "campaigns/alphago-at-10",
+      "fleet_path": "CAMPAIGNS/alphago-at-10",
       "children": 0
     },
     {
@@ -1946,7 +1946,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "campaigns/bamberg-2026",
+      "fleet_path": "CAMPAIGNS/bamberg-2026",
       "children": 0
     },
     {
@@ -1962,7 +1962,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "campaigns/caoh-2026",
+      "fleet_path": "CAMPAIGNS/caoh-2026",
       "children": 0
     },
     {
@@ -1978,7 +1978,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "campaigns/health-ai-summit-2026",
+      "fleet_path": "CAMPAIGNS/health-ai-summit-2026",
       "children": 0
     },
     {
@@ -1994,7 +1994,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "campaigns/lawyer-who-won",
+      "fleet_path": "CAMPAIGNS/lawyer-who-won",
       "children": 0
     },
     {
@@ -2010,7 +2010,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "campaigns/pmwc-2026",
+      "fleet_path": "CAMPAIGNS/pmwc-2026",
       "children": 0
     },
     {
@@ -2026,7 +2026,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "campaigns/template",
+      "fleet_path": "CAMPAIGNS/template",
       "children": 0
     },
     {
@@ -2046,7 +2046,7 @@
       "roadmap_now": "[ ] INTEL.md \u2014 account architecture, fiscal policies, reconciliation cadence (MAGIC 255 closure)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "charter/BANK",
+      "fleet_path": "CHARTER/BANK",
       "children": 0
     },
     {
@@ -2066,7 +2066,7 @@
       "roadmap_now": "[ ] INTEL.md \u2014 directors, officers, meeting cadence, resolution registry (MAGIC 255 closure)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "charter/BOARD",
+      "fleet_path": "CHARTER/BOARD",
       "children": 2
     },
     {
@@ -2086,7 +2086,7 @@
       "roadmap_now": "[ ] INTEL.md \u2014 filing status, registered agent, entity number, EIN (MAGIC 255 closure)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "charter/ENTITY",
+      "fleet_path": "CHARTER/ENTITY",
       "children": 2
     },
     {
@@ -2106,7 +2106,7 @@
       "roadmap_now": "[ ] INTEL.md \u2014 tier rates, template status, license registry, OncoNex chain (MAGIC 255 closure)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "charter/LICENSING",
+      "fleet_path": "CHARTER/LICENSING",
       "children": 0
     },
     {
@@ -2126,7 +2126,7 @@
       "roadmap_now": "[ ] INTEL.md \u2014 portfolio inventory, deadline calendar, counsel contacts (MAGIC 255 closure)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "charter/PROSECUTION",
+      "fleet_path": "CHARTER/PROSECUTION",
       "children": 0
     },
     {
@@ -2146,7 +2146,7 @@
       "roadmap_now": "[ ] INTEL.md \u2014 filing status, exemption timeline, compliance calendar (MAGIC 255 closure)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "charter/TAX",
+      "fleet_path": "CHARTER/TAX",
       "children": 0
     },
     {
@@ -2166,7 +2166,7 @@
       "roadmap_now": "[ ] INTEL.md \u2014 instrument status, assignment inventory, reversion terms (MAGIC 255 closure)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "charter/TRUST",
+      "fleet_path": "CHARTER/TRUST",
       "children": 1
     },
     {
@@ -2182,7 +2182,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "charter/correspondence",
+      "fleet_path": "CHARTER/correspondence",
       "children": 0
     },
     {
@@ -2201,8 +2201,8 @@
       "intel_summary": "**KNOW YOUR PARTNER. EVERY COMMIT COUNTED. EVERY CAPABILITY MAPPED.**",
       "learning_count": 4,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/BAKEOFF",
-      "children": 3
+      "fleet_path": "DEALS/BAKEOFF",
+      "children": 2
     },
     {
       "id": "hadleylab-canonic/DEALS/CAOH",
@@ -2221,7 +2221,7 @@
       "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
       "learning_count": 17,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/CAOH",
+      "fleet_path": "DEALS/CAOH",
       "children": 2
     },
     {
@@ -2241,8 +2241,8 @@
       "roadmap_now": "[ ] Confirm Excellenting legal entity details (CIF, registration)",
       "learning_count": 7,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/EXCELLENTING",
-      "children": 3
+      "fleet_path": "DEALS/EXCELLENTING",
+      "children": 2
     },
     {
       "id": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
@@ -2264,8 +2264,8 @@
       "intel_summary": "**HE DIAGNOSES. WE FIX. EVERY DRIFT MAPPED. EVERY CORRECTION PROVEN. EVERY AXIOM CROSSED.**",
       "learning_count": 4,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/LEVUKA-VENTURE-LAB",
-      "children": 1
+      "fleet_path": "DEALS/LEVUKA-VENTURE-LAB",
+      "children": 0
     },
     {
       "id": "hadleylab-canonic/DEALS/LLU",
@@ -2283,7 +2283,7 @@
       "intel_summary": "**KNOW YOUR INSTITUTION. EVERY CONTACT GOVERNED. EVERY MEETING EVIDENCED. EVERY AXIOM MAPPED.**",
       "roadmap_now": "[ ] Confirm Dr. Harris phone/office via Karen or Henley",
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/LLU",
+      "fleet_path": "DEALS/LLU",
       "children": 0
     },
     {
@@ -2301,11 +2301,11 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR GATEWAY. EVERY CONTACT GOVERNED. EVERY SCHEME MAPPED. EVERY TIMELINE EVIDENCED.**",
       "roadmap_now": "[ ] Send WORK-TALK + BUSINESS-PLAN to Stephen",
-      "learning_count": 33,
+      "learning_count": 34,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/MALTA-ENTERPRISE",
-      "children": 5
+      "fleet_path": "DEALS/MALTA-ENTERPRISE",
+      "children": 4
     },
     {
       "id": "hadleylab-canonic/DEALS/OC-MAMMOCHAT",
@@ -2324,8 +2324,8 @@
       "roadmap_now": "[ ] FRAND Template (deliverable 4.1) \u2014 DAVID SLONIM",
       "learning_count": 10,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/OC-MAMMOCHAT",
-      "children": 1
+      "fleet_path": "DEALS/OC-MAMMOCHAT",
+      "children": 0
     },
     {
       "id": "hadleylab-canonic/DEALS/RUNNER-CHAIN",
@@ -2343,8 +2343,8 @@
       "intel_summary": "**KNOW YOUR CHAIN. EVERY NODE GOVERNED. EVERY COIN EVIDENCED.**",
       "learning_count": 1,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/RUNNER-CHAIN",
-      "children": 2
+      "fleet_path": "DEALS/RUNNER-CHAIN",
+      "children": 1
     },
     {
       "id": "hadleylab-canonic/DECKS/BEDA",
@@ -2363,7 +2363,7 @@
       "learning_count": 13,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DECK",
-      "fleet_path": "decks/BEDA",
+      "fleet_path": "DECKS/BEDA",
       "children": 2
     },
     {
@@ -2383,7 +2383,7 @@
       "learning_count": 86,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DECK",
-      "fleet_path": "decks/DECK",
+      "fleet_path": "DECKS/DECK",
       "children": 0
     },
     {
@@ -2403,7 +2403,7 @@
       "learning_count": 11,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DECK",
-      "fleet_path": "decks/HOWARD",
+      "fleet_path": "DECKS/HOWARD",
       "children": 1
     },
     {
@@ -2424,7 +2424,7 @@
       "learning_count": 3,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DECK",
-      "fleet_path": "decks/JP-CAPITAL",
+      "fleet_path": "DECKS/JP-CAPITAL",
       "children": 1
     },
     {
@@ -2445,7 +2445,7 @@
       "learning_count": 7,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DECK",
-      "fleet_path": "decks/PMWC",
+      "fleet_path": "DECKS/PMWC",
       "children": 1
     },
     {
@@ -2464,8 +2464,31 @@
       "intel_summary": "| Metric | Value | Source |",
       "learning_count": 7,
       "surface_type": "JEKYLL_DECK",
-      "fleet_path": "decks/RUNNER-CHAIN",
-      "children": 2
+      "fleet_path": "DECKS/RUNNER-CHAIN",
+      "children": 1
+    },
+    {
+      "id": "hadleylab-canonic/DECKS/STRONG-HER",
+      "kind": "SCOPE",
+      "label": "STRONG-HER",
+      "repo": "hadleylab-canonic",
+      "path": "DECKS/STRONG-HER",
+      "parent": "hadleylab-canonic/DECKS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "privacy": "PUBLIC",
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DECK",
+      "fleet_path": "DECKS/STRONG-HER",
+      "children": 1
     },
     {
       "id": "hadleylab-canonic/DECKS/SHOP",
@@ -2480,7 +2503,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "decks/shop",
+      "fleet_path": "DECKS/shop",
       "children": 0
     },
     {
@@ -2500,7 +2523,7 @@
       "learning_count": 6,
       "coverage_score": 4,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "grants/ACS-FLATIRON",
+      "fleet_path": "GRANTS/ACS-FLATIRON",
       "children": 1
     },
     {
@@ -2521,7 +2544,7 @@
       "learning_count": 15,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "grants/EHDS-GOV",
+      "fleet_path": "GRANTS/EHDS-GOV",
       "children": 6
     },
     {
@@ -2539,7 +2562,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR PROTOCOL. EVERY SUBMISSION EVIDENCED. EVERY EXEMPTION DOCUMENTED.**",
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "irbs/caribchat",
+      "fleet_path": "IRBS/CARIBCHAT",
       "children": 7
     },
     {
@@ -2555,7 +2578,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "papers/shop",
+      "fleet_path": "PAPERS/shop",
       "children": 0
     },
     {
@@ -2571,7 +2594,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "papers/canonic-whitepaper",
+      "fleet_path": "PAPERS/canonic-whitepaper",
       "children": 0
     },
     {
@@ -2587,7 +2610,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "papers/code-evolution-theory",
+      "fleet_path": "PAPERS/code-evolution-theory",
       "children": 0
     },
     {
@@ -2603,7 +2626,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "papers/community-learning-ledgers-caribbean",
+      "fleet_path": "PAPERS/community-learning-ledgers-caribbean",
       "children": 0
     },
     {
@@ -2619,7 +2642,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "papers/content-as-proof-of-work",
+      "fleet_path": "PAPERS/content-as-proof-of-work",
       "children": 0
     },
     {
@@ -2635,7 +2658,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "papers/economics-of-governed-work",
+      "fleet_path": "PAPERS/economics-of-governed-work",
       "children": 0
     },
     {
@@ -2651,7 +2674,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "papers/evolutionary-phylogenetics",
+      "fleet_path": "PAPERS/evolutionary-phylogenetics",
       "children": 0
     },
     {
@@ -2667,7 +2690,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "papers/governance-as-compilation",
+      "fleet_path": "PAPERS/governance-as-compilation",
       "children": 0
     },
     {
@@ -2683,7 +2706,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "papers/neutral-theory",
+      "fleet_path": "PAPERS/neutral-theory",
       "children": 0
     },
     {
@@ -2699,7 +2722,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "papers/opts-ego",
+      "fleet_path": "PAPERS/opts-ego",
       "children": 0
     },
     {
@@ -2715,7 +2738,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "papers/the-255-billion-dollar-wound",
+      "fleet_path": "PAPERS/the-255-billion-dollar-wound",
       "children": 0
     },
     {
@@ -2731,7 +2754,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "papers/the-344-billion-euro-wound",
+      "fleet_path": "PAPERS/the-344-billion-euro-wound",
       "children": 0
     },
     {
@@ -2758,7 +2781,7 @@
       "next_tier_gap": 40,
       "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "patents/prov-001",
+      "fleet_path": "PATENTS/PROV-001",
       "children": 0
     },
     {
@@ -2785,7 +2808,7 @@
       "next_tier_gap": 40,
       "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "patents/prov-002",
+      "fleet_path": "PATENTS/PROV-002",
       "children": 0
     },
     {
@@ -2812,7 +2835,7 @@
       "next_tier_gap": 40,
       "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "patents/prov-003",
+      "fleet_path": "PATENTS/PROV-003",
       "children": 0
     },
     {
@@ -2839,7 +2862,7 @@
       "next_tier_gap": 40,
       "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "patents/prov-004",
+      "fleet_path": "PATENTS/PROV-004",
       "children": 0
     },
     {
@@ -2866,7 +2889,7 @@
       "next_tier_gap": 40,
       "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "patents/prov-005",
+      "fleet_path": "PATENTS/PROV-005",
       "children": 0
     },
     {
@@ -2893,7 +2916,7 @@
       "next_tier_gap": 40,
       "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "patents/prov-006",
+      "fleet_path": "PATENTS/PROV-006",
       "children": 0
     },
     {
@@ -2909,7 +2932,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "patents/claims",
+      "fleet_path": "PATENTS/claims",
       "children": 0
     },
     {
@@ -2928,7 +2951,7 @@
       "intel_summary": "**KNOW YOUR USERS. EVERY SESSION GOVERNED. EVERY GRANT AUDITED.**",
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/AUTH",
+      "fleet_path": "SERVICES/AUTH",
       "children": 0
     },
     {
@@ -2947,7 +2970,7 @@
       "intel_summary": "**KNOW YOUR EDITORIAL. EVERY POST EVIDENCED. EVERY CLAIM SOURCED.**",
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/BLOG",
+      "fleet_path": "SERVICES/BLOG",
       "children": 0
     },
     {
@@ -2965,7 +2988,7 @@
       "has_intel": false,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/BOOK",
+      "fleet_path": "SERVICES/BOOK",
       "children": 0
     },
     {
@@ -2984,7 +3007,7 @@
       "intel_summary": "**KNOW YOUR PIPELINE. EVERY PHASE DECLARED. EVERY DEPENDENCY GOVERNED.**",
       "learning_count": 17,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/BUILD",
+      "fleet_path": "SERVICES/BUILD",
       "children": 0
     },
     {
@@ -3005,7 +3028,7 @@
       "learning_count": 7,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/CALENDAR",
+      "fleet_path": "SERVICES/CALENDAR",
       "children": 0
     },
     {
@@ -3024,7 +3047,7 @@
       "intel_summary": "**KNOW YOUR FRAMEWORK. EVERY EMISSION TRACED. EVERY PLATFORM GOVERNED. EVERY METRIC CAPTURED.**",
       "roadmap_now": "[ ] AlphaGo at 10 campaign (2026-03-15) \u2014 LinkedIn 4x POSTED, Twitter/Reddit/HN drafted, pending pip",
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/CAMPAIGN",
+      "fleet_path": "SERVICES/CAMPAIGN",
       "children": 1
     },
     {
@@ -3048,7 +3071,7 @@
       "roadmap_now": "[ ] the-255-billion-dollar-wound.md \u2014 359 uncited claims (68% gap)",
       "learning_count": 3,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/CITATION",
+      "fleet_path": "SERVICES/CITATION",
       "children": 1
     },
     {
@@ -3065,10 +3088,10 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "Dexter Hadley, MD/PhD (Penn). Stanford Research Associate (Butte Lab). Faculty at UCSF and UCF (Founding Chief of AI). C",
-      "learning_count": 27,
+      "learning_count": 28,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/CLAUDE",
+      "fleet_path": "SERVICES/CLAUDE",
       "children": 0
     },
     {
@@ -3086,7 +3109,7 @@
       "has_intel": false,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/CLINICAL",
+      "fleet_path": "SERVICES/CLINICAL",
       "children": 0
     },
     {
@@ -3110,7 +3133,7 @@
         "MINT_READ_DEDUP"
       ],
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/COIN",
+      "fleet_path": "SERVICES/COIN",
       "children": 0
     },
     {
@@ -3131,7 +3154,7 @@
       "learning_count": 7,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/CONTACTS",
+      "fleet_path": "SERVICES/CONTACTS",
       "children": 0
     },
     {
@@ -3150,7 +3173,7 @@
       "roadmap_now": "MARK-MALEK DECK deployed (IP patent counsel)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/DEAL",
+      "fleet_path": "SERVICES/DEAL",
       "children": 0
     },
     {
@@ -3172,7 +3195,7 @@
       "has_intel": false,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/DECK",
+      "fleet_path": "SERVICES/DECK",
       "children": 0
     },
     {
@@ -3196,7 +3219,7 @@
       "roadmap_now": "[ ] COVERAGE.md (MAGIC 255 closure)",
       "learning_count": 8,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/DEMO",
+      "fleet_path": "SERVICES/DEMO",
       "children": 0
     },
     {
@@ -3217,7 +3240,7 @@
       "learning_count": 7,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/DESIGN",
+      "fleet_path": "SERVICES/DESIGN",
       "children": 0
     },
     {
@@ -3238,8 +3261,8 @@
       "learning_count": 5,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/DEV",
-      "children": 2
+      "fleet_path": "SERVICES/DEV",
+      "children": 1
     },
     {
       "id": "hadleylab-canonic/SERVICES/DOMAINS",
@@ -3257,7 +3280,7 @@
       "intel_summary": "**KNOW YOUR SERVICE. EVERY CAPABILITY TRACED. EVERY INTEGRATION GOVERNED.**",
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/DOMAINS",
+      "fleet_path": "SERVICES/DOMAINS",
       "children": 1
     },
     {
@@ -3281,7 +3304,7 @@
       "learning_count": 11,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/FINANCIALS",
+      "fleet_path": "SERVICES/FINANCIALS",
       "children": 4
     },
     {
@@ -3305,7 +3328,7 @@
       "learning_count": 5,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/FORECASTS",
+      "fleet_path": "SERVICES/FORECASTS",
       "children": 5
     },
     {
@@ -3323,7 +3346,7 @@
       "has_intel": false,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/GRANT",
+      "fleet_path": "SERVICES/GRANT",
       "children": 0
     },
     {
@@ -3341,7 +3364,7 @@
       "has_intel": true,
       "intel_summary": "**Classification knowledge for Guidepoint consultation requests. Topic \u2192 decision mapping. Derived from DEXTER principal",
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/GUIDEPOINT",
+      "fleet_path": "SERVICES/GUIDEPOINT",
       "children": 1
     },
     {
@@ -3360,7 +3383,7 @@
       "intel_summary": "**KNOW YOUR SERVICE. EVERY CAPABILITY TRACED. EVERY INTEGRATION GOVERNED.**",
       "roadmap_now": "mammochat.ai provisioned as iCloud+ Custom Email Domain (2026-03-04)",
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/ICLOUD",
+      "fleet_path": "SERVICES/ICLOUD",
       "children": 0
     },
     {
@@ -3385,7 +3408,7 @@
       "learning_count": 4,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/KYC",
+      "fleet_path": "SERVICES/KYC",
       "children": 0
     },
     {
@@ -3404,7 +3427,7 @@
       "intel_summary": "**KNOW YOUR PIPELINE. EVERY SURFACE COMPILED. EVERY TEMPLATE GOVERNED. EVERY OUTPUT DETERMINISTIC.**",
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LATEX",
+      "fleet_path": "SERVICES/LATEX",
       "children": 1
     },
     {
@@ -3428,7 +3451,7 @@
       "roadmap_now": "Wire IDF cross-references into LEARNING pattern table (patent discoveries as governed gradients)",
       "learning_count": 10,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING",
+      "fleet_path": "SERVICES/LEARNING",
       "children": 59
     },
     {
@@ -3453,7 +3476,7 @@
       "learning_count": 5,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEDGER",
+      "fleet_path": "SERVICES/LEDGER",
       "children": 1
     },
     {
@@ -3473,7 +3496,7 @@
       "learning_count": 12,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/MAGIC",
+      "fleet_path": "SERVICES/MAGIC",
       "children": 4
     },
     {
@@ -3494,7 +3517,7 @@
       "learning_count": 2,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/NOTIFIER",
+      "fleet_path": "SERVICES/NOTIFIER",
       "children": 0
     },
     {
@@ -3514,7 +3537,7 @@
       "learning_count": 19,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/OMICS",
+      "fleet_path": "SERVICES/OMICS",
       "children": 0
     },
     {
@@ -3533,7 +3556,7 @@
       "intel_summary": "**KNOW YOUR RESEARCH. EVERY CLAIM EVIDENCED. EVERY CITATION GOVERNED.**",
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/PAPER",
+      "fleet_path": "SERVICES/PAPER",
       "children": 0
     },
     {
@@ -3557,7 +3580,7 @@
       "learning_count": 2,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/PATENT",
+      "fleet_path": "SERVICES/PATENT",
       "children": 0
     },
     {
@@ -3577,7 +3600,7 @@
       "learning_count": 3,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/PLAYBOOKS",
+      "fleet_path": "SERVICES/PLAYBOOKS",
       "children": 0
     },
     {
@@ -3598,7 +3621,7 @@
       "learning_count": 1,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/PLUGINS",
+      "fleet_path": "SERVICES/PLUGINS",
       "children": 0
     },
     {
@@ -3622,7 +3645,7 @@
       "learning_count": 5,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/RESERVES",
+      "fleet_path": "SERVICES/RESERVES",
       "children": 5
     },
     {
@@ -3640,10 +3663,10 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR SURFACE. EVERY DOMAIN AUDITED. EVERY INDEX EVIDENCED.**",
       "roadmap_now": "[ ] Verify hadleylab.org in Google Search Console",
-      "learning_count": 10,
+      "learning_count": 12,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/SEO",
+      "fleet_path": "SERVICES/SEO",
       "children": 0
     },
     {
@@ -3663,7 +3686,7 @@
       "roadmap_now": "Compile DEXTER public projection aggregate \u2014 discover all SERVICES/**/SHOP.md files across governanc",
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/SHOP",
+      "fleet_path": "SERVICES/SHOP",
       "children": 0
     },
     {
@@ -3688,7 +3711,7 @@
       "learning_count": 2,
       "coverage_score": 0,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/STAR",
+      "fleet_path": "SERVICES/STAR",
       "children": 0
     },
     {
@@ -3708,7 +3731,7 @@
       "roadmap_now": "Verify if FDOH MammoChat grant application request was filed (SUN-001)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/SUNSHINE",
+      "fleet_path": "SERVICES/SUNSHINE",
       "children": 0
     },
     {
@@ -3731,10 +3754,11 @@
         "PROMPT_CACHE",
         "TIER_MODEL",
         "TOKEN_TRACK",
-        "A11Y_WCAG_AA"
+        "A11Y_WCAG_AA",
+        "COMMUNITY_QUALITY"
       ],
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/TALK",
+      "fleet_path": "SERVICES/TALK",
       "children": 1
     },
     {
@@ -3761,7 +3785,7 @@
       "learning_count": 10,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/TIMELINE",
+      "fleet_path": "SERVICES/TIMELINE",
       "children": 0
     },
     {
@@ -3786,7 +3810,7 @@
       "learning_count": 16,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/TRANSCRIPT",
+      "fleet_path": "SERVICES/TRANSCRIPT",
       "children": 0
     },
     {
@@ -3805,7 +3829,7 @@
       "intel_summary": "- USER governs identity lifecycle: onboard \u2192 verify \u2192 federate \u2192 contribute \u2192 graduate",
       "learning_count": 3,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/USER",
+      "fleet_path": "SERVICES/USER",
       "children": 0
     },
     {
@@ -3824,7 +3848,7 @@
       "intel_summary": "**KNOW YOUR SERVICE. EVERY CAPABILITY TRACED. EVERY INTEGRATION GOVERNED.**",
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/USPTO",
+      "fleet_path": "SERVICES/USPTO",
       "children": 1
     },
     {
@@ -3844,7 +3868,7 @@
       "learning_count": 5,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/VITAE",
+      "fleet_path": "SERVICES/VITAE",
       "children": 0
     },
     {
@@ -3860,7 +3884,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "services/ledger-consumers",
+      "fleet_path": "SERVICES/ledger-consumers",
       "children": 0
     },
     {
@@ -3880,7 +3904,7 @@
       "roadmap_now": "Full domain credential live \u2014 MLS, Orange County records, FEMA, GreatSchools sourced",
       "learning_count": 11,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/BLANDFORD",
+      "fleet_path": "TALKS/BLANDFORD",
       "cross_intel": [
         "REALTY",
         "BRYANSTON",
@@ -3905,7 +3929,7 @@
       "roadmap_now": "Full domain credential live \u2014 MLS, Orange County records, FEMA, GreatSchools sourced",
       "learning_count": 12,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/BRYANSTON",
+      "fleet_path": "TALKS/BRYANSTON",
       "cross_intel": [
         "REALTY",
         "BLANDFORD",
@@ -3928,15 +3952,15 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 129,
+      "learning_count": 147,
       "coverage_score": 255,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/CARIBCHAT",
+      "fleet_path": "TALKS/CARIBCHAT",
       "cross_intel": [
         "MAMMOCHAT",
         "ONCOCHAT"
       ],
-      "children": 1
+      "children": 2
     },
     {
       "id": "hadleylab-canonic/TALKS/DEV",
@@ -3955,7 +3979,7 @@
       "roadmap_now": "Build pipeline operational \u2014 build, generate, jekyll, validate chain live",
       "learning_count": 19,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/DEV",
+      "fleet_path": "TALKS/DEV",
       "cross_intel": [
         "LAWCHAT"
       ],
@@ -3979,7 +4003,7 @@
       "learning_count": 12,
       "coverage_score": 255,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/FINCHAT",
+      "fleet_path": "TALKS/FINCHAT",
       "cross_intel": [
         "MEDCHAT"
       ],
@@ -4003,7 +4027,7 @@
       "learning_count": 12,
       "coverage_score": 255,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/LAWCHAT",
+      "fleet_path": "TALKS/LAWCHAT",
       "cross_intel": [
         "MEDCHAT"
       ],
@@ -4029,13 +4053,13 @@
         "A11Y"
       ],
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/MAMMOCHAT",
+      "fleet_path": "TALKS/MAMMOCHAT",
       "cross_intel": [
         "ONCOCHAT",
         "CARIBCHAT",
         "OMICSCHAT"
       ],
-      "children": 1
+      "children": 2
     },
     {
       "id": "hadleylab-canonic/TALKS/MEDCHAT",
@@ -4058,7 +4082,7 @@
         "A11Y"
       ],
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/MEDCHAT",
+      "fleet_path": "TALKS/MEDCHAT",
       "cross_intel": [
         "ONCOCHAT",
         "OMICSCHAT"
@@ -4082,7 +4106,7 @@
       "roadmap_now": "Launch NONA marketplace CHAT surface with Robert Glover as first agent",
       "learning_count": 7,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/NONA",
+      "fleet_path": "TALKS/NONA",
       "cross_intel": [
         "REALTY",
         "VITAE"
@@ -4110,7 +4134,7 @@
         "A11Y"
       ],
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/OMICSCHAT",
+      "fleet_path": "TALKS/OMICSCHAT",
       "cross_intel": [
         "MAMMOCHAT",
         "ONCOCHAT",
@@ -4139,7 +4163,7 @@
         "A11Y"
       ],
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/ONCOCHAT",
+      "fleet_path": "TALKS/ONCOCHAT",
       "cross_intel": [
         "MAMMOCHAT",
         "OMICSCHAT",
@@ -4165,7 +4189,7 @@
       "roadmap_now": "3 properties governed \u2014 BLANDFORD ($6.75M), SLOANE ($3.799M), BRYANSTON ($1.695M)",
       "learning_count": 5,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/REALTY",
+      "fleet_path": "TALKS/REALTY",
       "cross_intel": [
         "BLANDFORD",
         "SLOANE",
@@ -4192,7 +4216,7 @@
       "roadmap_now": "All task operations through TALK chat \u2014 no discrete menus, no form-driven task selection",
       "learning_count": 78,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "talks/RUNNER",
+      "fleet_path": "TALKS/RUNNER",
       "cross_intel": [
         "VITAE"
       ],
@@ -4215,7 +4239,7 @@
       "roadmap_now": "Full domain credential live \u2014 MLS, Orange County records, FEMA, GreatSchools sourced",
       "learning_count": 10,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/SLOANE",
+      "fleet_path": "TALKS/SLOANE",
       "cross_intel": [
         "REALTY",
         "BLANDFORD",
@@ -4240,29 +4264,13 @@
       "roadmap_now": "8 principals governed \u2014 DEXTER, ISABELLA, JP, AVINASH, YANA, ILYA, ROBERT, FATIMA",
       "learning_count": 6,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/VITAE",
+      "fleet_path": "TALKS/VITAE",
       "cross_intel": [
         "RUNNER",
         "NONA",
         "REALTY"
       ],
       "children": 1
-    },
-    {
-      "id": "hadleylab-canonic/TALKS/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "TALKS/index",
-      "parent": "hadleylab-canonic/TALKS",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "talks/index",
-      "children": 0
     },
     {
       "id": "hadleylab-canonic/TRANSCRIPTS/EMAIL",
@@ -4282,7 +4290,7 @@
       "learning_count": 12,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "transcripts/email",
+      "fleet_path": "TRANSCRIPTS/EMAIL",
       "children": 0
     },
     {
@@ -4302,7 +4310,7 @@
       "roadmap_now": "attributedBody blob decoding (NSKeyedArchiver streamtyped format)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "transcripts/imessage",
+      "fleet_path": "TRANSCRIPTS/IMESSAGE",
       "children": 0
     },
     {
@@ -4322,7 +4330,7 @@
       "roadmap_now": "ChatStorage.sqlite direct read (ZWACHATSESSION + ZWAMESSAGE)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "transcripts/whatsapp",
+      "fleet_path": "TRANSCRIPTS/WHATSAPP",
       "children": 0
     },
     {
@@ -4343,7 +4351,7 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/AFSANA",
+      "fleet_path": "USERS/AFSANA",
       "organization": "MammoSight",
       "children": 2
     },
@@ -4367,7 +4375,7 @@
       "learning_count": 4,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/AVINASH",
+      "fleet_path": "USERS/AVINASH",
       "organization": "Atom",
       "children": 2
     },
@@ -4390,9 +4398,9 @@
       "next_tier_gap": 8,
       "intel_summary": "| Field | Value |",
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/CRAIG",
+      "fleet_path": "USERS/CRAIG",
       "organization": "Loma Linda University",
-      "children": 4
+      "children": 3
     },
     {
       "id": "hadleylab-canonic/USERS/FATIMA",
@@ -4415,7 +4423,7 @@
       "learning_count": 39,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/FATIMA",
+      "fleet_path": "USERS/FATIMA",
       "organization": "CANONIC",
       "children": 4
     },
@@ -4434,7 +4442,7 @@
       "has_intel": false,
       "learning_count": 2,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/GEOFF",
+      "fleet_path": "USERS/GEOFF",
       "organization": "Celeritas",
       "children": 2
     },
@@ -4460,7 +4468,7 @@
       "learning_count": 4,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/ILYA",
+      "fleet_path": "USERS/ILYA",
       "organization": "BedaSoftware",
       "children": 2
     },
@@ -4484,7 +4492,7 @@
       "learning_count": 4,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/ISABELLA",
+      "fleet_path": "USERS/ISABELLA",
       "organization": "E4C",
       "children": 2
     },
@@ -4508,7 +4516,7 @@
       "learning_count": 7,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/JP",
+      "fleet_path": "USERS/JP",
       "organization": "JP Capital",
       "children": 2
     },
@@ -4535,7 +4543,7 @@
       "learning_count": 4,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/ROBERT",
+      "fleet_path": "USERS/ROBERT",
       "organization": "PinnacleGrp",
       "children": 2
     },
@@ -4558,9 +4566,9 @@
       "next_tier_gap": 8,
       "intel_summary": "| Field | Value |",
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/SARAH",
+      "fleet_path": "USERS/SARAH",
       "organization": "Evermint Health",
-      "children": 4
+      "children": 3
     },
     {
       "id": "hadleylab-canonic/USERS/YANA",
@@ -4584,7 +4592,7 @@
       "learning_count": 4,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/YANA",
+      "fleet_path": "USERS/YANA",
       "organization": "BedaSoftware",
       "children": 2
     },
@@ -4601,7 +4609,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "vitae/shop",
+      "fleet_path": "VITAE/shop",
       "children": 0
     },
     {
@@ -4620,7 +4628,7 @@
       "roadmap_now": "Complete final review pass on all 13 ATULISMS chapters",
       "coverage_score": 255,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/CHAPTERS",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS",
       "children": 15
     },
     {
@@ -4639,7 +4647,7 @@
       "intel_summary": "| Claim | Source |",
       "coverage_score": 255,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/RESPONSES",
+      "fleet_path": "BOOKS/ATULISMS/RESPONSES",
       "children": 0
     },
     {
@@ -4655,7 +4663,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/catalog",
+      "fleet_path": "BOOKS/ATULISMS/catalog",
       "children": 0
     },
     {
@@ -4671,7 +4679,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/compile",
+      "fleet_path": "BOOKS/ATULISMS/compile",
       "children": 0
     },
     {
@@ -4687,7 +4695,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/contribute",
+      "fleet_path": "BOOKS/ATULISMS/contribute",
       "children": 0
     },
     {
@@ -4703,7 +4711,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/distribute",
+      "fleet_path": "BOOKS/ATULISMS/distribute",
       "children": 0
     },
     {
@@ -4719,7 +4727,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/spine",
+      "fleet_path": "BOOKS/ATULISMS/spine",
       "children": 0
     },
     {
@@ -4738,7 +4746,7 @@
       "roadmap_now": "44 chapters split into individual files, all at 3K+ words (~141K total)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS",
       "children": 41
     },
     {
@@ -4754,7 +4762,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/compile",
+      "fleet_path": "BOOKS/CANONIC-CANON/compile",
       "children": 0
     },
     {
@@ -4770,7 +4778,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/spine",
+      "fleet_path": "BOOKS/CANONIC-CANON/spine",
       "children": 0
     },
     {
@@ -4789,7 +4797,7 @@
       "roadmap_now": "48 chapters (00-49) split into individual governed files, all at 3K+ words",
       "coverage_score": 169,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS",
       "children": 50
     },
     {
@@ -4805,7 +4813,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/compile",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/compile",
       "children": 0
     },
     {
@@ -4821,7 +4829,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/spine",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/spine",
       "children": 0
     },
     {
@@ -4837,7 +4845,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CHAPTERS/00-emotional-arc",
+      "fleet_path": "BOOKS/CHAPTERS/00-emotional-arc",
       "children": 0
     },
     {
@@ -4853,7 +4861,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CHAPTERS/01-min-max",
+      "fleet_path": "BOOKS/CHAPTERS/01-min-max",
       "children": 0
     },
     {
@@ -4869,7 +4877,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CHAPTERS/02-bilateral-ledgers",
+      "fleet_path": "BOOKS/CHAPTERS/02-bilateral-ledgers",
       "children": 0
     },
     {
@@ -4885,7 +4893,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CHAPTERS/03-cryptographic-consent",
+      "fleet_path": "BOOKS/CHAPTERS/03-cryptographic-consent",
       "children": 0
     },
     {
@@ -4901,7 +4909,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CHAPTERS/04-policy-arc",
+      "fleet_path": "BOOKS/CHAPTERS/04-policy-arc",
       "children": 0
     },
     {
@@ -4917,7 +4925,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CHAPTERS/part-i-the-economy-we-inherited",
+      "fleet_path": "BOOKS/CHAPTERS/part-i-the-economy-we-inherited",
       "children": 0
     },
     {
@@ -4933,7 +4941,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CHAPTERS/part-ii-extraction",
+      "fleet_path": "BOOKS/CHAPTERS/part-ii-extraction",
       "children": 0
     },
     {
@@ -4949,7 +4957,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CHAPTERS/part-iii-circular-economy",
+      "fleet_path": "BOOKS/CHAPTERS/part-iii-circular-economy",
       "children": 0
     },
     {
@@ -4965,7 +4973,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CHAPTERS/part-iv-the-loop",
+      "fleet_path": "BOOKS/CHAPTERS/part-iv-the-loop",
       "children": 0
     },
     {
@@ -4981,7 +4989,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CHAPTERS/part-v-new-economy",
+      "fleet_path": "BOOKS/CHAPTERS/part-v-new-economy",
       "children": 0
     },
     {
@@ -4997,7 +5005,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CHAPTERS/part-vi-custody-returned",
+      "fleet_path": "BOOKS/CHAPTERS/part-vi-custody-returned",
       "children": 0
     },
     {
@@ -5013,7 +5021,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CHAPTERS/prologue",
+      "fleet_path": "BOOKS/CHAPTERS/prologue",
       "children": 0
     },
     {
@@ -5029,7 +5037,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/DIVIDENDS/authoring-guide",
+      "fleet_path": "BOOKS/DIVIDENDS/authoring-guide",
       "children": 0
     },
     {
@@ -5045,7 +5053,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/DIVIDENDS/changelog",
+      "fleet_path": "BOOKS/DIVIDENDS/changelog",
       "children": 0
     },
     {
@@ -5061,7 +5069,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/DIVIDENDS/quickstart",
+      "fleet_path": "BOOKS/DIVIDENDS/quickstart",
       "children": 0
     },
     {
@@ -5077,7 +5085,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/DIVIDENDS/spine",
+      "fleet_path": "BOOKS/DIVIDENDS/spine",
       "children": 0
     },
     {
@@ -5093,7 +5101,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "campaigns/linkedin/calendar",
+      "fleet_path": "CAMPAIGNS/LINKEDIN/calendar",
       "children": 0
     },
     {
@@ -5109,7 +5117,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "campaigns/linkedin/engagement",
+      "fleet_path": "CAMPAIGNS/LINKEDIN/engagement",
       "children": 0
     },
     {
@@ -5125,7 +5133,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "campaigns/linkedin/preflight",
+      "fleet_path": "CAMPAIGNS/LINKEDIN/preflight",
       "children": 0
     },
     {
@@ -5141,7 +5149,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "campaigns/linkedin/profile",
+      "fleet_path": "CAMPAIGNS/LINKEDIN/profile",
       "children": 0
     },
     {
@@ -5157,7 +5165,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "charter/BOARD/bylaws",
+      "fleet_path": "CHARTER/BOARD/bylaws",
       "children": 0
     },
     {
@@ -5173,7 +5181,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "charter/BOARD/coi-policy",
+      "fleet_path": "CHARTER/BOARD/coi-policy",
       "children": 0
     },
     {
@@ -5189,7 +5197,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "charter/ENTITY/articles",
+      "fleet_path": "CHARTER/ENTITY/articles",
       "children": 0
     },
     {
@@ -5205,7 +5213,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "charter/ENTITY/work-talk-julio",
+      "fleet_path": "CHARTER/ENTITY/work-talk-julio",
       "children": 0
     },
     {
@@ -5221,7 +5229,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "charter/TRUST/work-talk-david",
+      "fleet_path": "CHARTER/TRUST/work-talk-david",
       "children": 0
     },
     {
@@ -5237,7 +5245,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/BAKEOFF/deck-talk-ilya-yana",
+      "fleet_path": "DEALS/BAKEOFF/deck-talk-ilya-yana",
       "children": 0
     },
     {
@@ -5253,23 +5261,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/BAKEOFF/work-talk-ilya-yana",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/BAKEOFF/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/BAKEOFF/index",
-      "parent": "hadleylab-canonic/DEALS/BAKEOFF",
-      "color": "#00ff88",
-      "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/BAKEOFF/index",
+      "fleet_path": "DEALS/BAKEOFF/work-talk-ilya-yana",
       "children": 0
     },
     {
@@ -5285,7 +5277,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/CAOH/business-plan",
+      "fleet_path": "DEALS/CAOH/business-plan",
       "children": 0
     },
     {
@@ -5301,7 +5293,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/CAOH/launch-plan",
+      "fleet_path": "DEALS/CAOH/launch-plan",
       "children": 0
     },
     {
@@ -5317,7 +5309,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/EXCELLENTING/work-talk-neville",
+      "fleet_path": "DEALS/EXCELLENTING/work-talk-neville",
       "children": 0
     },
     {
@@ -5333,39 +5325,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/EXCELLENTING/work-talk-onconex",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/EXCELLENTING/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/EXCELLENTING/index",
-      "parent": "hadleylab-canonic/DEALS/EXCELLENTING",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/EXCELLENTING/index",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/LEVUKA-VENTURE-LAB/index",
-      "parent": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/LEVUKA-VENTURE-LAB/index",
+      "fleet_path": "DEALS/EXCELLENTING/work-talk-onconex",
       "children": 0
     },
     {
@@ -5381,7 +5341,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/MALTA-ENTERPRISE/business-plan",
+      "fleet_path": "DEALS/MALTA-ENTERPRISE/business-plan",
       "children": 0
     },
     {
@@ -5397,7 +5357,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/MALTA-ENTERPRISE/work-talk-chris-borg-reply",
+      "fleet_path": "DEALS/MALTA-ENTERPRISE/work-talk-chris-borg-reply",
       "children": 0
     },
     {
@@ -5413,7 +5373,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/MALTA-ENTERPRISE/work-talk-chris-borg",
+      "fleet_path": "DEALS/MALTA-ENTERPRISE/work-talk-chris-borg",
       "children": 0
     },
     {
@@ -5429,39 +5389,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/MALTA-ENTERPRISE/work-talk-stephen-bp",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/MALTA-ENTERPRISE/index",
-      "parent": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/MALTA-ENTERPRISE/index",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/OC-MAMMOCHAT/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/OC-MAMMOCHAT/index",
-      "parent": "hadleylab-canonic/DEALS/OC-MAMMOCHAT",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/OC-MAMMOCHAT/index",
+      "fleet_path": "DEALS/MALTA-ENTERPRISE/work-talk-stephen-bp",
       "children": 0
     },
     {
@@ -5477,23 +5405,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/RUNNER-CHAIN/work-talk-mike",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/RUNNER-CHAIN/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/RUNNER-CHAIN/index",
-      "parent": "hadleylab-canonic/DEALS/RUNNER-CHAIN",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "deals/RUNNER-CHAIN/index",
+      "fleet_path": "DEALS/RUNNER-CHAIN/work-talk-mike",
       "children": 0
     },
     {
@@ -5508,8 +5420,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_DECK",
-      "fleet_path": "decks/BEDA/deck",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DECKS/BEDA/deck",
       "children": 0
     },
     {
@@ -5524,8 +5436,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_DECK",
-      "fleet_path": "decks/BEDA/email-review-loop-2026-03-23",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DECKS/BEDA/email-review-loop-2026-03-23",
       "children": 0
     },
     {
@@ -5540,8 +5452,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_DECK",
-      "fleet_path": "decks/HOWARD/deck",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DECKS/HOWARD/deck",
       "children": 0
     },
     {
@@ -5556,8 +5468,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_DECK",
-      "fleet_path": "decks/JP-CAPITAL/deck",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DECKS/JP-CAPITAL/deck",
       "children": 0
     },
     {
@@ -5572,8 +5484,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_DECK",
-      "fleet_path": "decks/PMWC/deck",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DECKS/PMWC/deck",
       "children": 0
     },
     {
@@ -5588,24 +5500,24 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_DECK",
-      "fleet_path": "decks/RUNNER-CHAIN/deck",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DECKS/RUNNER-CHAIN/deck",
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/DECKS/RUNNER-CHAIN/index",
+      "id": "hadleylab-canonic/DECKS/STRONG-HER/DECK",
       "kind": "CONTENT",
-      "label": "INDEX",
+      "label": "DECK",
       "repo": "hadleylab-canonic",
-      "path": "DECKS/RUNNER-CHAIN/index",
-      "parent": "hadleylab-canonic/DECKS/RUNNER-CHAIN",
+      "path": "DECKS/STRONG-HER/DECK",
+      "parent": "hadleylab-canonic/DECKS/STRONG-HER",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 247,
+      "tier": "COMMUNITY",
       "has_intel": false,
-      "surface_type": "JEKYLL_DECK",
-      "fleet_path": "decks/RUNNER-CHAIN/index",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DECKS/STRONG-HER/deck",
       "children": 0
     },
     {
@@ -5621,7 +5533,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "grants/ACS-FLATIRON/specific-aims",
+      "fleet_path": "GRANTS/ACS-FLATIRON/specific-aims",
       "children": 0
     },
     {
@@ -5637,7 +5549,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "grants/EHDS-GOV/business-plan-nih",
+      "fleet_path": "GRANTS/EHDS-GOV/business-plan-nih",
       "children": 0
     },
     {
@@ -5653,7 +5565,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "grants/EHDS-GOV/review-youness-nih",
+      "fleet_path": "GRANTS/EHDS-GOV/review-youness-nih",
       "children": 0
     },
     {
@@ -5669,7 +5581,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "grants/EHDS-GOV/review-youness",
+      "fleet_path": "GRANTS/EHDS-GOV/review-youness",
       "children": 0
     },
     {
@@ -5685,7 +5597,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "grants/EHDS-GOV/specific-aims-nih",
+      "fleet_path": "GRANTS/EHDS-GOV/specific-aims-nih",
       "children": 0
     },
     {
@@ -5701,7 +5613,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "grants/EHDS-GOV/specific-aims",
+      "fleet_path": "GRANTS/EHDS-GOV/specific-aims",
       "children": 0
     },
     {
@@ -5717,7 +5629,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "grants/EHDS-GOV/work-talk-review",
+      "fleet_path": "GRANTS/EHDS-GOV/work-talk-review",
       "children": 0
     },
     {
@@ -5733,7 +5645,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "irbs/caribchat/exempt",
+      "fleet_path": "IRBS/CARIBCHAT/exempt",
       "children": 0
     },
     {
@@ -5749,7 +5661,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "irbs/caribchat/icf",
+      "fleet_path": "IRBS/CARIBCHAT/icf",
       "children": 0
     },
     {
@@ -5765,7 +5677,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "irbs/caribchat/listing",
+      "fleet_path": "IRBS/CARIBCHAT/listing",
       "children": 0
     },
     {
@@ -5781,7 +5693,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "irbs/caribchat/protocol",
+      "fleet_path": "IRBS/CARIBCHAT/protocol",
       "children": 0
     },
     {
@@ -5797,7 +5709,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "irbs/caribchat/security",
+      "fleet_path": "IRBS/CARIBCHAT/security",
       "children": 0
     },
     {
@@ -5813,7 +5725,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "irbs/caribchat/uwi-sta-application",
+      "fleet_path": "IRBS/CARIBCHAT/uwi-sta-application",
       "children": 0
     },
     {
@@ -5829,7 +5741,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "irbs/caribchat/waiver",
+      "fleet_path": "IRBS/CARIBCHAT/waiver",
       "children": 0
     },
     {
@@ -5844,8 +5756,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/CAMPAIGN/playbook",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/CAMPAIGN/playbook",
       "children": 0
     },
     {
@@ -5860,8 +5772,8 @@
       "bits": 247,
       "tier": "COMMUNITY",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/CITATION/bibliography",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/CITATION/bibliography",
       "children": 0
     },
     {
@@ -5876,24 +5788,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/DEV/dashboard",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SERVICES/DEV/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "SERVICES/DEV/index",
-      "parent": "hadleylab-canonic/SERVICES/DEV",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/DEV/index",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/DEV/dashboard",
       "children": 0
     },
     {
@@ -5908,8 +5804,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/DOMAINS/preflight",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/DOMAINS/preflight",
       "children": 0
     },
     {
@@ -5924,8 +5820,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/FINANCIALS/business",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FINANCIALS/business",
       "children": 0
     },
     {
@@ -5940,8 +5836,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/FINANCIALS/how-it-works",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FINANCIALS/how-it-works",
       "children": 0
     },
     {
@@ -5956,8 +5852,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/FINANCIALS/series-a",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FINANCIALS/series-a",
       "children": 0
     },
     {
@@ -5972,8 +5868,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/FINANCIALS/valuation",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FINANCIALS/valuation",
       "children": 0
     },
     {
@@ -5988,8 +5884,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/FORECASTS/coverage-metrics",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FORECASTS/coverage-metrics",
       "children": 0
     },
     {
@@ -6004,8 +5900,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/FORECASTS/ip-valuation",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FORECASTS/ip-valuation",
       "children": 0
     },
     {
@@ -6020,8 +5916,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/FORECASTS/year-1",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FORECASTS/year-1",
       "children": 0
     },
     {
@@ -6036,8 +5932,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/FORECASTS/year-3",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FORECASTS/year-3",
       "children": 0
     },
     {
@@ -6052,8 +5948,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/FORECASTS/year-5",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FORECASTS/year-5",
       "children": 0
     },
     {
@@ -6068,8 +5964,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/GUIDEPOINT/ledger",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/GUIDEPOINT/ledger",
       "children": 0
     },
     {
@@ -6084,8 +5980,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LATEX/shop",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LATEX/shop",
       "children": 0
     },
     {
@@ -6100,8 +5996,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/atul-butte-mafia",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/atul-butte-mafia",
       "children": 0
     },
     {
@@ -6116,8 +6012,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/magic-lattice",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/magic-lattice",
       "children": 0
     },
     {
@@ -6132,8 +6028,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/network-map",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/network-map",
       "children": 0
     },
     {
@@ -6148,8 +6044,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/roster",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/roster",
       "children": 0
     },
     {
@@ -6164,8 +6060,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/afsana-akter",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/afsana-akter",
       "children": 0
     },
     {
@@ -6180,8 +6076,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/alex-evans",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/alex-evans",
       "children": 0
     },
     {
@@ -6196,8 +6092,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/alyssa-tanaka",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/alyssa-tanaka",
       "children": 0
     },
     {
@@ -6212,8 +6108,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/amoy-fraser",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/amoy-fraser",
       "children": 0
     },
     {
@@ -6228,8 +6124,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/andrew-trister",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/andrew-trister",
       "children": 0
     },
     {
@@ -6244,8 +6140,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/anil-bajnath",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/anil-bajnath",
       "children": 0
     },
     {
@@ -6260,8 +6156,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/anthony-chang",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/anthony-chang",
       "children": 0
     },
     {
@@ -6276,8 +6172,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/atul-butte",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/atul-butte",
       "children": 0
     },
     {
@@ -6292,8 +6188,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/avinash-boodoosingh",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/avinash-boodoosingh",
       "children": 0
     },
     {
@@ -6308,8 +6204,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/balaji-srinivasan",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/balaji-srinivasan",
       "children": 0
     },
     {
@@ -6324,8 +6220,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/beau-norgeot",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/beau-norgeot",
       "children": 0
     },
     {
@@ -6340,8 +6236,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/christian-green",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/christian-green",
       "children": 0
     },
     {
@@ -6356,8 +6252,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/david-metcalf",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/david-metcalf",
       "children": 0
     },
     {
@@ -6372,8 +6268,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/david-slonim",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/david-slonim",
       "children": 0
     },
     {
@@ -6388,8 +6284,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/deborah-german",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/deborah-german",
       "children": 0
     },
     {
@@ -6404,8 +6300,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/diadia-health",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/diadia-health",
       "children": 0
     },
     {
@@ -6420,8 +6316,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/elena-cyrus",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/elena-cyrus",
       "children": 0
     },
     {
@@ -6436,8 +6332,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/elena-ikonomovska",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/elena-ikonomovska",
       "children": 0
     },
     {
@@ -6452,8 +6348,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/emre-baser",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/emre-baser",
       "children": 0
     },
     {
@@ -6468,8 +6364,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/enrico-marcellino",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/enrico-marcellino",
       "children": 0
     },
     {
@@ -6484,8 +6380,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/fatima-boukrim",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/fatima-boukrim",
       "children": 0
     },
     {
@@ -6500,8 +6396,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/gabe-fitch",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/gabe-fitch",
       "children": 0
     },
     {
@@ -6516,8 +6412,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/geoff-seyon",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/geoff-seyon",
       "children": 0
     },
     {
@@ -6532,8 +6428,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/gini-deshpande",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/gini-deshpande",
       "children": 0
     },
     {
@@ -6548,8 +6444,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/harry-pappas",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/harry-pappas",
       "children": 0
     },
     {
@@ -6564,8 +6460,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/ilya-beda",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/ilya-beda",
       "children": 0
     },
     {
@@ -6580,8 +6476,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/isabella-johnston",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/isabella-johnston",
       "children": 0
     },
     {
@@ -6596,8 +6492,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/jane-gibson",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/jane-gibson",
       "children": 0
     },
     {
@@ -6612,8 +6508,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/jason-palinkas",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/jason-palinkas",
       "children": 0
     },
     {
@@ -6628,8 +6524,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/julio-hernandez",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/julio-hernandez",
       "children": 0
     },
     {
@@ -6644,8 +6540,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/junaid-kalia",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/junaid-kalia",
       "children": 0
     },
     {
@@ -6660,8 +6556,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/kunal-patel",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/kunal-patel",
       "children": 0
     },
     {
@@ -6676,8 +6572,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/maria-hupp",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/maria-hupp",
       "children": 0
     },
     {
@@ -6692,8 +6588,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/mariana-dangiolo",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/mariana-dangiolo",
       "children": 0
     },
     {
@@ -6708,8 +6604,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/marina-sirota",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/marina-sirota",
       "children": 0
     },
     {
@@ -6724,8 +6620,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/mark-malek",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/mark-malek",
       "children": 0
     },
     {
@@ -6740,8 +6636,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/maysoun-douas-maadi",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/maysoun-douas-maadi",
       "children": 0
     },
     {
@@ -6756,8 +6652,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/mike-miller",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/mike-miller",
       "children": 0
     },
     {
@@ -6772,8 +6668,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/minh-nguyen",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/minh-nguyen",
       "children": 0
     },
     {
@@ -6788,8 +6684,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/mubarak-shah",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/mubarak-shah",
       "children": 0
     },
     {
@@ -6804,8 +6700,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/neil-sumaru",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/neil-sumaru",
       "children": 0
     },
     {
@@ -6820,8 +6716,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/neville-calleja",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/neville-calleja",
       "children": 0
     },
     {
@@ -6836,8 +6732,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/rawle-annandsingh",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/rawle-annandsingh",
       "children": 0
     },
     {
@@ -6852,8 +6748,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/rima-arnaout",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/rima-arnaout",
       "children": 0
     },
     {
@@ -6868,8 +6764,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/rob-herzog",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/rob-herzog",
       "children": 0
     },
     {
@@ -6884,8 +6780,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/rob-purinton",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/rob-purinton",
       "children": 0
     },
     {
@@ -6900,8 +6796,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/robert-glover",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/robert-glover",
       "children": 0
     },
     {
@@ -6916,8 +6812,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/robin-williams",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/robin-williams",
       "children": 0
     },
     {
@@ -6932,8 +6828,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/shyamali",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/shyamali",
       "children": 0
     },
     {
@@ -6948,8 +6844,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/stargeo",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/stargeo",
       "children": 0
     },
     {
@@ -6964,8 +6860,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/ted-goldstein",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/ted-goldstein",
       "children": 0
     },
     {
@@ -6980,8 +6876,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/terrence-fullum",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/terrence-fullum",
       "children": 0
     },
     {
@@ -6996,8 +6892,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/vijay-pande",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/vijay-pande",
       "children": 0
     },
     {
@@ -7012,8 +6908,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/yana",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/yana",
       "children": 0
     },
     {
@@ -7028,8 +6924,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEARNING/youness-ouahid-benkaddour",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/youness-ouahid-benkaddour",
       "children": 0
     },
     {
@@ -7044,8 +6940,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/LEDGER/pmwc-2026-submission",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEDGER/pmwc-2026-submission",
       "children": 0
     },
     {
@@ -7065,7 +6961,7 @@
       "learning_count": 31,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/MAGIC/BAKEOFF",
+      "fleet_path": "SERVICES/MAGIC/BAKEOFF",
       "children": 0
     },
     {
@@ -7085,7 +6981,7 @@
       "learning_count": 15,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/MAGIC/RUNPOD",
+      "fleet_path": "SERVICES/MAGIC/RUNPOD",
       "children": 0
     },
     {
@@ -7105,7 +7001,7 @@
       "learning_count": 12,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/MAGIC/VASTAI",
+      "fleet_path": "SERVICES/MAGIC/VASTAI",
       "children": 0
     },
     {
@@ -7120,8 +7016,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/MAGIC/shop",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/MAGIC/shop",
       "children": 0
     },
     {
@@ -7136,8 +7032,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/RESERVES/asset-registry",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/RESERVES/asset-registry",
       "children": 0
     },
     {
@@ -7152,8 +7048,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/RESERVES/data-axioms",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/RESERVES/data-axioms",
       "children": 0
     },
     {
@@ -7168,8 +7064,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/RESERVES/economics",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/RESERVES/economics",
       "children": 0
     },
     {
@@ -7184,8 +7080,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/RESERVES/marketplace",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/RESERVES/marketplace",
       "children": 0
     },
     {
@@ -7200,8 +7096,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/RESERVES/tokenomics",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/RESERVES/tokenomics",
       "children": 0
     },
     {
@@ -7216,8 +7112,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/TALK/fleet-plan",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/TALK/fleet-plan",
       "children": 0
     },
     {
@@ -7232,8 +7128,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "services/USPTO/preflight",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/USPTO/preflight",
       "children": 0
     },
     {
@@ -7249,7 +7145,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/BLANDFORD/shop",
+      "fleet_path": "TALKS/BLANDFORD/shop",
       "children": 0
     },
     {
@@ -7265,7 +7161,23 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/BRYANSTON/shop",
+      "fleet_path": "TALKS/BRYANSTON/shop",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/TALKS/CARIBCHAT/COMMUNITY",
+      "kind": "CONTENT",
+      "label": "COMMUNITY",
+      "repo": "hadleylab-canonic",
+      "path": "TALKS/CARIBCHAT/COMMUNITY",
+      "parent": "hadleylab-canonic/TALKS/CARIBCHAT",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_TALK",
+      "fleet_path": "TALKS/CARIBCHAT/community",
       "children": 0
     },
     {
@@ -7281,7 +7193,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/CARIBCHAT/shop",
+      "fleet_path": "TALKS/CARIBCHAT/shop",
       "children": 0
     },
     {
@@ -7297,7 +7209,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/DEV/shop",
+      "fleet_path": "TALKS/DEV/shop",
       "children": 0
     },
     {
@@ -7313,7 +7225,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/DEV/talk",
+      "fleet_path": "TALKS/DEV/talk",
       "children": 0
     },
     {
@@ -7329,7 +7241,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/FINCHAT/shop",
+      "fleet_path": "TALKS/FINCHAT/shop",
       "children": 0
     },
     {
@@ -7345,7 +7257,23 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/LAWCHAT/shop",
+      "fleet_path": "TALKS/LAWCHAT/shop",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/TALKS/MAMMOCHAT/COMMUNITY",
+      "kind": "CONTENT",
+      "label": "COMMUNITY",
+      "repo": "hadleylab-canonic",
+      "path": "TALKS/MAMMOCHAT/COMMUNITY",
+      "parent": "hadleylab-canonic/TALKS/MAMMOCHAT",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_TALK",
+      "fleet_path": "TALKS/MAMMOCHAT/community",
       "children": 0
     },
     {
@@ -7361,7 +7289,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/MAMMOCHAT/shop",
+      "fleet_path": "TALKS/MAMMOCHAT/shop",
       "children": 0
     },
     {
@@ -7377,7 +7305,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/MEDCHAT/shop",
+      "fleet_path": "TALKS/MEDCHAT/shop",
       "children": 0
     },
     {
@@ -7393,7 +7321,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/NONA/shop",
+      "fleet_path": "TALKS/NONA/shop",
       "children": 0
     },
     {
@@ -7409,7 +7337,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/OMICSCHAT/shop",
+      "fleet_path": "TALKS/OMICSCHAT/shop",
       "children": 0
     },
     {
@@ -7425,7 +7353,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/ONCOCHAT/shop",
+      "fleet_path": "TALKS/ONCOCHAT/shop",
       "children": 0
     },
     {
@@ -7441,7 +7369,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/REALTY/shop",
+      "fleet_path": "TALKS/REALTY/shop",
       "children": 0
     },
     {
@@ -7456,8 +7384,8 @@
       "bits": 255,
       "tier": "FULL",
       "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "talks/RUNNER/shop",
+      "surface_type": "JEKYLL_TALK",
+      "fleet_path": "TALKS/RUNNER/shop",
       "children": 0
     },
     {
@@ -7473,7 +7401,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/SLOANE/shop",
+      "fleet_path": "TALKS/SLOANE/shop",
       "children": 0
     },
     {
@@ -7489,7 +7417,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "talks/VITAE/shop",
+      "fleet_path": "TALKS/VITAE/shop",
       "children": 0
     },
     {
@@ -7505,7 +7433,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/AFSANA/vitae",
+      "fleet_path": "USERS/AFSANA/vitae",
       "children": 0
     },
     {
@@ -7521,7 +7449,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/AFSANA/afsana-akter",
+      "fleet_path": "USERS/AFSANA/afsana-akter",
       "children": 0
     },
     {
@@ -7542,7 +7470,7 @@
       "learning_count": 1,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/AVINASH/CHAT",
+      "fleet_path": "USERS/AVINASH/CHAT",
       "children": 0
     },
     {
@@ -7568,7 +7496,7 @@
       ],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/AVINASH/SERVICES",
+      "fleet_path": "USERS/AVINASH/SERVICES",
       "children": 2
     },
     {
@@ -7584,7 +7512,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/CRAIG/brief",
+      "fleet_path": "USERS/CRAIG/brief",
       "children": 0
     },
     {
@@ -7600,7 +7528,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/CRAIG/vitae",
+      "fleet_path": "USERS/CRAIG/vitae",
       "children": 0
     },
     {
@@ -7616,23 +7544,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/CRAIG/craig-jackson",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/USERS/CRAIG/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "USERS/CRAIG/index",
-      "parent": "hadleylab-canonic/USERS/CRAIG",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/CRAIG/index",
+      "fleet_path": "USERS/CRAIG/craig-jackson",
       "children": 0
     },
     {
@@ -7652,7 +7564,7 @@
       "learning_count": 12,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/FATIMA/CHAT",
+      "fleet_path": "USERS/FATIMA/CHAT",
       "children": 2
     },
     {
@@ -7668,7 +7580,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/FATIMA/vitae",
+      "fleet_path": "USERS/FATIMA/vitae",
       "children": 0
     },
     {
@@ -7684,7 +7596,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/FATIMA/fatima-boukrim",
+      "fleet_path": "USERS/FATIMA/fatima-boukrim",
       "children": 0
     },
     {
@@ -7710,7 +7622,7 @@
       ],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/FATIMA/SERVICES",
+      "fleet_path": "USERS/FATIMA/SERVICES",
       "children": 2
     },
     {
@@ -7729,7 +7641,7 @@
       "intel_summary": "GATE STATUS \u2014 read this to determine mode (deal vs advisory):",
       "learning_count": 1,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/GEOFF/CHAT",
+      "fleet_path": "USERS/GEOFF/CHAT",
       "children": 2
     },
     {
@@ -7746,7 +7658,7 @@
       "missing_dims": [],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/GEOFF/VITAE",
+      "fleet_path": "USERS/GEOFF/VITAE",
       "children": 0
     },
     {
@@ -7767,7 +7679,7 @@
       "learning_count": 1,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/ILYA/CHAT",
+      "fleet_path": "USERS/ILYA/CHAT",
       "children": 0
     },
     {
@@ -7793,7 +7705,7 @@
       ],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/ILYA/SERVICES",
+      "fleet_path": "USERS/ILYA/SERVICES",
       "children": 2
     },
     {
@@ -7814,7 +7726,7 @@
       "learning_count": 1,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/ISABELLA/CHAT",
+      "fleet_path": "USERS/ISABELLA/CHAT",
       "children": 0
     },
     {
@@ -7840,7 +7752,7 @@
       ],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/ISABELLA/SERVICES",
+      "fleet_path": "USERS/ISABELLA/SERVICES",
       "children": 2
     },
     {
@@ -7861,7 +7773,7 @@
       "learning_count": 1,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/JP/CHAT",
+      "fleet_path": "USERS/JP/CHAT",
       "children": 0
     },
     {
@@ -7887,7 +7799,7 @@
       ],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/JP/SERVICES",
+      "fleet_path": "USERS/JP/SERVICES",
       "children": 2
     },
     {
@@ -7908,7 +7820,7 @@
       "learning_count": 1,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/ROBERT/CHAT",
+      "fleet_path": "USERS/ROBERT/CHAT",
       "children": 0
     },
     {
@@ -7934,7 +7846,7 @@
       ],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/ROBERT/SERVICES",
+      "fleet_path": "USERS/ROBERT/SERVICES",
       "children": 2
     },
     {
@@ -7950,7 +7862,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/SARAH/brief",
+      "fleet_path": "USERS/SARAH/brief",
       "children": 0
     },
     {
@@ -7966,23 +7878,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/SARAH/vitae",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/USERS/SARAH/index",
-      "kind": "CONTENT",
-      "label": "INDEX",
-      "repo": "hadleylab-canonic",
-      "path": "USERS/SARAH/index",
-      "parent": "hadleylab-canonic/USERS/SARAH",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/SARAH/index",
+      "fleet_path": "USERS/SARAH/vitae",
       "children": 0
     },
     {
@@ -7998,7 +7894,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/SARAH/sarah-roddy",
+      "fleet_path": "USERS/SARAH/sarah-roddy",
       "children": 0
     },
     {
@@ -8019,7 +7915,7 @@
       "learning_count": 1,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/YANA/CHAT",
+      "fleet_path": "USERS/YANA/CHAT",
       "children": 0
     },
     {
@@ -8045,7 +7941,7 @@
       ],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/YANA/SERVICES",
+      "fleet_path": "USERS/YANA/SERVICES",
       "children": 2
     },
     {
@@ -8061,7 +7957,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/CHAPTERS/00-preface",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/00-preface",
       "children": 0
     },
     {
@@ -8077,7 +7973,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/CHAPTERS/01-signature-lines",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/01-signature-lines",
       "children": 0
     },
     {
@@ -8093,7 +7989,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/CHAPTERS/02-on-data",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/02-on-data",
       "children": 0
     },
     {
@@ -8109,7 +8005,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/CHAPTERS/03-on-open-science",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/03-on-open-science",
       "children": 0
     },
     {
@@ -8125,7 +8021,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/CHAPTERS/04-on-drug-repurposing",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/04-on-drug-repurposing",
       "children": 0
     },
     {
@@ -8141,7 +8037,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/CHAPTERS/05-on-garage-biotech",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/05-on-garage-biotech",
       "children": 0
     },
     {
@@ -8157,7 +8053,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/CHAPTERS/06-on-medicine",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/06-on-medicine",
       "children": 0
     },
     {
@@ -8173,7 +8069,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/CHAPTERS/07-on-ai",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/07-on-ai",
       "children": 0
     },
     {
@@ -8189,7 +8085,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/CHAPTERS/08-personal-stories",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/08-personal-stories",
       "children": 0
     },
     {
@@ -8205,7 +8101,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/CHAPTERS/09-on-mentorship",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/09-on-mentorship",
       "children": 0
     },
     {
@@ -8221,7 +8117,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/CHAPTERS/10-the-man",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/10-the-man",
       "children": 0
     },
     {
@@ -8237,7 +8133,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/CHAPTERS/11-the-numbers",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/11-the-numbers",
       "children": 0
     },
     {
@@ -8253,7 +8149,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/CHAPTERS/12-the-arc",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/12-the-arc",
       "children": 0
     },
     {
@@ -8269,7 +8165,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/CHAPTERS/13-the-clan",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/13-the-clan",
       "children": 0
     },
     {
@@ -8285,7 +8181,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/ATULISMS/CHAPTERS/transitions",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/transitions",
       "children": 0
     },
     {
@@ -8301,7 +8197,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/00-front-matter",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/00-front-matter",
       "children": 0
     },
     {
@@ -8317,7 +8213,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/01-the-problem",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/01-the-problem",
       "children": 0
     },
     {
@@ -8333,7 +8229,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/02-the-insight",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/02-the-insight",
       "children": 0
     },
     {
@@ -8349,7 +8245,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/03-the-standard",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/03-the-standard",
       "children": 0
     },
     {
@@ -8365,7 +8261,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/04-intel-what-you-know",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/04-intel-what-you-know",
       "children": 0
     },
     {
@@ -8381,7 +8277,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/05-chat-what-you-say",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/05-chat-what-you-say",
       "children": 0
     },
     {
@@ -8397,7 +8293,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/06-coin-what-you-earn",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/06-coin-what-you-earn",
       "children": 0
     },
     {
@@ -8413,7 +8309,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/07-the-triad",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/07-the-triad",
       "children": 0
     },
     {
@@ -8429,7 +8325,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/08-inheritance",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/08-inheritance",
       "children": 0
     },
     {
@@ -8445,7 +8341,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/09-the-galaxy",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/09-the-galaxy",
       "children": 0
     },
     {
@@ -8461,7 +8357,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/10-certification",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/10-certification",
       "children": 0
     },
     {
@@ -8477,7 +8373,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/11-code-evolution-theory",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/11-code-evolution-theory",
       "children": 0
     },
     {
@@ -8493,7 +8389,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/12-the-neutral-theory",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/12-the-neutral-theory",
       "children": 0
     },
     {
@@ -8509,7 +8405,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/13-evolutionary-phylogenetics",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/13-evolutionary-phylogenetics",
       "children": 0
     },
     {
@@ -8525,7 +8421,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/14-learning-and-emergence",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/14-learning-and-emergence",
       "children": 0
     },
     {
@@ -8541,7 +8437,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/15-why-compliance-fails",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/15-why-compliance-fails",
       "children": 0
     },
     {
@@ -8557,7 +8453,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/16-hipaa",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/16-hipaa",
       "children": 0
     },
     {
@@ -8573,7 +8469,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/17-gdpr",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/17-gdpr",
       "children": 0
     },
     {
@@ -8589,7 +8485,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/18-sox-and-financial-compliance",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/18-sox-and-financial-compliance",
       "children": 0
     },
     {
@@ -8605,7 +8501,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/19-fda-21-cfr-part-11",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/19-fda-21-cfr-part-11",
       "children": 0
     },
     {
@@ -8621,7 +8517,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/20-hitrust-csf",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/20-hitrust-csf",
       "children": 0
     },
     {
@@ -8637,7 +8533,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/21-the-compliance-matrix",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/21-the-compliance-matrix",
       "children": 0
     },
     {
@@ -8653,7 +8549,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/22-medicine",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/22-medicine",
       "children": 0
     },
     {
@@ -8669,7 +8565,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/23-law",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/23-law",
       "children": 0
     },
     {
@@ -8685,7 +8581,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/24-finance",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/24-finance",
       "children": 0
     },
     {
@@ -8701,7 +8597,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/25-real-estate",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/25-real-estate",
       "children": 0
     },
     {
@@ -8717,7 +8613,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/26-defense-and-security",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/26-defense-and-security",
       "children": 0
     },
     {
@@ -8733,7 +8629,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/27-the-thirteen-sectors",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/27-the-thirteen-sectors",
       "children": 0
     },
     {
@@ -8749,7 +8645,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/28-coin-work",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/28-coin-work",
       "children": 0
     },
     {
@@ -8765,7 +8661,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/29-gradient-minting",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/29-gradient-minting",
       "children": 0
     },
     {
@@ -8781,7 +8677,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/30-the-shop",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/30-the-shop",
       "children": 0
     },
     {
@@ -8797,7 +8693,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/31-enterprise",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/31-enterprise",
       "children": 0
     },
     {
@@ -8813,7 +8709,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/32-hadleylab-the-laboratory",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/32-hadleylab-the-laboratory",
       "children": 0
     },
     {
@@ -8829,7 +8725,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/33-mammochat",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/33-mammochat",
       "children": 0
     },
     {
@@ -8845,7 +8741,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/34-oncochat",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/34-oncochat",
       "children": 0
     },
     {
@@ -8861,7 +8757,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/35-medchat",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/35-medchat",
       "children": 0
     },
     {
@@ -8877,7 +8773,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/36-lawchat",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/36-lawchat",
       "children": 0
     },
     {
@@ -8893,7 +8789,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/37-finchat",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/37-finchat",
       "children": 0
     },
     {
@@ -8909,7 +8805,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/38-the-chat-fleet",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/38-the-chat-fleet",
       "children": 0
     },
     {
@@ -8925,7 +8821,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/39-atulisms",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/39-atulisms",
       "children": 0
     },
     {
@@ -8941,7 +8837,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-CANON/CHAPTERS/40-the-molecular-clock",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/40-the-molecular-clock",
       "children": 0
     },
     {
@@ -8957,7 +8853,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/00-front-matter",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/00-front-matter",
       "children": 0
     },
     {
@@ -8973,7 +8869,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/01-the-axiom",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/01-the-axiom",
       "children": 0
     },
     {
@@ -8989,7 +8885,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/02-the-triad",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/02-the-triad",
       "children": 0
     },
     {
@@ -9005,7 +8901,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/03-the-inheritance-chain",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/03-the-inheritance-chain",
       "children": 0
     },
     {
@@ -9021,7 +8917,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/04-the-eight-dimensions",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/04-the-eight-dimensions",
       "children": 0
     },
     {
@@ -9037,7 +8933,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/05-your-first-255",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/05-your-first-255",
       "children": 0
     },
     {
@@ -9053,7 +8949,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/06-building-a-scope",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/06-building-a-scope",
       "children": 0
     },
     {
@@ -9069,7 +8965,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/07-building-a-service",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/07-building-a-service",
       "children": 0
     },
     {
@@ -9085,7 +8981,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/08-building-a-product",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/08-building-a-product",
       "children": 0
     },
     {
@@ -9101,7 +8997,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/09-composition-and-federation",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/09-composition-and-federation",
       "children": 0
     },
     {
@@ -9117,7 +9013,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/10-learning",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/10-learning",
       "children": 0
     },
     {
@@ -9133,7 +9029,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/11-talk",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/11-talk",
       "children": 0
     },
     {
@@ -9149,7 +9045,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/12-shop",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/12-shop",
       "children": 0
     },
     {
@@ -9165,7 +9061,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/13-ledger",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/13-ledger",
       "children": 0
     },
     {
@@ -9181,7 +9077,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/14-wallet",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/14-wallet",
       "children": 0
     },
     {
@@ -9197,7 +9093,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/15-vault",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/15-vault",
       "children": 0
     },
     {
@@ -9213,7 +9109,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/16-api",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/16-api",
       "children": 0
     },
     {
@@ -9229,7 +9125,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/17-chain",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/17-chain",
       "children": 0
     },
     {
@@ -9245,7 +9141,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/18-mint",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/18-mint",
       "children": 0
     },
     {
@@ -9261,7 +9157,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/19-identity",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/19-identity",
       "children": 0
     },
     {
@@ -9277,7 +9173,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/20-contribute",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/20-contribute",
       "children": 0
     },
     {
@@ -9293,7 +9189,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/21-notifier",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/21-notifier",
       "children": 0
     },
     {
@@ -9309,7 +9205,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/22-monitoring",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/22-monitoring",
       "children": 0
     },
     {
@@ -9325,7 +9221,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/23-deploy",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/23-deploy",
       "children": 0
     },
     {
@@ -9341,7 +9237,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/24-cross-axiomatic-validation",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/24-cross-axiomatic-validation",
       "children": 0
     },
     {
@@ -9357,7 +9253,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/25-contextual-agents",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/25-contextual-agents",
       "children": 0
     },
     {
@@ -9373,7 +9269,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/26-the-generated-contract",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/26-the-generated-contract",
       "children": 0
     },
     {
@@ -9389,7 +9285,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/27-scope-intelligence",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/27-scope-intelligence",
       "children": 0
     },
     {
@@ -9405,7 +9301,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/28-the-naming-convention",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/28-the-naming-convention",
       "children": 0
     },
     {
@@ -9421,7 +9317,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/29-design-tokens",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/29-design-tokens",
       "children": 0
     },
     {
@@ -9437,7 +9333,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/30-the-chat-layer",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/30-the-chat-layer",
       "children": 0
     },
     {
@@ -9453,7 +9349,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/31-the-galaxy-visualization",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/31-the-galaxy-visualization",
       "children": 0
     },
     {
@@ -9469,7 +9365,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/32-coin-and-the-wallet",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/32-coin-and-the-wallet",
       "children": 0
     },
     {
@@ -9485,7 +9381,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/33-gradient-minting",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/33-gradient-minting",
       "children": 0
     },
     {
@@ -9501,7 +9397,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/34-the-shop",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/34-the-shop",
       "children": 0
     },
     {
@@ -9517,7 +9413,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/35-costbasis-and-pricing",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/35-costbasis-and-pricing",
       "children": 0
     },
     {
@@ -9533,7 +9429,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/36-governance-as-type-system",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/36-governance-as-type-system",
       "children": 0
     },
     {
@@ -9549,7 +9445,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/37-governance-as-compiler",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/37-governance-as-compiler",
       "children": 0
     },
     {
@@ -9565,7 +9461,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/38-governance-as-version-control",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/38-governance-as-version-control",
       "children": 0
     },
     {
@@ -9581,7 +9477,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/39-the-learning-closure",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/39-the-learning-closure",
       "children": 0
     },
     {
@@ -9597,7 +9493,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/40-why-every-language-needed-governance",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/40-why-every-language-needed-governance",
       "children": 0
     },
     {
@@ -9613,7 +9509,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/41-overview",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/41-overview",
       "children": 0
     },
     {
@@ -9629,7 +9525,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/42-magic",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/42-magic",
       "children": 0
     },
     {
@@ -9645,7 +9541,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/43-magic-heal",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/43-magic-heal",
       "children": 0
     },
     {
@@ -9661,7 +9557,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/44-build",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/44-build",
       "children": 0
     },
     {
@@ -9677,7 +9573,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/45-validation-errors-and-healing",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/45-validation-errors-and-healing",
       "children": 0
     },
     {
@@ -9693,7 +9589,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/46-the-build-pipeline",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/46-the-build-pipeline",
       "children": 0
     },
     {
@@ -9709,7 +9605,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/47-advanced-tools",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/47-advanced-tools",
       "children": 0
     },
     {
@@ -9725,7 +9621,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/48-the-closure-canonic-against-all-of-programming",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/48-the-closure-canonic-against-all-of-programming",
       "children": 0
     },
     {
@@ -9741,7 +9637,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "books/CANONIC-DOCTRINE/CHAPTERS/49-back-matter",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/49-back-matter",
       "children": 0
     },
     {
@@ -9760,7 +9656,7 @@
       "roadmap_now": "Stabilize Healthcare AI learning corpus \u2014 evidence-linked discoveries for ATOM Advantage 98.5% accur",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/AVINASH/SERVICES/LEARNING",
+      "fleet_path": "USERS/AVINASH/SERVICES/LEARNING",
       "children": 0
     },
     {
@@ -9779,7 +9675,7 @@
       "roadmap_now": "Compile AVINASH public projection aggregate \u2014 discover all AVINASH/**/SHOP.md files",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/AVINASH/SERVICES/SHOP",
+      "fleet_path": "USERS/AVINASH/SERVICES/SHOP",
       "children": 0
     },
     {
@@ -9795,7 +9691,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/FATIMA/CHAT/governor-appointment",
+      "fleet_path": "USERS/FATIMA/CHAT/governor-appointment",
       "children": 0
     },
     {
@@ -9811,7 +9707,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/FATIMA/CHAT/nda",
+      "fleet_path": "USERS/FATIMA/CHAT/nda",
       "children": 0
     },
     {
@@ -9830,7 +9726,7 @@
       "roadmap_now": "Stabilize IP governance learning corpus \u2014 Madrid Protocol filing patterns, IHI Call 12 consortium ev",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/FATIMA/SERVICES/LEARNING",
+      "fleet_path": "USERS/FATIMA/SERVICES/LEARNING",
       "children": 0
     },
     {
@@ -9849,7 +9745,7 @@
       "roadmap_now": "Compile FATIMA public projection aggregate \u2014 discover all FATIMA/**/SHOP.md files",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/FATIMA/SERVICES/SHOP",
+      "fleet_path": "USERS/FATIMA/SERVICES/SHOP",
       "children": 0
     },
     {
@@ -9865,7 +9761,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/GEOFF/CHAT/advisory-appointment",
+      "fleet_path": "USERS/GEOFF/CHAT/advisory-appointment",
       "children": 0
     },
     {
@@ -9881,7 +9777,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/GEOFF/CHAT/nda",
+      "fleet_path": "USERS/GEOFF/CHAT/nda",
       "children": 0
     },
     {
@@ -9900,7 +9796,7 @@
       "roadmap_now": "Stabilize FHIR LEARNING corpus \u2014 evidence-linked discoveries for interoperability patterns",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/ILYA/SERVICES/LEARNING",
+      "fleet_path": "USERS/ILYA/SERVICES/LEARNING",
       "children": 0
     },
     {
@@ -9919,7 +9815,7 @@
       "roadmap_now": "Compile ILYA public projection aggregate \u2014 discover all ILYA/**/SHOP.md files",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/ILYA/SERVICES/SHOP",
+      "fleet_path": "USERS/ILYA/SERVICES/SHOP",
       "children": 0
     },
     {
@@ -9938,7 +9834,7 @@
       "roadmap_now": "Stabilize Deal Flow LEARNING corpus \u2014 evidence-linked discoveries for pipeline metrics",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/ISABELLA/SERVICES/LEARNING",
+      "fleet_path": "USERS/ISABELLA/SERVICES/LEARNING",
       "children": 0
     },
     {
@@ -9957,7 +9853,7 @@
       "roadmap_now": "Compile ISABELLA public projection aggregate \u2014 discover all ISABELLA/**/SHOP.md files",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/ISABELLA/SERVICES/SHOP",
+      "fleet_path": "USERS/ISABELLA/SERVICES/SHOP",
       "children": 0
     },
     {
@@ -9976,7 +9872,7 @@
       "roadmap_now": "Stabilize Real Estate LEARNING corpus \u2014 evidence-linked property discoveries traced to county record",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/JP/SERVICES/LEARNING",
+      "fleet_path": "USERS/JP/SERVICES/LEARNING",
       "children": 0
     },
     {
@@ -9995,7 +9891,7 @@
       "roadmap_now": "Compile JP public projection aggregate \u2014 discover all JP/**/SHOP.md files",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/JP/SERVICES/SHOP",
+      "fleet_path": "USERS/JP/SERVICES/SHOP",
       "children": 0
     },
     {
@@ -10014,7 +9910,7 @@
       "roadmap_now": "Stabilize real estate LEARNING corpus \u2014 evidence-linked discoveries for Lake Nona market patterns",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/ROBERT/SERVICES/LEARNING",
+      "fleet_path": "USERS/ROBERT/SERVICES/LEARNING",
       "children": 0
     },
     {
@@ -10033,7 +9929,7 @@
       "roadmap_now": "Compile ROBERT public projection aggregate \u2014 discover all ROBERT/**/SHOP.md files",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/ROBERT/SERVICES/SHOP",
+      "fleet_path": "USERS/ROBERT/SERVICES/SHOP",
       "children": 0
     },
     {
@@ -10052,7 +9948,7 @@
       "roadmap_now": "Stabilize Apple surfaces LEARNING corpus \u2014 evidence-linked discoveries for Passkey integration patte",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/YANA/SERVICES/LEARNING",
+      "fleet_path": "USERS/YANA/SERVICES/LEARNING",
       "children": 0
     },
     {
@@ -10071,29 +9967,8 @@
       "roadmap_now": "Compile YANA public projection aggregate \u2014 discover all YANA/**/SHOP.md files",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users/YANA/SERVICES/SHOP",
+      "fleet_path": "USERS/YANA/SERVICES/SHOP",
       "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC",
-      "kind": "SCOPE",
-      "label": "MAGIC",
-      "repo": "canonic-canonic",
-      "path": "MAGIC",
-      "parent": "canonic-canonic",
-      "category": "RUNTIME",
-      "color": "#00ff88",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**INTEL \u2014 what you KNOW. The orchestrator. Every service wires INTEL.**",
-      "roadmap_now": "MAGIC 255/255 \u2014 Full governance compliance across all 9 domains",
-      "learning_count": 373,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "magic",
-      "children": 12
     },
     {
       "id": "canonic-canonic",
@@ -10113,7 +9988,28 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
-      "children": 6
+      "children": 5
+    },
+    {
+      "id": "canonic-canonic/MAGIC",
+      "kind": "SCOPE",
+      "label": "MAGIC",
+      "repo": "canonic-canonic",
+      "path": "MAGIC",
+      "parent": "canonic-canonic",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**INTEL \u2014 what you KNOW. The orchestrator. Every service wires INTEL.**",
+      "roadmap_now": "MAGIC 255/255 \u2014 Full governance compliance across all 9 domains",
+      "learning_count": 373,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC",
+      "children": 11
     },
     {
       "id": "canonic-canonic/MAGIC/SERVICES/LEARNING",
@@ -10131,7 +10027,7 @@
       "roadmap_now": "Govern INTEL\u2192LEARNING primitive-to-service mapping across all scopes",
       "learning_count": 13,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "magic/services/learning",
+      "fleet_path": "MAGIC/SERVICES/LEARNING",
       "children": 0
     }
   ],
@@ -10284,6 +10180,11 @@
     {
       "kind": "INHERITS",
       "from": "hadleylab-canonic/DECKS/RUNNER-CHAIN",
+      "to": "hadleylab-canonic/SERVICES/DECK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DECKS/STRONG-HER",
       "to": "hadleylab-canonic/SERVICES/DECK"
     },
     {
@@ -10974,6 +10875,11 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/RUNNER-CHAIN",
+      "to": "hadleylab-canonic/DECKS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DECKS/STRONG-HER",
       "to": "hadleylab-canonic/DECKS"
     },
     {
@@ -12578,6 +12484,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/CAMPAIGNS/AIMED-2026",
+      "to": "hadleylab-canonic/CAMPAIGNS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/CAMPAIGNS/ALPHAGO-AT-10",
       "to": "hadleylab-canonic/CAMPAIGNS"
     },
@@ -12653,11 +12564,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/index",
-      "to": "hadleylab-canonic"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/CHARTER/BOARD/BYLAWS",
       "to": "hadleylab-canonic/CHARTER/BOARD"
     },
@@ -12698,11 +12604,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/BAKEOFF/index",
-      "to": "hadleylab-canonic/DEALS/BAKEOFF"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/DEALS/CAOH/BUSINESS-PLAN",
       "to": "hadleylab-canonic/DEALS/CAOH"
     },
@@ -12720,16 +12621,6 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/DEALS/EXCELLENTING/WORK-TALK-ONCONEX",
       "to": "hadleylab-canonic/DEALS/EXCELLENTING"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/EXCELLENTING/index",
-      "to": "hadleylab-canonic/DEALS/EXCELLENTING"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB/index",
-      "to": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB"
     },
     {
       "kind": "PARENT",
@@ -12753,22 +12644,7 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/index",
-      "to": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/OC-MAMMOCHAT/index",
-      "to": "hadleylab-canonic/DEALS/OC-MAMMOCHAT"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/DEALS/RUNNER-CHAIN/WORK-TALK-MIKE",
-      "to": "hadleylab-canonic/DEALS/RUNNER-CHAIN"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/RUNNER-CHAIN/index",
       "to": "hadleylab-canonic/DEALS/RUNNER-CHAIN"
     },
     {
@@ -12808,8 +12684,8 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/DECKS/RUNNER-CHAIN/index",
-      "to": "hadleylab-canonic/DECKS/RUNNER-CHAIN"
+      "from": "hadleylab-canonic/DECKS/STRONG-HER/DECK",
+      "to": "hadleylab-canonic/DECKS/STRONG-HER"
     },
     {
       "kind": "PARENT",
@@ -12964,11 +12840,6 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/DEV/DASHBOARD",
-      "to": "hadleylab-canonic/SERVICES/DEV"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SERVICES/DEV/index",
       "to": "hadleylab-canonic/SERVICES/DEV"
     },
     {
@@ -13383,8 +13254,8 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/TALKS/index",
-      "to": "hadleylab-canonic/TALKS"
+      "from": "hadleylab-canonic/TALKS/CARIBCHAT/COMMUNITY",
+      "to": "hadleylab-canonic/TALKS/CARIBCHAT"
     },
     {
       "kind": "PARENT",
@@ -13410,6 +13281,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/TALKS/LAWCHAT/SHOP",
       "to": "hadleylab-canonic/TALKS/LAWCHAT"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/TALKS/MAMMOCHAT/COMMUNITY",
+      "to": "hadleylab-canonic/TALKS/MAMMOCHAT"
     },
     {
       "kind": "PARENT",
@@ -13483,11 +13359,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/USERS/CRAIG/index",
-      "to": "hadleylab-canonic/USERS/CRAIG"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/USERS/FATIMA/VITAE",
       "to": "hadleylab-canonic/USERS/FATIMA"
     },
@@ -13524,11 +13395,6 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/USERS/SARAH/VITAE",
-      "to": "hadleylab-canonic/USERS/SARAH"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/USERS/SARAH/index",
       "to": "hadleylab-canonic/USERS/SARAH"
     },
     {

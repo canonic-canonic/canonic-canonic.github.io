@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "GENOMICS"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/genomics/genomics.pdf
+pdf: /INDUSTRIES/VERTICALS/GENOMICS/genomics.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/genomics/genomics.pdf"
+    href: "/INDUSTRIES/VERTICALS/GENOMICS/genomics.pdf"
 hero:
   badge: GENOMICS
   title: "GENOMICS"
   description: "Example"
   cta:
     - label: "Open GENOMICS"
-      href: /industries/verticals/genomics/
+      href: /INDUSTRIES/VERTICALS/GENOMICS/
       class: btn-secondary
       talk: true
 ---

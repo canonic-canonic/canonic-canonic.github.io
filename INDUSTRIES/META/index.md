@@ -6,22 +6,21 @@ description: ""
 footerTagline: "META"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/meta/meta.pdf
+pdf: /INDUSTRIES/META/meta.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/meta/meta.pdf"
+    href: "/INDUSTRIES/META/meta.pdf"
 hero:
   badge: META
   title: "META"
   description: ""
   cta:
     - label: "Open META"
-      href: /industries/meta/
+      href: /INDUSTRIES/META/
       class: btn-secondary
       talk: true
 ---

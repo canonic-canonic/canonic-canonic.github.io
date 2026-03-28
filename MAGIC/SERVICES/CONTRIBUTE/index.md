@@ -6,22 +6,21 @@ description: "CONTRIBUTE is WORK recorded. Every contribution ledgered. Every WO
 footerTagline: "CONTRIBUTE"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/services/contribute/contribute.pdf
+pdf: /MAGIC/SERVICES/CONTRIBUTE/contribute.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/services/contribute/contribute.pdf"
+    href: "/MAGIC/SERVICES/CONTRIBUTE/contribute.pdf"
 hero:
   badge: CONTRIBUTE
   title: "CONTRIBUTE"
   description: "CONTRIBUTE is WORK recorded. Every contribution ledgered. Every WORK mints COIN."
   cta:
     - label: "Open CONTRIBUTE"
-      href: /magic/services/contribute/
+      href: /MAGIC/SERVICES/CONTRIBUTE/
       class: btn-secondary
       talk: true
 ---

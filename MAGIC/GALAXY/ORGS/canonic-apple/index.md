@@ -6,22 +6,21 @@ description: "Apple platform integration. iOS and macOS SURFACE client."
 footerTagline: "canonic-apple"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/galaxy/orgs/canonic-apple/canonic-apple.pdf
+pdf: /MAGIC/GALAXY/ORGS/canonic-apple/canonic-apple.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/galaxy/orgs/canonic-apple/canonic-apple.pdf"
+    href: "/MAGIC/GALAXY/ORGS/canonic-apple/canonic-apple.pdf"
 hero:
   badge: canonic-apple
   title: "canonic-apple"
   description: "Apple platform integration. iOS and macOS SURFACE client."
   cta:
     - label: "Open canonic-apple"
-      href: /magic/galaxy/orgs/canonic-apple/
+      href: /MAGIC/GALAXY/ORGS/canonic-apple/
       class: btn-secondary
       talk: true
 ---

@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "AUTOMOTIVE"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/automotive/automotive.pdf
+pdf: /INDUSTRIES/VERTICALS/AUTOMOTIVE/automotive.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/automotive/automotive.pdf"
+    href: "/INDUSTRIES/VERTICALS/AUTOMOTIVE/automotive.pdf"
 hero:
   badge: AUTOMOTIVE
   title: "AUTOMOTIVE"
   description: "Example"
   cta:
     - label: "Open AUTOMOTIVE"
-      href: /industries/verticals/automotive/
+      href: /INDUSTRIES/VERTICALS/AUTOMOTIVE/
       class: btn-secondary
       talk: true
 ---

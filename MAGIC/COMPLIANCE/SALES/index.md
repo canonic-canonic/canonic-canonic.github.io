@@ -6,22 +6,21 @@ description: "CHAT about MAGIC. How MAGIC talks to buyers."
 footerTagline: "SALES"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/compliance/sales/sales.pdf
+pdf: /MAGIC/COMPLIANCE/SALES/sales.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/compliance/sales/sales.pdf"
+    href: "/MAGIC/COMPLIANCE/SALES/sales.pdf"
 hero:
   badge: SALES
   title: "SALES"
   description: "CHAT about MAGIC. How MAGIC talks to buyers."
   cta:
     - label: "Open SALES"
-      href: /magic/compliance/sales/
+      href: /MAGIC/COMPLIANCE/SALES/
       class: btn-secondary
       talk: true
 ---

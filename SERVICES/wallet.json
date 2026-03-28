@@ -9,7 +9,7 @@
     "events": 0,
     "balance": 0,
     "last_close": "",
-    "updated_at": "2026-03-15T19:44:41.971960Z",
+    "updated_at": "2026-03-28T03:55:52.305145Z",
     "totals": {
       "SALE": 0,
       "DONATION": 0,
@@ -26,6 +26,6 @@
   "service": "SERVICES/COIN",
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/WALLET.md",
-    "rule": "edit the contract or compiler \u2014 not this file"
+    "rule": "edit the contract or compiler — not this file"
   }
 }

@@ -6,22 +6,21 @@ description: "BOOKS are governed long-form artifacts. Each book IS a scope with 
 footerTagline: "BOOKS"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/surface/jekyll/books/books.pdf
+pdf: /MAGIC/SURFACE/JEKYLL/BOOKS/books.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/surface/jekyll/books/books.pdf"
+    href: "/MAGIC/SURFACE/JEKYLL/BOOKS/books.pdf"
 hero:
   badge: BOOKS
   title: "BOOKS"
   description: "BOOKS are governed long-form artifacts. Each book IS a scope with PARTS and CHAPTERS."
   cta:
     - label: "Open BOOKS"
-      href: /magic/surface/jekyll/books/
+      href: /MAGIC/SURFACE/JEKYLL/BOOKS/
       class: btn-secondary
       talk: true
 ---

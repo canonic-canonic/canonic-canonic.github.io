@@ -6,22 +6,21 @@ description: "WALLET is the per-USER economic identity. Every USER has one. Ever
 footerTagline: "WALLET"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/services/wallet/wallet.pdf
+pdf: /MAGIC/SERVICES/WALLET/wallet.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/services/wallet/wallet.pdf"
+    href: "/MAGIC/SERVICES/WALLET/wallet.pdf"
 hero:
   badge: WALLET
   title: "WALLET"
   description: "WALLET is the per-USER economic identity. Every USER has one. Every COIN lives in one."
   cta:
     - label: "Open WALLET"
-      href: /magic/services/wallet/
+      href: /MAGIC/SERVICES/WALLET/
       class: btn-secondary
       talk: true
 ---

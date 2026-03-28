@@ -6,22 +6,21 @@ description: "Pre-schism Christianity. The first three ecumenical councils (Nica
 footerTagline: "ancient"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/religion/christianity/ancient/ancient.pdf
+pdf: /INDUSTRIES/VERTICALS/RELIGION/christianity/ancient/ancient.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/religion/christianity/ancient/ancient.pdf"
+    href: "/INDUSTRIES/VERTICALS/RELIGION/christianity/ancient/ancient.pdf"
 hero:
   badge: ancient
   title: "ancient"
   description: "Pre-schism Christianity. The first three ecumenical councils (Nicaea 325, Constantinople 381, Ephesus 431) define branches that predate Catholic-Orthodox (1054) and Protestant (1517) divisions."
   cta:
     - label: "Open ancient"
-      href: /industries/verticals/religion/christianity/ancient/
+      href: /INDUSTRIES/VERTICALS/RELIGION/christianity/ancient/
       class: btn-secondary
       talk: true
 ---

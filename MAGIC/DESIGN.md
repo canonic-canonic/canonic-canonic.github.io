@@ -90,6 +90,40 @@ MUST NOT: Use SCREAMING_CASE for content leaves or external identifiers
 MUST NOT: Use snake_case for data fields — camelCase is the single convention
 ```
 
+## Privacy Boundary
+
+Directories and files excluded from public fleet surfaces. Governance internals, not content.
+
+```
+SERVICES/
+CHARTER/
+DEALS/
+GRANTS/
+FINANCIALS/
+USERS/
+DECKS/
+CAMPAIGNS/
+CLINICAL/
+_data/
+irbs/
+plugins/
+timeline/
+econ.json
+```
+
+## Content Lanes
+
+Top-level directories managed by catalog emitters. GC must not delete these; their children are compiled by catalog emitters, not the scope walker.
+
+```
+BLOGS
+PAPERS
+BOOKS
+DECKS
+DEXTER
+vitae
+```
+
 ---
 
 ## Constraints

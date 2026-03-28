@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "AEROSPACE"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/aerospace/aerospace.pdf
+pdf: /INDUSTRIES/VERTICALS/AEROSPACE/aerospace.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/aerospace/aerospace.pdf"
+    href: "/INDUSTRIES/VERTICALS/AEROSPACE/aerospace.pdf"
 hero:
   badge: AEROSPACE
   title: "AEROSPACE"
   description: "Example"
   cta:
     - label: "Open AEROSPACE"
-      href: /industries/verticals/aerospace/
+      href: /INDUSTRIES/VERTICALS/AEROSPACE/
       class: btn-secondary
       talk: true
 ---

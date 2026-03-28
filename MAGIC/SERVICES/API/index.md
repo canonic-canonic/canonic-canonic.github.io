@@ -6,22 +6,21 @@ description: "API is the network surface for COIN. Every endpoint authenticated.
 footerTagline: "API"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/services/api/api.pdf
+pdf: /MAGIC/SERVICES/API/api.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/services/api/api.pdf"
+    href: "/MAGIC/SERVICES/API/api.pdf"
 hero:
   badge: API
   title: "API"
   description: "API is the network surface for COIN. Every endpoint authenticated. Every response governed."
   cta:
     - label: "Open API"
-      href: /magic/services/api/
+      href: /MAGIC/SERVICES/API/
       class: btn-secondary
       talk: true
 ---

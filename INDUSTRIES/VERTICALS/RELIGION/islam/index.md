@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "islam"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/religion/islam/islam.pdf
+pdf: /INDUSTRIES/VERTICALS/RELIGION/islam/islam.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/religion/islam/islam.pdf"
+    href: "/INDUSTRIES/VERTICALS/RELIGION/islam/islam.pdf"
 hero:
   badge: islam
   title: "islam"
   description: "Example"
   cta:
     - label: "Open islam"
-      href: /industries/verticals/religion/islam/
+      href: /INDUSTRIES/VERTICALS/RELIGION/islam/
       class: btn-secondary
       talk: true
 ---

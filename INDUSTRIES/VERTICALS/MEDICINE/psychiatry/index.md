@@ -6,22 +6,21 @@ description: ""
 footerTagline: "psychiatry"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/medicine/psychiatry/psychiatry.pdf
+pdf: /INDUSTRIES/VERTICALS/MEDICINE/psychiatry/psychiatry.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/medicine/psychiatry/psychiatry.pdf"
+    href: "/INDUSTRIES/VERTICALS/MEDICINE/psychiatry/psychiatry.pdf"
 hero:
   badge: psychiatry
   title: "psychiatry"
   description: ""
   cta:
     - label: "Open psychiatry"
-      href: /industries/verticals/medicine/psychiatry/
+      href: /INDUSTRIES/VERTICALS/MEDICINE/psychiatry/
       class: btn-secondary
       talk: true
 ---

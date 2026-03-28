@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "REAL_ESTATE"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/real_estate/real_estate.pdf
+pdf: /INDUSTRIES/VERTICALS/REAL_ESTATE/real_estate.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/real_estate/real_estate.pdf"
+    href: "/INDUSTRIES/VERTICALS/REAL_ESTATE/real_estate.pdf"
 hero:
   badge: REAL_ESTATE
   title: "REAL_ESTATE"
   description: "Example"
   cta:
     - label: "Open REAL_ESTATE"
-      href: /industries/verticals/real_estate/
+      href: /INDUSTRIES/VERTICALS/REAL_ESTATE/
       class: btn-secondary
       talk: true
 ---

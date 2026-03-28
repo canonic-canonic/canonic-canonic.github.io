@@ -6,22 +6,21 @@ description: ""
 footerTagline: "oncology"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/medicine/oncology/oncology.pdf
+pdf: /INDUSTRIES/VERTICALS/MEDICINE/oncology/oncology.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/medicine/oncology/oncology.pdf"
+    href: "/INDUSTRIES/VERTICALS/MEDICINE/oncology/oncology.pdf"
 hero:
   badge: oncology
   title: "oncology"
   description: ""
   cta:
     - label: "Open oncology"
-      href: /industries/verticals/medicine/oncology/
+      href: /INDUSTRIES/VERTICALS/MEDICINE/oncology/
       class: btn-secondary
       talk: true
 ---

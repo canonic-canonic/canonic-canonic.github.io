@@ -6,22 +6,21 @@ description: "USERS are GitHub identities projected into ORGs."
 footerTagline: "USERS"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/galaxy/users/users.pdf
+pdf: /MAGIC/GALAXY/USERS/users.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/galaxy/users/users.pdf"
+    href: "/MAGIC/GALAXY/USERS/users.pdf"
 hero:
   badge: USERS
   title: "USERS"
   description: "USERS are GitHub identities projected into ORGs."
   cta:
     - label: "Open USERS"
-      href: /magic/galaxy/users/
+      href: /MAGIC/GALAXY/USERS/
       class: btn-secondary
       talk: true
 ---

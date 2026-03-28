@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "LOGISTICS"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/logistics/logistics.pdf
+pdf: /INDUSTRIES/VERTICALS/LOGISTICS/logistics.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/logistics/logistics.pdf"
+    href: "/INDUSTRIES/VERTICALS/LOGISTICS/logistics.pdf"
 hero:
   badge: LOGISTICS
   title: "LOGISTICS"
   description: "Example"
   cta:
     - label: "Open LOGISTICS"
-      href: /industries/verticals/logistics/
+      href: /INDUSTRIES/VERTICALS/LOGISTICS/
       class: btn-secondary
       talk: true
 ---

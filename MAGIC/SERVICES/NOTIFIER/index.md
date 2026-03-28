@@ -6,22 +6,21 @@ description: "NOTIFIER is NOTIFY + INTEL composed. Scope determines the route. L
 footerTagline: "NOTIFIER"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/services/notifier/notifier.pdf
+pdf: /MAGIC/SERVICES/NOTIFIER/notifier.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/services/notifier/notifier.pdf"
+    href: "/MAGIC/SERVICES/NOTIFIER/notifier.pdf"
 hero:
   badge: NOTIFIER
   title: "NOTIFIER"
   description: "NOTIFIER is NOTIFY + INTEL composed. Scope determines the route. Ledger determines the proof."
   cta:
     - label: "Open NOTIFIER"
-      href: /magic/services/notifier/
+      href: /MAGIC/SERVICES/NOTIFIER/
       class: btn-secondary
       talk: true
 ---

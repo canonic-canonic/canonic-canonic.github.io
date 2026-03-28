@@ -6,22 +6,21 @@ description: "Example"
 footerTagline: "catholic"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /industries/verticals/religion/christianity/catholic/catholic.pdf
+pdf: /INDUSTRIES/VERTICALS/RELIGION/christianity/catholic/catholic.pdf
 downloads:
   - label: "PDF"
-    href: "/industries/verticals/religion/christianity/catholic/catholic.pdf"
+    href: "/INDUSTRIES/VERTICALS/RELIGION/christianity/catholic/catholic.pdf"
 hero:
   badge: catholic
   title: "catholic"
   description: "Example"
   cta:
     - label: "Open catholic"
-      href: /industries/verticals/religion/christianity/catholic/
+      href: /INDUSTRIES/VERTICALS/RELIGION/christianity/catholic/
       class: btn-secondary
       talk: true
 ---

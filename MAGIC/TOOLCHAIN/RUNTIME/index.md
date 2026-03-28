@@ -6,22 +6,21 @@ description: "Shared fleet primitives. talk.js + fleet.json. JEKYLL is the compi
 footerTagline: "RUNTIME"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/toolchain/runtime/runtime.pdf
+pdf: /MAGIC/TOOLCHAIN/RUNTIME/runtime.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/toolchain/runtime/runtime.pdf"
+    href: "/MAGIC/TOOLCHAIN/RUNTIME/runtime.pdf"
 hero:
   badge: RUNTIME
   title: "RUNTIME"
   description: "Shared fleet primitives. talk.js + fleet.json. JEKYLL is the compiler. remote_theme is the distribution."
   cta:
     - label: "Open RUNTIME"
-      href: /magic/toolchain/runtime/
+      href: /MAGIC/TOOLCHAIN/RUNTIME/
       class: btn-secondary
       talk: true
 ---

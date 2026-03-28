@@ -6,22 +6,21 @@ description: "BLOGS are governed literary artifacts. Every post is a timestamped
 footerTagline: "BLOGS"
 talk: side
 view: web
-sitemap: false
 views:
   - gov
   - web
   - tex
-pdf: /magic/surface/jekyll/blogs/blogs.pdf
+pdf: /MAGIC/SURFACE/JEKYLL/BLOGS/blogs.pdf
 downloads:
   - label: "PDF"
-    href: "/magic/surface/jekyll/blogs/blogs.pdf"
+    href: "/MAGIC/SURFACE/JEKYLL/BLOGS/blogs.pdf"
 hero:
   badge: BLOGS
   title: "BLOGS"
   description: "BLOGS are governed literary artifacts. Every post is a timestamped disclosure."
   cta:
     - label: "Open BLOGS"
-      href: /magic/surface/jekyll/blogs/
+      href: /MAGIC/SURFACE/JEKYLL/BLOGS/
       class: btn-secondary
       talk: true
 ---
