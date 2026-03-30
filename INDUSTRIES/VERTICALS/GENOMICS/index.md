@@ -4,6 +4,8 @@ scope: GENOMICS
 title: "GENOMICS"
 description: "Example"
 footerTagline: "GENOMICS"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

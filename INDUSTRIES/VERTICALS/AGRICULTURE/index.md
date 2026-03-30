@@ -4,6 +4,8 @@ scope: AGRICULTURE
 title: "AGRICULTURE"
 description: "Example"
 footerTagline: "AGRICULTURE"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

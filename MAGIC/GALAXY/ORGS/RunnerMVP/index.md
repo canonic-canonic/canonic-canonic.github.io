@@ -4,6 +4,8 @@ scope: RunnerMVP
 title: "RunnerMVP"
 description: "RUNNER is the real estate task marketplace. Post a task. A pro handles it. Every effort earns COIN. Robert Glover is GOVERNOR. Dexter Hadley is GOVERNOR_GENERAL."
 footerTagline: "RunnerMVP"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

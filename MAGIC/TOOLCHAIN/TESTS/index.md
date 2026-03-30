@@ -4,6 +4,8 @@ scope: TESTS
 title: "TESTS"
 description: "Compiler correctness is verified by deterministic fixture tests. Given a known GOV input, the compiler MUST produce the expected JSON output."
 footerTagline: "TESTS"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

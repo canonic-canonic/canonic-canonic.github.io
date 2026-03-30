@@ -4,6 +4,8 @@ scope: PRIMITIVES
 title: "PRIMITIVES"
 description: "INTEL, COIN, and TALK are the three native primitives of the GALAXY operating surface."
 footerTagline: "PRIMITIVES"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

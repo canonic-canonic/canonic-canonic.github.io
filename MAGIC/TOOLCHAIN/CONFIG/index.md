@@ -4,6 +4,8 @@ scope: CONFIG
 title: "CONFIG"
 description: "CONFIG = INTEL. Runtime configuration. Zero hardcoding."
 footerTagline: "CONFIG"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

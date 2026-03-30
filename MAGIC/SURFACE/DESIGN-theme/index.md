@@ -4,6 +4,8 @@ scope: DESIGN-theme
 title: "DESIGN-theme"
 description: "This repo IS the JEKYLL service runtime. `remote_theme: canonic-canonic/DESIGN`."
 footerTagline: "DESIGN-theme"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

@@ -4,6 +4,8 @@ scope: ANDROID
 title: "ANDROID"
 description: "MAGIC on Android is native, governed, fast."
 footerTagline: "ANDROID"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

@@ -4,6 +4,8 @@ scope: LEARNING
 title: "LEARNING"
 description: "LEARNING is INTEL applied. Every discovery governed. Every gradient evidenced."
 footerTagline: "LEARNING"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

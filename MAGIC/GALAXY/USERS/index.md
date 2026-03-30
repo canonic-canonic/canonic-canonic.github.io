@@ -4,6 +4,8 @@ scope: USERS
 title: "USERS"
 description: "USERS are GitHub identities projected into ORGs."
 footerTagline: "USERS"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

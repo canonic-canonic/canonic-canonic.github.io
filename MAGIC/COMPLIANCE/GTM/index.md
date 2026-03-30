@@ -4,6 +4,8 @@ scope: GTM
 title: "GTM"
 description: "COIN about MAGIC. How MAGIC executes in the market."
 footerTagline: "GTM"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

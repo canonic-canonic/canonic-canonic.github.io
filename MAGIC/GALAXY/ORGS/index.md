@@ -4,6 +4,8 @@ scope: ORGS
 title: "ORGS"
 description: "ORGS = federation identity. Users authenticate. Users maintain VITAE."
 footerTagline: "ORGS"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

@@ -4,6 +4,8 @@ scope: HYGIENE
 title: "HYGIENE"
 description: "No drift. Every file in a governed scope has a reason. The validator proves it."
 footerTagline: "HYGIENE"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

@@ -4,6 +4,8 @@ scope: SALES
 title: "SALES"
 description: "CHAT about MAGIC. How MAGIC talks to buyers."
 footerTagline: "SALES"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

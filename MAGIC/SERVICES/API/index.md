@@ -4,6 +4,8 @@ scope: API
 title: "API"
 description: "API is the network surface for COIN. Every endpoint authenticated. Every response governed."
 footerTagline: "API"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

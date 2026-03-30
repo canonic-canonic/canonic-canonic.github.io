@@ -4,6 +4,8 @@ scope: MINT
 title: "MINT"
 description: "MINT bridges WORK and ATTENTION to WALLET. Gradients mint COIN. Reads mint COIN. Every mint ledgered."
 footerTagline: "MINT"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

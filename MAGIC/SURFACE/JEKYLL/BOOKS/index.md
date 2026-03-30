@@ -4,6 +4,8 @@ scope: BOOKS
 title: "BOOKS"
 description: "BOOKS are governed long-form artifacts. Each book IS a scope with PARTS and CHAPTERS."
 footerTagline: "BOOKS"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

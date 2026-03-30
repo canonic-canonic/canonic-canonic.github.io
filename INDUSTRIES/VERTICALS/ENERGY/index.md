@@ -4,6 +4,8 @@ scope: ENERGY
 title: "ENERGY"
 description: "Example"
 footerTagline: "ENERGY"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

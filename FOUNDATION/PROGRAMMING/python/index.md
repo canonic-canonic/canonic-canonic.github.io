@@ -4,6 +4,8 @@ scope: python
 title: "python"
 description: "PYTHON = Ancestral runtime. The server. The intelligence."
 footerTagline: "python"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

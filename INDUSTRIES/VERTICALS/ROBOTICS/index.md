@@ -4,6 +4,8 @@ scope: ROBOTICS
 title: "ROBOTICS"
 description: "Example"
 footerTagline: "ROBOTICS"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

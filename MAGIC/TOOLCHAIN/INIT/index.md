@@ -4,6 +4,8 @@ scope: INIT
 title: "INIT"
 description: "Every new scope enters the world the same way."
 footerTagline: "INIT"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

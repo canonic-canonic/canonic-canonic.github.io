@@ -4,6 +4,8 @@ scope: breast
 title: "breast"
 description: "Breast cancer intelligence governed by evidence-based standards. BI-RADS, mCODE, NCCN."
 footerTagline: "breast"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

@@ -10,286 +10,6 @@
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/FOUNDATION/",
-      "scope": "FOUNDATION",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/FOUNDATION/DEVELOPERS/",
-      "scope": "DEVELOPERS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/FOUNDATION/DOCTRINE/",
-      "scope": "DOCTRINE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/FOUNDATION/ONBOARDING/",
-      "scope": "ONBOARDING",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/FOUNDATION/PROGRAMMING/",
-      "scope": "PROGRAMMING",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/FOUNDATION/PROGRAMMING/c/",
-      "scope": "c",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/FOUNDATION/PROGRAMMING/python/",
-      "scope": "python",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/FOUNDATION/PROGRAMMING/swift/",
-      "scope": "swift",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/FOUNDATION/PROGRAMMING/typescript/",
-      "scope": "typescript",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/FOUNDATION/RESERVES/",
-      "scope": "RESERVES",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/",
-      "scope": "INDUSTRIES",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/HORIZONTAL/",
-      "scope": "HORIZONTAL",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/HORIZONTAL/SAFETY/",
-      "scope": "SAFETY",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/HORIZONTAL/SECURITY/",
-      "scope": "SECURITY",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/META/",
-      "scope": "META",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/REGULATORY/BLOCKCHAIN/",
-      "scope": "BLOCKCHAIN",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/REGULATORY/",
-      "scope": "REGULATORY",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/REGULATORY/DATA/",
-      "scope": "DATA",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/REGULATORY/GOVERNMENT/",
-      "scope": "GOVERNMENT",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/REGULATORY/LAW/",
-      "scope": "LAW",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/REGULATORY/LAW/PATENT/",
-      "scope": "PATENT",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/AEROSPACE/",
-      "scope": "AEROSPACE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/AGRICULTURE/",
-      "scope": "AGRICULTURE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/AUTOMOTIVE/",
-      "scope": "AUTOMOTIVE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/",
-      "scope": "VERTICALS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/DEFENSE/",
-      "scope": "DEFENSE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/EDUCATION/",
-      "scope": "EDUCATION",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/ENERGY/",
-      "scope": "ENERGY",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/FINANCE/",
-      "scope": "FINANCE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/GENOMICS/",
-      "scope": "GENOMICS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/LOGISTICS/",
-      "scope": "LOGISTICS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/MANUFACTURING/",
-      "scope": "MANUFACTURING",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/MEDICINE/",
-      "scope": "MEDICINE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/MEDICINE/credentialing/",
-      "scope": "credentialing",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/MEDICINE/oncology/",
-      "scope": "oncology",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/MEDICINE/oncology/breast/",
-      "scope": "breast",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/MEDICINE/psychiatry/",
-      "scope": "psychiatry",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/QUALITY/",
-      "scope": "QUALITY",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/REAL_ESTATE/",
-      "scope": "REAL_ESTATE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/",
-      "scope": "RELIGION",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/buddhism/",
-      "scope": "buddhism",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/christianity/",
-      "scope": "christianity",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/",
-      "scope": "adventist",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/sda/",
-      "scope": "sda",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/christianity/ancient/",
-      "scope": "ancient",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/christianity/catholic/",
-      "scope": "catholic",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/christianity/orthodox/",
-      "scope": "orthodox",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/christianity/protestant/",
-      "scope": "protestant",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/hinduism/",
-      "scope": "hinduism",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/islam/",
-      "scope": "islam",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/islam/nation-of-islam/",
-      "scope": "nation-of-islam",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/islam/shia/",
-      "scope": "shia",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/islam/sunni/",
-      "scope": "sunni",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/judaism/",
-      "scope": "judaism",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/sikhism/",
-      "scope": "sikhism",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/INDUSTRIES/VERTICALS/ROBOTICS/",
-      "scope": "ROBOTICS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
       "path": "/MAGIC/",
       "scope": "MAGIC",
       "surface_type": "JEKYLL_DEFAULT"
@@ -572,6 +292,286 @@
     {
       "path": "/MAGIC/TOOLCHAIN/bin/",
       "scope": "bin",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/foundation/",
+      "scope": "FOUNDATION",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/foundation/developers/",
+      "scope": "DEVELOPERS",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/foundation/doctrine/",
+      "scope": "DOCTRINE",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/foundation/onboarding/",
+      "scope": "ONBOARDING",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/foundation/programming/",
+      "scope": "PROGRAMMING",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/foundation/programming/c/",
+      "scope": "c",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/foundation/programming/python/",
+      "scope": "python",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/foundation/programming/swift/",
+      "scope": "swift",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/foundation/programming/typescript/",
+      "scope": "typescript",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/foundation/reserves/",
+      "scope": "RESERVES",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/",
+      "scope": "INDUSTRIES",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/horizontal/",
+      "scope": "HORIZONTAL",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/horizontal/safety/",
+      "scope": "SAFETY",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/horizontal/security/",
+      "scope": "SECURITY",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/meta/",
+      "scope": "META",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/regulatory/",
+      "scope": "REGULATORY",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/regulatory/blockchain/",
+      "scope": "BLOCKCHAIN",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/regulatory/data/",
+      "scope": "DATA",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/regulatory/government/",
+      "scope": "GOVERNMENT",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/regulatory/law/",
+      "scope": "LAW",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/regulatory/law/patent/",
+      "scope": "PATENT",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/",
+      "scope": "VERTICALS",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/aerospace/",
+      "scope": "AEROSPACE",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/agriculture/",
+      "scope": "AGRICULTURE",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/automotive/",
+      "scope": "AUTOMOTIVE",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/defense/",
+      "scope": "DEFENSE",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/education/",
+      "scope": "EDUCATION",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/energy/",
+      "scope": "ENERGY",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/finance/",
+      "scope": "FINANCE",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/genomics/",
+      "scope": "GENOMICS",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/logistics/",
+      "scope": "LOGISTICS",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/manufacturing/",
+      "scope": "MANUFACTURING",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/medicine/",
+      "scope": "MEDICINE",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/medicine/credentialing/",
+      "scope": "credentialing",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/medicine/oncology/",
+      "scope": "oncology",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/medicine/oncology/breast/",
+      "scope": "breast",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/medicine/psychiatry/",
+      "scope": "psychiatry",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/quality/",
+      "scope": "QUALITY",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/real_estate/",
+      "scope": "REAL_ESTATE",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/religion/",
+      "scope": "RELIGION",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/religion/buddhism/",
+      "scope": "buddhism",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/religion/christianity/",
+      "scope": "christianity",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/religion/christianity/adventist/",
+      "scope": "adventist",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/religion/christianity/adventist/sda/",
+      "scope": "sda",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/religion/christianity/ancient/",
+      "scope": "ancient",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/religion/christianity/catholic/",
+      "scope": "catholic",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/religion/christianity/orthodox/",
+      "scope": "orthodox",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/religion/christianity/protestant/",
+      "scope": "protestant",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/religion/hinduism/",
+      "scope": "hinduism",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/religion/islam/",
+      "scope": "islam",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/religion/islam/nation-of-islam/",
+      "scope": "nation-of-islam",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/religion/islam/shia/",
+      "scope": "shia",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/religion/islam/sunni/",
+      "scope": "sunni",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/religion/judaism/",
+      "scope": "judaism",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/religion/sikhism/",
+      "scope": "sikhism",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/industries/verticals/robotics/",
+      "scope": "ROBOTICS",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {

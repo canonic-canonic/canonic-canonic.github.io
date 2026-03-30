@@ -4,6 +4,8 @@ scope: IDENTITY
 title: "IDENTITY"
 description: "Every COIN action is signed. Every signature is verified."
 footerTagline: "IDENTITY"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

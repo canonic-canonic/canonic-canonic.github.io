@@ -4,6 +4,8 @@ scope: protestant
 title: "protestant"
 description: "Reformation Christianity. Sola scriptura, sola fide, priesthood of all believers."
 footerTagline: "protestant"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

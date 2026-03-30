@@ -4,6 +4,8 @@ scope: CERTIFICATION
 title: "CERTIFICATION"
 description: "CERTIFICATION is COMPLIANCE made portable. Git is the certification engine. A tag is a badge. A badge is a tag. 255 or reject."
 footerTagline: "CERTIFICATION"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

@@ -4,6 +4,8 @@ scope: DEVELOPERS
 title: "DEVELOPERS"
 description: "DEVELOPERS is the certification surface. Every certified developer is discoverable. Every credential is verifiable. Git proves it."
 footerTagline: "DEVELOPERS"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

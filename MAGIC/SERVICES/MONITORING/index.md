@@ -4,6 +4,8 @@ scope: MONITORING
 title: "MONITORING"
 description: "MONITORING is continuous governance scoring. Real-time visibility, not snapshots."
 footerTagline: "MONITORING"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

@@ -4,6 +4,8 @@ scope: FRESHNESS
 title: "FRESHNESS"
 description: "Unchanged sources produce identical outputs. Skip the work. Trust the cache."
 footerTagline: "FRESHNESS"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

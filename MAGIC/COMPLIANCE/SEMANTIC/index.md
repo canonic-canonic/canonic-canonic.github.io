@@ -4,6 +4,8 @@ scope: SEMANTIC
 title: "SEMANTIC"
 description: "Every term resolves. Every chain closes. Every score reflects reality."
 footerTagline: "SEMANTIC"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

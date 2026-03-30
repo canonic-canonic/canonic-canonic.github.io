@@ -4,6 +4,8 @@ scope: PAPERS
 title: "PAPERS"
 description: "PAPERS are governed academic artifacts. Each paper IS a scope. SPEC = {SCOPE}."
 footerTagline: "PAPERS"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

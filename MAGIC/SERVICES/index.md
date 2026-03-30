@@ -4,6 +4,8 @@ scope: SERVICES
 title: "SERVICES"
 description: "SERVICES are SURFACE routes with governed boundaries."
 footerTagline: "SERVICES"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

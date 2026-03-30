@@ -4,6 +4,8 @@ scope: nation-of-islam
 title: "nation-of-islam"
 description: "Example"
 footerTagline: "nation-of-islam"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

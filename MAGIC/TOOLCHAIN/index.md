@@ -4,6 +4,8 @@ scope: TOOLCHAIN
 title: "TOOLCHAIN"
 description: "Governance drives code. Never the reverse."
 footerTagline: "TOOLCHAIN"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

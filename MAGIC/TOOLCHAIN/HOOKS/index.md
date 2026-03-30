@@ -4,6 +4,8 @@ scope: HOOKS
 title: "HOOKS"
 description: "Enforcement at commit time. Every push validated. Every commit ledgered."
 footerTagline: "HOOKS"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

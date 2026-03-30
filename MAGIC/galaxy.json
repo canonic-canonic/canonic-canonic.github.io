@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "71fb1b62b04414f1"
+    "gov_hash": "8f9460e86bb4cbdc"
   },
-  "generated": "2026-03-28T04:03:48Z",
+  "generated": "2026-03-28T05:33:10Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -80,7 +80,7 @@
     "intel_coverage": 120,
     "total_coin": 149567,
     "total_events": 697,
-    "total_sessions": 219,
+    "total_sessions": 227,
     "active_channels": 6,
     "user_count": 34,
     "org_count": 5,
@@ -6921,6 +6921,7 @@
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
+      "privacy": "PUBLIC",
       "has_intel": true,
       "intel_summary": "**KNOW YOUR JUDGES. KNOW YOUR COMPETITION. KNOW YOUR ADVANTAGE. EVERY FIGURE PAPER-BACKED.**",
       "roadmap_now": "PMWC scope LIVE at hadleylab.org/DECKS/PMWC/",
@@ -7094,18 +7095,6 @@
       "learning": [
         {
           "date": "2026-03-26",
-          "signal": "Grant opportunity identified",
-          "pattern": "Dexter Hadley",
-          "source": "ACS-Flatiron RWD Impact Award reviewed, strong fit for Omics"
-        },
-        {
-          "date": "2026-03-26",
-          "signal": "GOV scaffold created",
-          "pattern": "Dexter Hadley",
-          "source": "8 governance artifacts at GRANTS/ACS-FLATIRON/ (CANON, deal "
-        },
-        {
-          "date": "2026-03-26",
           "signal": "ProposalCentral application started",
           "pattern": "Dexter Hadley",
           "source": "Proposal ID 1682103. Title page saved. NDA downloaded, signe"
@@ -7127,6 +7116,42 @@
           "signal": "Pre-LOI SUBMITTED",
           "pattern": "Dexter Hadley",
           "source": "Proposal ID 1682103 submitted to ACS via ProposalCentral. Co"
+        },
+        {
+          "date": "2026-03-27",
+          "signal": "RFA shared with Howard",
+          "pattern": "Dexter \u2192 Robin Williams, Alex Evans",
+          "source": "Original specific aims shared with Howard collaborators."
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "NDA FULLY EXECUTED",
+          "pattern": "Joanne Elena (ACS) \u2192 Dexter",
+          "source": "Email confirming executed NDA. LOI created in ProposalCentra"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "ABOPM CRO VISION",
+          "pattern": "Anil Bajnath \u2192 Dexter",
+          "source": "Call with Anil. Wants to transform ABOPM from credentialing "
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "Data dictionary requested",
+          "pattern": "Dexter \u2192 Cleo Ryals (Flatiron)",
+          "source": "CC: Joanne Elena, Allana Roach (ACS), Anil. Datasets request"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "Team review sent",
+          "pattern": "Dexter \u2192 Anil, Marisa, Junaid, Amoy; CC Neville, Robin, Alex",
+          "source": "Specific aims v2 (distributed CRO framing). Full team introd"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "AIMed pitch sent",
+          "pattern": "Dexter \u2192 Anthony Chang, Harry Pappas",
+          "source": "Ask: join proposal + AIMed26 stage slot (Nov 10-13 Orlando)."
         }
       ],
       "score": 128
@@ -7305,8 +7330,8 @@
       "children": 7,
       "wallet": null,
       "talk": {
-        "sessions": 122,
-        "last_session": "2026-03-27",
+        "sessions": 128,
+        "last_session": "2026-03-30",
         "channels": [
           "CARIBCHAT"
         ]
@@ -7782,12 +7807,6 @@
       "learning": [
         {
           "date": "2026-03-23",
-          "signal": "FEEDBACK_PROMOTED",
-          "pattern": "Citation governance and stale data: Citations must be governed objects, not decorative labels. No archives \u2014 delete to g",
-          "source": "intake:feedback_citation_governance.md"
-        },
-        {
-          "date": "2026-03-23",
           "signal": "PROJECT_INTEL",
           "pattern": "GALAXY Finder-first session (2026-03-20): GALAXY frontend refactor \u2014 Finder view, personal HUD, layout contract, build b",
           "source": "intake:project_galaxy_session.md"
@@ -7839,6 +7858,12 @@
           "signal": "REFERENCE_PROMOTED",
           "pattern": "AIMed and Anthony Chang board connection: Anthony Chang MD/MBA/MPH/MS is on CANONIC board. Founded AIMed, ABAIM, MI3 at",
           "source": "intake:reference_aimed_anthony_chang.md"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "PROJECT_INTEL",
+          "pattern": "ABOPM Distributed CRO Vision: Anil Bajnath wants to transform ABOPM from credentialing board into a distributed CRO fede",
+          "source": "intake:project_abopm_distributed_cro.md"
         }
       ],
       "score": 128
@@ -8992,8 +9017,8 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 219,
-        "last_session": "2026-03-27",
+        "sessions": 227,
+        "last_session": "2026-03-30",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -9388,49 +9413,13 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 122,
-        "last_session": "2026-03-27",
+        "sessions": 128,
+        "last_session": "2026-03-30",
         "channels": [
           "CARIBCHAT"
         ]
       },
       "learning": [
-        {
-          "date": "2026-03-27",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Trinidad  st james medical",
-          "source": "506b28f8-c98b-478b-86c3-ea50def5a3b2"
-        },
-        {
-          "date": "2026-03-27",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "I've  completed 6 rounds of chemo, now doing herceptin.  I did my mastectomy wit",
-          "source": "f7c0e7b8-58e5-44c0-be9e-baab13d3c6e1"
-        },
-        {
-          "date": "2026-03-27",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "what is bush medicine",
-          "source": "c43c650e-cd0c-4fec-8ea6-f8fab1431979"
-        },
-        {
-          "date": "2026-03-27",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "How long after being marked should you be treated with radiation?",
-          "source": "aa84e152-88a5-40a4-be66-9264a98032ca"
-        },
-        {
-          "date": "2026-03-27",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "How does one treat lympheodma",
-          "source": "7ed67f92-76ad-4765-97d0-7842dd8d7078"
-        },
-        {
-          "date": "2026-03-27",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "How many Cancer Registries are there in the Caribbean",
-          "source": "c3f5fb79-c5cb-44c1-bc72-b36824e3cfcc"
-        },
         {
           "date": "2026-03-27",
           "signal": "SESSION_LEDGERED",
@@ -9454,6 +9443,42 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "Note: There are no full Oncology Services at Mt. Hope Hospital or Eric Williams",
           "source": "e1d9099b-a948-497e-977f-2b2a1c3cddb8"
+        },
+        {
+          "date": "2026-03-28",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Ji",
+          "source": "cb96148d-cc64-4119-9902-b35d996bd85b"
+        },
+        {
+          "date": "2026-03-29",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What is Zometa used for?",
+          "source": "437921d1-9e71-405f-84f4-40f1c107236f"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "how do I know if I have breast cancer",
+          "source": "6d15d31b-6a75-41ce-8cbe-658ae08150e6"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "How do I deal with depressions",
+          "source": "c2103be4-fe72-43d9-bfe0-c020519c2516"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What is the difference in chemotherapy and radiation?",
+          "source": "cb4e2288-53fc-4734-8d51-271ad6c3dae7"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "I am looking for breast cancer Radiotherapy in the Caribbean",
+          "source": "182f2373-b8c0-444d-9fa3-7b957797b390"
         }
       ],
       "score": 128
@@ -9753,25 +9778,13 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 21,
-        "last_session": "2026-03-26",
+        "sessions": 23,
+        "last_session": "2026-03-28",
         "channels": [
           "MAMMOCHAT"
         ]
       },
       "learning": [
-        {
-          "date": "2026-03-01",
-          "signal": "NEXTJS_PORT",
-          "pattern": "mammochat.com (standalone Next.js) identified for CANONIC port \u2014 marketing surface decoupled from chatbot",
-          "source": "mammochat.com"
-        },
-        {
-          "date": "2026-03-01",
-          "signal": "EVIDENCE_GAP",
-          "pattern": "mammochat.com has zero clinical citations on landing page \u2014 NCT06604078, BI-RADS, mCODE all absent from marketing surfac",
-          "source": "mammochat.com audit"
-        },
         {
           "date": "2026-03-01",
           "signal": "CROSS_SCOPE",
@@ -9819,6 +9832,18 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "we have been having an affair will i have breastcancer too?",
           "source": "e0612a7a-fbcf-4095-aa7b-1800950d2253"
+        },
+        {
+          "date": "2026-03-28",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Hi",
+          "source": "f88b9e4e-55e0-4415-a007-e11b983b7b33"
+        },
+        {
+          "date": "2026-03-28",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "How do I join the study",
+          "source": "beba7473-35cb-4f86-8477-6850c9ed2569"
         }
       ],
       "score": 128
@@ -12536,8 +12561,8 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 219,
-        "last_session": "2026-03-27",
+        "sessions": 227,
+        "last_session": "2026-03-30",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -12569,8 +12594,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 219,
-        "last_session": "2026-03-27",
+        "sessions": 227,
+        "last_session": "2026-03-30",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -12646,6 +12671,18 @@
           "signal": "Quick Action pills = his quick chat messages",
           "pattern": "['Where are you?', 'How long?'] pattern = governed pills with trailing space",
           "source": "Design merge"
+        },
+        {
+          "date": "2026-03-29",
+          "signal": "ONBOARD_BLOCKER",
+          "pattern": "First developer onboarding (ir4y) hit three blockers: gorunner.pro missing from HTTP.json repos table, magic binary wron",
+          "source": "ir4y WhatsApp 2026-03-29"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "ONBOARD_FIX",
+          "pattern": "Three fixes: (1) gorunner.pro added to HTTP.md Repos table and recompiled, (2) bootstrap now compiles magic from source ",
+          "source": "ir4y blockers \u2192 governed fixes"
         }
       ],
       "score": 128

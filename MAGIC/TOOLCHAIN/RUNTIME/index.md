@@ -4,6 +4,8 @@ scope: RUNTIME
 title: "RUNTIME"
 description: "Shared fleet primitives. talk.js + fleet.json. JEKYLL is the compiler. remote_theme is the distribution."
 footerTagline: "RUNTIME"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

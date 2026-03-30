@@ -4,6 +4,8 @@ scope: bin
 title: "bin"
 description: "Three engines. Three tiers. Each axiom self-closes. Together = 255 = MAGIC."
 footerTagline: "bin"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

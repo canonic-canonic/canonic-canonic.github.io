@@ -4,6 +4,8 @@ scope: SURFACE
 title: "SURFACE"
 description: "SURFACE is the platform lane."
 footerTagline: "SURFACE"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

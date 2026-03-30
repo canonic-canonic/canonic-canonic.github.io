@@ -4,6 +4,8 @@ scope: VOCAB
 title: "VOCAB"
 description: "One term, one definition, at the highest scope. Children inherit, not duplicate."
 footerTagline: "VOCAB"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

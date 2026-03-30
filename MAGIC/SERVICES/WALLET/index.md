@@ -4,6 +4,8 @@ scope: WALLET
 title: "WALLET"
 description: "WALLET is the per-USER economic identity. Every USER has one. Every COIN lives in one."
 footerTagline: "WALLET"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

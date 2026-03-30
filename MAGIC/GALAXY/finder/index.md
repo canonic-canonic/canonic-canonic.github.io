@@ -4,6 +4,8 @@ scope: FINDER
 title: "FINDER"
 description: "FINDER is hierarchical navigation for the governed topology."
 footerTagline: "FINDER"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

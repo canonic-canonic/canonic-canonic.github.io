@@ -4,6 +4,8 @@ scope: swift
 title: "swift"
 description: "IOS_NATIVE = Apple ecosystem. Mobile SHOP."
 footerTagline: "swift"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

@@ -4,6 +4,8 @@ scope: LEDGER
 title: "LEDGER"
 description: "LEDGER is the append-only truth. Every economic event recorded. No erasure."
 footerTagline: "LEDGER"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

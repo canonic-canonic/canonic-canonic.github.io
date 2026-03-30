@@ -4,6 +4,8 @@ scope: AUTOMOTIVE
 title: "AUTOMOTIVE"
 description: "Example"
 footerTagline: "AUTOMOTIVE"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

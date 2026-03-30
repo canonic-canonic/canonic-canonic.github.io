@@ -4,6 +4,8 @@ scope: STAR
 title: "STAR"
 description: "STAR is your personal portal in the GALAXY. INTEL + CHAT + COIN composed into a unified personal surface. The TIMELINE is the joint lane for all cross-axiomatic intel."
 footerTagline: "STAR"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

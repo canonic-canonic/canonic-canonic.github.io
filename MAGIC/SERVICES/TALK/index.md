@@ -4,6 +4,8 @@ scope: TALK
 title: "TALK"
 description: "TALK is CHAT + INTEL + COIN composed. Industry determines the voice. INTEL provides the knowledge. COIN gates premium access."
 footerTagline: "TALK"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

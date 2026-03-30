@@ -4,6 +4,8 @@ scope: MARKET
 title: "MARKET"
 description: "INTEL about MAGIC. What MAGIC knows about its market."
 footerTagline: "MARKET"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

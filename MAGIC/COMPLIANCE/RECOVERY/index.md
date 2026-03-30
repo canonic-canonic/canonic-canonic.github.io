@@ -4,6 +4,8 @@ scope: RECOVERY
 title: "RECOVERY"
 description: "CANONIC survives any single point of failure."
 footerTagline: "RECOVERY"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

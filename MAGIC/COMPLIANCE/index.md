@@ -4,6 +4,8 @@ scope: COMPLIANCE
 title: "COMPLIANCE"
 description: "COMPLIANCE is the tier algebra."
 footerTagline: "COMPLIANCE"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

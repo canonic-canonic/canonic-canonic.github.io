@@ -4,6 +4,8 @@ scope: VAULT
 title: "VAULT"
 description: "VAULT compiles the private aggregate. Auth-gated. Ledger-backed."
 footerTagline: "VAULT"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

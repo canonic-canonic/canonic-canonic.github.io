@@ -4,6 +4,8 @@ scope: DECKS
 title: "DECKS"
 description: "DECKS are governed presentation artifacts. Every pitch is a CANON-named scope."
 footerTagline: "DECKS"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

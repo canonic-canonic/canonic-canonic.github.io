@@ -4,6 +4,8 @@ scope: NOTIFIER
 title: "NOTIFIER"
 description: "NOTIFIER is NOTIFY + INTEL composed. Scope determines the route. Ledger determines the proof."
 footerTagline: "NOTIFIER"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

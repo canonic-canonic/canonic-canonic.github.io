@@ -4,6 +4,8 @@ scope: CONTROLS
 title: "CONTROLS"
 description: "CONTROLS is the unified control interface for all content surfaces. Five dimensions: talk position, download assets, view mode, available views, content gate. Every control in the bar acts on the content it controls — within the same page, within the same context. GOV declares. Compiler emits. Theme renders."
 footerTagline: "CONTROLS"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

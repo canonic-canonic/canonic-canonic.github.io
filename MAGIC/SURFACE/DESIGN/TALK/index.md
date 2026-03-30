@@ -4,6 +4,8 @@ scope: TALK
 title: "TALK"
 description: "api.canonic.org is the CANONIC service worker. All primitives. All streams. Zero hardcoding."
 footerTagline: "TALK"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

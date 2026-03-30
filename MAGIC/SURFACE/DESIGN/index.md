@@ -4,6 +4,8 @@ scope: DESIGN
 title: "DESIGN"
 description: "Frontend rendering layer. CANON.md → HTML → Native. One stylesheet. All surfaces."
 footerTagline: "DESIGN"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

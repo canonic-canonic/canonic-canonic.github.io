@@ -254,6 +254,7 @@ Rule: paths that do NOT start with a known shared prefix (`/assets/`, `/talks/`,
 |------|------|
 | canonic.org | https://github.com/canonic-canonic/canonic-canonic.github.io.git |
 | hadleylab.org | https://github.com/hadleylab-canonic/hadleylab-canonic.github.io.git |
+| gorunner.pro | https://github.com/RunnerMVP/Runner-MVP.git |
 | DESIGN | https://github.com/canonic-canonic/DESIGN.git |
 
 ## Sites

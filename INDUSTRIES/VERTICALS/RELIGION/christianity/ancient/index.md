@@ -4,6 +4,8 @@ scope: ancient
 title: "ancient"
 description: "Pre-schism Christianity. The first three ecumenical councils (Nicaea 325, Constantinople 381, Ephesus 431) define branches that predate Catholic-Orthodox (1054) and Protestant (1517) divisions."
 footerTagline: "ancient"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

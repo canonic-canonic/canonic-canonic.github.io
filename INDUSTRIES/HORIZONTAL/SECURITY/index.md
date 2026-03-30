@@ -4,6 +4,8 @@ scope: SECURITY
 title: "SECURITY"
 description: "Example"
 footerTagline: "SECURITY"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

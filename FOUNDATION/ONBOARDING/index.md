@@ -4,6 +4,8 @@ scope: ONBOARDING
 title: "ONBOARDING"
 description: "ONBOARDING is the contributor entry point. One runbook. Ten minutes. Your first governed scope."
 footerTagline: "ONBOARDING"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

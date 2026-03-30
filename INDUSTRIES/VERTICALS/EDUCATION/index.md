@@ -4,6 +4,8 @@ scope: EDUCATION
 title: "EDUCATION"
 description: "Example"
 footerTagline: "EDUCATION"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

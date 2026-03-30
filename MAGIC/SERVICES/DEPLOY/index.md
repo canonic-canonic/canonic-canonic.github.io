@@ -4,6 +4,8 @@ scope: DEPLOY
 title: "DEPLOY"
 description: "DEPLOY is governed artifact delivery. Build validates, deploy ships, rollback recovers."
 footerTagline: "DEPLOY"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

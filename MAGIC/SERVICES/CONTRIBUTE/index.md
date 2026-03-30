@@ -4,6 +4,8 @@ scope: CONTRIBUTE
 title: "CONTRIBUTE"
 description: "CONTRIBUTE is WORK recorded. Every contribution ledgered. Every WORK mints COIN."
 footerTagline: "CONTRIBUTE"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

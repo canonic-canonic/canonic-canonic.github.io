@@ -4,6 +4,8 @@ scope: BLOGS
 title: "BLOGS"
 description: "BLOGS are governed literary artifacts. Every post is a timestamped disclosure."
 footerTagline: "BLOGS"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

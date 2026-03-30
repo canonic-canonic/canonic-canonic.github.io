@@ -4,6 +4,8 @@ scope: OPERATIONS
 title: "OPERATIONS"
 description: "Fleet operations. Sites declared. Assets synced. Recovery documented."
 footerTagline: "OPERATIONS"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

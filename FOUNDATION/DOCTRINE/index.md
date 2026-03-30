@@ -4,6 +4,8 @@ scope: DOCTRINE
 title: "DOCTRINE"
 description: "DOCTRINE is fixed. DRY. Mathematical. Enforced by structure."
 footerTagline: "DOCTRINE"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

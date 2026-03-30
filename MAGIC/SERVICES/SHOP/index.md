@@ -4,6 +4,8 @@ scope: SHOP
 title: "SHOP"
 description: "SHOP compiles the public projection aggregate. Every USER is a SHOP. Every artifact has a price."
 footerTagline: "SHOP"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

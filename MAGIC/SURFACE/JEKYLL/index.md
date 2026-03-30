@@ -4,6 +4,8 @@ scope: JEKYLL
 title: "JEKYLL"
 description: "JEKYLL is MAGIC made visible. DESIGN is the language. JEKYLL is the compiler."
 footerTagline: "JEKYLL"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:

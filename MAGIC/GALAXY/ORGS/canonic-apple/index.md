@@ -4,6 +4,8 @@ scope: canonic-apple
 title: "canonic-apple"
 description: "Apple platform integration. iOS and macOS SURFACE client."
 footerTagline: "canonic-apple"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
 talk: side
 view: web
 views:
