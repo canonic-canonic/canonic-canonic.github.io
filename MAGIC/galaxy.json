@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "8f9460e86bb4cbdc"
+    "gov_hash": "c40e28557006cfa5"
   },
-  "generated": "2026-03-28T05:33:10Z",
+  "generated": "2026-03-31T21:32:05Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -74,18 +74,18 @@
     ]
   },
   "stats": {
-    "total": 870,
+    "total": 922,
     "avg_bits": 253,
-    "below_magic": 34,
-    "intel_coverage": 120,
+    "below_magic": 50,
+    "intel_coverage": 122,
     "total_coin": 149567,
     "total_events": 697,
-    "total_sessions": 227,
+    "total_sessions": 235,
     "active_channels": 6,
     "user_count": 34,
     "org_count": 5,
-    "svc_count": 45,
-    "scope_count": 293,
+    "svc_count": 55,
+    "scope_count": 297,
     "fleet_health_pct": 99
   },
   "nodes": [
@@ -4848,7 +4848,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "BLOGS",
-      "children": 67,
+      "children": 68,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -5044,7 +5044,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "BOOKS",
-      "children": 11,
+      "children": 12,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -5377,6 +5377,53 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/BOOKS/DARIOISMS",
+      "kind": "SCOPE",
+      "label": "DARIOISMS",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/DARIOISMS",
+      "parent": "hadleylab-canonic/BOOKS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "privacy": "PUBLIC",
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/DARIOISMS",
+      "children": 3,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS",
+      "kind": "SCOPE",
+      "label": "CHAPTERS",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/DARIOISMS/CHAPTERS",
+      "parent": "hadleylab-canonic/BOOKS/DARIOISMS",
+      "category": "CONTENT",
+      "color": "#a78bfa",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS",
+      "children": 4,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "hadleylab-canonic/BOOKS/DIVIDENDS",
       "kind": "SCOPE",
       "label": "DIVIDENDS",
@@ -5439,11 +5486,11 @@
         "ENGAGEMENT_LOOP",
         "HN_MONITOR",
         "PREFLIGHT_AUTOMATION",
-        "CALENDAR_EXECUTION"
+        "SUBSTACK_SETUP"
       ],
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS",
-      "children": 12,
+      "children": 16,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -5516,6 +5563,31 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/CAMPAIGNS/MONITOR",
+      "kind": "SCOPE",
+      "label": "MONITOR",
+      "repo": "hadleylab-canonic",
+      "path": "CAMPAIGNS/MONITOR",
+      "parent": "hadleylab-canonic/CAMPAIGNS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CAMPAIGNS/MONITOR",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
       "id": "hadleylab-canonic/CAMPAIGNS/REDDIT",
       "kind": "SCOPE",
       "label": "REDDIT",
@@ -5548,6 +5620,37 @@
           "source": "r/redditdev Responsible Builder Policy announcement"
         }
       ],
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/CAMPAIGNS/SUBSTACK",
+      "kind": "SCOPE",
+      "label": "SUBSTACK",
+      "repo": "hadleylab-canonic",
+      "path": "CAMPAIGNS/SUBSTACK",
+      "parent": "hadleylab-canonic/CAMPAIGNS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "| Field | Value |",
+      "coverage_open_gates": [
+        "ACCOUNT_SETUP",
+        "FIRST_EMISSION",
+        "SUBSCRIBER_EXPORT"
+      ],
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CAMPAIGNS/SUBSTACK",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
       "score": 123
     },
     {
@@ -6021,7 +6124,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CHARTER/LICENSING",
-      "children": 0,
+      "children": 1,
       "wallet": null,
       "talk": null,
       "learning": null,
@@ -7084,21 +7187,15 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "[ ] Check email for Flatiron data catalog access (idrdex@gmail.com, expect within 3-5 business days)",
-      "learning_count": 6,
+      "roadmap_now": "[ ] Send biosketch reminder to all Co-Is (due April 5)",
+      "learning_count": 13,
       "coverage_score": 4,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "GRANTS/ACS-FLATIRON",
-      "children": 1,
+      "children": 7,
       "wallet": null,
       "talk": null,
       "learning": [
-        {
-          "date": "2026-03-26",
-          "signal": "ProposalCentral application started",
-          "pattern": "Dexter Hadley",
-          "source": "Proposal ID 1682103. Title page saved. NDA downloaded, signe"
-        },
         {
           "date": "2026-03-26",
           "signal": "Flatiron NDA uploaded",
@@ -7152,6 +7249,12 @@
           "signal": "AIMed pitch sent",
           "pattern": "Dexter \u2192 Anthony Chang, Harry Pappas",
           "source": "Ask: join proposal + AIMed26 stage slot (Nov 10-13 Orlando)."
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "DATA DICTIONARY RECEIVED",
+          "pattern": "Cleo Ryals (Flatiron) \u2192 Dexter",
+          "source": "Three data dictionaries attached: aNSCLC (PANO_NSCLC), mBC ("
         }
       ],
       "score": 128
@@ -7330,8 +7433,8 @@
       "children": 7,
       "wallet": null,
       "talk": {
-        "sessions": 128,
-        "last_session": "2026-03-30",
+        "sessions": 132,
+        "last_session": "2026-03-31",
         "channels": [
           "CARIBCHAT"
         ]
@@ -7681,7 +7784,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SERVICES",
-      "children": 34,
+      "children": 35,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -7797,7 +7900,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "Dexter Hadley, MD/PhD (Penn). Stanford Research Associate (Butte Lab). Faculty at UCSF and UCF (Founding Chief of AI). C",
-      "learning_count": 28,
+      "learning_count": 33,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/CLAUDE",
@@ -7805,30 +7908,6 @@
       "wallet": null,
       "talk": null,
       "learning": [
-        {
-          "date": "2026-03-23",
-          "signal": "PROJECT_INTEL",
-          "pattern": "GALAXY Finder-first session (2026-03-20): GALAXY frontend refactor \u2014 Finder view, personal HUD, layout contract, build b",
-          "source": "intake:project_galaxy_session.md"
-        },
-        {
-          "date": "2026-03-23",
-          "signal": "USER_INTEL",
-          "pattern": "Family and workspace: Dexter has 6 children, works from a home office in the garage in Orlando because inside is too lou",
-          "source": "intake:user_family_workspace.md"
-        },
-        {
-          "date": "2026-03-24",
-          "signal": "REFERENCE_PROMOTED",
-          "pattern": "OPTS-EGO White Paper Sources: OPTS-EGO has two versions \u2014 protocanonic (~/Code/white-paper, 100+ citations) and retrocan",
-          "source": "intake:reference_opts_ego_whitepaper.md"
-        },
-        {
-          "date": "2026-03-25",
-          "signal": "PROJECT_INTEL",
-          "pattern": "Resolved items from library polish session: Three items from 2026-03-24 session \u2014 all resolved 2026-03-24. OPTS-EGO cita",
-          "source": "intake:project_open_items_2026_03_24.md"
-        },
         {
           "date": "2026-03-25",
           "signal": "REFERENCE_PROMOTED",
@@ -7864,6 +7943,30 @@
           "signal": "PROJECT_INTEL",
           "pattern": "ABOPM Distributed CRO Vision: Anil Bajnath wants to transform ABOPM from credentialing board into a distributed CRO fede",
           "source": "intake:project_abopm_distributed_cro.md"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "PROJECT_INTEL",
+          "pattern": "Chang-Hadley tag team \u2014 Darioisms book + Dario preface for Chang's next book: Tag team with Anthony Chang. Dexter writes",
+          "source": "intake:project_chang_book.md"
+        },
+        {
+          "date": "2026-03-31",
+          "signal": "PROJECT_INTEL",
+          "pattern": "Cloudflare proxy breaks new GitHub Pages paths: Cloudflare proxy (orange cloud) on hadleylab.org A records causes 404 fo",
+          "source": "intake:project_cloudflare_proxy_bug.md"
+        },
+        {
+          "date": "2026-03-31",
+          "signal": "PROJECT_INTEL",
+          "pattern": "CANONIC Foundation legal status: Articles/Bylaws/501c3 status \u2014 David Slonim drafting, Julio filing, IHI deadline April",
+          "source": "intake:project_foundation_legal.md"
+        },
+        {
+          "date": "2026-03-31",
+          "signal": "PROJECT_INTEL",
+          "pattern": "Open items from Mar 30-31 session: Stop Prompting campaign 7/10, Substack bulk syndication pending, TASK fleet compiler",
+          "source": "intake:project_open_items_2026_03_31.md"
         }
       ],
       "score": 128
@@ -8838,7 +8941,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR SERVICE. EVERY CAPABILITY TRACED. EVERY INTEGRATION GOVERNED.**",
       "roadmap_now": "Govern PLUGINS service scope with full TRIAD + SPEC",
-      "learning_count": 1,
+      "learning_count": 5,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/PLUGINS",
@@ -8851,6 +8954,30 @@
           "signal": "TRIAD_COMPLETE",
           "pattern": "PLUGINS service scope governance completed \u2014 full MAGIC 255",
           "source": "CANON.md"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "DRIFT_RECOVERY",
+          "pattern": "7 plugin implementations (1441 lines) existed only in deploy repo, not in governed design repo. Stubs overwrote them dur",
+          "source": "Fleet hardening session"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "CATALOG_MISSING",
+          "pattern": "plugins/catalog.json never existed. All 6 sidebar plugins silently aborted on boot (if (!cfg) return). Created with API ",
+          "source": "Fleet hardening session"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "CSP_BLOCKED",
+          "pattern": "NCBI EUTILS, ClinicalTrials.gov, PharmGKB were missing from CSP connect-src. Plugins loaded but API calls failed silentl",
+          "source": "Fleet hardening session"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "NO_FALLBACK",
+          "pattern": "PharmGKB plugin has a renderFallback() that shows a search link when the direct API fails (CORS). This is compliant \u2014 th",
+          "source": "Fleet hardening session"
         }
       ],
       "score": 128
@@ -9017,8 +9144,8 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 227,
-        "last_session": "2026-03-30",
+        "sessions": 235,
+        "last_session": "2026-03-31",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -9030,6 +9157,257 @@
       },
       "learning": null,
       "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/TASK/BUILD",
+      "kind": "SERVICE",
+      "label": "BUILD",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/TASK/BUILD",
+      "parent": "hadleylab-canonic/SERVICES/TASK",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/TASK/BUILD",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/TASK/CAMPAIGN",
+      "kind": "SERVICE",
+      "label": "CAMPAIGN",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/TASK/CAMPAIGN",
+      "parent": "hadleylab-canonic/SERVICES/TASK",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/TASK/CAMPAIGN",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/TASK",
+      "kind": "SERVICE",
+      "label": "TASK",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/TASK",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "_generated: edit the contract or compiler \u2014 not this file_",
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/TASK",
+      "children": 9,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/TASK/CITATIONS",
+      "kind": "SERVICE",
+      "label": "CITATIONS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/TASK/CITATIONS",
+      "parent": "hadleylab-canonic/SERVICES/TASK",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/TASK/CITATIONS",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/TASK/FLEET",
+      "kind": "SERVICE",
+      "label": "FLEET",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/TASK/FLEET",
+      "parent": "hadleylab-canonic/SERVICES/TASK",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/TASK/FLEET",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/TASK/GRANTS",
+      "kind": "SERVICE",
+      "label": "GRANTS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/TASK/GRANTS",
+      "parent": "hadleylab-canonic/SERVICES/TASK",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/TASK/GRANTS",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/TASK/HN-SCOUT",
+      "kind": "SERVICE",
+      "label": "HN-SCOUT",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/TASK/HN-SCOUT",
+      "parent": "hadleylab-canonic/SERVICES/TASK",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/TASK/HN-SCOUT",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/TASK/LINKS",
+      "kind": "SERVICE",
+      "label": "LINKS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/TASK/LINKS",
+      "parent": "hadleylab-canonic/SERVICES/TASK",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/TASK/LINKS",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/TASK/SEO",
+      "kind": "SERVICE",
+      "label": "SEO",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/TASK/SEO",
+      "parent": "hadleylab-canonic/SERVICES/TASK",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/TASK/SEO",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/TASK/UPTIME",
+      "kind": "SERVICE",
+      "label": "UPTIME",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/TASK/UPTIME",
+      "parent": "hadleylab-canonic/SERVICES/TASK",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/TASK/UPTIME",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
     },
     {
       "id": "hadleylab-canonic/SERVICES/USER",
@@ -9402,7 +9780,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 147,
+      "learning_count": 156,
       "coverage_score": 255,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/CARIBCHAT",
@@ -9413,37 +9791,13 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 128,
-        "last_session": "2026-03-30",
+        "sessions": 132,
+        "last_session": "2026-03-31",
         "channels": [
           "CARIBCHAT"
         ]
       },
       "learning": [
-        {
-          "date": "2026-03-27",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "What cancer services exist in St. Vincent",
-          "source": "fbb9995c-8a7d-4adc-9bb5-3cf07114e3fe"
-        },
-        {
-          "date": "2026-03-27",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Incidence of cervical cancer in Jamaica",
-          "source": "1e8291e7-faf1-41b7-b256-0e12ef869cb2"
-        },
-        {
-          "date": "2026-03-27",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "In Antigua",
-          "source": "e146b427-097f-49ca-8f45-ae26004118e9"
-        },
-        {
-          "date": "2026-03-27",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Note: There are no full Oncology Services at Mt. Hope Hospital or Eric Williams",
-          "source": "e1d9099b-a948-497e-977f-2b2a1c3cddb8"
-        },
         {
           "date": "2026-03-28",
           "signal": "SESSION_LEDGERED",
@@ -9479,6 +9833,30 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "I am looking for breast cancer Radiotherapy in the Caribbean",
           "source": "182f2373-b8c0-444d-9fa3-7b957797b390"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Can I have a lymphatic massage if my arm and breast area a e swollen",
+          "source": "9323cb20-5af8-46ba-88c4-6f0fa4d27c80"
+        },
+        {
+          "date": "2026-03-31",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Hi",
+          "source": "4e2a9339-d384-43e2-bfce-19a2e52f338f"
+        },
+        {
+          "date": "2026-03-31",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "I just got diagnosed with metastatic breast canxwd",
+          "source": "fe22763a-b379-45e8-a8bf-275f11a7e4c3"
+        },
+        {
+          "date": "2026-03-31",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What are the pros and cons of zometa and is it important  to  triple positive  c",
+          "source": "b656c0ec-c525-48cb-a80e-1b3f18a41c71"
         }
       ],
       "score": 128
@@ -9763,7 +10141,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR BREAST HEALTH. EVERY CLAIM SOURCED. EVERY TRIAL CITED. EVERY JOURNEY GOVERNED.**",
-      "learning_count": 41,
+      "learning_count": 45,
       "coverage_score": 255,
       "coverage_open_gates": [
         "A11Y"
@@ -9778,25 +10156,13 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 23,
-        "last_session": "2026-03-28",
+        "sessions": 25,
+        "last_session": "2026-03-31",
         "channels": [
           "MAMMOCHAT"
         ]
       },
       "learning": [
-        {
-          "date": "2026-03-01",
-          "signal": "CROSS_SCOPE",
-          "pattern": "Marketing surface (SERVICES/TALK/MAMMOCHAT) cross-references chatbot scope (TALK/MAMMOCHAT) \u2014 evidence chain flows from ",
-          "source": "GOV"
-        },
-        {
-          "date": "2026-03-01",
-          "signal": "PARTNER_INVENTORY",
-          "pattern": "8 institutional partners catalogued with verification status (NIH, UCF, AdventHealth, FL DOH, NLM, ABOPM, IHA, iCorps)",
-          "source": "mammochat.com"
-        },
         {
           "date": "2026-03-02",
           "signal": "SESSION_LEDGERED",
@@ -9844,6 +10210,18 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "How do I join the study",
           "source": "beba7473-35cb-4f86-8477-6850c9ed2569"
+        },
+        {
+          "date": "2026-03-31",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "hey i just got diagnosed with breast cancer",
+          "source": "15040421-da79-4442-b8b1-e482293ec6b6"
+        },
+        {
+          "date": "2026-03-31",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What does BI-RADS 4B mean",
+          "source": "f22a3d97-f9b6-4663-9627-d292f04424df"
         }
       ],
       "score": 128
@@ -10033,7 +10411,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR OMICS. EVERY VARIANT CLASSIFIED. EVERY FINDING EVIDENCED. EVERY TIER DECLARED.**",
       "roadmap_now": "Governance at 255 \u2014 all 8 artifacts validated",
-      "learning_count": 29,
+      "learning_count": 31,
       "coverage_score": 255,
       "coverage_open_gates": [
         "A11Y"
@@ -10048,25 +10426,13 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 5,
-        "last_session": "2026-03-26",
+        "sessions": 7,
+        "last_session": "2026-03-31",
         "channels": [
           "OMICSCHAT"
         ]
       },
       "learning": [
-        {
-          "date": "2026-02-27",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "What amid epigenetics",
-          "source": "2c5b7e34-0397-4db9-acd5-cfb0221f9975"
-        },
-        {
-          "date": "2026-02-28",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "What\u2019s a snp?",
-          "source": "c241de81-d50a-4b7a-8375-5da34e371173"
-        },
         {
           "date": "2026-02-28",
           "signal": "SESSION_LEDGERED",
@@ -10114,6 +10480,18 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "What is precision medicine",
           "source": "0d26564a-8e52-4bcd-8fa9-0e55ed4d5a14"
+        },
+        {
+          "date": "2026-03-31",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What is BRCA1?",
+          "source": "73fe2568-e228-46d9-b2e6-bb7439eba043"
+        },
+        {
+          "date": "2026-03-31",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "I have a BRCA1 mutation and was diagnosed with stage II breast cancer. ER positi",
+          "source": "f75defef-b70c-430a-b7f1-f9c91f769729"
         }
       ],
       "score": 128
@@ -12371,10 +12749,10 @@
       "missing_dims": [],
       "has_intel": false,
       "roadmap_now": "Service contracts: TALK/RUNNER, TALK/NONA, COIN, LEDGER, VAULT, SHOP, KYC, VITAE",
-      "learning_count": 7,
+      "learning_count": 10,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
-      "children": 6,
+      "children": 7,
       "wallet": null,
       "talk": {
         "sessions": 67,
@@ -12425,6 +12803,24 @@
           "signal": "runner-canonic GOV repo bootstrapped \u2014 first distributed CANONIC galaxy",
           "pattern": "Same governance kernel (canonic-canonic submodule) applied to independent org",
           "source": "GOV bootstrap"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "Submodule pointer can be dangling \u2014 parent accepts commit SHA that doesn't exist on submodule remote",
+          "pattern": "No CI gate verified submodule push state. GETTING_STARTED.md sat unpushed 5 days.",
+          "source": "ir4y onboarding incident"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "Peer dep conflicts break clean installs \u2014 react-leaflet@5 requires React 19, app pins React 18",
+          "pattern": "Unused dependency (MapView.js uses raw leaflet) with breaking semver range. First external `npm install` caught it.",
+          "source": "ir4y Docker onboarding"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "Three CI gates: submodule push, bootstrap linux, onboarding smoke",
+          "pattern": "Every ir4y blocker became an automated test. Struggle \u2192 evidence \u2192 governed fix \u2192 regression gate.",
+          "source": "CI hardening session"
         }
       ],
       "score": 128
@@ -12561,8 +12957,8 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 227,
-        "last_session": "2026-03-30",
+        "sessions": 235,
+        "last_session": "2026-03-31",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -12594,8 +12990,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 227,
-        "last_session": "2026-03-30",
+        "sessions": 235,
+        "last_session": "2026-03-31",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -12623,7 +13019,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR OPERATIONS. EVERY VENDOR VETTED. EVERY TASK TRACKED. EVERY DOLLAR OF EFFORT EARNED.**",
       "roadmap_now": "CHAT-first interface: conversation is home, pills spawn tasks, cards appear inline",
-      "learning_count": 6,
+      "learning_count": 11,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/TALK/RUNNER",
       "children": 0,
@@ -12636,12 +13032,6 @@
         ]
       },
       "learning": [
-        {
-          "date": "2026-02-25",
-          "signal": "Realtors need operational task management beyond showings",
-          "pattern": "Signs, lockboxes, photos, inspections = daily fiduciary work",
-          "source": "Robert Glover demo"
-        },
         {
           "date": "2026-02-25",
           "signal": "Fiduciary duty (FL 475.278) maps to MAGIC 255 governance",
@@ -12683,6 +13073,24 @@
           "signal": "ONBOARD_FIX",
           "pattern": "Three fixes: (1) gorunner.pro added to HTTP.md Repos table and recompiled, (2) bootstrap now compiles magic from source ",
           "source": "ir4y blockers \u2192 governed fixes"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "SUBMODULE_DRIFT",
+          "pattern": "GETTING_STARTED.md committed locally to runner-canonic but never pushed. Parent repo accepted dangling submodule pointer",
+          "source": "ir4y WhatsApp 2026-03-30"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "PEER_DEP_CONFLICT",
+          "pattern": "react-leaflet@^5.0.0 requires React 19, but app pins React 18. npm ERESOLVE on clean install. MapView.js uses leaflet di",
+          "source": "ir4y npm install failure 2026-03-30"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "CI_HARDENING",
+          "pattern": "Three CI gates shipped from ir4y's onboarding blockers: (1) submodule-gate.yml \u2014 verifies every submodule pointer resolv",
+          "source": "ir4y blockers \u2192 CI gates"
         }
       ],
       "score": 128
@@ -19761,6 +20169,27 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/BLOGS/2026-03-30-stop-prompting-start-governing",
+      "kind": "CONTENT",
+      "label": "STOP PROMPTING START GOVERNING",
+      "repo": "hadleylab-canonic",
+      "path": "BLOGS/2026-03-30-stop-prompting-start-governing",
+      "parent": "hadleylab-canonic/BLOGS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_POST",
+      "fleet_path": "BLOGS/2026-03-30-stop-prompting-start-governing",
+      "children": 0,
+      "date": "2026-03-30",
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "hadleylab-canonic/BLOGS/SERIES",
       "kind": "CONTENT",
       "label": "SERIES",
@@ -22441,6 +22870,126 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/BOOKS/DARIOISMS/COMPILE",
+      "kind": "CONTENT",
+      "label": "COMPILE",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/DARIOISMS/COMPILE",
+      "parent": "hadleylab-canonic/BOOKS/DARIOISMS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/DARIOISMS/compile",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/BOOKS/DARIOISMS/SPINE",
+      "kind": "CONTENT",
+      "label": "SPINE",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/DARIOISMS/SPINE",
+      "parent": "hadleylab-canonic/BOOKS/DARIOISMS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/DARIOISMS/spine",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/00-PREFACE",
+      "kind": "CONTENT",
+      "label": "00-PREFACE",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/DARIOISMS/CHAPTERS/00-PREFACE",
+      "parent": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS/00-preface",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/01-THE-PHYSICIST",
+      "kind": "CONTENT",
+      "label": "01-THE-PHYSICIST",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/DARIOISMS/CHAPTERS/01-THE-PHYSICIST",
+      "parent": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS/01-the-physicist",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/02-THE-DEPARTURE",
+      "kind": "CONTENT",
+      "label": "02-THE-DEPARTURE",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/DARIOISMS/CHAPTERS/02-THE-DEPARTURE",
+      "parent": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS/02-the-departure",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/03-THE-RED-LINES",
+      "kind": "CONTENT",
+      "label": "03-THE-RED-LINES",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/DARIOISMS/CHAPTERS/03-THE-RED-LINES",
+      "parent": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS/03-the-red-lines",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "hadleylab-canonic/BOOKS/DIVIDENDS/AUTHORING-GUIDE",
       "kind": "CONTENT",
       "label": "AUTHORING-GUIDE",
@@ -22654,6 +23203,46 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/pmwc-2026",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/CAMPAIGNS/STOP-PROMPTING-2026",
+      "kind": "CONTENT",
+      "label": "STOP-PROMPTING-2026",
+      "repo": "hadleylab-canonic",
+      "path": "CAMPAIGNS/STOP-PROMPTING-2026",
+      "parent": "hadleylab-canonic/CAMPAIGNS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CAMPAIGNS/stop-prompting-2026",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/CAMPAIGNS/STRONG-HER-2026",
+      "kind": "CONTENT",
+      "label": "STRONG-HER-2026",
+      "repo": "hadleylab-canonic",
+      "path": "CAMPAIGNS/STRONG-HER-2026",
+      "parent": "hadleylab-canonic/CAMPAIGNS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CAMPAIGNS/strong-her-2026",
       "children": 0,
       "wallet": null,
       "talk": null,
@@ -22934,6 +23523,26 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CHARTER/ENTITY/work-talk-julio",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/CHARTER/LICENSING/FOUNDATION-TIER",
+      "kind": "CONTENT",
+      "label": "FOUNDATION-TIER",
+      "repo": "hadleylab-canonic",
+      "path": "CHARTER/LICENSING/FOUNDATION-TIER",
+      "parent": "hadleylab-canonic/CHARTER/LICENSING",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CHARTER/LICENSING/foundation-tier",
       "children": 0,
       "wallet": null,
       "talk": null,
@@ -23354,6 +23963,126 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "GRANTS/ACS-FLATIRON/specific-aims",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
+      "kind": "CONTENT",
+      "label": "EMAIL-AIMED-CHANG-PAPPAS",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-biosketch-reminder",
+      "kind": "CONTENT",
+      "label": "EMAIL-BIOSKETCH-REMINDER",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/email-biosketch-reminder",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/email-biosketch-reminder",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
+      "kind": "CONTENT",
+      "label": "EMAIL-FLATIRON-DATA-DICT",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-review",
+      "kind": "CONTENT",
+      "label": "EMAIL-TEAM-REVIEW",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/email-team-review",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/email-team-review",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-abstract",
+      "kind": "CONTENT",
+      "label": "LOI-ABSTRACT",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/loi-abstract",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/loi-abstract",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-research-plan",
+      "kind": "CONTENT",
+      "label": "LOI-RESEARCH-PLAN",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/loi-research-plan",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/loi-research-plan",
       "children": 0,
       "wallet": null,
       "talk": null,
@@ -23861,6 +24590,26 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/PATENTS/APPLICATIONS/FRAND-COMMITMENT",
+      "kind": "CONTENT",
+      "label": "FRAND-COMMITMENT",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/APPLICATIONS/FRAND-COMMITMENT",
+      "parent": "hadleylab-canonic/PATENTS/APPLICATIONS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/APPLICATIONS/frand-commitment",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "hadleylab-canonic/PATENTS/CLAIMS",
       "kind": "CONTENT",
       "label": "CLAIMS",
@@ -23869,8 +24618,8 @@
       "parent": "hadleylab-canonic/PATENTS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "PATENTS/claims",
@@ -23878,7 +24627,407 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/FILING-RECEIPTS",
+      "kind": "CONTENT",
+      "label": "FILING-RECEIPTS",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/FILING-RECEIPTS",
+      "parent": "hadleylab-canonic/PATENTS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/filing-receipts",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/FILING",
+      "kind": "CONTENT",
+      "label": "FILING",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/FILING",
+      "parent": "hadleylab-canonic/PATENTS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/filing",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/LEDGER",
+      "kind": "CONTENT",
+      "label": "LEDGER",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/LEDGER",
+      "parent": "hadleylab-canonic/PATENTS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/ledger",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/EPO-PRIOR-ART-SEARCH",
+      "kind": "CONTENT",
+      "label": "EPO-PRIOR-ART-SEARCH",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/EPO-PRIOR-ART-SEARCH",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/epo-prior-art-search",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/JPO-PRIOR-ART-SEARCH",
+      "kind": "CONTENT",
+      "label": "JPO-PRIOR-ART-SEARCH",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/JPO-PRIOR-ART-SEARCH",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/jpo-prior-art-search",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/NPL-PRIOR-ART-SEARCH",
+      "kind": "CONTENT",
+      "label": "NPL-PRIOR-ART-SEARCH",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/NPL-PRIOR-ART-SEARCH",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/npl-prior-art-search",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009",
+      "kind": "CONTENT",
+      "label": "PRIOR-ART-SEARCH-PROV-007-009",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/prior-art-search-prov-007-009",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PROV-PRIOR-ART-ANALYSIS",
+      "kind": "CONTENT",
+      "label": "PROV-PRIOR-ART-ANALYSIS",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/PROV-PRIOR-ART-ANALYSIS",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/prov-prior-art-analysis",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/SECTION-101-PROV-007-009",
+      "kind": "CONTENT",
+      "label": "SECTION-101-PROV-007-009",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/SECTION-101-PROV-007-009",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/section-101-prov-007-009",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/SECTION-101",
+      "kind": "CONTENT",
+      "label": "SECTION-101",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/SECTION-101",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/section-101",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/US-PRIOR-ART-SEARCH",
+      "kind": "CONTENT",
+      "label": "US-PRIOR-ART-SEARCH",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/US-PRIOR-ART-SEARCH",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/us-prior-art-search",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-001",
+      "kind": "CONTENT",
+      "label": "PROV-001",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-001",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/prov-001",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-002",
+      "kind": "CONTENT",
+      "label": "PROV-002",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-002",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/prov-002",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-003",
+      "kind": "CONTENT",
+      "label": "PROV-003",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-003",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/prov-003",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-004",
+      "kind": "CONTENT",
+      "label": "PROV-004",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-004",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/prov-004",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-005",
+      "kind": "CONTENT",
+      "label": "PROV-005",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-005",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/prov-005",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-006",
+      "kind": "CONTENT",
+      "label": "PROV-006",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-006",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/prov-006",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-007",
+      "kind": "CONTENT",
+      "label": "PROV-007",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-007",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/prov-007",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-008",
+      "kind": "CONTENT",
+      "label": "PROV-008",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-008",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/prov-008",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-009",
+      "kind": "CONTENT",
+      "label": "PROV-009",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-009",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/prov-009",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SERVICES/CAMPAIGN/PLAYBOOK",
@@ -26337,6 +27486,26 @@
       "score": 128
     },
     {
+      "id": "runner-canonic/GETTING_STARTED",
+      "kind": "CONTENT",
+      "label": "GETTING_STARTED",
+      "repo": "runner-canonic",
+      "path": "./GETTING_STARTED",
+      "parent": "runner-canonic",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "getting_started",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "runner-canonic/ONBOARDING_EMAIL",
       "kind": "CONTENT",
       "label": "ONBOARDING_EMAIL",
@@ -28026,6 +29195,11 @@
     },
     {
       "kind": "INHERITS",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS",
+      "to": "hadleylab-canonic/SERVICES/BOOK"
+    },
+    {
+      "kind": "INHERITS",
       "from": "hadleylab-canonic/BOOKS/DIVIDENDS",
       "to": "hadleylab-canonic/SERVICES/BOOK"
     },
@@ -28046,7 +29220,17 @@
     },
     {
       "kind": "INHERITS",
+      "from": "hadleylab-canonic/CAMPAIGNS/MONITOR",
+      "to": "hadleylab-canonic/SERVICES/CAMPAIGN"
+    },
+    {
+      "kind": "INHERITS",
       "from": "hadleylab-canonic/CAMPAIGNS/REDDIT",
+      "to": "hadleylab-canonic/SERVICES/CAMPAIGN"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/CAMPAIGNS/SUBSTACK",
       "to": "hadleylab-canonic/SERVICES/CAMPAIGN"
     },
     {
@@ -29779,6 +30963,16 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS",
+      "to": "hadleylab-canonic/BOOKS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS",
+      "to": "hadleylab-canonic/BOOKS/DARIOISMS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/BOOKS/DIVIDENDS",
       "to": "hadleylab-canonic/BOOKS"
     },
@@ -29799,7 +30993,17 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/CAMPAIGNS/MONITOR",
+      "to": "hadleylab-canonic/CAMPAIGNS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/CAMPAIGNS/REDDIT",
+      "to": "hadleylab-canonic/CAMPAIGNS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/CAMPAIGNS/SUBSTACK",
       "to": "hadleylab-canonic/CAMPAIGNS"
     },
     {
@@ -30086,6 +31290,56 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/TALK",
       "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/TASK/BUILD",
+      "to": "hadleylab-canonic/SERVICES/TASK"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/TASK/CAMPAIGN",
+      "to": "hadleylab-canonic/SERVICES/TASK"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/TASK",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/TASK/CITATIONS",
+      "to": "hadleylab-canonic/SERVICES/TASK"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/TASK/FLEET",
+      "to": "hadleylab-canonic/SERVICES/TASK"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/TASK/GRANTS",
+      "to": "hadleylab-canonic/SERVICES/TASK"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/TASK/HN-SCOUT",
+      "to": "hadleylab-canonic/SERVICES/TASK"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/TASK/LINKS",
+      "to": "hadleylab-canonic/SERVICES/TASK"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/TASK/SEO",
+      "to": "hadleylab-canonic/SERVICES/TASK"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/TASK/UPTIME",
+      "to": "hadleylab-canonic/SERVICES/TASK"
     },
     {
       "kind": "PARENT",
@@ -31484,6 +32738,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/BLOGS/2026-03-30-stop-prompting-start-governing",
+      "to": "hadleylab-canonic/BLOGS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/BLOGS/SERIES",
       "to": "hadleylab-canonic/BLOGS"
     },
@@ -32154,6 +33413,36 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS/COMPILE",
+      "to": "hadleylab-canonic/BOOKS/DARIOISMS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS/SPINE",
+      "to": "hadleylab-canonic/BOOKS/DARIOISMS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/00-PREFACE",
+      "to": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/01-THE-PHYSICIST",
+      "to": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/02-THE-DEPARTURE",
+      "to": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/03-THE-RED-LINES",
+      "to": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/BOOKS/DIVIDENDS/AUTHORING-GUIDE",
       "to": "hadleylab-canonic/BOOKS/DIVIDENDS"
     },
@@ -32205,6 +33494,16 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/CAMPAIGNS/PMWC-2026",
+      "to": "hadleylab-canonic/CAMPAIGNS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/CAMPAIGNS/STOP-PROMPTING-2026",
+      "to": "hadleylab-canonic/CAMPAIGNS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/CAMPAIGNS/STRONG-HER-2026",
       "to": "hadleylab-canonic/CAMPAIGNS"
     },
     {
@@ -32276,6 +33575,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/CHARTER/ENTITY/WORK-TALK-JULIO",
       "to": "hadleylab-canonic/CHARTER/ENTITY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/CHARTER/LICENSING/FOUNDATION-TIER",
+      "to": "hadleylab-canonic/CHARTER/LICENSING"
     },
     {
       "kind": "PARENT",
@@ -32380,6 +33684,36 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/SPECIFIC-AIMS",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-biosketch-reminder",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-review",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-abstract",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-research-plan",
       "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
     },
     {
@@ -32711,6 +34045,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/VITAE/SHOP",
       "to": "hadleylab-canonic/VITAE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/GETTING_STARTED",
+      "to": "runner-canonic"
     },
     {
       "kind": "PARENT",

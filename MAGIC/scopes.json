@@ -315,6 +315,17 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:BOOKS:DARIOISMS",
+      "label": "DARIOISMS",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:BOOKS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:BOOKS:DIVIDENDS",
       "label": "DIVIDENDS",
       "bits": 255,
@@ -359,8 +370,30 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:CAMPAIGNS:MONITOR",
+      "label": "MONITOR",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:CAMPAIGNS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:CAMPAIGNS:REDDIT",
       "label": "REDDIT",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:CAMPAIGNS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:CAMPAIGNS:SUBSTACK",
+      "label": "SUBSTACK",
       "bits": 247,
       "size": 60,
       "color": "#64748b",
@@ -724,8 +757,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:PATENTS",
       "label": "PATENTS",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:."
@@ -733,10 +766,43 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PATENTS:APPLICATIONS",
+      "label": "APPLICATIONS",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PATENTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PATENTS:DISCLOSURES",
+      "label": "DISCLOSURES",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PATENTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PATENTS:DUE-DILIGENCE",
+      "label": "DUE-DILIGENCE",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PATENTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:PATENTS:PROV-001",
       "label": "PROV-001",
-      "bits": 215,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:PATENTS"
@@ -746,8 +812,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:PATENTS:PROV-002",
       "label": "PROV-002",
-      "bits": 215,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:PATENTS"
@@ -757,8 +823,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:PATENTS:PROV-003",
       "label": "PROV-003",
-      "bits": 215,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:PATENTS"
@@ -768,8 +834,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:PATENTS:PROV-004",
       "label": "PROV-004",
-      "bits": 215,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:PATENTS"
@@ -779,8 +845,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:PATENTS:PROV-005",
       "label": "PROV-005",
-      "bits": 215,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:PATENTS"
@@ -790,8 +856,52 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:PATENTS:PROV-006",
       "label": "PROV-006",
-      "bits": 215,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PATENTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PATENTS:PROV-007",
+      "label": "PROV-007",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PATENTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PATENTS:PROV-008",
+      "label": "PROV-008",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PATENTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PATENTS:PROV-009",
+      "label": "PROV-009",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PATENTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PATENTS:PROVISIONALS",
+      "label": "PROVISIONALS",
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:PATENTS"
@@ -1234,6 +1344,17 @@
       "size": 80,
       "color": "#ec4899",
       "category": "SERVICES",
+      "inherits": "gov:hadleylab-canonic:SERVICES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SERVICES:TASK",
+      "label": "TASK",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
       "inherits": "gov:hadleylab-canonic:SERVICES"
     },
     {
