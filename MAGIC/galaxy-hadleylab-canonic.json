@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "c40e28557006cfa5"
+    "gov_hash": "1ce387d6802e0711"
   },
-  "generated": "2026-03-31T21:32:05Z",
+  "generated": "2026-04-01T17:35:09Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -46,7 +46,7 @@
     }
   ],
   "stats": {
-    "total": 616,
+    "total": 618,
     "avg_bits": 254
   },
   "nodes": [
@@ -114,7 +114,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "BOOKS",
-      "children": 12
+      "children": 11
     },
     {
       "id": "hadleylab-canonic/CAMPAIGNS",
@@ -209,7 +209,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS",
-      "children": 8
+      "children": 9
     },
     {
       "id": "hadleylab-canonic/GRANTS",
@@ -338,7 +338,7 @@
       "learning_count": 5,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "TALKS",
-      "children": 15
+      "children": 16
     },
     {
       "id": "hadleylab-canonic/TRANSCRIPTS",
@@ -1744,12 +1744,15 @@
       "missing_dims": [
         "R"
       ],
-      "privacy": "PUBLIC",
+      "privacy": "PRIVATE",
       "has_intel": false,
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "surface_type": "JEKYLL_BOOK",
       "fleet_path": "BOOKS/DARIOISMS",
+      "readers": [
+        "iDrDex"
+      ],
       "children": 3
     },
     {
@@ -2469,6 +2472,28 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DEALS/RUNNER-CHAIN",
       "children": 1
+    },
+    {
+      "id": "hadleylab-canonic/DECKS/ACHIEVE",
+      "kind": "SCOPE",
+      "label": "ACHIEVE",
+      "repo": "hadleylab-canonic",
+      "path": "DECKS/ACHIEVE",
+      "parent": "hadleylab-canonic/DECKS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "privacy": "PUBLIC",
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DECKS/ACHIEVE",
+      "children": 0
     },
     {
       "id": "hadleylab-canonic/DECKS/BEDA",
@@ -3393,7 +3418,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "Dexter Hadley, MD/PhD (Penn). Stanford Research Associate (Butte Lab). Faculty at UCSF and UCF (Founding Chief of AI). C",
-      "learning_count": 33,
+      "learning_count": 34,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/CLAUDE",
@@ -4109,11 +4134,11 @@
       ],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR SERVICE. EVERY CAPABILITY TRACED. EVERY INTEGRATION GOVERNED.**",
-      "roadmap_now": "[ ] Calendar app visual surface (CALENDAR-APP.html + calendar.js)",
+      "roadmap_now": "[ ] API endpoint backed by multi-lane INDEX",
       "learning_count": 10,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "SERVICES/TIMELINE",
+      "fleet_path": "timeline",
       "children": 0
     },
     {
@@ -4216,6 +4241,33 @@
       "children": 0
     },
     {
+      "id": "hadleylab-canonic/TALKS/ACHIEVE",
+      "kind": "SCOPE",
+      "label": "ACHIEVE",
+      "repo": "hadleylab-canonic",
+      "path": "TALKS/ACHIEVE",
+      "parent": "hadleylab-canonic/TALKS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_TALK",
+      "fleet_path": "TALKS/ACHIEVE",
+      "cross_intel": [
+        "MAMMOCHAT",
+        "CARIBCHAT",
+        "OMICSCHAT",
+        "VITAE"
+      ],
+      "children": 0
+    },
+    {
       "id": "hadleylab-canonic/TALKS/BLANDFORD",
       "kind": "SCOPE",
       "label": "BLANDFORD",
@@ -4280,7 +4332,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 156,
+      "learning_count": 157,
       "coverage_score": 255,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/CARIBCHAT",
@@ -4375,7 +4427,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR BREAST HEALTH. EVERY CLAIM SOURCED. EVERY TRIAL CITED. EVERY JOURNEY GOVERNED.**",
-      "learning_count": 45,
+      "learning_count": 47,
       "coverage_score": 255,
       "coverage_open_gates": [
         "A11Y"
@@ -11020,26 +11072,6 @@
       "children": 0
     },
     {
-      "id": "canonic-canonic",
-      "kind": "ORG",
-      "label": "CANONIC",
-      "repo": "canonic-canonic",
-      "path": ".",
-      "parent": null,
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "[ ] Key rotation escalation \u2014 promote from soft gate (WARN) to hard gate (FAIL) in phase 8f",
-      "learning_count": 983,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "",
-      "children": 5
-    },
-    {
       "id": "canonic-canonic/MAGIC",
       "kind": "SCOPE",
       "label": "MAGIC",
@@ -11059,6 +11091,26 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC",
       "children": 11
+    },
+    {
+      "id": "canonic-canonic",
+      "kind": "ORG",
+      "label": "CANONIC",
+      "repo": "canonic-canonic",
+      "path": ".",
+      "parent": null,
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "[ ] Key rotation escalation \u2014 promote from soft gate (WARN) to hard gate (FAIL) in phase 8f",
+      "learning_count": 983,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "",
+      "children": 5
     }
   ],
   "edges": [
@@ -11194,6 +11246,11 @@
     },
     {
       "kind": "INHERITS",
+      "from": "hadleylab-canonic/DECKS/ACHIEVE",
+      "to": "hadleylab-canonic/SERVICES/DECK"
+    },
+    {
+      "kind": "INHERITS",
       "from": "hadleylab-canonic/DECKS/BEDA",
       "to": "hadleylab-canonic/SERVICES/DECK"
     },
@@ -11316,6 +11373,11 @@
       "kind": "INHERITS",
       "from": "hadleylab-canonic/SERVICES/LEARNING",
       "to": "canonic-canonic/MAGIC/SERVICES/LEARNING"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/TALKS/ACHIEVE",
+      "to": "hadleylab-canonic/SERVICES/TALK"
     },
     {
       "kind": "INHERITS",
@@ -11541,6 +11603,26 @@
       "kind": "INHERITS",
       "from": "hadleylab-canonic/VITAE",
       "to": "hadleylab-canonic/SERVICES/VITAE"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/ACHIEVE",
+      "to": "hadleylab-canonic/TALKS/MAMMOCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/ACHIEVE",
+      "to": "hadleylab-canonic/TALKS/CARIBCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/ACHIEVE",
+      "to": "hadleylab-canonic/TALKS/OMICSCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/ACHIEVE",
+      "to": "hadleylab-canonic/TALKS/VITAE"
     },
     {
       "kind": "CROSS_INTEL",
@@ -11921,6 +12003,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/DEALS/RUNNER-CHAIN",
       "to": "hadleylab-canonic/DEALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DECKS/ACHIEVE",
+      "to": "hadleylab-canonic/DECKS"
     },
     {
       "kind": "PARENT",
@@ -12351,6 +12438,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/VITAE",
       "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/TALKS/ACHIEVE",
+      "to": "hadleylab-canonic/TALKS"
     },
     {
       "kind": "PARENT",

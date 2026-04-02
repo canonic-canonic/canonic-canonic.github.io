@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "c40e28557006cfa5"
+    "gov_hash": "1ce387d6802e0711"
   },
-  "generated": "2026-03-31T21:32:05Z",
+  "generated": "2026-04-01T17:35:09Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -74,18 +74,18 @@
     ]
   },
   "stats": {
-    "total": 922,
-    "avg_bits": 253,
-    "below_magic": 50,
+    "total": 924,
+    "avg_bits": 252,
+    "below_magic": 52,
     "intel_coverage": 122,
     "total_coin": 149567,
-    "total_events": 697,
-    "total_sessions": 235,
+    "total_events": 706,
+    "total_sessions": 237,
     "active_channels": 6,
     "user_count": 34,
     "org_count": 5,
     "svc_count": 55,
-    "scope_count": 297,
+    "scope_count": 299,
     "fleet_health_pct": 99
   },
   "nodes": [
@@ -110,7 +110,7 @@
       "children": 5,
       "wallet": {
         "balance": 149567,
-        "events": 697,
+        "events": 706,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 150778,
@@ -118,87 +118,6 @@
           "net": 149567
         },
         "recent_transactions": [
-          {
-            "event": "MINT:SIGNUP",
-            "amount": 500,
-            "delta": 500,
-            "note": "Signup bonus for FATIMA",
-            "ts": "2026-02-25T18:45:10.608004Z",
-            "service": "WALLET",
-            "product": "SIGNUP"
-          },
-          {
-            "event": "MINT:PYRAMID",
-            "amount": 500,
-            "delta": 500,
-            "note": "Pyramid bonus: DEXTER referred FATIMA",
-            "ts": "2026-02-25T18:45:19.908831Z",
-            "service": "WALLET",
-            "product": "PYRAMID"
-          },
-          {
-            "event": "DEBIT:DRIFT",
-            "amount": 127,
-            "delta": -127,
-            "note": "drift:.canonic",
-            "ts": "2026-02-26T01:59:28.593306Z",
-            "service": "LEDGER",
-            "product": "WORK"
-          },
-          {
-            "event": "MINT:WORK",
-            "amount": 255,
-            "delta": 255,
-            "note": "git-commit:CANONIC",
-            "ts": "2026-02-26T19:29:24.978795Z",
-            "service": "LEDGER",
-            "product": "WORK"
-          },
-          {
-            "event": "MINT:WORK",
-            "amount": 247,
-            "delta": 247,
-            "note": "git-commit:canonic-canonic",
-            "ts": "2026-02-26T20:40:44.309783Z",
-            "service": "LEDGER",
-            "product": "WORK"
-          },
-          {
-            "event": "MINT:WORK",
-            "amount": 255,
-            "delta": 255,
-            "note": "git-commit:hadleylab-canonic",
-            "ts": "2026-02-26T21:41:56.053426Z",
-            "service": "LEDGER",
-            "product": "WORK"
-          },
-          {
-            "event": "MINT:WORK",
-            "amount": 8,
-            "delta": 8,
-            "note": "git-commit:canonic-canonic",
-            "ts": "2026-02-27T01:02:23.109763Z",
-            "service": "LEDGER",
-            "product": "WORK"
-          },
-          {
-            "event": "SPEND",
-            "amount": 35,
-            "delta": -35,
-            "note": "Purchase: CANONIC-WHITEPAPER-V1",
-            "ts": "2026-02-27T06:19:55.171731Z",
-            "service": "SHOP",
-            "product": "CANONIC-WHITEPAPER-V1"
-          },
-          {
-            "event": "SPEND",
-            "amount": 35,
-            "delta": 35,
-            "note": "Sale: CANONIC-WHITEPAPER-V1 to DEXTER",
-            "ts": "2026-02-27T06:19:55.178775Z",
-            "service": "SHOP",
-            "product": "CANONIC-WHITEPAPER-V1"
-          },
           {
             "event": "SETTLE",
             "amount": 35,
@@ -297,6 +216,87 @@
             "ts": "2026-03-15T19:35:43.156323Z",
             "service": "WEB",
             "product": "PAGEVIEW"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.809682Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.814115Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.815670Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.816584Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.817445Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.818461Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.819442Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.821133Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.822725Z",
+            "service": "WALLET",
+            "product": "CLOSE"
           }
         ]
       },
@@ -2176,7 +2176,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/COMPLIANCE",
-      "children": 8,
+      "children": 9,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -2351,6 +2351,41 @@
         }
       ],
       "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/COMPLIANCE/PRIVACY",
+      "kind": "SCOPE",
+      "label": "PRIVACY",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/COMPLIANCE/PRIVACY",
+      "parent": "canonic-canonic/MAGIC/COMPLIANCE",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "roadmap_now": "[ ] canonic.org/privacy/ \u2014 published surface",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/COMPLIANCE/PRIVACY",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-04-01",
+          "signal": "PRIVACY_GAP",
+          "pattern": "No privacy policy existed across any CANONIC domain. LinkedIn Developer App registration required a privacy URL, exposin",
+          "source": "LinkedIn app registration session"
+        }
+      ],
+      "score": 123
     },
     {
       "id": "canonic-canonic/MAGIC/COMPLIANCE/PROTECTION",
@@ -5044,7 +5079,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "BOOKS",
-      "children": 12,
+      "children": 11,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -5377,32 +5412,6 @@
       "score": 128
     },
     {
-      "id": "hadleylab-canonic/BOOKS/DARIOISMS",
-      "kind": "SCOPE",
-      "label": "DARIOISMS",
-      "repo": "hadleylab-canonic",
-      "path": "BOOKS/DARIOISMS",
-      "parent": "hadleylab-canonic/BOOKS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
-      "privacy": "PUBLIC",
-      "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
-      "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/DARIOISMS",
-      "children": 3,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 123
-    },
-    {
       "id": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS",
       "kind": "SCOPE",
       "label": "CHAPTERS",
@@ -5705,7 +5714,7 @@
       "children": 17,
       "wallet": {
         "balance": 149567,
-        "events": 697,
+        "events": 706,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 150778,
@@ -5713,87 +5722,6 @@
           "net": 149567
         },
         "recent_transactions": [
-          {
-            "event": "MINT:SIGNUP",
-            "amount": 500,
-            "delta": 500,
-            "note": "Signup bonus for FATIMA",
-            "ts": "2026-02-25T18:45:10.608004Z",
-            "service": "WALLET",
-            "product": "SIGNUP"
-          },
-          {
-            "event": "MINT:PYRAMID",
-            "amount": 500,
-            "delta": 500,
-            "note": "Pyramid bonus: DEXTER referred FATIMA",
-            "ts": "2026-02-25T18:45:19.908831Z",
-            "service": "WALLET",
-            "product": "PYRAMID"
-          },
-          {
-            "event": "DEBIT:DRIFT",
-            "amount": 127,
-            "delta": -127,
-            "note": "drift:.canonic",
-            "ts": "2026-02-26T01:59:28.593306Z",
-            "service": "LEDGER",
-            "product": "WORK"
-          },
-          {
-            "event": "MINT:WORK",
-            "amount": 255,
-            "delta": 255,
-            "note": "git-commit:CANONIC",
-            "ts": "2026-02-26T19:29:24.978795Z",
-            "service": "LEDGER",
-            "product": "WORK"
-          },
-          {
-            "event": "MINT:WORK",
-            "amount": 247,
-            "delta": 247,
-            "note": "git-commit:canonic-canonic",
-            "ts": "2026-02-26T20:40:44.309783Z",
-            "service": "LEDGER",
-            "product": "WORK"
-          },
-          {
-            "event": "MINT:WORK",
-            "amount": 255,
-            "delta": 255,
-            "note": "git-commit:hadleylab-canonic",
-            "ts": "2026-02-26T21:41:56.053426Z",
-            "service": "LEDGER",
-            "product": "WORK"
-          },
-          {
-            "event": "MINT:WORK",
-            "amount": 8,
-            "delta": 8,
-            "note": "git-commit:canonic-canonic",
-            "ts": "2026-02-27T01:02:23.109763Z",
-            "service": "LEDGER",
-            "product": "WORK"
-          },
-          {
-            "event": "SPEND",
-            "amount": 35,
-            "delta": -35,
-            "note": "Purchase: CANONIC-WHITEPAPER-V1",
-            "ts": "2026-02-27T06:19:55.171731Z",
-            "service": "SHOP",
-            "product": "CANONIC-WHITEPAPER-V1"
-          },
-          {
-            "event": "SPEND",
-            "amount": 35,
-            "delta": 35,
-            "note": "Sale: CANONIC-WHITEPAPER-V1 to DEXTER",
-            "ts": "2026-02-27T06:19:55.178775Z",
-            "service": "SHOP",
-            "product": "CANONIC-WHITEPAPER-V1"
-          },
           {
             "event": "SETTLE",
             "amount": 35,
@@ -5892,6 +5820,87 @@
             "ts": "2026-03-15T19:35:43.156323Z",
             "service": "WEB",
             "product": "PAGEVIEW"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.809682Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.814115Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.815670Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.816584Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.817445Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.818461Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.819442Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.821133Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.822725Z",
+            "service": "WALLET",
+            "product": "CLOSE"
           }
         ]
       },
@@ -6627,6 +6636,32 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/DECKS/ACHIEVE",
+      "kind": "SCOPE",
+      "label": "ACHIEVE",
+      "repo": "hadleylab-canonic",
+      "path": "DECKS/ACHIEVE",
+      "parent": "hadleylab-canonic/DECKS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "privacy": "PUBLIC",
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DECKS/ACHIEVE",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
       "id": "hadleylab-canonic/DECKS/BEDA",
       "kind": "SCOPE",
       "label": "BEDA",
@@ -6731,7 +6766,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS",
-      "children": 8,
+      "children": 9,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -7900,7 +7935,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "Dexter Hadley, MD/PhD (Penn). Stanford Research Associate (Butte Lab). Faculty at UCSF and UCF (Founding Chief of AI). C",
-      "learning_count": 33,
+      "learning_count": 34,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/CLAUDE",
@@ -7908,12 +7943,6 @@
       "wallet": null,
       "talk": null,
       "learning": [
-        {
-          "date": "2026-03-25",
-          "signal": "REFERENCE_PROMOTED",
-          "pattern": "HN Account Recovery: HackerNews account idrdex \u2014 password reset in progress, emailed HN to keep username",
-          "source": "intake:reference_hn_account.md"
-        },
         {
           "date": "2026-03-25",
           "signal": "FEEDBACK_PROMOTED",
@@ -7967,6 +7996,12 @@
           "signal": "PROJECT_INTEL",
           "pattern": "Open items from Mar 30-31 session: Stop Prompting campaign 7/10, Substack bulk syndication pending, TASK fleet compiler",
           "source": "intake:project_open_items_2026_03_31.md"
+        },
+        {
+          "date": "2026-04-01",
+          "signal": "PROJECT_INTEL",
+          "pattern": "Achieve Podcast pitch book: ACHIEVE deck at hadleylab.org/decks/achieve/ \u2014 slide deck for Jessie Warner podcast, also bo",
+          "source": "intake:project_achieve_podcast.md"
         }
       ],
       "score": 128
@@ -9144,8 +9179,8 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 235,
-        "last_session": "2026-03-31",
+        "sessions": 237,
+        "last_session": "2026-04-01",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -9530,6 +9565,37 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/TALKS/ACHIEVE",
+      "kind": "SCOPE",
+      "label": "ACHIEVE",
+      "repo": "hadleylab-canonic",
+      "path": "TALKS/ACHIEVE",
+      "parent": "hadleylab-canonic/TALKS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_TALK",
+      "fleet_path": "TALKS/ACHIEVE",
+      "cross_intel": [
+        "MAMMOCHAT",
+        "CARIBCHAT",
+        "OMICSCHAT",
+        "VITAE"
+      ],
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
       "id": "hadleylab-canonic/TALKS/BLANDFORD",
       "kind": "SCOPE",
       "label": "BLANDFORD",
@@ -9728,7 +9794,7 @@
       "learning_count": 5,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "TALKS",
-      "children": 15,
+      "children": 16,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -9780,7 +9846,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 156,
+      "learning_count": 157,
       "coverage_score": 255,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/CARIBCHAT",
@@ -10141,7 +10207,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR BREAST HEALTH. EVERY CLAIM SOURCED. EVERY TRIAL CITED. EVERY JOURNEY GOVERNED.**",
-      "learning_count": 45,
+      "learning_count": 47,
       "coverage_score": 255,
       "coverage_open_gates": [
         "A11Y"
@@ -10156,25 +10222,13 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 25,
-        "last_session": "2026-03-31",
+        "sessions": 27,
+        "last_session": "2026-04-01",
         "channels": [
           "MAMMOCHAT"
         ]
       },
       "learning": [
-        {
-          "date": "2026-03-02",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "what a re the most malignant breast tumors",
-          "source": "cff17365-86a3-46da-8dbf-f63aba1a22b6"
-        },
-        {
-          "date": "2026-03-26",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "How often should a mammogram be done",
-          "source": "2e9387c6-56da-42f5-8269-ca18dcab74ef"
-        },
         {
           "date": "2026-03-26",
           "signal": "SESSION_LEDGERED",
@@ -10222,6 +10276,18 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "What does BI-RADS 4B mean",
           "source": "f22a3d97-f9b6-4663-9627-d292f04424df"
+        },
+        {
+          "date": "2026-04-01",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "what is this",
+          "source": "508dbee4-d722-4405-b783-7ed3608cc2f6"
+        },
+        {
+          "date": "2026-04-01",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "hi",
+          "source": "3556a0fd-382e-4202-b943-643a2cbcaa91"
         }
       ],
       "score": 128
@@ -11116,7 +11182,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -11148,6 +11214,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.475167Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.809682Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -11184,7 +11259,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -11216,6 +11291,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.475167Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.809682Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -11245,7 +11329,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -11277,6 +11361,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.475167Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.809682Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -11360,7 +11453,7 @@
       "children": 2,
       "wallet": {
         "balance": 500,
-        "events": 2,
+        "events": 3,
         "last_close": "",
         "totals": {
           "credit": 500,
@@ -11383,6 +11476,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.487179Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.815670Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -11473,7 +11575,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 2,
+        "events": 3,
         "last_close": "",
         "totals": {
           "credit": 500,
@@ -11496,6 +11598,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.487179Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.815670Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -11525,7 +11636,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 2,
+        "events": 3,
         "last_close": "",
         "totals": {
           "credit": 500,
@@ -11548,6 +11659,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.487179Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.815670Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -11666,7 +11786,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -11698,6 +11818,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.489254Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.816584Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -11734,7 +11863,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -11766,6 +11895,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.489254Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.816584Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -11795,7 +11933,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -11827,6 +11965,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.489254Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.816584Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -11858,7 +12005,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -11890,6 +12037,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.490134Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.817445Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -11926,7 +12082,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -11958,6 +12114,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.490134Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.817445Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -11987,7 +12152,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -12019,6 +12184,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.490134Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.817445Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -12050,7 +12224,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -12082,6 +12256,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.490950Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.818461Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -12118,7 +12301,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -12150,6 +12333,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.490950Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.818461Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -12179,7 +12371,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -12211,6 +12403,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.490950Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.818461Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -12242,7 +12443,7 @@
       "children": 0,
       "wallet": {
         "balance": 503,
-        "events": 3,
+        "events": 4,
         "last_close": "",
         "totals": {
           "credit": 503,
@@ -12274,6 +12475,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.491841Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.819442Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -12310,7 +12520,7 @@
       "children": 0,
       "wallet": {
         "balance": 503,
-        "events": 3,
+        "events": 4,
         "last_close": "",
         "totals": {
           "credit": 503,
@@ -12344,6 +12554,15 @@
             "ts": "2026-03-15T17:19:37.491841Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.819442Z",
+            "service": "WALLET",
+            "product": "CLOSE"
           }
         ]
       },
@@ -12371,7 +12590,7 @@
       "children": 0,
       "wallet": {
         "balance": 503,
-        "events": 3,
+        "events": 4,
         "last_close": "",
         "totals": {
           "credit": 503,
@@ -12403,6 +12622,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.491841Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.819442Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -12461,7 +12689,7 @@
       "children": 0,
       "wallet": {
         "balance": 560,
-        "events": 5,
+        "events": 6,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 595,
@@ -12511,6 +12739,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.495034Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.822725Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -12547,7 +12784,7 @@
       "children": 0,
       "wallet": {
         "balance": 560,
-        "events": 5,
+        "events": 6,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 595,
@@ -12597,6 +12834,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.495034Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.822725Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -12626,7 +12872,7 @@
       "children": 0,
       "wallet": {
         "balance": 560,
-        "events": 5,
+        "events": 6,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 595,
@@ -12676,6 +12922,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.495034Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.822725Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -12957,8 +13212,8 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 235,
-        "last_session": "2026-03-31",
+        "sessions": 237,
+        "last_session": "2026-04-01",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -12990,8 +13245,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 235,
-        "last_session": "2026-03-31",
+        "sessions": 237,
+        "last_session": "2026-04-01",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -13131,12 +13386,26 @@
       "missing_dims": [],
       "has_intel": false,
       "roadmap_now": "Governance artifacts complete (MAGIC 255)",
+      "learning_count": 2,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/VITAE",
       "children": 0,
       "wallet": null,
       "talk": null,
-      "learning": null,
+      "learning": [
+        {
+          "date": "2026-04-01",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Hi",
+          "source": "38f8507a-60d8-48ac-b1f3-4ae4705e87b8"
+        },
+        {
+          "date": "2026-04-01",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "whats frand?",
+          "source": "620150e5-ab01-460c-9572-04ff99e54aa1"
+        }
+      ],
       "score": 128
     },
     {
@@ -18551,7 +18820,7 @@
       "children": 0,
       "wallet": {
         "balance": 145499,
-        "events": 670,
+        "events": 671,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 146640,
@@ -18559,15 +18828,6 @@
           "net": 145499
         },
         "recent_transactions": [
-          {
-            "event": "MINT:WORK",
-            "amount": 255,
-            "delta": 255,
-            "note": "backfill:MAGIC",
-            "ts": "2026-02-23T15:26:38.028729Z",
-            "service": "LEDGER",
-            "product": "WORK"
-          },
           {
             "event": "MINT:WORK",
             "amount": 127,
@@ -18738,6 +18998,15 @@
             "ts": "2026-03-15T19:35:43.156323Z",
             "service": "WEB",
             "product": "PAGEVIEW"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.814115Z",
+            "service": "WALLET",
+            "product": "CLOSE"
           }
         ]
       },
@@ -18762,7 +19031,7 @@
       "children": 0,
       "wallet": {
         "balance": 503,
-        "events": 3,
+        "events": 4,
         "last_close": "",
         "totals": {
           "credit": 503,
@@ -18794,6 +19063,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.491841Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.819442Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -27186,7 +27464,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 2,
+        "events": 3,
         "last_close": "",
         "totals": {
           "credit": 500,
@@ -27209,6 +27487,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.487179Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.815670Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -27235,7 +27522,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 2,
+        "events": 3,
         "last_close": "",
         "totals": {
           "credit": 500,
@@ -27258,6 +27545,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.487179Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.815670Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -27284,7 +27580,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 2,
+        "events": 3,
         "last_close": "",
         "totals": {
           "credit": 500,
@@ -27307,6 +27603,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.487179Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.815670Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -27333,7 +27638,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 2,
+        "events": 3,
         "last_close": "",
         "totals": {
           "credit": 500,
@@ -27356,6 +27661,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.487179Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.815670Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -28512,7 +28826,7 @@
       "children": 2,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -28544,6 +28858,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.475167Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.809682Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -28580,7 +28903,7 @@
       "children": 2,
       "wallet": {
         "balance": 500,
-        "events": 2,
+        "events": 3,
         "last_close": "",
         "totals": {
           "credit": 500,
@@ -28603,6 +28926,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.487179Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.815670Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -28639,7 +28971,7 @@
       "children": 2,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -28671,6 +29003,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.489254Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.816584Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -28707,7 +29048,7 @@
       "children": 2,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -28739,6 +29080,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.490134Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.817445Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -28775,7 +29125,7 @@
       "children": 2,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -28807,6 +29157,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.490950Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.818461Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -28843,7 +29202,7 @@
       "children": 2,
       "wallet": {
         "balance": 503,
-        "events": 3,
+        "events": 4,
         "last_close": "",
         "totals": {
           "credit": 503,
@@ -28875,6 +29234,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.491841Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.819442Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -28911,7 +29279,7 @@
       "children": 2,
       "wallet": {
         "balance": 560,
-        "events": 5,
+        "events": 6,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 595,
@@ -28961,6 +29329,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-03",
             "ts": "2026-03-15T17:19:37.495034Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-01T13:23:25.822725Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -29195,11 +29572,6 @@
     },
     {
       "kind": "INHERITS",
-      "from": "hadleylab-canonic/BOOKS/DARIOISMS",
-      "to": "hadleylab-canonic/SERVICES/BOOK"
-    },
-    {
-      "kind": "INHERITS",
       "from": "hadleylab-canonic/BOOKS/DIVIDENDS",
       "to": "hadleylab-canonic/SERVICES/BOOK"
     },
@@ -29307,6 +29679,11 @@
       "kind": "INHERITS",
       "from": "hadleylab-canonic/PAPERS",
       "to": "hadleylab-canonic/SERVICES/PAPER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/TALKS/ACHIEVE",
+      "to": "hadleylab-canonic/SERVICES/TALK"
     },
     {
       "kind": "INHERITS",
@@ -30090,6 +30467,26 @@
     },
     {
       "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/ACHIEVE",
+      "to": "hadleylab-canonic/TALKS/MAMMOCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/ACHIEVE",
+      "to": "hadleylab-canonic/TALKS/CARIBCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/ACHIEVE",
+      "to": "hadleylab-canonic/TALKS/OMICSCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/ACHIEVE",
+      "to": "hadleylab-canonic/TALKS/VITAE"
+    },
+    {
+      "kind": "CROSS_INTEL",
       "from": "hadleylab-canonic/TALKS/BLANDFORD",
       "to": "hadleylab-canonic/TALKS/REALTY"
     },
@@ -30648,6 +31045,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/COMPLIANCE/PRIVACY",
+      "to": "canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "PARENT",
       "from": "canonic-canonic/MAGIC/COMPLIANCE/PROTECTION",
       "to": "canonic-canonic/MAGIC/COMPLIANCE"
     },
@@ -30963,16 +31365,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/DARIOISMS",
-      "to": "hadleylab-canonic/BOOKS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS",
-      "to": "hadleylab-canonic/BOOKS/DARIOISMS"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/BOOKS/DIVIDENDS",
       "to": "hadleylab-canonic/BOOKS"
     },
@@ -31050,6 +31442,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/CHARTER/TRUST",
       "to": "hadleylab-canonic/CHARTER"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DECKS/ACHIEVE",
+      "to": "hadleylab-canonic/DECKS"
     },
     {
       "kind": "PARENT",
@@ -31355,6 +31752,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/VITAE",
       "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/TALKS/ACHIEVE",
+      "to": "hadleylab-canonic/TALKS"
     },
     {
       "kind": "PARENT",
@@ -33413,16 +33815,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/DARIOISMS/COMPILE",
-      "to": "hadleylab-canonic/BOOKS/DARIOISMS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/BOOKS/DARIOISMS/SPINE",
-      "to": "hadleylab-canonic/BOOKS/DARIOISMS"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/00-PREFACE",
       "to": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS"
     },
@@ -34335,6 +34727,6 @@
     "tier": "FULL",
     "missing_dims": [],
     "wallet_balance": 149567,
-    "wallet_events": 697
+    "wallet_events": 706
   }
 }

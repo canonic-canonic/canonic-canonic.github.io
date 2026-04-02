@@ -612,6 +612,17 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:DECKS:ACHIEVE",
+      "label": "ACHIEVE",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:DECKS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:BEDA",
       "label": "BEDA",
       "bits": 255,
@@ -1422,6 +1433,17 @@
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:TALKS:ACHIEVE",
+      "label": "ACHIEVE",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:TALKS"
     },
     {
       "source": "gov",

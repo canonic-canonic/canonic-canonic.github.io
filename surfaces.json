@@ -55,6 +55,11 @@
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
+      "path": "/MAGIC/COMPLIANCE/privacy/",
+      "scope": "PRIVACY",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
       "path": "/MAGIC/GALAXY/",
       "scope": "galaxy",
       "surface_type": "GALAXY"

@@ -48,6 +48,7 @@ compiler: http
 | caribchat.org | cloudflare | 73a7cdd5a8be98f45816da1c87b7518a |
 | caribchat.ai | cloudflare | 73a7cdd5a8be98f45816da1c87b7518a |
 | atulisms.com | cloudflare | 73a7cdd5a8be98f45816da1c87b7518a |
+| darioisms.com | cloudflare | 73a7cdd5a8be98f45816da1c87b7518a |
 | gorunner.pro | cloudflare | 73a7cdd5a8be98f45816da1c87b7518a |
 
 ## Domains
@@ -69,6 +70,7 @@ TALK surface model: `{scope}.ai` = canonical sink (community learning + SEO prim
 | onconex.ai | hadleylab.org/talks/oncochat/community/ | proxy | community (SEO sink) |
 | app.onconex.ai | hadleylab.org/talks/oncochat/ | instance | instance (noindex) |
 | atulisms.com | hadleylab.org/books/atulisms/ | proxy | book |
+| darioisms.com | hadleylab.org/books/darioisms/ | proxy | book |
 | omicschat.hadleylab.org | hadleylab.org/talks/omicschat/ | subdomain | instance |
 | oncochat.hadleylab.org | hadleylab.org/talks/oncochat/ | subdomain | instance |
 | medchat.hadleylab.org | hadleylab.org/talks/medchat/ | subdomain |
@@ -202,6 +204,8 @@ Rule: paths that do NOT start with a known shared prefix (`/assets/`, `/talks/`,
 | https://www.caribchat.ai |
 | https://atulisms.com |
 | https://www.atulisms.com |
+| https://darioisms.com |
+| https://www.darioisms.com |
 | https://gorunner.pro |
 | https://www.gorunner.pro |
 
@@ -246,6 +250,7 @@ Rule: paths that do NOT start with a known shared prefix (`/assets/`, `/talks/`,
 | GRANTS | GRANTS | hadleylab-canonic/GRANTS |
 | CHARTER | CHARTER | hadleylab-canonic/CHARTER |
 | SERVICES | SERVICES | hadleylab-canonic/SERVICES |
+| TIMELINE | timeline | hadleylab-canonic/SERVICES/TIMELINE |
 | USERS | USERS | hadleylab-canonic/USERS |
 
 ## Repos
@@ -299,6 +304,7 @@ Every page emits `<link rel="canonical">` via DESIGN `HEAD.html`. Uses `site.url
 | caribchat.org | `https://caribchat.org` (Worker rewrite) |
 | caribchat.ai | `https://caribchat.ai` (Worker rewrite) |
 | atulisms.com | `https://atulisms.com` (Worker rewrite) |
+| darioisms.com | `https://darioisms.com` (Worker rewrite) |
 | gorunner.pro | `https://gorunner.pro` (Worker rewrite) |
 
 ### og:image
@@ -354,15 +360,15 @@ Per-page Schema.org structured data emitted via DESIGN `SEO.html` include. Page 
 
 All tracking IDs are governed here. `build-surfaces` reads this table and emits IDs to `_config.yml`. DESIGN `TRACKING.html` conditionally loads scripts when IDs are present.
 
-| Provider | Config Key | hadleylab.org | canonic.org | mammochat.com | mammochat.ai | carib.chat | caribchat.org | caribchat.ai | atulisms.com | gorunner.pro | Notes |
-|----------|-----------|---------------|-------------|---------------|--------------|------------|---------------|--------------|--------------|--------------|-------|
-| GA4 | `ga4_id` | `G-0X3GCTH7TZ` | `G-FS0FDCM8EB` | `G-270WW3R7JM` | PENDING | PENDING | PENDING | PENDING | PENDING | `G-0X3GCTH7TZ` | Google Analytics 4 — provisioned 2026-03-01 |
-| Meta Pixel | `meta_pixel_id` | `237958571262318` | `237958571262318` | `237958571262318` | PENDING | PENDING | PENDING | PENDING | PENDING | `237958571262318` | Meta Pixel — reused from CovidImaging, provisioned 2026-03-01 |
-| LinkedIn Insight | `linkedin_partner_id` | `520335172` | `520335172` | `520335172` | PENDING | PENDING | PENDING | PENDING | PENDING | `520335172` | LinkedIn — ad account 520335172, provisioned 2026-03-01 |
-| Twitter/X Pixel | `twitter_pixel_id` | `18ce53yfp0n` | `18ce53yfp0n` | `18ce53yfp0n` | PENDING | PENDING | PENDING | PENDING | PENDING | `18ce53yfp0n` | X Ads — account 18ce53yfp0n, provisioned 2026-03-01 |
-| Google Ads | `google_ads_id` | `AW-2784372644` | `AW-2784372644` | `AW-2784372644` | PENDING | PENDING | PENDING | PENDING | PENDING | `AW-2784372644` | Google Ads — account 278-437-2644, provisioned 2026-03-01 |
-| Reddit Pixel | `reddit_pixel_id` | `a2_ilt7lbzhyelg` | `a2_ilt7lbzhyelg` | `a2_ilt7lbzhyelg` | PENDING | PENDING | PENDING | PENDING | PENDING | `a2_ilt7lbzhyelg` | Reddit Ads — account ilt7lbzhyelg, provisioned 2026-03-02 |
-| Search Console | `search_console_verified` | DONE | DONE | DONE | PENDING | PENDING | PENDING | PENDING | PENDING | DONE | DNS TXT verified 2026-03-01 via Cloudflare + Site Verification API |
+| Provider | Config Key | hadleylab.org | canonic.org | mammochat.com | mammochat.ai | carib.chat | caribchat.org | caribchat.ai | atulisms.com | darioisms.com | gorunner.pro | Notes |
+|----------|-----------|---------------|-------------|---------------|--------------|------------|---------------|--------------|--------------|---------------|--------------|-------|
+| GA4 | `ga4_id` | `G-0X3GCTH7TZ` | `G-FS0FDCM8EB` | `G-270WW3R7JM` | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | `G-0X3GCTH7TZ` | Google Analytics 4 — provisioned 2026-03-01 |
+| Meta Pixel | `meta_pixel_id` | `237958571262318` | `237958571262318` | `237958571262318` | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | `237958571262318` | Meta Pixel — reused from CovidImaging, provisioned 2026-03-01 |
+| LinkedIn Insight | `linkedin_partner_id` | `520335172` | `520335172` | `520335172` | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | `520335172` | LinkedIn — ad account 520335172, provisioned 2026-03-01 |
+| Twitter/X Pixel | `twitter_pixel_id` | `18ce53yfp0n` | `18ce53yfp0n` | `18ce53yfp0n` | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | `18ce53yfp0n` | X Ads — account 18ce53yfp0n, provisioned 2026-03-01 |
+| Google Ads | `google_ads_id` | `AW-2784372644` | `AW-2784372644` | `AW-2784372644` | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | `AW-2784372644` | Google Ads — account 278-437-2644, provisioned 2026-03-01 |
+| Reddit Pixel | `reddit_pixel_id` | `a2_ilt7lbzhyelg` | `a2_ilt7lbzhyelg` | `a2_ilt7lbzhyelg` | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | `a2_ilt7lbzhyelg` | Reddit Ads — account ilt7lbzhyelg, provisioned 2026-03-02 |
+| Search Console | `search_console_verified` | DONE | DONE | DONE | PENDING | PENDING | PENDING | PENDING | PENDING | PENDING | DONE | DNS TXT verified 2026-03-01 via Cloudflare + Site Verification API |
 
 ### Implementation
 
@@ -509,6 +515,7 @@ Existing A records (GitHub Pages IPs) set to proxied (orange cloud) via Cloudfla
 | hadleylab.org | hadleylab-org | GitHub Pages | 4× A proxied + www CNAME proxied |
 | canonic.org | canonic-org | GitHub Pages | 4× A proxied + www CNAME proxied |
 | atulisms.com | atulisms-com | hadleylab.org (proxy) | 4× A proxied + www CNAME proxied |
+| darioisms.com | darioisms-com | hadleylab.org (proxy) | 4× A proxied + www CNAME proxied |
 | gorunner.pro | (Pages) | Cloudflare Pages (gorunner-pro) | CNAME proxied → gorunner-pro.pages.dev |
 
 ```toml

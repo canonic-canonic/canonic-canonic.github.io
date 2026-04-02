@@ -62,7 +62,7 @@
         {
           "metric": {
             "label": "CHILDREN",
-            "value": "8",
+            "value": "9",
             "change": "scopes",
             "trend": "neutral"
           }
@@ -167,6 +167,13 @@
           "title": "MARKET",
           "desc": "INTEL about MAGIC. What MAGIC knows about its market.",
           "href": "/MAGIC/COMPLIANCE/MARKET/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "PRIVACY",
+          "desc": "Every product collects data. Every collection is governed. Every user knows what, why, and how long.",
+          "href": "/MAGIC/COMPLIANCE/PRIVACY/",
           "class": "card"
         },
         {

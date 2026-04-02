@@ -3,62 +3,102 @@
     "contract": "hadleylab-canonic/SERVICES/TIMELINE/CANON.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "generated": "2026-03-31T21:38:19Z",
-  "total_events": 21861,
+  "generated": "2026-04-02T17:35:00Z",
+  "total_events": 21578,
   "lanes": {
     "CALENDAR": {
-      "count": 5495,
+      "count": 5126,
       "earliest": "1970-05-20T00:00:00Z",
-      "latest": "2031-12-31T00:00:00Z"
+      "latest": "2031-12-31T00:00:00Z",
+      "color": "#2997ff",
+      "icon": "◷",
+      "label": "Calendar"
     },
     "LEARNING": {
-      "count": 14343,
+      "count": 14355,
       "earliest": "2013-10-09T00:00:00Z",
-      "latest": "2026-03-31T00:00:00Z"
+      "latest": "2026-04-01T00:00:00Z",
+      "color": "#bf5af2",
+      "icon": "★",
+      "label": "Learning"
     },
     "TRANSCRIPT": {
       "count": 1149,
       "earliest": "2024-05-07T00:00:00Z",
-      "latest": "2026-03-21T00:00:00Z"
+      "latest": "2026-03-21T00:00:00Z",
+      "color": "#ec4899",
+      "icon": "✉",
+      "label": "Transcript"
     },
     "DEAL": {
       "count": 27,
       "earliest": "2025-10-27T00:00:00Z",
-      "latest": "2026-03-18T00:00:00Z"
+      "latest": "2026-03-18T00:00:00Z",
+      "color": "#ff9f0a",
+      "icon": "↔",
+      "label": "Deal"
     },
     "COIN": {
-      "count": 697,
+      "count": 706,
       "earliest": "2026-02-21T17:28:04.309431Z",
-      "latest": "2026-03-15T19:35:43.156323Z"
+      "latest": "2026-04-01T13:23:25.822725Z",
+      "color": "#ff9f0a",
+      "icon": "⛁",
+      "label": "Coin"
     },
     "CORRESPONDENCE": {
-      "count": 19,
+      "count": 20,
       "earliest": "2026-02-26T12:00:00Z",
-      "latest": "2026-03-30T12:00:00Z"
+      "latest": "2026-03-31T12:00:00Z",
+      "color": "#06b6d4",
+      "icon": "✎",
+      "label": "Correspondence"
     },
     "LEDGER": {
       "count": 7,
       "earliest": "2026-02-26T19:29:24.622827Z",
-      "latest": "2026-03-13T20:50:35.035043Z"
+      "latest": "2026-03-13T20:50:35.035043Z",
+      "color": "#00ff88",
+      "icon": "⚓",
+      "label": "Ledger"
+    },
+    "CAMPAIGN": {
+      "count": 46,
+      "earliest": "2026-03-03T00:00:00Z",
+      "latest": "2026-11-10T00:00:00Z",
+      "color": "#ff453a",
+      "icon": "▶",
+      "label": "Campaign"
     },
     "ROADMAP": {
       "count": 75,
       "earliest": "2026-03-17T17:00:00Z",
-      "latest": "2026-04-21T17:00:00Z"
+      "latest": "2026-04-21T17:00:00Z",
+      "color": "#a3e635",
+      "icon": "☐",
+      "label": "Roadmap"
     },
     "GRANT": {
-      "count": 6,
+      "count": 24,
       "earliest": "2026-03-19T00:00:00Z",
-      "latest": "2026-04-21T17:00:00Z"
+      "latest": "2026-11-10T00:00:00Z",
+      "color": "#30d158",
+      "icon": "⌖",
+      "label": "Grant"
     },
     "CONTACTS": {
       "count": 43,
       "earliest": "2026-03-31T21:11:44Z",
-      "latest": "2026-03-31T21:11:44Z"
+      "latest": "2026-03-31T21:11:44Z",
+      "color": "#ffd60a",
+      "icon": "⌂",
+      "label": "Contacts"
     }
   },
   "principals": [
+    "ALL",
     "AVINASH",
+    "CLEO RYALS",
     "DAVID",
     "DAVID (IHI critical path)",
     "DAVID + NEVILLE",
