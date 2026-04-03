@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "1ce387d6802e0711"
+    "gov_hash": "8e6e46c75b712915"
   },
-  "generated": "2026-04-01T17:35:09Z",
+  "generated": "2026-04-03T16:50:43Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -46,7 +46,7 @@
     }
   ],
   "stats": {
-    "total": 618,
+    "total": 603,
     "avg_bits": 254
   },
   "nodes": [
@@ -92,7 +92,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "BLOGS",
-      "children": 68
+      "children": 69
     },
     {
       "id": "hadleylab-canonic/BOOKS",
@@ -133,18 +133,14 @@
       "has_intel": false,
       "next_tier": "FULL",
       "next_tier_gap": 8,
-      "roadmap_now": "[ ] Build emission ledger \u2014 structured log of every POSTED emission with URL, date, platform, campai",
+      "roadmap_now": "[ ] Execute first HN engagement response (lawyer-who-won, 23 comments, draft at HACKERNEWS/RESPONSES",
       "learning_count": 14,
       "coverage_open_gates": [
-        "EMISSION_LEDGER",
-        "ENGAGEMENT_LOOP",
-        "HN_MONITOR",
-        "PREFLIGHT_AUTOMATION",
         "SUBSTACK_SETUP"
       ],
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS",
-      "children": 16
+      "children": 17
     },
     {
       "id": "hadleylab-canonic/CHARTER",
@@ -209,7 +205,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS",
-      "children": 9
+      "children": 10
     },
     {
       "id": "hadleylab-canonic/GRANTS",
@@ -317,7 +313,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SERVICES",
-      "children": 35
+      "children": 36
     },
     {
       "id": "hadleylab-canonic/TALKS",
@@ -381,7 +377,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS",
-      "children": 4
+      "children": 1
     },
     {
       "id": "hadleylab-canonic/VITAE",
@@ -1591,6 +1587,23 @@
       "date": "2026-03-30"
     },
     {
+      "id": "hadleylab-canonic/BLOGS/2026-04-02-commitment-is-all-you-need",
+      "kind": "CONTENT",
+      "label": "COMMITMENT IS ALL YOU NEED",
+      "repo": "hadleylab-canonic",
+      "path": "BLOGS/2026-04-02-commitment-is-all-you-need",
+      "parent": "hadleylab-canonic/BLOGS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_POST",
+      "fleet_path": "BLOGS/2026-04-02-commitment-is-all-you-need",
+      "children": 0,
+      "date": "2026-04-02"
+    },
+    {
       "id": "hadleylab-canonic/BLOGS/SERIES",
       "kind": "CONTENT",
       "label": "SERIES",
@@ -1894,12 +1907,11 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR PROFESSIONAL NETWORK. EVERY CONVERSATION GOVERNED. EVERY PROFILE RESOLVED.**",
-      "roadmap_now": "Browser-authenticated LinkedIn messaging extraction (Chrome DevTools MCP)",
       "learning_count": 1,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/LINKEDIN",
-      "children": 4
+      "children": 5
     },
     {
       "id": "hadleylab-canonic/CAMPAIGNS/MONITOR",
@@ -1918,6 +1930,12 @@
       "has_intel": false,
       "next_tier": "FULL",
       "next_tier_gap": 8,
+      "roadmap_now": "[ ] Wire engagement response pipeline (detect SLA \u2192 draft response \u2192 post)",
+      "learning_count": 6,
+      "coverage_score": 191,
+      "coverage_open_gates": [
+        "ENGAGE_PIPELINE"
+      ],
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/MONITOR",
       "children": 0
@@ -1992,6 +2010,12 @@
       "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR AUDIENCE. EVERY EMISSION GOVERNED. EVERY METRIC CAPTURED.**",
       "roadmap_now": "[ ] API credentials \u2192 ~/.canonic/.env (governed, not in GOV tree)",
+      "coverage_score": 159,
+      "coverage_open_gates": [
+        "EMISSION_LEDGER",
+        "ENGAGEMENT_TRACKING",
+        "PREFLIGHT"
+      ],
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/TWITTER",
       "children": 0
@@ -2090,6 +2114,22 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/lawyer-who-won",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/CAMPAIGNS/MI10-ORLANDO-2026",
+      "kind": "CONTENT",
+      "label": "MI10-ORLANDO-2026",
+      "repo": "hadleylab-canonic",
+      "path": "CAMPAIGNS/MI10-ORLANDO-2026",
+      "parent": "hadleylab-canonic/CAMPAIGNS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CAMPAIGNS/mi10-orlando-2026",
       "children": 0
     },
     {
@@ -2194,7 +2234,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CHARTER/BOARD",
-      "children": 2
+      "children": 7
     },
     {
       "id": "hadleylab-canonic/CHARTER/ENTITY",
@@ -2313,25 +2353,6 @@
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/DEALS/BAKEOFF",
-      "kind": "SCOPE",
-      "label": "BAKEOFF",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/BAKEOFF",
-      "parent": "hadleylab-canonic/DEALS",
-      "category": "RUNTIME",
-      "color": "#00ff88",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR PARTNER. EVERY COMMIT COUNTED. EVERY CAPABILITY MAPPED.**",
-      "learning_count": 4,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/BAKEOFF",
-      "children": 2
-    },
-    {
       "id": "hadleylab-canonic/DEALS/CAOH",
       "kind": "SCOPE",
       "label": "CAOH",
@@ -2349,26 +2370,6 @@
       "learning_count": 17,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DEALS/CAOH",
-      "children": 2
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/EXCELLENTING",
-      "kind": "SCOPE",
-      "label": "EXCELLENTING",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/EXCELLENTING",
-      "parent": "hadleylab-canonic/DEALS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR CONSORTIUM. EVERY PARTNER GOVERNED. EVERY COMMITMENT EVIDENCED. EVERY CORRIDOR MAPPED.**",
-      "roadmap_now": "[ ] Confirm Excellenting legal entity details (CIF, registration)",
-      "learning_count": 7,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/EXCELLENTING",
       "children": 2
     },
     {
@@ -2395,85 +2396,6 @@
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/DEALS/LLU",
-      "kind": "SCOPE",
-      "label": "LLU",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/LLU",
-      "parent": "hadleylab-canonic/DEALS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR INSTITUTION. EVERY CONTACT GOVERNED. EVERY MEETING EVIDENCED. EVERY AXIOM MAPPED.**",
-      "roadmap_now": "[ ] Confirm Dr. Harris phone/office via Karen or Henley",
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/LLU",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "kind": "SCOPE",
-      "label": "MALTA-ENTERPRISE",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/MALTA-ENTERPRISE",
-      "parent": "hadleylab-canonic/DEALS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR GATEWAY. EVERY CONTACT GOVERNED. EVERY SCHEME MAPPED. EVERY TIMELINE EVIDENCED.**",
-      "roadmap_now": "[ ] Send WORK-TALK + BUSINESS-PLAN to Stephen",
-      "learning_count": 34,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/MALTA-ENTERPRISE",
-      "children": 4
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/OC-MAMMOCHAT",
-      "kind": "SCOPE",
-      "label": "OC-MAMMOCHAT",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/OC-MAMMOCHAT",
-      "parent": "hadleylab-canonic/DEALS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR VEHICLE. EVERY LICENSE GOVERNED. EVERY IN-KIND EVIDENCED. EVERY CORRIDOR MAPPED.**",
-      "roadmap_now": "[ ] FRAND Template (deliverable 4.1) \u2014 DAVID SLONIM",
-      "learning_count": 10,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/OC-MAMMOCHAT",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/RUNNER-CHAIN",
-      "kind": "SCOPE",
-      "label": "RUNNER-CHAIN",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/RUNNER-CHAIN",
-      "parent": "hadleylab-canonic/DEALS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR CHAIN. EVERY NODE GOVERNED. EVERY COIN EVIDENCED.**",
-      "learning_count": 1,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/RUNNER-CHAIN",
-      "children": 1
-    },
-    {
       "id": "hadleylab-canonic/DECKS/ACHIEVE",
       "kind": "SCOPE",
       "label": "ACHIEVE",
@@ -2491,9 +2413,9 @@
       "has_intel": false,
       "next_tier": "FULL",
       "next_tier_gap": 8,
-      "surface_type": "JEKYLL_DEFAULT",
+      "surface_type": "JEKYLL_DECK",
       "fleet_path": "DECKS/ACHIEVE",
-      "children": 0
+      "children": 1
     },
     {
       "id": "hadleylab-canonic/DECKS/BEDA",
@@ -2513,6 +2435,29 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DECK",
       "fleet_path": "DECKS/BEDA",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/DECKS/BOND-VALE",
+      "kind": "SCOPE",
+      "label": "BOND-VALE",
+      "repo": "hadleylab-canonic",
+      "path": "DECKS/BOND-VALE",
+      "parent": "hadleylab-canonic/DECKS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "privacy": "PUBLIC",
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "| Field | Value |",
+      "surface_type": "JEKYLL_DECK",
+      "fleet_path": "DECKS/BOND-VALE",
       "children": 2
     },
     {
@@ -2670,11 +2615,11 @@
       "missing_dims": [],
       "has_intel": false,
       "roadmap_now": "[ ] Send biosketch reminder to all Co-Is (due April 5)",
-      "learning_count": 13,
+      "learning_count": 14,
       "coverage_score": 4,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "GRANTS/ACS-FLATIRON",
-      "children": 7
+      "children": 10
     },
     {
       "id": "hadleylab-canonic/GRANTS/EHDS-GOV",
@@ -2714,6 +2659,32 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "IRBS/CARIBCHAT",
       "children": 7
+    },
+    {
+      "id": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING",
+      "kind": "SCOPE",
+      "label": "COMMUNITY-LEARNING",
+      "repo": "hadleylab-canonic",
+      "path": "PAPERS/COMMUNITY-LEARNING",
+      "parent": "hadleylab-canonic/PAPERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "roadmap_now": "[ ] Gmail authentication for co-author email blast",
+      "learning_count": 7,
+      "coverage_open_gates": [
+        "D7 Language"
+      ],
+      "surface_type": "JEKYLL_PAPER",
+      "fleet_path": "PAPERS/COMMUNITY-LEARNING",
+      "children": 2
     },
     {
       "id": "hadleylab-canonic/PAPERS/SHOP",
@@ -2761,22 +2732,6 @@
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
       "fleet_path": "PAPERS/code-evolution-theory",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/PAPERS/community-learning-ledgers-caribbean",
-      "kind": "CONTENT",
-      "label": "COMMUNITY-LEARNING-LEDGERS-CARIBBEAN",
-      "repo": "hadleylab-canonic",
-      "path": "PAPERS/community-learning-ledgers-caribbean",
-      "parent": "hadleylab-canonic/PAPERS",
-      "color": "#ffd60a",
-      "category": "GOVERNANCE",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "PAPERS/community-learning-ledgers-caribbean",
       "children": 0
     },
     {
@@ -3375,7 +3330,11 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR FRAMEWORK. EVERY EMISSION TRACED. EVERY PLATFORM GOVERNED. EVERY METRIC CAPTURED.**",
-      "roadmap_now": "[ ] AlphaGo at 10 campaign (2026-03-15) \u2014 LinkedIn 4x POSTED, Twitter/Reddit/HN drafted, pending pip",
+      "roadmap_now": "[ ] AlphaGo at 10 campaign \u2014 LinkedIn 4x POSTED, Twitter POSTED, HN/Reddit PASSED",
+      "coverage_score": 223,
+      "coverage_open_gates": [
+        "SUBSTACK_SETUP"
+      ],
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/CAMPAIGN",
       "children": 1
@@ -3418,7 +3377,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "Dexter Hadley, MD/PhD (Penn). Stanford Research Associate (Butte Lab). Faculty at UCSF and UCF (Founding Chief of AI). C",
-      "learning_count": 34,
+      "learning_count": 39,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/CLAUDE",
@@ -3782,7 +3741,7 @@
       "learning_count": 10,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/LEARNING",
-      "children": 59
+      "children": 60
     },
     {
       "id": "hadleylab-canonic/SERVICES/LEDGER",
@@ -4110,9 +4069,11 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "intel_summary": "_generated: edit the contract or compiler \u2014 not this file_",
+      "learning_count": 4,
+      "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/TASK",
-      "children": 9
+      "children": 1
     },
     {
       "id": "hadleylab-canonic/SERVICES/TIMELINE",
@@ -4164,6 +4125,29 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/TRANSCRIPT",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/UPTIME",
+      "kind": "SERVICE",
+      "label": "UPTIME",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/UPTIME",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "| Domain | Product | Check |",
+      "roadmap_now": "[ ] First FLEET execution populates _data/UPTIME.json",
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/UPTIME",
       "children": 0
     },
     {
@@ -4332,7 +4316,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 157,
+      "learning_count": 180,
       "coverage_score": 255,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/CARIBCHAT",
@@ -4714,28 +4698,6 @@
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/USERS/AFSANA",
-      "kind": "USER",
-      "label": "AFSANA",
-      "repo": "hadleylab-canonic",
-      "path": "USERS/AFSANA",
-      "parent": "hadleylab-canonic/USERS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
-      "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "USERS/AFSANA",
-      "organization": "MammoSight",
-      "children": 2
-    },
-    {
       "id": "hadleylab-canonic/USERS/AVINASH",
       "kind": "USER",
       "label": "AVINASH",
@@ -4758,29 +4720,6 @@
       "fleet_path": "USERS/AVINASH",
       "organization": "Atom",
       "children": 2
-    },
-    {
-      "id": "hadleylab-canonic/USERS/CRAIG",
-      "kind": "USER",
-      "label": "CRAIG",
-      "repo": "hadleylab-canonic",
-      "path": "USERS/CRAIG",
-      "parent": "hadleylab-canonic/USERS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
-      "has_intel": true,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
-      "intel_summary": "| Field | Value |",
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "USERS/CRAIG",
-      "organization": "Loma Linda University",
-      "children": 3
     },
     {
       "id": "hadleylab-canonic/USERS/FATIMA",
@@ -4926,29 +4865,6 @@
       "fleet_path": "USERS/ROBERT",
       "organization": "PinnacleGrp",
       "children": 2
-    },
-    {
-      "id": "hadleylab-canonic/USERS/SARAH",
-      "kind": "USER",
-      "label": "SARAH",
-      "repo": "hadleylab-canonic",
-      "path": "USERS/SARAH",
-      "parent": "hadleylab-canonic/USERS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
-      "has_intel": true,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
-      "intel_summary": "| Field | Value |",
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "USERS/SARAH",
-      "organization": "Evermint Health",
-      "children": 3
     },
     {
       "id": "hadleylab-canonic/USERS/YANA",
@@ -5550,6 +5466,22 @@
       "children": 0
     },
     {
+      "id": "hadleylab-canonic/CAMPAIGNS/LINKEDIN/FLEET-MAP",
+      "kind": "CONTENT",
+      "label": "FLEET-MAP",
+      "repo": "hadleylab-canonic",
+      "path": "CAMPAIGNS/LINKEDIN/FLEET-MAP",
+      "parent": "hadleylab-canonic/CAMPAIGNS/LINKEDIN",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CAMPAIGNS/LINKEDIN/fleet-map",
+      "children": 0
+    },
+    {
       "id": "hadleylab-canonic/CAMPAIGNS/LINKEDIN/PREFLIGHT",
       "kind": "CONTENT",
       "label": "PREFLIGHT",
@@ -5611,6 +5543,86 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CHARTER/BOARD/coi-policy",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/CHARTER/BOARD/email-allana-board-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-ALLANA-BOARD-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "CHARTER/BOARD/email-allana-board-apr3",
+      "parent": "hadleylab-canonic/CHARTER/BOARD",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CHARTER/BOARD/email-allana-board-apr3",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/CHARTER/BOARD/email-anil-board-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-ANIL-BOARD-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "CHARTER/BOARD/email-anil-board-apr3",
+      "parent": "hadleylab-canonic/CHARTER/BOARD",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CHARTER/BOARD/email-anil-board-apr3",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/CHARTER/BOARD/email-board-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-BOARD-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "CHARTER/BOARD/email-board-apr3",
+      "parent": "hadleylab-canonic/CHARTER/BOARD",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CHARTER/BOARD/email-board-apr3",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/CHARTER/BOARD/email-david-julio-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-DAVID-JULIO-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "CHARTER/BOARD/email-david-julio-apr3",
+      "parent": "hadleylab-canonic/CHARTER/BOARD",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CHARTER/BOARD/email-david-julio-apr3",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/CHARTER/BOARD/email-marisa-board-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-MARISA-BOARD-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "CHARTER/BOARD/email-marisa-board-apr3",
+      "parent": "hadleylab-canonic/CHARTER/BOARD",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CHARTER/BOARD/email-marisa-board-apr3",
       "children": 0
     },
     {
@@ -5678,38 +5690,6 @@
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/DEALS/BAKEOFF/DECK-TALK-ILYA-YANA",
-      "kind": "CONTENT",
-      "label": "DECK-TALK-ILYA-YANA",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/BAKEOFF/DECK-TALK-ILYA-YANA",
-      "parent": "hadleylab-canonic/DEALS/BAKEOFF",
-      "color": "#00ff88",
-      "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/BAKEOFF/deck-talk-ilya-yana",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/BAKEOFF/WORK-TALK-ILYA-YANA",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-ILYA-YANA",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/BAKEOFF/WORK-TALK-ILYA-YANA",
-      "parent": "hadleylab-canonic/DEALS/BAKEOFF",
-      "color": "#00ff88",
-      "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/BAKEOFF/work-talk-ilya-yana",
-      "children": 0
-    },
-    {
       "id": "hadleylab-canonic/DEALS/CAOH/BUSINESS-PLAN",
       "kind": "CONTENT",
       "label": "BUSINESS-PLAN",
@@ -5742,115 +5722,19 @@
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/DEALS/EXCELLENTING/WORK-TALK-NEVILLE",
+      "id": "hadleylab-canonic/DECKS/ACHIEVE/DECK",
       "kind": "CONTENT",
-      "label": "WORK-TALK-NEVILLE",
+      "label": "DECK",
       "repo": "hadleylab-canonic",
-      "path": "DEALS/EXCELLENTING/WORK-TALK-NEVILLE",
-      "parent": "hadleylab-canonic/DEALS/EXCELLENTING",
+      "path": "DECKS/ACHIEVE/DECK",
+      "parent": "hadleylab-canonic/DECKS/ACHIEVE",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 247,
+      "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/EXCELLENTING/work-talk-neville",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/EXCELLENTING/WORK-TALK-ONCONEX",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-ONCONEX",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/EXCELLENTING/WORK-TALK-ONCONEX",
-      "parent": "hadleylab-canonic/DEALS/EXCELLENTING",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/EXCELLENTING/work-talk-onconex",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/BUSINESS-PLAN",
-      "kind": "CONTENT",
-      "label": "BUSINESS-PLAN",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/MALTA-ENTERPRISE/BUSINESS-PLAN",
-      "parent": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/MALTA-ENTERPRISE/business-plan",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-CHRIS-BORG-REPLY",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
-      "parent": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/MALTA-ENTERPRISE/work-talk-chris-borg-reply",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-CHRIS-BORG",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
-      "parent": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/MALTA-ENTERPRISE/work-talk-chris-borg",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-STEPHEN-BP",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
-      "parent": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/MALTA-ENTERPRISE/work-talk-stephen-bp",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/RUNNER-CHAIN/WORK-TALK-MIKE",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-MIKE",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/RUNNER-CHAIN/WORK-TALK-MIKE",
-      "parent": "hadleylab-canonic/DEALS/RUNNER-CHAIN",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/RUNNER-CHAIN/work-talk-mike",
+      "fleet_path": "DECKS/ACHIEVE/deck",
       "children": 0
     },
     {
@@ -5883,6 +5767,38 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS/BEDA/email-review-loop-2026-03-23",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DECKS/BOND-VALE/DECK",
+      "kind": "CONTENT",
+      "label": "DECK",
+      "repo": "hadleylab-canonic",
+      "path": "DECKS/BOND-VALE/DECK",
+      "parent": "hadleylab-canonic/DECKS/BOND-VALE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DECKS/BOND-VALE/deck",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DECKS/BOND-VALE/email-christian-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-CHRISTIAN-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "DECKS/BOND-VALE/email-christian-apr3",
+      "parent": "hadleylab-canonic/DECKS/BOND-VALE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DECKS/BOND-VALE/email-christian-apr3",
       "children": 0
     },
     {
@@ -6030,6 +5946,38 @@
       "children": 0
     },
     {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-howard-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-HOWARD-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/email-howard-apr3",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/email-howard-apr3",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-NEVILLE-HORIZON-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
+      "children": 0
+    },
+    {
       "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-review",
       "kind": "CONTENT",
       "label": "EMAIL-TEAM-REVIEW",
@@ -6043,6 +5991,22 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "GRANTS/ACS-FLATIRON/email-team-review",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-update-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-TEAM-UPDATE-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/email-team-update-apr3",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/email-team-update-apr3",
       "children": 0
     },
     {
@@ -6283,6 +6247,38 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "IRBS/CARIBCHAT/waiver",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING/community-learning-ledgers-caribbean",
+      "kind": "CONTENT",
+      "label": "COMMUNITY-LEARNING-LEDGERS-CARIBBEAN",
+      "repo": "hadleylab-canonic",
+      "path": "PAPERS/COMMUNITY-LEARNING/community-learning-ledgers-caribbean",
+      "parent": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_PAPER",
+      "fleet_path": "PAPERS/COMMUNITY-LEARNING/community-learning-ledgers-caribbean",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING/submission",
+      "kind": "CONTENT",
+      "label": "SUBMISSION",
+      "repo": "hadleylab-canonic",
+      "path": "PAPERS/COMMUNITY-LEARNING/submission",
+      "parent": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_PAPER",
+      "fleet_path": "PAPERS/COMMUNITY-LEARNING/submission",
       "children": 0
     },
     {
@@ -7342,6 +7338,22 @@
       "children": 0
     },
     {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/joann-yamani",
+      "kind": "CONTENT",
+      "label": "JOANN-YAMANI",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/joann-yamani",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/joann-yamani",
+      "children": 0
+    },
+    {
       "id": "hadleylab-canonic/SERVICES/LEARNING/julio-hernandez",
       "kind": "CONTENT",
       "label": "JULIO-HERNANDEZ",
@@ -7946,69 +7958,6 @@
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/SERVICES/TASK/BUILD",
-      "kind": "SERVICE",
-      "label": "BUILD",
-      "repo": "hadleylab-canonic",
-      "path": "SERVICES/TASK/BUILD",
-      "parent": "hadleylab-canonic/SERVICES/TASK",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
-      "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "SERVICES/TASK/BUILD",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SERVICES/TASK/CAMPAIGN",
-      "kind": "SERVICE",
-      "label": "CAMPAIGN",
-      "repo": "hadleylab-canonic",
-      "path": "SERVICES/TASK/CAMPAIGN",
-      "parent": "hadleylab-canonic/SERVICES/TASK",
-      "category": "SERVICES",
-      "color": "#ec4899",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
-      "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "SERVICES/TASK/CAMPAIGN",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SERVICES/TASK/CITATIONS",
-      "kind": "SERVICE",
-      "label": "CITATIONS",
-      "repo": "hadleylab-canonic",
-      "path": "SERVICES/TASK/CITATIONS",
-      "parent": "hadleylab-canonic/SERVICES/TASK",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
-      "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "SERVICES/TASK/CITATIONS",
-      "children": 0
-    },
-    {
       "id": "hadleylab-canonic/SERVICES/TASK/FLEET",
       "kind": "SERVICE",
       "label": "FLEET",
@@ -8025,113 +7974,11 @@
       "has_intel": false,
       "next_tier": "FULL",
       "next_tier_gap": 8,
+      "roadmap_now": "[ ] Reconcile RemoteTrigger schedule (daily 18:57 \u2192 hourly) or decommission",
+      "learning_count": 3,
+      "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/TASK/FLEET",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SERVICES/TASK/GRANTS",
-      "kind": "SERVICE",
-      "label": "GRANTS",
-      "repo": "hadleylab-canonic",
-      "path": "SERVICES/TASK/GRANTS",
-      "parent": "hadleylab-canonic/SERVICES/TASK",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
-      "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "SERVICES/TASK/GRANTS",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SERVICES/TASK/HN-SCOUT",
-      "kind": "SERVICE",
-      "label": "HN-SCOUT",
-      "repo": "hadleylab-canonic",
-      "path": "SERVICES/TASK/HN-SCOUT",
-      "parent": "hadleylab-canonic/SERVICES/TASK",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
-      "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "SERVICES/TASK/HN-SCOUT",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SERVICES/TASK/LINKS",
-      "kind": "SERVICE",
-      "label": "LINKS",
-      "repo": "hadleylab-canonic",
-      "path": "SERVICES/TASK/LINKS",
-      "parent": "hadleylab-canonic/SERVICES/TASK",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
-      "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "SERVICES/TASK/LINKS",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SERVICES/TASK/SEO",
-      "kind": "SERVICE",
-      "label": "SEO",
-      "repo": "hadleylab-canonic",
-      "path": "SERVICES/TASK/SEO",
-      "parent": "hadleylab-canonic/SERVICES/TASK",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
-      "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "SERVICES/TASK/SEO",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SERVICES/TASK/UPTIME",
-      "kind": "SERVICE",
-      "label": "UPTIME",
-      "repo": "hadleylab-canonic",
-      "path": "SERVICES/TASK/UPTIME",
-      "parent": "hadleylab-canonic/SERVICES/TASK",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
-      "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "SERVICES/TASK/UPTIME",
       "children": 0
     },
     {
@@ -8439,38 +8286,6 @@
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/USERS/AFSANA/VITAE",
-      "kind": "CONTENT",
-      "label": "VITAE",
-      "repo": "hadleylab-canonic",
-      "path": "USERS/AFSANA/VITAE",
-      "parent": "hadleylab-canonic/USERS/AFSANA",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "USERS/AFSANA/vitae",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/USERS/AFSANA/afsana-akter",
-      "kind": "CONTENT",
-      "label": "AFSANA-AKTER",
-      "repo": "hadleylab-canonic",
-      "path": "USERS/AFSANA/afsana-akter",
-      "parent": "hadleylab-canonic/USERS/AFSANA",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "USERS/AFSANA/afsana-akter",
-      "children": 0
-    },
-    {
       "id": "hadleylab-canonic/USERS/AVINASH/CHAT",
       "kind": "USER",
       "label": "CHAT",
@@ -8516,54 +8331,6 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/AVINASH/SERVICES",
       "children": 2
-    },
-    {
-      "id": "hadleylab-canonic/USERS/CRAIG/BRIEF",
-      "kind": "CONTENT",
-      "label": "BRIEF",
-      "repo": "hadleylab-canonic",
-      "path": "USERS/CRAIG/BRIEF",
-      "parent": "hadleylab-canonic/USERS/CRAIG",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "USERS/CRAIG/brief",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/USERS/CRAIG/VITAE",
-      "kind": "CONTENT",
-      "label": "VITAE",
-      "repo": "hadleylab-canonic",
-      "path": "USERS/CRAIG/VITAE",
-      "parent": "hadleylab-canonic/USERS/CRAIG",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "USERS/CRAIG/vitae",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/USERS/CRAIG/craig-jackson",
-      "kind": "CONTENT",
-      "label": "CRAIG-JACKSON",
-      "repo": "hadleylab-canonic",
-      "path": "USERS/CRAIG/craig-jackson",
-      "parent": "hadleylab-canonic/USERS/CRAIG",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "USERS/CRAIG/craig-jackson",
-      "children": 0
     },
     {
       "id": "hadleylab-canonic/USERS/FATIMA/CHAT",
@@ -8866,54 +8633,6 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/ROBERT/SERVICES",
       "children": 2
-    },
-    {
-      "id": "hadleylab-canonic/USERS/SARAH/BRIEF",
-      "kind": "CONTENT",
-      "label": "BRIEF",
-      "repo": "hadleylab-canonic",
-      "path": "USERS/SARAH/BRIEF",
-      "parent": "hadleylab-canonic/USERS/SARAH",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "USERS/SARAH/brief",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/USERS/SARAH/VITAE",
-      "kind": "CONTENT",
-      "label": "VITAE",
-      "repo": "hadleylab-canonic",
-      "path": "USERS/SARAH/VITAE",
-      "parent": "hadleylab-canonic/USERS/SARAH",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "USERS/SARAH/vitae",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/USERS/SARAH/sarah-roddy",
-      "kind": "CONTENT",
-      "label": "SARAH-RODDY",
-      "repo": "hadleylab-canonic",
-      "path": "USERS/SARAH/sarah-roddy",
-      "parent": "hadleylab-canonic/USERS/SARAH",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "USERS/SARAH/sarah-roddy",
-      "children": 0
     },
     {
       "id": "hadleylab-canonic/USERS/YANA/CHAT",
@@ -11053,23 +10772,24 @@
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/LEARNING",
-      "kind": "SCOPE",
-      "label": "LEARNING",
+      "id": "canonic-canonic",
+      "kind": "ORG",
+      "label": "CANONIC",
       "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/LEARNING",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "KNOWLEDGE",
-      "color": "#bf5af2",
+      "path": ".",
+      "parent": null,
+      "category": "ORG",
+      "color": "#64748b",
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Govern INTEL\u2192LEARNING primitive-to-service mapping across all scopes",
-      "learning_count": 13,
+      "roadmap_now": "[ ] Key rotation escalation \u2014 promote from soft gate (WARN) to hard gate (FAIL) in phase 8f",
+      "learning_count": 983,
+      "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/LEARNING",
-      "children": 0
+      "fleet_path": "",
+      "children": 5
     },
     {
       "id": "canonic-canonic/MAGIC",
@@ -11093,24 +10813,23 @@
       "children": 11
     },
     {
-      "id": "canonic-canonic",
-      "kind": "ORG",
-      "label": "CANONIC",
+      "id": "canonic-canonic/MAGIC/SERVICES/LEARNING",
+      "kind": "SCOPE",
+      "label": "LEARNING",
       "repo": "canonic-canonic",
-      "path": ".",
-      "parent": null,
-      "category": "ORG",
-      "color": "#64748b",
+      "path": "MAGIC/SERVICES/LEARNING",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "[ ] Key rotation escalation \u2014 promote from soft gate (WARN) to hard gate (FAIL) in phase 8f",
-      "learning_count": 983,
-      "coverage_score": 255,
+      "roadmap_now": "Govern INTEL\u2192LEARNING primitive-to-service mapping across all scopes",
+      "learning_count": 13,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "",
-      "children": 5
+      "fleet_path": "MAGIC/SERVICES/LEARNING",
+      "children": 0
     }
   ],
   "edges": [
@@ -11201,11 +10920,6 @@
     },
     {
       "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/BAKEOFF",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
       "from": "hadleylab-canonic/DEALS",
       "to": "hadleylab-canonic/SERVICES/DEAL"
     },
@@ -11216,32 +10930,7 @@
     },
     {
       "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/EXCELLENTING",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
       "from": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/LLU",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/OC-MAMMOCHAT",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/RUNNER-CHAIN",
       "to": "hadleylab-canonic/SERVICES/DEAL"
     },
     {
@@ -11252,6 +10941,11 @@
     {
       "kind": "INHERITS",
       "from": "hadleylab-canonic/DECKS/BEDA",
+      "to": "hadleylab-canonic/SERVICES/DECK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DECKS/BOND-VALE",
       "to": "hadleylab-canonic/SERVICES/DECK"
     },
     {
@@ -11961,11 +11655,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/BAKEOFF",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/DEALS",
       "to": "hadleylab-canonic"
     },
@@ -11976,32 +11665,7 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/EXCELLENTING",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/LLU",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/OC-MAMMOCHAT",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/RUNNER-CHAIN",
       "to": "hadleylab-canonic/DEALS"
     },
     {
@@ -12012,6 +11676,11 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/BEDA",
+      "to": "hadleylab-canonic/DECKS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DECKS/BOND-VALE",
       "to": "hadleylab-canonic/DECKS"
     },
     {
@@ -12078,6 +11747,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/PAPERS",
       "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING",
+      "to": "hadleylab-canonic/PAPERS"
     },
     {
       "kind": "PARENT",
@@ -12366,52 +12040,12 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/SERVICES/TASK/BUILD",
-      "to": "hadleylab-canonic/SERVICES/TASK"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SERVICES/TASK/CAMPAIGN",
-      "to": "hadleylab-canonic/SERVICES/TASK"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/TASK",
       "to": "hadleylab-canonic/SERVICES"
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/SERVICES/TASK/CITATIONS",
-      "to": "hadleylab-canonic/SERVICES/TASK"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/TASK/FLEET",
-      "to": "hadleylab-canonic/SERVICES/TASK"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SERVICES/TASK/GRANTS",
-      "to": "hadleylab-canonic/SERVICES/TASK"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SERVICES/TASK/HN-SCOUT",
-      "to": "hadleylab-canonic/SERVICES/TASK"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SERVICES/TASK/LINKS",
-      "to": "hadleylab-canonic/SERVICES/TASK"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SERVICES/TASK/SEO",
-      "to": "hadleylab-canonic/SERVICES/TASK"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SERVICES/TASK/UPTIME",
       "to": "hadleylab-canonic/SERVICES/TASK"
     },
     {
@@ -12422,6 +12056,11 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/TRANSCRIPT",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/UPTIME",
       "to": "hadleylab-canonic/SERVICES"
     },
     {
@@ -12546,11 +12185,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/USERS/AFSANA",
-      "to": "hadleylab-canonic/USERS"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/USERS/AVINASH",
       "to": "hadleylab-canonic/USERS"
     },
@@ -12573,11 +12207,6 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/USERS",
       "to": "hadleylab-canonic"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/USERS/CRAIG",
-      "to": "hadleylab-canonic/USERS"
     },
     {
       "kind": "PARENT",
@@ -12693,11 +12322,6 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/USERS/ROBERT/SERVICES/SHOP",
       "to": "hadleylab-canonic/USERS/ROBERT/SERVICES"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/USERS/SARAH",
-      "to": "hadleylab-canonic/USERS"
     },
     {
       "kind": "PARENT",
@@ -13052,6 +12676,11 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/BLOGS/2026-03-30-stop-prompting-start-governing",
+      "to": "hadleylab-canonic/BLOGS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BLOGS/2026-04-02-commitment-is-all-you-need",
       "to": "hadleylab-canonic/BLOGS"
     },
     {
@@ -13806,6 +13435,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/CAMPAIGNS/MI10-ORLANDO-2026",
+      "to": "hadleylab-canonic/CAMPAIGNS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/CAMPAIGNS/PMWC-2026",
       "to": "hadleylab-canonic/CAMPAIGNS"
     },
@@ -13832,6 +13466,11 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/CAMPAIGNS/LINKEDIN/ENGAGEMENT",
+      "to": "hadleylab-canonic/CAMPAIGNS/LINKEDIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/CAMPAIGNS/LINKEDIN/FLEET-MAP",
       "to": "hadleylab-canonic/CAMPAIGNS/LINKEDIN"
     },
     {
@@ -13876,6 +13515,31 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/CHARTER/BOARD/email-allana-board-apr3",
+      "to": "hadleylab-canonic/CHARTER/BOARD"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/CHARTER/BOARD/email-anil-board-apr3",
+      "to": "hadleylab-canonic/CHARTER/BOARD"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/CHARTER/BOARD/email-board-apr3",
+      "to": "hadleylab-canonic/CHARTER/BOARD"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/CHARTER/BOARD/email-david-julio-apr3",
+      "to": "hadleylab-canonic/CHARTER/BOARD"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/CHARTER/BOARD/email-marisa-board-apr3",
+      "to": "hadleylab-canonic/CHARTER/BOARD"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/CHARTER/CORRESPONDENCE",
       "to": "hadleylab-canonic/CHARTER"
     },
@@ -13901,16 +13565,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/BAKEOFF/DECK-TALK-ILYA-YANA",
-      "to": "hadleylab-canonic/DEALS/BAKEOFF"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/BAKEOFF/WORK-TALK-ILYA-YANA",
-      "to": "hadleylab-canonic/DEALS/BAKEOFF"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/DEALS/CAOH/BUSINESS-PLAN",
       "to": "hadleylab-canonic/DEALS/CAOH"
     },
@@ -13921,38 +13575,8 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/EXCELLENTING/WORK-TALK-NEVILLE",
-      "to": "hadleylab-canonic/DEALS/EXCELLENTING"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/EXCELLENTING/WORK-TALK-ONCONEX",
-      "to": "hadleylab-canonic/DEALS/EXCELLENTING"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/BUSINESS-PLAN",
-      "to": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
-      "to": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
-      "to": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
-      "to": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/RUNNER-CHAIN/WORK-TALK-MIKE",
-      "to": "hadleylab-canonic/DEALS/RUNNER-CHAIN"
+      "from": "hadleylab-canonic/DECKS/ACHIEVE/DECK",
+      "to": "hadleylab-canonic/DECKS/ACHIEVE"
     },
     {
       "kind": "PARENT",
@@ -13963,6 +13587,16 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/BEDA/EMAIL-REVIEW-LOOP-2026-03-23",
       "to": "hadleylab-canonic/DECKS/BEDA"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DECKS/BOND-VALE/DECK",
+      "to": "hadleylab-canonic/DECKS/BOND-VALE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DECKS/BOND-VALE/email-christian-apr3",
+      "to": "hadleylab-canonic/DECKS/BOND-VALE"
     },
     {
       "kind": "PARENT",
@@ -14016,7 +13650,22 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-howard-apr3",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-review",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-update-apr3",
       "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
     },
     {
@@ -14111,11 +13760,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/PAPERS/community-learning-ledgers-caribbean",
-      "to": "hadleylab-canonic/PAPERS"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/PAPERS/content-as-proof-of-work",
       "to": "hadleylab-canonic/PAPERS"
     },
@@ -14153,6 +13797,16 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/PAPERS/the-344-billion-euro-wound",
       "to": "hadleylab-canonic/PAPERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING/community-learning-ledgers-caribbean",
+      "to": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING/submission",
+      "to": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING"
     },
     {
       "kind": "PARENT",
@@ -14511,6 +14165,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/joann-yamani",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/LEARNING/julio-hernandez",
       "to": "hadleylab-canonic/SERVICES/LEARNING"
     },
@@ -14776,31 +14435,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/USERS/AFSANA/VITAE",
-      "to": "hadleylab-canonic/USERS/AFSANA"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/USERS/AFSANA/afsana-akter",
-      "to": "hadleylab-canonic/USERS/AFSANA"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/USERS/CRAIG/BRIEF",
-      "to": "hadleylab-canonic/USERS/CRAIG"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/USERS/CRAIG/VITAE",
-      "to": "hadleylab-canonic/USERS/CRAIG"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/USERS/CRAIG/craig-jackson",
-      "to": "hadleylab-canonic/USERS/CRAIG"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/USERS/FATIMA/VITAE",
       "to": "hadleylab-canonic/USERS/FATIMA"
     },
@@ -14828,21 +14462,6 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/USERS/GEOFF/CHAT/nda",
       "to": "hadleylab-canonic/USERS/GEOFF/CHAT"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/USERS/SARAH/BRIEF",
-      "to": "hadleylab-canonic/USERS/SARAH"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/USERS/SARAH/VITAE",
-      "to": "hadleylab-canonic/USERS/SARAH"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/USERS/SARAH/sarah-roddy",
-      "to": "hadleylab-canonic/USERS/SARAH"
     },
     {
       "kind": "PARENT",

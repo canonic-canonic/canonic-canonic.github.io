@@ -634,6 +634,17 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:DECKS:BOND-VALE",
+      "label": "BOND-VALE",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:DECKS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:DECK",
       "label": "DECK",
       "bits": 255,
@@ -762,6 +773,17 @@
       "color": "#ffd60a",
       "category": "GOVERNANCE",
       "inherits": "gov:hadleylab-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PAPERS:COMMUNITY-LEARNING",
+      "label": "COMMUNITY-LEARNING",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PAPERS"
     },
     {
       "source": "gov",
@@ -916,6 +938,17 @@
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:PATENTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PERSONAL",
+      "label": "PERSONAL",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:."
     },
     {
       "source": "gov",
@@ -1388,6 +1421,17 @@
       "size": 80,
       "color": "#ec4899",
       "category": "SERVICES",
+      "inherits": "gov:hadleylab-canonic:SERVICES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SERVICES:UPTIME",
+      "label": "UPTIME",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
       "inherits": "gov:hadleylab-canonic:SERVICES"
     },
     {

@@ -3,11 +3,11 @@
     "contract": "hadleylab-canonic/SERVICES/TIMELINE/CANON.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "generated": "2026-04-02T17:35:00Z",
-  "total_events": 21578,
+  "generated": "2026-04-03T19:24:41Z",
+  "total_events": 21884,
   "lanes": {
     "CALENDAR": {
-      "count": 5126,
+      "count": 5129,
       "earliest": "1970-05-20T00:00:00Z",
       "latest": "2031-12-31T00:00:00Z",
       "color": "#2997ff",
@@ -15,9 +15,9 @@
       "label": "Calendar"
     },
     "LEARNING": {
-      "count": 14355,
+      "count": 14514,
       "earliest": "2013-10-09T00:00:00Z",
-      "latest": "2026-04-01T00:00:00Z",
+      "latest": "2026-04-03T00:00:00Z",
       "color": "#bf5af2",
       "icon": "★",
       "label": "Learning"
@@ -38,6 +38,14 @@
       "icon": "↔",
       "label": "Deal"
     },
+    "CAMPAIGN": {
+      "count": 182,
+      "earliest": "2025-12-29T00:00:00Z",
+      "latest": "2026-11-10T00:00:00Z",
+      "color": "#ff453a",
+      "icon": "▶",
+      "label": "Campaign"
+    },
     "COIN": {
       "count": 706,
       "earliest": "2026-02-21T17:28:04.309431Z",
@@ -47,9 +55,9 @@
       "label": "Coin"
     },
     "CORRESPONDENCE": {
-      "count": 20,
+      "count": 27,
       "earliest": "2026-02-26T12:00:00Z",
-      "latest": "2026-03-31T12:00:00Z",
+      "latest": "2026-04-03T12:00:00Z",
       "color": "#06b6d4",
       "icon": "✎",
       "label": "Correspondence"
@@ -61,14 +69,6 @@
       "color": "#00ff88",
       "icon": "⚓",
       "label": "Ledger"
-    },
-    "CAMPAIGN": {
-      "count": 46,
-      "earliest": "2026-03-03T00:00:00Z",
-      "latest": "2026-11-10T00:00:00Z",
-      "color": "#ff453a",
-      "icon": "▶",
-      "label": "Campaign"
     },
     "ROADMAP": {
       "count": 75,
@@ -87,9 +87,9 @@
       "label": "Grant"
     },
     "CONTACTS": {
-      "count": 43,
-      "earliest": "2026-03-31T21:11:44Z",
-      "latest": "2026-03-31T21:11:44Z",
+      "count": 44,
+      "earliest": "2026-04-03T00:28:57Z",
+      "latest": "2026-04-03T00:28:57Z",
       "color": "#ffd60a",
       "icon": "⌂",
       "label": "Contacts"
