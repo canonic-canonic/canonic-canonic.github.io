@@ -8,14 +8,6 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
-views:
-  - gov
-  - web
-  - tex
-pdf: /MAGIC/TOOLCHAIN/CONFIG/config.pdf
-downloads:
-  - label: "PDF"
-    href: "/MAGIC/TOOLCHAIN/CONFIG/config.pdf"
 hero:
   badge: CONFIG
   title: "CONFIG"

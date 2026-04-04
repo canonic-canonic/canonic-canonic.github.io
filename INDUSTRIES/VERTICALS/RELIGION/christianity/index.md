@@ -8,14 +8,6 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
-views:
-  - gov
-  - web
-  - tex
-pdf: /INDUSTRIES/VERTICALS/RELIGION/christianity/christianity.pdf
-downloads:
-  - label: "PDF"
-    href: "/INDUSTRIES/VERTICALS/RELIGION/christianity/christianity.pdf"
 hero:
   badge: christianity
   title: "christianity"

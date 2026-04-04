@@ -8,14 +8,6 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
-views:
-  - gov
-  - web
-  - tex
-pdf: /FOUNDATION/ONBOARDING/onboarding.pdf
-downloads:
-  - label: "PDF"
-    href: "/FOUNDATION/ONBOARDING/onboarding.pdf"
 hero:
   badge: ONBOARDING
   title: "ONBOARDING"

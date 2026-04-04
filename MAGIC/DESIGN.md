@@ -95,13 +95,11 @@ MUST NOT: Use snake_case for data fields — camelCase is the single convention
 Directories and files excluded from public fleet surfaces. Governance internals, not content.
 
 ```
-SERVICES/
 CHARTER/
 DEALS/
 GRANTS/
 FINANCIALS/
 USERS/
-DECKS/
 CAMPAIGNS/
 CLINICAL/
 _data/

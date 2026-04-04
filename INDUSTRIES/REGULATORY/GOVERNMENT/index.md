@@ -8,14 +8,6 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
-views:
-  - gov
-  - web
-  - tex
-pdf: /INDUSTRIES/REGULATORY/GOVERNMENT/government.pdf
-downloads:
-  - label: "PDF"
-    href: "/INDUSTRIES/REGULATORY/GOVERNMENT/government.pdf"
 hero:
   badge: GOVERNMENT
   title: "GOVERNMENT"

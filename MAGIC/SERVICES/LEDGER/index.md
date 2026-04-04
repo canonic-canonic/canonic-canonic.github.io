@@ -8,14 +8,6 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
-views:
-  - gov
-  - web
-  - tex
-pdf: /MAGIC/SERVICES/LEDGER/ledger.pdf
-downloads:
-  - label: "PDF"
-    href: "/MAGIC/SERVICES/LEDGER/ledger.pdf"
 hero:
   badge: LEDGER
   title: "LEDGER"

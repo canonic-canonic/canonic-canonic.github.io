@@ -8,14 +8,6 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
-views:
-  - gov
-  - web
-  - tex
-pdf: /MAGIC/SERVICES/CHAIN/chain.pdf
-downloads:
-  - label: "PDF"
-    href: "/MAGIC/SERVICES/CHAIN/chain.pdf"
 hero:
   badge: CHAIN
   title: "CHAIN"

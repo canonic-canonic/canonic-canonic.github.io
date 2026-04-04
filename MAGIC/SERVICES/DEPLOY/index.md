@@ -8,14 +8,6 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
-views:
-  - gov
-  - web
-  - tex
-pdf: /MAGIC/SERVICES/DEPLOY/deploy.pdf
-downloads:
-  - label: "PDF"
-    href: "/MAGIC/SERVICES/DEPLOY/deploy.pdf"
 hero:
   badge: DEPLOY
   title: "DEPLOY"

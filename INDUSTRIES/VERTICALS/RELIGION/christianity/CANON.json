@@ -36,15 +36,14 @@
     }
   ],
   "_generated": {
-    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/christianity.md",
+    "contract": "/home/runner/CANONIC/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/christianity.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "controls": {
     "talk": "side",
     "view": "web",
     "views": [
-      "gov",
-      "web"
+      "gov"
     ],
     "downloads": []
   },

@@ -445,55 +445,52 @@ Directory paths containing uppercase letters → 301 permanent redirect to all-l
 
 ### Origin Rewrite
 
-GitHub Pages is case-sensitive. Governance scopes are UPPERCASE on disk. Cloudflare Workers rewrite paths before origin fetch using five rules:
+Compiled surfaces are **lowercase on disk**. The compiler emits lowercase directory paths (`blogs/`, `papers/`, `books/`). GOV source repos use UPPERCASE (`BLOGS/`, `PAPERS/`) but the compiled web surface is always lowercase. No origin path rewriting is needed — the worker fetches the normalized lowercase path as-is from GitHub Pages. macOS case-insensitive filesystems cannot maintain both `BLOGS/` and `blogs/` in the git index; lowercase is the canonical form.
 
-1. **Gate**: Only rewrite paths whose first segment matches a governance lane
-2. **Full-path uppercase**: Default — uppercase ALL directory segments for origin fetch
-3. **Slug lanes**: Uppercase lane segment only; preserve lowercase content slugs (papers, blogs)
-4. **Mixed lanes**: Uppercase depth 1-2 (lane + governance scope); preserve depth 3+ content slugs (dexter)
-5. **File passthrough**: Segments containing a dot (files) are NOT uppercased and NOT redirected — their case is preserved end-to-end
-6. **Compiled artifacts**: Compiler-emitted filenames (PDFs, PPTX, etc.) are always lowercase. Directories are UPPERCASE per GOV convention. File segments are lowercase by compiler convention. Example: `/BOOKS/ATULISMS/atulisms.pdf` — UPPERCASE scope dir, lowercase filename.
-
-Governance scopes (directories with CANON.md) are UPPERCASE by convention. Content leaf directories (e.g., `/RELIGION/buddhism/`) are lowercase. Lane type determines how deep uppercasing goes. File segments (containing `.`) pass through with original case because GitHub Pages is case-sensitive (`CANON.json` ≠ `canon.json`, `scopes.json` ≠ `SCOPES.json`). Compiled artifacts always use lowercase filenames — the compiler enforces this convention.
+1. **No rewrite**: Origin paths match web URLs (both lowercase). The worker passes the normalized lowercase path directly to the GitHub Pages origin.
+2. **File passthrough**: File segments (containing a dot) preserve their original case end-to-end. Compiled filenames are case-sensitive on GitHub Pages (`CANON.json` ≠ `canon.json`).
+3. **Universal lowercase**: ALL directory paths normalize to lowercase via 301 redirect — not just governance lanes. Any URL with uppercase directory segments redirects.
 
 #### Governance lanes (gate — first segment only)
+
+Lanes gate which paths are recognized for case normalization. All lanes use passthrough strategy (no origin rewrite).
 
 ##### hadleylab.org
 
 | Lane | Origin | Sub-path | Source |
 |------|--------|----------|--------|
-| papers | PAPERS | lowercase slugs | Service Frontends |
-| blogs | BLOGS | lowercase slugs | Service Frontends |
-| books | BOOKS | UPPERCASE scopes | Service Frontends |
-| talks | talks | passthrough (origin already lowercase) | Service Frontends |
-| decks | DECKS | UPPERCASE scopes | Service Frontends |
-| services | SERVICES | UPPERCASE scopes | Service Frontends |
-| users | USERS | mixed (depth 1 UPPER, depth 2+ preserve) | Service Frontends |
-
-hadleylab.org lanes use four rewrite strategies: **slug lanes** (papers, blogs) uppercase the lane segment only — content slugs stay lowercase. **Mixed lanes** (users) uppercase depth 1 (USERS) but preserve depth 2+ content slugs. **Passthrough lanes** (talks) skip origin rewriting — paths are already lowercase on origin. **Full-uppercase lanes** (books, decks, services) uppercase all segments.
+| papers | papers | passthrough | Service Frontends |
+| blogs | blogs | passthrough | Service Frontends |
+| books | books | passthrough | Service Frontends |
+| talks | talks | passthrough | Service Frontends |
+| decks | decks | passthrough | Service Frontends |
+| services | services | passthrough | Service Frontends |
+| users | users | passthrough | Service Frontends |
+| charter | charter | passthrough | Service Frontends |
+| deals | deals | passthrough | Service Frontends |
+| grants | grants | passthrough | Service Frontends |
+| vitae | vitae | passthrough | Service Frontends |
 
 ##### canonic.org
 
 | Lane | Origin | Source |
 |------|--------|--------|
-| foundation | FOUNDATION | Sites |
-| industries | INDUSTRIES | Sites |
-| magic | MAGIC | Sites |
+| foundation | foundation | Sites |
+| industries | industries | Sites |
+| magic | magic | Sites |
 
-#### Origin rewrite examples
+#### Origin path examples
 
-| Input (lowercase) | Origin (rewritten) | Lane type | Status |
-|--------------------|--------------------|-----------|--------|
-| /industries/verticals/finance/ | /INDUSTRIES/VERTICALS/FINANCE/ | full-uppercase | 200 |
-| /magic/compliance/semantic/ | /MAGIC/COMPLIANCE/SEMANTIC/ | full-uppercase | 200 |
-| /papers/the-255-billion-dollar-wound/ | /PAPERS/the-255-billion-dollar-wound/ | slug | 200 |
-| /blogs/my-post-title/ | /BLOGS/my-post-title/ | slug | 200 |
-| /users/fatima/ | /USERS/FATIMA/ | mixed | 200 |
-| /deals/canonic-fatima/ | /DEALS/canonic-fatima/ | slug | 200 |
-| /talks/mammochat/ | /TALKS/MAMMOCHAT/ | full-uppercase | 200 |
-| /talks/mammochat/CANON.json | /TALKS/MAMMOCHAT/CANON.json | file passthrough | 200 |
-| /books/atulisms/atulisms.pdf | /BOOKS/ATULISMS/atulisms.pdf | compiled artifact | 200 |
-| /assets/css/DESIGN.css | (no rewrite — not a governance lane) | — | 200 |
+| Input (lowercase) | Origin (passed through) | Status |
+|--------------------|------------------------|--------|
+| /papers/the-255-billion-dollar-wound/ | /papers/the-255-billion-dollar-wound/ | 200 |
+| /blogs/my-post-title/ | /blogs/my-post-title/ | 200 |
+| /books/atulisms/ | /books/atulisms/ | 200 |
+| /talks/mammochat/ | /talks/mammochat/ | 200 |
+| /users/fatima/ | /users/fatima/ | 200 |
+| /magic/galaxy/ | /magic/galaxy/ | 200 |
+| /blogs/my-post/CANON.json | /blogs/my-post/CANON.json | 200 (file passthrough) |
+| /assets/css/DESIGN.css | /assets/css/DESIGN.css | 200 (not a lane) |
 
 ### Implementation
 
@@ -501,8 +498,8 @@ hadleylab.org lanes use four rewrite strategies: **slug lanes** (papers, blogs) 
 |-------|-----------|
 | Edge | Cloudflare Worker per fleet zone (canonic.org, hadleylab.org) |
 | DNS | Proxied A records (orange cloud) → Workers routes intercept |
-| Redirect | directory paths: path !== path.toLowerCase() → 301 to lowercase; file paths: no redirect |
-| Origin rewrite | governance-lane gate → full-path UPPERCASE before fetch to *.github.io |
+| Redirect | ALL directory paths: path !== path.toLowerCase() → 301 to lowercase |
+| Origin | passthrough — lowercase path fetched as-is from *.github.io |
 | Deploy | wrangler deploy per zone (zone_name routes) |
 | Source of truth | This contract (## Routing + ## Service Frontends + ## Sites) |
 

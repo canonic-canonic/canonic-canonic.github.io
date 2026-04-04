@@ -8,14 +8,6 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
-views:
-  - gov
-  - web
-  - tex
-pdf: /MAGIC/SURFACE/DESIGN-theme/design-theme.pdf
-downloads:
-  - label: "PDF"
-    href: "/MAGIC/SURFACE/DESIGN-theme/design-theme.pdf"
 hero:
   badge: DESIGN-theme
   title: "DESIGN-theme"

@@ -8,14 +8,6 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
-views:
-  - gov
-  - web
-  - tex
-pdf: /FOUNDATION/RESERVES/reserves.pdf
-downloads:
-  - label: "PDF"
-    href: "/FOUNDATION/RESERVES/reserves.pdf"
 hero:
   badge: RESERVES
   title: "RESERVES"

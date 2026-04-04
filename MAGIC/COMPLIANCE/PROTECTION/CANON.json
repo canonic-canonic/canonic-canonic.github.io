@@ -32,15 +32,14 @@
     }
   ],
   "_generated": {
-    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/COMPLIANCE/PROTECTION/PROTECTION.md",
+    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/COMPLIANCE/PROTECTION/PROTECTION.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "controls": {
     "talk": "side",
     "view": "web",
     "views": [
-      "gov",
-      "web"
+      "gov"
     ],
     "downloads": []
   },

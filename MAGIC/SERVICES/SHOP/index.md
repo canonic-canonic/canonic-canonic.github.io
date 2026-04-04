@@ -8,14 +8,6 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
-views:
-  - gov
-  - web
-  - tex
-pdf: /MAGIC/SERVICES/SHOP/shop.pdf
-downloads:
-  - label: "PDF"
-    href: "/MAGIC/SERVICES/SHOP/shop.pdf"
 hero:
   badge: SHOP
   title: "SHOP"

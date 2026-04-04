@@ -8,14 +8,6 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
-views:
-  - gov
-  - web
-  - tex
-pdf: /INDUSTRIES/VERTICALS/AUTOMOTIVE/automotive.pdf
-downloads:
-  - label: "PDF"
-    href: "/INDUSTRIES/VERTICALS/AUTOMOTIVE/automotive.pdf"
 hero:
   badge: AUTOMOTIVE
   title: "AUTOMOTIVE"

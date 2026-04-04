@@ -8,14 +8,6 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
-views:
-  - gov
-  - web
-  - tex
-pdf: /MAGIC/COMPLIANCE/CERTIFICATION/certification.pdf
-downloads:
-  - label: "PDF"
-    href: "/MAGIC/COMPLIANCE/CERTIFICATION/certification.pdf"
 hero:
   badge: CERTIFICATION
   title: "CERTIFICATION"

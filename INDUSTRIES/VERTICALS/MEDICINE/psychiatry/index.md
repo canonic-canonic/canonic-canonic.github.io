@@ -8,14 +8,6 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
-views:
-  - gov
-  - web
-  - tex
-pdf: /INDUSTRIES/VERTICALS/MEDICINE/psychiatry/psychiatry.pdf
-downloads:
-  - label: "PDF"
-    href: "/INDUSTRIES/VERTICALS/MEDICINE/psychiatry/psychiatry.pdf"
 hero:
   badge: psychiatry
   title: "psychiatry"

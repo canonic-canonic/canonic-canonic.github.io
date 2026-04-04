@@ -8,14 +8,6 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
-views:
-  - gov
-  - web
-  - tex
-pdf: /MAGIC/COMPLIANCE/SALES/sales.pdf
-downloads:
-  - label: "PDF"
-    href: "/MAGIC/COMPLIANCE/SALES/sales.pdf"
 hero:
   badge: SALES
   title: "SALES"
