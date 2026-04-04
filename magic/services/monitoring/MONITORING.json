@@ -110,28 +110,23 @@
             ],
             "rows": [
               [
-                "2026-02",
-                "In-memory counters sufficient",
-                "API is single-process — no need for external metrics store at current scale"
-              ],
-              [
                 "2026-02-28",
-                "METRICS_LIVE",
+                "",
                 "/api/v1/metrics serves Prometheus text format — canonic_api_requests_total, cano"
               ],
               [
                 "2026-02-28",
-                "STRUCTURED_LOGGING_LIVE",
+                "",
                 "Every request logged as JSON to stderr — endpoint, method, status, latency_ms, i"
               ],
               [
                 "2026-02-28",
-                "HEALTH_EXTENDED_LIVE",
+                "",
                 "/api/v1/health checks ledger_head, vault_dir, wallet_valid — returns overall sta"
               ],
               [
                 "2026-03-01",
-                "SESSION_LEDGERED",
+                "",
                 "hello"
               ]
             ]
@@ -352,7 +347,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/SERVICES/MONITORING/MONITORING.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/SERVICES/MONITORING/MONITORING.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "MONITORING | CANONIC",

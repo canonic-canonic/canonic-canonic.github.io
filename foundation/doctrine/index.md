@@ -8,6 +8,14 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /FOUNDATION/DOCTRINE/doctrine.pdf
+downloads:
+  - label: "PDF"
+    href: "/FOUNDATION/DOCTRINE/doctrine.pdf"
 hero:
   badge: DOCTRINE
   title: "DOCTRINE"

@@ -115,22 +115,22 @@
             "rows": [
               [
                 "2026-02-14",
-                "SEED",
+                "",
                 "SAFETY and SECURITY are ALWAYS ENTERPRISE (#63) — no exceptions, no shortcuts"
               ],
               [
                 "2026-02-14",
-                "SEED",
+                "",
                 "HORIZONTAL × VERTICAL = governed product (e.g., MEDICINE × SAFETY = IEC 62304)"
               ],
               [
                 "2026-02-14",
-                "SEED",
+                "",
                 "Safety is the axiom that requires the least argument — \"there is no shortcut for"
               ],
               [
                 "2026-02-14",
-                "SEED",
+                "",
                 "15 VERTICAL × SAFETY compositions + 15 VERTICAL × SECURITY compositions = 30 gov"
               ]
             ]
@@ -206,7 +206,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/INDUSTRIES/HORIZONTAL/HORIZONTAL.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/INDUSTRIES/HORIZONTAL/HORIZONTAL.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "HORIZONTAL | CANONIC"

@@ -107,12 +107,12 @@
             "rows": [
               [
                 "2026-02-26",
-                "SERVICE_CREATED",
+                "",
                 "CONTRIBUTE promoted to library-scope service — ATULISMS first consumer"
               ],
               [
                 "2026-02-26",
-                "HARDCODING_REMOVED",
+                "",
                 "Scope must be a parameter, not a constant — ATULISMS proved the pattern"
               ]
             ]
@@ -218,7 +218,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/SERVICES/CONTRIBUTE/CONTRIBUTE.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/SERVICES/CONTRIBUTE/CONTRIBUTE.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "CONTRIBUTE | CANONIC",

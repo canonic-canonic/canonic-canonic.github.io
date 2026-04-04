@@ -8,6 +8,14 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /INDUSTRIES/VERTICALS/AGRICULTURE/agriculture.pdf
+downloads:
+  - label: "PDF"
+    href: "/INDUSTRIES/VERTICALS/AGRICULTURE/agriculture.pdf"
 hero:
   badge: AGRICULTURE
   title: "AGRICULTURE"

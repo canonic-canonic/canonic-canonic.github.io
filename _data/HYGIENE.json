@@ -77,12 +77,12 @@
             "rows": [
               [
                 "2026-02-28",
-                "GATE_HARDENED",
+                "",
                 "HYGIENE gate promoted from SOFT (warn) to HARD (fail CI) — non-schema files in g"
               ],
               [
                 "2026-02-28",
-                "SCHEMA_ENFORCED",
+                "",
                 "CI validates every .md file in governed scopes against HYGIENE/CANON.md schema +"
               ]
             ]
@@ -175,7 +175,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/TOOLCHAIN/HYGIENE/HYGIENE.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/TOOLCHAIN/HYGIENE/HYGIENE.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "HYGIENE | CANONIC",

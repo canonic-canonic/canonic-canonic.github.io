@@ -447,6 +447,9 @@ sections:
           href: https://hadleylab.org
         - label: Read the origin story
           href: https://hadleylab.org/BLOGS/2026-02-18-why-we-built-this/
+views:
+  - gov
+  - web
 ---
 
 <!-- _generated: build-surfaces -->

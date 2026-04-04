@@ -92,45 +92,6 @@
       ]
     },
     {
-      "id": "activity",
-      "eyebrow": "LEARNING",
-      "title": "Recent Activity",
-      "dashboard": [
-        {
-          "span": 2,
-          "table": {
-            "headers": [
-              "Date",
-              "Signal",
-              "Pattern"
-            ],
-            "rows": [
-              [
-                "2026-02-25",
-                "Robert Glover met Dexter at Lake Nona — RUNNER concept born",
-                "\"DoorDash for Realtors\" — task management for listing operations"
-              ],
-              [
-                "2026-03-10",
-                "Robert created RunnerMVP org + Runner-MVP repo independently",
-                "First distributed user driving product — built MVP with vibe-coding agent"
-              ],
-              [
-                "2026-03-10",
-                "Robert invited Dexter to RunnerMVP org — GOV/DEV roles established",
-                "GOVERNOR (Robert) decides. GOVERNOR_GENERAL (Dexter) executes."
-              ],
-              [
-                "2026-03-10",
-                "ORG registered in GALAXY/ORGS — first distributed CANONIC product",
-                "Same governance kernel (canonic-canonic submodule) applied to independent org"
-              ]
-            ]
-          }
-        }
-      ]
-    },
-    {
       "id": "canon-identity",
       "eyebrow": "IDENTITY",
       "title": "Identity",
@@ -203,7 +164,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/GALAXY/ORGS/RunnerMVP/RunnerMVP.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/GALAXY/ORGS/RunnerMVP/RunnerMVP.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "RunnerMVP | CANONIC",

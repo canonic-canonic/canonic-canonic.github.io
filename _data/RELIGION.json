@@ -85,22 +85,22 @@
             "rows": [
               [
                 "2026-02-20",
-                "EVOLUTION",
+                "",
                 "Lattice Formula: All traditions follow D→E→T→R→O→S accumulation; schism reverses"
               ],
               [
                 "2026-02-20",
-                "EVOLUTION",
+                "",
                 "Taxonomy: Proto-Semitic → Judaism → Christianity → Islam; Indo-European → Hindui"
               ],
               [
                 "2026-02-20",
-                "EVOLUTION",
+                "",
                 "Shared Abrahamic formula: SDA and Sunni Islam share same TIER, different CONTENT"
               ],
               [
                 "2026-02-20",
-                "EVOLUTION",
+                "",
                 "Phase pattern: DECLARATION → EVIDENCE → TEMPORAL CHAIN → COMMUNITY → ENFORCEMENT"
               ]
             ]
@@ -477,7 +477,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/RELIGION.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/RELIGION.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "RELIGION | CANONIC",

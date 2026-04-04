@@ -8,6 +8,14 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /MAGIC/COMPLIANCE/RECOVERY/recovery.pdf
+downloads:
+  - label: "PDF"
+    href: "/MAGIC/COMPLIANCE/RECOVERY/recovery.pdf"
 hero:
   badge: RECOVERY
   title: "RECOVERY"

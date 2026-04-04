@@ -99,7 +99,7 @@
             "rows": [
               [
                 "2026-02-27",
-                "TRIAD_COMPLETE",
+                "",
                 "ONBOARDING scope governance completed — full MAGIC 255"
               ]
             ]
@@ -212,7 +212,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/FOUNDATION/ONBOARDING/ONBOARDING.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/FOUNDATION/ONBOARDING/ONBOARDING.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "ONBOARDING | CANONIC",

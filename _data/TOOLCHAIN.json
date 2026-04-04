@@ -85,27 +85,27 @@
             "rows": [
               [
                 "2026-02-28",
-                "CI_GATES_EXPANDED",
+                "",
                 "4 new CI gates: secret scan (GOV tree), WALLET chain verification, post-deploy h"
               ],
               [
                 "2026-03-02",
-                "DOMAIN_EVOLUTION",
+                "",
                 "hadleylab-dexter → hadleylab-canonic org rename; fleet repo migrated; old .githu"
               ],
               [
                 "2026-03-08",
-                "MAGIC_255_HARDENING",
+                "",
                 "Compiler hardening: dedup 6 functions to single homes, STRATEGIES dispatch repla"
               ],
               [
                 "2026-03-08",
-                "DECLARATIVE_KIND",
+                "",
                 "classify_kind() reads `kind:` from CANON.md header — VALID_KINDS={ORG,SERVICE,US"
               ],
               [
                 "2026-03-08",
-                "GOV_FIRST_VIOLATION",
+                "",
                 "Wrote code before .md — caught mid-session. Remediated: updated TOOLCHAIN.md (Ar"
               ]
             ]
@@ -354,7 +354,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "TOOLCHAIN | CANONIC",

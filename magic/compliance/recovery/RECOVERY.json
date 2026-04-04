@@ -107,18 +107,8 @@
             "rows": [
               [
                 "2026-02-24",
-                "NEW_SCOPE",
+                "",
                 "RECOVERY scope created — closes the disaster recovery governance gap"
-              ],
-              [
-                "2026-02-24",
-                "GitHub is primary, not sole",
-                "Governance on a single provider is a single point of failure — offsite backup re"
-              ],
-              [
-                "2026-02-24",
-                "RTO 4h, RPO last-push",
-                "Acceptable recovery targets for a governance-first system with local clones"
               ]
             ]
           }
@@ -190,7 +180,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/COMPLIANCE/RECOVERY/RECOVERY.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/COMPLIANCE/RECOVERY/RECOVERY.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "RECOVERY | CANONIC",

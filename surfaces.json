@@ -295,857 +295,287 @@
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/MAGIC/COMPLIANCE/",
+      "path": "/MAGIC/compliance/",
       "scope": "COMPLIANCE",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/MAGIC/COMPLIANCE/CERTIFICATION/",
+      "path": "/MAGIC/compliance/certification/",
       "scope": "CERTIFICATION",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/MAGIC/COMPLIANCE/GTM/",
+      "path": "/MAGIC/compliance/gtm/",
       "scope": "GTM",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/MAGIC/COMPLIANCE/MARKET/",
+      "path": "/MAGIC/compliance/market/",
       "scope": "MARKET",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/MAGIC/COMPLIANCE/PROTECTION/",
-      "scope": "PROTECTION",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/COMPLIANCE/RECOVERY/",
-      "scope": "RECOVERY",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/COMPLIANCE/SALES/",
-      "scope": "SALES",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/COMPLIANCE/SEMANTIC/",
-      "scope": "SEMANTIC",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/COMPLIANCE/privacy/",
+      "path": "/MAGIC/compliance/privacy/",
       "scope": "PRIVACY",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/MAGIC/GALAXY/",
-      "scope": "galaxy",
-      "surface_type": "GALAXY"
-    },
-    {
-      "path": "/MAGIC/GALAXY/ORGS/",
-      "scope": "orgs",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/GALAXY/ORGS/RunnerMVP/",
-      "scope": "RunnerMVP",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/GALAXY/ORGS/canonic-apple/",
-      "scope": "canonic-apple",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/GALAXY/ORGS/canonic-canonic/",
-      "scope": "canonic-canonic",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/GALAXY/ORGS/hadleylab-canonic/",
-      "scope": "hadleylab-canonic",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/GALAXY/USERS/",
-      "scope": "USERS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/GALAXY/finder/",
-      "scope": "FINDER",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/GALAXY/primitives/",
-      "scope": "PRIMITIVES",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SERVICES/API/",
-      "scope": "API",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SERVICES/",
-      "scope": "SERVICES",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SERVICES/CHAIN/",
-      "scope": "CHAIN",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SERVICES/CONTRIBUTE/",
-      "scope": "CONTRIBUTE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SERVICES/DEPLOY/",
-      "scope": "DEPLOY",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SERVICES/IDENTITY/",
-      "scope": "IDENTITY",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SERVICES/LEARNING/",
-      "scope": "LEARNING",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SERVICES/LEDGER/",
-      "scope": "LEDGER",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SERVICES/MINT/",
-      "scope": "MINT",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SERVICES/MONITORING/",
-      "scope": "MONITORING",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SERVICES/NOTIFIER/",
-      "scope": "NOTIFIER",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SERVICES/SHOP/",
-      "scope": "SHOP",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SERVICES/STAR/",
-      "scope": "STAR",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SERVICES/TALK/",
-      "scope": "TALK",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SERVICES/VAULT/",
-      "scope": "VAULT",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SERVICES/WALLET/",
-      "scope": "WALLET",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SURFACE/ANDROID/",
-      "scope": "android",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SURFACE/APPLE/",
-      "scope": "apple",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SURFACE/",
-      "scope": "SURFACE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SURFACE/CONTROLS/",
-      "scope": "CONTROLS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SURFACE/DESIGN/",
-      "scope": "DESIGN",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SURFACE/DESIGN/TALK/",
-      "scope": "TALK",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SURFACE/DESIGN-theme/",
-      "scope": "DESIGN-theme",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SURFACE/JEKYLL/BLOGS/",
-      "scope": "BLOGS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SURFACE/JEKYLL/BOOKS/",
-      "scope": "BOOKS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SURFACE/JEKYLL/",
-      "scope": "JEKYLL",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SURFACE/JEKYLL/DECKS/",
-      "scope": "DECKS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/SURFACE/JEKYLL/PAPERS/",
-      "scope": "PAPERS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/TOOLCHAIN/",
-      "scope": "TOOLCHAIN",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/TOOLCHAIN/CONFIG/",
-      "scope": "CONFIG",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/TOOLCHAIN/FRESHNESS/",
-      "scope": "FRESHNESS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/TOOLCHAIN/HOOKS/",
-      "scope": "HOOKS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/TOOLCHAIN/HYGIENE/",
-      "scope": "HYGIENE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/TOOLCHAIN/INIT/",
-      "scope": "INIT",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/TOOLCHAIN/OPERATIONS/",
-      "scope": "OPERATIONS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/TOOLCHAIN/RUNTIME/",
-      "scope": "RUNTIME",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/TOOLCHAIN/TESTS/",
-      "scope": "TESTS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/TOOLCHAIN/VOCAB/",
-      "scope": "VOCAB",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/MAGIC/TOOLCHAIN/bin/",
-      "scope": "bin",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/foundation/",
-      "scope": "FOUNDATION",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/foundation/developers/",
-      "scope": "DEVELOPERS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/foundation/doctrine/",
-      "scope": "DOCTRINE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/foundation/onboarding/",
-      "scope": "ONBOARDING",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/foundation/programming/",
-      "scope": "PROGRAMMING",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/foundation/programming/c/",
-      "scope": "c",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/foundation/programming/python/",
-      "scope": "python",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/foundation/programming/swift/",
-      "scope": "swift",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/foundation/programming/typescript/",
-      "scope": "typescript",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/foundation/reserves/",
-      "scope": "RESERVES",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/",
-      "scope": "INDUSTRIES",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/horizontal/",
-      "scope": "HORIZONTAL",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/horizontal/safety/",
-      "scope": "SAFETY",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/horizontal/security/",
-      "scope": "SECURITY",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/meta/",
-      "scope": "META",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/regulatory/",
-      "scope": "REGULATORY",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/regulatory/blockchain/",
-      "scope": "BLOCKCHAIN",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/regulatory/data/",
-      "scope": "DATA",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/regulatory/government/",
-      "scope": "GOVERNMENT",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/regulatory/law/",
-      "scope": "LAW",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/regulatory/law/patent/",
-      "scope": "PATENT",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/",
-      "scope": "VERTICALS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/aerospace/",
-      "scope": "AEROSPACE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/agriculture/",
-      "scope": "AGRICULTURE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/automotive/",
-      "scope": "AUTOMOTIVE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/defense/",
-      "scope": "DEFENSE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/education/",
-      "scope": "EDUCATION",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/energy/",
-      "scope": "ENERGY",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/finance/",
-      "scope": "FINANCE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/genomics/",
-      "scope": "GENOMICS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/logistics/",
-      "scope": "LOGISTICS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/manufacturing/",
-      "scope": "MANUFACTURING",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/medicine/",
-      "scope": "MEDICINE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/medicine/credentialing/",
-      "scope": "credentialing",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/medicine/oncology/",
-      "scope": "oncology",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/medicine/oncology/breast/",
-      "scope": "breast",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/medicine/psychiatry/",
-      "scope": "psychiatry",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/quality/",
-      "scope": "QUALITY",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/real_estate/",
-      "scope": "REAL_ESTATE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/religion/",
-      "scope": "RELIGION",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/religion/buddhism/",
-      "scope": "buddhism",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/religion/christianity/",
-      "scope": "christianity",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/religion/christianity/adventist/",
-      "scope": "adventist",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/religion/christianity/adventist/sda/",
-      "scope": "sda",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/religion/christianity/ancient/",
-      "scope": "ancient",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/religion/christianity/catholic/",
-      "scope": "catholic",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/religion/christianity/orthodox/",
-      "scope": "orthodox",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/religion/christianity/protestant/",
-      "scope": "protestant",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/religion/hinduism/",
-      "scope": "hinduism",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/religion/islam/",
-      "scope": "islam",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/religion/islam/nation-of-islam/",
-      "scope": "nation-of-islam",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/religion/islam/shia/",
-      "scope": "shia",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/religion/islam/sunni/",
-      "scope": "sunni",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/religion/judaism/",
-      "scope": "judaism",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/religion/sikhism/",
-      "scope": "sikhism",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/industries/verticals/robotics/",
-      "scope": "ROBOTICS",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/magic/",
-      "scope": "MAGIC",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/magic/compliance/",
-      "scope": "COMPLIANCE",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/magic/compliance/certification/",
-      "scope": "CERTIFICATION",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/magic/compliance/gtm/",
-      "scope": "GTM",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/magic/compliance/market/",
-      "scope": "MARKET",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/magic/compliance/privacy/",
-      "scope": "PRIVACY",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/magic/compliance/protection/",
+      "path": "/MAGIC/compliance/protection/",
       "scope": "PROTECTION",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/compliance/recovery/",
+      "path": "/MAGIC/compliance/recovery/",
       "scope": "RECOVERY",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/compliance/sales/",
+      "path": "/MAGIC/compliance/sales/",
       "scope": "SALES",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/compliance/semantic/",
+      "path": "/MAGIC/compliance/semantic/",
       "scope": "SEMANTIC",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/galaxy/",
+      "path": "/MAGIC/galaxy/",
       "scope": "galaxy",
       "surface_type": "GALAXY"
     },
     {
-      "path": "/magic/galaxy/finder/",
+      "path": "/MAGIC/galaxy/finder/",
       "scope": "FINDER",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/galaxy/orgs/",
+      "path": "/MAGIC/galaxy/orgs/",
       "scope": "orgs",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/galaxy/orgs/canonic-apple/",
+      "path": "/MAGIC/galaxy/orgs/canonic-apple/",
       "scope": "canonic-apple",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/galaxy/orgs/canonic-canonic/",
+      "path": "/MAGIC/galaxy/orgs/canonic-canonic/",
       "scope": "canonic-canonic",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/galaxy/orgs/hadleylab-canonic/",
+      "path": "/MAGIC/galaxy/orgs/hadleylab-canonic/",
       "scope": "hadleylab-canonic",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/galaxy/orgs/runnermvp/",
+      "path": "/MAGIC/galaxy/orgs/runnermvp/",
       "scope": "RunnerMVP",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/galaxy/primitives/",
+      "path": "/MAGIC/galaxy/primitives/",
       "scope": "PRIMITIVES",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/galaxy/users/",
+      "path": "/MAGIC/galaxy/users/",
       "scope": "USERS",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/services/",
+      "path": "/MAGIC/services/",
       "scope": "SERVICES",
       "surface_type": "JEKYLL_ECON"
     },
     {
-      "path": "/magic/services/api/",
+      "path": "/MAGIC/services/api/",
       "scope": "API",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/services/chain/",
+      "path": "/MAGIC/services/chain/",
       "scope": "CHAIN",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/services/contribute/",
+      "path": "/MAGIC/services/contribute/",
       "scope": "CONTRIBUTE",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/services/deploy/",
+      "path": "/MAGIC/services/deploy/",
       "scope": "DEPLOY",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/services/identity/",
+      "path": "/MAGIC/services/identity/",
       "scope": "IDENTITY",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/services/learning/",
+      "path": "/MAGIC/services/learning/",
       "scope": "LEARNING",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/services/ledger/",
+      "path": "/MAGIC/services/ledger/",
       "scope": "LEDGER",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/services/mint/",
+      "path": "/MAGIC/services/mint/",
       "scope": "MINT",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/services/monitoring/",
+      "path": "/MAGIC/services/monitoring/",
       "scope": "MONITORING",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/services/notifier/",
+      "path": "/MAGIC/services/notifier/",
       "scope": "NOTIFIER",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/services/shop/",
+      "path": "/MAGIC/services/shop/",
       "scope": "SHOP",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/services/star/",
+      "path": "/MAGIC/services/star/",
       "scope": "STAR",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/services/talk/",
+      "path": "/MAGIC/services/talk/",
       "scope": "TALK",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/services/vault/",
+      "path": "/MAGIC/services/vault/",
       "scope": "VAULT",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/services/wallet/",
+      "path": "/MAGIC/services/wallet/",
       "scope": "WALLET",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/surface/",
+      "path": "/MAGIC/surface/",
       "scope": "SURFACE",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/surface/android/",
+      "path": "/MAGIC/surface/android/",
       "scope": "android",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/surface/apple/",
+      "path": "/MAGIC/surface/apple/",
       "scope": "apple",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/surface/controls/",
+      "path": "/MAGIC/surface/controls/",
       "scope": "CONTROLS",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/surface/design/",
+      "path": "/MAGIC/surface/design/",
       "scope": "DESIGN",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/surface/design/talk/",
+      "path": "/MAGIC/surface/design/talk/",
       "scope": "TALK",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/surface/design-theme/",
+      "path": "/MAGIC/surface/design-theme/",
       "scope": "DESIGN-theme",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/surface/jekyll/",
+      "path": "/MAGIC/surface/jekyll/",
       "scope": "JEKYLL",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/surface/jekyll/blogs/",
+      "path": "/MAGIC/surface/jekyll/blogs/",
       "scope": "BLOGS",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/surface/jekyll/books/",
+      "path": "/MAGIC/surface/jekyll/books/",
       "scope": "BOOKS",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/surface/jekyll/decks/",
+      "path": "/MAGIC/surface/jekyll/decks/",
       "scope": "DECKS",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/surface/jekyll/papers/",
+      "path": "/MAGIC/surface/jekyll/papers/",
       "scope": "PAPERS",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/toolchain/",
+      "path": "/MAGIC/toolchain/",
       "scope": "TOOLCHAIN",
       "surface_type": "JEKYLL_ECON"
     },
     {
-      "path": "/magic/toolchain/bin/",
+      "path": "/MAGIC/toolchain/bin/",
       "scope": "bin",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/toolchain/config/",
+      "path": "/MAGIC/toolchain/config/",
       "scope": "CONFIG",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/toolchain/freshness/",
+      "path": "/MAGIC/toolchain/freshness/",
       "scope": "FRESHNESS",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/toolchain/hooks/",
+      "path": "/MAGIC/toolchain/hooks/",
       "scope": "HOOKS",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/toolchain/hygiene/",
+      "path": "/MAGIC/toolchain/hygiene/",
       "scope": "HYGIENE",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/toolchain/init/",
+      "path": "/MAGIC/toolchain/init/",
       "scope": "INIT",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/toolchain/operations/",
+      "path": "/MAGIC/toolchain/operations/",
       "scope": "OPERATIONS",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/toolchain/runtime/",
+      "path": "/MAGIC/toolchain/runtime/",
       "scope": "RUNTIME",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/toolchain/tests/",
+      "path": "/MAGIC/toolchain/tests/",
       "scope": "TESTS",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/magic/toolchain/vocab/",
+      "path": "/MAGIC/toolchain/vocab/",
       "scope": "VOCAB",
       "surface_type": "JEKYLL_DEFAULT"
     },

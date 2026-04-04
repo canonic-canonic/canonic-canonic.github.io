@@ -99,7 +99,7 @@
             "rows": [
               [
                 "2026-02-27",
-                "TRIAD_COMPLETE",
+                "",
                 "TESTS scope governance completed — full MAGIC 255"
               ]
             ]
@@ -147,7 +147,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/TOOLCHAIN/TESTS/TESTS.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/TOOLCHAIN/TESTS/TESTS.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "TESTS | CANONIC",

@@ -8,6 +8,14 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /INDUSTRIES/VERTICALS/RELIGION/islam/nation-of-islam/nation-of-islam.pdf
+downloads:
+  - label: "PDF"
+    href: "/INDUSTRIES/VERTICALS/RELIGION/islam/nation-of-islam/nation-of-islam.pdf"
 hero:
   badge: nation-of-islam
   title: "nation-of-islam"

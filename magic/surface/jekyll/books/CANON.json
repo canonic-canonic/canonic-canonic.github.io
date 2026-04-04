@@ -36,14 +36,15 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/SURFACE/JEKYLL/BOOKS/BOOKS.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/SURFACE/JEKYLL/BOOKS/BOOKS.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "controls": {
     "talk": "side",
     "view": "web",
     "views": [
-      "gov"
+      "gov",
+      "web"
     ],
     "downloads": []
   },

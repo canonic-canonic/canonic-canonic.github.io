@@ -8,6 +8,14 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /INDUSTRIES/REGULATORY/DATA/data.pdf
+downloads:
+  - label: "PDF"
+    href: "/INDUSTRIES/REGULATORY/DATA/data.pdf"
 hero:
   badge: DATA
   title: "DATA"

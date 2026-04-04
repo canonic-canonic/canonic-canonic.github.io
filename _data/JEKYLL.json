@@ -100,50 +100,6 @@
       ]
     },
     {
-      "id": "activity",
-      "eyebrow": "LEARNING",
-      "title": "Recent Activity",
-      "dashboard": [
-        {
-          "span": 2,
-          "table": {
-            "headers": [
-              "Date",
-              "Signal",
-              "Pattern"
-            ],
-            "rows": [
-              [
-                "2026-02-20",
-                "Liquid resolution chain",
-                "`include.X → page.X → site.data[scope].X → site.X` — the discoverable shape. Tem"
-              ],
-              [
-                "2026-02-20",
-                "HEAD + SCRIPTS extraction",
-                "Shared `<head>` and script blocks extracted into governed includes — eliminates "
-              ],
-              [
-                "2026-02-20",
-                "CSS classes = enforcement vocabulary",
-                "Inline styles replaced with semantic CSS classes. Class names are the compiled e"
-              ],
-              [
-                "2026-02-20",
-                "Include interfaces governed",
-                "Every include's parameter contract documented in DESIGN.md 255 Map — Include Int"
-              ],
-              [
-                "2026-02-20",
-                "GOV FIRST, MAGIC AFTER",
-                "Governance (.md) updated before code. VOCAB → DESIGN.md 255 Map → templates → va"
-              ]
-            ]
-          }
-        }
-      ]
-    },
-    {
       "id": "children",
       "eyebrow": "JEKYLL",
       "title": "JEKYLL",
@@ -198,7 +154,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/SURFACE/JEKYLL/JEKYLL.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/SURFACE/JEKYLL/JEKYLL.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "JEKYLL | CANONIC",

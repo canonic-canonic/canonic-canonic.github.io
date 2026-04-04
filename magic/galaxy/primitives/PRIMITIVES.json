@@ -77,17 +77,17 @@
             "rows": [
               [
                 "2026-03-17",
-                "CONTEXTUAL_UPDATE",
+                "",
                 "Navigate to any scope and all three primitives (INTEL, COIN, TALK) update contex"
               ],
               [
                 "2026-03-17",
-                "NOT_PLUGINS",
+                "",
                 "Primitives are native to the operating surface, not sidebars bolted onto a graph"
               ],
               [
                 "2026-03-19",
-                "FIX_OPENS_TALK",
+                "",
                 "INTEL coverage gap \"fix\" button opens TALK with a contextual prompt. The user de"
               ]
             ]
@@ -97,7 +97,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/GALAXY/PRIMITIVES/PRIMITIVES.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/GALAXY/PRIMITIVES/PRIMITIVES.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "PRIMITIVES | CANONIC",

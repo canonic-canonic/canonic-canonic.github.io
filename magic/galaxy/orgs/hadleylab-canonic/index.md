@@ -8,6 +8,14 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /MAGIC/GALAXY/ORGS/hadleylab-canonic/hadleylab-canonic.pdf
+downloads:
+  - label: "PDF"
+    href: "/MAGIC/GALAXY/ORGS/hadleylab-canonic/hadleylab-canonic.pdf"
 hero:
   badge: hadleylab-canonic
   title: "hadleylab-canonic"

@@ -273,6 +273,9 @@ sections:
           href: https://hadleylab.org/PAPERS/
         - label: Visit Hadley Lab
           href: https://hadleylab.org
+views:
+  - gov
+  - web
 ---
 
 <!-- _generated: build-surfaces -->

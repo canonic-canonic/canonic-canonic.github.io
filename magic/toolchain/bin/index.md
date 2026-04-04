@@ -8,6 +8,14 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /MAGIC/TOOLCHAIN/bin/bin.pdf
+downloads:
+  - label: "PDF"
+    href: "/MAGIC/TOOLCHAIN/bin/bin.pdf"
 hero:
   badge: bin
   title: "bin"

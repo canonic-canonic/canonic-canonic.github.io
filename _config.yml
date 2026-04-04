@@ -19,28 +19,3 @@ meta_pixel_id: "237958571262318"
 linkedin_partner_id: "520335172"
 twitter_pixel_id: "18ce53yfp0n"
 reddit_pixel_id: "a2_ilt7lbzhyelg"
-
-exclude:
-  # MAGIC governance filenames (auto-generated from DIMS)
-  - CANON.md
-  - COVERAGE.md
-  - INTEL.md
-  - LEARNING.md
-  - README.md
-  - ROADMAP.md
-  - VOCAB.md
-  # Private directories (governance internals, not for indexing)
-  - CAMPAIGNS/
-  - CHARTER/
-  - CLINICAL/
-  - DEALS/
-  - FINANCIALS/
-  - GRANTS/
-  - USERS/
-  - _data/
-  - econ.json
-  - irbs/
-  - plugins/
-  - timeline/
-
-

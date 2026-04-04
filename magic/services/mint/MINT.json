@@ -106,28 +106,8 @@
             ],
             "rows": [
               [
-                "2026-02-20",
-                "~~LEDGER↔WALLET disconnect~~",
-                "~~132,843 COIN in LEDGER vs ~5,500 in WALLETs~~ — CLOSED: `vault reconcile` brid"
-              ],
-              [
-                "2026-02-20",
-                "Gradient = COIN",
-                ".idf gradient field (to_bits - from_bits) is the natural COIN amount — governanc"
-              ],
-              [
-                "2026-02-20",
-                "Idempotency via work_ref",
-                "Dedup by idf_id in work_ref prevents double-minting on commit amend or hook re-r"
-              ],
-              [
-                "2026-02-20",
-                "Single committer bootstrap",
-                "Only DEXTER commits to git — identity mapping is 1:1 initially, federation comes"
-              ],
-              [
                 "2026-02-28",
-                "RECONCILE_LIVE",
+                "",
                 "`vault reconcile` bridges LEDGER gradients to WALLET events — idempotent via wor"
               ]
             ]
@@ -241,7 +221,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/SERVICES/MINT/MINT.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/SERVICES/MINT/MINT.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "MINT | CANONIC",

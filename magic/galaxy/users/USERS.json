@@ -77,7 +77,7 @@
             "rows": [
               [
                 "2026-02-20",
-                "EVOLUTION",
+                "",
                 "Epoch 001: USERS Scope — Every user is an ORG; VITAE = identity; CANON = governa"
               ]
             ]
@@ -117,7 +117,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/GALAXY/USERS/USERS.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/GALAXY/USERS/USERS.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "USERS | CANONIC",

@@ -24,14 +24,15 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/INDUSTRIES/INDUSTRIES.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/INDUSTRIES/INDUSTRIES.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "controls": {
     "talk": "side",
     "view": "web",
     "views": [
-      "gov"
+      "gov",
+      "web"
     ],
     "downloads": []
   },

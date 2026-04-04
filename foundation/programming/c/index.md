@@ -8,6 +8,14 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /FOUNDATION/PROGRAMMING/c/c.pdf
+downloads:
+  - label: "PDF"
+    href: "/FOUNDATION/PROGRAMMING/c/c.pdf"
 hero:
   badge: c
   title: "c"

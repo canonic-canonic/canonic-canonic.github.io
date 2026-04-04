@@ -107,27 +107,27 @@
             "rows": [
               [
                 "2026-03-01",
-                "EXTINCTION",
+                "",
                 "README.md boilerplate extinct: 18-line template → 3-line lean form (scope + axio"
               ],
               [
                 "2026-03-01",
-                "EXTINCTION",
+                "",
                 "VOCAB redundant entries extinct: child scopes must not duplicate parent VOCAB"
               ],
               [
                 "2026-03-01",
-                "EVOLUTION",
+                "",
                 "build-surfaces modularized: monolith (1797 lines) → 4 extracted modules (dashboa"
               ],
               [
                 "2026-03-01",
-                "EXTINCTION",
+                "",
                 "design-diff-gate shell wrapper extinct: Python-only CLI replaces shell+Python du"
               ],
               [
                 "2026-03-01",
-                "EXTINCTION",
+                "",
                 "SCSS micro-files extinct: _GRID.scss → _LAYOUT.scss, _ANIMATION.scss → _UTILITIE"
               ]
             ]
@@ -256,7 +256,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/GALAXY/GALAXY.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/GALAXY/GALAXY.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "GALAXY | CANONIC",

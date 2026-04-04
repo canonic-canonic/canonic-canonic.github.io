@@ -8,6 +8,14 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /MAGIC/SERVICES/LEARNING/learning.pdf
+downloads:
+  - label: "PDF"
+    href: "/MAGIC/SERVICES/LEARNING/learning.pdf"
 hero:
   badge: LEARNING
   title: "LEARNING"

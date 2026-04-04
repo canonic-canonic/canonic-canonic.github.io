@@ -107,18 +107,8 @@
             "rows": [
               [
                 "2026-02-24",
-                "NEW_SCOPE",
+                "",
                 "PROTECTION scope created — closes the gap between 255 scored and 255 enforced"
-              ],
-              [
-                "2026-02-24",
-                "Advisory is not a gate",
-                "MAGIC 255 without branch protection means anyone can force-push past the gate"
-              ],
-              [
-                "2026-02-24",
-                "Four rules",
-                "BRANCH_PROTECTION + REVIEW_GATE + CODEOWNERS + HOOK_ENFORCEMENT — four layers of"
               ]
             ]
           }
@@ -133,7 +123,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/COMPLIANCE/PROTECTION/PROTECTION.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/COMPLIANCE/PROTECTION/PROTECTION.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "PROTECTION | CANONIC",

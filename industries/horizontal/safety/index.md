@@ -8,6 +8,14 @@ accent: "#00ff88"
 accent_rgb: "0, 255, 136"
 talk: side
 view: web
+views:
+  - gov
+  - web
+  - tex
+pdf: /INDUSTRIES/HORIZONTAL/SAFETY/safety.pdf
+downloads:
+  - label: "PDF"
+    href: "/INDUSTRIES/HORIZONTAL/SAFETY/safety.pdf"
 hero:
   badge: SAFETY
   title: "SAFETY"

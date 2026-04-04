@@ -77,12 +77,12 @@
             "rows": [
               [
                 "2026-03-11",
-                "FULL_BUILD_BASELINE",
+                "",
                 "Phase 02 surfaces compilation takes 134s for 306 surfaces — all recompiled regar"
               ],
               [
                 "2026-03-11",
-                "CONTRACT_FIRST",
+                "",
                 "FRESHNESS declared as TOOLCHAIN contract before any compiler code — gov drives c"
               ]
             ]
@@ -215,7 +215,7 @@
     }
   ],
   "_generated": {
-    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/TOOLCHAIN/FRESHNESS/FRESHNESS.md",
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/TOOLCHAIN/FRESHNESS/FRESHNESS.md",
     "rule": "edit the contract or compiler — not this file"
   },
   "footerTagline": "FRESHNESS | CANONIC",

@@ -9,6 +9,9 @@ accent_rgb: "0, 255, 136"
 talk: side
 view: web
 sitemap: false
+views:
+  - gov
+  - web
 hero:
   badge: USERS
   title: "USERS"
