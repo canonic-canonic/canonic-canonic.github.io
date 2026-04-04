@@ -1,0 +1,323 @@
+{
+  "hero": {
+    "badge": "USER",
+    "title": "IDENTITY",
+    "description": "Every COIN action is signed. Every signature is verified.",
+    "cta": [
+      {
+        "label": "Open IDENTITY",
+        "href": "/MAGIC/SERVICES/IDENTITY/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "IDENTITY",
+      "dashboard": [
+        {
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "8",
+            "change": "patterns",
+            "trend": "up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Next",
+                "Rollout window enforcement (unsigned → rejected)"
+              ],
+              [
+                "Next",
+                "Key rotation with revocation ledger"
+              ],
+              [
+                "Next",
+                "Cross-ORG key federation"
+              ],
+              [
+                "Next",
+                "Hardware key support (YubiKey)"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-20",
+                "~~Rollout window needed~~",
+                "~~Existing 17 events unsigned~~ — CLOSED: signature_cutoff defined in vault_lib."
+              ],
+              [
+                "2026-02-28",
+                "KEYGEN_LIVE",
+                "`vault keygen --user USER` generates Ed25519 key-pair (KEY.pub + KEY.priv) at ~/"
+              ],
+              [
+                "2026-02-28",
+                "AUTH_LIVE",
+                "`vault auth --user USER` mints signed Bearer token (EdDSA, 1h expiry) — GitHub O"
+              ],
+              [
+                "2026-02-28",
+                "VERIFY_SIG_LIVE",
+                "`vault verify-sig` validates event signatures against public keys — integrated i"
+              ],
+              [
+                "2026-02-28",
+                "GITHUB_OAUTH_LIVE",
+                "GitHub OAuth flow: /auth/github → GitHub authorize → /auth/github/callback → mat"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "canon-key-management",
+      "eyebrow": "KEY MANAGEMENT",
+      "title": "Key Management",
+      "description": "``\nvault keygen --user USER\n  → ~/.canonic/VAULT/USERS/{USER}/KEY.pub    (hex-encoded public key)\n  → ~/.canonic/VAULT/USERS/{USER}/KEY.priv   (encrypted private key)\n  → Updates identity.json with pubkey field\n``"
+    },
+    {
+      "id": "canon-event-signing",
+      "eyebrow": "EVENT SIGNING",
+      "title": "Event Signing",
+      "description": "Every circulation event gains a signature field:\n\n``\nsignature = Ed25519.sign(KEY.priv, id + prev + ts + event + user + amount)\n``\n\nDuring ROLLOUT compatibility window: unsigned events accepted with warning.\nAfter window: unsigned events rejected."
+    },
+    {
+      "id": "canon-auth-token",
+      "eyebrow": "AUTH TOKEN",
+      "title": "Auth Token",
+      "description": "``\nvault auth --user USER\n  → Reads private key (prompts for passphrase)\n  → Generates token: base64(header).base64(payload).base64(signature)\n  → Payload: { user, exp, nonce }\n  → Expiry: 1 hour default\n  → Used by HTTP API for Bearer authentication\n``"
+    },
+    {
+      "id": "canon-verification",
+      "eyebrow": "VERIFICATION",
+      "title": "Verification",
+      "description": "``\nvault verify-sig [--user USER]\n  → For each TIMELINE event, verify signature against USER public key\n  → Reports: signed, unsigned (legacy), invalid counts\n  → Exit 1 if any invalid signatures\n``"
+    },
+    {
+      "id": "canon-kyc-anchors",
+      "eyebrow": "KYC ANCHORS",
+      "title": "KYC Anchors",
+      "description": "### Distributed User Onboarding\n\nDistributed users (e.g. DEXTER/USERS/robert-glover/) start with LinkedIn KYC:\n\n``\nLinkedIn verified → identity.json created (kyc: LINKEDIN)\nWALLET genesis event created\nEd25519 key-pair generated\nRUNNER access granted — task completions mint COIN\nGitHub onboarded → identity.json updated (kyc: BOTH, git_emails added)\nFull principal graduation → own ORG scope\n``\n\nGitHub is the graduation path, not a gate. Distributed users earn COIN from day one.",
+      "table": {
+        "headers": [
+          "Anchor",
+          "Level",
+          "Use case",
+          "Identity field"
+        ],
+        "rows": [
+          [
+            "GitHub",
+            "PRIMARY",
+            "Full principal — git commit mapping, .idf minting",
+            "`git_emails`, `git_names`"
+          ],
+          [
+            "LinkedIn",
+            "DISTRIBUTED",
+            "Distributed user — RUNNER task minting, no git",
+            "`linkedin`"
+          ],
+          [
+            "FL DBPR",
+            "SUPPLEMENTAL",
+            "Real estate license verification",
+            "`license`"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-key-rotation",
+      "eyebrow": "KEY ROTATION",
+      "title": "Key Rotation",
+      "description": "### Annual Rotation Ceremony\n\n``\nGenerate new key-pair:  vault keygen --user USER --rotate\nArchive old public key: KEY.pub → KEY.pub.{YYYY-MM-DD}\nSign rotation event:    new key signs { event: KEY_ROTATE, prev_pubkey, new_pubkey, ts }\nUpdate identity.json:   pubkey → new key, key_created_at → now\nRe-mint active auth tokens with new key\nVerify: vault verify-sig --user USER (all post-rotation events valid)\n`\n\n### Timing\n\n### Emergency Rotation\n\nOn suspected compromise: immediate rotation, revoke all active tokens, archive compromised key with COMPROMISED suffix, audit TIMELINE for unauthorized events.\n\n### Commands\n\n`\nvault key-status --user USER     → age, rotation due date, status\nvault keygen --user USER --rotate → generate new key, archive old, update identity\n``",
+      "table": {
+        "headers": [
+          "Check",
+          "Threshold",
+          "Action"
+        ],
+        "rows": [
+          [
+            "key_created_at age",
+            "> 330 days",
+            "WARN: rotation due in 30 days"
+          ],
+          [
+            "key_created_at age",
+            "> 365 days",
+            "BLOCK: key expired — rotate before signing"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-interface",
+      "eyebrow": "INTERFACE",
+      "title": "Interface",
+      "description": "``\nINPUT:\n    USER principal + KYC anchors (GitHub, LinkedIn)\n    vault keygen --user USER          — generate Ed25519 key-pair\n    vault auth --user USER            — mint signed auth token (1h expiry)\n    vault verify-sig [--user USER]    — verify event signatures\n    vault resolve-git-user --email E  — map git identity to principal\n    vault resolve-user --linkedin S   — map LinkedIn to principal\n\nOUTPUT:\n    ~/.canonic/VAULT/USERS/{USER}/\n      identity.json  — principal metadata (user, git_emails, git_names, linkedin, kyc, created_at)\n      KEY.pub        — Ed25519 public key (hex)\n      KEY.priv       — Ed25519 private key (encrypted, gitignored)\n    Signed auth token (Bearer, 1h expiry, Ed25519)\n\nKYC ANCHORS:\n    GITHUB    — primary (full principal)\n    LINKEDIN  — distributed users (sufficient for RUNNER operations)\n    BOTH      — graduated distributed user\n\nSIGNATURE PROTOCOL:\n    Algorithm:  Ed25519 (RFC 8032)\n    Message:    id|prev|ts|event|user|amount (UTF-8)\n    Keys:       PEM in KEY.pub / KEY.priv\n    Cutoff:     2026-03-01 (reject unsigned after this date)\n    Rotation:   Annual — document ceremony in IDENTITY.md\n    Warning:    30 days before rotation due (track key_created_at)\n``\n\n*IDENTITY | SPEC | SERVICES*"
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/SERVICES/IDENTITY/IDENTITY.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "IDENTITY | CANONIC",
+  "canon": {
+    "axiom": "Every COIN action is signed. Every signature is verified.",
+    "constraints": "MUST:     Generate Ed25519 key-pair per USER principal\nMUST:     Sign all circulation events (MINT, TRANSFER, SPEND, SETTLE)\nMUST:     Verify signature before executing privileged actions\nMUST:     Bind keys to governed USER VITAE identity\nMUST:     Support multiple KYC anchors — GitHub (primary), LinkedIn (distributed users)\nMUST:     Onboard distributed users to GitHub as graduation path to full principal\nMUST:     Store private keys encrypted in VAULT (never in GOV)\nMUST:     Publish public keys for verification\nMUST NOT: Allow unsigned fallback for privileged actions (after rollout window)\nMUST NOT: Store unencrypted private keys\nMUST NOT: Accept expired or revoked auth tokens\nMUST NOT: Block distributed users from COIN — LinkedIn KYC sufficient for RUNNER operations\nMUST:     Rotate Ed25519 keys annually — document ceremony in IDENTITY.md\nMUST:     Track key_created_at and warn 30 days before rotation due",
+    "inherits": "canonic-canonic/MAGIC/SERVICES",
+    "spec": [
+      {
+        "title": "Purpose",
+        "body": "**IDENTITY provides cryptographic authentication for all COIN operations. Ed25519 key-pairs bind USER principals to their economic actions.**"
+      },
+      {
+        "title": "Key Management",
+        "body": "```\nvault keygen --user USER\n  → ~/.canonic/VAULT/USERS/{USER}/KEY.pub    (hex-encoded public key)\n  → ~/.canonic/VAULT/USERS/{USER}/KEY.priv   (encrypted private key)\n  → Updates identity.json with pubkey field\n```"
+      },
+      {
+        "title": "Event Signing",
+        "body": "Every circulation event gains a `signature` field:\n\n```\nsignature = Ed25519.sign(KEY.priv, id + prev + ts + event + user + amount)\n```\n\nDuring ROLLOUT compatibility window: unsigned events accepted with warning.\nAfter window: unsigned events rejected."
+      },
+      {
+        "title": "Auth Token",
+        "body": "```\nvault auth --user USER\n  → Reads private key (prompts for passphrase)\n  → Generates token: base64(header).base64(payload).base64(signature)\n  → Payload: { user, exp, nonce }\n  → Expiry: 1 hour default\n  → Used by HTTP API for Bearer authentication\n```"
+      },
+      {
+        "title": "Verification",
+        "body": "```\nvault verify-sig [--user USER]\n  → For each TIMELINE event, verify signature against USER public key\n  → Reports: signed, unsigned (legacy), invalid counts\n  → Exit 1 if any invalid signatures\n```\n\n---"
+      },
+      {
+        "title": "KYC Anchors",
+        "body": "| Anchor | Level | Use case | Identity field |\n|--------|-------|----------|---------------|\n| GitHub | PRIMARY | Full principal — git commit mapping, .idf minting | `git_emails`, `git_names` |\n| LinkedIn | DISTRIBUTED | Distributed user — RUNNER task minting, no git | `linkedin` |\n| FL DBPR | SUPPLEMENTAL | Real estate license verification | `license` |\n\n### Distributed User Onboarding\n\nDistributed users (e.g. DEXTER/USERS/robert-glover/) start with LinkedIn KYC:\n\n```\n1. LinkedIn verified → identity.json created (kyc: LINKEDIN)\n2. WALLET genesis event created\n3. Ed25519 key-pair generated\n4. RUNNER access granted — task completions mint COIN\n5. GitHub onboarded → identity.json updated (kyc: BOTH, git_emails added)\n6. Full principal graduation → own ORG scope\n```\n\nGitHub is the graduation path, not a gate. Distributed users earn COIN from day one.\n\n---"
+      },
+      {
+        "title": "Key Rotation",
+        "body": "### Annual Rotation Ceremony\n\n```\n1. Generate new key-pair:  vault keygen --user USER --rotate\n2. Archive old public key: KEY.pub → KEY.pub.{YYYY-MM-DD}\n3. Sign rotation event:    new key signs { event: KEY_ROTATE, prev_pubkey, new_pubkey, ts }\n4. Update identity.json:   pubkey → new key, key_created_at → now\n5. Re-mint active auth tokens with new key\n6. Verify: vault verify-sig --user USER (all post-rotation events valid)\n```\n\n### Timing\n\n| Check | Threshold | Action |\n|-------|-----------|--------|\n| key_created_at age | > 330 days | WARN: rotation due in 30 days |\n| key_created_at age | > 365 days | BLOCK: key expired — rotate before signing |\n\n### Emergency Rotation\n\nOn suspected compromise: immediate rotation, revoke all active tokens, archive compromised key with `COMPROMISED` suffix, audit TIMELINE for unauthorized events.\n\n### Commands\n\n```\nvault key-status --user USER     → age, rotation due date, status\nvault keygen --user USER --rotate → generate new key, archive old, update identity\n```\n\n---\n\n---"
+      },
+      {
+        "title": "Interface",
+        "body": "```\nINPUT:\n    USER principal + KYC anchors (GitHub, LinkedIn)\n    vault keygen --user USER          — generate Ed25519 key-pair\n    vault auth --user USER            — mint signed auth token (1h expiry)\n    vault verify-sig [--user USER]    — verify event signatures\n    vault resolve-git-user --email E  — map git identity to principal\n    vault resolve-user --linkedin S   — map LinkedIn to principal\n\nOUTPUT:\n    ~/.canonic/VAULT/USERS/{USER}/\n      identity.json  — principal metadata (user, git_emails, git_names, linkedin, kyc, created_at)\n      KEY.pub        — Ed25519 public key (hex)\n      KEY.priv       — Ed25519 private key (encrypted, gitignored)\n    Signed auth token (Bearer, 1h expiry, Ed25519)\n\nKYC ANCHORS:\n    GITHUB    — primary (full principal)\n    LINKEDIN  — distributed users (sufficient for RUNNER operations)\n    BOTH      — graduated distributed user\n\nSIGNATURE PROTOCOL:\n    Algorithm:  Ed25519 (RFC 8032)\n    Message:    id|prev|ts|event|user|amount (UTF-8)\n    Keys:       PEM in KEY.pub / KEY.priv\n    Cutoff:     2026-03-01 (reject unsigned after this date)\n    Rotation:   Annual — document ceremony in IDENTITY.md\n    Warning:    30 days before rotation due (track key_created_at)\n```\n\n---"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-20 | ~~No auth exists~~ | ~~All vault commands trust caller implicitly~~ — CLOSED: `vault auth` mints Ed25519-signed tokens, `api` enforces Bearer auth on privileged endpoints | vault_crypto.py `cmd_auth` + api `_verify_token()` |\n| 2026-02-20 | ~~GALAXY/IDENTITY.md spec-only~~ | ~~Key signing, revocation, verification specified but zero runtime~~ — CLOSED: `vault keygen`, `vault auth`, `vault verify-sig` all implemented in vault_crypto.py | vault_crypto.py |\n| 2026-02-20 | Ed25519 fits COIN | Small keys (32 bytes), fast signing, deterministic — matches .idf binary pattern | Crypto selection |\n| 2026-02-20 | ~~Rollout window needed~~ | ~~Existing 17 events unsigned~~ — CLOSED: signature_cutoff defined in vault_lib.py, legacy events accepted before cutoff, rejected after | vault_lib.py `signature_cutoff` |\n| 2026-02-28 | KEYGEN_LIVE | `vault keygen --user USER` generates Ed25519 key-pair (KEY.pub + KEY.priv) at ~/.canonic/VAULT/USERS/{USER}/ | vault_crypto.py `cmd_keygen` |\n| 2026-02-28 | AUTH_LIVE | `vault auth --user USER` mints signed Bearer token (EdDSA, 1h expiry) — GitHub OAuth callback auto-mints via api | vault_crypto.py `cmd_auth` + api `_mint_auth_token()` |\n| 2026-02-28 | VERIFY_SIG_LIVE | `vault verify-sig` validates event signatures against public keys — integrated into api `_verify_token()` | vault_crypto.py `cmd_verify_sig` |\n| 2026-02-28 | GITHUB_OAUTH_LIVE | GitHub OAuth flow: /auth/github → GitHub authorize → /auth/github/callback → match USER → mint token → redirect with Bearer | api GitHub OAuth handlers |\n\n---"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {
+      "next": [
+        "Rollout window enforcement (unsigned → rejected)",
+        "Key rotation with revocation ledger",
+        "Cross-ORG key federation",
+        "Hardware key support (YubiKey)"
+      ]
+    },
+    "vocab": [
+      {
+        "term": "IDENTITY",
+        "definition": "Cryptographic binding between USER principal and their economic actions."
+      },
+      {
+        "term": "USER",
+        "definition": "Governed principal bound to key-pair via VITAE identity."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "SERVICES",
+        "axiom": "SERVICES are SURFACE routes with governed boundaries.",
+        "constraints": "MUST:     Every service composes INTEL (mandatory — knowledge backs every operation)\nMUST:     Primitives are files, services are directories: INTEL→LEARNING, CHAT→TALK, COIN→SHOP\nMUST:     COIN is optional — adds economics (the economic shadow of WORK)\nMUST:     TALK is optional — adds governed conversation product\nMUST:     NOTIFIER is optional — adds governed cross-scope delivery (NOTIFY + INTEL)\nMUST:     Treat each service scope as a governed boundary (no cross-scope leakage)\nMUST:     Drive routes and UI from governed indices (no hardcoding)\nMUST:     NETWORK services MUST declare Routes table with Method + Primitive\nMUST:     NETWORK services MUST declare Architecture showing client → worker → backend\nMUST:     NETWORK services MUST declare Configuration with all vars and secrets\nMUST:     COMPILER services MUST declare Interface with input/output contract\nMUST NOT: Embed runtime state into governed scopes\nMUST NOT: Ship a service without declaring its API surface in CANON.md"
+      },
+      {
+        "scope": "SURFACE",
+        "axiom": "SURFACE is the platform lane.",
+        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "hero": {
+    "badge": "USER",
+    "title": "CONTROLS",
+    "description": "CONTROLS is the unified control interface for all content surfaces. Five dimensions: talk position, download assets, view mode, available views, content gate. Every control in the bar acts on the content it controls — within the same page, within the same context. GOV declares. Compiler emits. Theme renders.",
+    "cta": [
+      {
+        "label": "Open CONTROLS",
+        "href": "/MAGIC/SURFACE/CONTROLS/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "CONTROLS",
+      "dashboard": [
+        {
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "3",
+            "change": "patterns",
+            "trend": "up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Per-page control overrides via CANON.md header"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-27",
+                "CONTROLS_FORMALIZED",
+                "Three dimensions (talk, download, view) declared in SURFACE.json per type — comp"
+              ],
+              [
+                "2026-03-04",
+                "GATE_DIMENSION",
+                "Fifth dimension added: gate (contribute \\"
+              ],
+              [
+                "2026-03-04",
+                "WITHIN_CONTEXT",
+                "All nav-right controls act on content within the same page — no navigation, no n"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "canon-dimensions",
+      "eyebrow": "DIMENSIONS",
+      "title": "Dimensions",
+      "table": {
+        "headers": [
+          "Dimension",
+          "Values",
+          "Description"
+        ],
+        "rows": [
+          [
+            "talk",
+            "`top` \\",
+            "`side`",
+            "TALK overlay position. Opens/closes TALK panel."
+          ],
+          [
+            "download",
+            "`pdf` \\",
+            "`ppt` \\",
+            "`word` \\",
+            "`[]`",
+            "Downloadable asset links in nav-right."
+          ],
+          [
+            "view",
+            "`gov` \\",
+            "`web` \\",
+            "`tex`",
+            "Default content rendering mode."
+          ],
+          [
+            "views",
+            "`[gov, web, tex]`",
+            "Available views for toggle. GOV is universal."
+          ],
+          [
+            "gate",
+            "`contribute` \\",
+            "`none`",
+            "Content gate. When set, renders identity gate before content and CONTRIBUTE anchor in nav-right."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-gate",
+      "eyebrow": "GATE",
+      "title": "Gate",
+      "description": "When gate: contribute:\nIdentity gate renders before content (name, email, affiliation → localStorage).\nGated controls (download, view toggle, CONTRIBUTE) hidden until gate passes.\nOn unlock, auto-select WEB view. GOV and TEX are fixed formats (contract prose and compiled PDF). WEB is the only interactive surface — TALK, contribute forms, hero/sections. Contributor intent = interaction. unlock() MUST call CONTROLS.viewTo('web').\nCONTRIBUTE anchor in nav-right scrolls to #Contribute section via scrollIntoView({behavior:'smooth'}).\nevent.preventDefault() on the anchor — no hash navigation, JS scroll only.\nContribute form POSTs to api.canonic.org/contribute with offline fallback.\n\nGate is declared in GOV (front matter gate: contribute), not hardcoded in the layout. Theme reads page.gate and renders accordingly."
+    },
+    {
+      "id": "canon-flow",
+      "eyebrow": "FLOW",
+      "title": "Flow",
+      "description": "``\nSURFACE.json (defaults per type)\n    ↓\nCANON.md header (per-page overrides, including gate)\n    ↓\nCompiler merges → front matter (talk, downloads, view, views, gate)\n    ↓\nTheme reads front matter → renders controls\n    ↓\nEvery control in the bar acts on content within the same page context\n``"
+    },
+    {
+      "id": "canon-multi-view",
+      "eyebrow": "MULTI-VIEW",
+      "title": "Multi-View",
+      "description": "GOV is universal — every surface has a governance contract view. WEB and TEX are optional layers. When views has >1 entry, CONTROLS renders a toggle bar. CONTROLS.viewTo(target) switches at runtime. Compiler hardens: if GOV not in views, insert it.\n\nview = default (web for all web apps). views = available set. TEX is conditional — only active when page.pdf exists.",
+      "table": {
+        "headers": [
+          "View",
+          "Renderer",
+          "Content"
+        ],
+        "rows": [
+          [
+            "gov",
+            "Jekyll `{{ content }}`",
+            "Governance contract as prose (badge, title, paper-body, colophon)"
+          ],
+          [
+            "web",
+            "Compiled JSON + JS",
+            "Interactive web surface (hero + sections + slides + TALK)"
+          ],
+          [
+            "tex",
+            "PDF.js full viewer (iframe)",
+            "PDF viewer with toolbar: download, print, zoom, search, bookmarks, page nav. Self-hosted at `/assets/pdfjs/viewer.html`. Compiled via LATEX pipeline."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-per-type-defaults",
+      "eyebrow": "PER-TYPE DEFAULTS",
+      "title": "Per-Type Defaults",
+      "description": "Gate is optional on any type — gate: contribute in CANON.md header overrides the default.",
+      "table": {
+        "headers": [
+          "Type",
+          "views",
+          "view",
+          "gate",
+          "Toggle"
+        ],
+        "rows": [
+          [
+            "JEKYLL_DEFAULT",
+            "gov, web",
+            "web",
+            "none",
+            "GOV ↔ WEB"
+          ],
+          [
+            "JEKYLL_ECON",
+            "gov, web",
+            "web",
+            "none",
+            "GOV ↔ WEB"
+          ],
+          [
+            "JEKYLL_POST",
+            "gov, web",
+            "web",
+            "none",
+            "GOV ↔ WEB"
+          ],
+          [
+            "JEKYLL_PAPER",
+            "gov, web, tex",
+            "web",
+            "none",
+            "GOV → WEB → TEX"
+          ],
+          [
+            "JEKYLL_BOOK",
+            "gov, web, tex",
+            "web",
+            "contribute",
+            "GOV → WEB → TEX + CONTRIBUTE"
+          ],
+          [
+            "JEKYLL_SERVICE",
+            "gov, web, tex",
+            "web",
+            "none",
+            "GOV → WEB → TEX"
+          ],
+          [
+            "JEKYLL_DECK",
+            "gov, web",
+            "web",
+            "none",
+            "GOV ↔ WEB"
+          ],
+          [
+            "JEKYLL_CUSTOM",
+            "gov",
+            "gov",
+            "none",
+            "none (GOV only)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-reactive-controls",
+      "eyebrow": "REACTIVE CONTROLS",
+      "title": "Reactive Controls",
+      "description": "Nav controls react to the current view. Controls that have no effect in the current view MUST be visually disabled (greyed out, pointer-events: none). Controls re-enable when the user toggles to a view where they apply.\n\nCONTRIBUTE is only active in WEB view — the contribute form lives in the WEB surface. GOV is fixed contract prose (no form). TEX is a compiled PDF canvas (no form). When disabled, the CONTRIBUTE button gets class ctrl-disabled (opacity 0.35, pointer-events none, cursor default). CONTROLS.viewTo(target) MUST update control states after switching views.",
+      "table": {
+        "headers": [
+          "Control",
+          "WEB",
+          "GOV",
+          "TEX"
+        ],
+        "rows": [
+          [
+            "TALK",
+            "active",
+            "active",
+            "active"
+          ],
+          [
+            "PDF download",
+            "active",
+            "active",
+            "active"
+          ],
+          [
+            "View toggle",
+            "active",
+            "active",
+            "active"
+          ],
+          [
+            "CONTRIBUTE",
+            "<strong>active</strong>",
+            "<strong>disabled</strong>",
+            "<strong>disabled</strong>"
+          ],
+          [
+            "Theme toggle",
+            "active",
+            "active",
+            "active"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-implementation",
+      "eyebrow": "IMPLEMENTATION",
+      "title": "Implementation",
+      "description": "One mechanism. Zero duplication. Every control acts on content within the same page.\n\n``\nCONTROLS.viewTo(target)  — view toggle API (GOV ↔ WEB ↔ TEX)\nCONTROLS.updateControls(target) — enable/disable nav controls per view\nTALK.open() / .close()   — TALK overlay control\n#Contribute              — scroll anchor (event.preventDefault + scrollIntoView)\ntheme toggle             — dark/light via localStorage\ndownload links           — direct asset hrefs\n\n.ctrl-disabled           — CSS: opacity 0.35, pointer-events none, cursor default\n.view-toggle             — CSS in DESIGN.css (Layer 20: _CONTROLS.scss)\nNAV-UNIFIED.html         — renders toggle from page.views (data-driven Liquid)\nStandalone layouts        — same Liquid, inlined in nav-right\n`\n\n### Nav-Right Control Order\n\n`\n[ TALK ] [ ↧ PDF ] [ GOV → WEB → TEX ] [ CONTRIBUTE ] [ ☾ ]\n   │         │              │                  │          │\n   │         │              │                  │          └── theme.js (localStorage)\n   │         │              │                  └── scrollIntoView → #Contribute\n   │         │              └── CONTROLS.viewTo(target)\n   │         └── direct download href\n   └── TALK.open()\n``\n\nEach control in the bar targets content on the same page. No navigation. No new tabs. Within context.\n\n*CONTROLS | SURFACE*"
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/SURFACE/CONTROLS/CONTROLS.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "CONTROLS | CANONIC",
+  "canon": {
+    "axiom": "CONTROLS is the unified control interface for all content surfaces. Five dimensions: talk position, download assets, view mode, available views, content gate. Every control in the bar acts on the content it controls — within the same page, within the same context. GOV declares. Compiler emits. Theme renders.",
+    "constraints": "MUST:     Declare controls per surface_type in SURFACE.json\nMUST:     Compiler discovers defaults from SURFACE.json at build time\nMUST:     Compiler merges CANON.md header overrides with GOV defaults\nMUST:     Emit resolved controls to front matter (talk, downloads, view, views, gate)\nMUST:     Theme reads front matter only — zero layout-specific logic\nMUST:     Every nav-right control acts on content within the same page context\nMUST:     Gate anchor uses event.preventDefault + scrollIntoView — no hash navigation\nMUST NOT: Hardcode control behavior in theme layouts\nMUST NOT: Hardcode per-type defaults in compiler\nMUST NOT: Navigate away from the page — all controls are in-page actions",
+    "inherits": "canonic-canonic/MAGIC/SURFACE",
+    "spec": [
+      {
+        "title": "Dimensions",
+        "body": "| Dimension | Values | Description |\n|-----------|--------|-------------|\n| talk | `top` \\| `side` | TALK overlay position. Opens/closes TALK panel. |\n| download | `pdf` \\| `ppt` \\| `word` \\| `[]` | Downloadable asset links in nav-right. |\n| view | `gov` \\| `web` \\| `tex` | Default content rendering mode. |\n| views | `[gov, web, tex]` | Available views for toggle. GOV is universal. |\n| gate | `contribute` \\| `none` | Content gate. When set, renders identity gate before content and CONTRIBUTE anchor in nav-right. |"
+      },
+      {
+        "title": "Gate",
+        "body": "When `gate: contribute`:\n1. Identity gate renders before content (name, email, affiliation → localStorage).\n2. Gated controls (download, view toggle, CONTRIBUTE) hidden until gate passes.\n3. On unlock, auto-select WEB view. GOV and TEX are fixed formats (contract prose and compiled PDF). WEB is the only interactive surface — TALK, contribute forms, hero/sections. Contributor intent = interaction. `unlock()` MUST call `CONTROLS.viewTo('web')`.\n4. CONTRIBUTE anchor in nav-right scrolls to `#Contribute` section via `scrollIntoView({behavior:'smooth'})`.\n5. `event.preventDefault()` on the anchor — no hash navigation, JS scroll only.\n6. Contribute form POSTs to `api.canonic.org/contribute` with offline fallback.\n\nGate is declared in GOV (front matter `gate: contribute`), not hardcoded in the layout. Theme reads `page.gate` and renders accordingly."
+      },
+      {
+        "title": "Flow",
+        "body": "```\nSURFACE.json (defaults per type)\n    ↓\nCANON.md header (per-page overrides, including gate)\n    ↓\nCompiler merges → front matter (talk, downloads, view, views, gate)\n    ↓\nTheme reads front matter → renders controls\n    ↓\nEvery control in the bar acts on content within the same page context\n```\n\n---"
+      },
+      {
+        "title": "Multi-View",
+        "body": "**GOV is universal** — every surface has a governance contract view. WEB and TEX are optional layers. When `views` has >1 entry, CONTROLS renders a toggle bar. `CONTROLS.viewTo(target)` switches at runtime. Compiler hardens: if GOV not in views, insert it.\n\n| View | Renderer | Content |\n|------|----------|---------|\n| gov | Jekyll `{{ content }}` | Governance contract as prose (badge, title, paper-body, colophon) |\n| web | Compiled JSON + JS | Interactive web surface (hero + sections + slides + TALK) |\n| tex | PDF.js full viewer (iframe) | PDF viewer with toolbar: download, print, zoom, search, bookmarks, page nav. Self-hosted at `/assets/pdfjs/viewer.html`. Compiled via LATEX pipeline. |\n\n`view` = default (web for all web apps). `views` = available set. TEX is conditional — only active when `page.pdf` exists."
+      },
+      {
+        "title": "Per-Type Defaults",
+        "body": "| Type | views | view | gate | Toggle |\n|------|-------|------|------|--------|\n| JEKYLL_DEFAULT | gov, web | web | none | GOV ↔ WEB |\n| JEKYLL_ECON | gov, web | web | none | GOV ↔ WEB |\n| JEKYLL_POST | gov, web | web | none | GOV ↔ WEB |\n| JEKYLL_PAPER | gov, web, tex | web | none | GOV → WEB → TEX |\n| JEKYLL_BOOK | gov, web, tex | web | contribute | GOV → WEB → TEX + CONTRIBUTE |\n| JEKYLL_SERVICE | gov, web, tex | web | none | GOV → WEB → TEX |\n| JEKYLL_DECK | gov, web | web | none | GOV ↔ WEB |\n| JEKYLL_CUSTOM | gov | gov | none | none (GOV only) |\n\nGate is optional on any type — `gate: contribute` in CANON.md header overrides the default."
+      },
+      {
+        "title": "Reactive Controls",
+        "body": "Nav controls react to the current view. Controls that have no effect in the current view MUST be visually disabled (greyed out, `pointer-events: none`). Controls re-enable when the user toggles to a view where they apply.\n\n| Control | WEB | GOV | TEX |\n|---------|-----|-----|-----|\n| TALK | active | active | active |\n| PDF download | active | active | active |\n| View toggle | active | active | active |\n| CONTRIBUTE | **active** | **disabled** | **disabled** |\n| Theme toggle | active | active | active |\n\nCONTRIBUTE is only active in WEB view — the contribute form lives in the WEB surface. GOV is fixed contract prose (no form). TEX is a compiled PDF canvas (no form). When disabled, the CONTRIBUTE button gets class `ctrl-disabled` (opacity 0.35, pointer-events none, cursor default). `CONTROLS.viewTo(target)` MUST update control states after switching views."
+      },
+      {
+        "title": "Implementation",
+        "body": "One mechanism. Zero duplication. Every control acts on content within the same page.\n\n```\nCONTROLS.viewTo(target)  — view toggle API (GOV ↔ WEB ↔ TEX)\nCONTROLS.updateControls(target) — enable/disable nav controls per view\nTALK.open() / .close()   — TALK overlay control\n#Contribute              — scroll anchor (event.preventDefault + scrollIntoView)\ntheme toggle             — dark/light via localStorage\ndownload links           — direct asset hrefs\n\n.ctrl-disabled           — CSS: opacity 0.35, pointer-events none, cursor default\n.view-toggle             — CSS in DESIGN.css (Layer 20: _CONTROLS.scss)\nNAV-UNIFIED.html         — renders toggle from page.views (data-driven Liquid)\nStandalone layouts        — same Liquid, inlined in nav-right\n```\n\n### Nav-Right Control Order\n\n```\n[ TALK ] [ ↧ PDF ] [ GOV → WEB → TEX ] [ CONTRIBUTE ] [ ☾ ]\n   │         │              │                  │          │\n   │         │              │                  │          └── theme.js (localStorage)\n   │         │              │                  └── scrollIntoView → #Contribute\n   │         │              └── CONTROLS.viewTo(target)\n   │         └── direct download href\n   └── TALK.open()\n```\n\nEach control in the bar targets content on the same page. No navigation. No new tabs. Within context.\n\n---"
+      }
+    ],
+    "intel": [],
+    "learning": [],
+    "coverage": "255/255",
+    "roadmap": {
+      "later": [
+        "Per-page control overrides via CANON.md header"
+      ]
+    },
+    "vocab": [
+      {
+        "term": "CONTROLS",
+        "definition": "Unified control interface — five dimensions per surface type. Every control acts on content within context."
+      },
+      {
+        "term": "TALK",
+        "definition": "Control dimension — overlay position (top or side). TALK.open() / TALK.close()."
+      },
+      {
+        "term": "DOWNLOAD",
+        "definition": "Control dimension — downloadable asset types (pdf, ppt, word, or none). Direct href."
+      },
+      {
+        "term": "VIEW",
+        "definition": "Control dimension — default content rendering mode (gov, web, tex). CONTROLS.viewTo()."
+      },
+      {
+        "term": "VIEWS",
+        "definition": "Control dimension — available view set. GOV is universal. Toggle bar when >1."
+      },
+      {
+        "term": "GATE",
+        "definition": "Control dimension — content gate type (contribute or none). Renders identity gate + nav anchor."
+      },
+      {
+        "term": "SURFACE_TYPE",
+        "definition": "Content category — compiler reads defaults from SURFACE.json."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "SURFACE",
+        "axiom": "SURFACE is the platform lane.",
+        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

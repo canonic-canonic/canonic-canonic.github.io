@@ -1,0 +1,698 @@
+{
+  "hero": {
+    "badge": "USER",
+    "title": "LOGISTICS",
+    "description": "Example",
+    "cta": [
+      {
+        "label": "Open LOGISTICS",
+        "href": "/INDUSTRIES/VERTICALS/LOGISTICS/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "status",
+      "eyebrow": "VERTICAL",
+      "title": "LOGISTICS",
+      "dashboard": [
+        {
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "canon-specification",
+      "eyebrow": "SPECIFICATION",
+      "title": "Specification",
+      "description": "``\nLOGISTICS = SUPPLY_CHAIN_STANDARD × CANONIC\n          = Structure(logistics) × (C1, C2, Temporal, Relational, C5, C6)\n``\n\nLattice: 6 governance checks = ENTERPRISE (#63)"
+    },
+    {
+      "id": "canon-dimensional-mapping",
+      "eyebrow": "DIMENSIONAL MAPPING",
+      "title": "Dimensional Mapping",
+      "table": {
+        "headers": [
+          "Dimension",
+          "Bit",
+          "Logistics Governance"
+        ],
+        "rows": [
+          [
+            "C1",
+            "private",
+            "Shipment declarations — no dispatch without verified order and routing intent"
+          ],
+          [
+            "C2",
+            "private",
+            "Chain-of-custody evidence — GS1 scan events as immutable proof of handoff"
+          ],
+          [
+            "T (Temporal)",
+            "4",
+            "Delivery timing integrity — transit windows, customs clearance deadlines, SLA enforcement"
+          ],
+          [
+            "R (Relational)",
+            "8",
+            "Jurisdictional boundaries — trade lanes, customs zones, carrier responsibility limits"
+          ],
+          [
+            "C5",
+            "private",
+            "Fleet and warehouse operations — governed dispatch, pick/pack/ship execution"
+          ],
+          [
+            "C6",
+            "private",
+            "Supply chain structure — GS1/ISO/WCO standards conformance, carrier hierarchies"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-sil-to-magic-tier-mapping",
+      "eyebrow": "SIL-TO-MAGIC TIER MAPPING",
+      "title": "SIL-to-MAGIC Tier Mapping",
+      "table": {
+        "headers": [
+          "SIL",
+          "Risk",
+          "MAGIC Tier",
+          "Bits",
+          "Governance"
+        ],
+        "rows": [
+          [
+            "SIL 1",
+            "Negligible",
+            "COMMUNITY",
+            "#35",
+            "Basic shipment tracking, inventory visibility"
+          ],
+          [
+            "SIL 2",
+            "Marginal",
+            "BUSINESS",
+            "#43",
+            "Fleet safety, warehouse automation safety"
+          ],
+          [
+            "SIL 3",
+            "Critical",
+            "ENTERPRISE",
+            "#63",
+            "Cold chain integrity, hazmat transport, customs"
+          ],
+          [
+            "SIL 4",
+            "Catastrophic",
+            "AGENT",
+            "#127",
+            "Autonomous delivery systems, BVLOS drone ops"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-subdomains",
+      "eyebrow": "SUBDOMAINS",
+      "title": "Subdomains",
+      "description": "### Ocean Freight\n\n``\nStandard:    IMO SOLAS (Safety of Life at Sea), ISM Code, IMDG Code (hazmat)\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Container shipping, bulk cargo, tanker operations, port logistics\nKey Systems: AIS (Automatic Identification System), LRIT, container tracking\nInnovation:  MAGIC checkset governs bill of lading lifecycle, container seal verification\n`\n\n### Air Freight\n\n`\nStandard:    IATA e-freight, ICAO Annex 18 (Dangerous Goods), TSA ACAS\nSIL Range:   SIL 2-3\nGovernance:  ENTERPRISE (#63) for regulated goods\nApplication: Express cargo, perishables, high-value goods, charter operations\nKey Systems: Cargo-IMP messaging, e-AWB, Known Shipper Database\nInnovation:  MAGIC checkset governs advance cargo information, screening compliance\n`\n\n### Ground Transportation\n\n`\nStandard:    FMCSA (49 CFR), ISO 39001, ADR (European hazmat), DOT HM-232\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Full truckload, less-than-truckload, intermodal, last mile\nKey Systems: TMS, ELD, telematics, route optimization\nInnovation:  MAGIC checkset governs HOS compliance, driver qualification, maintenance schedules\n`\n\n### Warehouse / Distribution\n\n`\nStandard:    ISO 3691-4 (Driverless Trucks), OSHA 1910.176 (Material Handling)\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Fulfillment centers, cross-docking, sortation, returns processing\nKey Systems: WMS, WCS, WES, pick-to-light, goods-to-person, conveyor systems\nInnovation:  MAGIC checkset governs automated storage/retrieval, robotic fleet coordination\n`\n\n### Last Mile\n\n`\nStandard:    FAA Part 107/135 (drones), PCC legislation (sidewalk robots), NHTSA (autonomous)\nSIL Range:   SIL 1-3 (depending on autonomy)\nGovernance:  BUSINESS (#43) to ENTERPRISE (#63)\nApplication: Parcel delivery, food delivery, autonomous delivery, drone delivery\nKey Systems: Route optimization, proof of delivery, customer notification\nInnovation:  MAGIC checkset governs autonomous delivery zones, drone airspace compliance\n`\n\n### Cold Chain\n\n`\nStandard:    GDP (Good Distribution Practice, EU 2013/C 343/01), USP <1079>, WHO PQS\nSIL Range:   SIL 2-3\nGovernance:  ENTERPRISE (#63) for pharmaceuticals and biologics\nApplication: Pharmaceutical distribution, food logistics, vaccine cold chain\nKey Systems: Temperature loggers, NIST-traceable calibration, excursion management\nInnovation:  MAGIC checkset governs temperature evidence chain, excursion governance decisions\n``"
+    },
+    {
+      "id": "canon-regulatory-landscape",
+      "eyebrow": "REGULATORY LANDSCAPE",
+      "title": "Regulatory Landscape",
+      "table": {
+        "headers": [
+          "Standard",
+          "Scope",
+          "Governance"
+        ],
+        "rows": [
+          [
+            "GS1 (GTIN, SSCC, GLN, EPCIS)",
+            "Global identification and traceability",
+            "BUSINESS (#43)"
+          ],
+          [
+            "ISO 28000",
+            "Supply chain security management",
+            "ENTERPRISE (#63)"
+          ],
+          [
+            "C-TPAT / AEO",
+            "Trusted trader programs",
+            "ENTERPRISE (#63)"
+          ],
+          [
+            "IATA e-freight",
+            "Paperless air cargo",
+            "BUSINESS (#43)"
+          ],
+          [
+            "Incoterms 2020",
+            "Trade terms and risk transfer",
+            "BUSINESS (#43)"
+          ],
+          [
+            "FMCSA 49 CFR",
+            "US motor carrier safety",
+            "BUSINESS (#43)"
+          ],
+          [
+            "ISO 3691-4",
+            "Driverless industrial trucks",
+            "BUSINESS (#43)"
+          ],
+          [
+            "ISO 39001",
+            "Road traffic safety management",
+            "BUSINESS (#43)"
+          ],
+          [
+            "FAA Part 107/135",
+            "UAS commercial operations",
+            "ENTERPRISE (#63)"
+          ],
+          [
+            "DSCSA",
+            "Pharmaceutical supply chain",
+            "ENTERPRISE (#63)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-prior-art-landscape",
+      "eyebrow": "PRIOR ART LANDSCAPE",
+      "title": "Prior Art Landscape",
+      "description": "Gap: No existing system provides governance-gated supply chain operations with O(1) bitwise compliance checking across chain-of-custody handoffs from origin to destination.",
+      "table": {
+        "headers": [
+          "Competitor",
+          "Approach",
+          "MAGIC checkset Distinction"
+        ],
+        "rows": [
+          [
+            "FourKites",
+            "Real-time visibility platform",
+            "Tracking and visibility only, no governance-gated operations"
+          ],
+          [
+            "project44",
+            "Supply chain visibility",
+            "Data aggregation, no chain-of-custody governance framework"
+          ],
+          [
+            "Amazon Robotics",
+            "Warehouse automation (Kiva)",
+            "Proprietary robotic fleet, no open governance standard"
+          ],
+          [
+            "Flexport",
+            "Digital freight forwarding",
+            "Documentation automation, no bitwise compliance verification"
+          ],
+          [
+            "Blue Yonder",
+            "Supply chain planning/execution",
+            "Planning optimization, no governance language"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-patent-mapping",
+      "eyebrow": "PATENT MAPPING",
+      "title": "Patent Mapping",
+      "table": {
+        "headers": [
+          "PROV",
+          "Relevance",
+          "Claims"
+        ],
+        "rows": [
+          [
+            "PROV-006",
+            "PRIMARY",
+            "Governance-gated warehouse robotics, autonomous delivery actuation"
+          ],
+          [
+            "PROV-002",
+            "Secondary",
+            "COIN=WORK for supply chain settlement, carrier payment attestation"
+          ],
+          [
+            "PROV-003",
+            "Supporting",
+            "Federated logistics optimization across carriers, cross-border coordination"
+          ],
+          [
+            "PROV-001",
+            "Foundational",
+            "MAGIC private-check encoding for logistics governance verification"
+          ],
+          [
+            "PROV-004",
+            "Supporting",
+            "Transcompilation of GS1/ISO standards to governed executables"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-cross-domain-compositions",
+      "eyebrow": "CROSS-DOMAIN COMPOSITIONS",
+      "title": "Cross-Domain Compositions",
+      "description": "``\nLOGISTICS × ROBOTICS       = Warehouse automation, autonomous delivery (ISO 3691-4 + ISO 10218)\nLOGISTICS × MANUFACTURING  = Just-in-time supply, factory logistics (ISO 28000 + IEC 62443)\nLOGISTICS × AGRICULTURE    = Farm-to-fork traceability, cold chain (GS1 + GlobalG.A.P.)\nLOGISTICS × ENERGY         = Fuel logistics, pipeline operations (ISO 28000 + API)\nLOGISTICS × DEFENSE        = Military logistics, MILSTRIP/MILSTAMP (ISO 28000 + DFARS)\nLOGISTICS × MEDICINE       = Pharmaceutical distribution, GDP (DSCSA + ISO 28000)\nLOGISTICS × FINANCE        = Trade finance, letter of credit (GS1 + UCP 600)\nLOGISTICS × SAFETY         = Hazmat transport, dangerous goods (IMDG + ADR + 49 CFR)\nLOGISTICS × SECURITY       = Cargo screening, supply chain security (C-TPAT + ISO 28000)\nLOGISTICS × QUALITY        = Incoming inspection, supplier quality (GS1 + ISO 9001)\n``\n\n10 cross-domain compositions. Each strengthens PROV-002 and PROV-006 patent claims."
+    },
+    {
+      "id": "canon-axioms",
+      "eyebrow": "AXIOMS",
+      "title": "Axioms",
+      "description": "### 1. Chain-of-Custody Integrity\n\nEvery handoff in the supply chain MUST be documented with sender, receiver, timestamp, and condition. No gaps.\n\nExample: A pharmaceutical shipment transfers from manufacturer to 3PL to hospital. Each handoff generates a GS1 EPCIS event: ObjectEvent (what), BizTransaction (why), BizLocation (where), EventTime (when). The receiving party confirms condition. Any gap in the chain = ungoverned product.\n\n### 2. Cold Chain Continuity\n\nTemperature-sensitive products MUST maintain governed temperature throughout transport. Excursions MUST trigger documented response.\n\nExample: A vaccine shipment requires 2-8°C. Temperature loggers record every 5 minutes. If temperature exceeds 8°C for >15 minutes, an excursion event triggers: (1) notification to quality, (2) product hold, (3) stability assessment per USP <1079>, (4) disposition decision. The product does not release without documented excursion review.\n\n### 3. Customs Compliance\n\nCross-border shipments MUST comply with trade regulations of origin, transit, and destination countries. Documentation MUST precede goods.\n\nExample: An electronics shipment from China to the US requires: commercial invoice, packing list, HTS classification, ISF (10+2) filing 24 hours before loading, CBP entry, and duty payment. Misclassification of HTS code = penalty. The documentation chain MUST be complete before the container loads.\n\n### 4. Carrier Safety\n\nCarriers MUST meet safety and qualification requirements. No dispatch with unqualified driver or non-compliant equipment.\n\nExample: A Class 8 truck hauling hazmat requires: CDL with hazmat endorsement, current medical certificate, HOS compliance (11/14/70 rules per 49 CFR 395), ELD recording, vehicle inspection per 49 CFR 396, and hazmat placard per 49 CFR 172. Missing any one = no dispatch.\n\n### 5. Last-Mile Accountability\n\nDelivery to the final recipient MUST generate proof. No delivery without recipient confirmation or documented exception.\n\nExample: A prescription medication delivery requires signature, photo proof of delivery, and temperature confirmation. If the recipient is not available, the driver MUST follow the exception procedure: second attempt within 24 hours, or return to pharmacy with documented chain of custody maintained throughout."
+    },
+    {
+      "id": "canon-examples",
+      "eyebrow": "EXAMPLES",
+      "title": "Examples",
+      "description": "``\nDECLARE(ColdChainCompliance) = GDP × CANONIC\n\nWhere:\n  GDP (Good Distribution Practice) provides Structure:\n    - Temperature mapping and qualification\n    - Transport validation (seasonal routes)\n    - Excursion management procedures\n    - Calibration requirements (NIST-traceable)\n    - Documentation and record retention\n\n  CANONIC provides Governance:\n    - C1: Temperature range claims per product\n    - C2: Continuous monitoring evidence (logger data)\n    - Temporal: Excursion duration thresholds, response times\n    - Relational: Shipper/carrier/receiver handoffs\n    - C5: Cold chain operations (loading, transit, delivery)\n    - C6: GDP/USP/WHO standards conformance\n\nResult:\n  ColdChainCompliance = ENTERPRISE (#63)\n\n  Cold Chain Lifecycle:\n    Qualify        — Route and packaging qualified\n    Ship           — Logger activated, product loaded\n    Monitor        — Continuous temperature tracking\n    Deliver        — Handoff confirmed, logger downloaded\n    Release        — QA review, product released\n`\n\n`\nDECLARE(CustomsClearance) = WCO × CANONIC\n\nWhere:\n  WCO/CBP provides Structure:\n    - Harmonized Tariff Schedule classification\n    - Import Security Filing (ISF 10+2)\n    - Entry summary (CBP Form 7501)\n    - Country of origin determination\n    - Free trade agreement qualification\n\n  CANONIC provides Governance:\n    - C1: Classification and valuation claims\n    - C2: Trade documentation evidence\n    - Temporal: Filing deadlines (ISF 24h, entry 15 days)\n    - Relational: Importer/broker/CBP jurisdictions\n    - C5: Customs operations (filing, examination, release)\n    - C6: WCO/CBP/FTA standards conformance\n\nResult:\n  CustomsClearance = ENTERPRISE (#63)\n\n  Clearance Lifecycle:\n    Classify       — HTS code determined, origin verified\n    File           — ISF submitted, entry filed\n    Examine        — CBP review, inspection if selected\n    Clear          — Duties paid, goods released\n    Settle         — Reconciliation complete\n``"
+    },
+    {
+      "id": "canon-validators",
+      "eyebrow": "VALIDATORS",
+      "title": "Validators",
+      "table": {
+        "headers": [
+          "Validator",
+          "Checks",
+          "Example Failure"
+        ],
+        "rows": [
+          [
+            "C1",
+            "Shipment claims declared (contents, value, origin)",
+            "Undeclared hazmat in shipment"
+          ],
+          [
+            "C2",
+            "Chain-of-custody evidence complete (EPCIS events)",
+            "Gap in handoff documentation"
+          ],
+          [
+            "Temporal",
+            "Transit windows, filing deadlines, SLA compliance",
+            "ISF filed after vessel departure"
+          ],
+          [
+            "Relational",
+            "Carrier qualification, trade lane compliance, jurisdiction",
+            "Unqualified driver dispatched"
+          ],
+          [
+            "C5",
+            "Operations procedures executed (loading, delivery, exception)",
+            "Cold chain excursion without response"
+          ],
+          [
+            "C6",
+            "GS1/ISO 28000/GDP conformance validated",
+            "Non-compliant shipment labeling"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-application",
+      "eyebrow": "APPLICATION",
+      "title": "Application",
+      "description": "To create a CANONIC logistics vertical:\n\nIdentify logistics domain (ocean, air, ground, warehouse, last-mile, cold chain)\nDetermine risk level and map to MAGIC tier\nCreate scope with CANON.md inheriting /LOGISTICS/\nDefine chain-of-custody claims per GS1/EPCIS\nMap to regulatory framework (customs, carrier safety, GDP, DSCSA)\nImplement validators for handoff evidence, temperature monitoring, compliance\nDocument coverage with operational evidence\n\nResult: Owned logistics vertical with chain-of-custody-governed operations.\n\n*LOGISTICS | SPECIFICATION | VERTICALS | INDUSTRIES*"
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/INDUSTRIES/VERTICALS/LOGISTICS/LOGISTICS.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "LOGISTICS | CANONIC",
+  "canon": {
+    "axiom": "Example",
+    "constraints": "MUST:     Cite GS1 standard, ISO 28000, or domain-specific regulation for logistics claims\nMUST:     Distinguish between shipment tracking (visibility) and shipment governance (enforced compliance)\nMUST NOT: Present GPS location data as equivalent to governed chain-of-custody evidence",
+    "inherits": "canonic-canonic/INDUSTRIES/VERTICALS",
+    "spec": [
+      {
+        "title": "Specification",
+        "body": "```\nLOGISTICS = SUPPLY_CHAIN_STANDARD × CANONIC\n          = Structure(logistics) × (C1, C2, Temporal, Relational, C5, C6)\n```\n\n**Lattice**: 6 governance checks = ENTERPRISE (#63)\n\n---"
+      },
+      {
+        "title": "Dimensional Mapping",
+        "body": "| Dimension | Bit | Logistics Governance |\n|-----------|-----|---------------------|\n| C1 | private | Shipment declarations — no dispatch without verified order and routing intent |\n| C2 | private | Chain-of-custody evidence — GS1 scan events as immutable proof of handoff |\n| T (Temporal) | 4 | Delivery timing integrity — transit windows, customs clearance deadlines, SLA enforcement |\n| R (Relational) | 8 | Jurisdictional boundaries — trade lanes, customs zones, carrier responsibility limits |\n| C5 | private | Fleet and warehouse operations — governed dispatch, pick/pack/ship execution |\n| C6 | private | Supply chain structure — GS1/ISO/WCO standards conformance, carrier hierarchies |\n\n---"
+      },
+      {
+        "title": "SIL-to-MAGIC Tier Mapping",
+        "body": "| SIL | Risk | MAGIC Tier | Bits | Governance |\n|-----|------|-------------|------|------------|\n| SIL 1 | Negligible | COMMUNITY | #35 | Basic shipment tracking, inventory visibility |\n| SIL 2 | Marginal | BUSINESS | #43 | Fleet safety, warehouse automation safety |\n| SIL 3 | Critical | ENTERPRISE | #63 | Cold chain integrity, hazmat transport, customs |\n| SIL 4 | Catastrophic | AGENT | #127 | Autonomous delivery systems, BVLOS drone ops |\n\n---"
+      },
+      {
+        "title": "Subdomains",
+        "body": "### Ocean Freight\n\n```\nStandard:    IMO SOLAS (Safety of Life at Sea), ISM Code, IMDG Code (hazmat)\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Container shipping, bulk cargo, tanker operations, port logistics\nKey Systems: AIS (Automatic Identification System), LRIT, container tracking\nInnovation:  MAGIC checkset governs bill of lading lifecycle, container seal verification\n```\n\n### Air Freight\n\n```\nStandard:    IATA e-freight, ICAO Annex 18 (Dangerous Goods), TSA ACAS\nSIL Range:   SIL 2-3\nGovernance:  ENTERPRISE (#63) for regulated goods\nApplication: Express cargo, perishables, high-value goods, charter operations\nKey Systems: Cargo-IMP messaging, e-AWB, Known Shipper Database\nInnovation:  MAGIC checkset governs advance cargo information, screening compliance\n```\n\n### Ground Transportation\n\n```\nStandard:    FMCSA (49 CFR), ISO 39001, ADR (European hazmat), DOT HM-232\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Full truckload, less-than-truckload, intermodal, last mile\nKey Systems: TMS, ELD, telematics, route optimization\nInnovation:  MAGIC checkset governs HOS compliance, driver qualification, maintenance schedules\n```\n\n### Warehouse / Distribution\n\n```\nStandard:    ISO 3691-4 (Driverless Trucks), OSHA 1910.176 (Material Handling)\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Fulfillment centers, cross-docking, sortation, returns processing\nKey Systems: WMS, WCS, WES, pick-to-light, goods-to-person, conveyor systems\nInnovation:  MAGIC checkset governs automated storage/retrieval, robotic fleet coordination\n```\n\n### Last Mile\n\n```\nStandard:    FAA Part 107/135 (drones), PCC legislation (sidewalk robots), NHTSA (autonomous)\nSIL Range:   SIL 1-3 (depending on autonomy)\nGovernance:  BUSINESS (#43) to ENTERPRISE (#63)\nApplication: Parcel delivery, food delivery, autonomous delivery, drone delivery\nKey Systems: Route optimization, proof of delivery, customer notification\nInnovation:  MAGIC checkset governs autonomous delivery zones, drone airspace compliance\n```\n\n### Cold Chain\n\n```\nStandard:    GDP (Good Distribution Practice, EU 2013/C 343/01), USP <1079>, WHO PQS\nSIL Range:   SIL 2-3\nGovernance:  ENTERPRISE (#63) for pharmaceuticals and biologics\nApplication: Pharmaceutical distribution, food logistics, vaccine cold chain\nKey Systems: Temperature loggers, NIST-traceable calibration, excursion management\nInnovation:  MAGIC checkset governs temperature evidence chain, excursion governance decisions\n```\n\n---"
+      },
+      {
+        "title": "Regulatory Landscape",
+        "body": "| Standard | Scope | Governance |\n|----------|-------|------------|\n| GS1 (GTIN, SSCC, GLN, EPCIS) | Global identification and traceability | BUSINESS (#43) |\n| ISO 28000 | Supply chain security management | ENTERPRISE (#63) |\n| C-TPAT / AEO | Trusted trader programs | ENTERPRISE (#63) |\n| IATA e-freight | Paperless air cargo | BUSINESS (#43) |\n| Incoterms 2020 | Trade terms and risk transfer | BUSINESS (#43) |\n| FMCSA 49 CFR | US motor carrier safety | BUSINESS (#43) |\n| ISO 3691-4 | Driverless industrial trucks | BUSINESS (#43) |\n| ISO 39001 | Road traffic safety management | BUSINESS (#43) |\n| FAA Part 107/135 | UAS commercial operations | ENTERPRISE (#63) |\n| DSCSA | Pharmaceutical supply chain | ENTERPRISE (#63) |\n\n---"
+      },
+      {
+        "title": "Prior Art Landscape",
+        "body": "| Competitor | Approach | MAGIC checkset Distinction |\n|-----------|----------|-------------------|\n| FourKites | Real-time visibility platform | Tracking and visibility only, no governance-gated operations |\n| project44 | Supply chain visibility | Data aggregation, no chain-of-custody governance framework |\n| Amazon Robotics | Warehouse automation (Kiva) | Proprietary robotic fleet, no open governance standard |\n| Flexport | Digital freight forwarding | Documentation automation, no bitwise compliance verification |\n| Blue Yonder | Supply chain planning/execution | Planning optimization, no governance language |\n\n**Gap**: No existing system provides governance-gated supply chain operations with O(1) bitwise compliance checking across chain-of-custody handoffs from origin to destination.\n\n---"
+      },
+      {
+        "title": "Patent Mapping",
+        "body": "| PROV | Relevance | Claims |\n|------|-----------|--------|\n| PROV-006 | PRIMARY | Governance-gated warehouse robotics, autonomous delivery actuation |\n| PROV-002 | Secondary | COIN=WORK for supply chain settlement, carrier payment attestation |\n| PROV-003 | Supporting | Federated logistics optimization across carriers, cross-border coordination |\n| PROV-001 | Foundational | MAGIC private-check encoding for logistics governance verification |\n| PROV-004 | Supporting | Transcompilation of GS1/ISO standards to governed executables |\n\n---"
+      },
+      {
+        "title": "Cross-Domain Compositions",
+        "body": "```\nLOGISTICS × ROBOTICS       = Warehouse automation, autonomous delivery (ISO 3691-4 + ISO 10218)\nLOGISTICS × MANUFACTURING  = Just-in-time supply, factory logistics (ISO 28000 + IEC 62443)\nLOGISTICS × AGRICULTURE    = Farm-to-fork traceability, cold chain (GS1 + GlobalG.A.P.)\nLOGISTICS × ENERGY         = Fuel logistics, pipeline operations (ISO 28000 + API)\nLOGISTICS × DEFENSE        = Military logistics, MILSTRIP/MILSTAMP (ISO 28000 + DFARS)\nLOGISTICS × MEDICINE       = Pharmaceutical distribution, GDP (DSCSA + ISO 28000)\nLOGISTICS × FINANCE        = Trade finance, letter of credit (GS1 + UCP 600)\nLOGISTICS × SAFETY         = Hazmat transport, dangerous goods (IMDG + ADR + 49 CFR)\nLOGISTICS × SECURITY       = Cargo screening, supply chain security (C-TPAT + ISO 28000)\nLOGISTICS × QUALITY        = Incoming inspection, supplier quality (GS1 + ISO 9001)\n```\n\n**10 cross-domain compositions. Each strengthens PROV-002 and PROV-006 patent claims.**\n\n---"
+      },
+      {
+        "title": "Axioms",
+        "body": "### 1. Chain-of-Custody Integrity\n\nEvery handoff in the supply chain MUST be documented with sender, receiver, timestamp, and condition. No gaps.\n\n**Example**: A pharmaceutical shipment transfers from manufacturer to 3PL to hospital. Each handoff generates a GS1 EPCIS event: ObjectEvent (what), BizTransaction (why), BizLocation (where), EventTime (when). The receiving party confirms condition. Any gap in the chain = ungoverned product.\n\n---\n\n### 2. Cold Chain Continuity\n\nTemperature-sensitive products MUST maintain governed temperature throughout transport. Excursions MUST trigger documented response.\n\n**Example**: A vaccine shipment requires 2-8°C. Temperature loggers record every 5 minutes. If temperature exceeds 8°C for >15 minutes, an excursion event triggers: (1) notification to quality, (2) product hold, (3) stability assessment per USP <1079>, (4) disposition decision. The product does not release without documented excursion review.\n\n---\n\n### 3. Customs Compliance\n\nCross-border shipments MUST comply with trade regulations of origin, transit, and destination countries. Documentation MUST precede goods.\n\n**Example**: An electronics shipment from China to the US requires: commercial invoice, packing list, HTS classification, ISF (10+2) filing 24 hours before loading, CBP entry, and duty payment. Misclassification of HTS code = penalty. The documentation chain MUST be complete before the container loads.\n\n---\n\n### 4. Carrier Safety\n\nCarriers MUST meet safety and qualification requirements. No dispatch with unqualified driver or non-compliant equipment.\n\n**Example**: A Class 8 truck hauling hazmat requires: CDL with hazmat endorsement, current medical certificate, HOS compliance (11/14/70 rules per 49 CFR 395), ELD recording, vehicle inspection per 49 CFR 396, and hazmat placard per 49 CFR 172. Missing any one = no dispatch.\n\n---\n\n### 5. Last-Mile Accountability\n\nDelivery to the final recipient MUST generate proof. No delivery without recipient confirmation or documented exception.\n\n**Example**: A prescription medication delivery requires signature, photo proof of delivery, and temperature confirmation. If the recipient is not available, the driver MUST follow the exception procedure: second attempt within 24 hours, or return to pharmacy with documented chain of custody maintained throughout.\n\n---"
+      },
+      {
+        "title": "Examples",
+        "body": "```\nDECLARE(ColdChainCompliance) = GDP × CANONIC\n\nWhere:\n  GDP (Good Distribution Practice) provides Structure:\n    - Temperature mapping and qualification\n    - Transport validation (seasonal routes)\n    - Excursion management procedures\n    - Calibration requirements (NIST-traceable)\n    - Documentation and record retention\n\n  CANONIC provides Governance:\n    - C1: Temperature range claims per product\n    - C2: Continuous monitoring evidence (logger data)\n    - Temporal: Excursion duration thresholds, response times\n    - Relational: Shipper/carrier/receiver handoffs\n    - C5: Cold chain operations (loading, transit, delivery)\n    - C6: GDP/USP/WHO standards conformance\n\nResult:\n  ColdChainCompliance = ENTERPRISE (#63)\n\n  Cold Chain Lifecycle:\n    Qualify        — Route and packaging qualified\n    Ship           — Logger activated, product loaded\n    Monitor        — Continuous temperature tracking\n    Deliver        — Handoff confirmed, logger downloaded\n    Release        — QA review, product released\n```\n\n```\nDECLARE(CustomsClearance) = WCO × CANONIC\n\nWhere:\n  WCO/CBP provides Structure:\n    - Harmonized Tariff Schedule classification\n    - Import Security Filing (ISF 10+2)\n    - Entry summary (CBP Form 7501)\n    - Country of origin determination\n    - Free trade agreement qualification\n\n  CANONIC provides Governance:\n    - C1: Classification and valuation claims\n    - C2: Trade documentation evidence\n    - Temporal: Filing deadlines (ISF 24h, entry 15 days)\n    - Relational: Importer/broker/CBP jurisdictions\n    - C5: Customs operations (filing, examination, release)\n    - C6: WCO/CBP/FTA standards conformance\n\nResult:\n  CustomsClearance = ENTERPRISE (#63)\n\n  Clearance Lifecycle:\n    Classify       — HTS code determined, origin verified\n    File           — ISF submitted, entry filed\n    Examine        — CBP review, inspection if selected\n    Clear          — Duties paid, goods released\n    Settle         — Reconciliation complete\n```"
+      },
+      {
+        "title": "Validators",
+        "body": "| Validator | Checks | Example Failure |\n|-----------|--------|-----------------|\n| C1 | Shipment claims declared (contents, value, origin) | Undeclared hazmat in shipment |\n| C2 | Chain-of-custody evidence complete (EPCIS events) | Gap in handoff documentation |\n| Temporal | Transit windows, filing deadlines, SLA compliance | ISF filed after vessel departure |\n| Relational | Carrier qualification, trade lane compliance, jurisdiction | Unqualified driver dispatched |\n| C5 | Operations procedures executed (loading, delivery, exception) | Cold chain excursion without response |\n| C6 | GS1/ISO 28000/GDP conformance validated | Non-compliant shipment labeling |"
+      },
+      {
+        "title": "Application",
+        "body": "To create a CANONIC logistics vertical:\n\n1. **Identify logistics domain** (ocean, air, ground, warehouse, last-mile, cold chain)\n2. **Determine risk level** and map to MAGIC tier\n3. **Create scope** with CANON.md inheriting /LOGISTICS/\n4. **Define chain-of-custody claims** per GS1/EPCIS\n5. **Map to regulatory framework** (customs, carrier safety, GDP, DSCSA)\n6. **Implement validators** for handoff evidence, temperature monitoring, compliance\n7. **Document coverage** with operational evidence\n\n**Result**: Owned logistics vertical with chain-of-custody-governed operations.\n\n---"
+      }
+    ],
+    "learning": [],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "AEO",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "AMS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ANSI",
+        "definition": "American National Standards Institute reference."
+      },
+      {
+        "term": "AS",
+        "definition": "Australian Standard or Application Server."
+      },
+      {
+        "term": "ASME",
+        "definition": "American Society of Mechanical Engineers."
+      },
+      {
+        "term": "ASYCUDA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ATA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "AWB",
+        "definition": "Air Waybill — air freight document."
+      },
+      {
+        "term": "BVLOS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CBP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CFR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CIF",
+        "definition": "Cost, Insurance, and Freight — shipping term."
+      },
+      {
+        "term": "CIP",
+        "definition": "Continuation-in-part — adds new matter while maintaining parent priority for shared disclosure"
+      },
+      {
+        "term": "CMV",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CPT",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CSA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DAP",
+        "definition": "Delivered at Place — shipping term."
+      },
+      {
+        "term": "DDP",
+        "definition": "Delivered Duty Paid — shipping term."
+      },
+      {
+        "term": "DPU",
+        "definition": "Distribution Protection Unit."
+      },
+      {
+        "term": "DSCSA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DVIR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "EAN",
+        "definition": "European Article Number — barcode standard."
+      },
+      {
+        "term": "ELD",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "EPC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "EPCIS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "EU",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "EXW",
+        "definition": "Ex Works — shipping term."
+      },
+      {
+        "term": "FAA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FAS",
+        "definition": "Free Alongside Ship — shipping term."
+      },
+      {
+        "term": "FCA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FMCSA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FMD",
+        "definition": "Failure Mode Distribution."
+      },
+      {
+        "term": "FOB",
+        "definition": "Free On Board — shipping term."
+      },
+      {
+        "term": "GLN",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "GPS",
+        "definition": "Global Positioning System."
+      },
+      {
+        "term": "GSBN",
+        "definition": "Global Shipping Business Network."
+      },
+      {
+        "term": "GTIN",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "HOS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "HS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IATA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IBM",
+        "definition": "International Business Machines."
+      },
+      {
+        "term": "ICC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ID",
+        "definition": "Identifier — unique reference for a governed entity."
+      },
+      {
+        "term": "IFTA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ISO",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "LOGISTICS",
+        "definition": "Logistics industry vertical governance scope."
+      },
+      {
+        "term": "NHTSA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PCC",
+        "definition": "Point of Common Coupling."
+      },
+      {
+        "term": "RFID",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "RIA",
+        "definition": "Robotic Industries Association."
+      },
+      {
+        "term": "RS",
+        "definition": "RS-232/RS-485 — serial communication standards."
+      },
+      {
+        "term": "SAFE",
+        "definition": "Safety-rated function or SAFE architecture."
+      },
+      {
+        "term": "SSCC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "UAS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "UHF",
+        "definition": "Ultra High Frequency — RFID band."
+      },
+      {
+        "term": "UPC",
+        "definition": "Universal Product Code — barcode standard."
+      },
+      {
+        "term": "UPS",
+        "definition": "United Parcel Service."
+      },
+      {
+        "term": "US",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "USPS",
+        "definition": "United States Postal Service."
+      },
+      {
+        "term": "VRP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "WCO",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "WMS",
+        "definition": "Governed term in this scope vocabulary."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "INDUSTRIES",
+        "axiom": "INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.",
+        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "hero": {
+    "badge": "USER",
+    "title": "RunnerMVP",
+    "description": "RUNNER is the real estate task marketplace. Post a task. A pro handles it. Every effort earns COIN. Robert Glover is GOVERNOR. Dexter Hadley is GOVERNOR_GENERAL.",
+    "cta": [
+      {
+        "label": "Open RunnerMVP",
+        "href": "/MAGIC/GALAXY/ORGS/RunnerMVP/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "RUNNERMVP",
+      "dashboard": [
+        {
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "4",
+            "change": "patterns",
+            "trend": "up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Multi-agent fleet: multiple Lake Nona realtors"
+              ],
+              [
+                "Later",
+                "On-demand task runners (DoorDash model) for physical tasks"
+              ],
+              [
+                "Later",
+                "AI task routing: auto-assign based on vendor location + credentials + availabili"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-25",
+                "Robert Glover met Dexter at Lake Nona — RUNNER concept born",
+                "\"DoorDash for Realtors\" — task management for listing operations"
+              ],
+              [
+                "2026-03-10",
+                "Robert created RunnerMVP org + Runner-MVP repo independently",
+                "First distributed user driving product — built MVP with vibe-coding agent"
+              ],
+              [
+                "2026-03-10",
+                "Robert invited Dexter to RunnerMVP org — GOV/DEV roles established",
+                "GOVERNOR (Robert) decides. GOVERNOR_GENERAL (Dexter) executes."
+              ],
+              [
+                "2026-03-10",
+                "ORG registered in GALAXY/ORGS — first distributed CANONIC product",
+                "Same governance kernel (canonic-canonic submodule) applied to independent org"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "canon-identity",
+      "eyebrow": "IDENTITY",
+      "title": "Identity",
+      "table": {
+        "headers": [
+          "Field",
+          "Value"
+        ],
+        "rows": [
+          [
+            "GitHub",
+            "github.com/RunnerMVP"
+          ],
+          [
+            "Role",
+            "PROOF"
+          ],
+          [
+            "Domains",
+            "REAL_ESTATE"
+          ],
+          [
+            "Frontend",
+            "gorunner.pro"
+          ],
+          [
+            "Status",
+            "ACTIVE"
+          ],
+          [
+            "Governor",
+            "Robert Glover (rglov0224-sys)"
+          ],
+          [
+            "Governor General",
+            "Dexter Hadley (iDrDex)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-principals",
+      "eyebrow": "PRINCIPALS",
+      "title": "Principals",
+      "table": {
+        "headers": [
+          "Principal",
+          "Role",
+          "GitHub"
+        ],
+        "rows": [
+          [
+            "ROBERT",
+            "GOVERNOR — decides what gets built",
+            "rglov0224-sys"
+          ],
+          [
+            "DEXTER",
+            "GOVERNOR_GENERAL — executes governance + toolchain",
+            "iDrDex"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-ecosystem",
+      "eyebrow": "ECOSYSTEM",
+      "title": "Ecosystem",
+      "description": "Upstream: canonic-canonic/MAGIC — governance kernel (submodule)\nSibling: hadleylab-canonic — origin fleet (RUNNER migrated from DEXTER/TALKS/)\nApp: Runner-MVP — Robert's Next.js app (runtime)\nDomain: gorunner.pro — vanity domain via Cloudflare\n\n*RUNNERMVP | SPEC | ORGS*"
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/GALAXY/ORGS/RunnerMVP/RunnerMVP.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "RunnerMVP | CANONIC",
+  "canon": {
+    "axiom": "RUNNER is the real estate task marketplace. Post a task. A pro handles it. Every effort earns COIN. Robert Glover is GOVERNOR. Dexter Hadley is GOVERNOR_GENERAL.",
+    "constraints": "MUST:     ORG declares governance scope and domains\nMUST:     ORG inherits from GALAXY/ORGS\nMUST:     GOVERNOR (Robert) decides — GOVERNOR_GENERAL (Dexter) executes\nMUST:     All task types governed in .md — compiled to CANON.json — consumed by app\nMUST:     Vendor credentialing via KYC (FL DBPR, USPAP, FREAB, NMLS)\nMUST:     Fiduciary compliance (FL 475.278) enforced per task\nMUST:     Every task lifecycle event ledgered — post, claim, evidence, complete\nMUST NOT: Deploy ungoverned task types\nMUST NOT: Skip vendor credential verification",
+    "inherits": "canonic-canonic/MAGIC/GALAXY/ORGS",
+    "spec": [
+      {
+        "title": "Identity",
+        "body": "| Field | Value |\n|-------|-------|\n| GitHub | github.com/RunnerMVP |\n| Role | PROOF |\n| Domains | REAL_ESTATE |\n| Frontend | gorunner.pro |\n| Status | ACTIVE |\n| Governor | Robert Glover (rglov0224-sys) |\n| Governor General | Dexter Hadley (iDrDex) |\n\n---"
+      },
+      {
+        "title": "Routes",
+        "body": "```\ngithub.com/RunnerMVP                ORG root\ngithub.com/RunnerMVP/runner-canonic GOV repo\ngithub.com/RunnerMVP/Runner-MVP     APP repo (Next.js)\ngorunner.pro                        Production surface\n```\n\n---"
+      },
+      {
+        "title": "Principals",
+        "body": "| Principal | Role | GitHub |\n|-----------|------|--------|\n| ROBERT | GOVERNOR — decides what gets built | rglov0224-sys |\n| DEXTER | GOVERNOR_GENERAL — executes governance + toolchain | iDrDex |\n\n---"
+      },
+      {
+        "title": "Ecosystem",
+        "body": "1. Upstream: `canonic-canonic/MAGIC` — governance kernel (submodule)\n2. Sibling: `hadleylab-canonic` — origin fleet (RUNNER migrated from DEXTER/TALKS/)\n3. App: `Runner-MVP` — Robert's Next.js app (runtime)\n4. Domain: `gorunner.pro` — vanity domain via Cloudflare\n\n---"
+      }
+    ],
+    "learning": [],
+    "coverage": "",
+    "roadmap": {
+      "later": [
+        "Multi-agent fleet: multiple Lake Nona realtors",
+        "On-demand task runners (DoorDash model) for physical tasks",
+        "AI task routing: auto-assign based on vendor location + credentials + availability",
+        "Cross-brokerage portability via VITAE",
+        "Same ledger model scales to mortgage, insurance, healthcare"
+      ]
+    },
+    "vocab": [
+      {
+        "term": "GOVERNOR",
+        "definition": "Robert Glover — decides what gets built. Surface: CHAT."
+      },
+      {
+        "term": "GOVERNOR_GENERAL",
+        "definition": "Dexter Hadley — executes governance + toolchain. Surface: CLAUDE + git."
+      },
+      {
+        "term": "PROOF",
+        "definition": "Evidence that MAGIC works — distributed product."
+      },
+      {
+        "term": "REAL_ESTATE",
+        "definition": "Domain vertical governed by RunnerMVP."
+      },
+      {
+        "term": "RUNNER",
+        "definition": "Real estate task marketplace — DoorDash for Realtors."
+      },
+      {
+        "term": "RUNNERMVP",
+        "definition": "GitHub ORG boundary for RunnerMVP."
+      },
+      {
+        "term": "PRO",
+        "definition": "Agent role — posts tasks, tracks runners, rates completions."
+      },
+      {
+        "term": "RUNNER_VENDOR",
+        "definition": "Runner role — accepts tasks, navigates, provides evidence, earns."
+      },
+      {
+        "term": "OPS",
+        "definition": "Operations role — platform management."
+      },
+      {
+        "term": "COIN",
+        "definition": "Work ledger — every completed task earns COIN."
+      },
+      {
+        "term": "LEDGER",
+        "definition": "Immutable hash-chained task lifecycle record."
+      },
+      {
+        "term": "KYC",
+        "definition": "Vendor credentialing — FL DBPR, USPAP, FREAB, NMLS."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "ORGS",
+        "axiom": "ORGS = federation identity. Users authenticate. Users maintain VITAE.",
+        "constraints": "MUST:     Authenticate before access\nMUST:     Every member maintains VITAE\nMUST:     Each ORG maps to one GitHub organization boundary\nMUST:     Each USER is projected as an ORG-owned repo: `github.com/{org}/{user}` (duplicate across ORGs allowed)\nMUST:     ORG runtime repos remain deploy targets, not identity sources\nMUST:     Every per-ORG CANON.md declares role: and domains: headers\nMUST:     domains: values resolve to canonic-canonic/INDUSTRIES/ paths\nMUST:     Compiler discovers ORG entries by scanning GALAXY/ORGS/*/CANON.md\nMUST NOT: Expose member identity without consent\nMUST NOT: Collapse ORG and USER ownership boundaries\nMUST NOT: Hardcode org lists — discovery is filesystem-only"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "hero": {
+    "badge": "USER",
+    "title": "SEMANTIC",
+    "description": "Every term resolves. Every chain closes. Every score reflects reality.",
+    "cta": [
+      {
+        "label": "Open SEMANTIC",
+        "href": "/MAGIC/COMPLIANCE/SEMANTIC/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "SEMANTIC",
+      "dashboard": [
+        {
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "5",
+            "change": "patterns",
+            "trend": "up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Automated stub resolution: agent-assisted VOCAB filling guided by CANON constrai"
+              ],
+              [
+                "Later",
+                "Semantic scoring: extend MAGIC 255 with semantic dimensions (beyond structural f"
+              ],
+              [
+                "Later",
+                "Cross-org semantic federation: vocabulary closure across GALAXY org boundaries"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-20",
+                "NEW_SCOPE",
+                "SEMANTIC scope created to govern vocabulary closure and inheritance integrity — "
+              ],
+              [
+                "2026-02-20",
+                "Three rules, one gate",
+                "VOCABULARY CLOSURE + INHERITANCE INTEGRITY + COVERAGE ALIGNMENT — structural MAG"
+              ],
+              [
+                "2026-02-20",
+                "Stubs are gaps, not closures",
+                "VOCAB definitions of \"—\" or boilerplate are flagged as STUB_TERM — honest gaps, "
+              ],
+              [
+                "2026-02-20",
+                "Coverage must match reality",
+                "PASS on a dimension requires the evidence file to exist and contain substance — "
+              ],
+              [
+                "2026-02-20",
+                "Inherits chains must terminate",
+                "Circular inheritance is rejected — every chain must reach a root scope (inherits"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "canon-rules",
+      "eyebrow": "RULES",
+      "title": "Rules",
+      "description": "Three semantic validation rules. Each rule is independently checkable. All three must pass for SEMANTIC VALID.\n\n### Rule 1: VOCABULARY CLOSURE\n\nEvery SCREAMING_CASE term referenced in a scope's CANON.md must resolve to a definition.\n\n``\nFOR EACH term IN canon.screaming_case_terms:\n  IF term IN local_vocab        → RESOLVED\n  ELIF term IN inherited_vocab  → RESOLVED (walk inherits chain)\n  ELSE                          → UNDEFINED_REF (governance gap)\n\nFOR EACH entry IN local_vocab:\n  IF definition == \"—\"                              → STUB_TERM (gap flagged)\n  IF definition == \"Governed term in this scope vocabulary.\" → STUB_TERM (gap flagged)\n`\n\n### Rule 2: INHERITANCE INTEGRITY\n\nEvery inherits: declaration must resolve to an existing scope.\n\n`\nFOR EACH scope IN governance_tree:\n  path = scope.inherits\n  IF path == \".\"              → ROOT (valid terminal)\n  ELIF exists(path/CANON.md)  → VALID\n  ELSE                        → CHAIN_BREAK (governance gap)\n\nFOR EACH chain IN all_inheritance_chains:\n  IF chain contains cycle     → REJECT (circular inheritance)\n`\n\n### Rule 3: COVERAGE ALIGNMENT\n\nEvery COVERAGE.md dimension score must match reality.\n\n`\nFOR EACH dimension IN coverage.dimensions:\n  IF dimension.status == \"PASS\":\n    evidence_file = dimension.evidence_source\n    IF NOT exists(evidence_file)    → COVERAGE_DRIFT\n    IF empty(evidence_file)         → COVERAGE_DRIFT\n  IF dimension.status == \"FAIL\":\n    → VALID (honest gap)\n``\n\n*SEMANTIC | SPEC | COMPLIANCE*"
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/COMPLIANCE/SEMANTIC/SEMANTIC.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "SEMANTIC | CANONIC",
+  "canon": {
+    "axiom": "Every term resolves. Every chain closes. Every score reflects reality.",
+    "constraints": "MUST:     Close vocabulary — every SCREAMING_CASE term in CANON.md must resolve in local or inherited VOCAB.md\nMUST:     Resolve inheritance chains — every inherits path must point to an existing CANON.md\nMUST:     Align COVERAGE scores with reality — dimension PASS requires the evidence file to exist and contain substance\nMUST:     Flag stub terms — VOCAB definitions of \"—\" or \"Governed term in this scope vocabulary.\" are gaps, not closures\nMUST:     Cascade resolution upward — if a term is not in local VOCAB, walk the inherits chain until resolved or flagged\nMUST NOT: Claim COVERAGE PASS for dimensions backed by missing or empty files\nMUST NOT: Allow circular inheritance — inherits chains must terminate at a root scope\nMUST NOT: Silently ignore undefined terms — every unresolved reference is a governance gap\nSHOULD:   Report cross-scope term drift — same SCREAMING_CASE term with divergent definitions across scopes",
+    "inherits": "canonic-canonic/MAGIC/COMPLIANCE",
+    "spec": [
+      {
+        "title": "Rules",
+        "body": "Three semantic validation rules. Each rule is independently checkable. All three must pass for SEMANTIC VALID.\n\n### Rule 1: VOCABULARY CLOSURE\n\nEvery SCREAMING_CASE term referenced in a scope's CANON.md must resolve to a definition.\n\n```\nFOR EACH term IN canon.screaming_case_terms:\n  IF term IN local_vocab        → RESOLVED\n  ELIF term IN inherited_vocab  → RESOLVED (walk inherits chain)\n  ELSE                          → UNDEFINED_REF (governance gap)\n\nFOR EACH entry IN local_vocab:\n  IF definition == \"—\"                              → STUB_TERM (gap flagged)\n  IF definition == \"Governed term in this scope vocabulary.\" → STUB_TERM (gap flagged)\n```\n\n### Rule 2: INHERITANCE INTEGRITY\n\nEvery `inherits:` declaration must resolve to an existing scope.\n\n```\nFOR EACH scope IN governance_tree:\n  path = scope.inherits\n  IF path == \".\"              → ROOT (valid terminal)\n  ELIF exists(path/CANON.md)  → VALID\n  ELSE                        → CHAIN_BREAK (governance gap)\n\nFOR EACH chain IN all_inheritance_chains:\n  IF chain contains cycle     → REJECT (circular inheritance)\n```\n\n### Rule 3: COVERAGE ALIGNMENT\n\nEvery COVERAGE.md dimension score must match reality.\n\n```\nFOR EACH dimension IN coverage.dimensions:\n  IF dimension.status == \"PASS\":\n    evidence_file = dimension.evidence_source\n    IF NOT exists(evidence_file)    → COVERAGE_DRIFT\n    IF empty(evidence_file)         → COVERAGE_DRIFT\n  IF dimension.status == \"FAIL\":\n    → VALID (honest gap)\n```\n\n---"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-20 | NEW_SCOPE | SEMANTIC scope created to govern vocabulary closure and inheritance integrity — closes the semantic validation gap | SEMANTIC/CANON.md |\n| 2026-02-20 | Three rules, one gate | VOCABULARY CLOSURE + INHERITANCE INTEGRITY + COVERAGE ALIGNMENT — structural MAGIC is necessary but not sufficient | SEMANTIC/SEMANTIC.md |\n| 2026-02-20 | Stubs are gaps, not closures | VOCAB definitions of \"—\" or boilerplate are flagged as STUB_TERM — honest gaps, not false compliance | SEMANTIC/CANON.md |\n| 2026-02-20 | Coverage must match reality | PASS on a dimension requires the evidence file to exist and contain substance — no empty claims | SEMANTIC/CANON.md |\n| 2026-02-20 | Inherits chains must terminate | Circular inheritance is rejected — every chain must reach a root scope (inherits: .) | SEMANTIC/SEMANTIC.md |\n\n---"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {
+      "later": [
+        "Automated stub resolution: agent-assisted VOCAB filling guided by CANON constraint context",
+        "Semantic scoring: extend MAGIC 255 with semantic dimensions (beyond structural file presence)",
+        "Cross-org semantic federation: vocabulary closure across GALAXY org boundaries"
+      ]
+    },
+    "vocab": [
+      {
+        "term": "SEMANTIC",
+        "definition": "Validation beyond structure — vocabulary closure, inheritance integrity, coverage alignment"
+      }
+    ],
+    "chain": [
+      {
+        "scope": "COMPLIANCE",
+        "axiom": "COMPLIANCE is the tier algebra.",
+        "constraints": "MUST:     Define tier thresholds and required surface artifacts\nMUST:     Treat tier gates as cumulative (children add; children do not weaken)\nMUST:     Keep tier rules in GOV; runtime interprets only\nMUST NOT: Duplicate tier algebra in sibling scopes"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

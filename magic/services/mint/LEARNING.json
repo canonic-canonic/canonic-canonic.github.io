@@ -1,0 +1,47 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/home/runner/CANONIC/canonic-canonic/MAGIC/SERVICES/MINT/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-20",
+      "signal": "~~LEDGER↔WALLET disconnect~~",
+      "text": "~~132,843 COIN in LEDGER vs ~5,500 in WALLETs~~ — CLOSED: `vault reconcile` bridges LEDGER to WALLETs, `vault mint` processes gradients idempotently",
+      "source": "vault `cmd_reconcile` + `cmd_mint`"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "Gradient = COIN",
+      "text": ".idf gradient field (to_bits - from_bits) is the natural COIN amount — governance score improvement = economic value",
+      "source": "magic.c ledger_log"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "Idempotency via work_ref",
+      "text": "Dedup by idf_id in work_ref prevents double-minting on commit amend or hook re-run",
+      "source": "Pre-commit hook flow"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "Single committer bootstrap",
+      "text": "Only DEXTER commits to git — identity mapping is 1:1 initially, federation comes later",
+      "source": "git log --format=\"%ae\""
+    },
+    {
+      "date": "2026-02-28",
+      "signal": "RECONCILE_LIVE",
+      "text": "`vault reconcile` bridges LEDGER gradients to WALLET events — idempotent via work_ref dedup, handles both MINT (positive gradient) and DRIFT (negative gradient)",
+      "source": "vault `cmd_reconcile`"
+    }
+  ],
+  "stats": {
+    "total_raw": 0,
+    "community_questions": 0,
+    "filtered_low_entropy": 0,
+    "filtered_pct": 0,
+    "domain_patterns": 5,
+    "filtered_examples": []
+  }
+}

@@ -3,11 +3,11 @@
     "contract": "hadleylab-canonic/SERVICES/TIMELINE/CANON.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "generated": "2026-04-04T01:47:23Z",
-  "total_events": 15788,
+  "generated": "2026-04-04T02:00:47Z",
+  "total_events": 15897,
   "lanes": {
     "LEARNING": {
-      "count": 14338,
+      "count": 14438,
       "earliest": "2013-10-09T00:00:00Z",
       "latest": "2026-04-03T00:00:00Z",
       "color": "#bf5af2",
@@ -23,7 +23,7 @@
       "label": "Transcript"
     },
     "CAMPAIGN": {
-      "count": 182,
+      "count": 191,
       "earliest": "2025-12-29T00:00:00Z",
       "latest": "2026-11-10T00:00:00Z",
       "color": "#ff453a",
@@ -48,8 +48,8 @@
     },
     "CONTACTS": {
       "count": 15,
-      "earliest": "2026-04-04T01:47:23Z",
-      "latest": "2026-04-04T01:47:23Z",
+      "earliest": "2026-04-04T02:00:47Z",
+      "latest": "2026-04-04T02:00:47Z",
       "color": "#ffd60a",
       "icon": "⌂",
       "label": "Contacts"

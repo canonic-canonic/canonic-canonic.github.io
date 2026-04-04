@@ -1,0 +1,38 @@
+---
+layout: default
+scope: PROGRAMMING
+title: "PROGRAMMING"
+description: "DEV — programming language implementations."
+footerTagline: "PROGRAMMING"
+accent: "#00ff88"
+accent_rgb: "0, 255, 136"
+talk: side
+view: web
+hero:
+  badge: PROGRAMMING
+  title: "PROGRAMMING"
+  description: "DEV — programming language implementations."
+  cta:
+    - label: "Open PROGRAMMING"
+      href: /FOUNDATION/PROGRAMMING/
+      class: btn-secondary
+      talk: true
+---
+<!-- _generated: build-surfaces -->
+
+RUNTIME_FAMILY = INTEL (Neofunctionalization)
+
+All runtimes compliant
+
+---
+
+## Constraints
+
+1. MUST maintain inherits: chain for all language implementations
+2. MUST validate runtime compliance through magic binary
+3. SHOULD keep language implementations flat (one repo per language)
+4. MUST NOT hardcode governance logic outside the kernel (magic.c)
+
+---
+
+*PROGRAMMING | CANON | FOUNDATION*

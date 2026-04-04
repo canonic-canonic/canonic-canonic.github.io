@@ -1,0 +1,41 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/home/runner/CANONIC/canonic-canonic/MAGIC/GALAXY/FINDER/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-03-17",
+      "signal": "BREADCRUMB_FIRST",
+      "text": "Breadcrumb spine replaces spatial memory. Users navigate into scopes like folders, not by panning a graph. Force-directed graph becomes secondary toggle, lazy-loaded only on demand.",
+      "source": "FINDER/CANON.md"
+    },
+    {
+      "date": "2026-03-17",
+      "signal": "FOLDER_LEAF",
+      "text": "Children > 0 means folder (navigate deeper), children === 0 means leaf (open detail). Single rule, no ambiguity. Cards render both with visual distinction.",
+      "source": "FINDER/CANON.md"
+    },
+    {
+      "date": "2026-03-19",
+      "signal": "SAME_DRAWERS",
+      "text": "Finder and Graph share the same drawer model: left = INTEL (scoped to breadcrumb level in Finder, fleet-wide in Graph), right = DETAIL on selection. No sidebar. Consistent mental model across views.",
+      "source": "Design session"
+    },
+    {
+      "date": "2026-03-19",
+      "signal": "NON_BLOCKING",
+      "text": "HUD elements must never overlay content. Control panel is narrow, breadcrumb bar is full-width but thin, card grid clears both with padding. No modals, no traps.",
+      "source": "Design session"
+    }
+  ],
+  "stats": {
+    "total_raw": 0,
+    "community_questions": 0,
+    "filtered_low_entropy": 0,
+    "filtered_pct": 0,
+    "domain_patterns": 4,
+    "filtered_examples": []
+  }
+}

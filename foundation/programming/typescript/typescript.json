@@ -1,0 +1,137 @@
+{
+  "hero": {
+    "badge": "USER",
+    "title": "typescript",
+    "description": "TYPESCRIPT = Web runtime wrapper for MAGIC kernel interfaces.",
+    "cta": [
+      {
+        "label": "Open typescript",
+        "href": "/FOUNDATION/PROGRAMMING/typescript/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "TYPESCRIPT",
+      "dashboard": [
+        {
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "canon-ecosystem",
+      "eyebrow": "ECOSYSTEM",
+      "title": "Ecosystem",
+      "table": {
+        "headers": [
+          "Dimension",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Language",
+            "typescript"
+          ],
+          [
+            "Parent",
+            "PROGRAMMING"
+          ],
+          [
+            "Primitives",
+            "INTEL (spec) + CHAT (docs) + COIN (SDK)"
+          ],
+          [
+            "Peer Languages",
+            "EVIDENCE, c, python, swift"
+          ]
+        ]
+      }
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/FOUNDATION/PROGRAMMING/typescript/typescript.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "typescript | CANONIC",
+  "canon": {
+    "axiom": "TYPESCRIPT = Web runtime wrapper for MAGIC kernel interfaces.",
+    "inherits": "canonic-canonic/FOUNDATION/PROGRAMMING/",
+    "spec": [
+      {
+        "title": "Ecosystem",
+        "body": "| Dimension | Value |\n|-----------|-------|\n| Language | typescript |\n| Parent | PROGRAMMING |\n| Primitives | INTEL (spec) + CHAT (docs) + COIN (SDK) |\n| Peer Languages | EVIDENCE, c, python, swift |\n\n---"
+      },
+      {
+        "title": "Routes",
+        "body": "```\ntypescript → SDK                Language SDK for MAGIC primitives\nINTEL → SPEC               Language specification\nCOIN → PACKAGE             Published SDK artifact\n```\n\n---"
+      }
+    ],
+    "learning": [],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "FOUNDATION",
+        "definition": "Root governance layer."
+      },
+      {
+        "term": "MAGIC",
+        "definition": "The operations layer composing INTEL + CHAT + COIN into governed services"
+      },
+      {
+        "term": "PROGRAMMING",
+        "definition": "Runtime implementation scope."
+      },
+      {
+        "term": "TYPESCRIPT",
+        "definition": "JavaScript superset runtime layer for governed interfaces."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "PROGRAMMING",
+        "axiom": "DEV — programming language implementations."
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

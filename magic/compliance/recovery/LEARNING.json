@@ -1,0 +1,35 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/home/runner/CANONIC/canonic-canonic/MAGIC/COMPLIANCE/RECOVERY/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-24",
+      "signal": "NEW_SCOPE",
+      "text": "RECOVERY scope created — closes the disaster recovery governance gap",
+      "source": "RECOVERY/CANON.md"
+    },
+    {
+      "date": "2026-02-24",
+      "signal": "GitHub is primary, not sole",
+      "text": "Governance on a single provider is a single point of failure — offsite backup required",
+      "source": "Audit finding"
+    },
+    {
+      "date": "2026-02-24",
+      "signal": "RTO 4h, RPO last-push",
+      "text": "Acceptable recovery targets for a governance-first system with local clones",
+      "source": "RECOVERY/RECOVERY.md"
+    }
+  ],
+  "stats": {
+    "total_raw": 0,
+    "community_questions": 0,
+    "filtered_low_entropy": 0,
+    "filtered_pct": 0,
+    "domain_patterns": 3,
+    "filtered_examples": []
+  }
+}

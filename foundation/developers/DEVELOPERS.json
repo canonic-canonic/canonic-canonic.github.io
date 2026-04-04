@@ -1,0 +1,252 @@
+{
+  "hero": {
+    "badge": "USER",
+    "title": "DEVELOPERS",
+    "description": "DEVELOPERS is the certification surface. Every certified developer is discoverable. Every credential is verifiable. Git proves it.",
+    "cta": [
+      {
+        "label": "Open DEVELOPERS",
+        "href": "/FOUNDATION/DEVELOPERS/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "DEVELOPERS",
+      "dashboard": [
+        {
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "1",
+            "change": "patterns",
+            "trend": "up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-25",
+                "Scope created",
+                "DEVELOPERS scope established — certification surface on FOUNDATION, discovered f"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "canon-discovery",
+      "eyebrow": "DISCOVERY",
+      "title": "Discovery",
+      "description": "Walk GOV tree for VITAE.md files across all governed repos. Cross-reference against cert/ tags in TAGS.md. Only developers with matching cert tags are listed.\n\n``\nGOV tree → VITAE.md discovery → cert/ tag match → developers.json → FOUNDATION page\n``"
+    },
+    {
+      "id": "canon-card-schema",
+      "eyebrow": "CARD SCHEMA",
+      "title": "Card Schema",
+      "table": {
+        "headers": [
+          "Field",
+          "Source",
+          "Required"
+        ],
+        "rows": [
+          [
+            "name",
+            "VITAE.md",
+            "YES"
+          ],
+          [
+            "github",
+            "VITAE.md",
+            "YES"
+          ],
+          [
+            "title",
+            "VITAE.md",
+            "YES"
+          ],
+          [
+            "org",
+            "GALAXY inheritance",
+            "YES"
+          ],
+          [
+            "tier",
+            "cert/ tag",
+            "YES"
+          ],
+          [
+            "tier_score",
+            "magic validate",
+            "YES"
+          ],
+          [
+            "focus",
+            "VITAE.md",
+            "NO"
+          ],
+          [
+            "vitae_url",
+            "Compiled route",
+            "YES"
+          ],
+          [
+            "cert_date",
+            "cert/ tag date",
+            "YES"
+          ],
+          [
+            "cert_tag",
+            "Git tag ref",
+            "YES"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-sort",
+      "eyebrow": "SORT",
+      "title": "Sort",
+      "description": "By tier (FULL first), then alphabetical within tier."
+    },
+    {
+      "id": "canon-output",
+      "eyebrow": "OUTPUT",
+      "title": "Output",
+      "description": "_data/developers.json — compiled by build-surfaces with _generated marker."
+    },
+    {
+      "id": "canon-surface",
+      "eyebrow": "SURFACE",
+      "title": "Surface",
+      "description": "FOUNDATION page renders developer cards. Each card links to VITAE. Each card has \"Verify This Credential\" — checkout cert tag, run magic validate, get same score.\n\n*DEVELOPERS | FOUNDATION*"
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/FOUNDATION/DEVELOPERS/DEVELOPERS.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "DEVELOPERS | CANONIC",
+  "canon": {
+    "axiom": "DEVELOPERS is the certification surface. Every certified developer is discoverable. Every credential is verifiable. Git proves it.",
+    "constraints": "MUST:     Discover developers from GOV tree — walk VITAE.md + cert/ tags\nMUST:     Compile to _data/developers.json via build-surfaces\nMUST:     Render on FOUNDATION site with tier badges\nMUST:     Every listed developer has a matching cert/ tag in TAGS.md\nMUST NOT: List uncertified developers\nMUST NOT: Hardcode developer lists — discover from GOV tree\nMUST NOT: Hand-edit developers.json — fix the compiler or contract",
+    "inherits": "canonic-canonic/FOUNDATION",
+    "spec": [
+      {
+        "title": "Discovery",
+        "body": "Walk GOV tree for VITAE.md files across all governed repos. Cross-reference against cert/ tags in TAGS.md. Only developers with matching cert tags are listed.\n\n```\nGOV tree → VITAE.md discovery → cert/ tag match → developers.json → FOUNDATION page\n```\n\n---"
+      },
+      {
+        "title": "Card Schema",
+        "body": "| Field | Source | Required |\n|-------|--------|----------|\n| name | VITAE.md | YES |\n| github | VITAE.md | YES |\n| title | VITAE.md | YES |\n| org | GALAXY inheritance | YES |\n| tier | cert/ tag | YES |\n| tier_score | magic validate | YES |\n| focus | VITAE.md | NO |\n| vitae_url | Compiled route | YES |\n| cert_date | cert/ tag date | YES |\n| cert_tag | Git tag ref | YES |\n\n---"
+      },
+      {
+        "title": "Sort",
+        "body": "By tier (FULL first), then alphabetical within tier.\n\n---"
+      },
+      {
+        "title": "Output",
+        "body": "`_data/developers.json` — compiled by build-surfaces with `_generated` marker.\n\n---"
+      },
+      {
+        "title": "Surface",
+        "body": "FOUNDATION page renders developer cards. Each card links to VITAE. Each card has \"Verify This Credential\" — checkout cert tag, run `magic validate`, get same score.\n\n---"
+      }
+    ],
+    "intel": [
+      {
+        "title": "Cross-Axiomatic References",
+        "body": "| Scope | Relationship | What flows |\n|-------|-------------|-----------|\n| CERTIFICATION | Upstream | Tier definitions, tag convention — what certification means |\n| VITAE | Upstream | Professional credentials — source data for developer cards |\n| GALAXY | Topology | ORG membership — routes developer to org |\n| TAGS.md | Registry | cert/ tags — which developers are certified |\n| SALES | Downstream | Enterprise contact flow — buyer discovers certified team |\n| TALK | Downstream | Governed CHAT — buyer contacts developer via TALK overlay |\n\n---"
+      },
+      {
+        "title": "Migration Pattern",
+        "body": "INTEL carries developer knowledge across scopes without exposing internals:\n\n```\nVITAE (full record)       → INTEL → DEVELOPERS (public card subset)\nCERTIFICATION (tier)      → INTEL → DEVELOPERS (badge display)\nDEVELOPERS (listing)      → INTEL → SALES (proof in deal cycle)\nDEVELOPERS (contact)      → INTEL → TALK (governed conversation)\n```\n\n---"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-25 | Scope created | DEVELOPERS scope established — certification surface on FOUNDATION, discovered from GOV tree | CANON.md |\n\n---"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "DEVELOPER",
+        "definition": "A governed USER with a cert/ tag. Discovered from GOV tree."
+      },
+      {
+        "term": "DIRECTORY",
+        "definition": "The compiled listing of certified developers on FOUNDATION."
+      },
+      {
+        "term": "LISTING",
+        "definition": "A single developer card in the directory. Compiled from VITAE + cert tag."
+      },
+      {
+        "term": "VERIFIED",
+        "definition": "A developer whose cert/ tag has been independently validated via magic validate."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

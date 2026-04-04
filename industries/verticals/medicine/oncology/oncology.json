@@ -1,0 +1,206 @@
+{
+  "hero": {
+    "badge": "USER",
+    "title": "oncology",
+    "description": "oncology surface.",
+    "cta": [
+      {
+        "label": "Open oncology",
+        "href": "/INDUSTRIES/VERTICALS/MEDICINE/oncology/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "status",
+      "eyebrow": "VERTICAL",
+      "title": "ONCOLOGY",
+      "dashboard": [
+        {
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "CHILDREN",
+            "value": "1",
+            "change": "scopes",
+            "trend": "neutral"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Full mCODE profile coverage across all oncology subspecialties"
+              ],
+              [
+                "Later",
+                "Cross-institutional tumor board federation via CHAT layer"
+              ],
+              [
+                "Later",
+                "COIN integration: oncology intelligence as metered clinical decision support"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "children",
+      "eyebrow": "oncology",
+      "title": "oncology",
+      "cards": [
+        {
+          "icon": "∩",
+          "title": "breast",
+          "desc": "Breast cancer intelligence governed by evidence-based standards. BI-RADS, mCODE, NCCN.",
+          "href": "/INDUSTRIES/VERTICALS/MEDICINE/oncology/breast/",
+          "class": "card"
+        }
+      ]
+    },
+    {
+      "id": "canon-ecosystem",
+      "eyebrow": "ECOSYSTEM",
+      "title": "Ecosystem",
+      "table": {
+        "headers": [
+          "Dimension",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Domain",
+            "oncology"
+          ],
+          [
+            "Parent",
+            "MEDICINE"
+          ],
+          [
+            "Vertical",
+            "MEDICINE"
+          ],
+          [
+            "Primitives",
+            "INTEL (clinical) + CHAT (patient) + COIN (billing)"
+          ],
+          [
+            "Sub-domains",
+            "breast"
+          ]
+        ]
+      }
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology/oncology.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "oncology | CANONIC",
+  "canon": {
+    "constraints": "Required mCODE profiles:\n- CancerPatient\n- PrimaryCancerCondition\n- TNMStageGroup\n- CancerRelatedProcedure\n- CancerRelatedMedicationStatement\n- TumorMarker\n- GenomicsReport\n- CancerDiseaseStatus",
+    "inherits": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE",
+    "spec": [
+      {
+        "title": "Ecosystem",
+        "body": "| Dimension | Value |\n|-----------|-------|\n| Domain | oncology |\n| Parent | MEDICINE |\n| Vertical | MEDICINE |\n| Primitives | INTEL (clinical) + CHAT (patient) + COIN (billing) |\n| Sub-domains | breast |\n\n---"
+      },
+      {
+        "title": "Routes",
+        "body": "```\noncology → MEDICINE     Domain within vertical\nINTEL → CLINICAL      Evidence-based knowledge\nCHAT → PATIENT        Domain-specific communication\n```\n\n---"
+      }
+    ],
+    "learning": [],
+    "coverage": "255/255",
+    "roadmap": {
+      "later": [
+        "Full mCODE profile coverage across all oncology subspecialties",
+        "Cross-institutional tumor board federation via CHAT layer",
+        "COIN integration: oncology intelligence as metered clinical decision support"
+      ]
+    },
+    "vocab": [
+      {
+        "term": "ONCOLOGY",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "RECIST",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "TNM",
+        "definition": "Governed term in this scope vocabulary."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "MEDICINE",
+        "axiom": "Example",
+        "constraints": "MUST:     Cite specific regulation (CFR, statute, or standard) for compliance claims\nMUST:     Distinguish federal from state from international jurisdiction\nMUST NOT: Present clinical guidance without evidence level classification"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "axiom": "INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.",
+        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

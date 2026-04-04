@@ -1,0 +1,477 @@
+{
+  "hero": {
+    "badge": "USER",
+    "title": "VERTICALS",
+    "description": "VERTICALS surface.",
+    "cta": [
+      {
+        "label": "Open VERTICALS",
+        "href": "/INDUSTRIES/VERTICALS/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "VERTICALS",
+      "dashboard": [
+        {
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "8",
+            "change": "patterns",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "CHILDREN",
+            "value": "15",
+            "change": "scopes",
+            "trend": "neutral"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Every vertical operates as autonomous governance node with full #63 ENTERPRISE c"
+              ],
+              [
+                "Later",
+                "Verticals self-register and self-validate through magic scan"
+              ],
+              [
+                "Later",
+                "Federated vertical network: cross-vertical intelligence sharing via INTEL layer"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-14",
+                "SEED",
+                "Medical verticals have deepest nesting (oncology → breast → MAMMOCHAT)"
+              ],
+              [
+                "2026-02-14",
+                "SEED",
+                "SIL/DAL/ASIL-to-MAGIC tier mapping is the bridge between domain safety levels an"
+              ],
+              [
+                "2026-02-19",
+                "NEW_COMPOSITION",
+                "Axioms + Validators + Examples + Application added to all 8 modernized verticals"
+              ],
+              [
+                "2026-02-19",
+                "EVOLUTION",
+                "META dissolved into INTEL→LEARNING — ontological not strata"
+              ],
+              [
+                "2026-02-19",
+                "NEW_COMPOSITION",
+                "INDUSTRIES made ontological — nodes not strings, instance binding via SHOP.md"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "children",
+      "eyebrow": "VERTICALS",
+      "title": "VERTICALS",
+      "cards": [
+        {
+          "icon": "∩",
+          "title": "AEROSPACE",
+          "desc": "Example",
+          "href": "/INDUSTRIES/VERTICALS/AEROSPACE/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "AGRICULTURE",
+          "desc": "Example",
+          "href": "/INDUSTRIES/VERTICALS/AGRICULTURE/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "AUTOMOTIVE",
+          "desc": "Example",
+          "href": "/INDUSTRIES/VERTICALS/AUTOMOTIVE/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "DEFENSE",
+          "desc": "Example",
+          "href": "/INDUSTRIES/VERTICALS/DEFENSE/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "EDUCATION",
+          "desc": "Example",
+          "href": "/INDUSTRIES/VERTICALS/EDUCATION/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "ENERGY",
+          "desc": "Example",
+          "href": "/INDUSTRIES/VERTICALS/ENERGY/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "FINANCE",
+          "desc": "Example",
+          "href": "/INDUSTRIES/VERTICALS/FINANCE/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "GENOMICS",
+          "desc": "Example",
+          "href": "/INDUSTRIES/VERTICALS/GENOMICS/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "LOGISTICS",
+          "desc": "Example",
+          "href": "/INDUSTRIES/VERTICALS/LOGISTICS/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "MANUFACTURING",
+          "desc": "Example",
+          "href": "/INDUSTRIES/VERTICALS/MANUFACTURING/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "MEDICINE",
+          "desc": "Example",
+          "href": "/INDUSTRIES/VERTICALS/MEDICINE/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "QUALITY",
+          "desc": "Example",
+          "href": "/INDUSTRIES/VERTICALS/QUALITY/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "REAL_ESTATE",
+          "desc": "Example",
+          "href": "/INDUSTRIES/VERTICALS/REAL_ESTATE/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "RELIGION",
+          "desc": "RELIGION scope.",
+          "href": "/INDUSTRIES/VERTICALS/RELIGION/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "ROBOTICS",
+          "desc": "Example",
+          "href": "/INDUSTRIES/VERTICALS/ROBOTICS/",
+          "class": "card"
+        }
+      ]
+    },
+    {
+      "id": "canon-lattice",
+      "eyebrow": "LATTICE",
+      "title": "Lattice",
+      "description": "All verticals default to ENTERPRISE (#63) — 6 governance checks. Full governance. Because every vertical maps to real-world standards with institutional enforcement."
+    },
+    {
+      "id": "canon-children",
+      "eyebrow": "CHILDREN",
+      "title": "Children",
+      "table": {
+        "headers": [
+          "Vertical",
+          "Standard",
+          "Tier",
+          "Status"
+        ],
+        "rows": [
+          [
+            "AEROSPACE",
+            "DO-178C / ARP4754A",
+            "ENTERPRISE (#63)",
+            "Governed"
+          ],
+          [
+            "AGRICULTURE",
+            "USDA GAP / ISOBUS",
+            "ENTERPRISE (#63)",
+            "Governed"
+          ],
+          [
+            "AUTOMOTIVE",
+            "ISO 26262 / SAE J3016",
+            "ENTERPRISE (#63)",
+            "Governed"
+          ],
+          [
+            "DEFENSE",
+            "CMMC / NIST 800-171",
+            "ENTERPRISE (#63)",
+            "Governed"
+          ],
+          [
+            "EDUCATION",
+            "FERPA / SACSCOC",
+            "ENTERPRISE (#63)",
+            "Governed"
+          ],
+          [
+            "ENERGY",
+            "NERC CIP / NRC 10 CFR",
+            "ENTERPRISE (#63)",
+            "Governed"
+          ],
+          [
+            "FINANCE",
+            "GAAP / SOX / Basel",
+            "ENTERPRISE (#63)",
+            "Governed"
+          ],
+          [
+            "GENOMICS",
+            "ACMG/AMP / GA4GH",
+            "ENTERPRISE (#63)",
+            "Governed"
+          ],
+          [
+            "LOGISTICS",
+            "GS1 / ISO 28000",
+            "ENTERPRISE (#63)",
+            "Governed"
+          ],
+          [
+            "MANUFACTURING",
+            "ISA-95 / IEC 62443",
+            "ENTERPRISE (#63)",
+            "Governed"
+          ],
+          [
+            "MEDICINE",
+            "mCODE / FHIR / HIPAA",
+            "ENTERPRISE (#63)",
+            "Governed"
+          ],
+          [
+            "QUALITY",
+            "ISO 9001 / AS9100",
+            "ENTERPRISE (#63)",
+            "Governed"
+          ],
+          [
+            "REAL_ESTATE",
+            "FAR/BAR / USPAP",
+            "ENTERPRISE (#63)",
+            "Governed"
+          ],
+          [
+            "RELIGION",
+            "Canonical texts / institutional forms",
+            "ENTERPRISE (#63)",
+            "Governed"
+          ],
+          [
+            "ROBOTICS",
+            "IEC 61508 / ISO 10218",
+            "ENTERPRISE (#63)",
+            "Governed"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-composition-rules",
+      "eyebrow": "COMPOSITION RULES",
+      "title": "Composition Rules",
+      "description": "- VERTICAL × HORIZONTAL = domain-specific compliance (e.g., MEDICINE × SAFETY = medical device safety)\n- VERTICAL × REGULATORY = domain-specific regulation (e.g., FINANCE × LAW = financial regulation)\n- VERTICAL × VERTICAL = cross-domain product (e.g., MEDICINE × GENOMICS = precision medicine)"
+    },
+    {
+      "id": "canon-onboarding",
+      "eyebrow": "ONBOARDING",
+      "title": "Onboarding",
+      "description": "To add a new vertical:\n\nCreate directory under VERTICALS/[NAME]/\nWrite CANON.md inheriting canonic-canonic/INDUSTRIES/VERTICALS\nDefine 5 domain axioms with examples\nMap domain standard to lattice formula\nDefine subdomains with SIL/DAL/ASIL-to-MAGIC tier mapping\nWrite validators, examples (DECLARE), and application steps\nRun magic validate — 255 or reject"
+    },
+    {
+      "id": "canon-status",
+      "eyebrow": "STATUS",
+      "title": "Status",
+      "description": "LIVE = has at least one deployed SERVICE. DEFERRED = governance complete, awaiting service proof.\n\n*VERTICALS | SPEC | INDUSTRIES*",
+      "table": {
+        "headers": [
+          "Vertical",
+          "Status",
+          "Evidence"
+        ],
+        "rows": [
+          [
+            "MEDICINE",
+            "LIVE",
+            "SERVICE proof: TALK, SHOP, INTEL"
+          ],
+          [
+            "FINANCE",
+            "LIVE",
+            "SERVICE proof: TALK, INTEL"
+          ],
+          [
+            "AEROSPACE",
+            "DEFERRED",
+            "Governed, no service proof"
+          ],
+          [
+            "AGRICULTURE",
+            "DEFERRED",
+            "Governed, no service proof"
+          ],
+          [
+            "AUTOMOTIVE",
+            "DEFERRED",
+            "Governed, no service proof"
+          ],
+          [
+            "DEFENSE",
+            "DEFERRED",
+            "Governed, no service proof"
+          ],
+          [
+            "EDUCATION",
+            "DEFERRED",
+            "Governed, no service proof"
+          ],
+          [
+            "ENERGY",
+            "DEFERRED",
+            "Governed, no service proof"
+          ],
+          [
+            "GENOMICS",
+            "DEFERRED",
+            "Governed, no service proof"
+          ],
+          [
+            "LOGISTICS",
+            "DEFERRED",
+            "Governed, no service proof"
+          ],
+          [
+            "MANUFACTURING",
+            "DEFERRED",
+            "Governed, no service proof"
+          ],
+          [
+            "QUALITY",
+            "DEFERRED",
+            "Governed, no service proof"
+          ],
+          [
+            "REAL_ESTATE",
+            "DEFERRED",
+            "Governed, no service proof"
+          ],
+          [
+            "RELIGION",
+            "DEFERRED",
+            "Governed, no service proof"
+          ],
+          [
+            "ROBOTICS",
+            "DEFERRED",
+            "Governed, no service proof"
+          ]
+        ]
+      }
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/INDUSTRIES/VERTICALS/VERTICALS.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "VERTICALS | CANONIC"
+}

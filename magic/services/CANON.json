@@ -1,0 +1,123 @@
+{
+  "name": "CANONIC",
+  "scope": "SERVICES",
+  "surface_type": "JEKYLL_DEFAULT",
+  "accent": "#00ff88",
+  "brand": {
+    "mark": "\u2632",
+    "markRotate": 90,
+    "label": "SERVICES",
+    "tagline": "SERVICES are SURFACE routes with governed boundaries."
+  },
+  "placeholder": "Ask about SERVICES...",
+  "welcome": "Welcome to **SERVICES**.\n\nSERVICES are SURFACE routes with governed boundaries.\n\n**Child scopes:** API, CHAIN, CONTRIBUTE, DEPLOY, IDENTITY, LEARNING, LEDGER, MINT, MONITORING, NOTIFIER, SHOP, STAR, TALK, VAULT, WALLET",
+  "disclaimer": "AI-generated content. Verify independently.",
+  "systemPrompt": "You are TALK, the CANONIC conversation service for CANONIC.\n\nCurrent scope: SERVICES.\nAxiom: SERVICES are SURFACE routes with governed boundaries.\n\nGovernance chain (root to leaf):\n- FOUNDATION: SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.\n- MAGIC: INTEL. CHAT. COIN. \u2014 Three primitives. One governed economy.\n- SURFACE: SURFACE is the platform lane.\n- SERVICES: SERVICES are SURFACE routes with governed boundaries.\n\n\nIndustry verticals (LIVE): FINANCE, MEDICINE.\nIndustry verticals (DEFERRED): AEROSPACE, AGRICULTURE, AUTOMOTIVE, DEFENSE, EDUCATION, ENERGY, GENOMICS, LOGISTICS, MANUFACTURING, QUALITY, REAL_ESTATE, RELIGION, ROBOTICS.\nRegulatory domains: BLOCKCHAIN, DATA, GOVERNMENT, LAW.\nHorizontal domains (cross-cutting): SAFETY, SECURITY.\nComposition: VERTICAL \u00d7 HORIZONTAL = domain-specific compliance (e.g. MEDICINE \u00d7 SECURITY = HIPAA).\nFleet: CANONIC, Foundation, Industries, MAGIC, Hadley Lab\n\nConstraints:\nMUST:     Every service composes INTEL (mandatory \u2014 knowledge backs every operation)\nMUST:     Primitives are files, services are directories: INTEL\u2192LEARNING, CHAT\u2192TALK, COIN\u2192SHOP\nMUST:     COIN is optional \u2014 adds economics (the economic shadow of WORK)\nMUST:     TALK is optional \u2014 adds governed conversation product\nMUST:     NOTIFIER is optional \u2014 adds governed cross-scope delivery (NOTIFY + INTEL)\nMUST:     Treat each service scope as a governed boundary (no cross-scope leakage)\nMUST:     Drive routes and UI from governed indices (no hardcoding)\nMUST:     NETWORK services MUST declare Routes table with Method + Primitive\nMUST:     NETWORK services MUST declare Architecture showing client \u2192 worker \u2192 backend\nMUST:     NETWORK services MUST declare Configuration with all vars and secrets\nMUST:     COMPILER services MUST declare Interface with input/output contract\nMUST NOT: Embed runtime state into governed scopes\nMUST NOT: Ship a service without declaring its API surface in CANON.md\n\nINTEL context:\n[MAGIC]\n**INTEL \u2014 what you KNOW. The orchestrator. Every service wires INTEL.**\n\n\nLEARNING patterns:\n[MAGIC]\n| 2026-02-16 | NEW_TERM | New concept: MCODE | 00a5849 |\n| 2026-02-16 | NEW_TERM | New concept: SWITCHER | fb9f2ec |\n| 2026-02-16 | NEW_TERM | New concept: EXPLAINED | fb9f2ec |\n| 2026-02-16 | NEW_TERM | New concept: LIVE_TRIALS_CONTEXT | ddc1b37 |\n| 2026-02-16 | NEW_TERM | New concept: WALLET | ec46dee |\n[API]\n| 2026-02-20 | ~~No network surface~~ | ~~vault is CLI-only~~ \u2014 CLOSED: `api` binary serves 14 HTTP endpoints at port 8255 wrapping vault commands | bin/api |\n| 2026-02-20 | Python matches vault | vault binary is Python \u2014 API server in Python maintains single-language runtime | bin/vault analysis |\n| 2026-02-20 | Port 8255 | 8 + 255 = MAGIC dimension count + full score. Memorable, unique. | Convention |\n| 2026-02-20 | Stateless wrapper | API stores no state \u2014 all truth in VAULT. Restart loses nothing. | COIN.md architecture |\n| 2026-02-28 | API_LIVE | 14 endpoints: /wallet, /timeline, /transfer, /spend, /settle, /verify, /shop, /shop/{user}, /checkout, /webhook/stripe, /health, /metrics, /auth/github, /auth/github/callback | bin/api |\n[CHAIN]\n| 2026-02-20 | ~~WALLET not chained~~ | ~~TIMELINE.jsonl has plain JSON lines with no linking~~ \u2014 CLOSED: `cmd_migrate_chain` retroactively chains all events, `_circ_event()` includes prev field on new events | vault `cmd_migrate_chain` |\n| 2026-02-20 | ~~Spec-runtime drift~~ | ~~Spec declares \"hash includes prev\" but runtime does not~~ \u2014 CLOSED: runtime now computes `id = SHA256(prev\\|ts\\|event\\|user\\|amount\\|work_ref)[:12]` | vault `_circ_event()` |\n| 2026-02-20 | 12-char truncated hash | Existing event IDs use SHA256[:12] \u2014 maintained for chain IDs to preserve compatibility | vault _circ_event() |\n| 2026-02-20 | Balance must be derived | WALLET.json balance is incrementally updated but should match full TIMELINE derivation on verify | WALLET/CANON.md constraint |\n| 2026-02-28 | CHAIN_LIVE | `vault migrate-chain` retroactively chains unchained TIMELINE events from genesis \u2014 `vault verify-wallet` validates chain integrity + derived balance | vault `cmd_migrate_chain` + `cmd_verify_wallet` |\n[CONTRIBUTE]\n| 2026-02-26 | SERVICE_CREATED | CONTRIBUTE promoted to library-scope service \u2014 ATULISMS first consumer | CANON.md |\n| 2026-02-26 | HARDCODING_REMOVED | Scope must be a parameter, not a constant \u2014 ATULISMS proved the pattern | worker.js contribute() |\n[DEPLOY]\n| 2026-02 | ~~No auto-deploy~~ | ~~Fleet sites require manual git push~~ \u2014 CLOSED: magic-build.yml step 9c auto-deploys DESIGN + fleet sites on successful build | magic-build.yml |\n| 2026-02 | ~~DESIGN-first ordering~~ | ~~DESIGN must deploy before fleet~~ \u2014 CLOSED: step 9c deploys DESIGN theme first, then fleet sites sequentially | magic-build.yml |\n| 2026-02 | ~~FROZEN not checked~~ | ~~No freeze gate~~ \u2014 CLOSED: step 8e checks `is_frozen()`, step 9c skips deploy if FROZEN | magic-build.yml |\n| 2026-02 | ~~No rollback mechanism~~ | ~~Must manually git reset~~ \u2014 CLOSED: `rollback` script in bin/ \u2014 resets fleet site to previous _generated commit, uses force-with-lease | bin/rollback |\n| 2026-02-28 | SECRETS_EXPOSED | Two Cloudflare tokens hardcoded in .claude/settings.json permissions array \u2014 rotated and sanitized. .env.example template created for RUNTIME secrets. Secret-scan CI gate added. | Phase 0 hardening |\n[CANONIC]\n| Pattern | Source | Scope |\n| TRIAD | v0 paper | Every scope closes CANON + VOCAB + README (and promotes to COVERAGE/ROADMAP/LEARNING). |\n| INHERITANCE | v0 paper | Children inherit parents; children add, never weaken. |\n[FOUNDATION]\n| Pattern | Source | Scope |\n| TRIAD | v0 paper | Every scope has CANON.md + VOCAB.md + README.md |\n| INHERITANCE | v0 paper | Children inherit parents |\n[COMPLIANCE]\n| 2026-02-19 | COMPLIANCE is the tier algebra | Tiers are cumulative governance surfaces; inheritance is monotonic \u2014 children add, never weaken | COMPLIANCE/CANON.md |\n| 2026-02-19 | Tier gates live in GOV only | Runtime interprets tier rules but never stores them \u2014 no duplicate tier algebra in sibling scopes | COMPLIANCE/CANON.md |\n| 2026-02-19 | Tier 127 is AGENT level | AGENT = INTEL + CHAT + COIN composed at tier 127 \u2014 the CLAUDE operating tier | CLAUDE.md |\n[TOOLCHAIN]\n| 2026-02-19 | Six tools, one pipeline | magic, magic-heal, build, build-scopes-json, deploy, install-hooks \u2014 governance drives code, never the reverse | TOOLCHAIN/CANON.md |\n| 2026-02-19 | magic.c is single dimension truth | 8-dimension validator scoring 0-255; everything else wraps magic; no duplicate enforcement | TOOLCHAIN/CANON.md |\n| 2026-02-19 | CI/CD enforces magic validate 255 | Push to main triggers magic-validate workflow \u2014 255 or reject, no exceptions | TOOLCHAIN/CANON.md |\n[CONTROLS]\n| 2026-02-27 | CONTROLS_FORMALIZED | Three dimensions (talk, download, view) declared in SURFACE.json per type \u2014 compiler discovers, theme renders | GOV-first plan |\n| 2026-03-04 | GATE_DIMENSION | Fifth dimension added: gate (contribute \\| none). CONTRIBUTE anchor uses event.preventDefault + scrollIntoView \u2014 no hash navigation. Inline onclick was broken because return false didn't prevent anchor default. Governed before code. | PREFLIGHT audit |\n| 2026-03-04 | WITHIN_CONTEXT | All nav-right controls act on content within the same page \u2014 no navigation, no new tabs. TALK opens overlay, views toggle content, downloads are direct hrefs, CONTRIBUTE scrolls to #Contribute, theme toggles appearance. | CANON constraint added |\n[JEKYLL]\n| 2026-02-16 | DESIGN governance | DESIGN is a governed surface, not decoration \u2014 every pixel maps to a governed primitive | v0 paper |\n| 2026-02-19 | DESIGN.css 11 layers | DESIGN.css layers map 1:1 to Sass partials \u2014 decomposition path for Jekyll pre-rendering | JEKYLL/LEARNING.md |\n| 2026-02-19 | Card icons inline | Card icons render inline preceding the card title, not stacked \u2014 governed visual constraint | DESIGN/CANON.md |\n[INDUSTRIES]\n| \u2014 | SEED | INDUSTRY is the variable \u2014 primitives are fixed | MAGIC LEARNING.md |\n[DEVELOPERS]\n| 2026-02-25 | Scope created | DEVELOPERS scope established \u2014 certification surface on FOUNDATION, discovered from GOV tree | CANON.md |\n[DOCTRINE]\n| 2026-02-19 | DOCTRINE is fixed and DRY | No narrative arc, no fluff \u2014 mathematical, enforced by structure, edits are versioned not overwritten | DOCTRINE/CANON.md |\n[ONBOARDING]\n| 2026-02-27 | TRIAD_COMPLETE | ONBOARDING scope governance completed \u2014 full MAGIC 255 | CANON.md |\n\n\nSurface controls: talk=side, view=web\n\nContent (SERVICES.md, 5 sections):\n- Interface:\n| Service | Primitive | Function |\n| --- | --- | --- |\n| `LEARNING/` | INTEL | Governed discovery extraction |\n| `TALK/` | CHAT + INTEL | Governed conversation product |\n| `SHOP/` | COIN + INTEL | Public economic projection |\n| `LEDGER/` | COIN | Append-only economic truth |\n| `VAULT/` | COIN + INTEL | Private economic aggregate |\n| `WALLET/` | COIN | Per-USER economic identity |\n| `STAR/` | INTEL + CHAT + COIN | Personal portal \u2014 unified TIMELINE |\n- Service Contract Standard:\n| Type | Has Routes | Examples |\n| --- | --- | --- |\n| NETWORK | YES \u2014 HTTP routes on api.canonic.org | TALK, API, NOTIFIER, MONITORING, CONTRIBUTE |\n| COMPILER | NO \u2014 CLI/filesystem primitive | MINT, CHAIN, DEPLOY, LEARNING, VAULT, SHOP |\nEvery service CANON.md MUST declare its interface and API. Two service types:\n\nRequired sections for NETWORK services:\n\n```\n- Constraints    \u2014 MUST/MUST NOT enforcement rules:\n``\n\nRequired sections for COMPILER services:\n\n``\n- Constraints    \u2014 MUST/MUST NOT enforcement rules:\n``\n\nGold standard: MAGIC/SURFACE/DESIGN/TALK/CANON.md` \u2014 11 routes, architecture, 29 config keys, 5 clients.\n- Plugins:\nAny service may declare client-side plugins. Plugins are governed extensions that load into the surface.\n\n``\nDECLARATION:\n    CANON.md header: plugins: name1, name2\n    build-surfaces parses \u2192 generates <script> tags\n\nCONVENTION:\n    Source:    plugins/{name}.js (site root)\n    Global:   window.{NAME} (uppercase)\n    Pattern:  IIFE \u2192 window.{NAME} = { init, ... }\n\nINTERFACE:\n    MUST expose init() for self-initialization\n    MUST store user data in localStorage only\n    MUST provide export() for data portability\n    MUST NOT send PII/PHI to external APIs\n    MUST NOT require authentication\n\nLIFECYCLE:\n    1. CANON.md declares plugins \u2192 build-surfaces parses header\n    2. build-surfaces generates <script> tags in compiled output\n    3. Plugin loads at runtime \u2192 reads service state\n    4. Plugin renders into governed DOM containers\n``\n\n*SERVICES | SPEC | CANONIC*\n\n\nRules:\n- Be concise and accurate.\n- Cite sources when making claims.\n- If you don't know, say so.\n- Reference the governance chain when relevant.\n- Use relative paths for links (e.g. /talks/mammochat/) \u2014 never absolute URLs.\n\nKnown routes:\n- web_docs: /\n- web_surface: /MAGIC/SERVICES/",
+  "breadcrumbs": [
+    {
+      "label": "\u2229",
+      "href": "/"
+    },
+    {
+      "label": "MAGIC",
+      "href": "/MAGIC/"
+    },
+    {
+      "label": "SERVICES",
+      "href": "/MAGIC/SERVICES/"
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/SERVICES/SERVICES.md",
+    "rule": "edit the contract or compiler \u2014 not this file"
+  },
+  "controls": {
+    "talk": "side",
+    "view": "web",
+    "views": [
+      "gov"
+    ],
+    "downloads": []
+  },
+  "_tier": {
+    "name": "FULL",
+    "score": 255,
+    "intel": true
+  },
+  "canon": {
+    "axiom": "SERVICES are SURFACE routes with governed boundaries.",
+    "constraints": "MUST:     Every service composes INTEL (mandatory \u2014 knowledge backs every operation)\nMUST:     Primitives are files, services are directories: INTEL\u2192LEARNING, CHAT\u2192TALK, COIN\u2192SHOP\nMUST:     COIN is optional \u2014 adds economics (the economic shadow of WORK)\nMUST:     TALK is optional \u2014 adds governed conversation product\nMUST:     NOTIFIER is optional \u2014 adds governed cross-scope delivery (NOTIFY + INTEL)\nMUST:     Treat each service scope as a governed boundary (no cross-scope leakage)\nMUST:     Drive routes and UI from governed indices (no hardcoding)\nMUST:     NETWORK services MUST declare Routes table with Method + Primitive\nMUST:     NETWORK services MUST declare Architecture showing client \u2192 worker \u2192 backend\nMUST:     NETWORK services MUST declare Configuration with all vars and secrets\nMUST:     COMPILER services MUST declare Interface with input/output contract\nMUST NOT: Embed runtime state into governed scopes\nMUST NOT: Ship a service without declaring its API surface in CANON.md",
+    "inherits": "canonic-canonic/MAGIC/SURFACE",
+    "spec": [
+      {
+        "title": "Purpose",
+        "body": "**SERVICES are governed directories. Each composes one or more primitives into a runtime product.**\n\nPrimitives are files (`INTEL.md`, `CHAT.md`, `COIN.md`). Services are directories (`LEARNING/`, `TALK/`, `SHOP/`, etc.). Every service wires INTEL. CHAT and COIN are optional.\n\n---"
+      },
+      {
+        "title": "Interface",
+        "body": "| Service | Primitive | Function |\n|---------|-----------|----------|\n| `LEARNING/` | INTEL | Governed discovery extraction |\n| `TALK/` | CHAT + INTEL | Governed conversation product |\n| `SHOP/` | COIN + INTEL | Public economic projection |\n| `LEDGER/` | COIN | Append-only economic truth |\n| `VAULT/` | COIN + INTEL | Private economic aggregate |\n| `WALLET/` | COIN | Per-USER economic identity |\n| `STAR/` | INTEL + CHAT + COIN | Personal portal \u2014 unified TIMELINE |\n\n---\n\n---"
+      },
+      {
+        "title": "Service Contract Standard",
+        "body": "Every service CANON.md MUST declare its interface and API. Two service types:\n\n| Type | Has Routes | Examples |\n|------|-----------|----------|\n| NETWORK | YES \u2014 HTTP routes on api.canonic.org | TALK, API, NOTIFIER, MONITORING, CONTRIBUTE |\n| COMPILER | NO \u2014 CLI/filesystem primitive | MINT, CHAIN, DEPLOY, LEARNING, VAULT, SHOP |\n\n**Required sections for NETWORK services:**\n\n```\n\n---"
+      },
+      {
+        "title": "Constraints    \u2014 MUST/MUST NOT enforcement rules",
+        "body": "```\n\n**Required sections for COMPILER services:**\n\n```\n\n---"
+      },
+      {
+        "title": "Constraints    \u2014 MUST/MUST NOT enforcement rules",
+        "body": "```\n\n**Gold standard:** `MAGIC/SURFACE/DESIGN/TALK/CANON.md` \u2014 11 routes, architecture, 29 config keys, 5 clients.\n\n---"
+      },
+      {
+        "title": "Plugins",
+        "body": "Any service may declare client-side plugins. Plugins are governed extensions that load into the surface.\n\n```\nDECLARATION:\n    CANON.md header: `plugins: name1, name2`\n    build-surfaces parses \u2192 generates <script> tags\n\nCONVENTION:\n    Source:    plugins/{name}.js (site root)\n    Global:   window.{NAME} (uppercase)\n    Pattern:  IIFE \u2192 window.{NAME} = { init, ... }\n\nINTERFACE:\n    MUST expose init() for self-initialization\n    MUST store user data in localStorage only\n    MUST provide export() for data portability\n    MUST NOT send PII/PHI to external APIs\n    MUST NOT require authentication\n\nLIFECYCLE:\n    1. CANON.md declares plugins \u2192 build-surfaces parses header\n    2. build-surfaces generates <script> tags in compiled output\n    3. Plugin loads at runtime \u2192 reads service state\n    4. Plugin renders into governed DOM containers\n```\n\n---"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-19 | INTEL is WORK \u2014 mandatory primitive | INTEL is the only mandatory primitive; COIN and TALK are optional services | canonic-canonic/FOUNDATION/DOCTRINE |\n| 2026-02-19 | Primitives are files, services are directories | INTEL.md, CHAT.md, COIN.md = primitives; SERVICES/LEARNING/, SERVICES/TALK/, SERVICES/SHOP/ = service directories | Phase 7 cross-axiomatic |\n| 2026-02-19 | Epoch 2 flatten | COIN, INTEL, LEDGER, EVIDENCE promoted from VAULT children to flat SERVICES peers | SERVICES/VAULT/LEARNING.md |\n| 2026-02-19 | Three foundation axioms govern all services | TRIAD, INHERITANCE, INTROSPECTION \u2014 every service must validate against these axioms | canonic-canonic/FOUNDATION |\n| 2026-02-19 | _generated markers block hand-editing | All compiled JSON outputs carry _generated \u2014 fix compiler or contract, never the output | Phase 7 governance |\n\n---"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {
+      "later": [
+        "Federated service routing across GALAXY identity boundaries (services project into multi-org topology)",
+        "Runtime service discovery protocol replacing static governed indices with live `magic://` resolution",
+        "SERVICES compliance matrix: every service boundary auditable against tier algebra gates"
+      ]
+    },
+    "vocab": [
+      {
+        "term": "MAGIC",
+        "definition": "The operations layer composing INTEL + CHAT + COIN into governed services."
+      },
+      {
+        "term": "SERVICES",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "UI",
+        "definition": "User interface rendering layer."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "SURFACE",
+        "axiom": "SURFACE is the platform lane.",
+        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns \u2014 platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json \u2014 TALK walks inheritance chain\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. \u2014 Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives \u2014 never duplicate\nMUST:     Primitive structure is fixed \u2014 industry is the only variable\nMUST:     Primitives compose into services \u2014 never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas \u2014 instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC \u2014 the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward \u2014 scopes compose by directories\nMUST:     Tier algebra is canonical \u2014 DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal \u2014 governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory \u2014 machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries \u2014 frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch \u2014 active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs \u2014 append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure \u2014 every term resolves to a definition"
+      }
+    ]
+  }
+}

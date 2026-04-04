@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "2ebdacb6830f5fc7"
+    "gov_hash": "58557314f5c1d171"
   },
-  "generated": "2026-04-04T01:47:18Z",
+  "generated": "2026-04-04T02:00:41Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -74,9 +74,9 @@
     ]
   },
   "stats": {
-    "total": 937,
+    "total": 939,
     "avg_bits": 252,
-    "below_magic": 60,
+    "below_magic": 62,
     "intel_coverage": 125,
     "total_coin": 149567,
     "total_events": 706,
@@ -5549,7 +5549,7 @@
       ],
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS",
-      "children": 17,
+      "children": 19,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -23697,6 +23697,46 @@
       "score": 123
     },
     {
+      "id": "hadleylab-canonic/CAMPAIGNS/COMMITMENT-2026",
+      "kind": "CONTENT",
+      "label": "COMMITMENT-2026",
+      "repo": "hadleylab-canonic",
+      "path": "CAMPAIGNS/COMMITMENT-2026",
+      "parent": "hadleylab-canonic/CAMPAIGNS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CAMPAIGNS/commitment-2026",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/CAMPAIGNS/CONSTITUTIONAL-AI-2026",
+      "kind": "CONTENT",
+      "label": "CONSTITUTIONAL-AI-2026",
+      "repo": "hadleylab-canonic",
+      "path": "CAMPAIGNS/CONSTITUTIONAL-AI-2026",
+      "parent": "hadleylab-canonic/CAMPAIGNS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CAMPAIGNS/constitutional-ai-2026",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
       "id": "hadleylab-canonic/CAMPAIGNS/HEALTH-AI-SUMMIT-2026",
       "kind": "CONTENT",
       "label": "HEALTH-AI-SUMMIT-2026",
@@ -34430,6 +34470,16 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/CAMPAIGNS/CAOH-2026",
+      "to": "hadleylab-canonic/CAMPAIGNS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/CAMPAIGNS/COMMITMENT-2026",
+      "to": "hadleylab-canonic/CAMPAIGNS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/CAMPAIGNS/CONSTITUTIONAL-AI-2026",
       "to": "hadleylab-canonic/CAMPAIGNS"
     },
     {

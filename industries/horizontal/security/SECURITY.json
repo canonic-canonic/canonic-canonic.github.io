@@ -1,0 +1,475 @@
+{
+  "hero": {
+    "badge": "USER",
+    "title": "SECURITY",
+    "description": "Example",
+    "cta": [
+      {
+        "label": "Open SECURITY",
+        "href": "/INDUSTRIES/HORIZONTAL/SECURITY/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "SECURITY",
+      "dashboard": [
+        {
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "canon-domain-declaration",
+      "eyebrow": "DOMAIN DECLARATION",
+      "title": "Domain Declaration",
+      "description": "``\nSECURITY = SECURITY_STANDARD × CANONIC\n         = Structure(security) × (C1, C2, Temporal, Relational, C5)\n         = owned security vertical\n``"
+    },
+    {
+      "id": "canon-lattice-formula",
+      "eyebrow": "LATTICE FORMULA",
+      "title": "Lattice Formula",
+      "description": "``\nSECURITY = C1 ∩ C2 ∩ Temporal ∩ Relational ∩ C5 ∩ C6\n         = ENTERPRISE (#63)\n``\n\nSecurity always requires full Enterprise because:\n- C1: Security policies must be stated\n- C2: Security controls must be proven\n- Temporal: Continuous monitoring, incident timelines\n- Relational: System boundaries, trust zones\n- C5: Security teams enforce\n- C6: Control frameworks (NIST, ISO)"
+    },
+    {
+      "id": "canon-axioms",
+      "eyebrow": "AXIOMS",
+      "title": "Axioms",
+      "description": "### 1. Defense in Depth\n\nSecurity MUST be implemented in multiple layers. No single control failure should compromise the system.\n\nExample: Protecting a database requires: network segmentation, firewall rules, authentication, authorization, encryption at rest, encryption in transit, audit logging, and backup. Failure of any one layer does not expose data.\n\n### 2. Least Privilege\n\nAccess MUST be limited to the minimum necessary for the function.\n\nExample: A developer needs read access to production logs for debugging. They MUST NOT have write access to production data, admin access to infrastructure, or access to unrelated systems.\n\n### 3. Continuous Monitoring\n\nSecurity posture MUST be continuously monitored and anomalies detected.\n\nExample: A Security Information and Event Management (SIEM) system collects logs from all systems, correlates events, and alerts on suspicious patterns such as failed login attempts, unusual data access, or configuration changes.\n\n### 4. Incident Response\n\nSecurity incidents MUST have defined response procedures with clear ownership.\n\nExample: When a potential breach is detected: (1) Contain the threat, (2) Preserve evidence, (3) Notify stakeholders, (4) Investigate root cause, (5) Remediate, (6) Document lessons learned. Each step has assigned roles and time requirements.\n\n### 5. Risk-Based Prioritization\n\nSecurity investments MUST be prioritized based on risk (likelihood × impact).\n\nExample: A critical vulnerability in an internet-facing system with sensitive data (high likelihood, high impact) takes priority over a moderate vulnerability in an internal system with no sensitive data (low likelihood, low impact)."
+    },
+    {
+      "id": "canon-subdomains",
+      "eyebrow": "SUBDOMAINS",
+      "title": "Subdomains",
+      "table": {
+        "headers": [
+          "Subdomain",
+          "Standard",
+          "Formula",
+          "Description"
+        ],
+        "rows": [
+          [
+            "Information Security",
+            "ISO 27001",
+            "ENTERPRISE",
+            "ISMS framework"
+          ],
+          [
+            "Cybersecurity",
+            "NIST CSF",
+            "BUSINESS",
+            "Risk framework"
+          ],
+          [
+            "Application Security",
+            "OWASP",
+            "(#25)",
+            "Secure development"
+          ],
+          [
+            "Cloud Security",
+            "CSA CCM",
+            "BUSINESS",
+            "Cloud controls"
+          ],
+          [
+            "Network Security",
+            "CIS Controls",
+            "BUSINESS",
+            "Network hardening"
+          ],
+          [
+            "Identity Security",
+            "NIST 800-63",
+            "BUSINESS",
+            "Authentication/authorization"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-regulatory-mapping",
+      "eyebrow": "REGULATORY MAPPING",
+      "title": "Regulatory Mapping",
+      "table": {
+        "headers": [
+          "Framework",
+          "Lattice",
+          "Scope"
+        ],
+        "rows": [
+          [
+            "ISO 27001",
+            "6 governance checks",
+            "Information security management"
+          ],
+          [
+            "NIST 800-53",
+            "6 governance checks",
+            "Security controls catalog"
+          ],
+          [
+            "NIST CSF 2.0",
+            "—",
+            "Cybersecurity framework"
+          ],
+          [
+            "CIS Controls v8",
+            "—",
+            "Prioritized controls"
+          ],
+          [
+            "SOC 2 Type II",
+            "6 governance checks",
+            "Service organization security"
+          ],
+          [
+            "PCI-DSS v4.0",
+            "6 governance checks",
+            "Payment card security"
+          ],
+          [
+            "CMMC 2.0",
+            "5 governance checks",
+            "Defense contractor security"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-example-iso-27001-vertical",
+      "eyebrow": "EXAMPLE: ISO 27001 VERTICAL",
+      "title": "Example: ISO 27001 Vertical",
+      "description": "``\nDECLARE(ISO27001) = ISO_27001 × CANONIC\n\nWhere:\n  ISO 27001 provides Structure:\n    - Annex A controls (93 controls in 4 themes)\n    - Statement of Applicability\n    - Risk assessment methodology\n    - ISMS documentation\n\n  CANONIC provides Governance:\n    - C1: Security policy as CANON\n    - C2: Control evidence in COVERAGE\n    - Temporal: Audit cycles, review periods\n    - Relational: Scope boundaries\n    - C5: Management review, enforcement\n\nResult:\n  ISO27001 = ENTERPRISE (#63)\n\n  Certification Lifecycle:\n    Scope          — Boundary defined\n    Risk           — Threats assessed\n    Controls       — Mitigations implemented\n    Audit          — Stage 1 + Stage 2\n    Certified      — Certificate issued\n    Maintain       — Surveillance audits\n``"
+    },
+    {
+      "id": "canon-example-zero-trust-architecture",
+      "eyebrow": "EXAMPLE: ZERO TRUST ARCHITECTURE",
+      "title": "Example: Zero Trust Architecture",
+      "description": "``\nDECLARE(ZeroTrust) = NIST_800-207 × CANONIC\n\nWhere:\n  NIST 800-207 provides Structure:\n    - Never trust, always verify\n    - Assume breach\n    - Verify explicitly\n    - Use least privilege access\n\n  CANONIC provides Governance:\n    - C1: Zero trust principles\n    - C2: Verification logs\n    - Temporal: Session validity, token expiry\n    - Relational: Microsegmentation boundaries\n    - C5: Policy enforcement points\n\nResult:\n  ZeroTrust = ENTERPRISE (#63)\n\n  Access Request Flow:\n    Request        — Subject requests access\n    Verify         — Identity validated\n    Context        — Time, location, device checked\n    Authorize      — Policy evaluated\n    Grant          — Access with constraints\n    Monitor        — Continuous validation\n``"
+    },
+    {
+      "id": "canon-validators",
+      "eyebrow": "VALIDATORS",
+      "title": "Validators",
+      "table": {
+        "headers": [
+          "Validator",
+          "Checks",
+          "Example Failure"
+        ],
+        "rows": [
+          [
+            "C1",
+            "Security policy exists",
+            "No access control policy"
+          ],
+          [
+            "C2",
+            "Control evidence documented",
+            "Missing penetration test"
+          ],
+          [
+            "Temporal",
+            "Monitoring continuous",
+            "Gaps in log collection"
+          ],
+          [
+            "Relational",
+            "Boundaries defined",
+            "Unclear system scope"
+          ],
+          [
+            "C5",
+            "Enforcement active",
+            "Disabled security controls"
+          ],
+          [
+            "C6",
+            "Framework conformance",
+            "Missing required controls"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-application",
+      "eyebrow": "APPLICATION",
+      "title": "Application",
+      "description": "To create a CANONIC security vertical:\n\nSelect security framework (ISO 27001, NIST, CIS)\nCreate scope with CANON.md inheriting /SECURITY/\nDefine security policies as axioms\nDocument control evidence in COVERAGE.md\nEstablish monitoring (continuous temporal)\nDefine boundaries (relational scope)\nImplement enforcement (operational controls)\nMap to framework (structural conformance)\n\nResult: Owned security vertical with auditable compliance."
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/INDUSTRIES/HORIZONTAL/SECURITY/SECURITY.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "SECURITY | CANONIC",
+  "canon": {
+    "axiom": "Example",
+    "constraints": "MUST:     Cite specific framework control or standard for security claims\nMUST:     Distinguish between compliance frameworks by scope and applicability\nMUST NOT: Present compliance as equivalent to security",
+    "inherits": "canonic-canonic/INDUSTRIES/HORIZONTAL",
+    "spec": [
+      {
+        "title": "Domain Declaration",
+        "body": "```\nSECURITY = SECURITY_STANDARD × CANONIC\n         = Structure(security) × (C1, C2, Temporal, Relational, C5)\n         = owned security vertical\n```\n\n---"
+      },
+      {
+        "title": "Lattice Formula",
+        "body": "```\nSECURITY = C1 ∩ C2 ∩ Temporal ∩ Relational ∩ C5 ∩ C6\n         = ENTERPRISE (#63)\n```\n\nSecurity always requires full Enterprise because:\n- **C1**: Security policies must be stated\n- **C2**: Security controls must be proven\n- **Temporal**: Continuous monitoring, incident timelines\n- **Relational**: System boundaries, trust zones\n- **C5**: Security teams enforce\n- **C6**: Control frameworks (NIST, ISO)\n\n---"
+      },
+      {
+        "title": "Axioms",
+        "body": "### 1. Defense in Depth\n\nSecurity MUST be implemented in multiple layers. No single control failure should compromise the system.\n\n**Example**: Protecting a database requires: network segmentation, firewall rules, authentication, authorization, encryption at rest, encryption in transit, audit logging, and backup. Failure of any one layer does not expose data.\n\n---\n\n### 2. Least Privilege\n\nAccess MUST be limited to the minimum necessary for the function.\n\n**Example**: A developer needs read access to production logs for debugging. They MUST NOT have write access to production data, admin access to infrastructure, or access to unrelated systems.\n\n---\n\n### 3. Continuous Monitoring\n\nSecurity posture MUST be continuously monitored and anomalies detected.\n\n**Example**: A Security Information and Event Management (SIEM) system collects logs from all systems, correlates events, and alerts on suspicious patterns such as failed login attempts, unusual data access, or configuration changes.\n\n---\n\n### 4. Incident Response\n\nSecurity incidents MUST have defined response procedures with clear ownership.\n\n**Example**: When a potential breach is detected: (1) Contain the threat, (2) Preserve evidence, (3) Notify stakeholders, (4) Investigate root cause, (5) Remediate, (6) Document lessons learned. Each step has assigned roles and time requirements.\n\n---\n\n### 5. Risk-Based Prioritization\n\nSecurity investments MUST be prioritized based on risk (likelihood × impact).\n\n**Example**: A critical vulnerability in an internet-facing system with sensitive data (high likelihood, high impact) takes priority over a moderate vulnerability in an internal system with no sensitive data (low likelihood, low impact).\n\n---"
+      },
+      {
+        "title": "Subdomains",
+        "body": "| Subdomain | Standard | Formula | Description |\n|-----------|----------|---------|-------------|\n| Information Security | ISO 27001 | ENTERPRISE | ISMS framework |\n| Cybersecurity | NIST CSF | BUSINESS | Risk framework |\n| Application Security | OWASP | (#25) | Secure development |\n| Cloud Security | CSA CCM | BUSINESS | Cloud controls |\n| Network Security | CIS Controls | BUSINESS | Network hardening |\n| Identity Security | NIST 800-63 | BUSINESS | Authentication/authorization |\n\n---"
+      },
+      {
+        "title": "Regulatory Mapping",
+        "body": "| Framework | Lattice | Scope |\n|-----------|---------|-------|\n| ISO 27001 | 6 governance checks | Information security management |\n| NIST 800-53 | 6 governance checks | Security controls catalog |\n| NIST CSF 2.0 | — | Cybersecurity framework |\n| CIS Controls v8 | — | Prioritized controls |\n| SOC 2 Type II | 6 governance checks | Service organization security |\n| PCI-DSS v4.0 | 6 governance checks | Payment card security |\n| CMMC 2.0 | 5 governance checks | Defense contractor security |\n\n---"
+      },
+      {
+        "title": "Example: ISO 27001 Vertical",
+        "body": "```\nDECLARE(ISO27001) = ISO_27001 × CANONIC\n\nWhere:\n  ISO 27001 provides Structure:\n    - Annex A controls (93 controls in 4 themes)\n    - Statement of Applicability\n    - Risk assessment methodology\n    - ISMS documentation\n\n  CANONIC provides Governance:\n    - C1: Security policy as CANON\n    - C2: Control evidence in COVERAGE\n    - Temporal: Audit cycles, review periods\n    - Relational: Scope boundaries\n    - C5: Management review, enforcement\n\nResult:\n  ISO27001 = ENTERPRISE (#63)\n\n  Certification Lifecycle:\n    Scope          — Boundary defined\n    Risk           — Threats assessed\n    Controls       — Mitigations implemented\n    Audit          — Stage 1 + Stage 2\n    Certified      — Certificate issued\n    Maintain       — Surveillance audits\n```\n\n---"
+      },
+      {
+        "title": "Example: Zero Trust Architecture",
+        "body": "```\nDECLARE(ZeroTrust) = NIST_800-207 × CANONIC\n\nWhere:\n  NIST 800-207 provides Structure:\n    - Never trust, always verify\n    - Assume breach\n    - Verify explicitly\n    - Use least privilege access\n\n  CANONIC provides Governance:\n    - C1: Zero trust principles\n    - C2: Verification logs\n    - Temporal: Session validity, token expiry\n    - Relational: Microsegmentation boundaries\n    - C5: Policy enforcement points\n\nResult:\n  ZeroTrust = ENTERPRISE (#63)\n\n  Access Request Flow:\n    Request        — Subject requests access\n    Verify         — Identity validated\n    Context        — Time, location, device checked\n    Authorize      — Policy evaluated\n    Grant          — Access with constraints\n    Monitor        — Continuous validation\n```\n\n---"
+      },
+      {
+        "title": "Validators",
+        "body": "| Validator | Checks | Example Failure |\n|-----------|--------|-----------------|\n| C1 | Security policy exists | No access control policy |\n| C2 | Control evidence documented | Missing penetration test |\n| Temporal | Monitoring continuous | Gaps in log collection |\n| Relational | Boundaries defined | Unclear system scope |\n| C5 | Enforcement active | Disabled security controls |\n| C6 | Framework conformance | Missing required controls |\n\n---"
+      },
+      {
+        "title": "Application",
+        "body": "To create a CANONIC security vertical:\n\n1. **Select security framework** (ISO 27001, NIST, CIS)\n2. **Create scope** with CANON.md inheriting /SECURITY/\n3. **Define security policies** as axioms\n4. **Document control evidence** in COVERAGE.md\n5. **Establish monitoring** (continuous temporal)\n6. **Define boundaries** (relational scope)\n7. **Implement enforcement** (operational controls)\n8. **Map to framework** (structural conformance)\n\n**Result**: Owned security vertical with auditable compliance.\n\n---"
+      }
+    ],
+    "learning": [],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "ATT",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CANON",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CD",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CI",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CIRCIA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CISA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CK",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CSF",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CVE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CWE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DAST",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DLP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "FIPS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "HITRUST",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IAST",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ICS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "II",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ISMS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ISO",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "MFA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "MITRE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NIST",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "OIDC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "OWASP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PAM",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PII",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PKI",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "QSA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "RBAC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "RFC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SAST",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SCA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SDLC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SOC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SSRF",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "STIX",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "STRIDE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "TAXII",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "TLS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "TOTP",
+        "definition": "Governed term in this scope vocabulary."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "INDUSTRIES",
+        "axiom": "INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.",
+        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}
