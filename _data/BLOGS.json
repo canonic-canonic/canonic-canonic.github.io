@@ -116,6 +116,40 @@
       ]
     },
     {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-19",
+                "Posts map 1:1 to governed work",
+                "Every blog post references specific commits and MAGIC discoveries"
+              ],
+              [
+                "2026-02-19",
+                "BLOGS.json is compiled, not authored",
+                "Index auto-generated from post front matter — hand-editing forbidden"
+              ],
+              [
+                "2026-02-20",
+                "jekyll-optional-front-matter causes stack overflow on governance .md files",
+                "Exclude governance filenames from Jekyll processing via MAGIC DIMS"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "canon-interface",
       "eyebrow": "INTERFACE",
       "title": "Interface",

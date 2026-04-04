@@ -1,14 +1,15 @@
 {
   "canon": "WALLET",
   "work_equals_coin": true,
+  "user": "USERS",
   "wallet": {
-    "canon": "WALLET.v1",
+    "canon": "WALLET",
     "currency": "COIN",
     "work_equals_coin": true,
     "events": 0,
     "balance": 0,
     "last_close": "",
-    "updated_at": "2026-02-16T03:40:00Z",
+    "updated_at": "2026-04-04T13:45:16.199992Z",
     "totals": {
       "SALE": 0,
       "DONATION": 0,
@@ -22,9 +23,9 @@
     "services": [],
     "products": []
   },
+  "service": "USERS/COIN",
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/WALLET.md",
     "rule": "edit the contract or compiler — not this file"
-  },
-  "service": "ROOT"
+  }
 }
