@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "8e6e46c75b712915"
+    "gov_hash": "2ebdacb6830f5fc7"
   },
-  "generated": "2026-04-03T16:50:43Z",
+  "generated": "2026-04-04T01:47:18Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -74,18 +74,18 @@
     ]
   },
   "stats": {
-    "total": 926,
-    "avg_bits": 253,
-    "below_magic": 53,
-    "intel_coverage": 116,
+    "total": 937,
+    "avg_bits": 252,
+    "below_magic": 60,
+    "intel_coverage": 125,
     "total_coin": 149567,
     "total_events": 706,
-    "total_sessions": 262,
+    "total_sessions": 327,
     "active_channels": 6,
-    "user_count": 31,
+    "user_count": 34,
     "org_count": 5,
     "svc_count": 48,
-    "scope_count": 295,
+    "scope_count": 302,
     "fleet_health_pct": 99
   },
   "nodes": [
@@ -1562,10 +1562,14 @@
       "parent": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
       "roadmap_now": "Enforce BI-RADS classification with guideline citation for every imaging claim",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -1574,7 +1578,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 128
+      "score": 123
     },
     {
       "id": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/psychiatry",
@@ -1805,10 +1809,14 @@
       "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
       "roadmap_now": "Cite conciliar sources (Nicaea 325, Constantinople 381, Ephesus 431) for all doctrinal claims",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -1817,7 +1825,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 128
+      "score": 123
     },
     {
       "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/catholic",
@@ -1874,10 +1882,14 @@
       "parent": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
       "roadmap_now": "Cite confessional standards for all doctrinal claims (Augsburg, Westminster, 39 Articles, etc.)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -1886,7 +1898,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 128
+      "score": 123
     },
     {
       "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism",
@@ -4883,7 +4895,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "BLOGS",
-      "children": 69,
+      "children": 70,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -5009,6 +5021,48 @@
           "signal": "PREFLIGHT",
           "pattern": "Full 255 audit \u2014 LEARNING.md gap closed, CONTRIBUTE scroll fixed, link testing complete",
           "source": "GOV"
+        },
+        {
+          "date": "2026-02-27",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Hi. Who is Marina ?",
+          "source": "bb973e80-0575-4342-9e5d-4fe104082fa9"
+        },
+        {
+          "date": "2026-03-02",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What did Atul say about frozen knowledge?",
+          "source": "0c8a4b32-91bd-4cef-8d16-89aa1b89a31f"
+        },
+        {
+          "date": "2026-03-05",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Hi",
+          "source": "0996f760-c531-4da4-bc7d-8a6bed92b720"
+        },
+        {
+          "date": "2026-03-06",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Hi",
+          "source": "da32fb58-0f17-4bac-b0a2-b9c830f9c21e"
+        },
+        {
+          "date": "2026-03-06",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Tell me about what you think of Dvir Aran",
+          "source": "fe044f7c-93b0-4d0b-bf67-d4aaac49e33a"
+        },
+        {
+          "date": "2026-03-06",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Hi",
+          "source": "b1666866-0eca-486e-8ca9-1118135a8597"
+        },
+        {
+          "date": "2026-03-07",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Who is Atul",
+          "source": "8e49db37-e478-4995-aafd-0ccfbfcc2800"
         }
       ],
       "score": 128
@@ -5489,7 +5543,7 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "roadmap_now": "[ ] Execute first HN engagement response (lawyer-who-won, 23 comments, draft at HACKERNEWS/RESPONSES",
-      "learning_count": 14,
+      "learning_count": 15,
       "coverage_open_gates": [
         "SUBSTACK_SETUP"
       ],
@@ -5500,10 +5554,10 @@
       "talk": null,
       "learning": [
         {
-          "date": "2026-03-26",
-          "signal": "LINKEDIN_GROUND_TRUTH",
-          "pattern": "Full March LinkedIn audit: 22 scheduled, 7 campaign posts confirmed (Personal: 2 original, CANONIC: 1 original + 1 repos",
-          "source": "Chrome DevTools admin audit 2026-03-26"
+          "date": "2026-03-31",
+          "signal": "PROJECT_INTEL",
+          "pattern": "Open items from Mar 30-31 session: Stop Prompting campaign 7/10, Substack bulk syndication pending, TASK fleet compiler",
+          "source": "intake:project_open_items_2026_03_31.md"
         }
       ],
       "score": 123
@@ -5527,12 +5581,20 @@
       "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR TECHNICAL AUDIENCE. EVERY SUBMISSION FACTUAL. EVERY TITLE HONEST.**",
       "roadmap_now": "[ ] Set up HN comment monitoring \u2014 RSS feed, Firebase API polling, or hnreplies.com for reply notifi",
+      "learning_count": 1,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/HACKERNEWS",
       "children": 0,
       "wallet": null,
       "talk": null,
-      "learning": null,
+      "learning": [
+        {
+          "date": "2026-03-25",
+          "signal": "REFERENCE_PROMOTED",
+          "pattern": "HN Account Recovery: HackerNews account idrdex \u2014 password reset in progress, emailed HN to keep username",
+          "source": "intake:reference_hn_account.md"
+        }
+      ],
       "score": 123
     },
     {
@@ -5549,7 +5611,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR PROFESSIONAL NETWORK. EVERY CONVERSATION GOVERNED. EVERY PROFILE RESOLVED.**",
-      "learning_count": 1,
+      "learning_count": 2,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/LINKEDIN",
@@ -5562,6 +5624,12 @@
           "signal": "PERSONAL",
           "pattern": "4.4% reaction, 0 comments",
           "source": "Content resonates but no conversation"
+        },
+        {
+          "date": "2026-04-02",
+          "signal": "PROJECT_INTEL",
+          "pattern": "LinkedIn Developer Apps: Two LinkedIn apps \u2014 Campaign Publisher (personal posts, live) and Page Publisher (org posts, pe",
+          "source": "intake:project_linkedin_app.md"
         }
       ],
       "score": 128
@@ -5623,7 +5691,7 @@
       "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR COMMUNITIES. EVERY POST PLATFORM-NATIVE. EVERY DISCUSSION SUBSTANTIVE.**",
       "roadmap_now": "[ ] Apply for Reddit API access via Responsible Builder Policy approval form (self-service OAuth clo",
-      "learning_count": 9,
+      "learning_count": 10,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/REDDIT",
       "children": 0,
@@ -5631,10 +5699,10 @@
       "talk": null,
       "learning": [
         {
-          "date": "2026-03-26",
-          "signal": "API_GATE",
-          "pattern": "Reddit closed self-service OAuth access (~Oct 2025, Responsible Builder Policy). All new tokens require admin approval v",
-          "source": "r/redditdev Responsible Builder Policy announcement"
+          "date": "2026-03-25",
+          "signal": "FEEDBACK_PROMOTED",
+          "pattern": "Reddit subreddit targeting: r/MachineLearning rejects governance posts \u2014 only ML/stats content. Use r/artificial for AI",
+          "source": "intake:feedback_reddit_subreddits.md"
         }
       ],
       "score": 123
@@ -5725,7 +5793,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
-      "children": 17,
+      "children": 18,
       "wallet": {
         "balance": 149567,
         "events": 706,
@@ -6022,13 +6090,21 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR DIRECTORS. EVERY RESOLUTION RECORDED. EVERY MEETING MINUTED.**",
       "roadmap_now": "[ ] INTEL.md \u2014 directors, officers, meeting cadence, resolution registry (MAGIC 255 closure)",
+      "learning_count": 1,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CHARTER/BOARD",
       "children": 7,
       "wallet": null,
       "talk": null,
-      "learning": null,
+      "learning": [
+        {
+          "date": "2026-03-27",
+          "signal": "REFERENCE_PROMOTED",
+          "pattern": "AIMed and Anthony Chang board connection: Anthony Chang MD/MBA/MPH/MS is on CANONIC board. Founded AIMed, ABAIM, MI3 at",
+          "source": "intake:reference_aimed_anthony_chang.md"
+        }
+      ],
       "score": 128
     },
     {
@@ -6046,7 +6122,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR FOUNDATION. EVERY FILING EVIDENCED. EVERY DOLLAR LEDGERED.**",
       "roadmap_now": "[ ] CHARTER INTEL.md \u2014 operational knowledge (key contacts, filing status, scope dependencies)",
-      "learning_count": 8,
+      "learning_count": 9,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CHARTER",
@@ -6101,6 +6177,12 @@
           "signal": "FATIMA_ED",
           "pattern": "FATIMA as ED is the operational authority \u2014 DEXTER is mission authority (Chair), FATIMA runs it",
           "source": "BOARD/CANON.md"
+        },
+        {
+          "date": "2026-03-31",
+          "signal": "PROJECT_INTEL",
+          "pattern": "CANONIC Foundation legal status: Articles/Bylaws/501c3 status \u2014 David Slonim drafting, Julio filing, IHI deadline April",
+          "source": "intake:project_foundation_legal.md"
         }
       ],
       "score": 128
@@ -6226,91 +6308,6 @@
       "score": 128
     },
     {
-      "id": "hadleylab-canonic/DEALS/CAOH",
-      "kind": "SCOPE",
-      "label": "CAOH",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/CAOH",
-      "parent": "hadleylab-canonic/DEALS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR PARTNERS. EVERY CONTACT GOVERNED. EVERY CREDENTIAL VERIFIED. EVERY RELATIONSHIP EVIDENCED.**",
-      "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 17,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/CAOH",
-      "children": 2,
-      "wallet": null,
-      "talk": null,
-      "learning": [
-        {
-          "date": "2026-03-12",
-          "signal": "CARIBBEAN_DRAGONS",
-          "pattern": "\"Making some moves for July. I have links to Caribbean dragons.\" Fatima old boys network connected to government. Want t",
-          "source": "WhatsApp DM"
-        },
-        {
-          "date": "2026-03-17",
-          "signal": "EU_GRANT_SIGNAL",
-          "pattern": "\"I'm working on a grant for EU. Might have some $$ for community learning. Which is this.\" Horizon Europe IHI Call 12 co",
-          "source": "WhatsApp DM"
-        },
-        {
-          "date": "2026-03-18",
-          "signal": "GRENADA_EVENT",
-          "pattern": "Marisa representing CAOH at regional oncology event in Grenada. \"Plenty feedback from top players in the room.\" CAOH is ",
-          "source": "WhatsApp DM"
-        },
-        {
-          "date": "2026-03-18",
-          "signal": "IRB_COI_CONFIRMED",
-          "pattern": "Marisa confirmed as Co-Investigator on CaribChat IRB. \"YOU AND ME.\" \"You medical. I'm the tech.\" Not Amoy or Allana \u2014 co",
-          "source": "WhatsApp DM"
-        },
-        {
-          "date": "2026-03-18",
-          "signal": "BUSINESS_MODEL",
-          "pattern": "Marisa: \"We need to get PAID for this\" and \"training platforms, in person.\" Enterprise intent confirmed. MOU requested. ",
-          "source": "WhatsApp DM"
-        },
-        {
-          "date": "2026-03-18",
-          "signal": "ENTERPRISE_SERVICES",
-          "pattern": "OmicsChat enterprise model for Caribbean hospitals. Subscriptions, training platforms, certification. \"We setting the st",
-          "source": "WhatsApp DM"
-        },
-        {
-          "date": "2026-03-18",
-          "signal": "FEDERATED_VISION",
-          "pattern": "Federated registries, telemedicine, mammogram reads across CARICOM. \"YOU should Govern CARICOM health information sharin",
-          "source": "WhatsApp DM"
-        },
-        {
-          "date": "2026-03-18",
-          "signal": "PRECISION_MEDICINE",
-          "pattern": "Caribbean populations are rare phenotypes in biomarker space. Variants of unknown significance are the biggest problem. ",
-          "source": "WhatsApp DM"
-        },
-        {
-          "date": "2026-03-18",
-          "signal": "TITHE_MODEL",
-          "pattern": "10% of savings/funding for CANONIC, rest for operations. Marisa: \"Tithe theory. Yesssss. But no u can get more.\" Economi",
-          "source": "WhatsApp DM"
-        },
-        {
-          "date": "2026-03-18",
-          "signal": "IRB_WITHOUT_LAW",
-          "pattern": "Blog published same day identifies the regulatory gap Marisa fills: no research ethics legislation in T&T or Jamaica, bu",
-          "source": "Blog + WhatsApp context"
-        }
-      ],
-      "score": 128
-    },
-    {
       "id": "hadleylab-canonic/DECKS/ACHIEVE",
       "kind": "SCOPE",
       "label": "ACHIEVE",
@@ -6328,12 +6325,20 @@
       "has_intel": false,
       "next_tier": "FULL",
       "next_tier_gap": 8,
+      "learning_count": 2,
       "surface_type": "JEKYLL_DECK",
       "fleet_path": "DECKS/ACHIEVE",
       "children": 1,
       "wallet": null,
       "talk": null,
-      "learning": null,
+      "learning": [
+        {
+          "date": "2026-04-01",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "what does FRAND mean?",
+          "source": "16a7d6ff-594c-4f11-9d73-0136c01231eb"
+        }
+      ],
       "score": 123
     },
     {
@@ -6912,225 +6917,6 @@
       "score": 123
     },
     {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "kind": "SCOPE",
-      "label": "ACS-FLATIRON",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON",
-      "parent": "hadleylab-canonic/GRANTS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "[ ] Send biosketch reminder to all Co-Is (due April 5)",
-      "learning_count": 14,
-      "coverage_score": 4,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON",
-      "children": 10,
-      "wallet": null,
-      "talk": null,
-      "learning": [
-        {
-          "date": "2026-03-26",
-          "signal": "Profile updated to ABOPM",
-          "pattern": "Dexter Hadley",
-          "source": "Professional Profile switched from UCSF to The American Boar"
-        },
-        {
-          "date": "2026-03-26",
-          "signal": "Pre-LOI SUBMITTED",
-          "pattern": "Dexter Hadley",
-          "source": "Proposal ID 1682103 submitted to ACS via ProposalCentral. Co"
-        },
-        {
-          "date": "2026-03-27",
-          "signal": "RFA shared with Howard",
-          "pattern": "Dexter \u2192 Robin Williams, Alex Evans",
-          "source": "Original specific aims shared with Howard collaborators."
-        },
-        {
-          "date": "2026-03-30",
-          "signal": "NDA FULLY EXECUTED",
-          "pattern": "Joanne Elena (ACS) \u2192 Dexter",
-          "source": "Email confirming executed NDA. LOI created in ProposalCentra"
-        },
-        {
-          "date": "2026-03-30",
-          "signal": "ABOPM CRO VISION",
-          "pattern": "Anil Bajnath \u2192 Dexter",
-          "source": "Call with Anil. Wants to transform ABOPM from credentialing "
-        },
-        {
-          "date": "2026-03-30",
-          "signal": "Data dictionary requested",
-          "pattern": "Dexter \u2192 Cleo Ryals (Flatiron)",
-          "source": "CC: Joanne Elena, Allana Roach (ACS), Anil. Datasets request"
-        },
-        {
-          "date": "2026-03-30",
-          "signal": "Team review sent",
-          "pattern": "Dexter \u2192 Anil, Marisa, Junaid, Amoy; CC Neville, Robin, Alex",
-          "source": "Specific aims v2 (distributed CRO framing). Full team introd"
-        },
-        {
-          "date": "2026-03-30",
-          "signal": "AIMed pitch sent",
-          "pattern": "Dexter \u2192 Anthony Chang, Harry Pappas",
-          "source": "Ask: join proposal + AIMed26 stage slot (Nov 10-13 Orlando)."
-        },
-        {
-          "date": "2026-03-30",
-          "signal": "DATA DICTIONARY RECEIVED",
-          "pattern": "Cleo Ryals (Flatiron) \u2192 Dexter",
-          "source": "Three data dictionaries attached: aNSCLC (PANO_NSCLC), mBC ("
-        },
-        {
-          "date": "2026-04-03",
-          "signal": "Team update sent",
-          "pattern": "Dexter \u2192 Anil, Marisa, Robin, Alex, Amoy, Junaid, Neville",
-          "source": "ACS-Flatiron LOI team email with Research Plan PDF attached."
-        }
-      ],
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS",
-      "kind": "SCOPE",
-      "label": "GRANTS",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS",
-      "parent": "hadleylab-canonic",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "learning_count": 4,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS",
-      "children": 2,
-      "wallet": null,
-      "talk": null,
-      "learning": [
-        {
-          "date": "2026-03",
-          "signal": "GRANT_GOVERNANCE",
-          "pattern": "Grants governed same as code \u2014 CANON.md declares constraints, SPECIFIC-AIMS.md is the collaboration surface",
-          "source": "EHDS-GOV scope"
-        },
-        {
-          "date": "2026-03",
-          "signal": "CONSORTIUM_AS_SCOPE",
-          "pattern": "Each consortium partner maps to a governed scope with inherited constraints",
-          "source": "EHDS-GOV structure"
-        },
-        {
-          "date": "2026-03",
-          "signal": "DEADLINE_ENFORCEMENT",
-          "pattern": "Grant deadlines are governance checkpoints \u2014 miss the deadline, fail the gate",
-          "source": "IHI-2026-12 call"
-        },
-        {
-          "date": "2026-03",
-          "signal": "EVIDENCE_CHAIN",
-          "pattern": "Grant aims must link to governed evidence \u2014 no aim without proof, no proof without scope",
-          "source": "SPECIFIC-AIMS pattern"
-        }
-      ],
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "kind": "SCOPE",
-      "label": "EHDS-GOV",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/EHDS-GOV",
-      "parent": "hadleylab-canonic/GRANTS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR GRANT. EVERY AIM EVIDENCED. EVERY CONSORTIUM MEMBER GOVERNED.**",
-      "roadmap_now": "[ ] Neville confirms PI \u2014 portal registration",
-      "learning_count": 15,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV",
-      "children": 6,
-      "wallet": null,
-      "talk": null,
-      "learning": [
-        {
-          "date": "2026-03-10",
-          "signal": "EHDS-GOV deal structure created",
-          "pattern": "Gov tree",
-          "source": ""
-        },
-        {
-          "date": "2026-03-10",
-          "signal": "Specific Aims v1 drafted \u2014 collaboration surface live",
-          "pattern": "hadleylab.org",
-          "source": ""
-        },
-        {
-          "date": "2026-03-10",
-          "signal": "WORK-TALK sent to Neville \u2014 awaiting PI confirmation",
-          "pattern": "Gov tree",
-          "source": ""
-        },
-        {
-          "date": "2026-03-17",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "what is this",
-          "source": "45a20e2f-3d97-4c32-b6dd-3f2b7b2c9a87"
-        },
-        {
-          "date": "2026-03-19",
-          "signal": "Specific Aims v2 drafted \u2014 Russell & Morrison four-paragraph structure, governed surfaces, Trinidad-EU mirror, references with mammochat.ai + caribchat.ai",
-          "pattern": "Gov tree",
-          "source": ""
-        },
-        {
-          "date": "2026-03-19",
-          "signal": "WORK-TALK-ONCONEX sent to Neville + Maysoun + Youness (CC Fatima) \u2014 first cross-intro, grant + business + meeting request",
-          "pattern": "Gov tree",
-          "source": ""
-        },
-        {
-          "date": "2026-03-24",
-          "signal": "Youness technical review received via Fatima (in Spanish) \u2014 5 substantive concerns: (1) zero prior art claim risky, (2) no EU patent strategy, (3) MAGIC 255 unvalidated by regulators, (4) financial dependency on grant + Malta Enterprise, (5) \"no competition\" is red flag. All concerns legitimate and constructive.",
-          "pattern": "Email (fatima.boukrim90@gmail.com)",
-          "source": ""
-        },
-        {
-          "date": "2026-03-24",
-          "signal": "Comprehensive response drafted (REVIEW-YOUNESS.md) \u2014 5 concerns addressed point-by-point with 70+ governed citations from BIBLIOGRAPHY. New citation codes I-40 through I-46 added for patent portfolio, prosecution strategy, IP trust, and grant. Concern #5 accepted: business plan will reframe \"no competition\" as \"empty quadrant.\"",
-          "pattern": "Gov tree",
-          "source": ""
-        },
-        {
-          "date": "2026-03-24",
-          "signal": "MULTILINGUAL_GOVERNANCE \u2014 Youness writes in Spanish, Dexter in English, framework governs in mathematics. Claude smooths language differences natively. This is a consortium strength, not friction. Demonstrates MAGIC 255 language-agnosticism in practice.",
-          "pattern": "This session",
-          "source": ""
-        },
-        {
-          "date": "2026-03-24",
-          "signal": "WORK-TALK-REVIEW sent to Youness + Maysoun + Neville (CC Fatima) \u2014 Word document attached for collaborative editing, 66 governed citations, all 5 concerns addressed with evidence. P-tier backfilled from 32 to 68 entries (full NCBI bibliography reconciled).",
-          "pattern": "Gov tree",
-          "source": ""
-        }
-      ],
-      "score": 128
-    },
-    {
       "id": "hadleylab-canonic/IRBS",
       "kind": "SCOPE",
       "label": "IRBS",
@@ -7170,13 +6956,74 @@
       "children": 7,
       "wallet": null,
       "talk": {
-        "sessions": 157,
+        "sessions": 163,
         "last_session": "2026-04-03",
         "channels": [
           "CARIBCHAT"
         ]
       },
-      "learning": null,
+      "learning": [
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "How tondeal with shoulder pain",
+          "source": "018aa559-cf47-4bb4-b471-e4aade321063"
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "How to prevent cancer",
+          "source": "96060855-3b54-409a-812c-e10ec47efc0a"
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What is the most aggressive form of cancer",
+          "source": "f5656ec3-8eed-490f-9894-eec35216ff0b"
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "I can talk. I was diagnosed with prostate cancer over 17 years ago. I\u2019ve had sur",
+          "source": "7a89b803-e69f-4edb-bb2f-5b4b332fdcff"
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "I\u2019m from Trinidad. But living in Orlando. Can I come home and have the same leve",
+          "source": "b58a1540-0db9-4240-8bc8-1a14e6b097e1"
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "I\u2019m thinking I retire back home I could just come back here for care if anything",
+          "source": "api.canonic.org/talk"
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Wow. I\u2019m going to think about it much more serious now. My name is Mervin. Thx",
+          "source": "96c1d226-d387-435d-87a9-570661a9ce14"
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Are there any local doctors in Trinidad that you can recommend Claxton Bay?",
+          "source": "65f82bb6-57bb-4e63-937b-75967a70b43a"
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Hello",
+          "source": "2c07cbf6-224f-4919-9490-1cb5dcf9dee8"
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Where can I get screening in Santa cruz",
+          "source": "756c2d13-0122-426d-85f2-1ce93ac8d2d8"
+        }
+      ],
       "score": 128
     },
     {
@@ -7194,7 +7041,7 @@
       "has_intel": true,
       "intel_summary": "| Claim | Source |",
       "roadmap_now": "[ ] Audit all claims \u2014 map to BIBLIOGRAPHY entries",
-      "learning_count": 9,
+      "learning_count": 10,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "PAPERS",
@@ -7255,6 +7102,12 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "who's in the waiting room?",
           "source": "012fa752-1614-4af6-adc5-7ff8ea818555"
+        },
+        {
+          "date": "2026-03-24",
+          "signal": "REFERENCE_PROMOTED: OPTS-EGO White Paper Sources: OPTS-EGO has two versions \u2014 protocanonic (~/Code/white-paper, 100+ citations) and retrocan",
+          "pattern": "intake:reference_opts_ego_whitepaper.md",
+          "source": ""
         }
       ],
       "score": 128
@@ -7295,6 +7148,91 @@
         }
       ],
       "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/PERSONAL",
+      "kind": "SCOPE",
+      "label": "PERSONAL",
+      "repo": "hadleylab-canonic",
+      "path": "PERSONAL",
+      "parent": "hadleylab-canonic",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "privacy: VAULT",
+      "roadmap_now": "[ ] Paper return filed via certified mail (Julio, this week)",
+      "learning_count": 16,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PERSONAL",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-04-02",
+          "signal": "REVOCABLE_TRUST_MISCONCEPTION",
+          "pattern": "YouTube financial advice claims revocable trusts provide asset protection. They do not \u2014 courts see through them because",
+          "source": "YouTube Short analysis (rXvgfQlznd0)"
+        },
+        {
+          "date": "2026-04-02",
+          "signal": "ASSET_PROTECTION_HIERARCHY",
+          "pattern": "For physician-researchers in FL: (1) Max retirement accounts (federal ERISA protection, free), (2) umbrella insurance ($",
+          "source": "Session analysis"
+        },
+        {
+          "date": "2026-04-02",
+          "signal": "POSTNUP_BLENDED",
+          "pattern": "Postnuptial agreement in blended family context serves dual purpose: bankruptcy firewall and property classification (se",
+          "source": "Session discussion"
+        },
+        {
+          "date": "2026-04-02",
+          "signal": "CANONIC_DISPUTES",
+          "pattern": "CANONIC governance model applies to legal disputes: every claim sourced, every document hashed, every evidence node link",
+          "source": "Session discovery"
+        },
+        {
+          "date": "2026-04-02",
+          "signal": "TEAM_COORDINATION",
+          "pattern": "Three-party coordination required: Eric Trabin (attorney, enforcement motions), Jason Soman/David Akiva (forensic CPAs, ",
+          "source": "Session output"
+        },
+        {
+          "date": "2026-04-02",
+          "signal": "WHISTLEBLOWER_PATH",
+          "pattern": "IRS whistleblower (Form 211) provides 15\u201330% award on amounts collected when total unreported tax exceeds $2M. FBAR pena",
+          "source": "Session analysis"
+        },
+        {
+          "date": "2026-04-02",
+          "signal": "SOMAN_REBRAND",
+          "pattern": "Jason Soman's firm rebranded from Soman Stewart Business Valuation & Forensic CPAs to Soman Forensic & Valuation CPAs. O",
+          "source": "Mac Mail correspondence"
+        },
+        {
+          "date": "2026-03-23",
+          "signal": "USER_INTEL",
+          "pattern": "Family and workspace: Dexter has 6 children, works from a home office in the garage in Orlando because inside is too lou",
+          "source": "intake:user_family_workspace.md"
+        },
+        {
+          "date": "2026-04-02",
+          "signal": "PROJECT_INTEL",
+          "pattern": "Asset protection and child support enforcement: Personal asset protection plan for Dexter and Fatima. Active child suppo",
+          "source": "intake:project_asset_protection_plan.md"
+        },
+        {
+          "date": "2026-04-02",
+          "signal": "USER_INTEL",
+          "pattern": "Family detail \u2014 Fatima and children: Dexter married to Fatima. 3 children together, 3 from Dexter's prior marriage (6 to",
+          "source": "intake:user_family_detail.md"
+        }
+      ],
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SERVICES/AUTH",
@@ -7355,13 +7293,21 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
+      "learning_count": 1,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/BOOK",
       "children": 0,
       "wallet": null,
       "talk": null,
-      "learning": null,
+      "learning": [
+        {
+          "date": "2026-02-26",
+          "signal": "BOOK_REBUILD",
+          "pattern": "Both books (Canon + Doctrine) scrapped and rebuilt from scratch. Canon: 9 parts, 44 chapters (governors speak idioms). D",
+          "source": "Book rebuild session"
+        }
+      ],
       "score": 128
     },
     {
@@ -7378,25 +7324,13 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR PIPELINE. EVERY PHASE DECLARED. EVERY DEPENDENCY GOVERNED.**",
-      "learning_count": 17,
+      "learning_count": 19,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/BUILD",
       "children": 0,
       "wallet": null,
       "talk": null,
       "learning": [
-        {
-          "date": "2026-03-14",
-          "signal": "PIPELINE_TOML",
-          "pattern": "DAG.json replaced by PIPELINE.toml in GOV. Each tool declares script, reads, writes, depends. DAG edges derived from dep",
-          "source": "PIPELINE.toml migration"
-        },
-        {
-          "date": "2026-03-14",
-          "signal": "CHAIN_DELETE",
-          "pattern": "extract_intel_chain and extract_learning_chain deleted from magic_lib.py. No fallbacks. Graph BFS is the only discovery ",
-          "source": "magic_lib cleanup"
-        },
         {
           "date": "2026-03-15",
           "signal": "EMIT_STABLE",
@@ -7444,6 +7378,18 @@
           "signal": "ASSERTIVE_BOUNDARY",
           "pattern": "GOV boundary gate flipped from defensive (forbidden extensions) to assertive (allowed extensions). Both GOV and RUNTIME ",
           "source": "Assertive boundary session"
+        },
+        {
+          "date": "2026-03-11",
+          "signal": "BUILD_CACHE",
+          "pattern": "Build pipeline refactored with caching and intermittent compile. Generated outputs may need explicit compile trigger rat",
+          "source": "Build pipeline refactor"
+        },
+        {
+          "date": "2026-03-31",
+          "signal": "PROJECT_INTEL",
+          "pattern": "Cloudflare proxy breaks new GitHub Pages paths: Cloudflare proxy (orange cloud) on hadleylab.org A records causes 404 fo",
+          "source": "intake:project_cloudflare_proxy_bug.md"
         }
       ],
       "score": 128
@@ -7531,6 +7477,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR FRAMEWORK. EVERY EMISSION TRACED. EVERY PLATFORM GOVERNED. EVERY METRIC CAPTURED.**",
       "roadmap_now": "[ ] AlphaGo at 10 campaign \u2014 LinkedIn 4x POSTED, Twitter POSTED, HN/Reddit PASSED",
+      "learning_count": 2,
       "coverage_score": 223,
       "coverage_open_gates": [
         "SUBSTACK_SETUP"
@@ -7540,7 +7487,20 @@
       "children": 1,
       "wallet": null,
       "talk": null,
-      "learning": null,
+      "learning": [
+        {
+          "date": "2026-03-25",
+          "signal": "FEEDBACK_PROMOTED",
+          "pattern": "CANONIC.org branding: Use CANONIC.org (uppercase) as the branded link in social replies and comments, not canonic.org lo",
+          "source": "intake:feedback_canonic_branding.md"
+        },
+        {
+          "date": "2026-04-02",
+          "signal": "PROJECT_INTEL",
+          "pattern": "Campaign Syndication Pipeline: CAMPAIGN LEARNING contract, temporal metrics, multi-channel emission pipeline (LinkedIn L",
+          "source": "intake:project_campaign_syndication.md"
+        }
+      ],
       "score": 128
     },
     {
@@ -7648,7 +7608,7 @@
       "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR SOURCES. EVERY CLAIM TRACED. EVERY CITATION GOVERNED.**",
       "roadmap_now": "[ ] the-255-billion-dollar-wound.md \u2014 359 uncited claims (68% gap)",
-      "learning_count": 3,
+      "learning_count": 4,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/CITATION",
       "children": 1,
@@ -7656,10 +7616,10 @@
       "talk": null,
       "learning": [
         {
-          "date": "2026-03-22",
-          "signal": "BIBLIOGRAPHY_SPINE",
-          "pattern": "One authored source (BIBLIOGRAPHY.md), build compiles to REGISTRY.json, per-document reference sections become compiled ",
-          "source": "Service design session"
+          "date": "2026-03-23",
+          "signal": "FEEDBACK_PROMOTED",
+          "pattern": "Citation governance and stale data: Citations must be governed objects, not decorative labels. No archives \u2014 delete to g",
+          "source": "intake:feedback_citation_governance.md"
         }
       ],
       "score": 123
@@ -7678,7 +7638,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "Dexter Hadley, MD/PhD (Penn). Stanford Research Associate (Butte Lab). Faculty at UCSF and UCF (Founding Chief of AI). C",
-      "learning_count": 39,
+      "learning_count": 8,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/CLAUDE",
@@ -7687,64 +7647,52 @@
       "talk": null,
       "learning": [
         {
-          "date": "2026-03-30",
-          "signal": "PROJECT_INTEL",
-          "pattern": "Chang-Hadley tag team \u2014 Darioisms book + Dario preface for Chang's next book: Tag team with Anthony Chang. Dexter writes",
-          "source": "intake:project_chang_book.md"
+          "date": "2026-03-13",
+          "signal": "META_GOV",
+          "pattern": "Claude's ad hoc feedback memory is ungoverned D7. CANONIC already solves institutional memory at every service scope. Wi",
+          "source": "Meta-governance discovery"
         },
         {
-          "date": "2026-03-31",
-          "signal": "PROJECT_INTEL",
-          "pattern": "Cloudflare proxy breaks new GitHub Pages paths: Cloudflare proxy (orange cloud) on hadleylab.org A records causes 404 fo",
-          "source": "intake:project_cloudflare_proxy_bug.md"
+          "date": "2026-03-14",
+          "signal": "GALAXY_GRAPH_COMPILE",
+          "pattern": "Compilation is graph traversal. The galaxy (394 nodes, 564 edges) is the input graph. BFS from CLAUDE discovers cross-sc",
+          "source": "Graph-native compiler design"
         },
         {
-          "date": "2026-03-31",
-          "signal": "PROJECT_INTEL",
-          "pattern": "CANONIC Foundation legal status: Articles/Bylaws/501c3 status \u2014 David Slonim drafting, Julio filing, IHI deadline April",
-          "source": "intake:project_foundation_legal.md"
+          "date": "2026-03-15",
+          "signal": "IDEMPOTENT_BUILD",
+          "pattern": "Compiler must produce identical output on consecutive builds when inputs unchanged. Timestamps only write when content c",
+          "source": "Compiler stabilization session"
         },
         {
-          "date": "2026-03-31",
-          "signal": "PROJECT_INTEL",
-          "pattern": "Open items from Mar 30-31 session: Stop Prompting campaign 7/10, Substack bulk syndication pending, TASK fleet compiler",
-          "source": "intake:project_open_items_2026_03_31.md"
+          "date": "2026-03-15",
+          "signal": "GOV_OVERRIDE",
+          "pattern": "Hand-crafted GOV index.md with sections takes precedence over auto-generated surfaces. The compiler serves the contract,",
+          "source": "Community learning surface refactor"
         },
         {
-          "date": "2026-04-01",
-          "signal": "PROJECT_INTEL",
-          "pattern": "Achieve Podcast pitch book: ACHIEVE deck at hadleylab.org/decks/achieve/ \u2014 slide deck for Jessie Warner podcast, also bo",
-          "source": "intake:project_achieve_podcast.md"
+          "date": "2026-03-15",
+          "signal": "INSTANCE_LEARNING",
+          "pattern": "Community learning surfaces source from TALKS/{scope}/LEARNING.md (user session ledgers with SESSION_LEDGERED entries), ",
+          "source": "Community learning source fix"
         },
         {
-          "date": "2026-04-02",
-          "signal": "PROJECT_INTEL",
-          "pattern": "Asset protection and child support enforcement: Personal asset protection plan for Dexter and Fatima. Active child suppo",
-          "source": "intake:project_asset_protection_plan.md"
+          "date": "2026-03-15",
+          "signal": "RUNTIME_GOVERNED",
+          "pattern": "The compiler repo (~/.canonic) must be pushed to GitHub (canonic-canonic/.canonic). Ungoverned runtime means ungoverned ",
+          "source": "Runtime governance gap"
         },
         {
-          "date": "2026-04-02",
-          "signal": "PROJECT_INTEL",
-          "pattern": "Bond & Vale PR engagement: Christian King (Bond & Vale, Dubai PR firm) follow-up call April 3 2026, deck deployed, JoAnn",
-          "source": "intake:project_bond_vale_pr.md"
+          "date": "2026-03-15",
+          "signal": "METALEARNING",
+          "pattern": "The agent that builds the system must also update the governed LEARNING and ROADMAP after every session. Session pattern",
+          "source": "This session"
         },
         {
-          "date": "2026-04-02",
-          "signal": "PROJECT_INTEL",
-          "pattern": "Campaign Syndication Pipeline: CAMPAIGN LEARNING contract, temporal metrics, multi-channel emission pipeline (LinkedIn L",
-          "source": "intake:project_campaign_syndication.md"
-        },
-        {
-          "date": "2026-04-02",
-          "signal": "PROJECT_INTEL",
-          "pattern": "LinkedIn Developer Apps: Two LinkedIn apps \u2014 Campaign Publisher (personal posts, live) and Page Publisher (org posts, pe",
-          "source": "intake:project_linkedin_app.md"
-        },
-        {
-          "date": "2026-04-02",
-          "signal": "USER_INTEL",
-          "pattern": "Family detail \u2014 Fatima and children: Dexter married to Fatima. 3 children together, 3 from Dexter's prior marriage (6 to",
-          "source": "intake:user_family_detail.md"
+          "date": "2026-03-15",
+          "signal": "COMPILER_METALEARNING",
+          "pattern": "Metalearning closure hardened into the compiler itself. Three mechanisms: (1) intake-promote script reads ~/.claude/proj",
+          "source": "Compiler metalearning session"
         }
       ],
       "score": 128
@@ -7786,7 +7734,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR ECONOMICS. EVERY MINT GOVERNED. EVERY BURN EVIDENCED.**",
       "roadmap_now": "MINT:READ attention pipeline \u2014 pageview \u2192 Worker \u2192 vault mint \u2192 author COIN",
-      "learning_count": 2,
+      "learning_count": 3,
       "coverage_score": 255,
       "coverage_open_gates": [
         "MINT_READ_DEDUP"
@@ -7808,6 +7756,12 @@
           "signal": "NEW_PATTERN",
           "pattern": "MINT_REVIEW_EVENT: New circulation event MINT:REVIEW defined for community review feedback. BRONZE tier (32 COIN) for in",
           "source": "Community review metaclosure session"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "TIER_DECLARATION",
+          "pattern": "Every TALK scope in the Fleet table declares FREE or FREEMIUM. COIN validation gate (gate_tier_declaration) enforces. Co",
+          "source": "Free vs commercial differentiation"
         }
       ],
       "score": 128
@@ -7900,7 +7854,14 @@
       "children": 0,
       "wallet": null,
       "talk": null,
-      "learning": null,
+      "learning": [
+        {
+          "date": "2026-03-05",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What\u2019s this deal?",
+          "source": "181b2b96-bbfe-46e2-9e84-229fbf8b25e1"
+        }
+      ],
       "score": 128
     },
     {
@@ -8098,13 +8059,27 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
+      "learning_count": 2,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/GRANT",
       "children": 0,
       "wallet": null,
       "talk": null,
-      "learning": null,
+      "learning": [
+        {
+          "date": "2026-03-19",
+          "signal": "FEEDBACK_PROMOTED",
+          "pattern": "Grant writing feedback: How to write specific aims \u2014 follow Russell & Morrison (GAWW) as a bible, not ad hoc. The Trinid",
+          "source": "intake:feedback_grant_writing.md"
+        },
+        {
+          "date": "2026-03-19",
+          "signal": "REFERENCE_PROMOTED",
+          "pattern": "GAWW Grant Writing Reference: Russell & Morrison Grant Application Writer's Workbook is the domain knowledge for all gra",
+          "source": "intake:reference_gaww_grants.md"
+        }
+      ],
       "score": 128
     },
     {
@@ -8922,7 +8897,7 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 262,
+        "sessions": 327,
         "last_session": "2026-04-03",
         "channels": [
           "CARIBCHAT",
@@ -9435,7 +9410,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 180,
+      "learning_count": 191,
       "coverage_score": 255,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/CARIBCHAT",
@@ -9446,61 +9421,13 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 157,
+        "sessions": 163,
         "last_session": "2026-04-03",
         "channels": [
           "CARIBCHAT"
         ]
       },
       "learning": [
-        {
-          "date": "2026-04-01",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "QVeymar :: lattice_forge \u27ff threads of dimension weave :: the question hums betwe",
-          "source": "3a119df0-4b8c-431f-be0d-42346281e812"
-        },
-        {
-          "date": "2026-04-01",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "i have cancer and im thinking about eating meat but ive read going green is good",
-          "source": "587a88ad-455c-411a-8471-2468632867dd"
-        },
-        {
-          "date": "2026-04-01",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "could u debate both sides ? pur meat vs vegan",
-          "source": "52d495c1-9594-4bc7-9787-c274013c305d"
-        },
-        {
-          "date": "2026-04-02",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "what is cancer",
-          "source": "8daacc7d-2870-418a-a143-afd00dedd418"
-        },
-        {
-          "date": "2026-04-02",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "could u explain breast cancer at the cell level",
-          "source": "021da958-e5ee-437f-8ded-edb9e5639a9e"
-        },
-        {
-          "date": "2026-04-02",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Explain cancer to yourself, then explain your explanation to yourself, then expl",
-          "source": "360fc3a7-c78f-4a50-8bc0-15c1a496e369"
-        },
-        {
-          "date": "2026-04-02",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Explain this prompt to yourself, then explain your explanation to yourself, then",
-          "source": "d8e14711-427d-424f-8ebb-5c52b15034f6"
-        },
-        {
-          "date": "2026-04-03",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "How tondeal with shoulder pain",
-          "source": "018aa559-cf47-4bb4-b471-e4aade321063"
-        },
         {
           "date": "2026-04-03",
           "signal": "SESSION_LEDGERED",
@@ -9512,6 +9439,54 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "What is the most aggressive form of cancer",
           "source": "f5656ec3-8eed-490f-9894-eec35216ff0b"
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "I can talk. I was diagnosed with prostate cancer over 17 years ago. I\u2019ve had sur",
+          "source": "7a89b803-e69f-4edb-bb2f-5b4b332fdcff"
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "I\u2019m from Trinidad. But living in Orlando. Can I come home and have the same leve",
+          "source": "b58a1540-0db9-4240-8bc8-1a14e6b097e1"
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "I\u2019m thinking I retire back home I could just come back here for care if anything",
+          "source": "api.canonic.org/talk"
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Wow. I\u2019m going to think about it much more serious now. My name is Mervin. Thx",
+          "source": "96c1d226-d387-435d-87a9-570661a9ce14"
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Are there any local doctors in Trinidad that you can recommend Claxton Bay?",
+          "source": "65f82bb6-57bb-4e63-937b-75967a70b43a"
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Hello",
+          "source": "2c07cbf6-224f-4919-9490-1cb5dcf9dee8"
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Where can I get screening in Santa cruz",
+          "source": "756c2d13-0122-426d-85f2-1ce93ac8d2d8"
+        },
+        {
+          "date": "2026-03-25",
+          "signal": "PROJECT_INTEL",
+          "pattern": "CaribChat Launch Status: CaribChat.ai launch partnerships, MOUs, endorsements, patent co-filing with Marisa Nimrod, JAMA",
+          "source": "intake:project_caribchat_launch.md"
         }
       ],
       "score": 128
@@ -9811,61 +9786,13 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 27,
+        "sessions": 35,
         "last_session": "2026-04-01",
         "channels": [
           "MAMMOCHAT"
         ]
       },
       "learning": [
-        {
-          "date": "2026-03-26",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "What are the BI-RADS categories",
-          "source": "92b11ea7-6f4a-4161-9819-1a29de3cde9a"
-        },
-        {
-          "date": "2026-03-26",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "wow my coworker told me he has breast cancer how can i support her?",
-          "source": "6c34a7fb-b17e-43c9-a137-cbd8b81f49be"
-        },
-        {
-          "date": "2026-03-26",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "its transgender",
-          "source": "92208fe8-4e9d-4fa0-bf2d-8cd0f5bea653"
-        },
-        {
-          "date": "2026-03-26",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "we have been having an affair will i have breastcancer too?",
-          "source": "e0612a7a-fbcf-4095-aa7b-1800950d2253"
-        },
-        {
-          "date": "2026-03-28",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Hi",
-          "source": "f88b9e4e-55e0-4415-a007-e11b983b7b33"
-        },
-        {
-          "date": "2026-03-28",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "How do I join the study",
-          "source": "beba7473-35cb-4f86-8477-6850c9ed2569"
-        },
-        {
-          "date": "2026-03-31",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "hey i just got diagnosed with breast cancer",
-          "source": "15040421-da79-4442-b8b1-e482293ec6b6"
-        },
-        {
-          "date": "2026-03-31",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "What does BI-RADS 4B mean",
-          "source": "f22a3d97-f9b6-4663-9627-d292f04424df"
-        },
         {
           "date": "2026-04-01",
           "signal": "SESSION_LEDGERED",
@@ -9877,6 +9804,54 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "hi",
           "source": "3556a0fd-382e-4202-b943-643a2cbcaa91"
+        },
+        {
+          "date": "2026-03-05",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "hi",
+          "source": "625891fa-e86f-4e60-8a13-376812a8e147"
+        },
+        {
+          "date": "2026-03-05",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What is BI-RADS?",
+          "source": "dba6ac92-6bab-4cbf-bfea-042d401c6c3b"
+        },
+        {
+          "date": "2026-03-06",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Hi",
+          "source": "35664a39-5854-4c51-87ef-bdf0cd850c95"
+        },
+        {
+          "date": "2026-03-06",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Ok",
+          "source": "07a63d08-cccb-428e-98dc-a0434f6a7f3c"
+        },
+        {
+          "date": "2026-03-06",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "When should I start mammogram screening?",
+          "source": "d8c122dd-d28b-41d9-9a11-ebb2273439e4"
+        },
+        {
+          "date": "2026-03-06",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What are the side effects of tamoxifen?",
+          "source": "6a6037dc-b736-4008-a52e-d614a1e5b603"
+        },
+        {
+          "date": "2026-03-06",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Hi",
+          "source": "ad7d7bdd-69e2-4ee2-8fd3-14abe68318b8"
+        },
+        {
+          "date": "2026-03-07",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "\u4f60\u597d\uff0c\u8981\u600e\u4e48\u53d1\u7ed9\u4f60\u56fe\u7247\uff1f",
+          "source": "1aab37c9-8235-4d79-a45d-2827314f547f"
         }
       ],
       "score": 128
@@ -10066,7 +10041,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR OMICS. EVERY VARIANT CLASSIFIED. EVERY FINDING EVIDENCED. EVERY TIER DECLARED.**",
       "roadmap_now": "Governance at 255 \u2014 all 8 artifacts validated",
-      "learning_count": 31,
+      "learning_count": 33,
       "coverage_score": 255,
       "coverage_open_gates": [
         "A11Y"
@@ -10081,31 +10056,13 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 7,
+        "sessions": 8,
         "last_session": "2026-03-31",
         "channels": [
           "OMICSCHAT"
         ]
       },
       "learning": [
-        {
-          "date": "2026-02-28",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "What\u2019s community learning?",
-          "source": "7c560640-3403-4a4d-8a86-3fc0806dfdf8"
-        },
-        {
-          "date": "2026-03-09",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Is BRCA2 c.5946delT pathogenic?",
-          "source": "a7a08acf-0c59-4d8c-8f61-e78a7c723f23"
-        },
-        {
-          "date": "2026-03-15",
-          "signal": "SURFACE_BUILD",
-          "pattern": "GOV",
-          "source": "OMICSCHAT community learning surface built \u2014 8 community lea"
-        },
         {
           "date": "2026-03-15",
           "signal": "COMMUNITY_BRIDGE",
@@ -10147,6 +10104,24 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "I have a BRCA1 mutation and was diagnosed with stage II breast cancer. ER positi",
           "source": "f75defef-b70c-430a-b7f1-f9c91f769729"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "PROJECT_INTEL",
+          "pattern": "OmicsChat product model: OmicsChat is clinical intelligence (not patient-facing). ABPM product, StarGEO extension, VUS g",
+          "source": "intake:project_omicschat.md"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "PROJECT_INTEL",
+          "pattern": "ABOPM Distributed CRO Vision: Anil Bajnath wants to transform ABOPM from credentialing board into a distributed CRO fede",
+          "source": "intake:project_abopm_distributed_cro.md"
+        },
+        {
+          "date": "2026-03-01",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What is oncotype?",
+          "source": "076d105f-d3d9-422b-8b38-882a757aad16"
         }
       ],
       "score": 128
@@ -10338,7 +10313,7 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 67,
+        "sessions": 117,
         "last_session": "2026-03-12",
         "channels": [
           "RUNNER"
@@ -10604,7 +10579,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CORRESPONDENCE. EVERY MESSAGE EPOCH-INDEXED. EVERY COLLABORATOR EVIDENCED.**",
       "roadmap_now": "MailPlus Server operational on Synology NAS (IMAP 993 SSL)",
-      "learning_count": 12,
+      "learning_count": 14,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "TRANSCRIPTS/EMAIL",
@@ -10612,18 +10587,6 @@
       "wallet": null,
       "talk": null,
       "learning": [
-        {
-          "date": "2026-03-13",
-          "signal": "Penn folders in Yahoo",
-          "pattern": "Yahoo has Penn/AGDB, Penn/CAS, Penn/FAM200, Penn/MED200, Penn/OPTH, Penn/Path Residency, Penn/SR One, Penn/UPHS \u2014 manual",
-          "source": "Yahoo IMAP LIST"
-        },
-        {
-          "date": "2026-03-13",
-          "signal": "NCF = New College",
-          "pattern": "Yahoo folder NCF maps to Epoch 0 New College of Florida (B.A. 1995-1999)",
-          "source": "VITAE cross-ref"
-        },
         {
           "date": "2026-03-13",
           "signal": "Guidepoint is EMAIL plugin",
@@ -10671,6 +10634,18 @@
           "signal": "NIH.gov needs cross-epoch treatment",
           "pattern": "76 nih.gov messages span multiple epochs (BD2K, CrADLe, BACPAC, HEAL) \u2014 should be cross-referenced to specific grant num",
           "source": "Gap analysis"
+        },
+        {
+          "date": "2026-03-13",
+          "signal": "MAIL_CONSOLIDATION",
+          "pattern": "Email drains consolidating all accounts into self-hosted MailPlus on NAS. Gmail is the hub, Yahoo/GMX/mail.com are inter",
+          "source": "NAS mail architecture"
+        },
+        {
+          "date": "2026-03-17",
+          "signal": "FEEDBACK_PROMOTED",
+          "pattern": "email_apple_mail: Malta Enterprise and CLA Malta correspondence is on idrdex@mammochat.com via Apple Mail on the laptop,",
+          "source": "intake:feedback_email_apple_mail.md"
         }
       ],
       "score": 128
@@ -10722,6 +10697,32 @@
       "talk": null,
       "learning": null,
       "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/USERS/AFSANA",
+      "kind": "USER",
+      "label": "AFSANA",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/AFSANA",
+      "parent": "hadleylab-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/AFSANA",
+      "organization": "MammoSight",
+      "children": 2,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
     },
     {
       "id": "hadleylab-canonic/USERS/AVINASH/CHAT",
@@ -10962,11 +10963,38 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS",
-      "children": 1,
+      "children": 4,
       "wallet": null,
       "talk": null,
       "learning": null,
       "score": 111
+    },
+    {
+      "id": "hadleylab-canonic/USERS/CRAIG",
+      "kind": "USER",
+      "label": "CRAIG",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/CRAIG",
+      "parent": "hadleylab-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "| Field | Value |",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/CRAIG",
+      "organization": "Loma Linda University",
+      "children": 3,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
     },
     {
       "id": "hadleylab-canonic/USERS/FATIMA/CHAT",
@@ -12177,6 +12205,33 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/USERS/SARAH",
+      "kind": "USER",
+      "label": "SARAH",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/SARAH",
+      "parent": "hadleylab-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "| Field | Value |",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/SARAH",
+      "organization": "Evermint Health",
+      "children": 3,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
       "id": "hadleylab-canonic/USERS/YANA/CHAT",
       "kind": "USER",
       "label": "CHAT",
@@ -12500,6 +12555,635 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/deals/BAKEOFF",
+      "kind": "SCOPE",
+      "label": "BAKEOFF",
+      "repo": "hadleylab-canonic",
+      "path": "deals/BAKEOFF",
+      "parent": "hadleylab-canonic/deals",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR PARTNER. EVERY COMMIT COUNTED. EVERY CAPABILITY MAPPED.**",
+      "learning_count": 4,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/BAKEOFF",
+      "children": 2,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-03-12",
+          "signal": "DECK-TALK and WORK-TALK authored",
+          "pattern": "Positioned BedaSoftware as EU deployment partner with i18n scope",
+          "source": ""
+        },
+        {
+          "date": "2026-03-19",
+          "signal": "Yana + Ilya reading DOCTRINE",
+          "pattern": "Book study is self-initiated certification pre-work. Deal stage advanced to NEGOTIATE.",
+          "source": ""
+        },
+        {
+          "date": "2026-03-19",
+          "signal": "Both confirmed for 3/20 call",
+          "pattern": "Yana inviting Ilya. Calendar accepted. GoRunner demo sent same day.",
+          "source": ""
+        },
+        {
+          "date": "2026-03-19",
+          "signal": "CaribChat pipeline surfaced",
+          "pattern": "Trinidad/Caribbean deployment mentioned as near-term BedaSoftware opportunity",
+          "source": ""
+        }
+      ],
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/deals/CAOH",
+      "kind": "SCOPE",
+      "label": "CAOH",
+      "repo": "hadleylab-canonic",
+      "path": "deals/CAOH",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR PARTNERS. EVERY CONTACT GOVERNED. EVERY CREDENTIAL VERIFIED. EVERY RELATIONSHIP EVIDENCED.**",
+      "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
+      "learning_count": 17,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/CAOH",
+      "children": 2,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-03-12",
+          "signal": "CARIBBEAN_DRAGONS",
+          "pattern": "\"Making some moves for July. I have links to Caribbean dragons.\" Fatima old boys network connected to government. Want t",
+          "source": "WhatsApp DM"
+        },
+        {
+          "date": "2026-03-17",
+          "signal": "EU_GRANT_SIGNAL",
+          "pattern": "\"I'm working on a grant for EU. Might have some $$ for community learning. Which is this.\" Horizon Europe IHI Call 12 co",
+          "source": "WhatsApp DM"
+        },
+        {
+          "date": "2026-03-18",
+          "signal": "GRENADA_EVENT",
+          "pattern": "Marisa representing CAOH at regional oncology event in Grenada. \"Plenty feedback from top players in the room.\" CAOH is ",
+          "source": "WhatsApp DM"
+        },
+        {
+          "date": "2026-03-18",
+          "signal": "IRB_COI_CONFIRMED",
+          "pattern": "Marisa confirmed as Co-Investigator on CaribChat IRB. \"YOU AND ME.\" \"You medical. I'm the tech.\" Not Amoy or Allana \u2014 co",
+          "source": "WhatsApp DM"
+        },
+        {
+          "date": "2026-03-18",
+          "signal": "BUSINESS_MODEL",
+          "pattern": "Marisa: \"We need to get PAID for this\" and \"training platforms, in person.\" Enterprise intent confirmed. MOU requested. ",
+          "source": "WhatsApp DM"
+        },
+        {
+          "date": "2026-03-18",
+          "signal": "ENTERPRISE_SERVICES",
+          "pattern": "OmicsChat enterprise model for Caribbean hospitals. Subscriptions, training platforms, certification. \"We setting the st",
+          "source": "WhatsApp DM"
+        },
+        {
+          "date": "2026-03-18",
+          "signal": "FEDERATED_VISION",
+          "pattern": "Federated registries, telemedicine, mammogram reads across CARICOM. \"YOU should Govern CARICOM health information sharin",
+          "source": "WhatsApp DM"
+        },
+        {
+          "date": "2026-03-18",
+          "signal": "PRECISION_MEDICINE",
+          "pattern": "Caribbean populations are rare phenotypes in biomarker space. Variants of unknown significance are the biggest problem. ",
+          "source": "WhatsApp DM"
+        },
+        {
+          "date": "2026-03-18",
+          "signal": "TITHE_MODEL",
+          "pattern": "10% of savings/funding for CANONIC, rest for operations. Marisa: \"Tithe theory. Yesssss. But no u can get more.\" Economi",
+          "source": "WhatsApp DM"
+        },
+        {
+          "date": "2026-03-18",
+          "signal": "IRB_WITHOUT_LAW",
+          "pattern": "Blog published same day identifies the regulatory gap Marisa fills: no research ethics legislation in T&T or Jamaica, bu",
+          "source": "Blog + WhatsApp context"
+        }
+      ],
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/deals/EXCELLENTING",
+      "kind": "SCOPE",
+      "label": "EXCELLENTING",
+      "repo": "hadleylab-canonic",
+      "path": "deals/EXCELLENTING",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR CONSORTIUM. EVERY PARTNER GOVERNED. EVERY COMMITMENT EVIDENCED. EVERY CORRIDOR MAPPED.**",
+      "roadmap_now": "[ ] Confirm Excellenting legal entity details (CIF, registration)",
+      "learning_count": 7,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/EXCELLENTING",
+      "children": 2,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2025-10-28",
+          "signal": "Fatima emails Maysoun + Dexter re: MammoChat AI (introduction)",
+          "pattern": "Email",
+          "source": ""
+        },
+        {
+          "date": "2025-10-29",
+          "signal": "Maysoun replies \u2014 first direct contact with Dexter",
+          "pattern": "Email",
+          "source": ""
+        },
+        {
+          "date": "2026-01-15",
+          "signal": "IHI Call 12 opens",
+          "pattern": "ihi.europa.eu",
+          "source": ""
+        },
+        {
+          "date": "2026-02-24",
+          "signal": "WhatsApp group active (Youness + Maysoun + Fatima)",
+          "pattern": "WhatsApp",
+          "source": ""
+        },
+        {
+          "date": "2026-02-28",
+          "signal": "The \u20ac344 Billion Euro Wound published \u2014 IHI Call 12 evidence base",
+          "pattern": "Paper",
+          "source": ""
+        },
+        {
+          "date": "2026-03-10",
+          "signal": "EXCELLENTING deal structure created \u2014 governance artifacts",
+          "pattern": "Gov tree",
+          "source": ""
+        },
+        {
+          "date": "2026-03-19",
+          "signal": "WORK-TALK-ONCONEX sent \u2014 first cross-intro Neville \u2194 Maysoun \u2194 Youness. Specific aims (Word, draft) + business plan (PDF, draft) attached. Grant + business + meeting request.",
+          "pattern": "Gov tree",
+          "source": ""
+        }
+      ],
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/deals/LLU",
+      "kind": "SCOPE",
+      "label": "LLU",
+      "repo": "hadleylab-canonic",
+      "path": "deals/LLU",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR INSTITUTION. EVERY CONTACT GOVERNED. EVERY MEETING EVIDENCED. EVERY AXIOM MAPPED.**",
+      "roadmap_now": "[ ] Confirm Dr. Harris phone/office via Karen or Henley",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/LLU",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "kind": "SCOPE",
+      "label": "MALTA-ENTERPRISE",
+      "repo": "hadleylab-canonic",
+      "path": "deals/MALTA-ENTERPRISE",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR GATEWAY. EVERY CONTACT GOVERNED. EVERY SCHEME MAPPED. EVERY TIMELINE EVIDENCED.**",
+      "roadmap_now": "[ ] Send WORK-TALK + BUSINESS-PLAN to Stephen",
+      "learning_count": 34,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/MALTA-ENTERPRISE",
+      "children": 4,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-03-16",
+          "signal": "Chris Borg replied: acknowledged, promised onboarding docs and proposal next day",
+          "pattern": "Email (cborg@clamalta.com)",
+          "source": ""
+        },
+        {
+          "date": "2026-03-17",
+          "signal": "Chris Borg: reviewed business plan, prepared summary for CLA compliance team",
+          "pattern": "Email",
+          "source": ""
+        },
+        {
+          "date": "2026-03-17",
+          "signal": "Chris Borg: attached pricing proposal (Maltese Company_Updated 02.12.25.pdf)",
+          "pattern": "Email (attachment)",
+          "source": ""
+        },
+        {
+          "date": "2026-03-17",
+          "signal": "Chris Borg: proposed call at 5 PM Malta time (11 AM Eastern) today \u2014 sent Teams link",
+          "pattern": "Email (calendar)",
+          "source": ""
+        },
+        {
+          "date": "2026-03-17",
+          "signal": "Chris Borg: sent onboarding documents \u2014 5 attachments for KYC and incorporation",
+          "pattern": "Email (attachments)",
+          "source": ""
+        },
+        {
+          "date": "2026-03-17",
+          "signal": "Teams call with Chris Borg \u2014 structure confirmed, minimal KYC approach agreed",
+          "pattern": "Call",
+          "source": ""
+        },
+        {
+          "date": "2026-03-17",
+          "signal": "Due diligence completed on CLA Malta (KSi Malta + CSA Group merger, CLA Global network, Chris Borg credentials)",
+          "pattern": "Gov tree",
+          "source": ""
+        },
+        {
+          "date": "2026-03-17",
+          "signal": "KYC forms filled programmatically (text fields, checkboxes, radio buttons) \u2014 3 PDFs",
+          "pattern": "Gov tree",
+          "source": ""
+        },
+        {
+          "date": "2026-03-17",
+          "signal": "Dexter replied to Chris: filled KYC forms + due diligence PDF + business plan. FL incorporation flagged as gate (targeting end of March). Outstanding: passport copies, Fatima's Declaration, SMO, professional references, FL corporate docs",
+          "pattern": "Email (sent, idrdex@mammochat.com)",
+          "source": ""
+        },
+        {
+          "date": "2026-03-13",
+          "signal": "GOVERNANCE_DELTA",
+          "pattern": "MALTA-ENTERPRISE: 0\u2192255 (gradient +255) by GIT",
+          "source": "idf:644fb2552c22fd03"
+        }
+      ],
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/deals/OC-MAMMOCHAT",
+      "kind": "SCOPE",
+      "label": "OC-MAMMOCHAT",
+      "repo": "hadleylab-canonic",
+      "path": "deals/OC-MAMMOCHAT",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR VEHICLE. EVERY LICENSE GOVERNED. EVERY IN-KIND EVIDENCED. EVERY CORRIDOR MAPPED.**",
+      "roadmap_now": "[ ] FRAND Template (deliverable 4.1) \u2014 DAVID SLONIM",
+      "learning_count": 10,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/OC-MAMMOCHAT",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2025-07-10",
+          "signal": "First WhatsApp contact with Neville Calleja",
+          "pattern": "WhatsApp",
+          "source": ""
+        },
+        {
+          "date": "2025-12-09",
+          "signal": "Setting up a startup in Malta \u2014 email with Neville",
+          "pattern": "Email",
+          "source": ""
+        },
+        {
+          "date": "2026-01-15",
+          "signal": "IHI Call 12 opens",
+          "pattern": "ihi.europa.eu",
+          "source": ""
+        },
+        {
+          "date": "2026-01-26",
+          "signal": "MammoChat demo + Horizon funding discussion with Neville",
+          "pattern": "WhatsApp",
+          "source": ""
+        },
+        {
+          "date": "2026-01-29",
+          "signal": "ONCONEX concept enters LEARNING",
+          "pattern": "hadleylab-canonic commit 5442f94",
+          "source": ""
+        },
+        {
+          "date": "2026-02-13",
+          "signal": "MAMMOCHAT + ONCONEX composition",
+          "pattern": "hadleylab-canonic commit 7ff9632",
+          "source": ""
+        },
+        {
+          "date": "2026-02-13",
+          "signal": "ONCONEX + HADLEYLAB composition",
+          "pattern": "hadleylab-canonic commit 7b2d7c6",
+          "source": ""
+        },
+        {
+          "date": "2026-02-14",
+          "signal": "ONCONEX_ADV concept",
+          "pattern": "hadleylab-canonic commit 20dae05",
+          "source": ""
+        },
+        {
+          "date": "2026-02-28",
+          "signal": "The \u20ac344 Billion Euro Wound published \u2014 OncoNex.eu as industry lead",
+          "pattern": "Paper",
+          "source": ""
+        },
+        {
+          "date": "2026-03-10",
+          "signal": "OC-MAMMOCHAT deal structure created \u2014 governance artifacts",
+          "pattern": "Gov tree",
+          "source": ""
+        }
+      ],
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/deals/RUNNER-CHAIN",
+      "kind": "SCOPE",
+      "label": "RUNNER-CHAIN",
+      "repo": "hadleylab-canonic",
+      "path": "deals/RUNNER-CHAIN",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR CHAIN. EVERY NODE GOVERNED. EVERY COIN EVIDENCED.**",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/RUNNER-CHAIN",
+      "children": 1,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-03-11",
+          "signal": "WORK-TALK to Mike Miller",
+          "pattern": "Invited as witness node #3, advisor/investor. 503 COIN minted.",
+          "source": ""
+        }
+      ],
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "kind": "SCOPE",
+      "label": "ACS-FLATIRON",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON",
+      "parent": "hadleylab-canonic/grants",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "[ ] Send biosketch reminder to all Co-Is (due April 5)",
+      "learning_count": 14,
+      "coverage_score": 4,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON",
+      "children": 10,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-03-26",
+          "signal": "Profile updated to ABOPM",
+          "pattern": "Dexter Hadley",
+          "source": "Professional Profile switched from UCSF to The American Boar"
+        },
+        {
+          "date": "2026-03-26",
+          "signal": "Pre-LOI SUBMITTED",
+          "pattern": "Dexter Hadley",
+          "source": "Proposal ID 1682103 submitted to ACS via ProposalCentral. Co"
+        },
+        {
+          "date": "2026-03-27",
+          "signal": "RFA shared with Howard",
+          "pattern": "Dexter \u2192 Robin Williams, Alex Evans",
+          "source": "Original specific aims shared with Howard collaborators."
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "NDA FULLY EXECUTED",
+          "pattern": "Joanne Elena (ACS) \u2192 Dexter",
+          "source": "Email confirming executed NDA. LOI created in ProposalCentra"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "ABOPM CRO VISION",
+          "pattern": "Anil Bajnath \u2192 Dexter",
+          "source": "Call with Anil. Wants to transform ABOPM from credentialing "
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "Data dictionary requested",
+          "pattern": "Dexter \u2192 Cleo Ryals (Flatiron)",
+          "source": "CC: Joanne Elena, Allana Roach (ACS), Anil. Datasets request"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "Team review sent",
+          "pattern": "Dexter \u2192 Anil, Marisa, Junaid, Amoy; CC Neville, Robin, Alex",
+          "source": "Specific aims v2 (distributed CRO framing). Full team introd"
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "AIMed pitch sent",
+          "pattern": "Dexter \u2192 Anthony Chang, Harry Pappas",
+          "source": "Ask: join proposal + AIMed26 stage slot (Nov 10-13 Orlando)."
+        },
+        {
+          "date": "2026-03-30",
+          "signal": "DATA DICTIONARY RECEIVED",
+          "pattern": "Cleo Ryals (Flatiron) \u2192 Dexter",
+          "source": "Three data dictionaries attached: aNSCLC (PANO_NSCLC), mBC ("
+        },
+        {
+          "date": "2026-04-03",
+          "signal": "Team update sent",
+          "pattern": "Dexter \u2192 Anil, Marisa, Robin, Alex, Amoy, Junaid, Neville",
+          "source": "ACS-Flatiron LOI team email with Research Plan PDF attached."
+        }
+      ],
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants",
+      "kind": "SCOPE",
+      "label": "GRANTS",
+      "repo": "hadleylab-canonic",
+      "path": "grants",
+      "parent": "hadleylab-canonic",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants",
+      "children": 2,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-03",
+          "signal": "EVIDENCE_CHAIN",
+          "pattern": "Grant aims must link to governed evidence \u2014 no aim without proof, no proof without scope",
+          "source": "SPECIFIC-AIMS pattern"
+        }
+      ],
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/grants/EHDS-GOV",
+      "kind": "SCOPE",
+      "label": "EHDS-GOV",
+      "repo": "hadleylab-canonic",
+      "path": "grants/EHDS-GOV",
+      "parent": "hadleylab-canonic/grants",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR GRANT. EVERY AIM EVIDENCED. EVERY CONSORTIUM MEMBER GOVERNED.**",
+      "roadmap_now": "[ ] Neville confirms PI \u2014 portal registration",
+      "learning_count": 15,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV",
+      "children": 6,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-03-10",
+          "signal": "EHDS-GOV deal structure created",
+          "pattern": "Gov tree",
+          "source": ""
+        },
+        {
+          "date": "2026-03-10",
+          "signal": "Specific Aims v1 drafted \u2014 collaboration surface live",
+          "pattern": "hadleylab.org",
+          "source": ""
+        },
+        {
+          "date": "2026-03-10",
+          "signal": "WORK-TALK sent to Neville \u2014 awaiting PI confirmation",
+          "pattern": "Gov tree",
+          "source": ""
+        },
+        {
+          "date": "2026-03-17",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "what is this",
+          "source": "45a20e2f-3d97-4c32-b6dd-3f2b7b2c9a87"
+        },
+        {
+          "date": "2026-03-19",
+          "signal": "Specific Aims v2 drafted \u2014 Russell & Morrison four-paragraph structure, governed surfaces, Trinidad-EU mirror, references with mammochat.ai + caribchat.ai",
+          "pattern": "Gov tree",
+          "source": ""
+        },
+        {
+          "date": "2026-03-19",
+          "signal": "WORK-TALK-ONCONEX sent to Neville + Maysoun + Youness (CC Fatima) \u2014 first cross-intro, grant + business + meeting request",
+          "pattern": "Gov tree",
+          "source": ""
+        },
+        {
+          "date": "2026-03-24",
+          "signal": "Youness technical review received via Fatima (in Spanish) \u2014 5 substantive concerns: (1) zero prior art claim risky, (2) no EU patent strategy, (3) MAGIC 255 unvalidated by regulators, (4) financial dependency on grant + Malta Enterprise, (5) \"no competition\" is red flag. All concerns legitimate and constructive.",
+          "pattern": "Email (fatima.boukrim90@gmail.com)",
+          "source": ""
+        },
+        {
+          "date": "2026-03-24",
+          "signal": "Comprehensive response drafted (REVIEW-YOUNESS.md) \u2014 5 concerns addressed point-by-point with 70+ governed citations from BIBLIOGRAPHY. New citation codes I-40 through I-46 added for patent portfolio, prosecution strategy, IP trust, and grant. Concern #5 accepted: business plan will reframe \"no competition\" as \"empty quadrant.\"",
+          "pattern": "Gov tree",
+          "source": ""
+        },
+        {
+          "date": "2026-03-24",
+          "signal": "MULTILINGUAL_GOVERNANCE \u2014 Youness writes in Spanish, Dexter in English, framework governs in mathematics. Claude smooths language differences natively. This is a consortium strength, not friction. Demonstrates MAGIC 255 language-agnosticism in practice.",
+          "pattern": "This session",
+          "source": ""
+        },
+        {
+          "date": "2026-03-24",
+          "signal": "WORK-TALK-REVIEW sent to Youness + Maysoun + Neville (CC Fatima) \u2014 Word document attached for collaborative editing, 66 governed citations, all 5 concerns addressed with evidence. P-tier backfilled from 32 to 68 entries (full NCBI bibliography reconciled).",
+          "pattern": "Gov tree",
+          "source": ""
+        }
+      ],
+      "score": 128
+    },
+    {
       "id": "runner-canonic",
       "kind": "ORG",
       "label": "RUNNER",
@@ -12519,7 +13203,7 @@
       "children": 7,
       "wallet": null,
       "talk": {
-        "sessions": 67,
+        "sessions": 117,
         "last_session": "2026-03-12",
         "channels": [
           "RUNNER"
@@ -12721,7 +13405,7 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 262,
+        "sessions": 327,
         "last_session": "2026-04-03",
         "channels": [
           "CARIBCHAT",
@@ -12754,7 +13438,7 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 262,
+        "sessions": 327,
         "last_session": "2026-04-03",
         "channels": [
           "CARIBCHAT",
@@ -12789,7 +13473,7 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 67,
+        "sessions": 117,
         "last_session": "2026-03-12",
         "channels": [
           "RUNNER"
@@ -12797,64 +13481,64 @@
       },
       "learning": [
         {
-          "date": "2026-02-25",
-          "signal": "Fiduciary duty (FL 475.278) maps to MAGIC 255 governance",
-          "pattern": "Six duties = six constraint categories",
-          "source": "REAL_ESTATE vertical"
+          "date": "2026-03-12",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Schedule an inspection",
+          "source": "9de0ab22-99da-4e00-bcda-2f9df478a359"
         },
         {
-          "date": "2026-02-25",
-          "signal": "Vendor credentialing = medical provider KYC pattern",
-          "pattern": "Inspector (FL 468) = Physician (medical license)",
-          "source": "Cross-industry MAGIC"
+          "date": "2026-03-12",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Coordinate closing",
+          "source": "f46c4efd-7678-4c5e-9a9d-93f736ea75ec"
         },
         {
-          "date": "2026-03-10",
-          "signal": "Robert built MVP with Pro/Runner/Ops three-role model",
-          "pattern": "DoorDash pattern \u2014 requester posts, runner completes, ops manages",
-          "source": "Runner-MVP app"
+          "date": "2026-03-12",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Plan an open house",
+          "source": "d3466c19-fbcf-43ee-8f5f-1d54c0db53ff"
         },
         {
-          "date": "2026-03-10",
-          "signal": "Task instructions governed in .md parallel his getTaskInstructions()",
-          "pattern": "Same steps, governed source \u2014 .md compiles to CANON.json, app reads it",
-          "source": "Design merge"
+          "date": "2026-03-12",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Queen Victoria Building NSW",
+          "source": "18883a8c-e2e8-4eb7-bfb9-1492b364a3ff"
         },
         {
-          "date": "2026-03-10",
-          "signal": "Quick Action pills = his quick chat messages",
-          "pattern": "['Where are you?', 'How long?'] pattern = governed pills with trailing space",
-          "source": "Design merge"
+          "date": "2026-03-12",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "orlando international airport",
+          "source": "eff3cd64-cc3c-45d1-9ab3-73b4cac712a5"
         },
         {
-          "date": "2026-03-29",
-          "signal": "ONBOARD_BLOCKER",
-          "pattern": "First developer onboarding (ir4y) hit three blockers: gorunner.pro missing from HTTP.json repos table, magic binary wron",
-          "source": "ir4y WhatsApp 2026-03-29"
+          "date": "2026-03-12",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Schedule an inspection for orlando international airport",
+          "source": "4226c653-59fb-4bfa-a2ca-7a81fca5c674"
         },
         {
-          "date": "2026-03-30",
-          "signal": "ONBOARD_FIX",
-          "pattern": "Three fixes: (1) gorunner.pro added to HTTP.md Repos table and recompiled, (2) bootstrap now compiles magic from source ",
-          "source": "ir4y blockers \u2192 governed fixes"
+          "date": "2026-03-12",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "1 Jeff Fuqua Blvd, Orlando, FL 32827, United States",
+          "source": "7e957dc6-b55e-42b6-b443-6ed70389fe44"
         },
         {
-          "date": "2026-03-30",
-          "signal": "SUBMODULE_DRIFT",
-          "pattern": "GETTING_STARTED.md committed locally to runner-canonic but never pushed. Parent repo accepted dangling submodule pointer",
-          "source": "ir4y WhatsApp 2026-03-30"
+          "date": "2026-03-12",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "give me a list of your FL-licensed inspectors",
+          "source": "d0677bac-0fb4-4dde-ad60-31a464577cde"
         },
         {
-          "date": "2026-03-30",
-          "signal": "PEER_DEP_CONFLICT",
-          "pattern": "react-leaflet@^5.0.0 requires React 19, but app pins React 18. npm ERESOLVE on clean install. MapView.js uses leaflet di",
-          "source": "ir4y npm install failure 2026-03-30"
+          "date": "2026-03-12",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "I want a full list with contact details",
+          "source": "987b79d2-4d67-4fb4-aa1b-094ad7575e29"
         },
         {
-          "date": "2026-03-30",
-          "signal": "CI_HARDENING",
-          "pattern": "Three CI gates shipped from ir4y's onboarding blockers: (1) submodule-gate.yml \u2014 verifies every submodule pointer resolv",
-          "source": "ir4y blockers \u2192 CI gates"
+          "date": "2026-03-12",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "how much i'm paying for the report?",
+          "source": "abc13e07-678d-40b6-b298-9033924fa76e"
         }
       ],
       "score": 128
@@ -12895,26 +13579,12 @@
       "missing_dims": [],
       "has_intel": false,
       "roadmap_now": "Governance artifacts complete (MAGIC 255)",
-      "learning_count": 2,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/VITAE",
       "children": 0,
       "wallet": null,
       "talk": null,
-      "learning": [
-        {
-          "date": "2026-04-01",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Hi",
-          "source": "38f8507a-60d8-48ac-b1f3-4ae4705e87b8"
-        },
-        {
-          "date": "2026-04-01",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "whats frand?",
-          "source": "620150e5-ab01-460c-9572-04ff99e54aa1"
-        }
-      ],
+      "learning": null,
       "score": 128
     },
     {
@@ -14224,10 +14894,14 @@
       "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
       "roadmap_now": "Enforce BI-RADS classification with guideline citation for every imaging claim",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -14236,7 +14910,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 128
+      "score": 123
     },
     {
       "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/psychiatry",
@@ -14467,10 +15141,14 @@
       "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
       "roadmap_now": "Cite conciliar sources (Nicaea 325, Constantinople 381, Ephesus 431) for all doctrinal claims",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -14479,7 +15157,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 128
+      "score": 123
     },
     {
       "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/catholic",
@@ -14536,10 +15214,14 @@
       "parent": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
       "roadmap_now": "Cite confessional standards for all doctrinal claims (Augsburg, Westminster, 39 Articles, etc.)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -14548,7 +15230,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 128
+      "score": 123
     },
     {
       "id": "runner-canonic/canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism",
@@ -15692,6 +16374,24 @@
           "signal": "_generated markers block hand-editing",
           "pattern": "All compiled JSON outputs carry _generated \u2014 fix compiler or contract, never the output",
           "source": "Phase 7 governance"
+        },
+        {
+          "date": "2026-02-28",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What\u2019s this?",
+          "source": "d6a75b06-afe5-4739-805e-14923edce1d8"
+        },
+        {
+          "date": "2026-02-28",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "How is this different from Apple App Store",
+          "source": "60aba7c3-1fef-41c5-be7d-16dc56823b94"
+        },
+        {
+          "date": "2026-02-28",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Tell me more MAMMOCHAT = HEALTH + TALK + INTEL",
+          "source": "e003795b-4537-4dc8-be83-1e1bc8a92df4"
         }
       ],
       "score": 128
@@ -17119,6 +17819,24 @@
           "signal": "GOV tree must be pure",
           "pattern": "Content and governance coexist as source, compile separates them",
           "source": "CANON.md"
+        },
+        {
+          "date": "2026-02-27",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "who's in the waiting room?",
+          "source": "012fa752-1614-4af6-adc5-7ff8ea818555"
+        },
+        {
+          "date": "2026-03-01",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "whats detros>",
+          "source": "a0e55992-fa36-4f3b-b00c-09a0e7f47443"
+        },
+        {
+          "date": "2026-03-01",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "??",
+          "source": "9d2e9707-a9e2-4a8c-85df-e010a5ffa31d"
         }
       ],
       "score": 128
@@ -19992,6 +20710,27 @@
       "fleet_path": "BLOGS/2026-04-02-commitment-is-all-you-need",
       "children": 0,
       "date": "2026-04-02",
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/BLOGS/2026-04-03-constitutional-ai-vs-canonic",
+      "kind": "CONTENT",
+      "label": "CONSTITUTIONAL AI VS CANONIC",
+      "repo": "hadleylab-canonic",
+      "path": "BLOGS/2026-04-03-constitutional-ai-vs-canonic",
+      "parent": "hadleylab-canonic/BLOGS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_POST",
+      "fleet_path": "BLOGS/2026-04-03-constitutional-ai-vs-canonic",
+      "children": 0,
+      "date": "2026-04-03",
       "wallet": null,
       "talk": null,
       "learning": null,
@@ -23518,226 +24257,6 @@
       "score": 128
     },
     {
-      "id": "hadleylab-canonic/DEALS/BAKEOFF/DECK-TALK-ILYA-YANA",
-      "kind": "CONTENT",
-      "label": "DECK-TALK-ILYA-YANA",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/BAKEOFF/DECK-TALK-ILYA-YANA",
-      "parent": "hadleylab-canonic/DEALS/BAKEOFF",
-      "color": "#00ff88",
-      "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/BAKEOFF/deck-talk-ilya-yana",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/BAKEOFF/WORK-TALK-ILYA-YANA",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-ILYA-YANA",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/BAKEOFF/WORK-TALK-ILYA-YANA",
-      "parent": "hadleylab-canonic/DEALS/BAKEOFF",
-      "color": "#00ff88",
-      "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/BAKEOFF/work-talk-ilya-yana",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/CAOH/BUSINESS-PLAN",
-      "kind": "CONTENT",
-      "label": "BUSINESS-PLAN",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/CAOH/BUSINESS-PLAN",
-      "parent": "hadleylab-canonic/DEALS/CAOH",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/CAOH/business-plan",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/CAOH/LAUNCH-PLAN",
-      "kind": "CONTENT",
-      "label": "LAUNCH-PLAN",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/CAOH/LAUNCH-PLAN",
-      "parent": "hadleylab-canonic/DEALS/CAOH",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/CAOH/launch-plan",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/EXCELLENTING/WORK-TALK-NEVILLE",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-NEVILLE",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/EXCELLENTING/WORK-TALK-NEVILLE",
-      "parent": "hadleylab-canonic/DEALS/EXCELLENTING",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/EXCELLENTING/work-talk-neville",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/EXCELLENTING/WORK-TALK-ONCONEX",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-ONCONEX",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/EXCELLENTING/WORK-TALK-ONCONEX",
-      "parent": "hadleylab-canonic/DEALS/EXCELLENTING",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/EXCELLENTING/work-talk-onconex",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/BUSINESS-PLAN",
-      "kind": "CONTENT",
-      "label": "BUSINESS-PLAN",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/MALTA-ENTERPRISE/BUSINESS-PLAN",
-      "parent": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/MALTA-ENTERPRISE/business-plan",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-CHRIS-BORG-REPLY",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
-      "parent": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/MALTA-ENTERPRISE/work-talk-chris-borg-reply",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-CHRIS-BORG",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
-      "parent": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/MALTA-ENTERPRISE/work-talk-chris-borg",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-STEPHEN-BP",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
-      "parent": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/MALTA-ENTERPRISE/work-talk-stephen-bp",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/RUNNER-CHAIN/WORK-TALK-MIKE",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-MIKE",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/RUNNER-CHAIN/WORK-TALK-MIKE",
-      "parent": "hadleylab-canonic/DEALS/RUNNER-CHAIN",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/RUNNER-CHAIN/work-talk-mike",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
       "id": "hadleylab-canonic/DECKS/ACHIEVE/DECK",
       "kind": "CONTENT",
       "label": "DECK",
@@ -23956,326 +24475,6 @@
       "talk": null,
       "learning": null,
       "score": 123
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/SPECIFIC-AIMS",
-      "kind": "CONTENT",
-      "label": "SPECIFIC-AIMS",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/SPECIFIC-AIMS",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/specific-aims",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
-      "kind": "CONTENT",
-      "label": "EMAIL-AIMED-CHANG-PAPPAS",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-biosketch-reminder",
-      "kind": "CONTENT",
-      "label": "EMAIL-BIOSKETCH-REMINDER",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/email-biosketch-reminder",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/email-biosketch-reminder",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
-      "kind": "CONTENT",
-      "label": "EMAIL-FLATIRON-DATA-DICT",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-howard-apr3",
-      "kind": "CONTENT",
-      "label": "EMAIL-HOWARD-APR3",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/email-howard-apr3",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/email-howard-apr3",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
-      "kind": "CONTENT",
-      "label": "EMAIL-NEVILLE-HORIZON-APR3",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-review",
-      "kind": "CONTENT",
-      "label": "EMAIL-TEAM-REVIEW",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/email-team-review",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/email-team-review",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-update-apr3",
-      "kind": "CONTENT",
-      "label": "EMAIL-TEAM-UPDATE-APR3",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/email-team-update-apr3",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/email-team-update-apr3",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-abstract",
-      "kind": "CONTENT",
-      "label": "LOI-ABSTRACT",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/loi-abstract",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/loi-abstract",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-research-plan",
-      "kind": "CONTENT",
-      "label": "LOI-RESEARCH-PLAN",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/loi-research-plan",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/loi-research-plan",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/BUSINESS-PLAN-NIH",
-      "kind": "CONTENT",
-      "label": "BUSINESS-PLAN-NIH",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/EHDS-GOV/BUSINESS-PLAN-NIH",
-      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/business-plan-nih",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS-NIH",
-      "kind": "CONTENT",
-      "label": "REVIEW-YOUNESS-NIH",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/EHDS-GOV/REVIEW-YOUNESS-NIH",
-      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/review-youness-nih",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS",
-      "kind": "CONTENT",
-      "label": "REVIEW-YOUNESS",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/EHDS-GOV/REVIEW-YOUNESS",
-      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/review-youness",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS-NIH",
-      "kind": "CONTENT",
-      "label": "SPECIFIC-AIMS-NIH",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/EHDS-GOV/SPECIFIC-AIMS-NIH",
-      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/specific-aims-nih",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS",
-      "kind": "CONTENT",
-      "label": "SPECIFIC-AIMS",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/EHDS-GOV/SPECIFIC-AIMS",
-      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/specific-aims",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/WORK-TALK-REVIEW",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-REVIEW",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/EHDS-GOV/WORK-TALK-REVIEW",
-      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/work-talk-review",
-      "children": 0,
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
     },
     {
       "id": "hadleylab-canonic/IRBS/CARIBCHAT/EXEMPT",
@@ -27630,6 +27829,546 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/deals/BAKEOFF/DECK-TALK-ILYA-YANA",
+      "kind": "CONTENT",
+      "label": "DECK-TALK-ILYA-YANA",
+      "repo": "hadleylab-canonic",
+      "path": "deals/BAKEOFF/DECK-TALK-ILYA-YANA",
+      "parent": "hadleylab-canonic/deals/BAKEOFF",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/BAKEOFF/deck-talk-ilya-yana",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/deals/BAKEOFF/WORK-TALK-ILYA-YANA",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-ILYA-YANA",
+      "repo": "hadleylab-canonic",
+      "path": "deals/BAKEOFF/WORK-TALK-ILYA-YANA",
+      "parent": "hadleylab-canonic/deals/BAKEOFF",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/BAKEOFF/work-talk-ilya-yana",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/deals/CAOH/BUSINESS-PLAN",
+      "kind": "CONTENT",
+      "label": "BUSINESS-PLAN",
+      "repo": "hadleylab-canonic",
+      "path": "deals/CAOH/BUSINESS-PLAN",
+      "parent": "hadleylab-canonic/deals/CAOH",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/CAOH/business-plan",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/deals/CAOH/LAUNCH-PLAN",
+      "kind": "CONTENT",
+      "label": "LAUNCH-PLAN",
+      "repo": "hadleylab-canonic",
+      "path": "deals/CAOH/LAUNCH-PLAN",
+      "parent": "hadleylab-canonic/deals/CAOH",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/CAOH/launch-plan",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/deals/EXCELLENTING/WORK-TALK-NEVILLE",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-NEVILLE",
+      "repo": "hadleylab-canonic",
+      "path": "deals/EXCELLENTING/WORK-TALK-NEVILLE",
+      "parent": "hadleylab-canonic/deals/EXCELLENTING",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/EXCELLENTING/work-talk-neville",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/deals/EXCELLENTING/WORK-TALK-ONCONEX",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-ONCONEX",
+      "repo": "hadleylab-canonic",
+      "path": "deals/EXCELLENTING/WORK-TALK-ONCONEX",
+      "parent": "hadleylab-canonic/deals/EXCELLENTING",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/EXCELLENTING/work-talk-onconex",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/deals/MALTA-ENTERPRISE/BUSINESS-PLAN",
+      "kind": "CONTENT",
+      "label": "BUSINESS-PLAN",
+      "repo": "hadleylab-canonic",
+      "path": "deals/MALTA-ENTERPRISE/BUSINESS-PLAN",
+      "parent": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/MALTA-ENTERPRISE/business-plan",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-CHRIS-BORG-REPLY",
+      "repo": "hadleylab-canonic",
+      "path": "deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
+      "parent": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/MALTA-ENTERPRISE/work-talk-chris-borg-reply",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-CHRIS-BORG",
+      "repo": "hadleylab-canonic",
+      "path": "deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
+      "parent": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/MALTA-ENTERPRISE/work-talk-chris-borg",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-STEPHEN-BP",
+      "repo": "hadleylab-canonic",
+      "path": "deals/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
+      "parent": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/MALTA-ENTERPRISE/work-talk-stephen-bp",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/deals/RUNNER-CHAIN/WORK-TALK-MIKE",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-MIKE",
+      "repo": "hadleylab-canonic",
+      "path": "deals/RUNNER-CHAIN/WORK-TALK-MIKE",
+      "parent": "hadleylab-canonic/deals/RUNNER-CHAIN",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/RUNNER-CHAIN/work-talk-mike",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/SPECIFIC-AIMS",
+      "kind": "CONTENT",
+      "label": "SPECIFIC-AIMS",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/SPECIFIC-AIMS",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/specific-aims",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/email-aimed-chang-pappas",
+      "kind": "CONTENT",
+      "label": "EMAIL-AIMED-CHANG-PAPPAS",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/email-aimed-chang-pappas",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/email-aimed-chang-pappas",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/email-biosketch-reminder",
+      "kind": "CONTENT",
+      "label": "EMAIL-BIOSKETCH-REMINDER",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/email-biosketch-reminder",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/email-biosketch-reminder",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/email-flatiron-data-dict",
+      "kind": "CONTENT",
+      "label": "EMAIL-FLATIRON-DATA-DICT",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/email-flatiron-data-dict",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/email-flatiron-data-dict",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/email-howard-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-HOWARD-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/email-howard-apr3",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/email-howard-apr3",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/email-neville-horizon-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-NEVILLE-HORIZON-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/email-neville-horizon-apr3",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/email-neville-horizon-apr3",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/email-team-review",
+      "kind": "CONTENT",
+      "label": "EMAIL-TEAM-REVIEW",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/email-team-review",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/email-team-review",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/email-team-update-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-TEAM-UPDATE-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/email-team-update-apr3",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/email-team-update-apr3",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/loi-abstract",
+      "kind": "CONTENT",
+      "label": "LOI-ABSTRACT",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/loi-abstract",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/loi-abstract",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/loi-research-plan",
+      "kind": "CONTENT",
+      "label": "LOI-RESEARCH-PLAN",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/loi-research-plan",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/loi-research-plan",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/EHDS-GOV/BUSINESS-PLAN-NIH",
+      "kind": "CONTENT",
+      "label": "BUSINESS-PLAN-NIH",
+      "repo": "hadleylab-canonic",
+      "path": "grants/EHDS-GOV/BUSINESS-PLAN-NIH",
+      "parent": "hadleylab-canonic/grants/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/business-plan-nih",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/EHDS-GOV/REVIEW-YOUNESS-NIH",
+      "kind": "CONTENT",
+      "label": "REVIEW-YOUNESS-NIH",
+      "repo": "hadleylab-canonic",
+      "path": "grants/EHDS-GOV/REVIEW-YOUNESS-NIH",
+      "parent": "hadleylab-canonic/grants/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/review-youness-nih",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/EHDS-GOV/REVIEW-YOUNESS",
+      "kind": "CONTENT",
+      "label": "REVIEW-YOUNESS",
+      "repo": "hadleylab-canonic",
+      "path": "grants/EHDS-GOV/REVIEW-YOUNESS",
+      "parent": "hadleylab-canonic/grants/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/review-youness",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/EHDS-GOV/SPECIFIC-AIMS-NIH",
+      "kind": "CONTENT",
+      "label": "SPECIFIC-AIMS-NIH",
+      "repo": "hadleylab-canonic",
+      "path": "grants/EHDS-GOV/SPECIFIC-AIMS-NIH",
+      "parent": "hadleylab-canonic/grants/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/specific-aims-nih",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/EHDS-GOV/SPECIFIC-AIMS",
+      "kind": "CONTENT",
+      "label": "SPECIFIC-AIMS",
+      "repo": "hadleylab-canonic",
+      "path": "grants/EHDS-GOV/SPECIFIC-AIMS",
+      "parent": "hadleylab-canonic/grants/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/specific-aims",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/grants/EHDS-GOV/WORK-TALK-REVIEW",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-REVIEW",
+      "repo": "hadleylab-canonic",
+      "path": "grants/EHDS-GOV/WORK-TALK-REVIEW",
+      "parent": "hadleylab-canonic/grants/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/work-talk-review",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "runner-canonic/GETTING_STARTED",
       "kind": "CONTENT",
       "label": "GETTING_STARTED",
@@ -29447,26 +30186,6 @@
     },
     {
       "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/CAOH",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "to": "hadleylab-canonic/SERVICES/GRANT"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/GRANTS",
-      "to": "hadleylab-canonic/SERVICES/GRANT"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "to": "hadleylab-canonic/SERVICES/GRANT"
-    },
-    {
-      "kind": "INHERITS",
       "from": "hadleylab-canonic/IRBS",
       "to": "hadleylab-canonic/SERVICES/CLINICAL"
     },
@@ -29654,6 +30373,56 @@
       "kind": "INHERITS",
       "from": "hadleylab-canonic/VITAE",
       "to": "hadleylab-canonic/SERVICES/VITAE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/BAKEOFF",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/CAOH",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/EXCELLENTING",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/LLU",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/OC-MAMMOCHAT",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/RUNNER-CHAIN",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "to": "hadleylab-canonic/SERVICES/GRANT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/grants",
+      "to": "hadleylab-canonic/SERVICES/GRANT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/grants/EHDS-GOV",
+      "to": "hadleylab-canonic/SERVICES/GRANT"
     },
     {
       "kind": "INHERITS",
@@ -31295,21 +32064,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "to": "hadleylab-canonic/GRANTS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS",
-      "to": "hadleylab-canonic"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "to": "hadleylab-canonic/GRANTS"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/IRBS",
       "to": "hadleylab-canonic"
     },
@@ -31327,6 +32081,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING",
       "to": "hadleylab-canonic/PAPERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PERSONAL",
+      "to": "hadleylab-canonic"
     },
     {
       "kind": "PARENT",
@@ -31635,6 +32394,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/AFSANA",
+      "to": "hadleylab-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/USERS/AVINASH/SERVICES/LEARNING",
       "to": "hadleylab-canonic/USERS/AVINASH/SERVICES"
     },
@@ -31647,6 +32411,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/USERS",
       "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/CRAIG",
+      "to": "hadleylab-canonic/USERS"
     },
     {
       "kind": "PARENT",
@@ -31715,6 +32484,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/SARAH",
+      "to": "hadleylab-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/USERS/YANA/SERVICES/LEARNING",
       "to": "hadleylab-canonic/USERS/YANA/SERVICES"
     },
@@ -31727,6 +32501,21 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/VITAE",
       "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "to": "hadleylab-canonic/grants"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants",
+      "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/EHDS-GOV",
+      "to": "hadleylab-canonic/grants"
     },
     {
       "kind": "PARENT",
@@ -32910,6 +33699,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/BLOGS/2026-04-03-constitutional-ai-vs-canonic",
+      "to": "hadleylab-canonic/BLOGS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/BLOGS/SERIES",
       "to": "hadleylab-canonic/BLOGS"
     },
@@ -33780,16 +34574,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/CAOH/BUSINESS-PLAN",
-      "to": "hadleylab-canonic/DEALS/CAOH"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/CAOH/LAUNCH-PLAN",
-      "to": "hadleylab-canonic/DEALS/CAOH"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/ACHIEVE/DECK",
       "to": "hadleylab-canonic/DECKS/ACHIEVE"
     },
@@ -33842,86 +34626,6 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/STRONG-HER/DECK",
       "to": "hadleylab-canonic/DECKS/STRONG-HER"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/SPECIFIC-AIMS",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-biosketch-reminder",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-howard-apr3",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-review",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-update-apr3",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-abstract",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-research-plan",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/BUSINESS-PLAN-NIH",
-      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS-NIH",
-      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS",
-      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS-NIH",
-      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS",
-      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/WORK-TALK-REVIEW",
-      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
     },
     {
       "kind": "PARENT",
@@ -34165,6 +34869,31 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/AFSANA/VITAE",
+      "to": "hadleylab-canonic/USERS/AFSANA"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/AFSANA/afsana-akter",
+      "to": "hadleylab-canonic/USERS/AFSANA"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/CRAIG/BRIEF",
+      "to": "hadleylab-canonic/USERS/CRAIG"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/CRAIG/VITAE",
+      "to": "hadleylab-canonic/USERS/CRAIG"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/CRAIG/craig-jackson",
+      "to": "hadleylab-canonic/USERS/CRAIG"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/USERS/FATIMA/CHAT/governor-appointment",
       "to": "hadleylab-canonic/USERS/FATIMA/CHAT"
     },
@@ -34185,8 +34914,158 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/SARAH/BRIEF",
+      "to": "hadleylab-canonic/USERS/SARAH"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/SARAH/VITAE",
+      "to": "hadleylab-canonic/USERS/SARAH"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/SARAH/sarah-roddy",
+      "to": "hadleylab-canonic/USERS/SARAH"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/VITAE/SHOP",
       "to": "hadleylab-canonic/VITAE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/BAKEOFF/DECK-TALK-ILYA-YANA",
+      "to": "hadleylab-canonic/deals/BAKEOFF"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/BAKEOFF/WORK-TALK-ILYA-YANA",
+      "to": "hadleylab-canonic/deals/BAKEOFF"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/CAOH/BUSINESS-PLAN",
+      "to": "hadleylab-canonic/deals/CAOH"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/CAOH/LAUNCH-PLAN",
+      "to": "hadleylab-canonic/deals/CAOH"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/EXCELLENTING/WORK-TALK-NEVILLE",
+      "to": "hadleylab-canonic/deals/EXCELLENTING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/EXCELLENTING/WORK-TALK-ONCONEX",
+      "to": "hadleylab-canonic/deals/EXCELLENTING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE/BUSINESS-PLAN",
+      "to": "hadleylab-canonic/deals/MALTA-ENTERPRISE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
+      "to": "hadleylab-canonic/deals/MALTA-ENTERPRISE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
+      "to": "hadleylab-canonic/deals/MALTA-ENTERPRISE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
+      "to": "hadleylab-canonic/deals/MALTA-ENTERPRISE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/RUNNER-CHAIN/WORK-TALK-MIKE",
+      "to": "hadleylab-canonic/deals/RUNNER-CHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/SPECIFIC-AIMS",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/email-aimed-chang-pappas",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/email-biosketch-reminder",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/email-flatiron-data-dict",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/email-howard-apr3",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/email-neville-horizon-apr3",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/email-team-review",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/email-team-update-apr3",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/loi-abstract",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/loi-research-plan",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/EHDS-GOV/BUSINESS-PLAN-NIH",
+      "to": "hadleylab-canonic/grants/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/EHDS-GOV/REVIEW-YOUNESS-NIH",
+      "to": "hadleylab-canonic/grants/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/EHDS-GOV/REVIEW-YOUNESS",
+      "to": "hadleylab-canonic/grants/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/EHDS-GOV/SPECIFIC-AIMS-NIH",
+      "to": "hadleylab-canonic/grants/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/EHDS-GOV/SPECIFIC-AIMS",
+      "to": "hadleylab-canonic/grants/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/EHDS-GOV/WORK-TALK-REVIEW",
+      "to": "hadleylab-canonic/grants/EHDS-GOV"
     },
     {
       "kind": "PARENT",

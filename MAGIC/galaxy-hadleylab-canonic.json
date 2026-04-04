@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "8e6e46c75b712915"
+    "gov_hash": "2ebdacb6830f5fc7"
   },
-  "generated": "2026-04-03T16:50:43Z",
+  "generated": "2026-04-04T01:47:18Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -46,7 +46,7 @@
     }
   ],
   "stats": {
-    "total": 603,
+    "total": 631,
     "avg_bits": 254
   },
   "nodes": [
@@ -72,7 +72,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
-      "children": 17
+      "children": 18
     },
     {
       "id": "hadleylab-canonic/BLOGS",
@@ -92,7 +92,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "BLOGS",
-      "children": 69
+      "children": 70
     },
     {
       "id": "hadleylab-canonic/BOOKS",
@@ -134,7 +134,7 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "roadmap_now": "[ ] Execute first HN engagement response (lawyer-who-won, 23 comments, draft at HACKERNEWS/RESPONSES",
-      "learning_count": 14,
+      "learning_count": 15,
       "coverage_open_gates": [
         "SUBSTACK_SETUP"
       ],
@@ -157,32 +157,10 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR FOUNDATION. EVERY FILING EVIDENCED. EVERY DOLLAR LEDGERED.**",
       "roadmap_now": "[ ] CHARTER INTEL.md \u2014 operational knowledge (key contacts, filing status, scope dependencies)",
-      "learning_count": 8,
+      "learning_count": 9,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CHARTER",
-      "children": 8
-    },
-    {
-      "id": "hadleylab-canonic/DEALS",
-      "kind": "SCOPE",
-      "label": "DEALS",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS",
-      "parent": "hadleylab-canonic",
-      "category": "COMMERCE",
-      "color": "#ff9f0a",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "privacy": "PRIVATE",
-      "has_intel": true,
-      "intel_summary": "| Claim | Source |",
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS",
-      "readers": [
-        "iDrDex"
-      ],
       "children": 8
     },
     {
@@ -206,25 +184,6 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS",
       "children": 10
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS",
-      "kind": "SCOPE",
-      "label": "GRANTS",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS",
-      "parent": "hadleylab-canonic",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "learning_count": 4,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS",
-      "children": 2
     },
     {
       "id": "hadleylab-canonic/IRBS",
@@ -258,7 +217,7 @@
       "has_intel": true,
       "intel_summary": "| Claim | Source |",
       "roadmap_now": "[ ] Audit all claims \u2014 map to BIBLIOGRAPHY entries",
-      "learning_count": 9,
+      "learning_count": 10,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "PAPERS",
@@ -293,6 +252,26 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "PATENTS",
       "children": 17
+    },
+    {
+      "id": "hadleylab-canonic/PERSONAL",
+      "kind": "SCOPE",
+      "label": "PERSONAL",
+      "repo": "hadleylab-canonic",
+      "path": "PERSONAL",
+      "parent": "hadleylab-canonic",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "privacy: VAULT",
+      "roadmap_now": "[ ] Paper return filed via certified mail (Julio, this week)",
+      "learning_count": 16,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PERSONAL",
+      "children": 0
     },
     {
       "id": "hadleylab-canonic/SERVICES",
@@ -377,7 +356,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS",
-      "children": 1
+      "children": 4
     },
     {
       "id": "hadleylab-canonic/VITAE",
@@ -399,6 +378,56 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "VITAE",
       "children": 1
+    },
+    {
+      "id": "hadleylab-canonic/deals",
+      "kind": "SCOPE",
+      "label": "DEALS",
+      "repo": "hadleylab-canonic",
+      "path": "deals",
+      "parent": "hadleylab-canonic",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "privacy": "PRIVATE",
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "| Claim | Source |",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals",
+      "readers": [
+        "iDrDex"
+      ],
+      "children": 8
+    },
+    {
+      "id": "hadleylab-canonic/grants",
+      "kind": "SCOPE",
+      "label": "GRANTS",
+      "repo": "hadleylab-canonic",
+      "path": "grants",
+      "parent": "hadleylab-canonic",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants",
+      "children": 2
     },
     {
       "id": "hadleylab-canonic/BRAND",
@@ -1604,6 +1633,23 @@
       "date": "2026-04-02"
     },
     {
+      "id": "hadleylab-canonic/BLOGS/2026-04-03-constitutional-ai-vs-canonic",
+      "kind": "CONTENT",
+      "label": "CONSTITUTIONAL AI VS CANONIC",
+      "repo": "hadleylab-canonic",
+      "path": "BLOGS/2026-04-03-constitutional-ai-vs-canonic",
+      "parent": "hadleylab-canonic/BLOGS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_POST",
+      "fleet_path": "BLOGS/2026-04-03-constitutional-ai-vs-canonic",
+      "children": 0,
+      "date": "2026-04-03"
+    },
+    {
       "id": "hadleylab-canonic/BLOGS/SERIES",
       "kind": "CONTENT",
       "label": "SERIES",
@@ -1761,6 +1807,7 @@
       "has_intel": false,
       "next_tier": "FULL",
       "next_tier_gap": 8,
+      "learning_count": 1,
       "surface_type": "JEKYLL_BOOK",
       "fleet_path": "BOOKS/DARIOISMS",
       "readers": [
@@ -1889,6 +1936,7 @@
       "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR TECHNICAL AUDIENCE. EVERY SUBMISSION FACTUAL. EVERY TITLE HONEST.**",
       "roadmap_now": "[ ] Set up HN comment monitoring \u2014 RSS feed, Firebase API polling, or hnreplies.com for reply notifi",
+      "learning_count": 1,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/HACKERNEWS",
       "children": 0
@@ -1907,7 +1955,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR PROFESSIONAL NETWORK. EVERY CONVERSATION GOVERNED. EVERY PROFILE RESOLVED.**",
-      "learning_count": 1,
+      "learning_count": 2,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/LINKEDIN",
@@ -1959,7 +2007,7 @@
       "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR COMMUNITIES. EVERY POST PLATFORM-NATIVE. EVERY DISCUSSION SUBSTANTIVE.**",
       "roadmap_now": "[ ] Apply for Reddit API access via Responsible Builder Policy approval form (self-service OAuth clo",
-      "learning_count": 9,
+      "learning_count": 10,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/REDDIT",
       "children": 0
@@ -2231,6 +2279,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR DIRECTORS. EVERY RESOLUTION RECORDED. EVERY MEETING MINUTED.**",
       "roadmap_now": "[ ] INTEL.md \u2014 directors, officers, meeting cadence, resolution registry (MAGIC 255 closure)",
+      "learning_count": 1,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CHARTER/BOARD",
@@ -2353,49 +2402,6 @@
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/DEALS/CAOH",
-      "kind": "SCOPE",
-      "label": "CAOH",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/CAOH",
-      "parent": "hadleylab-canonic/DEALS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR PARTNERS. EVERY CONTACT GOVERNED. EVERY CREDENTIAL VERIFIED. EVERY RELATIONSHIP EVIDENCED.**",
-      "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 17,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/CAOH",
-      "children": 2
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
-      "kind": "SCOPE",
-      "label": "LEVUKA-VENTURE-LAB",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/LEVUKA-VENTURE-LAB",
-      "parent": "hadleylab-canonic/DEALS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "privacy": "PRIVATE",
-      "readers": [
-        "iDrDex"
-      ],
-      "has_intel": true,
-      "intel_summary": "**HE DIAGNOSES. WE FIX. EVERY DRIFT MAPPED. EVERY CORRECTION PROVEN. EVERY AXIOM CROSSED.**",
-      "learning_count": 4,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/LEVUKA-VENTURE-LAB",
-      "children": 0
-    },
-    {
       "id": "hadleylab-canonic/DECKS/ACHIEVE",
       "kind": "SCOPE",
       "label": "ACHIEVE",
@@ -2413,6 +2419,7 @@
       "has_intel": false,
       "next_tier": "FULL",
       "next_tier_gap": 8,
+      "learning_count": 2,
       "surface_type": "JEKYLL_DECK",
       "fleet_path": "DECKS/ACHIEVE",
       "children": 1
@@ -2600,47 +2607,6 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS/shop",
       "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "kind": "SCOPE",
-      "label": "ACS-FLATIRON",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON",
-      "parent": "hadleylab-canonic/GRANTS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "[ ] Send biosketch reminder to all Co-Is (due April 5)",
-      "learning_count": 14,
-      "coverage_score": 4,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON",
-      "children": 10
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "kind": "SCOPE",
-      "label": "EHDS-GOV",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/EHDS-GOV",
-      "parent": "hadleylab-canonic/GRANTS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR GRANT. EVERY AIM EVIDENCED. EVERY CONSORTIUM MEMBER GOVERNED.**",
-      "roadmap_now": "[ ] Neville confirms PI \u2014 portal registration",
-      "learning_count": 15,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV",
-      "children": 6
     },
     {
       "id": "hadleylab-canonic/IRBS/CARIBCHAT",
@@ -3271,6 +3237,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
+      "learning_count": 1,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/BOOK",
@@ -3290,7 +3257,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR PIPELINE. EVERY PHASE DECLARED. EVERY DEPENDENCY GOVERNED.**",
-      "learning_count": 17,
+      "learning_count": 19,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/BUILD",
       "children": 0
@@ -3331,6 +3298,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR FRAMEWORK. EVERY EMISSION TRACED. EVERY PLATFORM GOVERNED. EVERY METRIC CAPTURED.**",
       "roadmap_now": "[ ] AlphaGo at 10 campaign \u2014 LinkedIn 4x POSTED, Twitter POSTED, HN/Reddit PASSED",
+      "learning_count": 2,
       "coverage_score": 223,
       "coverage_open_gates": [
         "SUBSTACK_SETUP"
@@ -3358,7 +3326,7 @@
       "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR SOURCES. EVERY CLAIM TRACED. EVERY CITATION GOVERNED.**",
       "roadmap_now": "[ ] the-255-billion-dollar-wound.md \u2014 359 uncited claims (68% gap)",
-      "learning_count": 3,
+      "learning_count": 4,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/CITATION",
       "children": 1
@@ -3377,7 +3345,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "Dexter Hadley, MD/PhD (Penn). Stanford Research Associate (Butte Lab). Faculty at UCSF and UCF (Founding Chief of AI). C",
-      "learning_count": 39,
+      "learning_count": 8,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/CLAUDE",
@@ -3416,7 +3384,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR ECONOMICS. EVERY MINT GOVERNED. EVERY BURN EVIDENCED.**",
       "roadmap_now": "MINT:READ attention pipeline \u2014 pageview \u2192 Worker \u2192 vault mint \u2192 author COIN",
-      "learning_count": 2,
+      "learning_count": 3,
       "coverage_score": 255,
       "coverage_open_gates": [
         "MINT_READ_DEDUP"
@@ -3633,6 +3601,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
+      "learning_count": 2,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/GRANT",
@@ -4121,7 +4090,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR TRANSCRIPTS. EVERY LANE HASHED. EVERY SURFACE FED. EVERY EPOCH EVIDENCED.**",
       "roadmap_now": "CLAUDE lane: 145 sessions archived to NAS with SHA-256 MANIFEST.txt \u2014 GOLD tier",
-      "learning_count": 16,
+      "learning_count": 17,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/TRANSCRIPT",
@@ -4316,7 +4285,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 180,
+      "learning_count": 191,
       "coverage_score": 255,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/CARIBCHAT",
@@ -4492,7 +4461,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR OMICS. EVERY VARIANT CLASSIFIED. EVERY FINDING EVIDENCED. EVERY TIER DECLARED.**",
       "roadmap_now": "Governance at 255 \u2014 all 8 artifacts validated",
-      "learning_count": 31,
+      "learning_count": 33,
       "coverage_score": 255,
       "coverage_open_gates": [
         "A11Y"
@@ -4651,7 +4620,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CORRESPONDENCE. EVERY MESSAGE EPOCH-INDEXED. EVERY COLLABORATOR EVIDENCED.**",
       "roadmap_now": "MailPlus Server operational on Synology NAS (IMAP 993 SSL)",
-      "learning_count": 12,
+      "learning_count": 14,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "TRANSCRIPTS/EMAIL",
@@ -4698,6 +4667,28 @@
       "children": 0
     },
     {
+      "id": "hadleylab-canonic/USERS/AFSANA",
+      "kind": "USER",
+      "label": "AFSANA",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/AFSANA",
+      "parent": "hadleylab-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/AFSANA",
+      "organization": "MammoSight",
+      "children": 2
+    },
+    {
       "id": "hadleylab-canonic/USERS/AVINASH",
       "kind": "USER",
       "label": "AVINASH",
@@ -4720,6 +4711,29 @@
       "fleet_path": "USERS/AVINASH",
       "organization": "Atom",
       "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/CRAIG",
+      "kind": "USER",
+      "label": "CRAIG",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/CRAIG",
+      "parent": "hadleylab-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "| Field | Value |",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/CRAIG",
+      "organization": "Loma Linda University",
+      "children": 3
     },
     {
       "id": "hadleylab-canonic/USERS/FATIMA",
@@ -4867,6 +4881,29 @@
       "children": 2
     },
     {
+      "id": "hadleylab-canonic/USERS/SARAH",
+      "kind": "USER",
+      "label": "SARAH",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/SARAH",
+      "parent": "hadleylab-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "| Field | Value |",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/SARAH",
+      "organization": "Evermint Health",
+      "children": 3
+    },
+    {
       "id": "hadleylab-canonic/USERS/YANA",
       "kind": "USER",
       "label": "YANA",
@@ -4907,6 +4944,208 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "VITAE/shop",
       "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/BAKEOFF",
+      "kind": "SCOPE",
+      "label": "BAKEOFF",
+      "repo": "hadleylab-canonic",
+      "path": "deals/BAKEOFF",
+      "parent": "hadleylab-canonic/deals",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR PARTNER. EVERY COMMIT COUNTED. EVERY CAPABILITY MAPPED.**",
+      "learning_count": 4,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/BAKEOFF",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/deals/CAOH",
+      "kind": "SCOPE",
+      "label": "CAOH",
+      "repo": "hadleylab-canonic",
+      "path": "deals/CAOH",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR PARTNERS. EVERY CONTACT GOVERNED. EVERY CREDENTIAL VERIFIED. EVERY RELATIONSHIP EVIDENCED.**",
+      "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
+      "learning_count": 17,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/CAOH",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/deals/EXCELLENTING",
+      "kind": "SCOPE",
+      "label": "EXCELLENTING",
+      "repo": "hadleylab-canonic",
+      "path": "deals/EXCELLENTING",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR CONSORTIUM. EVERY PARTNER GOVERNED. EVERY COMMITMENT EVIDENCED. EVERY CORRIDOR MAPPED.**",
+      "roadmap_now": "[ ] Confirm Excellenting legal entity details (CIF, registration)",
+      "learning_count": 7,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/EXCELLENTING",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/deals/LEVUKA-VENTURE-LAB",
+      "kind": "SCOPE",
+      "label": "LEVUKA-VENTURE-LAB",
+      "repo": "hadleylab-canonic",
+      "path": "deals/LEVUKA-VENTURE-LAB",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**HE DIAGNOSES. WE FIX. EVERY DRIFT MAPPED. EVERY CORRECTION PROVEN. EVERY AXIOM CROSSED.**",
+      "learning_count": 5,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/LEVUKA-VENTURE-LAB",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/LLU",
+      "kind": "SCOPE",
+      "label": "LLU",
+      "repo": "hadleylab-canonic",
+      "path": "deals/LLU",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR INSTITUTION. EVERY CONTACT GOVERNED. EVERY MEETING EVIDENCED. EVERY AXIOM MAPPED.**",
+      "roadmap_now": "[ ] Confirm Dr. Harris phone/office via Karen or Henley",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/LLU",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "kind": "SCOPE",
+      "label": "MALTA-ENTERPRISE",
+      "repo": "hadleylab-canonic",
+      "path": "deals/MALTA-ENTERPRISE",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR GATEWAY. EVERY CONTACT GOVERNED. EVERY SCHEME MAPPED. EVERY TIMELINE EVIDENCED.**",
+      "roadmap_now": "[ ] Send WORK-TALK + BUSINESS-PLAN to Stephen",
+      "learning_count": 34,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/MALTA-ENTERPRISE",
+      "children": 4
+    },
+    {
+      "id": "hadleylab-canonic/deals/OC-MAMMOCHAT",
+      "kind": "SCOPE",
+      "label": "OC-MAMMOCHAT",
+      "repo": "hadleylab-canonic",
+      "path": "deals/OC-MAMMOCHAT",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR VEHICLE. EVERY LICENSE GOVERNED. EVERY IN-KIND EVIDENCED. EVERY CORRIDOR MAPPED.**",
+      "roadmap_now": "[ ] FRAND Template (deliverable 4.1) \u2014 DAVID SLONIM",
+      "learning_count": 10,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/OC-MAMMOCHAT",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/RUNNER-CHAIN",
+      "kind": "SCOPE",
+      "label": "RUNNER-CHAIN",
+      "repo": "hadleylab-canonic",
+      "path": "deals/RUNNER-CHAIN",
+      "parent": "hadleylab-canonic/deals",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR CHAIN. EVERY NODE GOVERNED. EVERY COIN EVIDENCED.**",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/RUNNER-CHAIN",
+      "children": 1
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "kind": "SCOPE",
+      "label": "ACS-FLATIRON",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON",
+      "parent": "hadleylab-canonic/grants",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "[ ] Send biosketch reminder to all Co-Is (due April 5)",
+      "learning_count": 14,
+      "coverage_score": 4,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON",
+      "children": 10
+    },
+    {
+      "id": "hadleylab-canonic/grants/EHDS-GOV",
+      "kind": "SCOPE",
+      "label": "EHDS-GOV",
+      "repo": "hadleylab-canonic",
+      "path": "grants/EHDS-GOV",
+      "parent": "hadleylab-canonic/grants",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR GRANT. EVERY AIM EVIDENCED. EVERY CONSORTIUM MEMBER GOVERNED.**",
+      "roadmap_now": "[ ] Neville confirms PI \u2014 portal registration",
+      "learning_count": 15,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV",
+      "children": 6
     },
     {
       "id": "hadleylab-canonic/BOOKS/ATULISMS/CHAPTERS",
@@ -5690,38 +5929,6 @@
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/DEALS/CAOH/BUSINESS-PLAN",
-      "kind": "CONTENT",
-      "label": "BUSINESS-PLAN",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/CAOH/BUSINESS-PLAN",
-      "parent": "hadleylab-canonic/DEALS/CAOH",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/CAOH/business-plan",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/DEALS/CAOH/LAUNCH-PLAN",
-      "kind": "CONTENT",
-      "label": "LAUNCH-PLAN",
-      "repo": "hadleylab-canonic",
-      "path": "DEALS/CAOH/LAUNCH-PLAN",
-      "parent": "hadleylab-canonic/DEALS/CAOH",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/CAOH/launch-plan",
-      "children": 0
-    },
-    {
       "id": "hadleylab-canonic/DECKS/ACHIEVE/DECK",
       "kind": "CONTENT",
       "label": "DECK",
@@ -5879,262 +6086,6 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS/STRONG-HER/deck",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/SPECIFIC-AIMS",
-      "kind": "CONTENT",
-      "label": "SPECIFIC-AIMS",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/SPECIFIC-AIMS",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/specific-aims",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
-      "kind": "CONTENT",
-      "label": "EMAIL-AIMED-CHANG-PAPPAS",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-biosketch-reminder",
-      "kind": "CONTENT",
-      "label": "EMAIL-BIOSKETCH-REMINDER",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/email-biosketch-reminder",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/email-biosketch-reminder",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
-      "kind": "CONTENT",
-      "label": "EMAIL-FLATIRON-DATA-DICT",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-howard-apr3",
-      "kind": "CONTENT",
-      "label": "EMAIL-HOWARD-APR3",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/email-howard-apr3",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/email-howard-apr3",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
-      "kind": "CONTENT",
-      "label": "EMAIL-NEVILLE-HORIZON-APR3",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-review",
-      "kind": "CONTENT",
-      "label": "EMAIL-TEAM-REVIEW",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/email-team-review",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/email-team-review",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-update-apr3",
-      "kind": "CONTENT",
-      "label": "EMAIL-TEAM-UPDATE-APR3",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/email-team-update-apr3",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/email-team-update-apr3",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-abstract",
-      "kind": "CONTENT",
-      "label": "LOI-ABSTRACT",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/loi-abstract",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/loi-abstract",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-research-plan",
-      "kind": "CONTENT",
-      "label": "LOI-RESEARCH-PLAN",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/ACS-FLATIRON/loi-research-plan",
-      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/loi-research-plan",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/BUSINESS-PLAN-NIH",
-      "kind": "CONTENT",
-      "label": "BUSINESS-PLAN-NIH",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/EHDS-GOV/BUSINESS-PLAN-NIH",
-      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/business-plan-nih",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS-NIH",
-      "kind": "CONTENT",
-      "label": "REVIEW-YOUNESS-NIH",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/EHDS-GOV/REVIEW-YOUNESS-NIH",
-      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/review-youness-nih",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS",
-      "kind": "CONTENT",
-      "label": "REVIEW-YOUNESS",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/EHDS-GOV/REVIEW-YOUNESS",
-      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/review-youness",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS-NIH",
-      "kind": "CONTENT",
-      "label": "SPECIFIC-AIMS-NIH",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/EHDS-GOV/SPECIFIC-AIMS-NIH",
-      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/specific-aims-nih",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS",
-      "kind": "CONTENT",
-      "label": "SPECIFIC-AIMS",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/EHDS-GOV/SPECIFIC-AIMS",
-      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/specific-aims",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/WORK-TALK-REVIEW",
-      "kind": "CONTENT",
-      "label": "WORK-TALK-REVIEW",
-      "repo": "hadleylab-canonic",
-      "path": "GRANTS/EHDS-GOV/WORK-TALK-REVIEW",
-      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/work-talk-review",
       "children": 0
     },
     {
@@ -8286,6 +8237,38 @@
       "children": 0
     },
     {
+      "id": "hadleylab-canonic/USERS/AFSANA/VITAE",
+      "kind": "CONTENT",
+      "label": "VITAE",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/AFSANA/VITAE",
+      "parent": "hadleylab-canonic/USERS/AFSANA",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/AFSANA/vitae",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/AFSANA/afsana-akter",
+      "kind": "CONTENT",
+      "label": "AFSANA-AKTER",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/AFSANA/afsana-akter",
+      "parent": "hadleylab-canonic/USERS/AFSANA",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/AFSANA/afsana-akter",
+      "children": 0
+    },
+    {
       "id": "hadleylab-canonic/USERS/AVINASH/CHAT",
       "kind": "USER",
       "label": "CHAT",
@@ -8331,6 +8314,54 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/AVINASH/SERVICES",
       "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/CRAIG/BRIEF",
+      "kind": "CONTENT",
+      "label": "BRIEF",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/CRAIG/BRIEF",
+      "parent": "hadleylab-canonic/USERS/CRAIG",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/CRAIG/brief",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/CRAIG/VITAE",
+      "kind": "CONTENT",
+      "label": "VITAE",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/CRAIG/VITAE",
+      "parent": "hadleylab-canonic/USERS/CRAIG",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/CRAIG/vitae",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/CRAIG/craig-jackson",
+      "kind": "CONTENT",
+      "label": "CRAIG-JACKSON",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/CRAIG/craig-jackson",
+      "parent": "hadleylab-canonic/USERS/CRAIG",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/CRAIG/craig-jackson",
+      "children": 0
     },
     {
       "id": "hadleylab-canonic/USERS/FATIMA/CHAT",
@@ -8635,6 +8666,54 @@
       "children": 2
     },
     {
+      "id": "hadleylab-canonic/USERS/SARAH/BRIEF",
+      "kind": "CONTENT",
+      "label": "BRIEF",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/SARAH/BRIEF",
+      "parent": "hadleylab-canonic/USERS/SARAH",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/SARAH/brief",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/SARAH/VITAE",
+      "kind": "CONTENT",
+      "label": "VITAE",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/SARAH/VITAE",
+      "parent": "hadleylab-canonic/USERS/SARAH",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/SARAH/vitae",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/SARAH/sarah-roddy",
+      "kind": "CONTENT",
+      "label": "SARAH-RODDY",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/SARAH/sarah-roddy",
+      "parent": "hadleylab-canonic/USERS/SARAH",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/SARAH/sarah-roddy",
+      "children": 0
+    },
+    {
       "id": "hadleylab-canonic/USERS/YANA/CHAT",
       "kind": "USER",
       "label": "CHAT",
@@ -8680,6 +8759,438 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/YANA/SERVICES",
       "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/deals/BAKEOFF/DECK-TALK-ILYA-YANA",
+      "kind": "CONTENT",
+      "label": "DECK-TALK-ILYA-YANA",
+      "repo": "hadleylab-canonic",
+      "path": "deals/BAKEOFF/DECK-TALK-ILYA-YANA",
+      "parent": "hadleylab-canonic/deals/BAKEOFF",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/BAKEOFF/deck-talk-ilya-yana",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/BAKEOFF/WORK-TALK-ILYA-YANA",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-ILYA-YANA",
+      "repo": "hadleylab-canonic",
+      "path": "deals/BAKEOFF/WORK-TALK-ILYA-YANA",
+      "parent": "hadleylab-canonic/deals/BAKEOFF",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/BAKEOFF/work-talk-ilya-yana",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/CAOH/BUSINESS-PLAN",
+      "kind": "CONTENT",
+      "label": "BUSINESS-PLAN",
+      "repo": "hadleylab-canonic",
+      "path": "deals/CAOH/BUSINESS-PLAN",
+      "parent": "hadleylab-canonic/deals/CAOH",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/CAOH/business-plan",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/CAOH/LAUNCH-PLAN",
+      "kind": "CONTENT",
+      "label": "LAUNCH-PLAN",
+      "repo": "hadleylab-canonic",
+      "path": "deals/CAOH/LAUNCH-PLAN",
+      "parent": "hadleylab-canonic/deals/CAOH",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/CAOH/launch-plan",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/EXCELLENTING/WORK-TALK-NEVILLE",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-NEVILLE",
+      "repo": "hadleylab-canonic",
+      "path": "deals/EXCELLENTING/WORK-TALK-NEVILLE",
+      "parent": "hadleylab-canonic/deals/EXCELLENTING",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/EXCELLENTING/work-talk-neville",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/EXCELLENTING/WORK-TALK-ONCONEX",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-ONCONEX",
+      "repo": "hadleylab-canonic",
+      "path": "deals/EXCELLENTING/WORK-TALK-ONCONEX",
+      "parent": "hadleylab-canonic/deals/EXCELLENTING",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/EXCELLENTING/work-talk-onconex",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/MALTA-ENTERPRISE/BUSINESS-PLAN",
+      "kind": "CONTENT",
+      "label": "BUSINESS-PLAN",
+      "repo": "hadleylab-canonic",
+      "path": "deals/MALTA-ENTERPRISE/BUSINESS-PLAN",
+      "parent": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/MALTA-ENTERPRISE/business-plan",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-CHRIS-BORG-REPLY",
+      "repo": "hadleylab-canonic",
+      "path": "deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
+      "parent": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/MALTA-ENTERPRISE/work-talk-chris-borg-reply",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-CHRIS-BORG",
+      "repo": "hadleylab-canonic",
+      "path": "deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
+      "parent": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/MALTA-ENTERPRISE/work-talk-chris-borg",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-STEPHEN-BP",
+      "repo": "hadleylab-canonic",
+      "path": "deals/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
+      "parent": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/MALTA-ENTERPRISE/work-talk-stephen-bp",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/deals/RUNNER-CHAIN/WORK-TALK-MIKE",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-MIKE",
+      "repo": "hadleylab-canonic",
+      "path": "deals/RUNNER-CHAIN/WORK-TALK-MIKE",
+      "parent": "hadleylab-canonic/deals/RUNNER-CHAIN",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "deals/RUNNER-CHAIN/work-talk-mike",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/SPECIFIC-AIMS",
+      "kind": "CONTENT",
+      "label": "SPECIFIC-AIMS",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/SPECIFIC-AIMS",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/specific-aims",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/email-aimed-chang-pappas",
+      "kind": "CONTENT",
+      "label": "EMAIL-AIMED-CHANG-PAPPAS",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/email-aimed-chang-pappas",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/email-aimed-chang-pappas",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/email-biosketch-reminder",
+      "kind": "CONTENT",
+      "label": "EMAIL-BIOSKETCH-REMINDER",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/email-biosketch-reminder",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/email-biosketch-reminder",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/email-flatiron-data-dict",
+      "kind": "CONTENT",
+      "label": "EMAIL-FLATIRON-DATA-DICT",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/email-flatiron-data-dict",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/email-flatiron-data-dict",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/email-howard-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-HOWARD-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/email-howard-apr3",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/email-howard-apr3",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/email-neville-horizon-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-NEVILLE-HORIZON-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/email-neville-horizon-apr3",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/email-neville-horizon-apr3",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/email-team-review",
+      "kind": "CONTENT",
+      "label": "EMAIL-TEAM-REVIEW",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/email-team-review",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/email-team-review",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/email-team-update-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-TEAM-UPDATE-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/email-team-update-apr3",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/email-team-update-apr3",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/loi-abstract",
+      "kind": "CONTENT",
+      "label": "LOI-ABSTRACT",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/loi-abstract",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/loi-abstract",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/ACS-FLATIRON/loi-research-plan",
+      "kind": "CONTENT",
+      "label": "LOI-RESEARCH-PLAN",
+      "repo": "hadleylab-canonic",
+      "path": "grants/ACS-FLATIRON/loi-research-plan",
+      "parent": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/ACS-FLATIRON/loi-research-plan",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/EHDS-GOV/BUSINESS-PLAN-NIH",
+      "kind": "CONTENT",
+      "label": "BUSINESS-PLAN-NIH",
+      "repo": "hadleylab-canonic",
+      "path": "grants/EHDS-GOV/BUSINESS-PLAN-NIH",
+      "parent": "hadleylab-canonic/grants/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/business-plan-nih",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/EHDS-GOV/REVIEW-YOUNESS-NIH",
+      "kind": "CONTENT",
+      "label": "REVIEW-YOUNESS-NIH",
+      "repo": "hadleylab-canonic",
+      "path": "grants/EHDS-GOV/REVIEW-YOUNESS-NIH",
+      "parent": "hadleylab-canonic/grants/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/review-youness-nih",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/EHDS-GOV/REVIEW-YOUNESS",
+      "kind": "CONTENT",
+      "label": "REVIEW-YOUNESS",
+      "repo": "hadleylab-canonic",
+      "path": "grants/EHDS-GOV/REVIEW-YOUNESS",
+      "parent": "hadleylab-canonic/grants/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/review-youness",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/EHDS-GOV/SPECIFIC-AIMS-NIH",
+      "kind": "CONTENT",
+      "label": "SPECIFIC-AIMS-NIH",
+      "repo": "hadleylab-canonic",
+      "path": "grants/EHDS-GOV/SPECIFIC-AIMS-NIH",
+      "parent": "hadleylab-canonic/grants/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/specific-aims-nih",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/EHDS-GOV/SPECIFIC-AIMS",
+      "kind": "CONTENT",
+      "label": "SPECIFIC-AIMS",
+      "repo": "hadleylab-canonic",
+      "path": "grants/EHDS-GOV/SPECIFIC-AIMS",
+      "parent": "hadleylab-canonic/grants/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/specific-aims",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/grants/EHDS-GOV/WORK-TALK-REVIEW",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-REVIEW",
+      "repo": "hadleylab-canonic",
+      "path": "grants/EHDS-GOV/WORK-TALK-REVIEW",
+      "parent": "hadleylab-canonic/grants/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "grants/EHDS-GOV/work-talk-review",
+      "children": 0
     },
     {
       "id": "hadleylab-canonic/BOOKS/ATULISMS/CHAPTERS/00-PREFACE",
@@ -10920,21 +11431,6 @@
     },
     {
       "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/CAOH",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
-      "to": "hadleylab-canonic/SERVICES/DEAL"
-    },
-    {
-      "kind": "INHERITS",
       "from": "hadleylab-canonic/DECKS/ACHIEVE",
       "to": "hadleylab-canonic/SERVICES/DECK"
     },
@@ -10982,21 +11478,6 @@
       "kind": "INHERITS",
       "from": "hadleylab-canonic/DECKS/STRONG-HER",
       "to": "hadleylab-canonic/SERVICES/DECK"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "to": "hadleylab-canonic/SERVICES/GRANT"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/GRANTS",
-      "to": "hadleylab-canonic/SERVICES/GRANT"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "to": "hadleylab-canonic/SERVICES/GRANT"
     },
     {
       "kind": "INHERITS",
@@ -11297,6 +11778,66 @@
       "kind": "INHERITS",
       "from": "hadleylab-canonic/VITAE",
       "to": "hadleylab-canonic/SERVICES/VITAE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/BAKEOFF",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/CAOH",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/EXCELLENTING",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/LEVUKA-VENTURE-LAB",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/LLU",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/OC-MAMMOCHAT",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/deals/RUNNER-CHAIN",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "to": "hadleylab-canonic/SERVICES/GRANT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/grants",
+      "to": "hadleylab-canonic/SERVICES/GRANT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/grants/EHDS-GOV",
+      "to": "hadleylab-canonic/SERVICES/GRANT"
     },
     {
       "kind": "CROSS_INTEL",
@@ -11655,21 +12196,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS",
-      "to": "hadleylab-canonic"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/CAOH",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
-      "to": "hadleylab-canonic/DEALS"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/ACHIEVE",
       "to": "hadleylab-canonic/DECKS"
     },
@@ -11717,21 +12243,6 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/STRONG-HER",
       "to": "hadleylab-canonic/DECKS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
-      "to": "hadleylab-canonic/GRANTS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS",
-      "to": "hadleylab-canonic"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV",
-      "to": "hadleylab-canonic/GRANTS"
     },
     {
       "kind": "PARENT",
@@ -11822,6 +12333,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/PATENTS/PROVISIONALS",
       "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PERSONAL",
+      "to": "hadleylab-canonic"
     },
     {
       "kind": "PARENT",
@@ -12185,6 +12701,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/AFSANA",
+      "to": "hadleylab-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/USERS/AVINASH",
       "to": "hadleylab-canonic/USERS"
     },
@@ -12207,6 +12728,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/USERS",
       "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/CRAIG",
+      "to": "hadleylab-canonic/USERS"
     },
     {
       "kind": "PARENT",
@@ -12325,6 +12851,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/SARAH",
+      "to": "hadleylab-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/USERS/YANA",
       "to": "hadleylab-canonic/USERS"
     },
@@ -12347,6 +12878,66 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/VITAE",
       "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/BAKEOFF",
+      "to": "hadleylab-canonic/deals"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals",
+      "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/CAOH",
+      "to": "hadleylab-canonic/deals"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/EXCELLENTING",
+      "to": "hadleylab-canonic/deals"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/LEVUKA-VENTURE-LAB",
+      "to": "hadleylab-canonic/deals"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/LLU",
+      "to": "hadleylab-canonic/deals"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE",
+      "to": "hadleylab-canonic/deals"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/OC-MAMMOCHAT",
+      "to": "hadleylab-canonic/deals"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/RUNNER-CHAIN",
+      "to": "hadleylab-canonic/deals"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON",
+      "to": "hadleylab-canonic/grants"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants",
+      "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/EHDS-GOV",
+      "to": "hadleylab-canonic/grants"
     },
     {
       "kind": "PARENT",
@@ -12681,6 +13272,11 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/BLOGS/2026-04-02-commitment-is-all-you-need",
+      "to": "hadleylab-canonic/BLOGS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BLOGS/2026-04-03-constitutional-ai-vs-canonic",
       "to": "hadleylab-canonic/BLOGS"
     },
     {
@@ -13565,16 +14161,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/CAOH/BUSINESS-PLAN",
-      "to": "hadleylab-canonic/DEALS/CAOH"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/DEALS/CAOH/LAUNCH-PLAN",
-      "to": "hadleylab-canonic/DEALS/CAOH"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/ACHIEVE/DECK",
       "to": "hadleylab-canonic/DECKS/ACHIEVE"
     },
@@ -13627,86 +14213,6 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/STRONG-HER/DECK",
       "to": "hadleylab-canonic/DECKS/STRONG-HER"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/SPECIFIC-AIMS",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-biosketch-reminder",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-howard-apr3",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-review",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-update-apr3",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-abstract",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-research-plan",
-      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/BUSINESS-PLAN-NIH",
-      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS-NIH",
-      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS",
-      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS-NIH",
-      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS",
-      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/WORK-TALK-REVIEW",
-      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
     },
     {
       "kind": "PARENT",
@@ -14435,6 +14941,31 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/AFSANA/VITAE",
+      "to": "hadleylab-canonic/USERS/AFSANA"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/AFSANA/afsana-akter",
+      "to": "hadleylab-canonic/USERS/AFSANA"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/CRAIG/BRIEF",
+      "to": "hadleylab-canonic/USERS/CRAIG"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/CRAIG/VITAE",
+      "to": "hadleylab-canonic/USERS/CRAIG"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/CRAIG/craig-jackson",
+      "to": "hadleylab-canonic/USERS/CRAIG"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/USERS/FATIMA/VITAE",
       "to": "hadleylab-canonic/USERS/FATIMA"
     },
@@ -14465,8 +14996,158 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/SARAH/BRIEF",
+      "to": "hadleylab-canonic/USERS/SARAH"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/SARAH/VITAE",
+      "to": "hadleylab-canonic/USERS/SARAH"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/SARAH/sarah-roddy",
+      "to": "hadleylab-canonic/USERS/SARAH"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/VITAE/SHOP",
       "to": "hadleylab-canonic/VITAE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/BAKEOFF/DECK-TALK-ILYA-YANA",
+      "to": "hadleylab-canonic/deals/BAKEOFF"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/BAKEOFF/WORK-TALK-ILYA-YANA",
+      "to": "hadleylab-canonic/deals/BAKEOFF"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/CAOH/BUSINESS-PLAN",
+      "to": "hadleylab-canonic/deals/CAOH"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/CAOH/LAUNCH-PLAN",
+      "to": "hadleylab-canonic/deals/CAOH"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/EXCELLENTING/WORK-TALK-NEVILLE",
+      "to": "hadleylab-canonic/deals/EXCELLENTING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/EXCELLENTING/WORK-TALK-ONCONEX",
+      "to": "hadleylab-canonic/deals/EXCELLENTING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE/BUSINESS-PLAN",
+      "to": "hadleylab-canonic/deals/MALTA-ENTERPRISE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG-REPLY",
+      "to": "hadleylab-canonic/deals/MALTA-ENTERPRISE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-CHRIS-BORG",
+      "to": "hadleylab-canonic/deals/MALTA-ENTERPRISE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/MALTA-ENTERPRISE/WORK-TALK-STEPHEN-BP",
+      "to": "hadleylab-canonic/deals/MALTA-ENTERPRISE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/deals/RUNNER-CHAIN/WORK-TALK-MIKE",
+      "to": "hadleylab-canonic/deals/RUNNER-CHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/SPECIFIC-AIMS",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/email-aimed-chang-pappas",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/email-biosketch-reminder",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/email-flatiron-data-dict",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/email-howard-apr3",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/email-neville-horizon-apr3",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/email-team-review",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/email-team-update-apr3",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/loi-abstract",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/ACS-FLATIRON/loi-research-plan",
+      "to": "hadleylab-canonic/grants/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/EHDS-GOV/BUSINESS-PLAN-NIH",
+      "to": "hadleylab-canonic/grants/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/EHDS-GOV/REVIEW-YOUNESS-NIH",
+      "to": "hadleylab-canonic/grants/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/EHDS-GOV/REVIEW-YOUNESS",
+      "to": "hadleylab-canonic/grants/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/EHDS-GOV/SPECIFIC-AIMS-NIH",
+      "to": "hadleylab-canonic/grants/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/EHDS-GOV/SPECIFIC-AIMS",
+      "to": "hadleylab-canonic/grants/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/grants/EHDS-GOV/WORK-TALK-REVIEW",
+      "to": "hadleylab-canonic/grants/EHDS-GOV"
     },
     {
       "kind": "PARENT",

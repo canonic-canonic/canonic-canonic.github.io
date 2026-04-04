@@ -1,0 +1,35 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/home/runner/CANONIC/canonic-canonic/MAGIC/GALAXY/PRIMITIVES/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-03-17",
+      "signal": "CONTEXTUAL_UPDATE",
+      "text": "Navigate to any scope and all three primitives (INTEL, COIN, TALK) update contextually. The scope's CANON axiom becomes the TALK system prompt, the scope's wallet becomes the COIN display, the scope's intelligence becomes the INTEL pane.",
+      "source": "PRIMITIVES/CANON.md"
+    },
+    {
+      "date": "2026-03-17",
+      "signal": "NOT_PLUGINS",
+      "text": "Primitives are native to the operating surface, not sidebars bolted onto a graph. They compose in every view. The search dock IS the TALK interface; the control panel IS the COIN display; the left drawer IS the INTEL pane.",
+      "source": "PRIMITIVES/CANON.md"
+    },
+    {
+      "date": "2026-03-19",
+      "signal": "FIX_OPENS_TALK",
+      "text": "INTEL coverage gap \"fix\" button opens TALK with a contextual prompt. The user describes the fix in conversation, TALK creates the governance artifact, the gap closes on next build. INTEL → TALK → COIN is one continuous flow.",
+      "source": "Design session"
+    }
+  ],
+  "stats": {
+    "total_raw": 0,
+    "community_questions": 0,
+    "filtered_low_entropy": 0,
+    "filtered_pct": 0,
+    "domain_patterns": 3,
+    "filtered_examples": []
+  }
+}

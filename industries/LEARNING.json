@@ -1,0 +1,749 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/home/runner/CANONIC/canonic-canonic/INDUSTRIES/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "—",
+      "signal": "SEED",
+      "text": "INDUSTRY is the variable — primitives are fixed",
+      "source": "MAGIC LEARNING.md"
+    },
+    {
+      "date": "—",
+      "signal": "SEED",
+      "text": "Each vertical maps INTEL + CHAT + COIN to domain-specific standards",
+      "source": "Architecture"
+    },
+    {
+      "date": "—",
+      "signal": "SEED",
+      "text": "Medical verticals have deepest nesting (oncology → breast → MAMMOCHAT)",
+      "source": "hadleylab-canonic proof"
+    },
+    {
+      "date": "—",
+      "signal": "SEED",
+      "text": "Religion verticals demonstrate governance across 2000+ year institutions",
+      "source": "RELIGION scope"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_TERM",
+      "text": "New concept: MCODE",
+      "source": "2e2a0cf"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_TERM",
+      "text": "New concept: MAMMOCHAT",
+      "source": "f26a3c3"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_TERM",
+      "text": "New concept: FINCHAT",
+      "source": "f26a3c3"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_TERM",
+      "text": "New concept: DOMAIN",
+      "source": "f26a3c3"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_TERM",
+      "text": "New concept: SWITCHER",
+      "source": "f26a3c3"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "EXTINCTION",
+      "text": "Extinction: INTEL removed (3 occurrences)",
+      "source": "f26a3c3"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "EXTINCTION",
+      "text": "Extinction: COIN removed (3 occurrences)",
+      "source": "f26a3c3"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "EXTINCTION",
+      "text": "Extinction: INDUSTRIES removed (3 occurrences)",
+      "source": "f26a3c3"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_TERM",
+      "text": "New concept: LIVE_TRIALS_CONTEXT",
+      "source": "9b9da4e"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_TERM",
+      "text": "New concept: WALLET",
+      "source": "eb6a951"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_TERM",
+      "text": "New concept: MACHINE",
+      "source": "eb6a951"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_TERM",
+      "text": "New concept: INVEST",
+      "source": "eb6a951"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_TERM",
+      "text": "New concept: SALE",
+      "source": "eb6a951"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_TERM",
+      "text": "New concept: DONATION",
+      "source": "eb6a951"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_TERM",
+      "text": "New concept: RENDER_ECON",
+      "source": "eb6a951"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_TERM",
+      "text": "New concept: BILL",
+      "source": "eb6a951"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_COMPOSITION",
+      "text": "New composition: COIN + WORK",
+      "source": "eb6a951"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "EXTINCTION",
+      "text": "Extinction: HADLEYLAB removed (3 occurrences)",
+      "source": "eb6a951"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_TERM",
+      "text": "New concept: MAX_INHERIT_DEPTH",
+      "source": "5ae2178"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_TERM",
+      "text": "New concept: AUTOHIDE",
+      "source": "5cb2283"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "NEW_TERM",
+      "text": "New concept: SEQUENTIAL",
+      "source": "5cb2283"
+    },
+    {
+      "date": "2026-02-16",
+      "signal": "EXTINCTION",
+      "text": "Extinction: INDUSTRIES removed (8 occurrences)",
+      "source": "5cb2283"
+    },
+    {
+      "date": "2026-02-15",
+      "signal": "NEW_TERM",
+      "text": "New concept: VAULT",
+      "source": "183a254"
+    },
+    {
+      "date": "2026-02-15",
+      "signal": "NEW_COMPOSITION",
+      "text": "New composition: WORK + COIN",
+      "source": "183a254"
+    },
+    {
+      "date": "2026-02-15",
+      "signal": "NEW_TERM",
+      "text": "New concept: DERIVED",
+      "source": "99b05bd"
+    },
+    {
+      "date": "2026-02-15",
+      "signal": "EVOLUTION",
+      "text": "Evolution: SECONDARY → DERIVED",
+      "source": "99b05bd"
+    },
+    {
+      "date": "2026-02-15",
+      "signal": "EVOLUTION",
+      "text": "Evolution: SECONDARY → GOV",
+      "source": "99b05bd"
+    },
+    {
+      "date": "2026-02-15",
+      "signal": "EVOLUTION",
+      "text": "Evolution: AXIOMS → DERIVED",
+      "source": "99b05bd"
+    },
+    {
+      "date": "2026-02-15",
+      "signal": "EVOLUTION",
+      "text": "Evolution: AXIOMS → GOV",
+      "source": "99b05bd"
+    },
+    {
+      "date": "2026-02-15",
+      "signal": "NEW_TERM",
+      "text": "New concept: BARS",
+      "source": "ad449f1"
+    },
+    {
+      "date": "2026-02-15",
+      "signal": "NEW_TERM",
+      "text": "New concept: OFFSETS",
+      "source": "ad449f1"
+    },
+    {
+      "date": "2026-02-15",
+      "signal": "NEW_TERM",
+      "text": "New concept: FIXED",
+      "source": "ad449f1"
+    },
+    {
+      "date": "2026-02-15",
+      "signal": "NEW_TERM",
+      "text": "New concept: PROGRAMMING",
+      "source": "dfe81c4"
+    },
+    {
+      "date": "2026-02-15",
+      "signal": "NEW_TERM",
+      "text": "New concept: ORGS",
+      "source": "dfe81c4"
+    },
+    {
+      "date": "2026-02-15",
+      "signal": "NEW_TERM",
+      "text": "New concept: DEXTER",
+      "source": "dfe81c4"
+    },
+    {
+      "date": "2026-02-15",
+      "signal": "NEW_TERM",
+      "text": "New concept: SHOP",
+      "source": "dfe81c4"
+    },
+    {
+      "date": "2026-02-15",
+      "signal": "NEW_TERM",
+      "text": "New concept: ECON",
+      "source": "2159e03"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: ENERGY",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: FLEET",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: POPULAR",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: VERTICALS",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: VALID",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: BANNER",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: GOVERNANCE",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: ROADMAP",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: LOGISTICS",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: LAYER",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: AUTOMOTIVE",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: INTEL",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: INDUSTRY",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: PRIMITIVE",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: INDUSTRIES",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: RELIGION",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: HERO",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: CANON",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: AGRICULTURE",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: GENERATED",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: STATS",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: DEALS",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: AEROSPACE",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: VIOLATION",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: HORIZONTAL",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: MAGIC",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: CANONIC",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: ACCENT",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: AXIOMS",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: MOCK",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: ROBOTICS",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: ACCENTS",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: LANGUAGE",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: UTILITIES",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: RESPONSIVE",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: VOCAB",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: CONTROL",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: UTIL",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: RESET",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: BLOG",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: ANIMATION",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: TOGGLE",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: SPEC",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: THEMES",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: STRATA",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: SECTIONS",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: UNGOVERNED",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: COIN",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: GRID",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: DEMO",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: CHAT",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: REGULATORY",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: THESIS",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: CODE",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: GALAXY",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: HADLEYLAB",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: LANG",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: PRODUCTS",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: BASE",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: MANUFACTURING",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: MEDICINE",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: CARDS",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: TOKENS",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: COMPONENTS",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: DECK",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: TIERS",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: TALK",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_COMPOSITION",
+      "text": "New composition: INTEL + CHAT",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_COMPOSITION",
+      "text": "New composition: CANON + CODE",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_COMPOSITION",
+      "text": "New composition: RESET + BASE",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_COMPOSITION",
+      "text": "New composition: TALK + CHAT",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_COMPOSITION",
+      "text": "New composition: CHAT + INTEL",
+      "source": "1efc491"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "EVOLUTION",
+      "text": "META dissolved into INTEL→LEARNING — observation is a function, not a strata",
+      "source": "Architecture review"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "NEW_COMPOSITION",
+      "text": "INDUSTRIES made ontological — nodes not strings, instance binding via SHOP.md",
+      "source": "DESIGN.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "NEW_COMPOSITION",
+      "text": "COMPOSITION.md created — 15×SAFETY + 15×SECURITY + 10 V×V cross-domain products",
+      "source": "COMPOSITION.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "NEW_COMPOSITION",
+      "text": "All 8 incomplete verticals completed with Axioms + Validators + Examples + Application",
+      "source": "Gap closure"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_SCOPE",
+      "text": "New governance domain: LEARNING",
+      "source": "9ad8d27"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_CONSTRAINT",
+      "text": "New constraint: MUST: Declare governance.",
+      "source": "9ad8d27"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: GOVERNED",
+      "source": "83e3f57"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: ROOT",
+      "source": "83e3f57"
+    },
+    {
+      "date": "2026-02-14",
+      "signal": "NEW_TERM",
+      "text": "New concept: POLISH",
+      "source": "83e3f57"
+    }
+  ],
+  "stats": {
+    "total_raw": 0,
+    "community_questions": 0,
+    "filtered_low_entropy": 0,
+    "filtered_pct": 0,
+    "domain_patterns": 122,
+    "filtered_examples": []
+  }
+}

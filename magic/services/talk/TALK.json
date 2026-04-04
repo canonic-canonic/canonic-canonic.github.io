@@ -1,0 +1,483 @@
+{
+  "hero": {
+    "badge": "USER",
+    "title": "TALK",
+    "description": "TALK is CHAT + INTEL + COIN composed. Industry determines the voice. INTEL provides the knowledge. COIN gates premium access.",
+    "cta": [
+      {
+        "label": "Open TALK",
+        "href": "/MAGIC/SERVICES/TALK/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "TALK",
+      "dashboard": [
+        {
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "7",
+            "change": "patterns",
+            "trend": "up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Later",
+                "Multi-industry TALK routing: users access multiple vertical TALK channels from a"
+              ],
+              [
+                "Later",
+                "TALK quality metrics derived from LEDGER evidence (INTEL hit rate, disclaimer co"
+              ],
+              [
+                "Later",
+                "Federated TALK across GALAXY topology: governed conversation products spanning o"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-19",
+                "Per-USER dashboard at /CHAT/{USER}/",
+                "Every USER principal gets a governed TALK dashboard; cross-user messages via gov"
+              ],
+              [
+                "2026-02-19",
+                "Disclaimer is mandatory",
+                "TALK must never operate without disclaimer — governance constraint inherited fro"
+              ],
+              [
+                "2026-02-19",
+                "Industry vertical determines voice",
+                "TALK channels are never generic; voice, disclaimer, and knowledge scope derive f"
+              ],
+              [
+                "2026-02-27",
+                "COIN gate closes revenue loop",
+                "TALK composes COIN — premium tiers (ENTERPRISE 1 COIN/turn, AGENT 3 COIN/turn) r"
+              ],
+              [
+                "2026-02-27",
+                "TALK = CHAT + INTEL + COIN",
+                "Axiom updated: COIN is the third primitive in TALK composition; CHAT becomes sel"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "canon-composition",
+      "eyebrow": "COMPOSITION",
+      "title": "Composition",
+      "description": "``\nPrimitive:  CHAT (what you SAY) + INTEL (what you KNOW) + COIN (what you SPEND)\nService:    TALK (governed conversation product)\nInstance:   {USER}/SERVICES/TALK/ or {ORG}/TALKS/{PRODUCT}/\n``"
+    },
+    {
+      "id": "canon-infrastructure",
+      "eyebrow": "INFRASTRUCTURE",
+      "title": "Infrastructure",
+      "description": "``\nWorker:     canonic-services (Cloudflare Workers)\nDomain:     api.canonic.org/*\nKV:         TALK_KV (sessions, inboxes, contributions, ledger)\nSource:     ~/.canonic/design/TALK/src/worker.js\nConfig:     ~/.canonic/design/TALK/wrangler.toml\nDeploy:     wrangler deploy\n``"
+    },
+    {
+      "id": "canon-provider-chain",
+      "eyebrow": "PROVIDER CHAIN",
+      "title": "Provider Chain",
+      "description": "``\nPROVIDER       = anthropic\nFALLBACK       = anthropic\nPROVIDER_CHAIN = anthropic,openai,deepseek\n``\n\nDecommissioned (2026-02-18): RunPod (Qwen 14B-AWQ), Vast.ai (Qwen 7B). Configs preserved for relaunch reference.",
+      "table": {
+        "headers": [
+          "Provider",
+          "Model",
+          "Role"
+        ],
+        "rows": [
+          [
+            "Anthropic",
+            "claude-sonnet-4-20250514",
+            "Primary"
+          ],
+          [
+            "OpenAI",
+            "gpt-4o-mini",
+            "Fallback"
+          ],
+          [
+            "DeepSeek",
+            "deepseek-chat",
+            "Fallback"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-api-routes",
+      "eyebrow": "API ROUTES",
+      "title": "API Routes",
+      "description": "### Conversation\n\nSystem prompt resolved from compiled CANON.json per scope. Every turn ledgered. Premium tiers require SPEND (ENTERPRISE: 1 COIN/turn, AGENT: 3 COIN/turn). Insufficient balance returns 402.\n\n### Auth\n\n| Method | Path | Auth | Purpose |\n|--------|------|------|---------|\n| GET | /auth/config | Public | GitHub OAuth client config |\n| POST | /auth/github | Public | Exchange OAuth code for session token |\n| GET | /auth/session | Bearer | Validate session |\n| POST | /auth/logout | Bearer | Destroy session (KV delete) |\n| GET | /auth/grants?scope=X | Bearer | Check scope access level |\n\n### Shop\n\n| Method | Path | Auth | Purpose |\n|--------|------|------|---------|\n| POST | /shop/checkout | Public | Create Stripe Checkout session |\n| POST | /shop/webhook/stripe | Stripe sig | Handle payment events |\n| GET | /shop/wallet | Public | Public wallet summary |\n\n### Ledger\n\n| Method | Path | Auth | Purpose |\n|--------|------|------|---------|\n| POST | /talk/ledger | Bearer | Log conversation turn |\n| GET | /talk/ledger?scope=X | Bearer | Read session ledger |\n\n### Messaging\n\n| Method | Path | Auth | Purpose |\n|--------|------|------|---------|\n| POST | /talk/send | Bearer | Cross-user message delivery |\n| GET | /talk/inbox?scope=X | Bearer | Read inbox |\n| POST | /talk/ack | Bearer | Mark messages read |\n\n### Contribute\n\n| Method | Path | Auth | Purpose |\n|--------|------|------|---------|\n| POST | /contribute | Bearer | Submit contribution (MINT:CONTRIBUTE) |\n| GET | /contribute?scope=X | Public | Read contributions |\n\n### Proxy\n\n| Method | Path | Auth | Purpose |\n|--------|------|------|---------|\n| GET | /omics/ncbi/* | Public | NCBI proxy (ledger-recorded) |\n| GET | /omics/pharmgkb/* | Public | PharmGKB proxy (ledger-recorded) |\n\n### Status\n\n| Method | Path | Auth | Purpose |\n|--------|------|------|---------|\n| GET | /health | Public | Worker health check (fast) |\n| GET | /health?deep=true | Public | Full governance scan + provider preflight |",
+      "table": {
+        "headers": [
+          "Method",
+          "Path",
+          "Auth",
+          "Purpose"
+        ],
+        "rows": [
+          [
+            "POST",
+            "/chat",
+            "Scope-dependent",
+            "Conversation with INTEL wiring + COIN gate"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-preflight",
+      "eyebrow": "PREFLIGHT",
+      "title": "Preflight",
+      "description": "Provider preflight verifies that each provider in the chain can accept requests BEFORE user traffic hits them.\n\n### Contract\n\n### Standardized Interface\n\nEvery provider MUST implement validate(env) and preflight(env).\n\nvalidate(env) → string | null (error message or null if config is present)\n\npreflight(env) → standardized result:\n\n| Field | Type | Required |\n|-------|------|----------|\n| status | 'ok' \\| 'degraded' \\| 'error' | yes |\n| key_valid | boolean | yes |\n| model | string | yes |\n| requests_remaining | number | no |\n| requests_limit | number | no |\n| tokens_remaining | number | no |\n| tokens_limit | number | no |\n| elapsed_ms | number | yes |\n| error | string | no |\n\n### Probe Methods\n\n| Provider | Probe | Token cost |\n|----------|-------|------------|\n| anthropic | POST /v1/messages (max_tokens: 1) + parse rate-limit headers | ~3 tokens |\n| openai | POST /v1/chat/completions (max_tokens: 1) + parse rate-limit headers | ~3 tokens |\n| deepseek | POST /v1/chat/completions (max_tokens: 1) + parse rate-limit headers | ~3 tokens |\n| runpod | GET /v2/{id}/health (existing) | 0 tokens |\n| vastai | GET {base}/models (liveness) | 0 tokens |\n\n### Degradation\n\nStatus becomes degraded when requests_remaining or tokens_remaining falls below 5% of limit.\nStatus becomes error on 401/403 (invalid key) or unreachable.\n\n### Deep Health Response Shape\n\nAppears in services.checks[] as:\n\n``json\n{\n  \"service\": \"TALK_PREFLIGHT\",\n  \"status\": \"ok|degraded|error\",\n  \"providers\": {\n    \"anthropic\": {\n      \"status\": \"ok\",\n      \"key_valid\": true,\n      \"model\": \"claude-sonnet-4-20250514\",\n      \"requests_remaining\": 950,\n      \"requests_limit\": 1000,\n      \"tokens_remaining\": 198000,\n      \"tokens_limit\": 200000,\n      \"elapsed_ms\": 450\n    }\n  }\n}\n``",
+      "table": {
+        "headers": [
+          "Constraint",
+          "Rule"
+        ],
+        "rows": [
+          [
+            "MUST",
+            "Probe every provider in PROVIDER_CHAIN on deep health"
+          ],
+          [
+            "MUST",
+            "Report key validity, model, and remaining capacity per provider"
+          ],
+          [
+            "MUST",
+            "Cache results in KV (TTL: configurable, default 120s)"
+          ],
+          [
+            "MUST",
+            "Surface violations when any provider reports error"
+          ],
+          [
+            "MUST NOT",
+            "Block fast health — preflight runs only on `?deep=true`"
+          ],
+          [
+            "MUST NOT",
+            "Consume more than 1 output token per probe"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-system-prompt-resolution",
+      "eyebrow": "SYSTEM PROMPT RESOLUTION",
+      "title": "System Prompt Resolution",
+      "description": "``\nClient sends: POST /chat { scope, message, history[] }\nWorker resolves: CANON.json for scope → extract systemPrompt\nSystem message prepended (immutable — not exposed to client)\nProvider chain invoked: primary → fallback → fallback\nResponse streamed as SSE (text/event-stream)\n``"
+    },
+    {
+      "id": "canon-record-shape",
+      "eyebrow": "RECORD SHAPE",
+      "title": "Record Shape",
+      "description": "``\n``",
+      "table": {
+        "headers": [
+          "Field",
+          "Type",
+          "Required"
+        ],
+        "rows": [
+          [
+            "id",
+            "string",
+            "yes"
+          ],
+          [
+            "ts",
+            "ISO-8601",
+            "yes"
+          ],
+          [
+            "channel",
+            "string",
+            "yes"
+          ],
+          [
+            "actor",
+            "string",
+            "yes"
+          ],
+          [
+            "content",
+            "string",
+            "yes"
+          ],
+          [
+            "intel_refs",
+            "string[]",
+            "yes"
+          ],
+          [
+            "disclaimer",
+            "string",
+            "yes"
+          ],
+          [
+            "meta",
+            "object",
+            "no"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-security",
+      "eyebrow": "SECURITY",
+      "title": "Security",
+      "description": "### CORS\n\nGoverned origins only — never wildcard in production.\n\n``\nCORS_ALLOWED_ORIGINS:\n  https://canonic.org\n  https://hadleylab.org\n  https://mammochat.com\n  https://mammo.chat\n  https://api.canonic.org\n  https://*.canonic.org\n`\n\n### Rate Limits\n\n### CSP\n\nContent-Security-Policy delivered via meta tag in DESIGN HEAD.html. Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://api.canonic.org; connect-src 'self' https://api.canonic.org https://*.canonic.org; frame-ancestors 'none'`.",
+      "table": {
+        "headers": [
+          "Endpoint",
+          "Limit",
+          "Key"
+        ],
+        "rows": [
+          [
+            "/chat",
+            "60/hr",
+            "IP"
+          ],
+          [
+            "/v1/chat/completions",
+            "120/hr",
+            "IP"
+          ],
+          [
+            "/auth/github",
+            "20/hr",
+            "IP"
+          ],
+          [
+            "/email/send",
+            "10/hr",
+            "IP"
+          ],
+          [
+            "/shop/checkout",
+            "20/hr",
+            "IP"
+          ],
+          [
+            "/omics/*",
+            "200/hr",
+            "IP"
+          ],
+          [
+            "/talk/ledger (POST)",
+            "100/hr",
+            "scope"
+          ],
+          [
+            "/contribute (POST)",
+            "10/hr",
+            "IP"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "canon-instances",
+      "eyebrow": "INSTANCES",
+      "title": "Instances",
+      "description": "Discovered via magic scan — never hardcoded."
+    },
+    {
+      "id": "canon-coin-gate",
+      "eyebrow": "COIN GATE",
+      "title": "COIN Gate",
+      "description": "``\nTIERS:\n    PUBLIC:      Free — rate-limited, no auth required, generic scope only\n    COMMUNITY:   Free — auth required, scoped INTEL, session ledgered\n    ENTERPRISE:  SPEND — 1 COIN/turn, full INTEL wiring, priority provider chain\n    AGENT:       SPEND — 3 COIN/turn, cross-scope INTEL, dedicated context\n\nFLOW:\n    POST /chat { scope, message } → resolve tier from auth/grants\n    → if tier requires SPEND: vault spend --user USER --amount RATE --ref talk-{session_id}\n    → if SPEND fails (insufficient balance): 402 Payment Required\n    → if SPEND succeeds: proceed with provider chain, MINT:TALK to LEDGER\n\nEVENTS:\n    SPEND:TALK     — buyer debit (conversation consumer)\n    MINT:TALK      — LEDGER evidence (every turn, every tier)\n``\n\nRevenue enters the loop. CHAT becomes self-funding. Provider costs covered by COIN flow, not external subsidy.\n\n*TALK | SPEC | SERVICES*"
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/SERVICES/TALK/TALK.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "TALK | CANONIC",
+  "canon": {
+    "axiom": "TALK is CHAT + INTEL + COIN composed. Industry determines the voice. INTEL provides the knowledge. COIN gates premium access.",
+    "constraints": "MUST:     Wire INTEL — never speak without knowledge\nMUST:     Wire COIN — premium tiers require SPEND per conversation\nMUST:     Industry determines the voice — never generic\nMUST:     Every channel governed by CANON.md scope\nMUST:     Session ledger for every conversation turn\nMUST:     Every USER principal has a dashboard at /TALKS/{USER}/\nMUST:     Cross-user messages delivered via governed inbox\nMUST:     Rate-limit /chat by IP — protect provider budgets\nMUST:     Restrict CORS to fleet origins — never wildcard in production\nMUST:     Set timeouts on all external fetch calls — no unbounded waits\nMUST:     Log request traces with provider, latency, status\nMUST NOT: TALK without disclaimer\nMUST NOT: Duplicate across industries\nMUST NOT: Fabricate claims\nMUST:     FLAGSHIP requires cross-axiomatic INTEL — sibling fleet awareness in systemPrompt\nMUST:     FLAGSHIP requires minimum 5 test vectors in INTEL.md\nMUST:     FLAGSHIP requires cross-domain routing table (when to reference legal, financial, clinical)\nMUST:     FLAGSHIP requires explicit COIN structure (not implicit)\nMUST:     FLAGSHIP requires active LEARNING ledger with SESSION_LEDGERED signals",
+    "inherits": "canonic-canonic/MAGIC/SERVICES",
+    "spec": [
+      {
+        "title": "Purpose",
+        "body": "**TALK is the governed conversation service. CHAT + INTEL + COIN = TALK.**\n\nEvery TALK instance composes CHAT (the conversation interface) with INTEL (the knowledge source) and COIN (the revenue gate). Industry determines the voice. No generic TALK exists — every instance is industry-specific. COIN closes the revenue loop — provider costs covered by COIN flow, not external subsidy.\n\n---"
+      },
+      {
+        "title": "Composition",
+        "body": "```\nPrimitive:  CHAT (what you SAY) + INTEL (what you KNOW) + COIN (what you SPEND)\nService:    TALK (governed conversation product)\nInstance:   {USER}/SERVICES/TALK/ or {ORG}/TALKS/{PRODUCT}/\n```\n\n---"
+      },
+      {
+        "title": "Infrastructure",
+        "body": "```\nWorker:     canonic-services (Cloudflare Workers)\nDomain:     api.canonic.org/*\nKV:         TALK_KV (sessions, inboxes, contributions, ledger)\nSource:     ~/.canonic/design/TALK/src/worker.js\nConfig:     ~/.canonic/design/TALK/wrangler.toml\nDeploy:     wrangler deploy\n```\n\n---"
+      },
+      {
+        "title": "Provider Chain",
+        "body": "| Provider | Model | Role |\n|----------|-------|------|\n| Anthropic | claude-sonnet-4-20250514 | Primary |\n| OpenAI | gpt-4o-mini | Fallback |\n| DeepSeek | deepseek-chat | Fallback |\n\n```\nPROVIDER       = anthropic\nFALLBACK       = anthropic\nPROVIDER_CHAIN = anthropic,openai,deepseek\n```\n\nDecommissioned (2026-02-18): RunPod (Qwen 14B-AWQ), Vast.ai (Qwen 7B). Configs preserved for relaunch reference.\n\n---"
+      },
+      {
+        "title": "API Routes",
+        "body": "### Conversation\n\n| Method | Path | Auth | Purpose |\n|--------|------|------|---------|\n| POST | /chat | Scope-dependent | Conversation with INTEL wiring + COIN gate |\n\nSystem prompt resolved from compiled CANON.json per scope. Every turn ledgered. Premium tiers require SPEND (ENTERPRISE: 1 COIN/turn, AGENT: 3 COIN/turn). Insufficient balance returns 402.\n\n### Auth\n\n| Method | Path | Auth | Purpose |\n|--------|------|------|---------|\n| GET | /auth/config | Public | GitHub OAuth client config |\n| POST | /auth/github | Public | Exchange OAuth code for session token |\n| GET | /auth/session | Bearer | Validate session |\n| POST | /auth/logout | Bearer | Destroy session (KV delete) |\n| GET | /auth/grants?scope=X | Bearer | Check scope access level |\n\n### Shop\n\n| Method | Path | Auth | Purpose |\n|--------|------|------|---------|\n| POST | /shop/checkout | Public | Create Stripe Checkout session |\n| POST | /shop/webhook/stripe | Stripe sig | Handle payment events |\n| GET | /shop/wallet | Public | Public wallet summary |\n\n### Ledger\n\n| Method | Path | Auth | Purpose |\n|--------|------|------|---------|\n| POST | /talk/ledger | Bearer | Log conversation turn |\n| GET | /talk/ledger?scope=X | Bearer | Read session ledger |\n\n### Messaging\n\n| Method | Path | Auth | Purpose |\n|--------|------|------|---------|\n| POST | /talk/send | Bearer | Cross-user message delivery |\n| GET | /talk/inbox?scope=X | Bearer | Read inbox |\n| POST | /talk/ack | Bearer | Mark messages read |\n\n### Contribute\n\n| Method | Path | Auth | Purpose |\n|--------|------|------|---------|\n| POST | /contribute | Bearer | Submit contribution (MINT:CONTRIBUTE) |\n| GET | /contribute?scope=X | Public | Read contributions |\n\n### Proxy\n\n| Method | Path | Auth | Purpose |\n|--------|------|------|---------|\n| GET | /omics/ncbi/* | Public | NCBI proxy (ledger-recorded) |\n| GET | /omics/pharmgkb/* | Public | PharmGKB proxy (ledger-recorded) |\n\n### Status\n\n| Method | Path | Auth | Purpose |\n|--------|------|------|---------|\n| GET | /health | Public | Worker health check (fast) |\n| GET | /health?deep=true | Public | Full governance scan + provider preflight |\n\n---"
+      },
+      {
+        "title": "Preflight",
+        "body": "Provider preflight verifies that each provider in the chain can accept requests BEFORE user traffic hits them.\n\n### Contract\n\n| Constraint | Rule |\n|------------|------|\n| MUST | Probe every provider in PROVIDER_CHAIN on deep health |\n| MUST | Report key validity, model, and remaining capacity per provider |\n| MUST | Cache results in KV (TTL: configurable, default 120s) |\n| MUST | Surface violations when any provider reports error |\n| MUST NOT | Block fast health — preflight runs only on `?deep=true` |\n| MUST NOT | Consume more than 1 output token per probe |\n\n### Standardized Interface\n\nEvery provider MUST implement `validate(env)` and `preflight(env)`.\n\n`validate(env)` → `string | null` (error message or null if config is present)\n\n`preflight(env)` → standardized result:\n\n| Field | Type | Required |\n|-------|------|----------|\n| status | 'ok' \\| 'degraded' \\| 'error' | yes |\n| key_valid | boolean | yes |\n| model | string | yes |\n| requests_remaining | number | no |\n| requests_limit | number | no |\n| tokens_remaining | number | no |\n| tokens_limit | number | no |\n| elapsed_ms | number | yes |\n| error | string | no |\n\n### Probe Methods\n\n| Provider | Probe | Token cost |\n|----------|-------|------------|\n| anthropic | POST /v1/messages (max_tokens: 1) + parse rate-limit headers | ~3 tokens |\n| openai | POST /v1/chat/completions (max_tokens: 1) + parse rate-limit headers | ~3 tokens |\n| deepseek | POST /v1/chat/completions (max_tokens: 1) + parse rate-limit headers | ~3 tokens |\n| runpod | GET /v2/{id}/health (existing) | 0 tokens |\n| vastai | GET {base}/models (liveness) | 0 tokens |\n\n### Degradation\n\nStatus becomes `degraded` when requests_remaining or tokens_remaining falls below 5% of limit.\nStatus becomes `error` on 401/403 (invalid key) or unreachable.\n\n### Deep Health Response Shape\n\nAppears in `services.checks[]` as:\n\n```json\n{\n  \"service\": \"TALK_PREFLIGHT\",\n  \"status\": \"ok|degraded|error\",\n  \"providers\": {\n    \"anthropic\": {\n      \"status\": \"ok\",\n      \"key_valid\": true,\n      \"model\": \"claude-sonnet-4-20250514\",\n      \"requests_remaining\": 950,\n      \"requests_limit\": 1000,\n      \"tokens_remaining\": 198000,\n      \"tokens_limit\": 200000,\n      \"elapsed_ms\": 450\n    }\n  }\n}\n```\n\n---"
+      },
+      {
+        "title": "System Prompt Resolution",
+        "body": "```\n1. Client sends: POST /chat { scope, message, history[] }\n2. Worker resolves: CANON.json for scope → extract systemPrompt\n3. System message prepended (immutable — not exposed to client)\n4. Provider chain invoked: primary → fallback → fallback\n5. Response streamed as SSE (text/event-stream)\n```\n\n---"
+      },
+      {
+        "title": "Record Shape",
+        "body": "```\n| Field       | Type     | Required |\n|-------------|----------|----------|\n| id          | string   | yes      |\n| ts          | ISO-8601 | yes      |\n| channel     | string   | yes      |\n| actor       | string   | yes      |\n| content     | string   | yes      |\n| intel_refs  | string[] | yes      |\n| disclaimer  | string   | yes      |\n| meta        | object   | no       |\n```\n\n---"
+      },
+      {
+        "title": "Security",
+        "body": "### CORS\n\nGoverned origins only — never wildcard in production.\n\n```\nCORS_ALLOWED_ORIGINS:\n  https://canonic.org\n  https://hadleylab.org\n  https://mammochat.com\n  https://mammo.chat\n  https://api.canonic.org\n  https://*.canonic.org\n```\n\n### Rate Limits\n\n| Endpoint | Limit | Key |\n|----------|-------|-----|\n| /chat | 60/hr | IP |\n| /v1/chat/completions | 120/hr | IP |\n| /auth/github | 20/hr | IP |\n| /email/send | 10/hr | IP |\n| /shop/checkout | 20/hr | IP |\n| /omics/* | 200/hr | IP |\n| /talk/ledger (POST) | 100/hr | scope |\n| /contribute (POST) | 10/hr | IP |\n\n### CSP\n\nContent-Security-Policy delivered via meta tag in DESIGN HEAD.html. Policy: `default-src 'self'; script-src 'self' 'unsafe-inline' https://api.canonic.org; connect-src 'self' https://api.canonic.org https://*.canonic.org; frame-ancestors 'none'`.\n\n---"
+      },
+      {
+        "title": "Instances",
+        "body": "Discovered via `magic scan` — never hardcoded.\n\n---\n\n---"
+      },
+      {
+        "title": "COIN Gate",
+        "body": "```\nTIERS:\n    PUBLIC:      Free — rate-limited, no auth required, generic scope only\n    COMMUNITY:   Free — auth required, scoped INTEL, session ledgered\n    ENTERPRISE:  SPEND — 1 COIN/turn, full INTEL wiring, priority provider chain\n    AGENT:       SPEND — 3 COIN/turn, cross-scope INTEL, dedicated context\n\nFLOW:\n    POST /chat { scope, message } → resolve tier from auth/grants\n    → if tier requires SPEND: vault spend --user USER --amount RATE --ref talk-{session_id}\n    → if SPEND fails (insufficient balance): 402 Payment Required\n    → if SPEND succeeds: proceed with provider chain, MINT:TALK to LEDGER\n\nEVENTS:\n    SPEND:TALK     — buyer debit (conversation consumer)\n    MINT:TALK      — LEDGER evidence (every turn, every tier)\n```\n\nRevenue enters the loop. CHAT becomes self-funding. Provider costs covered by COIN flow, not external subsidy.\n\n---"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-19 | TALK = CHAT + INTEL composed | TALK is the governed conversation service; CHAT is the primitive, TALK is the product | SERVICES/TALK/CANON.md |\n| 2026-02-19 | TALK is optional service | COIN and TALK are optional; only INTEL (WORK) is mandatory across all principals | canonic-canonic/FOUNDATION/DOCTRINE |\n| 2026-02-19 | Per-USER dashboard at /CHAT/{USER}/ | Every USER principal gets a governed TALK dashboard; cross-user messages via governed inbox | SERVICES/TALK/CANON.md |\n| 2026-02-19 | Disclaimer is mandatory | TALK must never operate without disclaimer — governance constraint inherited from CHAT | SERVICES/TALK/CANON.md |\n| 2026-02-19 | Industry vertical determines voice | TALK channels are never generic; voice, disclaimer, and knowledge scope derive from industry CANON | SERVICES/CHAT/CANON.md |\n| 2026-02-27 | COIN gate closes revenue loop | TALK composes COIN — premium tiers (ENTERPRISE 1 COIN/turn, AGENT 3 COIN/turn) require SPEND; provider costs covered by COIN flow, not external subsidy | SERVICES/TALK/CANON.md |\n| 2026-02-27 | TALK = CHAT + INTEL + COIN | Axiom updated: COIN is the third primitive in TALK composition; CHAT becomes self-funding | SERVICES/TALK/CANON.md |\n\n---"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {
+      "later": [
+        "Multi-industry TALK routing: users access multiple vertical TALK channels from a unified conversation surface",
+        "TALK quality metrics derived from LEDGER evidence (INTEL hit rate, disclaimer compliance, session depth)",
+        "Federated TALK across GALAXY topology: governed conversation products spanning org boundaries with signed identity"
+      ]
+    },
+    "vocab": [
+      {
+        "term": "SPEND",
+        "definition": "COIN debit per conversation turn — tier-gated"
+      },
+      {
+        "term": "FLAGSHIP",
+        "definition": "TALK product status. Highest product-promotion tier. Requires: cross-axiomatic INTEL (sibling fleet awareness), minimum 5 test vectors, cross-domain routing (legal/financial/clinical bridges), explicit COIN structure, active LEARNING ledger. FLAGSHIP carries the fleet."
+      },
+      {
+        "term": "LIVE",
+        "definition": "TALK product status. Operational and validated to 255. Standard INTEL wiring — own domain + inheritance chain."
+      },
+      {
+        "term": "ACTIVE",
+        "definition": "TALK product status. Deployed but scope-limited (e.g., single property, single principal)."
+      },
+      {
+        "term": "GOVERNING",
+        "definition": "TALK product status. Pre-launch. Institutional approval pending."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "SERVICES",
+        "axiom": "SERVICES are SURFACE routes with governed boundaries.",
+        "constraints": "MUST:     Every service composes INTEL (mandatory — knowledge backs every operation)\nMUST:     Primitives are files, services are directories: INTEL→LEARNING, CHAT→TALK, COIN→SHOP\nMUST:     COIN is optional — adds economics (the economic shadow of WORK)\nMUST:     TALK is optional — adds governed conversation product\nMUST:     NOTIFIER is optional — adds governed cross-scope delivery (NOTIFY + INTEL)\nMUST:     Treat each service scope as a governed boundary (no cross-scope leakage)\nMUST:     Drive routes and UI from governed indices (no hardcoding)\nMUST:     NETWORK services MUST declare Routes table with Method + Primitive\nMUST:     NETWORK services MUST declare Architecture showing client → worker → backend\nMUST:     NETWORK services MUST declare Configuration with all vars and secrets\nMUST:     COMPILER services MUST declare Interface with input/output contract\nMUST NOT: Embed runtime state into governed scopes\nMUST NOT: Ship a service without declaring its API surface in CANON.md"
+      },
+      {
+        "scope": "SURFACE",
+        "axiom": "SURFACE is the platform lane.",
+        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

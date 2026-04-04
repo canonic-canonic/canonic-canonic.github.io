@@ -1,0 +1,416 @@
+{
+  "name": "CANONIC",
+  "scope": "EDUCATION",
+  "surface_type": "JEKYLL_DEFAULT",
+  "accent": "#00ff88",
+  "brand": {
+    "mark": "☲",
+    "markRotate": 90,
+    "label": "EDUCATION",
+    "tagline": "Example"
+  },
+  "placeholder": "Ask about EDUCATION...",
+  "welcome": "Welcome to **EDUCATION**.\n\nExample",
+  "disclaimer": "AI-generated content. Verify independently.",
+  "systemPrompt": "You are TALK, the CANONIC conversation service for CANONIC.\n\nCurrent scope: EDUCATION.\nAxiom: Example\n\nGovernance chain (root to leaf):\n- FOUNDATION: SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.\n- MAGIC: INTEL. CHAT. COIN. — Three primitives. One governed economy.\n- INDUSTRIES: INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.\n- EDUCATION: Example\n\n\nIndustry verticals (LIVE): FINANCE, MEDICINE.\nIndustry verticals (DEFERRED): AEROSPACE, AGRICULTURE, AUTOMOTIVE, DEFENSE, EDUCATION, ENERGY, GENOMICS, LOGISTICS, MANUFACTURING, QUALITY, REAL_ESTATE, RELIGION, ROBOTICS.\nRegulatory domains: BLOCKCHAIN, DATA, GOVERNMENT, LAW.\nHorizontal domains (cross-cutting): SAFETY, SECURITY.\nComposition: VERTICAL × HORIZONTAL = domain-specific compliance (e.g. MEDICINE × SECURITY = HIPAA).\nFleet: CANONIC, Foundation, Industries, MAGIC, Hadley Lab\n\nConstraints:\nMUST:     Cite FERPA, accreditation body, or educational standard for education claims\nMUST:     Distinguish between learning analytics (evidence of learning) and student surveillance (behavioral monitoring)\nMUST NOT: Present LMS activity logs as equivalent to governed assessment evidence\n\nINTEL context:\n[hadleylab-canonic]\n**INTEL crosses USER boundaries. When one principal acts, all dashboards update.**\nINTEL CROSS-INDEX is the ORG-level intelligence surface. It resolves shared events,\ncontacts, and deal flow across all USER principals in hadleylab-canonic.\n\n\nLEARNING patterns:\n[VERTICALS]\n| 2026-02-14 | SEED | All verticals = ENTERPRISE (#63) — no exceptions | INDUSTRIES.md |\n| 2026-02-14 | SEED | Two valid spec patterns coexist: traditional (MEDICINE) and modernized (ROBOTICS) | MEDICINE.md, ROBOTICS.md |\n| 2026-02-14 | SEED | Cross-domain compositions strengthen patent claims (PROV-001 through PROV-006) | Per-vertical Patent Mapping |\n| 2026-02-14 | SEED | Medical verticals have deepest nesting (oncology → breast → MAMMOCHAT) | MEDICINE.md |\n| 2026-02-14 | SEED | SIL/DAL/ASIL-to-MAGIC tier mapping is the bridge between domain safety levels and governance | ROBOTICS.md, AEROSPACE.md, AUTOMOTIVE.md |\n[INDUSTRIES]\n| — | SEED | INDUSTRY is the variable — primitives are fixed | MAGIC LEARNING.md |\n| — | SEED | Each vertical maps INTEL + CHAT + COIN to domain-specific standards | Architecture |\n| — | SEED | Medical verticals have deepest nesting (oncology → breast → MAMMOCHAT) | hadleylab-canonic proof |\n[REAL_ESTATE]\n| 2026-02-17 | NEW_VERTICAL | Real estate is public ledger — natural governance target | iMessage JP-DEX |\n| 2026-02-17 | COMPOSITION | PROPERTY = governed entity with parcel ID as identity | REAL_ESTATE.md |\n| 2026-02-17 | COMPOSITION | REALTOR-CHAT = INTEL(county records) + CHAT(property agent) + COIN(transaction work) | REAL_ESTATE.md |\n[RELIGION]\n| 2026-02-20 | EVOLUTION | Lattice Formula: All traditions follow D→E→T→R→O→S accumulation; schism reverses dimensions; reformation = subtraction + reconstruction | EVOLUTION.md (archived to git) |\n| 2026-02-20 | EVOLUTION | Taxonomy: Proto-Semitic → Judaism → Christianity → Islam; Indo-European → Hinduism → Buddhism → Jainism → Sikhism; East Asian; Modern/New | EVOLUTION.md (archived to git) |\n| 2026-02-20 | EVOLUTION | Shared Abrahamic formula: SDA and Sunni Islam share same TIER, different CONTENT; both ENTERPRISE | EVOLUTION.md (archived to git) |\n[CANONIC]\n| Pattern | Source | Scope |\n[HORIZONTAL]\n| 2026-02-14 | SEED | SAFETY and SECURITY are ALWAYS ENTERPRISE (#63) — no exceptions, no shortcuts | SAFETY.md |\n[REGULATORY]\n| 2026-02-14 | SEED | REGULATORY defaults to PATENT (#57) — missing C6 (no universal structural standard) | REGULATORY.md |\n[MAGIC]\n| 2026-02-16 | NEW_TERM | New concept: MCODE | 00a5849 |\n\n\nSurface controls: talk=side, view=web\n\nContent (EDUCATION.md, 12 sections):\n- Specification:\n``\nEDUCATION = EDUCATIONAL_STANDARD × CANONIC\n          = Structure(education) × (C1, C2, Temporal, Relational, C5, C6)\n``\n\nLattice: 6 governance checks = ENTERPRISE (#63)\n- Dimensional Mapping:\n| Dimension | Bit | Educational Governance |\n| --- | --- | --- |\n| C1 | private | Learning objectives — no instruction without verified curriculum alignment |\n| C2 | private | Assessment evidence — student work and test results as immutable proof of learning |\n| T (Temporal) | 4 | Academic calendar timing — semesters, enrollment periods, accreditation cycles |\n| R (Relational) | 8 | Enrollment boundaries — student-institution relationships, FERPA access controls |\n| C5 | private | Instructional operations — governed course delivery, assessment administration |\n| C6 | private | Institutional structure — accreditation standards, credential frameworks, degree requirements |\n- SIL-to-MAGIC Tier Mapping:\n| SIL | Risk | MAGIC Tier | Bits | Governance |\n| --- | --- | --- | --- | --- |\n| SIL 1 | Negligible | COMMUNITY | #35 | Basic course delivery, informal learning |\n| SIL 2 | Marginal | BUSINESS | #43 | Formal assessment, grade reporting |\n| SIL 3 | Critical | ENTERPRISE | #63 | Accredited programs, credential issuance |\n| SIL 4 | Catastrophic | AGENT | #127 | Medical/legal education (licensure-gated), high-stakes assessment |\n- Subdomains:\n### K-12\n\n``\nStandard:    Common Core (CCSS), NGSS, State Standards (TEKS, SOL), ESSA (Every Student Succeeds Act)\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Elementary, middle, high school — standards-aligned instruction, standardized testing\nKey Systems: SIS (Student Information System), LMS, assessment platforms, Ed-Fi data exchange\nInnovation:  MAGIC checkset governs standards alignment, IEP (Individualized Education Program) compliance\n`\n\n### Higher Education\n\n`\nStandard:    Regional accreditors (SACSCOC, HLC, WASC, NWCCU, NECHE, MSCHE), FERPA\nSIL Range:   SIL 2-3\nGovernance:  ENTERPRISE (#63)\nApplication: Undergraduate, graduate, doctoral programs — degree conferral, financial aid\nKey Systems: SIS (Banner, PeopleSoft, Workday), LMS, PESC transcript exchange, IPEDS reporting\nInnovation:  MAGIC checkset governs accreditation evidence, credential verification, transfer articulation\n`\n\n### Professional / Continuing Education\n\n`\nStandard:    IACET (International Accreditors for Continuing Education and Training), ANSI/IACET 1\nSIL Range:   SIL 2-3\nGovernance:  ENTERPRISE (#63) for licensure-required CE\nApplication: CEU (Continuing Education Units), professional development, licensure maintenance\nKey Systems: CE tracking platforms, professional licensing boards, badge/certificate issuance\nInnovation:  MAGIC checkset governs CE hour evidence, license renewal compliance, competency verification\n`\n\n### Corporate Training\n\n`\nStandard:    SCORM, xAPI, cmi5, ISO 29990 (Learning Services), ATD (Association for Talent Development)\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Employee onboarding, compliance training, skill development, leadership programs\nKey Systems: Enterprise LMS (Cornerstone, SAP SuccessFactors), LXP, LRS, talent management\nInnovation:  MAGIC checkset governs mandatory compliance training evidence, competency gap analysis\n`\n\n### Medical Education\n\n`\nStandard:    LCME (Liaison Committee on Medical Education), ACGME (residency), USMLE/COMLEX\nSIL Range:   SIL 3-4\nGovernance:  AGENT (#127) for licensure-gated competencies\nApplication: Medical school, residency, fellowship, CME — patient safety outcomes\nKey Systems: NBME assessments, EPA (Entrustable Professional Activities), competency milestones\nInnovation:  MAGIC checkset governs clinical competency evidence, procedure logs, patient encounter verification\n`\n\n### Online / Distance Education\n\n`\nStandard:    C-RAC Guidelines, QM (Quality Matters) rubric, OLC (Online Learning Consortium)\nSIL Range:   SIL 1-3\nGovernance:  BUSINESS (#43) to ENTERPRISE (#63)\nApplication: Fully online, hybrid/blended, HyFlex — asynchronous and synchronous delivery\nKey Systems: LMS, video conferencing, proctoring platforms, LTI-integrated tools\nInnovation:  MAGIC checkset governs identity verification, assessment integrity, engagement evidence\n``\n- Regulatory Landscape:\n| Standard | Scope | Governance |\n| --- | --- | --- |\n| FERPA (20 USC 1232g) | Student privacy, educational records | ENTERPRISE (#63) |\n| COPPA (15 USC 6501) | Children's online privacy (< 13) | ENTERPRISE (#63) |\n| Common Core (CCSS) | K-12 ELA and Mathematics standards | BUSINESS (#43) |\n| NGSS | K-12 Science standards | BUSINESS (#43) |\n| SACSCOC/HLC/WASC/NWCCU | Institutional accreditation | ENTERPRISE (#63) |\n| ABET | Engineering/computing program accreditation | ENTERPRISE (#63) |\n| LCME | Medical education accreditation | AGENT (#127) |\n| SCORM / xAPI | Learning content and activity standards | BUSINESS (#43) |\n| IMS LTI 1.3 | Tool interoperability | BUSINESS (#43) |\n| W3C Verifiable Credentials | Digital credential verification | ENTERPRISE (#63) |\n- Prior Art Landscape:\n| Competitor | Approach | MAGIC checkset Distinction |\n| --- | --- | --- |\n| Coursera / edX | MOOC content delivery, certificates | Content platform only, no governance-gated assessment, no bitwise compliance |\n| Canvas (Instructure) | LMS with LTI integration | Learning management, no governance framework, no accreditation compliance engine |\n| Credly (Pearson) | Digital badge issuance (Open Badges) | Badge issuance and verification, no governed assessment evidence chain |\n| Blackboard (Anthology) | LMS + SIS + analytics | Administrative platform, no bitwise governance, no standards transcompilation |\n| Parchment (Instructure) | Digital transcript exchange | Document delivery, no governance language, no verifiable credential framework |\nGap: No existing system provides governance-gated educational operations with O(1) bitwise compliance checking across curriculum alignment, assessment integrity, accreditation evidence, and credential verification.\n- Patent Mapping:\n| PROV | Relevance | Claims |\n| --- | --- | --- |\n| PROV-004 | PRIMARY | Transcompilation of curriculum standards (CCSS, NGSS, ABET) to governed executables |\n| PROV-005 | Secondary | Educator and institutional credentialing, accreditation evidence governance |\n| PROV-003 | Supporting | Federated learning models across institutions, transfer articulation |\n| PROV-001 | Foundational | MAGIC private-check encoding for educational governance verification |\n| PROV-002 | Supporting | COIN=WORK for credential attestation, CEU evidence |\n- Cross-Domain Compositions:\n``\nEDUCATION × MEDICINE        = Medical education (LCME + ACGME + clinical competency)\nEDUCATION × QUALITY         = Training governance, workforce qualification (ISO 29990 + ISO 9001)\nEDUCATION × DEFENSE         = Military training, PME (ABET + MIL-STD + JPME)\nEDUCATION × GENOMICS        = Bioinformatics education, genomics curriculum (NGSS + sequencing)\nEDUCATION × FINANCE         = Financial literacy, business education (AACSB + CFA/CPA standards)\nEDUCATION × ROBOTICS        = STEM education, robotics curriculum (NGSS + ISO 10218)\nEDUCATION × AGRICULTURE     = Agricultural education, extension services (USDA + land-grant)\nEDUCATION × ENERGY          = Nuclear engineering education, power systems curriculum (NRC + ABET)\nEDUCATION × LOGISTICS       = Supply chain management education (APICS/ASCM + accreditation)\nEDUCATION × SECURITY        = Cybersecurity education, CAE designation (NSA/DHS + ABET)\n``\n\n10 cross-domain compositions. Each strengthens PROV-004 and PROV-005 patent claims.\n- Axioms:\n### 1. Learner Privacy\n\nStudent educational records MUST be protected under FERPA. No disclosure without consent or qualifying exception.\n\nExample: A parent requests their 16-year-old's transcript. Under FERPA, parents of dependents have access. But if the student is at a postsecondary institution, the right transfers to the student. The system MUST enforce the correct access rule based on institution type and student age.\n\n### 2. Accreditation Integrity\n\nAcademic programs MUST meet accreditation standards. No credential without accredited program completion.\n\nExample: A nursing program accredited by CCNE MUST demonstrate: qualified faculty (doctoral preparation), clinical placement hours (minimum 720), NCLEX pass rate (≥80%), and program outcomes assessment. Loss of accreditation = graduates cannot sit for licensure. The evidence chain MUST be continuous.\n\n### 3. Assessment Validity\n\nAssessments MUST measure what they claim to measure. Evidence of validity MUST be documented.\n\nExample: A high-stakes medical licensing exam (USMLE Step 1) MUST demonstrate: content validity (blueprint matches practice), reliability (Cronbach's alpha ≥ 0.90), standard setting (Angoff method with panel), and fairness analysis (DIF studies across demographics). The score interpretation MUST be justified.\n\n### 4. Credential Portability\n\nAcademic credentials MUST be transferable and verifiable across institutions and jurisdictions.\n\nExample: A student transfers from a community college to a university. The community college transcript (PESC XML format) MUST carry: course identifiers, credit hours, grades, and accreditation status. The receiving institution evaluates per its articulation agreement. Credits MUST NOT disappear in transfer.\n\n### 5. Accessibility Compliance\n\nEducational content and technology MUST be accessible to students with disabilities. No barrier to participation.\n\nExample: An online course MUST meet WCAG 2.1 AA: videos have captions, images have alt text, navigation is keyboard-accessible, color is not the sole indicator. An LMS that fails accessibility = ADA Section 504 violation. The institution is liable regardless of vendor.\n- Examples:\n``\nDECLARE(Accreditation) = SACSCOC × CANONIC\n\nWhere:\n  SACSCOC provides Structure:\n    - Core Requirements (12 standards)\n    - Comprehensive Standards (14 standards)\n    - Federal Requirements (4 standards)\n    - Quality Enhancement Plan (QEP)\n    - Institutional assessment\n\n  CANONIC provides Governance:\n    - C1: Mission and quality claims\n    - C2: Assessment evidence (student outcomes, program review)\n    - Temporal: 10-year cycle, 5th-year interim report\n    - Relational: Institution/program/state/federal jurisdiction\n    - C5: Academic operations (curriculum, assessment, faculty)\n    - C6: SACSCOC/FERPA/ADA conformance\n\nResult:\n  Accreditation = ENTERPRISE (#63)\n\n  Accreditation Lifecycle:\n    Self-Study     — Compliance certification completed\n    Visit          — On-site review\n    Act            — Board action (affirm/warn/sanction)\n    Maintain       — Continuous compliance, interim reports\n`\n\n`\nDECLARE(MedicalEducationCompetency) = LCME × CANONIC\n\nWhere:\n  LCME provides Structure:\n    - 12 accreditation standards, 93 elements\n    - Entrustable Professional Activities (EPAs)\n    - ACGME Core Competencies (6)\n    - Clinical experience requirements\n    - Assessment milestones\n\n  CANONIC provides Governance:\n    - C1: Competency claims per EPA\n    - C2: Assessment evidence (EPA ratings, procedure logs, USMLE scores)\n    - Temporal: 4-year curriculum timeline, milestone assessments\n    - Relational: Medical school/hospital/accreditor/licensing board boundaries\n    - C5: Clinical operations (supervision, procedure performance)\n    - C6: LCME/ACGME/NBME conformance\n\nResult:\n  MedicalEducationCompetency = AGENT (#127)\n\n  Competency Lifecycle:\n    Pre-Clinical   — Foundational science curriculum\n    Clinical       — Clerkship rotations, clinical exposure\n    Assess         — EPA evaluations, USMLE Steps 1-2\n    Graduate       — MD conferred, ECFMG certified\n    License        — State medical license, board certification\n``\n- Validators:\n| Validator | Checks | Example Failure |\n| --- | --- | --- |\n| C1 | Learning objectives and program claims declared | Course without learning outcomes |\n| C2 | Assessment evidence and student outcomes documented | Degree conferred without assessment |\n| Temporal | Academic calendar, accreditation cycle, enrollment periods | Accreditation lapsed without interim report |\n| Relational | Student-institution relationship, FERPA access, transfer articulation | Transcript disclosed without consent |\n| C5 | Academic operations executed (instruction, assessment, advising) | Grade submitted without assessment evidence |\n| C6 | Accreditation/FERPA/WCAG conformance validated | LMS failing accessibility standards |\n- Application:\nTo create a CANONIC education vertical:\n\nIdentify educational domain (K-12, higher ed, professional, corporate, medical, online)\nDetermine accreditation level and map to MAGIC tier\nCreate scope with CANON.md inheriting /EDUCATION/\nDefine learning outcome claims per accreditation standards\nMap to regulatory framework (FERPA, accreditor standards, ADA Section 504)\nImplement validators for assessment evidence, credential integrity, privacy compliance\nDocument coverage with program evidence\n\nResult: Owned education vertical with accreditation-governed, privacy-protected operations.\n\n*EDUCATION | SPECIFICATION | VERTICALS | INDUSTRIES*\n\n\nRules:\n- Be concise and accurate.\n- Cite sources when making claims.\n- If you don't know, say so.\n- Reference the governance chain when relevant.\n- Use relative paths for links (e.g. /talks/mammochat/) — never absolute URLs.\n\nKnown routes:\n- web_docs: /\n- web_surface: /INDUSTRIES/VERTICALS/EDUCATION/",
+  "breadcrumbs": [
+    {
+      "label": "∩",
+      "href": "/"
+    },
+    {
+      "label": "INDUSTRIES",
+      "href": "/INDUSTRIES/"
+    },
+    {
+      "label": "VERTICALS",
+      "href": "/INDUSTRIES/VERTICALS/"
+    },
+    {
+      "label": "EDUCATION",
+      "href": "/INDUSTRIES/VERTICALS/EDUCATION/"
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/INDUSTRIES/VERTICALS/EDUCATION/EDUCATION.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "controls": {
+    "talk": "side",
+    "view": "web",
+    "views": [
+      "gov"
+    ],
+    "downloads": []
+  },
+  "_tier": {
+    "name": "FULL",
+    "score": 255,
+    "intel": true
+  },
+  "canon": {
+    "axiom": "Example",
+    "constraints": "MUST:     Cite FERPA, accreditation body, or educational standard for education claims\nMUST:     Distinguish between learning analytics (evidence of learning) and student surveillance (behavioral monitoring)\nMUST NOT: Present LMS activity logs as equivalent to governed assessment evidence",
+    "inherits": "canonic-canonic/INDUSTRIES/VERTICALS",
+    "spec": [
+      {
+        "title": "Specification",
+        "body": "```\nEDUCATION = EDUCATIONAL_STANDARD × CANONIC\n          = Structure(education) × (C1, C2, Temporal, Relational, C5, C6)\n```\n\n**Lattice**: 6 governance checks = ENTERPRISE (#63)\n\n---"
+      },
+      {
+        "title": "Dimensional Mapping",
+        "body": "| Dimension | Bit | Educational Governance |\n|-----------|-----|----------------------|\n| C1 | private | Learning objectives — no instruction without verified curriculum alignment |\n| C2 | private | Assessment evidence — student work and test results as immutable proof of learning |\n| T (Temporal) | 4 | Academic calendar timing — semesters, enrollment periods, accreditation cycles |\n| R (Relational) | 8 | Enrollment boundaries — student-institution relationships, FERPA access controls |\n| C5 | private | Instructional operations — governed course delivery, assessment administration |\n| C6 | private | Institutional structure — accreditation standards, credential frameworks, degree requirements |\n\n---"
+      },
+      {
+        "title": "SIL-to-MAGIC Tier Mapping",
+        "body": "| SIL | Risk | MAGIC Tier | Bits | Governance |\n|-----|------|-------------|------|------------|\n| SIL 1 | Negligible | COMMUNITY | #35 | Basic course delivery, informal learning |\n| SIL 2 | Marginal | BUSINESS | #43 | Formal assessment, grade reporting |\n| SIL 3 | Critical | ENTERPRISE | #63 | Accredited programs, credential issuance |\n| SIL 4 | Catastrophic | AGENT | #127 | Medical/legal education (licensure-gated), high-stakes assessment |\n\n---"
+      },
+      {
+        "title": "Subdomains",
+        "body": "### K-12\n\n```\nStandard:    Common Core (CCSS), NGSS, State Standards (TEKS, SOL), ESSA (Every Student Succeeds Act)\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Elementary, middle, high school — standards-aligned instruction, standardized testing\nKey Systems: SIS (Student Information System), LMS, assessment platforms, Ed-Fi data exchange\nInnovation:  MAGIC checkset governs standards alignment, IEP (Individualized Education Program) compliance\n```\n\n### Higher Education\n\n```\nStandard:    Regional accreditors (SACSCOC, HLC, WASC, NWCCU, NECHE, MSCHE), FERPA\nSIL Range:   SIL 2-3\nGovernance:  ENTERPRISE (#63)\nApplication: Undergraduate, graduate, doctoral programs — degree conferral, financial aid\nKey Systems: SIS (Banner, PeopleSoft, Workday), LMS, PESC transcript exchange, IPEDS reporting\nInnovation:  MAGIC checkset governs accreditation evidence, credential verification, transfer articulation\n```\n\n### Professional / Continuing Education\n\n```\nStandard:    IACET (International Accreditors for Continuing Education and Training), ANSI/IACET 1\nSIL Range:   SIL 2-3\nGovernance:  ENTERPRISE (#63) for licensure-required CE\nApplication: CEU (Continuing Education Units), professional development, licensure maintenance\nKey Systems: CE tracking platforms, professional licensing boards, badge/certificate issuance\nInnovation:  MAGIC checkset governs CE hour evidence, license renewal compliance, competency verification\n```\n\n### Corporate Training\n\n```\nStandard:    SCORM, xAPI, cmi5, ISO 29990 (Learning Services), ATD (Association for Talent Development)\nSIL Range:   SIL 1-2\nGovernance:  BUSINESS (#43) minimum\nApplication: Employee onboarding, compliance training, skill development, leadership programs\nKey Systems: Enterprise LMS (Cornerstone, SAP SuccessFactors), LXP, LRS, talent management\nInnovation:  MAGIC checkset governs mandatory compliance training evidence, competency gap analysis\n```\n\n### Medical Education\n\n```\nStandard:    LCME (Liaison Committee on Medical Education), ACGME (residency), USMLE/COMLEX\nSIL Range:   SIL 3-4\nGovernance:  AGENT (#127) for licensure-gated competencies\nApplication: Medical school, residency, fellowship, CME — patient safety outcomes\nKey Systems: NBME assessments, EPA (Entrustable Professional Activities), competency milestones\nInnovation:  MAGIC checkset governs clinical competency evidence, procedure logs, patient encounter verification\n```\n\n### Online / Distance Education\n\n```\nStandard:    C-RAC Guidelines, QM (Quality Matters) rubric, OLC (Online Learning Consortium)\nSIL Range:   SIL 1-3\nGovernance:  BUSINESS (#43) to ENTERPRISE (#63)\nApplication: Fully online, hybrid/blended, HyFlex — asynchronous and synchronous delivery\nKey Systems: LMS, video conferencing, proctoring platforms, LTI-integrated tools\nInnovation:  MAGIC checkset governs identity verification, assessment integrity, engagement evidence\n```\n\n---"
+      },
+      {
+        "title": "Regulatory Landscape",
+        "body": "| Standard | Scope | Governance |\n|----------|-------|------------|\n| FERPA (20 USC 1232g) | Student privacy, educational records | ENTERPRISE (#63) |\n| COPPA (15 USC 6501) | Children's online privacy (< 13) | ENTERPRISE (#63) |\n| Common Core (CCSS) | K-12 ELA and Mathematics standards | BUSINESS (#43) |\n| NGSS | K-12 Science standards | BUSINESS (#43) |\n| SACSCOC/HLC/WASC/NWCCU | Institutional accreditation | ENTERPRISE (#63) |\n| ABET | Engineering/computing program accreditation | ENTERPRISE (#63) |\n| LCME | Medical education accreditation | AGENT (#127) |\n| SCORM / xAPI | Learning content and activity standards | BUSINESS (#43) |\n| IMS LTI 1.3 | Tool interoperability | BUSINESS (#43) |\n| W3C Verifiable Credentials | Digital credential verification | ENTERPRISE (#63) |\n\n---"
+      },
+      {
+        "title": "Prior Art Landscape",
+        "body": "| Competitor | Approach | MAGIC checkset Distinction |\n|-----------|----------|-------------------|\n| Coursera / edX | MOOC content delivery, certificates | Content platform only, no governance-gated assessment, no bitwise compliance |\n| Canvas (Instructure) | LMS with LTI integration | Learning management, no governance framework, no accreditation compliance engine |\n| Credly (Pearson) | Digital badge issuance (Open Badges) | Badge issuance and verification, no governed assessment evidence chain |\n| Blackboard (Anthology) | LMS + SIS + analytics | Administrative platform, no bitwise governance, no standards transcompilation |\n| Parchment (Instructure) | Digital transcript exchange | Document delivery, no governance language, no verifiable credential framework |\n\n**Gap**: No existing system provides governance-gated educational operations with O(1) bitwise compliance checking across curriculum alignment, assessment integrity, accreditation evidence, and credential verification.\n\n---"
+      },
+      {
+        "title": "Patent Mapping",
+        "body": "| PROV | Relevance | Claims |\n|------|-----------|--------|\n| PROV-004 | PRIMARY | Transcompilation of curriculum standards (CCSS, NGSS, ABET) to governed executables |\n| PROV-005 | Secondary | Educator and institutional credentialing, accreditation evidence governance |\n| PROV-003 | Supporting | Federated learning models across institutions, transfer articulation |\n| PROV-001 | Foundational | MAGIC private-check encoding for educational governance verification |\n| PROV-002 | Supporting | COIN=WORK for credential attestation, CEU evidence |\n\n---"
+      },
+      {
+        "title": "Cross-Domain Compositions",
+        "body": "```\nEDUCATION × MEDICINE        = Medical education (LCME + ACGME + clinical competency)\nEDUCATION × QUALITY         = Training governance, workforce qualification (ISO 29990 + ISO 9001)\nEDUCATION × DEFENSE         = Military training, PME (ABET + MIL-STD + JPME)\nEDUCATION × GENOMICS        = Bioinformatics education, genomics curriculum (NGSS + sequencing)\nEDUCATION × FINANCE         = Financial literacy, business education (AACSB + CFA/CPA standards)\nEDUCATION × ROBOTICS        = STEM education, robotics curriculum (NGSS + ISO 10218)\nEDUCATION × AGRICULTURE     = Agricultural education, extension services (USDA + land-grant)\nEDUCATION × ENERGY          = Nuclear engineering education, power systems curriculum (NRC + ABET)\nEDUCATION × LOGISTICS       = Supply chain management education (APICS/ASCM + accreditation)\nEDUCATION × SECURITY        = Cybersecurity education, CAE designation (NSA/DHS + ABET)\n```\n\n**10 cross-domain compositions. Each strengthens PROV-004 and PROV-005 patent claims.**\n\n\n---"
+      },
+      {
+        "title": "Axioms",
+        "body": "### 1. Learner Privacy\n\nStudent educational records MUST be protected under FERPA. No disclosure without consent or qualifying exception.\n\n**Example**: A parent requests their 16-year-old's transcript. Under FERPA, parents of dependents have access. But if the student is at a postsecondary institution, the right transfers to the student. The system MUST enforce the correct access rule based on institution type and student age.\n\n---\n\n### 2. Accreditation Integrity\n\nAcademic programs MUST meet accreditation standards. No credential without accredited program completion.\n\n**Example**: A nursing program accredited by CCNE MUST demonstrate: qualified faculty (doctoral preparation), clinical placement hours (minimum 720), NCLEX pass rate (≥80%), and program outcomes assessment. Loss of accreditation = graduates cannot sit for licensure. The evidence chain MUST be continuous.\n\n---\n\n### 3. Assessment Validity\n\nAssessments MUST measure what they claim to measure. Evidence of validity MUST be documented.\n\n**Example**: A high-stakes medical licensing exam (USMLE Step 1) MUST demonstrate: content validity (blueprint matches practice), reliability (Cronbach's alpha ≥ 0.90), standard setting (Angoff method with panel), and fairness analysis (DIF studies across demographics). The score interpretation MUST be justified.\n\n---\n\n### 4. Credential Portability\n\nAcademic credentials MUST be transferable and verifiable across institutions and jurisdictions.\n\n**Example**: A student transfers from a community college to a university. The community college transcript (PESC XML format) MUST carry: course identifiers, credit hours, grades, and accreditation status. The receiving institution evaluates per its articulation agreement. Credits MUST NOT disappear in transfer.\n\n---\n\n### 5. Accessibility Compliance\n\nEducational content and technology MUST be accessible to students with disabilities. No barrier to participation.\n\n**Example**: An online course MUST meet WCAG 2.1 AA: videos have captions, images have alt text, navigation is keyboard-accessible, color is not the sole indicator. An LMS that fails accessibility = ADA Section 504 violation. The institution is liable regardless of vendor.\n\n---"
+      },
+      {
+        "title": "Examples",
+        "body": "```\nDECLARE(Accreditation) = SACSCOC × CANONIC\n\nWhere:\n  SACSCOC provides Structure:\n    - Core Requirements (12 standards)\n    - Comprehensive Standards (14 standards)\n    - Federal Requirements (4 standards)\n    - Quality Enhancement Plan (QEP)\n    - Institutional assessment\n\n  CANONIC provides Governance:\n    - C1: Mission and quality claims\n    - C2: Assessment evidence (student outcomes, program review)\n    - Temporal: 10-year cycle, 5th-year interim report\n    - Relational: Institution/program/state/federal jurisdiction\n    - C5: Academic operations (curriculum, assessment, faculty)\n    - C6: SACSCOC/FERPA/ADA conformance\n\nResult:\n  Accreditation = ENTERPRISE (#63)\n\n  Accreditation Lifecycle:\n    Self-Study     — Compliance certification completed\n    Visit          — On-site review\n    Act            — Board action (affirm/warn/sanction)\n    Maintain       — Continuous compliance, interim reports\n```\n\n```\nDECLARE(MedicalEducationCompetency) = LCME × CANONIC\n\nWhere:\n  LCME provides Structure:\n    - 12 accreditation standards, 93 elements\n    - Entrustable Professional Activities (EPAs)\n    - ACGME Core Competencies (6)\n    - Clinical experience requirements\n    - Assessment milestones\n\n  CANONIC provides Governance:\n    - C1: Competency claims per EPA\n    - C2: Assessment evidence (EPA ratings, procedure logs, USMLE scores)\n    - Temporal: 4-year curriculum timeline, milestone assessments\n    - Relational: Medical school/hospital/accreditor/licensing board boundaries\n    - C5: Clinical operations (supervision, procedure performance)\n    - C6: LCME/ACGME/NBME conformance\n\nResult:\n  MedicalEducationCompetency = AGENT (#127)\n\n  Competency Lifecycle:\n    Pre-Clinical   — Foundational science curriculum\n    Clinical       — Clerkship rotations, clinical exposure\n    Assess         — EPA evaluations, USMLE Steps 1-2\n    Graduate       — MD conferred, ECFMG certified\n    License        — State medical license, board certification\n```"
+      },
+      {
+        "title": "Validators",
+        "body": "| Validator | Checks | Example Failure |\n|-----------|--------|------------------|\n| C1 | Learning objectives and program claims declared | Course without learning outcomes |\n| C2 | Assessment evidence and student outcomes documented | Degree conferred without assessment |\n| Temporal | Academic calendar, accreditation cycle, enrollment periods | Accreditation lapsed without interim report |\n| Relational | Student-institution relationship, FERPA access, transfer articulation | Transcript disclosed without consent |\n| C5 | Academic operations executed (instruction, assessment, advising) | Grade submitted without assessment evidence |\n| C6 | Accreditation/FERPA/WCAG conformance validated | LMS failing accessibility standards |"
+      },
+      {
+        "title": "Application",
+        "body": "To create a CANONIC education vertical:\n\n1. **Identify educational domain** (K-12, higher ed, professional, corporate, medical, online)\n2. **Determine accreditation level** and map to MAGIC tier\n3. **Create scope** with CANON.md inheriting /EDUCATION/\n4. **Define learning outcome claims** per accreditation standards\n5. **Map to regulatory framework** (FERPA, accreditor standards, ADA Section 504)\n6. **Implement validators** for assessment evidence, credential integrity, privacy compliance\n7. **Document coverage** with program evidence\n\n**Result**: Owned education vertical with accreditation-governed, privacy-protected operations.\n\n---"
+      }
+    ],
+    "learning": [],
+    "coverage": "255/255",
+    "roadmap": {},
+    "vocab": [
+      {
+        "term": "ABA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ABET",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ADA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ADL",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "AERA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "AOL",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "APA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "API",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ATP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CASE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CBE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CCC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CCNE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CCSS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CFR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CHEA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CLR",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CONTENT",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "COPPA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "CSV",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DCI",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DIF",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "DOK",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "ECTS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "EDI",
+        "definition": "Electronic Data Interchange"
+      },
+      {
+        "term": "EDUCATION",
+        "definition": "Education industry vertical governance scope."
+      },
+      {
+        "term": "ELA",
+        "definition": "English Language Arts."
+      },
+      {
+        "term": "FERPA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "HLC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IF",
+        "definition": "Interface."
+      },
+      {
+        "term": "II",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "III",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "IMS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "JWT",
+        "definition": "JSON Web Token — authentication credential format."
+      },
+      {
+        "term": "LCME",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "LMS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "LRS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "LTI",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "MATH",
+        "definition": "Mathematical foundations scope."
+      },
+      {
+        "term": "NCME",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NGSS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "NWCCU",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "OA",
+        "definition": "Open Access."
+      },
+      {
+        "term": "OBE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PE",
+        "definition": "Power Engineering or Professional Engineer."
+      },
+      {
+        "term": "PESC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PII",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "QTI",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "REST",
+        "definition": "RESTful API architectural style."
+      },
+      {
+        "term": "SACSCOC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SCO",
+        "definition": "Supply Chain Operations."
+      },
+      {
+        "term": "SCORM",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SEP",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SIF",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SIS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SOL",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SOPIPA",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SPEEDE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "SPPO",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "TEKS",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "UDL",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "URL",
+        "definition": "Uniform Resource Locator."
+      },
+      {
+        "term": "US",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "USC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "USDE",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "VC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "VPAT",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "VR",
+        "definition": "Vehicle-to-Everything or Virtual Reality (context-dependent)."
+      },
+      {
+        "term": "WASC",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "WCAG",
+        "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "WSCUC",
+        "definition": "Governed term in this scope vocabulary."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "INDUSTRIES",
+        "axiom": "INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.",
+        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

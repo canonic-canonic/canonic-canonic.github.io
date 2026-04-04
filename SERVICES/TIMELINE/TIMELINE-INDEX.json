@@ -3,19 +3,11 @@
     "contract": "hadleylab-canonic/SERVICES/TIMELINE/CANON.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "generated": "2026-04-03T19:24:41Z",
-  "total_events": 21884,
+  "generated": "2026-04-04T01:47:23Z",
+  "total_events": 15788,
   "lanes": {
-    "CALENDAR": {
-      "count": 5129,
-      "earliest": "1970-05-20T00:00:00Z",
-      "latest": "2031-12-31T00:00:00Z",
-      "color": "#2997ff",
-      "icon": "◷",
-      "label": "Calendar"
-    },
     "LEARNING": {
-      "count": 14514,
+      "count": 14338,
       "earliest": "2013-10-09T00:00:00Z",
       "latest": "2026-04-03T00:00:00Z",
       "color": "#bf5af2",
@@ -30,14 +22,6 @@
       "icon": "✉",
       "label": "Transcript"
     },
-    "DEAL": {
-      "count": 27,
-      "earliest": "2025-10-27T00:00:00Z",
-      "latest": "2026-03-18T00:00:00Z",
-      "color": "#ff9f0a",
-      "icon": "↔",
-      "label": "Deal"
-    },
     "CAMPAIGN": {
       "count": 182,
       "earliest": "2025-12-29T00:00:00Z",
@@ -46,29 +30,13 @@
       "icon": "▶",
       "label": "Campaign"
     },
-    "COIN": {
-      "count": 706,
-      "earliest": "2026-02-21T17:28:04.309431Z",
-      "latest": "2026-04-01T13:23:25.822725Z",
-      "color": "#ff9f0a",
-      "icon": "⛁",
-      "label": "Coin"
-    },
     "CORRESPONDENCE": {
-      "count": 27,
+      "count": 29,
       "earliest": "2026-02-26T12:00:00Z",
       "latest": "2026-04-03T12:00:00Z",
       "color": "#06b6d4",
       "icon": "✎",
       "label": "Correspondence"
-    },
-    "LEDGER": {
-      "count": 7,
-      "earliest": "2026-02-26T19:29:24.622827Z",
-      "latest": "2026-03-13T20:50:35.035043Z",
-      "color": "#00ff88",
-      "icon": "⚓",
-      "label": "Ledger"
     },
     "ROADMAP": {
       "count": 75,
@@ -78,27 +46,16 @@
       "icon": "☐",
       "label": "Roadmap"
     },
-    "GRANT": {
-      "count": 24,
-      "earliest": "2026-03-19T00:00:00Z",
-      "latest": "2026-11-10T00:00:00Z",
-      "color": "#30d158",
-      "icon": "⌖",
-      "label": "Grant"
-    },
     "CONTACTS": {
-      "count": 44,
-      "earliest": "2026-04-03T00:28:57Z",
-      "latest": "2026-04-03T00:28:57Z",
+      "count": 15,
+      "earliest": "2026-04-04T01:47:23Z",
+      "latest": "2026-04-04T01:47:23Z",
       "color": "#ffd60a",
       "icon": "⌂",
       "label": "Contacts"
     }
   },
   "principals": [
-    "ALL",
-    "AVINASH",
-    "CLEO RYALS",
     "DAVID",
     "DAVID (IHI critical path)",
     "DAVID + NEVILLE",
@@ -110,19 +67,12 @@
     "DEXTER signs",
     "FATIMA",
     "FATIMA convenes",
-    "GIT",
-    "ILYA",
-    "ISABELLA",
-    "JP",
     "JULIO",
     "JULIO + DAVID",
     "JULIO + FATIMA",
     "JULIO files, DAVID drafts",
     "MARK + GABE",
-    "ROBERT",
     "SYSTEM",
-    "TREASURY",
-    "YANA",
     "account architecture, fiscal policies, reconciliation cadence (MAGIC 255 closure)",
     "all priority provisionals filed",
     "directors, officers, meeting cadence, resolution registry (MAGIC 255 closure)",
@@ -133,5 +83,5 @@
     "portfolio inventory, deadline calendar, counsel contacts (MAGIC 255 closure)",
     "tier rates, template status, license registry, OncoNex chain (MAGIC 255 closure)"
   ],
-  "index_path": "/Users/iDrDex/.canonic/timeline/INDEX.jsonl"
+  "index_path": "/home/runner/.canonic/timeline/INDEX.jsonl"
 }

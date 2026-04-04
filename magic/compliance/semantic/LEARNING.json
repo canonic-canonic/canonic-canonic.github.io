@@ -1,0 +1,47 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/home/runner/CANONIC/canonic-canonic/MAGIC/COMPLIANCE/SEMANTIC/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-20",
+      "signal": "NEW_SCOPE",
+      "text": "SEMANTIC scope created to govern vocabulary closure and inheritance integrity — closes the semantic validation gap",
+      "source": "SEMANTIC/CANON.md"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "Three rules, one gate",
+      "text": "VOCABULARY CLOSURE + INHERITANCE INTEGRITY + COVERAGE ALIGNMENT — structural MAGIC is necessary but not sufficient",
+      "source": "SEMANTIC/SEMANTIC.md"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "Stubs are gaps, not closures",
+      "text": "VOCAB definitions of \"—\" or boilerplate are flagged as STUB_TERM — honest gaps, not false compliance",
+      "source": "SEMANTIC/CANON.md"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "Coverage must match reality",
+      "text": "PASS on a dimension requires the evidence file to exist and contain substance — no empty claims",
+      "source": "SEMANTIC/CANON.md"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "Inherits chains must terminate",
+      "text": "Circular inheritance is rejected — every chain must reach a root scope (inherits: .)",
+      "source": "SEMANTIC/SEMANTIC.md"
+    }
+  ],
+  "stats": {
+    "total_raw": 0,
+    "community_questions": 0,
+    "filtered_low_entropy": 0,
+    "filtered_pct": 0,
+    "domain_patterns": 5,
+    "filtered_examples": []
+  }
+}

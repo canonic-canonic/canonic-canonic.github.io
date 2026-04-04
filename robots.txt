@@ -9,10 +9,8 @@ Disallow: /CAMPAIGNS/
 Disallow: /CHARTER/
 Disallow: /CLINICAL/
 Disallow: /DEALS/
-Disallow: /DECKS/
 Disallow: /FINANCIALS/
 Disallow: /GRANTS/
-Disallow: /SERVICES/
 Disallow: /USERS/
 Disallow: /_data/
 Disallow: /econ.json

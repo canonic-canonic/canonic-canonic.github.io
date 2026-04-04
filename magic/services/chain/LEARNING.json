@@ -1,0 +1,52 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/home/runner/CANONIC/canonic-canonic/MAGIC/SERVICES/CHAIN/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-20",
+      "signal": "~~WALLET not chained~~",
+      "text": "~~TIMELINE.jsonl has plain JSON lines with no linking~~ — CLOSED: `cmd_migrate_chain` retroactively chains all events, `_circ_event()` includes prev field on new events",
+      "source": "vault `cmd_migrate_chain`"
+    },
+    {
+      "date": "2026-02-20",
+      "text": "~~Spec-runtime drift~~",
+      "source": "~~Spec declares \"hash includes prev\" but runtime does not~~ — CLOSED: runtime now computes `id = SHA256(prev\\"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "12-char truncated hash",
+      "text": "Existing event IDs use SHA256[:12] — maintained for chain IDs to preserve compatibility",
+      "source": "vault _circ_event()"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "Balance must be derived",
+      "text": "WALLET.json balance is incrementally updated but should match full TIMELINE derivation on verify",
+      "source": "WALLET/CANON.md constraint"
+    },
+    {
+      "date": "2026-02-28",
+      "signal": "CHAIN_LIVE",
+      "text": "`vault migrate-chain` retroactively chains unchained TIMELINE events from genesis — `vault verify-wallet` validates chain integrity + derived balance",
+      "source": "vault `cmd_migrate_chain` + `cmd_verify_wallet`"
+    },
+    {
+      "date": "2026-02-28",
+      "signal": "VERIFY_WALLET_LIVE",
+      "text": "`vault verify-wallet --user USER` walks TIMELINE forward, verifies prev pointers, recomputes IDs, derives balance, compares to WALLET.json",
+      "source": "vault `cmd_verify_wallet`"
+    }
+  ],
+  "stats": {
+    "total_raw": 0,
+    "community_questions": 0,
+    "filtered_low_entropy": 0,
+    "filtered_pct": 0,
+    "domain_patterns": 6,
+    "filtered_examples": []
+  }
+}

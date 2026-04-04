@@ -1,0 +1,47 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/home/runner/CANONIC/canonic-canonic/MAGIC/COMPLIANCE/GTM/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-19",
+      "signal": "Healthcare beachhead",
+      "text": "Go-to-market starts from healthcare AI governance — highest regulatory density proves MAGIC in hardest environment first",
+      "source": "GTM/CANON.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "Concentric expansion",
+      "text": "Healthcare -> Finance -> Government -> Defense -> General enterprise — each step adds incremental regulatory knowledge",
+      "source": "GTM/CANON.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "Eat your own dog food",
+      "text": "MAGIC must score 255/255 against its own governance before selling compliance to others",
+      "source": "GTM/CANON.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "Three distribution channels by tier",
+      "text": "COMMUNITY/BUSINESS = product-led growth; ENTERPRISE = direct sales; AGENT/FULL = strategic sales",
+      "source": "GTM/CANON.md"
+    },
+    {
+      "date": "2026-02-19",
+      "signal": "Launch sequence is phased",
+      "text": "Stealth (done) -> Foundation -> Validation -> Scale -> Expansion -> Platform",
+      "source": "GTM/CANON.md"
+    }
+  ],
+  "stats": {
+    "total_raw": 0,
+    "community_questions": 0,
+    "filtered_low_entropy": 0,
+    "filtered_pct": 0,
+    "domain_patterns": 5,
+    "filtered_examples": []
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "name": "CANONIC",
+  "scope": "STAR",
+  "surface_type": "JEKYLL_DEFAULT",
+  "accent": "#00ff88",
+  "brand": {
+    "mark": "☲",
+    "markRotate": 90,
+    "label": "STAR",
+    "tagline": "STAR is your personal portal in the GALAXY. INTEL + CHAT + COIN composed into a unified personal surface. The TIMELINE is the joint lane for all cross-axiomatic intel."
+  },
+  "placeholder": "Ask about STAR...",
+  "welcome": "Welcome to **STAR**.\n\nSTAR is your personal portal in the GALAXY. INTEL + CHAT + COIN composed into a unified personal surface. The TIMELINE is the joint lane for all cross-axiomatic intel.",
+  "disclaimer": "AI-generated content. Verify independently.",
+  "systemPrompt": "You are TALK, the CANONIC conversation service for CANONIC.\n\nCurrent scope: STAR.\nAxiom: STAR is your personal portal in the GALAXY. INTEL + CHAT + COIN composed into a unified personal surface. The TIMELINE is the joint lane for all cross-axiomatic intel.\n\nGovernance chain (root to leaf):\n- FOUNDATION: SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.\n- MAGIC: INTEL. CHAT. COIN. — Three primitives. One governed economy.\n- SURFACE: SURFACE is the platform lane.\n- SERVICES: SERVICES are SURFACE routes with governed boundaries.\n- STAR: STAR is your personal portal in the GALAXY. INTEL + CHAT + COIN composed into a unified personal surface. The TIMELINE is the joint lane for all cross-axiomatic intel.\n\n\nIndustry verticals (LIVE): FINANCE, MEDICINE.\nIndustry verticals (DEFERRED): AEROSPACE, AGRICULTURE, AUTOMOTIVE, DEFENSE, EDUCATION, ENERGY, GENOMICS, LOGISTICS, MANUFACTURING, QUALITY, REAL_ESTATE, RELIGION, ROBOTICS.\nRegulatory domains: BLOCKCHAIN, DATA, GOVERNMENT, LAW.\nHorizontal domains (cross-cutting): SAFETY, SECURITY.\nComposition: VERTICAL × HORIZONTAL = domain-specific compliance (e.g. MEDICINE × SECURITY = HIPAA).\nFleet: CANONIC, Foundation, Industries, MAGIC, Hadley Lab\n\nConstraints:\nMUST:     Compose all three primitives (INTEL + CHAT + COIN)\nMUST:     Discover USER's GOV tree via magic scan — never hardcode\nMUST:     TIMELINE is a read-only JOIN across existing event sources — never duplicate\nMUST:     TIMELINE envelope compatible with LEDGER .idf and VAULT TIMELINE.jsonl\nMUST:     Every lane WIRES to existing services — never duplicates\nMUST:     Auth-gate all personal data (VAULT, WALLET, NOTIFIER, CALENDAR)\nMUST:     GOV lane is public (compliance rings are the product)\nMUST:     Discover services via magic scan (TALKS/*/CANON.md, SERVICES/*/CANON.md)\nMUST:     Aggregate LEARNING patterns from all user scopes\nMUST:     Surface compliance ring (8 MAGIC dimensions) in portal HUD\nMUST:     Publish STAR-TIMELINE.json via build pipeline (deterministic, rerun-safe)\nMUST:     NETWORK service — declare routes on api.canonic.org\nMUST NOT: Write to source event streams (VAULT, LEDGER, NOTIFIER are read-only)\nMUST NOT: Duplicate WALLET, SHOP, VITAE, or LEARNING surfaces\nMUST NOT: Hardcode lane sources — discover via GOV tree walk\nMUST NOT: Expose private data (VAULT, CALENDAR, NOTIFIER) without auth\n\nINTEL context:\n[MAGIC]\n**INTEL — what you KNOW. The orchestrator. Every service wires INTEL.**\n\n\nLEARNING patterns:\n[SERVICES]\n| 2026-02-19 | INTEL is WORK — mandatory primitive | INTEL is the only mandatory primitive; COIN and TALK are optional services | canonic-canonic/FOUNDATION/DOCTRINE |\n| 2026-02-19 | Primitives are files, services are directories | INTEL.md, CHAT.md, COIN.md = primitives; SERVICES/LEARNING/, SERVICES/TALK/, SERVICES/SHOP/ = service directories | Phase 7 cross-axiomatic |\n| 2026-02-19 | Epoch 2 flatten | COIN, INTEL, LEDGER, EVIDENCE promoted from VAULT children to flat SERVICES peers | SERVICES/VAULT/LEARNING.md |\n| 2026-02-19 | Three foundation axioms govern all services | TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these axioms | canonic-canonic/FOUNDATION |\n| 2026-02-19 | _generated markers block hand-editing | All compiled JSON outputs carry _generated — fix compiler or contract, never the output | Phase 7 governance |\n[MAGIC]\n| 2026-02-16 | NEW_TERM | New concept: MCODE | 00a5849 |\n| 2026-02-16 | NEW_TERM | New concept: SWITCHER | fb9f2ec |\n| 2026-02-16 | NEW_TERM | New concept: EXPLAINED | fb9f2ec |\n[API]\n| 2026-02-20 | ~~No network surface~~ | ~~vault is CLI-only~~ — CLOSED: `api` binary serves 14 HTTP endpoints at port 8255 wrapping vault commands | bin/api |\n| 2026-02-20 | Python matches vault | vault binary is Python — API server in Python maintains single-language runtime | bin/vault analysis |\n| 2026-02-20 | Port 8255 | 8 + 255 = MAGIC dimension count + full score. Memorable, unique. | Convention |\n[CHAIN]\n| 2026-02-20 | ~~WALLET not chained~~ | ~~TIMELINE.jsonl has plain JSON lines with no linking~~ — CLOSED: `cmd_migrate_chain` retroactively chains all events, `_circ_event()` includes prev field on new events | vault `cmd_migrate_chain` |\n| 2026-02-20 | ~~Spec-runtime drift~~ | ~~Spec declares \"hash includes prev\" but runtime does not~~ — CLOSED: runtime now computes `id = SHA256(prev\\|ts\\|event\\|user\\|amount\\|work_ref)[:12]` | vault `_circ_event()` |\n| 2026-02-20 | 12-char truncated hash | Existing event IDs use SHA256[:12] — maintained for chain IDs to preserve compatibility | vault _circ_event() |\n[CONTRIBUTE]\n| 2026-02-26 | SERVICE_CREATED | CONTRIBUTE promoted to library-scope service — ATULISMS first consumer | CANON.md |\n| 2026-02-26 | HARDCODING_REMOVED | Scope must be a parameter, not a constant — ATULISMS proved the pattern | worker.js contribute() |\n[DEPLOY]\n| 2026-02 | ~~No auto-deploy~~ | ~~Fleet sites require manual git push~~ — CLOSED: magic-build.yml step 9c auto-deploys DESIGN + fleet sites on successful build | magic-build.yml |\n| 2026-02 | ~~DESIGN-first ordering~~ | ~~DESIGN must deploy before fleet~~ — CLOSED: step 9c deploys DESIGN theme first, then fleet sites sequentially | magic-build.yml |\n| 2026-02 | ~~FROZEN not checked~~ | ~~No freeze gate~~ — CLOSED: step 8e checks `is_frozen()`, step 9c skips deploy if FROZEN | magic-build.yml |\n[IDENTITY]\n| 2026-02-20 | ~~No auth exists~~ | ~~All vault commands trust caller implicitly~~ — CLOSED: `vault auth` mints Ed25519-signed tokens, `api` enforces Bearer auth on privileged endpoints | vault_crypto.py `cmd_auth` + api `_verify_token()` |\n| 2026-02-20 | ~~GALAXY/IDENTITY.md spec-only~~ | ~~Key signing, revocation, verification specified but zero runtime~~ — CLOSED: `vault keygen`, `vault auth`, `vault verify-sig` all implemented in vault_crypto.py | vault_crypto.py |\n| 2026-02-20 | Ed25519 fits COIN | Small keys (32 bytes), fast signing, deterministic — matches .idf binary pattern | Crypto selection |\n[LEARNING]\n| Source | LEDGER Type | Signal |\n| Git commits | GRADIENT | GOVERNANCE_DELTA |\n| Contributions | CONTRIBUTE | CONTRIBUTION_RECEIVED |\n[LEDGER]\n| 2026-02-19 | LEDGER is append-only truth | Every economic event recorded with timestamp; no erasure, no retroactive modification | SERVICES/LEDGER/CANON.md |\n| 2026-02-19 | Hash-chain integrity | LEDGER maintains cryptographic hash-chain — tamper-evident by design | SERVICES/LEDGER/CANON.md |\n| 2026-02-19 | Dual-write: WALLET + LEDGER | Every COIN event (MINT, TRANSFER, SPEND, SETTLE) appends to both WALLET and LEDGER simultaneously | SERVICES/WALLET/CANON.md |\n[CANONIC]\n| Pattern | Source | Scope |\n[FOUNDATION]\n| Pattern | Source | Scope |\n[COMPLIANCE]\n| 2026-02-19 | COMPLIANCE is the tier algebra | Tiers are cumulative governance surfaces; inheritance is monotonic — children add, never weaken | COMPLIANCE/CANON.md |\n[TOOLCHAIN]\n| 2026-02-19 | Six tools, one pipeline | magic, magic-heal, build, build-scopes-json, deploy, install-hooks — governance drives code, never the reverse | TOOLCHAIN/CANON.md |\n\n\nSurface controls: talk=side, view=web\n\nContent (STAR.md, 10 sections):\n- Composition:\n``\nPrimitive:  INTEL (what you KNOW) + CHAT (what you SAY) + COIN (what you DO)\nService:    STAR (governed personal portal)\nInstance:   {ORG}/{USER}/SERVICES/STAR/\n``\n- Infrastructure:\n``\nWorker:     canonic-services (Cloudflare Workers)\nDomain:     api.canonic.org/star/*\nKV:         STAR_KV (compiled timeline cache, lane data)\n            reads TALK_KV (inbox, session ledger)\nSource:     ~/.canonic/design/STAR/src/star-worker.js\nConfig:     wrangler.toml (STAR routes + STAR_KV binding)\nDeploy:     wrangler deploy\n``\n- TIMELINE — The Joint Lane:\n| Stream | Source | Events | Primitive |\n| --- | --- | --- | --- |\n| VAULT | `~/.canonic/VAULT/USERS/{USER}/TIMELINE.jsonl` | MINT:WORK, SPEND, SETTLE, TRANSFER, CLOSE | COIN |\n| LEDGER | `.idf` chain (filter inventor = USER) | GRADIENT, TALK, CONTRIBUTE, EMAIL, PROVISION, SHOP, AUTH | COIN + INTEL |\n| CALENDAR | CALENDAR pipeline output | Meetings, appointments | INTEL |\n| NOTIFIER | `TALK_KV inbox:{PRINCIPAL}` | Cross-scope messages | CHAT |\n| LEARNING | `LEARNING.md` pattern tables across user scopes | Discovery signals | INTEL |\n| CAMPAIGN | `{USER}/SERVICES/CAMPAIGN/` instances | Upcoming events | CHAT |\n| TALK | Session ledger per scope | Conversation turns | CHAT |\nTIMELINE is a read-only JOIN across all existing event sources. STAR never duplicates data — it reads from existing streams and presents a unified chronological projection.\n\n### Source Streams\n\n### Unified Envelope Shape\n\n``json\n{\n  \"id\":        \"<content hash>\",\n  \"ts\":        \"<ISO 8601 UTC — sort key>\",\n  \"stream\":    \"VAULT | LEDGER | CALENDAR | NOTIFIER | LEARNING | CAMPAIGN | TALK\",\n  \"type\":      \"<source event type>\",\n  \"scope\":     \"<governed scope>\",\n  \"principal\": \"<USER>\",\n  \"summary\":   \"<1-line human-readable>\",\n  \"ref\":       \"<source record reference>\",\n  \"primitive\": \"INTEL | CHAT | COIN\",\n  \"meta\":      {}\n}\n`\n\nThis is a read-only projection computed at build time or query time. It follows the pattern of VAULT publish-user and SHOP aggregation: walk governed sources, compile a unified view, emit to _data/` for Jekyll or KV for API.\n\n### Filtering\n\nThree axiomatic filters map directly to the primitives:\n\n| Filter | Primitive | Streams |\n|--------|-----------|---------|\n| INTEL | what you KNOW | LEARNING, LEDGER GRADIENT, CALENDAR |\n| CHAT | what you SAY | TALK, NOTIFIER, CAMPAIGN |\n| COIN | what you DO | VAULT TIMELINE (MINT, SPEND, SETTLE, TRANSFER) |\n- Lanes:\n| Lane | Reads From | What It Shows |\n| --- | --- | --- |\n| TIMELINE | All 7 streams above | Unified chronological feed (default view) |\n| SERVICES | `magic scan` → TALKS/\\*/CANON.md + SERVICES/\\*/CANON.md | Launcher grid for user's governed services |\n| INTEL | LEARNING.md across user scopes | Accumulated knowledge + pattern signals |\n| ECON | WALLET.json + SHOP.json + RESERVES | Balance, transactions, products, reserves |\n| VAULT | VAULT/USERS/{USER}/ (auth-gated) | Private aggregate (delegates to existing VAULT surface) |\n| IDENTITY | VITAE.md + identity.json + KYC anchors | Professional identity, credentials, key status |\n| MEDIA | PAPERS/ + BOOKS/ + DECKS/ + BLOGS/ + PATENTS/ + CAMPAIGNS/ | Published content + IP portfolio |\n| GOV | scopes.json via embedded GALAXY | Governance tree with compliance rings |\nSTAR exposes 8 lanes. Each lane wires to existing services.\n- API Routes:\n| Method | Path | Auth | Purpose |\n| --- | --- | --- | --- |\n| GET | /star/timeline | Bearer | Unified TIMELINE (paginated, filterable by stream and primitive) |\n| GET | /star/services | Bearer | Discovered SERVICES + TALKS |\n| GET | /star/intel | Bearer | LEARNING patterns + signals |\n| GET | /star/econ | Bearer | WALLET + SHOP + reserves |\n| GET | /star/identity | Bearer | VITAE + KYC + key status |\n| GET | /star/media | Bearer | Published content + IP index |\n| GET | /star/gov | Public | GOV tree (compliance rings) |\n| GET | /star/status | Public | Health + data freshness |\n- Architecture:\n``\nCLIENT (star.js / iOS / Android)\n    |\napi.canonic.org (Cloudflare Worker — canonic-services)\n    |\n    ├── /star/timeline   → read VAULT TIMELINE.jsonl\n    │                    → read LEDGER .idf (via KV mirror)\n    │                    → read NOTIFIER inbox (TALK_KV)\n    │                    → read CALENDAR (compiled .json)\n    │                    → read LEARNING.md (compiled .json)\n    │                    → merge + sort by ts → paginate\n    │\n    ├── /star/services   → read scopes.json → filter by user → return service cards\n    ├── /star/intel      → read LEARNING.json → return patterns\n    ├── /star/econ       → read WALLET.json + SHOP.json → return economic view\n    ├── /star/identity   → read identity.json + VITAE.json → return identity\n    ├── /star/media      → read compiled media indices → return portfolio\n    ├── /star/gov        → read scopes.json → return governance tree\n    └── /star/status     → health check + data freshness\n``\n- Build Integration:\n``\nbuild step 10d:  build-star-timeline --user {USER} --site {FLEET}\n                 → reads VAULT/USERS/{USER}/TIMELINE.jsonl\n                 → reads LEDGER .idf chain (filter inventor = USER)\n                 → reads compiled LEARNING.json\n                 → reads compiled CALENDAR.json (if exists)\n                 → reads TALK_KV ledger (if accessible)\n                 → reads NOTIFIER inbox (if accessible)\n                 → reads CAMPAIGN instances\n                 → merges, sorts by ts, emits STAR-TIMELINE.json\n``\n- GALAXY Complementarity:\n| Aspect | GALAXY | STAR |\n| --- | --- | --- |\n| Scope | All ORGs + USERs | One USER |\n| Axis | Spatial (inheritance) | Temporal (timeline) |\n| Perspective | Third person (map) | First person (portal) |\n| Data | scopes.json | STAR-TIMELINE.json |\n| Auth | Public | Auth-gated |\nNavigation: GALAXY → click USER → STAR. STAR GOV lane → embedded GALAXY (user scope tree).\n- Configuration:\n| Type | Key | Source |\n| --- | --- | --- |\n| binding | STAR_KV | wrangler.toml (KV namespace for compiled timeline) |\n| binding | TALK_KV | wrangler.toml (shared — inbox + sessions) |\n| var | STAR_TIMELINE_LIMIT | wrangler.toml (default 500 events per page) |\n| var | STAR_CACHE_TTL | wrangler.toml (default 300s) |\n- Instances:\nDiscovered via magic scan — never hardcoded.\n\n*STAR | SPEC | SERVICES*\n\n\nRules:\n- Be concise and accurate.\n- Cite sources when making claims.\n- If you don't know, say so.\n- Reference the governance chain when relevant.\n- Use relative paths for links (e.g. /talks/mammochat/) — never absolute URLs.\n\nKnown routes:\n- web_docs: /\n- web_surface: /MAGIC/SERVICES/STAR/",
+  "breadcrumbs": [
+    {
+      "label": "∩",
+      "href": "/"
+    },
+    {
+      "label": "MAGIC",
+      "href": "/MAGIC/"
+    },
+    {
+      "label": "SERVICES",
+      "href": "/MAGIC/SERVICES/"
+    },
+    {
+      "label": "STAR",
+      "href": "/MAGIC/SERVICES/STAR/"
+    }
+  ],
+  "_generated": {
+    "contract": "/home/runner/CANONIC/canonic-canonic/MAGIC/SERVICES/STAR/STAR.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "controls": {
+    "talk": "side",
+    "view": "web",
+    "views": [
+      "gov"
+    ],
+    "downloads": []
+  },
+  "_tier": {
+    "name": "FULL",
+    "score": 255,
+    "intel": true
+  },
+  "canon": {
+    "axiom": "STAR is your personal portal in the GALAXY. INTEL + CHAT + COIN composed into a unified personal surface. The TIMELINE is the joint lane for all cross-axiomatic intel.",
+    "constraints": "MUST:     Compose all three primitives (INTEL + CHAT + COIN)\nMUST:     Discover USER's GOV tree via magic scan — never hardcode\nMUST:     TIMELINE is a read-only JOIN across existing event sources — never duplicate\nMUST:     TIMELINE envelope compatible with LEDGER .idf and VAULT TIMELINE.jsonl\nMUST:     Every lane WIRES to existing services — never duplicates\nMUST:     Auth-gate all personal data (VAULT, WALLET, NOTIFIER, CALENDAR)\nMUST:     GOV lane is public (compliance rings are the product)\nMUST:     Discover services via magic scan (TALKS/*/CANON.md, SERVICES/*/CANON.md)\nMUST:     Aggregate LEARNING patterns from all user scopes\nMUST:     Surface compliance ring (8 MAGIC dimensions) in portal HUD\nMUST:     Publish STAR-TIMELINE.json via build pipeline (deterministic, rerun-safe)\nMUST:     NETWORK service — declare routes on api.canonic.org\nMUST NOT: Write to source event streams (VAULT, LEDGER, NOTIFIER are read-only)\nMUST NOT: Duplicate WALLET, SHOP, VITAE, or LEARNING surfaces\nMUST NOT: Hardcode lane sources — discover via GOV tree walk\nMUST NOT: Expose private data (VAULT, CALENDAR, NOTIFIER) without auth",
+    "inherits": "canonic-canonic/MAGIC/SERVICES",
+    "spec": [
+      {
+        "title": "Purpose",
+        "body": "**STAR is the governed personal portal. INTEL + CHAT + COIN = STAR.**\n\nEvery USER gets a STAR — their personal surface in the GALAXY. GALAXY shows the organizational topology (all ORGs, all USERs, edges = inheritance). STAR shows the personal topology (one USER, all their services, events, economics, knowledge). GALAXY is spatial. STAR is temporal. The TIMELINE is the centerpiece — the joint lane for all cross-axiomatic intel.\n\n---"
+      },
+      {
+        "title": "Composition",
+        "body": "```\nPrimitive:  INTEL (what you KNOW) + CHAT (what you SAY) + COIN (what you DO)\nService:    STAR (governed personal portal)\nInstance:   {ORG}/{USER}/SERVICES/STAR/\n```\n\n---"
+      },
+      {
+        "title": "Infrastructure",
+        "body": "```\nWorker:     canonic-services (Cloudflare Workers)\nDomain:     api.canonic.org/star/*\nKV:         STAR_KV (compiled timeline cache, lane data)\n            reads TALK_KV (inbox, session ledger)\nSource:     ~/.canonic/design/STAR/src/star-worker.js\nConfig:     wrangler.toml (STAR routes + STAR_KV binding)\nDeploy:     wrangler deploy\n```\n\n---"
+      },
+      {
+        "title": "TIMELINE — The Joint Lane",
+        "body": "TIMELINE is a read-only JOIN across all existing event sources. STAR never duplicates data — it reads from existing streams and presents a unified chronological projection.\n\n### Source Streams\n\n| Stream | Source | Events | Primitive |\n|--------|--------|--------|-----------|\n| VAULT | `~/.canonic/VAULT/USERS/{USER}/TIMELINE.jsonl` | MINT:WORK, SPEND, SETTLE, TRANSFER, CLOSE | COIN |\n| LEDGER | `.idf` chain (filter inventor = USER) | GRADIENT, TALK, CONTRIBUTE, EMAIL, PROVISION, SHOP, AUTH | COIN + INTEL |\n| CALENDAR | CALENDAR pipeline output | Meetings, appointments | INTEL |\n| NOTIFIER | `TALK_KV inbox:{PRINCIPAL}` | Cross-scope messages | CHAT |\n| LEARNING | `LEARNING.md` pattern tables across user scopes | Discovery signals | INTEL |\n| CAMPAIGN | `{USER}/SERVICES/CAMPAIGN/` instances | Upcoming events | CHAT |\n| TALK | Session ledger per scope | Conversation turns | CHAT |\n\n### Unified Envelope Shape\n\n```json\n{\n  \"id\":        \"<content hash>\",\n  \"ts\":        \"<ISO 8601 UTC — sort key>\",\n  \"stream\":    \"VAULT | LEDGER | CALENDAR | NOTIFIER | LEARNING | CAMPAIGN | TALK\",\n  \"type\":      \"<source event type>\",\n  \"scope\":     \"<governed scope>\",\n  \"principal\": \"<USER>\",\n  \"summary\":   \"<1-line human-readable>\",\n  \"ref\":       \"<source record reference>\",\n  \"primitive\": \"INTEL | CHAT | COIN\",\n  \"meta\":      {}\n}\n```\n\nThis is a read-only projection computed at build time or query time. It follows the pattern of VAULT `publish-user` and SHOP aggregation: walk governed sources, compile a unified view, emit to `_data/` for Jekyll or KV for API.\n\n### Filtering\n\nThree axiomatic filters map directly to the primitives:\n\n| Filter | Primitive | Streams |\n|--------|-----------|---------|\n| INTEL | what you KNOW | LEARNING, LEDGER GRADIENT, CALENDAR |\n| CHAT | what you SAY | TALK, NOTIFIER, CAMPAIGN |\n| COIN | what you DO | VAULT TIMELINE (MINT, SPEND, SETTLE, TRANSFER) |\n\n---"
+      },
+      {
+        "title": "Lanes",
+        "body": "STAR exposes 8 lanes. Each lane wires to existing services.\n\n| Lane | Reads From | What It Shows |\n|------|-----------|---------------|\n| TIMELINE | All 7 streams above | Unified chronological feed (default view) |\n| SERVICES | `magic scan` → TALKS/\\*/CANON.md + SERVICES/\\*/CANON.md | Launcher grid for user's governed services |\n| INTEL | LEARNING.md across user scopes | Accumulated knowledge + pattern signals |\n| ECON | WALLET.json + SHOP.json + RESERVES | Balance, transactions, products, reserves |\n| VAULT | VAULT/USERS/{USER}/ (auth-gated) | Private aggregate (delegates to existing VAULT surface) |\n| IDENTITY | VITAE.md + identity.json + KYC anchors | Professional identity, credentials, key status |\n| MEDIA | PAPERS/ + BOOKS/ + DECKS/ + BLOGS/ + PATENTS/ + CAMPAIGNS/ | Published content + IP portfolio |\n| GOV | scopes.json via embedded GALAXY | Governance tree with compliance rings |\n\n---"
+      },
+      {
+        "title": "API Routes",
+        "body": "| Method | Path | Auth | Purpose |\n|--------|------|------|---------|\n| GET | /star/timeline | Bearer | Unified TIMELINE (paginated, filterable by stream and primitive) |\n| GET | /star/services | Bearer | Discovered SERVICES + TALKS |\n| GET | /star/intel | Bearer | LEARNING patterns + signals |\n| GET | /star/econ | Bearer | WALLET + SHOP + reserves |\n| GET | /star/identity | Bearer | VITAE + KYC + key status |\n| GET | /star/media | Bearer | Published content + IP index |\n| GET | /star/gov | Public | GOV tree (compliance rings) |\n| GET | /star/status | Public | Health + data freshness |\n\n---"
+      },
+      {
+        "title": "Architecture",
+        "body": "```\nCLIENT (star.js / iOS / Android)\n    |\napi.canonic.org (Cloudflare Worker — canonic-services)\n    |\n    ├── /star/timeline   → read VAULT TIMELINE.jsonl\n    │                    → read LEDGER .idf (via KV mirror)\n    │                    → read NOTIFIER inbox (TALK_KV)\n    │                    → read CALENDAR (compiled .json)\n    │                    → read LEARNING.md (compiled .json)\n    │                    → merge + sort by ts → paginate\n    │\n    ├── /star/services   → read scopes.json → filter by user → return service cards\n    ├── /star/intel      → read LEARNING.json → return patterns\n    ├── /star/econ       → read WALLET.json + SHOP.json → return economic view\n    ├── /star/identity   → read identity.json + VITAE.json → return identity\n    ├── /star/media      → read compiled media indices → return portfolio\n    ├── /star/gov        → read scopes.json → return governance tree\n    └── /star/status     → health check + data freshness\n```\n\n---"
+      },
+      {
+        "title": "Build Integration",
+        "body": "```\nbuild step 10d:  build-star-timeline --user {USER} --site {FLEET}\n                 → reads VAULT/USERS/{USER}/TIMELINE.jsonl\n                 → reads LEDGER .idf chain (filter inventor = USER)\n                 → reads compiled LEARNING.json\n                 → reads compiled CALENDAR.json (if exists)\n                 → reads TALK_KV ledger (if accessible)\n                 → reads NOTIFIER inbox (if accessible)\n                 → reads CAMPAIGN instances\n                 → merges, sorts by ts, emits STAR-TIMELINE.json\n```\n\n---"
+      },
+      {
+        "title": "GALAXY Complementarity",
+        "body": "| Aspect | GALAXY | STAR |\n|--------|--------|------|\n| Scope | All ORGs + USERs | One USER |\n| Axis | Spatial (inheritance) | Temporal (timeline) |\n| Perspective | Third person (map) | First person (portal) |\n| Data | scopes.json | STAR-TIMELINE.json |\n| Auth | Public | Auth-gated |\n\nNavigation: GALAXY → click USER → STAR. STAR GOV lane → embedded GALAXY (user scope tree).\n\n---"
+      },
+      {
+        "title": "Configuration",
+        "body": "| Type | Key | Source |\n|------|-----|--------|\n| binding | STAR_KV | wrangler.toml (KV namespace for compiled timeline) |\n| binding | TALK_KV | wrangler.toml (shared — inbox + sessions) |\n| var | STAR_TIMELINE_LIMIT | wrangler.toml (default 500 events per page) |\n| var | STAR_CACHE_TTL | wrangler.toml (default 300s) |\n\n---"
+      },
+      {
+        "title": "Instances",
+        "body": "Discovered via `magic scan` — never hardcoded.\n\n---"
+      }
+    ],
+    "learning": [
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-03-04 | STAR = personal portal in GALAXY | GALAXY shows organizational topology (spatial). STAR shows personal topology (temporal). Every USER gets a STAR. | SERVICES/STAR/CANON.md |\n| 2026-03-04 | TIMELINE = joint lane for cross-axiomatic intel | TIMELINE is a read-only JOIN across 7 event sources (VAULT, LEDGER, CALENDAR, NOTIFIER, LEARNING, CAMPAIGN, TALK). Three primitive filters: INTEL, CHAT, COIN. | SERVICES/STAR/STAR.md |\n| 2026-03-04 | 8 lanes wire to existing services | TIMELINE, SERVICES, INTEL, ECON, VAULT, IDENTITY, MEDIA, GOV — each reads from existing governed data, never duplicates | SERVICES/STAR/STAR.md |\n| 2026-03-04 | STAR composes INTEL + CHAT + COIN | All three primitives: INTEL (knowledge accumulation), CHAT (messaging + conversations), COIN (economics + work) | SERVICES/STAR/CANON.md |\n\n---"
+      }
+    ],
+    "coverage": "",
+    "roadmap": {
+      "later": [
+        "iOS SwiftUI STAR view (reads same API)",
+        "TIMELINE filters (by stream, by primitive, by date range)",
+        "Cross-ORG STAR federation (signed identity across org boundaries)",
+        "STAR notifications (push alerts on TIMELINE events)"
+      ]
+    },
+    "vocab": [
+      {
+        "term": "STAR",
+        "definition": "Governed personal portal. One per USER. Composes INTEL + CHAT + COIN into a unified personal surface."
+      },
+      {
+        "term": "TIMELINE",
+        "definition": "Unified chronological JOIN across all event sources (VAULT, LEDGER, CALENDAR, NOTIFIER, LEARNING, CAMPAIGN, TALK). Read-only projection — never duplicates. The joint lane for all cross-axiomatic intel."
+      },
+      {
+        "term": "LANE",
+        "definition": "A view into a governed data domain. Each lane wires to existing services. 8 lanes: TIMELINE, SERVICES, INTEL, ECON, VAULT, IDENTITY, MEDIA, GOV."
+      },
+      {
+        "term": "STREAM",
+        "definition": "A source event feed that TIMELINE reads. Each stream maps to an existing service (VAULT, LEDGER, CALENDAR, NOTIFIER, LEARNING, CAMPAIGN, TALK)."
+      },
+      {
+        "term": "ENVELOPE",
+        "definition": "The canonical wrapper shape that TIMELINE uses to project source events into a unified chronological view. Contains id, ts, stream, type, scope, principal, summary, ref, primitive, meta."
+      },
+      {
+        "term": "PORTAL",
+        "definition": "The STAR surface — a single-page interface with lane tabs. The USER's entry point to their governed life."
+      }
+    ],
+    "chain": [
+      {
+        "scope": "SERVICES",
+        "axiom": "SERVICES are SURFACE routes with governed boundaries.",
+        "constraints": "MUST:     Every service composes INTEL (mandatory — knowledge backs every operation)\nMUST:     Primitives are files, services are directories: INTEL→LEARNING, CHAT→TALK, COIN→SHOP\nMUST:     COIN is optional — adds economics (the economic shadow of WORK)\nMUST:     TALK is optional — adds governed conversation product\nMUST:     NOTIFIER is optional — adds governed cross-scope delivery (NOTIFY + INTEL)\nMUST:     Treat each service scope as a governed boundary (no cross-scope leakage)\nMUST:     Drive routes and UI from governed indices (no hardcoding)\nMUST:     NETWORK services MUST declare Routes table with Method + Primitive\nMUST:     NETWORK services MUST declare Architecture showing client → worker → backend\nMUST:     NETWORK services MUST declare Configuration with all vars and secrets\nMUST:     COMPILER services MUST declare Interface with input/output contract\nMUST NOT: Embed runtime state into governed scopes\nMUST NOT: Ship a service without declaring its API surface in CANON.md"
+      },
+      {
+        "scope": "SURFACE",
+        "axiom": "SURFACE is the platform lane.",
+        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+      }
+    ]
+  }
+}

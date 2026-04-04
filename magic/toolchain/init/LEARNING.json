@@ -1,0 +1,41 @@
+{
+  "_generated": {
+    "compiler": "build-surfaces",
+    "source": "/home/runner/CANONIC/canonic-canonic/MAGIC/TOOLCHAIN/INIT/LEARNING.md"
+  },
+  "sessions": [],
+  "patterns": [
+    {
+      "date": "2026-02-20",
+      "signal": "NEW_SCOPE",
+      "text": "INIT scope created to govern scope bootstrapping — closes the \"canonic init\" gap",
+      "source": "INIT/CANON.md"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "Four phases, one pipeline",
+      "text": "RESOLVE → SCAFFOLD → PROMOTE → VALIDATE — each phase gates the next, each is idempotent",
+      "source": "INIT/INIT.md"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "TRIAD is floor",
+      "text": "No scope exists below COMMUNITY tier — CANON.md + VOCAB.md + README.md is the minimum viable governance",
+      "source": "INIT/CANON.md"
+    },
+    {
+      "date": "2026-02-20",
+      "signal": "Inherits must resolve before COVERAGE",
+      "text": "Parent scope must exist before a child claims compliance — broken chains are rejected",
+      "source": "INIT/CANON.md"
+    }
+  ],
+  "stats": {
+    "total_raw": 0,
+    "community_questions": 0,
+    "filtered_low_entropy": 0,
+    "filtered_pct": 0,
+    "domain_patterns": 4,
+    "filtered_examples": []
+  }
+}
