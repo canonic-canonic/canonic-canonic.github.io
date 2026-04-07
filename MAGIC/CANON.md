@@ -35,14 +35,6 @@ Required closure artifacts per scope:
 
 ---
 
-## Figures
-
-| Context | Type | Data |
-|---------|------|------|
-| feature:primitives | flow-chain | nodes: INTEL → CHAT → COIN |
-| feature:how | pipeline | steps: Join → Validate → Comply → Earn |
-| feature:compliance | gauge | value: 192, max: 255, label: TIER VALUE |
-
 ---
 
 *MAGIC | STRUCTURE | CANONIC*

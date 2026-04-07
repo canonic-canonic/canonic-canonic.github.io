@@ -68,16 +68,6 @@ META dissolved. Every scope carries its own LEARNING terminal. LEARNING = INTEL'
 
 ---
 
-## Figures
-
-| Context | Type | Data |
-|---------|------|------|
-| switcher:Medicine | pipeline | steps: Consent → Diagnose → Treat → Audit |
-| switcher:Finance | audit-trail | items: Policy → Control → Event → Proof |
-| switcher:Government | gauge | value: 255, max: 255, label: TRANSPARENCY |
-| switcher:Defense | flow-chain | nodes: Classify → Validate → Deploy |
-| feature:meta | flow-chain | nodes: Standard → Change → Evidence → Update |
-
 ---
 
 ---

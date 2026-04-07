@@ -49,17 +49,6 @@ FOUNDATION changes require:
 
 ---
 
-## Figures
-
-| Context | Type | Data |
-|---------|------|------|
-| switcher:Founders | score-meter | score: 212, label: COMPLIANCE |
-| switcher:Engineers | pipeline | steps: Code → Check → Pass → Ship |
-| switcher:Security | audit-trail | items: Who → What → When → Why |
-| feature:programming | pipeline | steps: Certify → Validate → Pair → Govern |
-| feature:thesis | balance | left: Spec, right: Hype, tilt: -12 |
-| feature:magic-cta | flow-chain | nodes: Foundation → MAGIC → Hadley Lab |
-
 ---
 
 ---

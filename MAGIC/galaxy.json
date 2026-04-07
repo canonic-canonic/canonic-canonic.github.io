@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "e1d51004d4e8f01d"
+    "gov_hash": "51d436118828346e"
   },
-  "generated": "2026-04-04T12:53:23Z",
+  "generated": "2026-04-07T15:47:17Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -74,18 +74,18 @@
     ]
   },
   "stats": {
-    "total": 964,
-    "avg_bits": 251,
-    "below_magic": 87,
-    "intel_coverage": 121,
+    "total": 983,
+    "avg_bits": 253,
+    "below_magic": 67,
+    "intel_coverage": 124,
     "total_coin": 149567,
     "total_events": 706,
-    "total_sessions": 268,
+    "total_sessions": 290,
     "active_channels": 6,
     "user_count": 31,
     "org_count": 5,
     "svc_count": 49,
-    "scope_count": 311,
+    "scope_count": 315,
     "fleet_health_pct": 99
   },
   "nodes": [
@@ -4883,7 +4883,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "BLOGS",
-      "children": 70,
+      "children": 69,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -5489,21 +5489,21 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "roadmap_now": "[ ] Execute first HN engagement response (lawyer-who-won, 23 comments, draft at HACKERNEWS/RESPONSES",
-      "learning_count": 15,
+      "learning_count": 17,
       "coverage_open_gates": [
         "SUBSTACK_SETUP"
       ],
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS",
-      "children": 19,
+      "children": 20,
       "wallet": null,
       "talk": null,
       "learning": [
         {
-          "date": "2026-03-31",
-          "signal": "PROJECT_INTEL",
-          "pattern": "Open items from Mar 30-31 session: Stop Prompting campaign 7/10, Substack bulk syndication pending, TASK fleet compiler",
-          "source": "intake:project_open_items_2026_03_31.md"
+          "date": "2026-04-05",
+          "signal": "BRANDING_CONSTRAINT",
+          "pattern": "CAOH must be co-attributed on all external CaribChat references. OECS endorsed CAOH, not CANONIC. OmicsChat must co-attr",
+          "source": "Marisa email (2026-04-04)"
         }
       ],
       "score": 123
@@ -6194,8 +6194,8 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": true,
-      "intel_summary": "**KNOW YOUR PORTFOLIO. EVERY PROVISIONAL TRACKED. EVERY DEADLINE CALENDARED.**",
-      "roadmap_now": "[ ] INTEL.md \u2014 portfolio inventory, deadline calendar, counsel contacts (MAGIC 255 closure)",
+      "intel_summary": "**KNOW YOUR PORTFOLIO. EVERY PROVISIONAL TRACKED. EVERY DEADLINE CALENDARED. EVERY CO-INVENTOR ASSIGNED.**",
+      "roadmap_now": "[ ] **File Batch 1 by April 14** \u2014 PROV-007, PROV-008, PROV-009 ($960)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CHARTER/PROSECUTION",
@@ -6271,7 +6271,7 @@
       "learning_count": 17,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DEALS/CAOH",
-      "children": 2,
+      "children": 3,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -6334,6 +6334,68 @@
           "signal": "IRB_WITHOUT_LAW",
           "pattern": "Blog published same day identifies the regulatory gap Marisa fills: no research ethics legislation in T&T or Jamaica, bu",
           "source": "Blog + WhatsApp context"
+        }
+      ],
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/DEALS/CAOH/SOU",
+      "kind": "SCOPE",
+      "label": "SOU",
+      "repo": "hadleylab-canonic",
+      "path": "DEALS/CAOH/SOU",
+      "parent": "hadleylab-canonic/DEALS/CAOH",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR MARKET. KNOW YOUR COMPETITION. KNOW YOUR COMMUNITY.** SOU = COIN + GOV + CARIBCHAT. Evidence: PAHO health ex",
+      "roadmap_now": "[ ] Brief Marisa on SOU business plan",
+      "learning_count": 4,
+      "coverage_score": 255,
+      "coverage_open_gates": [
+        "LEGAL_STRUCTURE",
+        "MARISA_BRIEFING",
+        "SMART_CONTRACT",
+        "REINSURANCE",
+        "REGULATORY"
+      ],
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DEALS/CAOH/SOU",
+      "cross_intel": [
+        "CARIBCHAT",
+        "COIN",
+        "CAOH"
+      ],
+      "children": 1,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-04-05",
+          "signal": "SOU_GENESIS",
+          "pattern": "Sou-sou is 500-year-old Caribbean mutual aid (Yoruba esusu origin). Already a decentralized savings protocol \u2014 blockchai",
+          "source": "Instagram reel + research session"
+        },
+        {
+          "date": "2026-04-05",
+          "signal": "ROSCA_INSURANCE_LINK",
+          "pattern": "ROSCA participants are LESS likely to purchase traditional microinsurance (negative correlation). SOU must position as e",
+          "source": "Springer: Effect of ROSCA participation on microinsurance pu"
+        },
+        {
+          "date": "2026-04-05",
+          "signal": "COMP_INTEL",
+          "pattern": "T&T health insurance market: Guardian Life 62% share, Sagicor 21%, TATIL #3. All charge TT$300-1,500/month (US$44-220). ",
+          "source": "Market research"
+        },
+        {
+          "date": "2026-04-05",
+          "signal": "PROJECT_INTEL",
+          "pattern": "SOU Deal \u2014 Caribbean Mutual Health Insurance: SOU (Savings and Obligations Union) \u2014 sou-sou on blockchain, $25/month mut",
+          "source": "intake:project_sou_deal.md"
         }
       ],
       "score": 128
@@ -6478,7 +6540,7 @@
       "intel_summary": "| Field | Value |",
       "surface_type": "JEKYLL_DECK",
       "fleet_path": "DECKS/BOND-VALE",
-      "children": 3,
+      "children": 4,
       "wallet": null,
       "talk": null,
       "learning": null,
@@ -7206,13 +7268,20 @@
       "children": 7,
       "wallet": null,
       "talk": {
-        "sessions": 163,
-        "last_session": "2026-04-03",
+        "sessions": 174,
+        "last_session": "2026-04-06",
         "channels": [
           "CARIBCHAT"
         ]
       },
-      "learning": null,
+      "learning": [
+        {
+          "date": "2026-04-06",
+          "signal": "PROJECT_INTEL",
+          "pattern": "JAMA multi-arm session progress: Multi-arm comparative analysis for Community Learning Ledgers paper \u2014 session state as",
+          "source": "intake:project_jama_multiarm_session.md"
+        }
+      ],
       "score": 128
     },
     {
@@ -7325,7 +7394,7 @@
       ],
       "surface_type": "JEKYLL_PAPER",
       "fleet_path": "PAPERS/COMMUNITY-LEARNING",
-      "children": 2,
+      "children": 4,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -7357,7 +7426,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS",
-      "children": 4,
+      "children": 5,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -7379,15 +7448,11 @@
       "parent": "hadleylab-canonic/SCREENS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "privacy": "PUBLIC",
       "has_intel": true,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
       "intel_summary": "source-intel: hadleylab-canonic/BOOKS/DIVIDENDS/INTEL.md",
       "roadmap_now": "[ ] Scene breakdown \u2014 extract scene list from book chapters per episode",
       "learning_count": 1,
@@ -7405,7 +7470,7 @@
           "source": "CANON.md + SPINE.md"
         }
       ],
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/DIVIDENDS/CHARACTERS",
@@ -7416,24 +7481,17 @@
       "parent": "hadleylab-canonic/SCREENS/DIVIDENDS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 169,
-      "tier": "NONE",
-      "missing_dims": [
-        "E",
-        "T",
-        "O",
-        "L"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 86,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/DIVIDENDS/CHARACTERS",
       "children": 0,
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 84
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES",
@@ -7444,25 +7502,21 @@
       "parent": "hadleylab-canonic/SCREENS/DIVIDENDS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 161,
-      "tier": "NONE",
+      "bits": 247,
+      "tier": "COMMUNITY",
       "missing_dims": [
-        "E",
-        "T",
-        "R",
-        "O",
-        "L"
+        "R"
       ],
       "has_intel": false,
       "next_tier": "FULL",
-      "next_tier_gap": 94,
+      "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/DIVIDENDS/EPISODES",
       "children": 6,
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 80
+      "score": 123
     },
     {
       "id": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E01-PROLOGUE",
@@ -7473,25 +7527,21 @@
       "parent": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 161,
-      "tier": "NONE",
+      "bits": 247,
+      "tier": "COMMUNITY",
       "missing_dims": [
-        "E",
-        "T",
-        "R",
-        "O",
-        "L"
+        "R"
       ],
       "has_intel": false,
       "next_tier": "FULL",
-      "next_tier_gap": 94,
+      "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/DIVIDENDS/EPISODES/E01-PROLOGUE",
       "children": 0,
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 80
+      "score": 123
     },
     {
       "id": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E02-THE-ECONOMY-WE-INHERITED",
@@ -7502,25 +7552,21 @@
       "parent": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 161,
-      "tier": "NONE",
+      "bits": 247,
+      "tier": "COMMUNITY",
       "missing_dims": [
-        "E",
-        "T",
-        "R",
-        "O",
-        "L"
+        "R"
       ],
       "has_intel": false,
       "next_tier": "FULL",
-      "next_tier_gap": 94,
+      "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/DIVIDENDS/EPISODES/E02-THE-ECONOMY-WE-INHERITED",
       "children": 0,
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 80
+      "score": 123
     },
     {
       "id": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E03-EXTRACTION",
@@ -7531,25 +7577,21 @@
       "parent": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 161,
-      "tier": "NONE",
+      "bits": 247,
+      "tier": "COMMUNITY",
       "missing_dims": [
-        "E",
-        "T",
-        "R",
-        "O",
-        "L"
+        "R"
       ],
       "has_intel": false,
       "next_tier": "FULL",
-      "next_tier_gap": 94,
+      "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/DIVIDENDS/EPISODES/E03-EXTRACTION",
       "children": 0,
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 80
+      "score": 123
     },
     {
       "id": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E04-CIRCULAR-ECONOMY",
@@ -7560,25 +7602,21 @@
       "parent": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 161,
-      "tier": "NONE",
+      "bits": 247,
+      "tier": "COMMUNITY",
       "missing_dims": [
-        "E",
-        "T",
-        "R",
-        "O",
-        "L"
+        "R"
       ],
       "has_intel": false,
       "next_tier": "FULL",
-      "next_tier_gap": 94,
+      "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/DIVIDENDS/EPISODES/E04-CIRCULAR-ECONOMY",
       "children": 0,
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 80
+      "score": 123
     },
     {
       "id": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E05-THE-LOOP",
@@ -7589,25 +7627,21 @@
       "parent": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 161,
-      "tier": "NONE",
+      "bits": 247,
+      "tier": "COMMUNITY",
       "missing_dims": [
-        "E",
-        "T",
-        "R",
-        "O",
-        "L"
+        "R"
       ],
       "has_intel": false,
       "next_tier": "FULL",
-      "next_tier_gap": 94,
+      "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/DIVIDENDS/EPISODES/E05-THE-LOOP",
       "children": 0,
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 80
+      "score": 123
     },
     {
       "id": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E06-CUSTODY-RETURNED",
@@ -7618,25 +7652,21 @@
       "parent": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 161,
-      "tier": "NONE",
+      "bits": 247,
+      "tier": "COMMUNITY",
       "missing_dims": [
-        "E",
-        "T",
-        "R",
-        "O",
-        "L"
+        "R"
       ],
       "has_intel": false,
       "next_tier": "FULL",
-      "next_tier_gap": 94,
+      "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/DIVIDENDS/EPISODES/E06-CUSTODY-RETURNED",
       "children": 0,
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 80
+      "score": 123
     },
     {
       "id": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
@@ -7647,15 +7677,11 @@
       "parent": "hadleylab-canonic/SCREENS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "privacy": "PUBLIC",
       "has_intel": true,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
       "intel_summary": "| Field | Value |",
       "roadmap_now": "[ ] Obtain subtitle file (SRT/VTT) for scene-level ingestion",
       "learning_count": 1,
@@ -7673,7 +7699,7 @@
           "source": "Instance creation session"
         }
       ],
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/CHARACTERS",
@@ -7684,24 +7710,17 @@
       "parent": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 169,
-      "tier": "NONE",
-      "missing_dims": [
-        "E",
-        "T",
-        "O",
-        "L"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 86,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/MASTER-OF-DREAMS/CHARACTERS",
       "children": 0,
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 84
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/SCENES",
@@ -7712,24 +7731,17 @@
       "parent": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 169,
-      "tier": "NONE",
-      "missing_dims": [
-        "E",
-        "T",
-        "O",
-        "L"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 86,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/MASTER-OF-DREAMS/SCENES",
       "children": 0,
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 84
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
@@ -7740,15 +7752,11 @@
       "parent": "hadleylab-canonic/SCREENS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "privacy": "PUBLIC",
       "has_intel": true,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR FILM. EVERY CREDIT SOURCED. EVERY CLAIM EVIDENCED. EVERY SCENE GOVERNED.**",
       "learning_count": 1,
       "coverage_score": 255,
@@ -7765,7 +7773,7 @@
           "source": "Governance scaffold session"
         }
       ],
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/CHARACTERS",
@@ -7776,24 +7784,17 @@
       "parent": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 169,
-      "tier": "NONE",
-      "missing_dims": [
-        "E",
-        "T",
-        "O",
-        "L"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 86,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/CHARACTERS",
       "children": 0,
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 84
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/SCENES",
@@ -7804,24 +7805,112 @@
       "parent": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 169,
-      "tier": "NONE",
-      "missing_dims": [
-        "E",
-        "T",
-        "O",
-        "L"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 86,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/SCENES",
       "children": 0,
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 84
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/SCREENS/ON-HAND",
+      "kind": "SCOPE",
+      "label": "ON-HAND",
+      "repo": "hadleylab-canonic",
+      "path": "SCREENS/ON-HAND",
+      "parent": "hadleylab-canonic/SCREENS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR STORY. EVERY SCENE SOURCED. EVERY CHARACTER GOVERNED. EVERY BEAT EVIDENCED.**",
+      "roadmap_now": "[ ] TREATMENT.md (prose narrative contract)",
+      "learning_count": 3,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SCREENS/ON-HAND",
+      "children": 7,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-04-06",
+          "signal": "ONHAND_SCAFFOLD",
+          "pattern": "Instance scaffolded from iMessage synopsis + cast. First screenplay with full character roster provided by screenwriter ",
+          "source": "Governance scaffold session"
+        },
+        {
+          "date": "2026-04-06",
+          "signal": "ONHAND_SYNOPSIS_INTAKE",
+          "pattern": "Synopsis read natively from iMessage (chat.db SQLite). Cast of characters received as second message. Both SHA-256 hashe",
+          "source": "iMessage intake"
+        },
+        {
+          "date": "2026-04-06",
+          "signal": "ONHAND_MIRACLE_ENGINE",
+          "pattern": "\"What we have on-hand\" = biochemist + kitchen + neighbor chemist + 4-week Christmas clock. Bethany's idea. The miracle i",
+          "source": "Synopsis + cast analysis"
+        }
+      ],
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/SCREENS/ON-HAND/CHARACTERS",
+      "kind": "SCOPE",
+      "label": "CHARACTERS",
+      "repo": "hadleylab-canonic",
+      "path": "SCREENS/ON-HAND/CHARACTERS",
+      "parent": "hadleylab-canonic/SCREENS/ON-HAND",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "[ ] ARC.md (WANT/NEED/GHOST/LIE/TRUTH per principal)",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SCREENS/ON-HAND/CHARACTERS",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-04-06",
+          "signal": "CAST_INTAKE",
+          "pattern": "Full cast provided by screenwriter via iMessage. 12 named characters. Karmyn provided detailed traits for each \u2014 confide",
+          "source": "iMessage intake"
+        }
+      ],
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/SCREENS/ON-HAND/SCENES",
+      "kind": "SCOPE",
+      "label": "SCENES",
+      "repo": "hadleylab-canonic",
+      "path": "SCREENS/ON-HAND/SCENES",
+      "parent": "hadleylab-canonic/SCREENS/ON-HAND",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "[ ] ACT I scenes (001-020)",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SCREENS/ON-HAND/SCENES",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SERVICES/AUTH",
@@ -8073,7 +8162,7 @@
       ],
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/CAMPAIGN",
-      "children": 1,
+      "children": 2,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -8227,7 +8316,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "Dexter Hadley, MD/PhD (Penn). Stanford Research Associate (Butte Lab). Faculty at UCSF and UCF (Founding Chief of AI). C",
-      "learning_count": 8,
+      "learning_count": 9,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/CLAUDE",
@@ -8282,6 +8371,12 @@
           "signal": "COMPILER_METALEARNING",
           "pattern": "Metalearning closure hardened into the compiler itself. Three mechanisms: (1) intake-promote script reads ~/.claude/proj",
           "source": "Compiler metalearning session"
+        },
+        {
+          "date": "2026-04-05",
+          "signal": "FEEDBACK_PROMOTED",
+          "pattern": "GOV case architecture \u2014 uppercase on disk, CF maps at edge: Compiler preserves GOV uppercase case. CF Workers map lowerc",
+          "source": "intake:feedback_gov_case_architecture.md"
         }
       ],
       "score": 128
@@ -8496,7 +8591,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR DESIGN SURFACE. EVERY TOKEN TRACED. EVERY VISUAL GOVERNED.**",
       "roadmap_now": "[ ] CANON.md \u2014 create proper CANON.md with axiom/inherits header (MAGIC 255 closure, DESIGN.md exist",
-      "learning_count": 7,
+      "learning_count": 8,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/DESIGN",
@@ -8545,6 +8640,18 @@
           "signal": "MAMMOCHAT_PORT",
           "pattern": "First CANONIC visual port of external site \u2014 mammochat.com from standalone Next.js to governed surface",
           "source": "SERVICES/TALK/MAMMOCHAT"
+        },
+        {
+          "date": "2026-04-05",
+          "signal": "FEEDBACK_PROMOTED",
+          "pattern": "strip_header strips GOV metadata from WEB view: GOV sections (Figures, Design, Persona, Quick Actions, Locations) must b",
+          "source": "intake:feedback_strip_header_gov_leak.md"
+        },
+        {
+          "date": "2026-04-06",
+          "signal": "FEEDBACK_PROMOTED",
+          "pattern": "JAMA figures and tables are low quality \u2014 complete redesign needed: Preprint figures are data dumps not stories. Need JA",
+          "source": "intake:feedback_jama_figures_critique.md"
         }
       ],
       "score": 128
@@ -9215,7 +9322,20 @@
       "children": 0,
       "wallet": null,
       "talk": null,
-      "learning": null,
+      "learning": [
+        {
+          "date": "2026-04-06",
+          "signal": "FEEDBACK_PROMOTED",
+          "pattern": "JAMA paper must be framed as governance, not chatbot evaluation: Critical framing insight \u2014 the paper is about governing",
+          "source": "intake:feedback_jama_governance_framing.md"
+        },
+        {
+          "date": "2026-04-06",
+          "signal": "PROJECT_INTEL",
+          "pattern": "JAMA review critique and hardening plan: Critical review results, acceptance grade, and priority fixes for Community Lea",
+          "source": "intake:project_jama_review_critique.md"
+        }
+      ],
       "score": 128
     },
     {
@@ -9331,7 +9451,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR STORY. EVERY SCENE SOURCED. EVERY CHARACTER GOVERNED. EVERY BEAT EVIDENCED.**",
-      "learning_count": 1,
+      "learning_count": 3,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/SCREEN",
@@ -9350,6 +9470,18 @@
           "signal": "PROJECT_INTEL",
           "pattern": "SCREEN Service + Karmyn Jones: SCREEN service (visual storytelling lane, parallel to BOOK) created for screenwriters. Ka",
           "source": "intake:project_screen_service.md"
+        },
+        {
+          "date": "2026-04-05",
+          "signal": "PROJECT_INTEL",
+          "pattern": "SCREEN Patent Disclosure: Patent disclosure for governed screenwriting with RWE compilation \u2014 not word prediction, evide",
+          "source": "intake:project_screen_patent.md"
+        },
+        {
+          "date": "2026-04-06",
+          "signal": "PROJECT_INTEL",
+          "pattern": "ON HAND Screenplay \u2014 First Draft: Karmyn Jones spec script (ON HAND) \u2014 comedic drama feature film, 41 scenes, .fdx compi",
+          "source": "intake:project_on_hand_screenplay.md"
         }
       ],
       "score": 128
@@ -9516,8 +9648,8 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 268,
-        "last_session": "2026-04-03",
+        "sessions": 290,
+        "last_session": "2026-04-07",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -9761,9 +9893,11 @@
       "missing_dims": [
         "R"
       ],
-      "has_intel": false,
+      "has_intel": true,
       "next_tier": "FULL",
       "next_tier_gap": 8,
+      "intel_summary": "| Field | Value |",
+      "learning_count": 2,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/ACHIEVE",
       "cross_intel": [
@@ -9775,7 +9909,14 @@
       "children": 0,
       "wallet": null,
       "talk": null,
-      "learning": null,
+      "learning": [
+        {
+          "date": "2026-04-07",
+          "signal": "CAMPAIGN_LAUNCHED",
+          "pattern": "ACHIEVE-PODCAST-2026 campaign: 8 emissions over 7 days. LinkedIn LEAD, Twitter AMPLIFY, Reddit DEEPEN, HN DISCOVER. Brid",
+          "source": "CAMPAIGNS/ACHIEVE-PODCAST-2026.md"
+        }
+      ],
       "score": 123
     },
     {
@@ -9977,7 +10118,7 @@
       "learning_count": 5,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "TALKS",
-      "children": 16,
+      "children": 17,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -10029,7 +10170,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 191,
+      "learning_count": 210,
       "coverage_score": 255,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/CARIBCHAT",
@@ -10040,72 +10181,72 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 163,
-        "last_session": "2026-04-03",
+        "sessions": 174,
+        "last_session": "2026-04-06",
         "channels": [
           "CARIBCHAT"
         ]
       },
       "learning": [
         {
-          "date": "2026-04-03",
+          "date": "2026-04-06",
           "signal": "SESSION_LEDGERED",
-          "pattern": "How to prevent cancer",
-          "source": "96060855-3b54-409a-812c-e10ec47efc0a"
+          "pattern": "Stage III colorectal cancer in Grenada where to refer for radiotherapy",
+          "source": "c98b6e76-2d30-4850-9ed8-d14cd7bd46b3"
         },
         {
-          "date": "2026-04-03",
+          "date": "2026-04-06",
           "signal": "SESSION_LEDGERED",
-          "pattern": "What is the most aggressive form of cancer",
-          "source": "f5656ec3-8eed-490f-9894-eec35216ff0b"
-        },
-        {
-          "date": "2026-04-03",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "I can talk. I was diagnosed with prostate cancer over 17 years ago. I\u2019ve had sur",
-          "source": "7a89b803-e69f-4edb-bb2f-5b4b332fdcff"
-        },
-        {
-          "date": "2026-04-03",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "I\u2019m from Trinidad. But living in Orlando. Can I come home and have the same leve",
-          "source": "b58a1540-0db9-4240-8bc8-1a14e6b097e1"
-        },
-        {
-          "date": "2026-04-03",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "I\u2019m thinking I retire back home I could just come back here for care if anything",
+          "pattern": "Essential medicines list for oncology in CARICOM countries",
           "source": "api.canonic.org/talk"
         },
         {
-          "date": "2026-04-03",
+          "date": "2026-04-06",
           "signal": "SESSION_LEDGERED",
-          "pattern": "Wow. I\u2019m going to think about it much more serious now. My name is Mervin. Thx",
-          "source": "96c1d226-d387-435d-87a9-570661a9ce14"
+          "pattern": "Clinical trials enrolling in the Caribbean for breast cancer 2026",
+          "source": "8c462311-f5c9-41ef-a947-402d209c8b5b"
         },
         {
-          "date": "2026-04-03",
+          "date": "2026-04-06",
           "signal": "SESSION_LEDGERED",
-          "pattern": "Are there any local doctors in Trinidad that you can recommend Claxton Bay?",
-          "source": "65f82bb6-57bb-4e63-937b-75967a70b43a"
+          "pattern": "Cervical cancer screening strategy for country without HPV vaccination program",
+          "source": "api.canonic.org/talk"
         },
         {
-          "date": "2026-04-03",
+          "date": "2026-04-06",
           "signal": "SESSION_LEDGERED",
-          "pattern": "Hello",
-          "source": "2c07cbf6-224f-4919-9490-1cb5dcf9dee8"
+          "pattern": "How to establish a tumor board in a hospital with one oncologist",
+          "source": "api.canonic.org/talk"
         },
         {
-          "date": "2026-04-03",
+          "date": "2026-04-06",
           "signal": "SESSION_LEDGERED",
-          "pattern": "Where can I get screening in Santa cruz",
-          "source": "756c2d13-0122-426d-85f2-1ce93ac8d2d8"
+          "pattern": "Prostate cancer incidence in Caribbean men compared to African American men",
+          "source": "b8a57a45-cf87-4903-854e-a627db0d3eff"
         },
         {
-          "date": "2026-03-25",
-          "signal": "PROJECT_INTEL",
-          "pattern": "CaribChat Launch Status: CaribChat.ai launch partnerships, MOUs, endorsements, patent co-filing with Marisa Nimrod, JAMA",
-          "source": "intake:project_caribchat_launch.md"
+          "date": "2026-04-06",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Pain management for terminal cancer patient when morphine is not on national for",
+          "source": "77ad9542-dce0-48a5-85de-ba65e601c3fb"
+        },
+        {
+          "date": "2026-04-06",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Breast cancer pathology turnaround time standards for resource limited settings",
+          "source": "f0386a96-dd43-4d36-80d1-94d3389ee748"
+        },
+        {
+          "date": "2026-04-06",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Cannabis oil use during chemotherapy in Trinidad and Tobago",
+          "source": "5cd7e10a-6c0d-4ae8-bdc7-21e92b1ada53"
+        },
+        {
+          "date": "2026-04-06",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "where in chaguanus can I get a mammo",
+          "source": "c52fe249-5ce2-4714-b6b1-deba31b82262"
         }
       ],
       "score": 128
@@ -10390,7 +10531,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR BREAST HEALTH. EVERY CLAIM SOURCED. EVERY TRIAL CITED. EVERY JOURNEY GOVERNED.**",
-      "learning_count": 47,
+      "learning_count": 54,
       "coverage_score": 255,
       "coverage_open_gates": [
         "A11Y"
@@ -10405,55 +10546,13 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 27,
-        "last_session": "2026-04-01",
+        "sessions": 34,
+        "last_session": "2026-04-07",
         "channels": [
           "MAMMOCHAT"
         ]
       },
       "learning": [
-        {
-          "date": "2026-03-26",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "What are the BI-RADS categories",
-          "source": "92b11ea7-6f4a-4161-9819-1a29de3cde9a"
-        },
-        {
-          "date": "2026-03-26",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "wow my coworker told me he has breast cancer how can i support her?",
-          "source": "6c34a7fb-b17e-43c9-a137-cbd8b81f49be"
-        },
-        {
-          "date": "2026-03-26",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "its transgender",
-          "source": "92208fe8-4e9d-4fa0-bf2d-8cd0f5bea653"
-        },
-        {
-          "date": "2026-03-26",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "we have been having an affair will i have breastcancer too?",
-          "source": "e0612a7a-fbcf-4095-aa7b-1800950d2253"
-        },
-        {
-          "date": "2026-03-28",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Hi",
-          "source": "f88b9e4e-55e0-4415-a007-e11b983b7b33"
-        },
-        {
-          "date": "2026-03-28",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "How do I join the study",
-          "source": "beba7473-35cb-4f86-8477-6850c9ed2569"
-        },
-        {
-          "date": "2026-03-31",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "hey i just got diagnosed with breast cancer",
-          "source": "15040421-da79-4442-b8b1-e482293ec6b6"
-        },
         {
           "date": "2026-03-31",
           "signal": "SESSION_LEDGERED",
@@ -10471,6 +10570,48 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "hi",
           "source": "3556a0fd-382e-4202-b943-643a2cbcaa91"
+        },
+        {
+          "date": "2026-04-05",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "what are your sources",
+          "source": "eed3dd65-cceb-47ec-8b96-51b691b1718a"
+        },
+        {
+          "date": "2026-04-05",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "where did u get your sources",
+          "source": "2f5db6bf-d145-47ca-a8c8-2f91a0bf70b8"
+        },
+        {
+          "date": "2026-04-05",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "can u export your data to me",
+          "source": "c339d551-68fa-4ccb-9999-d3485f0abb61"
+        },
+        {
+          "date": "2026-04-05",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "when did u get your data",
+          "source": "ebb3534c-ec4c-478f-8558-a82ccac10be7"
+        },
+        {
+          "date": "2026-04-05",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "explain your governance structure and your algorityh",
+          "source": "401400c3-777d-4d17-8bf1-34ca23d85545"
+        },
+        {
+          "date": "2026-04-05",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "is the governance structure in a file",
+          "source": "5f8e58da-00eb-46fc-9a75-1d9dd1142495"
+        },
+        {
+          "date": "2026-04-07",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "what are the most malignant breast tumors",
+          "source": "b51d76ac-775b-44bb-803b-c1c9cbd120cf"
         }
       ],
       "score": 128
@@ -10660,7 +10801,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR OMICS. EVERY VARIANT CLASSIFIED. EVERY FINDING EVIDENCED. EVERY TIER DECLARED.**",
       "roadmap_now": "Governance at 255 \u2014 all 8 artifacts validated",
-      "learning_count": 33,
+      "learning_count": 37,
       "coverage_score": 255,
       "coverage_open_gates": [
         "A11Y"
@@ -10675,37 +10816,13 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 7,
-        "last_session": "2026-03-31",
+        "sessions": 11,
+        "last_session": "2026-04-06",
         "channels": [
           "OMICSCHAT"
         ]
       },
       "learning": [
-        {
-          "date": "2026-03-15",
-          "signal": "SURFACE_BUILD",
-          "pattern": "GOV",
-          "source": "OMICSCHAT community learning surface built \u2014 8 community lea"
-        },
-        {
-          "date": "2026-03-15",
-          "signal": "COMMUNITY_BRIDGE",
-          "pattern": "COMMUNITY",
-          "source": "Community learning dashboard sourced from TALK/OMICSCHAT LEA"
-        },
-        {
-          "date": "2026-03-15",
-          "signal": "HERITAGE_SURFACE",
-          "pattern": "HERITAGE",
-          "source": "StarGEO heritage section surfaced \u2014 NIH BD2K UH2CA203792, $6"
-        },
-        {
-          "date": "2026-03-15",
-          "signal": "EVIDENCE_CHAIN",
-          "pattern": "INTEL",
-          "source": "6 evidence sources surfaced with institutional attribution ("
-        },
         {
           "date": "2026-03-15",
           "signal": "CROSS_SCOPE",
@@ -10741,6 +10858,30 @@
           "signal": "PROJECT_INTEL",
           "pattern": "ABOPM Distributed CRO Vision: Anil Bajnath wants to transform ABOPM from credentialing board into a distributed CRO fede",
           "source": "intake:project_abopm_distributed_cro.md"
+        },
+        {
+          "date": "2026-04-06",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "ADGRG6",
+          "source": "e27bba2c-270a-4b36-99c1-1f1cbffc6094"
+        },
+        {
+          "date": "2026-04-06",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "define Frameshift/nonsense variants leading to complete protein loss",
+          "source": "8f5bf580-ca8b-49fc-9bfb-f202bf98215f"
+        },
+        {
+          "date": "2026-04-06",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "rs9403391",
+          "source": "3de2a69f-0d65-48dd-91fd-d166af86c1be"
+        },
+        {
+          "date": "2026-04-06",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "rs9403391. is on ADGRG6 and is associated wirh downregulated hemocrit and hemogl",
+          "source": "6a6204fb-39c7-42d5-b41e-447313e476ee"
         }
       ],
       "score": 128
@@ -11198,7 +11339,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CORRESPONDENCE. EVERY MESSAGE EPOCH-INDEXED. EVERY COLLABORATOR EVIDENCED.**",
       "roadmap_now": "MailPlus Server operational on Synology NAS (IMAP 993 SSL)",
-      "learning_count": 14,
+      "learning_count": 16,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "TRANSCRIPTS/EMAIL",
@@ -11206,18 +11347,6 @@
       "wallet": null,
       "talk": null,
       "learning": [
-        {
-          "date": "2026-03-13",
-          "signal": "Guidepoint is EMAIL plugin",
-          "pattern": "GUIDEPOINT service (INTEL + COIN + EMAIL) is the first email-triggered workflow \u2014 pattern generalizes to any inbound-cla",
-          "source": "GUIDEPOINT/CANON.md"
-        },
-        {
-          "date": "2026-03-13",
-          "signal": "Resend outbound already ledgered",
-          "pattern": "13 emails sent via TALK /email/send with resend_ids in CORRESPONDENCE.md \u2014 EMAIL service unifies this with inbound",
-          "source": "CHARTER/CORRESPONDENCE.md"
-        },
         {
           "date": "2026-03-13",
           "signal": "Email archive proves VITAE",
@@ -11265,6 +11394,18 @@
           "signal": "FEEDBACK_PROMOTED",
           "pattern": "email_apple_mail: Malta Enterprise and CLA Malta correspondence is on idrdex@mammochat.com via Apple Mail on the laptop,",
           "source": "intake:feedback_email_apple_mail.md"
+        },
+        {
+          "date": "2026-04-05",
+          "signal": "FEEDBACK_PROMOTED",
+          "pattern": "Email test before sending: Always send a branded test email to Dexter first before sending to external recipients. Apple",
+          "source": "intake:feedback_email_test_first.md"
+        },
+        {
+          "date": "2026-04-06",
+          "signal": "FEEDBACK_PROMOTED",
+          "pattern": "Email architecture and signature: Two email channels \u2014 Resend API for branded HTML, Apple Mail for unbranded plain text.",
+          "source": "intake:feedback_email_architecture.md"
         }
       ],
       "score": 128
@@ -13315,8 +13456,8 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 268,
-        "last_session": "2026-04-03",
+        "sessions": 290,
+        "last_session": "2026-04-07",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -13348,8 +13489,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 268,
-        "last_session": "2026-04-03",
+        "sessions": 290,
+        "last_session": "2026-04-07",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -20571,27 +20712,6 @@
       "score": 128
     },
     {
-      "id": "hadleylab-canonic/BLOGS/2026-04-02-commitment-is-all-you-need",
-      "kind": "CONTENT",
-      "label": "COMMITMENT IS ALL YOU NEED",
-      "repo": "hadleylab-canonic",
-      "path": "BLOGS/2026-04-02-commitment-is-all-you-need",
-      "parent": "hadleylab-canonic/BLOGS",
-      "color": "#a78bfa",
-      "category": "CONTENT",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_POST",
-      "fleet_path": "BLOGS/2026-04-02-commitment-is-all-you-need",
-      "children": 0,
-      "date": "2026-04-02",
-      "wallet": null,
-      "talk": null,
-      "learning": null,
-      "score": 128
-    },
-    {
       "id": "hadleylab-canonic/BLOGS/2026-04-03-constitutional-ai-vs-canonic",
       "kind": "CONTENT",
       "label": "CONSTITUTIONAL AI VS CANONIC",
@@ -23493,6 +23613,26 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/CAMPAIGNS/ACHIEVE-PODCAST-2026",
+      "kind": "CONTENT",
+      "label": "ACHIEVE-PODCAST-2026",
+      "repo": "hadleylab-canonic",
+      "path": "CAMPAIGNS/ACHIEVE-PODCAST-2026",
+      "parent": "hadleylab-canonic/CAMPAIGNS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CAMPAIGNS/achieve-podcast-2026",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
       "id": "hadleylab-canonic/CAMPAIGNS/AIMED-2026",
       "kind": "CONTENT",
       "label": "AIMED-2026",
@@ -24253,6 +24393,26 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/DEALS/CAOH/SOU/email-marisa-sou-apr5",
+      "kind": "CONTENT",
+      "label": "EMAIL-MARISA-SOU-APR5",
+      "repo": "hadleylab-canonic",
+      "path": "DEALS/CAOH/SOU/email-marisa-sou-apr5",
+      "parent": "hadleylab-canonic/DEALS/CAOH/SOU",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DEALS/CAOH/SOU/email-marisa-sou-apr5",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "hadleylab-canonic/DEALS/EXCELLENTING/WORK-TALK-NEVILLE",
       "kind": "CONTENT",
       "label": "WORK-TALK-NEVILLE",
@@ -24506,6 +24666,26 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS/BOND-VALE/email-christian-wsj-future-of-work",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/DECKS/BOND-VALE/email-marisa-branding-apr5",
+      "kind": "CONTENT",
+      "label": "EMAIL-MARISA-BRANDING-APR5",
+      "repo": "hadleylab-canonic",
+      "path": "DECKS/BOND-VALE/email-marisa-branding-apr5",
+      "parent": "hadleylab-canonic/DECKS/BOND-VALE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DECKS/BOND-VALE/email-marisa-branding-apr5",
       "children": 0,
       "wallet": null,
       "talk": null,
@@ -25313,11 +25493,11 @@
       "score": 128
     },
     {
-      "id": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING/community-learning-ledgers-caribbean",
+      "id": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING/AIMED26-ANALYSIS",
       "kind": "CONTENT",
-      "label": "COMMUNITY-LEARNING-LEDGERS-CARIBBEAN",
+      "label": "AIMED26-ANALYSIS",
       "repo": "hadleylab-canonic",
-      "path": "PAPERS/COMMUNITY-LEARNING/community-learning-ledgers-caribbean",
+      "path": "PAPERS/COMMUNITY-LEARNING/AIMED26-ANALYSIS",
       "parent": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING",
       "color": "#64748b",
       "category": "ORG",
@@ -25325,7 +25505,47 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "PAPERS/COMMUNITY-LEARNING/community-learning-ledgers-caribbean",
+      "fleet_path": "PAPERS/COMMUNITY-LEARNING/aimed26-analysis",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING/FREEZE-PROTOCOL",
+      "kind": "CONTENT",
+      "label": "FREEZE-PROTOCOL",
+      "repo": "hadleylab-canonic",
+      "path": "PAPERS/COMMUNITY-LEARNING/FREEZE-PROTOCOL",
+      "parent": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_PAPER",
+      "fleet_path": "PAPERS/COMMUNITY-LEARNING/freeze-protocol",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING/OMICSCHAT-ONE-PAGER",
+      "kind": "CONTENT",
+      "label": "OMICSCHAT-ONE-PAGER",
+      "repo": "hadleylab-canonic",
+      "path": "PAPERS/COMMUNITY-LEARNING/OMICSCHAT-ONE-PAGER",
+      "parent": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_PAPER",
+      "fleet_path": "PAPERS/COMMUNITY-LEARNING/omicschat-one-pager",
       "children": 0,
       "wallet": null,
       "talk": null,
@@ -25793,6 +26013,86 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-010",
+      "kind": "CONTENT",
+      "label": "PROV-010",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-010",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/prov-010",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-011",
+      "kind": "CONTENT",
+      "label": "PROV-011",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-011",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/prov-011",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-012",
+      "kind": "CONTENT",
+      "label": "PROV-012",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-012",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/prov-012",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-013",
+      "kind": "CONTENT",
+      "label": "PROV-013",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-013",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/prov-013",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "hadleylab-canonic/SCREENS/SHOP",
       "kind": "CONTENT",
       "label": "SHOP",
@@ -25821,8 +26121,8 @@
       "parent": "hadleylab-canonic/SCREENS/DIVIDENDS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/DIVIDENDS/arc",
@@ -25830,7 +26130,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/DIVIDENDS/BIBLE",
@@ -25841,8 +26141,8 @@
       "parent": "hadleylab-canonic/SCREENS/DIVIDENDS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/DIVIDENDS/bible",
@@ -25850,7 +26150,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/DIVIDENDS/COMPILE",
@@ -25861,8 +26161,8 @@
       "parent": "hadleylab-canonic/SCREENS/DIVIDENDS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/DIVIDENDS/compile",
@@ -25870,7 +26170,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/DIVIDENDS/SOURCES",
@@ -25881,8 +26181,8 @@
       "parent": "hadleylab-canonic/SCREENS/DIVIDENDS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/DIVIDENDS/sources",
@@ -25890,7 +26190,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/DIVIDENDS/SPINE",
@@ -25901,8 +26201,8 @@
       "parent": "hadleylab-canonic/SCREENS/DIVIDENDS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/DIVIDENDS/spine",
@@ -25910,7 +26210,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/DIVIDENDS/TREATMENT",
@@ -25921,8 +26221,8 @@
       "parent": "hadleylab-canonic/SCREENS/DIVIDENDS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/DIVIDENDS/treatment",
@@ -25930,7 +26230,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/ARC",
@@ -25941,8 +26241,8 @@
       "parent": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/MASTER-OF-DREAMS/arc",
@@ -25950,7 +26250,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/COMPILE",
@@ -25961,8 +26261,8 @@
       "parent": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/MASTER-OF-DREAMS/compile",
@@ -25970,7 +26270,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/SOURCES",
@@ -25981,8 +26281,8 @@
       "parent": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/MASTER-OF-DREAMS/sources",
@@ -25990,7 +26290,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/SPINE",
@@ -26001,8 +26301,8 @@
       "parent": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/MASTER-OF-DREAMS/spine",
@@ -26010,7 +26310,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/TREATMENT",
@@ -26021,8 +26321,8 @@
       "parent": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/MASTER-OF-DREAMS/treatment",
@@ -26030,7 +26330,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/ARC",
@@ -26041,8 +26341,8 @@
       "parent": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/arc",
@@ -26050,7 +26350,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/COMPILE",
@@ -26061,8 +26361,8 @@
       "parent": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/compile",
@@ -26070,7 +26370,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/SOURCES",
@@ -26081,8 +26381,8 @@
       "parent": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/sources",
@@ -26090,7 +26390,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/SPINE",
@@ -26101,8 +26401,8 @@
       "parent": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/spine",
@@ -26110,7 +26410,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/TREATMENT",
@@ -26121,8 +26421,8 @@
       "parent": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/treatment",
@@ -26130,7 +26430,127 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 123
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/SCREENS/ON-HAND/ARC",
+      "kind": "CONTENT",
+      "label": "ARC",
+      "repo": "hadleylab-canonic",
+      "path": "SCREENS/ON-HAND/ARC",
+      "parent": "hadleylab-canonic/SCREENS/ON-HAND",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SCREENS/ON-HAND/arc",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/SCREENS/ON-HAND/COMPILE",
+      "kind": "CONTENT",
+      "label": "COMPILE",
+      "repo": "hadleylab-canonic",
+      "path": "SCREENS/ON-HAND/COMPILE",
+      "parent": "hadleylab-canonic/SCREENS/ON-HAND",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SCREENS/ON-HAND/compile",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/SCREENS/ON-HAND/SOURCES",
+      "kind": "CONTENT",
+      "label": "SOURCES",
+      "repo": "hadleylab-canonic",
+      "path": "SCREENS/ON-HAND/SOURCES",
+      "parent": "hadleylab-canonic/SCREENS/ON-HAND",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SCREENS/ON-HAND/sources",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/SCREENS/ON-HAND/SPINE",
+      "kind": "CONTENT",
+      "label": "SPINE",
+      "repo": "hadleylab-canonic",
+      "path": "SCREENS/ON-HAND/SPINE",
+      "parent": "hadleylab-canonic/SCREENS/ON-HAND",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SCREENS/ON-HAND/spine",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/SCREENS/ON-HAND/TREATMENT",
+      "kind": "CONTENT",
+      "label": "TREATMENT",
+      "repo": "hadleylab-canonic",
+      "path": "SCREENS/ON-HAND/TREATMENT",
+      "parent": "hadleylab-canonic/SCREENS/ON-HAND",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SCREENS/ON-HAND/treatment",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/CAMPAIGN/BRANDING",
+      "kind": "CONTENT",
+      "label": "BRANDING",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/CAMPAIGN/BRANDING",
+      "parent": "hadleylab-canonic/SERVICES/CAMPAIGN",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/CAMPAIGN/branding",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SERVICES/CAMPAIGN/PLAYBOOK",
@@ -27866,6 +28286,26 @@
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/BRYANSTON/shop",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/TALKS/PRESENTATION-CATALOG",
+      "kind": "CONTENT",
+      "label": "PRESENTATION-CATALOG",
+      "repo": "hadleylab-canonic",
+      "path": "TALKS/PRESENTATION-CATALOG",
+      "parent": "hadleylab-canonic/TALKS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_TALK",
+      "fleet_path": "TALKS/presentation-catalog",
       "children": 0,
       "wallet": null,
       "talk": null,
@@ -31287,6 +31727,21 @@
     },
     {
       "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/DEALS/CAOH/SOU",
+      "to": "hadleylab-canonic/IRBS/CARIBCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/DEALS/CAOH/SOU",
+      "to": "hadleylab-canonic/SERVICES/COIN"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/DEALS/CAOH/SOU",
+      "to": "hadleylab-canonic/DEALS/CAOH"
+    },
+    {
+      "kind": "CROSS_INTEL",
       "from": "hadleylab-canonic/TALKS/ACHIEVE",
       "to": "hadleylab-canonic/TALKS/MAMMOCHAT"
     },
@@ -32265,6 +32720,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS/CAOH/SOU",
+      "to": "hadleylab-canonic/DEALS/CAOH"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/ACHIEVE",
       "to": "hadleylab-canonic/DECKS"
     },
@@ -32427,6 +32887,21 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/SCENES",
       "to": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SCREENS/ON-HAND",
+      "to": "hadleylab-canonic/SCREENS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SCREENS/ON-HAND/CHARACTERS",
+      "to": "hadleylab-canonic/SCREENS/ON-HAND"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SCREENS/ON-HAND/SCENES",
+      "to": "hadleylab-canonic/SCREENS/ON-HAND"
     },
     {
       "kind": "PARENT",
@@ -34010,11 +34485,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/BLOGS/2026-04-02-commitment-is-all-you-need",
-      "to": "hadleylab-canonic/BLOGS"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/BLOGS/2026-04-03-constitutional-ai-vs-canonic",
       "to": "hadleylab-canonic/BLOGS"
     },
@@ -34730,6 +35200,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/CAMPAIGNS/ACHIEVE-PODCAST-2026",
+      "to": "hadleylab-canonic/CAMPAIGNS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/CAMPAIGNS/AIMED-2026",
       "to": "hadleylab-canonic/CAMPAIGNS"
     },
@@ -34910,6 +35385,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS/CAOH/SOU/email-marisa-sou-apr5",
+      "to": "hadleylab-canonic/DEALS/CAOH/SOU"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/ACHIEVE/DECK",
       "to": "hadleylab-canonic/DECKS/ACHIEVE"
     },
@@ -34936,6 +35416,11 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/BOND-VALE/email-christian-wsj-future-of-work",
+      "to": "hadleylab-canonic/DECKS/BOND-VALE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DECKS/BOND-VALE/email-marisa-branding-apr5",
       "to": "hadleylab-canonic/DECKS/BOND-VALE"
     },
     {
@@ -35140,7 +35625,17 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING/community-learning-ledgers-caribbean",
+      "from": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING/AIMED26-ANALYSIS",
+      "to": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING/FREEZE-PROTOCOL",
+      "to": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING/OMICSCHAT-ONE-PAGER",
       "to": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING"
     },
     {
@@ -35235,6 +35730,36 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/SCREENS/ON-HAND/ARC",
+      "to": "hadleylab-canonic/SCREENS/ON-HAND"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SCREENS/ON-HAND/COMPILE",
+      "to": "hadleylab-canonic/SCREENS/ON-HAND"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SCREENS/ON-HAND/SOURCES",
+      "to": "hadleylab-canonic/SCREENS/ON-HAND"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SCREENS/ON-HAND/SPINE",
+      "to": "hadleylab-canonic/SCREENS/ON-HAND"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SCREENS/ON-HAND/TREATMENT",
+      "to": "hadleylab-canonic/SCREENS/ON-HAND"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/CAMPAIGN/BRANDING",
+      "to": "hadleylab-canonic/SERVICES/CAMPAIGN"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/CAMPAIGN/PLAYBOOK",
       "to": "hadleylab-canonic/SERVICES/CAMPAIGN"
     },
@@ -35292,6 +35817,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/TALKS/BRYANSTON/SHOP",
       "to": "hadleylab-canonic/TALKS/BRYANSTON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/TALKS/PRESENTATION-CATALOG",
+      "to": "hadleylab-canonic/TALKS"
     },
     {
       "kind": "PARENT",

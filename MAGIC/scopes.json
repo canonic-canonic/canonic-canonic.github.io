@@ -766,6 +766,28 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:NASES",
+      "label": "NASES",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:NASES:SYNOLOGY",
+      "label": "SYNOLOGY",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:NASES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:PAPERS",
       "label": "PAPERS",
       "bits": 255,
@@ -966,8 +988,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SCREENS:DIVIDENDS",
       "label": "DIVIDENDS",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:SCREENS"
@@ -977,8 +999,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SCREENS:MASTER-OF-DREAMS",
       "label": "MASTER-OF-DREAMS",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:SCREENS"
@@ -988,11 +1010,44 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SCREENS:NO-FAMILY-WITHOUT-BLOOD",
       "label": "NO-FAMILY-WITHOUT-BLOOD",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:SCREENS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SCREENS:ON-HAND",
+      "label": "ON-HAND",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:SCREENS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SEEDS",
+      "label": "SEEDS",
       "bits": 247,
       "size": 60,
       "color": "#64748b",
       "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:SCREENS"
+      "inherits": "gov:hadleylab-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SEEDS:ULTRA",
+      "label": "ULTRA",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:SEEDS"
     },
     {
       "source": "gov",
@@ -1305,6 +1360,17 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SERVICES:NAS",
+      "label": "NAS",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:SERVICES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:NOTIFIER",
       "label": "NOTIFIER",
       "bits": 255,
@@ -1384,6 +1450,17 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:SCREEN",
       "label": "SCREEN",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:SERVICES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SERVICES:SEED",
+      "label": "SEED",
       "bits": 255,
       "size": 80,
       "color": "#64748b",

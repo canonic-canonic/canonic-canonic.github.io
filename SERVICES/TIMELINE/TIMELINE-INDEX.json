@@ -3,8 +3,8 @@
     "contract": "hadleylab-canonic/SERVICES/TIMELINE/CANON.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "generated": "2026-04-04T13:45:16Z",
-  "total_events": 21912,
+  "generated": "2026-04-07T15:52:44Z",
+  "total_events": 22051,
   "lanes": {
     "CALENDAR": {
       "count": 5129,
@@ -15,9 +15,9 @@
       "label": "Calendar"
     },
     "LEARNING": {
-      "count": 14531,
+      "count": 14657,
       "earliest": "2013-10-09T00:00:00Z",
-      "latest": "2026-04-03T00:00:00Z",
+      "latest": "2026-04-07T00:00:00Z",
       "color": "#bf5af2",
       "icon": "★",
       "label": "Learning"
@@ -39,7 +39,7 @@
       "label": "Deal"
     },
     "CAMPAIGN": {
-      "count": 191,
+      "count": 193,
       "earliest": "2025-12-29T00:00:00Z",
       "latest": "2026-11-10T00:00:00Z",
       "color": "#ff453a",
@@ -55,9 +55,9 @@
       "label": "Coin"
     },
     "CORRESPONDENCE": {
-      "count": 29,
+      "count": 34,
       "earliest": "2026-02-26T12:00:00Z",
-      "latest": "2026-04-03T12:00:00Z",
+      "latest": "2026-04-05T12:00:00Z",
       "color": "#06b6d4",
       "icon": "✎",
       "label": "Correspondence"
@@ -71,7 +71,7 @@
       "label": "Ledger"
     },
     "ROADMAP": {
-      "count": 75,
+      "count": 79,
       "earliest": "2026-03-17T17:00:00Z",
       "latest": "2026-04-21T17:00:00Z",
       "color": "#a3e635",
@@ -87,9 +87,9 @@
       "label": "Grant"
     },
     "CONTACTS": {
-      "count": 44,
-      "earliest": "2026-04-03T00:28:57Z",
-      "latest": "2026-04-03T00:28:57Z",
+      "count": 46,
+      "earliest": "2026-04-06T01:49:22Z",
+      "latest": "2026-04-06T01:49:22Z",
       "color": "#ffd60a",
       "icon": "⌂",
       "label": "Contacts"
@@ -104,6 +104,7 @@
     "DAVID + NEVILLE",
     "DAVID SLONIM",
     "DAVID SLONIM (not on IHI critical path)",
+    "DAVID SLONIM to draft emeritus agreement",
     "DAVID SLONIM → JULIO HERNANDEZ files",
     "DAVID drafts",
     "DEXTER",
@@ -111,6 +112,7 @@
     "FATIMA",
     "FATIMA convenes",
     "GIT",
+    "Hadley + Jones. Sub session.",
     "ILYA",
     "ISABELLA",
     "JP",
@@ -119,18 +121,21 @@
     "JULIO + FATIMA",
     "JULIO files, DAVID drafts",
     "MARK + GABE",
+    "MARK + GABE (by **2027-02-25**)",
+    "PROV-007, PROV-008, PROV-009 ($960)",
+    "PROV-010, PROV-011 ($640, before CAOH Conference)",
+    "PROV-012 ($320, after Croes review)",
     "ROBERT",
     "SYSTEM",
     "TREASURY",
     "YANA",
     "account architecture, fiscal policies, reconciliation cadence (MAGIC 255 closure)",
-    "all priority provisionals filed",
+    "convert vs defensive IDF (by Dec 2026)",
     "directors, officers, meeting cadence, resolution registry (MAGIC 255 closure)",
     "filing status, exemption timeline, compliance calendar (MAGIC 255 closure)",
     "filing status, registered agent, entity number, EIN (MAGIC 255 closure)",
     "instrument status, assignment inventory, reversion terms (MAGIC 255 closure)",
     "parallel track",
-    "portfolio inventory, deadline calendar, counsel contacts (MAGIC 255 closure)",
     "tier rates, template status, license registry, OncoNex chain (MAGIC 255 closure)"
   ],
   "index_path": "/Users/iDrDex/.canonic/timeline/INDEX.jsonl"
