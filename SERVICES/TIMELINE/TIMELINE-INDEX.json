@@ -3,8 +3,8 @@
     "contract": "hadleylab-canonic/SERVICES/TIMELINE/CANON.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "generated": "2026-04-07T15:52:44Z",
-  "total_events": 22051,
+  "generated": "2026-04-07T16:25:04Z",
+  "total_events": 22052,
   "lanes": {
     "CALENDAR": {
       "count": 5129,
@@ -39,7 +39,7 @@
       "label": "Deal"
     },
     "CAMPAIGN": {
-      "count": 193,
+      "count": 194,
       "earliest": "2025-12-29T00:00:00Z",
       "latest": "2026-11-10T00:00:00Z",
       "color": "#ff453a",
