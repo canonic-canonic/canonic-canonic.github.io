@@ -107,27 +107,27 @@
             "rows": [
               [
                 "2026-02-26",
-                "",
+                "NOTIFY_INLINE",
                 "Direct mapping at ledger write time eliminates polling — instant cross-scope del"
               ],
               [
                 "2026-02-26",
-                "",
+                "GOV_ROUTE",
                 "notify: header in CANON.md declares delivery routes — compiler emits, runtime ex"
               ],
               [
                 "2026-02-26",
-                "",
+                "INBOX_BOUNDED",
                 "Per-principal inbox capped at 500 entries — prevents unbounded growth"
               ],
               [
                 "2026-02-27",
-                "",
+                "SERVICE_FORMALIZED",
                 "NOTIFIER elevated from inline notify to first-class governed service"
               ],
               [
                 "2026-02-27",
-                "",
+                "TALK_PEER",
                 "NOTIFIER is peer to TALK — both first-class SERVICES, both compose INTEL"
               ]
             ]

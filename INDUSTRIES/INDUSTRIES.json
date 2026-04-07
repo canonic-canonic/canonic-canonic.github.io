@@ -115,27 +115,27 @@
             "rows": [
               [
                 "2026-02-14",
-                "",
+                "NEW_SCOPE",
                 "New governance domain: LEARNING"
               ],
               [
                 "2026-02-14",
-                "",
+                "NEW_CONSTRAINT",
                 "New constraint: MUST: Declare governance."
               ],
               [
                 "2026-02-14",
-                "",
+                "NEW_TERM",
                 "New concept: GOVERNED"
               ],
               [
                 "2026-02-14",
-                "",
+                "NEW_TERM",
                 "New concept: ROOT"
               ],
               [
                 "2026-02-14",
-                "",
+                "NEW_TERM",
                 "New concept: POLISH"
               ]
             ]

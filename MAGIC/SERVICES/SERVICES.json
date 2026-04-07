@@ -62,7 +62,7 @@
         {
           "metric": {
             "label": "CHILDREN",
-            "value": "16",
+            "value": "52",
             "change": "scopes",
             "trend": "neutral"
           }
@@ -100,6 +100,50 @@
       ]
     },
     {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-19",
+                "INTEL is WORK — mandatory primitive",
+                "INTEL is the only mandatory primitive; COIN and TALK are optional services"
+              ],
+              [
+                "2026-02-19",
+                "Primitives are files, services are directories",
+                "INTEL.md, CHAT.md, COIN.md = primitives; SERVICES/LEARNING/, SERVICES/TALK/, SER"
+              ],
+              [
+                "2026-02-19",
+                "Epoch 2 flatten",
+                "COIN, INTEL, LEDGER, EVIDENCE promoted from VAULT children to flat SERVICES peer"
+              ],
+              [
+                "2026-02-19",
+                "Three foundation axioms govern all services",
+                "TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these ax"
+              ],
+              [
+                "2026-02-19",
+                "_generated markers block hand-editing",
+                "All compiled JSON outputs carry _generated — fix compiler or contract, never the"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "children",
       "eyebrow": "SERVICES",
       "title": "SERVICES",
@@ -113,9 +157,79 @@
         },
         {
           "icon": "∩",
+          "title": "AUTH",
+          "desc": "AUTH gates scope access. Identity is the KYC anchor. Scope-level readers/writers declared in CANON.md.",
+          "href": "/MAGIC/SERVICES/AUTH/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "BLOG",
+          "desc": "BLOG is the editorial voice. Every post is a governed artifact — sourced, compiled, and surfaced. The blog publishes what the system proves.",
+          "href": "/MAGIC/SERVICES/BLOG/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "BOOK",
+          "desc": "BOOK is the long-form publishing lane. Every manuscript is a governed artifact — authored in markdown, compiled through the MAGIC pipeline, and surfaced on the governed frontend.",
+          "href": "/MAGIC/SERVICES/BOOK/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "BUILD",
+          "desc": "Build is governed DAG traversal. Phases are nodes. Dependencies are edges. Parallelism is discovered, not hardcoded. GOV is the only hardcoded path.",
+          "href": "/MAGIC/SERVICES/BUILD/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "CALENDAR",
+          "desc": "CALENDAR is the time axis of the galaxy. Every meeting governed. Every participant resolved. Every event visualized.",
+          "href": "/MAGIC/SERVICES/CALENDAR/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "CAMPAIGN",
+          "desc": "CAMPAIGN is the repeatable event-to-emission framework. One event. All platforms. Governed cascade.",
+          "href": "/MAGIC/SERVICES/CAMPAIGN/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
           "title": "CHAIN",
           "desc": "Every WALLET event chains to its predecessor. Balance is provable.",
           "href": "/MAGIC/SERVICES/CHAIN/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "CITATION",
+          "desc": "CITATION is the evidence spine. Every claim resolves to a source. Every source carries freshness. Every surface resolves through CITATION.",
+          "href": "/MAGIC/SERVICES/CITATION/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "CLAUDE",
+          "desc": "CLAUDE is the governed agent context surface. Compilation is graph traversal. The galaxy is the input graph. BFS from any starting node discovers contextual INTEL and optimized LEARNING by graph distance.",
+          "href": "/MAGIC/SERVICES/CLAUDE/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "COIN",
+          "desc": "COIN is the economic shadow of WORK. Every mint ledgered. Every burn evidenced.",
+          "href": "/MAGIC/SERVICES/COIN/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "CONTACTS",
+          "desc": "CONTACTS is the resolution spine. Every identifier resolves to a node. Every node carries INTEL. Every service resolves through CONTACTS.",
+          "href": "/MAGIC/SERVICES/CONTACTS/",
           "class": "card"
         },
         {
@@ -127,6 +241,27 @@
         },
         {
           "icon": "∩",
+          "title": "DEAL",
+          "desc": "DEAL governs relationships. Every deal ledgered. Every stage evidenced.",
+          "href": "/MAGIC/SERVICES/DEAL/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "DECK",
+          "desc": "DECK is the governed presentation lane. Every slide is a published artifact — authored in markdown, compiled through the MAGIC pipeline, and surfaced as interactive slides.",
+          "href": "/MAGIC/SERVICES/DECK/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "DEMO",
+          "desc": "DEMO is the governed product demonstration lane. Every demo is a reproducible walkthrough captured as evidence and compiled into a shareable artifact.",
+          "href": "/MAGIC/SERVICES/DEMO/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
           "title": "DEPLOY",
           "desc": "DEPLOY is governed artifact delivery. Build validates, deploy ships, rollback recovers.",
           "href": "/MAGIC/SERVICES/DEPLOY/",
@@ -134,9 +269,58 @@
         },
         {
           "icon": "∩",
+          "title": "DESIGN",
+          "desc": "DESIGN is the visual authoring surface for fleet composition. Tokens remain the source of truth. The visual tool is INPUT, governed, validated, and ledgered. No ungoverned pixels reach production.",
+          "href": "/MAGIC/SERVICES/DESIGN/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "DEV",
+          "desc": "DEV is the Governor General's intel center. Every user visible. Every issue surfaced.",
+          "href": "/MAGIC/SERVICES/DEV/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "DOMAINS",
+          "desc": "Every vanity surface conflict-cleared. Every acquisition preflight-checked. Every zone governed.",
+          "href": "/MAGIC/SERVICES/DOMAINS/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "FINANCIALS",
+          "desc": "FINANCIALS governs the economic record. Every event ledgered. Every close reconciled.",
+          "href": "/MAGIC/SERVICES/FINANCIALS/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "FORECASTS",
+          "desc": "FORECASTS projects governed economics. Every projection evidenced.",
+          "href": "/MAGIC/SERVICES/FORECASTS/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
           "title": "IDENTITY",
           "desc": "Every COIN action is signed. Every signature is verified.",
           "href": "/MAGIC/SERVICES/IDENTITY/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "KYC",
+          "desc": "KYC validates identity and compliance. Every claim verified.",
+          "href": "/MAGIC/SERVICES/KYC/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "LATEX",
+          "desc": "LATEX is a compiled surface. Governance lives in markdown. No raw LATEX in the GOV layer.",
+          "href": "/MAGIC/SERVICES/LATEX/",
           "class": "card"
         },
         {
@@ -169,9 +353,72 @@
         },
         {
           "icon": "∩",
+          "title": "MUSIC",
+          "desc": "MUSIC governs media. Every track governed. Every source traced. Every artist respected.",
+          "href": "/MAGIC/SERVICES/MUSIC/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "NAS",
+          "desc": "NAS is the local canonical store. Every transcript archived. Every media file served. Every backup governed. The single source of truth for content that lives outside git.",
+          "href": "/MAGIC/SERVICES/NAS/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
           "title": "NOTIFIER",
           "desc": "NOTIFIER is NOTIFY + INTEL composed. Scope determines the route. Ledger determines the proof.",
           "href": "/MAGIC/SERVICES/NOTIFIER/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "PAPER",
+          "desc": "PAPER is the research publishing lane. Every manuscript is a governed artifact — authored in markdown, compiled through the MAGIC pipeline, and surfaced with citation governance.",
+          "href": "/MAGIC/SERVICES/PAPER/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "PATENT",
+          "desc": "PATENT governs intellectual property. Every filing evidenced. Every disclosure tracked.",
+          "href": "/MAGIC/SERVICES/PATENT/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "PLAYBOOKS",
+          "desc": "PLAYBOOKS governs operational procedures. Every playbook validated.",
+          "href": "/MAGIC/SERVICES/PLAYBOOKS/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "PLUGINS",
+          "desc": "PLUGINS are composable client-side extensions. One plugin, one concern. Channels compose.",
+          "href": "/MAGIC/SERVICES/PLUGINS/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "RESERVES",
+          "desc": "RESERVES holds governed capital. Every allocation evidenced.",
+          "href": "/MAGIC/SERVICES/RESERVES/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "SEED",
+          "desc": "SEED is the media acquisition lane. Every instance declared. Every sync verified. Every source archived.",
+          "href": "/MAGIC/SERVICES/SEED/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "SEO",
+          "desc": "Every page declares its canonical. Every surface indexed under the domain it serves. Every sitemap references governed URLs only. 255 or reject.",
+          "href": "/MAGIC/SERVICES/SEO/",
           "class": "card"
         },
         {
@@ -190,6 +437,13 @@
         },
         {
           "icon": "∩",
+          "title": "STORY",
+          "desc": "STORY is the visual storytelling lane. Every screenplay is a governed artifact — compiled through the MAGIC pipeline and surfaced on the governed frontend. Deterministic. Drift-gated.",
+          "href": "/MAGIC/SERVICES/STORY/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
           "title": "TALK",
           "desc": "TALK is CHAT + INTEL + COIN composed. Industry determines the voice. INTEL provides the knowledge. COIN gates premium access.",
           "href": "/MAGIC/SERVICES/TALK/",
@@ -197,9 +451,51 @@
         },
         {
           "icon": "∩",
+          "title": "TASK",
+          "desc": "TASK governs the remote agent fleet. Every scheduled agent is a governed scope. Every poll is ledgered. Every alert is evidence.",
+          "href": "/MAGIC/SERVICES/TASK/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "TIMELINE",
+          "desc": "TIMELINE is the temporal index of the galaxy. Every governed event timestamped. Every lane joined. Every source immutable.",
+          "href": "/MAGIC/SERVICES/TIMELINE/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "TRANSCRIPT",
+          "desc": "TRANSCRIPT is the universal evidence substrate. Every conversation hashed. Every stream immutable. Every transcript ledgered.",
+          "href": "/MAGIC/SERVICES/TRANSCRIPT/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "UPTIME",
+          "desc": "UPTIME monitors all product domains and critical surfaces. Every domain checked. Every outage is evidence. Every recovery is ledgered.",
+          "href": "/MAGIC/SERVICES/UPTIME/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "USER",
+          "desc": "USER governs identity. Every person onboarded. Every credential verified. Every contribution ledgered.",
+          "href": "/MAGIC/SERVICES/USER/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
           "title": "VAULT",
           "desc": "VAULT compiles the private aggregate. Auth-gated. Ledger-backed.",
           "href": "/MAGIC/SERVICES/VAULT/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
+          "title": "VITAE",
+          "desc": "VITAE governs professional identity. Every claim evidenced.",
+          "href": "/MAGIC/SERVICES/VITAE/",
           "class": "card"
         },
         {

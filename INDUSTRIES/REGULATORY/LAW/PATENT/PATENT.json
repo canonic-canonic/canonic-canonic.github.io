@@ -89,166 +89,24 @@
   },
   "footerTagline": "PATENT | CANONIC",
   "canon": {
-    "axiom": "Example",
-    "constraints": "MUST:     Cite 35 USC section, 37 CFR rule, or case law for patent claims\nMUST:     Distinguish between pre-AIA and post-AIA (2013) patent law\nMUST NOT: Present patent prosecution strategy as legal advice",
-    "inherits": "canonic-canonic/INDUSTRIES/REGULATORY/LAW",
-    "spec": [
-      {
-        "title": "Ecosystem",
-        "body": "| Dimension | Value |\n|-----------|-------|\n| Domain | Patent law governance |\n| Parent | LAW |\n| Vertical | REGULATORY |\n| Primitives | INTEL (claims) + CHAT (prosecution) + COIN (filing) |\n\n---"
-      },
-      {
-        "title": "Routes",
-        "body": "```\nPATENT → LAW          IP within regulatory\nINTEL → CLAIMS        Governed patent claims\nCOIN → FILING         Economic event per filing\n```\n\n---"
-      }
-    ],
+    "axiom": "PATENT governs intellectual property. Every filing evidenced. Every disclosure tracked.",
+    "constraints": "MUST:     Evidence every filing\nMUST:     Track every disclosure\nMUST:     Gate every stage transition (DISCLOSE → FILE → APPLY)\nMUST:     Mint COIN on gate transition\nMUST:     Ledger every promotion\nMUST:     Protect privileged content\nMUST NOT: Expose privileged IP to public surfaces\nMUST NOT: Hardcode filing details in law",
+    "inherits": "canonic-canonic/MAGIC/SERVICES",
+    "spec": [],
     "learning": [],
-    "coverage": "255/255",
+    "coverage": "",
     "roadmap": {},
-    "vocab": [
-      {
-        "term": "AWH",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "CBM",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "CFR",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "CIP",
-        "definition": "Continuation-in-part — adds new matter while maintaining parent priority for shared disclosure"
-      },
-      {
-        "term": "CLS",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "CNIPA",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "CPC",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "CRM",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "DOE",
-        "definition": "Doctrine of Equivalents — infringement theory for insubstantial differences from literal claim language"
-      },
-      {
-        "term": "EPC",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "EPO",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "ETSI",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "FRAND",
-        "definition": "Fair, Reasonable, and Non-Discriminatory — licensing commitment for standard-essential patents"
-      },
-      {
-        "term": "FTO",
-        "definition": "Freedom-to-Operate — analysis identifying third-party patents that may block commercialization"
-      },
-      {
-        "term": "IDS",
-        "definition": "Information Disclosure Statement — duty to disclose material prior art to the USPTO"
-      },
-      {
-        "term": "IEEE",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "IPC",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "IPR",
-        "definition": "Inter Partes Review — PTAB proceeding challenging patent validity on 102/103 grounds"
-      },
-      {
-        "term": "ITC",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "ITU",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "JPO",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "KIPO",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "KSR",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "NPV",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "PATENT",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "PCT",
-        "definition": "Patent Cooperation Treaty — international filing system designating 150+ countries"
-      },
-      {
-        "term": "PGR",
-        "definition": "Post-Grant Review — PTAB proceeding challenging patent validity on any ground (9 months from grant)"
-      },
-      {
-        "term": "POSITA",
-        "definition": "Person of Ordinary Skill in the Art — the hypothetical person against whom obviousness is measured"
-      },
-      {
-        "term": "PTAB",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "RCE",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "TSM",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "US",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "USPTO",
-        "definition": "Governed term in this scope vocabulary."
-      }
-    ],
+    "vocab": [],
     "chain": [
       {
-        "scope": "LAW",
-        "axiom": "Example",
-        "constraints": "MUST:     Cite statute, regulation, or case law for legal claims\nMUST:     Distinguish binding authority from persuasive authority\nMUST NOT: Present legal information as legal advice"
+        "scope": "SERVICES",
+        "axiom": "SERVICES are SURFACE routes with governed boundaries.",
+        "constraints": "MUST:     Every service composes INTEL (mandatory — knowledge backs every operation)\nMUST:     Primitives are files, services are directories: INTEL→LEARNING, CHAT→TALK, COIN→SHOP\nMUST:     COIN is optional — adds economics (the economic shadow of WORK)\nMUST:     TALK is optional — adds governed conversation product\nMUST:     NOTIFIER is optional — adds governed cross-scope delivery (NOTIFY + INTEL)\nMUST:     Treat each service scope as a governed boundary (no cross-scope leakage)\nMUST:     Drive routes and UI from governed indices (no hardcoding)\nMUST:     NETWORK services MUST declare Routes table with Method + Primitive\nMUST:     NETWORK services MUST declare Architecture showing client → worker → backend\nMUST:     NETWORK services MUST declare Configuration with all vars and secrets\nMUST:     COMPILER services MUST declare Interface with input/output contract\nMUST NOT: Embed runtime state into governed scopes\nMUST NOT: Ship a service without declaring its API surface in CANON.md"
       },
       {
-        "scope": "INDUSTRIES",
-        "axiom": "INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.",
-        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof"
+        "scope": "SURFACE",
+        "axiom": "SURFACE is the platform lane.",
+        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
       },
       {
         "scope": "MAGIC",

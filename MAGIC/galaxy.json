@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "fb4bd3c1508bfe6f"
+    "gov_hash": "d0fb6a51dfb44aff"
   },
-  "generated": "2026-04-07T18:21:59Z",
+  "generated": "2026-04-07T22:19:36Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -74,18 +74,18 @@
     ]
   },
   "stats": {
-    "total": 988,
+    "total": 1025,
     "avg_bits": 253,
     "below_magic": 68,
-    "intel_coverage": 124,
+    "intel_coverage": 127,
     "total_coin": 149567,
     "total_events": 706,
     "total_sessions": 290,
     "active_channels": 6,
     "user_count": 31,
     "org_count": 5,
-    "svc_count": 49,
-    "scope_count": 315,
+    "svc_count": 50,
+    "scope_count": 351,
     "fleet_health_pct": 99
   },
   "nodes": [
@@ -3015,6 +3015,132 @@
       "score": 128
     },
     {
+      "id": "canonic-canonic/MAGIC/SERVICES/AUTH",
+      "kind": "SCOPE",
+      "label": "AUTH",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/AUTH",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/AUTH",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/BLOG",
+      "kind": "SCOPE",
+      "label": "BLOG",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/BLOG",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/BLOG",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/BOOK",
+      "kind": "SCOPE",
+      "label": "BOOK",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/BOOK",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/BOOK",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/BUILD",
+      "kind": "SCOPE",
+      "label": "BUILD",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/BUILD",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/BUILD",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/CALENDAR",
+      "kind": "SCOPE",
+      "label": "CALENDAR",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/CALENDAR",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/CALENDAR",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/CAMPAIGN",
+      "kind": "SCOPE",
+      "label": "CAMPAIGN",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/CAMPAIGN",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/CAMPAIGN",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "canonic-canonic/MAGIC/SERVICES",
       "kind": "SCOPE",
       "label": "SERVICES",
@@ -3032,7 +3158,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_ECON",
       "fleet_path": "MAGIC/SERVICES",
-      "children": 16,
+      "children": 52,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -3131,6 +3257,91 @@
       "score": 128
     },
     {
+      "id": "canonic-canonic/MAGIC/SERVICES/CITATION",
+      "kind": "SCOPE",
+      "label": "CITATION",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/CITATION",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/CITATION",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/CLAUDE",
+      "kind": "SCOPE",
+      "label": "CLAUDE",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/CLAUDE",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/CLAUDE",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/COIN",
+      "kind": "SCOPE",
+      "label": "COIN",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/COIN",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**COIN is the economic shadow of WORK. Every mint ledgered. Every burn evidenced. Supply ceiling = scopes \u00d7 255 per CLOS",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/COIN",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/CONTACTS",
+      "kind": "SCOPE",
+      "label": "CONTACTS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/CONTACTS",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/CONTACTS",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "canonic-canonic/MAGIC/SERVICES/CONTRIBUTE",
       "kind": "SCOPE",
       "label": "CONTRIBUTE",
@@ -3165,6 +3376,69 @@
           "source": "worker.js contribute()"
         }
       ],
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/DEAL",
+      "kind": "SCOPE",
+      "label": "DEAL",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/DEAL",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/DEAL",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/DECK",
+      "kind": "SCOPE",
+      "label": "DECK",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/DECK",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/DECK",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/DEMO",
+      "kind": "SCOPE",
+      "label": "DEMO",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/DEMO",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/DEMO",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
       "score": 128
     },
     {
@@ -3247,6 +3521,111 @@
       "score": 128
     },
     {
+      "id": "canonic-canonic/MAGIC/SERVICES/DESIGN",
+      "kind": "SCOPE",
+      "label": "DESIGN",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/DESIGN",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/DESIGN",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/DEV",
+      "kind": "SCOPE",
+      "label": "DEV",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/DEV",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/DEV",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/DOMAINS",
+      "kind": "SCOPE",
+      "label": "DOMAINS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/DOMAINS",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/DOMAINS",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/FINANCIALS",
+      "kind": "SCOPE",
+      "label": "FINANCIALS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/FINANCIALS",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/FINANCIALS",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/FORECASTS",
+      "kind": "SCOPE",
+      "label": "FORECASTS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/FORECASTS",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/FORECASTS",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "canonic-canonic/MAGIC/SERVICES/IDENTITY",
       "kind": "SCOPE",
       "label": "IDENTITY",
@@ -3317,6 +3696,48 @@
           "source": "api GitHub OAuth handlers"
         }
       ],
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/KYC",
+      "kind": "SCOPE",
+      "label": "KYC",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/KYC",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/KYC",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/LATEX",
+      "kind": "SCOPE",
+      "label": "LATEX",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/LATEX",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/LATEX",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
       "score": 128
     },
     {
@@ -3611,6 +4032,48 @@
       "score": 128
     },
     {
+      "id": "canonic-canonic/MAGIC/SERVICES/MUSIC",
+      "kind": "SCOPE",
+      "label": "MUSIC",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/MUSIC",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/MUSIC",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/NAS",
+      "kind": "SCOPE",
+      "label": "NAS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/NAS",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/NAS",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "canonic-canonic/MAGIC/SERVICES/NOTIFIER",
       "kind": "SCOPE",
       "label": "NOTIFIER",
@@ -3664,6 +4127,153 @@
           "source": "SERVICES/CANON.md"
         }
       ],
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/PAPER",
+      "kind": "SCOPE",
+      "label": "PAPER",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/PAPER",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/PAPER",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/PATENT",
+      "kind": "SCOPE",
+      "label": "PATENT",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/PATENT",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "OPERATIONS",
+      "color": "#2997ff",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/PATENT",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/PLAYBOOKS",
+      "kind": "SCOPE",
+      "label": "PLAYBOOKS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/PLAYBOOKS",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/PLAYBOOKS",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/PLUGINS",
+      "kind": "SCOPE",
+      "label": "PLUGINS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/PLUGINS",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/PLUGINS",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/RESERVES",
+      "kind": "SCOPE",
+      "label": "RESERVES",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/RESERVES",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "GOVERNANCE",
+      "color": "#ffd60a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/RESERVES",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/SEED",
+      "kind": "SCOPE",
+      "label": "SEED",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/SEED",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/SEED",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/SEO",
+      "kind": "SCOPE",
+      "label": "SEO",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/SEO",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/SEO",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
       "score": 128
     },
     {
@@ -3770,6 +4380,27 @@
       "score": 128
     },
     {
+      "id": "canonic-canonic/MAGIC/SERVICES/STORY",
+      "kind": "SCOPE",
+      "label": "STORY",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/STORY",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/STORY",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "canonic-canonic/MAGIC/SERVICES/TALK",
       "kind": "SCOPE",
       "label": "TALK",
@@ -3837,6 +4468,111 @@
       "score": 128
     },
     {
+      "id": "canonic-canonic/MAGIC/SERVICES/TASK",
+      "kind": "SCOPE",
+      "label": "TASK",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/TASK",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/TASK",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/TIMELINE",
+      "kind": "SCOPE",
+      "label": "TIMELINE",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/TIMELINE",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/TIMELINE",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/TRANSCRIPT",
+      "kind": "SCOPE",
+      "label": "TRANSCRIPT",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/TRANSCRIPT",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/TRANSCRIPT",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/UPTIME",
+      "kind": "SCOPE",
+      "label": "UPTIME",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/UPTIME",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/UPTIME",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/USER",
+      "kind": "SCOPE",
+      "label": "USER",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/USER",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/USER",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "canonic-canonic/MAGIC/SERVICES/VAULT",
       "kind": "SCOPE",
       "label": "VAULT",
@@ -3888,6 +4624,27 @@
           "source": "Phase 7 drift cleanup"
         }
       ],
+      "score": 128
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/VITAE",
+      "kind": "SCOPE",
+      "label": "VITAE",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/VITAE",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/VITAE",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
       "score": 128
     },
     {
@@ -5589,17 +6346,14 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
-      "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
-      "roadmap_now": "[ ] Wire engagement response pipeline (detect SLA \u2192 draft response \u2192 post)",
-      "learning_count": 6,
-      "coverage_score": 191,
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR EMISSIONS. EVERY POLL TIMESTAMPED. EVERY DELTA REPORTED.**",
+      "roadmap_now": "[ ] Fix Jekyll stack overflow so monitoring/ served via hadleylab.org directly",
+      "learning_count": 9,
+      "coverage_score": 255,
       "coverage_open_gates": [
         "ENGAGE_PIPELINE"
       ],
@@ -5610,13 +6364,61 @@
       "talk": null,
       "learning": [
         {
+          "date": "2026-03-31",
+          "signal": "METRICS_FLAT",
+          "pattern": "Initial METRICS.json used flat emissions[] schema (latest-only). No temporal history. Impossible to compute decay rates ",
+          "source": "build-campaigns-metrics v1"
+        },
+        {
+          "date": "2026-04-02",
+          "signal": "TEMPORAL_UPGRADE",
+          "pattern": "METRICS.json upgraded to temporal schema: emissions keyed by URL, snapshots[] array per emission with window labels (BAS",
+          "source": "build-campaigns-metrics v2"
+        },
+        {
+          "date": "2026-04-02",
+          "signal": "SLA_DETECTION",
+          "pattern": "T+48h SLA breach detection active. First alerts: HN T+213h (23 comments, 0 responses), Reddit T+93h (61 comments, 0 resp",
+          "source": "build-campaigns-metrics v2"
+        },
+        {
+          "date": "2026-04-02",
+          "signal": "FLEET_INTEGRATION",
+          "pattern": "campaign.sh upgraded to call Python build-campaigns-metrics as primary, with bash HN-only poll as fallback. FLEET task n",
+          "source": "campaign.sh v2"
+        },
+        {
+          "date": "2026-03-31",
+          "signal": "HN_COMMENT_DIFF",
+          "pattern": "Comment diffing works for HN (Firebase API returns kids[]). New comment detection triggers CAMPAIGNS-ALERTS.jsonl append",
+          "source": "build-campaigns-metrics v1"
+        },
+        {
           "date": "2026-03-26",
           "signal": "REDDIT_DEGRADED",
           "pattern": "Reddit JSON endpoint returns data but account in spam cooldown. 4 of 5 submissions show status: removed. API access gate",
           "source": "CAMPAIGNS/REDDIT/INTEL.md"
+        },
+        {
+          "date": "2026-04-07",
+          "signal": "RAW_GITHUB_SURFACE",
+          "pattern": "Jekyll GitHub Pages build has pre-existing stack overflow (recursive layout in post.html via JekyllDefaultLayout on 100+",
+          "source": "health.hadleylab.org hardening session"
+        },
+        {
+          "date": "2026-04-07",
+          "signal": "EMIT_MONITORING",
+          "pattern": "`emit_monitoring_json()` added to build-surfaces. Discovers all GOV `_data/` directories via `rglob('_data')` and mirror",
+          "source": "build-surfaces extension"
+        },
+        {
+          "date": "2026-04-07",
+          "signal": "GOV_RELATIVE_MIRROR",
+          "pattern": "Flat `monitoring/` directory with `campaigns_` and `task_` prefixes replaced by GOV-relative mirroring. `CAMPAIGNS/_data",
+          "source": "GOV restructure session"
         }
       ],
-      "score": 123
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/CAMPAIGNS/REDDIT",
@@ -7498,25 +8300,13 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR PIPELINE. EVERY PHASE DECLARED. EVERY DEPENDENCY GOVERNED.**",
-      "learning_count": 19,
+      "learning_count": 21,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/BUILD",
       "children": 0,
       "wallet": null,
       "talk": null,
       "learning": [
-        {
-          "date": "2026-03-15",
-          "signal": "EMIT_STABLE",
-          "pattern": "emit_json_stable() in magic_lib \u2014 write-if-changed pattern that strips timestamp keys before comparison. Eliminates wall",
-          "source": "Idempotent build session"
-        },
-        {
-          "date": "2026-03-15",
-          "signal": "FRESHNESS_BUG",
-          "pattern": "Blog/paper freshness check did `continue` before compiled.add() and stale cleanup. Fresh-cached items vanished from comp",
-          "source": "build_surfaces_catalog.py fix"
-        },
         {
           "date": "2026-03-15",
           "signal": "DETERMINISTIC_BFS",
@@ -7564,6 +8354,18 @@
           "signal": "PROJECT_INTEL",
           "pattern": "Cloudflare proxy breaks new GitHub Pages paths: Cloudflare proxy (orange cloud) on hadleylab.org A records causes 404 fo",
           "source": "intake:project_cloudflare_proxy_bug.md"
+        },
+        {
+          "date": "2026-04-07",
+          "signal": "JEKYLL_STACK_OVERFLOW",
+          "pattern": "Jekyll GitHub Pages build fails with `stack level too deep in /_layouts/post.html`. Root cause: `jekyll-optional-front-m",
+          "source": "health.hadleylab.org hardening session"
+        },
+        {
+          "date": "2026-04-07",
+          "signal": "EMIT_MONITORING",
+          "pattern": "build-surfaces extended with `emit_monitoring_json()`. Discovers all GOV `_data/` directories via `rglob('_data')` and m",
+          "source": "build-surfaces extension"
         }
       ],
       "score": 128
@@ -7696,7 +8498,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SERVICES",
-      "children": 37,
+      "children": 38,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -8028,13 +8830,21 @@
       "missing_dims": [],
       "has_intel": false,
       "roadmap_now": "MARK-MALEK DECK deployed (IP patent counsel)",
+      "learning_count": 1,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/DEAL",
       "children": 0,
       "wallet": null,
       "talk": null,
-      "learning": null,
+      "learning": [
+        {
+          "date": "2026-04-07",
+          "signal": "PROJECT_INTEL",
+          "pattern": "Bond & Vale PR deal (SIGNED): Bond & Vale PR \u2014 signed 2026-04-07, 3 articles $5K each, pay-on-success, October BCAM laun",
+          "source": "intake:project_bond_vale_pr.md"
+        }
+      ],
       "score": 128
     },
     {
@@ -8674,6 +9484,41 @@
         }
       ],
       "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/MUSIC",
+      "kind": "SERVICE",
+      "label": "MUSIC",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/MUSIC",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "**KNOW YOUR SOUND. EVERY TRACK GOVERNED. EVERY SOURCE TRACED. EVERY ARTIST RESPECTED.**",
+      "roadmap_now": "[ ] Run beets metadata cleanup on full library",
+      "learning_count": 9,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/MUSIC",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-04-07",
+          "signal": "AMPERFY_OVER_PLAYSUB",
+          "pattern": "Amperfy (iOS, free, open source) matches play:Sub ($5) on every feature: offline cache, CarPlay, gapless playback, Subso",
+          "source": "App evaluation"
+        }
+      ],
+      "score": 123
     },
     {
       "id": "hadleylab-canonic/SERVICES/NOTIFIER",
@@ -31040,6 +31885,156 @@
     },
     {
       "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/AUTH",
+      "to": "canonic-canonic/MAGIC/SERVICES/AUTH"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/BLOG",
+      "to": "canonic-canonic/MAGIC/SERVICES/BLOG"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/BOOK",
+      "to": "canonic-canonic/MAGIC/SERVICES/BOOK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/BUILD",
+      "to": "canonic-canonic/MAGIC/SERVICES/BUILD"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/CALENDAR",
+      "to": "canonic-canonic/MAGIC/SERVICES/CALENDAR"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/CAMPAIGN",
+      "to": "canonic-canonic/MAGIC/SERVICES/CAMPAIGN"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/CITATION",
+      "to": "canonic-canonic/MAGIC/SERVICES/CITATION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/CLAUDE",
+      "to": "canonic-canonic/MAGIC/SERVICES/CLAUDE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/COIN",
+      "to": "canonic-canonic/MAGIC/SERVICES/COIN"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/CONTACTS",
+      "to": "canonic-canonic/MAGIC/SERVICES/CONTACTS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/DEAL",
+      "to": "canonic-canonic/MAGIC/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/DEMO",
+      "to": "canonic-canonic/MAGIC/SERVICES/DEMO"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/DESIGN",
+      "to": "canonic-canonic/MAGIC/SERVICES/DESIGN"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/DEV",
+      "to": "canonic-canonic/MAGIC/SERVICES/DEV"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/DOMAINS",
+      "to": "canonic-canonic/MAGIC/SERVICES/DOMAINS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/LATEX",
+      "to": "canonic-canonic/MAGIC/SERVICES/LATEX"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/MUSIC",
+      "to": "canonic-canonic/MAGIC/SERVICES/MUSIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/NOTIFIER",
+      "to": "canonic-canonic/MAGIC/SERVICES/NOTIFIER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/PAPER",
+      "to": "canonic-canonic/MAGIC/SERVICES/PAPER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/PLAYBOOKS",
+      "to": "canonic-canonic/MAGIC/SERVICES/PLAYBOOKS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/PLUGINS",
+      "to": "canonic-canonic/MAGIC/SERVICES/PLUGINS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/SEO",
+      "to": "canonic-canonic/MAGIC/SERVICES/SEO"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/SHOP",
+      "to": "canonic-canonic/MAGIC/SERVICES/SHOP"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/STORY",
+      "to": "canonic-canonic/MAGIC/SERVICES/STORY"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/TALK",
+      "to": "canonic-canonic/MAGIC/SERVICES/TALK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/TASK",
+      "to": "canonic-canonic/MAGIC/SERVICES/TASK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/UPTIME",
+      "to": "canonic-canonic/MAGIC/SERVICES/UPTIME"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/USER",
+      "to": "canonic-canonic/MAGIC/SERVICES/USER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/VITAE",
+      "to": "canonic-canonic/MAGIC/SERVICES/VITAE"
+    },
+    {
+      "kind": "INHERITS",
       "from": "hadleylab-canonic/STORIES",
       "to": "hadleylab-canonic/SERVICES/STORY"
     },
@@ -31836,7 +32831,7 @@
     {
       "kind": "CROSS_INTEL",
       "from": "hadleylab-canonic/DEALS/CAOH/SOU",
-      "to": "hadleylab-canonic/SERVICES/COIN"
+      "to": "canonic-canonic/MAGIC/SERVICES/COIN"
     },
     {
       "kind": "CROSS_INTEL",
@@ -32498,6 +33493,36 @@
     },
     {
       "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/AUTH",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/BLOG",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/BOOK",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/BUILD",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/CALENDAR",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/CAMPAIGN",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
       "from": "canonic-canonic/MAGIC/SERVICES",
       "to": "canonic-canonic/MAGIC"
     },
@@ -32508,7 +33533,42 @@
     },
     {
       "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/CITATION",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/CLAUDE",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/COIN",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/CONTACTS",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
       "from": "canonic-canonic/MAGIC/SERVICES/CONTRIBUTE",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/DEAL",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/DECK",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/DEMO",
       "to": "canonic-canonic/MAGIC/SERVICES"
     },
     {
@@ -32518,7 +33578,42 @@
     },
     {
       "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/DESIGN",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/DEV",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/DOMAINS",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/FINANCIALS",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/FORECASTS",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
       "from": "canonic-canonic/MAGIC/SERVICES/IDENTITY",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/KYC",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/LATEX",
       "to": "canonic-canonic/MAGIC/SERVICES"
     },
     {
@@ -32543,7 +33638,52 @@
     },
     {
       "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/MUSIC",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/NAS",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
       "from": "canonic-canonic/MAGIC/SERVICES/NOTIFIER",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/PAPER",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/PATENT",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/PLAYBOOKS",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/PLUGINS",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/RESERVES",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/SEED",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/SEO",
       "to": "canonic-canonic/MAGIC/SERVICES"
     },
     {
@@ -32558,12 +33698,47 @@
     },
     {
       "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/STORY",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
       "from": "canonic-canonic/MAGIC/SERVICES/TALK",
       "to": "canonic-canonic/MAGIC/SERVICES"
     },
     {
       "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/TASK",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/TIMELINE",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/TRANSCRIPT",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/UPTIME",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/USER",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
       "from": "canonic-canonic/MAGIC/SERVICES/VAULT",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/VITAE",
       "to": "canonic-canonic/MAGIC/SERVICES"
     },
     {
@@ -33035,6 +34210,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/MAGIC/VASTAI",
       "to": "hadleylab-canonic/SERVICES/MAGIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/MUSIC",
+      "to": "hadleylab-canonic/SERVICES"
     },
     {
       "kind": "PARENT",

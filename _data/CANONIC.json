@@ -145,7 +145,7 @@
   "footerTagline": "canonic-canonic | CANONIC",
   "canon": {
     "axiom": "SPEC is governance. `canonic-canonic/` is the spec root.",
-    "constraints": "MUST:     Keep this repo governance-only (.md/.pdf)\nMUST:     Publish workspace mapping in CANONIC.git (no hardcoded repo lists)\nMUST:     Preserve three primary lanes: FOUNDATION, INDUSTRIES, MAGIC\nMUST NOT: Commit runtime artifacts here (runtime belongs in ~/.canonic/)\nMUST:     Sell MAGIC tiers — the product, not the proof (proof is hadleylab-canonic)\nMUST NOT: Embed beta-test app URLs in platform page content",
+    "constraints": "MUST:     Keep this repo governance-only (.md/.pdf)\nMUST:     Publish workspace mapping in CANONIC.git (no hardcoded repo lists)\nMUST:     Preserve three primary lanes: FOUNDATION, INDUSTRIES, MAGIC\nMUST NOT: Commit runtime artifacts here (runtime belongs in ~/.canonic/)\nMUST:     Sell MAGIC tiers — the product, not the proof (proof is hadleylab-canonic)\nMUST:     MAGIC/SERVICES/ contains abstract contracts only (no instance state, no proof)\nMUST:     Every service contract is inheritable by any proof org\nMUST NOT: Reference proof-org-specific data in service contracts\nMUST NOT: Embed beta-test app URLs in platform page content",
     "inherits": "canonic-canonic/CANONIC.md",
     "spec": [
       {

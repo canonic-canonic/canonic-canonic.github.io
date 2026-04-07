@@ -220,11 +220,6 @@
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
-      "path": "/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/",
-      "scope": "adventist",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
       "path": "/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/sda/",
       "scope": "sda",
       "surface_type": "JEKYLL_DEFAULT"
@@ -390,6 +385,36 @@
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
+      "path": "/MAGIC/SERVICES/AUTH/",
+      "scope": "AUTH",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/BLOG/",
+      "scope": "BLOG",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/BOOK/",
+      "scope": "BOOK",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/BUILD/",
+      "scope": "BUILD",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/CALENDAR/",
+      "scope": "CALENDAR",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/CAMPAIGN/",
+      "scope": "CAMPAIGN",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
       "path": "/MAGIC/SERVICES/",
       "scope": "SERVICES",
       "surface_type": "JEKYLL_ECON"
@@ -400,8 +425,43 @@
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
+      "path": "/MAGIC/SERVICES/CITATION/",
+      "scope": "CITATION",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/CLAUDE/",
+      "scope": "CLAUDE",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/COIN/",
+      "scope": "COIN",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/CONTACTS/",
+      "scope": "CONTACTS",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
       "path": "/MAGIC/SERVICES/CONTRIBUTE/",
       "scope": "CONTRIBUTE",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/DEAL/",
+      "scope": "DEAL",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/DECK/",
+      "scope": "DECK",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/DEMO/",
+      "scope": "DEMO",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
@@ -410,8 +470,43 @@
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
+      "path": "/MAGIC/SERVICES/DESIGN/",
+      "scope": "DESIGN",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/DEV/",
+      "scope": "DEV",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/DOMAINS/",
+      "scope": "DOMAINS",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/FINANCIALS/",
+      "scope": "FINANCIALS",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/FORECASTS/",
+      "scope": "FORECASTS",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
       "path": "/MAGIC/SERVICES/IDENTITY/",
       "scope": "IDENTITY",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/KYC/",
+      "scope": "KYC",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/LATEX/",
+      "scope": "LATEX",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
@@ -435,8 +530,53 @@
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
+      "path": "/MAGIC/SERVICES/MUSIC/",
+      "scope": "MUSIC",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/NAS/",
+      "scope": "NAS",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
       "path": "/MAGIC/SERVICES/NOTIFIER/",
       "scope": "NOTIFIER",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/PAPER/",
+      "scope": "PAPER",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/PATENT/",
+      "scope": "PATENT",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/PLAYBOOKS/",
+      "scope": "PLAYBOOKS",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/PLUGINS/",
+      "scope": "PLUGINS",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/RESERVES/",
+      "scope": "RESERVES",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/SEED/",
+      "scope": "SEED",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/SEO/",
+      "scope": "SEO",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
@@ -450,13 +590,48 @@
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
+      "path": "/MAGIC/SERVICES/STORY/",
+      "scope": "STORY",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
       "path": "/MAGIC/SERVICES/TALK/",
       "scope": "TALK",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
+      "path": "/MAGIC/SERVICES/TASK/",
+      "scope": "TASK",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/TIMELINE/",
+      "scope": "TIMELINE",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/TRANSCRIPT/",
+      "scope": "TRANSCRIPT",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/UPTIME/",
+      "scope": "UPTIME",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/USER/",
+      "scope": "USER",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
       "path": "/MAGIC/SERVICES/VAULT/",
       "scope": "VAULT",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/MAGIC/SERVICES/VITAE/",
+      "scope": "VITAE",
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
@@ -577,11 +752,6 @@
     {
       "path": "/MAGIC/TOOLCHAIN/bin/",
       "scope": "bin",
-      "surface_type": "JEKYLL_DEFAULT"
-    },
-    {
-      "path": "/users/",
-      "scope": "USERS",
       "surface_type": "JEKYLL_DEFAULT"
     }
   ]

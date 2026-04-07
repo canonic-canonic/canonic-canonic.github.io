@@ -92,6 +92,45 @@
       ]
     },
     {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-19",
+                "Reserve structure mirrors tiers",
+                "Reserve allocation structure mirrors governance tiers — FOUNDATION architecture "
+              ],
+              [
+                "2026-02-19",
+                "Allocation is irreversible",
+                "Allocation decisions cannot be unwound — learning must precede commitment"
+              ],
+              [
+                "2026-02-19",
+                "RESERVES reconcile against LEDGER",
+                "Every reserve allocation evidenced; reconciliation at close verifies integrity"
+              ],
+              [
+                "2026-02-19",
+                "Source from governed inputs only",
+                "RESERVES entries must trace to governed economic events — no fabricated entries"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "canon-primitives",
       "eyebrow": "PRIMITIVES",
       "title": "Primitives",
@@ -149,116 +188,25 @@
   },
   "footerTagline": "RESERVES | CANONIC",
   "canon": {
-    "axiom": "Status",
-    "constraints": "WORK → COIN → FEDERATION → AI → MORE WORK\n           |___________________________|\n               PERPETUAL MOTION",
-    "inherits": "canonic-canonic/MAGIC",
-    "spec": [
-      {
-        "title": "Structure",
-        "body": "RESERVES is the economic layer of the MAGIC — the federated service that governs COIN across the ecosystem.\n\n```\nWORK → COIN → FEDERATION → AI → MORE WORK\n           |___________________________|\n               PERPETUAL MOTION\n```\n\n---"
-      },
-      {
-        "title": "Primitives",
-        "body": "| Primitive | Scope | Function |\n|-----------|-------|----------|\n| COIN | Unit | Value = validated WORK |\n| VAULT | Personal | User holdings (authenticated via GitHub) |\n| LEDGER | System | Git-backed immutable transaction record |\n| CREDITS | Compute | API + AI resource accounting |\n| HOLDINGS | IP | Domain contributions across governed repos |\n\n---"
-      },
-      {
-        "title": "Equations",
-        "body": "```\nCOIN        = WORK\nBALANCE(t)  = BALANCE(t-1) + CREDITS(t) - DEBITS(t)\nTOTAL       = AVAILABLE + ALLOCATED + PENDING\nHOLDINGS    = GIT_COMMITS(user, governed_repos)\nLEDGER      = GIT_LOG(VAULT)\n```\n\n---"
-      },
-      {
-        "title": "Interface",
-        "body": "- Platform: `canonic-canonic/MAGIC/SERVICES/COIN`\n- Proof: `hadleylab-canonic/DEXTER/SERVICES/RESERVES`\n- Frontend: `.VAULT/` (GitHub-authenticated)\n\n---"
-      }
-    ],
-    "learning": [
-      {
-        "title": "Patterns",
-        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-19 | Reserve structure mirrors tiers | Reserve allocation structure mirrors governance tiers — FOUNDATION architecture determines economic shape | FOUNDATION architecture |\n| 2026-02-19 | Allocation is irreversible | Allocation decisions cannot be unwound — learning must precede commitment | DEAL operations |\n| 2026-02-19 | RESERVES reconcile against LEDGER | Every reserve allocation evidenced; reconciliation at close verifies integrity | canonic-canonic RESERVES/CANON.md |\n| 2026-02-19 | Source from governed inputs only | RESERVES entries must trace to governed economic events — no fabricated entries | canonic-canonic RESERVES/CANON.md |\n\n---"
-      }
-    ],
-    "coverage": "255/255",
-    "roadmap": {
-      "later": [
-        "Perpetual motion economics: COIN consumed produces MORE WORK at scale",
-        "Cross-org federated reserves with multi-ledger reconciliation",
-        "Public reserve transparency: compliance surface for external audit"
-      ]
-    },
-    "vocab": [
-      {
-        "term": "ALLOCATED",
-        "definition": "COIN earmarked for a specific purpose. AVAILABLE + ALLOCATED + PENDING = TOTAL."
-      },
-      {
-        "term": "AVAILABLE",
-        "definition": "COIN unencumbered and spendable. AVAILABLE + ALLOCATED + PENDING = TOTAL."
-      },
-      {
-        "term": "COIN",
-        "definition": "Unit of value. COIN = WORK. The commerce primitive materialized as fungible token."
-      },
-      {
-        "term": "CREDITS",
-        "definition": "Compute accounting. API + AI resource tracking. USED + REMAINING = TOTAL."
-      },
-      {
-        "term": "FEDERATED",
-        "definition": "Distributed across ORGs. RESERVES operates as a federated service."
-      },
-      {
-        "term": "FEDERATION",
-        "definition": "Network of ORGs sharing a common COIN economy and LEDGER."
-      },
-      {
-        "term": "HOLDINGS",
-        "definition": "IP weight. Maps to git commits across governed repos."
-      },
-      {
-        "term": "LEDGER",
-        "definition": "Append-only transaction record. Git-backed. Source of truth for VAULT balance."
-      },
-      {
-        "term": "MORE",
-        "definition": "Surplus output. The yield of the perpetual cycle: AI produces MORE WORK."
-      },
-      {
-        "term": "MOTION",
-        "definition": "Perpetual cycle. WORK → COIN → FEDERATION → AI → MORE WORK → loop."
-      },
-      {
-        "term": "PENDING",
-        "definition": "COIN in transit. Not yet AVAILABLE or ALLOCATED. Part of TOTAL."
-      },
-      {
-        "term": "PERPETUAL",
-        "definition": "Self-sustaining. The economy never stops: WORK produces COIN produces WORK."
-      },
-      {
-        "term": "REMAINING",
-        "definition": "Unspent portion of CREDITS allocation. USED + REMAINING = TOTAL."
-      },
-      {
-        "term": "RESERVES",
-        "definition": "Economic layer of MAGIC. Federated service governing COIN across the ecosystem."
-      },
-      {
-        "term": "STEALTH",
-        "definition": "Pre-announcement status. Active development, not yet public."
-      },
-      {
-        "term": "TOTAL",
-        "definition": "Sum equation. AVAILABLE + ALLOCATED + PENDING = TOTAL."
-      },
-      {
-        "term": "VAULT",
-        "definition": "Personal COIN store. User holdings authenticated via GitHub."
-      },
-      {
-        "term": "WORK",
-        "definition": "Validated contribution. Every unit produces COIN. COIN = WORK. No exceptions."
-      }
-    ],
+    "axiom": "RESERVES holds governed capital. Every allocation evidenced.",
+    "constraints": "MUST:     Evidence every allocation\nMUST:     Ledger every capital movement\nMUST NOT: Allocate without evidence\nMUST NOT: Expose reserve data on public surfaces",
+    "inherits": "canonic-canonic/MAGIC/SERVICES",
+    "spec": [],
+    "learning": [],
+    "coverage": "",
+    "roadmap": {},
+    "vocab": [],
     "chain": [
+      {
+        "scope": "SERVICES",
+        "axiom": "SERVICES are SURFACE routes with governed boundaries.",
+        "constraints": "MUST:     Every service composes INTEL (mandatory — knowledge backs every operation)\nMUST:     Primitives are files, services are directories: INTEL→LEARNING, CHAT→TALK, COIN→SHOP\nMUST:     COIN is optional — adds economics (the economic shadow of WORK)\nMUST:     TALK is optional — adds governed conversation product\nMUST:     NOTIFIER is optional — adds governed cross-scope delivery (NOTIFY + INTEL)\nMUST:     Treat each service scope as a governed boundary (no cross-scope leakage)\nMUST:     Drive routes and UI from governed indices (no hardcoding)\nMUST:     NETWORK services MUST declare Routes table with Method + Primitive\nMUST:     NETWORK services MUST declare Architecture showing client → worker → backend\nMUST:     NETWORK services MUST declare Configuration with all vars and secrets\nMUST:     COMPILER services MUST declare Interface with input/output contract\nMUST NOT: Embed runtime state into governed scopes\nMUST NOT: Ship a service without declaring its API surface in CANON.md"
+      },
+      {
+        "scope": "SURFACE",
+        "axiom": "SURFACE is the platform lane.",
+        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
+      },
       {
         "scope": "MAGIC",
         "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",

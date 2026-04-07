@@ -85,27 +85,27 @@
             "rows": [
               [
                 "2026-03-01",
-                "",
+                "NEW_CONSTRAINT",
                 "New constraint: README.md MUST be lean (scope + inherits + axiom) — no boilerpla"
               ],
               [
                 "2026-03-01",
-                "",
+                "EVOLUTION",
                 "build-surfaces monolith → modular: dashboard, discover, fleet, gc extracted"
               ],
               [
                 "2026-03-01",
-                "",
+                "EXTINCTION",
                 "Extinction: design-diff-gate shell wrapper removed (155 lines) — Python CLI is c"
               ],
               [
                 "2026-03-01",
-                "",
+                "EXTINCTION",
                 "Extinction: _GRID.scss merged into _LAYOUT.scss (23 lines), _ANIMATION.scss merg"
               ],
               [
                 "2026-03-01",
-                "",
+                "NEW_CONSTRAINT",
                 "New constraint: enforce-bloat-gate runs on every commit — blocks COVERAGE boiler"
               ]
             ]

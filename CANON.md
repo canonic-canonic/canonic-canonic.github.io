@@ -57,6 +57,9 @@ MUST:     Publish workspace mapping in CANONIC.git (no hardcoded repo lists)
 MUST:     Preserve three primary lanes: FOUNDATION, INDUSTRIES, MAGIC
 MUST NOT: Commit runtime artifacts here (runtime belongs in ~/.canonic/)
 MUST:     Sell MAGIC tiers — the product, not the proof (proof is hadleylab-canonic)
+MUST:     MAGIC/SERVICES/ contains abstract contracts only (no instance state, no proof)
+MUST:     Every service contract is inheritable by any proof org
+MUST NOT: Reference proof-org-specific data in service contracts
 MUST NOT: Embed beta-test app URLs in platform page content
 ```
 

@@ -62,6 +62,30 @@
       ]
     },
     {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-02-25",
+                "Scope created",
+                "DEVELOPERS scope established — certification surface on FOUNDATION, discovered f"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "canon-discovery",
       "eyebrow": "DISCOVERY",
       "title": "Discovery",
