@@ -6,7 +6,7 @@
     "cta": [
       {
         "label": "Open GALAXY",
-        "href": "/MAGIC/galaxy/",
+        "href": "/MAGIC/GALAXY/",
         "class": "btn-secondary",
         "talk": true
       }
@@ -107,27 +107,27 @@
             "rows": [
               [
                 "2026-03-01",
-                "EXTINCTION",
+                "",
                 "README.md boilerplate extinct: 18-line template → 3-line lean form (scope + axio"
               ],
               [
                 "2026-03-01",
-                "EXTINCTION",
+                "",
                 "VOCAB redundant entries extinct: child scopes must not duplicate parent VOCAB"
               ],
               [
                 "2026-03-01",
-                "EVOLUTION",
+                "",
                 "build-surfaces modularized: monolith (1797 lines) → 4 extracted modules (dashboa"
               ],
               [
                 "2026-03-01",
-                "EXTINCTION",
+                "",
                 "design-diff-gate shell wrapper extinct: Python-only CLI replaces shell+Python du"
               ],
               [
                 "2026-03-01",
-                "EXTINCTION",
+                "",
                 "SCSS micro-files extinct: _GRID.scss → _LAYOUT.scss, _ANIMATION.scss → _UTILITIE"
               ]
             ]
@@ -144,28 +144,28 @@
           "icon": "∩",
           "title": "FINDER",
           "desc": "FINDER is hierarchical navigation for the governed topology.",
-          "href": "/MAGIC/galaxy/FINDER/",
+          "href": "/MAGIC/GALAXY/FINDER/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "ORGS",
           "desc": "ORGS = federation identity. Users authenticate. Users maintain VITAE.",
-          "href": "/MAGIC/galaxy/ORGS/",
+          "href": "/MAGIC/GALAXY/ORGS/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "PRIMITIVES",
           "desc": "INTEL, COIN, and TALK are the three native primitives of the GALAXY operating surface.",
-          "href": "/MAGIC/galaxy/PRIMITIVES/",
+          "href": "/MAGIC/GALAXY/PRIMITIVES/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "USERS",
           "desc": "USERS are GitHub identities projected into ORGs.",
-          "href": "/MAGIC/galaxy/USERS/",
+          "href": "/MAGIC/GALAXY/USERS/",
           "class": "card"
         }
       ]

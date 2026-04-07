@@ -6,7 +6,7 @@
     "cta": [
       {
         "label": "Open ORGS",
-        "href": "/MAGIC/GALAXY/orgs/",
+        "href": "/MAGIC/GALAXY/ORGS/",
         "class": "btn-secondary",
         "talk": true
       }
@@ -136,28 +136,28 @@
           "icon": "∩",
           "title": "RunnerMVP",
           "desc": "RUNNER is the real estate task marketplace. Post a task. A pro handles it. Every effort earns COIN. Robert Glover is GOVERNOR. Dexter Hadley is GOVERNOR_GENERAL.",
-          "href": "/MAGIC/GALAXY/orgs/RunnerMVP/",
+          "href": "/MAGIC/GALAXY/ORGS/RunnerMVP/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "canonic-apple",
           "desc": "Apple platform integration. iOS and macOS SURFACE client.",
-          "href": "/MAGIC/GALAXY/orgs/canonic-apple/",
+          "href": "/MAGIC/GALAXY/ORGS/canonic-apple/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "canonic-canonic",
           "desc": "SPEC is governance. The constitutional authority.",
-          "href": "/MAGIC/GALAXY/orgs/canonic-canonic/",
+          "href": "/MAGIC/GALAXY/ORGS/canonic-canonic/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "hadleylab-canonic",
           "desc": "HADLEYLAB ships software. Every app, book, paper, deal, and patent is PROOF that MAGIC works.",
-          "href": "/MAGIC/GALAXY/orgs/hadleylab-canonic/",
+          "href": "/MAGIC/GALAXY/ORGS/hadleylab-canonic/",
           "class": "card"
         }
       ]

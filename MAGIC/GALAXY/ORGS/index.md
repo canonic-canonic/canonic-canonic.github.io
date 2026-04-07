@@ -12,17 +12,17 @@ views:
   - gov
   - web
   - tex
-pdf: /MAGIC/GALAXY/orgs/orgs.pdf
+pdf: /MAGIC/GALAXY/ORGS/orgs.pdf
 downloads:
   - label: "PDF"
-    href: "/MAGIC/GALAXY/orgs/orgs.pdf"
+    href: "/MAGIC/GALAXY/ORGS/orgs.pdf"
 hero:
   badge: ORGS
   title: "ORGS"
   description: "ORGS = federation identity. Users authenticate. Users maintain VITAE."
   cta:
     - label: "Open ORGS"
-      href: /MAGIC/GALAXY/orgs/
+      href: /MAGIC/GALAXY/ORGS/
       class: btn-secondary
       talk: true
 ---

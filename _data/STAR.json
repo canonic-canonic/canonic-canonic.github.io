@@ -92,45 +92,6 @@
       ]
     },
     {
-      "id": "activity",
-      "eyebrow": "LEARNING",
-      "title": "Recent Activity",
-      "dashboard": [
-        {
-          "span": 2,
-          "table": {
-            "headers": [
-              "Date",
-              "Signal",
-              "Pattern"
-            ],
-            "rows": [
-              [
-                "2026-03-04",
-                "STAR = personal portal in GALAXY",
-                "GALAXY shows organizational topology (spatial). STAR shows personal topology (te"
-              ],
-              [
-                "2026-03-04",
-                "TIMELINE = joint lane for cross-axiomatic intel",
-                "TIMELINE is a read-only JOIN across 7 event sources (VAULT, LEDGER, CALENDAR, NO"
-              ],
-              [
-                "2026-03-04",
-                "8 lanes wire to existing services",
-                "TIMELINE, SERVICES, INTEL, ECON, VAULT, IDENTITY, MEDIA, GOV — each reads from e"
-              ],
-              [
-                "2026-03-04",
-                "STAR composes INTEL + CHAT + COIN",
-                "All three primitives: INTEL (knowledge accumulation), CHAT (messaging + conversa"
-              ]
-            ]
-          }
-        }
-      ]
-    },
-    {
       "id": "canon-composition",
       "eyebrow": "COMPOSITION",
       "title": "Composition",

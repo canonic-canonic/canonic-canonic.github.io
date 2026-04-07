@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "dcbfe244da828d6d"
+    "gov_hash": "fb4bd3c1508bfe6f"
   },
-  "generated": "2026-04-07T16:25:08Z",
+  "generated": "2026-04-07T18:21:59Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -169,7 +169,7 @@
       ],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "users",
+      "fleet_path": "USERS",
       "children": 0
     },
     {
@@ -284,7 +284,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "FOUNDATION/language",
+      "fleet_path": "FOUNDATION/LANGUAGE",
       "children": 0
     },
     {
@@ -379,7 +379,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "INDUSTRIES/composition",
+      "fleet_path": "INDUSTRIES/COMPOSITION",
       "children": 0
     },
     {
@@ -415,7 +415,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "GALAXY",
-      "fleet_path": "MAGIC/galaxy",
+      "fleet_path": "MAGIC/GALAXY",
       "children": 8
     },
     {
@@ -491,7 +491,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/chat",
+      "fleet_path": "MAGIC/CHAT",
       "children": 0
     },
     {
@@ -507,7 +507,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/coin",
+      "fleet_path": "MAGIC/COIN",
       "children": 0
     },
     {
@@ -523,7 +523,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/evolution",
+      "fleet_path": "MAGIC/EVOLUTION",
       "children": 0
     },
     {
@@ -539,7 +539,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/orgs",
+      "fleet_path": "MAGIC/ORGS",
       "children": 0
     },
     {
@@ -555,7 +555,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/protocol",
+      "fleet_path": "MAGIC/PROTOCOL",
       "children": 0
     },
     {
@@ -719,7 +719,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "FOUNDATION/PROGRAMMING/test_spec",
+      "fleet_path": "FOUNDATION/PROGRAMMING/TEST_SPEC",
       "children": 0
     },
     {
@@ -1292,7 +1292,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/COMPLIANCE/matrix",
+      "fleet_path": "MAGIC/COMPLIANCE/MATRIX",
       "children": 0
     },
     {
@@ -1327,7 +1327,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/GALAXY/orgs",
+      "fleet_path": "MAGIC/GALAXY/ORGS",
       "children": 6
     },
     {
@@ -1381,7 +1381,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/GALAXY/github",
+      "fleet_path": "MAGIC/GALAXY/GITHUB",
       "children": 0
     },
     {
@@ -1397,7 +1397,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/GALAXY/identity",
+      "fleet_path": "MAGIC/GALAXY/IDENTITY",
       "children": 0
     },
     {
@@ -1413,7 +1413,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/GALAXY/uri",
+      "fleet_path": "MAGIC/GALAXY/URI",
       "children": 0
     },
     {
@@ -1728,7 +1728,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/econ",
+      "fleet_path": "MAGIC/SERVICES/ECON",
       "children": 0
     },
     {
@@ -1744,7 +1744,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SURFACE/android",
+      "fleet_path": "MAGIC/SURFACE/ANDROID",
       "children": 0
     },
     {
@@ -1760,7 +1760,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SURFACE/apple",
+      "fleet_path": "MAGIC/SURFACE/APPLE",
       "children": 0
     },
     {
@@ -1853,7 +1853,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SURFACE/chat",
+      "fleet_path": "MAGIC/SURFACE/CHAT",
       "children": 0
     },
     {
@@ -1869,7 +1869,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SURFACE/coin",
+      "fleet_path": "MAGIC/SURFACE/COIN",
       "children": 0
     },
     {
@@ -1885,7 +1885,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SURFACE/protocol",
+      "fleet_path": "MAGIC/SURFACE/PROTOCOL",
       "children": 0
     },
     {
@@ -1901,7 +1901,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SURFACE/rollout",
+      "fleet_path": "MAGIC/SURFACE/ROLLOUT",
       "children": 0
     },
     {
@@ -1917,7 +1917,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SURFACE/talk",
+      "fleet_path": "MAGIC/SURFACE/TALK",
       "children": 0
     },
     {
@@ -2120,7 +2120,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/TOOLCHAIN/categories",
+      "fleet_path": "MAGIC/TOOLCHAIN/CATEGORIES",
       "children": 0
     },
     {
@@ -2136,7 +2136,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/TOOLCHAIN/coin",
+      "fleet_path": "MAGIC/TOOLCHAIN/COIN",
       "children": 0
     },
     {
@@ -2152,7 +2152,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/TOOLCHAIN/compliance",
+      "fleet_path": "MAGIC/TOOLCHAIN/COMPLIANCE",
       "children": 0
     },
     {
@@ -2168,7 +2168,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/TOOLCHAIN/deps",
+      "fleet_path": "MAGIC/TOOLCHAIN/DEPS",
       "children": 0
     },
     {
@@ -2184,7 +2184,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/TOOLCHAIN/econ",
+      "fleet_path": "MAGIC/TOOLCHAIN/ECON",
       "children": 0
     },
     {
@@ -2200,7 +2200,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/TOOLCHAIN/http",
+      "fleet_path": "MAGIC/TOOLCHAIN/HTTP",
       "children": 0
     },
     {
@@ -2216,7 +2216,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/TOOLCHAIN/primitives",
+      "fleet_path": "MAGIC/TOOLCHAIN/PRIMITIVES",
       "children": 0
     },
     {
@@ -2232,7 +2232,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/TOOLCHAIN/surface",
+      "fleet_path": "MAGIC/TOOLCHAIN/SURFACE",
       "children": 0
     },
     {
@@ -2248,7 +2248,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/TOOLCHAIN/tag",
+      "fleet_path": "MAGIC/TOOLCHAIN/TAG",
       "children": 0
     },
     {
@@ -2264,7 +2264,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/TOOLCHAIN/tags",
+      "fleet_path": "MAGIC/TOOLCHAIN/TAGS",
       "children": 0
     },
     {
@@ -2280,7 +2280,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/TOOLCHAIN/wallet",
+      "fleet_path": "MAGIC/TOOLCHAIN/WALLET",
       "children": 0
     },
     {
@@ -2296,7 +2296,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/TOOLCHAIN/workspace",
+      "fleet_path": "MAGIC/TOOLCHAIN/WORKSPACE",
       "children": 0
     },
     {
@@ -2312,7 +2312,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "USERS/DEXTER/vitae",
+      "fleet_path": "USERS/DEXTER/VITAE",
       "children": 0
     },
     {
@@ -2328,7 +2328,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "USERS/ROBERT/vitae",
+      "fleet_path": "USERS/ROBERT/VITAE",
       "children": 0
     },
     {
@@ -2655,7 +2655,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/LEDGER/anchor",
+      "fleet_path": "MAGIC/SERVICES/LEDGER/ANCHOR",
       "children": 0
     },
     {
@@ -2671,7 +2671,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/LEDGER/federation",
+      "fleet_path": "MAGIC/SERVICES/LEDGER/FEDERATION",
       "children": 0
     },
     {
@@ -2687,7 +2687,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/LEDGER/vault",
+      "fleet_path": "MAGIC/SERVICES/LEDGER/VAULT",
       "children": 0
     },
     {
@@ -2703,7 +2703,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/LEDGER/witness",
+      "fleet_path": "MAGIC/SERVICES/LEDGER/WITNESS",
       "children": 0
     },
     {
@@ -2818,7 +2818,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SURFACE/JEKYLL/layouts",
+      "fleet_path": "MAGIC/SURFACE/JEKYLL/LAYOUTS",
       "children": 0
     },
     {
@@ -2834,7 +2834,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/TOOLCHAIN/OPERATIONS/fleet",
+      "fleet_path": "MAGIC/TOOLCHAIN/OPERATIONS/FLEET",
       "children": 0
     },
     {
@@ -2869,7 +2869,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/buddhism/branches",
+      "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/buddhism/BRANCHES",
       "children": 0
     },
     {
@@ -2971,7 +2971,7 @@
       ],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "industries/verticals/religion/christianity/adventist",
+      "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/christianity/adventist",
       "children": 1
     },
     {
@@ -2987,7 +2987,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/hinduism/branches",
+      "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/hinduism/BRANCHES",
       "children": 0
     },
     {
@@ -3060,7 +3060,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/judaism/branches",
+      "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/judaism/BRANCHES",
       "children": 0
     },
     {

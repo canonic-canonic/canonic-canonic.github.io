@@ -77,22 +77,22 @@
             "rows": [
               [
                 "2026-03-17",
-                "BREADCRUMB_FIRST",
+                "",
                 "Breadcrumb spine replaces spatial memory. Users navigate into scopes like folder"
               ],
               [
                 "2026-03-17",
-                "FOLDER_LEAF",
+                "",
                 "Children > 0 means folder (navigate deeper), children === 0 means leaf (open det"
               ],
               [
                 "2026-03-19",
-                "SAME_DRAWERS",
+                "",
                 "Finder and Graph share the same drawer model: left = INTEL (scoped to breadcrumb"
               ],
               [
                 "2026-03-19",
-                "NON_BLOCKING",
+                "",
                 "HUD elements must never overlay content. Control panel is narrow, breadcrumb bar"
               ]
             ]

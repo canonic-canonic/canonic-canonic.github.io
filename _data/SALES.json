@@ -62,50 +62,6 @@
       ]
     },
     {
-      "id": "activity",
-      "eyebrow": "LEARNING",
-      "title": "Recent Activity",
-      "dashboard": [
-        {
-          "span": 2,
-          "table": {
-            "headers": [
-              "Date",
-              "Signal",
-              "Pattern"
-            ],
-            "rows": [
-              [
-                "2026-02-19",
-                "SALES = CHAT about MAGIC",
-                "SALES is the conversation function — how MAGIC talks to buyers, not about buyers"
-              ],
-              [
-                "2026-02-19",
-                "Lead with buyer pain, not features",
-                "Every sales conversation must start from the buyer's compliance risk, not MAGIC'"
-              ],
-              [
-                "2026-02-19",
-                "Price to compliance value",
-                "MAGIC ENTERPRISE at $100K/year < 5% cost of one HIPAA breach ($1.9M average) — v"
-              ],
-              [
-                "2026-02-19",
-                "MAMMOCHAT is the reference deployment",
-                "20K+ governed encounters at AdventHealth (550+ facilities) proves production hea"
-              ],
-              [
-                "2026-02-19",
-                "Land ENTERPRISE, expand to AGENT",
-                "Expansion motion: start at tier 63, grow to tier 127 as AI deployment increases"
-              ]
-            ]
-          }
-        }
-      ]
-    },
-    {
       "id": "canon-ecosystem",
       "eyebrow": "ECOSYSTEM",
       "title": "Ecosystem",

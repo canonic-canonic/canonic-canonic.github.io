@@ -116,45 +116,6 @@
       ]
     },
     {
-      "id": "activity",
-      "eyebrow": "LEARNING",
-      "title": "Recent Activity",
-      "dashboard": [
-        {
-          "span": 2,
-          "table": {
-            "headers": [
-              "Date",
-              "Signal",
-              "Pattern"
-            ],
-            "rows": [
-              [
-                "2026-02-20",
-                "BOOK extends PAPER extends BLOG",
-                "Layout inheritance hierarchy — additive composition, not fork"
-              ],
-              [
-                "2026-02-20",
-                "Standalone layouts required for long content",
-                "Liquid stack overflow at 44KB+ — no {% include %} in paper/book"
-              ],
-              [
-                "2026-02-20",
-                "PARTS and CHAPTERS are first-class TOC structure",
-                "Books need richer structure than papers — PARTS group CHAPTERS"
-              ],
-              [
-                "2026-02-20",
-                "Same .md source compiles to HTML and PDF",
-                "LaTeX backend on same source — no format-specific authoring"
-              ]
-            ]
-          }
-        }
-      ]
-    },
-    {
       "id": "canon-interface-book-front-matter",
       "eyebrow": "INTERFACE — BOOK FRONT MATTER",
       "title": "Interface — Book Front Matter",

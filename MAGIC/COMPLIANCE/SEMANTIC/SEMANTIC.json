@@ -107,28 +107,8 @@
             "rows": [
               [
                 "2026-02-20",
-                "NEW_SCOPE",
+                "",
                 "SEMANTIC scope created to govern vocabulary closure and inheritance integrity — "
-              ],
-              [
-                "2026-02-20",
-                "Three rules, one gate",
-                "VOCABULARY CLOSURE + INHERITANCE INTEGRITY + COVERAGE ALIGNMENT — structural MAG"
-              ],
-              [
-                "2026-02-20",
-                "Stubs are gaps, not closures",
-                "VOCAB definitions of \"—\" or boilerplate are flagged as STUB_TERM — honest gaps, "
-              ],
-              [
-                "2026-02-20",
-                "Coverage must match reality",
-                "PASS on a dimension requires the evidence file to exist and contain substance — "
-              ],
-              [
-                "2026-02-20",
-                "Inherits chains must terminate",
-                "Circular inheritance is rejected — every chain must reach a root scope (inherits"
               ]
             ]
           }

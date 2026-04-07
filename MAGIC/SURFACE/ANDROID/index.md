@@ -12,17 +12,17 @@ views:
   - gov
   - web
   - tex
-pdf: /MAGIC/SURFACE/android/android.pdf
+pdf: /MAGIC/SURFACE/ANDROID/android.pdf
 downloads:
   - label: "PDF"
-    href: "/MAGIC/SURFACE/android/android.pdf"
+    href: "/MAGIC/SURFACE/ANDROID/android.pdf"
 hero:
   badge: ANDROID
   title: "ANDROID"
   description: "MAGIC on Android is native, governed, fast."
   cta:
     - label: "Open ANDROID"
-      href: /MAGIC/SURFACE/android/
+      href: /MAGIC/SURFACE/ANDROID/
       class: btn-secondary
       talk: true
 ---

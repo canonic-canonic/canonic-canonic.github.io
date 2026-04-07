@@ -12,17 +12,17 @@ views:
   - gov
   - web
   - tex
-pdf: /MAGIC/SURFACE/apple/apple.pdf
+pdf: /MAGIC/SURFACE/APPLE/apple.pdf
 downloads:
   - label: "PDF"
-    href: "/MAGIC/SURFACE/apple/apple.pdf"
+    href: "/MAGIC/SURFACE/APPLE/apple.pdf"
 hero:
   badge: APPLE
   title: "APPLE"
   description: "MAGIC on Apple is native, governed, fast."
   cta:
     - label: "Open APPLE"
-      href: /MAGIC/SURFACE/apple/
+      href: /MAGIC/SURFACE/APPLE/
       class: btn-secondary
       talk: true
 ---

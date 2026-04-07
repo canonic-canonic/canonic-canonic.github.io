@@ -6,7 +6,7 @@
     "cta": [
       {
         "label": "Open ANDROID",
-        "href": "/MAGIC/SURFACE/android/",
+        "href": "/MAGIC/SURFACE/ANDROID/",
         "class": "btn-secondary",
         "talk": true
       }
@@ -77,40 +77,6 @@
               [
                 "Later",
                 "Offline-first governed rendering: Android app caches GOV state and renders deter"
-              ]
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "activity",
-      "eyebrow": "LEARNING",
-      "title": "Recent Activity",
-      "dashboard": [
-        {
-          "span": 2,
-          "table": {
-            "headers": [
-              "Date",
-              "Signal",
-              "Pattern"
-            ],
-            "rows": [
-              [
-                "2026-02-19",
-                "Android is 1:1 projection of web surface",
-                "Same GOV, same lanes, same outcomes — rendering is native, governance is compile"
-              ],
-              [
-                "2026-02-19",
-                "No baked constants in app bundle",
-                "Read governed config at runtime — no provider lists, thresholds, or lane maps sh"
-              ],
-              [
-                "2026-02-19",
-                "Validation delegated to governed truth",
-                "No local policy forks — scoring and validation come from the governance tree onl"
               ]
             ]
           }

@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "dcbfe244da828d6d"
+    "gov_hash": "fb4bd3c1508bfe6f"
   },
-  "generated": "2026-04-07T16:25:08Z",
+  "generated": "2026-04-07T18:21:59Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -46,7 +46,7 @@
     }
   ],
   "stats": {
-    "total": 666,
+    "total": 675,
     "avg_bits": 254
   },
   "nodes": [
@@ -92,7 +92,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "BLOGS",
-      "children": 69
+      "children": 70
     },
     {
       "id": "hadleylab-canonic/BOOKS",
@@ -140,7 +140,7 @@
       ],
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS",
-      "children": 20
+      "children": 21
     },
     {
       "id": "hadleylab-canonic/CHARTER",
@@ -312,36 +312,13 @@
       "intel_summary": "privacy: PRIVATE",
       "roadmap_now": "[ ] PROV-007/008/009 counsel review (Mark Malek, Gabe Fitch)",
       "coverage_open_gates": [
+        "FILE (provisional)",
         "APPLY (utility)",
-        "DISCLOSURES/",
-        "PROVISIONALS/",
-        "APPLICATIONS/",
-        "DUE-DILIGENCE/"
+        "APPLICATIONS/"
       ],
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "PATENTS",
-      "children": 17
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS",
-      "kind": "SCOPE",
-      "label": "SCREENS",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS",
-      "parent": "hadleylab-canonic",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "privacy": "PUBLIC",
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR STORIES. EVERY SCREENPLAY INDEXED. EVERY SCREENWRITER PROFILED. EVERY VOICE GOVERNED.**",
-      "learning_count": 1,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS",
-      "children": 5
+      "children": 21
     },
     {
       "id": "hadleylab-canonic/SEEDS",
@@ -390,6 +367,27 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SERVICES",
       "children": 37
+    },
+    {
+      "id": "hadleylab-canonic/STORIES",
+      "kind": "SCOPE",
+      "label": "STORIES",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES",
+      "parent": "hadleylab-canonic",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PUBLIC",
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR STORIES. EVERY SCREENPLAY INDEXED. EVERY SCREENWRITER PROFILED. EVERY VOICE GOVERNED.**",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES",
+      "children": 5
     },
     {
       "id": "hadleylab-canonic/TALKS",
@@ -489,7 +487,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "brand",
+      "fleet_path": "BRAND",
       "children": 0
     },
     {
@@ -505,7 +503,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "scope",
+      "fleet_path": "SCOPE",
       "children": 0
     },
     {
@@ -521,7 +519,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "viewer",
+      "fleet_path": "VIEWER",
       "children": 0
     },
     {
@@ -1680,6 +1678,23 @@
       "date": "2026-04-03"
     },
     {
+      "id": "hadleylab-canonic/BLOGS/2026-04-07-the-fixed-point",
+      "kind": "CONTENT",
+      "label": "THE FIXED POINT",
+      "repo": "hadleylab-canonic",
+      "path": "BLOGS/2026-04-07-the-fixed-point",
+      "parent": "hadleylab-canonic/BLOGS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_POST",
+      "fleet_path": "BLOGS/2026-04-07-the-fixed-point",
+      "children": 0,
+      "date": "2026-04-07"
+    },
+    {
       "id": "hadleylab-canonic/BLOGS/SERIES",
       "kind": "CONTENT",
       "label": "SERIES",
@@ -1692,7 +1707,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "BLOGS/series",
+      "fleet_path": "BLOGS/SERIES",
       "children": 0
     },
     {
@@ -1708,7 +1723,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_POST",
-      "fleet_path": "BLOGS/shop",
+      "fleet_path": "BLOGS/SHOP",
       "children": 0
     },
     {
@@ -1880,7 +1895,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/claims-registry",
+      "fleet_path": "BOOKS/CLAIMS-REGISTRY",
       "children": 0
     },
     {
@@ -1896,7 +1911,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/map",
+      "fleet_path": "BOOKS/MAP",
       "children": 0
     },
     {
@@ -1912,7 +1927,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/organization",
+      "fleet_path": "BOOKS/ORGANIZATION",
       "children": 0
     },
     {
@@ -1928,7 +1943,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/shop",
+      "fleet_path": "BOOKS/SHOP",
       "children": 0
     },
     {
@@ -1944,7 +1959,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/spine",
+      "fleet_path": "BOOKS/SPINE",
       "children": 0
     },
     {
@@ -2111,7 +2126,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/achieve-podcast-2026",
+      "fleet_path": "CAMPAIGNS/ACHIEVE-PODCAST-2026",
       "children": 0
     },
     {
@@ -2127,7 +2142,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/aimed-2026",
+      "fleet_path": "CAMPAIGNS/AIMED-2026",
       "children": 0
     },
     {
@@ -2143,7 +2158,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/alphago-at-10",
+      "fleet_path": "CAMPAIGNS/ALPHAGO-AT-10",
       "children": 0
     },
     {
@@ -2159,7 +2174,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/bamberg-2026",
+      "fleet_path": "CAMPAIGNS/BAMBERG-2026",
       "children": 0
     },
     {
@@ -2175,7 +2190,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/caoh-2026",
+      "fleet_path": "CAMPAIGNS/CAOH-2026",
       "children": 0
     },
     {
@@ -2191,7 +2206,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/commitment-2026",
+      "fleet_path": "CAMPAIGNS/COMMITMENT-2026",
       "children": 0
     },
     {
@@ -2207,7 +2222,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/constitutional-ai-2026",
+      "fleet_path": "CAMPAIGNS/CONSTITUTIONAL-AI-2026",
       "children": 0
     },
     {
@@ -2223,7 +2238,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/health-ai-summit-2026",
+      "fleet_path": "CAMPAIGNS/HEALTH-AI-SUMMIT-2026",
       "children": 0
     },
     {
@@ -2239,7 +2254,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/lawyer-who-won",
+      "fleet_path": "CAMPAIGNS/LAWYER-WHO-WON",
       "children": 0
     },
     {
@@ -2255,7 +2270,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/mi10-orlando-2026",
+      "fleet_path": "CAMPAIGNS/MI10-ORLANDO-2026",
       "children": 0
     },
     {
@@ -2271,7 +2286,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/pmwc-2026",
+      "fleet_path": "CAMPAIGNS/PMWC-2026",
       "children": 0
     },
     {
@@ -2287,7 +2302,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/stop-prompting-2026",
+      "fleet_path": "CAMPAIGNS/STOP-PROMPTING-2026",
       "children": 0
     },
     {
@@ -2303,7 +2318,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/strong-her-2026",
+      "fleet_path": "CAMPAIGNS/STRONG-HER-2026",
       "children": 0
     },
     {
@@ -2319,7 +2334,23 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/template",
+      "fleet_path": "CAMPAIGNS/TEMPLATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/CAMPAIGNS/THE-FIXED-POINT-2026",
+      "kind": "CONTENT",
+      "label": "THE-FIXED-POINT-2026",
+      "repo": "hadleylab-canonic",
+      "path": "CAMPAIGNS/THE-FIXED-POINT-2026",
+      "parent": "hadleylab-canonic/CAMPAIGNS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "CAMPAIGNS/THE-FIXED-POINT-2026",
       "children": 0
     },
     {
@@ -2476,7 +2507,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CHARTER/correspondence",
+      "fleet_path": "CHARTER/CORRESPONDENCE",
       "children": 0
     },
     {
@@ -2726,7 +2757,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DECKS/shop",
+      "fleet_path": "DECKS/SHOP",
       "children": 0
     },
     {
@@ -2852,7 +2883,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "PAPERS/shop",
+      "fleet_path": "PAPERS/SHOP",
       "children": 0
     },
     {
@@ -3083,7 +3114,7 @@
       "learning_count": 3,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "PATENTS/DUE-DILIGENCE",
-      "children": 8
+      "children": 11
     },
     {
       "id": "hadleylab-canonic/PATENTS/PROV-001",
@@ -3287,6 +3318,102 @@
       "children": 0
     },
     {
+      "id": "hadleylab-canonic/PATENTS/PROV-010",
+      "kind": "SCOPE",
+      "label": "PROV-010",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-010",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "roadmap_now": "[ ] Co-inventor review (Marisa Nimrod)",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-010",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROV-011",
+      "kind": "SCOPE",
+      "label": "PROV-011",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-011",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "roadmap_now": "[ ] Co-inventor review (Marisa Nimrod)",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-011",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROV-012",
+      "kind": "SCOPE",
+      "label": "PROV-012",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-012",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "roadmap_now": "[ ] Co-inventor review (Robertico Croes)",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-012",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROV-013",
+      "kind": "SCOPE",
+      "label": "PROV-013",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-013",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "roadmap_now": "[ ] Co-inventor review (Karmyn Jones)",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-013",
+      "children": 0
+    },
+    {
       "id": "hadleylab-canonic/PATENTS/PROVISIONALS",
       "kind": "SCOPE",
       "label": "PROVISIONALS",
@@ -3322,7 +3449,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/claims",
+      "fleet_path": "PATENTS/CLAIMS",
       "children": 0
     },
     {
@@ -3338,7 +3465,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/filing-receipts",
+      "fleet_path": "PATENTS/FILING-RECEIPTS",
       "children": 0
     },
     {
@@ -3354,7 +3481,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/filing",
+      "fleet_path": "PATENTS/FILING",
       "children": 0
     },
     {
@@ -3370,108 +3497,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/ledger",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/DIVIDENDS",
-      "kind": "SCOPE",
-      "label": "DIVIDENDS",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/DIVIDENDS",
-      "parent": "hadleylab-canonic/SCREENS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "privacy": "PUBLIC",
-      "has_intel": true,
-      "intel_summary": "source-intel: hadleylab-canonic/BOOKS/DIVIDENDS/INTEL.md",
-      "roadmap_now": "[ ] Scene breakdown \u2014 extract scene list from book chapters per episode",
-      "learning_count": 1,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/DIVIDENDS",
-      "children": 8
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
-      "kind": "SCOPE",
-      "label": "MASTER-OF-DREAMS",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/MASTER-OF-DREAMS",
-      "parent": "hadleylab-canonic/SCREENS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "privacy": "PUBLIC",
-      "has_intel": true,
-      "intel_summary": "| Field | Value |",
-      "roadmap_now": "[ ] Obtain subtitle file (SRT/VTT) for scene-level ingestion",
-      "learning_count": 1,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/MASTER-OF-DREAMS",
-      "children": 7
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
-      "kind": "SCOPE",
-      "label": "NO-FAMILY-WITHOUT-BLOOD",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD",
-      "parent": "hadleylab-canonic/SCREENS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "privacy": "PUBLIC",
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR FILM. EVERY CREDIT SOURCED. EVERY CLAIM EVIDENCED. EVERY SCENE GOVERNED.**",
-      "learning_count": 1,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD",
-      "children": 7
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/ON-HAND",
-      "kind": "SCOPE",
-      "label": "ON-HAND",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/ON-HAND",
-      "parent": "hadleylab-canonic/SCREENS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR STORY. EVERY SCENE SOURCED. EVERY CHARACTER GOVERNED. EVERY BEAT EVIDENCED.**",
-      "roadmap_now": "[ ] TREATMENT.md (prose narrative contract)",
-      "learning_count": 3,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/ON-HAND",
-      "children": 7
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/SHOP",
-      "kind": "CONTENT",
-      "label": "SHOP",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/SHOP",
-      "parent": "hadleylab-canonic/SCREENS",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/shop",
+      "fleet_path": "PATENTS/LEDGER",
       "children": 0
     },
     {
@@ -4246,26 +4272,6 @@
       "children": 5
     },
     {
-      "id": "hadleylab-canonic/SERVICES/SCREEN",
-      "kind": "SERVICE",
-      "label": "SCREEN",
-      "repo": "hadleylab-canonic",
-      "path": "SERVICES/SCREEN",
-      "parent": "hadleylab-canonic/SERVICES",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**KNOW YOUR STORY. EVERY SCENE SOURCED. EVERY CHARACTER GOVERNED. EVERY BEAT EVIDENCED.**",
-      "learning_count": 4,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_SERVICE",
-      "fleet_path": "SERVICES/SCREEN",
-      "children": 0
-    },
-    {
       "id": "hadleylab-canonic/SERVICES/SEED",
       "kind": "SERVICE",
       "label": "SEED",
@@ -4353,6 +4359,26 @@
       "coverage_score": 0,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/STAR",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/STORY",
+      "kind": "SERVICE",
+      "label": "STORY",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/STORY",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR STORY. EVERY SCENE SOURCED. EVERY CHARACTER GOVERNED. EVERY BEAT EVIDENCED.**",
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/STORY",
       "children": 0
     },
     {
@@ -4572,7 +4598,108 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/ledger-consumers",
+      "fleet_path": "SERVICES/LEDGER-CONSUMERS",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/DIVIDENDS",
+      "kind": "SCOPE",
+      "label": "DIVIDENDS",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/DIVIDENDS",
+      "parent": "hadleylab-canonic/STORIES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PUBLIC",
+      "has_intel": true,
+      "intel_summary": "source-intel: hadleylab-canonic/BOOKS/DIVIDENDS/INTEL.md",
+      "roadmap_now": "[ ] Scene breakdown \u2014 extract scene list from book chapters per episode",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/DIVIDENDS",
+      "children": 8
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS",
+      "kind": "SCOPE",
+      "label": "MASTER-OF-DREAMS",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/MASTER-OF-DREAMS",
+      "parent": "hadleylab-canonic/STORIES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PUBLIC",
+      "has_intel": true,
+      "intel_summary": "| Field | Value |",
+      "roadmap_now": "[ ] Obtain subtitle file (SRT/VTT) for scene-level ingestion",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/MASTER-OF-DREAMS",
+      "children": 7
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD",
+      "kind": "SCOPE",
+      "label": "NO-FAMILY-WITHOUT-BLOOD",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/NO-FAMILY-WITHOUT-BLOOD",
+      "parent": "hadleylab-canonic/STORIES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PUBLIC",
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR FILM. EVERY CREDIT SOURCED. EVERY CLAIM EVIDENCED. EVERY SCENE GOVERNED.**",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/NO-FAMILY-WITHOUT-BLOOD",
+      "children": 7
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/ON-HAND",
+      "kind": "SCOPE",
+      "label": "ON-HAND",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/ON-HAND",
+      "parent": "hadleylab-canonic/STORIES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR STORY. EVERY SCENE SOURCED. EVERY CHARACTER GOVERNED. EVERY BEAT EVIDENCED.**",
+      "roadmap_now": "[ ] TREATMENT.md (prose narrative contract)",
+      "learning_count": 3,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/ON-HAND",
+      "children": 7
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/SHOP",
+      "kind": "CONTENT",
+      "label": "SHOP",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/SHOP",
+      "parent": "hadleylab-canonic/STORIES",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/SHOP",
       "children": 0
     },
     {
@@ -5002,7 +5129,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/presentation-catalog",
+      "fleet_path": "TALKS/PRESENTATION-CATALOG",
       "children": 0
     },
     {
@@ -5274,7 +5401,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "VITAE/shop",
+      "fleet_path": "VITAE/SHOP",
       "children": 0
     },
     {
@@ -5328,7 +5455,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/catalog",
+      "fleet_path": "BOOKS/ATULISMS/CATALOG",
       "children": 0
     },
     {
@@ -5344,7 +5471,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/compile",
+      "fleet_path": "BOOKS/ATULISMS/COMPILE",
       "children": 0
     },
     {
@@ -5360,7 +5487,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/contribute",
+      "fleet_path": "BOOKS/ATULISMS/CONTRIBUTE",
       "children": 0
     },
     {
@@ -5376,7 +5503,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/distribute",
+      "fleet_path": "BOOKS/ATULISMS/DISTRIBUTE",
       "children": 0
     },
     {
@@ -5392,7 +5519,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/spine",
+      "fleet_path": "BOOKS/ATULISMS/SPINE",
       "children": 0
     },
     {
@@ -5427,7 +5554,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/compile",
+      "fleet_path": "BOOKS/CANONIC-CANON/COMPILE",
       "children": 0
     },
     {
@@ -5443,7 +5570,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/spine",
+      "fleet_path": "BOOKS/CANONIC-CANON/SPINE",
       "children": 0
     },
     {
@@ -5478,7 +5605,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/compile",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/COMPILE",
       "children": 0
     },
     {
@@ -5494,7 +5621,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/spine",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/SPINE",
       "children": 0
     },
     {
@@ -5510,7 +5637,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CHAPTERS/00-emotional-arc",
+      "fleet_path": "BOOKS/CHAPTERS/00-EMOTIONAL-ARC",
       "children": 0
     },
     {
@@ -5526,7 +5653,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CHAPTERS/01-min-max",
+      "fleet_path": "BOOKS/CHAPTERS/01-MIN-MAX",
       "children": 0
     },
     {
@@ -5542,7 +5669,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CHAPTERS/02-bilateral-ledgers",
+      "fleet_path": "BOOKS/CHAPTERS/02-BILATERAL-LEDGERS",
       "children": 0
     },
     {
@@ -5558,7 +5685,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CHAPTERS/03-cryptographic-consent",
+      "fleet_path": "BOOKS/CHAPTERS/03-CRYPTOGRAPHIC-CONSENT",
       "children": 0
     },
     {
@@ -5574,7 +5701,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CHAPTERS/04-policy-arc",
+      "fleet_path": "BOOKS/CHAPTERS/04-POLICY-ARC",
       "children": 0
     },
     {
@@ -5590,7 +5717,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CHAPTERS/part-i-the-economy-we-inherited",
+      "fleet_path": "BOOKS/CHAPTERS/PART-I-THE-ECONOMY-WE-INHERITED",
       "children": 0
     },
     {
@@ -5606,7 +5733,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CHAPTERS/part-ii-extraction",
+      "fleet_path": "BOOKS/CHAPTERS/PART-II-EXTRACTION",
       "children": 0
     },
     {
@@ -5622,7 +5749,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CHAPTERS/part-iii-circular-economy",
+      "fleet_path": "BOOKS/CHAPTERS/PART-III-CIRCULAR-ECONOMY",
       "children": 0
     },
     {
@@ -5638,7 +5765,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CHAPTERS/part-iv-the-loop",
+      "fleet_path": "BOOKS/CHAPTERS/PART-IV-THE-LOOP",
       "children": 0
     },
     {
@@ -5654,7 +5781,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CHAPTERS/part-v-new-economy",
+      "fleet_path": "BOOKS/CHAPTERS/PART-V-NEW-ECONOMY",
       "children": 0
     },
     {
@@ -5670,7 +5797,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CHAPTERS/part-vi-custody-returned",
+      "fleet_path": "BOOKS/CHAPTERS/PART-VI-CUSTODY-RETURNED",
       "children": 0
     },
     {
@@ -5686,7 +5813,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CHAPTERS/prologue",
+      "fleet_path": "BOOKS/CHAPTERS/PROLOGUE",
       "children": 0
     },
     {
@@ -5719,7 +5846,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/DARIOISMS/compile",
+      "fleet_path": "BOOKS/DARIOISMS/COMPILE",
       "children": 0
     },
     {
@@ -5735,7 +5862,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/DARIOISMS/spine",
+      "fleet_path": "BOOKS/DARIOISMS/SPINE",
       "children": 0
     },
     {
@@ -5751,7 +5878,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/DIVIDENDS/authoring-guide",
+      "fleet_path": "BOOKS/DIVIDENDS/AUTHORING-GUIDE",
       "children": 0
     },
     {
@@ -5767,7 +5894,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/DIVIDENDS/changelog",
+      "fleet_path": "BOOKS/DIVIDENDS/CHANGELOG",
       "children": 0
     },
     {
@@ -5783,7 +5910,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/DIVIDENDS/quickstart",
+      "fleet_path": "BOOKS/DIVIDENDS/QUICKSTART",
       "children": 0
     },
     {
@@ -5799,7 +5926,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/DIVIDENDS/spine",
+      "fleet_path": "BOOKS/DIVIDENDS/SPINE",
       "children": 0
     },
     {
@@ -5815,7 +5942,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/LINKEDIN/calendar",
+      "fleet_path": "CAMPAIGNS/LINKEDIN/CALENDAR",
       "children": 0
     },
     {
@@ -5831,7 +5958,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/LINKEDIN/engagement",
+      "fleet_path": "CAMPAIGNS/LINKEDIN/ENGAGEMENT",
       "children": 0
     },
     {
@@ -5847,7 +5974,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/LINKEDIN/fleet-map",
+      "fleet_path": "CAMPAIGNS/LINKEDIN/FLEET-MAP",
       "children": 0
     },
     {
@@ -5863,7 +5990,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/LINKEDIN/preflight",
+      "fleet_path": "CAMPAIGNS/LINKEDIN/PREFLIGHT",
       "children": 0
     },
     {
@@ -5879,7 +6006,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/LINKEDIN/profile",
+      "fleet_path": "CAMPAIGNS/LINKEDIN/PROFILE",
       "children": 0
     },
     {
@@ -5895,7 +6022,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CHARTER/BOARD/bylaws",
+      "fleet_path": "CHARTER/BOARD/BYLAWS",
       "children": 0
     },
     {
@@ -5911,7 +6038,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CHARTER/BOARD/coi-policy",
+      "fleet_path": "CHARTER/BOARD/COI-POLICY",
       "children": 0
     },
     {
@@ -6007,7 +6134,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CHARTER/ENTITY/articles",
+      "fleet_path": "CHARTER/ENTITY/ARTICLES",
       "children": 0
     },
     {
@@ -6023,7 +6150,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CHARTER/ENTITY/work-talk-julio",
+      "fleet_path": "CHARTER/ENTITY/WORK-TALK-JULIO",
       "children": 0
     },
     {
@@ -6039,7 +6166,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CHARTER/LICENSING/foundation-tier",
+      "fleet_path": "CHARTER/LICENSING/FOUNDATION-TIER",
       "children": 0
     },
     {
@@ -6055,7 +6182,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CHARTER/TRUST/work-talk-david",
+      "fleet_path": "CHARTER/TRUST/WORK-TALK-DAVID",
       "children": 0
     },
     {
@@ -6104,7 +6231,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/CAOH/business-plan",
+      "fleet_path": "DEALS/CAOH/BUSINESS-PLAN",
       "children": 0
     },
     {
@@ -6120,7 +6247,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DEALS/CAOH/launch-plan",
+      "fleet_path": "DEALS/CAOH/LAUNCH-PLAN",
       "children": 0
     },
     {
@@ -6136,7 +6263,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DECKS/ACHIEVE/deck",
+      "fleet_path": "DECKS/ACHIEVE/DECK",
       "children": 0
     },
     {
@@ -6152,7 +6279,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DECKS/BEDA/deck",
+      "fleet_path": "DECKS/BEDA/DECK",
       "children": 0
     },
     {
@@ -6168,7 +6295,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DECKS/BEDA/email-review-loop-2026-03-23",
+      "fleet_path": "DECKS/BEDA/EMAIL-REVIEW-LOOP-2026-03-23",
       "children": 0
     },
     {
@@ -6184,7 +6311,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DECKS/BOND-VALE/deck",
+      "fleet_path": "DECKS/BOND-VALE/DECK",
       "children": 0
     },
     {
@@ -6248,7 +6375,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DECKS/HOWARD/deck",
+      "fleet_path": "DECKS/HOWARD/DECK",
       "children": 0
     },
     {
@@ -6264,7 +6391,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DECKS/JP-CAPITAL/deck",
+      "fleet_path": "DECKS/JP-CAPITAL/DECK",
       "children": 0
     },
     {
@@ -6280,7 +6407,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DECKS/PMWC/deck",
+      "fleet_path": "DECKS/PMWC/DECK",
       "children": 0
     },
     {
@@ -6296,7 +6423,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DECKS/RUNNER-CHAIN/deck",
+      "fleet_path": "DECKS/RUNNER-CHAIN/DECK",
       "children": 0
     },
     {
@@ -6312,7 +6439,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "DECKS/STRONG-HER/deck",
+      "fleet_path": "DECKS/STRONG-HER/DECK",
       "children": 0
     },
     {
@@ -6328,7 +6455,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/ACS-FLATIRON/specific-aims",
+      "fleet_path": "GRANTS/ACS-FLATIRON/SPECIFIC-AIMS",
       "children": 0
     },
     {
@@ -6488,7 +6615,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/business-plan-nih",
+      "fleet_path": "GRANTS/EHDS-GOV/BUSINESS-PLAN-NIH",
       "children": 0
     },
     {
@@ -6504,7 +6631,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/review-youness-nih",
+      "fleet_path": "GRANTS/EHDS-GOV/REVIEW-YOUNESS-NIH",
       "children": 0
     },
     {
@@ -6520,7 +6647,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/review-youness",
+      "fleet_path": "GRANTS/EHDS-GOV/REVIEW-YOUNESS",
       "children": 0
     },
     {
@@ -6536,7 +6663,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/specific-aims-nih",
+      "fleet_path": "GRANTS/EHDS-GOV/SPECIFIC-AIMS-NIH",
       "children": 0
     },
     {
@@ -6552,7 +6679,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/specific-aims",
+      "fleet_path": "GRANTS/EHDS-GOV/SPECIFIC-AIMS",
       "children": 0
     },
     {
@@ -6568,7 +6695,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "GRANTS/EHDS-GOV/work-talk-review",
+      "fleet_path": "GRANTS/EHDS-GOV/WORK-TALK-REVIEW",
       "children": 0
     },
     {
@@ -6584,7 +6711,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "IRBS/CARIBCHAT/exempt",
+      "fleet_path": "IRBS/CARIBCHAT/EXEMPT",
       "children": 0
     },
     {
@@ -6600,7 +6727,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "IRBS/CARIBCHAT/icf",
+      "fleet_path": "IRBS/CARIBCHAT/ICF",
       "children": 0
     },
     {
@@ -6616,7 +6743,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "IRBS/CARIBCHAT/listing",
+      "fleet_path": "IRBS/CARIBCHAT/LISTING",
       "children": 0
     },
     {
@@ -6632,7 +6759,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "IRBS/CARIBCHAT/protocol",
+      "fleet_path": "IRBS/CARIBCHAT/PROTOCOL",
       "children": 0
     },
     {
@@ -6648,7 +6775,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "IRBS/CARIBCHAT/security",
+      "fleet_path": "IRBS/CARIBCHAT/SECURITY",
       "children": 0
     },
     {
@@ -6664,7 +6791,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "IRBS/CARIBCHAT/uwi-sta-application",
+      "fleet_path": "IRBS/CARIBCHAT/UWI-STA-APPLICATION",
       "children": 0
     },
     {
@@ -6680,7 +6807,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "IRBS/CARIBCHAT/waiver",
+      "fleet_path": "IRBS/CARIBCHAT/WAIVER",
       "children": 0
     },
     {
@@ -6696,7 +6823,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "PAPERS/COMMUNITY-LEARNING/aimed26-analysis",
+      "fleet_path": "PAPERS/COMMUNITY-LEARNING/AIMED26-ANALYSIS",
       "children": 0
     },
     {
@@ -6712,7 +6839,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "PAPERS/COMMUNITY-LEARNING/freeze-protocol",
+      "fleet_path": "PAPERS/COMMUNITY-LEARNING/FREEZE-PROTOCOL",
       "children": 0
     },
     {
@@ -6728,7 +6855,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
-      "fleet_path": "PAPERS/COMMUNITY-LEARNING/omicschat-one-pager",
+      "fleet_path": "PAPERS/COMMUNITY-LEARNING/OMICSCHAT-ONE-PAGER",
       "children": 0
     },
     {
@@ -6760,7 +6887,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/APPLICATIONS/frand-commitment",
+      "fleet_path": "PATENTS/APPLICATIONS/FRAND-COMMITMENT",
       "children": 0
     },
     {
@@ -6776,7 +6903,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/DUE-DILIGENCE/epo-prior-art-search",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/EPO-PRIOR-ART-SEARCH",
       "children": 0
     },
     {
@@ -6792,7 +6919,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/DUE-DILIGENCE/jpo-prior-art-search",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/JPO-PRIOR-ART-SEARCH",
       "children": 0
     },
     {
@@ -6808,7 +6935,23 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/DUE-DILIGENCE/npl-prior-art-search",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/NPL-PRIOR-ART-SEARCH",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009-FULL",
+      "kind": "CONTENT",
+      "label": "PRIOR-ART-SEARCH-PROV-007-009-FULL",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009-FULL",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009-FULL",
       "children": 0
     },
     {
@@ -6824,7 +6967,23 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/DUE-DILIGENCE/prior-art-search-prov-007-009",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-010-013",
+      "kind": "CONTENT",
+      "label": "PRIOR-ART-SEARCH-PROV-010-013",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-010-013",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-010-013",
       "children": 0
     },
     {
@@ -6840,7 +6999,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/DUE-DILIGENCE/prov-prior-art-analysis",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/PROV-PRIOR-ART-ANALYSIS",
       "children": 0
     },
     {
@@ -6856,7 +7015,23 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/DUE-DILIGENCE/section-101-prov-007-009",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/SECTION-101-PROV-007-009",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/SECTION-101-PROV-010-013",
+      "kind": "CONTENT",
+      "label": "SECTION-101-PROV-010-013",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/SECTION-101-PROV-010-013",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/SECTION-101-PROV-010-013",
       "children": 0
     },
     {
@@ -6872,7 +7047,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/DUE-DILIGENCE/section-101",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/SECTION-101",
       "children": 0
     },
     {
@@ -6888,7 +7063,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/DUE-DILIGENCE/us-prior-art-search",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/US-PRIOR-ART-SEARCH",
       "children": 0
     },
     {
@@ -6904,7 +7079,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/PROVISIONALS/prov-001",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-001",
       "children": 0
     },
     {
@@ -6920,7 +7095,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/PROVISIONALS/prov-002",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-002",
       "children": 0
     },
     {
@@ -6936,7 +7111,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/PROVISIONALS/prov-003",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-003",
       "children": 0
     },
     {
@@ -6952,7 +7127,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/PROVISIONALS/prov-004",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-004",
       "children": 0
     },
     {
@@ -6968,7 +7143,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/PROVISIONALS/prov-005",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-005",
       "children": 0
     },
     {
@@ -6984,7 +7159,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/PROVISIONALS/prov-006",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-006",
       "children": 0
     },
     {
@@ -7000,7 +7175,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/PROVISIONALS/prov-007",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-007",
       "children": 0
     },
     {
@@ -7016,7 +7191,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/PROVISIONALS/prov-008",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-008",
       "children": 0
     },
     {
@@ -7032,7 +7207,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/PROVISIONALS/prov-009",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-009",
       "children": 0
     },
     {
@@ -7048,7 +7223,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/PROVISIONALS/prov-010",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-010",
       "children": 0
     },
     {
@@ -7064,7 +7239,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/PROVISIONALS/prov-011",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-011",
       "children": 0
     },
     {
@@ -7080,7 +7255,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/PROVISIONALS/prov-012",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-012",
       "children": 0
     },
     {
@@ -7096,486 +7271,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "PATENTS/PROVISIONALS/prov-013",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/DIVIDENDS/CHARACTERS",
-      "kind": "SCOPE",
-      "label": "CHARACTERS",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/DIVIDENDS/CHARACTERS",
-      "parent": "hadleylab-canonic/SCREENS/DIVIDENDS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/DIVIDENDS/CHARACTERS",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES",
-      "kind": "SCOPE",
-      "label": "EPISODES",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/DIVIDENDS/EPISODES",
-      "parent": "hadleylab-canonic/SCREENS/DIVIDENDS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
-      "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/DIVIDENDS/EPISODES",
-      "children": 6
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/DIVIDENDS/ARC",
-      "kind": "CONTENT",
-      "label": "ARC",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/DIVIDENDS/ARC",
-      "parent": "hadleylab-canonic/SCREENS/DIVIDENDS",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/DIVIDENDS/arc",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/DIVIDENDS/BIBLE",
-      "kind": "CONTENT",
-      "label": "BIBLE",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/DIVIDENDS/BIBLE",
-      "parent": "hadleylab-canonic/SCREENS/DIVIDENDS",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/DIVIDENDS/bible",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/DIVIDENDS/COMPILE",
-      "kind": "CONTENT",
-      "label": "COMPILE",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/DIVIDENDS/COMPILE",
-      "parent": "hadleylab-canonic/SCREENS/DIVIDENDS",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/DIVIDENDS/compile",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/DIVIDENDS/SOURCES",
-      "kind": "CONTENT",
-      "label": "SOURCES",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/DIVIDENDS/SOURCES",
-      "parent": "hadleylab-canonic/SCREENS/DIVIDENDS",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/DIVIDENDS/sources",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/DIVIDENDS/SPINE",
-      "kind": "CONTENT",
-      "label": "SPINE",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/DIVIDENDS/SPINE",
-      "parent": "hadleylab-canonic/SCREENS/DIVIDENDS",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/DIVIDENDS/spine",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/DIVIDENDS/TREATMENT",
-      "kind": "CONTENT",
-      "label": "TREATMENT",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/DIVIDENDS/TREATMENT",
-      "parent": "hadleylab-canonic/SCREENS/DIVIDENDS",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/DIVIDENDS/treatment",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/CHARACTERS",
-      "kind": "SCOPE",
-      "label": "CHARACTERS",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/MASTER-OF-DREAMS/CHARACTERS",
-      "parent": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/MASTER-OF-DREAMS/CHARACTERS",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/SCENES",
-      "kind": "SCOPE",
-      "label": "SCENES",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/MASTER-OF-DREAMS/SCENES",
-      "parent": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/MASTER-OF-DREAMS/SCENES",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/ARC",
-      "kind": "CONTENT",
-      "label": "ARC",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/MASTER-OF-DREAMS/ARC",
-      "parent": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/MASTER-OF-DREAMS/arc",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/COMPILE",
-      "kind": "CONTENT",
-      "label": "COMPILE",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/MASTER-OF-DREAMS/COMPILE",
-      "parent": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/MASTER-OF-DREAMS/compile",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/SOURCES",
-      "kind": "CONTENT",
-      "label": "SOURCES",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/MASTER-OF-DREAMS/SOURCES",
-      "parent": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/MASTER-OF-DREAMS/sources",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/SPINE",
-      "kind": "CONTENT",
-      "label": "SPINE",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/MASTER-OF-DREAMS/SPINE",
-      "parent": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/MASTER-OF-DREAMS/spine",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/TREATMENT",
-      "kind": "CONTENT",
-      "label": "TREATMENT",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/MASTER-OF-DREAMS/TREATMENT",
-      "parent": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/MASTER-OF-DREAMS/treatment",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/CHARACTERS",
-      "kind": "SCOPE",
-      "label": "CHARACTERS",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/CHARACTERS",
-      "parent": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/CHARACTERS",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/SCENES",
-      "kind": "SCOPE",
-      "label": "SCENES",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/SCENES",
-      "parent": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/SCENES",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/ARC",
-      "kind": "CONTENT",
-      "label": "ARC",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/ARC",
-      "parent": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/arc",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/COMPILE",
-      "kind": "CONTENT",
-      "label": "COMPILE",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/COMPILE",
-      "parent": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/compile",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/SOURCES",
-      "kind": "CONTENT",
-      "label": "SOURCES",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/SOURCES",
-      "parent": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/sources",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/SPINE",
-      "kind": "CONTENT",
-      "label": "SPINE",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/SPINE",
-      "parent": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/spine",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/TREATMENT",
-      "kind": "CONTENT",
-      "label": "TREATMENT",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/TREATMENT",
-      "parent": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/NO-FAMILY-WITHOUT-BLOOD/treatment",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/ON-HAND/CHARACTERS",
-      "kind": "SCOPE",
-      "label": "CHARACTERS",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/ON-HAND/CHARACTERS",
-      "parent": "hadleylab-canonic/SCREENS/ON-HAND",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "[ ] ARC.md (WANT/NEED/GHOST/LIE/TRUTH per principal)",
-      "learning_count": 1,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/ON-HAND/CHARACTERS",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/ON-HAND/SCENES",
-      "kind": "SCOPE",
-      "label": "SCENES",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/ON-HAND/SCENES",
-      "parent": "hadleylab-canonic/SCREENS/ON-HAND",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "[ ] ACT I scenes (001-020)",
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/ON-HAND/SCENES",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/ON-HAND/ARC",
-      "kind": "CONTENT",
-      "label": "ARC",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/ON-HAND/ARC",
-      "parent": "hadleylab-canonic/SCREENS/ON-HAND",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/ON-HAND/arc",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/ON-HAND/COMPILE",
-      "kind": "CONTENT",
-      "label": "COMPILE",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/ON-HAND/COMPILE",
-      "parent": "hadleylab-canonic/SCREENS/ON-HAND",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/ON-HAND/compile",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/ON-HAND/SOURCES",
-      "kind": "CONTENT",
-      "label": "SOURCES",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/ON-HAND/SOURCES",
-      "parent": "hadleylab-canonic/SCREENS/ON-HAND",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/ON-HAND/sources",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/ON-HAND/SPINE",
-      "kind": "CONTENT",
-      "label": "SPINE",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/ON-HAND/SPINE",
-      "parent": "hadleylab-canonic/SCREENS/ON-HAND",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/ON-HAND/spine",
-      "children": 0
-    },
-    {
-      "id": "hadleylab-canonic/SCREENS/ON-HAND/TREATMENT",
-      "kind": "CONTENT",
-      "label": "TREATMENT",
-      "repo": "hadleylab-canonic",
-      "path": "SCREENS/ON-HAND/TREATMENT",
-      "parent": "hadleylab-canonic/SCREENS/ON-HAND",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/ON-HAND/treatment",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-013",
       "children": 0
     },
     {
@@ -7591,7 +7287,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/CAMPAIGN/branding",
+      "fleet_path": "SERVICES/CAMPAIGN/BRANDING",
       "children": 0
     },
     {
@@ -7607,7 +7303,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/CAMPAIGN/playbook",
+      "fleet_path": "SERVICES/CAMPAIGN/PLAYBOOK",
       "children": 0
     },
     {
@@ -7623,7 +7319,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/CITATION/bibliography",
+      "fleet_path": "SERVICES/CITATION/BIBLIOGRAPHY",
       "children": 0
     },
     {
@@ -7639,7 +7335,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/DEV/dashboard",
+      "fleet_path": "SERVICES/DEV/DASHBOARD",
       "children": 0
     },
     {
@@ -7655,7 +7351,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/DOMAINS/preflight",
+      "fleet_path": "SERVICES/DOMAINS/PREFLIGHT",
       "children": 0
     },
     {
@@ -7671,7 +7367,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/FINANCIALS/business",
+      "fleet_path": "SERVICES/FINANCIALS/BUSINESS",
       "children": 0
     },
     {
@@ -7687,7 +7383,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/FINANCIALS/how-it-works",
+      "fleet_path": "SERVICES/FINANCIALS/HOW-IT-WORKS",
       "children": 0
     },
     {
@@ -7703,7 +7399,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/FINANCIALS/series-a",
+      "fleet_path": "SERVICES/FINANCIALS/SERIES-A",
       "children": 0
     },
     {
@@ -7719,7 +7415,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/FINANCIALS/valuation",
+      "fleet_path": "SERVICES/FINANCIALS/VALUATION",
       "children": 0
     },
     {
@@ -7735,7 +7431,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/FORECASTS/coverage-metrics",
+      "fleet_path": "SERVICES/FORECASTS/COVERAGE-METRICS",
       "children": 0
     },
     {
@@ -7751,7 +7447,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/FORECASTS/ip-valuation",
+      "fleet_path": "SERVICES/FORECASTS/IP-VALUATION",
       "children": 0
     },
     {
@@ -7767,7 +7463,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/FORECASTS/year-1",
+      "fleet_path": "SERVICES/FORECASTS/YEAR-1",
       "children": 0
     },
     {
@@ -7783,7 +7479,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/FORECASTS/year-3",
+      "fleet_path": "SERVICES/FORECASTS/YEAR-3",
       "children": 0
     },
     {
@@ -7799,7 +7495,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/FORECASTS/year-5",
+      "fleet_path": "SERVICES/FORECASTS/YEAR-5",
       "children": 0
     },
     {
@@ -7815,7 +7511,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/GUIDEPOINT/ledger",
+      "fleet_path": "SERVICES/GUIDEPOINT/LEDGER",
       "children": 0
     },
     {
@@ -7831,7 +7527,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/LATEX/shop",
+      "fleet_path": "SERVICES/LATEX/SHOP",
       "children": 0
     },
     {
@@ -7847,7 +7543,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/LEARNING/atul-butte-mafia",
+      "fleet_path": "SERVICES/LEARNING/ATUL-BUTTE-MAFIA",
       "children": 0
     },
     {
@@ -7863,7 +7559,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/LEARNING/magic-lattice",
+      "fleet_path": "SERVICES/LEARNING/MAGIC-LATTICE",
       "children": 0
     },
     {
@@ -7879,7 +7575,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/LEARNING/network-map",
+      "fleet_path": "SERVICES/LEARNING/NETWORK-MAP",
       "children": 0
     },
     {
@@ -7895,7 +7591,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/LEARNING/roster",
+      "fleet_path": "SERVICES/LEARNING/ROSTER",
       "children": 0
     },
     {
@@ -8807,7 +8503,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/LEDGER/pmwc-2026-submission",
+      "fleet_path": "SERVICES/LEDGER/PMWC-2026-SUBMISSION",
       "children": 0
     },
     {
@@ -8883,7 +8579,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/MAGIC/shop",
+      "fleet_path": "SERVICES/MAGIC/SHOP",
       "children": 0
     },
     {
@@ -8899,7 +8595,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/RESERVES/asset-registry",
+      "fleet_path": "SERVICES/RESERVES/ASSET-REGISTRY",
       "children": 0
     },
     {
@@ -8915,7 +8611,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/RESERVES/data-axioms",
+      "fleet_path": "SERVICES/RESERVES/DATA-AXIOMS",
       "children": 0
     },
     {
@@ -8931,7 +8627,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/RESERVES/economics",
+      "fleet_path": "SERVICES/RESERVES/ECONOMICS",
       "children": 0
     },
     {
@@ -8947,7 +8643,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/RESERVES/marketplace",
+      "fleet_path": "SERVICES/RESERVES/MARKETPLACE",
       "children": 0
     },
     {
@@ -8963,7 +8659,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/RESERVES/tokenomics",
+      "fleet_path": "SERVICES/RESERVES/TOKENOMICS",
       "children": 0
     },
     {
@@ -8979,7 +8675,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/TALK/fleet-plan",
+      "fleet_path": "SERVICES/TALK/FLEET-PLAN",
       "children": 0
     },
     {
@@ -9019,7 +8715,486 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SERVICES/USPTO/preflight",
+      "fleet_path": "SERVICES/USPTO/PREFLIGHT",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/DIVIDENDS/CHARACTERS",
+      "kind": "SCOPE",
+      "label": "CHARACTERS",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/DIVIDENDS/CHARACTERS",
+      "parent": "hadleylab-canonic/STORIES/DIVIDENDS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/DIVIDENDS/CHARACTERS",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES",
+      "kind": "SCOPE",
+      "label": "EPISODES",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/DIVIDENDS/EPISODES",
+      "parent": "hadleylab-canonic/STORIES/DIVIDENDS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/DIVIDENDS/EPISODES",
+      "children": 6
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/DIVIDENDS/ARC",
+      "kind": "CONTENT",
+      "label": "ARC",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/DIVIDENDS/ARC",
+      "parent": "hadleylab-canonic/STORIES/DIVIDENDS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/DIVIDENDS/ARC",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/DIVIDENDS/BIBLE",
+      "kind": "CONTENT",
+      "label": "BIBLE",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/DIVIDENDS/BIBLE",
+      "parent": "hadleylab-canonic/STORIES/DIVIDENDS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/DIVIDENDS/BIBLE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/DIVIDENDS/COMPILE",
+      "kind": "CONTENT",
+      "label": "COMPILE",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/DIVIDENDS/COMPILE",
+      "parent": "hadleylab-canonic/STORIES/DIVIDENDS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/DIVIDENDS/COMPILE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/DIVIDENDS/SOURCES",
+      "kind": "CONTENT",
+      "label": "SOURCES",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/DIVIDENDS/SOURCES",
+      "parent": "hadleylab-canonic/STORIES/DIVIDENDS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/DIVIDENDS/SOURCES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/DIVIDENDS/SPINE",
+      "kind": "CONTENT",
+      "label": "SPINE",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/DIVIDENDS/SPINE",
+      "parent": "hadleylab-canonic/STORIES/DIVIDENDS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/DIVIDENDS/SPINE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/DIVIDENDS/TREATMENT",
+      "kind": "CONTENT",
+      "label": "TREATMENT",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/DIVIDENDS/TREATMENT",
+      "parent": "hadleylab-canonic/STORIES/DIVIDENDS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/DIVIDENDS/TREATMENT",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS/CHARACTERS",
+      "kind": "SCOPE",
+      "label": "CHARACTERS",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/MASTER-OF-DREAMS/CHARACTERS",
+      "parent": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/MASTER-OF-DREAMS/CHARACTERS",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS/SCENES",
+      "kind": "SCOPE",
+      "label": "SCENES",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/MASTER-OF-DREAMS/SCENES",
+      "parent": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/MASTER-OF-DREAMS/SCENES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS/ARC",
+      "kind": "CONTENT",
+      "label": "ARC",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/MASTER-OF-DREAMS/ARC",
+      "parent": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/MASTER-OF-DREAMS/ARC",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS/COMPILE",
+      "kind": "CONTENT",
+      "label": "COMPILE",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/MASTER-OF-DREAMS/COMPILE",
+      "parent": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/MASTER-OF-DREAMS/COMPILE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS/SOURCES",
+      "kind": "CONTENT",
+      "label": "SOURCES",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/MASTER-OF-DREAMS/SOURCES",
+      "parent": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/MASTER-OF-DREAMS/SOURCES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS/SPINE",
+      "kind": "CONTENT",
+      "label": "SPINE",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/MASTER-OF-DREAMS/SPINE",
+      "parent": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/MASTER-OF-DREAMS/SPINE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS/TREATMENT",
+      "kind": "CONTENT",
+      "label": "TREATMENT",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/MASTER-OF-DREAMS/TREATMENT",
+      "parent": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/MASTER-OF-DREAMS/TREATMENT",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD/CHARACTERS",
+      "kind": "SCOPE",
+      "label": "CHARACTERS",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/NO-FAMILY-WITHOUT-BLOOD/CHARACTERS",
+      "parent": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/NO-FAMILY-WITHOUT-BLOOD/CHARACTERS",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD/SCENES",
+      "kind": "SCOPE",
+      "label": "SCENES",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/NO-FAMILY-WITHOUT-BLOOD/SCENES",
+      "parent": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/NO-FAMILY-WITHOUT-BLOOD/SCENES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD/ARC",
+      "kind": "CONTENT",
+      "label": "ARC",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/NO-FAMILY-WITHOUT-BLOOD/ARC",
+      "parent": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/NO-FAMILY-WITHOUT-BLOOD/ARC",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD/COMPILE",
+      "kind": "CONTENT",
+      "label": "COMPILE",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/NO-FAMILY-WITHOUT-BLOOD/COMPILE",
+      "parent": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/NO-FAMILY-WITHOUT-BLOOD/COMPILE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD/SOURCES",
+      "kind": "CONTENT",
+      "label": "SOURCES",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/NO-FAMILY-WITHOUT-BLOOD/SOURCES",
+      "parent": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/NO-FAMILY-WITHOUT-BLOOD/SOURCES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD/SPINE",
+      "kind": "CONTENT",
+      "label": "SPINE",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/NO-FAMILY-WITHOUT-BLOOD/SPINE",
+      "parent": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/NO-FAMILY-WITHOUT-BLOOD/SPINE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD/TREATMENT",
+      "kind": "CONTENT",
+      "label": "TREATMENT",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/NO-FAMILY-WITHOUT-BLOOD/TREATMENT",
+      "parent": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/NO-FAMILY-WITHOUT-BLOOD/TREATMENT",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/ON-HAND/CHARACTERS",
+      "kind": "SCOPE",
+      "label": "CHARACTERS",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/ON-HAND/CHARACTERS",
+      "parent": "hadleylab-canonic/STORIES/ON-HAND",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "[ ] ARC.md (WANT/NEED/GHOST/LIE/TRUTH per principal)",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/ON-HAND/CHARACTERS",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/ON-HAND/SCENES",
+      "kind": "SCOPE",
+      "label": "SCENES",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/ON-HAND/SCENES",
+      "parent": "hadleylab-canonic/STORIES/ON-HAND",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "[ ] ACT I scenes (001-020)",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/ON-HAND/SCENES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/ON-HAND/ARC",
+      "kind": "CONTENT",
+      "label": "ARC",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/ON-HAND/ARC",
+      "parent": "hadleylab-canonic/STORIES/ON-HAND",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/ON-HAND/ARC",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/ON-HAND/COMPILE",
+      "kind": "CONTENT",
+      "label": "COMPILE",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/ON-HAND/COMPILE",
+      "parent": "hadleylab-canonic/STORIES/ON-HAND",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/ON-HAND/COMPILE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/ON-HAND/SOURCES",
+      "kind": "CONTENT",
+      "label": "SOURCES",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/ON-HAND/SOURCES",
+      "parent": "hadleylab-canonic/STORIES/ON-HAND",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/ON-HAND/SOURCES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/ON-HAND/SPINE",
+      "kind": "CONTENT",
+      "label": "SPINE",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/ON-HAND/SPINE",
+      "parent": "hadleylab-canonic/STORIES/ON-HAND",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/ON-HAND/SPINE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/STORIES/ON-HAND/TREATMENT",
+      "kind": "CONTENT",
+      "label": "TREATMENT",
+      "repo": "hadleylab-canonic",
+      "path": "STORIES/ON-HAND/TREATMENT",
+      "parent": "hadleylab-canonic/STORIES/ON-HAND",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "STORIES/ON-HAND/TREATMENT",
       "children": 0
     },
     {
@@ -9035,7 +9210,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/BLANDFORD/shop",
+      "fleet_path": "TALKS/BLANDFORD/SHOP",
       "children": 0
     },
     {
@@ -9051,7 +9226,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/BRYANSTON/shop",
+      "fleet_path": "TALKS/BRYANSTON/SHOP",
       "children": 0
     },
     {
@@ -9067,7 +9242,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/CARIBCHAT/community",
+      "fleet_path": "TALKS/CARIBCHAT/COMMUNITY",
       "children": 0
     },
     {
@@ -9083,7 +9258,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/CARIBCHAT/shop",
+      "fleet_path": "TALKS/CARIBCHAT/SHOP",
       "children": 0
     },
     {
@@ -9099,7 +9274,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/DEV/shop",
+      "fleet_path": "TALKS/DEV/SHOP",
       "children": 0
     },
     {
@@ -9115,7 +9290,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/DEV/talk",
+      "fleet_path": "TALKS/DEV/TALK",
       "children": 0
     },
     {
@@ -9131,7 +9306,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/FINCHAT/shop",
+      "fleet_path": "TALKS/FINCHAT/SHOP",
       "children": 0
     },
     {
@@ -9147,7 +9322,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/LAWCHAT/shop",
+      "fleet_path": "TALKS/LAWCHAT/SHOP",
       "children": 0
     },
     {
@@ -9163,7 +9338,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/MAMMOCHAT/community",
+      "fleet_path": "TALKS/MAMMOCHAT/COMMUNITY",
       "children": 0
     },
     {
@@ -9179,7 +9354,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/MAMMOCHAT/shop",
+      "fleet_path": "TALKS/MAMMOCHAT/SHOP",
       "children": 0
     },
     {
@@ -9195,7 +9370,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/MEDCHAT/shop",
+      "fleet_path": "TALKS/MEDCHAT/SHOP",
       "children": 0
     },
     {
@@ -9211,7 +9386,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/NONA/shop",
+      "fleet_path": "TALKS/NONA/SHOP",
       "children": 0
     },
     {
@@ -9227,7 +9402,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/OMICSCHAT/shop",
+      "fleet_path": "TALKS/OMICSCHAT/SHOP",
       "children": 0
     },
     {
@@ -9243,7 +9418,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/ONCOCHAT/shop",
+      "fleet_path": "TALKS/ONCOCHAT/SHOP",
       "children": 0
     },
     {
@@ -9259,7 +9434,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/REALTY/shop",
+      "fleet_path": "TALKS/REALTY/SHOP",
       "children": 0
     },
     {
@@ -9275,7 +9450,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/RUNNER/shop",
+      "fleet_path": "TALKS/RUNNER/SHOP",
       "children": 0
     },
     {
@@ -9291,7 +9466,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/SLOANE/shop",
+      "fleet_path": "TALKS/SLOANE/SHOP",
       "children": 0
     },
     {
@@ -9307,7 +9482,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_TALK",
-      "fleet_path": "TALKS/VITAE/shop",
+      "fleet_path": "TALKS/VITAE/SHOP",
       "children": 0
     },
     {
@@ -9390,7 +9565,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "USERS/FATIMA/vitae",
+      "fleet_path": "USERS/FATIMA/VITAE",
       "children": 0
     },
     {
@@ -9719,7 +9894,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/00-preface",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/00-PREFACE",
       "children": 0
     },
     {
@@ -9735,7 +9910,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/01-signature-lines",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/01-SIGNATURE-LINES",
       "children": 0
     },
     {
@@ -9751,7 +9926,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/02-on-data",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/02-ON-DATA",
       "children": 0
     },
     {
@@ -9767,7 +9942,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/03-on-open-science",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/03-ON-OPEN-SCIENCE",
       "children": 0
     },
     {
@@ -9783,7 +9958,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/04-on-drug-repurposing",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/04-ON-DRUG-REPURPOSING",
       "children": 0
     },
     {
@@ -9799,7 +9974,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/05-on-garage-biotech",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/05-ON-GARAGE-BIOTECH",
       "children": 0
     },
     {
@@ -9815,7 +9990,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/06-on-medicine",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/06-ON-MEDICINE",
       "children": 0
     },
     {
@@ -9831,7 +10006,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/07-on-ai",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/07-ON-AI",
       "children": 0
     },
     {
@@ -9847,7 +10022,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/08-personal-stories",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/08-PERSONAL-STORIES",
       "children": 0
     },
     {
@@ -9863,7 +10038,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/09-on-mentorship",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/09-ON-MENTORSHIP",
       "children": 0
     },
     {
@@ -9879,7 +10054,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/10-the-man",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/10-THE-MAN",
       "children": 0
     },
     {
@@ -9895,7 +10070,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/11-the-numbers",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/11-THE-NUMBERS",
       "children": 0
     },
     {
@@ -9911,7 +10086,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/12-the-arc",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/12-THE-ARC",
       "children": 0
     },
     {
@@ -9927,7 +10102,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/13-the-clan",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/13-THE-CLAN",
       "children": 0
     },
     {
@@ -9943,7 +10118,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/transitions",
+      "fleet_path": "BOOKS/ATULISMS/CHAPTERS/TRANSITIONS",
       "children": 0
     },
     {
@@ -9959,7 +10134,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/00-front-matter",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/00-FRONT-MATTER",
       "children": 0
     },
     {
@@ -9975,7 +10150,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/01-the-problem",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/01-THE-PROBLEM",
       "children": 0
     },
     {
@@ -9991,7 +10166,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/02-the-insight",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/02-THE-INSIGHT",
       "children": 0
     },
     {
@@ -10007,7 +10182,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/03-the-standard",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/03-THE-STANDARD",
       "children": 0
     },
     {
@@ -10023,7 +10198,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/04-intel-what-you-know",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/04-INTEL-WHAT-YOU-KNOW",
       "children": 0
     },
     {
@@ -10039,7 +10214,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/05-chat-what-you-say",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/05-CHAT-WHAT-YOU-SAY",
       "children": 0
     },
     {
@@ -10055,7 +10230,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/06-coin-what-you-earn",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/06-COIN-WHAT-YOU-EARN",
       "children": 0
     },
     {
@@ -10071,7 +10246,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/07-the-triad",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/07-THE-TRIAD",
       "children": 0
     },
     {
@@ -10087,7 +10262,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/08-inheritance",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/08-INHERITANCE",
       "children": 0
     },
     {
@@ -10103,7 +10278,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/09-the-galaxy",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/09-THE-GALAXY",
       "children": 0
     },
     {
@@ -10119,7 +10294,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/10-certification",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/10-CERTIFICATION",
       "children": 0
     },
     {
@@ -10135,7 +10310,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/11-code-evolution-theory",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/11-CODE-EVOLUTION-THEORY",
       "children": 0
     },
     {
@@ -10151,7 +10326,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/12-the-neutral-theory",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/12-THE-NEUTRAL-THEORY",
       "children": 0
     },
     {
@@ -10167,7 +10342,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/13-evolutionary-phylogenetics",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/13-EVOLUTIONARY-PHYLOGENETICS",
       "children": 0
     },
     {
@@ -10183,7 +10358,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/14-learning-and-emergence",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/14-LEARNING-AND-EMERGENCE",
       "children": 0
     },
     {
@@ -10199,7 +10374,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/15-why-compliance-fails",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/15-WHY-COMPLIANCE-FAILS",
       "children": 0
     },
     {
@@ -10215,7 +10390,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/16-hipaa",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/16-HIPAA",
       "children": 0
     },
     {
@@ -10231,7 +10406,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/17-gdpr",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/17-GDPR",
       "children": 0
     },
     {
@@ -10247,7 +10422,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/18-sox-and-financial-compliance",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/18-SOX-AND-FINANCIAL-COMPLIANCE",
       "children": 0
     },
     {
@@ -10263,7 +10438,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/19-fda-21-cfr-part-11",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/19-FDA-21-CFR-PART-11",
       "children": 0
     },
     {
@@ -10279,7 +10454,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/20-hitrust-csf",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/20-HITRUST-CSF",
       "children": 0
     },
     {
@@ -10295,7 +10470,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/21-the-compliance-matrix",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/21-THE-COMPLIANCE-MATRIX",
       "children": 0
     },
     {
@@ -10311,7 +10486,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/22-medicine",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/22-MEDICINE",
       "children": 0
     },
     {
@@ -10327,7 +10502,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/23-law",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/23-LAW",
       "children": 0
     },
     {
@@ -10343,7 +10518,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/24-finance",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/24-FINANCE",
       "children": 0
     },
     {
@@ -10359,7 +10534,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/25-real-estate",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/25-REAL-ESTATE",
       "children": 0
     },
     {
@@ -10375,7 +10550,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/26-defense-and-security",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/26-DEFENSE-AND-SECURITY",
       "children": 0
     },
     {
@@ -10391,7 +10566,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/27-the-thirteen-sectors",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/27-THE-THIRTEEN-SECTORS",
       "children": 0
     },
     {
@@ -10407,7 +10582,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/28-coin-work",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/28-COIN-WORK",
       "children": 0
     },
     {
@@ -10423,7 +10598,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/29-gradient-minting",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/29-GRADIENT-MINTING",
       "children": 0
     },
     {
@@ -10439,7 +10614,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/30-the-shop",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/30-THE-SHOP",
       "children": 0
     },
     {
@@ -10455,7 +10630,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/31-enterprise",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/31-ENTERPRISE",
       "children": 0
     },
     {
@@ -10471,7 +10646,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/32-hadleylab-the-laboratory",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/32-HADLEYLAB-THE-LABORATORY",
       "children": 0
     },
     {
@@ -10487,7 +10662,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/33-mammochat",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/33-MAMMOCHAT",
       "children": 0
     },
     {
@@ -10503,7 +10678,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/34-oncochat",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/34-ONCOCHAT",
       "children": 0
     },
     {
@@ -10519,7 +10694,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/35-medchat",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/35-MEDCHAT",
       "children": 0
     },
     {
@@ -10535,7 +10710,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/36-lawchat",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/36-LAWCHAT",
       "children": 0
     },
     {
@@ -10551,7 +10726,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/37-finchat",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/37-FINCHAT",
       "children": 0
     },
     {
@@ -10567,7 +10742,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/38-the-chat-fleet",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/38-THE-CHAT-FLEET",
       "children": 0
     },
     {
@@ -10583,7 +10758,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/39-atulisms",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/39-ATULISMS",
       "children": 0
     },
     {
@@ -10599,7 +10774,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/40-the-molecular-clock",
+      "fleet_path": "BOOKS/CANONIC-CANON/CHAPTERS/40-THE-MOLECULAR-CLOCK",
       "children": 0
     },
     {
@@ -10615,7 +10790,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/00-front-matter",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/00-FRONT-MATTER",
       "children": 0
     },
     {
@@ -10631,7 +10806,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/01-the-axiom",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/01-THE-AXIOM",
       "children": 0
     },
     {
@@ -10647,7 +10822,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/02-the-triad",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/02-THE-TRIAD",
       "children": 0
     },
     {
@@ -10663,7 +10838,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/03-the-inheritance-chain",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/03-THE-INHERITANCE-CHAIN",
       "children": 0
     },
     {
@@ -10679,7 +10854,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/04-the-eight-dimensions",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/04-THE-EIGHT-DIMENSIONS",
       "children": 0
     },
     {
@@ -10695,7 +10870,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/05-your-first-255",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/05-YOUR-FIRST-255",
       "children": 0
     },
     {
@@ -10711,7 +10886,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/06-building-a-scope",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/06-BUILDING-A-SCOPE",
       "children": 0
     },
     {
@@ -10727,7 +10902,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/07-building-a-service",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/07-BUILDING-A-SERVICE",
       "children": 0
     },
     {
@@ -10743,7 +10918,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/08-building-a-product",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/08-BUILDING-A-PRODUCT",
       "children": 0
     },
     {
@@ -10759,7 +10934,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/09-composition-and-federation",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/09-COMPOSITION-AND-FEDERATION",
       "children": 0
     },
     {
@@ -10775,7 +10950,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/10-learning",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/10-LEARNING",
       "children": 0
     },
     {
@@ -10791,7 +10966,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/11-talk",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/11-TALK",
       "children": 0
     },
     {
@@ -10807,7 +10982,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/12-shop",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/12-SHOP",
       "children": 0
     },
     {
@@ -10823,7 +10998,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/13-ledger",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/13-LEDGER",
       "children": 0
     },
     {
@@ -10839,7 +11014,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/14-wallet",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/14-WALLET",
       "children": 0
     },
     {
@@ -10855,7 +11030,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/15-vault",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/15-VAULT",
       "children": 0
     },
     {
@@ -10871,7 +11046,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/16-api",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/16-API",
       "children": 0
     },
     {
@@ -10887,7 +11062,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/17-chain",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/17-CHAIN",
       "children": 0
     },
     {
@@ -10903,7 +11078,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/18-mint",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/18-MINT",
       "children": 0
     },
     {
@@ -10919,7 +11094,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/19-identity",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/19-IDENTITY",
       "children": 0
     },
     {
@@ -10935,7 +11110,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/20-contribute",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/20-CONTRIBUTE",
       "children": 0
     },
     {
@@ -10951,7 +11126,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/21-notifier",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/21-NOTIFIER",
       "children": 0
     },
     {
@@ -10967,7 +11142,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/22-monitoring",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/22-MONITORING",
       "children": 0
     },
     {
@@ -10983,7 +11158,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/23-deploy",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/23-DEPLOY",
       "children": 0
     },
     {
@@ -10999,7 +11174,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/24-cross-axiomatic-validation",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/24-CROSS-AXIOMATIC-VALIDATION",
       "children": 0
     },
     {
@@ -11015,7 +11190,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/25-contextual-agents",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/25-CONTEXTUAL-AGENTS",
       "children": 0
     },
     {
@@ -11031,7 +11206,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/26-the-generated-contract",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/26-THE-GENERATED-CONTRACT",
       "children": 0
     },
     {
@@ -11047,7 +11222,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/27-scope-intelligence",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/27-SCOPE-INTELLIGENCE",
       "children": 0
     },
     {
@@ -11063,7 +11238,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/28-the-naming-convention",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/28-THE-NAMING-CONVENTION",
       "children": 0
     },
     {
@@ -11079,7 +11254,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/29-design-tokens",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/29-DESIGN-TOKENS",
       "children": 0
     },
     {
@@ -11095,7 +11270,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/30-the-chat-layer",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/30-THE-CHAT-LAYER",
       "children": 0
     },
     {
@@ -11111,7 +11286,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/31-the-galaxy-visualization",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/31-THE-GALAXY-VISUALIZATION",
       "children": 0
     },
     {
@@ -11127,7 +11302,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/32-coin-and-the-wallet",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/32-COIN-AND-THE-WALLET",
       "children": 0
     },
     {
@@ -11143,7 +11318,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/33-gradient-minting",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/33-GRADIENT-MINTING",
       "children": 0
     },
     {
@@ -11159,7 +11334,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/34-the-shop",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/34-THE-SHOP",
       "children": 0
     },
     {
@@ -11175,7 +11350,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/35-costbasis-and-pricing",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/35-COSTBASIS-AND-PRICING",
       "children": 0
     },
     {
@@ -11191,7 +11366,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/36-governance-as-type-system",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/36-GOVERNANCE-AS-TYPE-SYSTEM",
       "children": 0
     },
     {
@@ -11207,7 +11382,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/37-governance-as-compiler",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/37-GOVERNANCE-AS-COMPILER",
       "children": 0
     },
     {
@@ -11223,7 +11398,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/38-governance-as-version-control",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/38-GOVERNANCE-AS-VERSION-CONTROL",
       "children": 0
     },
     {
@@ -11239,7 +11414,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/39-the-learning-closure",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/39-THE-LEARNING-CLOSURE",
       "children": 0
     },
     {
@@ -11255,7 +11430,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/40-why-every-language-needed-governance",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/40-WHY-EVERY-LANGUAGE-NEEDED-GOVERNANCE",
       "children": 0
     },
     {
@@ -11271,7 +11446,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/41-overview",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/41-OVERVIEW",
       "children": 0
     },
     {
@@ -11287,7 +11462,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/42-magic",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/42-MAGIC",
       "children": 0
     },
     {
@@ -11303,7 +11478,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/43-magic-heal",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/43-MAGIC-HEAL",
       "children": 0
     },
     {
@@ -11319,7 +11494,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/44-build",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/44-BUILD",
       "children": 0
     },
     {
@@ -11335,7 +11510,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/45-validation-errors-and-healing",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/45-VALIDATION-ERRORS-AND-HEALING",
       "children": 0
     },
     {
@@ -11351,7 +11526,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/46-the-build-pipeline",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/46-THE-BUILD-PIPELINE",
       "children": 0
     },
     {
@@ -11367,7 +11542,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/47-advanced-tools",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/47-ADVANCED-TOOLS",
       "children": 0
     },
     {
@@ -11383,7 +11558,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/48-the-closure-canonic-against-all-of-programming",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/48-THE-CLOSURE-CANONIC-AGAINST-ALL-OF-PROGRAMMING",
       "children": 0
     },
     {
@@ -11399,7 +11574,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/49-back-matter",
+      "fleet_path": "BOOKS/CANONIC-DOCTRINE/CHAPTERS/49-BACK-MATTER",
       "children": 0
     },
     {
@@ -11415,7 +11590,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS/00-preface",
+      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS/00-PREFACE",
       "children": 0
     },
     {
@@ -11431,7 +11606,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS/01-the-physicist",
+      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS/01-THE-PHYSICIST",
       "children": 0
     },
     {
@@ -11447,7 +11622,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS/02-the-departure",
+      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS/02-THE-DEPARTURE",
       "children": 0
     },
     {
@@ -11463,7 +11638,7 @@
       "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_BOOK",
-      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS/03-the-red-lines",
+      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS/03-THE-RED-LINES",
       "children": 0
     },
     {
@@ -11483,12 +11658,12 @@
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E01-PROLOGUE",
+      "id": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES/E01-PROLOGUE",
       "kind": "SCOPE",
       "label": "E01-PROLOGUE",
       "repo": "hadleylab-canonic",
-      "path": "SCREENS/DIVIDENDS/EPISODES/E01-PROLOGUE",
-      "parent": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES",
+      "path": "STORIES/DIVIDENDS/EPISODES/E01-PROLOGUE",
+      "parent": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES",
       "category": "ORG",
       "color": "#64748b",
       "bits": 247,
@@ -11500,16 +11675,16 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/DIVIDENDS/EPISODES/E01-PROLOGUE",
+      "fleet_path": "STORIES/DIVIDENDS/EPISODES/E01-PROLOGUE",
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E02-THE-ECONOMY-WE-INHERITED",
+      "id": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES/E02-THE-ECONOMY-WE-INHERITED",
       "kind": "SCOPE",
       "label": "E02-THE-ECONOMY-WE-INHERITED",
       "repo": "hadleylab-canonic",
-      "path": "SCREENS/DIVIDENDS/EPISODES/E02-THE-ECONOMY-WE-INHERITED",
-      "parent": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES",
+      "path": "STORIES/DIVIDENDS/EPISODES/E02-THE-ECONOMY-WE-INHERITED",
+      "parent": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES",
       "category": "ORG",
       "color": "#64748b",
       "bits": 247,
@@ -11521,16 +11696,16 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/DIVIDENDS/EPISODES/E02-THE-ECONOMY-WE-INHERITED",
+      "fleet_path": "STORIES/DIVIDENDS/EPISODES/E02-THE-ECONOMY-WE-INHERITED",
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E03-EXTRACTION",
+      "id": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES/E03-EXTRACTION",
       "kind": "SCOPE",
       "label": "E03-EXTRACTION",
       "repo": "hadleylab-canonic",
-      "path": "SCREENS/DIVIDENDS/EPISODES/E03-EXTRACTION",
-      "parent": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES",
+      "path": "STORIES/DIVIDENDS/EPISODES/E03-EXTRACTION",
+      "parent": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES",
       "category": "ORG",
       "color": "#64748b",
       "bits": 247,
@@ -11542,16 +11717,16 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/DIVIDENDS/EPISODES/E03-EXTRACTION",
+      "fleet_path": "STORIES/DIVIDENDS/EPISODES/E03-EXTRACTION",
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E04-CIRCULAR-ECONOMY",
+      "id": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES/E04-CIRCULAR-ECONOMY",
       "kind": "SCOPE",
       "label": "E04-CIRCULAR-ECONOMY",
       "repo": "hadleylab-canonic",
-      "path": "SCREENS/DIVIDENDS/EPISODES/E04-CIRCULAR-ECONOMY",
-      "parent": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES",
+      "path": "STORIES/DIVIDENDS/EPISODES/E04-CIRCULAR-ECONOMY",
+      "parent": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES",
       "category": "ORG",
       "color": "#64748b",
       "bits": 247,
@@ -11563,16 +11738,16 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/DIVIDENDS/EPISODES/E04-CIRCULAR-ECONOMY",
+      "fleet_path": "STORIES/DIVIDENDS/EPISODES/E04-CIRCULAR-ECONOMY",
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E05-THE-LOOP",
+      "id": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES/E05-THE-LOOP",
       "kind": "SCOPE",
       "label": "E05-THE-LOOP",
       "repo": "hadleylab-canonic",
-      "path": "SCREENS/DIVIDENDS/EPISODES/E05-THE-LOOP",
-      "parent": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES",
+      "path": "STORIES/DIVIDENDS/EPISODES/E05-THE-LOOP",
+      "parent": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES",
       "category": "ORG",
       "color": "#64748b",
       "bits": 247,
@@ -11584,16 +11759,16 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/DIVIDENDS/EPISODES/E05-THE-LOOP",
+      "fleet_path": "STORIES/DIVIDENDS/EPISODES/E05-THE-LOOP",
       "children": 0
     },
     {
-      "id": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E06-CUSTODY-RETURNED",
+      "id": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES/E06-CUSTODY-RETURNED",
       "kind": "SCOPE",
       "label": "E06-CUSTODY-RETURNED",
       "repo": "hadleylab-canonic",
-      "path": "SCREENS/DIVIDENDS/EPISODES/E06-CUSTODY-RETURNED",
-      "parent": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES",
+      "path": "STORIES/DIVIDENDS/EPISODES/E06-CUSTODY-RETURNED",
+      "parent": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES",
       "category": "ORG",
       "color": "#64748b",
       "bits": 247,
@@ -11605,7 +11780,7 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "SCREENS/DIVIDENDS/EPISODES/E06-CUSTODY-RETURNED",
+      "fleet_path": "STORIES/DIVIDENDS/EPISODES/E06-CUSTODY-RETURNED",
       "children": 0
     },
     {
@@ -12242,8 +12417,23 @@
     },
     {
       "kind": "INHERITS",
-      "from": "hadleylab-canonic/SCREENS",
-      "to": "hadleylab-canonic/SERVICES/SCREEN"
+      "from": "hadleylab-canonic/PATENTS/PROV-010",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS/PROV-011",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS/PROV-012",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS/PROV-013",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
     },
     {
       "kind": "INHERITS",
@@ -12254,6 +12444,11 @@
       "kind": "INHERITS",
       "from": "hadleylab-canonic/SERVICES/LEARNING",
       "to": "canonic-canonic/MAGIC/SERVICES/LEARNING"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/STORIES",
+      "to": "hadleylab-canonic/SERVICES/STORY"
     },
     {
       "kind": "INHERITS",
@@ -13037,103 +13232,28 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "from": "hadleylab-canonic/PATENTS/PROV-010",
       "to": "hadleylab-canonic/PATENTS"
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS",
-      "to": "hadleylab-canonic"
+      "from": "hadleylab-canonic/PATENTS/PROV-011",
+      "to": "hadleylab-canonic/PATENTS"
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/DIVIDENDS",
-      "to": "hadleylab-canonic/SCREENS"
+      "from": "hadleylab-canonic/PATENTS/PROV-012",
+      "to": "hadleylab-canonic/PATENTS"
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/DIVIDENDS/CHARACTERS",
-      "to": "hadleylab-canonic/SCREENS/DIVIDENDS"
+      "from": "hadleylab-canonic/PATENTS/PROV-013",
+      "to": "hadleylab-canonic/PATENTS"
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES",
-      "to": "hadleylab-canonic/SCREENS/DIVIDENDS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E01-PROLOGUE",
-      "to": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E02-THE-ECONOMY-WE-INHERITED",
-      "to": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E03-EXTRACTION",
-      "to": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E04-CIRCULAR-ECONOMY",
-      "to": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E05-THE-LOOP",
-      "to": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES/E06-CUSTODY-RETURNED",
-      "to": "hadleylab-canonic/SCREENS/DIVIDENDS/EPISODES"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS",
-      "to": "hadleylab-canonic/SCREENS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/CHARACTERS",
-      "to": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/SCENES",
-      "to": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD",
-      "to": "hadleylab-canonic/SCREENS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/CHARACTERS",
-      "to": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/SCENES",
-      "to": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/ON-HAND",
-      "to": "hadleylab-canonic/SCREENS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/ON-HAND/CHARACTERS",
-      "to": "hadleylab-canonic/SCREENS/ON-HAND"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/ON-HAND/SCENES",
-      "to": "hadleylab-canonic/SCREENS/ON-HAND"
+      "from": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "to": "hadleylab-canonic/PATENTS"
     },
     {
       "kind": "PARENT",
@@ -13342,11 +13462,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/SERVICES/SCREEN",
-      "to": "hadleylab-canonic/SERVICES"
-    },
-    {
-      "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/SEED",
       "to": "hadleylab-canonic/SERVICES"
     },
@@ -13363,6 +13478,11 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/STAR",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/STORY",
       "to": "hadleylab-canonic/SERVICES"
     },
     {
@@ -13414,6 +13534,101 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/VITAE",
       "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES",
+      "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/DIVIDENDS",
+      "to": "hadleylab-canonic/STORIES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/DIVIDENDS/CHARACTERS",
+      "to": "hadleylab-canonic/STORIES/DIVIDENDS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES",
+      "to": "hadleylab-canonic/STORIES/DIVIDENDS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES/E01-PROLOGUE",
+      "to": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES/E02-THE-ECONOMY-WE-INHERITED",
+      "to": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES/E03-EXTRACTION",
+      "to": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES/E04-CIRCULAR-ECONOMY",
+      "to": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES/E05-THE-LOOP",
+      "to": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES/E06-CUSTODY-RETURNED",
+      "to": "hadleylab-canonic/STORIES/DIVIDENDS/EPISODES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS",
+      "to": "hadleylab-canonic/STORIES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS/CHARACTERS",
+      "to": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS/SCENES",
+      "to": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD",
+      "to": "hadleylab-canonic/STORIES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD/CHARACTERS",
+      "to": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD/SCENES",
+      "to": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/ON-HAND",
+      "to": "hadleylab-canonic/STORIES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/ON-HAND/CHARACTERS",
+      "to": "hadleylab-canonic/STORIES/ON-HAND"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/ON-HAND/SCENES",
+      "to": "hadleylab-canonic/STORIES/ON-HAND"
     },
     {
       "kind": "PARENT",
@@ -14018,6 +14233,11 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/BLOGS/2026-04-03-constitutional-ai-vs-canonic",
+      "to": "hadleylab-canonic/BLOGS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BLOGS/2026-04-07-the-fixed-point",
       "to": "hadleylab-canonic/BLOGS"
     },
     {
@@ -14812,6 +15032,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/CAMPAIGNS/THE-FIXED-POINT-2026",
+      "to": "hadleylab-canonic/CAMPAIGNS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/CAMPAIGNS/LINKEDIN/CALENDAR",
       "to": "hadleylab-canonic/CAMPAIGNS/LINKEDIN"
     },
@@ -15227,7 +15452,17 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009-FULL",
+      "to": "hadleylab-canonic/PATENTS/DUE-DILIGENCE"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009",
+      "to": "hadleylab-canonic/PATENTS/DUE-DILIGENCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-010-013",
       "to": "hadleylab-canonic/PATENTS/DUE-DILIGENCE"
     },
     {
@@ -15238,6 +15473,11 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/SECTION-101-PROV-007-009",
+      "to": "hadleylab-canonic/PATENTS/DUE-DILIGENCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/SECTION-101-PROV-010-013",
       "to": "hadleylab-canonic/PATENTS/DUE-DILIGENCE"
     },
     {
@@ -15314,116 +15554,6 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-013",
       "to": "hadleylab-canonic/PATENTS/PROVISIONALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/SHOP",
-      "to": "hadleylab-canonic/SCREENS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/DIVIDENDS/ARC",
-      "to": "hadleylab-canonic/SCREENS/DIVIDENDS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/DIVIDENDS/BIBLE",
-      "to": "hadleylab-canonic/SCREENS/DIVIDENDS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/DIVIDENDS/COMPILE",
-      "to": "hadleylab-canonic/SCREENS/DIVIDENDS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/DIVIDENDS/SOURCES",
-      "to": "hadleylab-canonic/SCREENS/DIVIDENDS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/DIVIDENDS/SPINE",
-      "to": "hadleylab-canonic/SCREENS/DIVIDENDS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/DIVIDENDS/TREATMENT",
-      "to": "hadleylab-canonic/SCREENS/DIVIDENDS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/ARC",
-      "to": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/COMPILE",
-      "to": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/SOURCES",
-      "to": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/SPINE",
-      "to": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS/TREATMENT",
-      "to": "hadleylab-canonic/SCREENS/MASTER-OF-DREAMS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/ARC",
-      "to": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/COMPILE",
-      "to": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/SOURCES",
-      "to": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/SPINE",
-      "to": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD/TREATMENT",
-      "to": "hadleylab-canonic/SCREENS/NO-FAMILY-WITHOUT-BLOOD"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/ON-HAND/ARC",
-      "to": "hadleylab-canonic/SCREENS/ON-HAND"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/ON-HAND/COMPILE",
-      "to": "hadleylab-canonic/SCREENS/ON-HAND"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/ON-HAND/SOURCES",
-      "to": "hadleylab-canonic/SCREENS/ON-HAND"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/ON-HAND/SPINE",
-      "to": "hadleylab-canonic/SCREENS/ON-HAND"
-    },
-    {
-      "kind": "PARENT",
-      "from": "hadleylab-canonic/SCREENS/ON-HAND/TREATMENT",
-      "to": "hadleylab-canonic/SCREENS/ON-HAND"
     },
     {
       "kind": "PARENT",
@@ -15854,6 +15984,116 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/USPTO/PREFLIGHT",
       "to": "hadleylab-canonic/SERVICES/USPTO"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/SHOP",
+      "to": "hadleylab-canonic/STORIES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/DIVIDENDS/ARC",
+      "to": "hadleylab-canonic/STORIES/DIVIDENDS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/DIVIDENDS/BIBLE",
+      "to": "hadleylab-canonic/STORIES/DIVIDENDS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/DIVIDENDS/COMPILE",
+      "to": "hadleylab-canonic/STORIES/DIVIDENDS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/DIVIDENDS/SOURCES",
+      "to": "hadleylab-canonic/STORIES/DIVIDENDS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/DIVIDENDS/SPINE",
+      "to": "hadleylab-canonic/STORIES/DIVIDENDS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/DIVIDENDS/TREATMENT",
+      "to": "hadleylab-canonic/STORIES/DIVIDENDS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS/ARC",
+      "to": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS/COMPILE",
+      "to": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS/SOURCES",
+      "to": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS/SPINE",
+      "to": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS/TREATMENT",
+      "to": "hadleylab-canonic/STORIES/MASTER-OF-DREAMS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD/ARC",
+      "to": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD/COMPILE",
+      "to": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD/SOURCES",
+      "to": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD/SPINE",
+      "to": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD/TREATMENT",
+      "to": "hadleylab-canonic/STORIES/NO-FAMILY-WITHOUT-BLOOD"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/ON-HAND/ARC",
+      "to": "hadleylab-canonic/STORIES/ON-HAND"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/ON-HAND/COMPILE",
+      "to": "hadleylab-canonic/STORIES/ON-HAND"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/ON-HAND/SOURCES",
+      "to": "hadleylab-canonic/STORIES/ON-HAND"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/ON-HAND/SPINE",
+      "to": "hadleylab-canonic/STORIES/ON-HAND"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/STORIES/ON-HAND/TREATMENT",
+      "to": "hadleylab-canonic/STORIES/ON-HAND"
     },
     {
       "kind": "PARENT",
