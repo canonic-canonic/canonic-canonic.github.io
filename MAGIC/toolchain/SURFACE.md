@@ -16,6 +16,12 @@ compiler: surface
 
 Compiler: Jekyll (remote_theme: canonic-canonic/DESIGN)
 
+```
+MUST:     _data/{scope}.json keyed by page scope (index.md frontmatter scope:), not directory name
+MUST:     VIEW-GOV resolves site.data[page.scope].canon — data filename must match
+MUST NOT: Assume directory name equals page scope (GOV index.md scope: is authoritative)
+```
+
 ---
 
 ## Types
