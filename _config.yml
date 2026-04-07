@@ -22,12 +22,20 @@ reddit_pixel_id: "a2_ilt7lbzhyelg"
 
 exclude:
   # MAGIC governance filenames (auto-generated from DIMS)
+  - ARC.md
+  - BIBLE.md
   - CANON.md
+  - COMPILE.md
+  - CORRESPONDENCE.md
   - COVERAGE.md
   - INTEL.md
   - LEARNING.md
   - README.md
   - ROADMAP.md
+  - SHOP.md
+  - SOURCES.md
+  - SPINE.md
+  - TREATMENT.md
   - VOCAB.md
   # Private directories (governance internals, not for indexing)
   - CAMPAIGNS/
@@ -42,4 +50,5 @@ exclude:
   - irbs/
   - plugins/
   - timeline/
+
 
