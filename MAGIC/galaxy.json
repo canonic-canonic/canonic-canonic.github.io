@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "d0fb6a51dfb44aff"
+    "gov_hash": "6526e9be29848ed1"
   },
-  "generated": "2026-04-07T22:19:36Z",
+  "generated": "2026-04-08T01:20:17Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -74,18 +74,18 @@
     ]
   },
   "stats": {
-    "total": 1025,
+    "total": 1029,
     "avg_bits": 253,
-    "below_magic": 68,
-    "intel_coverage": 127,
+    "below_magic": 69,
+    "intel_coverage": 129,
     "total_coin": 149567,
     "total_events": 706,
-    "total_sessions": 290,
+    "total_sessions": 292,
     "active_channels": 6,
     "user_count": 31,
     "org_count": 5,
     "svc_count": 50,
-    "scope_count": 351,
+    "scope_count": 353,
     "fleet_health_pct": 99
   },
   "nodes": [
@@ -1520,7 +1520,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Implement primary source verification for core credentials (medical license, DEA, NPI, board certifi",
+      "roadmap_now": "Implement primary source verification for core credentials (medical license, DEA, NPI, board certification)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/MEDICINE/credentialing",
@@ -1543,7 +1543,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Implement mCODE profile conformance for core oncology data elements (CancerPatient, PrimaryCancerCon",
+      "roadmap_now": "Implement mCODE profile conformance for core oncology data elements (CancerPatient, PrimaryCancerCondition, TNMStageGroup)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/MEDICINE/oncology",
@@ -1589,7 +1589,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Enforce DSM-5/ICD-11 diagnostic validity: symptom inventory, duration criteria, functional impairmen",
+      "roadmap_now": "Enforce DSM-5/ICD-11 diagnostic validity: symptom inventory, duration criteria, functional impairment",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/MEDICINE/psychiatry",
@@ -2171,7 +2171,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Define tier thresholds and required surface artifacts: cumulative governance gates enforced via `mag",
+      "roadmap_now": "Define tier thresholds and required surface artifacts: cumulative governance gates enforced via `magic validate`",
       "learning_count": 5,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -2540,7 +2540,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Define three semantic validation rules: VOCABULARY CLOSURE, INHERITANCE INTEGRITY, COVERAGE ALIGNMEN",
+      "roadmap_now": "Define three semantic validation rules: VOCABULARY CLOSURE, INHERITANCE INTEGRITY, COVERAGE ALIGNMENT",
       "learning_count": 5,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -2676,7 +2676,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "[ ] Full-width card grid: CSS grid, auto-fill minmax(200px, 1fr), glass cards with icon + label + ti",
+      "roadmap_now": "[ ] Full-width card grid: CSS grid, auto-fill minmax(200px, 1fr), glass cards with icon + label + tier ring + children count + COIN",
       "learning_count": 4,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/GALAXY/FINDER",
@@ -2869,7 +2869,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "[ ] Wire TALK toggle: search dock switches between search mode and conversation mode, carries curren",
+      "roadmap_now": "[ ] Wire TALK toggle: search dock switches between search mode and conversation mode, carries current scope context",
       "learning_count": 3,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/GALAXY/PRIMITIVES",
@@ -3153,7 +3153,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Enforce governed boundary isolation across all service scopes (no cross-scope state leakage between ",
+      "roadmap_now": "Enforce governed boundary isolation across all service scopes (no cross-scope state leakage between INTEL, CHAT, COIN, LEDGER)",
       "learning_count": 5,
       "coverage_score": 255,
       "surface_type": "JEKYLL_ECON",
@@ -4087,7 +4087,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR ROUTES. EVERY DELIVERY EVIDENCED. EVERY INBOX GOVERNED.**",
-      "roadmap_now": "Ship NOTIFIER as NOTIFY + INTEL composed: every delivery wires sender scope, receiver scope, and con",
+      "roadmap_now": "Ship NOTIFIER as NOTIFY + INTEL composed: every delivery wires sender scope, receiver scope, and content",
       "learning_count": 5,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -4413,7 +4413,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Ship TALK as CHAT + INTEL composed: every TALK response wires `intel_refs` and shows governed discla",
+      "roadmap_now": "Ship TALK as CHAT + INTEL composed: every TALK response wires `intel_refs` and shows governed disclaimer",
       "learning_count": 7,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -4794,7 +4794,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**INTEL \u2014 what you KNOW. The orchestrator. Every service wires INTEL.**",
-      "roadmap_now": "Ship deterministic build/sync/deploy pipeline: GOV tree is the single source of truth, runtime proje",
+      "roadmap_now": "Ship deterministic build/sync/deploy pipeline: GOV tree is the single source of truth, runtime projects only",
       "learning_count": 13,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -5089,7 +5089,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Complete JEKYLL theme compilation: 8 layouts, 20 section includes, 15 figure includes, 18 Sass parti",
+      "roadmap_now": "Complete JEKYLL theme compilation: 8 layouts, 20 section includes, 15 figure includes, 18 Sass partials ship as `remote_theme`",
       "learning_count": 10,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -5467,7 +5467,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Define INIT pipeline governance: 7-phase bootstrap contract (RESOLVE, SCAFFOLD, PROMOTE, VALIDATE, G",
+      "roadmap_now": "Define INIT pipeline governance: 7-phase bootstrap contract (RESOLVE, SCAFFOLD, PROMOTE, VALIDATE, GALAXY, BUILD, CONSOLIDATION)",
       "learning_count": 4,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -5746,7 +5746,7 @@
       "privacy": "PUBLIC",
       "has_intel": true,
       "intel_summary": "**KNOW YOUR MEMORIAL. EVERY WORD SOURCED. EVERY CONTRIBUTION GOVERNED.**",
-      "roadmap_now": "[ ] Expand all 13 chapters to \u2265 3,000 words per BOOK service contract (currently 100-1,900 words eac",
+      "roadmap_now": "[ ] Expand all 13 chapters to \u2265 3,000 words per BOOK service contract (currently 100-1,900 words each)",
       "learning_count": 2,
       "coverage_score": 255,
       "surface_type": "JEKYLL_BOOK",
@@ -6245,7 +6245,7 @@
       "has_intel": false,
       "next_tier": "FULL",
       "next_tier_gap": 8,
-      "roadmap_now": "[ ] Execute first HN engagement response (lawyer-who-won, 23 comments, draft at HACKERNEWS/RESPONSES",
+      "roadmap_now": "[ ] Execute first HN engagement response (lawyer-who-won, 23 comments, draft at HACKERNEWS/RESPONSES/)",
       "learning_count": 17,
       "coverage_open_gates": [
         "SUBSTACK_SETUP"
@@ -6283,7 +6283,7 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR TECHNICAL AUDIENCE. EVERY SUBMISSION FACTUAL. EVERY TITLE HONEST.**",
-      "roadmap_now": "[ ] Set up HN comment monitoring \u2014 RSS feed, Firebase API polling, or hnreplies.com for reply notifi",
+      "roadmap_now": "[ ] Set up HN comment monitoring \u2014 RSS feed, Firebase API polling, or hnreplies.com for reply notifications",
       "learning_count": 1,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/HACKERNEWS",
@@ -6438,7 +6438,7 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR COMMUNITIES. EVERY POST PLATFORM-NATIVE. EVERY DISCUSSION SUBSTANTIVE.**",
-      "roadmap_now": "[ ] Apply for Reddit API access via Responsible Builder Policy approval form (self-service OAuth clo",
+      "roadmap_now": "[ ] Apply for Reddit API access via Responsible Builder Policy approval form (self-service OAuth closed ~Oct 2025, admin approval required, no SLA on turnaround)",
       "learning_count": 10,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/REDDIT",
@@ -8071,8 +8071,8 @@
       "children": 7,
       "wallet": null,
       "talk": {
-        "sessions": 174,
-        "last_session": "2026-04-06",
+        "sessions": 176,
+        "last_session": "2026-04-08",
         "channels": [
           "CARIBCHAT"
         ]
@@ -8691,7 +8691,8 @@
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
-      "has_intel": false,
+      "has_intel": true,
+      "intel_summary": "**CLINICAL governs clinical data across all health services. HIPAA-compliant access controls. IRB-governed research prot",
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/CLINICAL",
@@ -8896,7 +8897,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR DESIGN SURFACE. EVERY TOKEN TRACED. EVERY VISUAL GOVERNED.**",
-      "roadmap_now": "[ ] CANON.md \u2014 create proper CANON.md with axiom/inherits header (MAGIC 255 closure, DESIGN.md exist",
+      "roadmap_now": "[ ] CANON.md \u2014 create proper CANON.md with axiom/inherits header (MAGIC 255 closure, DESIGN.md exists but is not CANON.md)",
       "learning_count": 9,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
@@ -9504,7 +9505,7 @@
       "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR SOUND. EVERY TRACK GOVERNED. EVERY SOURCE TRACED. EVERY ARTIST RESPECTED.**",
       "roadmap_now": "[ ] Run beets metadata cleanup on full library",
-      "learning_count": 9,
+      "learning_count": 10,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/MUSIC",
       "children": 0,
@@ -9513,9 +9514,9 @@
       "learning": [
         {
           "date": "2026-04-07",
-          "signal": "AMPERFY_OVER_PLAYSUB",
-          "pattern": "Amperfy (iOS, free, open source) matches play:Sub ($5) on every feature: offline cache, CarPlay, gapless playback, Subso",
-          "source": "App evaluation"
+          "signal": "PROJECT_INTEL",
+          "pattern": "project_music_service: MUSIC service \u2014 self-hosted music stack (Navidrome + slskd + yt-dlp), Trinidad reggae collection,",
+          "source": "intake:project_music_service.md"
         }
       ],
       "score": 123
@@ -9879,7 +9880,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR PUBLIC SURFACE. EVERY PROJECTION VALIDATED. NOTHING PRIVATE LEAKS.**",
-      "roadmap_now": "Compile DEXTER public projection aggregate \u2014 discover all SERVICES/**/SHOP.md files across governanc",
+      "roadmap_now": "Compile DEXTER public projection aggregate \u2014 discover all SERVICES/**/SHOP.md files across governance tree",
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/SHOP",
@@ -9990,8 +9991,8 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 290,
-        "last_session": "2026-04-07",
+        "sessions": 292,
+        "last_session": "2026-04-08",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -10961,11 +10962,11 @@
       "principal": true,
       "has_intel": true,
       "intel_summary": "| Claim | Source |",
-      "roadmap_now": "Validate CANON.md coverage for all channel scopes \u2014 MAMMOCHAT, ONCOCHAT, MEDCHAT, LAWCHAT, FINCHAT, ",
+      "roadmap_now": "Validate CANON.md coverage for all channel scopes \u2014 MAMMOCHAT, ONCOCHAT, MEDCHAT, LAWCHAT, FINCHAT, BLANDFORD, BRYANSTON, SLOANE",
       "learning_count": 5,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "TALKS",
-      "children": 17,
+      "children": 18,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -11017,7 +11018,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 210,
+      "learning_count": 212,
       "coverage_score": 255,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/CARIBCHAT",
@@ -11028,25 +11029,13 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 174,
-        "last_session": "2026-04-06",
+        "sessions": 176,
+        "last_session": "2026-04-08",
         "channels": [
           "CARIBCHAT"
         ]
       },
       "learning": [
-        {
-          "date": "2026-04-06",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Stage III colorectal cancer in Grenada where to refer for radiotherapy",
-          "source": "c98b6e76-2d30-4850-9ed8-d14cd7bd46b3"
-        },
-        {
-          "date": "2026-04-06",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Essential medicines list for oncology in CARICOM countries",
-          "source": "api.canonic.org/talk"
-        },
         {
           "date": "2026-04-06",
           "signal": "SESSION_LEDGERED",
@@ -11094,6 +11083,18 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "where in chaguanus can I get a mammo",
           "source": "c52fe249-5ce2-4714-b6b1-deba31b82262"
+        },
+        {
+          "date": "2026-04-08",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Is there anywhere to get financial assistance for pathology in trinidad",
+          "source": "a267bcd1-e560-4591-8a2c-2d07f6fa57f0"
+        },
+        {
+          "date": "2026-04-08",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "The block has to be shipped abroad",
+          "source": "60d8728f-9ba3-4cb4-b470-4707d17c14de"
         }
       ],
       "score": 128
@@ -11558,6 +11559,69 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "Screening and diagnostic test for stomach cancer",
           "source": "api.canonic.org/talk"
+        }
+      ],
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/TALKS/MUSIC",
+      "kind": "SCOPE",
+      "label": "MUSIC",
+      "repo": "hadleylab-canonic",
+      "path": "TALKS/MUSIC",
+      "parent": "hadleylab-canonic/TALKS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR SOUND. EVERY ARTIST SOURCED. EVERY RIDDIM TRACED. EVERY SESSION GOVERNED.**",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "coverage_open_gates": [
+        "CHAT",
+        "A11Y",
+        "HTTP"
+      ],
+      "surface_type": "JEKYLL_TALK",
+      "fleet_path": "TALKS/MUSIC",
+      "cross_intel": [
+        "CARIBCHAT"
+      ],
+      "children": 2,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-04-07",
+          "signal": "Trinidad reggae \u2260 Jamaican reggae \u2014 local sound, not imitation Kingston",
+          "pattern": "MUSIC CANON Collection Profile",
+          "source": ""
+        },
+        {
+          "date": "2026-04-07",
+          "signal": "Soca crossover OK, pure soca is not reggae \u2014 genre boundary matters",
+          "pattern": "MUSIC CANON Classification Rules",
+          "source": ""
+        },
+        {
+          "date": "2026-04-07",
+          "signal": "Community knowledge is primary evidence alongside databases \u2014 local scene not fully indexed",
+          "pattern": "MUSIC service operational experience",
+          "source": ""
+        },
+        {
+          "date": "2026-04-07",
+          "signal": "Database coverage of Trinidad reggae is sparse \u2014 MusicBrainz/Discogs underrepresent the scene. Community sessions are the primary knowledge source.",
+          "pattern": "MUSIC INTEL gap analysis",
+          "source": ""
+        },
+        {
+          "date": "2026-04-07",
+          "signal": "Genre classification is cultural, not algorithmic \u2014 a Trini selector knows the sound better than any tag",
+          "pattern": "MUSIC CANON Collection Profile",
+          "source": ""
         }
       ],
       "score": 128
@@ -12397,7 +12461,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Stabilize Healthcare AI learning corpus \u2014 evidence-linked discoveries for ATOM Advantage 98.5% accur",
+      "roadmap_now": "Stabilize Healthcare AI learning corpus \u2014 evidence-linked discoveries for ATOM Advantage 98.5% accuracy baseline",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/AVINASH/SERVICES/LEARNING",
@@ -12686,7 +12750,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Stabilize IP governance learning corpus \u2014 Madrid Protocol filing patterns, IHI Call 12 consortium ev",
+      "roadmap_now": "Stabilize IP governance learning corpus \u2014 Madrid Protocol filing patterns, IHI Call 12 consortium evidence",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/FATIMA/SERVICES/LEARNING",
@@ -13412,7 +13476,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Stabilize Real Estate LEARNING corpus \u2014 evidence-linked property discoveries traced to county record",
+      "roadmap_now": "Stabilize Real Estate LEARNING corpus \u2014 evidence-linked property discoveries traced to county records",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/JP/SERVICES/LEARNING",
@@ -13868,7 +13932,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Stabilize Apple surfaces LEARNING corpus \u2014 evidence-linked discoveries for Passkey integration patte",
+      "roadmap_now": "Stabilize Apple surfaces LEARNING corpus \u2014 evidence-linked discoveries for Passkey integration patterns",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/YANA/SERVICES/LEARNING",
@@ -14303,8 +14367,8 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 290,
-        "last_session": "2026-04-07",
+        "sessions": 292,
+        "last_session": "2026-04-08",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -14336,8 +14400,8 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 290,
-        "last_session": "2026-04-07",
+        "sessions": 292,
+        "last_session": "2026-04-08",
         "channels": [
           "CARIBCHAT",
           "MAMMOCHAT",
@@ -15764,7 +15828,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Implement primary source verification for core credentials (medical license, DEA, NPI, board certifi",
+      "roadmap_now": "Implement primary source verification for core credentials (medical license, DEA, NPI, board certification)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/credentialing",
@@ -15787,7 +15851,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Implement mCODE profile conformance for core oncology data elements (CancerPatient, PrimaryCancerCon",
+      "roadmap_now": "Implement mCODE profile conformance for core oncology data elements (CancerPatient, PrimaryCancerCondition, TNMStageGroup)",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology",
@@ -15833,7 +15897,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Enforce DSM-5/ICD-11 diagnostic validity: symptom inventory, duration criteria, functional impairmen",
+      "roadmap_now": "Enforce DSM-5/ICD-11 diagnostic validity: symptom inventory, duration criteria, functional impairment",
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/psychiatry",
@@ -16415,12 +16479,12 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Define tier thresholds and required surface artifacts: cumulative governance gates enforced via `mag",
+      "roadmap_now": "Define tier thresholds and required surface artifacts: cumulative governance gates enforced via `magic validate`",
       "learning_count": 5,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "canonic-canonic/MAGIC/COMPLIANCE",
-      "children": 8,
+      "children": 9,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -16597,6 +16661,41 @@
       "score": 128
     },
     {
+      "id": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/PRIVACY",
+      "kind": "SCOPE",
+      "label": "PRIVACY",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/MAGIC/COMPLIANCE/PRIVACY",
+      "parent": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "roadmap_now": "[ ] canonic.org/privacy/ \u2014 published surface",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/MAGIC/COMPLIANCE/PRIVACY",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-04-01",
+          "signal": "PRIVACY_GAP",
+          "pattern": "No privacy policy existed across any CANONIC domain. LinkedIn Developer App registration required a privacy URL, exposin",
+          "source": "LinkedIn app registration session"
+        }
+      ],
+      "score": 123
+    },
+    {
       "id": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/PROTECTION",
       "kind": "SCOPE",
       "label": "PROTECTION",
@@ -16749,7 +16848,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Define three semantic validation rules: VOCABULARY CLOSURE, INHERITANCE INTEGRITY, COVERAGE ALIGNMEN",
+      "roadmap_now": "Define three semantic validation rules: VOCABULARY CLOSURE, INHERITANCE INTEGRITY, COVERAGE ALIGNMENT",
       "learning_count": 5,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -16885,7 +16984,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "[ ] Full-width card grid: CSS grid, auto-fill minmax(200px, 1fr), glass cards with icon + label + ti",
+      "roadmap_now": "[ ] Full-width card grid: CSS grid, auto-fill minmax(200px, 1fr), glass cards with icon + label + tier ring + children count + COIN",
       "learning_count": 4,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "canonic-canonic/MAGIC/GALAXY/FINDER",
@@ -17078,7 +17177,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "[ ] Wire TALK toggle: search dock switches between search mode and conversation mode, carries curren",
+      "roadmap_now": "[ ] Wire TALK toggle: search dock switches between search mode and conversation mode, carries current scope context",
       "learning_count": 3,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "canonic-canonic/MAGIC/GALAXY/PRIMITIVES",
@@ -17236,7 +17335,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Enforce governed boundary isolation across all service scopes (no cross-scope state leakage between ",
+      "roadmap_now": "Enforce governed boundary isolation across all service scopes (no cross-scope state leakage between INTEL, CHAT, COIN, LEDGER)",
       "learning_count": 5,
       "coverage_score": 255,
       "surface_type": "JEKYLL_ECON",
@@ -17833,7 +17932,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR ROUTES. EVERY DELIVERY EVIDENCED. EVERY INBOX GOVERNED.**",
-      "roadmap_now": "Ship NOTIFIER as NOTIFY + INTEL composed: every delivery wires sender scope, receiver scope, and con",
+      "roadmap_now": "Ship NOTIFIER as NOTIFY + INTEL composed: every delivery wires sender scope, receiver scope, and content",
       "learning_count": 5,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -17991,7 +18090,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Ship TALK as CHAT + INTEL composed: every TALK response wires `intel_refs` and shows governed discla",
+      "roadmap_now": "Ship TALK as CHAT + INTEL composed: every TALK response wires `intel_refs` and shows governed disclaimer",
       "learning_count": 7,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -18246,7 +18345,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**INTEL \u2014 what you KNOW. The orchestrator. Every service wires INTEL.**",
-      "roadmap_now": "Ship deterministic build/sync/deploy pipeline: GOV tree is the single source of truth, runtime proje",
+      "roadmap_now": "Ship deterministic build/sync/deploy pipeline: GOV tree is the single source of truth, runtime projects only",
       "learning_count": 13,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -18541,7 +18640,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Complete JEKYLL theme compilation: 8 layouts, 20 section includes, 15 figure includes, 18 Sass parti",
+      "roadmap_now": "Complete JEKYLL theme compilation: 8 layouts, 20 section includes, 15 figure includes, 18 Sass partials ship as `remote_theme`",
       "learning_count": 10,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -18670,7 +18769,7 @@
       "missing_dims": [],
       "has_intel": false,
       "roadmap_now": "Papers render via DESIGN theme `layout: post` with math enabled",
-      "learning_count": 4,
+      "learning_count": 6,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "canonic-canonic/MAGIC/SURFACE/JEKYLL/PAPERS",
@@ -18701,6 +18800,18 @@
           "signal": "GOV tree must be pure",
           "pattern": "Content and governance coexist as source, compile separates them",
           "source": "CANON.md"
+        },
+        {
+          "date": "2026-04-07",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What papers",
+          "source": "ac121138-e503-4f1e-ac67-265a83c99da3"
+        },
+        {
+          "date": "2026-04-07",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Show me canonic whitepaper",
+          "source": "4bed6e3a-bb05-4608-8e97-2d2866a59bb3"
         }
       ],
       "score": 128
@@ -18919,7 +19030,7 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Define INIT pipeline governance: 7-phase bootstrap contract (RESOLVE, SCAFFOLD, PROMOTE, VALIDATE, G",
+      "roadmap_now": "Define INIT pipeline governance: 7-phase bootstrap contract (RESOLVE, SCAFFOLD, PROMOTE, VALIDATE, GALAXY, BUILD, CONSOLIDATION)",
       "learning_count": 4,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -29441,6 +29552,46 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/TALKS/MUSIC/COMMUNITY",
+      "kind": "CONTENT",
+      "label": "COMMUNITY",
+      "repo": "hadleylab-canonic",
+      "path": "TALKS/MUSIC/COMMUNITY",
+      "parent": "hadleylab-canonic/TALKS/MUSIC",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_TALK",
+      "fleet_path": "TALKS/MUSIC/COMMUNITY",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/TALKS/MUSIC/SHOP",
+      "kind": "CONTENT",
+      "label": "SHOP",
+      "repo": "hadleylab-canonic",
+      "path": "TALKS/MUSIC/SHOP",
+      "parent": "hadleylab-canonic/TALKS/MUSIC",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_TALK",
+      "fleet_path": "TALKS/MUSIC/SHOP",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "hadleylab-canonic/TALKS/NONA/SHOP",
       "kind": "CONTENT",
       "label": "SHOP",
@@ -32090,6 +32241,11 @@
     },
     {
       "kind": "INHERITS",
+      "from": "hadleylab-canonic/TALKS/MUSIC",
+      "to": "hadleylab-canonic/SERVICES/TALK"
+    },
+    {
+      "kind": "INHERITS",
       "from": "hadleylab-canonic/TALKS/NONA",
       "to": "hadleylab-canonic/SERVICES/TALK"
     },
@@ -32565,6 +32721,11 @@
     },
     {
       "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/PRIVACY",
+      "to": "canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "INHERITS",
       "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/PROTECTION",
       "to": "canonic-canonic/MAGIC/COMPLIANCE"
     },
@@ -32937,6 +33098,11 @@
       "kind": "CROSS_INTEL",
       "from": "hadleylab-canonic/TALKS/MEDCHAT",
       "to": "hadleylab-canonic/TALKS/OMICSCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/TALKS/MUSIC",
+      "to": "hadleylab-canonic/TALKS/CARIBCHAT"
     },
     {
       "kind": "CROSS_INTEL",
@@ -34443,6 +34609,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/TALKS/MUSIC",
+      "to": "hadleylab-canonic/TALKS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/TALKS/NONA",
       "to": "hadleylab-canonic/TALKS"
     },
@@ -34949,6 +35120,11 @@
     {
       "kind": "PARENT",
       "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/MARKET",
+      "to": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE/PRIVACY",
       "to": "runner-canonic/canonic-canonic/MAGIC/COMPLIANCE"
     },
     {
@@ -37160,6 +37336,16 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/TALKS/MEDCHAT/SHOP",
       "to": "hadleylab-canonic/TALKS/MEDCHAT"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/TALKS/MUSIC/COMMUNITY",
+      "to": "hadleylab-canonic/TALKS/MUSIC"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/TALKS/MUSIC/SHOP",
+      "to": "hadleylab-canonic/TALKS/MUSIC"
     },
     {
       "kind": "PARENT",

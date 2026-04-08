@@ -220,6 +220,11 @@
       "surface_type": "JEKYLL_DEFAULT"
     },
     {
+      "path": "/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/",
+      "scope": "adventist",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
       "path": "/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/sda/",
       "scope": "sda",
       "surface_type": "JEKYLL_DEFAULT"
@@ -752,6 +757,11 @@
     {
       "path": "/MAGIC/TOOLCHAIN/bin/",
       "scope": "bin",
+      "surface_type": "JEKYLL_DEFAULT"
+    },
+    {
+      "path": "/USERS/",
+      "scope": "USERS",
       "surface_type": "JEKYLL_DEFAULT"
     }
   ]

@@ -82,6 +82,8 @@ TALK surface model: `{scope}.ai` = canonical sink (community learning + SEO prim
 | dev.hadleylab.org | hadleylab.org/talks/dev/ | subdomain |
 | star.hadleylab.org | hadleylab.org/services/star/ | subdomain |
 | shop.hadleylab.org | hadleylab.org/services/shop/ | subdomain |
+| health.hadleylab.org | hadleylab.org | health | proof fleet dashboard |
+| health.canonic.org | canonic.org | health | federation dashboard |
 
 ### Proxy Scope Resolution
 
