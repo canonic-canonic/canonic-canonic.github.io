@@ -3,7 +3,7 @@
     "contract": "canonic-canonic/MAGIC/SERVICES/STAR/STAR.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "generated": "2026-04-07T22:10:02Z",
+  "generated": "2026-04-08T02:15:51Z",
   "users": {
     "AVINASH": {
       "total": 13,
@@ -10996,7 +10996,7 @@
       ]
     },
     "FATIMA": {
-      "total": 93,
+      "total": 75,
       "entries": [
         {
           "id": "e4792911a387",
@@ -11079,30 +11079,6 @@
           "meta": {}
         },
         {
-          "id": "5e43d3175422",
-          "ts": "2026-03-01T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: Como",
-          "ref": "28c2ace8-703b-4603-8573-a1b059643eb0",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
-          "id": "3eccb8651f64",
-          "ts": "2026-03-01T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: Como",
-          "ref": "bcfb7d4d-b16c-491e-b994-e1545ea75ce2",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
           "id": "fb7dd1379e3e",
           "ts": "2026-03-01T00:00:00Z",
           "stream": "LEARNING",
@@ -11123,18 +11099,6 @@
           "principal": "FATIMA",
           "summary": "SESSION_LEDGERED: Cuéntame más sobre AEMPS",
           "ref": "f8fdc8ad-c84a-4102-80b5-e5eb7e742cf0",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
-          "id": "aedb0fdf57a6",
-          "ts": "2026-03-01T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: Si",
-          "ref": "574199a7-ab47-448d-8c52-d021a132d167",
           "primitive": "INTEL",
           "meta": {}
         },
@@ -11283,30 +11247,6 @@
           "meta": {}
         },
         {
-          "id": "70b43bf7f2fe",
-          "ts": "2026-03-01T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "hadleylab-canonic/USERS/FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: Como",
-          "ref": "28c2ace8-703b-4603-8573-a1b059643eb0",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
-          "id": "72c62d01cfbb",
-          "ts": "2026-03-01T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "hadleylab-canonic/USERS/FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: Como",
-          "ref": "bcfb7d4d-b16c-491e-b994-e1545ea75ce2",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
           "id": "ba7fc03967f9",
           "ts": "2026-03-01T00:00:00Z",
           "stream": "LEARNING",
@@ -11327,18 +11267,6 @@
           "principal": "FATIMA",
           "summary": "SESSION_LEDGERED: Cuéntame más sobre AEMPS",
           "ref": "f8fdc8ad-c84a-4102-80b5-e5eb7e742cf0",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
-          "id": "078a2fe19de8",
-          "ts": "2026-03-01T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "hadleylab-canonic/USERS/FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: Si",
-          "ref": "574199a7-ab47-448d-8c52-d021a132d167",
           "primitive": "INTEL",
           "meta": {}
         },
@@ -11535,42 +11463,6 @@
           "meta": {}
         },
         {
-          "id": "91fbe5668818",
-          "ts": "2026-02-28T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: Hey",
-          "ref": "664a563b-c8cd-4a9e-b04c-996086937377",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
-          "id": "6ec221033926",
-          "ts": "2026-02-28T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: Hi",
-          "ref": "dbb57c3a-14d1-4b67-a9f6-900a5b8dd02c",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
-          "id": "4bdac256ffb0",
-          "ts": "2026-02-28T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: Im",
-          "ref": "128da96b-67ac-4a17-bda2-97da3e97162c",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
           "id": "77c44553e817",
           "ts": "2026-02-28T00:00:00Z",
           "stream": "LEARNING",
@@ -11627,18 +11519,6 @@
           "principal": "FATIMA",
           "summary": "SESSION_LEDGERED: EU expansion business plan. De Maysoun se Que coordina la creación de startups e",
           "ref": "231cf0d9-9b4e-4e8b-b8bb-e70eaa1a4ec8",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
-          "id": "fe992119f3c9",
-          "ts": "2026-02-28T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: Ask Dexter.",
-          "ref": "011a3ff9-c241-4756-9e8e-01d084fae004",
           "primitive": "INTEL",
           "meta": {}
         },
@@ -11751,42 +11631,6 @@
           "meta": {}
         },
         {
-          "id": "1637595a072f",
-          "ts": "2026-02-28T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "hadleylab-canonic/USERS/FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: Hey",
-          "ref": "664a563b-c8cd-4a9e-b04c-996086937377",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
-          "id": "f76e78bef252",
-          "ts": "2026-02-28T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "hadleylab-canonic/USERS/FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: Hi",
-          "ref": "dbb57c3a-14d1-4b67-a9f6-900a5b8dd02c",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
-          "id": "024587c42074",
-          "ts": "2026-02-28T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "hadleylab-canonic/USERS/FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: Im",
-          "ref": "128da96b-67ac-4a17-bda2-97da3e97162c",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
           "id": "b9226c6abd5a",
           "ts": "2026-02-28T00:00:00Z",
           "stream": "LEARNING",
@@ -11847,18 +11691,6 @@
           "meta": {}
         },
         {
-          "id": "c295b55ec5ef",
-          "ts": "2026-02-28T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "hadleylab-canonic/USERS/FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: Ask Dexter.",
-          "ref": "011a3ff9-c241-4756-9e8e-01d084fae004",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
           "id": "663d478c7c80",
           "ts": "2026-02-28T00:00:00Z",
           "stream": "LEARNING",
@@ -11907,30 +11739,6 @@
           "meta": {}
         },
         {
-          "id": "76a016955d76",
-          "ts": "2026-02-27T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: test notify",
-          "ref": "api.canonic.org/talk",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
-          "id": "e104621a49b8",
-          "ts": "2026-02-27T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: I agree",
-          "ref": "d6e5153d-7e8b-481e-ac5e-c8932e805016",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
           "id": "45132b203ee3",
           "ts": "2026-02-27T00:00:00Z",
           "stream": "LEARNING",
@@ -11939,30 +11747,6 @@
           "principal": "FATIMA",
           "summary": "SESSION_LEDGERED: I want to agree to the NDA form",
           "ref": "00124697-9150-4f2f-a6ba-758e996dc639",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
-          "id": "15ac39f35932",
-          "ts": "2026-02-27T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "hadleylab-canonic/USERS/FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: test notify",
-          "ref": "api.canonic.org/talk",
-          "primitive": "INTEL",
-          "meta": {}
-        },
-        {
-          "id": "baea2dda93c9",
-          "ts": "2026-02-27T00:00:00Z",
-          "stream": "LEARNING",
-          "type": "SESSION_LEDGERED",
-          "scope": "hadleylab-canonic/USERS/FATIMA",
-          "principal": "FATIMA",
-          "summary": "SESSION_LEDGERED: I agree",
-          "ref": "d6e5153d-7e8b-481e-ac5e-c8932e805016",
           "primitive": "INTEL",
           "meta": {}
         },

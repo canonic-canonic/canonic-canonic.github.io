@@ -59,6 +59,11 @@ MUST:     Surface regression signals — repeated DEBIT:DRIFT on a scope trigger
 MUST:     Surface growth signals — repeated MINT:WORK on a scope triggers expansion recommendation
 MUST:     Feed INTEL — consumed patterns wire into system prompts via CANON.json intel_refs
 MUST NOT: Capture without consumption — write-only LEARNING is not LEARNING
+MUST:     Novelty gate — candidates with <20% new keywords vs existing scope LEARNING.md are MARGINAL (logged, not appended)
+MUST:     Cross-scope propagation — CROSS_INTEL targets receive axiom-relevant patterns as CROSS_PROPAGATED rows
+MUST:     Emit LEARNING-METRICS.json — promotion rate, fidelity, scope velocity, novelty distribution per build
+MUST NOT: Pollute fallback scope — unroutable patterns stage in LEARNING-UNROUTED.md, never CLAUDE/LEARNING.md
+MUST:     Trivial filter shared — TRIVIAL_PATTERNS (>=50 entries) + length gate (<15 chars = trivial)
 ```
 
 ---

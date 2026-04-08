@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "6526e9be29848ed1"
+    "gov_hash": "88ef43d6365d5ae3"
   },
-  "generated": "2026-04-08T01:20:17Z",
+  "generated": "2026-04-08T02:15:51Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -74,13 +74,13 @@
     ]
   },
   "stats": {
-    "total": 1029,
+    "total": 1030,
     "avg_bits": 253,
     "below_magic": 69,
     "intel_coverage": 129,
     "total_coin": 149567,
     "total_events": 706,
-    "total_sessions": 292,
+    "total_sessions": 202,
     "active_channels": 6,
     "user_count": 31,
     "org_count": 5,
@@ -5636,7 +5636,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "| Claim | Source |",
-      "learning_count": 1279,
+      "learning_count": 559,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "BLOGS",
@@ -5647,25 +5647,31 @@
         {
           "date": "2026-02-15",
           "signal": "NEW_COMPOSITION",
-          "pattern": "New composition: DJOSER_PASSWORD_RESET_CONFIRM_URL + RIDE_DETAIL_URL",
+          "pattern": "New composition: FORM_ERROR + JSON",
           "source": "7bc155a"
         },
         {
           "date": "2026-02-15",
           "signal": "NEW_COMPOSITION",
-          "pattern": "New composition: AWS_STORAGE_PUBLIC_BUCKET_NAME + AWS_STORAGE_BUCKET_NAME",
+          "pattern": "New composition: TUVVQ + TODO",
           "source": "7bc155a"
         },
         {
           "date": "2026-02-15",
           "signal": "NEW_COMPOSITION",
-          "pattern": "New composition: TWILIO_PASSENGER_AND_DRIVER_SESSION_TTL + RIDE_END_TIMEDELTA",
+          "pattern": "New composition: PUT + PATCH",
           "source": "7bc155a"
         },
         {
           "date": "2026-02-15",
           "signal": "NEW_COMPOSITION",
-          "pattern": "New composition: FRONTEND + VAULT",
+          "pattern": "New composition: SUCCESS + TEST",
+          "source": "7bc155a"
+        },
+        {
+          "date": "2026-02-15",
+          "signal": "NEW_COMPOSITION",
+          "pattern": "New composition: CORE + SELF",
           "source": "7bc155a"
         },
         {
@@ -5690,12 +5696,6 @@
           "date": "2026-02-15",
           "signal": "NEW_COMPOSITION",
           "pattern": "New composition: ACADEMIA + GENESIS",
-          "source": "bc38cec"
-        },
-        {
-          "date": "2026-02-15",
-          "signal": "NEW_CONSTRAINT",
-          "pattern": "New constraint: / 2026-02-14 / Coverage and learning are required to prevent silent drift / Scope CANON constraints",
           "source": "bc38cec"
         },
         {
@@ -5832,7 +5832,7 @@
       "has_intel": true,
       "intel_summary": "| Claim | Source |",
       "roadmap_now": "[ ] Decision: absorb or expand ART-OF-THE-CANONIC-DEAL",
-      "learning_count": 30,
+      "learning_count": 29,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "BOOKS",
@@ -5840,6 +5840,12 @@
       "wallet": null,
       "talk": null,
       "learning": [
+        {
+          "date": "2026-02-16",
+          "signal": "EXTINCTION",
+          "pattern": "Extinction: TIMELINE removed (3 occurrences)",
+          "source": "7df4588"
+        },
         {
           "date": "2026-02-16",
           "signal": "EXTINCTION",
@@ -5880,12 +5886,6 @@
           "date": "2026-02-15",
           "signal": "NEW_COMPOSITION",
           "pattern": "New composition: COVID + MEDBRAIN",
-          "source": "bc38cec"
-        },
-        {
-          "date": "2026-02-15",
-          "signal": "NEW_CONSTRAINT",
-          "pattern": "New constraint: / 2026-02-14 / Coverage and learning are required to prevent silent drift / Scope CANON constraints",
           "source": "bc38cec"
         },
         {
@@ -6537,7 +6537,7 @@
       "github": "iDrDex",
       "has_intel": true,
       "intel_summary": "**INTEL crosses USER boundaries. When one principal acts, all dashboards update.**",
-      "learning_count": 5407,
+      "learning_count": 2726,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
@@ -6737,58 +6737,58 @@
       "talk": null,
       "learning": [
         {
-          "date": "2026-02-10",
-          "signal": "NEW_CONSTRAINT",
-          "pattern": "New constraint: / OPERATIONS / Products MUST serve users /",
-          "source": "47b1897"
+          "date": "2026-01-28",
+          "signal": "NEW_TERM",
+          "pattern": "New concept: EARNED",
+          "source": "d8ee041"
         },
         {
-          "date": "2026-01-31",
-          "signal": "NEW_CONSTRAINT",
-          "pattern": "New constraint: **OPERATIONS = MUST / MAY / SHOULD / SHALL. The Operational dimension.**",
-          "source": "d9b5c83"
+          "date": "2026-01-28",
+          "signal": "NEW_TERM",
+          "pattern": "New concept: EVOLUTIONS",
+          "source": "d8ee041"
+        },
+        {
+          "date": "2026-01-28",
+          "signal": "NEW_TERM",
+          "pattern": "New concept: SPENT",
+          "source": "d8ee041"
+        },
+        {
+          "date": "2026-01-28",
+          "signal": "NEW_TERM",
+          "pattern": "New concept: HISTORY",
+          "source": "d8ee041"
+        },
+        {
+          "date": "2026-01-28",
+          "signal": "NEW_TERM",
+          "pattern": "New concept: ENGINEERING",
+          "source": "d8ee041"
+        },
+        {
+          "date": "2026-01-28",
+          "signal": "NEW_TERM",
+          "pattern": "New concept: ACTIVITY",
+          "source": "d8ee041"
+        },
+        {
+          "date": "2026-01-28",
+          "signal": "NEW_TERM",
+          "pattern": "New concept: ENTER",
+          "source": "38464cf"
+        },
+        {
+          "date": "2026-02-15",
+          "signal": "EXTINCTION",
+          "pattern": "Extinction: [REDACTED] removed (61 occurrences)",
+          "source": "00156e9"
         },
         {
           "date": "2026-02-27",
           "signal": "SESSION_LEDGERED",
           "pattern": "hi. who is dexter",
           "source": "aff4abad-6d27-4f03-9b4c-11f4cde5af2c"
-        },
-        {
-          "date": "2026-02-27",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "who is dexter",
-          "source": "96d8fd33-19bb-4c2c-950a-4b0c05f7573f"
-        },
-        {
-          "date": "2026-03-01",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "What is MammoChat?",
-          "source": "d4c30020-9dad-46f0-a0ab-6ce15de62a9f"
-        },
-        {
-          "date": "2026-03-01",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "hi",
-          "source": "9bf428b0-78d4-483b-bec4-1f8cb69ed8ab"
-        },
-        {
-          "date": "2026-03-02",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "hi",
-          "source": "4eb7b059-1e3d-47fa-a473-8aeb8fb55e64"
-        },
-        {
-          "date": "2026-03-04",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Hey, what\u2019s this for?",
-          "source": "631c0e7b-1e4e-48b1-b120-3b9093cd689e"
-        },
-        {
-          "date": "2026-03-04",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Hi",
-          "source": "5007c6fa-9ba8-4cdc-b9ae-528d62f19283"
         },
         {
           "date": "2026-03-23",
@@ -7250,7 +7250,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR PARTNER. EVERY COMMIT LEDGERED. EVERY DEPLOYMENT GOVERNED. EVERY DEAL EVIDENCED.**",
-      "learning_count": 13,
+      "learning_count": 11,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DECK",
       "fleet_path": "DECKS/BEDA",
@@ -7260,15 +7260,15 @@
       "learning": [
         {
           "date": "2026-03-12",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "hi",
-          "source": "e5d2e628-89f7-4112-b53a-98a242e748c4"
+          "signal": "DEAL",
+          "pattern": "i18n certification + enterprise deployment opportunity presented",
+          "source": "WORK-TALK-ILYA-YANA.md"
         },
         {
           "date": "2026-03-13",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "hi",
-          "source": "e6f8025f-a53f-4a5b-a2fa-c710918af362"
+          "signal": "GOV_FIX",
+          "pattern": "BEDA deck scope created with full governance surface",
+          "source": "build-surfaces"
         },
         {
           "date": "2026-03-19",
@@ -7364,7 +7364,7 @@
       "has_intel": true,
       "intel_summary": "| Claim | Source |",
       "roadmap_now": "13 shows archived (000-012)",
-      "learning_count": 89,
+      "learning_count": 62,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS",
@@ -7449,7 +7449,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR PITCH. EVERY METRIC SOURCED. EVERY CLAIM EVIDENCED. EVERY SLIDE GOVERNED.**",
-      "learning_count": 86,
+      "learning_count": 53,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DECK",
       "fleet_path": "DECKS/DECK",
@@ -7457,6 +7457,42 @@
       "wallet": null,
       "talk": null,
       "learning": [
+        {
+          "date": "2026-02-15",
+          "signal": "NEW_COMPOSITION",
+          "pattern": "New composition: ENTERPRISE + BUSINESS",
+          "source": "bd3588b"
+        },
+        {
+          "date": "2026-02-15",
+          "signal": "NEW_COMPOSITION",
+          "pattern": "New composition: AGENT + ENTERPRISE",
+          "source": "bd3588b"
+        },
+        {
+          "date": "2026-02-15",
+          "signal": "NEW_COMPOSITION",
+          "pattern": "New composition: MAGIC + FULL",
+          "source": "bd3588b"
+        },
+        {
+          "date": "2026-02-15",
+          "signal": "NEW_COMPOSITION",
+          "pattern": "New composition: INTEL + CHAT",
+          "source": "bd3588b"
+        },
+        {
+          "date": "2026-02-15",
+          "signal": "NEW_COMPOSITION",
+          "pattern": "New composition: MAMMO + MED",
+          "source": "bd3588b"
+        },
+        {
+          "date": "2026-02-15",
+          "signal": "NEW_COMPOSITION",
+          "pattern": "New composition: ONCO + BREAST",
+          "source": "bd3588b"
+        },
         {
           "date": "2026-02-15",
           "signal": "NEW_CONSTRAINT",
@@ -7472,49 +7508,13 @@
         {
           "date": "2026-02-15",
           "signal": "EVOLUTION",
-          "pattern": "Evolution: CURRENTLY \u2192 RUNTIME",
-          "source": "142569d"
-        },
-        {
-          "date": "2026-02-15",
-          "signal": "EVOLUTION",
-          "pattern": "Evolution: CURRENTLY \u2192 MAGIC",
-          "source": "142569d"
-        },
-        {
-          "date": "2026-02-15",
-          "signal": "EVOLUTION",
           "pattern": "Evolution: DOWN \u2192 RISK",
           "source": "142569d"
         },
         {
           "date": "2026-02-15",
           "signal": "EVOLUTION",
-          "pattern": "Evolution: DOWN \u2192 RUNTIME",
-          "source": "142569d"
-        },
-        {
-          "date": "2026-02-15",
-          "signal": "EVOLUTION",
-          "pattern": "Evolution: DOWN \u2192 MAGIC",
-          "source": "142569d"
-        },
-        {
-          "date": "2026-02-15",
-          "signal": "EVOLUTION",
           "pattern": "Evolution: BLOCKED \u2192 RISK",
-          "source": "142569d"
-        },
-        {
-          "date": "2026-02-15",
-          "signal": "EVOLUTION",
-          "pattern": "Evolution: BLOCKED \u2192 RUNTIME",
-          "source": "142569d"
-        },
-        {
-          "date": "2026-02-15",
-          "signal": "EVOLUTION",
-          "pattern": "Evolution: BLOCKED \u2192 MAGIC",
           "source": "142569d"
         }
       ],
@@ -7534,7 +7534,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR RESEARCH. EVERY CLAIM PUBLISHED. EVERY PATIENT GOVERNED. EVERY TRIAL REGISTERED.**",
-      "learning_count": 11,
+      "learning_count": 7,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DECK",
       "fleet_path": "DECKS/HOWARD",
@@ -7542,6 +7542,12 @@
       "wallet": null,
       "talk": null,
       "learning": [
+        {
+          "date": "2026-02-14",
+          "signal": "Scope upgraded to 6-file governance surface",
+          "pattern": "Governance closure pass",
+          "source": ""
+        },
         {
           "date": "2026-02-14",
           "signal": "Coverage and learning are required to prevent silent drift",
@@ -7575,31 +7581,7 @@
         {
           "date": "2026-02-15",
           "signal": "EVOLUTION",
-          "pattern": "Evolution: DOWN \u2192 RUNTIME",
-          "source": "142569d"
-        },
-        {
-          "date": "2026-02-15",
-          "signal": "EVOLUTION",
-          "pattern": "Evolution: DOWN \u2192 MAGIC",
-          "source": "142569d"
-        },
-        {
-          "date": "2026-02-15",
-          "signal": "EVOLUTION",
           "pattern": "Evolution: BLOCKED \u2192 RISK",
-          "source": "142569d"
-        },
-        {
-          "date": "2026-02-15",
-          "signal": "EVOLUTION",
-          "pattern": "Evolution: BLOCKED \u2192 RUNTIME",
-          "source": "142569d"
-        },
-        {
-          "date": "2026-02-15",
-          "signal": "EVOLUTION",
-          "pattern": "Evolution: BLOCKED \u2192 MAGIC",
           "source": "142569d"
         }
       ],
@@ -7665,7 +7647,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR JUDGES. KNOW YOUR COMPETITION. KNOW YOUR ADVANTAGE. EVERY FIGURE PAPER-BACKED.**",
       "roadmap_now": "PMWC scope LIVE at hadleylab.org/DECKS/PMWC/",
-      "learning_count": 7,
+      "learning_count": 6,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DECK",
       "fleet_path": "DECKS/PMWC",
@@ -7708,12 +7690,6 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "Show me all 10 slides of the pitch deck",
           "source": "dc2c3136-e47d-46f3-a872-af0f2ae2a672"
-        },
-        {
-          "date": "2026-03-03",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Show me all 10 slides",
-          "source": "e76ea017-4d5f-4ee8-a399-97f188d25fa9"
         }
       ],
       "score": 128
@@ -7732,7 +7708,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "| Metric | Value | Source |",
-      "learning_count": 7,
+      "learning_count": 6,
       "surface_type": "JEKYLL_DECK",
       "fleet_path": "DECKS/RUNNER-CHAIN",
       "children": 1,
@@ -7774,12 +7750,6 @@
           "signal": "NEW_SCOPE",
           "pattern": "Service contract created under SERVICES/DECK/RUNNER-CHAIN/",
           "source": "Plan"
-        },
-        {
-          "date": "2026-03-11",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "whats this?",
-          "source": "8fda68cd-162b-4389-9fb1-b7b82427e5ea"
         }
       ],
       "score": 128
@@ -7959,7 +7929,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR GRANT. EVERY AIM EVIDENCED. EVERY CONSORTIUM MEMBER GOVERNED.**",
       "roadmap_now": "[ ] Neville confirms PI \u2014 portal registration",
-      "learning_count": 15,
+      "learning_count": 14,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "GRANTS/EHDS-GOV",
@@ -7967,6 +7937,12 @@
       "wallet": null,
       "talk": null,
       "learning": [
+        {
+          "date": "2026-02-28",
+          "signal": "The \u20ac344 Billion Euro Wound published",
+          "pattern": "Paper",
+          "source": ""
+        },
         {
           "date": "2026-03-10",
           "signal": "EHDS-GOV deal structure created",
@@ -7984,12 +7960,6 @@
           "signal": "WORK-TALK sent to Neville \u2014 awaiting PI confirmation",
           "pattern": "Gov tree",
           "source": ""
-        },
-        {
-          "date": "2026-03-17",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "what is this",
-          "source": "45a20e2f-3d97-4c32-b6dd-3f2b7b2c9a87"
         },
         {
           "date": "2026-03-19",
@@ -8071,7 +8041,7 @@
       "children": 7,
       "wallet": null,
       "talk": {
-        "sessions": 176,
+        "sessions": 131,
         "last_session": "2026-04-08",
         "channels": [
           "CARIBCHAT"
@@ -8102,7 +8072,7 @@
       "has_intel": true,
       "intel_summary": "| Claim | Source |",
       "roadmap_now": "[ ] Audit all claims \u2014 map to BIBLIOGRAPHY entries",
-      "learning_count": 10,
+      "learning_count": 9,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "PAPERS",
@@ -8132,12 +8102,6 @@
           "date": "2026-02-14",
           "signal": "Papers are the strongest EVIDENCE artifacts in the fleet \u2014 they survive external review",
           "pattern": "Evidence dimension observation",
-          "source": ""
-        },
-        {
-          "date": "2026-02-06",
-          "signal": "Epoch 001: PAPER Scope \u2014 CANONIC-PAPER (6 theorems) + MAMMOCHAT-PAPER (clinical AI)",
-          "pattern": "58d3ccf",
           "source": ""
         },
         {
@@ -8494,7 +8458,7 @@
       "principal": true,
       "has_intel": true,
       "intel_summary": "| Claim | Source |",
-      "learning_count": 95,
+      "learning_count": 61,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SERVICES",
@@ -8504,15 +8468,15 @@
       "learning": [
         {
           "date": "2026-02-14",
-          "signal": "EXTINCTION",
-          "pattern": "Extinction: SCOPE removed (7 occurrences)",
+          "signal": "NEW_SCOPE",
+          "pattern": "New governance domain: DEALS/MARK-MALEK/LEARNING",
           "source": "4c33698"
         },
         {
-          "date": "2026-02-28",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "What\u2019s this?",
-          "source": "d6a75b06-afe5-4739-805e-14923edce1d8"
+          "date": "2026-02-14",
+          "signal": "NEW_CONSTRAINT",
+          "pattern": "New constraint: MUST: Declare governance.",
+          "source": "4c33698"
         },
         {
           "date": "2026-02-28",
@@ -8614,11 +8578,11 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "Dexter Hadley, MD/PhD (Penn). Stanford Research Associate (Butte Lab). Faculty at UCSF and UCF (Founding Chief of AI). C",
-      "learning_count": 9,
+      "learning_count": 10,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/CLAUDE",
-      "children": 0,
+      "children": 1,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -8631,7 +8595,7 @@
         {
           "date": "2026-03-14",
           "signal": "GALAXY_GRAPH_COMPILE",
-          "pattern": "Compilation is graph traversal. The galaxy (394 nodes, 564 edges) is the input graph. BFS from CLAUDE discovers cross-sc",
+          "pattern": "Compilation is graph traversal. The galaxy (1025 nodes, 1155 edges) is the input graph. BFS from CLAUDE discovers cross-",
           "source": "Graph-native compiler design"
         },
         {
@@ -8675,6 +8639,12 @@
           "signal": "FEEDBACK_PROMOTED",
           "pattern": "GOV case architecture \u2014 uppercase on disk, CF maps at edge: Compiler preserves GOV uppercase case. CF Workers map lowerc",
           "source": "intake:feedback_gov_case_architecture.md"
+        },
+        {
+          "date": "2026-04-07",
+          "signal": "METALEARNING_OPTIMIZATIONS",
+          "pattern": "Five metalearning gates enforced via magic_lib: novelty_score (<0.2 = MARGINAL), cross-scope propagation (CROSS_INTEL ed",
+          "source": "This session"
         }
       ],
       "score": 128
@@ -9160,7 +9130,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CONTENT. EVERY CLAIM SOURCED. EVERY SECTION GOVERNED.**",
-      "learning_count": 31,
+      "learning_count": 26,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/MAGIC/BAKEOFF",
@@ -9168,6 +9138,12 @@
       "wallet": null,
       "talk": null,
       "learning": [
+        {
+          "date": "2026-02-16",
+          "signal": "NEW_SCOPE",
+          "pattern": "New governance domain: USERS/yana",
+          "source": "48022f7"
+        },
         {
           "date": "2026-02-16",
           "signal": "NEW_CONSTRAINT",
@@ -9184,12 +9160,6 @@
           "date": "2026-02-16",
           "signal": "NEW_SCOPE",
           "pattern": "New governance domain: DEXTER/CHAT",
-          "source": "7aa451b"
-        },
-        {
-          "date": "2026-02-16",
-          "signal": "NEW_SCOPE",
-          "pattern": "New governance domain: SERVICES/TALK",
           "source": "7aa451b"
         },
         {
@@ -9991,7 +9961,7 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 292,
+        "sessions": 202,
         "last_session": "2026-04-08",
         "channels": [
           "CARIBCHAT",
@@ -10782,7 +10752,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR LISTING. EVERY FACT FROM PUBLIC RECORDS. EVERY DETAIL SOURCED. EVERY INQUIRY GOVERNED.**",
       "roadmap_now": "Full domain credential live \u2014 MLS, Orange County records, FEMA, GreatSchools sourced",
-      "learning_count": 11,
+      "learning_count": 6,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/BLANDFORD",
       "cross_intel": [
@@ -10796,32 +10766,14 @@
       "learning": [
         {
           "date": "2026-02-18",
-          "signal": "Builder: Mrcela Custom Homes (European custom). Modern architecture, imported finishes.",
-          "pattern": "MLS",
-          "source": ""
-        },
-        {
-          "date": "2026-02-18",
           "signal": "Completion estimated November 2026. Tax assessment will be established post-completion.",
           "pattern": "MLS / OCPA",
           "source": ""
         },
         {
           "date": "2026-02-18",
-          "signal": "One of last two remaining lots in resident-owned Lake Nona Estates HOA. Scarcity premium.",
-          "pattern": "MLS",
-          "source": ""
-        },
-        {
-          "date": "2026-02-18",
           "signal": "Top of market at $6.75M. Limited direct comps. Closest: $4M sales (Bevington, Cromwell Park).",
           "pattern": "Redfin",
-          "source": ""
-        },
-        {
-          "date": "2026-02-18",
-          "signal": "Two pools + jacuzzi is unique differentiator. Resort-style positioning.",
-          "pattern": "MLS",
           "source": ""
         },
         {
@@ -10834,12 +10786,6 @@
           "date": "2026-02-18",
           "signal": "Scarcity messaging is key: one of last 2 lots in resident-owned HOA.",
           "pattern": "MLS data",
-          "source": ""
-        },
-        {
-          "date": "2026-02-18",
-          "signal": "Tax projection uncertainty is the main data gap. Buyers WILL ask and answer requires disclaimer.",
-          "pattern": "OCPA",
           "source": ""
         },
         {
@@ -10872,7 +10818,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR LISTING. EVERY FACT FROM PUBLIC RECORDS. EVERY DETAIL SOURCED. EVERY INQUIRY GOVERNED.**",
       "roadmap_now": "Full domain credential live \u2014 MLS, Orange County records, FEMA, GreatSchools sourced",
-      "learning_count": 12,
+      "learning_count": 10,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/BRYANSTON",
       "cross_intel": [
@@ -10886,14 +10832,14 @@
       "learning": [
         {
           "date": "2026-02-18",
-          "signal": "HOA quarterly dues confirmed at $1,862.50 via Sentry Management. Includes 5G internet and 24-hour security.",
-          "pattern": "HOA Filing",
+          "signal": "Schools bootstrapped: Northlake Park Elem (7/10), Laureate Park Elem (10/10), Lake Nona Middle (10/10), Lake Nona High (avg).",
+          "pattern": "GreatSchools",
           "source": ""
         },
         {
           "date": "2026-02-18",
-          "signal": "FEMA Zone X confirmed. Minimal flood hazard.",
-          "pattern": "FEMA",
+          "signal": "HOA quarterly dues confirmed at $1,862.50 via Sentry Management. Includes 5G internet and 24-hour security.",
+          "pattern": "HOA Filing",
           "source": ""
         },
         {
@@ -11018,7 +10964,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 212,
+      "learning_count": 162,
       "coverage_score": 255,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/CARIBCHAT",
@@ -11029,7 +10975,7 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 176,
+        "sessions": 131,
         "last_session": "2026-04-08",
         "channels": [
           "CARIBCHAT"
@@ -11202,7 +11148,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR FINANCES. EVERY CLAIM SOURCED. EVERY REGULATION CITED. EVERY ANALYSIS GOVERNED.**",
       "roadmap_now": "Governance at 255 \u2014 all contracts validated",
-      "learning_count": 12,
+      "learning_count": 10,
       "coverage_score": 255,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/FINCHAT",
@@ -11213,6 +11159,18 @@
       "wallet": null,
       "talk": null,
       "learning": [
+        {
+          "date": "2026-02-14",
+          "signal": "Empty parent ledger \u2014 domain not yet exercised operationally",
+          "pattern": "FINCHAT LEARNING.md",
+          "source": ""
+        },
+        {
+          "date": "2026-02-14",
+          "signal": "Structure ready (SEC/FINRA-aware constraints exist) \u2014 patterns will emerge from first corrections",
+          "pattern": "FINCHAT CANON.md",
+          "source": ""
+        },
         {
           "date": "2026-02-14",
           "signal": "Clinical services (MAMMOCHAT) prove the correction-ledger model works \u2014 FINCHAT inherits this pattern",
@@ -11251,12 +11209,6 @@
         },
         {
           "date": "2026-03-15",
-          "signal": "SURFACE_BUILD",
-          "pattern": "GOV",
-          "source": "FINCHAT community learning surface built \u2014 8 community learn"
-        },
-        {
-          "date": "2026-03-15",
           "signal": "COMMUNITY_BRIDGE",
           "pattern": "COMMUNITY",
           "source": "Community learning dashboard sourced from TALK/FINCHAT LEARN"
@@ -11266,12 +11218,6 @@
           "signal": "EVIDENCE_CHAIN",
           "pattern": "INTEL",
           "source": "6 evidence sources surfaced with institutional attribution ("
-        },
-        {
-          "date": "2026-03-15",
-          "signal": "CROSS_SCOPE",
-          "pattern": "GOV",
-          "source": "Marketing surface (SERVICES/TALK/FINCHAT) cross-references c"
         }
       ],
       "score": 128
@@ -11291,7 +11237,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR LAW. EVERY CLAIM CITED. EVERY PRECEDENT SOURCED. EVERY ANALYSIS GOVERNED.**",
       "roadmap_now": "Governance at 255 \u2014 all contracts validated",
-      "learning_count": 12,
+      "learning_count": 10,
       "coverage_score": 255,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/LAWCHAT",
@@ -11302,6 +11248,18 @@
       "wallet": null,
       "talk": null,
       "learning": [
+        {
+          "date": "2026-02-14",
+          "signal": "Empty parent ledger \u2014 domain not yet exercised operationally",
+          "pattern": "LAWCHAT LEARNING.md",
+          "source": ""
+        },
+        {
+          "date": "2026-02-14",
+          "signal": "Structure ready (jurisdiction-aware constraints exist) \u2014 patterns will emerge from first corrections",
+          "pattern": "LAWCHAT CANON.md",
+          "source": ""
+        },
         {
           "date": "2026-02-14",
           "signal": "MARK-MALEK deal learning (Alice/101 hardening, dual jurisdiction) is adjacent legal intelligence not yet backpropagated",
@@ -11340,12 +11298,6 @@
         },
         {
           "date": "2026-03-15",
-          "signal": "SURFACE_BUILD",
-          "pattern": "GOV",
-          "source": "LAWCHAT community learning surface built \u2014 8 community learn"
-        },
-        {
-          "date": "2026-03-15",
           "signal": "COMMUNITY_BRIDGE",
           "pattern": "COMMUNITY",
           "source": "Community learning dashboard sourced from TALK/LAWCHAT LEARN"
@@ -11355,12 +11307,6 @@
           "signal": "EVIDENCE_CHAIN",
           "pattern": "INTEL",
           "source": "6 evidence sources surfaced with institutional attribution ("
-        },
-        {
-          "date": "2026-03-15",
-          "signal": "CROSS_SCOPE",
-          "pattern": "GOV",
-          "source": "Marketing surface (SERVICES/TALK/LAWCHAT) cross-references c"
         }
       ],
       "score": 128
@@ -11379,7 +11325,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR BREAST HEALTH. EVERY CLAIM SOURCED. EVERY TRIAL CITED. EVERY JOURNEY GOVERNED.**",
-      "learning_count": 54,
+      "learning_count": 40,
       "coverage_score": 255,
       "coverage_open_gates": [
         "A11Y"
@@ -11394,42 +11340,48 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 34,
-        "last_session": "2026-04-07",
+        "sessions": 20,
+        "last_session": "2026-04-05",
         "channels": [
           "MAMMOCHAT"
         ]
       },
       "learning": [
         {
-          "date": "2026-03-31",
+          "date": "2026-03-26",
           "signal": "SESSION_LEDGERED",
-          "pattern": "What does BI-RADS 4B mean",
-          "source": "f22a3d97-f9b6-4663-9627-d292f04424df"
+          "pattern": "What are the BI-RADS categories",
+          "source": "92b11ea7-6f4a-4161-9819-1a29de3cde9a"
         },
         {
-          "date": "2026-04-01",
+          "date": "2026-03-26",
           "signal": "SESSION_LEDGERED",
-          "pattern": "what is this",
-          "source": "508dbee4-d722-4405-b783-7ed3608cc2f6"
+          "pattern": "wow my coworker told me he has breast cancer how can i support her?",
+          "source": "6c34a7fb-b17e-43c9-a137-cbd8b81f49be"
         },
         {
-          "date": "2026-04-01",
+          "date": "2026-03-26",
           "signal": "SESSION_LEDGERED",
-          "pattern": "hi",
-          "source": "3556a0fd-382e-4202-b943-643a2cbcaa91"
+          "pattern": "its transgender",
+          "source": "92208fe8-4e9d-4fa0-bf2d-8cd0f5bea653"
+        },
+        {
+          "date": "2026-03-26",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "we have been having an affair will i have breastcancer too?",
+          "source": "e0612a7a-fbcf-4095-aa7b-1800950d2253"
+        },
+        {
+          "date": "2026-03-28",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "How do I join the study",
+          "source": "beba7473-35cb-4f86-8477-6850c9ed2569"
         },
         {
           "date": "2026-04-05",
           "signal": "SESSION_LEDGERED",
           "pattern": "what are your sources",
           "source": "eed3dd65-cceb-47ec-8b96-51b691b1718a"
-        },
-        {
-          "date": "2026-04-05",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "where did u get your sources",
-          "source": "2f5db6bf-d145-47ca-a8c8-2f91a0bf70b8"
         },
         {
           "date": "2026-04-05",
@@ -11454,12 +11406,6 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "is the governance structure in a file",
           "source": "5f8e58da-00eb-46fc-9a75-1d9dd1142495"
-        },
-        {
-          "date": "2026-04-07",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "what are the most malignant breast tumors",
-          "source": "b51d76ac-775b-44bb-803b-c1c9cbd120cf"
         }
       ],
       "score": 128
@@ -11479,7 +11425,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR MEDICINE. EVERY CLAIM SOURCED. EVERY RECOMMENDATION EVIDENCED. EVERY INTERACTION GOVERNED.**",
       "roadmap_now": "Governance at 255 \u2014 all artifacts validated",
-      "learning_count": 19,
+      "learning_count": 17,
       "coverage_score": 255,
       "coverage_open_gates": [
         "A11Y"
@@ -11502,6 +11448,18 @@
       "learning": [
         {
           "date": "2026-03",
+          "signal": "Plain language is a governance requirement not a preference \u2014 persona mandates \"warm, thorough, plain-language\" for general public audience",
+          "pattern": "domain governance bootstrap",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
+          "signal": "Mental health screening (PHQ-9 item 9) gates to Columbia Suicide Severity Rating Scale \u2014 this escalation chain is structural, not optional",
+          "pattern": "domain governance bootstrap",
+          "source": ""
+        },
+        {
+          "date": "2026-03",
           "signal": "Chronic disease targets differ by patient complexity \u2014 A1c <7% for most adults but <8% for elderly/complex comorbid \u2014 one-size targets are unsafe",
           "pattern": "domain governance bootstrap",
           "source": ""
@@ -11514,12 +11472,6 @@
         },
         {
           "date": "2026-03-15",
-          "signal": "SURFACE_BUILD",
-          "pattern": "GOV",
-          "source": "MEDCHAT community learning surface built \u2014 8 community learn"
-        },
-        {
-          "date": "2026-03-15",
           "signal": "COMMUNITY_BRIDGE",
           "pattern": "COMMUNITY",
           "source": "Community learning dashboard sourced from TALK/MEDCHAT LEARN"
@@ -11529,12 +11481,6 @@
           "signal": "EVIDENCE_CHAIN",
           "pattern": "INTEL",
           "source": "6 evidence sources surfaced with institutional attribution ("
-        },
-        {
-          "date": "2026-03-15",
-          "signal": "CROSS_SCOPE",
-          "pattern": "GOV",
-          "source": "Marketing surface cross-references chatbot scope \u2014 evidence "
         },
         {
           "date": "2026-03-26",
@@ -11712,7 +11658,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR OMICS. EVERY VARIANT CLASSIFIED. EVERY FINDING EVIDENCED. EVERY TIER DECLARED.**",
       "roadmap_now": "Governance at 255 \u2014 all 8 artifacts validated",
-      "learning_count": 37,
+      "learning_count": 31,
       "coverage_score": 255,
       "coverage_open_gates": [
         "A11Y"
@@ -11727,7 +11673,7 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 11,
+        "sessions": 7,
         "last_session": "2026-04-06",
         "channels": [
           "OMICSCHAT"
@@ -11735,22 +11681,34 @@
       },
       "learning": [
         {
+          "date": "2026-03-09",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Is BRCA2 c.5946delT pathogenic?",
+          "source": "a7a08acf-0c59-4d8c-8f61-e78a7c723f23"
+        },
+        {
           "date": "2026-03-15",
-          "signal": "CROSS_SCOPE",
-          "pattern": "GOV",
-          "source": "Marketing surface cross-references chatbot scope \u2014 evidence "
+          "signal": "COMMUNITY_BRIDGE",
+          "pattern": "COMMUNITY",
+          "source": "Community learning dashboard sourced from TALK/OMICSCHAT LEA"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "HERITAGE_SURFACE",
+          "pattern": "HERITAGE",
+          "source": "StarGEO heritage section surfaced \u2014 NIH BD2K UH2CA203792, $6"
+        },
+        {
+          "date": "2026-03-15",
+          "signal": "EVIDENCE_CHAIN",
+          "pattern": "INTEL",
+          "source": "6 evidence sources surfaced with institutional attribution ("
         },
         {
           "date": "2026-03-26",
           "signal": "SESSION_LEDGERED",
           "pattern": "What is precision medicine",
           "source": "0d26564a-8e52-4bcd-8fa9-0e55ed4d5a14"
-        },
-        {
-          "date": "2026-03-31",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "What is BRCA1?",
-          "source": "73fe2568-e228-46d9-b2e6-bb7439eba043"
         },
         {
           "date": "2026-03-31",
@@ -11773,20 +11731,8 @@
         {
           "date": "2026-04-06",
           "signal": "SESSION_LEDGERED",
-          "pattern": "ADGRG6",
-          "source": "e27bba2c-270a-4b36-99c1-1f1cbffc6094"
-        },
-        {
-          "date": "2026-04-06",
-          "signal": "SESSION_LEDGERED",
           "pattern": "define Frameshift/nonsense variants leading to complete protein loss",
           "source": "8f5bf580-ca8b-49fc-9bfb-f202bf98215f"
-        },
-        {
-          "date": "2026-04-06",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "rs9403391",
-          "source": "3de2a69f-0d65-48dd-91fd-d166af86c1be"
         },
         {
           "date": "2026-04-06",
@@ -11812,7 +11758,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR ONCOLOGY. EVERY CLAIM SOURCED. EVERY PROTOCOL EVIDENCED. EVERY PATHWAY GOVERNED.**",
       "roadmap_now": "Governance at 255 \u2014 all artifacts validated",
-      "learning_count": 16,
+      "learning_count": 14,
       "coverage_score": 255,
       "coverage_open_gates": [
         "A11Y"
@@ -11835,6 +11781,18 @@
         ]
       },
       "learning": [
+        {
+          "date": "2026-02-14",
+          "signal": "mCODE is the shared learning channel between MAMMOCHAT and ONCOCHAT",
+          "pattern": "Cross-service observation",
+          "source": ""
+        },
+        {
+          "date": "2026-03-03",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "What\u2019s the latest in omics",
+          "source": "f53120bd-2143-4fbd-81a2-51e48c0f978d"
+        },
         {
           "date": "2026-03",
           "signal": "TNM T/N definitions vary by cancer type \u2014 staging must be site-specific (e.g., breast T1 subdivisions differ from lung T1 criteria)",
@@ -11867,12 +11825,6 @@
         },
         {
           "date": "2026-03-15",
-          "signal": "SURFACE_BUILD",
-          "pattern": "GOV",
-          "source": "ONCOCHAT community learning surface built \u2014 8 community lear"
-        },
-        {
-          "date": "2026-03-15",
           "signal": "COMMUNITY_BRIDGE",
           "pattern": "COMMUNITY",
           "source": "Community learning dashboard sourced from TALK/ONCOCHAT LEAR"
@@ -11882,12 +11834,6 @@
           "signal": "EVIDENCE_CHAIN",
           "pattern": "INTEL",
           "source": "6 evidence sources surfaced with institutional attribution ("
-        },
-        {
-          "date": "2026-03-15",
-          "signal": "CROSS_SCOPE",
-          "pattern": "GOV",
-          "source": "Marketing surface cross-references chatbot scope \u2014 evidence "
         },
         {
           "date": "2026-03-26",
@@ -11975,7 +11921,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR OPERATIONS. EVERY VENDOR VETTED. EVERY TASK TRACKED. EVERY DOLLAR OF EFFORT EARNED.**",
       "roadmap_now": "All task operations through TALK chat \u2014 no discrete menus, no form-driven task selection",
-      "learning_count": 78,
+      "learning_count": 51,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "TALKS/RUNNER",
       "cross_intel": [
@@ -11984,13 +11930,19 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 67,
+        "sessions": 40,
         "last_session": "2026-03-12",
         "channels": [
           "RUNNER"
         ]
       },
       "learning": [
+        {
+          "date": "2026-03-12",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Set up a lockbox",
+          "source": "6daddec2-03ce-4e88-b4bb-c4da20273cbd"
+        },
         {
           "date": "2026-03-12",
           "signal": "SESSION_LEDGERED",
@@ -12020,12 +11972,6 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "orlando international airport",
           "source": "eff3cd64-cc3c-45d1-9ab3-73b4cac712a5"
-        },
-        {
-          "date": "2026-03-12",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Schedule an inspection for orlando international airport",
-          "source": "4226c653-59fb-4bfa-a2ca-7a81fca5c674"
         },
         {
           "date": "2026-03-12",
@@ -12069,7 +12015,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR LISTING. EVERY FACT FROM PUBLIC RECORDS. EVERY DETAIL SOURCED. EVERY INQUIRY GOVERNED.**",
       "roadmap_now": "Full domain credential live \u2014 MLS, Orange County records, FEMA, GreatSchools sourced",
-      "learning_count": 10,
+      "learning_count": 8,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/SLOANE",
       "cross_intel": [
@@ -12083,12 +12029,6 @@
       "learning": [
         {
           "date": "2026-02-18",
-          "signal": "Property credentialed. Parcel 31-24-07-4711-00-160 verified. Owner: Green, Barry E. and Jeanne E.",
-          "pattern": "OCPA",
-          "source": ""
-        },
-        {
-          "date": "2026-02-18",
           "signal": "Fully furnished included in sale. Turnkey luxury estate. Key differentiator.",
           "pattern": "MLS O6366161",
           "source": ""
@@ -12097,12 +12037,6 @@
           "date": "2026-02-18",
           "signal": "Annual taxes $36,066. Assessed $1,900,890. Significant gap vs list $3,799,000.",
           "pattern": "County Tax Collector",
-          "source": ""
-        },
-        {
-          "date": "2026-02-18",
-          "signal": "EV charging station in garage. Modern feature for luxury market.",
-          "pattern": "MLS",
           "source": ""
         },
         {
@@ -14165,7 +14099,7 @@
       "children": 7,
       "wallet": null,
       "talk": {
-        "sessions": 67,
+        "sessions": 40,
         "last_session": "2026-03-12",
         "channels": [
           "RUNNER"
@@ -14367,7 +14301,7 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 292,
+        "sessions": 202,
         "last_session": "2026-04-08",
         "channels": [
           "CARIBCHAT",
@@ -14400,7 +14334,7 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 292,
+        "sessions": 202,
         "last_session": "2026-04-08",
         "channels": [
           "CARIBCHAT",
@@ -14435,7 +14369,7 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 67,
+        "sessions": 40,
         "last_session": "2026-03-12",
         "channels": [
           "RUNNER"
@@ -27232,6 +27166,26 @@
       "score": 123
     },
     {
+      "id": "hadleylab-canonic/SERVICES/CLAUDE/LEARNING-UNROUTED",
+      "kind": "CONTENT",
+      "label": "LEARNING-UNROUTED",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/CLAUDE/LEARNING-UNROUTED",
+      "parent": "hadleylab-canonic/SERVICES/CLAUDE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/CLAUDE/LEARNING-UNROUTED",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
       "id": "hadleylab-canonic/SERVICES/DEV/DASHBOARD",
       "kind": "CONTENT",
       "label": "DASHBOARD",
@@ -37134,6 +37088,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/CLAUDE/LEARNING-UNROUTED",
+      "to": "hadleylab-canonic/SERVICES/CLAUDE"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/DEV/DASHBOARD",
       "to": "hadleylab-canonic/SERVICES/DEV"
     },
@@ -37697,5 +37656,28 @@
     "missing_dims": [],
     "wallet_balance": 149567,
     "wallet_events": 706
+  },
+  "learning_metrics": {
+    "total_intake": 0,
+    "promotion_rate": 0.0,
+    "fidelity_distribution": {
+      "0.0-0.2": 0,
+      "0.2-0.4": 0,
+      "0.4-0.6": 0,
+      "0.6-0.8": 0,
+      "0.8-1.0": 0
+    },
+    "novelty_distribution": {
+      "0.0-0.2": 0,
+      "0.2-0.4": 0,
+      "0.4-0.6": 0,
+      "0.6-0.8": 0,
+      "0.8-1.0": 0
+    },
+    "scope_velocity": {},
+    "unrouted_count": 0,
+    "trivial_filtered": 0,
+    "marginal_filtered": 0,
+    "updated_at": "2026-04-08T02:01:24.327181+00:00"
   }
 }
