@@ -80,8 +80,8 @@
     "intel_coverage": 129,
     "total_coin": 149567,
     "total_events": 706,
-    "total_sessions": 202,
-    "active_channels": 6,
+    "total_sessions": 203,
+    "active_channels": 7,
     "user_count": 31,
     "org_count": 5,
     "svc_count": 50,
@@ -7225,7 +7225,13 @@
       "fleet_path": "DECKS/ACHIEVE",
       "children": 1,
       "wallet": null,
-      "talk": null,
+      "talk": {
+        "sessions": 1,
+        "last_session": "2026-04-01",
+        "channels": [
+          "ACHIEVE"
+        ]
+      },
       "learning": [
         {
           "date": "2026-04-01",
@@ -9961,9 +9967,10 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 202,
+        "sessions": 203,
         "last_session": "2026-04-08",
         "channels": [
+          "ACHIEVE",
           "CARIBCHAT",
           "MAMMOCHAT",
           "MEDCHAT",
@@ -10726,13 +10733,19 @@
       ],
       "children": 0,
       "wallet": null,
-      "talk": null,
+      "talk": {
+        "sessions": 1,
+        "last_session": "2026-04-01",
+        "channels": [
+          "ACHIEVE"
+        ]
+      },
       "learning": [
         {
-          "date": "2026-04-07",
-          "signal": "CAMPAIGN_LAUNCHED",
-          "pattern": "ACHIEVE-PODCAST-2026 campaign: 8 emissions over 7 days. LinkedIn LEAD, Twitter AMPLIFY, Reddit DEEPEN, HN DISCOVER. Brid",
-          "source": "CAMPAIGNS/ACHIEVE-PODCAST-2026.md"
+          "date": "2026-04-01",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "what does FRAND mean?",
+          "source": "16a7d6ff-594c-4f11-9d73-0136c01231eb"
         }
       ],
       "score": 123
@@ -14301,9 +14314,10 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 202,
+        "sessions": 203,
         "last_session": "2026-04-08",
         "channels": [
+          "ACHIEVE",
           "CARIBCHAT",
           "MAMMOCHAT",
           "MEDCHAT",
@@ -14334,9 +14348,10 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 202,
+        "sessions": 203,
         "last_session": "2026-04-08",
         "channels": [
+          "ACHIEVE",
           "CARIBCHAT",
           "MAMMOCHAT",
           "MEDCHAT",
