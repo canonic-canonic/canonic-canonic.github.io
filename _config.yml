@@ -52,3 +52,9 @@ exclude:
   - timeline/
 
 
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: none
