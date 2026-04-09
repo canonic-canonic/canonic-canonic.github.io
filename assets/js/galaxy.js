@@ -608,40 +608,6 @@ var GALAXY = (function () {
                 }
             });
             html += '</div>';
-
-            // Edge type filters + stats (part of Graph view)
-            var st = galaxy.stats || {};
-            var edgeCounts = {};
-            (galaxy.edges || []).forEach(function (e) {
-                edgeCounts[e.kind] = (edgeCounts[e.kind] || 0) + 1;
-            });
-
-            // Stats HUD
-            html += '<div class="cp-divider"></div>';
-            html += '<div class="cp-fleet-stats">';
-            html += '<span class="cp-fleet-stat"><span class="cp-fleet-num">' + (galaxy.nodes || []).length + '</span> NODES</span>';
-            html += '<span class="cp-fleet-stat"><span class="cp-fleet-num">' + (galaxy.edges || []).length + '</span> EDGES</span>';
-            html += '</div>';
-            html += '<div class="cp-fleet-stats">';
-            html += '<span class="cp-fleet-stat"><span class="cp-fleet-num">' + (st.svc_count || 0) + '</span> SRVCS</span>';
-            html += '<span class="cp-fleet-stat"><span class="cp-fleet-num">' + (st.user_count || 0) + '</span> USERS</span>';
-            html += '<span class="cp-fleet-stat"><span class="cp-fleet-num">' + (st.org_count || 0) + '</span> ORGS</span>';
-            html += '</div>';
-
-            // Edge type filter pills
-            html += '<div class="cp-divider"></div>';
-            html += '<div style="font-size:8px;text-transform:uppercase;letter-spacing:1.2px;opacity:0.4;margin-bottom:4px">Edge Types</div>';
-            html += '<div class="cp-filters">';
-            var edgeColors = { PARENT: '#86868b', INHERITS: '#00ff88', CROSS_INTEL: '#ec4899', DOMAINS: '#f59e0b', CLUSTER: '#3b82f6', CODE_DEP: '#a855f7' };
-            ['PARENT', 'INHERITS', 'CROSS_INTEL', 'DOMAINS', 'CLUSTER', 'CODE_DEP'].forEach(function (kind) {
-                var cnt = edgeCounts[kind] || 0;
-                if (cnt === 0) return;
-                var c = edgeColors[kind] || '#86868b';
-                var active = _exploreFilters.edgeKinds === kind ? ' active' : '';
-                html += '<span class="filter-pill' + active + '" style="color:' + c + ';border-color:' + hexToRgba(c, 0.4) + '" onclick="GALAXY.filterEdgeKind(\'' + kind + '\')">' + kind.replace('_', ' ') + ' <span style="opacity:0.5;font-size:8px">' + cnt + '</span></span>';
-            });
-            html += '</div>';
-
         }
 
         el.innerHTML = html;
@@ -654,20 +620,51 @@ var GALAXY = (function () {
         if (_viewMode === 'finder') { el.style.display = 'none'; return; }
         el.style.display = '';
 
+        var html = '';
+
+        // ── Section: Categories ──
         var catCounts = {};
         galaxy.nodes.forEach(function (n) {
             if (n.category) catCounts[n.category] = (catCounts[n.category] || 0) + 1;
         });
-
-        var html = '';
+        html += '<div style="font-family:var(--mono);font-size:7px;letter-spacing:0.15em;color:var(--dim);opacity:0.5;padding:2px 7px;margin-bottom:2px">CATEGORIES</div>';
         Object.keys(CATEGORY_COLORS).forEach(function (cat) {
             if (!catCounts[cat]) return;
             var active = _activeFilter === cat ? ' active' : '';
             html += '<span class="cat-dot' + active + '" onclick="GALAXY.filterCategory(\'' + cat + '\')">';
             html += '<span class="cat-dot-circle" style="background:' + CATEGORY_COLORS[cat] + ';color:' + CATEGORY_COLORS[cat] + '"></span>';
-            html += cat;
+            html += cat + ' <span style="opacity:0.4;font-size:7px">' + catCounts[cat] + '</span>';
             html += '</span>';
         });
+
+        // ── Section: Edge Types ──
+        var edgeCounts = {};
+        (galaxy.edges || []).forEach(function (e) { edgeCounts[e.kind] = (edgeCounts[e.kind] || 0) + 1; });
+        var edgeColors = { PARENT: '#86868b', INHERITS: '#00ff88', CROSS_INTEL: '#ec4899', DOMAINS: '#f59e0b', CLUSTER: '#3b82f6', CODE_DEP: '#a855f7' };
+
+        html += '<div style="height:1px;background:rgba(255,255,255,0.06);margin:6px 0"></div>';
+        html += '<div style="font-family:var(--mono);font-size:7px;letter-spacing:0.15em;color:var(--dim);opacity:0.5;padding:2px 7px;margin-bottom:2px">EDGES</div>';
+        ['PARENT', 'INHERITS', 'CROSS_INTEL', 'DOMAINS', 'CLUSTER', 'CODE_DEP'].forEach(function (kind) {
+            var cnt = edgeCounts[kind] || 0;
+            if (cnt === 0) return;
+            var c = edgeColors[kind] || '#86868b';
+            var active = _exploreFilters.edgeKinds === kind ? ' active' : '';
+            html += '<span class="cat-dot' + active + '" onclick="GALAXY.filterEdgeKind(\'' + kind + '\')">';
+            html += '<span class="cat-dot-circle" style="background:' + c + ';color:' + c + '"></span>';
+            html += kind.replace('_', ' ') + ' <span style="opacity:0.4;font-size:7px">' + cnt + '</span>';
+            html += '</span>';
+        });
+
+        // ── Section: Stats ──
+        var st = galaxy.stats || {};
+        html += '<div style="height:1px;background:rgba(255,255,255,0.06);margin:6px 0"></div>';
+        html += '<div style="font-family:var(--mono);font-size:7px;letter-spacing:0.15em;color:var(--dim);opacity:0.5;padding:2px 7px;margin-bottom:2px">GRAPH</div>';
+        html += '<div style="font-family:var(--mono);font-size:8px;color:var(--dim);padding:2px 7px;line-height:1.6">';
+        html += (galaxy.nodes || []).length + ' nodes<br>';
+        html += (galaxy.edges || []).length + ' edges<br>';
+        html += (st.svc_count || 0) + ' services<br>';
+        html += (st.org_count || 0) + ' orgs';
+        html += '</div>';
 
         el.innerHTML = html;
     }
@@ -1143,9 +1140,10 @@ var GALAXY = (function () {
             edgeDS.update(updates);
         }
         renderControlPanel();
+        renderCatLegend();
     }
 
-    // Edge kind tracking for explore mode filtering
+    // Edge kind tracking for graph filtering
     var _edgeKindMap = {};  // vis edge id → galaxy edge kind
 
     // URL hash state for shareable links
