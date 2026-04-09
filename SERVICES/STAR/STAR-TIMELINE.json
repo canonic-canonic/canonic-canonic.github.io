@@ -3,11 +3,213 @@
     "contract": "canonic-canonic/MAGIC/SERVICES/STAR/STAR.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "generated": "2026-04-08T02:15:51Z",
+  "generated": "2026-04-09T02:47:56Z",
   "users": {
-    "AVINASH": {
-      "total": 13,
+    "ALLANA": {
+      "total": 5,
       "entries": [
+        {
+          "id": "63abef53084e",
+          "ts": "2026-04-08T17:51:09.186401Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "ALLANA",
+          "summary": "CLOSE +0 COIN — CLOSE epoch 2026-04",
+          "ref": "ed571c4c71ee",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
+        {
+          "id": "247e66b0cc69",
+          "ts": "2026-04-08T16:56:11.252666Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "ALLANA",
+          "summary": "MINT:WORK +32 COIN — Co-Investigator: ACS-Flatiron Real-World Data Impact Award (with recusal on ACS ",
+          "ref": "grant:ACS-Flatiron-Co-I",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 32,
+            "delta": 32,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "0aca73aa47bf",
+          "ts": "2026-04-08T16:56:10.156259Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "ALLANA",
+          "summary": "MINT:WORK +64 COIN — Ethics Board Lead: privacy architecture for CaribChat across 10 Caribbean jurisd",
+          "ref": "gov:ethics-board-caribchat",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "eac1e1ec4c27",
+          "ts": "2026-04-08T16:56:07.684802Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "ALLANA",
+          "summary": "MINT:WORK +64 COIN — Second author: Community Learning Ledgers for Cancer Navigation in SIDS (JAMA Ne",
+          "ref": "paper:JAMA-community-learning-ledgers-2nd-author",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "1c855008d653",
+          "ts": "2026-04-08T16:53:42.669988Z",
+          "stream": "VAULT",
+          "type": "MINT:SIGNUP",
+          "scope": "WALLET",
+          "principal": "ALLANA",
+          "summary": "MINT:SIGNUP +500 COIN — Signup bonus for ALLANA",
+          "ref": "board:2026-04-02-ROACH-APPOINTMENT",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 500,
+            "delta": 500,
+            "product": "SIGNUP"
+          }
+        }
+      ]
+    },
+    "ANIL": {
+      "total": 6,
+      "entries": [
+        {
+          "id": "8bd370818ee9",
+          "ts": "2026-04-08T17:51:09.197170Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "ANIL",
+          "summary": "CLOSE +0 COIN — CLOSE epoch 2026-04",
+          "ref": "8a29ea266b17",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
+        {
+          "id": "cf38aba5fbff",
+          "ts": "2026-04-08T16:56:26.846945Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "ANIL",
+          "summary": "MINT:WORK +32 COIN — ABOPM as submitting institution for ACS-Flatiron RWD Impact Award (ProposalCentr",
+          "ref": "grant:ACS-Flatiron-submitting-institution",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 32,
+            "delta": 32,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "83d5f921a1c2",
+          "ts": "2026-04-08T16:56:25.508640Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "ANIL",
+          "summary": "MINT:WORK +64 COIN — OmicsChat product vision + ABOPM distributed CRO strategy. RGN Med partnership (",
+          "ref": "product:OmicsChat-vision-distributed-CRO",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "8ef16823e67a",
+          "ts": "2026-04-08T16:56:22.512918Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "ANIL",
+          "summary": "MINT:WORK +32 COIN — Co-author: Community Learning Ledgers for Cancer Navigation in SIDS (JAMA Networ",
+          "ref": "paper:JAMA-community-learning-ledgers-coauthor",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 32,
+            "delta": 32,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "1b3e7fc6eda2",
+          "ts": "2026-04-08T16:56:21.555853Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "ANIL",
+          "summary": "MINT:WORK +64 COIN — Co-inventor: PROV-010 OmicsChat — Governed Community Learning for Precision Medi",
+          "ref": "patent:PROV-010",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "ec1d5ac33502",
+          "ts": "2026-04-08T16:53:43.729212Z",
+          "stream": "VAULT",
+          "type": "MINT:SIGNUP",
+          "scope": "WALLET",
+          "principal": "ANIL",
+          "summary": "MINT:SIGNUP +500 COIN — Signup bonus for ANIL",
+          "ref": "board:2026-04-02-BAJNATH-APPOINTMENT",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 500,
+            "delta": 500,
+            "product": "SIGNUP"
+          }
+        }
+      ]
+    },
+    "AVINASH": {
+      "total": 14,
+      "entries": [
+        {
+          "id": "6761240c13e7",
+          "ts": "2026-04-08T17:51:09.198515Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "AVINASH",
+          "summary": "CLOSE +0 COIN — CLOSE epoch 2026-04",
+          "ref": "23769b5f9854",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
         {
           "id": "07f764fcce93",
           "ts": "2026-04-01T13:23:25.809682Z",
@@ -183,8 +385,24 @@
       ]
     },
     "DEXTER": {
-      "total": 677,
+      "total": 678,
       "entries": [
+        {
+          "id": "226238daea6c",
+          "ts": "2026-04-08T17:51:09.202622Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "DEXTER",
+          "summary": "CLOSE +0 COIN — CLOSE epoch 2026-04",
+          "ref": "2675336e3689",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
         {
           "id": "d6339463c877",
           "ts": "2026-04-01T13:23:25.814115Z",
@@ -10996,8 +11214,24 @@
       ]
     },
     "FATIMA": {
-      "total": 75,
+      "total": 76,
       "entries": [
+        {
+          "id": "9d5764dae1bc",
+          "ts": "2026-04-08T17:51:09.204378Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "FATIMA",
+          "summary": "CLOSE +0 COIN — CLOSE epoch 2026-04",
+          "ref": "861a087c92cb",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
         {
           "id": "e4792911a387",
           "ts": "2026-04-01T13:23:25.815670Z",
@@ -11913,8 +12147,40 @@
       ]
     },
     "ILYA": {
-      "total": 13,
+      "total": 15,
       "entries": [
+        {
+          "id": "0bbe90cb9ecf",
+          "ts": "2026-04-08T19:56:13.292381Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "ILYA",
+          "summary": "MINT:WORK +128 COIN — Co-inventor: PROV-015 Governance-Preserving FHIR Pipeline. fhir-py author (207 s",
+          "ref": "patent:PROV-015",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 128,
+            "delta": 128,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "1c0939d4bbf9",
+          "ts": "2026-04-08T17:51:09.205456Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "ILYA",
+          "summary": "CLOSE +0 COIN — CLOSE epoch 2026-04",
+          "ref": "a478aed21df5",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
         {
           "id": "d63381fc10cc",
           "ts": "2026-04-01T13:23:25.816584Z",
@@ -12090,8 +12356,24 @@
       ]
     },
     "ISABELLA": {
-      "total": 13,
+      "total": 14,
       "entries": [
+        {
+          "id": "39099e45afba",
+          "ts": "2026-04-08T17:51:09.206408Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "ISABELLA",
+          "summary": "CLOSE +0 COIN — CLOSE epoch 2026-04",
+          "ref": "9d85b88b7c09",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
         {
           "id": "78469a5b386f",
           "ts": "2026-04-01T13:23:25.817445Z",
@@ -12266,9 +12548,110 @@
         }
       ]
     },
-    "JP": {
-      "total": 25,
+    "JOANN": {
+      "total": 5,
       "entries": [
+        {
+          "id": "534a5130bf89",
+          "ts": "2026-04-08T17:51:09.207557Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "JOANN",
+          "summary": "CLOSE +0 COIN — CLOSE epoch 2026-04",
+          "ref": "e0bd8a8638de",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
+        {
+          "id": "24f1650e3be8",
+          "ts": "2026-04-08T16:56:42.811767Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "JOANN",
+          "summary": "MINT:WORK +32 COIN — Bond & Vale PR engagement advisor: messaging strategy, 99Ravens backup suggestio",
+          "ref": "deal:bond-vale-advisor",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 32,
+            "delta": 32,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "ec2314325d5e",
+          "ts": "2026-04-08T16:56:40.374532Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "JOANN",
+          "summary": "MINT:WORK +64 COIN — Google Doc 'Canonic': two publication-ready pitches (Mother Jones investigative ",
+          "ref": "comms:google-doc-canonic-pitches",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "caf3488a4800",
+          "ts": "2026-04-08T16:56:37.532026Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "JOANN",
+          "summary": "MINT:WORK +64 COIN — PR messaging strategy: 'Fixing Healthcare Bleeding Wounds' blurb, lead-with-secu",
+          "ref": "comms:PR-messaging-strategy",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "01cce78e147f",
+          "ts": "2026-04-08T16:53:44.293781Z",
+          "stream": "VAULT",
+          "type": "MINT:SIGNUP",
+          "scope": "WALLET",
+          "principal": "JOANN",
+          "summary": "MINT:SIGNUP +500 COIN — Signup bonus for JOANN",
+          "ref": "board:2026-04-08-YAMANI-APPOINTMENT",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 500,
+            "delta": 500,
+            "product": "SIGNUP"
+          }
+        }
+      ]
+    },
+    "JP": {
+      "total": 26,
+      "entries": [
+        {
+          "id": "da23afa3e60e",
+          "ts": "2026-04-08T17:51:09.208410Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "JP",
+          "summary": "CLOSE +0 COIN — CLOSE epoch 2026-04",
+          "ref": "e5c112228876",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
         {
           "id": "fa6b4a66ded8",
           "ts": "2026-04-01T13:23:25.818461Z",
@@ -12587,9 +12970,275 @@
         }
       ]
     },
-    "ROBERT": {
-      "total": 15,
+    "KARMYN": {
+      "total": 4,
       "entries": [
+        {
+          "id": "e56a4bca7d2f",
+          "ts": "2026-04-08T17:51:09.209235Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "KARMYN",
+          "summary": "CLOSE +0 COIN — CLOSE epoch 2026-04",
+          "ref": "795319c0f254",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
+        {
+          "id": "33d3c56c4cd9",
+          "ts": "2026-04-08T17:20:03.352600Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "KARMYN",
+          "summary": "MINT:WORK +64 COIN — ON HAND spec script: 41 scenes, .fdx compiled, MAGIC 255. First SCREEN proof ins",
+          "ref": "product:ON-HAND-screenplay",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "948369dde7a9",
+          "ts": "2026-04-08T17:20:01.796166Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "KARMYN",
+          "summary": "MINT:WORK +64 COIN — Co-inventor: PROV-013 RWE Screenwriting — Governed AI for Visual Storytelling. 3",
+          "ref": "patent:PROV-013",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "50b526ed8560",
+          "ts": "2026-04-08T17:19:53.957051Z",
+          "stream": "VAULT",
+          "type": "MINT:SIGNUP",
+          "scope": "WALLET",
+          "principal": "KARMYN",
+          "summary": "MINT:SIGNUP +500 COIN — Signup bonus for KARMYN",
+          "ref": "patent:PROV-013-co-inventor",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 500,
+            "delta": 500,
+            "product": "SIGNUP"
+          }
+        }
+      ]
+    },
+    "MARISA": {
+      "total": 10,
+      "entries": [
+        {
+          "id": "0c1061caf782",
+          "ts": "2026-04-08T17:51:09.210213Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "MARISA",
+          "summary": "CLOSE +0 COIN — CLOSE epoch 2026-04",
+          "ref": "dbfb8ff67027",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
+        {
+          "id": "85461cfb33d8",
+          "ts": "2026-04-08T17:16:53.631247Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "MARISA",
+          "summary": "MINT:WORK +64 COIN — CAOH 2026 Annual Scientific Conference organizer. Jul 17-19 Hilton Trinidad. Lau",
+          "ref": "deal:CAOH-conference-2026",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "31d6325e0691",
+          "ts": "2026-04-08T17:16:50.682017Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "MARISA",
+          "summary": "MINT:WORK +255 COIN — CaribChat MAGIC 255/255 full governance walk. Chief Governor. 108+ sessions, 8 n",
+          "ref": "magic:CARIBCHAT-255",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 255,
+            "delta": 255,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "8d8b91e79d67",
+          "ts": "2026-04-08T17:16:47.871971Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "MARISA",
+          "summary": "MINT:WORK +32 COIN — PROV-013 (RWE screenwriting): 108 governed CaribChat sessions cited as evidence ",
+          "ref": "patent:PROV-013-evidence-corpus",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 32,
+            "delta": 32,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "22108b44a2d6",
+          "ts": "2026-04-08T17:16:46.082619Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "MARISA",
+          "summary": "MINT:WORK +64 COIN — Co-inventor: PROV-010 (governed community learning precision medicine) + PROV-01",
+          "ref": "patent:PROV-010+011",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "022d242e4737",
+          "ts": "2026-04-08T16:55:56.155691Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "MARISA",
+          "summary": "MINT:WORK +32 COIN — Co-Investigator: ACS-Flatiron Real-World Data Impact Award (ProposalCentral 1682",
+          "ref": "grant:ACS-Flatiron-Co-I",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 32,
+            "delta": 32,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "ea5aa74b7289",
+          "ts": "2026-04-08T16:55:51.971416Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "MARISA",
+          "summary": "MINT:WORK +64 COIN — CAOH institutional partnership: OECS (15 states) + CARICOM endorsement for Carib",
+          "ref": "deal:CAOH-OECS-endorsement",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "1164bf06ce4b",
+          "ts": "2026-04-08T16:55:47.160333Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "MARISA",
+          "summary": "MINT:WORK +64 COIN — First author: Community Learning Ledgers for Cancer Navigation in SIDS (JAMA Net",
+          "ref": "paper:JAMA-community-learning-ledgers",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "9864e7e61403",
+          "ts": "2026-04-08T16:55:42.781097Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "MARISA",
+          "summary": "MINT:WORK +128 COIN — Co-inventor: PROV-007 (community learning ledger), PROV-008 (cultural competency",
+          "ref": "patent:PROV-007+008+009",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 128,
+            "delta": 128,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "5f87a5bd8cd5",
+          "ts": "2026-04-08T16:53:42.135335Z",
+          "stream": "VAULT",
+          "type": "MINT:SIGNUP",
+          "scope": "WALLET",
+          "principal": "MARISA",
+          "summary": "MINT:SIGNUP +500 COIN — Signup bonus for MARISA",
+          "ref": "board:2026-03-31-NIMROD-APPOINTMENT",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 500,
+            "delta": 500,
+            "product": "SIGNUP"
+          }
+        }
+      ]
+    },
+    "ROBERT": {
+      "total": 17,
+      "entries": [
+        {
+          "id": "373826c51b9d",
+          "ts": "2026-04-08T17:51:13.441083Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "ROBERT",
+          "summary": "MINT:WORK +128 COIN — Co-inventor: PROV-014 Governed Real Estate Task Marketplace. 17 task types, 6 ve",
+          "ref": "patent:PROV-014",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 128,
+            "delta": 128,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "185526ed3ccd",
+          "ts": "2026-04-08T17:51:09.211209Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "ROBERT",
+          "summary": "CLOSE +0 COIN — CLOSE epoch 2026-04",
+          "ref": "0e2ab8df1c4f",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
         {
           "id": "307f99835a80",
           "ts": "2026-04-01T13:23:25.819442Z",
@@ -12788,9 +13437,94 @@
         }
       ]
     },
-    "YANA": {
-      "total": 15,
+    "ROBERTICO": {
+      "total": 3,
       "entries": [
+        {
+          "id": "b402876d1518",
+          "ts": "2026-04-08T17:51:09.212047Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "ROBERTICO",
+          "summary": "CLOSE +0 COIN — CLOSE epoch 2026-04",
+          "ref": "d293cf986289",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
+        {
+          "id": "a877152c7f49",
+          "ts": "2026-04-08T17:20:04.782853Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "ROBERTICO",
+          "summary": "MINT:WORK +64 COIN — Co-inventor: PROV-012 AI-Governed Health Tourism Coordination. Bidirectional hea",
+          "ref": "patent:PROV-012",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "de0eb03cd197",
+          "ts": "2026-04-08T17:19:54.408034Z",
+          "stream": "VAULT",
+          "type": "MINT:SIGNUP",
+          "scope": "WALLET",
+          "principal": "ROBERTICO",
+          "summary": "MINT:SIGNUP +500 COIN — Signup bonus for ROBERTICO",
+          "ref": "patent:PROV-012-co-inventor",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 500,
+            "delta": 500,
+            "product": "SIGNUP"
+          }
+        }
+      ]
+    },
+    "YANA": {
+      "total": 17,
+      "entries": [
+        {
+          "id": "18ae1050ded7",
+          "ts": "2026-04-08T19:56:15.753291Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "YANA",
+          "summary": "MINT:WORK +128 COIN — Co-inventor: PROV-016 Governed Native Surface. Secure Enclave key mgmt, Passkey ",
+          "ref": "patent:PROV-016",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 128,
+            "delta": 128,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "f92c4d5f7a0a",
+          "ts": "2026-04-08T17:51:09.213875Z",
+          "stream": "VAULT",
+          "type": "CLOSE",
+          "scope": "WALLET",
+          "principal": "YANA",
+          "summary": "CLOSE +0 COIN — CLOSE epoch 2026-04",
+          "ref": "fc5c3827a44c",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 0,
+            "delta": 0,
+            "product": "CLOSE"
+          }
+        },
         {
           "id": "bccc12203644",
           "ts": "2026-04-01T13:23:25.822725Z",

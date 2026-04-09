@@ -31,6 +31,7 @@ MUST NOT: Assume directory name equals page scope (GOV index.md scope: is author
 | JEKYLL_DEFAULT | default | Standard page: nav + hero + sections + footer + TALK. Views: gov, web. |
 | JEKYLL_ECON | default | Economic page: default layout + econ.json + wallet.json. Views: gov, web. |
 | JEKYLL_DECK | deck | Presentation: sections as slides + nav + timer + export. Views: gov, web. |
+| JEKYLL_NULL | null | Standalone HTML app: layout: null bypasses Jekyll processing. Full HTML in body. Views: gov, web. |
 | JEKYLL_CUSTOM | custom | Passthrough: hand-crafted HTML in markdown body. Views: gov, web. |
 | JEKYLL_POST | post | Content viewer: BLOGS (scope-adaptive). Views: gov, web. |
 | JEKYLL_PAPER | paper | Standalone paper: views (gov + web + tex) + math + contribute gate. Avoids Liquid stack overflow. |
@@ -75,6 +76,18 @@ MUST NOT: Assume directory name equals page scope (GOV index.md scope: is author
 | json_require | CANON.json: scope, surface_type |
 | controls.talk | top |
 | controls.download | ppt |
+| controls.view | web |
+| controls.views | gov, web |
+
+### JEKYLL_NULL
+
+| Key | Value |
+|-----|-------|
+| files | CANON.json, index.md |
+| md_contains | layout: null |
+| json_require | CANON.json: scope, surface_type |
+| controls.talk | none |
+| controls.download | |
 | controls.view | web |
 | controls.views | gov, web |
 

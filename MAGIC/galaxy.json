@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "88ef43d6365d5ae3"
+    "gov_hash": "254f373a23c1d2a0"
   },
-  "generated": "2026-04-08T02:15:51Z",
+  "generated": "2026-04-09T03:43:53Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -74,18 +74,18 @@
     ]
   },
   "stats": {
-    "total": 1030,
-    "avg_bits": 253,
-    "below_magic": 69,
-    "intel_coverage": 129,
-    "total_coin": 149567,
-    "total_events": 706,
-    "total_sessions": 203,
+    "total": 1037,
+    "avg_bits": 252,
+    "below_magic": 73,
+    "intel_coverage": 132,
+    "total_coin": 154358,
+    "total_events": 751,
+    "total_sessions": 208,
     "active_channels": 7,
     "user_count": 31,
     "org_count": 5,
-    "svc_count": 50,
-    "scope_count": 353,
+    "svc_count": 51,
+    "scope_count": 357,
     "fleet_health_pct": 99
   },
   "nodes": [
@@ -109,120 +109,39 @@
       "fleet_path": "",
       "children": 5,
       "wallet": {
-        "balance": 149567,
-        "events": 706,
+        "balance": 154358,
+        "events": 751,
         "last_close": "EPOCH-1",
         "totals": {
-          "credit": 150778,
+          "credit": 155569,
           "debit": 1211,
-          "net": 149567
+          "net": 154358
         },
         "recent_transactions": [
           {
-            "event": "SETTLE",
-            "amount": 35,
-            "delta": -35,
-            "note": "Settle 35 COIN to fiat",
-            "ts": "2026-02-27T06:19:58.814796Z",
-            "service": "WALLET",
-            "product": "SETTLE"
+            "event": "MINT:WORK",
+            "amount": 64,
+            "delta": 64,
+            "note": "ON HAND spec script: 41 scenes, .fdx compiled, MAGIC 255. First SCREEN proof instance. Karmyn Jones first user of governed screenwriting system.",
+            "ts": "2026-04-08T17:20:03.352600Z",
+            "service": "LEDGER",
+            "product": "WORK"
           },
           {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.475167Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.485961Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.487179Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.489254Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.490134Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.490950Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.491841Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.492958Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.495034Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "MINT:READ",
-            "amount": 1,
-            "delta": 1,
-            "note": "read:/talks/mammochat/",
-            "ts": "2026-03-15T19:35:43.156323Z",
-            "service": "WEB",
-            "product": "PAGEVIEW"
+            "event": "MINT:WORK",
+            "amount": 64,
+            "delta": 64,
+            "note": "Co-inventor: PROV-012 AI-Governed Health Tourism Coordination. Bidirectional healthcare coverage, caregiver respite, tourism-health demand forecasting. Salutem platform. 15 claims.",
+            "ts": "2026-04-08T17:20:04.782853Z",
+            "service": "LEDGER",
+            "product": "WORK"
           },
           {
             "event": "CLOSE",
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.809682Z",
+            "ts": "2026-04-08T17:51:09.186401Z",
             "service": "WALLET",
             "product": "CLOSE"
           },
@@ -231,7 +150,7 @@
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.814115Z",
+            "ts": "2026-04-08T17:51:09.197170Z",
             "service": "WALLET",
             "product": "CLOSE"
           },
@@ -240,7 +159,7 @@
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.815670Z",
+            "ts": "2026-04-08T17:51:09.198515Z",
             "service": "WALLET",
             "product": "CLOSE"
           },
@@ -249,7 +168,7 @@
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.816584Z",
+            "ts": "2026-04-08T17:51:09.202622Z",
             "service": "WALLET",
             "product": "CLOSE"
           },
@@ -258,7 +177,7 @@
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.817445Z",
+            "ts": "2026-04-08T17:51:09.204378Z",
             "service": "WALLET",
             "product": "CLOSE"
           },
@@ -267,7 +186,7 @@
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.818461Z",
+            "ts": "2026-04-08T17:51:09.205456Z",
             "service": "WALLET",
             "product": "CLOSE"
           },
@@ -276,7 +195,7 @@
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.819442Z",
+            "ts": "2026-04-08T17:51:09.206408Z",
             "service": "WALLET",
             "product": "CLOSE"
           },
@@ -285,7 +204,7 @@
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.821133Z",
+            "ts": "2026-04-08T17:51:09.207557Z",
             "service": "WALLET",
             "product": "CLOSE"
           },
@@ -294,9 +213,90 @@
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.822725Z",
+            "ts": "2026-04-08T17:51:09.208410Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.209235Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.210213Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.211209Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.212047Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.212905Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.213875Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-014 Governed Real Estate Task Marketplace. 17 task types, 6 vendor categories, 264 COIN/transaction, credential-gated, evidence-attested. First external domain proof. gorunner.pro live, 503 COIN minted.",
+            "ts": "2026-04-08T17:51:13.441083Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-015 Governance-Preserving FHIR Pipeline. fhir-py author (207 stars), 1174 commits, FHIR R4/R5 translation, provider-agnostic federation, evidence-tiered compilation. Backend for MammoChat/CaribChat/OmicsChat.",
+            "ts": "2026-04-08T19:56:13.292381Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-016 Governed Native Surface. Secure Enclave key mgmt, Passkey auth with governance extensions, offline attestation. Apple Dev #1, 94 commits, 6-country deployment. Frontend for all CANONIC services.",
+            "ts": "2026-04-08T19:56:15.753291Z",
+            "service": "LEDGER",
+            "product": "WORK"
           }
         ]
       },
@@ -3836,7 +3836,8 @@
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
-      "has_intel": false,
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR HISTORY. EVERY ECONOMIC EVENT RECORDED. APPEND-ONLY. NO ERASURE.**",
       "learning_count": 9,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
@@ -4638,7 +4639,8 @@
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
-      "has_intel": false,
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR PEOPLE. EVERY CREDENTIAL EVIDENCED. EVERY ROLE ATTESTED.**",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/VITAE",
       "children": 0,
@@ -5623,6 +5625,102 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/APPS/OMICSCHAT",
+      "kind": "SCOPE",
+      "label": "OMICSCHAT",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/OMICSCHAT",
+      "parent": "hadleylab-canonic/APPS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "APPS/OMICSCHAT",
+      "cross_intel": [
+        "MAMMOCHAT",
+        "ONCOCHAT",
+        "MEDCHAT",
+        "CARIBCHAT",
+        "LAWCHAT",
+        "FINCHAT",
+        "COIN",
+        "LEDGER",
+        "SOU"
+      ],
+      "children": 0,
+      "wallet": null,
+      "talk": {
+        "sessions": 7,
+        "last_session": "2026-04-06",
+        "channels": [
+          "OMICSCHAT"
+        ]
+      },
+      "learning": null,
+      "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/APPS/RUNNER",
+      "kind": "SCOPE",
+      "label": "RUNNER",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/RUNNER",
+      "parent": "hadleylab-canonic/APPS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "**KNOW YOUR OPERATIONS. EVERY VENDOR VETTED. EVERY TASK TRACKED. EVERY DOLLAR OF EFFORT EARNED.**",
+      "roadmap_now": "[ ] Next.js rebuild \u2014 gorunner.pro as governed APP instance (App Router, SSE streaming)",
+      "learning_count": 8,
+      "coverage_score": 255,
+      "coverage_open_gates": [
+        "STREAM_SSE",
+        "ASSET_PIPELINE",
+        "PLATFORM_MAC",
+        "PLATFORM_IOS",
+        "PLATFORM_ANDROID"
+      ],
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "APPS/RUNNER",
+      "cross_intel": [
+        "VITAE",
+        "COIN",
+        "LEDGER"
+      ],
+      "children": 0,
+      "wallet": null,
+      "talk": {
+        "sessions": 40,
+        "last_session": "2026-03-12",
+        "channels": [
+          "RUNNER"
+        ]
+      },
+      "learning": [
+        {
+          "date": "2026-04-08",
+          "signal": "ASSET_GOVERNANCE",
+          "pattern": "Clipart must stream \u2014 progressive illustration delivery via SSE. The plan renders as it builds. Asset pipeline is first-",
+          "source": "User directive"
+        }
+      ],
+      "score": 123
+    },
+    {
       "id": "hadleylab-canonic/BLOGS",
       "kind": "SCOPE",
       "label": "BLOGS",
@@ -5640,7 +5738,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "BLOGS",
-      "children": 70,
+      "children": 71,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -6246,7 +6344,7 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "roadmap_now": "[ ] Execute first HN engagement response (lawyer-who-won, 23 comments, draft at HACKERNEWS/RESPONSES/)",
-      "learning_count": 17,
+      "learning_count": 21,
       "coverage_open_gates": [
         "SUBSTACK_SETUP"
       ],
@@ -6257,10 +6355,10 @@
       "talk": null,
       "learning": [
         {
-          "date": "2026-04-05",
-          "signal": "BRANDING_CONSTRAINT",
-          "pattern": "CAOH must be co-attributed on all external CaribChat references. OECS endorsed CAOH, not CANONIC. OmicsChat must co-attr",
-          "source": "Marisa email (2026-04-04)"
+          "date": "2026-04-08",
+          "signal": "REDDIT_DEGRADED",
+          "pattern": "Live Reddit audit: account active (karma 14), 4/6 posts mod-removed. Not suspended. Comment strategy viable (-4 to +10 s",
+          "source": "Reddit JSON API audit"
         }
       ],
       "score": 123
@@ -6284,7 +6382,7 @@
       "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR TECHNICAL AUDIENCE. EVERY SUBMISSION FACTUAL. EVERY TITLE HONEST.**",
       "roadmap_now": "[ ] Set up HN comment monitoring \u2014 RSS feed, Firebase API polling, or hnreplies.com for reply notifications",
-      "learning_count": 1,
+      "learning_count": 3,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/HACKERNEWS",
       "children": 0,
@@ -6292,10 +6390,10 @@
       "talk": null,
       "learning": [
         {
-          "date": "2026-03-25",
-          "signal": "REFERENCE_PROMOTED",
-          "pattern": "HN Account Recovery: HackerNews account idrdex \u2014 password reset in progress, emailed HN to keep username",
-          "source": "intake:reference_hn_account.md"
+          "date": "2026-04-08",
+          "signal": "ENGAGEMENT_LOOP_OPEN",
+          "pattern": "23 comments on Lawyer Who Won (T+336h), 1 direct question on Achieve Podcast (iririririr: \"who governs your governance?\"",
+          "source": "SLA breach audit, CANON.md update"
         }
       ],
       "score": 123
@@ -6439,7 +6537,7 @@
       "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR COMMUNITIES. EVERY POST PLATFORM-NATIVE. EVERY DISCUSSION SUBSTANTIVE.**",
       "roadmap_now": "[ ] Apply for Reddit API access via Responsible Builder Policy approval form (self-service OAuth closed ~Oct 2025, admin approval required, no SLA on turnaround)",
-      "learning_count": 10,
+      "learning_count": 11,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/REDDIT",
       "children": 0,
@@ -6447,10 +6545,10 @@
       "talk": null,
       "learning": [
         {
-          "date": "2026-03-25",
-          "signal": "FEEDBACK_PROMOTED",
-          "pattern": "Reddit subreddit targeting: r/MachineLearning rejects governance posts \u2014 only ML/stats content. Use r/artificial for AI",
-          "source": "intake:feedback_reddit_subreddits.md"
+          "date": "2026-04-08",
+          "signal": "DEGRADED_AUDIT",
+          "pattern": "Live audit: account active (NOT suspended), karma 14, 6 posts visible, 4/6 mod-removed (r/MachineLearning x2, r/artifici",
+          "source": "Reddit JSON API audit, 2026-04-08"
         }
       ],
       "score": 123
@@ -6541,122 +6639,41 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
-      "children": 18,
+      "children": 19,
       "wallet": {
-        "balance": 149567,
-        "events": 706,
+        "balance": 154358,
+        "events": 751,
         "last_close": "EPOCH-1",
         "totals": {
-          "credit": 150778,
+          "credit": 155569,
           "debit": 1211,
-          "net": 149567
+          "net": 154358
         },
         "recent_transactions": [
           {
-            "event": "SETTLE",
-            "amount": 35,
-            "delta": -35,
-            "note": "Settle 35 COIN to fiat",
-            "ts": "2026-02-27T06:19:58.814796Z",
-            "service": "WALLET",
-            "product": "SETTLE"
+            "event": "MINT:WORK",
+            "amount": 64,
+            "delta": 64,
+            "note": "ON HAND spec script: 41 scenes, .fdx compiled, MAGIC 255. First SCREEN proof instance. Karmyn Jones first user of governed screenwriting system.",
+            "ts": "2026-04-08T17:20:03.352600Z",
+            "service": "LEDGER",
+            "product": "WORK"
           },
           {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.475167Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.485961Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.487179Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.489254Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.490134Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.490950Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.491841Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.492958Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-03",
-            "ts": "2026-03-15T17:19:37.495034Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "MINT:READ",
-            "amount": 1,
-            "delta": 1,
-            "note": "read:/talks/mammochat/",
-            "ts": "2026-03-15T19:35:43.156323Z",
-            "service": "WEB",
-            "product": "PAGEVIEW"
+            "event": "MINT:WORK",
+            "amount": 64,
+            "delta": 64,
+            "note": "Co-inventor: PROV-012 AI-Governed Health Tourism Coordination. Bidirectional healthcare coverage, caregiver respite, tourism-health demand forecasting. Salutem platform. 15 claims.",
+            "ts": "2026-04-08T17:20:04.782853Z",
+            "service": "LEDGER",
+            "product": "WORK"
           },
           {
             "event": "CLOSE",
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.809682Z",
+            "ts": "2026-04-08T17:51:09.186401Z",
             "service": "WALLET",
             "product": "CLOSE"
           },
@@ -6665,7 +6682,7 @@
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.814115Z",
+            "ts": "2026-04-08T17:51:09.197170Z",
             "service": "WALLET",
             "product": "CLOSE"
           },
@@ -6674,7 +6691,7 @@
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.815670Z",
+            "ts": "2026-04-08T17:51:09.198515Z",
             "service": "WALLET",
             "product": "CLOSE"
           },
@@ -6683,7 +6700,7 @@
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.816584Z",
+            "ts": "2026-04-08T17:51:09.202622Z",
             "service": "WALLET",
             "product": "CLOSE"
           },
@@ -6692,7 +6709,7 @@
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.817445Z",
+            "ts": "2026-04-08T17:51:09.204378Z",
             "service": "WALLET",
             "product": "CLOSE"
           },
@@ -6701,7 +6718,7 @@
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.818461Z",
+            "ts": "2026-04-08T17:51:09.205456Z",
             "service": "WALLET",
             "product": "CLOSE"
           },
@@ -6710,7 +6727,7 @@
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.819442Z",
+            "ts": "2026-04-08T17:51:09.206408Z",
             "service": "WALLET",
             "product": "CLOSE"
           },
@@ -6719,7 +6736,7 @@
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.821133Z",
+            "ts": "2026-04-08T17:51:09.207557Z",
             "service": "WALLET",
             "product": "CLOSE"
           },
@@ -6728,9 +6745,90 @@
             "amount": 0,
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-01T13:23:25.822725Z",
+            "ts": "2026-04-08T17:51:09.208410Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.209235Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.210213Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.211209Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.212047Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.212905Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.213875Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-014 Governed Real Estate Task Marketplace. 17 task types, 6 vendor categories, 264 COIN/transaction, credential-gated, evidence-attested. First external domain proof. gorunner.pro live, 503 COIN minted.",
+            "ts": "2026-04-08T17:51:13.441083Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-015 Governance-Preserving FHIR Pipeline. fhir-py author (207 stars), 1174 commits, FHIR R4/R5 translation, provider-agnostic federation, evidence-tiered compilation. Backend for MammoChat/CaribChat/OmicsChat.",
+            "ts": "2026-04-08T19:56:13.292381Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-016 Governed Native Surface. Secure Enclave key mgmt, Passkey auth with governance extensions, offline attestation. Apple Dev #1, 94 commits, 6-country deployment. Frontend for all CANONIC services.",
+            "ts": "2026-04-08T19:56:15.753291Z",
+            "service": "LEDGER",
+            "product": "WORK"
           }
         ]
       },
@@ -7374,7 +7472,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS",
-      "children": 10,
+      "children": 11,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -7761,6 +7859,32 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/DECKS/SGU",
+      "kind": "SCOPE",
+      "label": "SGU",
+      "repo": "hadleylab-canonic",
+      "path": "DECKS/SGU",
+      "parent": "hadleylab-canonic/DECKS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "privacy": "PUBLIC",
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_DECK",
+      "fleet_path": "DECKS/SGU",
+      "children": 1,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
+    },
+    {
       "id": "hadleylab-canonic/DECKS/STRONG-HER",
       "kind": "SCOPE",
       "label": "STRONG-HER",
@@ -8047,7 +8171,7 @@
       "children": 7,
       "wallet": null,
       "talk": {
-        "sessions": 131,
+        "sessions": 136,
         "last_session": "2026-04-08",
         "channels": [
           "CARIBCHAT"
@@ -8179,6 +8303,61 @@
         }
       ],
       "score": 123
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/APP",
+      "kind": "SERVICE",
+      "label": "APP",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/APP",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "[ ] Asset pipeline \u2014 governed clipart/icons from APPS/{SCOPE}/ASSETS/, hash-verified at build",
+      "learning_count": 4,
+      "coverage_score": 255,
+      "coverage_open_gates": [
+        "PLATFORM_COMPILE",
+        "ASSET_PIPELINE",
+        "STREAM_ARCH",
+        "OFFLINE_CACHE"
+      ],
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/APP",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": [
+        {
+          "date": "2026-04-08",
+          "signal": "SERVICE_CREATED",
+          "pattern": "APP service promoted from TALK. RUNNER (gorunner.pro) was first proof: real estate task blockchain built as TALK instanc",
+          "source": "Service architecture session"
+        },
+        {
+          "date": "2026-04-08",
+          "signal": "PLATFORM_AXIOM",
+          "pattern": "Next.js, Mac, iOS, Android are all apps \u2014 same governance, different platform targets. Single CANON.md compiles to all p",
+          "source": "User directive"
+        },
+        {
+          "date": "2026-04-08",
+          "signal": "ASSET_GOVERNANCE",
+          "pattern": "Clipart, illustrations, and streaming media must be governed assets \u2014 hash-verified, build-compiled, not CDN-fetched. Th",
+          "source": "User directive"
+        },
+        {
+          "date": "2026-04-08",
+          "signal": "ARISE_CITATION",
+          "pattern": "Stanford-Harvard ARISE Report (X-134) and NOHARM benchmark (X-135) ledgered as reusable citations. 22.2% severe harm rat",
+          "source": "Citation ledger session"
+        }
+      ],
+      "score": 128
     },
     {
       "id": "hadleylab-canonic/SERVICES/AUTH",
@@ -8468,7 +8647,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SERVICES",
-      "children": 38,
+      "children": 39,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -9967,7 +10146,7 @@
       "children": 1,
       "wallet": null,
       "talk": {
-        "sessions": 203,
+        "sessions": 208,
         "last_session": "2026-04-08",
         "channels": [
           "ACHIEVE",
@@ -10722,7 +10901,7 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "intel_summary": "| Field | Value |",
-      "learning_count": 2,
+      "learning_count": 3,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/ACHIEVE",
       "cross_intel": [
@@ -10977,7 +11156,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 162,
+      "learning_count": 167,
       "coverage_score": 255,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/CARIBCHAT",
@@ -10988,43 +11167,13 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 131,
+        "sessions": 136,
         "last_session": "2026-04-08",
         "channels": [
           "CARIBCHAT"
         ]
       },
       "learning": [
-        {
-          "date": "2026-04-06",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Clinical trials enrolling in the Caribbean for breast cancer 2026",
-          "source": "8c462311-f5c9-41ef-a947-402d209c8b5b"
-        },
-        {
-          "date": "2026-04-06",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Cervical cancer screening strategy for country without HPV vaccination program",
-          "source": "api.canonic.org/talk"
-        },
-        {
-          "date": "2026-04-06",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "How to establish a tumor board in a hospital with one oncologist",
-          "source": "api.canonic.org/talk"
-        },
-        {
-          "date": "2026-04-06",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Prostate cancer incidence in Caribbean men compared to African American men",
-          "source": "b8a57a45-cf87-4903-854e-a627db0d3eff"
-        },
-        {
-          "date": "2026-04-06",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Pain management for terminal cancer patient when morphine is not on national for",
-          "source": "77ad9542-dce0-48a5-85de-ba65e601c3fb"
-        },
         {
           "date": "2026-04-06",
           "signal": "SESSION_LEDGERED",
@@ -11054,6 +11203,36 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "The block has to be shipped abroad",
           "source": "60d8728f-9ba3-4cb4-b470-4707d17c14de"
+        },
+        {
+          "date": "2026-04-08",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "I do not feel like i can go on",
+          "source": "c4e266c9-8a4e-49e3-a4ff-9229c56aebf0"
+        },
+        {
+          "date": "2026-04-08",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Burden is too much and i don't have much home support",
+          "source": "1897ed49-2166-4563-83e4-0e742a872b74"
+        },
+        {
+          "date": "2026-04-08",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "I don't want to call anyone",
+          "source": "188210cd-5183-4c49-9a87-10feb92cfa15"
+        },
+        {
+          "date": "2026-04-08",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "I have a lot of work to do in work",
+          "source": "18364341-b3d1-449e-98ad-ea934917cfcf"
+        },
+        {
+          "date": "2026-04-08",
+          "signal": "SESSION_LEDGERED",
+          "pattern": "Everything in work seems important. I do not want to burden my team",
+          "source": "7f3818df-175a-4c73-bff0-015c6794f19c"
         }
       ],
       "score": 128
@@ -12338,7 +12517,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 4,
+        "events": 5,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -12379,6 +12558,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.809682Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.198515Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -12415,7 +12603,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 4,
+        "events": 5,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -12456,6 +12644,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.809682Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.198515Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -12485,7 +12682,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 4,
+        "events": 5,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -12526,6 +12723,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.809682Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.198515Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -12582,7 +12788,7 @@
       "children": 2,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "",
         "totals": {
           "credit": 500,
@@ -12614,6 +12820,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.815670Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.204378Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -12704,7 +12919,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "",
         "totals": {
           "credit": 500,
@@ -12736,6 +12951,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.815670Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.204378Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -12765,7 +12989,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "",
         "totals": {
           "credit": 500,
@@ -12797,6 +13021,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.815670Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.204378Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -12914,13 +13147,13 @@
       "fleet_path": "USERS/ILYA/CHAT",
       "children": 0,
       "wallet": {
-        "balance": 500,
-        "events": 4,
+        "balance": 628,
+        "events": 6,
         "last_close": "EPOCH-1",
         "totals": {
-          "credit": 500,
+          "credit": 628,
           "debit": 0,
-          "net": 500
+          "net": 628
         },
         "recent_transactions": [
           {
@@ -12958,6 +13191,24 @@
             "ts": "2026-04-01T13:23:25.816584Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.205456Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-015 Governance-Preserving FHIR Pipeline. fhir-py author (207 stars), 1174 commits, FHIR R4/R5 translation, provider-agnostic federation, evidence-tiered compilation. Backend for MammoChat/CaribChat/OmicsChat.",
+            "ts": "2026-04-08T19:56:13.292381Z",
+            "service": "LEDGER",
+            "product": "WORK"
           }
         ]
       },
@@ -12991,13 +13242,13 @@
       "fleet_path": "USERS/ILYA/SERVICES/LEARNING",
       "children": 0,
       "wallet": {
-        "balance": 500,
-        "events": 4,
+        "balance": 628,
+        "events": 6,
         "last_close": "EPOCH-1",
         "totals": {
-          "credit": 500,
+          "credit": 628,
           "debit": 0,
-          "net": 500
+          "net": 628
         },
         "recent_transactions": [
           {
@@ -13035,6 +13286,24 @@
             "ts": "2026-04-01T13:23:25.816584Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.205456Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-015 Governance-Preserving FHIR Pipeline. fhir-py author (207 stars), 1174 commits, FHIR R4/R5 translation, provider-agnostic federation, evidence-tiered compilation. Backend for MammoChat/CaribChat/OmicsChat.",
+            "ts": "2026-04-08T19:56:13.292381Z",
+            "service": "LEDGER",
+            "product": "WORK"
           }
         ]
       },
@@ -13061,13 +13330,13 @@
       "fleet_path": "USERS/ILYA/SERVICES/SHOP",
       "children": 0,
       "wallet": {
-        "balance": 500,
-        "events": 4,
+        "balance": 628,
+        "events": 6,
         "last_close": "EPOCH-1",
         "totals": {
-          "credit": 500,
+          "credit": 628,
           "debit": 0,
-          "net": 500
+          "net": 628
         },
         "recent_transactions": [
           {
@@ -13105,6 +13374,24 @@
             "ts": "2026-04-01T13:23:25.816584Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.205456Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-015 Governance-Preserving FHIR Pipeline. fhir-py author (207 stars), 1174 commits, FHIR R4/R5 translation, provider-agnostic federation, evidence-tiered compilation. Backend for MammoChat/CaribChat/OmicsChat.",
+            "ts": "2026-04-08T19:56:13.292381Z",
+            "service": "LEDGER",
+            "product": "WORK"
           }
         ]
       },
@@ -13134,7 +13421,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 4,
+        "events": 5,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -13175,6 +13462,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.817445Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.206408Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -13211,7 +13507,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 4,
+        "events": 5,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -13252,6 +13548,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.817445Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.206408Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -13281,7 +13586,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 4,
+        "events": 5,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -13322,6 +13627,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.817445Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.206408Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -13353,7 +13667,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 4,
+        "events": 5,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -13394,6 +13708,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.818461Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.208410Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -13430,7 +13753,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 4,
+        "events": 5,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -13471,6 +13794,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.818461Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.208410Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -13500,7 +13832,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 4,
+        "events": 5,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -13541,6 +13873,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.818461Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.208410Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -13571,13 +13912,13 @@
       "fleet_path": "USERS/ROBERT/CHAT",
       "children": 0,
       "wallet": {
-        "balance": 503,
-        "events": 4,
+        "balance": 631,
+        "events": 6,
         "last_close": "",
         "totals": {
-          "credit": 503,
+          "credit": 631,
           "debit": 0,
-          "net": 503
+          "net": 631
         },
         "recent_transactions": [
           {
@@ -13615,6 +13956,24 @@
             "ts": "2026-04-01T13:23:25.819442Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.211209Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-014 Governed Real Estate Task Marketplace. 17 task types, 6 vendor categories, 264 COIN/transaction, credential-gated, evidence-attested. First external domain proof. gorunner.pro live, 503 COIN minted.",
+            "ts": "2026-04-08T17:51:13.441083Z",
+            "service": "LEDGER",
+            "product": "WORK"
           }
         ]
       },
@@ -13648,13 +14007,13 @@
       "fleet_path": "USERS/ROBERT/SERVICES/LEARNING",
       "children": 0,
       "wallet": {
-        "balance": 503,
-        "events": 4,
+        "balance": 631,
+        "events": 6,
         "last_close": "",
         "totals": {
-          "credit": 503,
+          "credit": 631,
           "debit": 0,
-          "net": 503
+          "net": 631
         },
         "recent_transactions": [
           {
@@ -13692,6 +14051,24 @@
             "ts": "2026-04-01T13:23:25.819442Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.211209Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-014 Governed Real Estate Task Marketplace. 17 task types, 6 vendor categories, 264 COIN/transaction, credential-gated, evidence-attested. First external domain proof. gorunner.pro live, 503 COIN minted.",
+            "ts": "2026-04-08T17:51:13.441083Z",
+            "service": "LEDGER",
+            "product": "WORK"
           }
         ]
       },
@@ -13718,13 +14095,13 @@
       "fleet_path": "USERS/ROBERT/SERVICES/SHOP",
       "children": 0,
       "wallet": {
-        "balance": 503,
-        "events": 4,
+        "balance": 631,
+        "events": 6,
         "last_close": "",
         "totals": {
-          "credit": 503,
+          "credit": 631,
           "debit": 0,
-          "net": 503
+          "net": 631
         },
         "recent_transactions": [
           {
@@ -13762,6 +14139,24 @@
             "ts": "2026-04-01T13:23:25.819442Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.211209Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-014 Governed Real Estate Task Marketplace. 17 task types, 6 vendor categories, 264 COIN/transaction, credential-gated, evidence-attested. First external domain proof. gorunner.pro live, 503 COIN minted.",
+            "ts": "2026-04-08T17:51:13.441083Z",
+            "service": "LEDGER",
+            "product": "WORK"
           }
         ]
       },
@@ -13790,13 +14185,13 @@
       "fleet_path": "USERS/YANA/CHAT",
       "children": 0,
       "wallet": {
-        "balance": 560,
-        "events": 6,
+        "balance": 688,
+        "events": 8,
         "last_close": "EPOCH-1",
         "totals": {
-          "credit": 595,
+          "credit": 723,
           "debit": 35,
-          "net": 560
+          "net": 688
         },
         "recent_transactions": [
           {
@@ -13852,6 +14247,24 @@
             "ts": "2026-04-01T13:23:25.822725Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.213875Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-016 Governed Native Surface. Secure Enclave key mgmt, Passkey auth with governance extensions, offline attestation. Apple Dev #1, 94 commits, 6-country deployment. Frontend for all CANONIC services.",
+            "ts": "2026-04-08T19:56:15.753291Z",
+            "service": "LEDGER",
+            "product": "WORK"
           }
         ]
       },
@@ -13885,13 +14298,13 @@
       "fleet_path": "USERS/YANA/SERVICES/LEARNING",
       "children": 0,
       "wallet": {
-        "balance": 560,
-        "events": 6,
+        "balance": 688,
+        "events": 8,
         "last_close": "EPOCH-1",
         "totals": {
-          "credit": 595,
+          "credit": 723,
           "debit": 35,
-          "net": 560
+          "net": 688
         },
         "recent_transactions": [
           {
@@ -13947,6 +14360,24 @@
             "ts": "2026-04-01T13:23:25.822725Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.213875Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-016 Governed Native Surface. Secure Enclave key mgmt, Passkey auth with governance extensions, offline attestation. Apple Dev #1, 94 commits, 6-country deployment. Frontend for all CANONIC services.",
+            "ts": "2026-04-08T19:56:15.753291Z",
+            "service": "LEDGER",
+            "product": "WORK"
           }
         ]
       },
@@ -13973,13 +14404,13 @@
       "fleet_path": "USERS/YANA/SERVICES/SHOP",
       "children": 0,
       "wallet": {
-        "balance": 560,
-        "events": 6,
+        "balance": 688,
+        "events": 8,
         "last_close": "EPOCH-1",
         "totals": {
-          "credit": 595,
+          "credit": 723,
           "debit": 35,
-          "net": 560
+          "net": 688
         },
         "recent_transactions": [
           {
@@ -14035,6 +14466,24 @@
             "ts": "2026-04-01T13:23:25.822725Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.213875Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-016 Governed Native Surface. Secure Enclave key mgmt, Passkey auth with governance extensions, offline attestation. Apple Dev #1, 94 commits, 6-country deployment. Frontend for all CANONIC services.",
+            "ts": "2026-04-08T19:56:15.753291Z",
+            "service": "LEDGER",
+            "product": "WORK"
           }
         ]
       },
@@ -14314,7 +14763,7 @@
       "children": 2,
       "wallet": null,
       "talk": {
-        "sessions": 203,
+        "sessions": 208,
         "last_session": "2026-04-08",
         "channels": [
           "ACHIEVE",
@@ -14348,7 +14797,7 @@
       "children": 0,
       "wallet": null,
       "talk": {
-        "sessions": 203,
+        "sessions": 208,
         "last_session": "2026-04-08",
         "channels": [
           "ACHIEVE",
@@ -19971,7 +20420,7 @@
       "children": 0,
       "wallet": {
         "balance": 145499,
-        "events": 671,
+        "events": 672,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 146640,
@@ -19979,15 +20428,6 @@
           "net": 145499
         },
         "recent_transactions": [
-          {
-            "event": "MINT:WORK",
-            "amount": 127,
-            "delta": 127,
-            "note": "backfill:SECTORS",
-            "ts": "2026-02-23T15:26:38.029313Z",
-            "service": "LEDGER",
-            "product": "WORK"
-          },
           {
             "event": "MINT:WORK",
             "amount": 255,
@@ -20158,6 +20598,15 @@
             "ts": "2026-04-01T13:23:25.814115Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.202622Z",
+            "service": "WALLET",
+            "product": "CLOSE"
           }
         ]
       },
@@ -20181,13 +20630,13 @@
       "fleet_path": "USERS/ROBERT/VITAE",
       "children": 0,
       "wallet": {
-        "balance": 503,
-        "events": 4,
+        "balance": 631,
+        "events": 6,
         "last_close": "",
         "totals": {
-          "credit": 503,
+          "credit": 631,
           "debit": 0,
-          "net": 503
+          "net": 631
         },
         "recent_transactions": [
           {
@@ -20225,6 +20674,24 @@
             "ts": "2026-04-01T13:23:25.819442Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.211209Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-014 Governed Real Estate Task Marketplace. 17 task types, 6 vendor categories, 264 COIN/transaction, credential-gated, evidence-attested. First external domain proof. gorunner.pro live, 503 COIN minted.",
+            "ts": "2026-04-08T17:51:13.441083Z",
+            "service": "LEDGER",
+            "product": "WORK"
           }
         ]
       },
@@ -21655,6 +22122,27 @@
       "fleet_path": "BLOGS/2026-04-07-the-fixed-point",
       "children": 0,
       "date": "2026-04-07",
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/BLOGS/2026-04-09-what-karpathy-got-right",
+      "kind": "CONTENT",
+      "label": "WHAT KARPATHY GOT RIGHT",
+      "repo": "hadleylab-canonic",
+      "path": "BLOGS/2026-04-09-what-karpathy-got-right",
+      "parent": "hadleylab-canonic/BLOGS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_POST",
+      "fleet_path": "BLOGS/2026-04-09-what-karpathy-got-right",
+      "children": 0,
+      "date": "2026-04-09",
       "wallet": null,
       "talk": null,
       "learning": null,
@@ -24681,11 +25169,11 @@
       "score": 123
     },
     {
-      "id": "hadleylab-canonic/CAMPAIGNS/HEALTH-AI-SUMMIT-2026",
+      "id": "hadleylab-canonic/CAMPAIGNS/KARPATHY-KNOWLEDGE-GRAPH-2026",
       "kind": "CONTENT",
-      "label": "HEALTH-AI-SUMMIT-2026",
+      "label": "KARPATHY-KNOWLEDGE-GRAPH-2026",
       "repo": "hadleylab-canonic",
-      "path": "CAMPAIGNS/HEALTH-AI-SUMMIT-2026",
+      "path": "CAMPAIGNS/KARPATHY-KNOWLEDGE-GRAPH-2026",
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "color": "#64748b",
       "category": "ORG",
@@ -24693,7 +25181,7 @@
       "tier": "COMMUNITY",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "CAMPAIGNS/HEALTH-AI-SUMMIT-2026",
+      "fleet_path": "CAMPAIGNS/KARPATHY-KNOWLEDGE-GRAPH-2026",
       "children": 0,
       "wallet": null,
       "talk": null,
@@ -25739,6 +26227,26 @@
       "talk": null,
       "learning": null,
       "score": 128
+    },
+    {
+      "id": "hadleylab-canonic/DECKS/SGU/DECK",
+      "kind": "CONTENT",
+      "label": "DECK",
+      "repo": "hadleylab-canonic",
+      "path": "DECKS/SGU/DECK",
+      "parent": "hadleylab-canonic/DECKS/SGU",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DECKS/SGU/DECK",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 123
     },
     {
       "id": "hadleylab-canonic/DECKS/STRONG-HER/DECK",
@@ -29817,7 +30325,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "",
         "totals": {
           "credit": 500,
@@ -29849,6 +30357,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.815670Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.204378Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -29875,7 +30392,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "",
         "totals": {
           "credit": 500,
@@ -29907,6 +30424,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.815670Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.204378Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -29933,7 +30459,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "",
         "totals": {
           "credit": 500,
@@ -29965,6 +30491,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.815670Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.204378Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -29991,7 +30526,7 @@
       "children": 0,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "",
         "totals": {
           "credit": 500,
@@ -30023,6 +30558,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.815670Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.204378Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -31153,6 +31697,36 @@
       "score": 0
     },
     {
+      "id": "hadleylab-canonic/APPS",
+      "kind": "SCOPE",
+      "label": "APPS",
+      "repo": "hadleylab-canonic",
+      "path": "APPS",
+      "parent": "hadleylab-canonic",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 0,
+      "tier": "NONE",
+      "missing_dims": [
+        "D",
+        "E",
+        "T",
+        "R",
+        "O",
+        "S",
+        "L",
+        "LANG"
+      ],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "APPS",
+      "children": 2,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 0
+    },
+    {
       "id": "hadleylab-canonic/USERS/AVINASH/SERVICES",
       "kind": "USER",
       "label": "SERVICES",
@@ -31179,7 +31753,7 @@
       "children": 2,
       "wallet": {
         "balance": 500,
-        "events": 4,
+        "events": 5,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -31222,6 +31796,15 @@
             "ts": "2026-04-01T13:23:25.809682Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.198515Z",
+            "service": "WALLET",
+            "product": "CLOSE"
           }
         ]
       },
@@ -31256,7 +31839,7 @@
       "children": 2,
       "wallet": {
         "balance": 500,
-        "events": 3,
+        "events": 4,
         "last_close": "",
         "totals": {
           "credit": 500,
@@ -31288,6 +31871,15 @@
             "delta": 0,
             "note": "CLOSE epoch 2026-04",
             "ts": "2026-04-01T13:23:25.815670Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.204378Z",
             "service": "WALLET",
             "product": "CLOSE"
           }
@@ -31323,13 +31915,13 @@
       "fleet_path": "USERS/ILYA/SERVICES",
       "children": 2,
       "wallet": {
-        "balance": 500,
-        "events": 4,
+        "balance": 628,
+        "events": 6,
         "last_close": "EPOCH-1",
         "totals": {
-          "credit": 500,
+          "credit": 628,
           "debit": 0,
-          "net": 500
+          "net": 628
         },
         "recent_transactions": [
           {
@@ -31367,6 +31959,24 @@
             "ts": "2026-04-01T13:23:25.816584Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.205456Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-015 Governance-Preserving FHIR Pipeline. fhir-py author (207 stars), 1174 commits, FHIR R4/R5 translation, provider-agnostic federation, evidence-tiered compilation. Backend for MammoChat/CaribChat/OmicsChat.",
+            "ts": "2026-04-08T19:56:13.292381Z",
+            "service": "LEDGER",
+            "product": "WORK"
           }
         ]
       },
@@ -31401,7 +32011,7 @@
       "children": 2,
       "wallet": {
         "balance": 500,
-        "events": 4,
+        "events": 5,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -31444,6 +32054,15 @@
             "ts": "2026-04-01T13:23:25.817445Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.206408Z",
+            "service": "WALLET",
+            "product": "CLOSE"
           }
         ]
       },
@@ -31478,7 +32097,7 @@
       "children": 2,
       "wallet": {
         "balance": 500,
-        "events": 4,
+        "events": 5,
         "last_close": "EPOCH-1",
         "totals": {
           "credit": 500,
@@ -31521,6 +32140,15 @@
             "ts": "2026-04-01T13:23:25.818461Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.208410Z",
+            "service": "WALLET",
+            "product": "CLOSE"
           }
         ]
       },
@@ -31554,13 +32182,13 @@
       "fleet_path": "USERS/ROBERT/SERVICES",
       "children": 2,
       "wallet": {
-        "balance": 503,
-        "events": 4,
+        "balance": 631,
+        "events": 6,
         "last_close": "",
         "totals": {
-          "credit": 503,
+          "credit": 631,
           "debit": 0,
-          "net": 503
+          "net": 631
         },
         "recent_transactions": [
           {
@@ -31598,6 +32226,24 @@
             "ts": "2026-04-01T13:23:25.819442Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.211209Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-014 Governed Real Estate Task Marketplace. 17 task types, 6 vendor categories, 264 COIN/transaction, credential-gated, evidence-attested. First external domain proof. gorunner.pro live, 503 COIN minted.",
+            "ts": "2026-04-08T17:51:13.441083Z",
+            "service": "LEDGER",
+            "product": "WORK"
           }
         ]
       },
@@ -31631,13 +32277,13 @@
       "fleet_path": "USERS/YANA/SERVICES",
       "children": 2,
       "wallet": {
-        "balance": 560,
-        "events": 6,
+        "balance": 688,
+        "events": 8,
         "last_close": "EPOCH-1",
         "totals": {
-          "credit": 595,
+          "credit": 723,
           "debit": 35,
-          "net": 560
+          "net": 688
         },
         "recent_transactions": [
           {
@@ -31693,6 +32339,24 @@
             "ts": "2026-04-01T13:23:25.822725Z",
             "service": "WALLET",
             "product": "CLOSE"
+          },
+          {
+            "event": "CLOSE",
+            "amount": 0,
+            "delta": 0,
+            "note": "CLOSE epoch 2026-04",
+            "ts": "2026-04-08T17:51:09.213875Z",
+            "service": "WALLET",
+            "product": "CLOSE"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 128,
+            "delta": 128,
+            "note": "Co-inventor: PROV-016 Governed Native Surface. Secure Enclave key mgmt, Passkey auth with governance extensions, offline attestation. Apple Dev #1, 94 commits, 6-country deployment. Frontend for all CANONIC services.",
+            "ts": "2026-04-08T19:56:15.753291Z",
+            "service": "LEDGER",
+            "product": "WORK"
           }
         ]
       },
@@ -31890,6 +32554,11 @@
     },
     {
       "kind": "INHERITS",
+      "from": "hadleylab-canonic/APPS/RUNNER",
+      "to": "hadleylab-canonic/SERVICES/APP"
+    },
+    {
+      "kind": "INHERITS",
       "from": "hadleylab-canonic/BLOGS",
       "to": "hadleylab-canonic/SERVICES/BLOG"
     },
@@ -32002,6 +32671,11 @@
       "kind": "INHERITS",
       "from": "hadleylab-canonic/PAPERS",
       "to": "hadleylab-canonic/SERVICES/PAPER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/APP",
+      "to": "canonic-canonic/MAGIC/SERVICES"
     },
     {
       "kind": "INHERITS",
@@ -32955,6 +33629,66 @@
     },
     {
       "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT",
+      "to": "hadleylab-canonic/TALKS/MAMMOCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT",
+      "to": "hadleylab-canonic/TALKS/ONCOCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT",
+      "to": "hadleylab-canonic/TALKS/MEDCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT",
+      "to": "hadleylab-canonic/IRBS/CARIBCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT",
+      "to": "hadleylab-canonic/TALKS/LAWCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT",
+      "to": "hadleylab-canonic/TALKS/FINCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT",
+      "to": "canonic-canonic/MAGIC/SERVICES/COIN"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT",
+      "to": "hadleylab-canonic/DEALS/CAOH/SOU"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/RUNNER",
+      "to": "canonic-canonic/MAGIC/SERVICES/VITAE"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/RUNNER",
+      "to": "canonic-canonic/MAGIC/SERVICES/COIN"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/RUNNER",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "CROSS_INTEL",
       "from": "hadleylab-canonic/DEALS/CAOH/SOU",
       "to": "hadleylab-canonic/IRBS/CARIBCHAT"
     },
@@ -33250,6 +33984,11 @@
       "domains": [
         "SAFETY"
       ]
+    },
+    {
+      "kind": "CODE_DEP",
+      "from": "runner-canonic",
+      "to": "runner-canonic/app"
     },
     {
       "kind": "PARENT",
@@ -33998,6 +34737,16 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT",
+      "to": "hadleylab-canonic/APPS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/RUNNER",
+      "to": "hadleylab-canonic/APPS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/BLOGS",
       "to": "hadleylab-canonic"
     },
@@ -34183,6 +34932,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/DECKS/SGU",
+      "to": "hadleylab-canonic/DECKS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/STRONG-HER",
       "to": "hadleylab-canonic/DECKS"
     },
@@ -34220,6 +34974,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING",
       "to": "hadleylab-canonic/PAPERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/APP",
+      "to": "hadleylab-canonic/SERVICES"
     },
     {
       "kind": "PARENT",
@@ -35923,6 +36682,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/BLOGS/2026-04-09-what-karpathy-got-right",
+      "to": "hadleylab-canonic/BLOGS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/BLOGS/SERIES",
       "to": "hadleylab-canonic/BLOGS"
     },
@@ -36668,7 +37432,7 @@
     },
     {
       "kind": "PARENT",
-      "from": "hadleylab-canonic/CAMPAIGNS/HEALTH-AI-SUMMIT-2026",
+      "from": "hadleylab-canonic/CAMPAIGNS/KARPATHY-KNOWLEDGE-GRAPH-2026",
       "to": "hadleylab-canonic/CAMPAIGNS"
     },
     {
@@ -36885,6 +37649,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/RUNNER-CHAIN/DECK",
       "to": "hadleylab-canonic/DECKS/RUNNER-CHAIN"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DECKS/SGU/DECK",
+      "to": "hadleylab-canonic/DECKS/SGU"
     },
     {
       "kind": "PARENT",
@@ -37638,6 +38407,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS",
+      "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
       "from": "runner-canonic/USERS",
       "to": "runner-canonic"
     },
@@ -37669,8 +38443,8 @@
     "score": 255,
     "tier": "FULL",
     "missing_dims": [],
-    "wallet_balance": 149567,
-    "wallet_events": 706
+    "wallet_balance": 154358,
+    "wallet_events": 751
   },
   "learning_metrics": {
     "total_intake": 0,

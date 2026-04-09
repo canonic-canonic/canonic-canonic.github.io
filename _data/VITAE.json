@@ -64,6 +64,7 @@
     "constraints": "MUST:     Evidence every professional claim\nMUST:     Version every credential update\nMUST:     Cross-reference claims to governed sources\nMUST NOT: Publish unverified credentials\nMUST NOT: Expose private vitae data on public surfaces",
     "inherits": "canonic-canonic/MAGIC/SERVICES",
     "spec": [],
+    "intel": [],
     "learning": [],
     "coverage": "",
     "roadmap": {},
