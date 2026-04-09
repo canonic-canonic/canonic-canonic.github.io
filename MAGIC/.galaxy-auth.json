@@ -1,0 +1,6123 @@
+{
+  "_generated": {
+    "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
+    "rule": "edit the contract or compiler \u2014 not this file",
+    "gov_hash": "88c7c3268f35f85b"
+  },
+  "generated": "2026-04-09T11:27:04Z",
+  "kv_key": "galaxy:auth",
+  "nodes": [
+    {
+      "id": "canonic-canonic/USERS/DEXTER",
+      "kind": "USER",
+      "label": "DEXTER",
+      "repo": "canonic-canonic",
+      "path": "USERS/DEXTER",
+      "parent": "canonic-canonic/USERS",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "github": "iDrDex",
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/DEXTER",
+      "children": 1
+    },
+    {
+      "id": "canonic-canonic/USERS/ROBERT",
+      "kind": "USER",
+      "label": "ROBERT",
+      "repo": "canonic-canonic",
+      "path": "USERS/ROBERT",
+      "parent": "canonic-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex",
+        "rglov0224-sys"
+      ],
+      "github": "rglov0224-sys",
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "learning_count": 2,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ROBERT",
+      "children": 1
+    },
+    {
+      "id": "hadleylab-canonic/BOOKS/DARIOISMS",
+      "kind": "SCOPE",
+      "label": "DARIOISMS",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/DARIOISMS",
+      "parent": "hadleylab-canonic/BOOKS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "privacy": "PRIVATE",
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "learning_count": 1,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/DARIOISMS",
+      "readers": [
+        "iDrDex"
+      ],
+      "children": 3
+    },
+    {
+      "id": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS",
+      "kind": "SCOPE",
+      "label": "CHAPTERS",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/DARIOISMS/CHAPTERS",
+      "parent": "hadleylab-canonic/BOOKS/DARIOISMS",
+      "category": "CONTENT",
+      "color": "#a78bfa",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS",
+      "privacy": "PRIVATE",
+      "children": 4
+    },
+    {
+      "id": "hadleylab-canonic/DEALS/BOND-VALE",
+      "kind": "SCOPE",
+      "label": "BOND-VALE",
+      "repo": "hadleylab-canonic",
+      "path": "DEALS/BOND-VALE",
+      "parent": "hadleylab-canonic/DEALS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "has_intel": true,
+      "intel_summary": "| Name | Role | Contact |",
+      "roadmap_now": "[ ] Schedule content session with Christian (target June 2026)",
+      "learning_count": 4,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DEALS/BOND-VALE",
+      "readers": [
+        "iDrDex"
+      ],
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DEALS",
+      "kind": "SCOPE",
+      "label": "DEALS",
+      "repo": "hadleylab-canonic",
+      "path": "DEALS",
+      "parent": "hadleylab-canonic",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "has_intel": true,
+      "intel_summary": "| Claim | Source |",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DEALS",
+      "readers": [
+        "iDrDex"
+      ],
+      "children": 9
+    },
+    {
+      "id": "hadleylab-canonic/DEALS/CAOH",
+      "kind": "SCOPE",
+      "label": "CAOH",
+      "repo": "hadleylab-canonic",
+      "path": "DEALS/CAOH",
+      "parent": "hadleylab-canonic/DEALS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR PARTNERS. EVERY CONTACT GOVERNED. EVERY CREDENTIAL VERIFIED. EVERY RELATIONSHIP EVIDENCED.**",
+      "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
+      "learning_count": 17,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DEALS/CAOH",
+      "privacy": "PRIVATE",
+      "children": 3
+    },
+    {
+      "id": "hadleylab-canonic/DEALS/CAOH/SOU",
+      "kind": "SCOPE",
+      "label": "SOU",
+      "repo": "hadleylab-canonic",
+      "path": "DEALS/CAOH/SOU",
+      "parent": "hadleylab-canonic/DEALS/CAOH",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR MARKET. KNOW YOUR COMPETITION. KNOW YOUR COMMUNITY.** SOU = COIN + GOV + CARIBCHAT. Evidence: PAHO health ex",
+      "roadmap_now": "[ ] Brief Marisa on SOU business plan",
+      "learning_count": 4,
+      "coverage_score": 255,
+      "coverage_open_gates": [
+        "LEGAL_STRUCTURE",
+        "MARISA_BRIEFING",
+        "SMART_CONTRACT",
+        "REINSURANCE",
+        "REGULATORY"
+      ],
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DEALS/CAOH/SOU",
+      "cross_intel": [
+        "CARIBCHAT",
+        "COIN",
+        "CAOH"
+      ],
+      "privacy": "PRIVATE",
+      "children": 1
+    },
+    {
+      "id": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
+      "kind": "SCOPE",
+      "label": "LEVUKA-VENTURE-LAB",
+      "repo": "hadleylab-canonic",
+      "path": "DEALS/LEVUKA-VENTURE-LAB",
+      "parent": "hadleylab-canonic/DEALS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**HE DIAGNOSES. WE FIX. EVERY DRIFT MAPPED. EVERY CORRECTION PROVEN. EVERY AXIOM CROSSED.**",
+      "learning_count": 5,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DEALS/LEVUKA-VENTURE-LAB",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "kind": "SCOPE",
+      "label": "ACS-FLATIRON",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON",
+      "parent": "hadleylab-canonic/GRANTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "[ ] Send biosketch reminder to all Co-Is (due April 5)",
+      "learning_count": 14,
+      "coverage_score": 4,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON",
+      "privacy": "PRIVATE",
+      "children": 10
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS",
+      "kind": "SCOPE",
+      "label": "GRANTS",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS",
+      "parent": "hadleylab-canonic",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "has_intel": false,
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS",
+      "readers": [
+        "iDrDex"
+      ],
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/EHDS-GOV",
+      "kind": "SCOPE",
+      "label": "EHDS-GOV",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/EHDS-GOV",
+      "parent": "hadleylab-canonic/GRANTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR GRANT. EVERY AIM EVIDENCED. EVERY CONSORTIUM MEMBER GOVERNED.**",
+      "roadmap_now": "[ ] Neville confirms PI \u2014 portal registration",
+      "learning_count": 14,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/EHDS-GOV",
+      "privacy": "PRIVATE",
+      "children": 6
+    },
+    {
+      "id": "hadleylab-canonic/NASES",
+      "kind": "SCOPE",
+      "label": "NASES",
+      "repo": "hadleylab-canonic",
+      "path": "NASES",
+      "parent": "hadleylab-canonic",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "NASES",
+      "children": 1
+    },
+    {
+      "id": "hadleylab-canonic/NASES/SYNOLOGY",
+      "kind": "SCOPE",
+      "label": "SYNOLOGY",
+      "repo": "hadleylab-canonic",
+      "path": "NASES/SYNOLOGY",
+      "parent": "hadleylab-canonic/NASES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR STORAGE. EVERY VOLUME TRACKED. EVERY SERVICE ENDPOINT GOVERNED. EVERY TUNNEL AUDITED.**",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "NASES/SYNOLOGY",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/APPLICATIONS",
+      "kind": "SCOPE",
+      "label": "APPLICATIONS",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/APPLICATIONS",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": false,
+      "roadmap_now": "[ ] FRAND commitment covers all 9 families (update for PROV-007/008/009)",
+      "learning_count": 2,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/APPLICATIONS",
+      "children": 1
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS",
+      "kind": "SCOPE",
+      "label": "PATENTS",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS",
+      "parent": "hadleylab-canonic",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "privacy: PRIVATE",
+      "roadmap_now": "[ ] PROV-007/008/009 counsel review (Mark Malek, Gabe Fitch)",
+      "coverage_open_gates": [
+        "FILE (provisional)",
+        "APPLY (utility)",
+        "APPLICATIONS/"
+      ],
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS",
+      "children": 21
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DISCLOSURES",
+      "kind": "SCOPE",
+      "label": "DISCLOSURES",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DISCLOSURES",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR BOUNDARIES. EVERY IDF EVIDENCED. EVERY COMMIT A PRIORITY DATE.**",
+      "roadmap_now": "[ ] Restore 5,845 IDFs + 74 named disclosures from git (commit 526e4432)",
+      "learning_count": 5,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DISCLOSURES",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "kind": "SCOPE",
+      "label": "DUE-DILIGENCE",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": false,
+      "roadmap_now": "[ ] Prior art searches for PROV-007 (community learning ledger)",
+      "learning_count": 3,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE",
+      "children": 11
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROV-001",
+      "kind": "SCOPE",
+      "label": "PROV-001",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-001",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-001",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROV-002",
+      "kind": "SCOPE",
+      "label": "PROV-002",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-002",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-002",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROV-003",
+      "kind": "SCOPE",
+      "label": "PROV-003",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-003",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-003",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROV-004",
+      "kind": "SCOPE",
+      "label": "PROV-004",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-004",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-004",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROV-005",
+      "kind": "SCOPE",
+      "label": "PROV-005",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-005",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-005",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROV-006",
+      "kind": "SCOPE",
+      "label": "PROV-006",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-006",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-006",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROV-007",
+      "kind": "SCOPE",
+      "label": "PROV-007",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-007",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "roadmap_now": "[ ] Counsel review (Mark Malek, Benesch FL)",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-007",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROV-008",
+      "kind": "SCOPE",
+      "label": "PROV-008",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-008",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "roadmap_now": "[ ] Counsel review (Gabe Fitch, Loza & Loza CA)",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-008",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROV-009",
+      "kind": "SCOPE",
+      "label": "PROV-009",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-009",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "roadmap_now": "[ ] Counsel assignment (evaluate overlap with PROV-003)",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-009",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROV-010",
+      "kind": "SCOPE",
+      "label": "PROV-010",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-010",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "roadmap_now": "[ ] Co-inventor review (Marisa Nimrod)",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-010",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROV-011",
+      "kind": "SCOPE",
+      "label": "PROV-011",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-011",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "roadmap_now": "[ ] Co-inventor review (Marisa Nimrod)",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-011",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROV-012",
+      "kind": "SCOPE",
+      "label": "PROV-012",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-012",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "roadmap_now": "[ ] Co-inventor review (Robertico Croes)",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-012",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROV-013",
+      "kind": "SCOPE",
+      "label": "PROV-013",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROV-013",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY PRIOR ART SEARCHED.**",
+      "roadmap_now": "[ ] Co-inventor review (Karmyn Jones)",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROV-013",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "kind": "SCOPE",
+      "label": "PROVISIONALS",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS",
+      "parent": "hadleylab-canonic/PATENTS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": false,
+      "roadmap_now": "[ ] Verify all 6 filed specifications are intact and unmodified",
+      "learning_count": 2,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS",
+      "children": 13
+    },
+    {
+      "id": "hadleylab-canonic/SEEDS",
+      "kind": "SCOPE",
+      "label": "SEEDS",
+      "repo": "hadleylab-canonic",
+      "path": "SEEDS",
+      "parent": "hadleylab-canonic",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SEEDS",
+      "children": 1
+    },
+    {
+      "id": "hadleylab-canonic/SEEDS/ULTRA",
+      "kind": "SCOPE",
+      "label": "ULTRA",
+      "repo": "hadleylab-canonic",
+      "path": "SEEDS/ULTRA",
+      "parent": "hadleylab-canonic/SEEDS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR BOX. EVERY SERVICE MONITORED. EVERY SYNC VERIFIED. EVERY INCIDENT RECORDED.**",
+      "learning_count": 2,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SEEDS/ULTRA",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/DECK",
+      "kind": "SERVICE",
+      "label": "DECK",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/DECK",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": false,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/DECK",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/FINANCIALS",
+      "kind": "SERVICE",
+      "label": "FINANCIALS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/FINANCIALS",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR NUMBERS. ACTUALS BEAT FORECASTS. EVIDENCE OF EXECUTION.**",
+      "learning_count": 11,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/FINANCIALS",
+      "children": 4
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/FORECASTS",
+      "kind": "SERVICE",
+      "label": "FORECASTS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/FORECASTS",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW THE HORIZON. SCENARIOS BEAT PREDICTIONS. MILESTONES PROVE DIRECTION.**",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/FORECASTS",
+      "children": 5
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/KYC",
+      "kind": "SERVICE",
+      "label": "KYC",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/KYC",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IDENTITY. COMPLIANCE IS NON-NEGOTIABLE. VERIFICATION = GOLD.**",
+      "roadmap_now": "Verify all identity claims \u2014 Dexter Hadley MD/PhD (GOLD), CANONIC FOUNDATION entity (pending), Onconex US/EU entities",
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/KYC",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING",
+      "kind": "SERVICE",
+      "label": "LEARNING",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR PATTERNS. EVERY DISCOVERY GOVERNED. EVERY GRADIENT MEASURED.**",
+      "roadmap_now": "Wire IDF cross-references into LEARNING pattern table (patent discoveries as governed gradients)",
+      "learning_count": 10,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/LEARNING",
+      "children": 60
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEDGER",
+      "kind": "SERVICE",
+      "label": "LEDGER",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEDGER",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR HISTORY. IMMUTABLE. TIMESTAMPED. THE LEDGER IS GOLD.**",
+      "roadmap_now": "Enforce append-only integrity \u2014 no mutation of prior entries across 420+ git commits, 21 repositories",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/LEDGER",
+      "children": 1
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/NAS",
+      "kind": "SERVICE",
+      "label": "NAS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/NAS",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR STORAGE. EVERY PATH GOVERNED. EVERY ARCHIVE VERIFIED. EVERY ACCESS TUNNELED.**",
+      "roadmap_now": "Cloudflare tunnel live (nas-idrdex, 19c5442f, stack 161)",
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/NAS",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/PATENT",
+      "kind": "SERVICE",
+      "label": "PATENT",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/PATENT",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "OPERATIONS",
+      "color": "#2997ff",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR IP. EVERY CLAIM EVIDENCED. EVERY FILING TIMESTAMPED.**",
+      "roadmap_now": "[ ] PROV-007/008/009 counsel review (Mark Malek, Gabe Fitch)",
+      "learning_count": 8,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/PATENT",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/RESERVES",
+      "kind": "SERVICE",
+      "label": "RESERVES",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/RESERVES",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "GOVERNANCE",
+      "color": "#ffd60a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR RUNWAY. COIN DEPLETES THROUGH READING. REPLENISH THROUGH WORK.**",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/RESERVES",
+      "children": 5
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/SEED",
+      "kind": "SERVICE",
+      "label": "SEED",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/SEED",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR INFRASTRUCTURE. EVERY SEEDBOX GOVERNED. EVERY SYNC VERIFIED. EVERY SUBTITLE ARCHIVED.**",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/SEED",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/STAR",
+      "kind": "SERVICE",
+      "label": "STAR",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/STAR",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR SERVICE. EVERY CAPABILITY TRACED. EVERY INTEGRATION GOVERNED.**",
+      "roadmap_now": "Define STAR instance contract for DEXTER principal",
+      "learning_count": 2,
+      "coverage_score": 0,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/STAR",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/TIMELINE",
+      "kind": "SERVICE",
+      "label": "TIMELINE",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/TIMELINE",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex",
+        "yanabeda",
+        "ir4y"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR SERVICE. EVERY CAPABILITY TRACED. EVERY INTEGRATION GOVERNED.**",
+      "roadmap_now": "[ ] API endpoint backed by multi-lane INDEX",
+      "learning_count": 10,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "timeline",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/TRANSCRIPT",
+      "kind": "SERVICE",
+      "label": "TRANSCRIPT",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/TRANSCRIPT",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR TRANSCRIPTS. EVERY LANE HASHED. EVERY SURFACE FED. EVERY EPOCH EVIDENCED.**",
+      "roadmap_now": "CLAUDE lane: 145 sessions archived to NAS with SHA-256 MANIFEST.txt \u2014 GOLD tier",
+      "learning_count": 17,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/TRANSCRIPT",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/AVINASH",
+      "kind": "USER",
+      "label": "AVINASH",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/AVINASH",
+      "parent": "hadleylab-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": false,
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/AVINASH",
+      "organization": "Atom",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/AVINASH/CHAT",
+      "kind": "USER",
+      "label": "CHAT",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/AVINASH/CHAT",
+      "parent": "hadleylab-canonic/USERS/AVINASH",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "IDENTITY: Avinash R. Boodoosingh, President & COO, ATOM Advantage. Orlando, FL. linkedin.com/in/avinash-r-boodoosingh.",
+      "roadmap_now": "Govern CHAT scope with full TRIAD",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/AVINASH/CHAT",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/AVINASH/SERVICES/LEARNING",
+      "kind": "USER",
+      "label": "LEARNING",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/AVINASH/SERVICES/LEARNING",
+      "parent": "hadleylab-canonic/USERS/AVINASH/SERVICES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Stabilize Healthcare AI learning corpus \u2014 evidence-linked discoveries for ATOM Advantage 98.5% accuracy baseline",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/AVINASH/SERVICES/LEARNING",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/AVINASH/SERVICES/SHOP",
+      "kind": "USER",
+      "label": "SHOP",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/AVINASH/SERVICES/SHOP",
+      "parent": "hadleylab-canonic/USERS/AVINASH/SERVICES",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Compile AVINASH public projection aggregate \u2014 discover all AVINASH/**/SHOP.md files",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/AVINASH/SERVICES/SHOP",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS",
+      "kind": "SCOPE",
+      "label": "USERS",
+      "repo": "hadleylab-canonic",
+      "path": "USERS",
+      "parent": "hadleylab-canonic",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 223,
+      "tier": "NONE",
+      "missing_dims": [
+        "S"
+      ],
+      "privacy": "PRIVATE",
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 32,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS",
+      "readers": [
+        "iDrDex"
+      ],
+      "children": 11
+    },
+    {
+      "id": "hadleylab-canonic/USERS/FATIMA",
+      "kind": "USER",
+      "label": "FATIMA",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/FATIMA",
+      "parent": "hadleylab-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": true,
+      "intel_summary": "| Field | Value |",
+      "learning_count": 30,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/FATIMA",
+      "organization": "CANONIC",
+      "children": 4
+    },
+    {
+      "id": "hadleylab-canonic/USERS/FATIMA/CHAT",
+      "kind": "USER",
+      "label": "CHAT",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/FATIMA/CHAT",
+      "parent": "hadleylab-canonic/USERS/FATIMA",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "GATE STATUS \u2014 read this to determine mode (onboarding vs governance):",
+      "learning_count": 12,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/FATIMA/CHAT",
+      "privacy": "PRIVATE",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/FATIMA/SERVICES/LEARNING",
+      "kind": "USER",
+      "label": "LEARNING",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/FATIMA/SERVICES/LEARNING",
+      "parent": "hadleylab-canonic/USERS/FATIMA/SERVICES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Stabilize IP governance learning corpus \u2014 Madrid Protocol filing patterns, IHI Call 12 consortium evidence",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/FATIMA/SERVICES/LEARNING",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/FATIMA/SERVICES/SHOP",
+      "kind": "USER",
+      "label": "SHOP",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/FATIMA/SERVICES/SHOP",
+      "parent": "hadleylab-canonic/USERS/FATIMA/SERVICES",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Compile FATIMA public projection aggregate \u2014 discover all FATIMA/**/SHOP.md files",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/FATIMA/SERVICES/SHOP",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/GEOFF",
+      "kind": "USER",
+      "label": "GEOFF",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/GEOFF",
+      "parent": "hadleylab-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "learning_count": 2,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/GEOFF",
+      "organization": "Celeritas",
+      "privacy": "PRIVATE",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/GEOFF/CHAT",
+      "kind": "USER",
+      "label": "CHAT",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/GEOFF/CHAT",
+      "parent": "hadleylab-canonic/USERS/GEOFF",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "GATE STATUS \u2014 read this to determine mode (deal vs advisory):",
+      "learning_count": 1,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/GEOFF/CHAT",
+      "privacy": "PRIVATE",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/GEOFF/VITAE",
+      "kind": "USER",
+      "label": "VITAE",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/GEOFF/VITAE",
+      "parent": "hadleylab-canonic/USERS/GEOFF",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/GEOFF/VITAE",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/ILYA",
+      "kind": "USER",
+      "label": "ILYA",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/ILYA",
+      "parent": "hadleylab-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex",
+        "ir4y"
+      ],
+      "github": "ir4y",
+      "has_intel": false,
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ILYA",
+      "organization": "BedaSoftware",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/ILYA/CHAT",
+      "kind": "USER",
+      "label": "CHAT",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/ILYA/CHAT",
+      "parent": "hadleylab-canonic/USERS/ILYA",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "IDENTITY: Ilya Beda, Founder & CTO, BedaSoftware. Sydney, Australia. GitHub: ir4y. Language: Russian.",
+      "roadmap_now": "Govern CHAT scope with full TRIAD",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ILYA/CHAT",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/ILYA/SERVICES/LEARNING",
+      "kind": "USER",
+      "label": "LEARNING",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/ILYA/SERVICES/LEARNING",
+      "parent": "hadleylab-canonic/USERS/ILYA/SERVICES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Stabilize FHIR LEARNING corpus \u2014 evidence-linked discoveries for interoperability patterns",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ILYA/SERVICES/LEARNING",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/ILYA/SERVICES/SHOP",
+      "kind": "USER",
+      "label": "SHOP",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/ILYA/SERVICES/SHOP",
+      "parent": "hadleylab-canonic/USERS/ILYA/SERVICES",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Compile ILYA public projection aggregate \u2014 discover all ILYA/**/SHOP.md files",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ILYA/SERVICES/SHOP",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/ISABELLA",
+      "kind": "USER",
+      "label": "ISABELLA",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/ISABELLA",
+      "parent": "hadleylab-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": false,
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ISABELLA",
+      "organization": "E4C",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/ISABELLA/CHAT",
+      "kind": "USER",
+      "label": "CHAT",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/ISABELLA/CHAT",
+      "parent": "hadleylab-canonic/USERS/ISABELLA",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "IDENTITY: Isabella Johnston, Founder & CEO, Employers 4 Change (E4C). Winter Park / Orlando, FL. isabella@e4c.tech. Phon",
+      "roadmap_now": "Govern CHAT scope with full TRIAD",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ISABELLA/CHAT",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/ISABELLA/SERVICES/LEARNING",
+      "kind": "USER",
+      "label": "LEARNING",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/ISABELLA/SERVICES/LEARNING",
+      "parent": "hadleylab-canonic/USERS/ISABELLA/SERVICES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Stabilize Deal Flow LEARNING corpus \u2014 evidence-linked discoveries for pipeline metrics",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ISABELLA/SERVICES/LEARNING",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/ISABELLA/SERVICES/SHOP",
+      "kind": "USER",
+      "label": "SHOP",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/ISABELLA/SERVICES/SHOP",
+      "parent": "hadleylab-canonic/USERS/ISABELLA/SERVICES",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Compile ISABELLA public projection aggregate \u2014 discover all ISABELLA/**/SHOP.md files",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ISABELLA/SERVICES/SHOP",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/JP",
+      "kind": "USER",
+      "label": "JP",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/JP",
+      "parent": "hadleylab-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "has_intel": false,
+      "learning_count": 7,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/JP",
+      "organization": "JP Capital",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/JP/CHAT",
+      "kind": "USER",
+      "label": "CHAT",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/JP/CHAT",
+      "parent": "hadleylab-canonic/USERS/JP",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "IDENTITY: Jason Palinkas (JP), Founder & Principal Broker, JP Capital Realty. Lake Nona, Orlando, FL. DRE License: 27250",
+      "roadmap_now": "Govern CHAT scope with full TRIAD",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/JP/CHAT",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/JP/SERVICES/LEARNING",
+      "kind": "USER",
+      "label": "LEARNING",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/JP/SERVICES/LEARNING",
+      "parent": "hadleylab-canonic/USERS/JP/SERVICES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Stabilize Real Estate LEARNING corpus \u2014 evidence-linked property discoveries traced to county records",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/JP/SERVICES/LEARNING",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/JP/SERVICES/SHOP",
+      "kind": "USER",
+      "label": "SHOP",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/JP/SERVICES/SHOP",
+      "parent": "hadleylab-canonic/USERS/JP/SERVICES",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Compile JP public projection aggregate \u2014 discover all JP/**/SHOP.md files",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/JP/SERVICES/SHOP",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/ROBERT",
+      "kind": "USER",
+      "label": "ROBERT",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/ROBERT",
+      "parent": "hadleylab-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex",
+        "rglov0224-sys"
+      ],
+      "github": "rglov0224-sys",
+      "has_intel": false,
+      "roadmap_now": "Primary governance at RunnerMVP/runner-canonic/ROBERT/",
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ROBERT",
+      "organization": "PinnacleGrp",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/ROBERT/CHAT",
+      "kind": "USER",
+      "label": "CHAT",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/ROBERT/CHAT",
+      "parent": "hadleylab-canonic/USERS/ROBERT",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "IDENTITY: Robert Glover, Realtor, The Pinnacle Group. Lake Nona, Orlando, FL. LinkedIn: linkedin.com/in/robert-glover-55",
+      "roadmap_now": "Govern CHAT scope with full TRIAD",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ROBERT/CHAT",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/ROBERT/SERVICES/LEARNING",
+      "kind": "USER",
+      "label": "LEARNING",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/ROBERT/SERVICES/LEARNING",
+      "parent": "hadleylab-canonic/USERS/ROBERT/SERVICES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Stabilize real estate LEARNING corpus \u2014 evidence-linked discoveries for Lake Nona market patterns",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ROBERT/SERVICES/LEARNING",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/ROBERT/SERVICES/SHOP",
+      "kind": "USER",
+      "label": "SHOP",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/ROBERT/SERVICES/SHOP",
+      "parent": "hadleylab-canonic/USERS/ROBERT/SERVICES",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Compile ROBERT public projection aggregate \u2014 discover all ROBERT/**/SHOP.md files",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ROBERT/SERVICES/SHOP",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/YANA",
+      "kind": "USER",
+      "label": "YANA",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/YANA",
+      "parent": "hadleylab-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex",
+        "yanabeda"
+      ],
+      "github": "yanabeda",
+      "has_intel": false,
+      "learning_count": 4,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/YANA",
+      "organization": "BedaSoftware",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/YANA/CHAT",
+      "kind": "USER",
+      "label": "CHAT",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/YANA/CHAT",
+      "parent": "hadleylab-canonic/USERS/YANA",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "IDENTITY: Yana Beda, Founder & CEO, BedaSoftware. Australia. GitHub: yanabeda. LinkedIn: linkedin.com/in/troublegirl/. L",
+      "roadmap_now": "Govern CHAT scope with full TRIAD",
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/YANA/CHAT",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/YANA/SERVICES/LEARNING",
+      "kind": "USER",
+      "label": "LEARNING",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/YANA/SERVICES/LEARNING",
+      "parent": "hadleylab-canonic/USERS/YANA/SERVICES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Stabilize Apple surfaces LEARNING corpus \u2014 evidence-linked discoveries for Passkey integration patterns",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/YANA/SERVICES/LEARNING",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/USERS/YANA/SERVICES/SHOP",
+      "kind": "USER",
+      "label": "SHOP",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/YANA/SERVICES/SHOP",
+      "parent": "hadleylab-canonic/USERS/YANA/SERVICES",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Compile YANA public projection aggregate \u2014 discover all YANA/**/SHOP.md files",
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/YANA/SERVICES/SHOP",
+      "privacy": "PRIVATE",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/USERS/DEXTER",
+      "kind": "USER",
+      "label": "DEXTER",
+      "repo": "runner-canonic",
+      "path": "USERS/DEXTER",
+      "parent": "runner-canonic/USERS",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex",
+        "rglov0224-sys"
+      ],
+      "github": "iDrDex",
+      "has_intel": false,
+      "roadmap_now": "Bootstrap runner-canonic GOV repo",
+      "learning_count": 2,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/DEXTER",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/VITAE",
+      "kind": "SCOPE",
+      "label": "VITAE",
+      "repo": "runner-canonic",
+      "path": "VITAE",
+      "parent": "runner-canonic",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex",
+        "rglov0224-sys"
+      ],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "VITAE",
+      "children": 0
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/USERS/DEXTER",
+      "kind": "SCOPE",
+      "label": "DEXTER",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/USERS/DEXTER",
+      "parent": "runner-canonic/canonic-canonic/USERS",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex"
+      ],
+      "github": "iDrDex",
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "learning_count": 1,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/USERS/DEXTER",
+      "children": 1
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/USERS/ROBERT",
+      "kind": "SCOPE",
+      "label": "ROBERT",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/USERS/ROBERT",
+      "parent": "runner-canonic/canonic-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex",
+        "rglov0224-sys"
+      ],
+      "github": "rglov0224-sys",
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "learning_count": 2,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/USERS/ROBERT",
+      "children": 1
+    },
+    {
+      "id": "canonic-canonic/USERS/DEXTER/VITAE",
+      "kind": "CONTENT",
+      "label": "VITAE",
+      "repo": "canonic-canonic",
+      "path": "USERS/DEXTER/VITAE",
+      "parent": "canonic-canonic/USERS/DEXTER",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/DEXTER/VITAE",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "canonic-canonic/USERS/ROBERT/VITAE",
+      "kind": "CONTENT",
+      "label": "VITAE",
+      "repo": "canonic-canonic",
+      "path": "USERS/ROBERT/VITAE",
+      "parent": "canonic-canonic/USERS/ROBERT",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ROBERT/VITAE",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/BOOKS/DARIOISMS/COMPILE",
+      "kind": "CONTENT",
+      "label": "COMPILE",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/DARIOISMS/COMPILE",
+      "parent": "hadleylab-canonic/BOOKS/DARIOISMS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/DARIOISMS/COMPILE",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/BOOKS/DARIOISMS/SPINE",
+      "kind": "CONTENT",
+      "label": "SPINE",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/DARIOISMS/SPINE",
+      "parent": "hadleylab-canonic/BOOKS/DARIOISMS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/DARIOISMS/SPINE",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/00-PREFACE",
+      "kind": "CONTENT",
+      "label": "00-PREFACE",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/DARIOISMS/CHAPTERS/00-PREFACE",
+      "parent": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS/00-PREFACE",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/01-THE-PHYSICIST",
+      "kind": "CONTENT",
+      "label": "01-THE-PHYSICIST",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/DARIOISMS/CHAPTERS/01-THE-PHYSICIST",
+      "parent": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS/01-THE-PHYSICIST",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/02-THE-DEPARTURE",
+      "kind": "CONTENT",
+      "label": "02-THE-DEPARTURE",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/DARIOISMS/CHAPTERS/02-THE-DEPARTURE",
+      "parent": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS/02-THE-DEPARTURE",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/03-THE-RED-LINES",
+      "kind": "CONTENT",
+      "label": "03-THE-RED-LINES",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/DARIOISMS/CHAPTERS/03-THE-RED-LINES",
+      "parent": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS",
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/DARIOISMS/CHAPTERS/03-THE-RED-LINES",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/DEALS/CAOH/BUSINESS-PLAN",
+      "kind": "CONTENT",
+      "label": "BUSINESS-PLAN",
+      "repo": "hadleylab-canonic",
+      "path": "DEALS/CAOH/BUSINESS-PLAN",
+      "parent": "hadleylab-canonic/DEALS/CAOH",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DEALS/CAOH/BUSINESS-PLAN",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/DEALS/CAOH/LAUNCH-PLAN",
+      "kind": "CONTENT",
+      "label": "LAUNCH-PLAN",
+      "repo": "hadleylab-canonic",
+      "path": "DEALS/CAOH/LAUNCH-PLAN",
+      "parent": "hadleylab-canonic/DEALS/CAOH",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DEALS/CAOH/LAUNCH-PLAN",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/DEALS/CAOH/SOU/email-marisa-sou-apr5",
+      "kind": "CONTENT",
+      "label": "EMAIL-MARISA-SOU-APR5",
+      "repo": "hadleylab-canonic",
+      "path": "DEALS/CAOH/SOU/email-marisa-sou-apr5",
+      "parent": "hadleylab-canonic/DEALS/CAOH/SOU",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DEALS/CAOH/SOU/email-marisa-sou-apr5",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/SPECIFIC-AIMS",
+      "kind": "CONTENT",
+      "label": "SPECIFIC-AIMS",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/SPECIFIC-AIMS",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/SPECIFIC-AIMS",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
+      "kind": "CONTENT",
+      "label": "EMAIL-AIMED-CHANG-PAPPAS",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-biosketch-reminder",
+      "kind": "CONTENT",
+      "label": "EMAIL-BIOSKETCH-REMINDER",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/email-biosketch-reminder",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/email-biosketch-reminder",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
+      "kind": "CONTENT",
+      "label": "EMAIL-FLATIRON-DATA-DICT",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-howard-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-HOWARD-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/email-howard-apr3",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/email-howard-apr3",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-NEVILLE-HORIZON-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-review",
+      "kind": "CONTENT",
+      "label": "EMAIL-TEAM-REVIEW",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/email-team-review",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/email-team-review",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-update-apr3",
+      "kind": "CONTENT",
+      "label": "EMAIL-TEAM-UPDATE-APR3",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/email-team-update-apr3",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/email-team-update-apr3",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-abstract",
+      "kind": "CONTENT",
+      "label": "LOI-ABSTRACT",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/loi-abstract",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/loi-abstract",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-research-plan",
+      "kind": "CONTENT",
+      "label": "LOI-RESEARCH-PLAN",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/ACS-FLATIRON/loi-research-plan",
+      "parent": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/ACS-FLATIRON/loi-research-plan",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/BUSINESS-PLAN-NIH",
+      "kind": "CONTENT",
+      "label": "BUSINESS-PLAN-NIH",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/EHDS-GOV/BUSINESS-PLAN-NIH",
+      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/EHDS-GOV/BUSINESS-PLAN-NIH",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS-NIH",
+      "kind": "CONTENT",
+      "label": "REVIEW-YOUNESS-NIH",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/EHDS-GOV/REVIEW-YOUNESS-NIH",
+      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/EHDS-GOV/REVIEW-YOUNESS-NIH",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS",
+      "kind": "CONTENT",
+      "label": "REVIEW-YOUNESS",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/EHDS-GOV/REVIEW-YOUNESS",
+      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/EHDS-GOV/REVIEW-YOUNESS",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS-NIH",
+      "kind": "CONTENT",
+      "label": "SPECIFIC-AIMS-NIH",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/EHDS-GOV/SPECIFIC-AIMS-NIH",
+      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/EHDS-GOV/SPECIFIC-AIMS-NIH",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS",
+      "kind": "CONTENT",
+      "label": "SPECIFIC-AIMS",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/EHDS-GOV/SPECIFIC-AIMS",
+      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/EHDS-GOV/SPECIFIC-AIMS",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/GRANTS/EHDS-GOV/WORK-TALK-REVIEW",
+      "kind": "CONTENT",
+      "label": "WORK-TALK-REVIEW",
+      "repo": "hadleylab-canonic",
+      "path": "GRANTS/EHDS-GOV/WORK-TALK-REVIEW",
+      "parent": "hadleylab-canonic/GRANTS/EHDS-GOV",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "GRANTS/EHDS-GOV/WORK-TALK-REVIEW",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/APPLICATIONS/FRAND-COMMITMENT",
+      "kind": "CONTENT",
+      "label": "FRAND-COMMITMENT",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/APPLICATIONS/FRAND-COMMITMENT",
+      "parent": "hadleylab-canonic/PATENTS/APPLICATIONS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/APPLICATIONS/FRAND-COMMITMENT",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/CLAIMS",
+      "kind": "CONTENT",
+      "label": "CLAIMS",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/CLAIMS",
+      "parent": "hadleylab-canonic/PATENTS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/CLAIMS",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/FILING-RECEIPTS",
+      "kind": "CONTENT",
+      "label": "FILING-RECEIPTS",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/FILING-RECEIPTS",
+      "parent": "hadleylab-canonic/PATENTS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/FILING-RECEIPTS",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/FILING",
+      "kind": "CONTENT",
+      "label": "FILING",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/FILING",
+      "parent": "hadleylab-canonic/PATENTS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/FILING",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/LEDGER",
+      "kind": "CONTENT",
+      "label": "LEDGER",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/LEDGER",
+      "parent": "hadleylab-canonic/PATENTS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/LEDGER",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/EPO-PRIOR-ART-SEARCH",
+      "kind": "CONTENT",
+      "label": "EPO-PRIOR-ART-SEARCH",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/EPO-PRIOR-ART-SEARCH",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/EPO-PRIOR-ART-SEARCH",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/JPO-PRIOR-ART-SEARCH",
+      "kind": "CONTENT",
+      "label": "JPO-PRIOR-ART-SEARCH",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/JPO-PRIOR-ART-SEARCH",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/JPO-PRIOR-ART-SEARCH",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/NPL-PRIOR-ART-SEARCH",
+      "kind": "CONTENT",
+      "label": "NPL-PRIOR-ART-SEARCH",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/NPL-PRIOR-ART-SEARCH",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/NPL-PRIOR-ART-SEARCH",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009-FULL",
+      "kind": "CONTENT",
+      "label": "PRIOR-ART-SEARCH-PROV-007-009-FULL",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009-FULL",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009-FULL",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009",
+      "kind": "CONTENT",
+      "label": "PRIOR-ART-SEARCH-PROV-007-009",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-010-013",
+      "kind": "CONTENT",
+      "label": "PRIOR-ART-SEARCH-PROV-010-013",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-010-013",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-010-013",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PROV-PRIOR-ART-ANALYSIS",
+      "kind": "CONTENT",
+      "label": "PROV-PRIOR-ART-ANALYSIS",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/PROV-PRIOR-ART-ANALYSIS",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/PROV-PRIOR-ART-ANALYSIS",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/SECTION-101-PROV-007-009",
+      "kind": "CONTENT",
+      "label": "SECTION-101-PROV-007-009",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/SECTION-101-PROV-007-009",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/SECTION-101-PROV-007-009",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/SECTION-101-PROV-010-013",
+      "kind": "CONTENT",
+      "label": "SECTION-101-PROV-010-013",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/SECTION-101-PROV-010-013",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/SECTION-101-PROV-010-013",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/SECTION-101",
+      "kind": "CONTENT",
+      "label": "SECTION-101",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/SECTION-101",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/SECTION-101",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/US-PRIOR-ART-SEARCH",
+      "kind": "CONTENT",
+      "label": "US-PRIOR-ART-SEARCH",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/DUE-DILIGENCE/US-PRIOR-ART-SEARCH",
+      "parent": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/DUE-DILIGENCE/US-PRIOR-ART-SEARCH",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-001",
+      "kind": "CONTENT",
+      "label": "PROV-001",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-001",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-001",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-002",
+      "kind": "CONTENT",
+      "label": "PROV-002",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-002",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-002",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-003",
+      "kind": "CONTENT",
+      "label": "PROV-003",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-003",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-003",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-004",
+      "kind": "CONTENT",
+      "label": "PROV-004",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-004",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-004",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-005",
+      "kind": "CONTENT",
+      "label": "PROV-005",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-005",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-005",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-006",
+      "kind": "CONTENT",
+      "label": "PROV-006",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-006",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-006",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-007",
+      "kind": "CONTENT",
+      "label": "PROV-007",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-007",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-007",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-008",
+      "kind": "CONTENT",
+      "label": "PROV-008",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-008",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-008",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-009",
+      "kind": "CONTENT",
+      "label": "PROV-009",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-009",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-009",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-010",
+      "kind": "CONTENT",
+      "label": "PROV-010",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-010",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-010",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-011",
+      "kind": "CONTENT",
+      "label": "PROV-011",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-011",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-011",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-012",
+      "kind": "CONTENT",
+      "label": "PROV-012",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-012",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-012",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-013",
+      "kind": "CONTENT",
+      "label": "PROV-013",
+      "repo": "hadleylab-canonic",
+      "path": "PATENTS/PROVISIONALS/PROV-013",
+      "parent": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "PATENTS/PROVISIONALS/PROV-013",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/FINANCIALS/BUSINESS",
+      "kind": "CONTENT",
+      "label": "BUSINESS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/FINANCIALS/BUSINESS",
+      "parent": "hadleylab-canonic/SERVICES/FINANCIALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FINANCIALS/BUSINESS",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/FINANCIALS/HOW-IT-WORKS",
+      "kind": "CONTENT",
+      "label": "HOW-IT-WORKS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/FINANCIALS/HOW-IT-WORKS",
+      "parent": "hadleylab-canonic/SERVICES/FINANCIALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FINANCIALS/HOW-IT-WORKS",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/FINANCIALS/SERIES-A",
+      "kind": "CONTENT",
+      "label": "SERIES-A",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/FINANCIALS/SERIES-A",
+      "parent": "hadleylab-canonic/SERVICES/FINANCIALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FINANCIALS/SERIES-A",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/FINANCIALS/VALUATION",
+      "kind": "CONTENT",
+      "label": "VALUATION",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/FINANCIALS/VALUATION",
+      "parent": "hadleylab-canonic/SERVICES/FINANCIALS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FINANCIALS/VALUATION",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/FORECASTS/COVERAGE-METRICS",
+      "kind": "CONTENT",
+      "label": "COVERAGE-METRICS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/FORECASTS/COVERAGE-METRICS",
+      "parent": "hadleylab-canonic/SERVICES/FORECASTS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FORECASTS/COVERAGE-METRICS",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/FORECASTS/IP-VALUATION",
+      "kind": "CONTENT",
+      "label": "IP-VALUATION",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/FORECASTS/IP-VALUATION",
+      "parent": "hadleylab-canonic/SERVICES/FORECASTS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FORECASTS/IP-VALUATION",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/FORECASTS/YEAR-1",
+      "kind": "CONTENT",
+      "label": "YEAR-1",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/FORECASTS/YEAR-1",
+      "parent": "hadleylab-canonic/SERVICES/FORECASTS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FORECASTS/YEAR-1",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/FORECASTS/YEAR-3",
+      "kind": "CONTENT",
+      "label": "YEAR-3",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/FORECASTS/YEAR-3",
+      "parent": "hadleylab-canonic/SERVICES/FORECASTS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FORECASTS/YEAR-3",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/FORECASTS/YEAR-5",
+      "kind": "CONTENT",
+      "label": "YEAR-5",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/FORECASTS/YEAR-5",
+      "parent": "hadleylab-canonic/SERVICES/FORECASTS",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/FORECASTS/YEAR-5",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/ATUL-BUTTE-MAFIA",
+      "kind": "CONTENT",
+      "label": "ATUL-BUTTE-MAFIA",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/ATUL-BUTTE-MAFIA",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/ATUL-BUTTE-MAFIA",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/MAGIC-LATTICE",
+      "kind": "CONTENT",
+      "label": "MAGIC-LATTICE",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/MAGIC-LATTICE",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/MAGIC-LATTICE",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/NETWORK-MAP",
+      "kind": "CONTENT",
+      "label": "NETWORK-MAP",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/NETWORK-MAP",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/NETWORK-MAP",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/ROSTER",
+      "kind": "CONTENT",
+      "label": "ROSTER",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/ROSTER",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/ROSTER",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/afsana-akter",
+      "kind": "CONTENT",
+      "label": "AFSANA-AKTER",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/afsana-akter",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/afsana-akter",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/alex-evans",
+      "kind": "CONTENT",
+      "label": "ALEX-EVANS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/alex-evans",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/alex-evans",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/alyssa-tanaka",
+      "kind": "CONTENT",
+      "label": "ALYSSA-TANAKA",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/alyssa-tanaka",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/alyssa-tanaka",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/amoy-fraser",
+      "kind": "CONTENT",
+      "label": "AMOY-FRASER",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/amoy-fraser",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/amoy-fraser",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/andrew-trister",
+      "kind": "CONTENT",
+      "label": "ANDREW-TRISTER",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/andrew-trister",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/andrew-trister",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/anil-bajnath",
+      "kind": "CONTENT",
+      "label": "ANIL-BAJNATH",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/anil-bajnath",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/anil-bajnath",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/anthony-chang",
+      "kind": "CONTENT",
+      "label": "ANTHONY-CHANG",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/anthony-chang",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/anthony-chang",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/atul-butte",
+      "kind": "CONTENT",
+      "label": "ATUL-BUTTE",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/atul-butte",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/atul-butte",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/avinash-boodoosingh",
+      "kind": "CONTENT",
+      "label": "AVINASH-BOODOOSINGH",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/avinash-boodoosingh",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/avinash-boodoosingh",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/balaji-srinivasan",
+      "kind": "CONTENT",
+      "label": "BALAJI-SRINIVASAN",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/balaji-srinivasan",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/balaji-srinivasan",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/beau-norgeot",
+      "kind": "CONTENT",
+      "label": "BEAU-NORGEOT",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/beau-norgeot",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/beau-norgeot",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/christian-green",
+      "kind": "CONTENT",
+      "label": "CHRISTIAN-GREEN",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/christian-green",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/christian-green",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/david-metcalf",
+      "kind": "CONTENT",
+      "label": "DAVID-METCALF",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/david-metcalf",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/david-metcalf",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/david-slonim",
+      "kind": "CONTENT",
+      "label": "DAVID-SLONIM",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/david-slonim",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/david-slonim",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/deborah-german",
+      "kind": "CONTENT",
+      "label": "DEBORAH-GERMAN",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/deborah-german",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/deborah-german",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/diadia-health",
+      "kind": "CONTENT",
+      "label": "DIADIA-HEALTH",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/diadia-health",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/diadia-health",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/elena-cyrus",
+      "kind": "CONTENT",
+      "label": "ELENA-CYRUS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/elena-cyrus",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/elena-cyrus",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/elena-ikonomovska",
+      "kind": "CONTENT",
+      "label": "ELENA-IKONOMOVSKA",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/elena-ikonomovska",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/elena-ikonomovska",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/emre-baser",
+      "kind": "CONTENT",
+      "label": "EMRE-BASER",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/emre-baser",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/emre-baser",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/enrico-marcellino",
+      "kind": "CONTENT",
+      "label": "ENRICO-MARCELLINO",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/enrico-marcellino",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/enrico-marcellino",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/fatima-boukrim",
+      "kind": "CONTENT",
+      "label": "FATIMA-BOUKRIM",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/fatima-boukrim",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/fatima-boukrim",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/gabe-fitch",
+      "kind": "CONTENT",
+      "label": "GABE-FITCH",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/gabe-fitch",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/gabe-fitch",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/geoff-seyon",
+      "kind": "CONTENT",
+      "label": "GEOFF-SEYON",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/geoff-seyon",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/geoff-seyon",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/gini-deshpande",
+      "kind": "CONTENT",
+      "label": "GINI-DESHPANDE",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/gini-deshpande",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/gini-deshpande",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/harry-pappas",
+      "kind": "CONTENT",
+      "label": "HARRY-PAPPAS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/harry-pappas",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/harry-pappas",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/ilya-beda",
+      "kind": "CONTENT",
+      "label": "ILYA-BEDA",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/ilya-beda",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/ilya-beda",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/isabella-johnston",
+      "kind": "CONTENT",
+      "label": "ISABELLA-JOHNSTON",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/isabella-johnston",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/isabella-johnston",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/jane-gibson",
+      "kind": "CONTENT",
+      "label": "JANE-GIBSON",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/jane-gibson",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/jane-gibson",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/jason-palinkas",
+      "kind": "CONTENT",
+      "label": "JASON-PALINKAS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/jason-palinkas",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/jason-palinkas",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/joann-yamani",
+      "kind": "CONTENT",
+      "label": "JOANN-YAMANI",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/joann-yamani",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/joann-yamani",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/julio-hernandez",
+      "kind": "CONTENT",
+      "label": "JULIO-HERNANDEZ",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/julio-hernandez",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/julio-hernandez",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/junaid-kalia",
+      "kind": "CONTENT",
+      "label": "JUNAID-KALIA",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/junaid-kalia",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/junaid-kalia",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/kunal-patel",
+      "kind": "CONTENT",
+      "label": "KUNAL-PATEL",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/kunal-patel",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/kunal-patel",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/maria-hupp",
+      "kind": "CONTENT",
+      "label": "MARIA-HUPP",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/maria-hupp",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/maria-hupp",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/mariana-dangiolo",
+      "kind": "CONTENT",
+      "label": "MARIANA-DANGIOLO",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/mariana-dangiolo",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/mariana-dangiolo",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/marina-sirota",
+      "kind": "CONTENT",
+      "label": "MARINA-SIROTA",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/marina-sirota",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/marina-sirota",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/mark-malek",
+      "kind": "CONTENT",
+      "label": "MARK-MALEK",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/mark-malek",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/mark-malek",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/maysoun-douas-maadi",
+      "kind": "CONTENT",
+      "label": "MAYSOUN-DOUAS-MAADI",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/maysoun-douas-maadi",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/maysoun-douas-maadi",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/mike-miller",
+      "kind": "CONTENT",
+      "label": "MIKE-MILLER",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/mike-miller",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/mike-miller",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/minh-nguyen",
+      "kind": "CONTENT",
+      "label": "MINH-NGUYEN",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/minh-nguyen",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/minh-nguyen",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/mubarak-shah",
+      "kind": "CONTENT",
+      "label": "MUBARAK-SHAH",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/mubarak-shah",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/mubarak-shah",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/neil-sumaru",
+      "kind": "CONTENT",
+      "label": "NEIL-SUMARU",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/neil-sumaru",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/neil-sumaru",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/neville-calleja",
+      "kind": "CONTENT",
+      "label": "NEVILLE-CALLEJA",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/neville-calleja",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/neville-calleja",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/rawle-annandsingh",
+      "kind": "CONTENT",
+      "label": "RAWLE-ANNANDSINGH",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/rawle-annandsingh",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/rawle-annandsingh",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/rima-arnaout",
+      "kind": "CONTENT",
+      "label": "RIMA-ARNAOUT",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/rima-arnaout",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/rima-arnaout",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/rob-herzog",
+      "kind": "CONTENT",
+      "label": "ROB-HERZOG",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/rob-herzog",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/rob-herzog",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/rob-purinton",
+      "kind": "CONTENT",
+      "label": "ROB-PURINTON",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/rob-purinton",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/rob-purinton",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/robert-glover",
+      "kind": "CONTENT",
+      "label": "ROBERT-GLOVER",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/robert-glover",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/robert-glover",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/robin-williams",
+      "kind": "CONTENT",
+      "label": "ROBIN-WILLIAMS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/robin-williams",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/robin-williams",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/shyamali",
+      "kind": "CONTENT",
+      "label": "SHYAMALI",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/shyamali",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/shyamali",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/stargeo",
+      "kind": "CONTENT",
+      "label": "STARGEO",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/stargeo",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/stargeo",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/ted-goldstein",
+      "kind": "CONTENT",
+      "label": "TED-GOLDSTEIN",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/ted-goldstein",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/ted-goldstein",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/terrence-fullum",
+      "kind": "CONTENT",
+      "label": "TERRENCE-FULLUM",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/terrence-fullum",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/terrence-fullum",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/vijay-pande",
+      "kind": "CONTENT",
+      "label": "VIJAY-PANDE",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/vijay-pande",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/vijay-pande",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/yana",
+      "kind": "CONTENT",
+      "label": "YANA",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/yana",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/yana",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/youness-ouahid-benkaddour",
+      "kind": "CONTENT",
+      "label": "YOUNESS-OUAHID-BENKADDOUR",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/youness-ouahid-benkaddour",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/youness-ouahid-benkaddour",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEDGER/PMWC-2026-SUBMISSION",
+      "kind": "CONTENT",
+      "label": "PMWC-2026-SUBMISSION",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEDGER/PMWC-2026-SUBMISSION",
+      "parent": "hadleylab-canonic/SERVICES/LEDGER",
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEDGER/PMWC-2026-SUBMISSION",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/RESERVES/ASSET-REGISTRY",
+      "kind": "CONTENT",
+      "label": "ASSET-REGISTRY",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/RESERVES/ASSET-REGISTRY",
+      "parent": "hadleylab-canonic/SERVICES/RESERVES",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/RESERVES/ASSET-REGISTRY",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/RESERVES/DATA-AXIOMS",
+      "kind": "CONTENT",
+      "label": "DATA-AXIOMS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/RESERVES/DATA-AXIOMS",
+      "parent": "hadleylab-canonic/SERVICES/RESERVES",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/RESERVES/DATA-AXIOMS",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/RESERVES/ECONOMICS",
+      "kind": "CONTENT",
+      "label": "ECONOMICS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/RESERVES/ECONOMICS",
+      "parent": "hadleylab-canonic/SERVICES/RESERVES",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/RESERVES/ECONOMICS",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/RESERVES/MARKETPLACE",
+      "kind": "CONTENT",
+      "label": "MARKETPLACE",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/RESERVES/MARKETPLACE",
+      "parent": "hadleylab-canonic/SERVICES/RESERVES",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/RESERVES/MARKETPLACE",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/RESERVES/TOKENOMICS",
+      "kind": "CONTENT",
+      "label": "TOKENOMICS",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/RESERVES/TOKENOMICS",
+      "parent": "hadleylab-canonic/SERVICES/RESERVES",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/RESERVES/TOKENOMICS",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/USERS/FATIMA/VITAE",
+      "kind": "CONTENT",
+      "label": "VITAE",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/FATIMA/VITAE",
+      "parent": "hadleylab-canonic/USERS/FATIMA",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/FATIMA/VITAE",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/USERS/FATIMA/fatima-boukrim",
+      "kind": "CONTENT",
+      "label": "FATIMA-BOUKRIM",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/FATIMA/fatima-boukrim",
+      "parent": "hadleylab-canonic/USERS/FATIMA",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/FATIMA/fatima-boukrim",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/USERS/FATIMA/CHAT/governor-appointment",
+      "kind": "CONTENT",
+      "label": "GOVERNOR-APPOINTMENT",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/FATIMA/CHAT/governor-appointment",
+      "parent": "hadleylab-canonic/USERS/FATIMA/CHAT",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/FATIMA/CHAT/governor-appointment",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/USERS/FATIMA/CHAT/nda",
+      "kind": "CONTENT",
+      "label": "NDA",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/FATIMA/CHAT/nda",
+      "parent": "hadleylab-canonic/USERS/FATIMA/CHAT",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/FATIMA/CHAT/nda",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/USERS/GEOFF/CHAT/advisory-appointment",
+      "kind": "CONTENT",
+      "label": "ADVISORY-APPOINTMENT",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/GEOFF/CHAT/advisory-appointment",
+      "parent": "hadleylab-canonic/USERS/GEOFF/CHAT",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/GEOFF/CHAT/advisory-appointment",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/USERS/GEOFF/CHAT/nda",
+      "kind": "CONTENT",
+      "label": "NDA",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/GEOFF/CHAT/nda",
+      "parent": "hadleylab-canonic/USERS/GEOFF/CHAT",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/GEOFF/CHAT/nda",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/USERS/DEXTER/VITAE",
+      "kind": "CONTENT",
+      "label": "VITAE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/USERS/DEXTER/VITAE",
+      "parent": "runner-canonic/canonic-canonic/USERS/DEXTER",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/USERS/DEXTER/VITAE",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "runner-canonic/canonic-canonic/USERS/ROBERT/VITAE",
+      "kind": "CONTENT",
+      "label": "VITAE",
+      "repo": "runner-canonic",
+      "path": "canonic-canonic/USERS/ROBERT/VITAE",
+      "parent": "runner-canonic/canonic-canonic/USERS/ROBERT",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "canonic-canonic/USERS/ROBERT/VITAE",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/USERS/AVINASH/SERVICES",
+      "kind": "USER",
+      "label": "SERVICES",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/AVINASH/SERVICES",
+      "parent": "hadleylab-canonic/USERS/AVINASH",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 0,
+      "tier": "NONE",
+      "missing_dims": [
+        "D",
+        "E",
+        "T",
+        "R",
+        "O",
+        "S",
+        "L",
+        "LANG"
+      ],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/AVINASH/SERVICES",
+      "privacy": "PRIVATE",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/FATIMA/SERVICES",
+      "kind": "USER",
+      "label": "SERVICES",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/FATIMA/SERVICES",
+      "parent": "hadleylab-canonic/USERS/FATIMA",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 0,
+      "tier": "NONE",
+      "missing_dims": [
+        "D",
+        "E",
+        "T",
+        "R",
+        "O",
+        "S",
+        "L",
+        "LANG"
+      ],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/FATIMA/SERVICES",
+      "privacy": "PRIVATE",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/ILYA/SERVICES",
+      "kind": "USER",
+      "label": "SERVICES",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/ILYA/SERVICES",
+      "parent": "hadleylab-canonic/USERS/ILYA",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 0,
+      "tier": "NONE",
+      "missing_dims": [
+        "D",
+        "E",
+        "T",
+        "R",
+        "O",
+        "S",
+        "L",
+        "LANG"
+      ],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ILYA/SERVICES",
+      "privacy": "PRIVATE",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/ISABELLA/SERVICES",
+      "kind": "USER",
+      "label": "SERVICES",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/ISABELLA/SERVICES",
+      "parent": "hadleylab-canonic/USERS/ISABELLA",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 0,
+      "tier": "NONE",
+      "missing_dims": [
+        "D",
+        "E",
+        "T",
+        "R",
+        "O",
+        "S",
+        "L",
+        "LANG"
+      ],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ISABELLA/SERVICES",
+      "privacy": "PRIVATE",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/JP/SERVICES",
+      "kind": "USER",
+      "label": "SERVICES",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/JP/SERVICES",
+      "parent": "hadleylab-canonic/USERS/JP",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 0,
+      "tier": "NONE",
+      "missing_dims": [
+        "D",
+        "E",
+        "T",
+        "R",
+        "O",
+        "S",
+        "L",
+        "LANG"
+      ],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/JP/SERVICES",
+      "privacy": "PRIVATE",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/ROBERT/SERVICES",
+      "kind": "USER",
+      "label": "SERVICES",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/ROBERT/SERVICES",
+      "parent": "hadleylab-canonic/USERS/ROBERT",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 0,
+      "tier": "NONE",
+      "missing_dims": [
+        "D",
+        "E",
+        "T",
+        "R",
+        "O",
+        "S",
+        "L",
+        "LANG"
+      ],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/ROBERT/SERVICES",
+      "privacy": "PRIVATE",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/USERS/YANA/SERVICES",
+      "kind": "USER",
+      "label": "SERVICES",
+      "repo": "hadleylab-canonic",
+      "path": "USERS/YANA/SERVICES",
+      "parent": "hadleylab-canonic/USERS/YANA",
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "bits": 0,
+      "tier": "NONE",
+      "missing_dims": [
+        "D",
+        "E",
+        "T",
+        "R",
+        "O",
+        "S",
+        "L",
+        "LANG"
+      ],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/YANA/SERVICES",
+      "privacy": "PRIVATE",
+      "children": 2
+    }
+  ],
+  "edges": [
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/USERS/DEXTER",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/USERS/ROBERT",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS",
+      "to": "hadleylab-canonic/SERVICES/BOOK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEALS/BOND-VALE",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEALS",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEALS/CAOH",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEALS/CAOH/SOU",
+      "to": "hadleylab-canonic/DEALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
+      "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DECKS/ACHIEVE",
+      "to": "hadleylab-canonic/SERVICES/DECK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DECKS/BEDA",
+      "to": "hadleylab-canonic/SERVICES/DECK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DECKS/BOND-VALE",
+      "to": "hadleylab-canonic/SERVICES/DECK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DECKS",
+      "to": "hadleylab-canonic/SERVICES/DECK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DECKS/DECK",
+      "to": "hadleylab-canonic/SERVICES/DECK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DECKS/ESGO",
+      "to": "hadleylab-canonic/SERVICES/DECK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DECKS/HOWARD",
+      "to": "hadleylab-canonic/SERVICES/DECK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DECKS/JP-CAPITAL",
+      "to": "hadleylab-canonic/SERVICES/DECK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DECKS/PMWC",
+      "to": "hadleylab-canonic/SERVICES/DECK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DECKS/RUNNER-CHAIN",
+      "to": "hadleylab-canonic/SERVICES/DECK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DECKS/SGU",
+      "to": "hadleylab-canonic/SERVICES/DECK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DECKS/STRONG-HER",
+      "to": "hadleylab-canonic/SERVICES/DECK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "to": "hadleylab-canonic/SERVICES/GRANT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/GRANTS",
+      "to": "hadleylab-canonic/SERVICES/GRANT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/GRANTS/EHDS-GOV",
+      "to": "hadleylab-canonic/SERVICES/GRANT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/NASES",
+      "to": "hadleylab-canonic/SERVICES/NAS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS/PROV-001",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS/PROV-002",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS/PROV-003",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS/PROV-004",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS/PROV-005",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS/PROV-006",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS/PROV-007",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS/PROV-008",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS/PROV-009",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS/PROV-010",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS/PROV-011",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS/PROV-012",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/PATENTS/PROV-013",
+      "to": "hadleylab-canonic/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SEEDS",
+      "to": "hadleylab-canonic/SERVICES/SEED"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/DECK",
+      "to": "canonic-canonic/MAGIC/SERVICES/DECK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/FINANCIALS",
+      "to": "canonic-canonic/MAGIC/SERVICES/FINANCIALS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/FORECASTS",
+      "to": "canonic-canonic/MAGIC/SERVICES/FORECASTS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/KYC",
+      "to": "canonic-canonic/MAGIC/SERVICES/KYC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/LEARNING",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEARNING"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/LEDGER",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/NAS",
+      "to": "canonic-canonic/MAGIC/SERVICES/NAS"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/PATENT",
+      "to": "canonic-canonic/MAGIC/SERVICES/PATENT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/RESERVES",
+      "to": "canonic-canonic/MAGIC/SERVICES/RESERVES"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/SEED",
+      "to": "canonic-canonic/MAGIC/SERVICES/SEED"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/STAR",
+      "to": "canonic-canonic/MAGIC/SERVICES/STAR"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/TIMELINE",
+      "to": "canonic-canonic/MAGIC/SERVICES/TIMELINE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/TRANSCRIPT",
+      "to": "canonic-canonic/MAGIC/SERVICES/TRANSCRIPT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/TRANSCRIPTS",
+      "to": "hadleylab-canonic/SERVICES/TRANSCRIPT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/TRANSCRIPTS/EMAIL",
+      "to": "hadleylab-canonic/SERVICES/TRANSCRIPT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/TRANSCRIPTS/IMESSAGE",
+      "to": "hadleylab-canonic/SERVICES/TRANSCRIPT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/TRANSCRIPTS/WHATSAPP",
+      "to": "hadleylab-canonic/SERVICES/TRANSCRIPT"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/AVINASH",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/AVINASH/CHAT",
+      "to": "hadleylab-canonic/SERVICES/TALK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/AVINASH/SERVICES/LEARNING",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEARNING"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS",
+      "to": "hadleylab-canonic/SERVICES/USER"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/FATIMA",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/FATIMA/CHAT",
+      "to": "hadleylab-canonic/SERVICES/TALK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/FATIMA/SERVICES/LEARNING",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEARNING"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/GEOFF",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/GEOFF/CHAT",
+      "to": "hadleylab-canonic/SERVICES/TALK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/ILYA",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/ILYA/CHAT",
+      "to": "hadleylab-canonic/SERVICES/TALK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/ILYA/SERVICES/LEARNING",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEARNING"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/ISABELLA",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/ISABELLA/CHAT",
+      "to": "hadleylab-canonic/SERVICES/TALK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/ISABELLA/SERVICES/LEARNING",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEARNING"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/JP",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/JP/CHAT",
+      "to": "hadleylab-canonic/SERVICES/TALK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/JP/SERVICES/LEARNING",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEARNING"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/ROBERT",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/ROBERT/CHAT",
+      "to": "hadleylab-canonic/SERVICES/TALK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/ROBERT/SERVICES/LEARNING",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEARNING"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/YANA",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/YANA/CHAT",
+      "to": "hadleylab-canonic/SERVICES/TALK"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/USERS/YANA/SERVICES/LEARNING",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEARNING"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/USERS/DEXTER",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/VITAE",
+      "to": "runner-canonic/SERVICES/VITAE"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/USERS/DEXTER",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "runner-canonic/canonic-canonic/USERS/ROBERT",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT",
+      "to": "hadleylab-canonic/DEALS/CAOH/SOU"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/DEALS/CAOH/SOU",
+      "to": "hadleylab-canonic/IRBS/CARIBCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/DEALS/CAOH/SOU",
+      "to": "canonic-canonic/MAGIC/SERVICES/COIN"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/DEALS/CAOH/SOU",
+      "to": "hadleylab-canonic/DEALS/CAOH"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/USERS/DEXTER",
+      "to": "canonic-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/USERS/ROBERT",
+      "to": "canonic-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS",
+      "to": "hadleylab-canonic/BOOKS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS",
+      "to": "hadleylab-canonic/BOOKS/DARIOISMS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS/BAKEOFF",
+      "to": "hadleylab-canonic/DEALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS/BOND-VALE",
+      "to": "hadleylab-canonic/DEALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS",
+      "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS/CAOH",
+      "to": "hadleylab-canonic/DEALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS/CAOH/SOU",
+      "to": "hadleylab-canonic/DEALS/CAOH"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS/EXCELLENTING",
+      "to": "hadleylab-canonic/DEALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
+      "to": "hadleylab-canonic/DEALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS/LLU",
+      "to": "hadleylab-canonic/DEALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS/MALTA-ENTERPRISE",
+      "to": "hadleylab-canonic/DEALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS/OC-MAMMOCHAT",
+      "to": "hadleylab-canonic/DEALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS/RUNNER-CHAIN",
+      "to": "hadleylab-canonic/DEALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "to": "hadleylab-canonic/GRANTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS",
+      "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/EHDS-GOV",
+      "to": "hadleylab-canonic/GRANTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/NASES",
+      "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/NASES/SYNOLOGY",
+      "to": "hadleylab-canonic/NASES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/APPLICATIONS",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS",
+      "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/DISCLOSURES",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROV-001",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROV-002",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROV-003",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROV-004",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROV-005",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROV-006",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROV-007",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROV-008",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROV-009",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROV-010",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROV-011",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROV-012",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROV-013",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SEEDS",
+      "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SEEDS/ULTRA",
+      "to": "hadleylab-canonic/SEEDS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/DECK",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/FINANCIALS",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/FORECASTS",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/KYC",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEDGER",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/NAS",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/PATENT",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/RESERVES",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/SEED",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/STAR",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/TIMELINE",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/TRANSCRIPT",
+      "to": "hadleylab-canonic/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/AFSANA",
+      "to": "hadleylab-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/AVINASH",
+      "to": "hadleylab-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/AVINASH/CHAT",
+      "to": "hadleylab-canonic/USERS/AVINASH"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/AVINASH/SERVICES/LEARNING",
+      "to": "hadleylab-canonic/USERS/AVINASH/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/AVINASH/SERVICES/SHOP",
+      "to": "hadleylab-canonic/USERS/AVINASH/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS",
+      "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/CRAIG",
+      "to": "hadleylab-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/FATIMA",
+      "to": "hadleylab-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/FATIMA/CHAT",
+      "to": "hadleylab-canonic/USERS/FATIMA"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/FATIMA/SERVICES/LEARNING",
+      "to": "hadleylab-canonic/USERS/FATIMA/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/FATIMA/SERVICES/SHOP",
+      "to": "hadleylab-canonic/USERS/FATIMA/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/GEOFF",
+      "to": "hadleylab-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/GEOFF/CHAT",
+      "to": "hadleylab-canonic/USERS/GEOFF"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/GEOFF/VITAE",
+      "to": "hadleylab-canonic/USERS/GEOFF"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/ILYA",
+      "to": "hadleylab-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/ILYA/CHAT",
+      "to": "hadleylab-canonic/USERS/ILYA"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/ILYA/SERVICES/LEARNING",
+      "to": "hadleylab-canonic/USERS/ILYA/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/ILYA/SERVICES/SHOP",
+      "to": "hadleylab-canonic/USERS/ILYA/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/ISABELLA",
+      "to": "hadleylab-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/ISABELLA/CHAT",
+      "to": "hadleylab-canonic/USERS/ISABELLA"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/ISABELLA/SERVICES/LEARNING",
+      "to": "hadleylab-canonic/USERS/ISABELLA/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/ISABELLA/SERVICES/SHOP",
+      "to": "hadleylab-canonic/USERS/ISABELLA/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/JP",
+      "to": "hadleylab-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/JP/CHAT",
+      "to": "hadleylab-canonic/USERS/JP"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/JP/SERVICES/LEARNING",
+      "to": "hadleylab-canonic/USERS/JP/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/JP/SERVICES/SHOP",
+      "to": "hadleylab-canonic/USERS/JP/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/ROBERT",
+      "to": "hadleylab-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/ROBERT/CHAT",
+      "to": "hadleylab-canonic/USERS/ROBERT"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/ROBERT/SERVICES/LEARNING",
+      "to": "hadleylab-canonic/USERS/ROBERT/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/ROBERT/SERVICES/SHOP",
+      "to": "hadleylab-canonic/USERS/ROBERT/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/SARAH",
+      "to": "hadleylab-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/YANA",
+      "to": "hadleylab-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/YANA/CHAT",
+      "to": "hadleylab-canonic/USERS/YANA"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/YANA/SERVICES/LEARNING",
+      "to": "hadleylab-canonic/USERS/YANA/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/YANA/SERVICES/SHOP",
+      "to": "hadleylab-canonic/USERS/YANA/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/USERS/DEXTER",
+      "to": "runner-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/VITAE",
+      "to": "runner-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/USERS/DEXTER",
+      "to": "runner-canonic/canonic-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/USERS/ROBERT",
+      "to": "runner-canonic/canonic-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/USERS/DEXTER/VITAE",
+      "to": "canonic-canonic/USERS/DEXTER"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/USERS/ROBERT/VITAE",
+      "to": "canonic-canonic/USERS/ROBERT"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS/COMPILE",
+      "to": "hadleylab-canonic/BOOKS/DARIOISMS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS/SPINE",
+      "to": "hadleylab-canonic/BOOKS/DARIOISMS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/00-PREFACE",
+      "to": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/01-THE-PHYSICIST",
+      "to": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/02-THE-DEPARTURE",
+      "to": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/03-THE-RED-LINES",
+      "to": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS/CAOH/BUSINESS-PLAN",
+      "to": "hadleylab-canonic/DEALS/CAOH"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS/CAOH/LAUNCH-PLAN",
+      "to": "hadleylab-canonic/DEALS/CAOH"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/DEALS/CAOH/SOU/email-marisa-sou-apr5",
+      "to": "hadleylab-canonic/DEALS/CAOH/SOU"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/SPECIFIC-AIMS",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-biosketch-reminder",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-howard-apr3",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-review",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-update-apr3",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-abstract",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-research-plan",
+      "to": "hadleylab-canonic/GRANTS/ACS-FLATIRON"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/BUSINESS-PLAN-NIH",
+      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS-NIH",
+      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS",
+      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS-NIH",
+      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS",
+      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/GRANTS/EHDS-GOV/WORK-TALK-REVIEW",
+      "to": "hadleylab-canonic/GRANTS/EHDS-GOV"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/APPLICATIONS/FRAND-COMMITMENT",
+      "to": "hadleylab-canonic/PATENTS/APPLICATIONS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/CLAIMS",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/FILING-RECEIPTS",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/FILING",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/LEDGER",
+      "to": "hadleylab-canonic/PATENTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/EPO-PRIOR-ART-SEARCH",
+      "to": "hadleylab-canonic/PATENTS/DUE-DILIGENCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/JPO-PRIOR-ART-SEARCH",
+      "to": "hadleylab-canonic/PATENTS/DUE-DILIGENCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/NPL-PRIOR-ART-SEARCH",
+      "to": "hadleylab-canonic/PATENTS/DUE-DILIGENCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009-FULL",
+      "to": "hadleylab-canonic/PATENTS/DUE-DILIGENCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009",
+      "to": "hadleylab-canonic/PATENTS/DUE-DILIGENCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-010-013",
+      "to": "hadleylab-canonic/PATENTS/DUE-DILIGENCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PROV-PRIOR-ART-ANALYSIS",
+      "to": "hadleylab-canonic/PATENTS/DUE-DILIGENCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/SECTION-101-PROV-007-009",
+      "to": "hadleylab-canonic/PATENTS/DUE-DILIGENCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/SECTION-101-PROV-010-013",
+      "to": "hadleylab-canonic/PATENTS/DUE-DILIGENCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/SECTION-101",
+      "to": "hadleylab-canonic/PATENTS/DUE-DILIGENCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/US-PRIOR-ART-SEARCH",
+      "to": "hadleylab-canonic/PATENTS/DUE-DILIGENCE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-001",
+      "to": "hadleylab-canonic/PATENTS/PROVISIONALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-002",
+      "to": "hadleylab-canonic/PATENTS/PROVISIONALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-003",
+      "to": "hadleylab-canonic/PATENTS/PROVISIONALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-004",
+      "to": "hadleylab-canonic/PATENTS/PROVISIONALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-005",
+      "to": "hadleylab-canonic/PATENTS/PROVISIONALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-006",
+      "to": "hadleylab-canonic/PATENTS/PROVISIONALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-007",
+      "to": "hadleylab-canonic/PATENTS/PROVISIONALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-008",
+      "to": "hadleylab-canonic/PATENTS/PROVISIONALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-009",
+      "to": "hadleylab-canonic/PATENTS/PROVISIONALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-010",
+      "to": "hadleylab-canonic/PATENTS/PROVISIONALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-011",
+      "to": "hadleylab-canonic/PATENTS/PROVISIONALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-012",
+      "to": "hadleylab-canonic/PATENTS/PROVISIONALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-013",
+      "to": "hadleylab-canonic/PATENTS/PROVISIONALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/FINANCIALS/BUSINESS",
+      "to": "hadleylab-canonic/SERVICES/FINANCIALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/FINANCIALS/HOW-IT-WORKS",
+      "to": "hadleylab-canonic/SERVICES/FINANCIALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/FINANCIALS/SERIES-A",
+      "to": "hadleylab-canonic/SERVICES/FINANCIALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/FINANCIALS/VALUATION",
+      "to": "hadleylab-canonic/SERVICES/FINANCIALS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/FORECASTS/COVERAGE-METRICS",
+      "to": "hadleylab-canonic/SERVICES/FORECASTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/FORECASTS/IP-VALUATION",
+      "to": "hadleylab-canonic/SERVICES/FORECASTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/FORECASTS/YEAR-1",
+      "to": "hadleylab-canonic/SERVICES/FORECASTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/FORECASTS/YEAR-3",
+      "to": "hadleylab-canonic/SERVICES/FORECASTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/FORECASTS/YEAR-5",
+      "to": "hadleylab-canonic/SERVICES/FORECASTS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/ATUL-BUTTE-MAFIA",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/MAGIC-LATTICE",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/NETWORK-MAP",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/ROSTER",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/afsana-akter",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/alex-evans",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/alyssa-tanaka",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/amoy-fraser",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/andrew-trister",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/anil-bajnath",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/anthony-chang",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/atul-butte",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/avinash-boodoosingh",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/balaji-srinivasan",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/beau-norgeot",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/christian-green",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/david-metcalf",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/david-slonim",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/deborah-german",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/diadia-health",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/elena-cyrus",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/elena-ikonomovska",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/emre-baser",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/enrico-marcellino",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/fatima-boukrim",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/gabe-fitch",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/geoff-seyon",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/gini-deshpande",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/harry-pappas",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/ilya-beda",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/isabella-johnston",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/jane-gibson",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/jason-palinkas",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/joann-yamani",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/julio-hernandez",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/junaid-kalia",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/kunal-patel",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/maria-hupp",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/mariana-dangiolo",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/marina-sirota",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/mark-malek",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/maysoun-douas-maadi",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/mike-miller",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/minh-nguyen",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/mubarak-shah",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/neil-sumaru",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/neville-calleja",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/rawle-annandsingh",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/rima-arnaout",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/rob-herzog",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/rob-purinton",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/robert-glover",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/robin-williams",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/shyamali",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/stargeo",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/ted-goldstein",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/terrence-fullum",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/vijay-pande",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/yana",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/youness-ouahid-benkaddour",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEDGER/PMWC-2026-SUBMISSION",
+      "to": "hadleylab-canonic/SERVICES/LEDGER"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/RESERVES/ASSET-REGISTRY",
+      "to": "hadleylab-canonic/SERVICES/RESERVES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/RESERVES/DATA-AXIOMS",
+      "to": "hadleylab-canonic/SERVICES/RESERVES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/RESERVES/ECONOMICS",
+      "to": "hadleylab-canonic/SERVICES/RESERVES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/RESERVES/MARKETPLACE",
+      "to": "hadleylab-canonic/SERVICES/RESERVES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/RESERVES/TOKENOMICS",
+      "to": "hadleylab-canonic/SERVICES/RESERVES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/FATIMA/VITAE",
+      "to": "hadleylab-canonic/USERS/FATIMA"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/FATIMA/fatima-boukrim",
+      "to": "hadleylab-canonic/USERS/FATIMA"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/FATIMA/CHAT/governor-appointment",
+      "to": "hadleylab-canonic/USERS/FATIMA/CHAT"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/FATIMA/CHAT/nda",
+      "to": "hadleylab-canonic/USERS/FATIMA/CHAT"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/GEOFF/CHAT/advisory-appointment",
+      "to": "hadleylab-canonic/USERS/GEOFF/CHAT"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/GEOFF/CHAT/nda",
+      "to": "hadleylab-canonic/USERS/GEOFF/CHAT"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/USERS/DEXTER/VITAE",
+      "to": "runner-canonic/canonic-canonic/USERS/DEXTER"
+    },
+    {
+      "kind": "PARENT",
+      "from": "runner-canonic/canonic-canonic/USERS/ROBERT/VITAE",
+      "to": "runner-canonic/canonic-canonic/USERS/ROBERT"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/AVINASH/SERVICES",
+      "to": "hadleylab-canonic/USERS/AVINASH"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/FATIMA/SERVICES",
+      "to": "hadleylab-canonic/USERS/FATIMA"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/ILYA/SERVICES",
+      "to": "hadleylab-canonic/USERS/ILYA"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/ISABELLA/SERVICES",
+      "to": "hadleylab-canonic/USERS/ISABELLA"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/JP/SERVICES",
+      "to": "hadleylab-canonic/USERS/JP"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/ROBERT/SERVICES",
+      "to": "hadleylab-canonic/USERS/ROBERT"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/USERS/YANA/SERVICES",
+      "to": "hadleylab-canonic/USERS/YANA"
+    }
+  ]
+}

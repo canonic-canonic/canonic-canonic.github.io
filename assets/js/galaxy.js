@@ -45,7 +45,7 @@ var GALAXY = (function () {
     var _rightOpen = false;
     var _searchOpen = false;
     var _selectedNodeId = null;
-    var _viewMode = 'finder';  // 'finder' | 'graph' | 'explore'
+    var _viewMode = 'finder';  // 'finder' | 'graph'
     var _finderPath = [];       // breadcrumb stack of node IDs
     var _graphBuilt = false;
     var _talkMode = false;
@@ -540,12 +540,10 @@ var GALAXY = (function () {
         // View toggle (stable across both views)
         var finderActive = _viewMode === 'finder' ? ' active' : '';
         var graphActive = _viewMode === 'graph' ? ' active' : '';
-        var exploreActive = _viewMode === 'explore' ? ' active' : '';
         html += '<div class="cp-divider"></div>';
         html += '<div class="cp-view-toggle">';
         html += '<span class="fc-toggle-btn' + finderActive + '" onclick="GALAXY.setView(\'finder\')"><i class="fas fa-th-list"></i> Finder</span>';
         html += '<span class="fc-toggle-btn' + graphActive + '" onclick="GALAXY.setView(\'graph\')"><i class="fas fa-project-diagram"></i> Graph</span>';
-        html += '<span class="fc-toggle-btn' + exploreActive + '" onclick="GALAXY.setView(\'explore\')"><i class="fas fa-search-plus"></i> Explore</span>';
         html += '</div>';
 
         // Breadcrumb (Finder only)
@@ -610,10 +608,8 @@ var GALAXY = (function () {
                 }
             });
             html += '</div>';
-        }
 
-        // Explore-only: edge type filters + comprehensive stats HUD
-        if (_viewMode === 'explore') {
+            // Edge type filters + stats (part of Graph view)
             var st = galaxy.stats || {};
             var edgeCounts = {};
             (galaxy.edges || []).forEach(function (e) {
@@ -646,34 +642,6 @@ var GALAXY = (function () {
             });
             html += '</div>';
 
-            // Tier distribution (same as graph but always visible in explore)
-            var tierCounts = {};
-            _compiledTiers.forEach(function (t) { tierCounts[t.name] = 0; });
-            galaxy.nodes.forEach(function (n) {
-                if (n.kind !== 'USER' && typeof n.bits === 'number') {
-                    var t = tierFor(n.bits);
-                    if (tierCounts[t.name] !== undefined) tierCounts[t.name]++;
-                    else tierCounts[t.name] = 1;
-                }
-            });
-            html += '<div class="cp-divider"></div>';
-            html += '<div class="cp-filters">';
-            _compiledTiers.forEach(function (t) {
-                var cnt = tierCounts[t.name] || 0;
-                if (cnt > 0) {
-                    var active = _activeFilter === 'tier:' + t.name ? ' active' : '';
-                    html += '<span class="filter-pill' + active + '" style="color:' + t.color + ';border-color:' + hexToRgba(t.color, 0.4) + '" onclick="GALAXY.filterTier(\'' + t.name + '\')">' + t.badge + ' ' + t.name + ' <span style="opacity:0.5;font-size:8px">' + cnt + '</span></span>';
-                }
-            });
-            html += '</div>';
-
-            // Health bar
-            var healthPctE = st.fleet_health_pct || 0;
-            var healthColorE = healthPctE >= 90 ? '#22c55e' : healthPctE >= 70 ? '#eab308' : '#ef4444';
-            html += '<div class="cp-health" title="Fleet health">';
-            html += '<div class="cp-health-label">FLEET HEALTH</div>';
-            html += '<div class="cp-health-bar"><div class="cp-health-fill" style="width:' + healthPctE + '%;background:' + healthColorE + '"></div></div>';
-            html += '</div>';
         }
 
         el.innerHTML = html;
@@ -1692,7 +1660,7 @@ var GALAXY = (function () {
 
         // URL hash overrides default view (shareable links)
         var hashParams = _parseHash();
-        if (hashParams.view && ['finder', 'graph', 'explore'].indexOf(hashParams.view) !== -1) {
+        if (hashParams.view && ['finder', 'graph'].indexOf(hashParams.view) !== -1) {
             _viewMode = hashParams.view;
         }
         if (hashParams.edge) {
@@ -1713,7 +1681,7 @@ var GALAXY = (function () {
             renderControlPanel();
             renderCatLegend();
             // Apply hash-driven edge filter after graph build
-            if (_exploreFilters.edgeKinds && _viewMode === 'explore') {
+            if (_exploreFilters.edgeKinds) {
                 filterEdgeKind(_exploreFilters.edgeKinds);
                 _exploreFilters.edgeKinds = _exploreFilters.edgeKinds; // re-set after toggle
             }
