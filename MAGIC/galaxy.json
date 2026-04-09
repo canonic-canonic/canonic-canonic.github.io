@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "254f373a23c1d2a0"
+    "gov_hash": "7d569aae8e11d6d8"
   },
-  "generated": "2026-04-09T03:43:53Z",
+  "generated": "2026-04-09T03:51:05Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -74,18 +74,18 @@
     ]
   },
   "stats": {
-    "total": 1037,
+    "total": 1039,
     "avg_bits": 252,
-    "below_magic": 73,
-    "intel_coverage": 132,
-    "total_coin": 154358,
-    "total_events": 751,
+    "below_magic": 84,
+    "intel_coverage": 133,
+    "total_coin": 155710,
+    "total_events": 760,
     "total_sessions": 208,
     "active_channels": 7,
     "user_count": 31,
     "org_count": 5,
     "svc_count": 51,
-    "scope_count": 357,
+    "scope_count": 358,
     "fleet_health_pct": 99
   },
   "nodes": [
@@ -109,96 +109,15 @@
       "fleet_path": "",
       "children": 5,
       "wallet": {
-        "balance": 154358,
-        "events": 751,
+        "balance": 155710,
+        "events": 760,
         "last_close": "EPOCH-1",
         "totals": {
-          "credit": 155569,
+          "credit": 156921,
           "debit": 1211,
-          "net": 154358
+          "net": 155710
         },
         "recent_transactions": [
-          {
-            "event": "MINT:WORK",
-            "amount": 64,
-            "delta": 64,
-            "note": "ON HAND spec script: 41 scenes, .fdx compiled, MAGIC 255. First SCREEN proof instance. Karmyn Jones first user of governed screenwriting system.",
-            "ts": "2026-04-08T17:20:03.352600Z",
-            "service": "LEDGER",
-            "product": "WORK"
-          },
-          {
-            "event": "MINT:WORK",
-            "amount": 64,
-            "delta": 64,
-            "note": "Co-inventor: PROV-012 AI-Governed Health Tourism Coordination. Bidirectional healthcare coverage, caregiver respite, tourism-health demand forecasting. Salutem platform. 15 claims.",
-            "ts": "2026-04-08T17:20:04.782853Z",
-            "service": "LEDGER",
-            "product": "WORK"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-08T17:51:09.186401Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-08T17:51:09.197170Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-08T17:51:09.198515Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-08T17:51:09.202622Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-08T17:51:09.204378Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-08T17:51:09.205456Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-08T17:51:09.206408Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
           {
             "event": "CLOSE",
             "amount": 0,
@@ -295,6 +214,87 @@
             "delta": 128,
             "note": "Co-inventor: PROV-016 Governed Native Surface. Secure Enclave key mgmt, Passkey auth with governance extensions, offline attestation. Apple Dev #1, 94 commits, 6-country deployment. Frontend for all CANONIC services.",
             "ts": "2026-04-08T19:56:15.753291Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:SIGNUP",
+            "amount": 500,
+            "delta": 500,
+            "note": "Signup bonus for DAVID",
+            "ts": "2026-04-09T03:56:50.871160Z",
+            "service": "WALLET",
+            "product": "SIGNUP"
+          },
+          {
+            "event": "MINT:SIGNUP",
+            "amount": 500,
+            "delta": 500,
+            "note": "Signup bonus for JULIO",
+            "ts": "2026-04-09T03:56:51.588851Z",
+            "service": "WALLET",
+            "product": "SIGNUP"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 64,
+            "delta": 64,
+            "note": "Drafted Articles of Incorporation, Bylaws, Conflict of Interest Policy for CANONIC Foundation. Foundation legal architecture.",
+            "ts": "2026-04-09T03:56:58.442680Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 64,
+            "delta": 64,
+            "note": "IP Trust instrument design + FRAND licensing templates (3 tiers: Enterprise/Business/Community). Critical path for IHI Apr 21 deadline. 6 patent families under trust.",
+            "ts": "2026-04-09T03:57:00.817396Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 32,
+            "delta": 32,
+            "note": "Contractor agreement templates: BedaSoftware service agreement (Ilya+Yana), Isabella operations agreement. Board deliverables 6.7-6.9.",
+            "ts": "2026-04-09T03:57:02.923572Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 32,
+            "delta": 32,
+            "note": "Board resolutions (Nimrod, Roach, Bajnath appointments). IP Assignment agreements (Nimrod, Bajnath). Legal review of co-inventor terms.",
+            "ts": "2026-04-09T03:57:07.414176Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 64,
+            "delta": 64,
+            "note": "Foundation entity formation: Articles filing (FL), EIN (SS-4), registered agent, operating bank account (dual-sig K), patent prosecution sub-account, chart of accounts, FL charitable solicitation, Form 1023 (full 501c3).",
+            "ts": "2026-04-09T03:57:17.165240Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 64,
+            "delta": 64,
+            "note": "9-year relationship (2017-2026). All DEXTER corporate tax: SkinIQ, Digital Curation, Hitcharide, Kempthorne. SBA EIDL management. 2024+2025 returns. Foundation annual filings.",
+            "ts": "2026-04-09T03:57:21.361540Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 32,
+            "delta": 32,
+            "note": "Treasurer advisory: D&O insurance coordination, JP Morgan IP trust structure review (Christian Green), dual-signature authority, foundation financial governance backbone.",
+            "ts": "2026-04-09T03:57:22.086850Z",
             "service": "LEDGER",
             "product": "WORK"
           }
@@ -5638,9 +5638,25 @@
       "missing_dims": [
         "R"
       ],
-      "has_intel": false,
+      "has_intel": true,
       "next_tier": "FULL",
       "next_tier_gap": 8,
+      "intel_summary": "origin: hadleylab-canonic/TALKS/OMICSCHAT/INTEL.md (extended 2026-04-08)",
+      "roadmap_now": "[ ] Review patents and business plan with Anil Bajnath",
+      "learning_count": 26,
+      "coverage_score": 255,
+      "coverage_open_gates": [
+        "GEO_GOVERN",
+        "STARGEO_BOOTSTRAP",
+        "INSILICO_CONSENSUS",
+        "DIMENSION_RESOLVE",
+        "COMMERCIAL_INTERPRET",
+        "ACTUARIAL_FEED",
+        "CERT_TOOL_CONVERGE",
+        "PLATFORM_COMPILE",
+        "ASSET_PIPELINE",
+        "STREAM_ARCH"
+      ],
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "APPS/OMICSCHAT",
       "cross_intel": [
@@ -5663,7 +5679,14 @@
           "OMICSCHAT"
         ]
       },
-      "learning": null,
+      "learning": [
+        {
+          "date": "2026-04-08",
+          "signal": "OPEN_EVIDENCE_KILL",
+          "pattern": "OpenEvidence scored 32.1% actionable navigation (vs 100% governed). They license guidelines (consumption). OmicsChat wri",
+          "source": "JAMA study + strategic analysis"
+        }
+      ],
       "score": 123
     },
     {
@@ -6641,96 +6664,15 @@
       "fleet_path": "",
       "children": 19,
       "wallet": {
-        "balance": 154358,
-        "events": 751,
+        "balance": 155710,
+        "events": 760,
         "last_close": "EPOCH-1",
         "totals": {
-          "credit": 155569,
+          "credit": 156921,
           "debit": 1211,
-          "net": 154358
+          "net": 155710
         },
         "recent_transactions": [
-          {
-            "event": "MINT:WORK",
-            "amount": 64,
-            "delta": 64,
-            "note": "ON HAND spec script: 41 scenes, .fdx compiled, MAGIC 255. First SCREEN proof instance. Karmyn Jones first user of governed screenwriting system.",
-            "ts": "2026-04-08T17:20:03.352600Z",
-            "service": "LEDGER",
-            "product": "WORK"
-          },
-          {
-            "event": "MINT:WORK",
-            "amount": 64,
-            "delta": 64,
-            "note": "Co-inventor: PROV-012 AI-Governed Health Tourism Coordination. Bidirectional healthcare coverage, caregiver respite, tourism-health demand forecasting. Salutem platform. 15 claims.",
-            "ts": "2026-04-08T17:20:04.782853Z",
-            "service": "LEDGER",
-            "product": "WORK"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-08T17:51:09.186401Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-08T17:51:09.197170Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-08T17:51:09.198515Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-08T17:51:09.202622Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-08T17:51:09.204378Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-08T17:51:09.205456Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
-          {
-            "event": "CLOSE",
-            "amount": 0,
-            "delta": 0,
-            "note": "CLOSE epoch 2026-04",
-            "ts": "2026-04-08T17:51:09.206408Z",
-            "service": "WALLET",
-            "product": "CLOSE"
-          },
           {
             "event": "CLOSE",
             "amount": 0,
@@ -6827,6 +6769,87 @@
             "delta": 128,
             "note": "Co-inventor: PROV-016 Governed Native Surface. Secure Enclave key mgmt, Passkey auth with governance extensions, offline attestation. Apple Dev #1, 94 commits, 6-country deployment. Frontend for all CANONIC services.",
             "ts": "2026-04-08T19:56:15.753291Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:SIGNUP",
+            "amount": 500,
+            "delta": 500,
+            "note": "Signup bonus for DAVID",
+            "ts": "2026-04-09T03:56:50.871160Z",
+            "service": "WALLET",
+            "product": "SIGNUP"
+          },
+          {
+            "event": "MINT:SIGNUP",
+            "amount": 500,
+            "delta": 500,
+            "note": "Signup bonus for JULIO",
+            "ts": "2026-04-09T03:56:51.588851Z",
+            "service": "WALLET",
+            "product": "SIGNUP"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 64,
+            "delta": 64,
+            "note": "Drafted Articles of Incorporation, Bylaws, Conflict of Interest Policy for CANONIC Foundation. Foundation legal architecture.",
+            "ts": "2026-04-09T03:56:58.442680Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 64,
+            "delta": 64,
+            "note": "IP Trust instrument design + FRAND licensing templates (3 tiers: Enterprise/Business/Community). Critical path for IHI Apr 21 deadline. 6 patent families under trust.",
+            "ts": "2026-04-09T03:57:00.817396Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 32,
+            "delta": 32,
+            "note": "Contractor agreement templates: BedaSoftware service agreement (Ilya+Yana), Isabella operations agreement. Board deliverables 6.7-6.9.",
+            "ts": "2026-04-09T03:57:02.923572Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 32,
+            "delta": 32,
+            "note": "Board resolutions (Nimrod, Roach, Bajnath appointments). IP Assignment agreements (Nimrod, Bajnath). Legal review of co-inventor terms.",
+            "ts": "2026-04-09T03:57:07.414176Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 64,
+            "delta": 64,
+            "note": "Foundation entity formation: Articles filing (FL), EIN (SS-4), registered agent, operating bank account (dual-sig K), patent prosecution sub-account, chart of accounts, FL charitable solicitation, Form 1023 (full 501c3).",
+            "ts": "2026-04-09T03:57:17.165240Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 64,
+            "delta": 64,
+            "note": "9-year relationship (2017-2026). All DEXTER corporate tax: SkinIQ, Digital Curation, Hitcharide, Kempthorne. SBA EIDL management. 2024+2025 returns. Foundation annual filings.",
+            "ts": "2026-04-09T03:57:21.361540Z",
+            "service": "LEDGER",
+            "product": "WORK"
+          },
+          {
+            "event": "MINT:WORK",
+            "amount": 32,
+            "delta": 32,
+            "note": "Treasurer advisory: D&O insurance coordination, JP Morgan IP trust structure review (Christian Green), dual-signature authority, foundation financial governance backbone.",
+            "ts": "2026-04-09T03:57:22.086850Z",
             "service": "LEDGER",
             "product": "WORK"
           }
@@ -7349,10 +7372,15 @@
       "parent": "hadleylab-canonic/DECKS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 223,
+      "tier": "NONE",
+      "missing_dims": [
+        "S"
+      ],
+      "privacy": "PUBLIC",
       "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 32,
       "intel_summary": "**KNOW YOUR PARTNER. EVERY COMMIT LEDGERED. EVERY DEPLOYMENT GOVERNED. EVERY DEAL EVIDENCED.**",
       "learning_count": 11,
       "coverage_score": 255,
@@ -7363,67 +7391,13 @@
       "talk": null,
       "learning": [
         {
-          "date": "2026-03-12",
-          "signal": "DEAL",
-          "pattern": "i18n certification + enterprise deployment opportunity presented",
-          "source": "WORK-TALK-ILYA-YANA.md"
-        },
-        {
-          "date": "2026-03-13",
-          "signal": "GOV_FIX",
-          "pattern": "BEDA deck scope created with full governance surface",
-          "source": "build-surfaces"
-        },
-        {
-          "date": "2026-03-19",
-          "signal": "BOOK_READ",
-          "pattern": "Yana confirms she and Ilya spent last couple of days reading the book. Certification path is self-starting.",
-          "source": "WhatsApp"
-        },
-        {
-          "date": "2026-03-19",
-          "signal": "ENGAGEMENT",
-          "pattern": "Yana confirms both will join 3/20 call. \"Please, send meeting invitation.\" Ilya invited by Yana.",
-          "source": "WhatsApp"
-        },
-        {
-          "date": "2026-03-19",
-          "signal": "DEMO_SENT",
-          "pattern": "GoRunner production lifecycle demo email sent with 8 screenshots to Robert, Ilya, Yana",
-          "source": "founder@canonic.org"
-        },
-        {
-          "date": "2026-03-19",
-          "signal": "PIPELINE_TEASE",
-          "pattern": "CaribChat.ai and Trinidad Caribbean deployment mentioned as near-term work opportunity",
-          "source": "WhatsApp"
-        },
-        {
-          "date": "2026-03-20",
-          "signal": "NEW_PATTERN",
-          "pattern": "BEDA_MEETING: Beda Software meeting completed. GALAXY Finder-first layout validated by Yana. Doctrine confirmed read by ",
-          "source": "Beda meeting 2026-03-20"
-        },
-        {
-          "date": "2026-03-22",
-          "signal": "NEW_PATTERN",
-          "pattern": "COIN_ATTESTATION: DIGEST.json signed with Ed25519. 3 witnesses (RunnerMVP, canonic-apple, canonic-canonic). BedaSoftware",
-          "source": "vault/WITNESSES/beda-software/DIGEST.json"
-        },
-        {
-          "date": "2026-03-23",
-          "signal": "NEW_PATTERN",
-          "pattern": "REVIEW_LOOP_CLOSED: Ilya and Yana's review of Canon/Doctrine identified duplication. Canon: 9\u21928 parts, 44\u219240 chapters. D",
-          "source": "Dedup session + GitHub traffic API"
-        },
-        {
           "date": "2026-03-23",
           "signal": "NEW_PATTERN",
           "pattern": "METACLOSURE: The loop closed across the distributed network. Community reads artifacts \u2192 signals quality \u2192 governor reme",
           "source": "This session"
         }
       ],
-      "score": 128
+      "score": 111
     },
     {
       "id": "hadleylab-canonic/DECKS/BOND-VALE",
@@ -7472,7 +7446,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS",
-      "children": 11,
+      "children": 12,
       "wallet": null,
       "talk": null,
       "learning": [
@@ -7625,6 +7599,33 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/DECKS/ESGO",
+      "kind": "SCOPE",
+      "label": "ESGO",
+      "repo": "hadleylab-canonic",
+      "path": "DECKS/ESGO",
+      "parent": "hadleylab-canonic/DECKS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 215,
+      "tier": "NONE",
+      "missing_dims": [
+        "R",
+        "S"
+      ],
+      "privacy": "PUBLIC",
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 40,
+      "surface_type": "JEKYLL_DECK",
+      "fleet_path": "DECKS/ESGO",
+      "children": 1,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 107
+    },
+    {
       "id": "hadleylab-canonic/DECKS/HOWARD",
       "kind": "SCOPE",
       "label": "HOWARD",
@@ -7633,10 +7634,15 @@
       "parent": "hadleylab-canonic/DECKS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 223,
+      "tier": "NONE",
+      "missing_dims": [
+        "S"
+      ],
+      "privacy": "PUBLIC",
       "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 32,
       "intel_summary": "**KNOW YOUR RESEARCH. EVERY CLAIM PUBLISHED. EVERY PATIENT GOVERNED. EVERY TRIAL REGISTERED.**",
       "learning_count": 7,
       "coverage_score": 255,
@@ -7647,49 +7653,13 @@
       "talk": null,
       "learning": [
         {
-          "date": "2026-02-14",
-          "signal": "Scope upgraded to 6-file governance surface",
-          "pattern": "Governance closure pass",
-          "source": ""
-        },
-        {
-          "date": "2026-02-14",
-          "signal": "Coverage and learning are required to prevent silent drift",
-          "pattern": "Scope CANON constraints",
-          "source": ""
-        },
-        {
-          "date": "2026-02-15",
-          "signal": "EVOLUTION",
-          "pattern": "Evolution: CURRENTLY \u2192 RISK",
-          "source": "142569d"
-        },
-        {
-          "date": "2026-02-15",
-          "signal": "EVOLUTION",
-          "pattern": "Evolution: CURRENTLY \u2192 RUNTIME",
-          "source": "142569d"
-        },
-        {
-          "date": "2026-02-15",
-          "signal": "EVOLUTION",
-          "pattern": "Evolution: CURRENTLY \u2192 MAGIC",
-          "source": "142569d"
-        },
-        {
-          "date": "2026-02-15",
-          "signal": "EVOLUTION",
-          "pattern": "Evolution: DOWN \u2192 RISK",
-          "source": "142569d"
-        },
-        {
           "date": "2026-02-15",
           "signal": "EVOLUTION",
           "pattern": "Evolution: BLOCKED \u2192 RISK",
           "source": "142569d"
         }
       ],
-      "score": 128
+      "score": 111
     },
     {
       "id": "hadleylab-canonic/DECKS/JP-CAPITAL",
@@ -7700,10 +7670,15 @@
       "parent": "hadleylab-canonic/DECKS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 223,
+      "tier": "NONE",
+      "missing_dims": [
+        "S"
+      ],
+      "privacy": "PUBLIC",
       "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 32,
       "intel_summary": "**KNOW YOUR REALTOR VERTICAL. EVERY LISTING AI-ENABLED. EVERY CREDENTIAL VERIFIED. EVERY CLOSE GOVERNED.**",
       "roadmap_now": "DECK.md created from iMessage conversation + website intel",
       "learning_count": 3,
@@ -7716,24 +7691,12 @@
       "learning": [
         {
           "date": "2026-02-17",
-          "signal": "COMPOSITION",
-          "pattern": "iMessage conversation \u2192 DECK in one session",
-          "source": "WORK TALK"
-        },
-        {
-          "date": "2026-02-17",
-          "signal": "INSIGHT",
-          "pattern": "JP's own words (\"each house gets their own agent\") = slide content",
-          "source": "iMessage"
-        },
-        {
-          "date": "2026-02-17",
           "signal": "STRATEGY",
           "pattern": "RE \u2192 Healthcare bridge is the $B thesis",
           "source": "DEAL JP-CAPITAL"
         }
       ],
-      "score": 128
+      "score": 111
     },
     {
       "id": "hadleylab-canonic/DECKS/PMWC",
@@ -7807,10 +7770,15 @@
       "parent": "hadleylab-canonic/DECKS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 223,
+      "tier": "NONE",
+      "missing_dims": [
+        "S"
+      ],
+      "privacy": "PUBLIC",
       "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 32,
       "intel_summary": "| Metric | Value | Source |",
       "learning_count": 6,
       "surface_type": "JEKYLL_DECK",
@@ -7821,42 +7789,12 @@
       "learning": [
         {
           "date": "2026-03-11",
-          "signal": "GOV_FIX",
-          "pattern": "h1 contrast fix \u2014 inline CSS override for remote_theme cache",
-          "source": "Deploy"
-        },
-        {
-          "date": "2026-03-11",
-          "signal": "GOV_FIX",
-          "pattern": "Mobile scroll \u2014 overflow-y:auto override on .slide",
-          "source": "Deploy"
-        },
-        {
-          "date": "2026-03-11",
-          "signal": "REFACTOR",
-          "pattern": "Founders reordered: Robert (CEO+Co-Founder) first, Dexter (Co-Founder+Gov General) second",
-          "source": "User"
-        },
-        {
-          "date": "2026-03-11",
-          "signal": "REFACTOR",
-          "pattern": "Deck genericized \u2014 removed all Mike/Juan/Robert-specific recipient references",
-          "source": "User"
-        },
-        {
-          "date": "2026-03-11",
-          "signal": "GOV_FIRST",
-          "pattern": "Gov view added as default, web view secondary",
-          "source": "User"
-        },
-        {
-          "date": "2026-03-11",
           "signal": "NEW_SCOPE",
           "pattern": "Service contract created under SERVICES/DECK/RUNNER-CHAIN/",
           "source": "Plan"
         }
       ],
-      "score": 128
+      "score": 111
     },
     {
       "id": "hadleylab-canonic/DECKS/SGU",
@@ -11873,12 +11811,6 @@
       },
       "learning": [
         {
-          "date": "2026-03-09",
-          "signal": "SESSION_LEDGERED",
-          "pattern": "Is BRCA2 c.5946delT pathogenic?",
-          "source": "a7a08acf-0c59-4d8c-8f61-e78a7c723f23"
-        },
-        {
           "date": "2026-03-15",
           "signal": "COMMUNITY_BRIDGE",
           "pattern": "COMMUNITY",
@@ -11931,6 +11863,12 @@
           "signal": "SESSION_LEDGERED",
           "pattern": "rs9403391. is on ADGRG6 and is associated wirh downregulated hemocrit and hemogl",
           "source": "6a6204fb-39c7-42d5-b41e-447313e476ee"
+        },
+        {
+          "date": "2026-04-09",
+          "signal": "PROJECT_INTEL",
+          "pattern": "OmicsChat APP promotion: OmicsChat promoted from TALK to APP (2026-04-08). ABOPM-governed clinical intelligence with 5-d",
+          "source": "intake:project_omicschat.md"
         }
       ],
       "score": 128
@@ -26017,8 +25955,8 @@
       "parent": "hadleylab-canonic/DECKS/BEDA",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 223,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS/BEDA/DECK",
@@ -26026,7 +25964,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 128
+      "score": 111
     },
     {
       "id": "hadleylab-canonic/DECKS/BEDA/EMAIL-REVIEW-LOOP-2026-03-23",
@@ -26037,8 +25975,8 @@
       "parent": "hadleylab-canonic/DECKS/BEDA",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 223,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS/BEDA/EMAIL-REVIEW-LOOP-2026-03-23",
@@ -26046,7 +25984,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 128
+      "score": 111
     },
     {
       "id": "hadleylab-canonic/DECKS/BOND-VALE/DECK",
@@ -26149,6 +26087,26 @@
       "score": 128
     },
     {
+      "id": "hadleylab-canonic/DECKS/ESGO/DECK",
+      "kind": "CONTENT",
+      "label": "DECK",
+      "repo": "hadleylab-canonic",
+      "path": "DECKS/ESGO/DECK",
+      "parent": "hadleylab-canonic/DECKS/ESGO",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 215,
+      "tier": "NONE",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DECKS/ESGO/DECK",
+      "children": 0,
+      "wallet": null,
+      "talk": null,
+      "learning": null,
+      "score": 107
+    },
+    {
       "id": "hadleylab-canonic/DECKS/HOWARD/DECK",
       "kind": "CONTENT",
       "label": "DECK",
@@ -26157,8 +26115,8 @@
       "parent": "hadleylab-canonic/DECKS/HOWARD",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 223,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS/HOWARD/DECK",
@@ -26166,7 +26124,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 128
+      "score": 111
     },
     {
       "id": "hadleylab-canonic/DECKS/JP-CAPITAL/DECK",
@@ -26177,8 +26135,8 @@
       "parent": "hadleylab-canonic/DECKS/JP-CAPITAL",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 223,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS/JP-CAPITAL/DECK",
@@ -26186,7 +26144,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 128
+      "score": 111
     },
     {
       "id": "hadleylab-canonic/DECKS/PMWC/DECK",
@@ -26217,8 +26175,8 @@
       "parent": "hadleylab-canonic/DECKS/RUNNER-CHAIN",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 223,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS/RUNNER-CHAIN/DECK",
@@ -26226,7 +26184,7 @@
       "wallet": null,
       "talk": null,
       "learning": null,
-      "score": 128
+      "score": 111
     },
     {
       "id": "hadleylab-canonic/DECKS/SGU/DECK",
@@ -34912,6 +34870,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/DECKS/ESGO",
+      "to": "hadleylab-canonic/DECKS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/HOWARD",
       "to": "hadleylab-canonic/DECKS"
     },
@@ -37632,6 +37595,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/DECKS/ESGO/DECK",
+      "to": "hadleylab-canonic/DECKS/ESGO"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/HOWARD/DECK",
       "to": "hadleylab-canonic/DECKS/HOWARD"
     },
@@ -38443,14 +38411,14 @@
     "score": 255,
     "tier": "FULL",
     "missing_dims": [],
-    "wallet_balance": 154358,
-    "wallet_events": 751
+    "wallet_balance": 155710,
+    "wallet_events": 760
   },
   "learning_metrics": {
-    "total_intake": 0,
-    "promotion_rate": 0.0,
+    "total_intake": 1,
+    "promotion_rate": 1.0,
     "fidelity_distribution": {
-      "0.0-0.2": 0,
+      "0.0-0.2": 1,
       "0.2-0.4": 0,
       "0.4-0.6": 0,
       "0.6-0.8": 0,
@@ -38460,13 +38428,15 @@
       "0.0-0.2": 0,
       "0.2-0.4": 0,
       "0.4-0.6": 0,
-      "0.6-0.8": 0,
+      "0.6-0.8": 1,
       "0.8-1.0": 0
     },
-    "scope_velocity": {},
+    "scope_velocity": {
+      "talks/omicschat": 1
+    },
     "unrouted_count": 0,
     "trivial_filtered": 0,
     "marginal_filtered": 0,
-    "updated_at": "2026-04-08T02:01:24.327181+00:00"
+    "updated_at": "2026-04-09T03:58:25.725735+00:00"
   }
 }

@@ -240,8 +240,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:APPS:OMICSCHAT",
       "label": "OMICSCHAT",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:APPS"
@@ -658,8 +658,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:BEDA",
       "label": "BEDA",
-      "bits": 255,
-      "size": 80,
+      "bits": 223,
+      "size": 60,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:DECKS"
@@ -689,10 +689,21 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:DECKS:ESGO",
+      "label": "ESGO",
+      "bits": 215,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:DECKS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:HOWARD",
       "label": "HOWARD",
-      "bits": 255,
-      "size": 80,
+      "bits": 223,
+      "size": 60,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:DECKS"
@@ -702,8 +713,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:JP-CAPITAL",
       "label": "JP-CAPITAL",
-      "bits": 255,
-      "size": 80,
+      "bits": 223,
+      "size": 60,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:DECKS"
@@ -724,8 +735,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:RUNNER-CHAIN",
       "label": "RUNNER-CHAIN",
-      "bits": 255,
-      "size": 80,
+      "bits": 223,
+      "size": 60,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:DECKS"

@@ -3,7 +3,7 @@
     "contract": "canonic-canonic/MAGIC/SERVICES/STAR/STAR.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "generated": "2026-04-09T02:47:56Z",
+  "generated": "2026-04-09T03:58:26Z",
   "users": {
     "ALLANA": {
       "total": 5,
@@ -381,6 +381,91 @@
           "ref": "GOV",
           "primitive": "INTEL",
           "meta": {}
+        }
+      ]
+    },
+    "DAVID": {
+      "total": 5,
+      "entries": [
+        {
+          "id": "179b48370b74",
+          "ts": "2026-04-09T03:57:07.414176Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "DAVID",
+          "summary": "MINT:WORK +32 COIN — Board resolutions (Nimrod, Roach, Bajnath appointments). IP Assignment agreement",
+          "ref": "gov:board-resolutions-ip-assignments",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 32,
+            "delta": 32,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "a42bb25b4c14",
+          "ts": "2026-04-09T03:57:02.923572Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "DAVID",
+          "summary": "MINT:WORK +32 COIN — Contractor agreement templates: BedaSoftware service agreement (Ilya+Yana), Isab",
+          "ref": "gov:contractor-agreements",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 32,
+            "delta": 32,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "158fe608c374",
+          "ts": "2026-04-09T03:57:00.817396Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "DAVID",
+          "summary": "MINT:WORK +64 COIN — IP Trust instrument design + FRAND licensing templates (3 tiers: Enterprise/Busi",
+          "ref": "gov:ip-trust-frand-architecture",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "e944e1b94402",
+          "ts": "2026-04-09T03:56:58.442680Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "DAVID",
+          "summary": "MINT:WORK +64 COIN — Drafted Articles of Incorporation, Bylaws, Conflict of Interest Policy for CANON",
+          "ref": "gov:articles-bylaws-coi",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "6ce4d17d3f88",
+          "ts": "2026-04-09T03:56:50.871160Z",
+          "stream": "VAULT",
+          "type": "MINT:SIGNUP",
+          "scope": "WALLET",
+          "principal": "DAVID",
+          "summary": "MINT:SIGNUP +500 COIN — Signup bonus for DAVID",
+          "ref": "board:founding-general-counsel",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 500,
+            "delta": 500,
+            "product": "SIGNUP"
+          }
         }
       ]
     },
@@ -12967,6 +13052,75 @@
           "ref": "DEAL JP-CAPITAL",
           "primitive": "INTEL",
           "meta": {}
+        }
+      ]
+    },
+    "JULIO": {
+      "total": 4,
+      "entries": [
+        {
+          "id": "d6971b08d1e5",
+          "ts": "2026-04-09T03:57:22.086850Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "JULIO",
+          "summary": "MINT:WORK +32 COIN — Treasurer advisory: D&O insurance coordination, JP Morgan IP trust structure rev",
+          "ref": "charter:treasurer-financial-governance",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 32,
+            "delta": 32,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "c5511355bf91",
+          "ts": "2026-04-09T03:57:21.361540Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "JULIO",
+          "summary": "MINT:WORK +64 COIN — 9-year relationship (2017-2026). All DEXTER corporate tax: SkinIQ, Digital Curat",
+          "ref": "finance:9yr-tax-corporate-compliance",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "fe878ec6885e",
+          "ts": "2026-04-09T03:57:17.165240Z",
+          "stream": "VAULT",
+          "type": "MINT:WORK",
+          "scope": "LEDGER",
+          "principal": "JULIO",
+          "summary": "MINT:WORK +64 COIN — Foundation entity formation: Articles filing (FL), EIN (SS-4), registered agent,",
+          "ref": "charter:entity-formation-9-deliverables",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 64,
+            "delta": 64,
+            "product": "WORK"
+          }
+        },
+        {
+          "id": "5ff56bd3192e",
+          "ts": "2026-04-09T03:56:51.588851Z",
+          "stream": "VAULT",
+          "type": "MINT:SIGNUP",
+          "scope": "WALLET",
+          "principal": "JULIO",
+          "summary": "MINT:SIGNUP +500 COIN — Signup bonus for JULIO",
+          "ref": "charter:foundation-formation-lead",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 500,
+            "delta": 500,
+            "product": "SIGNUP"
+          }
         }
       ]
     },

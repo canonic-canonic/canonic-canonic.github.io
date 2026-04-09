@@ -1,15 +1,15 @@
 {
   "_generated": {
     "contract": "lint-galaxy",
-    "timestamp": "2026-04-09T03:44:01.791005+00:00"
+    "timestamp": "2026-04-09T03:58:26.649978+00:00"
   },
   "summary": {
     "contradictions": 0,
-    "orphans": 722,
+    "orphans": 717,
     "stale_no_learning": 150,
     "stale_no_intel": 226,
     "missing_cross_ref": 210,
-    "total": 1308
+    "total": 1303
   },
   "warnings": [
     {
@@ -2840,43 +2840,13 @@
     },
     {
       "check": "orphan",
-      "node": "hadleylab-canonic/DECKS/BEDA/DECK",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
-      "node": "hadleylab-canonic/DECKS/BEDA/EMAIL-REVIEW-LOOP-2026-03-23",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
       "node": "hadleylab-canonic/DECKS/SHOP",
       "tier": "FULL",
       "severity": "INFO"
     },
     {
       "check": "orphan",
-      "node": "hadleylab-canonic/DECKS/HOWARD/DECK",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
-      "node": "hadleylab-canonic/DECKS/JP-CAPITAL/DECK",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
       "node": "hadleylab-canonic/DECKS/PMWC/DECK",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
-      "node": "hadleylab-canonic/DECKS/RUNNER-CHAIN/DECK",
       "tier": "FULL",
       "severity": "INFO"
     },
