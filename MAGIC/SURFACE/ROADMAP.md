@@ -8,20 +8,25 @@ inherits: .
 
 ---
 
-## Now (2026-02)
-- Ship deterministic build/sync/deploy pipeline: GOV tree is the single source of truth, runtime projects only
-- Complete JEKYLL remote_theme migration: all fleet sites (canonic-canonic, hadleylab-canonic) build via GitHub Pages with zero custom compilers
-- Enforce governed data-driven routes: no hardcoded fleet membership, surfaces, or identity maps in runtime code
+## Done
+- [x] Deterministic build/sync/deploy pipeline: GOV tree is single source of truth (2026-02)
+- [x] Jekyll remote_theme migration: all fleet sites build via GitHub Pages (2026-02)
+- [x] Platform decision: Next.js 15 (web), SwiftUI (iOS/Mac), Kotlin Compose (Android). No WebView. No Electron. (2026-04-10)
 
-## Next (2026-Q2)
-- Launch SERVICES layer with governed boundary isolation (INTEL, CHAT, COIN, LEDGER as runtime products)
-- Build cross-surface parity gate: WEB, iOS, and Android surfaces must pass identical `magic validate` checks before deploy
-- Implement TOOLCHAIN governed config pipeline (HTTP.json, SURFACE.json, ECON.json compile from GOV without manual edits)
+## Now
+- [ ] API layer — unified api.canonic.org, all platform clients consume. Plan Phase 1.
+- [ ] Next.js consolidation — single app, all TALK instances as routes, SSR on CF Pages. Plan Phase 2.
+- [ ] Cross-surface parity gate: WEB, iOS, and Android surfaces must pass identical `magic validate` checks before deploy
 
-## Later
-- Platform-as-projection: every new principal surface auto-scaffolds from GOV tree without manual configuration
-- SURFACE sells tiers, proof features evidence: clean separation enforced across all fleet sites
-- Replay-safe deployment: any fleet site can be rebuilt from GOV state at any historical commit
+## Next
+- [ ] Platform-as-projection: every new principal surface auto-scaffolds from GOV tree without manual configuration
+- [ ] Replay-safe deployment: any fleet site can be rebuilt from GOV state at any historical commit
+
+## Plan
+
+Full multi-platform migration: `~/.claude/plans/app-multiplatform-migration.md`
+
+GOV declares (CANON.md) → magic_lib enforces (build pipeline) → plan sequences (phases 1-5).
 
 ---
 

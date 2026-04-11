@@ -67,16 +67,24 @@
             ],
             "rows": [
               [
-                "Later",
-                "Full SERVICES parity: iOS surface projects INTEL, CHAT, COIN, and LEDGER with id"
+                "Now",
+                "[ ] CanonicSDK Swift Package — typed API client for api.canonic.org. Depends on "
               ],
               [
-                "Later",
-                "App Store compliance gate: `magic validate` + native integration checks required"
+                "Now",
+                "[ ] OmicsChat iOS — first native APP instance. Plan Phase 3."
               ],
               [
-                "Later",
-                "Offline-first governed rendering: iOS app caches GOV state and renders determini"
+                "Next",
+                "[ ] Fleet TALK instances on iOS — all scopes via shared SDK"
+              ],
+              [
+                "Next",
+                "[ ] App Store submission pipeline — magic validate = 255 gate before review"
+              ],
+              [
+                "Next",
+                "[ ] Offline-first: cached CANON.json + queued mutations → sync on reconnect"
               ]
             ]
           }
@@ -137,7 +145,7 @@
   "footerTagline": "APPLE | CANONIC",
   "canon": {
     "axiom": "MAGIC on Apple is native, governed, fast.",
-    "constraints": "MUST:     Read governed config at runtime (no baked constants)\nMUST:     Delegate validation and scoring to governed truth (no local policy forks)\nMUST NOT: Ship provider lists, thresholds, or lane maps in the app bundle",
+    "constraints": "MUST:     Pure SwiftUI — no WebView bridges, no Electron\nMUST:     All data from api.canonic.org — no direct external API calls from client\nMUST:     CANON.json bundled in binary + refreshed at launch from api.canonic.org/config/:scope\nMUST:     CanonicSDK Swift Package for all API calls (typed client, no raw URL construction)\nMUST:     Session tokens in Keychain (not UserDefaults)\nMUST:     GitHub OAuth via ASWebAuthenticationSession (not WKWebView)\nMUST:     SSE streaming via URLSession + AsyncSequence (native, no third-party)\nMUST:     Accessibility: Dynamic Type, VoiceOver labels, 44pt touch targets\nMUST:     Universal app — iPhone + iPad + Mac from single codebase\nMUST:     TestFlight gated by magic validate = 255 equivalent\nMUST:     Read governed config at runtime (no baked constants)\nMUST:     Delegate validation and scoring to governed truth (no local policy forks)\nMUST NOT: Ship provider lists, thresholds, or lane maps in the app bundle\nMUST NOT: Ship without 7-day TestFlight validation\nMUST NOT: Third-party UI frameworks (pure SwiftUI)",
     "inherits": "canonic-canonic/MAGIC/SURFACE",
     "spec": [
       {
@@ -161,10 +169,14 @@
     ],
     "coverage": "255/255",
     "roadmap": {
-      "later": [
-        "Full SERVICES parity: iOS surface projects INTEL, CHAT, COIN, and LEDGER with identical governance to web",
-        "App Store compliance gate: `magic validate` + native integration checks required before any release submission",
-        "Offline-first governed rendering: iOS app caches GOV state and renders deterministically without network"
+      "now": [
+        "[ ] CanonicSDK Swift Package — typed API client for api.canonic.org. Depends on API layer (Plan Phase 1).",
+        "[ ] OmicsChat iOS — first native APP instance. Plan Phase 3."
+      ],
+      "next": [
+        "[ ] Fleet TALK instances on iOS — all scopes via shared SDK",
+        "[ ] App Store submission pipeline — magic validate = 255 gate before review",
+        "[ ] Offline-first: cached CANON.json + queued mutations → sync on reconnect"
       ]
     },
     "vocab": [
@@ -177,7 +189,7 @@
       {
         "scope": "SURFACE",
         "axiom": "SURFACE is the platform lane.",
-        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
+        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST:     APP surface_type — Next.js App Router, reads galaxy.json + CANON.json directly\nMUST:     GALAXY surface_type — chrome-free operating surface (auth gate, Finder)\nMUST:     APP scopes compile CANON.md → CANON.json (same as SURFACE, different target)\nMUST:     APP scopes wire COIN + INTEL + TALK primitives into compiled CANON.json\nMUST NOT: Emit new JEKYLL_* surface types — existing types frozen, deprecated\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
       },
       {
         "scope": "MAGIC",

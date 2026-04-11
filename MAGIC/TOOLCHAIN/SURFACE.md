@@ -39,6 +39,7 @@ MUST NOT: Assume directory name equals page scope (GOV index.md scope: is author
 | JEKYLL_TALK | talk | Full-page TALK: immersive chat, design tables, FULL_PAGE capability. Views: gov, web. |
 | JEKYLL_SERVICE | service | Service contract: views (gov + web + tex) + TALK. Standalone. |
 | GALAXY | galaxy | Chrome-free operating surface: auth gate, Finder, INTEL/COIN/TALK primitives. No nav/footer. |
+| APP | null | Next.js App Router — reads galaxy.json + CANON.json directly. Wires COIN+INTEL+TALK. No Jekyll emission. |
 
 ## Requirements
 
@@ -175,6 +176,17 @@ MUST NOT: Assume directory name equals page scope (GOV index.md scope: is author
 | controls.download | |
 | controls.view | web |
 | controls.views | web |
+
+### APP
+
+| Key | Value |
+|-----|-------|
+| files | |
+| json_require | |
+| controls.talk | native |
+| controls.download | |
+| controls.view | app |
+| controls.views | app |
 
 ## Controls
 

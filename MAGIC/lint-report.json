@@ -1,15 +1,15 @@
 {
   "_generated": {
     "contract": "lint-galaxy",
-    "timestamp": "2026-04-09T13:55:44.265216+00:00"
+    "timestamp": "2026-04-11T15:14:11.170972+00:00"
   },
   "summary": {
     "contradictions": 0,
-    "orphans": 580,
-    "stale_no_learning": 149,
-    "stale_no_intel": 223,
-    "missing_cross_ref": 199,
-    "total": 1151
+    "orphans": 741,
+    "stale_no_learning": 164,
+    "stale_no_intel": 234,
+    "missing_cross_ref": 242,
+    "total": 1381
   },
   "warnings": [
     {
@@ -182,12 +182,6 @@
     },
     {
       "check": "orphan",
-      "node": "canonic-canonic/MAGIC/SERVICES/API",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
       "node": "canonic-canonic/MAGIC/SERVICES/CHAIN",
       "tier": "FULL",
       "severity": "INFO"
@@ -200,43 +194,13 @@
     },
     {
       "check": "orphan",
-      "node": "canonic-canonic/MAGIC/SERVICES/DECK",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
       "node": "canonic-canonic/MAGIC/SERVICES/DEPLOY",
       "tier": "FULL",
       "severity": "INFO"
     },
     {
       "check": "orphan",
-      "node": "canonic-canonic/MAGIC/SERVICES/FINANCIALS",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
-      "node": "canonic-canonic/MAGIC/SERVICES/FORECASTS",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
       "node": "canonic-canonic/MAGIC/SERVICES/IDENTITY",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
-      "node": "canonic-canonic/MAGIC/SERVICES/KYC",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
-      "node": "canonic-canonic/MAGIC/SERVICES/LEARNING",
       "tier": "FULL",
       "severity": "INFO"
     },
@@ -249,54 +213,6 @@
     {
       "check": "orphan",
       "node": "canonic-canonic/MAGIC/SERVICES/MONITORING",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
-      "node": "canonic-canonic/MAGIC/SERVICES/MUSIC",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
-      "node": "canonic-canonic/MAGIC/SERVICES/NAS",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
-      "node": "canonic-canonic/MAGIC/SERVICES/PATENT",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
-      "node": "canonic-canonic/MAGIC/SERVICES/RESERVES",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
-      "node": "canonic-canonic/MAGIC/SERVICES/SEED",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
-      "node": "canonic-canonic/MAGIC/SERVICES/STAR",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
-      "node": "canonic-canonic/MAGIC/SERVICES/TIMELINE",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
-      "node": "canonic-canonic/MAGIC/SERVICES/TRANSCRIPT",
       "tier": "FULL",
       "severity": "INFO"
     },
@@ -434,7 +350,31 @@
     },
     {
       "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/HACKERNEWS",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
       "node": "hadleylab-canonic/CAMPAIGNS/MONITOR",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/REDDIT",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/SUBSTACK",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/TWITTER",
       "tier": "FULL",
       "severity": "INFO"
     },
@@ -458,7 +398,121 @@
     },
     {
       "check": "orphan",
+      "node": "hadleylab-canonic/DEALS/BOND-VALE",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
       "node": "hadleylab-canonic/DECKS/DECK",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/NASES/SYNOLOGY",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/DISCLOSURES",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROV-001",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROV-002",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROV-003",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROV-004",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROV-005",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROV-006",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROV-007",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROV-008",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROV-009",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROV-010",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROV-011",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROV-012",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROV-013",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SEEDS/ULTRA",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/API",
       "tier": "FULL",
       "severity": "INFO"
     },
@@ -494,25 +548,19 @@
     },
     {
       "check": "orphan",
-      "node": "hadleylab-canonic/SERVICES/DEAL",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
       "node": "hadleylab-canonic/SERVICES/DESIGN",
       "tier": "FULL",
       "severity": "INFO"
     },
     {
       "check": "orphan",
-      "node": "hadleylab-canonic/SERVICES/GRANT",
+      "node": "hadleylab-canonic/SERVICES/ICLOUD",
       "tier": "FULL",
       "severity": "INFO"
     },
     {
       "check": "orphan",
-      "node": "hadleylab-canonic/SERVICES/ICLOUD",
+      "node": "hadleylab-canonic/SERVICES/KYC",
       "tier": "FULL",
       "severity": "INFO"
     },
@@ -572,13 +620,19 @@
     },
     {
       "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/STAR",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
       "node": "hadleylab-canonic/SERVICES/SUNSHINE",
       "tier": "FULL",
       "severity": "INFO"
     },
     {
       "check": "orphan",
-      "node": "hadleylab-canonic/SERVICES/USER",
+      "node": "hadleylab-canonic/SERVICES/TIMELINE",
       "tier": "FULL",
       "severity": "INFO"
     },
@@ -680,7 +734,7 @@
     },
     {
       "check": "orphan",
-      "node": "runner-canonic/SERVICES/VITAE",
+      "node": "runner-canonic/VITAE",
       "tier": "FULL",
       "severity": "INFO"
     },
@@ -1832,6 +1886,12 @@
     },
     {
       "check": "orphan",
+      "node": "hadleylab-canonic/BOOKS/ABOPM/SPINE",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
       "node": "hadleylab-canonic/BOOKS/ATULISMS/CATALOG",
       "tier": "FULL",
       "severity": "INFO"
@@ -2624,6 +2684,30 @@
     },
     {
       "check": "orphan",
+      "node": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/00-PREFACE",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/01-THE-PHYSICIST",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/02-THE-DEPARTURE",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS/03-THE-RED-LINES",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
       "node": "hadleylab-canonic/BOOKS/DIVIDENDS/AUTHORING-GUIDE",
       "tier": "FULL",
       "severity": "INFO"
@@ -2643,6 +2727,96 @@
     {
       "check": "orphan",
       "node": "hadleylab-canonic/BOOKS/DIVIDENDS/SPINE",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/ACHIEVE-PODCAST-2026",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/AIMED-2026",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/ALPHAGO-AT-10",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/BAMBERG-2026",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/CAOH-2026",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/COMMITMENT-2026",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/CONSTITUTIONAL-AI-2026",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/KARPATHY-KNOWLEDGE-GRAPH-2026",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/LAWYER-WHO-WON",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/MI10-ORLANDO-2026",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/PMWC-2026",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/STOP-PROMPTING-2026",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/STRONG-HER-2026",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/TEMPLATE",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/CAMPAIGNS/THE-FIXED-POINT-2026",
       "tier": "FULL",
       "severity": "INFO"
     },
@@ -2774,6 +2948,24 @@
     },
     {
       "check": "orphan",
+      "node": "hadleylab-canonic/DEALS/CAOH/BUSINESS-PLAN",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/DEALS/CAOH/LAUNCH-PLAN",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/DEALS/CAOH/SOU/email-marisa-sou-apr5",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
       "node": "hadleylab-canonic/DECKS/SHOP",
       "tier": "FULL",
       "severity": "INFO"
@@ -2781,6 +2973,102 @@
     {
       "check": "orphan",
       "node": "hadleylab-canonic/DECKS/PMWC/DECK",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/GRANTS/ACS-FLATIRON/SPECIFIC-AIMS",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-aimed-chang-pappas",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-biosketch-reminder",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-flatiron-data-dict",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-howard-apr3",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-neville-horizon-apr3",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-review",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/GRANTS/ACS-FLATIRON/email-team-update-apr3",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-abstract",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/GRANTS/ACS-FLATIRON/loi-research-plan",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/GRANTS/EHDS-GOV/BUSINESS-PLAN-NIH",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS-NIH",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/GRANTS/EHDS-GOV/REVIEW-YOUNESS",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS-NIH",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/GRANTS/EHDS-GOV/SPECIFIC-AIMS",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/GRANTS/EHDS-GOV/WORK-TALK-REVIEW",
       "tier": "FULL",
       "severity": "INFO"
     },
@@ -2882,6 +3170,18 @@
     },
     {
       "check": "orphan",
+      "node": "hadleylab-canonic/PAPERS/precision-medicine-complement-clinical-trials",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PAPERS/precision-medicine-is-inaccurate-for-most",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
       "node": "hadleylab-canonic/PAPERS/the-255-billion-dollar-wound",
       "tier": "FULL",
       "severity": "INFO"
@@ -2889,6 +3189,180 @@
     {
       "check": "orphan",
       "node": "hadleylab-canonic/PAPERS/the-344-billion-euro-wound",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/APPLICATIONS/FRAND-COMMITMENT",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/CLAIMS",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/FILING-RECEIPTS",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/FILING",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/LEDGER",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/EPO-PRIOR-ART-SEARCH",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/JPO-PRIOR-ART-SEARCH",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/NPL-PRIOR-ART-SEARCH",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009-FULL",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-007-009",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PRIOR-ART-SEARCH-PROV-010-013",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/PROV-PRIOR-ART-ANALYSIS",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/SECTION-101-PROV-007-009",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/SECTION-101-PROV-010-013",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/SECTION-101",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/DUE-DILIGENCE/US-PRIOR-ART-SEARCH",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-001",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-002",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-003",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-004",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-005",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-006",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-007",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-008",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-009",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-010",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-011",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-012",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/PATENTS/PROVISIONALS/PROV-013",
       "tier": "FULL",
       "severity": "INFO"
     },
@@ -2930,6 +3404,60 @@
     },
     {
       "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/FINANCIALS/BUSINESS",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/FINANCIALS/HOW-IT-WORKS",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/FINANCIALS/SERIES-A",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/FINANCIALS/VALUATION",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/FORECASTS/COVERAGE-METRICS",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/FORECASTS/IP-VALUATION",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/FORECASTS/YEAR-1",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/FORECASTS/YEAR-3",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/FORECASTS/YEAR-5",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
       "node": "hadleylab-canonic/SERVICES/GUIDEPOINT/LEDGER",
       "tier": "FULL",
       "severity": "INFO"
@@ -2942,7 +3470,409 @@
     },
     {
       "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/ATUL-BUTTE-MAFIA",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/MAGIC-LATTICE",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/NETWORK-MAP",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/ROSTER",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/afsana-akter",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/alex-evans",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/alyssa-tanaka",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/amoy-fraser",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/andrew-trister",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/anil-bajnath",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/anthony-chang",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/atul-butte",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/avinash-boodoosingh",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/balaji-srinivasan",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/beau-norgeot",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/christian-green",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/david-metcalf",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/david-slonim",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/deborah-german",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/diadia-health",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/elena-cyrus",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/elena-ikonomovska",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/emre-baser",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/enrico-marcellino",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/fatima-boukrim",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/gabe-fitch",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/geoff-seyon",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/gini-deshpande",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/harry-pappas",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/ilya-beda",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/isabella-johnston",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/jane-gibson",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/jason-palinkas",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/joann-yamani",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/julio-hernandez",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/junaid-kalia",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/kunal-patel",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/maria-hupp",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/mariana-dangiolo",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/marina-sirota",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/mark-malek",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/maysoun-douas-maadi",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/mike-miller",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/minh-nguyen",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/mubarak-shah",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/neil-sumaru",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/neville-calleja",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/nicholas-archer",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/rawle-annandsingh",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/rima-arnaout",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/rob-herzog",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/rob-purinton",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/robert-glover",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/robin-williams",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/shyamali",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/stargeo",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/ted-goldstein",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/terrence-fullum",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/vijay-pande",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/yana",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEARNING/youness-ouahid-benkaddour",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/LEDGER/PMWC-2026-SUBMISSION",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
       "node": "hadleylab-canonic/SERVICES/MAGIC/SHOP",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/RESERVES/ASSET-REGISTRY",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/RESERVES/DATA-AXIOMS",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/RESERVES/ECONOMICS",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/RESERVES/MARKETPLACE",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/SERVICES/RESERVES/TOKENOMICS",
       "tier": "FULL",
       "severity": "INFO"
     },
@@ -3213,6 +4143,42 @@
     {
       "check": "orphan",
       "node": "hadleylab-canonic/TALKS/VITAE/SHOP",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/USERS/FATIMA/VITAE",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/USERS/FATIMA/fatima-boukrim",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/USERS/FATIMA/CHAT/governor-appointment",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/USERS/FATIMA/CHAT/nda",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/USERS/GEOFF/CHAT/advisory-appointment",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/USERS/GEOFF/CHAT/nda",
       "tier": "FULL",
       "severity": "INFO"
     },
@@ -3788,12 +4754,6 @@
     },
     {
       "check": "stale_no_learning",
-      "node": "canonic-canonic/MAGIC/SERVICES/AUTH",
-      "tier": "FULL",
-      "severity": "WARN"
-    },
-    {
-      "check": "stale_no_intel",
       "node": "canonic-canonic/MAGIC/SERVICES/AUTH",
       "tier": "FULL",
       "severity": "WARN"
@@ -4435,6 +5395,18 @@
       "severity": "WARN"
     },
     {
+      "check": "stale_no_intel",
+      "node": "hadleylab-canonic/APPS/CANONIC",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_intel",
+      "node": "hadleylab-canonic/BOOKS/ABOPM",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
       "check": "stale_no_learning",
       "node": "hadleylab-canonic/BOOKS/ART-OF-THE-CANONIC-DEAL",
       "tier": "FULL",
@@ -4484,6 +5456,36 @@
     },
     {
       "check": "stale_no_learning",
+      "node": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_intel",
+      "node": "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_intel",
+      "node": "hadleylab-canonic/CAMPAIGNS",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_learning",
+      "node": "hadleylab-canonic/CAMPAIGNS/SUBSTACK",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_learning",
+      "node": "hadleylab-canonic/CAMPAIGNS/TWITTER",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_learning",
       "node": "hadleylab-canonic/CHARTER/BANK",
       "tier": "FULL",
       "severity": "WARN"
@@ -4519,6 +5521,18 @@
       "severity": "WARN"
     },
     {
+      "check": "stale_no_intel",
+      "node": "hadleylab-canonic/GRANTS/ACS-FLATIRON",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_intel",
+      "node": "hadleylab-canonic/GRANTS",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
       "check": "stale_no_learning",
       "node": "hadleylab-canonic/IRBS",
       "tier": "FULL",
@@ -4527,6 +5541,90 @@
     {
       "check": "stale_no_intel",
       "node": "hadleylab-canonic/IRBS",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_intel",
+      "node": "hadleylab-canonic/PATENTS/APPLICATIONS",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_learning",
+      "node": "hadleylab-canonic/PATENTS",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_intel",
+      "node": "hadleylab-canonic/PATENTS/DUE-DILIGENCE",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_learning",
+      "node": "hadleylab-canonic/PATENTS/PROV-001",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_learning",
+      "node": "hadleylab-canonic/PATENTS/PROV-002",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_learning",
+      "node": "hadleylab-canonic/PATENTS/PROV-003",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_learning",
+      "node": "hadleylab-canonic/PATENTS/PROV-004",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_learning",
+      "node": "hadleylab-canonic/PATENTS/PROV-005",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_learning",
+      "node": "hadleylab-canonic/PATENTS/PROV-006",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_learning",
+      "node": "hadleylab-canonic/PATENTS/PROV-007",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_learning",
+      "node": "hadleylab-canonic/PATENTS/PROV-008",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_learning",
+      "node": "hadleylab-canonic/PATENTS/PROV-009",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_intel",
+      "node": "hadleylab-canonic/PATENTS/PROVISIONALS",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_intel",
+      "node": "hadleylab-canonic/SERVICES/API",
       "tier": "FULL",
       "severity": "WARN"
     },
@@ -4563,6 +5661,18 @@
     {
       "check": "stale_no_intel",
       "node": "hadleylab-canonic/SERVICES/DEAL",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_learning",
+      "node": "hadleylab-canonic/SERVICES/DECK",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_intel",
+      "node": "hadleylab-canonic/SERVICES/DECK",
       "tier": "FULL",
       "severity": "WARN"
     },
@@ -4803,6 +5913,18 @@
     {
       "check": "stale_no_intel",
       "node": "runner-canonic/SERVICES/VITAE",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_learning",
+      "node": "runner-canonic/VITAE",
+      "tier": "FULL",
+      "severity": "WARN"
+    },
+    {
+      "check": "stale_no_intel",
+      "node": "runner-canonic/VITAE",
       "tier": "FULL",
       "severity": "WARN"
     },
@@ -5819,6 +6941,15 @@
       "label": "RESERVES",
       "nodes": [
         "canonic-canonic/FOUNDATION/RESERVES",
+        "hadleylab-canonic/SERVICES/RESERVES"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "RESERVES",
+      "nodes": [
+        "canonic-canonic/FOUNDATION/RESERVES",
         "runner-canonic/canonic-canonic/FOUNDATION/RESERVES"
       ],
       "severity": "INFO"
@@ -5828,6 +6959,24 @@
       "label": "RESERVES",
       "nodes": [
         "canonic-canonic/MAGIC/SERVICES/RESERVES",
+        "hadleylab-canonic/SERVICES/RESERVES"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "RESERVES",
+      "nodes": [
+        "canonic-canonic/MAGIC/SERVICES/RESERVES",
+        "runner-canonic/canonic-canonic/FOUNDATION/RESERVES"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "RESERVES",
+      "nodes": [
+        "hadleylab-canonic/SERVICES/RESERVES",
         "runner-canonic/canonic-canonic/FOUNDATION/RESERVES"
       ],
       "severity": "INFO"
@@ -5936,6 +7085,15 @@
       "label": "PATENT",
       "nodes": [
         "canonic-canonic/INDUSTRIES/REGULATORY/LAW/PATENT",
+        "hadleylab-canonic/SERVICES/PATENT"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "PATENT",
+      "nodes": [
+        "canonic-canonic/INDUSTRIES/REGULATORY/LAW/PATENT",
         "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/LAW/PATENT"
       ],
       "severity": "INFO"
@@ -5945,6 +7103,24 @@
       "label": "PATENT",
       "nodes": [
         "canonic-canonic/MAGIC/SERVICES/PATENT",
+        "hadleylab-canonic/SERVICES/PATENT"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "PATENT",
+      "nodes": [
+        "canonic-canonic/MAGIC/SERVICES/PATENT",
+        "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/LAW/PATENT"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "PATENT",
+      "nodes": [
+        "hadleylab-canonic/SERVICES/PATENT",
         "runner-canonic/canonic-canonic/INDUSTRIES/REGULATORY/LAW/PATENT"
       ],
       "severity": "INFO"
@@ -6143,6 +7319,15 @@
       "label": "USERS",
       "nodes": [
         "canonic-canonic/MAGIC/GALAXY/USERS",
+        "hadleylab-canonic/USERS"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "USERS",
+      "nodes": [
+        "canonic-canonic/MAGIC/GALAXY/USERS",
         "runner-canonic/canonic-canonic/MAGIC/GALAXY/USERS"
       ],
       "severity": "INFO"
@@ -6170,6 +7355,42 @@
       "label": "USERS",
       "nodes": [
         "canonic-canonic/MAGIC/GALAXY/USERS",
+        "runner-canonic/canonic-canonic/USERS"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "USERS",
+      "nodes": [
+        "hadleylab-canonic/USERS",
+        "runner-canonic/canonic-canonic/MAGIC/GALAXY/USERS"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "USERS",
+      "nodes": [
+        "hadleylab-canonic/USERS",
+        "canonic-canonic/USERS"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "USERS",
+      "nodes": [
+        "hadleylab-canonic/USERS",
+        "runner-canonic/USERS"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "USERS",
+      "nodes": [
+        "hadleylab-canonic/USERS",
         "runner-canonic/canonic-canonic/USERS"
       ],
       "severity": "INFO"
@@ -6233,6 +7454,24 @@
       "label": "API",
       "nodes": [
         "canonic-canonic/MAGIC/SERVICES/API",
+        "hadleylab-canonic/SERVICES/API"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "API",
+      "nodes": [
+        "canonic-canonic/MAGIC/SERVICES/API",
+        "runner-canonic/canonic-canonic/MAGIC/SERVICES/API"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "API",
+      "nodes": [
+        "hadleylab-canonic/SERVICES/API",
         "runner-canonic/canonic-canonic/MAGIC/SERVICES/API"
       ],
       "severity": "INFO"
@@ -6437,6 +7676,24 @@
     },
     {
       "check": "missing_cross_ref",
+      "label": "DECK",
+      "nodes": [
+        "canonic-canonic/MAGIC/SERVICES/DECK",
+        "hadleylab-canonic/SERVICES/DECK"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "DECK",
+      "nodes": [
+        "hadleylab-canonic/DECKS/DECK",
+        "hadleylab-canonic/SERVICES/DECK"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
       "label": "DEMO",
       "nodes": [
         "canonic-canonic/MAGIC/SERVICES/DEMO",
@@ -6545,6 +7802,24 @@
     },
     {
       "check": "missing_cross_ref",
+      "label": "FINANCIALS",
+      "nodes": [
+        "canonic-canonic/MAGIC/SERVICES/FINANCIALS",
+        "hadleylab-canonic/SERVICES/FINANCIALS"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "FORECASTS",
+      "nodes": [
+        "canonic-canonic/MAGIC/SERVICES/FORECASTS",
+        "hadleylab-canonic/SERVICES/FORECASTS"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
       "label": "IDENTITY",
       "nodes": [
         "canonic-canonic/MAGIC/SERVICES/IDENTITY",
@@ -6557,6 +7832,24 @@
       "label": "KYC",
       "nodes": [
         "canonic-canonic/MAGIC/SERVICES/KYC",
+        "hadleylab-canonic/SERVICES/KYC"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "KYC",
+      "nodes": [
+        "canonic-canonic/MAGIC/SERVICES/KYC",
+        "runner-canonic/SERVICES/KYC"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "KYC",
+      "nodes": [
+        "hadleylab-canonic/SERVICES/KYC",
         "runner-canonic/SERVICES/KYC"
       ],
       "severity": "INFO"
@@ -6575,7 +7868,34 @@
       "label": "LEARNING",
       "nodes": [
         "canonic-canonic/MAGIC/SERVICES/LEARNING",
+        "hadleylab-canonic/SERVICES/LEARNING"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "LEARNING",
+      "nodes": [
+        "canonic-canonic/MAGIC/SERVICES/LEARNING",
         "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEARNING"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "LEARNING",
+      "nodes": [
+        "hadleylab-canonic/SERVICES/LEARNING",
+        "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEARNING"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "LEDGER",
+      "nodes": [
+        "canonic-canonic/MAGIC/SERVICES/LEDGER",
+        "hadleylab-canonic/SERVICES/LEDGER"
       ],
       "severity": "INFO"
     },
@@ -6593,6 +7913,24 @@
       "label": "LEDGER",
       "nodes": [
         "canonic-canonic/MAGIC/SERVICES/LEDGER",
+        "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "LEDGER",
+      "nodes": [
+        "hadleylab-canonic/SERVICES/LEDGER",
+        "runner-canonic/SERVICES/LEDGER"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "LEDGER",
+      "nodes": [
+        "hadleylab-canonic/SERVICES/LEDGER",
         "runner-canonic/canonic-canonic/MAGIC/SERVICES/LEDGER"
       ],
       "severity": "INFO"
@@ -6629,7 +7967,34 @@
       "label": "MUSIC",
       "nodes": [
         "canonic-canonic/MAGIC/SERVICES/MUSIC",
+        "hadleylab-canonic/SERVICES/MUSIC"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "MUSIC",
+      "nodes": [
+        "canonic-canonic/MAGIC/SERVICES/MUSIC",
         "hadleylab-canonic/TALKS/MUSIC"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "MUSIC",
+      "nodes": [
+        "hadleylab-canonic/SERVICES/MUSIC",
+        "hadleylab-canonic/TALKS/MUSIC"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "NAS",
+      "nodes": [
+        "canonic-canonic/MAGIC/SERVICES/NAS",
+        "hadleylab-canonic/SERVICES/NAS"
       ],
       "severity": "INFO"
     },
@@ -6684,6 +8049,15 @@
       "nodes": [
         "canonic-canonic/MAGIC/SERVICES/PLUGINS",
         "hadleylab-canonic/SERVICES/PLUGINS"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "SEED",
+      "nodes": [
+        "canonic-canonic/MAGIC/SERVICES/SEED",
+        "hadleylab-canonic/SERVICES/SEED"
       ],
       "severity": "INFO"
     },
@@ -6755,6 +8129,24 @@
       "label": "STAR",
       "nodes": [
         "canonic-canonic/MAGIC/SERVICES/STAR",
+        "hadleylab-canonic/SERVICES/STAR"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "STAR",
+      "nodes": [
+        "canonic-canonic/MAGIC/SERVICES/STAR",
+        "runner-canonic/canonic-canonic/MAGIC/SERVICES/STAR"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "STAR",
+      "nodes": [
+        "hadleylab-canonic/SERVICES/STAR",
         "runner-canonic/canonic-canonic/MAGIC/SERVICES/STAR"
       ],
       "severity": "INFO"
@@ -6914,6 +8306,24 @@
     },
     {
       "check": "missing_cross_ref",
+      "label": "TIMELINE",
+      "nodes": [
+        "canonic-canonic/MAGIC/SERVICES/TIMELINE",
+        "hadleylab-canonic/SERVICES/TIMELINE"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "TRANSCRIPT",
+      "nodes": [
+        "canonic-canonic/MAGIC/SERVICES/TRANSCRIPT",
+        "hadleylab-canonic/SERVICES/TRANSCRIPT"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
       "label": "UPTIME",
       "nodes": [
         "canonic-canonic/MAGIC/SERVICES/UPTIME",
@@ -6997,6 +8407,15 @@
       "check": "missing_cross_ref",
       "label": "VITAE",
       "nodes": [
+        "canonic-canonic/MAGIC/SERVICES/VITAE",
+        "runner-canonic/VITAE"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "VITAE",
+      "nodes": [
         "hadleylab-canonic/SERVICES/VITAE",
         "hadleylab-canonic/TALKS/VITAE"
       ],
@@ -7024,6 +8443,15 @@
       "check": "missing_cross_ref",
       "label": "VITAE",
       "nodes": [
+        "hadleylab-canonic/SERVICES/VITAE",
+        "runner-canonic/VITAE"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "VITAE",
+      "nodes": [
         "hadleylab-canonic/TALKS/VITAE",
         "hadleylab-canonic/VITAE"
       ],
@@ -7042,8 +8470,35 @@
       "check": "missing_cross_ref",
       "label": "VITAE",
       "nodes": [
+        "hadleylab-canonic/TALKS/VITAE",
+        "runner-canonic/VITAE"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "VITAE",
+      "nodes": [
         "hadleylab-canonic/VITAE",
         "runner-canonic/SERVICES/VITAE"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "VITAE",
+      "nodes": [
+        "hadleylab-canonic/VITAE",
+        "runner-canonic/VITAE"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "VITAE",
+      "nodes": [
+        "runner-canonic/SERVICES/VITAE",
+        "runner-canonic/VITAE"
       ],
       "severity": "INFO"
     },
@@ -7337,6 +8792,15 @@
     },
     {
       "check": "missing_cross_ref",
+      "label": "ABOPM",
+      "nodes": [
+        "hadleylab-canonic/BOOKS/ABOPM",
+        "hadleylab-canonic/DECKS/ABOPM"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
       "label": "CHAPTERS",
       "nodes": [
         "hadleylab-canonic/BOOKS/ATULISMS/CHAPTERS",
@@ -7366,6 +8830,15 @@
       "check": "missing_cross_ref",
       "label": "CHAPTERS",
       "nodes": [
+        "hadleylab-canonic/BOOKS/ATULISMS/CHAPTERS",
+        "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "CHAPTERS",
+      "nodes": [
         "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS",
         "hadleylab-canonic/BOOKS/CANONIC-DOCTRINE/CHAPTERS"
       ],
@@ -7384,8 +8857,35 @@
       "check": "missing_cross_ref",
       "label": "CHAPTERS",
       "nodes": [
+        "hadleylab-canonic/BOOKS/CANONIC-CANON/CHAPTERS",
+        "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "CHAPTERS",
+      "nodes": [
         "hadleylab-canonic/BOOKS/CANONIC-DOCTRINE/CHAPTERS",
         "hadleylab-canonic/BOOKS/CHAPTERS"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "CHAPTERS",
+      "nodes": [
+        "hadleylab-canonic/BOOKS/CANONIC-DOCTRINE/CHAPTERS",
+        "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "CHAPTERS",
+      "nodes": [
+        "hadleylab-canonic/BOOKS/CHAPTERS",
+        "hadleylab-canonic/BOOKS/DARIOISMS/CHAPTERS"
       ],
       "severity": "INFO"
     },
@@ -7395,6 +8895,15 @@
       "nodes": [
         "hadleylab-canonic/BOOKS/DIVIDENDS",
         "hadleylab-canonic/STORIES/DIVIDENDS"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "BOND-VALE",
+      "nodes": [
+        "hadleylab-canonic/DEALS/BOND-VALE",
+        "hadleylab-canonic/DECKS/BOND-VALE"
       ],
       "severity": "INFO"
     },

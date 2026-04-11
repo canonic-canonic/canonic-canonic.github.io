@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "c7d5b65ce9510259"
+    "gov_hash": "e2d72a30b7abdede"
   },
-  "generated": "2026-04-09T13:48:12Z",
+  "generated": "2026-04-11T13:30:50Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -46,7 +46,7 @@
     }
   ],
   "stats": {
-    "total": 732,
+    "total": 759,
     "avg_bits": 253
   },
   "nodes": [
@@ -72,7 +72,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
-      "children": 17
+      "children": 23
     },
     {
       "id": "hadleylab-canonic/BLOGS",
@@ -114,7 +114,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "BOOKS",
-      "children": 11
+      "children": 13
     },
     {
       "id": "hadleylab-canonic/CAMPAIGNS",
@@ -125,19 +125,12 @@
       "parent": "hadleylab-canonic",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
-      "roadmap_now": "[ ] Execute first HN engagement response (lawyer-who-won, 23 comments, draft at HACKERNEWS/RESPONSES/)",
+      "roadmap_now": "[ ] Post remaining LinkedIn calendar items that still have shelf life",
       "learning_count": 21,
-      "coverage_open_gates": [
-        "SUBSTACK_SETUP"
-      ],
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS",
       "children": 21
@@ -184,7 +177,7 @@
       "readers": [
         "iDrDex"
       ],
-      "children": 9
+      "children": 3
     },
     {
       "id": "hadleylab-canonic/DECKS",
@@ -206,7 +199,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DECKS",
-      "children": 12
+      "children": 13
     },
     {
       "id": "hadleylab-canonic/GRANTS",
@@ -289,12 +282,12 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "| Claim | Source |",
-      "roadmap_now": "[ ] Audit all claims \u2014 map to BIBLIOGRAPHY entries",
+      "roadmap_now": "[ ] GEI sensitivity analysis \u2014 permute weights, confirm ranking is robust to perturbation",
       "learning_count": 9,
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "PAPERS",
-      "children": 12
+      "children": 15
     },
     {
       "id": "hadleylab-canonic/PATENTS",
@@ -370,7 +363,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SERVICES",
-      "children": 38
+      "children": 53
     },
     {
       "id": "hadleylab-canonic/STORIES",
@@ -459,7 +452,7 @@
       "readers": [
         "iDrDex"
       ],
-      "children": 11
+      "children": 8
     },
     {
       "id": "hadleylab-canonic/VITAE",
@@ -570,7 +563,7 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "APPS",
-      "children": 2
+      "children": 8
     },
     {
       "id": "hadleylab-canonic/BLOGS/2025-12-29-the-compiler-insight",
@@ -1778,6 +1771,30 @@
       "children": 0
     },
     {
+      "id": "hadleylab-canonic/BOOKS/ABOPM",
+      "kind": "SCOPE",
+      "label": "ABOPM",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/ABOPM",
+      "parent": "hadleylab-canonic/BOOKS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "privacy": "PUBLIC",
+      "has_intel": false,
+      "roadmap_now": "[ ] COMPILE.md \u2014 publication gate (PDF, EPUB, web)",
+      "learning_count": 3,
+      "coverage_open_gates": [
+        "COMPILE.md",
+        "Appendices"
+      ],
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/ABOPM",
+      "children": 1
+    },
+    {
       "id": "hadleylab-canonic/BOOKS/ART-OF-THE-CANONIC-DEAL",
       "kind": "SCOPE",
       "label": "ART-OF-THE-CANONIC-DEAL",
@@ -2022,14 +2039,10 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "has_intel": true,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR TECHNICAL AUDIENCE. EVERY SUBMISSION FACTUAL. EVERY TITLE HONEST.**",
       "roadmap_now": "[ ] Set up HN comment monitoring \u2014 RSS feed, Firebase API polling, or hnreplies.com for reply notifications",
       "learning_count": 3,
@@ -2090,14 +2103,10 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "has_intel": true,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR COMMUNITIES. EVERY POST PLATFORM-NATIVE. EVERY DISCUSSION SUBSTANTIVE.**",
       "roadmap_now": "[ ] Apply for Reddit API access via Responsible Builder Policy approval form (self-service OAuth closed ~Oct 2025, admin approval required, no SLA on turnaround)",
       "learning_count": 11,
@@ -2114,14 +2123,10 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "has_intel": true,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
       "intel_summary": "| Field | Value |",
       "coverage_open_gates": [
         "ACCOUNT_SETUP",
@@ -2141,14 +2146,10 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "has_intel": true,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR AUDIENCE. EVERY EMISSION GOVERNED. EVERY METRIC CAPTURED.**",
       "roadmap_now": "[ ] API credentials \u2192 ~/.canonic/.env (governed, not in GOV tree)",
       "coverage_score": 159,
@@ -2170,8 +2171,8 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/ACHIEVE-PODCAST-2026",
@@ -2186,8 +2187,8 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/AIMED-2026",
@@ -2202,8 +2203,8 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/ALPHAGO-AT-10",
@@ -2218,8 +2219,8 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/BAMBERG-2026",
@@ -2234,8 +2235,8 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/CAOH-2026",
@@ -2250,8 +2251,8 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/COMMITMENT-2026",
@@ -2266,8 +2267,8 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/CONSTITUTIONAL-AI-2026",
@@ -2282,8 +2283,8 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/KARPATHY-KNOWLEDGE-GRAPH-2026",
@@ -2298,8 +2299,8 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/LAWYER-WHO-WON",
@@ -2314,8 +2315,8 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/MI10-ORLANDO-2026",
@@ -2330,8 +2331,8 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/PMWC-2026",
@@ -2346,8 +2347,8 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/STOP-PROMPTING-2026",
@@ -2362,8 +2363,8 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/STRONG-HER-2026",
@@ -2378,8 +2379,8 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/TEMPLATE",
@@ -2394,8 +2395,8 @@
       "parent": "hadleylab-canonic/CAMPAIGNS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "CAMPAIGNS/THE-FIXED-POINT-2026",
@@ -2624,6 +2625,29 @@
       "learning_count": 5,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "DEALS/LEVUKA-VENTURE-LAB",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/DECKS/ABOPM",
+      "kind": "SCOPE",
+      "label": "ABOPM",
+      "repo": "hadleylab-canonic",
+      "path": "DECKS/ABOPM",
+      "parent": "hadleylab-canonic/DECKS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "privacy": "PUBLIC",
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "learning_count": 2,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "DECKS/ABOPM",
       "children": 0
     },
     {
@@ -3011,6 +3035,35 @@
       "children": 4
     },
     {
+      "id": "hadleylab-canonic/PAPERS/PRECISION-MEDICINE-INACCURATE",
+      "kind": "SCOPE",
+      "label": "PRECISION-MEDICINE-INACCURATE",
+      "repo": "hadleylab-canonic",
+      "path": "PAPERS/PRECISION-MEDICINE-INACCURATE",
+      "parent": "hadleylab-canonic/PAPERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "roadmap_now": "[ ] Trim draft to 1,500 words (NEJM Perspective limit) \u2014 cut plan in CANON",
+      "learning_count": 12,
+      "coverage_open_gates": [
+        "SUBMISSION",
+        "COVER_LETTER",
+        "SUPPLEMENTARY_DATA",
+        "WORD_COUNT_EXACT"
+      ],
+      "surface_type": "JEKYLL_PAPER",
+      "fleet_path": "PAPERS/PRECISION-MEDICINE-INACCURATE",
+      "children": 3
+    },
+    {
       "id": "hadleylab-canonic/PAPERS/SHOP",
       "kind": "CONTENT",
       "label": "SHOP",
@@ -3152,6 +3205,38 @@
       "has_intel": false,
       "surface_type": "JEKYLL_PAPER",
       "fleet_path": "PAPERS/opts-ego",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PAPERS/precision-medicine-complement-clinical-trials",
+      "kind": "CONTENT",
+      "label": "PRECISION-MEDICINE-COMPLEMENT-CLINICAL-TRIALS",
+      "repo": "hadleylab-canonic",
+      "path": "PAPERS/precision-medicine-complement-clinical-trials",
+      "parent": "hadleylab-canonic/PAPERS",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_PAPER",
+      "fleet_path": "PAPERS/precision-medicine-complement-clinical-trials",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PAPERS/precision-medicine-is-inaccurate-for-most",
+      "kind": "CONTENT",
+      "label": "PRECISION-MEDICINE-IS-INACCURATE-FOR-MOST",
+      "repo": "hadleylab-canonic",
+      "path": "PAPERS/precision-medicine-is-inaccurate-for-most",
+      "parent": "hadleylab-canonic/PAPERS",
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_PAPER",
+      "fleet_path": "PAPERS/precision-medicine-is-inaccurate-for-most",
       "children": 0
     },
     {
@@ -3669,6 +3754,38 @@
       "children": 0
     },
     {
+      "id": "hadleylab-canonic/SERVICES/API",
+      "kind": "SERVICE",
+      "label": "API",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/API",
+      "parent": "hadleylab-canonic/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "[ ] Phase 1: Core Worker scaffold \u2014 index.js router, auth.js (GitHub OAuth), utils.js (CORS, rate-limit)",
+      "learning_count": 2,
+      "coverage_score": 255,
+      "coverage_open_gates": [
+        "WORKER_SCAFFOLD",
+        "D1_SCHEMA",
+        "KV_SESSIONS",
+        "R2_ASSETS",
+        "CORS_GOVERN",
+        "RATE_LIMIT",
+        "MUTATION_LEDGER",
+        "OPENAPI_COMPILE",
+        "PROXY_EXTERNAL",
+        "SSE_STREAM"
+      ],
+      "surface_type": "JEKYLL_SERVICE",
+      "fleet_path": "SERVICES/API",
+      "children": 0
+    },
+    {
       "id": "hadleylab-canonic/SERVICES/APP",
       "kind": "SERVICE",
       "label": "APP",
@@ -3681,11 +3798,14 @@
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "[ ] Asset pipeline \u2014 governed clipart/icons from APPS/{SCOPE}/ASSETS/, hash-verified at build",
-      "learning_count": 4,
+      "roadmap_now": "[ ] API layer \u2014 unified governed API at api.canonic.org (CF Worker + D1 + KV + R2). Plan: Phase 1.",
+      "learning_count": 7,
       "coverage_score": 255,
       "coverage_open_gates": [
-        "PLATFORM_COMPILE",
+        "API_LAYER",
+        "NEXTJS_CONSOLIDATE",
+        "PLATFORM_IOS",
+        "PLATFORM_ANDROID",
         "ASSET_PIPELINE",
         "STREAM_ARCH",
         "OFFLINE_CACHE"
@@ -3806,7 +3926,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR FRAMEWORK. EVERY EMISSION TRACED. EVERY PLATFORM GOVERNED. EVERY METRIC CAPTURED.**",
       "roadmap_now": "[ ] AlphaGo at 10 campaign \u2014 LinkedIn 4x POSTED, Twitter POSTED, HN/Reddit PASSED",
-      "learning_count": 2,
+      "learning_count": 4,
       "coverage_score": 223,
       "coverage_open_gates": [
         "SUBSTACK_SETUP"
@@ -3853,7 +3973,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "Dexter Hadley, MD/PhD (Penn). Stanford Research Associate (Butte Lab). Faculty at UCSF and UCF (Founding Chief of AI). C",
-      "learning_count": 10,
+      "learning_count": 12,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/CLAUDE",
@@ -4220,7 +4340,7 @@
       "learning_count": 10,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/LEARNING",
-      "children": 60
+      "children": 61
     },
     {
       "id": "hadleylab-canonic/SERVICES/LEDGER",
@@ -4261,7 +4381,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR INFRASTRUCTURE. EVERY PROVIDER GOVERNED. EVERY BAKEOFF MEASURED.**",
-      "learning_count": 12,
+      "learning_count": 13,
       "coverage_score": 255,
       "surface_type": "JEKYLL_SERVICE",
       "fleet_path": "SERVICES/MAGIC",
@@ -4996,7 +5116,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR CARIBBEAN CANCER LANDSCAPE. EVERY GUIDELINE LOCALIZED. EVERY CONTACT GOVERNED.**",
       "roadmap_now": "[ ] CAOH MOU \u2014 formalize partnership terms before enterprise services launch",
-      "learning_count": 167,
+      "learning_count": 168,
       "coverage_score": 255,
       "surface_type": "JEKYLL_TALK",
       "fleet_path": "TALKS/CARIBCHAT",
@@ -5091,7 +5211,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "**KNOW YOUR BREAST HEALTH. EVERY CLAIM SOURCED. EVERY TRIAL CITED. EVERY JOURNEY GOVERNED.**",
-      "learning_count": 40,
+      "learning_count": 42,
       "coverage_score": 255,
       "coverage_open_gates": [
         "A11Y"
@@ -5200,7 +5320,7 @@
       "has_intel": true,
       "intel_summary": "**KNOW YOUR OMICS. EVERY VARIANT CLASSIFIED. EVERY FINDING EVIDENCED. EVERY TIER DECLARED.**",
       "roadmap_now": "Governance at 255 \u2014 all 8 artifacts validated",
-      "learning_count": 32,
+      "learning_count": 34,
       "coverage_score": 255,
       "coverage_open_gates": [
         "A11Y"
@@ -5443,6 +5563,9 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/AVINASH",
       "organization": "Atom",
+      "wallet": {
+        "balance": 500
+      },
       "children": 2
     },
     {
@@ -5468,6 +5591,10 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/FATIMA",
       "organization": "CANONIC",
+      "github": "fatimacanonic",
+      "wallet": {
+        "balance": 500
+      },
       "children": 4
     },
     {
@@ -5514,6 +5641,9 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/ILYA",
       "organization": "BedaSoftware",
+      "wallet": {
+        "balance": 628
+      },
       "children": 2
     },
     {
@@ -5538,6 +5668,9 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/ISABELLA",
       "organization": "E4C",
+      "wallet": {
+        "balance": 500
+      },
       "children": 2
     },
     {
@@ -5562,6 +5695,9 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/JP",
       "organization": "JP Capital",
+      "wallet": {
+        "balance": 500
+      },
       "children": 2
     },
     {
@@ -5589,6 +5725,9 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/ROBERT",
       "organization": "PinnacleGrp",
+      "wallet": {
+        "balance": 631
+      },
       "children": 2
     },
     {
@@ -5615,6 +5754,9 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/YANA",
       "organization": "BedaSoftware",
+      "wallet": {
+        "balance": 688
+      },
       "children": 2
     },
     {
@@ -5634,6 +5776,133 @@
       "children": 0
     },
     {
+      "id": "hadleylab-canonic/APPS/CANONIC",
+      "kind": "SCOPE",
+      "label": "CANONIC",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/CANONIC",
+      "parent": "hadleylab-canonic/APPS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "[ ] Initialize Next.js 15 monorepo with @cloudflare/next-on-pages",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "coverage_open_gates": [
+        "MONOREPO_INIT",
+        "MIDDLEWARE_ROUTE",
+        "SHARED_PRIMITIVES",
+        "OMICSCHAT_MIGRATE",
+        "RUNNER_MIGRATE",
+        "TALK_DYNAMIC",
+        "SSE_UNIFIED",
+        "CF_PAGES_DEPLOY",
+        "WCAG_AA",
+        "ASSET_PIPELINE",
+        "PLATFORM_IOS",
+        "PLATFORM_ANDROID"
+      ],
+      "surface_type": "APP",
+      "fleet_path": "APPS/CANONIC",
+      "cross_intel": [
+        "OMICSCHAT",
+        "RUNNER",
+        "MAMMOCHAT",
+        "CARIBCHAT",
+        "MEDCHAT",
+        "ONCOCHAT",
+        "LAWCHAT",
+        "FINCHAT",
+        "COIN",
+        "LEDGER",
+        "AUTH"
+      ],
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/APPS/FINTALK",
+      "kind": "SCOPE",
+      "label": "FINTALK",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/FINTALK",
+      "parent": "hadleylab-canonic/APPS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "**KNOW YOUR NUMBERS. EVERY METRIC SOURCED. EVERY PROJECTION EVIDENCED. EVERY COMPLIANCE REQUIREMENT TRACED.**",
+      "surface_type": "APP",
+      "fleet_path": "APPS/FINTALK",
+      "cross_intel": [
+        "LAWCHAT",
+        "COIN",
+        "LEDGER"
+      ],
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/APPS/LAWTALK",
+      "kind": "SCOPE",
+      "label": "LAWTALK",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/LAWTALK",
+      "parent": "hadleylab-canonic/APPS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "**KNOW YOUR LAW. EVERY STATUTE SOURCED. EVERY PRECEDENT CITED. EVERY COMPLIANCE PATHWAY EVIDENCED.**",
+      "surface_type": "APP",
+      "fleet_path": "APPS/LAWTALK",
+      "cross_intel": [
+        "FINCHAT",
+        "COIN",
+        "LEDGER"
+      ],
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/APPS/MUSICTALK",
+      "kind": "SCOPE",
+      "label": "MUSICTALK",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/MUSICTALK",
+      "parent": "hadleylab-canonic/APPS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "**KNOW YOUR SOUND. EVERY TRACK GOVERNED. EVERY SESSION CURATED. EVERY SOURCE TRACED.**",
+      "surface_type": "APP",
+      "fleet_path": "APPS/MUSICTALK",
+      "cross_intel": [
+        "COIN",
+        "LEDGER"
+      ],
+      "children": 0
+    },
+    {
       "id": "hadleylab-canonic/APPS/OMICSCHAT",
       "kind": "SCOPE",
       "label": "OMICSCHAT",
@@ -5647,7 +5916,7 @@
       "missing_dims": [],
       "has_intel": true,
       "intel_summary": "origin: hadleylab-canonic/TALKS/OMICSCHAT/INTEL.md (extended 2026-04-08)",
-      "roadmap_now": "[ ] Review patents and business plan with Anil Bajnath",
+      "roadmap_now": "[ ] Review patents and business plan with Anil Bajnath (Monday 2026-04-14)",
       "learning_count": 26,
       "coverage_score": 255,
       "coverage_open_gates": [
@@ -5658,11 +5927,13 @@
         "COMMERCIAL_INTERPRET",
         "ACTUARIAL_FEED",
         "CERT_TOOL_CONVERGE",
-        "PLATFORM_COMPILE",
+        "PLATFORM_IOS",
+        "PLATFORM_ANDROID",
+        "API_LAYER",
         "ASSET_PIPELINE",
         "STREAM_ARCH"
       ],
-      "surface_type": "JEKYLL_DEFAULT",
+      "surface_type": "APP",
       "fleet_path": "APPS/OMICSCHAT",
       "cross_intel": [
         "MAMMOCHAT",
@@ -5671,6 +5942,65 @@
         "CARIBCHAT",
         "LAWCHAT",
         "FINCHAT",
+        "COIN",
+        "LEDGER"
+      ],
+      "children": 1
+    },
+    {
+      "id": "hadleylab-canonic/APPS/ONCONEX",
+      "kind": "SCOPE",
+      "label": "ONCONEX",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/ONCONEX",
+      "parent": "hadleylab-canonic/APPS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "**KNOW YOUR CLINICAL INTELLIGENCE. EVERY VIEW DIRECTED. EVERY ASSERTION EVIDENCED. EVERY AUDIENCE SERVED. ONE PLATFORM, ",
+      "surface_type": "APP",
+      "fleet_path": "APPS/ONCONEX",
+      "cross_intel": [
+        "MAMMOCHAT",
+        "CARIBCHAT",
+        "OMICSCHAT",
+        "ONCOCHAT",
+        "MEDCHAT",
+        "LAWCHAT",
+        "FINCHAT",
+        "COIN",
+        "LEDGER"
+      ],
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/APPS/REALTALK",
+      "kind": "SCOPE",
+      "label": "REALTALK",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/REALTALK",
+      "parent": "hadleylab-canonic/APPS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "intel_summary": "**KNOW YOUR PROPERTIES. EVERY LISTING EVIDENCED. EVERY MARKET SIGNAL SOURCED. EVERY DEAL LEDGERED.**",
+      "surface_type": "APP",
+      "fleet_path": "APPS/REALTALK",
+      "cross_intel": [
         "COIN",
         "LEDGER"
       ],
@@ -5694,23 +6024,39 @@
       "next_tier": "FULL",
       "next_tier_gap": 8,
       "intel_summary": "**KNOW YOUR OPERATIONS. EVERY VENDOR VETTED. EVERY TASK TRACKED. EVERY DOLLAR OF EFFORT EARNED.**",
-      "roadmap_now": "[ ] Next.js rebuild \u2014 gorunner.pro as governed APP instance (App Router, SSE streaming)",
+      "roadmap_now": "[ ] Next.js 15 rebuild \u2014 gorunner.pro as route group in consolidated app (SSR, not static export)",
       "learning_count": 8,
       "coverage_score": 255,
       "coverage_open_gates": [
         "STREAM_SSE",
         "ASSET_PIPELINE",
-        "PLATFORM_MAC",
         "PLATFORM_IOS",
+        "PLATFORM_MAC",
         "PLATFORM_ANDROID"
       ],
-      "surface_type": "JEKYLL_DEFAULT",
+      "surface_type": "APP",
       "fleet_path": "APPS/RUNNER",
       "cross_intel": [
         "VITAE",
         "COIN",
         "LEDGER"
       ],
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/BOOKS/ABOPM/SPINE",
+      "kind": "CONTENT",
+      "label": "SPINE",
+      "repo": "hadleylab-canonic",
+      "path": "BOOKS/ABOPM/SPINE",
+      "parent": "hadleylab-canonic/BOOKS/ABOPM",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_BOOK",
+      "fleet_path": "BOOKS/ABOPM/SPINE",
       "children": 0
     },
     {
@@ -7238,6 +7584,54 @@
       "children": 0
     },
     {
+      "id": "hadleylab-canonic/PAPERS/PRECISION-MEDICINE-INACCURATE/draft-v1",
+      "kind": "CONTENT",
+      "label": "DRAFT-V1",
+      "repo": "hadleylab-canonic",
+      "path": "PAPERS/PRECISION-MEDICINE-INACCURATE/draft-v1",
+      "parent": "hadleylab-canonic/PAPERS/PRECISION-MEDICINE-INACCURATE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_PAPER",
+      "fleet_path": "PAPERS/PRECISION-MEDICINE-INACCURATE/draft-v1",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PAPERS/PRECISION-MEDICINE-INACCURATE/draft-v2-nejm",
+      "kind": "CONTENT",
+      "label": "DRAFT-V2-NEJM",
+      "repo": "hadleylab-canonic",
+      "path": "PAPERS/PRECISION-MEDICINE-INACCURATE/draft-v2-nejm",
+      "parent": "hadleylab-canonic/PAPERS/PRECISION-MEDICINE-INACCURATE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_PAPER",
+      "fleet_path": "PAPERS/PRECISION-MEDICINE-INACCURATE/draft-v2-nejm",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/PAPERS/PRECISION-MEDICINE-INACCURATE/presubmission-inquiry",
+      "kind": "CONTENT",
+      "label": "PRESUBMISSION-INQUIRY",
+      "repo": "hadleylab-canonic",
+      "path": "PAPERS/PRECISION-MEDICINE-INACCURATE/presubmission-inquiry",
+      "parent": "hadleylab-canonic/PAPERS/PRECISION-MEDICINE-INACCURATE",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_PAPER",
+      "fleet_path": "PAPERS/PRECISION-MEDICINE-INACCURATE/presubmission-inquiry",
+      "children": 0
+    },
+    {
       "id": "hadleylab-canonic/PATENTS/APPLICATIONS/FRAND-COMMITMENT",
       "kind": "CONTENT",
       "label": "FRAND-COMMITMENT",
@@ -8739,6 +9133,23 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "SERVICES/LEARNING/neville-calleja",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "hadleylab-canonic/SERVICES/LEARNING/nicholas-archer",
+      "kind": "CONTENT",
+      "label": "NICHOLAS-ARCHER",
+      "repo": "hadleylab-canonic",
+      "path": "SERVICES/LEARNING/nicholas-archer",
+      "parent": "hadleylab-canonic/SERVICES/LEARNING",
+      "color": "#bf5af2",
+      "category": "KNOWLEDGE",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "SERVICES/LEARNING/nicholas-archer",
       "children": 0,
       "privacy": "PRIVATE"
     },
@@ -10408,6 +10819,27 @@
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/YANA/SERVICES",
       "privacy": "PRIVATE",
+      "children": 2
+    },
+    {
+      "id": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM",
+      "kind": "SCOPE",
+      "label": "CURRICULUM",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/OMICSCHAT/CURRICULUM",
+      "parent": "hadleylab-canonic/APPS/OMICSCHAT",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "APP",
+      "fleet_path": "APPS/OMICSCHAT/CURRICULUM",
       "children": 2
     },
     {
@@ -12666,256 +13098,136 @@
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/DESIGN",
+      "id": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES",
       "kind": "SCOPE",
-      "label": "DESIGN",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/DESIGN",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "RUNTIME",
-      "color": "#00ff88",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/DESIGN",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/COIN",
-      "kind": "SCOPE",
-      "label": "COIN",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/COIN",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "COMMERCE",
-      "color": "#ff9f0a",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**COIN is the economic shadow of WORK. Every mint ledgered. Every burn evidenced. Supply ceiling = scopes \u00d7 255 per CLOS",
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/COIN",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/AUTH",
-      "kind": "SCOPE",
-      "label": "AUTH",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/AUTH",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "label": "GUIDELINES",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/OMICSCHAT/CURRICULUM/GUIDELINES",
+      "parent": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
       "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/AUTH",
-      "children": 0
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "APP",
+      "fleet_path": "APPS/OMICSCHAT/CURRICULUM/GUIDELINES",
+      "children": 6
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/SHOP",
-      "kind": "SCOPE",
-      "label": "SHOP",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/SHOP",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "COMMERCE",
-      "color": "#ff9f0a",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "SHOP governance created (CANON.md + SHOP.md + TRIAD)",
-      "learning_count": 5,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/SHOP",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/STORY",
-      "kind": "SCOPE",
-      "label": "STORY",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/STORY",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "ORG",
+      "id": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/ABOPM-MANUAL",
+      "kind": "CONTENT",
+      "label": "ABOPM-MANUAL",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/OMICSCHAT/CURRICULUM/ABOPM-MANUAL",
+      "parent": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/STORY",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/STAR",
-      "kind": "SCOPE",
-      "label": "STAR",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/STAR",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "SERVICES",
-      "color": "#ec4899",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "Define STAR service contract: axiom, composition, lanes, TIMELINE model, API routes",
-      "learning_count": 4,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/STAR",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/TALK",
-      "kind": "SCOPE",
-      "label": "TALK",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/TALK",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "SERVICES",
-      "color": "#ec4899",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "Ship TALK as CHAT + INTEL composed: every TALK response wires `intel_refs` and shows governed disclaimer",
-      "learning_count": 7,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/TALK",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/LEARNING",
-      "kind": "SCOPE",
-      "label": "LEARNING",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/LEARNING",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "KNOWLEDGE",
-      "color": "#bf5af2",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "Govern INTEL\u2192LEARNING primitive-to-service mapping across all scopes",
-      "learning_count": 13,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/LEARNING",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/UPTIME",
-      "kind": "SCOPE",
-      "label": "UPTIME",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/UPTIME",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 247,
+      "tier": "COMMUNITY",
       "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/UPTIME",
+      "surface_type": "APP",
+      "fleet_path": "APPS/OMICSCHAT/CURRICULUM/ABOPM-MANUAL",
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/DEV",
-      "kind": "SCOPE",
-      "label": "DEV",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/DEV",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "id": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES/DISCIPLINE",
+      "kind": "CONTENT",
+      "label": "DISCIPLINE",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/OMICSCHAT/CURRICULUM/GUIDELINES/DISCIPLINE",
+      "parent": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES",
+      "color": "#64748b",
       "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "APP",
+      "fleet_path": "APPS/OMICSCHAT/CURRICULUM/GUIDELINES/DISCIPLINE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES/ELIGIBILITY",
+      "kind": "CONTENT",
+      "label": "ELIGIBILITY",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/OMICSCHAT/CURRICULUM/GUIDELINES/ELIGIBILITY",
+      "parent": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/DEV",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/TRANSCRIPT",
-      "kind": "SCOPE",
-      "label": "TRANSCRIPT",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/TRANSCRIPT",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "SERVICES",
-      "color": "#ec4899",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/TRANSCRIPT",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/DOMAINS",
-      "kind": "SCOPE",
-      "label": "DOMAINS",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/DOMAINS",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 247,
+      "tier": "COMMUNITY",
       "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/DOMAINS",
+      "surface_type": "APP",
+      "fleet_path": "APPS/OMICSCHAT/CURRICULUM/GUIDELINES/ELIGIBILITY",
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC",
-      "kind": "SCOPE",
-      "label": "MAGIC",
-      "repo": "canonic-canonic",
-      "path": "MAGIC",
-      "parent": "canonic-canonic",
-      "category": "RUNTIME",
-      "color": "#00ff88",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": true,
-      "intel_summary": "**INTEL \u2014 what you KNOW. The orchestrator. Every service wires INTEL.**",
-      "roadmap_now": "MAGIC 255/255 \u2014 Full governance compliance across all 9 domains",
-      "learning_count": 373,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC",
-      "children": 11
+      "id": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES/EXAMINATION",
+      "kind": "CONTENT",
+      "label": "EXAMINATION",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/OMICSCHAT/CURRICULUM/GUIDELINES/EXAMINATION",
+      "parent": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "APP",
+      "fleet_path": "APPS/OMICSCHAT/CURRICULUM/GUIDELINES/EXAMINATION",
+      "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/CAMPAIGN",
-      "kind": "SCOPE",
-      "label": "CAMPAIGN",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/CAMPAIGN",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "SERVICES",
-      "color": "#ec4899",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "id": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES/MAINTENANCE",
+      "kind": "CONTENT",
+      "label": "MAINTENANCE",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/OMICSCHAT/CURRICULUM/GUIDELINES/MAINTENANCE",
+      "parent": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
       "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/CAMPAIGN",
+      "surface_type": "APP",
+      "fleet_path": "APPS/OMICSCHAT/CURRICULUM/GUIDELINES/MAINTENANCE",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES/RECERTIFICATION",
+      "kind": "CONTENT",
+      "label": "RECERTIFICATION",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/OMICSCHAT/CURRICULUM/GUIDELINES/RECERTIFICATION",
+      "parent": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "APP",
+      "fleet_path": "APPS/OMICSCHAT/CURRICULUM/GUIDELINES/RECERTIFICATION",
+      "children": 0
+    },
+    {
+      "id": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES/SCOPE",
+      "kind": "CONTENT",
+      "label": "SCOPE",
+      "repo": "hadleylab-canonic",
+      "path": "APPS/OMICSCHAT/CURRICULUM/GUIDELINES/SCOPE",
+      "parent": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "APP",
+      "fleet_path": "APPS/OMICSCHAT/CURRICULUM/GUIDELINES/SCOPE",
       "children": 0
     },
     {
@@ -12937,11 +13249,11 @@
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/LATEX",
+      "id": "canonic-canonic/MAGIC/SERVICES/DEV",
       "kind": "SCOPE",
-      "label": "LATEX",
+      "label": "DEV",
       "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/LATEX",
+      "path": "MAGIC/SERVICES/DEV",
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
@@ -12950,41 +13262,7 @@
       "missing_dims": [],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/LATEX",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/NAS",
-      "kind": "SCOPE",
-      "label": "NAS",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/NAS",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/NAS",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/PLUGINS",
-      "kind": "SCOPE",
-      "label": "PLUGINS",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/PLUGINS",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/PLUGINS",
+      "fleet_path": "MAGIC/SERVICES/DEV",
       "children": 0
     },
     {
@@ -13005,11 +13283,11 @@
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/FINANCIALS",
+      "id": "canonic-canonic/MAGIC/SERVICES/TIMELINE",
       "kind": "SCOPE",
-      "label": "FINANCIALS",
+      "label": "TIMELINE",
       "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/FINANCIALS",
+      "path": "MAGIC/SERVICES/TIMELINE",
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
@@ -13018,24 +13296,24 @@
       "missing_dims": [],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/FINANCIALS",
+      "fleet_path": "MAGIC/SERVICES/TIMELINE",
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/SEED",
+      "id": "canonic-canonic/MAGIC/SERVICES/DEAL",
       "kind": "SCOPE",
-      "label": "SEED",
+      "label": "DEAL",
       "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/SEED",
+      "path": "MAGIC/SERVICES/DEAL",
       "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "ORG",
-      "color": "#64748b",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/SEED",
+      "fleet_path": "MAGIC/SERVICES/DEAL",
       "children": 0
     },
     {
@@ -13053,6 +13331,75 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/BUILD",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/CALENDAR",
+      "kind": "SCOPE",
+      "label": "CALENDAR",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/CALENDAR",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/CALENDAR",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/AUTH",
+      "kind": "SCOPE",
+      "label": "AUTH",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/AUTH",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR USERS. EVERY SESSION GOVERNED. EVERY GRANT AUDITED.**",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/AUTH",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/STORY",
+      "kind": "SCOPE",
+      "label": "STORY",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/STORY",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/STORY",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/FINANCIALS",
+      "kind": "SCOPE",
+      "label": "FINANCIALS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/FINANCIALS",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/FINANCIALS",
       "children": 0
     },
     {
@@ -13077,11 +13424,28 @@
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/USER",
+      "id": "canonic-canonic/MAGIC/SERVICES/BOOK",
       "kind": "SCOPE",
-      "label": "USER",
+      "label": "BOOK",
       "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/USER",
+      "path": "MAGIC/SERVICES/BOOK",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/BOOK",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/DEMO",
+      "kind": "SCOPE",
+      "label": "DEMO",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/DEMO",
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
@@ -13090,7 +13454,115 @@
       "missing_dims": [],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/USER",
+      "fleet_path": "MAGIC/SERVICES/DEMO",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/API",
+      "kind": "SCOPE",
+      "label": "API",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/API",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**KNOW YOUR API. EVERY ENDPOINT AUTHENTICATED. EVERY RESPONSE GOVERNED. EVERY OPERATION EVIDENCED.**",
+      "roadmap_now": "API governance created (CANON.md + API.md + TRIAD)",
+      "learning_count": 11,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/API",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/CAMPAIGN",
+      "kind": "SCOPE",
+      "label": "CAMPAIGN",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/CAMPAIGN",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/CAMPAIGN",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/STAR",
+      "kind": "SCOPE",
+      "label": "STAR",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/STAR",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Define STAR service contract: axiom, composition, lanes, TIMELINE model, API routes",
+      "learning_count": 4,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/STAR",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/CONTACTS",
+      "kind": "SCOPE",
+      "label": "CONTACTS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/CONTACTS",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/CONTACTS",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/SEED",
+      "kind": "SCOPE",
+      "label": "SEED",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/SEED",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/SEED",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/TRANSCRIPT",
+      "kind": "SCOPE",
+      "label": "TRANSCRIPT",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/TRANSCRIPT",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/TRANSCRIPT",
       "children": 0
     },
     {
@@ -13111,31 +13583,28 @@
       "children": 0
     },
     {
-      "id": "canonic-canonic",
-      "kind": "ORG",
-      "label": "CANONIC",
+      "id": "canonic-canonic/MAGIC/SERVICES/UPTIME",
+      "kind": "SCOPE",
+      "label": "UPTIME",
       "repo": "canonic-canonic",
-      "path": ".",
-      "parent": null,
+      "path": "MAGIC/SERVICES/UPTIME",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "[ ] Key rotation escalation \u2014 promote from soft gate (WARN) to hard gate (FAIL) in phase 8f",
-      "learning_count": 983,
-      "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "",
-      "children": 5
+      "fleet_path": "MAGIC/SERVICES/UPTIME",
+      "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/BOOK",
+      "id": "canonic-canonic/MAGIC/SERVICES/BLOG",
       "kind": "SCOPE",
-      "label": "BOOK",
+      "label": "BLOG",
       "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/BOOK",
+      "path": "MAGIC/SERVICES/BLOG",
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "SERVICES",
       "color": "#ec4899",
@@ -13144,92 +13613,7 @@
       "missing_dims": [],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/BOOK",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/DECK",
-      "kind": "SCOPE",
-      "label": "DECK",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/DECK",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "SERVICES",
-      "color": "#ec4899",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/DECK",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/PATENT",
-      "kind": "SCOPE",
-      "label": "PATENT",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/PATENT",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "OPERATIONS",
-      "color": "#2997ff",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/PATENT",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/CITATION",
-      "kind": "SCOPE",
-      "label": "CITATION",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/CITATION",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/CITATION",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/DEAL",
-      "kind": "SCOPE",
-      "label": "DEAL",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/DEAL",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "COMMERCE",
-      "color": "#ff9f0a",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/DEAL",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/DEMO",
-      "kind": "SCOPE",
-      "label": "DEMO",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/DEMO",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/DEMO",
+      "fleet_path": "MAGIC/SERVICES/BLOG",
       "children": 0
     },
     {
@@ -13253,11 +13637,11 @@
       "children": 4
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/MUSIC",
+      "id": "canonic-canonic/MAGIC/SERVICES/DOMAINS",
       "kind": "SCOPE",
-      "label": "MUSIC",
+      "label": "DOMAINS",
       "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/MUSIC",
+      "path": "MAGIC/SERVICES/DOMAINS",
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
@@ -13266,45 +13650,42 @@
       "missing_dims": [],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/MUSIC",
+      "fleet_path": "MAGIC/SERVICES/DOMAINS",
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/PAPER",
+      "id": "canonic-canonic/MAGIC/SERVICES/FORECASTS",
       "kind": "SCOPE",
-      "label": "PAPER",
+      "label": "FORECASTS",
       "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/PAPER",
+      "path": "MAGIC/SERVICES/FORECASTS",
       "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "SERVICES",
-      "color": "#ec4899",
+      "category": "ORG",
+      "color": "#64748b",
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/PAPER",
+      "fleet_path": "MAGIC/SERVICES/FORECASTS",
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES",
+      "id": "canonic-canonic/MAGIC/SERVICES/PATENT",
       "kind": "SCOPE",
-      "label": "SERVICES",
+      "label": "PATENT",
       "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES",
-      "parent": "canonic-canonic/MAGIC",
-      "category": "SERVICES",
-      "color": "#ec4899",
+      "path": "MAGIC/SERVICES/PATENT",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "OPERATIONS",
+      "color": "#2997ff",
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
-      "roadmap_now": "Enforce governed boundary isolation across all service scopes (no cross-scope state leakage between INTEL, CHAT, COIN, LEDGER)",
-      "learning_count": 5,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_ECON",
-      "fleet_path": "MAGIC/SERVICES",
-      "children": 52
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/PATENT",
+      "children": 0
     },
     {
       "id": "canonic-canonic/MAGIC/SERVICES/CLAUDE",
@@ -13341,11 +13722,108 @@
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/CONTACTS",
+      "id": "canonic-canonic/MAGIC/SERVICES",
       "kind": "SCOPE",
-      "label": "CONTACTS",
+      "label": "SERVICES",
       "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/CONTACTS",
+      "path": "MAGIC/SERVICES",
+      "parent": "canonic-canonic/MAGIC",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Enforce governed boundary isolation across all service scopes (no cross-scope state leakage between INTEL, CHAT, COIN, LEDGER)",
+      "learning_count": 5,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_ECON",
+      "fleet_path": "MAGIC/SERVICES",
+      "children": 52
+    },
+    {
+      "id": "canonic-canonic/MAGIC",
+      "kind": "SCOPE",
+      "label": "MAGIC",
+      "repo": "canonic-canonic",
+      "path": "MAGIC",
+      "parent": "canonic-canonic",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**INTEL \u2014 what you KNOW. The orchestrator. Every service wires INTEL.**",
+      "roadmap_now": "MAGIC 255/255 \u2014 Full governance compliance across all 9 domains",
+      "learning_count": 373,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC",
+      "children": 11
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/PLAYBOOKS",
+      "kind": "SCOPE",
+      "label": "PLAYBOOKS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/PLAYBOOKS",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/PLAYBOOKS",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/LEARNING",
+      "kind": "SCOPE",
+      "label": "LEARNING",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/LEARNING",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "KNOWLEDGE",
+      "color": "#bf5af2",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Govern INTEL\u2192LEARNING primitive-to-service mapping across all scopes",
+      "learning_count": 13,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/LEARNING",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic",
+      "kind": "ORG",
+      "label": "CANONIC",
+      "repo": "canonic-canonic",
+      "path": ".",
+      "parent": null,
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "[ ] Key rotation escalation \u2014 promote from soft gate (WARN) to hard gate (FAIL) in phase 8f",
+      "learning_count": 983,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "",
+      "children": 5
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/CITATION",
+      "kind": "SCOPE",
+      "label": "CITATION",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/CITATION",
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
@@ -13354,7 +13832,112 @@
       "missing_dims": [],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/CONTACTS",
+      "fleet_path": "MAGIC/SERVICES/CITATION",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/DECK",
+      "kind": "SCOPE",
+      "label": "DECK",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/DECK",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/DECK",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/DESIGN",
+      "kind": "SCOPE",
+      "label": "DESIGN",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/DESIGN",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "RUNTIME",
+      "color": "#00ff88",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/DESIGN",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/MUSIC",
+      "kind": "SCOPE",
+      "label": "MUSIC",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/MUSIC",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/MUSIC",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/LATEX",
+      "kind": "SCOPE",
+      "label": "LATEX",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/LATEX",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/LATEX",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/PLUGINS",
+      "kind": "SCOPE",
+      "label": "PLUGINS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/PLUGINS",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/PLUGINS",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/TALK",
+      "kind": "SCOPE",
+      "label": "TALK",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/TALK",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "roadmap_now": "Ship TALK as CHAT + INTEL composed: every TALK response wires `intel_refs` and shows governed disclaimer",
+      "learning_count": 7,
+      "coverage_score": 255,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/TALK",
       "children": 0
     },
     {
@@ -13375,11 +13958,11 @@
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/FORECASTS",
+      "id": "canonic-canonic/MAGIC/SERVICES/NAS",
       "kind": "SCOPE",
-      "label": "FORECASTS",
+      "label": "NAS",
       "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/FORECASTS",
+      "path": "MAGIC/SERVICES/NAS",
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
@@ -13388,15 +13971,15 @@
       "missing_dims": [],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/FORECASTS",
+      "fleet_path": "MAGIC/SERVICES/NAS",
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/PLAYBOOKS",
+      "id": "canonic-canonic/MAGIC/SERVICES/PAPER",
       "kind": "SCOPE",
-      "label": "PLAYBOOKS",
+      "label": "PAPER",
       "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/PLAYBOOKS",
+      "path": "MAGIC/SERVICES/PAPER",
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "SERVICES",
       "color": "#ec4899",
@@ -13405,15 +13988,33 @@
       "missing_dims": [],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/PLAYBOOKS",
+      "fleet_path": "MAGIC/SERVICES/PAPER",
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/TIMELINE",
+      "id": "canonic-canonic/MAGIC/SERVICES/COIN",
       "kind": "SCOPE",
-      "label": "TIMELINE",
+      "label": "COIN",
       "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/TIMELINE",
+      "path": "MAGIC/SERVICES/COIN",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": true,
+      "intel_summary": "**COIN is the economic shadow of WORK. Every mint ledgered. Every burn evidenced. Supply ceiling = scopes \u00d7 255 per CLOS",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/COIN",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/USER",
+      "kind": "SCOPE",
+      "label": "USER",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/USER",
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
@@ -13422,45 +14023,46 @@
       "missing_dims": [],
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/TIMELINE",
+      "fleet_path": "MAGIC/SERVICES/USER",
       "children": 0
     },
     {
-      "id": "canonic-canonic/MAGIC/SERVICES/BLOG",
+      "id": "canonic-canonic/MAGIC/SERVICES/SHOP",
       "kind": "SCOPE",
-      "label": "BLOG",
+      "label": "SHOP",
       "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/BLOG",
+      "path": "MAGIC/SERVICES/SHOP",
       "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "SERVICES",
-      "color": "#ec4899",
+      "category": "COMMERCE",
+      "color": "#ff9f0a",
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
+      "roadmap_now": "SHOP governance created (CANON.md + SHOP.md + TRIAD)",
+      "learning_count": 5,
+      "coverage_score": 255,
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/BLOG",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SERVICES/CALENDAR",
-      "kind": "SCOPE",
-      "label": "CALENDAR",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SERVICES/CALENDAR",
-      "parent": "canonic-canonic/MAGIC/SERVICES",
-      "category": "SERVICES",
-      "color": "#ec4899",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/CALENDAR",
+      "fleet_path": "MAGIC/SERVICES/SHOP",
       "children": 0
     }
   ],
   "edges": [
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/APPS/CANONIC",
+      "to": "hadleylab-canonic/SERVICES/APP"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/APPS/LAWTALK",
+      "to": "hadleylab-canonic/SERVICES/APP"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/APPS/REALTALK",
+      "to": "hadleylab-canonic/SERVICES/APP"
+    },
     {
       "kind": "INHERITS",
       "from": "hadleylab-canonic/APPS/RUNNER",
@@ -13470,6 +14072,11 @@
       "kind": "INHERITS",
       "from": "hadleylab-canonic/BLOGS",
       "to": "hadleylab-canonic/SERVICES/BLOG"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/BOOKS/ABOPM",
+      "to": "hadleylab-canonic/SERVICES/BOOK"
     },
     {
       "kind": "INHERITS",
@@ -13575,6 +14182,11 @@
       "kind": "INHERITS",
       "from": "hadleylab-canonic/DEALS/LEVUKA-VENTURE-LAB",
       "to": "hadleylab-canonic/SERVICES/DEAL"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/DECKS/ABOPM",
+      "to": "hadleylab-canonic/SERVICES/DECK"
     },
     {
       "kind": "INHERITS",
@@ -13745,6 +14357,11 @@
       "kind": "INHERITS",
       "from": "hadleylab-canonic/SEEDS",
       "to": "hadleylab-canonic/SERVICES/SEED"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "hadleylab-canonic/SERVICES/API",
+      "to": "canonic-canonic/MAGIC/SERVICES/API"
     },
     {
       "kind": "INHERITS",
@@ -14208,6 +14825,101 @@
     },
     {
       "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/CANONIC",
+      "to": "hadleylab-canonic/APPS/OMICSCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/CANONIC",
+      "to": "hadleylab-canonic/APPS/RUNNER"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/CANONIC",
+      "to": "hadleylab-canonic/TALKS/MAMMOCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/CANONIC",
+      "to": "hadleylab-canonic/IRBS/CARIBCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/CANONIC",
+      "to": "hadleylab-canonic/TALKS/MEDCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/CANONIC",
+      "to": "hadleylab-canonic/TALKS/ONCOCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/CANONIC",
+      "to": "hadleylab-canonic/TALKS/LAWCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/CANONIC",
+      "to": "hadleylab-canonic/TALKS/FINCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/CANONIC",
+      "to": "canonic-canonic/MAGIC/SERVICES/COIN"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/CANONIC",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/CANONIC",
+      "to": "canonic-canonic/MAGIC/SERVICES/AUTH"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/FINTALK",
+      "to": "hadleylab-canonic/TALKS/LAWCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/FINTALK",
+      "to": "canonic-canonic/MAGIC/SERVICES/COIN"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/FINTALK",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/LAWTALK",
+      "to": "hadleylab-canonic/TALKS/FINCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/LAWTALK",
+      "to": "canonic-canonic/MAGIC/SERVICES/COIN"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/LAWTALK",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/MUSICTALK",
+      "to": "canonic-canonic/MAGIC/SERVICES/COIN"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/MUSICTALK",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "CROSS_INTEL",
       "from": "hadleylab-canonic/APPS/OMICSCHAT",
       "to": "hadleylab-canonic/TALKS/MAMMOCHAT"
     },
@@ -14244,6 +14956,61 @@
     {
       "kind": "CROSS_INTEL",
       "from": "hadleylab-canonic/APPS/OMICSCHAT",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/ONCONEX",
+      "to": "hadleylab-canonic/TALKS/MAMMOCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/ONCONEX",
+      "to": "hadleylab-canonic/IRBS/CARIBCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/ONCONEX",
+      "to": "hadleylab-canonic/APPS/OMICSCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/ONCONEX",
+      "to": "hadleylab-canonic/TALKS/ONCOCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/ONCONEX",
+      "to": "hadleylab-canonic/TALKS/MEDCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/ONCONEX",
+      "to": "hadleylab-canonic/TALKS/LAWCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/ONCONEX",
+      "to": "hadleylab-canonic/TALKS/FINCHAT"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/ONCONEX",
+      "to": "canonic-canonic/MAGIC/SERVICES/COIN"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/ONCONEX",
+      "to": "canonic-canonic/MAGIC/SERVICES/LEDGER"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/REALTALK",
+      "to": "canonic-canonic/MAGIC/SERVICES/COIN"
+    },
+    {
+      "kind": "CROSS_INTEL",
+      "from": "hadleylab-canonic/APPS/REALTALK",
       "to": "canonic-canonic/MAGIC/SERVICES/LEDGER"
     },
     {
@@ -14489,12 +15256,22 @@
     {
       "kind": "CODE_DEP",
       "from": "hadleylab-canonic",
+      "to": "hadleylab-canonic/APPS/CANONIC"
+    },
+    {
+      "kind": "CODE_DEP",
+      "from": "hadleylab-canonic",
       "to": "hadleylab-canonic/APPS/OMICSCHAT"
     },
     {
       "kind": "PARENT",
       "from": "canonic-canonic/MAGIC",
       "to": "canonic-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/API",
+      "to": "canonic-canonic/MAGIC/SERVICES"
     },
     {
       "kind": "PARENT",
@@ -14713,7 +15490,47 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/CANONIC",
+      "to": "hadleylab-canonic/APPS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/FINTALK",
+      "to": "hadleylab-canonic/APPS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/LAWTALK",
+      "to": "hadleylab-canonic/APPS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/MUSICTALK",
+      "to": "hadleylab-canonic/APPS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/APPS/OMICSCHAT",
+      "to": "hadleylab-canonic/APPS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM",
+      "to": "hadleylab-canonic/APPS/OMICSCHAT"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES",
+      "to": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/ONCONEX",
+      "to": "hadleylab-canonic/APPS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/REALTALK",
       "to": "hadleylab-canonic/APPS"
     },
     {
@@ -14725,6 +15542,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/BLOGS",
       "to": "hadleylab-canonic"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/ABOPM",
+      "to": "hadleylab-canonic/BOOKS"
     },
     {
       "kind": "PARENT",
@@ -14893,6 +15715,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/DECKS/ABOPM",
+      "to": "hadleylab-canonic/DECKS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/DECKS/ACHIEVE",
       "to": "hadleylab-canonic/DECKS"
     },
@@ -14998,6 +15825,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/PAPERS/PRECISION-MEDICINE-INACCURATE",
+      "to": "hadleylab-canonic/PAPERS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/PATENTS/APPLICATIONS",
       "to": "hadleylab-canonic/PATENTS"
     },
@@ -15095,6 +15927,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/SEEDS/ULTRA",
       "to": "hadleylab-canonic/SEEDS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/API",
+      "to": "hadleylab-canonic/SERVICES"
     },
     {
       "kind": "PARENT",
@@ -15748,6 +16585,41 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/ABOPM-MANUAL",
+      "to": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES/DISCIPLINE",
+      "to": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES/ELIGIBILITY",
+      "to": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES/EXAMINATION",
+      "to": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES/MAINTENANCE",
+      "to": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES/RECERTIFICATION",
+      "to": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES/SCOPE",
+      "to": "hadleylab-canonic/APPS/OMICSCHAT/CURRICULUM/GUIDELINES"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/BLOGS/2025-12-29-the-compiler-insight",
       "to": "hadleylab-canonic/BLOGS"
     },
@@ -16100,6 +16972,11 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/BLOGS/SHOP",
       "to": "hadleylab-canonic/BLOGS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/BOOKS/ABOPM/SPINE",
+      "to": "hadleylab-canonic/BOOKS/ABOPM"
     },
     {
       "kind": "PARENT",
@@ -17243,6 +18120,16 @@
     },
     {
       "kind": "PARENT",
+      "from": "hadleylab-canonic/PAPERS/precision-medicine-complement-clinical-trials",
+      "to": "hadleylab-canonic/PAPERS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PAPERS/precision-medicine-is-inaccurate-for-most",
+      "to": "hadleylab-canonic/PAPERS"
+    },
+    {
+      "kind": "PARENT",
       "from": "hadleylab-canonic/PAPERS/the-255-billion-dollar-wound",
       "to": "hadleylab-canonic/PAPERS"
     },
@@ -17270,6 +18157,21 @@
       "kind": "PARENT",
       "from": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING/submission",
       "to": "hadleylab-canonic/PAPERS/COMMUNITY-LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PAPERS/PRECISION-MEDICINE-INACCURATE/draft-v1",
+      "to": "hadleylab-canonic/PAPERS/PRECISION-MEDICINE-INACCURATE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PAPERS/PRECISION-MEDICINE-INACCURATE/draft-v2-nejm",
+      "to": "hadleylab-canonic/PAPERS/PRECISION-MEDICINE-INACCURATE"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/PAPERS/PRECISION-MEDICINE-INACCURATE/presubmission-inquiry",
+      "to": "hadleylab-canonic/PAPERS/PRECISION-MEDICINE-INACCURATE"
     },
     {
       "kind": "PARENT",
@@ -17739,6 +18641,11 @@
     {
       "kind": "PARENT",
       "from": "hadleylab-canonic/SERVICES/LEARNING/neville-calleja",
+      "to": "hadleylab-canonic/SERVICES/LEARNING"
+    },
+    {
+      "kind": "PARENT",
+      "from": "hadleylab-canonic/SERVICES/LEARNING/nicholas-archer",
       "to": "hadleylab-canonic/SERVICES/LEARNING"
     },
     {

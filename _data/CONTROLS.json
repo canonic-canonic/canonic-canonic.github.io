@@ -412,7 +412,7 @@
       {
         "scope": "SURFACE",
         "axiom": "SURFACE is the platform lane.",
-        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
+        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST:     APP surface_type — Next.js App Router, reads galaxy.json + CANON.json directly\nMUST:     GALAXY surface_type — chrome-free operating surface (auth gate, Finder)\nMUST:     APP scopes compile CANON.md → CANON.json (same as SURFACE, different target)\nMUST:     APP scopes wire COIN + INTEL + TALK primitives into compiled CANON.json\nMUST NOT: Emit new JEKYLL_* surface types — existing types frozen, deprecated\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
       },
       {
         "scope": "MAGIC",

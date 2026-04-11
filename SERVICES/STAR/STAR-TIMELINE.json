@@ -3,7 +3,7 @@
     "contract": "canonic-canonic/MAGIC/SERVICES/STAR/STAR.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "generated": "2026-04-09T03:58:26Z",
+  "generated": "2026-04-11T01:42:30Z",
   "users": {
     "ALLANA": {
       "total": 5,
@@ -470,8 +470,344 @@
       ]
     },
     "DEXTER": {
-      "total": 678,
+      "total": 699,
       "entries": [
+        {
+          "id": "6ca45825d08d",
+          "ts": "2026-04-11T00:58:34.462275Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — reddit:UNKNOWN",
+          "ref": "emit:EMIT-021",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "b1fd05643eff",
+          "ts": "2026-04-11T00:58:34.379809Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — reddit:UNKNOWN",
+          "ref": "emit:EMIT-020",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "c0f55e789fa4",
+          "ts": "2026-04-11T00:58:34.297860Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — reddit:UNKNOWN",
+          "ref": "emit:EMIT-019",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "813d27b317f6",
+          "ts": "2026-04-11T00:58:34.218169Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — reddit:UNKNOWN",
+          "ref": "emit:EMIT-018",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "4afd43b0cb84",
+          "ts": "2026-04-11T00:58:34.137390Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — reddit:UNKNOWN",
+          "ref": "emit:EMIT-017",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "9e395c3bf690",
+          "ts": "2026-04-11T00:58:34.055405Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — reddit:LAWYER-WHO-WON",
+          "ref": "emit:EMIT-016",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "11dd0314df3c",
+          "ts": "2026-04-11T00:58:33.975187Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — twitter:THE-FIXED-POINT-2026",
+          "ref": "emit:EMIT-015",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "b6ea9f82b085",
+          "ts": "2026-04-11T00:58:33.895530Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — hackernews:THE-FIXED-POINT-2026",
+          "ref": "emit:EMIT-014",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "f5af58e50fe0",
+          "ts": "2026-04-11T00:58:33.818517Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — linkedin:THE-FIXED-POINT-2026",
+          "ref": "emit:EMIT-013",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "c8f5c553f3f0",
+          "ts": "2026-04-11T00:58:33.740401Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — hackernews:ACHIEVE-PODCAST-2026",
+          "ref": "emit:EMIT-011",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "9eca34e32ed1",
+          "ts": "2026-04-11T00:58:33.663202Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — twitter:ACHIEVE-PODCAST-2026",
+          "ref": "emit:EMIT-010",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "0ffe9b93f43e",
+          "ts": "2026-04-11T00:58:33.586142Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — linkedin:ACHIEVE-PODCAST-2026",
+          "ref": "emit:EMIT-009",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "4bdc5550ff6d",
+          "ts": "2026-04-11T00:58:33.502154Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — linkedin:CONSTITUTIONAL-AI-2026",
+          "ref": "emit:EMIT-012",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "41233c5072b4",
+          "ts": "2026-04-11T00:58:33.414176Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — linkedin:STOP-PROMPTING-2026",
+          "ref": "emit:EMIT-008",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "da8afbd0eb1f",
+          "ts": "2026-04-11T00:58:33.314501Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — linkedin:STOP-PROMPTING-2026",
+          "ref": "emit:EMIT-007",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "2d3e3df0cba5",
+          "ts": "2026-04-11T00:58:33.230646Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — linkedin:STOP-PROMPTING-2026",
+          "ref": "emit:EMIT-006",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "1ec024694174",
+          "ts": "2026-04-11T00:58:33.149866Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — hackernews:LAWYER-WHO-WON",
+          "ref": "emit:EMIT-005",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "b47820e96128",
+          "ts": "2026-04-11T00:58:33.068756Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — twitter:LAWYER-WHO-WON",
+          "ref": "emit:EMIT-004",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "000ee45ba1c5",
+          "ts": "2026-04-11T00:58:32.986922Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — linkedin:LAWYER-WHO-WON",
+          "ref": "emit:EMIT-003",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "79114c6e9440",
+          "ts": "2026-04-11T00:58:32.907621Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — twitter:ALPHAGO-AT-10",
+          "ref": "emit:EMIT-002",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
+        {
+          "id": "f410b4d29478",
+          "ts": "2026-04-11T00:58:32.828862Z",
+          "stream": "VAULT",
+          "type": "MINT:EMIT",
+          "scope": "CAMPAIGN",
+          "principal": "DEXTER",
+          "summary": "MINT:EMIT +1 COIN — linkedin:CANONIC-SOFT-LAUNCH",
+          "ref": "emit:EMIT-001",
+          "primitive": "COIN",
+          "meta": {
+            "amount": 1,
+            "delta": 1,
+            "product": "EMIT"
+          }
+        },
         {
           "id": "226238daea6c",
           "ts": "2026-04-08T17:51:09.202622Z",

@@ -83,16 +83,24 @@
             ],
             "rows": [
               [
-                "Later",
-                "Platform-as-projection: every new principal surface auto-scaffolds from GOV tree"
+                "Now",
+                "[ ] API layer — unified api.canonic.org, all platform clients consume. Plan Phas"
               ],
               [
-                "Later",
-                "SURFACE sells tiers, proof features evidence: clean separation enforced across a"
+                "Now",
+                "[ ] Next.js consolidation — single app, all TALK instances as routes, SSR on CF "
               ],
               [
-                "Later",
-                "Replay-safe deployment: any fleet site can be rebuilt from GOV state at any hist"
+                "Now",
+                "[ ] Cross-surface parity gate: WEB, iOS, and Android surfaces must pass identica"
+              ],
+              [
+                "Next",
+                "[ ] Platform-as-projection: every new principal surface auto-scaffolds from GOV "
+              ],
+              [
+                "Next",
+                "[ ] Replay-safe deployment: any fleet site can be rebuilt from GOV state at any "
               ]
             ]
           }
@@ -237,7 +245,7 @@
   "footerTagline": "SURFACE | CANONIC",
   "canon": {
     "axiom": "SURFACE is the platform lane.",
-    "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)",
+    "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST:     APP surface_type — Next.js App Router, reads galaxy.json + CANON.json directly\nMUST:     GALAXY surface_type — chrome-free operating surface (auth gate, Finder)\nMUST:     APP scopes compile CANON.md → CANON.json (same as SURFACE, different target)\nMUST:     APP scopes wire COIN + INTEL + TALK primitives into compiled CANON.json\nMUST NOT: Emit new JEKYLL_* surface types — existing types frozen, deprecated\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)",
     "inherits": "canonic-canonic/MAGIC",
     "spec": [
       {
@@ -275,10 +283,14 @@
     ],
     "coverage": "255/255",
     "roadmap": {
-      "later": [
-        "Platform-as-projection: every new principal surface auto-scaffolds from GOV tree without manual configuration",
-        "SURFACE sells tiers, proof features evidence: clean separation enforced across all fleet sites",
-        "Replay-safe deployment: any fleet site can be rebuilt from GOV state at any historical commit"
+      "now": [
+        "[ ] API layer — unified api.canonic.org, all platform clients consume. Plan Phase 1.",
+        "[ ] Next.js consolidation — single app, all TALK instances as routes, SSR on CF Pages. Plan Phase 2.",
+        "[ ] Cross-surface parity gate: WEB, iOS, and Android surfaces must pass identical `magic validate` checks before deploy"
+      ],
+      "next": [
+        "[ ] Platform-as-projection: every new principal surface auto-scaffolds from GOV tree without manual configuration",
+        "[ ] Replay-safe deployment: any fleet site can be rebuilt from GOV state at any historical commit"
       ]
     },
     "vocab": [

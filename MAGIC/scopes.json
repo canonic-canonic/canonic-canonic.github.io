@@ -238,10 +238,76 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:CANONIC",
+      "label": "CANONIC",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:FINTALK",
+      "label": "FINTALK",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:LAWTALK",
+      "label": "LAWTALK",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:MUSICTALK",
+      "label": "MUSICTALK",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:APPS:OMICSCHAT",
       "label": "OMICSCHAT",
       "bits": 255,
       "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:ONCONEX",
+      "label": "ONCONEX",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:REALTALK",
+      "label": "REALTALK",
+      "bits": 247,
+      "size": 60,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:APPS"
@@ -278,6 +344,17 @@
       "color": "#a78bfa",
       "category": "CONTENT",
       "inherits": "gov:hadleylab-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:BOOKS:ABOPM",
+      "label": "ABOPM",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:BOOKS"
     },
     {
       "source": "gov",
@@ -361,8 +438,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:CAMPAIGNS",
       "label": "CAMPAIGNS",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:."
@@ -372,8 +449,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:CAMPAIGNS:HACKERNEWS",
       "label": "HACKERNEWS",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:CAMPAIGNS"
@@ -405,8 +482,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:CAMPAIGNS:REDDIT",
       "label": "REDDIT",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:CAMPAIGNS"
@@ -416,8 +493,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:CAMPAIGNS:SUBSTACK",
       "label": "SUBSTACK",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:CAMPAIGNS"
@@ -427,8 +504,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:CAMPAIGNS:TWITTER",
       "label": "TWITTER",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:CAMPAIGNS"
@@ -645,6 +722,17 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:DECKS:ABOPM",
+      "label": "ABOPM",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:DECKS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:ACHIEVE",
       "label": "ACHIEVE",
       "bits": 247,
@@ -856,6 +944,17 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:PAPERS:COMMUNITY-LEARNING",
       "label": "COMMUNITY-LEARNING",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PAPERS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PAPERS:PRECISION-MEDICINE-INACCURATE",
+      "label": "PRECISION-MEDICINE-INACCURATE",
       "bits": 247,
       "size": 60,
       "color": "#64748b",
@@ -1103,6 +1202,17 @@
       "color": "#ec4899",
       "category": "SERVICES",
       "inherits": "gov:hadleylab-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SERVICES:API",
+      "label": "API",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:SERVICES"
     },
     {
       "source": "gov",

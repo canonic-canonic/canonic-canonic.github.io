@@ -30,6 +30,13 @@ MUST:     Use GovGraph (galaxy BFS) for all cross-scope discovery
 MUST:     Carry _generated marker on files written back to GOV
 MUST:     Auto-scaffold missing closure artifacts from CANON.md
 MUST:     Fail fast if pipeline config is missing or drifted
+MUST:     Three environments — LOCAL, STAGING, PRODUCTION
+MUST:     LOCAL build passes all gates before STAGING promotion
+MUST:     STAGING passes smoke tests before PRODUCTION promotion
+MUST:     PRODUCTION deploy requires explicit promotion (never auto-push)
+MUST:     build-verify runs as terminal gate — no deploy without PASSED
+MUST:     All paths discovered from GOV tree — no hardcoded fleet/theme/vault paths
+MUST NOT: Push to PRODUCTION without passing LOCAL + STAGING gates
 MUST NOT: Hardcode scope paths, fleet paths, repo paths, or phase paths
 MUST NOT: Write runtime artifacts into GOV tree
 MUST NOT: Maintain fallback paths for missing galaxy

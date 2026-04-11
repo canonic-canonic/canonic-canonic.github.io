@@ -1,0 +1,29 @@
+# FLEET TYPE DECLARATION — canonic-canonic.github.io
+# This file IS the type system. Every allowed filetype must be declared.
+# The compiler reads this file and rejects any file not matching.
+# Add a type here = allow it in the fleet. Missing = compile error.
+#
+# GOV-first: .gitignore is the deploy boundary type gate.
+
+# ── Default: deny all ──
+*
+
+# ── Infrastructure (extensionless) ──
+!.gitignore
+!CNAME
+
+# ── Declared file types ──
+!*.md
+!*.json
+!*.jsonl
+!*.pdf
+!*.svg
+!*.png
+!*.mmd
+!*.js
+!*.html
+!*.yml
+!*.txt
+
+# ── Directory traversal (git requires explicit dir un-ignore) ──
+!*/

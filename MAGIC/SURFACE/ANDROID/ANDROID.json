@@ -67,16 +67,24 @@
             ],
             "rows": [
               [
-                "Later",
-                "Full SERVICES parity: Android surface projects INTEL, CHAT, COIN, and LEDGER wit"
+                "Now",
+                "[ ] canonic-sdk Kotlin module — typed API client for api.canonic.org. Depends on"
               ],
               [
-                "Later",
-                "Play Store compliance gate: `magic validate` + native integration checks require"
+                "Now",
+                "[ ] OmicsChat Android — first native APP instance. Plan Phase 4."
               ],
               [
-                "Later",
-                "Offline-first governed rendering: Android app caches GOV state and renders deter"
+                "Next",
+                "[ ] Fleet TALK instances on Android — all scopes via shared SDK"
+              ],
+              [
+                "Next",
+                "[ ] Play Store submission pipeline — magic validate = 255 gate before review"
+              ],
+              [
+                "Next",
+                "[ ] Offline-first: cached CANON.json + queued mutations → sync on reconnect"
               ]
             ]
           }
@@ -125,7 +133,7 @@
   "footerTagline": "ANDROID | CANONIC",
   "canon": {
     "axiom": "MAGIC on Android is native, governed, fast.",
-    "constraints": "MUST:     Read governed config at runtime (no baked constants)\nMUST:     Delegate validation and scoring to governed truth (no local policy forks)\nMUST NOT: Ship provider lists, thresholds, or lane maps in the app bundle",
+    "constraints": "MUST:     Pure Jetpack Compose — no WebView bridges\nMUST:     All data from api.canonic.org — no direct external API calls from client\nMUST:     CANON.json bundled in APK + refreshed at launch from api.canonic.org/config/:scope\nMUST:     canonic-sdk Kotlin module for all API calls (typed client via Ktor)\nMUST:     Session tokens in EncryptedSharedPreferences or AndroidKeyStore (not plain SharedPreferences)\nMUST:     GitHub OAuth via Custom Tabs (not WebView)\nMUST:     SSE streaming via Ktor (no polling)\nMUST:     Accessibility: TalkBack labels, 48dp touch targets\nMUST:     Material You theming from CANON.json design tokens\nMUST:     Google Play Internal Testing gated by magic validate = 255 equivalent\nMUST:     Read governed config at runtime (no baked constants)\nMUST:     Delegate validation and scoring to governed truth (no local policy forks)\nMUST NOT: Ship provider lists, thresholds, or lane maps in the app bundle\nMUST NOT: Ship without 7-day Internal Testing validation\nMUST NOT: Third-party UI frameworks (pure Compose)",
     "inherits": "canonic-canonic/MAGIC/SURFACE",
     "spec": [],
     "learning": [
@@ -136,10 +144,14 @@
     ],
     "coverage": "255/255",
     "roadmap": {
-      "later": [
-        "Full SERVICES parity: Android surface projects INTEL, CHAT, COIN, and LEDGER with identical governance to web",
-        "Play Store compliance gate: `magic validate` + native integration checks required before any release submission",
-        "Offline-first governed rendering: Android app caches GOV state and renders deterministically without network"
+      "now": [
+        "[ ] canonic-sdk Kotlin module — typed API client for api.canonic.org. Depends on API layer (Plan Phase 1).",
+        "[ ] OmicsChat Android — first native APP instance. Plan Phase 4."
+      ],
+      "next": [
+        "[ ] Fleet TALK instances on Android — all scopes via shared SDK",
+        "[ ] Play Store submission pipeline — magic validate = 255 gate before review",
+        "[ ] Offline-first: cached CANON.json + queued mutations → sync on reconnect"
       ]
     },
     "vocab": [
@@ -152,7 +164,7 @@
       {
         "scope": "SURFACE",
         "axiom": "SURFACE is the platform lane.",
-        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
+        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST:     APP surface_type — Next.js App Router, reads galaxy.json + CANON.json directly\nMUST:     GALAXY surface_type — chrome-free operating surface (auth gate, Finder)\nMUST:     APP scopes compile CANON.md → CANON.json (same as SURFACE, different target)\nMUST:     APP scopes wire COIN + INTEL + TALK primitives into compiled CANON.json\nMUST NOT: Emit new JEKYLL_* surface types — existing types frozen, deprecated\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
       },
       {
         "scope": "MAGIC",

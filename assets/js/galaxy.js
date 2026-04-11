@@ -978,18 +978,8 @@ var GALAXY = (function () {
         var html = '<div class="finder-grid">';
 
         // HUD card (floats left, cards flow around it)
-        // Resolve personal wallet from user's scope node (not fleet total)
-        var _userNode = null;
-        if (_authUser) {
-            var _uLogin = (_authUser.user || _authUser.login || '').toUpperCase();
-            galaxy.nodes.forEach(function (n) {
-                if (_userNode) return;
-                if (n.github && n.github.toLowerCase() === (_authUser.login || '').toLowerCase()) _userNode = n;
-                else if (n.kind === 'USER' && n.label && n.label.toUpperCase() === _uLogin) _userNode = n;
-            });
-        }
-        var hudBits = _userNode ? (_userNode.bits || 0) : (galaxy.master ? galaxy.master.bits : 0);
-        var hudBalance = _userNode && _userNode.wallet ? _userNode.wallet.balance : 0;
+        var hudBits = galaxy.master ? galaxy.master.bits : 0;
+        var hudBalance = galaxy.stats ? galaxy.stats.total_coin : 0;
         var hudTier = tierFor(hudBits);
         var displayName = (_authUser && (_authUser.name || _authUser.login)) ? (_authUser.name || _authUser.login).split(' ')[0] : 'CANONIC';
         html += '<div class="fc-hud-float">';
@@ -1004,7 +994,6 @@ var GALAXY = (function () {
         // Breadcrumb
         if (_finderPath.length > 0) {
             html += '<div class="fc-hud-crumb">';
-            html += '<span onclick="event.stopPropagation();GALAXY.navigateToRoot()" style="cursor:pointer;color:var(--dim,#888);font-size:10px" title="Browse all scopes">\u2229</span> / ';
             _finderPath.forEach(function (nid, i) {
                 var n = nodeMap[nid]; if (!n) return;
                 if (i > 0) html += ' / ';
@@ -1042,15 +1031,7 @@ var GALAXY = (function () {
             html += '</div>';
             html += '</div>';
         });
-        // "+ New Scope" card — only for authenticated users within their own scope
-        if (_authUser && _finderPath.length > 0) {
-            html += '<div class="finder-card sc-card fc-create" onclick="GALAXY.showCreateScope()" style="--i:' + children.length + '">';
-            html += '<div class="fc-header"><span class="fc-icon" style="color:var(--glow)"><i class="fas" style="font-family:\'Font Awesome 5 Free\';font-weight:900">&#xf067;</i></span></div>';
-            html += '<div class="fc-label" style="color:var(--glow)">New Scope</div>';
-            html += '<div class="fc-meta"><span class="fc-bits" style="color:var(--dim)">CREATE</span></div>';
-            html += '</div>';
-        }
-        if (children.length === 0 && !_authUser) {
+        if (children.length === 0) {
             html += '<div style="grid-column:1/-1;text-align:center;padding:40px;color:var(--dim);font-family:var(--mono);font-size:11px">No children at this scope</div>';
         }
         html += '</div>';
@@ -1671,59 +1652,6 @@ var GALAXY = (function () {
         galaxy.nodes.forEach(function (n) { nodeMap[n.id] = n; });
         buildFederationFromData();
 
-        // Resolve authenticated user → their scope (user-scoped finder)
-        if (_authUser && _finderPath.length === 0) {
-            var userLogin = (_authUser.user || _authUser.login || '').toUpperCase();
-            var userScopeId = null;
-            // 1. Match on github field (compiled USER nodes)
-            galaxy.nodes.forEach(function (n) {
-                if (userScopeId) return;
-                if (n.github && n.github.toLowerCase() === (_authUser.login || '').toLowerCase()) {
-                    userScopeId = n.id;
-                }
-            });
-            // 2. Match on kind=USER + label
-            if (!userScopeId) {
-                galaxy.nodes.forEach(function (n) {
-                    if (userScopeId) return;
-                    if (n.kind === 'USER' && n.label && n.label.toUpperCase() === userLogin) {
-                        userScopeId = n.id;
-                    }
-                });
-            }
-            // 3. Fallback: search USERS/{NAME} pattern in node IDs
-            if (!userScopeId) {
-                galaxy.nodes.forEach(function (n) {
-                    if (userScopeId) return;
-                    if (n.id && n.id.indexOf('/USERS/') !== -1 && n.label && n.label.toUpperCase() === userLogin) {
-                        userScopeId = n.id;
-                    }
-                });
-            }
-            // 4. Last resort: find the USERS container node and navigate to it
-            // (user nodes not yet compiled — at least get them to the USERS directory)
-            if (!userScopeId && userLogin) {
-                var usersContainerId = null;
-                galaxy.nodes.forEach(function (n) {
-                    if (usersContainerId) return;
-                    if (n.label === 'USERS' && n.id && n.id.indexOf('hadleylab') !== -1 && n.id.split('/').length <= 2) {
-                        usersContainerId = n.id;
-                    }
-                });
-                if (usersContainerId) userScopeId = usersContainerId;
-            }
-            // Build the finder path to the user's scope (breadcrumb chain)
-            if (userScopeId && nodeMap[userScopeId]) {
-                var chain = [];
-                var cur = userScopeId;
-                while (cur && nodeMap[cur]) {
-                    chain.unshift(cur);
-                    cur = nodeMap[cur].parent;
-                }
-                _finderPath = chain;
-            }
-        }
-
         // Read default view from compiled view_config
         var vc = galaxy.view_config || {};
         _viewMode = vc.default_view || 'finder';
@@ -1829,120 +1757,6 @@ var GALAXY = (function () {
         };
     }
 
-    // ── Create Scope (constructive finder) ──
-
-    function showCreateScope() {
-        var existing = document.getElementById('createScopeModal');
-        if (existing) existing.remove();
-
-        var parentId = _finderPath.length > 0 ? _finderPath[_finderPath.length - 1] : null;
-        var parentNode = parentId ? nodeMap[parentId] : null;
-        var parentLabel = parentNode ? parentNode.label : 'ROOT';
-
-        var modal = document.createElement('div');
-        modal.id = 'createScopeModal';
-        modal.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;z-index:10000;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.7);backdrop-filter:blur(8px)';
-        modal.onclick = function (e) { if (e.target === modal) modal.remove(); };
-
-        modal.innerHTML = '<div style="background:var(--glass-strong,rgba(255,255,255,0.12));border:1px solid rgba(255,255,255,0.15);border-radius:16px;padding:32px;max-width:420px;width:90%;font-family:var(--mono)">'
-            + '<div style="font-size:14px;color:var(--glow,#00ff88);margin-bottom:4px">CREATE SCOPE</div>'
-            + '<div style="font-size:11px;color:var(--dim,#888);margin-bottom:20px">in ' + parentLabel + '</div>'
-            + '<label style="font-size:11px;color:var(--dim,#888);display:block;margin-bottom:4px">SCOPE NAME</label>'
-            + '<input id="csName" type="text" placeholder="e.g. VISA-SERVICES" style="width:100%;box-sizing:border-box;background:rgba(0,0,0,0.3);border:1px solid rgba(255,255,255,0.15);border-radius:8px;padding:10px 12px;color:#fff;font-family:var(--mono);font-size:13px;text-transform:uppercase;margin-bottom:16px" autocomplete="off">'
-            + '<label style="font-size:11px;color:var(--dim,#888);display:block;margin-bottom:4px">AXIOM</label>'
-            + '<textarea id="csAxiom" rows="3" placeholder="What does this scope govern?" style="width:100%;box-sizing:border-box;background:rgba(0,0,0,0.3);border:1px solid rgba(255,255,255,0.15);border-radius:8px;padding:10px 12px;color:#fff;font-family:var(--mono);font-size:13px;resize:vertical;margin-bottom:20px"></textarea>'
-            + '<div id="csError" style="color:#ff453a;font-size:11px;margin-bottom:12px;display:none"></div>'
-            + '<div style="display:flex;gap:12px;justify-content:flex-end">'
-            + '<button onclick="document.getElementById(\'createScopeModal\').remove()" style="background:transparent;border:1px solid rgba(255,255,255,0.15);border-radius:8px;padding:8px 16px;color:var(--dim,#888);cursor:pointer;font-family:var(--mono);font-size:12px">Cancel</button>'
-            + '<button id="csSubmit" onclick="GALAXY.submitCreateScope()" style="background:var(--glow,#00ff88);border:none;border-radius:8px;padding:8px 20px;color:#000;cursor:pointer;font-family:var(--mono);font-size:12px;font-weight:700">Create</button>'
-            + '</div></div>';
-
-        document.body.appendChild(modal);
-        setTimeout(function () { document.getElementById('csName').focus(); }, 100);
-    }
-
-    async function submitCreateScope() {
-        var nameEl = document.getElementById('csName');
-        var axiomEl = document.getElementById('csAxiom');
-        var errEl = document.getElementById('csError');
-        var btnEl = document.getElementById('csSubmit');
-        if (!nameEl || !axiomEl) return;
-
-        var name = nameEl.value.trim().toUpperCase().replace(/\s+/g, '-');
-        var axiom = axiomEl.value.trim();
-
-        if (!name) {
-            errEl.textContent = 'Scope name is required';
-            errEl.style.display = 'block';
-            return;
-        }
-
-        // Resolve parent to repo-relative path
-        var parentId = _finderPath.length > 0 ? _finderPath[_finderPath.length - 1] : null;
-        if (!parentId) {
-            errEl.textContent = 'Navigate into a scope first';
-            errEl.style.display = 'block';
-            return;
-        }
-
-        // parentId format: "hadleylab-canonic/USERS/FATIMA" — use as-is
-        var parent = parentId;
-
-        btnEl.disabled = true;
-        btnEl.textContent = 'Creating...';
-        errEl.style.display = 'none';
-
-        try {
-            var token = null;
-            try { token = localStorage.getItem('canonic_session_token'); } catch (_) {}
-            var res = await fetch(AUTH_API + '/api/v1/governance/scopes', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': token ? ('Bearer ' + token) : ''
-                },
-                body: JSON.stringify({ name: name, parent: parent, axiom: axiom })
-            });
-            var data = await res.json();
-            if (!res.ok) {
-                errEl.textContent = data.error || 'Failed to create scope';
-                errEl.style.display = 'block';
-                btnEl.disabled = false;
-                btnEl.textContent = 'Create';
-                return;
-            }
-
-            // Success — close modal and refresh
-            var modal = document.getElementById('createScopeModal');
-            if (modal) modal.remove();
-
-            // Add the new scope to the local galaxy data so it appears immediately
-            var newNode = {
-                id: parent + '/' + name,
-                label: name,
-                kind: 'scope',
-                parent: parentId,
-                children: 0,
-                bits: 0,
-                privacy: 'PRIVATE',
-                readers: [_authUser ? _authUser.user : ''],
-                color: 'var(--glow)'
-            };
-            galaxy.nodes.push(newNode);
-            nodeMap[newNode.id] = newNode;
-            // Update parent children count
-            var pn = nodeMap[parentId];
-            if (pn) pn.children = (pn.children || 0) + 1;
-
-            renderFinder();
-        } catch (e) {
-            errEl.textContent = 'Network error: ' + e.message;
-            errEl.style.display = 'block';
-            btnEl.disabled = false;
-            btnEl.textContent = 'Create';
-        }
-    }
-
     return {
         init: init,
         closeDetail: closeDetail,
@@ -1969,9 +1783,6 @@ var GALAXY = (function () {
         setView: setView,
         toggleTalkMode: toggleTalkMode,
         filterEdgeKind: filterEdgeKind,
-        auth: function () { return _authUser; },
-        // Constructive finder
-        showCreateScope: showCreateScope,
-        submitCreateScope: submitCreateScope
+        auth: function () { return _authUser; }
     };
 })();

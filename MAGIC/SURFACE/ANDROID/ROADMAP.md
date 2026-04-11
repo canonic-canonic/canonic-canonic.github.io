@@ -8,20 +8,22 @@ inherits: .
 
 ---
 
-## Now (2026-02)
-- Establish Android project scaffold: native rendering shell that reads governed config at runtime (zero baked constants)
-- Wire `magic validate` into Gradle build pipeline: Android builds fail if governance score drops below 255
-- Delegate validation and scoring to governed truth: no local policy forks for provider lists, thresholds, or lane maps
+## Done
+- [x] Platform decision: pure Kotlin + Jetpack Compose, no WebView. (2026-04-10)
+- [x] Governance: CANON.md declares constraints. magic_lib enforces. (2026-04-10)
 
-## Next (2026-Q2)
-- Ship native TALK surface: Android CHAT interface wired to INTEL with governed disclaimers and session ledger
-- Implement governed config sync: Android app pulls CANON.json, fleet.yml, and SURFACE.json from GOV endpoints at launch
-- Build native DESIGN token consumption: Android views derive from the same token values as web JEKYLL theme
+## Now
+- [ ] canonic-sdk Kotlin module — typed API client for api.canonic.org. Depends on API layer (Plan Phase 1).
+- [ ] OmicsChat Android — first native APP instance. Plan Phase 4.
 
-## Later
-- Full SERVICES parity: Android surface projects INTEL, CHAT, COIN, and LEDGER with identical governance to web
-- Play Store compliance gate: `magic validate` + native integration checks required before any release submission
-- Offline-first governed rendering: Android app caches GOV state and renders deterministically without network
+## Next
+- [ ] Fleet TALK instances on Android — all scopes via shared SDK
+- [ ] Play Store submission pipeline — magic validate = 255 gate before review
+- [ ] Offline-first: cached CANON.json + queued mutations → sync on reconnect
+
+## Plan
+
+Platform migration governed by hadleylab-canonic/SERVICES/APP/ROADMAP.md. Full plan: `~/.claude/plans/app-multiplatform-migration.md` Phase 4.
 
 ---
 
