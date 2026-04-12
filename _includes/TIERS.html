@@ -1,0 +1,15 @@
+<!-- TIERS | DESIGN.md 255 Map -->
+<div class="tier-grid">
+  {% for t in include.tiers %}
+  <div class="tier{% if t.featured %} featured{% endif %}">
+    <div class="tier-name">{{ t.name }}</div>
+    <div class="tier-price">{{ t.price }}</div>
+    <div class="tier-price-sub">{{ t.sub }}</div>
+    <ul class="tier-list">
+      {% for f in t.features %}<li>{{ f }}</li>{% endfor %}
+    </ul>
+    <a href="{{ t.cta.href | default: '#' }}" class="tier-cta{% if t.featured %} tier-cta-primary{% else %} tier-cta-secondary{% endif %}"{% if t.cta.talk %} onclick="TALK.open();return false"{% endif %}>{{ t.cta.label }}</a>
+  </div>
+  {% endfor %}
+</div>
+{% if include.axiom %}<div class="tier-axiom"><strong>{{ include.axiom }}</strong></div>{% endif %}

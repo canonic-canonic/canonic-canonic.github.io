@@ -31,8 +31,9 @@ compiler: http
 
 | Site | Domain |
 |------|--------|
-| canonic-canonic.github.io | canonic.org |
-| hadleylab-canonic.github.io | hadleylab.org |
+| canonic-org | canonic.org |
+| hadleylab-org | hadleylab.org |
+| founderof-ai | founderof.ai |
 | RunnerMVP/Runner-MVP | gorunner.pro |
 
 ## Zones
@@ -50,6 +51,8 @@ compiler: http
 | atulisms.com | cloudflare | 73a7cdd5a8be98f45816da1c87b7518a |
 | darioisms.com | cloudflare | 73a7cdd5a8be98f45816da1c87b7518a |
 | gorunner.pro | cloudflare | 73a7cdd5a8be98f45816da1c87b7518a |
+| founderof.ai | cloudflare | 73a7cdd5a8be98f45816da1c87b7518a |
+| singu.ar | cloudflare | 73a7cdd5a8be98f45816da1c87b7518a |
 
 ## Domains
 
@@ -67,7 +70,7 @@ TALK surface model: `{scope}.ai` = canonical sink (community learning + SEO prim
 | caribchat.org | hadleylab.org/talks/caribchat/ | proxy | instance (legacy alias) |
 | omicschat.ai | hadleylab.org/talks/omicschat/community/ | proxy | community (SEO sink) |
 | app.omicschat.ai | hadleylab.org/talks/omicschat/ | instance | instance (noindex) |
-| onconex.ai | hadleylab.org/talks/oncochat/community/ | proxy | community (SEO sink) |
+| onconex.ai | APPS/ONCONEX | app | Next.js orchestrator (7 views, subdomain dispatch) |
 | app.onconex.ai | hadleylab.org/talks/oncochat/ | instance | instance (noindex) |
 | atulisms.com | hadleylab.org/books/atulisms/ | proxy | book |
 | darioisms.com | hadleylab.org/books/darioisms/ | proxy | book |
@@ -84,6 +87,12 @@ TALK surface model: `{scope}.ai` = canonical sink (community learning + SEO prim
 | shop.hadleylab.org | hadleylab.org/services/shop/ | subdomain |
 | health.hadleylab.org | hadleylab.org | health | proof fleet dashboard |
 | health.canonic.org | canonic.org | health | federation dashboard |
+| founderof.ai | founderof.ai | pages | founder landing |
+| idrdex.founderof.ai | founderof.ai/dexter/ | subdomain | founder profile |
+| marisa.founderof.ai | founderof.ai/marisa/ | subdomain | founder profile |
+| nicholas.founderof.ai | founderof.ai/nicholas/ | subdomain | founder profile |
+| anil.founderof.ai | founderof.ai/anil/ | subdomain | founder profile |
+| singu.ar | founderof.ai | redirect | founders (alias) |
 
 ### Proxy Scope Resolution
 
@@ -210,6 +219,10 @@ Rule: paths that do NOT start with a known shared prefix (`/assets/`, `/talks/`,
 | https://www.darioisms.com |
 | https://gorunner.pro |
 | https://www.gorunner.pro |
+| https://founderof.ai |
+| https://www.founderof.ai |
+| https://singu.ar |
+| https://www.singu.ar |
 
 ## OAuth
 
@@ -259,8 +272,8 @@ Rule: paths that do NOT start with a known shared prefix (`/assets/`, `/talks/`,
 
 | Site | Repo |
 |------|------|
-| canonic.org | https://github.com/canonic-canonic/canonic-canonic.github.io.git |
-| hadleylab.org | https://github.com/hadleylab-canonic/hadleylab-canonic.github.io.git |
+| canonic.org | https://github.com/canonic-canonic/canonic-canonic.git |
+| hadleylab.org | https://github.com/hadleylab-canonic/hadleylab-canonic.git |
 | gorunner.pro | https://github.com/RunnerMVP/Runner-MVP.git |
 | DESIGN | https://github.com/canonic-canonic/DESIGN.git |
 
@@ -308,6 +321,8 @@ Every page emits `<link rel="canonical">` via DESIGN `HEAD.html`. Uses `site.url
 | atulisms.com | `https://atulisms.com` (Worker rewrite) |
 | darioisms.com | `https://darioisms.com` (Worker rewrite) |
 | gorunner.pro | `https://gorunner.pro` (Worker rewrite) |
+| founderof.ai | `https://founderof.ai` (Worker rewrite) |
+| singu.ar | `https://founderof.ai` (301 redirect) |
 
 ### og:image
 
@@ -519,6 +534,8 @@ Existing A records (GitHub Pages IPs) set to proxied (orange cloud) via Cloudfla
 | atulisms.com | atulisms-com | hadleylab.org (proxy) | 4× A proxied + www CNAME proxied |
 | darioisms.com | darioisms-com | hadleylab.org (proxy) | 4× A proxied + www CNAME proxied |
 | gorunner.pro | (Pages) | Cloudflare Pages (gorunner-pro) | CNAME proxied → gorunner-pro.pages.dev |
+| founderof.ai | founderof-ai | CF Pages (founderof-ai) | CNAME proxied → founderof-ai.pages.dev |
+| singu.ar | singu-ar | founderof.ai (redirect) | 4× A proxied + www CNAME proxied |
 
 ```toml
 # wrangler.toml pattern

@@ -100,6 +100,48 @@ build step 11c:  vault verify-wallet     ← HARD GATE (broken chain = build fai
 
 ---
 
+## Secret Storage
+
+VAULT is the sole governed store for third-party API credentials, signing keys, and service tokens. Secrets are stored as flat files under `~/.canonic/vault/{service}/{name}` with `0600` permissions. Consumers read from the vault by path; they never hardcode credentials and they never copy credentials into project workspaces.
+
+### Layout
+
+```
+~/.canonic/vault/
+├── anthropic              — Claude API key (sk-ant-...)
+├── openai                 — OpenAI API key
+├── deepseek               — DeepSeek API key
+├── cloudflare/
+│   └── dns-token          — Cloudflare DNS:Edit scoped token
+├── hn                     — Hacker News credentials
+├── linkedin               — LinkedIn API credentials
+└── seedbox                — Seedbox credentials
+```
+
+### Rules
+
+```
+MUST:     Every third-party credential lives in ~/.canonic/vault/{service}[/name]
+MUST:     Files are mode 0600 (owner read/write only)
+MUST:     Consumers read via environment bootstrap, never hardcode
+MUST:     Production secrets go to the surface runtime via wrangler pages secret put (or equivalent)
+MUST:     The runtime provider secret is sourced FROM the vault at deploy time
+MUST NOT: Copy a credential out of the vault into a project workspace .env
+MUST NOT: Check any credential into git
+MUST NOT: Export a credential to ~/Code, ~/Downloads, or any non-vault path
+MUST NOT: Share credentials via shell history, Slack, email, or any unencrypted channel
+```
+
+### Rotation
+
+When a credential is rotated, the vault file is updated in place. Any deployed runtime (CF Pages, Workers, etc.) must be redeployed after rotation with `wrangler pages secret put` pulling from the vault.
+
+### Enforcement
+
+`verify_vault_secrets()` in `build-verify` scans non-governed filesystem locations (starting with `~/Code`) for leaked API key patterns (`sk-ant-`, `sk-proj-`, `ghp_`, `AKIA`, etc.). Any hit fails the build. The vault is the single source of truth.
+
+---
+
 ## Principals
 
 | Principal | Role | KYC |

@@ -3,11 +3,11 @@
     "contract": "hadleylab-canonic/SERVICES/TIMELINE/CANON.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "generated": "2026-04-11T15:14:07Z",
-  "total_events": 18438,
+  "generated": "2026-04-12T14:32:08Z",
+  "total_events": 18436,
   "lanes": {
     "CALENDAR": {
-      "count": 5143,
+      "count": 5139,
       "earliest": "1970-05-20T00:00:00Z",
       "latest": "2031-12-31T00:00:00Z",
       "color": "#2997ff",
@@ -15,9 +15,9 @@
       "label": "Calendar"
     },
     "LEARNING": {
-      "count": 11078,
+      "count": 11079,
       "earliest": "2013-10-09T00:00:00Z",
-      "latest": "2026-04-11T00:00:00Z",
+      "latest": "2026-04-12T00:00:00Z",
       "color": "#bf5af2",
       "icon": "★",
       "label": "Learning"
@@ -89,15 +89,15 @@
     "TASK": {
       "count": 3,
       "earliest": "2026-04-03T03:23:28Z",
-      "latest": "2026-04-11T15:13:33.228581+00:00",
+      "latest": "2026-04-12T14:31:15.515495+00:00",
       "color": "#94a3b8",
       "icon": "⚙",
       "label": "Task"
     },
     "CONTACTS": {
-      "count": 48,
-      "earliest": "2026-04-10T21:01:38Z",
-      "latest": "2026-04-10T21:01:38Z",
+      "count": 49,
+      "earliest": "2026-04-12T12:30:15Z",
+      "latest": "2026-04-12T12:30:15Z",
       "color": "#ffd60a",
       "icon": "⌂",
       "label": "Contacts"

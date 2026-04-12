@@ -1,8 +1,5 @@
 # _generated: edit HTTP.md or build-surfaces — not this file
-remote_theme: canonic-canonic/DESIGN
-
 plugins:
-  - jekyll-remote-theme
   - jekyll-sitemap
 
 scope: CANONIC

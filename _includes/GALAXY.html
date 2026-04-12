@@ -1,0 +1,30 @@
+<!-- GALAXY | Phase 5 — Dual drawers + search dock + control panel -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+<script src="https://cdn.jsdelivr.net/npm/vis-network@9.1.6/standalone/umd/vis-network.min.js"></script>
+<div class="galaxy-hero">
+  <div class="galaxy-container galaxy-container--fullscreen">
+    <div id="galaxyLoader" class="galaxy-loader">
+      <div class="loader-ring"></div>
+      <div class="loader-label">MAGIC 255</div>
+    </div>
+    <div id="galaxy" style="width:100%;height:100%;"></div>
+    <div class="control-panel" id="controlPanel"></div>
+    <div class="finder-breadcrumb" id="finderBreadcrumb"></div>
+    <div class="cat-legend" id="catLegend"></div>
+    <div class="left-drawer" id="leftDrawer"></div>
+    <div class="right-drawer" id="rightDrawer"></div>
+    <div class="search-bar" id="searchBar">
+      <div class="search-results" id="searchResults">
+        <div class="search-results-inner" id="searchResultsInner"></div>
+      </div>
+      <div class="search-input-bar">
+        <span class="sb-icon intel-toggle" onclick="GALAXY.toggleLeft()" title="INTEL"><i class="fas fa-bars"></i></span>
+        <input type="text" class="sb-input" id="searchInput" placeholder="Search galaxy..." autocomplete="off">
+        <span class="sb-kbd">&#8984;K</span>
+        <span class="sb-icon talk-mode-toggle" id="talkModeBtn" onclick="GALAXY.toggleTalkMode()" title="Switch to TALK"><i class="fas fa-comment"></i></span>
+        <span class="sb-icon detail-toggle" onclick="GALAXY.toggleRight()" title="Detail"><i class="fas fa-info-circle"></i></span>
+      </div>
+    </div>
+    <div class="search-peek" id="searchPeek" onclick="GALAXY.showSearch()"></div>
+  </div>
+</div>

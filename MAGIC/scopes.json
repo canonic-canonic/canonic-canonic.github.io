@@ -216,6 +216,17 @@
     {
       "source": "gov",
       "repo": "canonic-canonic",
+      "id": "gov:canonic-canonic:USERS:FATIMA",
+      "label": "FATIMA",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:canonic-canonic:USERS"
+    },
+    {
+      "source": "gov",
+      "repo": "canonic-canonic",
       "id": "gov:canonic-canonic:USERS:ROBERT",
       "label": "ROBERT",
       "bits": 247,
@@ -275,17 +286,6 @@
       "label": "MUSICTALK",
       "bits": 247,
       "size": 60,
-      "color": "#64748b",
-      "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:APPS"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:APPS:OMICSCHAT",
-      "label": "OMICSCHAT",
-      "bits": 255,
-      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:APPS"
@@ -744,6 +744,17 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:DECKS:AI4-VEGAS",
+      "label": "AI4-VEGAS",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:DECKS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:BEDA",
       "label": "BEDA",
       "bits": 223,
@@ -854,6 +865,61 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:FOUNDERS",
+      "label": "FOUNDERS",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:FOUNDERS:ANIL",
+      "label": "ANIL",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:FOUNDERS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:FOUNDERS:DEXTER",
+      "label": "DEXTER",
+      "bits": 247,
+      "size": 60,
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "inherits": "gov:hadleylab-canonic:FOUNDERS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:FOUNDERS:MARISA",
+      "label": "MARISA",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:FOUNDERS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:FOUNDERS:NICHOLAS",
+      "label": "NICHOLAS",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:FOUNDERS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:GRANTS",
       "label": "GRANTS",
       "bits": 255,
@@ -938,6 +1004,17 @@
       "color": "#ffd60a",
       "category": "GOVERNANCE",
       "inherits": "gov:hadleylab-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PAPERS:CLINICAL-TRIALS-RACE",
+      "label": "CLINICAL-TRIALS-RACE",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PAPERS"
     },
     {
       "source": "gov",
@@ -1844,6 +1921,17 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:TALKS:ABOPM",
+      "label": "ABOPM",
+      "bits": 247,
+      "size": 60,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:TALKS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:TALKS:ACHIEVE",
       "label": "ACHIEVE",
       "bits": 247,
@@ -1870,6 +1958,17 @@
       "label": "BRYANSTON",
       "bits": 255,
       "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:TALKS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:TALKS:CAOH",
+      "label": "CAOH",
+      "bits": 247,
+      "size": 60,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:TALKS"
@@ -2209,8 +2308,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:VITAE",
       "label": "VITAE",
-      "bits": 255,
-      "size": 80,
+      "bits": 247,
+      "size": 60,
       "color": "#ec4899",
       "category": "SERVICES",
       "inherits": "gov:hadleylab-canonic:."

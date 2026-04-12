@@ -1,0 +1,211 @@
+<!-- HERO | DESIGN.md 255 Map -->
+{% assign hero = include.hero | default: page.hero %}
+{% if hero %}
+
+{% if hero.demo %}
+<!-- Split hero with device mockup -->
+<div class="hero-split">
+  <div class="hero-split-inner">
+    <div class="hero-content">
+      {% if hero.badge %}<div class="hero-badge">{{ hero.badge }}</div>{% endif %}
+      <h1>{{ hero.title }}</h1>
+      {% if hero.description %}<div class="description">{{ hero.description | markdownify }}</div>{% endif %}
+      {% if hero.cta %}
+      <div class="cta-buttons">
+        {% for btn in hero.cta %}
+        <a href="{{ btn.href }}" class="btn{% unless forloop.first %} btn-secondary{% endunless %}"{% if btn.talk %} onclick="TALK.open();return false"{% endif %}>{{ btn.label }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    <div class="device-container">
+      <div class="device-glow"></div>
+      {% if hero.demo.products.size > 1 %}
+      <div class="demo-tabs">
+        {% for p in hero.demo.products %}
+        <button class="demo-tab{% if forloop.first %} active{% endif %}" style="--tab-accent: {{ p.accent | default: '#3b82f6' }}; --tab-accent-rgb: {{ p.accent_rgb | default: '59,130,246' }}" onclick="window._demoSwitch({{ forloop.index0 }})">{{ p.productIcon }} {{ p.product }}</button>
+        {% endfor %}
+      </div>
+      {% endif %}
+      {% for p in hero.demo.products %}
+      <div class="iphone" data-demo="{{ forloop.index0 }}" style="--demo-accent: {{ p.accent | default: '#3b82f6' }}; --demo-accent-rgb: {{ p.accent_rgb | default: '59,130,246' }}" {% unless forloop.first %}hidden{% endunless %}>
+        <div class="iphone-screen">
+          <div class="app-preview">
+            <div class="chat-header">{{ p.productIcon }} {{ p.product }}</div>
+            <div class="chat-messages">
+              {% assign msg_idx = 0 %}
+              {% assign typ_idx = 0 %}
+              {% for msg in p.messages %}
+                {% if msg.role == 'user' %}
+                  {% assign msg_idx = msg_idx | plus: 1 %}
+                  <div class="chat-msg chat-user msg-{{ msg_idx }}">{{ msg.text }}</div>
+                {% elsif msg.role == 'bot' %}
+                  {% assign typ_idx = typ_idx | plus: 1 %}
+                  <div class="typing-indicator typing-{{ typ_idx }}"><span></span><span></span><span></span></div>
+                  {% assign msg_idx = msg_idx | plus: 1 %}
+                  <div class="chat-msg chat-bot msg-{{ msg_idx }}">{{ msg.text }}</div>
+                  {% if msg.citation %}
+                    {% assign msg_idx = msg_idx | plus: 1 %}
+                    <div class="chat-msg chat-cite msg-{{ msg_idx }}">{{ msg.citation }}</div>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            </div>
+            <div class="chat-input-area">
+              <div class="chat-input">
+                {% assign input_idx = 0 %}
+                {% for msg in p.messages %}
+                  {% if msg.role == 'user' %}
+                  {% assign input_idx = input_idx | plus: 1 %}
+                  <div class="input-text-wrapper input-wrapper-{{ input_idx }}">
+                    <span class="input-text">{{ msg.text }}</span>
+                    <span class="input-cursor"></span>
+                  </div>
+                  {% endif %}
+                {% endfor %}
+              </div>
+              <button class="chat-send">&#9654;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<script>
+window._demoSwitch = function(idx) {
+  document.querySelectorAll('.iphone[data-demo]').forEach(function(el) {
+    el.hidden = (el.getAttribute('data-demo') != idx);
+  });
+  document.querySelectorAll('.demo-tab').forEach(function(el, i) {
+    el.classList.toggle('active', i === idx);
+    if (i === idx) {
+      var s = getComputedStyle(el);
+      el.closest('.device-container').style.setProperty('--active-tab-accent', s.getPropertyValue('--tab-accent'));
+      el.closest('.device-container').style.setProperty('--active-tab-accent-rgb', s.getPropertyValue('--tab-accent-rgb'));
+    }
+  });
+};
+</script>
+
+{% elsif hero.terminal %}
+<!-- Split hero with terminal mockup — The Machine identity -->
+<div class="hero-split">
+  <div class="hero-split-inner">
+    <div class="hero-content">
+      {% if hero.badge %}<div class="hero-badge">{{ hero.badge }}</div>{% endif %}
+      <h1>{{ hero.title }}</h1>
+      {% if hero.description %}<div class="description">{{ hero.description | markdownify }}</div>{% endif %}
+      {% if hero.cta %}
+      <div class="cta-buttons">
+        {% for btn in hero.cta %}
+        <a href="{{ btn.href }}" class="btn{% unless forloop.first %} btn-secondary{% endunless %}"{% if btn.talk %} onclick="TALK.open();return false"{% endif %}>{{ btn.label }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    <div class="terminal-container">
+      <div class="terminal-glow"></div>
+      {% if hero.terminal.tabs.size > 1 %}
+      <div class="terminal-tabs">
+        {% for tab in hero.terminal.tabs %}
+        <button class="terminal-tab{% if forloop.first %} active{% endif %}" onclick="window._termSwitch({{ forloop.index0 }})">{{ tab.label }}</button>
+        {% endfor %}
+      </div>
+      {% endif %}
+      {% if hero.terminal.tabs %}
+      {% for tab in hero.terminal.tabs %}
+      <div class="terminal" data-term="{{ forloop.index0 }}" {% unless forloop.first %}hidden{% endunless %}>
+        <div class="terminal-bar">
+          <span class="terminal-dot red"></span>
+          <span class="terminal-dot yellow"></span>
+          <span class="terminal-dot green"></span>
+          <span class="terminal-title">{{ tab.title | default: "magic validate" }}</span>
+        </div>
+        <div class="terminal-body">
+          {% for line in tab.lines %}
+          <div class="terminal-line tl-{{ forloop.index }}"{% if line.color %} style="color:{{ line.color }}"{% endif %}>{% if line.prompt %}<span class="terminal-prompt">$</span> {% endif %}{{ line.text }}</div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+      {% else %}
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="terminal-dot red"></span>
+          <span class="terminal-dot yellow"></span>
+          <span class="terminal-dot green"></span>
+          <span class="terminal-title">{{ hero.terminal.title | default: "magic validate" }}</span>
+        </div>
+        <div class="terminal-body">
+          {% for line in hero.terminal.lines %}
+          <div class="terminal-line tl-{{ forloop.index }}"{% if line.color %} style="color:{{ line.color }}"{% endif %}>{% if line.prompt %}<span class="terminal-prompt">$</span> {% endif %}{{ line.text }}</div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+<script>
+window._termSwitch = function(idx) {
+  document.querySelectorAll('.terminal[data-term]').forEach(function(el) {
+    el.hidden = (el.getAttribute('data-term') != idx);
+  });
+  document.querySelectorAll('.terminal-tab').forEach(function(el, i) {
+    el.classList.toggle('active', i === idx);
+  });
+};
+(function(){
+  document.querySelectorAll('.terminal-body').forEach(function(b){
+    b.querySelectorAll('.terminal-line').forEach(function(l){
+      l.addEventListener('animationstart',function(){
+        requestAnimationFrame(function(){b.scrollTop=b.scrollHeight;});
+      });
+    });
+  });
+})();
+</script>
+
+{% elsif hero.cover %}
+<!-- Hero with cover art -->
+<div class="hero hero-cover"{% if hero.background %} style="background-image:url('{{ hero.background }}');background-size:cover;background-position:top center"{% endif %}>
+  <div class="hero-cover-inner">
+    <div class="hero-cover-image">
+      <img src="{{ hero.cover }}" alt="{{ hero.title }} cover art" loading="lazy"/>
+    </div>
+    <div class="hero-cover-text">
+      {% if hero.badge %}<div class="hero-badge">{{ hero.badge }}</div>{% endif %}
+      <h1 class="gradient-text">{{ hero.title }}</h1>
+      {% if hero.subtitle %}<p class="subtitle">{{ hero.subtitle }}</p>{% endif %}
+      {% if hero.description %}<div class="description">{{ hero.description | markdownify }}</div>{% endif %}
+      {% if hero.cta %}
+      <div class="cta-buttons">
+        {% for btn in hero.cta %}
+        <a href="{{ btn.href }}" class="btn{% unless forloop.first %} btn-secondary{% endunless %}"{% if btn.talk %} onclick="TALK.open();return false"{% endif %}>{{ btn.label }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% else %}
+<!-- Standard hero (no demo) -->
+<div class="hero">
+  {% if hero.badge %}<div class="hero-badge">{{ hero.badge }}</div>{% endif %}
+  <h1 class="gradient-text">{{ hero.title }}</h1>
+  {% if hero.subtitle %}<p class="subtitle">{{ hero.subtitle }}</p>{% endif %}
+  {% if hero.description %}<div class="description">{{ hero.description | markdownify }}</div>{% endif %}
+  {% if hero.cta %}
+  <div class="cta-buttons">
+    {% for btn in hero.cta %}
+    <a href="{{ btn.href }}" class="btn{% unless forloop.first %} btn-secondary{% endunless %}"{% if btn.talk %} onclick="TALK.open();return false"{% endif %}>{{ btn.label }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>
+{% endif %}
+
+{% endif %}

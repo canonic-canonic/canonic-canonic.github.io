@@ -1,0 +1,13 @@
+<!-- FOOTER | DESIGN.md 255 Map -->
+{% assign footer = include.footer | default: page.footer %}
+{% assign fleet = site.data.fleet %}
+{% if footer.links %}
+<div class="footer-links">
+  {% for l in footer.links %}<a href="{{ l.href }}">{{ l.label }}</a>{% endfor %}
+</div>
+<p>{{ footer.tagline | default: page.footerTagline | default: site.tagline | default: "CANONIC" }}</p>
+{% elsif fleet.sites %}
+{% for s in fleet.sites %}{% unless forloop.first %} · {% endunless %}<a href="{{ s.url }}">{{ s.label }}</a>{% endfor %}
+ · <a href="#" onclick="TALK.open();return false">TALK</a>
+<br><br>{{ page.footerTagline | default: site.tagline | default: "CANONIC" }}
+{% endif %}

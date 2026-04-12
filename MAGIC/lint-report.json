@@ -1,15 +1,15 @@
 {
   "_generated": {
     "contract": "lint-galaxy",
-    "timestamp": "2026-04-11T15:14:11.170972+00:00"
+    "timestamp": "2026-04-12T15:14:27.757421+00:00"
   },
   "summary": {
     "contradictions": 0,
-    "orphans": 741,
-    "stale_no_learning": 164,
+    "orphans": 743,
+    "stale_no_learning": 162,
     "stale_no_intel": 234,
-    "missing_cross_ref": 242,
-    "total": 1381
+    "missing_cross_ref": 245,
+    "total": 1384
   },
   "warnings": [
     {
@@ -1388,6 +1388,12 @@
     },
     {
       "check": "orphan",
+      "node": "canonic-canonic/MAGIC/TOOLCHAIN/COIN-SCHEMAS",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
       "node": "canonic-canonic/MAGIC/TOOLCHAIN/COIN",
       "tier": "FULL",
       "severity": "INFO"
@@ -1869,6 +1875,12 @@
     {
       "check": "orphan",
       "node": "hadleylab-canonic/BLOGS/2026-04-09-what-karpathy-got-right",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
+      "node": "hadleylab-canonic/BLOGS/2026-04-11-what-if-your-ai-had-to-pass-boards",
       "tier": "FULL",
       "severity": "INFO"
     },
@@ -4046,6 +4058,12 @@
     },
     {
       "check": "orphan",
+      "node": "hadleylab-canonic/TALKS/CARIBCHAT/CRISIS-RESOURCES",
+      "tier": "FULL",
+      "severity": "INFO"
+    },
+    {
+      "check": "orphan",
       "node": "hadleylab-canonic/TALKS/CARIBCHAT/SHOP",
       "tier": "FULL",
       "severity": "INFO"
@@ -4179,12 +4197,6 @@
     {
       "check": "orphan",
       "node": "hadleylab-canonic/USERS/GEOFF/CHAT/nda",
-      "tier": "FULL",
-      "severity": "INFO"
-    },
-    {
-      "check": "orphan",
-      "node": "hadleylab-canonic/VITAE/SHOP",
       "tier": "FULL",
       "severity": "INFO"
     },
@@ -5641,12 +5653,6 @@
       "severity": "WARN"
     },
     {
-      "check": "stale_no_learning",
-      "node": "hadleylab-canonic/SERVICES/BLOG",
-      "tier": "FULL",
-      "severity": "WARN"
-    },
-    {
       "check": "stale_no_intel",
       "node": "hadleylab-canonic/SERVICES/BOOK",
       "tier": "FULL",
@@ -5715,12 +5721,6 @@
     {
       "check": "stale_no_learning",
       "node": "hadleylab-canonic/SERVICES/SUNSHINE",
-      "tier": "FULL",
-      "severity": "WARN"
-    },
-    {
-      "check": "stale_no_learning",
-      "node": "hadleylab-canonic/SERVICES/TALK",
       "tier": "FULL",
       "severity": "WARN"
     },
@@ -8756,15 +8756,6 @@
     },
     {
       "check": "missing_cross_ref",
-      "label": "OMICSCHAT",
-      "nodes": [
-        "hadleylab-canonic/APPS/OMICSCHAT",
-        "hadleylab-canonic/TALKS/OMICSCHAT"
-      ],
-      "severity": "INFO"
-    },
-    {
-      "check": "missing_cross_ref",
       "label": "RUNNER",
       "nodes": [
         "hadleylab-canonic/APPS/RUNNER",
@@ -8796,6 +8787,24 @@
       "nodes": [
         "hadleylab-canonic/BOOKS/ABOPM",
         "hadleylab-canonic/DECKS/ABOPM"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "ABOPM",
+      "nodes": [
+        "hadleylab-canonic/BOOKS/ABOPM",
+        "hadleylab-canonic/TALKS/ABOPM"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "ABOPM",
+      "nodes": [
+        "hadleylab-canonic/DECKS/ABOPM",
+        "hadleylab-canonic/TALKS/ABOPM"
       ],
       "severity": "INFO"
     },
@@ -8909,10 +8918,28 @@
     },
     {
       "check": "missing_cross_ref",
+      "label": "CAOH",
+      "nodes": [
+        "hadleylab-canonic/DEALS/CAOH",
+        "hadleylab-canonic/TALKS/CAOH"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
       "label": "ACHIEVE",
       "nodes": [
         "hadleylab-canonic/DECKS/ACHIEVE",
         "hadleylab-canonic/TALKS/ACHIEVE"
+      ],
+      "severity": "INFO"
+    },
+    {
+      "check": "missing_cross_ref",
+      "label": "DEXTER",
+      "nodes": [
+        "hadleylab-canonic/FOUNDERS/DEXTER",
+        "runner-canonic/canonic-canonic/USERS/DEXTER"
       ],
       "severity": "INFO"
     },

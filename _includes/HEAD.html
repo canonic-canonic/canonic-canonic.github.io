@@ -1,0 +1,22 @@
+<!-- HEAD | DESIGN.md 255 Map | Shared <head> for all layouts -->
+{% assign scope_key = page.scope | default: site.scope | downcase %}
+{% assign sd = site.data[scope_key] %}
+{% assign accent = page.accent | default: sd.accent | default: site.accent %}
+{% assign accent_rgb = page.accent_rgb | default: sd.accent_rgb | default: site.accent_rgb %}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://api.canonic.org https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://static.cloudflareinsights.com https://connect.facebook.net https://snap.licdn.com https://static.ads-twitter.com https://www.redditstatic.com; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: https:; connect-src 'self' https://api.canonic.org https://*.canonic.org https://eutils.ncbi.nlm.nih.gov https://clinicaltrials.gov https://api.pharmgkb.org https://www.google-analytics.com https://analytics.google.com https://www.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://stats.g.doubleclick.net https://px.ads.linkedin.com https://pixel-config.reddit.com https://connect.facebook.net https://snap.licdn.com https://static.ads-twitter.com https://alb.reddit.com; font-src 'self' https://cdn.jsdelivr.net; worker-src 'self' blob:; frame-ancestors 'none';">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
+{% assign page_title = include.title | default: page.title | default: sd.name | default: site.title %}
+{% assign page_desc = include.description | default: page.description | default: site.description %}
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ page_desc }}">
+<link rel="canonical" href="{{ page.url | absolute_url | downcase }}">
+{% include OG.html title=page_title description=page_desc %}
+{% include SEO.html title=page_title description=page_desc %}
+<link rel="stylesheet" href="{{ '/assets/css/DESIGN.css' | relative_url }}">
+<style>:root{--accent:{{ accent }};--accent-rgb:{{ accent_rgb }};}</style>
+{% include TRACKING.html %}
+{% if page.custom_head %}{{ page.custom_head }}{% endif %}

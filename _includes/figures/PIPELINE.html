@@ -1,0 +1,5 @@
+<!-- PIPELINE | DESIGN.md 255 Map -->
+<!-- Horizontal flow of labeled steps with connecting arrows -->
+<div class="figure-pipeline" data-figure="pipeline" data-steps='{{ include.steps | jsonify }}'>
+  <noscript>{% for step in include.steps %}{{ step }}{% unless forloop.last %} → {% endunless %}{% endfor %}</noscript>
+</div>

@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "e2d72a30b7abdede"
+    "gov_hash": "bbd89366a0676e50"
   },
-  "generated": "2026-04-11T13:30:50Z",
+  "generated": "2026-04-12T15:14:18Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -46,7 +46,7 @@
     }
   ],
   "stats": {
-    "total": 199,
+    "total": 202,
     "avg_bits": 250
   },
   "nodes": [
@@ -170,7 +170,7 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS",
-      "children": 2
+      "children": 3
     },
     {
       "id": "canonic-canonic/FOUNDATION/DEVELOPERS",
@@ -476,7 +476,7 @@
       "coverage_score": 255,
       "surface_type": "JEKYLL_ECON",
       "fleet_path": "MAGIC/TOOLCHAIN",
-      "children": 22
+      "children": 23
     },
     {
       "id": "canonic-canonic/MAGIC/CHAT",
@@ -586,6 +586,36 @@
       "fleet_path": "USERS/DEXTER",
       "wallet": {
         "balance": 145520
+      },
+      "children": 1
+    },
+    {
+      "id": "canonic-canonic/USERS/FATIMA",
+      "kind": "USER",
+      "label": "FATIMA",
+      "repo": "canonic-canonic",
+      "path": "USERS/FATIMA",
+      "parent": "canonic-canonic/USERS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "missing_dims": [
+        "R"
+      ],
+      "privacy": "PRIVATE",
+      "readers": [
+        "iDrDex",
+        "fatimacanonic"
+      ],
+      "github": "fatimacanonic",
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 8,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/FATIMA",
+      "wallet": {
+        "balance": 500
       },
       "children": 1
     },
@@ -2746,6 +2776,22 @@
       "children": 0
     },
     {
+      "id": "canonic-canonic/MAGIC/TOOLCHAIN/COIN-SCHEMAS",
+      "kind": "CONTENT",
+      "label": "COIN-SCHEMAS",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/TOOLCHAIN/COIN-SCHEMAS",
+      "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "bits": 255,
+      "tier": "FULL",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/TOOLCHAIN/COIN-SCHEMAS",
+      "children": 0
+    },
+    {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN/COIN",
       "kind": "CONTENT",
       "label": "COIN",
@@ -2935,6 +2981,23 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/DEXTER/VITAE",
+      "children": 0,
+      "privacy": "PRIVATE"
+    },
+    {
+      "id": "canonic-canonic/USERS/FATIMA/VITAE",
+      "kind": "CONTENT",
+      "label": "VITAE",
+      "repo": "canonic-canonic",
+      "path": "USERS/FATIMA/VITAE",
+      "parent": "canonic-canonic/USERS/FATIMA",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 247,
+      "tier": "COMMUNITY",
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "USERS/FATIMA/VITAE",
       "children": 0,
       "privacy": "PRIVATE"
     },
@@ -3765,6 +3828,11 @@
     },
     {
       "kind": "INHERITS",
+      "from": "canonic-canonic/USERS/FATIMA",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "INHERITS",
       "from": "canonic-canonic/USERS/ROBERT",
       "to": "canonic-canonic/MAGIC"
     },
@@ -4520,6 +4588,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "canonic-canonic/USERS/FATIMA",
+      "to": "canonic-canonic/USERS"
+    },
+    {
+      "kind": "PARENT",
       "from": "canonic-canonic/USERS/ROBERT",
       "to": "canonic-canonic/USERS"
     },
@@ -4690,6 +4763,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/TOOLCHAIN/COIN-SCHEMAS",
+      "to": "canonic-canonic/MAGIC/TOOLCHAIN"
+    },
+    {
+      "kind": "PARENT",
       "from": "canonic-canonic/MAGIC/TOOLCHAIN/COIN",
       "to": "canonic-canonic/MAGIC/TOOLCHAIN"
     },
@@ -4752,6 +4830,11 @@
       "kind": "PARENT",
       "from": "canonic-canonic/USERS/DEXTER/VITAE",
       "to": "canonic-canonic/USERS/DEXTER"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/USERS/FATIMA/VITAE",
+      "to": "canonic-canonic/USERS/FATIMA"
     },
     {
       "kind": "PARENT",

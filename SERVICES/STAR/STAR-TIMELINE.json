@@ -3,7 +3,7 @@
     "contract": "canonic-canonic/MAGIC/SERVICES/STAR/STAR.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "generated": "2026-04-11T01:42:30Z",
+  "generated": "2026-04-12T14:26:05Z",
   "users": {
     "ALLANA": {
       "total": 5,
@@ -470,8 +470,20 @@
       ]
     },
     "DEXTER": {
-      "total": 699,
+      "total": 700,
       "entries": [
+        {
+          "id": "2029d486b5ec",
+          "ts": "2026-04-12T00:00:00Z",
+          "stream": "LEARNING",
+          "type": "USER_INTEL",
+          "scope": "hadleylab-canonic/FOUNDERS/DEXTER",
+          "principal": "DEXTER",
+          "summary": "USER_INTEL: Dexter Hadley ORCID: Dexter Hadley's ORCID iD for paper submissions, preprints, grants",
+          "ref": "intake:user_orcid.md",
+          "primitive": "INTEL",
+          "meta": {}
+        },
         {
           "id": "6ca45825d08d",
           "ts": "2026-04-11T00:58:34.462275Z",

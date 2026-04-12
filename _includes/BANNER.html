@@ -1,0 +1,16 @@
+<!-- BANNER | DESIGN.md 255 Map -->
+<div class="governance-banner">
+  <div class="banner-content">
+    {% if include.banner.eyebrow %}<div class="section-eyebrow">{{ include.banner.eyebrow }}</div>{% endif %}
+    {% if include.banner.title %}<h3 class="banner-title">{{ include.banner.title }}</h3>{% endif %}
+    {% if include.banner.text %}<p class="muted feature-text">{{ include.banner.text }}</p>{% endif %}
+    {% if include.banner.badges %}
+    <div class="tag-cloud banner-badges">
+      {% for b in include.banner.badges %}
+      <span class="badge" style="border-color:{{ b.color }};color:{{ b.color }};">{{ b.label }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  <span class="banner-symbol">&#8745;</span>
+</div>
