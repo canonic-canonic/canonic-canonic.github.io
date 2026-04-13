@@ -28,6 +28,8 @@ shell + deep content both live on `apps-canonic` at CSS hash `e1aa787d59d6ddc8`.
 
 After 24hr: the `canonic-org` Pages project can be hard-deleted.
 
+**2026-04-13 (same-day, J2 cleanup session):** `canonic-org` Pages project hard-deleted via CF API (`DELETE /accounts/$ACCT/pages/projects/canonic-org`) after 0 attached custom hostnames confirmed. The `canonic.org` worker (`~/.canonic/workers/canonic.org/`) still references `const ORIGIN = "https://canonic-org.pages.dev"` in dead code paths for non-health subdomains, but the only registered route is `health.canonic.org/*` which short-circuits to embedded HEALTH_HTML before touching ORIGIN, so deletion is benign. **Rollback above no longer possible** — the project is gone. If `canonic.org` apex needs to revert off `apps-canonic`, a new Pages project must be scaffolded via `wrangler pages project create canonic-org` and `_site/` redeployed.
+
 ## References
 
 - H1 retirement marker template: `~/.canonic/hadleylab-org/RETIRED.md`
