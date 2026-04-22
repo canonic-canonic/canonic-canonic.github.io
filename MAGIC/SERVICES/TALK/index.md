@@ -2,7 +2,7 @@
 layout: default
 scope: TALK
 title: "TALK"
-description: "TALK is CHAT + INTEL + COIN composed. Industry determines the voice. INTEL provides the knowledge. COIN gates premium access."
+description: "TALK is CHAT + INTEL + COIN composed — CHAT is the primitive, TALK is the product, COIN closes the revenue loop."
 footerTagline: "TALK"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: TALK
   title: "TALK"
-  description: "TALK is CHAT + INTEL + COIN composed. Industry determines the voice. INTEL provides the knowledge. COIN gates premium access."
+  description: "TALK is CHAT + INTEL + COIN composed — CHAT is the primitive, TALK is the product, COIN closes the revenue loop."
   cta:
     - label: "Open TALK"
       href: /MAGIC/SERVICES/TALK/
@@ -28,10 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-TALK is the governed conversation service. CHAT is the primitive. TALK is the product. COIN closes the revenue loop.
-
----
-
+- **TALK_COMPOSES_THREE** — TALK composes CHAT, INTEL, and COIN; CHAT is the primitive, TALK is the product, COIN closes the loop.
+- **INTEL_WIRED** — TALK never speaks without knowledge; INTEL is wired into every conversation turn and every session is ledgered.
+- **INDUSTRY_IS_VOICE** — industry determines the voice; channels are never generic, and every channel is governed by a CANON.md scope.
+- **COIN_GATES_PREMIUM** — premium tiers require SPEND per conversation; `/chat` is rate-limited by IP to protect provider budgets.
 ## Constraints
 
 ```

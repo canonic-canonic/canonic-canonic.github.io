@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "c",
-    "description": "FFI = Foreign function interface. Kernel. Bare metal.",
+    "description": "C is the kernel runtime — bare-metal compliance and the universal FFI bridge every other runtime crosses.",
     "cta": [
       {
         "label": "Open c",
@@ -171,7 +171,7 @@
   },
   "footerTagline": "c | CANONIC",
   "canon": {
-    "axiom": "FFI = Foreign function interface. Kernel. Bare metal.",
+    "axiom": "C is the kernel runtime — bare-metal compliance and the universal FFI bridge every other runtime crosses.",
     "inherits": "canonic-canonic/FOUNDATION/PROGRAMMING",
     "spec": [
       {
@@ -210,12 +210,12 @@
     "chain": [
       {
         "scope": "PROGRAMMING",
-        "axiom": "DEV — programming language implementations."
+        "axiom": "PROGRAMMING hosts the language runtimes — all compliant, all neofunctionalized from a shared INTEL family."
       },
       {
         "scope": "FOUNDATION",
-        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
-        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+        "axiom": "FOUNDATION defines the LANGUAGE — three axioms, compiler correspondence, the paper proves itself.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition\nMUST: New constraint: MUST: Surface FOUNDATION thesis, axioms, and programming correspondence from governed content\nMUST: New constraint: MUST: Declare governance.\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every tier must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these axioms"
       }
     ]
   }

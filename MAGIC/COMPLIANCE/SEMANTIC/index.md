@@ -2,7 +2,7 @@
 layout: default
 scope: SEMANTIC
 title: "SEMANTIC"
-description: "Every term resolves. Every chain closes. Every score reflects reality."
+description: "SEMANTIC is validation beyond shape — vocabulary closure, inheritance integrity, and coverage alignment."
 footerTagline: "SEMANTIC"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: SEMANTIC
   title: "SEMANTIC"
-  description: "Every term resolves. Every chain closes. Every score reflects reality."
+  description: "SEMANTIC is validation beyond shape — vocabulary closure, inheritance integrity, and coverage alignment."
   cta:
     - label: "Open SEMANTIC"
       href: /MAGIC/COMPLIANCE/SEMANTIC/
@@ -28,10 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-Structural validation (file existence) is necessary but not sufficient. SEMANTIC enforces vocabulary closure, inheritance integrity, and coverage alignment — the three properties that make governance trustworthy beyond shape.
-
----
-
+- **VOCAB_CLOSES** — every SCREAMING_CASE term in CANON.md resolves in local or inherited VOCAB.md; stubs ("—" or placeholder definitions) are gaps, not closures.
+- **INHERITANCE_RESOLVES** — every `inherits:` path points to an existing CANON.md; resolution cascades upward until resolved or flagged.
+- **COVERAGE_REFLECTS_REALITY** — COVERAGE scores align with evidence: dimension PASS requires the evidence file to exist and contain substance; empty files cannot claim PASS.
 ## Constraints
 
 ```
@@ -44,6 +43,7 @@ MUST NOT: Claim COVERAGE PASS for dimensions backed by missing or empty files
 MUST NOT: Allow circular inheritance — inherits chains must terminate at a root scope
 MUST NOT: Silently ignore undefined terms — every unresolved reference is a governance gap
 SHOULD:   Report cross-scope term drift — same SCREAMING_CASE term with divergent definitions across scopes
+MUST: Circular inheritance is rejected — every chain must reach a root scope (inherits: .)
 ```
 
 ---

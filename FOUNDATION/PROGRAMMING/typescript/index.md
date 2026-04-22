@@ -2,7 +2,7 @@
 layout: default
 scope: typescript
 title: "typescript"
-description: "TYPESCRIPT = Web runtime wrapper for MAGIC kernel interfaces."
+description: "TYPESCRIPT is the web runtime wrapper — governed web and frontend integration around the MAGIC kernel."
 footerTagline: "typescript"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: typescript
   title: "typescript"
-  description: "TYPESCRIPT = Web runtime wrapper for MAGIC kernel interfaces."
+  description: "TYPESCRIPT is the web runtime wrapper — governed web and frontend integration around the MAGIC kernel."
   cta:
     - label: "Open typescript"
       href: /FOUNDATION/PROGRAMMING/typescript/
@@ -28,10 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-TypeScript provides governed web and frontend integration around core enforcement.
-
----
-
+- **TYPESCRIPT_WRAPS_KERNEL** — the TypeScript runtime wraps kernel interfaces without duplicating enforcement logic.
+- **WEB_IS_GOVERNED** — web and frontend integration projects through TypeScript with full governance parity to other runtimes.
+- **INTERFACE_CONTRACTS_STABLE** — TypeScript exposes stable interface contracts so consumers can depend on them across versions.
 ## Constraints
 
 1. TYPESCRIPT MUST wrap kernel interfaces without duplicating enforcement.

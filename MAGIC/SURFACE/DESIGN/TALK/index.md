@@ -2,7 +2,7 @@
 layout: default
 scope: TALK
 title: "TALK"
-description: "api.canonic.org is the CANONIC service worker. All primitives. All streams. Zero hardcoding."
+description: "api.canonic.org is the CANONIC service worker — all primitives, all streams, zero hardcoding, provider-switchable."
 footerTagline: "TALK"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: TALK
   title: "TALK"
-  description: "api.canonic.org is the CANONIC service worker. All primitives. All streams. Zero hardcoding."
+  description: "api.canonic.org is the CANONIC service worker — all primitives, all streams, zero hardcoding, provider-switchable."
   cta:
     - label: "Open TALK"
       href: /MAGIC/SURFACE/DESIGN/TALK/
@@ -28,16 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-```
-name       = canonic-services
-scope      = DESIGN/TALK
-domain     = api.canonic.org
-runtime    = Cloudflare Workers
-provider   = anthropic/openai/deepseek/runpod/vastai (switchable)
-```
-
----
-
+- **WORKER_IS_UNIFIED** — `api.canonic.org` is the single CANONIC service worker covering all primitives and all streams for DESIGN/TALK.
+- **CLOUDFLARE_RUNTIME** — the runtime is Cloudflare Workers; `canonic-services` is the worker name and the scope is DESIGN/TALK.
+- **PROVIDER_SWITCHABLE** — the LLM provider is switchable (anthropic / openai / deepseek / runpod / vastai); zero hardcoding of provider in the surface.
 ## Constraints
 
 1. MUST route all services through api.canonic.org

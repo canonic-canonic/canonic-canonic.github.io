@@ -2,7 +2,7 @@
 layout: default
 scope: RECOVERY
 title: "RECOVERY"
-description: "CANONIC survives any single point of failure."
+description: "RECOVERY guarantees CANONIC survives any single point of failure — hardware, account, or provider."
 footerTagline: "RECOVERY"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: RECOVERY
   title: "RECOVERY"
-  description: "CANONIC survives any single point of failure."
+  description: "RECOVERY guarantees CANONIC survives any single point of failure — hardware, account, or provider."
   cta:
     - label: "Open RECOVERY"
       href: /MAGIC/COMPLIANCE/RECOVERY/
@@ -28,10 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-Governance is the source of truth. If governance is lost, everything downstream is unrecoverable. Recovery governance ensures no single failure — hardware, account, provider — destroys the governance chain.
-
----
-
+- **GOVERNANCE_IS_TRUTH** — if governance is lost everything downstream is unrecoverable, so GOV repos are the first thing protected.
+- **OFFSITE_MULTI_REGION** — offsite backups of every GOV repo are maintained across at least two geographic regions; LEDGER and VAULT back up independently.
+- **RESTORE_IS_TESTED** — restore runbooks are documented and tested quarterly; CI dependencies are version-pinned so the restore is reproducible.
 ## Constraints
 
 ```

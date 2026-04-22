@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "BOOKS",
-    "description": "BOOKS are governed long-form artifacts. Each book IS a scope with PARTS and CHAPTERS.",
+    "description": "BOOKS are governed long-form artifacts — each book IS a scope with PARTS and CHAPTERS, compiled from markdown to HTML and PDF.",
     "cta": [
       {
         "label": "Open BOOKS",
@@ -289,7 +289,7 @@
   },
   "footerTagline": "BOOKS | CANONIC",
   "canon": {
-    "axiom": "BOOKS are governed long-form artifacts. Each book IS a scope with PARTS and CHAPTERS.",
+    "axiom": "BOOKS are governed long-form artifacts — each book IS a scope with PARTS and CHAPTERS, compiled from markdown to HTML and PDF.",
     "constraints": "MUST:     Every book declares front matter (title, date, scope: BOOKS, layout: book, math: true)\nMUST:     Books follow structure: PARTS → CHAPTERS → sections\nMUST:     BOOKS.json index is compiled from book front matter — never hand-edited\nMUST:     CANON.json is compiled — never hand-edited\nMUST:     Book content maps to governed work (LEDGER commits, MAGIC discoveries)\nMUST:     TOC auto-generated from PARTS and CHAPTERS heading structure\nMUST:     PDF export compiles from the same .md source (LaTeX backend)\nMUST NOT: Hand-edit compiled outputs (BOOKS.json, CANON.json)\nMUST NOT: Publish ungoverned claims (every assertion needs evidence)\nMUST NOT: Embed presentation logic in book source — DESIGN renders, .md specifies",
     "inherits": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
     "spec": [
@@ -356,10 +356,6 @@
     },
     "vocab": [
       {
-        "term": "CANON",
-        "definition": "Governance contract. Axiom + constraints for this scope."
-      },
-      {
         "term": "PDF",
         "definition": "Compiled portable document. LaTeX backend on same .md source."
       },
@@ -375,8 +371,8 @@
     "chain": [
       {
         "scope": "JEKYLL",
-        "axiom": "JEKYLL is MAGIC made visible. DESIGN is the language. JEKYLL is the compiler.",
-        "constraints": "MUST:     Derive visuals from governed primitives (no ad hoc style drift)\nMUST:     Keep design language in GOV; runtime renders only\nMUST:     Card icons render inline preceding the card title (not stacked)\nMUST:     Hero demo cycles all governed TALK products (not a subset)\nMUST NOT: Introduce visual rules outside governed contracts"
+        "axiom": "JEKYLL is MAGIC made visible — DESIGN is the language, JEKYLL is the compiler, every pixel maps to a governed primitive.",
+        "constraints": "MUST:     Derive visuals from governed primitives (no ad hoc style drift)\nMUST:     Keep design language in GOV; runtime renders only\nMUST:     Card icons render inline preceding the card title (not stacked)\nMUST:     Hero demo cycles all governed TALK products (not a subset)\nMUST NOT: Introduce visual rules outside governed contracts\nMUST NOT: include.X → page.X → site.data[scope].X → site.X` — the discoverable shape. Templates hardcode data, only enforce structure."
       }
     ]
   }

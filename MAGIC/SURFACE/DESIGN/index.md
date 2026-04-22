@@ -2,7 +2,7 @@
 layout: default
 scope: DESIGN
 title: "DESIGN"
-description: "Frontend rendering layer. CANON.md → HTML → Native. One stylesheet. All surfaces."
+description: "DESIGN is the frontend rendering layer — CANON.md → HTML → Native, one stylesheet, all surfaces."
 footerTagline: "DESIGN"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: DESIGN
   title: "DESIGN"
-  description: "Frontend rendering layer. CANON.md → HTML → Native. One stylesheet. All surfaces."
+  description: "DESIGN is the frontend rendering layer — CANON.md → HTML → Native, one stylesheet, all surfaces."
   cta:
     - label: "Open DESIGN"
       href: /MAGIC/SURFACE/DESIGN/
@@ -28,14 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-```
-DESIGN = CANON.md → CANON.json → HTML/Swift/Kotlin
-DESIGN.css = universal renderer
-TALK = DESIGN(CHAT + INTEL)
-```
-
----
-
+- **CANON_IS_SOURCE** — the pipeline is CANON.md → CANON.json → HTML/Swift/Kotlin; the markdown is the source, the render targets are many.
+- **ONE_STYLESHEET_ALL_SURFACES** — DESIGN.css is the universal renderer; one stylesheet serves every surface with no per-surface divergence.
+- **DESIGN_COMPOSES_SERVICES** — composition is a function: `TALK = DESIGN(CHAT + INTEL)`; DESIGN is the frontend compiler over governed primitives.
 ## Constraints
 
 ```

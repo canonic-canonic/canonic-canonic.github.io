@@ -2,7 +2,7 @@
 layout: default
 scope: BLOGS
 title: "BLOGS"
-description: "BLOGS are governed literary artifacts. Every post is a timestamped disclosure."
+description: "BLOGS are governed literary artifacts — every post a timestamped disclosure, governance rendered as readable story."
 footerTagline: "BLOGS"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: BLOGS
   title: "BLOGS"
-  description: "BLOGS are governed literary artifacts. Every post is a timestamped disclosure."
+  description: "BLOGS are governed literary artifacts — every post a timestamped disclosure, governance rendered as readable story."
   cta:
     - label: "Open BLOGS"
       href: /MAGIC/SURFACE/JEKYLL/BLOGS/
@@ -28,10 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-BLOGS project governance narrative into public prose. Each post maps to LEDGER evidence — commit history, discovery patterns, and architectural decisions rendered as readable story.
-
----
-
+- **POST_IS_DISCLOSURE** — every post is a timestamped disclosure declared via front matter (title, date, layout: post) and filed as `_posts/YYYY-MM-DD-slug.md`.
+- **NARRATIVE_FROM_LEDGER** — each post maps to LEDGER evidence (commit history, discovery patterns, architectural decisions) rendered as readable story.
+- **PROSE_IS_PROJECTION** — BLOGS project governance narrative into public prose; the post is the projection, the ledger is the source.
 ## Constraints
 
 ```

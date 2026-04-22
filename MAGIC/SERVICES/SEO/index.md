@@ -2,7 +2,7 @@
 layout: default
 scope: SEO
 title: "SEO"
-description: "Every page declares its canonical. Every surface indexed under the domain it serves. Every sitemap references governed URLs only. 255 or reject."
+description: "SEO is URL governance — every page declares its canonical, every surface indexed under its serving domain, 255 or reject."
 footerTagline: "SEO"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: SEO
   title: "SEO"
-  description: "Every page declares its canonical. Every surface indexed under the domain it serves. Every sitemap references governed URLs only. 255 or reject."
+  description: "SEO is URL governance — every page declares its canonical, every surface indexed under its serving domain, 255 or reject."
   cta:
     - label: "Open SEO"
       href: /MAGIC/SERVICES/SEO/
@@ -28,6 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **CANONICAL_DECLARED_PER_PAGE** — every page declares its canonical URL; undeclared canonicals fail the gate.
+- **INDEXED_UNDER_SERVING_DOMAIN** — surfaces are indexed only under the domain they serve; cross-domain indexing is rejected.
+- **SITEMAP_GOVERNED_ONLY** — sitemaps reference governed URLs only; all URLs are validated to return 200 before publish.
+- **FAIL_CLOSED_255** — ungoverned URLs are never indexed; 255 or reject.
 ## Constraints
 
 ```

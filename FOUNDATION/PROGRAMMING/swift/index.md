@@ -2,7 +2,7 @@
 layout: default
 scope: swift
 title: "swift"
-description: "IOS_NATIVE = Apple ecosystem. Mobile SHOP."
+description: "SWIFT is the Apple-native compliance runtime — the mobile SHOP, neofunctionalized from Python for declarative UI."
 footerTagline: "swift"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: swift
   title: "swift"
-  description: "IOS_NATIVE = Apple ecosystem. Mobile SHOP."
+  description: "SWIFT is the Apple-native compliance runtime — the mobile SHOP, neofunctionalized from Python for declarative UI."
   cta:
     - label: "Open swift"
       href: /FOUNDATION/PROGRAMMING/swift/
@@ -28,13 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-Compliance runtime for iOS/macOS. Swift implementation.
-
-Neofunctionalized from Python (ancestral) for Apple-native execution.
-SwiftUI enables declarative compliant interfaces.
-
----
-
+- **IOS_NATIVE_IS_APPLE** — the Swift runtime is the Apple-ecosystem compliance surface for iOS and macOS; it powers the mobile SHOP.
+- **SWIFTUI_IS_DECLARATIVE** — SwiftUI enables declarative compliant interfaces bound to the same spec as every other runtime.
+- **NEOFUNCTIONALIZED_FROM_PYTHON** — Swift is neofunctionalized from Python (ancestral) for Apple-native execution while implementing the full compliance specification.
 ## Constraints
 
 1. SWIFT MUST validate against SPEC.

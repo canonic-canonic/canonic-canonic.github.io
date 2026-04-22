@@ -2,7 +2,7 @@
 layout: default
 scope: ORGS
 title: "ORGS"
-description: "ORGS = federation identity. Users authenticate. Users maintain VITAE."
+description: "ORGS are federation identity — each ORG a GitHub boundary, each USER a projection, each scope inherits the ORG's governance."
 footerTagline: "ORGS"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: ORGS
   title: "ORGS"
-  description: "ORGS = federation identity. Users authenticate. Users maintain VITAE."
+  description: "ORGS are federation identity — each ORG a GitHub boundary, each USER a projection, each scope inherits the ORG's governance."
   cta:
     - label: "Open ORGS"
       href: /MAGIC/GALAXY/ORGS/
@@ -28,6 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **ORG_IS_GITHUB_BOUNDARY** — each ORG maps to exactly one GitHub organization boundary; there is no virtual ORG without a GitHub anchor.
+- **USER_IS_PROJECTED** — each USER is projected as an ORG-owned repo (`github.com/{org}/{user}`); the same USER may project into many ORGs.
+- **ORG_DECLARES_DOMAINS** — every per-ORG CANON.md declares `role:` and `domains:` headers whose values resolve to `canonic-canonic/INDUSTRIES/` paths.
+- **RUNTIME_NOT_IDENTITY** — ORG runtime repos are deploy targets, not identity sources.
 ## Constraints
 
 ```

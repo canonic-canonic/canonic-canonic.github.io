@@ -143,10 +143,6 @@
     },
     "vocab": [
       {
-        "term": "CA",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
         "term": "CANON",
         "definition": "Governed term in this scope vocabulary."
       },
@@ -182,22 +178,27 @@
     "chain": [
       {
         "scope": "protestant",
-        "axiom": "Reformation Christianity. Sola scriptura, sola fide, priesthood of all believers.",
+        "axiom": "Reformation Christianity governed by confessional standards — sola scriptura, sola fide, priesthood of all believers.",
         "constraints": "MUST:     Cite confessional standard for doctrinal claims\nMUST:     Distinguish magisterial from radical Reformation\nMUST NOT: Conflate denominational distinctives across traditions"
       },
       {
         "scope": "christianity",
-        "axiom": "Example",
+        "axiom": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
         "constraints": "MUST:     Cite scriptural or conciliar source for doctrinal claims\nMUST:     Distinguish denominational traditions when making claims\nMUST NOT: Present one tradition's doctrine as universal Christian teaching"
       },
       {
         "scope": "RELIGION",
+        "axiom": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
         "constraints": "MUST:     Cite declared sacred text for doctrinal claims\nMUST:     Distinguish binding doctrine from interpretive tradition\nMUST NOT: Present one tradition's claims as universal across all religions"
       },
       {
+        "scope": "VERTICALS",
+        "axiom": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain."
+      },
+      {
         "scope": "INDUSTRIES",
-        "axiom": "INDUSTRY is the variable. SERVICE = PRIMITIVE(s) + INDUSTRY. Each vertical defines INTEL, CHAT, COIN.",
-        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof"
+        "axiom": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
+        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof\nMUST: New constraint: MUST: Declare governance."
       }
     ]
   }

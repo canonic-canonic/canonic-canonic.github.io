@@ -2,7 +2,7 @@
 layout: default
 scope: BOOKS
 title: "BOOKS"
-description: "BOOKS are governed long-form artifacts. Each book IS a scope with PARTS and CHAPTERS."
+description: "BOOKS are governed long-form artifacts — each book IS a scope with PARTS and CHAPTERS, compiled from markdown to HTML and PDF."
 footerTagline: "BOOKS"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: BOOKS
   title: "BOOKS"
-  description: "BOOKS are governed long-form artifacts. Each book IS a scope with PARTS and CHAPTERS."
+  description: "BOOKS are governed long-form artifacts — each book IS a scope with PARTS and CHAPTERS, compiled from markdown to HTML and PDF."
   cta:
     - label: "Open BOOKS"
       href: /MAGIC/SURFACE/JEKYLL/BOOKS/
@@ -28,10 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-Books transform LEDGER evidence and MAGIC discoveries into structured, publishable prose. A book is a scope — the .md IS the specification. The build pipeline compiles books from .md source into rendered HTML (with TOC, PARTS, CHAPTERS, figures, math) and BOOKS.json index. PDF export uses LaTeX backend on the same source.
-
----
-
+- **BOOK_IS_SCOPE** — each book is a scope; the `.md` is the specification and follows PARTS → CHAPTERS → sections with declared front matter.
+- **EVIDENCE_BECOMES_PROSE** — books transform LEDGER evidence and MAGIC discoveries into structured, publishable prose.
+- **ONE_SOURCE_MANY_FORMATS** — the pipeline compiles one `.md` source into HTML, a BOOKS.json index, and LaTeX-backed PDF.
 ## Constraints
 
 ```

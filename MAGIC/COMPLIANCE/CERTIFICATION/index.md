@@ -2,7 +2,7 @@
 layout: default
 scope: CERTIFICATION
 title: "CERTIFICATION"
-description: "CERTIFICATION is COMPLIANCE made portable. Git is the certification engine. A tag is a badge. A badge is a tag. 255 or reject."
+description: "CERTIFICATION is COMPLIANCE made portable — git is the engine, a tag is a badge, 255 or reject."
 footerTagline: "CERTIFICATION"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: CERTIFICATION
   title: "CERTIFICATION"
-  description: "CERTIFICATION is COMPLIANCE made portable. Git is the certification engine. A tag is a badge. A badge is a tag. 255 or reject."
+  description: "CERTIFICATION is COMPLIANCE made portable — git is the engine, a tag is a badge, 255 or reject."
   cta:
     - label: "Open CERTIFICATION"
       href: /MAGIC/COMPLIANCE/CERTIFICATION/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **GIT_IS_ENGINE** — git is the certification engine; certification is issued as an immutable, signed, auditable git tag.
+- **TAG_IS_BADGE** — a tag is a badge and a badge is a tag; they are the same object, registered append-only in TAGS.md.
+- **FAIL_CLOSED_255** — certification only issues when `magic validate` passes (tier score IS the credential); 255 or reject, no exceptions.
 ## Constraints
 
 ```

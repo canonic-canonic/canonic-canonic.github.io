@@ -2,7 +2,7 @@
 layout: default
 scope: MINT
 title: "MINT"
-description: "MINT bridges WORK and ATTENTION to WALLET. Gradients mint COIN. Reads mint COIN. Every mint ledgered."
+description: "MINT bridges WORK and ATTENTION to WALLET — gradients mint COIN, reads mint COIN, every mint ledgered."
 footerTagline: "MINT"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: MINT
   title: "MINT"
-  description: "MINT bridges WORK and ATTENTION to WALLET. Gradients mint COIN. Reads mint COIN. Every mint ledgered."
+  description: "MINT bridges WORK and ATTENTION to WALLET — gradients mint COIN, reads mint COIN, every mint ledgered."
   cta:
     - label: "Open MINT"
       href: /MAGIC/SERVICES/MINT/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **GRADIENT_MINTS_COIN** — every non-zero LEDGER gradient mints COIN; a git commit produces an IDF and a WALLET credit or debit, with MINT:WORK on positive and DEBIT:DRIFT on negative.
+- **TASK_MINTS_COIN** — RUNNER task completion mints COIN on task evidence at fixed amounts per category; the task evidence backs the credit.
+- **READ_MINTS_COIN** — reader attention mints COIN via MINT:READ (1 COIN to author per unique pageview); attention is WORK in the economy.
 ## Constraints
 
 ```

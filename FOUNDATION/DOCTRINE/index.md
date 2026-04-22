@@ -2,7 +2,7 @@
 layout: default
 scope: DOCTRINE
 title: "DOCTRINE"
-description: "DOCTRINE is fixed. DRY. Mathematical. Enforced by structure."
+description: "DOCTRINE is fixed, DRY, mathematical, and enforced by structure — the spine every other scope inherits from."
 footerTagline: "DOCTRINE"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: DOCTRINE
   title: "DOCTRINE"
-  description: "DOCTRINE is fixed. DRY. Mathematical. Enforced by structure."
+  description: "DOCTRINE is fixed, DRY, mathematical, and enforced by structure — the spine every other scope inherits from."
   cta:
     - label: "Open DOCTRINE"
       href: /FOUNDATION/DOCTRINE/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **DOCTRINE_IS_FIXED** — edits are versioned, never overwritten; the spine (ordered chapters) is encoded once in DOCTRINE.md.
+- **DOCTRINE_IS_DRY** — no narrative arc, no fluff, and no duplication of tier algebra already defined by MAGIC.
+- **DOCTRINE_IS_STRUCTURAL** — enforcement is structural (inheritance chains, kernel boundaries), not stylistic.
 ## Constraints
 
 ```

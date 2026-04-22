@@ -2,7 +2,7 @@
 layout: default
 scope: PRIVACY
 title: "PRIVACY"
-description: "Every product collects data. Every collection is governed. Every user knows what, why, and how long."
+description: "PRIVACY is the compliance surface for data — one policy, all domains, every user knows what, why, and how long."
 footerTagline: "PRIVACY"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: PRIVACY
   title: "PRIVACY"
-  description: "Every product collects data. Every collection is governed. Every user knows what, why, and how long."
+  description: "PRIVACY is the compliance surface for data — one policy, all domains, every user knows what, why, and how long."
   cta:
     - label: "Open PRIVACY"
       href: /MAGIC/COMPLIANCE/PRIVACY/
@@ -28,10 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-PRIVACY is the compliance surface for data collection, processing, retention, and user rights across all CANONIC products and services. One policy, all domains.
-
----
-
+- **COLLECTION_IS_GOVERNED** — every product collects data, and every collection is governed: declared data types, purposes, retention periods, and third-party processors.
+- **USER_IS_INFORMED** — every user knows what is collected, why, and how long; legal basis and subject-request contact are published on the canonical URL.
+- **ONE_POLICY_ALL_DOMAINS** — PRIVACY declares the single policy that spans every CANONIC product and service; no per-product carve-outs.
 ## Constraints
 
 ```
@@ -49,23 +48,6 @@ MUST NOT: Share personal data with third parties beyond declared processors
 MUST NOT: Retain data beyond declared retention period
 MUST NOT: Require account creation for public content access
 ```
-
----
-
-## Scope
-
-| Domain | Data Collected | Processor |
-|--------|---------------|-----------|
-| canonic.org | Analytics (GA4, LinkedIn Pixel, Meta Pixel, Twitter Pixel, Reddit Pixel) | Google, LinkedIn, Meta, X, Reddit |
-| hadleylab.org | Analytics (same), TALK chat sessions, calendar display | Google, LinkedIn, Meta, X, Reddit, Cloudflare |
-| mammochat.com | Analytics, clinical chat sessions, mCODE staging data | Google, Cloudflare, OpenAI (LLM provider) |
-| caribchat.ai | Analytics, chat sessions | Google, Cloudflare, OpenAI |
-| gorunner.pro | Analytics, user accounts, payment data | Google, Cloudflare, Stripe |
-
-## Surface
-
-Published at: `canonic.org/privacy/`
-Linked from: all product footers, app stores, LinkedIn developer app, OAuth consent screens
 
 ---
 

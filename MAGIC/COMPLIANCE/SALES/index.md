@@ -2,7 +2,7 @@
 layout: default
 scope: SALES
 title: "SALES"
-description: "CHAT about MAGIC. How MAGIC talks to buyers."
+description: "SALES is CHAT about MAGIC — how the enforcement layer talks to buyers, leading with pain, not features."
 footerTagline: "SALES"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: SALES
   title: "SALES"
-  description: "CHAT about MAGIC. How MAGIC talks to buyers."
+  description: "SALES is CHAT about MAGIC — how the enforcement layer talks to buyers, leading with pain, not features."
   cta:
     - label: "Open SALES"
       href: /MAGIC/COMPLIANCE/SALES/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **SALES_IS_CHAT_ABOUT_MAGIC** — sales conversations are the CHAT projection of MAGIC, governed by the same primitives as the product.
+- **LEAD_WITH_PAIN** — every conversation leads with the buyer's pain, not MAGIC's features; value propositions are segment-specific.
+- **EVIDENCE_OVER_CLAIMS** — sales claims cite customer evidence (MAMMOCHAT, AdventHealth, measured audit-prep reductions), never unbacked assertions.
 ## Axioms
 
 ### 1. Value Proposition by Segment

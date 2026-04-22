@@ -2,7 +2,7 @@
 layout: default
 scope: VAULT
 title: "VAULT"
-description: "VAULT compiles the private aggregate. Auth-gated. Ledger-backed."
+description: "VAULT compiles the private aggregate — auth-gated, ledger-backed, discovered by walking VAULT.md across the tree."
 footerTagline: "VAULT"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: VAULT
   title: "VAULT"
-  description: "VAULT compiles the private aggregate. Auth-gated. Ledger-backed."
+  description: "VAULT compiles the private aggregate — auth-gated, ledger-backed, discovered by walking VAULT.md across the tree."
   cta:
     - label: "Open VAULT"
       href: /MAGIC/SERVICES/VAULT/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **DISCOVERED_FROM_GOV** — projections are discovered by walking `VAULT.md` files across the governance tree; VAULT aggregates, it does not own child scopes.
+- **AUTH_GATED_BY_DEFAULT** — all projections are auth-gated by default; private projections are never exposed on public surfaces.
+- **DETERMINISTIC_AGGREGATION** — aggregation is deterministic and rerun-safe; the same inputs produce the same VAULT every time.
 ## Constraints
 
 ```

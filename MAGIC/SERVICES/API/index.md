@@ -2,7 +2,7 @@
 layout: default
 scope: API
 title: "API"
-description: "API is the network surface for COIN. Every endpoint authenticated. Every response governed."
+description: "API is the network surface for COIN — every endpoint authenticated, every response governed, vault commands wrapped not duplicated."
 footerTagline: "API"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: API
   title: "API"
-  description: "API is the network surface for COIN. Every endpoint authenticated. Every response governed."
+  description: "API is the network surface for COIN — every endpoint authenticated, every response governed, vault commands wrapped not duplicated."
   cta:
     - label: "Open API"
       href: /MAGIC/SERVICES/API/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **API_IS_NETWORK_SURFACE** — API is the network projection of COIN; all economic HTTP traffic routes through this service.
+- **EVERY_ENDPOINT_AUTHENTICATED** — endpoints authenticate via IDENTITY Bearer tokens; public views (SHOP, econ) serve without auth but carry governed schemas.
+- **WRAPS_VAULT_COMMANDS** — the API wraps vault commands and never duplicates economic logic; it validates request shape and returns JSON with governed schemas.
 ## Constraints
 
 ```
@@ -44,6 +47,7 @@ MUST:     Log all requests as structured JSON to stderr
 MUST NOT: Expose VAULT internals (private balances, keys, timelines of other users)
 MUST NOT: Accept unsigned privileged actions (after rollout window)
 MUST NOT: Store state beyond CONFIG — all truth lives in VAULT
+MUST NOT: CORS origins governed: canonic.org, hadleylab.org, api.canonic.org — wildcard
 ```
 
 ---

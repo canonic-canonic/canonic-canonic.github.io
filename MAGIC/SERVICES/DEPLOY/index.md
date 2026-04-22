@@ -2,7 +2,7 @@
 layout: default
 scope: DEPLOY
 title: "DEPLOY"
-description: "DEPLOY is governed artifact delivery. Build validates, deploy ships, rollback recovers."
+description: "DEPLOY is governed artifact delivery — build validates, deploy ships, rollback recovers, FROZEN stops the line."
 footerTagline: "DEPLOY"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: DEPLOY
   title: "DEPLOY"
-  description: "DEPLOY is governed artifact delivery. Build validates, deploy ships, rollback recovers."
+  description: "DEPLOY is governed artifact delivery — build validates, deploy ships, rollback recovers, FROZEN stops the line."
   cta:
     - label: "Open DEPLOY"
       href: /MAGIC/SERVICES/DEPLOY/
@@ -28,6 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **BUILD_BEFORE_DEPLOY** — never ship unvalidated artifacts; build must pass before deploy runs.
+- **DESIGN_DEPLOYS_FIRST** — the DESIGN theme deploys before fleet sites because of the remote_theme dependency.
+- **DNS_FROM_GOVERNANCE** — DNS records are derived from governance, never created manually; FROZEN state blocks deploy unless overridden.
+- **ROLLBACK_IS_FIRST_CLASS** — every fleet site supports rollback to a previous commit as a first-class operation.
 ## Constraints
 
 ```

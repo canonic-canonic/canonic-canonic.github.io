@@ -2,7 +2,7 @@
 layout: default
 scope: CLAUDE
 title: "CLAUDE"
-description: "CLAUDE is the governed agent context surface. Compilation is graph traversal. The galaxy is the input graph. BFS from any starting node discovers contextual INTEL and optimized LEARNING by graph distance."
+description: "CLAUDE is the governed agent context surface — compilation is graph traversal from the galaxy, with contextual INTEL and optimized LEARNING by distance."
 footerTagline: "CLAUDE"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: CLAUDE
   title: "CLAUDE"
-  description: "CLAUDE is the governed agent context surface. Compilation is graph traversal. The galaxy is the input graph. BFS from any starting node discovers contextual INTEL and optimized LEARNING by graph distance."
+  description: "CLAUDE is the governed agent context surface — compilation is graph traversal from the galaxy, with contextual INTEL and optimized LEARNING by distance."
   cta:
     - label: "Open CLAUDE"
       href: /MAGIC/SERVICES/CLAUDE/
@@ -28,6 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **COMPILATION_IS_GRAPH_TRAVERSAL** — the compiler is graph-native; context is compiled by BFS over the galaxy, not by hardcoded paths.
+- **GALAXY_IS_INPUT** — the galaxy is the input graph; any starting node can compile its own composed instance.
+- **DISTANCE_BUDGETS_CONTEXT** — budget is controlled by graph distance (d=0 all, d=1 summary, d=2 meta-patterns, d=3 axioms).
+- **INHERITS_CROSSES_REPOS** — cross-axiomatic INTEL is discovered via INHERITS edges so the compiler traverses across repo boundaries.
 ## Constraints
 
 ```

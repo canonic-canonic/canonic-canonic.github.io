@@ -2,7 +2,7 @@
 layout: default
 scope: DEMO
 title: "DEMO"
-description: "DEMO is the governed product demonstration lane. Every demo is a reproducible walkthrough captured as evidence and compiled into a shareable artifact."
+description: "DEMO is the governed product-demonstration lane — every demo a reproducible walkthrough captured as evidence and compiled into a shareable artifact."
 footerTagline: "DEMO"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: DEMO
   title: "DEMO"
-  description: "DEMO is the governed product demonstration lane. Every demo is a reproducible walkthrough captured as evidence and compiled into a shareable artifact."
+  description: "DEMO is the governed product-demonstration lane — every demo a reproducible walkthrough captured as evidence and compiled into a shareable artifact."
   cta:
     - label: "Open DEMO"
       href: /MAGIC/SERVICES/DEMO/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **DEMO_IS_EVIDENCE** — every demo is captured as governed evidence; the walkthrough IS the artifact, not a supporting doc.
+- **REPRODUCIBLE_FROM_GOV** — every demo is reproducible from governed inputs and compiled through the MAGIC pipeline.
+- **NO_UNGOVERNED_DEMO** — hand-authored compiled outputs are not allowed and ungoverned features do not ship into demos.
 ## Constraints
 
 ```

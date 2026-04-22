@@ -2,7 +2,7 @@
 layout: default
 scope: hinduism
 title: "hinduism"
-description: "Example"
+description: "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain."
 footerTagline: "hinduism"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: hinduism
   title: "hinduism"
-  description: "Example"
+  description: "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain."
   cta:
     - label: "Open hinduism"
       href: /INDUSTRIES/VERTICALS/RELIGION/hinduism/
@@ -27,6 +27,13 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+- **INDUSTRY_IS_VARIABLE** — SERVICE equals PRIMITIVE composed with INDUSTRY; swap the industry, get a new service.
+- **EVERY_INDUSTRY_WIRES_THREE** — each vertical wires INTEL, CHAT, and COIN before it counts as governed.
+- **LANGUAGE_CASCADES_FROM_MAGIC** — industry language inherits from MAGIC; no per-industry DESIGN or lexicon fork.
+## Axioms
+
+### 1. Brahman-Atman Identity
 
 Ultimate reality (Brahman) and individual self (Atman) are identical. "Tat tvam asi" — Thou art That.
 

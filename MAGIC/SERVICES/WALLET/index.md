@@ -2,7 +2,7 @@
 layout: default
 scope: WALLET
 title: "WALLET"
-description: "WALLET is the per-USER economic identity. Every USER has one. Every COIN lives in one."
+description: "WALLET is the per-USER economic identity — every USER has one, every COIN lives in one, balance is derived from TIMELINE."
 footerTagline: "WALLET"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: WALLET
   title: "WALLET"
-  description: "WALLET is the per-USER economic identity. Every USER has one. Every COIN lives in one."
+  description: "WALLET is the per-USER economic identity — every USER has one, every COIN lives in one, balance is derived from TIMELINE."
   cta:
     - label: "Open WALLET"
       href: /MAGIC/SERVICES/WALLET/
@@ -28,6 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **ONE_WALLET_PER_USER** — one WALLET per USER principal, discovered from `{USER}/{USER}.md`; no orphan wallets.
+- **EVERY_EVENT_APPENDS** — every COIN event (MINT, TRANSFER, SPEND, SETTLE, DEBIT:DRIFT) appends to both WALLET and LEDGER.
+- **BALANCE_IS_DERIVED** — balance is derived from TIMELINE events and never stored independently; WALLET.json is compiled and never hand-edited.
+- **SIGNUP_BONUS_IDEMPOTENT** — principal promotion triggers a one-time idempotent 500 COIN SIGNUP bonus, one per USER.
 ## Constraints
 
 ```

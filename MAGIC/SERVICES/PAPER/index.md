@@ -2,7 +2,7 @@
 layout: default
 scope: PAPER
 title: "PAPER"
-description: "PAPER is the research publishing lane. Every manuscript is a governed artifact — authored in markdown, compiled through the MAGIC pipeline, and surfaced with citation governance."
+description: "PAPER is the research publishing lane — every manuscript a governed artifact, authored in markdown, compiled through MAGIC, surfaced with citation governance."
 footerTagline: "PAPER"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: PAPER
   title: "PAPER"
-  description: "PAPER is the research publishing lane. Every manuscript is a governed artifact — authored in markdown, compiled through the MAGIC pipeline, and surfaced with citation governance."
+  description: "PAPER is the research publishing lane — every manuscript a governed artifact, authored in markdown, compiled through MAGIC, surfaced with citation governance."
   cta:
     - label: "Open PAPER"
       href: /MAGIC/SERVICES/PAPER/
@@ -28,6 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **CLAIM_EVIDENCED** — every claim is backed by a citation or data reference; unevidenced claims do not pass the pipeline.
+- **COAUTHORS_DECLARED** — co-authors are declared in front matter; author identity resolves through VITAE.
+- **DRAFTS_PRIVATE_BEFORE_PUBLISH** — pre-publication drafts are PRIVATE until published; publish events are ledgered.
+- **COMPILED_THROUGH_MAGIC** — manuscripts compile through the MAGIC pipeline; hand-rendered papers do not ship.
 ## Constraints
 
 ```

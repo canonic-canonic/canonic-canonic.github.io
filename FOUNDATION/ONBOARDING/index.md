@@ -2,7 +2,7 @@
 layout: default
 scope: ONBOARDING
 title: "ONBOARDING"
-description: "ONBOARDING is the contributor entry point. One runbook. Ten minutes. Your first governed scope."
+description: "ONBOARDING is the contributor entry point — one runbook, ten minutes, your first governed scope."
 footerTagline: "ONBOARDING"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: ONBOARDING
   title: "ONBOARDING"
-  description: "ONBOARDING is the contributor entry point. One runbook. Ten minutes. Your first governed scope."
+  description: "ONBOARDING is the contributor entry point — one runbook, ten minutes, your first governed scope."
   cta:
     - label: "Open ONBOARDING"
       href: /FOUNDATION/ONBOARDING/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **ONBOARDING_IS_GRADED** — new scopes are scaffolded by `magic heal` and validated by `magic validate`; 255 or reject.
+- **ONE_RUNBOOK** — a single step-by-step runbook in ONBOARDING.md is the only supported path; hand-created TRIAD files are not allowed.
+- **FIRST_SCOPE_IN_TEN_MINUTES** — the runbook is time-boxed so a new contributor reaches a validated first scope inside ten minutes.
 ## Constraints
 
 ```

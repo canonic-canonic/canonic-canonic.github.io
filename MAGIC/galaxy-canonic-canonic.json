@@ -2,9 +2,9 @@
   "_generated": {
     "contract": "canonic-canonic/MAGIC/TOOLCHAIN/TOOLCHAIN.md",
     "rule": "edit the contract or compiler \u2014 not this file",
-    "gov_hash": "bbd89366a0676e50"
+    "gov_hash": "7623be147a883d66"
   },
-  "generated": "2026-04-12T15:14:18Z",
+  "generated": "2026-04-22T02:40:14Z",
   "api_base": "https://api.canonic.org",
   "tiers": [
     {
@@ -46,8 +46,8 @@
     }
   ],
   "stats": {
-    "total": 202,
-    "avg_bits": 250
+    "total": 201,
+    "avg_bits": 248
   },
   "nodes": [
     {
@@ -66,9 +66,10 @@
       "roadmap_now": "[ ] Key rotation escalation \u2014 promote from soft gate (WARN) to hard gate (FAIL) in phase 8f",
       "learning_count": 983,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
-      "children": 5
+      "children": 6
     },
     {
       "id": "canonic-canonic/FOUNDATION",
@@ -85,6 +86,7 @@
       "has_intel": false,
       "learning_count": 309,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "FOUNDATION",
       "children": 6
@@ -105,6 +107,7 @@
       "roadmap_now": "All 15 verticals fully specified with Axioms, Validators, Examples, Application",
       "learning_count": 118,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES",
       "children": 5
@@ -126,6 +129,7 @@
       "roadmap_now": "MAGIC 255/255 \u2014 Full governance compliance across all 9 domains",
       "learning_count": 373,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC",
       "children": 11
@@ -144,7 +148,35 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "canonic-canonic",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
+    },
+    {
+      "id": "canonic-canonic/FEDERATIONS",
+      "kind": "SCOPE",
+      "label": "FEDERATIONS",
+      "repo": "canonic-canonic",
+      "path": "FEDERATIONS",
+      "parent": "canonic-canonic",
+      "color": "#64748b",
+      "category": "ORG",
+      "bits": 0,
+      "tier": "NONE",
+      "missing_dims": [
+        "D",
+        "E",
+        "T",
+        "R",
+        "O",
+        "S",
+        "L",
+        "LANG"
+      ],
+      "has_intel": false,
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "FEDERATIONS",
+      "children": 2,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/USERS",
@@ -170,7 +202,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS",
-      "children": 3
+      "children": 3,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/FOUNDATION/DEVELOPERS",
@@ -181,13 +214,18 @@
       "parent": "canonic-canonic/FOUNDATION",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "intel_summary": "| Scope | Relationship | What flows |",
       "learning_count": 1,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "FOUNDATION/DEVELOPERS",
       "children": 0
@@ -207,6 +245,7 @@
       "has_intel": false,
       "learning_count": 5,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "FOUNDATION/DOCTRINE",
       "children": 1
@@ -227,6 +266,7 @@
       "roadmap_now": "Govern ONBOARDING scope with full TRIAD + SPEC",
       "learning_count": 1,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "FOUNDATION/ONBOARDING",
       "children": 0
@@ -247,6 +287,7 @@
       "roadmap_now": "Apple Native era: canonic-apple Xcode project (iOS + macOS) with C kernel and Swift runtime",
       "learning_count": 86,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "FOUNDATION/PROGRAMMING",
       "children": 5
@@ -267,6 +308,7 @@
       "roadmap_now": "Implement COIN = WORK accounting: AVAILABLE + ALLOCATED + PENDING = TOTAL",
       "learning_count": 4,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "FOUNDATION/RESERVES",
       "children": 0
@@ -285,7 +327,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "FOUNDATION/LANGUAGE",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/INDUSTRIES/HORIZONTAL",
@@ -303,6 +346,7 @@
       "roadmap_now": "Expand SAFETY and SECURITY CANON.md to full depth",
       "learning_count": 4,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/HORIZONTAL",
       "children": 2
@@ -316,12 +360,17 @@
       "parent": "canonic-canonic/INDUSTRIES",
       "category": "KNOWLEDGE",
       "color": "#bf5af2",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "roadmap_now": "Expand LEARNING CANON.md with pedagogical governance axioms",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/META",
       "children": 0
@@ -342,6 +391,7 @@
       "roadmap_now": "Expand all REGULATORY CANON.md to full regulatory depth across five MAGIC checkset checks (C1-C5)",
       "learning_count": 4,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/REGULATORY",
       "children": 4
@@ -362,6 +412,7 @@
       "roadmap_now": "Expand all VERTICAL CANON.md to full depth: six MAGIC checkset checks (C1-C6 = #63 ENTERPRISE)",
       "learning_count": 8,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS",
       "children": 15
@@ -380,7 +431,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/COMPOSITION",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/COMPLIANCE",
@@ -391,13 +443,18 @@
       "parent": "canonic-canonic/MAGIC",
       "category": "RUNTIME",
       "color": "#00ff88",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "roadmap_now": "Define tier thresholds and required surface artifacts: cumulative governance gates enforced via `magic validate`",
       "learning_count": 5,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/COMPLIANCE",
       "children": 9
@@ -416,7 +473,8 @@
       "has_intel": false,
       "surface_type": "GALAXY",
       "fleet_path": "MAGIC/GALAXY",
-      "children": 8
+      "children": 8,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/SERVICES",
@@ -434,9 +492,10 @@
       "roadmap_now": "Enforce governed boundary isolation across all service scopes (no cross-scope state leakage between INTEL, CHAT, COIN, LEDGER)",
       "learning_count": 5,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_ECON",
       "fleet_path": "MAGIC/SERVICES",
-      "children": 52
+      "children": 54
     },
     {
       "id": "canonic-canonic/MAGIC/SURFACE",
@@ -455,9 +514,10 @@
       "roadmap_now": "[ ] API layer \u2014 unified api.canonic.org, all platform clients consume. Plan Phase 1.",
       "learning_count": 13,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SURFACE",
-      "children": 13
+      "children": 12
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN",
@@ -474,6 +534,7 @@
       "has_intel": false,
       "learning_count": 11,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_ECON",
       "fleet_path": "MAGIC/TOOLCHAIN",
       "children": 23
@@ -492,7 +553,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/CHAT",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/COIN",
@@ -508,7 +570,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/COIN",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/EVOLUTION",
@@ -524,7 +587,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/EVOLUTION",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/ORGS",
@@ -540,7 +604,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/ORGS",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/PROTOCOL",
@@ -556,6 +621,43 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/PROTOCOL",
+      "children": 0,
+      "min_tier": "COMMUNITY"
+    },
+    {
+      "id": "canonic-canonic/FEDERATIONS/hadleylab",
+      "kind": "SCOPE",
+      "label": "HADLEYLAB",
+      "repo": "canonic-canonic",
+      "path": "FEDERATIONS/hadleylab",
+      "parent": "canonic-canonic/FEDERATIONS",
+      "category": "SERVICES",
+      "color": "#ec4899",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "min_tier": "COMMUNITY",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "FEDERATIONS/hadleylab",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/FEDERATIONS/runner",
+      "kind": "SCOPE",
+      "label": "RUNNER",
+      "repo": "canonic-canonic",
+      "path": "FEDERATIONS/runner",
+      "parent": "canonic-canonic/FEDERATIONS",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
+      "has_intel": false,
+      "min_tier": "COMMUNITY",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "FEDERATIONS/runner",
       "children": 0
     },
     {
@@ -567,21 +669,18 @@
       "parent": "canonic-canonic/USERS",
       "category": "SERVICES",
       "color": "#ec4899",
-      "bits": 247,
-      "tier": "COMMUNITY",
-      "missing_dims": [
-        "R"
-      ],
+      "bits": 255,
+      "tier": "FULL",
+      "missing_dims": [],
       "privacy": "PRIVATE",
       "readers": [
         "iDrDex"
       ],
       "github": "iDrDex",
       "has_intel": false,
-      "next_tier": "FULL",
-      "next_tier_gap": 8,
       "learning_count": 1,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/DEXTER",
       "wallet": {
@@ -598,10 +697,10 @@
       "parent": "canonic-canonic/USERS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 253,
+      "tier": "NONE",
       "missing_dims": [
-        "R"
+        "E"
       ],
       "privacy": "PRIVATE",
       "readers": [
@@ -611,7 +710,9 @@
       "github": "fatimacanonic",
       "has_intel": false,
       "next_tier": "FULL",
-      "next_tier_gap": 8,
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/FATIMA",
       "wallet": {
@@ -628,10 +729,10 @@
       "parent": "canonic-canonic/USERS",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 253,
+      "tier": "NONE",
       "missing_dims": [
-        "R"
+        "E"
       ],
       "privacy": "PRIVATE",
       "readers": [
@@ -641,9 +742,10 @@
       "github": "rglov0224-sys",
       "has_intel": false,
       "next_tier": "FULL",
-      "next_tier_gap": 8,
+      "next_tier_gap": 2,
       "learning_count": 2,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/ROBERT",
       "wallet": {
@@ -665,7 +767,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "FOUNDATION/DOCTRINE/governance-actors",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/FOUNDATION/PROGRAMMING/c",
@@ -683,6 +786,7 @@
       "roadmap_now": "Maintain C kernel as FFI truth: header, source, shared library validated against SPEC",
       "learning_count": 5,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "FOUNDATION/PROGRAMMING/c",
       "children": 0
@@ -701,6 +805,7 @@
       "missing_dims": [],
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "FOUNDATION/PROGRAMMING/python",
       "children": 0
@@ -720,6 +825,7 @@
       "has_intel": false,
       "roadmap_now": "Validate Swift runtime against SPEC: full compliance specification via @_silgen_name FFI",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "FOUNDATION/PROGRAMMING/swift",
       "children": 0
@@ -738,6 +844,7 @@
       "missing_dims": [],
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "FOUNDATION/PROGRAMMING/typescript",
       "children": 0
@@ -756,7 +863,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "FOUNDATION/PROGRAMMING/TEST_SPEC",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/INDUSTRIES/HORIZONTAL/SAFETY",
@@ -772,6 +880,7 @@
       "missing_dims": [],
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/HORIZONTAL/SAFETY",
       "children": 0
@@ -790,6 +899,7 @@
       "missing_dims": [],
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/HORIZONTAL/SECURITY",
       "children": 0
@@ -808,6 +918,7 @@
       "missing_dims": [],
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/REGULATORY/BLOCKCHAIN",
       "children": 0
@@ -826,6 +937,7 @@
       "missing_dims": [],
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/REGULATORY/DATA",
       "children": 0
@@ -844,6 +956,7 @@
       "missing_dims": [],
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/REGULATORY/GOVERNMENT",
       "children": 0
@@ -862,6 +975,7 @@
       "missing_dims": [],
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/REGULATORY/LAW",
       "children": 1
@@ -881,6 +995,7 @@
       "status": "DEFERRED",
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/AEROSPACE",
       "children": 0
@@ -900,6 +1015,7 @@
       "status": "DEFERRED",
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/AGRICULTURE",
       "children": 0
@@ -919,6 +1035,7 @@
       "status": "DEFERRED",
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/AUTOMOTIVE",
       "children": 0
@@ -938,6 +1055,7 @@
       "status": "DEFERRED",
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/DEFENSE",
       "children": 0
@@ -957,6 +1075,7 @@
       "status": "DEFERRED",
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/EDUCATION",
       "children": 0
@@ -976,6 +1095,7 @@
       "status": "DEFERRED",
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/ENERGY",
       "children": 0
@@ -995,6 +1115,7 @@
       "status": "LIVE",
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/FINANCE",
       "children": 0
@@ -1014,6 +1135,7 @@
       "status": "DEFERRED",
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/GENOMICS",
       "children": 0
@@ -1033,6 +1155,7 @@
       "status": "DEFERRED",
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/LOGISTICS",
       "children": 0
@@ -1052,6 +1175,7 @@
       "status": "DEFERRED",
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/MANUFACTURING",
       "children": 0
@@ -1071,6 +1195,7 @@
       "status": "LIVE",
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/MEDICINE",
       "children": 3
@@ -1090,6 +1215,7 @@
       "status": "DEFERRED",
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/QUALITY",
       "children": 0
@@ -1111,6 +1237,7 @@
       "roadmap_now": "REAL_ESTATE vertical created \u2014 full ENTERPRISE governance (#63)",
       "learning_count": 5,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/REAL_ESTATE",
       "children": 0
@@ -1131,6 +1258,7 @@
       "has_intel": false,
       "learning_count": 4,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION",
       "children": 6
@@ -1150,6 +1278,7 @@
       "status": "DEFERRED",
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/ROBOTICS",
       "children": 0
@@ -1170,6 +1299,7 @@
       "intel_summary": "| Scope | Relationship | What flows |",
       "learning_count": 1,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/COMPLIANCE/CERTIFICATION",
       "children": 0
@@ -1189,6 +1319,7 @@
       "has_intel": false,
       "learning_count": 5,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/COMPLIANCE/GTM",
       "children": 0
@@ -1208,6 +1339,7 @@
       "has_intel": false,
       "learning_count": 5,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/COMPLIANCE/MARKET",
       "children": 0
@@ -1221,17 +1353,18 @@
       "parent": "canonic-canonic/MAGIC/COMPLIANCE",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 253,
+      "tier": "NONE",
       "missing_dims": [
-        "R"
+        "E"
       ],
       "has_intel": false,
       "next_tier": "FULL",
-      "next_tier_gap": 8,
+      "next_tier_gap": 2,
       "roadmap_now": "[ ] canonic.org/privacy/ \u2014 published surface",
       "learning_count": 1,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/COMPLIANCE/PRIVACY",
       "children": 0
@@ -1245,13 +1378,18 @@
       "parent": "canonic-canonic/MAGIC/COMPLIANCE",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "roadmap_now": "Define branch protection governance contract",
       "learning_count": 3,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/COMPLIANCE/PROTECTION",
       "children": 0
@@ -1265,13 +1403,18 @@
       "parent": "canonic-canonic/MAGIC/COMPLIANCE",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "roadmap_now": "Define disaster recovery governance contract",
       "learning_count": 3,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/COMPLIANCE/RECOVERY",
       "children": 0
@@ -1291,6 +1434,7 @@
       "has_intel": false,
       "learning_count": 5,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/COMPLIANCE/SALES",
       "children": 0
@@ -1311,6 +1455,7 @@
       "roadmap_now": "Define three semantic validation rules: VOCABULARY CLOSURE, INHERITANCE INTEGRITY, COVERAGE ALIGNMENT",
       "learning_count": 5,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/COMPLIANCE/SEMANTIC",
       "children": 0
@@ -1324,12 +1469,13 @@
       "parent": "canonic-canonic/MAGIC/COMPLIANCE",
       "color": "#00ff88",
       "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 253,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/COMPLIANCE/MATRIX",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/GALAXY/FINDER",
@@ -1340,12 +1486,18 @@
       "parent": "canonic-canonic/MAGIC/GALAXY",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "roadmap_now": "[ ] Full-width card grid: CSS grid, auto-fill minmax(200px, 1fr), glass cards with icon + label + tier ring + children count + COIN",
       "learning_count": 4,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/GALAXY/FINDER",
       "children": 0
@@ -1359,12 +1511,13 @@
       "parent": "canonic-canonic/MAGIC/GALAXY",
       "color": "#00ff88",
       "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 253,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/GALAXY/ORGS",
-      "children": 6
+      "children": 6,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/GALAXY/PRIMITIVES",
@@ -1381,6 +1534,8 @@
       "has_intel": false,
       "roadmap_now": "[ ] Wire TALK toggle: search dock switches between search mode and conversation mode, carries current scope context",
       "learning_count": 3,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/GALAXY/PRIMITIVES",
       "children": 0
@@ -1400,6 +1555,7 @@
       "has_intel": false,
       "learning_count": 1,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/GALAXY/USERS",
       "children": 0
@@ -1413,12 +1569,13 @@
       "parent": "canonic-canonic/MAGIC/GALAXY",
       "color": "#00ff88",
       "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 253,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/GALAXY/GITHUB",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/GALAXY/IDENTITY",
@@ -1429,12 +1586,13 @@
       "parent": "canonic-canonic/MAGIC/GALAXY",
       "color": "#00ff88",
       "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 253,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/GALAXY/IDENTITY",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/GALAXY/URI",
@@ -1445,12 +1603,13 @@
       "parent": "canonic-canonic/MAGIC/GALAXY",
       "color": "#00ff88",
       "category": "RUNTIME",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 253,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/GALAXY/URI",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/SERVICES/API",
@@ -1461,14 +1620,19 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "intel_summary": "**KNOW YOUR API. EVERY ENDPOINT AUTHENTICATED. EVERY RESPONSE GOVERNED. EVERY OPERATION EVIDENCED.**",
       "roadmap_now": "API governance created (CANON.md + API.md + TRIAD)",
       "learning_count": 11,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/API",
       "children": 0
@@ -1482,11 +1646,17 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "intel_summary": "**KNOW YOUR USERS. EVERY SESSION GOVERNED. EVERY GRANT AUDITED.**",
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/AUTH",
       "children": 0
@@ -1500,10 +1670,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "SERVICES",
       "color": "#ec4899",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/BLOG",
       "children": 0
@@ -1517,10 +1693,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "SERVICES",
       "color": "#ec4899",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/BOOK",
       "children": 0
@@ -1534,10 +1716,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/BUILD",
       "children": 0
@@ -1551,10 +1739,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "SERVICES",
       "color": "#ec4899",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/CALENDAR",
       "children": 0
@@ -1568,10 +1762,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "SERVICES",
       "color": "#ec4899",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/CAMPAIGN",
       "children": 0
@@ -1592,6 +1792,7 @@
       "roadmap_now": "CHAIN governance created (CANON.md + CHAIN.md + TRIAD)",
       "learning_count": 6,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/CHAIN",
       "children": 0
@@ -1605,10 +1806,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/CITATION",
       "children": 0
@@ -1622,10 +1829,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/CLAUDE",
       "children": 0
@@ -1639,11 +1852,17 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "COMMERCE",
       "color": "#ff9f0a",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "intel_summary": "**COIN is the economic shadow of WORK. Every mint ledgered. Every burn evidenced. Supply ceiling = scopes \u00d7 255 per CLOS",
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/COIN",
       "children": 0
@@ -1657,10 +1876,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/CONTACTS",
       "children": 0
@@ -1681,6 +1906,7 @@
       "roadmap_now": "Enforce append-only contribution ledger per scope",
       "learning_count": 2,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/CONTRIBUTE",
       "children": 0
@@ -1694,12 +1920,41 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "COMMERCE",
       "color": "#ff9f0a",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/DEAL",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/DEBUG",
+      "kind": "SCOPE",
+      "label": "DEBUG",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/DEBUG",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/DEBUG",
       "children": 0
     },
     {
@@ -1711,10 +1966,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "SERVICES",
       "color": "#ec4899",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/DECK",
       "children": 0
@@ -1728,10 +1989,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/DEMO",
       "children": 0
@@ -1745,13 +2012,18 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "roadmap_now": "DEPLOY governance created (CANON.md + DEPLOY.md + TRIAD)",
       "learning_count": 9,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/DEPLOY",
       "children": 0
@@ -1765,10 +2037,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "RUNTIME",
       "color": "#00ff88",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/DESIGN",
       "children": 0
@@ -1782,10 +2060,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/DEV",
       "children": 0
@@ -1799,12 +2083,46 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
+      "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
+      "surface_type": "JEKYLL_DEFAULT",
+      "fleet_path": "MAGIC/SERVICES/DOMAINS",
+      "children": 0
+    },
+    {
+      "id": "canonic-canonic/MAGIC/SERVICES/FEDERATION",
+      "kind": "SCOPE",
+      "label": "FEDERATION",
+      "repo": "canonic-canonic",
+      "path": "MAGIC/SERVICES/FEDERATION",
+      "parent": "canonic-canonic/MAGIC/SERVICES",
+      "category": "ORG",
+      "color": "#64748b",
       "bits": 255,
       "tier": "FULL",
       "missing_dims": [],
       "has_intel": false,
+      "learning_count": 2,
+      "coverage_score": 255,
+      "coverage_open_gates": [
+        "GENERATORS_READ_REGISTRY",
+        "ROOT_HEADER_PARITY",
+        "GRADUATION_RITUAL_AUTOMATED",
+        "KERNEL_NESTING_FIXED",
+        "FEATURE_GATE_DECLARED",
+        "CREDENTIAL_ISSUER_WIRED"
+      ],
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SERVICES/DOMAINS",
+      "fleet_path": "MAGIC/SERVICES/FEDERATION",
       "children": 0
     },
     {
@@ -1816,10 +2134,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/FINANCIALS",
       "children": 0
@@ -1833,10 +2157,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/FORECASTS",
       "children": 0
@@ -1857,6 +2187,7 @@
       "roadmap_now": "IDENTITY governance created (CANON.md + IDENTITY.md + TRIAD)",
       "learning_count": 8,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/IDENTITY",
       "children": 0
@@ -1870,10 +2201,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/KYC",
       "children": 0
@@ -1887,10 +2224,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/LATEX",
       "children": 0
@@ -1910,6 +2253,8 @@
       "has_intel": false,
       "roadmap_now": "Govern INTEL\u2192LEARNING primitive-to-service mapping across all scopes",
       "learning_count": 13,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/LEARNING",
       "children": 0
@@ -1923,13 +2268,18 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "COMMERCE",
       "color": "#ff9f0a",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "intel_summary": "**KNOW YOUR HISTORY. EVERY ECONOMIC EVENT RECORDED. APPEND-ONLY. NO ERASURE.**",
       "learning_count": 9,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/LEDGER",
       "children": 4
@@ -1950,6 +2300,7 @@
       "roadmap_now": "MINT governance created (CANON.md + MINT.md + TRIAD)",
       "learning_count": 5,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/MINT",
       "children": 0
@@ -1963,14 +2314,19 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "intel_summary": "**KNOW YOUR HEALTH SERVICE. EVERY ENDPOINT DOCUMENTED. EVERY SCORE VALIDATED. EVERY PROMPT ACTIONABLE.**",
       "roadmap_now": "MONITORING governance created (CANON.md + MONITORING.md + TRIAD) \u2014 DONE",
       "learning_count": 8,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/MONITORING",
       "children": 0
@@ -1984,10 +2340,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/MUSIC",
       "children": 0
@@ -2001,10 +2363,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/NAS",
       "children": 0
@@ -2018,14 +2386,19 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "intel_summary": "**KNOW YOUR ROUTES. EVERY DELIVERY EVIDENCED. EVERY INBOX GOVERNED.**",
       "roadmap_now": "Ship NOTIFIER as NOTIFY + INTEL composed: every delivery wires sender scope, receiver scope, and content",
       "learning_count": 5,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/NOTIFIER",
       "children": 0
@@ -2039,10 +2412,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "SERVICES",
       "color": "#ec4899",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/PAPER",
       "children": 0
@@ -2056,10 +2435,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "OPERATIONS",
       "color": "#2997ff",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/PATENT",
       "children": 0
@@ -2073,10 +2458,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "SERVICES",
       "color": "#ec4899",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/PLAYBOOKS",
       "children": 0
@@ -2090,10 +2481,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/PLUGINS",
       "children": 0
@@ -2107,10 +2504,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "GOVERNANCE",
       "color": "#ffd60a",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/RESERVES",
       "children": 0
@@ -2124,10 +2527,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/SEED",
       "children": 0
@@ -2141,10 +2550,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/SEO",
       "children": 0
@@ -2165,6 +2580,7 @@
       "roadmap_now": "SHOP governance created (CANON.md + SHOP.md + TRIAD)",
       "learning_count": 5,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/SHOP",
       "children": 0
@@ -2184,6 +2600,8 @@
       "has_intel": false,
       "roadmap_now": "Define STAR service contract: axiom, composition, lanes, TIMELINE model, API routes",
       "learning_count": 4,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/STAR",
       "children": 0
@@ -2197,10 +2615,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/STORY",
       "children": 0
@@ -2221,6 +2645,7 @@
       "roadmap_now": "Ship TALK as CHAT + INTEL composed: every TALK response wires `intel_refs` and shows governed disclaimer",
       "learning_count": 7,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/TALK",
       "children": 0
@@ -2234,10 +2659,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/TASK",
       "children": 0
@@ -2251,10 +2682,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/TIMELINE",
       "children": 0
@@ -2268,10 +2705,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "SERVICES",
       "color": "#ec4899",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/TRANSCRIPT",
       "children": 0
@@ -2285,10 +2728,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/UPTIME",
       "children": 0
@@ -2302,10 +2751,16 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/USER",
       "children": 0
@@ -2319,12 +2774,17 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "learning_count": 5,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/VAULT",
       "children": 0
@@ -2338,11 +2798,17 @@
       "parent": "canonic-canonic/MAGIC/SERVICES",
       "category": "SERVICES",
       "color": "#ec4899",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "intel_summary": "**KNOW YOUR PEOPLE. EVERY CREDENTIAL EVIDENCED. EVERY ROLE ATTESTED.**",
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/VITAE",
       "children": 0
@@ -2363,6 +2829,7 @@
       "roadmap_now": "WALLET governance created (CANON.md + WALLET.md + TRIAD)",
       "learning_count": 5,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/WALLET",
       "children": 0
@@ -2381,7 +2848,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/ECON",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/SURFACE/ANDROID",
@@ -2397,7 +2865,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SURFACE/ANDROID",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/SURFACE/APPLE",
@@ -2413,7 +2882,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SURFACE/APPLE",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/SURFACE/CONTROLS",
@@ -2424,14 +2894,19 @@
       "parent": "canonic-canonic/MAGIC/SURFACE",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": true,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "intel_summary": "CONTROLS unifies the content page control bar across all surface types.",
       "roadmap_now": "Govern CONTROLS scope with full TRIAD + SPEC",
       "learning_count": 3,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SURFACE/CONTROLS",
       "children": 0
@@ -2445,11 +2920,16 @@
       "parent": "canonic-canonic/MAGIC/SURFACE",
       "category": "RUNTIME",
       "color": "#00ff88",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SURFACE/DESIGN",
       "children": 1
@@ -2463,34 +2943,19 @@
       "parent": "canonic-canonic/MAGIC/SURFACE",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SURFACE/DESIGN-theme",
       "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
-      "kind": "SCOPE",
-      "label": "JEKYLL",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SURFACE/JEKYLL",
-      "parent": "canonic-canonic/MAGIC/SURFACE",
-      "category": "ORG",
-      "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "Complete JEKYLL theme compilation: 8 layouts, 20 section includes, 15 figure includes, 18 Sass partials ship as `remote_theme`",
-      "learning_count": 10,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SURFACE/JEKYLL",
-      "children": 5
     },
     {
       "id": "canonic-canonic/MAGIC/SURFACE/CHAT",
@@ -2506,7 +2971,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SURFACE/CHAT",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/SURFACE/COIN",
@@ -2522,7 +2988,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SURFACE/COIN",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/SURFACE/PROTOCOL",
@@ -2538,7 +3005,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SURFACE/PROTOCOL",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/SURFACE/ROLLOUT",
@@ -2554,7 +3022,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SURFACE/ROLLOUT",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/SURFACE/TALK",
@@ -2570,7 +3039,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SURFACE/TALK",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN/CONFIG",
@@ -2581,11 +3051,16 @@
       "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/CONFIG",
       "children": 0
@@ -2606,6 +3081,7 @@
       "intel_summary": "| Metric | Source | Purpose |",
       "learning_count": 2,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/FRESHNESS",
       "children": 0
@@ -2619,11 +3095,16 @@
       "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/HOOKS",
       "children": 0
@@ -2637,12 +3118,17 @@
       "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "learning_count": 2,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/HYGIENE",
       "children": 0
@@ -2663,6 +3149,7 @@
       "roadmap_now": "Define INIT pipeline governance: 7-phase bootstrap contract (RESOLVE, SCAFFOLD, PROMOTE, VALIDATE, GALAXY, BUILD, CONSOLIDATION)",
       "learning_count": 4,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/INIT",
       "children": 0
@@ -2676,11 +3163,16 @@
       "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/OPERATIONS",
       "children": 1
@@ -2694,11 +3186,16 @@
       "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/RUNTIME",
       "children": 0
@@ -2712,13 +3209,18 @@
       "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "roadmap_now": "Govern TESTS scope with full TRIAD + SPEC",
       "learning_count": 1,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/TESTS",
       "children": 0
@@ -2737,6 +3239,7 @@
       "missing_dims": [],
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/VOCAB",
       "children": 0
@@ -2750,11 +3253,16 @@
       "parent": "canonic-canonic/MAGIC/TOOLCHAIN",
       "category": "ORG",
       "color": "#64748b",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/bin",
       "children": 0
@@ -2773,7 +3281,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/CATEGORIES",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN/COIN-SCHEMAS",
@@ -2789,7 +3298,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/COIN-SCHEMAS",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN/COIN",
@@ -2805,7 +3315,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/COIN",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN/COMPLIANCE",
@@ -2821,7 +3332,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/COMPLIANCE",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN/DEPS",
@@ -2837,7 +3349,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/DEPS",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN/ECON",
@@ -2853,7 +3366,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/ECON",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN/HTTP",
@@ -2869,7 +3383,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/HTTP",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN/PRIMITIVES",
@@ -2885,7 +3400,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/PRIMITIVES",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN/SURFACE",
@@ -2901,7 +3417,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/SURFACE",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN/TAG",
@@ -2917,7 +3434,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/TAG",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN/TAGS",
@@ -2933,7 +3451,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/TAGS",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN/WALLET",
@@ -2949,7 +3468,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/WALLET",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/TOOLCHAIN/WORKSPACE",
@@ -2965,7 +3485,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/WORKSPACE",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/USERS/DEXTER/VITAE",
@@ -2976,13 +3497,14 @@
       "parent": "canonic-canonic/USERS/DEXTER",
       "color": "#ec4899",
       "category": "SERVICES",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 255,
+      "tier": "FULL",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/DEXTER/VITAE",
       "children": 0,
-      "privacy": "PRIVATE"
+      "privacy": "PRIVATE",
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/USERS/FATIMA/VITAE",
@@ -2993,13 +3515,14 @@
       "parent": "canonic-canonic/USERS/FATIMA",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 253,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/FATIMA/VITAE",
       "children": 0,
-      "privacy": "PRIVATE"
+      "privacy": "PRIVATE",
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/USERS/ROBERT/VITAE",
@@ -3010,13 +3533,14 @@
       "parent": "canonic-canonic/USERS/ROBERT",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 247,
-      "tier": "COMMUNITY",
+      "bits": 253,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "USERS/ROBERT/VITAE",
       "children": 0,
-      "privacy": "PRIVATE"
+      "privacy": "PRIVATE",
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/INDUSTRIES/REGULATORY/LAW/PATENT",
@@ -3032,6 +3556,7 @@
       "missing_dims": [],
       "has_intel": false,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/REGULATORY/LAW/PATENT",
       "children": 0
@@ -3051,6 +3576,7 @@
       "has_intel": false,
       "roadmap_now": "Implement primary source verification for core credentials (medical license, DEA, NPI, board certification)",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/MEDICINE/credentialing",
       "children": 0
@@ -3070,6 +3596,7 @@
       "has_intel": false,
       "roadmap_now": "Implement mCODE profile conformance for core oncology data elements (CancerPatient, PrimaryCancerCondition, TNMStageGroup)",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/MEDICINE/oncology",
       "children": 1
@@ -3089,6 +3616,7 @@
       "has_intel": false,
       "roadmap_now": "Enforce DSM-5/ICD-11 diagnostic validity: symptom inventory, duration criteria, functional impairment",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/MEDICINE/psychiatry",
       "children": 0
@@ -3108,6 +3636,7 @@
       "has_intel": false,
       "roadmap_now": "Cite Pali CANON and Mahayana sutras for all doctrinal claims in CANON.md",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/buddhism",
       "children": 1
@@ -3127,6 +3656,7 @@
       "has_intel": false,
       "roadmap_now": "Cite scriptural and conciliar sources for all doctrinal claims across sub-traditions",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/christianity",
       "children": 5
@@ -3146,6 +3676,7 @@
       "has_intel": false,
       "roadmap_now": "Cite textual sources (shruti and smriti) for all doctrinal claims",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/hinduism",
       "children": 1
@@ -3165,6 +3696,7 @@
       "has_intel": false,
       "roadmap_now": "Cite Quranic ayah and authenticated hadith for all doctrinal claims",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/islam",
       "children": 3
@@ -3184,6 +3716,7 @@
       "has_intel": false,
       "roadmap_now": "Cite Torah, Talmud, and halakhic sources for all doctrinal claims",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/judaism",
       "children": 1
@@ -3203,6 +3736,7 @@
       "has_intel": false,
       "roadmap_now": "Cite Guru Granth Sahib and historical Guru teachings for all doctrinal claims",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/sikhism",
       "children": 0
@@ -3224,6 +3758,8 @@
       "has_intel": false,
       "roadmap_now": "gorunner.pro DNS stays on DEXTER Cloudflare \u2014 GOV_GEN owns infrastructure",
       "learning_count": 4,
+      "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/GALAXY/ORGS/RunnerMVP",
       "children": 0
@@ -3245,6 +3781,7 @@
       "has_intel": false,
       "roadmap_now": "ORG boundary declared and governed",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/GALAXY/ORGS/canonic-apple",
       "children": 0
@@ -3266,6 +3803,7 @@
       "has_intel": false,
       "roadmap_now": "ORG boundary declared and governed",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/GALAXY/ORGS/canonic-canonic",
       "children": 0
@@ -3287,6 +3825,7 @@
       "has_intel": false,
       "roadmap_now": "ORG boundary declared and governed",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/GALAXY/ORGS/hadleylab-canonic",
       "children": 0
@@ -3308,7 +3847,8 @@
       "category": "ORG",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "org:canonic-apple",
@@ -3327,7 +3867,8 @@
       "category": "ORG",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/SERVICES/LEDGER/ANCHOR",
@@ -3338,12 +3879,13 @@
       "parent": "canonic-canonic/MAGIC/SERVICES/LEDGER",
       "color": "#ff9f0a",
       "category": "COMMERCE",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 253,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/LEDGER/ANCHOR",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/SERVICES/LEDGER/FEDERATION",
@@ -3354,12 +3896,13 @@
       "parent": "canonic-canonic/MAGIC/SERVICES/LEDGER",
       "color": "#ff9f0a",
       "category": "COMMERCE",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 253,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/LEDGER/FEDERATION",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/SERVICES/LEDGER/VAULT",
@@ -3370,12 +3913,13 @@
       "parent": "canonic-canonic/MAGIC/SERVICES/LEDGER",
       "color": "#ff9f0a",
       "category": "COMMERCE",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 253,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/LEDGER/VAULT",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/SERVICES/LEDGER/WITNESS",
@@ -3386,12 +3930,13 @@
       "parent": "canonic-canonic/MAGIC/SERVICES/LEDGER",
       "color": "#ff9f0a",
       "category": "COMMERCE",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 253,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SERVICES/LEDGER/WITNESS",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/MAGIC/SURFACE/DESIGN/TALK",
@@ -3402,110 +3947,19 @@
       "parent": "canonic-canonic/MAGIC/SURFACE/DESIGN",
       "category": "SERVICES",
       "color": "#ec4899",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
+      "bits": 253,
+      "tier": "NONE",
+      "missing_dims": [
+        "E"
+      ],
       "has_intel": false,
+      "next_tier": "FULL",
+      "next_tier_gap": 2,
       "learning_count": 1,
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/SURFACE/DESIGN/TALK",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SURFACE/JEKYLL/BLOGS",
-      "kind": "SCOPE",
-      "label": "BLOGS",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SURFACE/JEKYLL/BLOGS",
-      "parent": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
-      "category": "CONTENT",
-      "color": "#a78bfa",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "Posts render via DESIGN theme `layout: post`",
-      "learning_count": 3,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SURFACE/JEKYLL/BLOGS",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SURFACE/JEKYLL/BOOKS",
-      "kind": "SCOPE",
-      "label": "BOOKS",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SURFACE/JEKYLL/BOOKS",
-      "parent": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
-      "category": "CONTENT",
-      "color": "#a78bfa",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "Books render via DESIGN theme `layout: book` (BOOK class extends PAPER)",
-      "learning_count": 4,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SURFACE/JEKYLL/BOOKS",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SURFACE/JEKYLL/DECKS",
-      "kind": "SCOPE",
-      "label": "DECKS",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SURFACE/JEKYLL/DECKS",
-      "parent": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
-      "category": "CONTENT",
-      "color": "#a78bfa",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "Deck directories render via DESIGN theme `layout: deck`",
-      "learning_count": 3,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SURFACE/JEKYLL/DECKS",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SURFACE/JEKYLL/PAPERS",
-      "kind": "SCOPE",
-      "label": "PAPERS",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SURFACE/JEKYLL/PAPERS",
-      "parent": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
-      "category": "GOVERNANCE",
-      "color": "#ffd60a",
-      "bits": 255,
-      "tier": "FULL",
-      "missing_dims": [],
-      "has_intel": false,
-      "roadmap_now": "Papers render via DESIGN theme `layout: post` with math enabled",
-      "learning_count": 4,
-      "coverage_score": 255,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SURFACE/JEKYLL/PAPERS",
-      "children": 0
-    },
-    {
-      "id": "canonic-canonic/MAGIC/SURFACE/JEKYLL/LAYOUTS",
-      "kind": "CONTENT",
-      "label": "LAYOUTS",
-      "repo": "canonic-canonic",
-      "path": "MAGIC/SURFACE/JEKYLL/LAYOUTS",
-      "parent": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
-      "color": "#64748b",
-      "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
-      "has_intel": false,
-      "surface_type": "JEKYLL_DEFAULT",
-      "fleet_path": "MAGIC/SURFACE/JEKYLL/LAYOUTS",
       "children": 0
     },
     {
@@ -3517,12 +3971,13 @@
       "parent": "canonic-canonic/MAGIC/TOOLCHAIN/OPERATIONS",
       "color": "#64748b",
       "category": "ORG",
-      "bits": 255,
-      "tier": "FULL",
+      "bits": 253,
+      "tier": "NONE",
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "MAGIC/TOOLCHAIN/OPERATIONS/FLEET",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/INDUSTRIES/VERTICALS/MEDICINE/oncology/breast",
@@ -3539,6 +3994,7 @@
       "has_intel": false,
       "roadmap_now": "Enforce BI-RADS classification with guideline citation for every imaging claim",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/MEDICINE/oncology/breast",
       "children": 0
@@ -3557,7 +4013,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/buddhism/BRANCHES",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/ancient",
@@ -3574,6 +4031,7 @@
       "has_intel": false,
       "roadmap_now": "Cite conciliar sources (Nicaea 325, Constantinople 381, Ephesus 431) for all doctrinal claims",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/christianity/ancient",
       "children": 0
@@ -3593,6 +4051,7 @@
       "has_intel": false,
       "roadmap_now": "Cite magisterial sources (councils, encyclicals, CCC) for all doctrinal claims",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/christianity/catholic",
       "children": 0
@@ -3612,6 +4071,7 @@
       "has_intel": false,
       "roadmap_now": "Cite conciliar and patristic sources for all doctrinal claims",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/christianity/orthodox",
       "children": 0
@@ -3631,6 +4091,7 @@
       "has_intel": false,
       "roadmap_now": "Cite confessional standards for all doctrinal claims (Augsburg, Westminster, 39 Articles, etc.)",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/christianity/protestant",
       "children": 0
@@ -3659,7 +4120,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/christianity/adventist",
-      "children": 1
+      "children": 1,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/hinduism/BRANCHES",
@@ -3675,7 +4137,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/hinduism/BRANCHES",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/islam/nation-of-islam",
@@ -3692,6 +4155,7 @@
       "has_intel": false,
       "roadmap_now": "Cite NOI sources (Elijah Muhammad, Farrakhan) for all doctrinal claims",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/islam/nation-of-islam",
       "children": 0
@@ -3711,6 +4175,7 @@
       "has_intel": false,
       "roadmap_now": "Cite Quran, hadith, and Imam teachings for all doctrinal claims",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/islam/shia",
       "children": 0
@@ -3730,6 +4195,7 @@
       "has_intel": false,
       "roadmap_now": "Cite Quran, authenticated hadith, and scholarly consensus for all doctrinal claims",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/islam/sunni",
       "children": 0
@@ -3748,7 +4214,8 @@
       "has_intel": false,
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/judaism/BRANCHES",
-      "children": 0
+      "children": 0,
+      "min_tier": "COMMUNITY"
     },
     {
       "id": "canonic-canonic/INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/sda",
@@ -3765,12 +4232,23 @@
       "has_intel": false,
       "roadmap_now": "Map 28 Fundamental Beliefs as declarative governance with Scripture citations",
       "coverage_score": 255,
+      "min_tier": "COMMUNITY",
       "surface_type": "JEKYLL_DEFAULT",
       "fleet_path": "INDUSTRIES/VERTICALS/RELIGION/christianity/adventist/sda",
       "children": 0
     }
   ],
   "edges": [
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/FEDERATIONS/hadleylab",
+      "to": "canonic-canonic/MAGIC/SERVICES/FEDERATION"
+    },
+    {
+      "kind": "INHERITS",
+      "from": "canonic-canonic/FEDERATIONS/runner",
+      "to": "canonic-canonic/MAGIC/SERVICES/FEDERATION"
+    },
     {
       "kind": "INHERITS",
       "from": "canonic-canonic/FOUNDATION/PROGRAMMING/swift",
@@ -3813,16 +4291,6 @@
     },
     {
       "kind": "INHERITS",
-      "from": "canonic-canonic/MAGIC/SURFACE/DESIGN",
-      "to": "canonic-canonic/MAGIC/SURFACE/JEKYLL"
-    },
-    {
-      "kind": "INHERITS",
-      "from": "canonic-canonic/MAGIC/SURFACE/DESIGN-theme",
-      "to": "canonic-canonic/MAGIC/SURFACE/JEKYLL"
-    },
-    {
-      "kind": "INHERITS",
       "from": "canonic-canonic/USERS/DEXTER",
       "to": "canonic-canonic/MAGIC"
     },
@@ -3835,6 +4303,26 @@
       "kind": "INHERITS",
       "from": "canonic-canonic/USERS/ROBERT",
       "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "DOMAINS",
+      "from": "org:RunnerMVP",
+      "to": "canonic-canonic/INDUSTRIES/VERTICALS/REAL_ESTATE"
+    },
+    {
+      "kind": "DOMAINS",
+      "from": "org:canonic-apple",
+      "to": "canonic-canonic/INDUSTRIES/HORIZONTAL/SAFETY"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/FEDERATIONS/hadleylab",
+      "to": "canonic-canonic/FEDERATIONS"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/FEDERATIONS/runner",
+      "to": "canonic-canonic/FEDERATIONS"
     },
     {
       "kind": "PARENT",
@@ -3913,13 +4401,13 @@
     },
     {
       "kind": "PARENT",
-      "from": "canonic-canonic/INDUSTRIES/REGULATORY/BLOCKCHAIN",
-      "to": "canonic-canonic/INDUSTRIES/REGULATORY"
+      "from": "canonic-canonic/INDUSTRIES/REGULATORY",
+      "to": "canonic-canonic/INDUSTRIES"
     },
     {
       "kind": "PARENT",
-      "from": "canonic-canonic/INDUSTRIES/REGULATORY",
-      "to": "canonic-canonic/INDUSTRIES"
+      "from": "canonic-canonic/INDUSTRIES/REGULATORY/BLOCKCHAIN",
+      "to": "canonic-canonic/INDUSTRIES/REGULATORY"
     },
     {
       "kind": "PARENT",
@@ -3943,6 +4431,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "canonic-canonic/INDUSTRIES/VERTICALS",
+      "to": "canonic-canonic/INDUSTRIES"
+    },
+    {
+      "kind": "PARENT",
       "from": "canonic-canonic/INDUSTRIES/VERTICALS/AEROSPACE",
       "to": "canonic-canonic/INDUSTRIES/VERTICALS"
     },
@@ -3955,11 +4448,6 @@
       "kind": "PARENT",
       "from": "canonic-canonic/INDUSTRIES/VERTICALS/AUTOMOTIVE",
       "to": "canonic-canonic/INDUSTRIES/VERTICALS"
-    },
-    {
-      "kind": "PARENT",
-      "from": "canonic-canonic/INDUSTRIES/VERTICALS",
-      "to": "canonic-canonic/INDUSTRIES"
     },
     {
       "kind": "PARENT",
@@ -4208,6 +4696,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
       "from": "canonic-canonic/MAGIC/SERVICES/API",
       "to": "canonic-canonic/MAGIC/SERVICES"
     },
@@ -4240,11 +4733,6 @@
       "kind": "PARENT",
       "from": "canonic-canonic/MAGIC/SERVICES/CAMPAIGN",
       "to": "canonic-canonic/MAGIC/SERVICES"
-    },
-    {
-      "kind": "PARENT",
-      "from": "canonic-canonic/MAGIC/SERVICES",
-      "to": "canonic-canonic/MAGIC"
     },
     {
       "kind": "PARENT",
@@ -4283,6 +4771,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/DEBUG",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
       "from": "canonic-canonic/MAGIC/SERVICES/DECK",
       "to": "canonic-canonic/MAGIC/SERVICES"
     },
@@ -4309,6 +4802,11 @@
     {
       "kind": "PARENT",
       "from": "canonic-canonic/MAGIC/SERVICES/DOMAINS",
+      "to": "canonic-canonic/MAGIC/SERVICES"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SERVICES/FEDERATION",
       "to": "canonic-canonic/MAGIC/SERVICES"
     },
     {
@@ -4468,6 +4966,11 @@
     },
     {
       "kind": "PARENT",
+      "from": "canonic-canonic/MAGIC/SURFACE",
+      "to": "canonic-canonic/MAGIC"
+    },
+    {
+      "kind": "PARENT",
       "from": "canonic-canonic/MAGIC/SURFACE/ANDROID",
       "to": "canonic-canonic/MAGIC/SURFACE"
     },
@@ -4475,11 +4978,6 @@
       "kind": "PARENT",
       "from": "canonic-canonic/MAGIC/SURFACE/APPLE",
       "to": "canonic-canonic/MAGIC/SURFACE"
-    },
-    {
-      "kind": "PARENT",
-      "from": "canonic-canonic/MAGIC/SURFACE",
-      "to": "canonic-canonic/MAGIC"
     },
     {
       "kind": "PARENT",
@@ -4493,38 +4991,13 @@
     },
     {
       "kind": "PARENT",
-      "from": "canonic-canonic/MAGIC/SURFACE/DESIGN/TALK",
-      "to": "canonic-canonic/MAGIC/SURFACE/DESIGN"
-    },
-    {
-      "kind": "PARENT",
       "from": "canonic-canonic/MAGIC/SURFACE/DESIGN-theme",
       "to": "canonic-canonic/MAGIC/SURFACE"
     },
     {
       "kind": "PARENT",
-      "from": "canonic-canonic/MAGIC/SURFACE/JEKYLL/BLOGS",
-      "to": "canonic-canonic/MAGIC/SURFACE/JEKYLL"
-    },
-    {
-      "kind": "PARENT",
-      "from": "canonic-canonic/MAGIC/SURFACE/JEKYLL/BOOKS",
-      "to": "canonic-canonic/MAGIC/SURFACE/JEKYLL"
-    },
-    {
-      "kind": "PARENT",
-      "from": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
-      "to": "canonic-canonic/MAGIC/SURFACE"
-    },
-    {
-      "kind": "PARENT",
-      "from": "canonic-canonic/MAGIC/SURFACE/JEKYLL/DECKS",
-      "to": "canonic-canonic/MAGIC/SURFACE/JEKYLL"
-    },
-    {
-      "kind": "PARENT",
-      "from": "canonic-canonic/MAGIC/SURFACE/JEKYLL/PAPERS",
-      "to": "canonic-canonic/MAGIC/SURFACE/JEKYLL"
+      "from": "canonic-canonic/MAGIC/SURFACE/DESIGN/TALK",
+      "to": "canonic-canonic/MAGIC/SURFACE/DESIGN"
     },
     {
       "kind": "PARENT",
@@ -4753,11 +5226,6 @@
     },
     {
       "kind": "PARENT",
-      "from": "canonic-canonic/MAGIC/SURFACE/JEKYLL/LAYOUTS",
-      "to": "canonic-canonic/MAGIC/SURFACE/JEKYLL"
-    },
-    {
-      "kind": "PARENT",
       "from": "canonic-canonic/MAGIC/TOOLCHAIN/CATEGORIES",
       "to": "canonic-canonic/MAGIC/TOOLCHAIN"
     },
@@ -4840,6 +5308,11 @@
       "kind": "PARENT",
       "from": "canonic-canonic/USERS/ROBERT/VITAE",
       "to": "canonic-canonic/USERS/ROBERT"
+    },
+    {
+      "kind": "PARENT",
+      "from": "canonic-canonic/FEDERATIONS",
+      "to": "canonic-canonic"
     },
     {
       "kind": "PARENT",

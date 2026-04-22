@@ -2,7 +2,7 @@
 layout: default
 scope: CONFIG
 title: "CONFIG"
-description: "CONFIG = INTEL. Runtime configuration. Zero hardcoding."
+description: "CONFIG is INTEL applied to runtime — configuration is governed knowledge, zero hardcoding."
 footerTagline: "CONFIG"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: CONFIG
   title: "CONFIG"
-  description: "CONFIG = INTEL. Runtime configuration. Zero hardcoding."
+  description: "CONFIG is INTEL applied to runtime — configuration is governed knowledge, zero hardcoding."
   cta:
     - label: "Open CONFIG"
       href: /MAGIC/TOOLCHAIN/CONFIG/
@@ -28,14 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-```
-service    = CONFIG
-primitive  = INTEL
-function   = CONFIGURE
-```
-
----
-
+- **CONFIG_IS_INTEL** — runtime configuration is the INTEL primitive applied to runtime; the configure function reads from governed sources.
+- **ZERO_HARDCODING** — no configuration is hardcoded; every value resolves from GOV at runtime.
+- **CONFIG_IS_SERVICE** — CONFIG is a TOOLCHAIN service whose function is CONFIGURE; other tools consume its resolved output.
 ## Constraints
 
 ```

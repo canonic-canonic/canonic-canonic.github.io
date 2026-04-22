@@ -2,7 +2,7 @@
 layout: default
 scope: PRIMITIVES
 title: "PRIMITIVES"
-description: "INTEL, COIN, and TALK are the three native primitives of the GALAXY operating surface."
+description: "INTEL, COIN, and TALK are the three native GALAXY primitives — not plugins, but pillars every scope composes."
 footerTagline: "PRIMITIVES"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: PRIMITIVES
   title: "PRIMITIVES"
-  description: "INTEL, COIN, and TALK are the three native primitives of the GALAXY operating surface."
+  description: "INTEL, COIN, and TALK are the three native GALAXY primitives — not plugins, but pillars every scope composes."
   cta:
     - label: "Open PRIMITIVES"
       href: /MAGIC/GALAXY/PRIMITIVES/
@@ -28,6 +28,11 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **PRIMITIVES_ARE_NATIVE** — the three primitives are native to the operating surface; they are not plugins or sidebars bolted onto a graph.
+- **EVERY_SCOPE_COMPOSES_THREE** — every scope composes all three primitives and all three update contextually when the user navigates.
+- **INTEL_IS_KNOWLEDGE** — INTEL renders scope intelligence (summary, LEARNING, ROADMAP, COVERAGE) and is actionable, surfacing coverage gaps and ROADMAP status.
+- **COIN_TRACKS_ECONOMY** — COIN shows wallet balance always and scope-level economy in context, with a transaction feed dropdown.
+- **TALK_IS_CONVERSATION** — TALK is a dual-mode dock at bottom-center supporting search and conversation, toggled by prefix.
 ## Constraints
 
 ```
@@ -50,25 +55,5 @@ MUST NOT: Render primitives as separate pages (they compose in the operating sur
 MUST NOT: Allow TALK editing without authenticated session with write permission
 MUST NOT: Bypass build pipeline for governance mutations (TALK edits trigger rebuild)
 ```
-
-## Primitive Composition
-
-```
-Navigate to scope → INTEL updates (that scope's intelligence)
-                   → COIN updates (that scope's economy)
-                   → TALK context updates (that scope's CANON in system prompt)
-
-TALK edit command  → Worker executes governed operation
-                   → COIN ledger records CONTRIBUTE event
-                   → Build pipeline triggers galaxy regeneration
-                   → Frontend hot-reloads with new scope visible
-
-INTEL gap found    → "Fix" button opens TALK with prompt
-                   → User describes fix in conversation
-                   → TALK creates governance artifact
-                   → Gap closes on next build
-```
-
----
 
 *PRIMITIVES | CANON | GALAXY*

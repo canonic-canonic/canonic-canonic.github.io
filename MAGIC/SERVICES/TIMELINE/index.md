@@ -2,7 +2,7 @@
 layout: default
 scope: TIMELINE
 title: "TIMELINE"
-description: "TIMELINE is the temporal index of the galaxy. Every governed event timestamped. Every lane joined. Every source immutable."
+description: "TIMELINE is the temporal index of the galaxy — every governed event timestamped, every lane joined, every source immutable."
 footerTagline: "TIMELINE"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: TIMELINE
   title: "TIMELINE"
-  description: "TIMELINE is the temporal index of the galaxy. Every governed event timestamped. Every lane joined. Every source immutable."
+  description: "TIMELINE is the temporal index of the galaxy — every governed event timestamped, every lane joined, every source immutable."
   cta:
     - label: "Open TIMELINE"
       href: /MAGIC/SERVICES/TIMELINE/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **EVERY_EVENT_TIMESTAMPED** — every governed event is timestamped; ungoverned events never enter the timeline.
+- **LANES_JOINED** — all event lanes join into a unified timeline; the JOIN is the timeline's function.
+- **SOURCE_IMMUTABLE** — source records are immutable; historical timeline entries never mutate.
 ## Constraints
 
 ```

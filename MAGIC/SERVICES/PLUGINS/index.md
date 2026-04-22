@@ -2,7 +2,7 @@
 layout: default
 scope: PLUGINS
 title: "PLUGINS"
-description: "PLUGINS are composable client-side extensions. One plugin, one concern. Channels compose."
+description: "PLUGINS are composable client-side extensions — one plugin one concern, channels compose, no ungoverned plugins in production."
 footerTagline: "PLUGINS"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: PLUGINS
   title: "PLUGINS"
-  description: "PLUGINS are composable client-side extensions. One plugin, one concern. Channels compose."
+  description: "PLUGINS are composable client-side extensions — one plugin one concern, channels compose, no ungoverned plugins in production."
   cta:
     - label: "Open PLUGINS"
       href: /MAGIC/SERVICES/PLUGINS/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **ONE_PLUGIN_ONE_CONCERN** — each plugin has a single responsibility; bundling concerns is disallowed.
+- **CHANNELS_COMPOSE** — plugins compose through the channel architecture and never cross plugin boundaries directly.
+- **MANIFEST_IS_GOVERNED** — every active plugin is listed in a governed manifest; ungoverned plugins never reach production.
 ## Constraints
 
 ```

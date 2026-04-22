@@ -2,7 +2,7 @@
 layout: default
 scope: CONTACTS
 title: "CONTACTS"
-description: "CONTACTS is the resolution spine. Every identifier resolves to a node. Every node carries INTEL. Every service resolves through CONTACTS."
+description: "CONTACTS is the resolution spine — every identifier resolves to a node, every node carries INTEL, every service resolves through CONTACTS."
 footerTagline: "CONTACTS"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: CONTACTS
   title: "CONTACTS"
-  description: "CONTACTS is the resolution spine. Every identifier resolves to a node. Every node carries INTEL. Every service resolves through CONTACTS."
+  description: "CONTACTS is the resolution spine — every identifier resolves to a node, every node carries INTEL, every service resolves through CONTACTS."
   cta:
     - label: "Open CONTACTS"
       href: /MAGIC/SERVICES/CONTACTS/
@@ -28,6 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **IDENTIFIER_RESOLVES_TO_NODE** — email, phone, and name all resolve to a governed node through the CONTACTS resolution index.
+- **RESOLUTION_API_SHARED** — CONTACTS provides the resolution API for CALENDAR, TRANSCRIPT, and messaging services; all of them resolve through here.
+- **FUZZY_MATCH_NOT_DROP** — unmatched contacts resolve to candidate nodes via fuzzy match rather than being silently dropped.
+- **PRIVATE_DATA_AUTH_GATED** — private contact data is auth-gated and cross-referenced against governed USERS identity.
 ## Constraints
 
 ```

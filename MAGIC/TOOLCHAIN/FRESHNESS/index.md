@@ -2,7 +2,7 @@
 layout: default
 scope: FRESHNESS
 title: "FRESHNESS"
-description: "Unchanged sources produce identical outputs. Skip the work. Trust the cache."
+description: "FRESHNESS is deterministic caching — unchanged sources produce identical outputs, skip the work, trust the cache."
 footerTagline: "FRESHNESS"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: FRESHNESS
   title: "FRESHNESS"
-  description: "Unchanged sources produce identical outputs. Skip the work. Trust the cache."
+  description: "FRESHNESS is deterministic caching — unchanged sources produce identical outputs, skip the work, trust the cache."
   cta:
     - label: "Open FRESHNESS"
       href: /MAGIC/TOOLCHAIN/FRESHNESS/
@@ -28,14 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-```
-service    = FRESHNESS
-primitive  = INTEL
-function   = CACHE
-```
-
----
-
+- **DETERMINISTIC_OUTPUTS** — the compiler must produce identical output for unchanged sources; the cache encodes this determinism.
+- **SKIP_WHEN_CLEAN** — when sources are unchanged, the work is skipped and the cached output is served; no redundant recompilation.
+- **FRESHNESS_IS_SERVICE** — FRESHNESS is a TOOLCHAIN service whose function is CACHE; the primitive is INTEL (what the compiler knows about source state).
 ## Constraints
 
 ```

@@ -2,7 +2,7 @@
 layout: default
 scope: PROGRAMMING
 title: "PROGRAMMING"
-description: "DEV — programming language implementations."
+description: "PROGRAMMING hosts the language runtimes — all compliant, all neofunctionalized from a shared INTEL family."
 footerTagline: "PROGRAMMING"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: PROGRAMMING
   title: "PROGRAMMING"
-  description: "DEV — programming language implementations."
+  description: "PROGRAMMING hosts the language runtimes — all compliant, all neofunctionalized from a shared INTEL family."
   cta:
     - label: "Open PROGRAMMING"
       href: /FOUNDATION/PROGRAMMING/
@@ -28,12 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-RUNTIME_FAMILY = INTEL (Neofunctionalization)
-
-All runtimes compliant
-
----
-
+- **DEV_IS_RUNTIMES** — programming-language implementations live here; each language is a peer runtime under a shared inherits chain.
+- **RUNTIME_FAMILY_IS_INTEL** — all runtimes descend from the INTEL family by neofunctionalization, not by independent reinvention.
+- **ALL_RUNTIMES_COMPLIANT** — every runtime validates through the magic binary; no runtime ships below 255.
 ## Constraints
 
 1. MUST maintain inherits: chain for all language implementations

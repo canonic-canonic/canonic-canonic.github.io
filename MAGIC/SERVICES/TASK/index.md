@@ -2,7 +2,7 @@
 layout: default
 scope: TASK
 title: "TASK"
-description: "TASK governs the remote agent fleet. Every scheduled agent is a governed scope. Every poll is ledgered. Every alert is evidence."
+description: "TASK governs the remote agent fleet — every scheduled agent a governed scope, every poll ledgered, every alert evidence."
 footerTagline: "TASK"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: TASK
   title: "TASK"
-  description: "TASK governs the remote agent fleet. Every scheduled agent is a governed scope. Every poll is ledgered. Every alert is evidence."
+  description: "TASK governs the remote agent fleet — every scheduled agent a governed scope, every poll ledgered, every alert evidence."
   cta:
     - label: "Open TASK"
       href: /MAGIC/SERVICES/TASK/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **AGENT_IS_SCOPE** — every scheduled agent is a governed scope declared via `## TASK Contract` in service CANON.md; discovery compiles into the registry.
+- **RECONCILE_AGAINST_RUNTIME** — compiled triggers reconcile against runtime state; budget controls enforce minimum intervals per agent.
+- **READ_ONLY_BY_DEFAULT** — agents are read-only unless the TASK Contract explicitly declares write scope.
 ## Constraints
 
 ```

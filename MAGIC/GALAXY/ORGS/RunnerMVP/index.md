@@ -2,7 +2,7 @@
 layout: default
 scope: RunnerMVP
 title: "RunnerMVP"
-description: "RUNNER is the real estate task marketplace. Post a task. A pro handles it. Every effort earns COIN. Robert Glover is GOVERNOR. Dexter Hadley is GOVERNOR_GENERAL."
+description: "RUNNER is the real-estate task marketplace — post a task, a pro handles it, every effort earns COIN."
 footerTagline: "RunnerMVP"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: RunnerMVP
   title: "RunnerMVP"
-  description: "RUNNER is the real estate task marketplace. Post a task. A pro handles it. Every effort earns COIN. Robert Glover is GOVERNOR. Dexter Hadley is GOVERNOR_GENERAL."
+  description: "RUNNER is the real-estate task marketplace — post a task, a pro handles it, every effort earns COIN."
   cta:
     - label: "Open RunnerMVP"
       href: /MAGIC/GALAXY/ORGS/RunnerMVP/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **TASK_IS_MARKET** — RUNNER governs a real-estate task marketplace where posting is the demand surface and pros are the supply surface.
+- **EFFORT_EARNS_COIN** — every effort is recorded and earns COIN; compensation is governed, not negotiated ad hoc.
+- **GOVERNANCE_IS_TIERED** — Robert Glover is GOVERNOR and Dexter Hadley is GOVERNOR_GENERAL; ORG scope and domains are declared in this CANON.
 ## Constraints
 
 ```

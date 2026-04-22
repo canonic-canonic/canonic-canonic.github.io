@@ -2,7 +2,7 @@
 layout: default
 scope: APPLE
 title: "APPLE"
-description: "MAGIC on Apple is native, governed, fast."
+description: "MAGIC on Apple is native, governed, fast — a 1:1 projection of the web surface rendered in SwiftUI."
 footerTagline: "APPLE"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: APPLE
   title: "APPLE"
-  description: "MAGIC on Apple is native, governed, fast."
+  description: "MAGIC on Apple is native, governed, fast — a 1:1 projection of the web surface rendered in SwiftUI."
   cta:
     - label: "Open APPLE"
       href: /MAGIC/SURFACE/APPLE/
@@ -28,11 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-The iOS/Mac surface is a 1:1 projection of the web surface: same GOV, same lanes, same outcomes.
-Rendering is native SwiftUI. Governance is compiled upstream. API layer is shared.
-
----
-
+- **APPLE_IS_NATIVE** — rendering is pure SwiftUI; no WebView bridges, no Electron.
+- **ONE_TO_ONE_WITH_WEB** — the iOS/Mac surface is a 1:1 projection of the web surface (same GOV, same lanes, same outcomes).
+- **GOVERNANCE_COMPILED_UPSTREAM** — governance is compiled upstream and the API layer is shared across all platform surfaces.
 ## Constraints
 
 ```

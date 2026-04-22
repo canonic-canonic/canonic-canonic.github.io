@@ -2,7 +2,7 @@
 layout: default
 scope: DECKS
 title: "DECKS"
-description: "DECKS are governed presentation artifacts. Every pitch is a CANON-named scope."
+description: "DECKS are governed presentation artifacts — every pitch a CANON-named scope, content mapped to governed services and evidence."
 footerTagline: "DECKS"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: DECKS
   title: "DECKS"
-  description: "DECKS are governed presentation artifacts. Every pitch is a CANON-named scope."
+  description: "DECKS are governed presentation artifacts — every pitch a CANON-named scope, content mapped to governed services and evidence."
   cta:
     - label: "Open DECKS"
       href: /MAGIC/SURFACE/JEKYLL/DECKS/
@@ -28,10 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-DECKS project governance into pitch format. Each deck is a directory — CANON names the audience, content maps to governed services and evidence. Archives live in git history + runtime.
-
----
-
+- **PITCH_IS_SCOPE** — every deck is a named directory; CANON names the audience and the audience IS the scope name.
+- **CONTENT_IS_GOVERNED** — deck content maps to governed services and evidence; each deck directory contains `{DECK}.json` as compiled slide data.
+- **ARCHIVES_IN_GIT_PLUS_RUNTIME** — deck archives live in git history and runtime state; DECKS project governance into pitch format with no hand-curated archive.
 ## Constraints
 
 ```

@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "ONBOARDING",
-    "description": "ONBOARDING is the contributor entry point. One runbook. Ten minutes. Your first governed scope.",
+    "description": "ONBOARDING is the contributor entry point — one runbook, ten minutes, your first governed scope.",
     "cta": [
       {
         "label": "Open ONBOARDING",
@@ -217,7 +217,7 @@
   },
   "footerTagline": "ONBOARDING | CANONIC",
   "canon": {
-    "axiom": "ONBOARDING is the contributor entry point. One runbook. Ten minutes. Your first governed scope.",
+    "axiom": "ONBOARDING is the contributor entry point — one runbook, ten minutes, your first governed scope.",
     "constraints": "MUST:     Use magic heal to scaffold — never hand-create TRIAD files\nMUST:     Validate every new scope with magic validate before committing\nMUST:     Follow the runbook in ONBOARDING.md step-by-step\nMUST NOT: Skip validation (255 or reject)\nMUST NOT: Hardcode paths — use discovery commands",
     "inherits": "canonic-canonic/FOUNDATION",
     "spec": [
@@ -276,15 +276,15 @@
     },
     "vocab": [
       {
-        "term": "TRIAD",
-        "definition": "The three required files: CANON.md + VOCAB.md + README.md"
+        "term": "ONBOARDING",
+        "definition": "New concept: ONBOARDING"
       }
     ],
     "chain": [
       {
         "scope": "FOUNDATION",
-        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
-        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+        "axiom": "FOUNDATION defines the LANGUAGE — three axioms, compiler correspondence, the paper proves itself.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition\nMUST: New constraint: MUST: Surface FOUNDATION thesis, axioms, and programming correspondence from governed content\nMUST: New constraint: MUST: Declare governance.\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every tier must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these axioms"
       }
     ]
   }

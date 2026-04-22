@@ -20,5 +20,27 @@ Primitives compose in the operating surface. INTEL surfaces knowledge (what the 
 
 ---
 
+---
+
+## Primitive Composition
+
+```
+Navigate to scope → INTEL updates (that scope's intelligence)
+                   → COIN updates (that scope's economy)
+                   → TALK context updates (that scope's CANON in system prompt)
+
+TALK edit command  → Worker executes governed operation
+                   → COIN ledger records CONTRIBUTE event
+                   → Build pipeline triggers galaxy regeneration
+                   → Frontend hot-reloads with new scope visible
+
+INTEL gap found    → "Fix" button opens TALK with prompt
+                   → User describes fix in conversation
+                   → TALK creates governance artifact
+                   → Gap closes on next build
+```
+
+---
+
 *PRIMITIVES | canonic-canonic/MAGIC/GALAXY/PRIMITIVES*
 <!-- _generated: build-surfaces -->

@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "LEDGER",
-    "description": "LEDGER is the append-only truth. Every economic event recorded. No erasure.",
+    "description": "LEDGER is the append-only truth — every economic event recorded, hash-chain intact, no erasure, every record projects to LEARNING.",
     "cta": [
       {
         "label": "Open LEDGER",
@@ -46,9 +46,9 @@
         {
           "metric": {
             "label": "MAGIC",
-            "value": "255/255",
-            "change": "FULL",
-            "trend": "up"
+            "value": "253/255",
+            "change": "NONE",
+            "trend": "neutral"
           }
         },
         {
@@ -65,6 +65,14 @@
             "value": "4",
             "change": "scopes",
             "trend": "neutral"
+          }
+        },
+        {
+          "metric": {
+            "label": "GAPS",
+            "value": "1",
+            "change": "E",
+            "trend": "down"
           }
         }
       ]
@@ -83,26 +91,6 @@
               "Pattern"
             ],
             "rows": [
-              [
-                "2026-02-19",
-                "LEDGER promoted to flat service peer",
-                "Epoch 2 flatten: LEDGER moved from VAULT child to flat SERVICES peer alongside C"
-              ],
-              [
-                "2026-03-10",
-                "FEDERATION_GOVERNED",
-                "Federation topology governs distributed witness network — peers discovered from "
-              ],
-              [
-                "2026-03-10",
-                "WITNESS_PROTOCOL_SHIPPED",
-                "Cross-ORG DIGEST + WITNESS countersigning protocol — Ed25519 signed, 2-of-N thre"
-              ],
-              [
-                "2026-03-10",
-                "ANCHOR_DEFERRED",
-                "Bitcoin OP_RETURN anchoring governed but deferred until 5+ independent ORGs witn"
-              ],
               [
                 "2026-03-10",
                 "NATURAL_ONBOARDING",
@@ -196,6 +184,14 @@
             "Bitcoin OP_RETURN Merkle root",
             "ANCHOR_BROADCAST",
             "btc_txid"
+          ],
+          [
+            "FEDERATION",
+            "Federation registry lifecycle",
+            "FEDERATION_REGISTERED \\",
+            "FEDERATION_GRADUATED \\",
+            "SCOPE_GRADUATED",
+            "registry commit hash"
           ]
         ]
       }
@@ -204,7 +200,7 @@
       "id": "canon-intel-projection",
       "eyebrow": "INTEL PROJECTION",
       "title": "INTEL Projection",
-      "description": "Every LEDGER record MUST project to INTEL via LEARNING:\n\n``\nLEDGER entry → LEARNING.md pattern row:\n  Date | Signal | Pattern | Source\n\nSignal derived from type:\n  GRADIENT    → GOVERNANCE_DELTA\n  TALK        → SESSION_LEDGERED\n  CONTRIBUTE  → CONTRIBUTION_RECEIVED\n  EMAIL       → CORRESPONDENCE_SENT\n  PROVISION   → INFRASTRUCTURE_PROVISIONED\n  SHOP        → PAYMENT_RECEIVED\n  AUTH        → AUTH_EVENT\n  OMICS       → OMICS_QUERY\n  DIGEST      → DIGEST_PUBLISHED\n  WITNESS     → WITNESS_RECORDED\n  ANCHOR      → ANCHOR_BROADCAST\n``"
+      "description": "Every LEDGER record MUST project to INTEL via LEARNING:\n\n``\nLEDGER entry → LEARNING.md pattern row:\n  Date | Signal | Pattern | Source\n\nSignal derived from type:\n  GRADIENT    → GOVERNANCE_DELTA\n  TALK        → SESSION_LEDGERED\n  CONTRIBUTE  → CONTRIBUTION_RECEIVED\n  EMAIL       → CORRESPONDENCE_SENT\n  PROVISION   → INFRASTRUCTURE_PROVISIONED\n  SHOP        → PAYMENT_RECEIVED\n  AUTH        → AUTH_EVENT\n  OMICS       → OMICS_QUERY\n  DIGEST      → DIGEST_PUBLISHED\n  WITNESS     → WITNESS_RECORDED\n  ANCHOR      → ANCHOR_BROADCAST\n  FEDERATION  → FEDERATION_REGISTERED | FEDERATION_GRADUATED | SCOPE_GRADUATED\n``"
     },
     {
       "id": "canon-integrity",
@@ -216,7 +212,7 @@
       "id": "canon-interface",
       "eyebrow": "INTERFACE",
       "title": "Interface",
-      "description": "``\nINPUT:\n    Economic events from all services:\n      GRADIENT    — governance score delta (git commit)\n      TALK        — conversation turn (session transcript)\n      CONTRIBUTE  — external work submission\n      EMAIL       — correspondence sent (Resend)\n      PROVISION   — infrastructure provisioned\n      SHOP        — Stripe payment event\n      AUTH        — login/logout/grant/deny\n      OMICS       — proxy query to upstream source\n      DIRECTIVE   — GOV binding instruction via CHAT\n      DEAL        — GOV transaction approval via CHAT\n      VETO        — GOV rejection via CHAT\n      POLICY      — GOV policy decision via CHAT\n\nOUTPUT:\n    Append-only .idf chain:\n      id:         SHA-256 content address\n      prev:       chain pointer to previous record\n      ts:         nanosecond timestamp\n      type:       GRADIENT | TALK | CONTRIBUTE | EMAIL | PROVISION | SHOP | AUTH | OMICS | DIRECTIVE | DEAL | VETO | POLICY | DIGEST | WITNESS | ANCHOR\n      key:        domain/repo/scope key\n      scope:      governed scope where event originated\n      from_bits:  int 0..255\n      to_bits:    int 0..255\n      gradient:   to_bits - from_bits\n      inventor:   actor / producer label\n      work_ref:   provenance anchor (trace_id, contribution_id, resend_id, commit hash)\n\nINTEL PROJECTION:\n    Every LEDGER entry → LEARNING.md pattern row:\n      Date | Signal | Pattern | Source\n    Signal derived from type (GOVERNANCE_DELTA, SESSION_LEDGERED, etc.)\n\nINTEGRITY:\n    Chain-verifiable (hash includes prev)\n    Append-only (no in-place edits)\n    Independent verification without secrets\n``\n\n*LEDGER | SPEC | SERVICES*"
+      "description": "``\nINPUT:\n    Economic events from all services:\n      GRADIENT    — governance score delta (git commit)\n      TALK        — conversation turn (session transcript)\n      CONTRIBUTE  — external work submission\n      EMAIL       — correspondence sent (Resend)\n      PROVISION   — infrastructure provisioned\n      SHOP        — Stripe payment event\n      AUTH        — login/logout/grant/deny\n      OMICS       — proxy query to upstream source\n      DIRECTIVE   — GOV binding instruction via CHAT\n      DEAL        — GOV transaction approval via CHAT\n      VETO        — GOV rejection via CHAT\n      POLICY      — GOV policy decision via CHAT\n\nOUTPUT:\n    Append-only .idf chain:\n      id:         SHA-256 content address\n      prev:       chain pointer to previous record\n      ts:         nanosecond timestamp\n      type:       GRADIENT | TALK | CONTRIBUTE | EMAIL | PROVISION | SHOP | AUTH | OMICS | DIRECTIVE | DEAL | VETO | POLICY | DIGEST | WITNESS | ANCHOR | FEDERATION\n      key:        domain/repo/scope key\n      scope:      governed scope where event originated\n      from_bits:  int 0..255\n      to_bits:    int 0..255\n      gradient:   to_bits - from_bits\n      inventor:   actor / producer label\n      work_ref:   provenance anchor (trace_id, contribution_id, resend_id, commit hash)\n\nINTEL PROJECTION:\n    Every LEDGER entry → LEARNING.md pattern row:\n      Date | Signal | Pattern | Source\n    Signal derived from type (GOVERNANCE_DELTA, SESSION_LEDGERED, etc.)\n\nINTEGRITY:\n    Chain-verifiable (hash includes prev)\n    Append-only (no in-place edits)\n    Independent verification without secrets\n``\n\n*LEDGER | SPEC | SERVICES*"
     }
   ],
   "_generated": {
@@ -225,7 +221,7 @@
   },
   "footerTagline": "LEDGER | CANONIC",
   "canon": {
-    "axiom": "LEDGER is the append-only truth. Every economic event recorded. No erasure.",
+    "axiom": "LEDGER is the append-only truth — every economic event recorded, hash-chain intact, no erasure, every record projects to LEARNING.",
     "constraints": "MUST:     Record all economic events with timestamps\nMUST:     Maintain hash-chain integrity\nMUST:     Every ledger record is INTEL — project to scope LEARNING on ingestion\nMUST:     Backpropagate patterns — LEARNING.md accumulates gradients from LEDGER\nMUST NOT: Allow retroactive modification of ledgered events\nMUST NOT: Ingest without INTEL projection — every record becomes knowledge",
     "inherits": "canonic-canonic/MAGIC/SERVICES",
     "spec": [
@@ -239,11 +235,11 @@
       },
       {
         "title": "Stream Types",
-        "body": "| Type | Source | Signal | Provenance |\n|------|--------|--------|-----------|\n| GRADIENT | Governance score delta | GOVERNANCE_DELTA | commit hash |\n| TALK | Conversation turn | SESSION_LEDGERED | trace_id |\n| CONTRIBUTE | External work submission | CONTRIBUTION_RECEIVED | contribution id |\n| EMAIL | Correspondence sent | CORRESPONDENCE_SENT | resend_id |\n| PROVISION | Infrastructure provisioned | INFRASTRUCTURE_PROVISIONED | provider record |\n| SHOP | Stripe payment event | PAYMENT_RECEIVED | stripe_event_id |\n| AUTH | Login/logout/grant/deny | AUTH_EVENT | session_id |\n| OMICS | Proxy query to upstream source | OMICS_QUERY | query timestamp |\n| DIGEST | ORG LEDGER state snapshot (signed) | DIGEST_PUBLISHED | SHA-256 HEAD |\n| WITNESS | Cross-ORG countersignature of DIGEST | WITNESS_RECORDED | digest_hash |\n| ANCHOR | Bitcoin OP_RETURN Merkle root | ANCHOR_BROADCAST | btc_txid |\n\n---"
+        "body": "| Type | Source | Signal | Provenance |\n|------|--------|--------|-----------|\n| GRADIENT | Governance score delta | GOVERNANCE_DELTA | commit hash |\n| TALK | Conversation turn | SESSION_LEDGERED | trace_id |\n| CONTRIBUTE | External work submission | CONTRIBUTION_RECEIVED | contribution id |\n| EMAIL | Correspondence sent | CORRESPONDENCE_SENT | resend_id |\n| PROVISION | Infrastructure provisioned | INFRASTRUCTURE_PROVISIONED | provider record |\n| SHOP | Stripe payment event | PAYMENT_RECEIVED | stripe_event_id |\n| AUTH | Login/logout/grant/deny | AUTH_EVENT | session_id |\n| OMICS | Proxy query to upstream source | OMICS_QUERY | query timestamp |\n| DIGEST | ORG LEDGER state snapshot (signed) | DIGEST_PUBLISHED | SHA-256 HEAD |\n| WITNESS | Cross-ORG countersignature of DIGEST | WITNESS_RECORDED | digest_hash |\n| ANCHOR | Bitcoin OP_RETURN Merkle root | ANCHOR_BROADCAST | btc_txid |\n| FEDERATION | Federation registry lifecycle | FEDERATION_REGISTERED \\| FEDERATION_GRADUATED \\| SCOPE_GRADUATED | registry commit hash |\n\n---"
       },
       {
         "title": "INTEL Projection",
-        "body": "Every LEDGER record MUST project to INTEL via LEARNING:\n\n```\nLEDGER entry → LEARNING.md pattern row:\n  Date | Signal | Pattern | Source\n\nSignal derived from type:\n  GRADIENT    → GOVERNANCE_DELTA\n  TALK        → SESSION_LEDGERED\n  CONTRIBUTE  → CONTRIBUTION_RECEIVED\n  EMAIL       → CORRESPONDENCE_SENT\n  PROVISION   → INFRASTRUCTURE_PROVISIONED\n  SHOP        → PAYMENT_RECEIVED\n  AUTH        → AUTH_EVENT\n  OMICS       → OMICS_QUERY\n  DIGEST      → DIGEST_PUBLISHED\n  WITNESS     → WITNESS_RECORDED\n  ANCHOR      → ANCHOR_BROADCAST\n```\n\n---"
+        "body": "Every LEDGER record MUST project to INTEL via LEARNING:\n\n```\nLEDGER entry → LEARNING.md pattern row:\n  Date | Signal | Pattern | Source\n\nSignal derived from type:\n  GRADIENT    → GOVERNANCE_DELTA\n  TALK        → SESSION_LEDGERED\n  CONTRIBUTE  → CONTRIBUTION_RECEIVED\n  EMAIL       → CORRESPONDENCE_SENT\n  PROVISION   → INFRASTRUCTURE_PROVISIONED\n  SHOP        → PAYMENT_RECEIVED\n  AUTH        → AUTH_EVENT\n  OMICS       → OMICS_QUERY\n  DIGEST      → DIGEST_PUBLISHED\n  WITNESS     → WITNESS_RECORDED\n  ANCHOR      → ANCHOR_BROADCAST\n  FEDERATION  → FEDERATION_REGISTERED | FEDERATION_GRADUATED | SCOPE_GRADUATED\n```\n\n---"
       },
       {
         "title": "Integrity",
@@ -251,7 +247,7 @@
       },
       {
         "title": "Interface",
-        "body": "```\nINPUT:\n    Economic events from all services:\n      GRADIENT    — governance score delta (git commit)\n      TALK        — conversation turn (session transcript)\n      CONTRIBUTE  — external work submission\n      EMAIL       — correspondence sent (Resend)\n      PROVISION   — infrastructure provisioned\n      SHOP        — Stripe payment event\n      AUTH        — login/logout/grant/deny\n      OMICS       — proxy query to upstream source\n      DIRECTIVE   — GOV binding instruction via CHAT\n      DEAL        — GOV transaction approval via CHAT\n      VETO        — GOV rejection via CHAT\n      POLICY      — GOV policy decision via CHAT\n\nOUTPUT:\n    Append-only .idf chain:\n      id:         SHA-256 content address\n      prev:       chain pointer to previous record\n      ts:         nanosecond timestamp\n      type:       GRADIENT | TALK | CONTRIBUTE | EMAIL | PROVISION | SHOP | AUTH | OMICS | DIRECTIVE | DEAL | VETO | POLICY | DIGEST | WITNESS | ANCHOR\n      key:        domain/repo/scope key\n      scope:      governed scope where event originated\n      from_bits:  int 0..255\n      to_bits:    int 0..255\n      gradient:   to_bits - from_bits\n      inventor:   actor / producer label\n      work_ref:   provenance anchor (trace_id, contribution_id, resend_id, commit hash)\n\nINTEL PROJECTION:\n    Every LEDGER entry → LEARNING.md pattern row:\n      Date | Signal | Pattern | Source\n    Signal derived from type (GOVERNANCE_DELTA, SESSION_LEDGERED, etc.)\n\nINTEGRITY:\n    Chain-verifiable (hash includes prev)\n    Append-only (no in-place edits)\n    Independent verification without secrets\n```\n\n---"
+        "body": "```\nINPUT:\n    Economic events from all services:\n      GRADIENT    — governance score delta (git commit)\n      TALK        — conversation turn (session transcript)\n      CONTRIBUTE  — external work submission\n      EMAIL       — correspondence sent (Resend)\n      PROVISION   — infrastructure provisioned\n      SHOP        — Stripe payment event\n      AUTH        — login/logout/grant/deny\n      OMICS       — proxy query to upstream source\n      DIRECTIVE   — GOV binding instruction via CHAT\n      DEAL        — GOV transaction approval via CHAT\n      VETO        — GOV rejection via CHAT\n      POLICY      — GOV policy decision via CHAT\n\nOUTPUT:\n    Append-only .idf chain:\n      id:         SHA-256 content address\n      prev:       chain pointer to previous record\n      ts:         nanosecond timestamp\n      type:       GRADIENT | TALK | CONTRIBUTE | EMAIL | PROVISION | SHOP | AUTH | OMICS | DIRECTIVE | DEAL | VETO | POLICY | DIGEST | WITNESS | ANCHOR | FEDERATION\n      key:        domain/repo/scope key\n      scope:      governed scope where event originated\n      from_bits:  int 0..255\n      to_bits:    int 0..255\n      gradient:   to_bits - from_bits\n      inventor:   actor / producer label\n      work_ref:   provenance anchor (trace_id, contribution_id, resend_id, commit hash)\n\nINTEL PROJECTION:\n    Every LEDGER entry → LEARNING.md pattern row:\n      Date | Signal | Pattern | Source\n    Signal derived from type (GOVERNANCE_DELTA, SESSION_LEDGERED, etc.)\n\nINTEGRITY:\n    Chain-verifiable (hash includes prev)\n    Append-only (no in-place edits)\n    Independent verification without secrets\n```\n\n---"
       }
     ],
     "intel": [],
@@ -267,56 +263,26 @@
     ],
     "coverage": "255/255",
     "roadmap": {},
-    "vocab": [
-      {
-        "term": "LEDGER",
-        "definition": "Append-only hash-chain of economic events. Every record has id (SHA-256), prev, ts."
-      },
-      {
-        "term": "DIGEST",
-        "definition": "Signed snapshot of an ORG's LEDGER state: HEAD hash, event count, balances. Published on build."
-      },
-      {
-        "term": "WITNESS",
-        "definition": "Cross-ORG countersignature of a DIGEST. Proves a peer verified the DIGEST at a point in time."
-      },
-      {
-        "term": "ANCHOR",
-        "definition": "Bitcoin OP_RETURN embedding of Merkle root of all ORG DIGESTs for a monthly epoch."
-      },
-      {
-        "term": "FEDERATION",
-        "definition": "Topology of ORGs that witness each other. Peers discovered from GALAXY/ORGS/, never hardcoded."
-      },
-      {
-        "term": "THRESHOLD",
-        "definition": "Minimum witness count for a DIGEST to be accepted. 2-of-N when N<5, 3-of-N when N>=5."
-      },
-      {
-        "term": "RECOVERY",
-        "definition": "Reconstruction of ORG balances from surviving WITNESS records after data loss."
-      }
-    ],
     "chain": [
       {
         "scope": "SERVICES",
-        "axiom": "SERVICES are SURFACE routes with governed boundaries.",
-        "constraints": "MUST:     Every service composes INTEL (mandatory — knowledge backs every operation)\nMUST:     Primitives are files, services are directories: INTEL→LEARNING, CHAT→TALK, COIN→SHOP\nMUST:     COIN is optional — adds economics (the economic shadow of WORK)\nMUST:     TALK is optional — adds governed conversation product\nMUST:     NOTIFIER is optional — adds governed cross-scope delivery (NOTIFY + INTEL)\nMUST:     Treat each service scope as a governed boundary (no cross-scope leakage)\nMUST:     Drive routes and UI from governed indices (no hardcoding)\nMUST:     NETWORK services MUST declare Routes table with Method + Primitive\nMUST:     NETWORK services MUST declare Architecture showing client → worker → backend\nMUST:     NETWORK services MUST declare Configuration with all vars and secrets\nMUST:     COMPILER services MUST declare Interface with input/output contract\nMUST NOT: Embed runtime state into governed scopes\nMUST NOT: Ship a service without declaring its API surface in CANON.md"
+        "axiom": "SERVICES are SURFACE routes with governed boundaries — they project GOV into runtime products without adding policy in code.",
+        "constraints": "MUST:     Every service composes INTEL (mandatory — knowledge backs every operation)\nMUST:     Primitives are files, services are directories: INTEL→LEARNING, CHAT→TALK, COIN→SHOP\nMUST:     COIN is optional — adds economics (the economic shadow of WORK)\nMUST:     TALK is optional — adds governed conversation product\nMUST:     NOTIFIER is optional — adds governed cross-scope delivery (NOTIFY + INTEL)\nMUST:     Treat each service scope as a governed boundary (no cross-scope leakage)\nMUST:     Drive routes and UI from governed indices (no hardcoding)\nMUST:     NETWORK services MUST declare Routes table with Method + Primitive\nMUST:     NETWORK services MUST declare Architecture showing client → worker → backend\nMUST:     NETWORK services MUST declare Configuration with all vars and secrets\nMUST:     COMPILER services MUST declare Interface with input/output contract\nMUST NOT: Embed runtime state into governed scopes\nMUST NOT: Ship a service without declaring its API surface in CANON.md\nMUST NOT: All compiled JSON outputs carry _generated — fix compiler or contract, the output"
       },
       {
         "scope": "SURFACE",
-        "axiom": "SURFACE is the platform lane.",
-        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST:     APP surface_type — Next.js App Router, reads galaxy.json + CANON.json directly\nMUST:     GALAXY surface_type — chrome-free operating surface (auth gate, Finder)\nMUST:     APP scopes compile CANON.md → CANON.json (same as SURFACE, different target)\nMUST:     APP scopes wire COIN + INTEL + TALK primitives into compiled CANON.json\nMUST NOT: Emit new JEKYLL_* surface types — existing types frozen, deprecated\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
+        "axiom": "SURFACE is the platform lane — GOV declares, runtime projects, MAGIC validates.",
+        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST:     APP surface_type — Next.js App Router, reads galaxy.json + CANON.json directly\nMUST:     GALAXY surface_type — chrome-free operating surface (auth gate, Finder)\nMUST:     APP scopes compile CANON.md → CANON.json (same as SURFACE, different target)\nMUST:     APP scopes wire COIN + INTEL + TALK primitives into compiled CANON.json\nMUST NOT: Declare `surface_type: JEKYLL_*` in any GOV CANON.md — JEKYLL is extincted. Production (`canonic.org`, `hadleylab.org`, `founderof.ai`) is served by the Next.js monorepo at `hadleylab-canonic/APPS/CANONIC/app/`; the Jekyll trees at `~/.canonic/{canonic-org, hadleylab-org, founderof-ai}/` are dead compile output (gitignored, no tracked files, not serving traffic). Phase 1 (2026-04-19): 6 GOV stragglers migrated to VIEW or no-surface-type. Phase 2 (2026-04-20): `jekyll build` removed from deploy; `build_surfaces_*.py` JEKYLL_* defaults → VIEW; JEKYLL_TALK capability mapping removed; `MAGIC/SURFACE/JEKYLL/` axiom tree deleted. VIEW (Next.js parent renderer) is the unified successor.\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
       },
       {
         "scope": "MAGIC",
-        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
-        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+        "axiom": "MAGIC is the enforcement layer — three primitives, one governed economy, COMPLIANCE as the product.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract\nMUST: New constraint: MUST NOT: Expose private kernel internals\nMUST: New constraint: MUST: Declare governance.\nMUST: New constraint: COVERAGE.md MUST be generated by build-surfaces — not hand-authored\nMUST: New constraint: README.md MUST be lean (scope + inherits + axiom) — no boilerplate"
       },
       {
         "scope": "FOUNDATION",
-        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
-        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+        "axiom": "FOUNDATION defines the LANGUAGE — three axioms, compiler correspondence, the paper proves itself.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition\nMUST: New constraint: MUST: Surface FOUNDATION thesis, axioms, and programming correspondence from governed content\nMUST: New constraint: MUST: Declare governance.\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every tier must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these axioms"
       }
     ]
   }

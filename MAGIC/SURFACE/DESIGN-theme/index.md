@@ -2,7 +2,7 @@
 layout: default
 scope: DESIGN-theme
 title: "DESIGN-theme"
-description: "This repo IS the JEKYLL service runtime. `remote_theme: canonic-canonic/DESIGN`."
+description: "DESIGN-theme IS the JEKYLL service runtime — `remote_theme: canonic-canonic/DESIGN`, compiled via GitHub Pages."
 footerTagline: "DESIGN-theme"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: DESIGN-theme
   title: "DESIGN-theme"
-  description: "This repo IS the JEKYLL service runtime. `remote_theme: canonic-canonic/DESIGN`."
+  description: "DESIGN-theme IS the JEKYLL service runtime — `remote_theme: canonic-canonic/DESIGN`, compiled via GitHub Pages."
   cta:
     - label: "Open DESIGN-theme"
       href: /MAGIC/SURFACE/DESIGN-theme/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **REPO_IS_RUNTIME** — this repo IS the JEKYLL service runtime; consumers reference it via `remote_theme: canonic-canonic/DESIGN`.
+- **DESIGN_MAP_255** — the repo matches the DESIGN.md 255 Map exactly; any drift fails the gate.
+- **COMPILE_VIA_PAGES** — compilation runs via GitHub Pages Jekyll so the theme distribution and the compile path are the same surface.
 ## Constraints
 
 ```

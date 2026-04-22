@@ -28,16 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-CANONIC RESERVES is a **federated service** — the economic layer of the CANONIC. Every unit of WORK produces COIN. Every COIN consumed produces more WORK. Perpetual motion.
-
-```
-WORK → COIN → FEDERATION → AI → MORE WORK
-           |___________________________|
-               PERPETUAL MOTION
-```
-
----
-
+- **COIN_EQUALS_WORK** — every unit of WORK produces COIN and every COIN consumed produces more WORK; the two are interchangeable.
+- **RESERVES_IS_FEDERATED** — CANONIC RESERVES is a federated service, not a central bank; the economic layer runs across the federation.
+- **PERPETUAL_MOTION** — the WORK → COIN → FEDERATION → AI → MORE WORK loop closes; consumption fuels production.
 ## Constraints
 
 1. ROOT MUST inherit FOUNDATION.

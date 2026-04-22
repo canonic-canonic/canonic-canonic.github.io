@@ -2,7 +2,7 @@
 layout: default
 scope: canonic-canonic
 title: "canonic-canonic"
-description: "SPEC is governance. The constitutional authority."
+description: "canonic-canonic is the constitutional authority — SPEC is governance, and every other ORG inherits from here."
 footerTagline: "canonic-canonic"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: canonic-canonic
   title: "canonic-canonic"
-  description: "SPEC is governance. The constitutional authority."
+  description: "canonic-canonic is the constitutional authority — SPEC is governance, and every other ORG inherits from here."
   cta:
     - label: "Open canonic-canonic"
       href: /MAGIC/GALAXY/ORGS/canonic-canonic/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **SPEC_IS_GOVERNANCE** — the specification projected by this ORG IS governance; changes here propagate to every inheriting scope.
+- **CONSTITUTIONAL_AUTHORITY** — this ORG is the constitutional authority of the federation; role = GOV, frontend = canonic.org.
+- **ORG_INHERITS_GALAXY** — the ORG inherits from `canonic-canonic/MAGIC/GALAXY/ORGS` and declares its governance scope and domains.
 ## Constraints
 
 ```

@@ -2,7 +2,7 @@
 layout: default
 scope: INIT
 title: "INIT"
-description: "Every new scope enters the world the same way."
+description: "INIT is governed scope bootstrap — every new scope enters the world the same way, through validated phases, until MAGIC 255."
 footerTagline: "INIT"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: INIT
   title: "INIT"
-  description: "Every new scope enters the world the same way."
+  description: "INIT is governed scope bootstrap — every new scope enters the world the same way, through validated phases, until MAGIC 255."
   cta:
     - label: "Open INIT"
       href: /MAGIC/TOOLCHAIN/INIT/
@@ -28,10 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-Initialization is a governed process. A scope is not born partial — it bootstraps through phases, each phase validated, until it reaches MAGIC 255. The INIT contract ensures no scope is hand-created, no TRIAD is incomplete, and no inherits path is left unresolved.
-
----
-
+- **INIT_IS_GOVERNED** — initialization is a governed process; scopes are never hand-created, and the INIT contract is the only entry point.
+- **BOOTSTRAP_THROUGH_PHASES** — a scope is not born partial; it bootstraps through phases, each phase validated, until it reaches MAGIC 255.
+- **TRIAD_IS_FIRST** — scaffolding starts with the TRIAD (CANON.md + VOCAB.md + README.md) at COMMUNITY tier before anything else, and no inherits path is left unresolved.
 ## Constraints
 
 ```
@@ -44,6 +43,7 @@ MUST:     INIT is idempotent — running twice produces the same result
 MUST NOT: Hand-create partial scopes — use the INIT pipeline
 MUST NOT: Skip TRIAD — every scope needs CANON + VOCAB + README at minimum
 MUST NOT: Create scopes with broken inherits paths
+MUST: Parent scope must exist before a child claims compliance — broken chains are rejected
 ```
 
 ---

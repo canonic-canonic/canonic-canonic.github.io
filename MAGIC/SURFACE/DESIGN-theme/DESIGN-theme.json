@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "DESIGN-theme",
-    "description": "This repo IS the JEKYLL service runtime. `remote_theme: canonic-canonic/DESIGN`.",
+    "description": "DESIGN-theme IS the JEKYLL service runtime — `remote_theme: canonic-canonic/DESIGN`, compiled via GitHub Pages.",
     "cta": [
       {
         "label": "Open DESIGN-theme",
@@ -46,9 +46,17 @@
         {
           "metric": {
             "label": "MAGIC",
-            "value": "255/255",
-            "change": "FULL",
-            "trend": "up"
+            "value": "253/255",
+            "change": "NONE",
+            "trend": "neutral"
+          }
+        },
+        {
+          "metric": {
+            "label": "GAPS",
+            "value": "1",
+            "change": "E",
+            "trend": "down"
           }
         }
       ]
@@ -98,7 +106,7 @@
   },
   "footerTagline": "DESIGN-theme | CANONIC",
   "canon": {
-    "axiom": "This repo IS the JEKYLL service runtime. `remote_theme: canonic-canonic/DESIGN`.",
+    "axiom": "DESIGN-theme IS the JEKYLL service runtime — `remote_theme: canonic-canonic/DESIGN`, compiled via GitHub Pages.",
     "constraints": "MUST:     Match DESIGN.md 255 Map exactly\nMUST:     Compile via GitHub Pages Jekyll\nMUST NOT: Contain content\nMUST NOT: Contain custom compilers",
     "inherits": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
     "spec": [
@@ -122,14 +130,6 @@
       }
     ],
     "coverage": "255/255",
-    "roadmap": {},
-    "vocab": [],
-    "chain": [
-      {
-        "scope": "JEKYLL",
-        "axiom": "JEKYLL is MAGIC made visible. DESIGN is the language. JEKYLL is the compiler.",
-        "constraints": "MUST:     Derive visuals from governed primitives (no ad hoc style drift)\nMUST:     Keep design language in GOV; runtime renders only\nMUST:     Card icons render inline preceding the card title (not stacked)\nMUST:     Hero demo cycles all governed TALK products (not a subset)\nMUST NOT: Introduce visual rules outside governed contracts"
-      }
-    ]
+    "roadmap": {}
   }
 }

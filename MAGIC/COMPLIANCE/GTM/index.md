@@ -2,7 +2,7 @@
 layout: default
 scope: GTM
 title: "GTM"
-description: "COIN about MAGIC. How MAGIC executes in the market."
+description: "GTM is COIN about MAGIC — how the enforcement layer executes in the market, starting from a beachhead and expanding concentrically."
 footerTagline: "GTM"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: GTM
   title: "GTM"
-  description: "COIN about MAGIC. How MAGIC executes in the market."
+  description: "GTM is COIN about MAGIC — how the enforcement layer executes in the market, starting from a beachhead and expanding concentrically."
   cta:
     - label: "Open GTM"
       href: /MAGIC/COMPLIANCE/GTM/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **GTM_IS_COIN_ABOUT_MAGIC** — go-to-market is the COIN projection of MAGIC: commercial execution governed by the same primitives as the product.
+- **BEACHHEAD_FIRST** — GTM starts from a position of proven strength (healthcare AI governance) and expands concentrically, never all industries at once.
+- **CONCENTRIC_EXPANSION** — each expansion adds incremental regulatory knowledge already captured in INDUSTRIES (healthcare → finance → government → defense → general enterprise).
 ## Axioms
 
 ### 1. Beachhead Strategy
@@ -118,6 +121,7 @@ Go-to-market execution MUST be measured against defined KPIs with accountability
 MUST:     Start from healthcare beachhead — expand concentrically
 MUST:     Achieve own compliance credentials before selling compliance
 MUST NOT: Scale sales before product-market fit is validated with 5+ paying customers
+MUST: MAGIC must score 255/255 against its own governance before selling compliance to others
 ```
 
 ---

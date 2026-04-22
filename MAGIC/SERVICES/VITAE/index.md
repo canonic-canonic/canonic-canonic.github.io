@@ -2,7 +2,7 @@
 layout: default
 scope: VITAE
 title: "VITAE"
-description: "VITAE governs professional identity. Every claim evidenced."
+description: "VITAE governs professional identity — every claim evidenced, every credential versioned, cross-referenced to governed sources."
 footerTagline: "VITAE"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: VITAE
   title: "VITAE"
-  description: "VITAE governs professional identity. Every claim evidenced."
+  description: "VITAE governs professional identity — every claim evidenced, every credential versioned, cross-referenced to governed sources."
   cta:
     - label: "Open VITAE"
       href: /MAGIC/SERVICES/VITAE/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **CLAIM_IS_EVIDENCED** — every professional claim is evidenced; unverified credentials are never published.
+- **CREDENTIAL_VERSIONED** — every credential update is versioned; updates are traceable.
+- **CLAIM_CROSS_REFERENCED** — claims cross-reference to governed sources and private vitae data never reaches public surfaces.
 ## Constraints
 
 ```

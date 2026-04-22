@@ -2,7 +2,7 @@
 layout: default
 scope: STAR
 title: "STAR"
-description: "STAR is your personal portal in the GALAXY. INTEL + CHAT + COIN composed into a unified personal surface. The TIMELINE is the joint lane for all cross-axiomatic intel."
+description: "STAR is your personal portal in the GALAXY — INTEL + CHAT + COIN composed into a unified personal surface, TIMELINE joins the primitives."
 footerTagline: "STAR"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: STAR
   title: "STAR"
-  description: "STAR is your personal portal in the GALAXY. INTEL + CHAT + COIN composed into a unified personal surface. The TIMELINE is the joint lane for all cross-axiomatic intel."
+  description: "STAR is your personal portal in the GALAXY — INTEL + CHAT + COIN composed into a unified personal surface, TIMELINE joins the primitives."
   cta:
     - label: "Open STAR"
       href: /MAGIC/SERVICES/STAR/
@@ -28,10 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-STAR is the governed personal cloud. GALAXY shows the organizational topology. STAR shows the personal topology. Every USER gets a STAR. The TIMELINE joins all temporal data across all three primitives into one chronological stream.
-
----
-
+- **STAR_IS_PERSONAL_CLOUD** — STAR is the governed personal cloud; GALAXY shows the organizational topology, STAR shows the personal topology, and every USER gets a STAR.
+- **PRIMITIVES_COMPOSED** — STAR composes all three primitives (INTEL + CHAT + COIN) and discovers the USER's GOV tree via `magic scan`, never hardcoded.
+- **TIMELINE_IS_JOIN** — TIMELINE is a read-only JOIN across existing event sources and never duplicates; the envelope is compatible with LEDGER .idf and VAULT TIMELINE.jsonl.
+- **PERSONAL_DATA_AUTH_GATED** — VAULT, WALLET, NOTIFIER, and CALENDAR are auth-gated; the GOV lane stays public because compliance rings are the product.
 ## Constraints
 
 ```

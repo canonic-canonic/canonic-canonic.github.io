@@ -2,7 +2,7 @@
 layout: default
 scope: BLOG
 title: "BLOG"
-description: "BLOG is the editorial voice. Every post is a governed artifact — sourced, compiled, and surfaced. The blog publishes what the system proves."
+description: "BLOG is the editorial voice — every post a governed artifact, sourced, compiled, and surfaced; the blog publishes what the system proves."
 footerTagline: "BLOG"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: BLOG
   title: "BLOG"
-  description: "BLOG is the editorial voice. Every post is a governed artifact — sourced, compiled, and surfaced. The blog publishes what the system proves."
+  description: "BLOG is the editorial voice — every post a governed artifact, sourced, compiled, and surfaced; the blog publishes what the system proves."
   cta:
     - label: "Open BLOG"
       href: /MAGIC/SERVICES/BLOG/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **POST_IS_GOVERNED_ARTIFACT** — every post is a governed artifact with declared front matter (title, date, scope, tags); no hand-published output.
+- **CLAIMS_SOURCED_FROM_GOV** — every claim is sourced from governed scopes; the blog publishes what the system proves, not what the author asserts.
+- **PUBLISH_IS_LEDGERED** — every publish event is ledgered (author, date, scope, commit hash); SHOP-safe projections are emitted for the public surface.
 ## Constraints
 
 ```

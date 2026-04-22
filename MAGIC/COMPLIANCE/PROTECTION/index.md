@@ -2,7 +2,7 @@
 layout: default
 scope: PROTECTION
 title: "PROTECTION"
-description: "No commit reaches main without passing the 255 gate."
+description: "PROTECTION is transport-layer enforcement — no commit reaches main without passing the 255 gate."
 footerTagline: "PROTECTION"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: PROTECTION
   title: "PROTECTION"
-  description: "No commit reaches main without passing the 255 gate."
+  description: "PROTECTION is transport-layer enforcement — no commit reaches main without passing the 255 gate."
   cta:
     - label: "Open PROTECTION"
       href: /MAGIC/COMPLIANCE/PROTECTION/
@@ -28,10 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-Branch protection is the transport-layer enforcement of governance scoring. Without it, MAGIC 255 is advisory — not a gate.
-
----
-
+- **BRANCH_IS_GATED** — `magic-validate` must pass and at least one approving review must land before merge to main; administrators do not bypass.
+- **MAIN_IS_IMMUTABLE** — force pushes and branch deletion are blocked for main in every GOV repo.
+- **CODEOWNERS_ENFORCED** — a CODEOWNERS file maps all paths to reviewers so every change has an accountable reviewer.
 ## Constraints
 
 ```

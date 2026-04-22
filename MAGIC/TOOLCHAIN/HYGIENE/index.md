@@ -2,7 +2,7 @@
 layout: default
 scope: HYGIENE
 title: "HYGIENE"
-description: "No drift. Every file in a governed scope has a reason. The validator proves it."
+description: "HYGIENE is drift elimination — every file in a governed scope has a reason, the validator proves it."
 footerTagline: "HYGIENE"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: HYGIENE
   title: "HYGIENE"
-  description: "No drift. Every file in a governed scope has a reason. The validator proves it."
+  description: "HYGIENE is drift elimination — every file in a governed scope has a reason, the validator proves it."
   cta:
     - label: "Open HYGIENE"
       href: /MAGIC/TOOLCHAIN/HYGIENE/
@@ -28,14 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-```
-service    = HYGIENE
-primitive  = INTEL
-function   = CLEAN
-```
-
----
-
+- **NO_DRIFT** — every file in a governed scope has a reason; files without justification are hygiene violations.
+- **VALIDATOR_IS_PROOF** — the validator proves the no-drift invariant; hygiene is not asserted, it is measured.
+- **HYGIENE_IS_SERVICE** — HYGIENE is a TOOLCHAIN service whose function is CLEAN; the primitive is INTEL (what the compiler knows about file purpose).
 ## Constraints
 
 ```

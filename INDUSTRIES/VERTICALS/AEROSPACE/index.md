@@ -2,7 +2,7 @@
 layout: default
 scope: AEROSPACE
 title: "AEROSPACE"
-description: "Example"
+description: "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain."
 footerTagline: "AEROSPACE"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: AEROSPACE
   title: "AEROSPACE"
-  description: "Example"
+  description: "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain."
   cta:
     - label: "Open AEROSPACE"
       href: /INDUSTRIES/VERTICALS/AEROSPACE/
@@ -27,6 +27,13 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+- **INDUSTRY_IS_VARIABLE** — SERVICE equals PRIMITIVE composed with INDUSTRY; swap the industry, get a new service.
+- **EVERY_INDUSTRY_WIRES_THREE** — each vertical wires INTEL, CHAT, and COIN before it counts as governed.
+- **LANGUAGE_CASCADES_FROM_MAGIC** — industry language inherits from MAGIC; no per-industry DESIGN or lexicon fork.
+## Axioms
+
+### 1. Airworthiness
 
 All airborne software MUST be developed and verified according to DO-178C objectives at the assigned Design Assurance Level.
 

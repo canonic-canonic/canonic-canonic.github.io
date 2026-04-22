@@ -2,7 +2,7 @@
 layout: default
 scope: bin
 title: "bin"
-description: "Three engines. Three tiers. Each axiom self-closes. Together = 255 = MAGIC."
+description: "bin is three engines, three tiers — each axiom self-closes, and together they equal 255 = MAGIC."
 footerTagline: "bin"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: bin
   title: "bin"
-  description: "Three engines. Three tiers. Each axiom self-closes. Together = 255 = MAGIC."
+  description: "bin is three engines, three tiers — each axiom self-closes, and together they equal 255 = MAGIC."
   cta:
     - label: "Open bin"
       href: /MAGIC/TOOLCHAIN/bin/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **THREE_ENGINES_THREE_TIERS** — three engines map to three tiers; each axiom self-closes with no infinite recursion and no external dependency.
+- **EVERY_EXECUTABLE_GOVERNED** — every executable is documented with purpose, inputs, and outputs; `magic` is the single source of dimension truth.
+- **BUILD_DEPLOY_LEDGERED** — every build validates via `magic scan` (255 or reject) and every deploy ledgers to LEDGER.
 ## Constraints
 
 ```

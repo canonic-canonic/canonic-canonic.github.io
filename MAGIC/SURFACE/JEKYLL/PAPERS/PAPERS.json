@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "PAPERS",
-    "description": "PAPERS are governed academic artifacts. Each paper IS a scope. SPEC = {SCOPE}.",
+    "description": "PAPERS are governed academic artifacts — each paper IS a scope, every claim cited, every method reproducible.",
     "cta": [
       {
         "label": "Open PAPERS",
@@ -54,7 +54,7 @@
         {
           "metric": {
             "label": "LEARNING",
-            "value": "4",
+            "value": "6",
             "change": "patterns",
             "trend": "up"
           }
@@ -131,11 +131,6 @@
             "rows": [
               [
                 "2026-02-20",
-                "SPEC = {SCOPE} — each paper IS a governed scope",
-                "Paper .md IS the specification, not just content"
-              ],
-              [
-                "2026-02-20",
                 "Governance .md without front matter crashes Jekyll",
                 "PAPERS dir must be compiled, not served raw"
               ],
@@ -148,6 +143,16 @@
                 "2026-02-20",
                 "GOV tree must be pure",
                 "Content and governance coexist as source, compile separates them"
+              ],
+              [
+                "2026-04-07",
+                "SESSION_LEDGERED",
+                "What papers"
+              ],
+              [
+                "2026-04-07",
+                "SESSION_LEDGERED",
+                "Show me canonic whitepaper"
               ]
             ]
           }
@@ -343,7 +348,7 @@
   },
   "footerTagline": "PAPERS | CANONIC",
   "canon": {
-    "axiom": "PAPERS are governed academic artifacts. Each paper IS a scope. SPEC = {SCOPE}.",
+    "axiom": "PAPERS are governed academic artifacts — each paper IS a scope, every claim cited, every method reproducible.",
     "constraints": "MUST:     Every paper declares front matter (title, date, scope: PAPERS, layout: paper, math: true)\nMUST:     Papers follow section structure: Abstract, TOC, Body, Appendices, References\nMUST:     PAPERS.json index is compiled from paper front matter — never hand-edited\nMUST:     CANON.json is compiled — never hand-edited\nMUST:     Paper content maps to governed work (LEDGER commits, MAGIC discoveries)\nMUST:     Math renders via LaTeX (KaTeX) — formulas are first-class\nMUST:     Figures are data-driven (JSON config, not inline images)\nMUST:     PDF export compiles from the same .md source (LaTeX backend)\nMUST:     Papers with compiled PDF render all views (GOV + WEB + TEX) in DOM\nMUST:     WEB view is 1-col scrolling (like blog posts) — TEX view is PDF.js canvas\nMUST NOT: Hand-edit compiled outputs (PAPERS.json, CANON.json)\nMUST NOT: Publish ungoverned claims (every assertion needs evidence)\nMUST NOT: Embed presentation logic in paper source — DESIGN renders, .md specifies",
     "inherits": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
     "spec": [
@@ -399,7 +404,7 @@
     "learning": [
       {
         "title": "Patterns",
-        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-20 | SPEC = {SCOPE} — each paper IS a governed scope | Paper .md IS the specification, not just content | LANGUAGE.md |\n| 2026-02-20 | Governance .md without front matter crashes Jekyll | PAPERS dir must be compiled, not served raw | bin/build-surfaces |\n| 2026-02-20 | Papers need richer structure than blogs | TOC, appendices, figures, math, PDF export, citations | PAPERS.md |\n| 2026-02-20 | GOV tree must be pure | Content and governance coexist as source, compile separates them | CANON.md |\n\n---"
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-20 | SPEC = {SCOPE} — each paper IS a governed scope | Paper .md IS the specification, not just content | LANGUAGE.md |\n| 2026-02-20 | Governance .md without front matter crashes Jekyll | PAPERS dir must be compiled, not served raw | bin/build-surfaces |\n| 2026-02-20 | Papers need richer structure than blogs | TOC, appendices, figures, math, PDF export, citations | PAPERS.md |\n| 2026-02-20 | GOV tree must be pure | Content and governance coexist as source, compile separates them | CANON.md |\n| 2026-04-07 | SESSION_LEDGERED | What papers | ac121138-e503-4f1e-ac67-265a83c99da3 |\n| 2026-04-07 | SESSION_LEDGERED | Show me canonic whitepaper | 4bed6e3a-bb05-4608-8e97-2d2866a59bb3 |\n\n---"
       }
     ],
     "coverage": "255/255",
@@ -422,10 +427,6 @@
     },
     "vocab": [
       {
-        "term": "CANON",
-        "definition": "Governance contract. Axiom + constraints for this scope."
-      },
-      {
         "term": "PAPERS",
         "definition": "Governed academic artifacts. Each paper IS a scope."
       },
@@ -445,8 +446,8 @@
     "chain": [
       {
         "scope": "JEKYLL",
-        "axiom": "JEKYLL is MAGIC made visible. DESIGN is the language. JEKYLL is the compiler.",
-        "constraints": "MUST:     Derive visuals from governed primitives (no ad hoc style drift)\nMUST:     Keep design language in GOV; runtime renders only\nMUST:     Card icons render inline preceding the card title (not stacked)\nMUST:     Hero demo cycles all governed TALK products (not a subset)\nMUST NOT: Introduce visual rules outside governed contracts"
+        "axiom": "JEKYLL is MAGIC made visible — DESIGN is the language, JEKYLL is the compiler, every pixel maps to a governed primitive.",
+        "constraints": "MUST:     Derive visuals from governed primitives (no ad hoc style drift)\nMUST:     Keep design language in GOV; runtime renders only\nMUST:     Card icons render inline preceding the card title (not stacked)\nMUST:     Hero demo cycles all governed TALK products (not a subset)\nMUST NOT: Introduce visual rules outside governed contracts\nMUST NOT: include.X → page.X → site.data[scope].X → site.X` — the discoverable shape. Templates hardcode data, only enforce structure."
       }
     ]
   }

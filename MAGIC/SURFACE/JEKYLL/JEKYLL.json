@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "JEKYLL",
-    "description": "JEKYLL is MAGIC made visible. DESIGN is the language. JEKYLL is the compiler.",
+    "description": "JEKYLL is MAGIC made visible — DESIGN is the language, JEKYLL is the compiler, every pixel maps to a governed primitive.",
     "cta": [
       {
         "label": "Open JEKYLL",
@@ -151,28 +151,28 @@
         {
           "icon": "∩",
           "title": "BLOGS",
-          "desc": "BLOGS are governed literary artifacts. Every post is a timestamped disclosure.",
+          "desc": "BLOGS are governed literary artifacts — every post a timestamped disclosure, governance rendered as readable story.",
           "href": "/MAGIC/SURFACE/JEKYLL/BLOGS/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "BOOKS",
-          "desc": "BOOKS are governed long-form artifacts. Each book IS a scope with PARTS and CHAPTERS.",
+          "desc": "BOOKS are governed long-form artifacts — each book IS a scope with PARTS and CHAPTERS, compiled from markdown to HTML and PDF.",
           "href": "/MAGIC/SURFACE/JEKYLL/BOOKS/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "DECKS",
-          "desc": "DECKS are governed presentation artifacts. Every pitch is a CANON-named scope.",
+          "desc": "DECKS are governed presentation artifacts — every pitch a CANON-named scope, content mapped to governed services and evidence.",
           "href": "/MAGIC/SURFACE/JEKYLL/DECKS/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "PAPERS",
-          "desc": "PAPERS are governed academic artifacts. Each paper IS a scope. SPEC = {SCOPE}.",
+          "desc": "PAPERS are governed academic artifacts — each paper IS a scope, every claim cited, every method reproducible.",
           "href": "/MAGIC/SURFACE/JEKYLL/PAPERS/",
           "class": "card"
         }
@@ -203,8 +203,8 @@
   },
   "footerTagline": "JEKYLL | CANONIC",
   "canon": {
-    "axiom": "JEKYLL is MAGIC made visible. DESIGN is the language. JEKYLL is the compiler.",
-    "constraints": "MUST:     Derive visuals from governed primitives (no ad hoc style drift)\nMUST:     Keep design language in GOV; runtime renders only\nMUST:     Card icons render inline preceding the card title (not stacked)\nMUST:     Hero demo cycles all governed TALK products (not a subset)\nMUST NOT: Introduce visual rules outside governed contracts",
+    "axiom": "JEKYLL is MAGIC made visible — DESIGN is the language, JEKYLL is the compiler, every pixel maps to a governed primitive.",
+    "constraints": "MUST:     Derive visuals from governed primitives (no ad hoc style drift)\nMUST:     Keep design language in GOV; runtime renders only\nMUST:     Card icons render inline preceding the card title (not stacked)\nMUST:     Hero demo cycles all governed TALK products (not a subset)\nMUST NOT: Introduce visual rules outside governed contracts\nMUST NOT: include.X → page.X → site.data[scope].X → site.X` — the discoverable shape. Templates hardcode data, only enforce structure.",
     "inherits": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
     "spec": [
       {
@@ -239,10 +239,6 @@
       ]
     },
     "vocab": [
-      {
-        "term": "DESIGN",
-        "definition": "The governed visual language. Every pixel maps to a governed primitive."
-      },
       {
         "term": "JEKYLL",
         "definition": "The compiler. GitHub Pages runs Jekyll. remote_theme distributes DESIGN to fleet."

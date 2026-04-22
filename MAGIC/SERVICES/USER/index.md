@@ -2,7 +2,7 @@
 layout: default
 scope: USER
 title: "USER"
-description: "USER governs identity. Every person onboarded. Every credential verified. Every contribution ledgered."
+description: "USER governs identity — every person onboarded, every credential verified, every contribution ledgered, identity portable across ORGs."
 footerTagline: "USER"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: USER
   title: "USER"
-  description: "USER governs identity. Every person onboarded. Every credential verified. Every contribution ledgered."
+  description: "USER governs identity — every person onboarded, every credential verified, every contribution ledgered, identity portable across ORGs."
   cta:
     - label: "Open USER"
       href: /MAGIC/SERVICES/USER/
@@ -28,6 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **EVERY_USER_GOVERNED** — every person under USERS/ has a CANON.md; identity is declared, not implicit.
+- **CREDENTIAL_VERIFIED** — identity is verified before write access and every professional claim is evidenced in VITAE.md.
+- **FEDERATED_IDENTITY** — federation identity is portable across ORGs; each ORG owns its projection.
+- **COIN_GATES_ENTERPRISE** — enterprise features are gated via COIN; every contribution is ledgered.
 ## Constraints
 
 ```

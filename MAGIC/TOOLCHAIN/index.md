@@ -2,7 +2,7 @@
 layout: default
 scope: TOOLCHAIN
 title: "TOOLCHAIN"
-description: "Governance drives code. Never the reverse."
+description: "TOOLCHAIN is code governed by GOV — governance drives code, never the reverse; the boundary between runtime and GOV is absolute."
 footerTagline: "TOOLCHAIN"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: TOOLCHAIN
   title: "TOOLCHAIN"
-  description: "Governance drives code. Never the reverse."
+  description: "TOOLCHAIN is code governed by GOV — governance drives code, never the reverse; the boundary between runtime and GOV is absolute."
   cta:
     - label: "Open TOOLCHAIN"
       href: /MAGIC/TOOLCHAIN/
@@ -28,13 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-All executables live at `~/.canonic/bin/`. All governance lives at `~/CANONIC/`. The boundary is absolute.
-Fleet membership is auto-discovered from runtime state. Frontend identity is governed by `HTTP.json`. Surface types by `SURFACE.json`.
-
-See [README.md](README.md) for tool documentation.
-
----
-
+- **GOVERNANCE_DRIVES_CODE** — governance drives code; `magic.c` is the single source of dimension truth and build validates via `magic scan` before any deploy.
+- **ABSOLUTE_BOUNDARY** — all executables live at `~/.canonic/bin/` and all governance lives at `~/CANONIC/`; the boundary is absolute.
+- **FLEET_AUTODISCOVERED** — fleet membership is auto-discovered from runtime state; frontend identity is governed by `HTTP.json` and surface types by `SURFACE.json`.
+- **TOOLCHAIN_IS_GOV** — service-to-fleet mapping is a direct projection from governed `DEXTER/SERVICES/**/CANON.md` scopes via magic wrappers; no hand-written mapping.
 ## Constraints
 
 ```
@@ -97,6 +94,7 @@ MUST:     build-surfaces reads FRESHNESS.json for source dependency rules — no
 MUST:     --incremental is default for local builds, --no-cache for CI
 MUST:     Cache is runtime artifact at path declared in FRESHNESS.json — never in GOV tree
 MUST NOT: Skip validation after incremental build — 255 gate always runs
+MUST NOT: magic, magic-heal, build, build-scopes-json, deploy, install-hooks — governance drives code, the reverse
 ```
 
 ---

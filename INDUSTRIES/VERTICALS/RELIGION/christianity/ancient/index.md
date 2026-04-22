@@ -2,7 +2,7 @@
 layout: default
 scope: ancient
 title: "ancient"
-description: "Pre-schism Christianity. The first three ecumenical councils (Nicaea 325, Constantinople 381, Ephesus 431) define branches that predate Catholic-Orthodox (1054) and Protestant (1517) divisions."
+description: "Pre-schism Christianity governed by the first three ecumenical councils, not by later denominational categories."
 footerTagline: "ancient"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: ancient
   title: "ancient"
-  description: "Pre-schism Christianity. The first three ecumenical councils (Nicaea 325, Constantinople 381, Ephesus 431) define branches that predate Catholic-Orthodox (1054) and Protestant (1517) divisions."
+  description: "Pre-schism Christianity governed by the first three ecumenical councils, not by later denominational categories."
   cta:
     - label: "Open ancient"
       href: /INDUSTRIES/VERTICALS/RELIGION/christianity/ancient/
@@ -28,6 +28,8 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **CONCILIAR_SOURCE** — doctrinal claims cite a conciliar source from Nicaea 325, Constantinople 381, or Ephesus 431.
+- **PRE_NICENE_DISTINCT** — pre-Nicene and post-Nicene traditions stay distinct; later categories never retroject onto the early church.
 ## Constraints
 
 ```

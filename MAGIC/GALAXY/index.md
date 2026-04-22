@@ -277,15 +277,12 @@ MUST NOT: Graph clump into tight ball — gravitationalConstant ≤ -15000
 ---
 
 ## Axiom
+**GALAXY is the operating surface of distributed CANONIC — one graph, three primitives, every principal navigates, governs, and transacts.**
 
-**GALAXY is the operating surface of distributed CANONIC.**
-
-Every principal navigates, governs, and transacts through GALAXY. INTEL surfaces knowledge. COIN surfaces economy. TALK surfaces conversation. Navigation is hierarchical. Editing is conversational. The graph is the truth; the Finder is the interface.
-
-Commercial purpose: route governed work across identity boundaries without breaking ownership, through an operating surface that non-developers can program by conversation.
-
----
-
+- **GRAPH_IS_TRUTH** — the galaxy graph is the source of truth; the Finder is the interface and the force-directed view is secondary.
+- **PRIMITIVES_ARE_NATIVE** — INTEL surfaces knowledge, COIN surfaces economy, TALK surfaces conversation; all three compose natively into every scope.
+- **NAVIGATION_IS_HIERARCHICAL** — navigation is hierarchical and editing is conversational, so non-developers can program the system by talking to it.
+- **OWNERSHIP_CROSSES_BOUNDARIES** — GALAXY routes governed work across identity boundaries without breaking ownership, which is its commercial purpose.
 ## Constraints
 
 ```
@@ -327,6 +324,7 @@ MUST NOT: Hardcode compliance score in renderer (read node.bits)
 MUST NOT: Render principals as plain text boxes
 MUST NOT: Hand-edit galaxy.json — fix the compiler or the GOV tree
 MUST NOT: Differ HUD or search bar position between Finder and Graph views
+MUST NOT: COVERAGE.md is a compiler output — fix compiler or contract, hand-edit source COVERAGE
 ```
 
 ---

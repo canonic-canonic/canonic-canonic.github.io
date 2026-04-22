@@ -2,7 +2,7 @@
 layout: default
 scope: KYC
 title: "KYC"
-description: "KYC validates identity and compliance. Every claim verified."
+description: "KYC validates identity and compliance — every claim verified, every verification ledgered, unverified claims never accepted."
 footerTagline: "KYC"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: KYC
   title: "KYC"
-  description: "KYC validates identity and compliance. Every claim verified."
+  description: "KYC validates identity and compliance — every claim verified, every verification ledgered, unverified claims never accepted."
   cta:
     - label: "Open KYC"
       href: /MAGIC/SERVICES/KYC/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **IDENTITY_GATES_ACCESS** — identity is verified before access is granted; unverified identity claims do not pass the gate.
+- **CLAIM_IS_EVIDENCED** — every compliance claim carries evidence and every verification event is ledgered.
+- **NO_PUBLIC_EXPOSURE** — verification data is never exposed on public surfaces; access is auth-gated.
 ## Constraints
 
 ```

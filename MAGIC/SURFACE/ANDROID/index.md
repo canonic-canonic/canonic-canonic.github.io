@@ -2,7 +2,7 @@
 layout: default
 scope: ANDROID
 title: "ANDROID"
-description: "MAGIC on Android is native, governed, fast."
+description: "MAGIC on Android is native, governed, fast — a 1:1 projection of the web surface rendered in Jetpack Compose."
 footerTagline: "ANDROID"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: ANDROID
   title: "ANDROID"
-  description: "MAGIC on Android is native, governed, fast."
+  description: "MAGIC on Android is native, governed, fast — a 1:1 projection of the web surface rendered in Jetpack Compose."
   cta:
     - label: "Open ANDROID"
       href: /MAGIC/SURFACE/ANDROID/
@@ -28,11 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-The Android surface is a 1:1 projection of the web surface: same GOV, same lanes, same outcomes.
-Rendering is native Kotlin + Jetpack Compose. Governance is compiled upstream. API layer is shared.
-
----
-
+- **ANDROID_IS_NATIVE** — rendering is pure Kotlin + Jetpack Compose; no WebView bridges.
+- **ONE_TO_ONE_WITH_WEB** — the Android surface is a 1:1 projection of the web surface (same GOV, same lanes, same outcomes).
+- **GOVERNANCE_COMPILED_UPSTREAM** — governance is compiled upstream and the API layer is shared across all platform surfaces.
 ## Constraints
 
 ```

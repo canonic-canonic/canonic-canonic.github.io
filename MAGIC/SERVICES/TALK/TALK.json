@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "TALK",
-    "description": "TALK is CHAT + INTEL + COIN composed. Industry determines the voice. INTEL provides the knowledge. COIN gates premium access.",
+    "description": "TALK is CHAT + INTEL + COIN composed — CHAT is the primitive, TALK is the product, COIN closes the revenue loop.",
     "cta": [
       {
         "label": "Open TALK",
@@ -372,8 +372,7 @@
   },
   "footerTagline": "TALK | CANONIC",
   "canon": {
-    "axiom": "api.canonic.org is the CANONIC service worker. All primitives. All streams. Zero hardcoding.",
-    "constraints": "name       = canonic-services\nscope      = DESIGN/TALK\ndomain     = api.canonic.org\nruntime    = Cloudflare Workers\nprovider   = anthropic/openai/deepseek/runpod/vastai (switchable)",
+    "axiom": "api.canonic.org is the CANONIC service worker — all primitives, all streams, zero hardcoding, provider-switchable.",
     "inherits": "canonic-canonic/MAGIC/SURFACE/DESIGN",
     "spec": [
       {
@@ -417,22 +416,11 @@
     ],
     "coverage": "255/255",
     "roadmap": {},
-    "vocab": [
-      {
-        "term": "TALK",
-        "definition": "Service: CHAT primary. All streams routed."
-      }
-    ],
     "chain": [
       {
         "scope": "DESIGN",
-        "axiom": "Frontend rendering layer. CANON.md → HTML → Native. One stylesheet. All surfaces.",
-        "constraints": "DESIGN = CANON.md → CANON.json → HTML/Swift/Kotlin\nDESIGN.css = universal renderer\nTALK = DESIGN(CHAT + INTEL)"
-      },
-      {
-        "scope": "JEKYLL",
-        "axiom": "JEKYLL is MAGIC made visible. DESIGN is the language. JEKYLL is the compiler.",
-        "constraints": "MUST:     Derive visuals from governed primitives (no ad hoc style drift)\nMUST:     Keep design language in GOV; runtime renders only\nMUST:     Card icons render inline preceding the card title (not stacked)\nMUST:     Hero demo cycles all governed TALK products (not a subset)\nMUST NOT: Introduce visual rules outside governed contracts"
+        "axiom": "DESIGN is the frontend rendering layer — CANON.md → HTML → Native, one stylesheet, all surfaces.",
+        "constraints": "MUST:     DESIGN.css is universal — one stylesheet, all surfaces\nMUST:     CANON.md is source of truth — rendered artifacts are compiled\nMUST:     Every DESIGN scope governed — CANON.md in every scope\nMUST:     Text contrast meets WCAG AA (4.5:1 ratio minimum)\nMUST:     Chat mock messages use --fg on --bg (not --card on --bg)\nMUST:     All grid components collapse to 1fr at ≤640px (card-grid, grid-N, apps-grid)\nMUST:     Every spacing value uses --space-* tokens\nMUST:     Every color uses a token (--fg, --dim, --accent, --tx-*, --status-*)\nMUST:     Every font-size uses --font-* tokens\nMUST:     Every border-radius uses --radius-* tokens\nMUST:     Every z-index uses --z-* tokens\nMUST:     Breakpoints are standard: 480, 640, 768 only\nMUST:     Chat surfaces (CUSTOM layout) styled by _CHAT.scss — no external CSS\nMUST:     Chat accent overrides via front matter accent: field only\nMUST:     Chat inline <style> limited to --accent dark-mode variant + scope-specific classes\nMUST:     Description fields markdownified — div not p, block-level content allowed\nMUST NOT: Fork DESIGN.css per surface\nMUST NOT: Hardcode content in renderers — read from CANON.json\nMUST NOT: Use low-contrast token pairs (--card on --bg, --dim on --card)\nMUST NOT: Let inline grid-template-columns override mobile collapse\nMUST NOT: Use radius tokens for spacing (--radius is not --space)\nMUST NOT: Hardcode px/rem/hex values — derive from tokens\nMUST NOT: Reference external CSS from chat surfaces (no chat.css, mcode.css, trials.css)\nMUST NOT: Duplicate design system classes in inline <style> blocks"
       }
     ]
   }

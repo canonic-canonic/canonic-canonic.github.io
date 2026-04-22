@@ -2,7 +2,7 @@
 layout: default
 scope: IDENTITY
 title: "IDENTITY"
-description: "Every COIN action is signed. Every signature is verified."
+description: "IDENTITY signs and verifies — every COIN action signed, every signature verified, keys bound to governed VITAE."
 footerTagline: "IDENTITY"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: IDENTITY
   title: "IDENTITY"
-  description: "Every COIN action is signed. Every signature is verified."
+  description: "IDENTITY signs and verifies — every COIN action signed, every signature verified, keys bound to governed VITAE."
   cta:
     - label: "Open IDENTITY"
       href: /MAGIC/SERVICES/IDENTITY/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **EVERY_ACTION_SIGNED** — every circulation event (MINT, TRANSFER, SPEND, SETTLE) is signed by the Ed25519 key-pair generated per USER principal.
+- **VERIFY_BEFORE_EXECUTE** — signatures are verified before executing privileged actions; no unsigned paths into COIN.
+- **KEY_BOUND_TO_VITAE** — keys are bound to governed USER VITAE identity; KYC anchors include GitHub (primary) and LinkedIn (distributed users).
 ## Constraints
 
 ```

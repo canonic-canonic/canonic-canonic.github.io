@@ -1,7 +1,7 @@
 {
   "_generated": {
     "contract": "/Users/iDrDex/.canonic/TOOLCHAIN/SURFACE.json",
-    "rule": "edit the contract or compiler \u2014 not this file"
+    "rule": "edit the contract or compiler — not this file"
   },
   "scopes": [
     {
@@ -14,6 +14,28 @@
       "color": "#64748b",
       "category": "ORG",
       "inherits": null
+    },
+    {
+      "source": "gov",
+      "repo": "canonic-canonic",
+      "id": "gov:canonic-canonic:FEDERATIONS:hadleylab",
+      "label": "HADLEYLAB",
+      "bits": 255,
+      "size": 80,
+      "color": "#ec4899",
+      "category": "SERVICES",
+      "inherits": "gov:canonic-canonic:FEDERATIONS"
+    },
+    {
+      "source": "gov",
+      "repo": "canonic-canonic",
+      "id": "gov:canonic-canonic:FEDERATIONS:runner",
+      "label": "RUNNER",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:canonic-canonic:FEDERATIONS"
     },
     {
       "source": "gov",
@@ -207,8 +229,8 @@
       "repo": "canonic-canonic",
       "id": "gov:canonic-canonic:USERS:DEXTER",
       "label": "DEXTER",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#ec4899",
       "category": "SERVICES",
       "inherits": "gov:canonic-canonic:USERS"
@@ -218,8 +240,8 @@
       "repo": "canonic-canonic",
       "id": "gov:canonic-canonic:USERS:FATIMA",
       "label": "FATIMA",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:canonic-canonic:USERS"
@@ -229,8 +251,8 @@
       "repo": "canonic-canonic",
       "id": "gov:canonic-canonic:USERS:ROBERT",
       "label": "ROBERT",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:canonic-canonic:USERS"
@@ -249,6 +271,39 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:BLOGS",
+      "label": "BLOGS",
+      "bits": 255,
+      "size": 80,
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:BOOKS",
+      "label": "BOOKS",
+      "bits": 255,
+      "size": 80,
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:CAMPAIGNS",
+      "label": "CAMPAIGNS",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:APPS:CANONIC",
       "label": "CANONIC",
       "bits": 255,
@@ -260,10 +315,76 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:CANONIC-ORG",
+      "label": "CANONIC-ORG",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:DEALS",
+      "label": "DEALS",
+      "bits": 255,
+      "size": 80,
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:DECKS",
+      "label": "DECKS",
+      "bits": 255,
+      "size": 80,
+      "color": "#a78bfa",
+      "category": "CONTENT",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:APPS:FINTALK",
       "label": "FINTALK",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:GALAXY",
+      "label": "GALAXY",
+      "bits": 255,
+      "size": 80,
+      "color": "#00ff88",
+      "category": "RUNTIME",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:GRANTS",
+      "label": "GRANTS",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:HADLEYLAB-ORG",
+      "label": "HADLEYLAB-ORG",
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:APPS"
@@ -273,8 +394,19 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:APPS:LAWTALK",
       "label": "LAWTALK",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:LIBRARY",
+      "label": "LIBRARY",
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:APPS"
@@ -284,8 +416,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:APPS:MUSICTALK",
       "label": "MUSICTALK",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:APPS"
@@ -295,8 +427,30 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:APPS:ONCONEX",
       "label": "ONCONEX",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:PAPERS",
+      "label": "PAPERS",
+      "bits": 255,
+      "size": 80,
+      "color": "#ffd60a",
+      "category": "GOVERNANCE",
+      "inherits": "gov:hadleylab-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:APPS:PATENTS",
+      "label": "PATENTS",
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:APPS"
@@ -306,8 +460,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:APPS:REALTALK",
       "label": "REALTALK",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:APPS"
@@ -317,8 +471,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:APPS:RUNNER",
       "label": "RUNNER",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:APPS"
@@ -416,8 +570,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:BOOKS:DARIOISMS",
       "label": "DARIOISMS",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:BOOKS"
@@ -612,6 +766,17 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:DEALS:ABOPM",
+      "label": "ABOPM",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:DEALS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DEALS:BAKEOFF",
       "label": "BAKEOFF",
       "bits": 255,
@@ -724,8 +889,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:ABOPM",
       "label": "ABOPM",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:DECKS"
@@ -735,8 +900,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:ACHIEVE",
       "label": "ACHIEVE",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:DECKS"
@@ -746,8 +911,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:AI4-VEGAS",
       "label": "AI4-VEGAS",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:DECKS"
@@ -757,8 +922,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:BEDA",
       "label": "BEDA",
-      "bits": 223,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:DECKS"
@@ -768,8 +933,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:BOND-VALE",
       "label": "BOND-VALE",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:DECKS"
@@ -790,8 +955,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:ESGO",
       "label": "ESGO",
-      "bits": 215,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:DECKS"
@@ -801,8 +966,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:HOWARD",
       "label": "HOWARD",
-      "bits": 223,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:DECKS"
@@ -812,8 +977,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:JP-CAPITAL",
       "label": "JP-CAPITAL",
-      "bits": 223,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:DECKS"
@@ -834,8 +999,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:RUNNER-CHAIN",
       "label": "RUNNER-CHAIN",
-      "bits": 223,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:DECKS"
@@ -845,8 +1010,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:SGU",
       "label": "SGU",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:DECKS"
@@ -856,8 +1021,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:DECKS:STRONG-HER",
       "label": "STRONG-HER",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:DECKS"
@@ -865,10 +1030,21 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:ENTITIES:LEONARD-KEMPTHORNE-LLC",
+      "label": "LEONARD-KEMPTHORNE-LLC",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:ENTITIES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:FOUNDERS",
       "label": "FOUNDERS",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:."
@@ -878,8 +1054,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:FOUNDERS:ANIL",
       "label": "ANIL",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:FOUNDERS"
@@ -889,8 +1065,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:FOUNDERS:DEXTER",
       "label": "DEXTER",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#ec4899",
       "category": "SERVICES",
       "inherits": "gov:hadleylab-canonic:FOUNDERS"
@@ -900,8 +1076,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:FOUNDERS:MARISA",
       "label": "MARISA",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:FOUNDERS"
@@ -911,8 +1087,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:FOUNDERS:NICHOLAS",
       "label": "NICHOLAS",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:FOUNDERS"
@@ -975,10 +1151,65 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:MANUSCRIPTS",
+      "label": "MANUSCRIPTS",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:MANUSCRIPTS:ABOPM-DISTRIBUTED-CRO",
+      "label": "ABOPM-DISTRIBUTED-CRO",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:MANUSCRIPTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:MANUSCRIPTS:CLINICAL-TRIALS-RACE",
+      "label": "CLINICAL-TRIALS-RACE",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:MANUSCRIPTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:MANUSCRIPTS:COMMUNITY-LEARNING",
+      "label": "COMMUNITY-LEARNING",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:MANUSCRIPTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:MANUSCRIPTS:PRECISION-MEDICINE-INACCURATE",
+      "label": "PRECISION-MEDICINE-INACCURATE",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:MANUSCRIPTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:NASES",
       "label": "NASES",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:."
@@ -1004,39 +1235,6 @@
       "color": "#ffd60a",
       "category": "GOVERNANCE",
       "inherits": "gov:hadleylab-canonic:."
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:PAPERS:CLINICAL-TRIALS-RACE",
-      "label": "CLINICAL-TRIALS-RACE",
-      "bits": 247,
-      "size": 60,
-      "color": "#64748b",
-      "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:PAPERS"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:PAPERS:COMMUNITY-LEARNING",
-      "label": "COMMUNITY-LEARNING",
-      "bits": 247,
-      "size": 60,
-      "color": "#64748b",
-      "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:PAPERS"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:PAPERS:PRECISION-MEDICINE-INACCURATE",
-      "label": "PRECISION-MEDICINE-INACCURATE",
-      "bits": 247,
-      "size": 60,
-      "color": "#64748b",
-      "category": "ORG",
-      "inherits": "gov:hadleylab-canonic:PAPERS"
     },
     {
       "source": "gov",
@@ -1228,6 +1426,28 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PATENTS:PROV-014",
+      "label": "PROV-014",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PATENTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:PATENTS:PROV-015",
+      "label": "PROV-015",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:PATENTS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:PATENTS:PROVISIONALS",
       "label": "PROVISIONALS",
       "bits": 255,
@@ -1252,8 +1472,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SEEDS",
       "label": "SEEDS",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:."
@@ -1283,6 +1503,17 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SERVICES:ANKI",
+      "label": "ANKI",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:SERVICES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:API",
       "label": "API",
       "bits": 255,
@@ -1307,6 +1538,17 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:AUTH",
       "label": "AUTH",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:SERVICES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SERVICES:BACKPROP",
+      "label": "BACKPROP",
       "bits": 255,
       "size": 80,
       "color": "#64748b",
@@ -1371,10 +1613,21 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SERVICES:CAS",
+      "label": "CAS",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:SERVICES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:CITATION",
       "label": "CITATION",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:SERVICES"
@@ -1437,6 +1690,17 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SERVICES:DEBUG",
+      "label": "DEBUG",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:SERVICES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:DECK",
       "label": "DECK",
       "bits": 255,
@@ -1450,8 +1714,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:DEMO",
       "label": "DEMO",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:SERVICES"
@@ -1505,6 +1769,17 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:FORECASTS",
       "label": "FORECASTS",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:hadleylab-canonic:SERVICES"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:SERVICES:FRONTMATTER",
+      "label": "FRONTMATTER",
       "bits": 255,
       "size": 80,
       "color": "#64748b",
@@ -1604,8 +1879,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:MUSIC",
       "label": "MUSIC",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:SERVICES"
@@ -1780,8 +2055,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:TASK",
       "label": "TASK",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:SERVICES"
@@ -1813,8 +2088,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:SERVICES:UPTIME",
       "label": "UPTIME",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:SERVICES"
@@ -1923,8 +2198,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:TALKS:ABOPM",
       "label": "ABOPM",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:TALKS"
@@ -1934,8 +2209,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:TALKS:ACHIEVE",
       "label": "ACHIEVE",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:TALKS"
@@ -1967,8 +2242,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:TALKS:CAOH",
       "label": "CAOH",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:TALKS"
@@ -2004,6 +2279,17 @@
       "size": 80,
       "color": "#ec4899",
       "category": "SERVICES",
+      "inherits": "gov:hadleylab-canonic:TALKS"
+    },
+    {
+      "source": "gov",
+      "repo": "hadleylab-canonic",
+      "id": "gov:hadleylab-canonic:TALKS:GALAXY",
+      "label": "GALAXY",
+      "bits": 255,
+      "size": 80,
+      "color": "#00ff88",
+      "category": "RUNTIME",
       "inherits": "gov:hadleylab-canonic:TALKS"
     },
     {
@@ -2075,17 +2361,6 @@
     {
       "source": "gov",
       "repo": "hadleylab-canonic",
-      "id": "gov:hadleylab-canonic:TALKS:ONCOCHAT",
-      "label": "ONCOCHAT",
-      "bits": 255,
-      "size": 80,
-      "color": "#ec4899",
-      "category": "SERVICES",
-      "inherits": "gov:hadleylab-canonic:TALKS"
-    },
-    {
-      "source": "gov",
-      "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:TALKS:REALTY",
       "label": "REALTY",
       "bits": 255,
@@ -2132,8 +2407,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:TRANSCRIPTS",
       "label": "TRANSCRIPTS",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:."
@@ -2176,8 +2451,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:USERS",
       "label": "USERS",
-      "bits": 223,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#ec4899",
       "category": "SERVICES",
       "inherits": "gov:hadleylab-canonic:."
@@ -2187,8 +2462,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:USERS:AFSANA",
       "label": "AFSANA",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:USERS"
@@ -2209,8 +2484,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:USERS:CRAIG",
       "label": "CRAIG",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:USERS"
@@ -2286,8 +2561,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:USERS:SARAH",
       "label": "SARAH",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:hadleylab-canonic:USERS"
@@ -2308,8 +2583,8 @@
       "repo": "hadleylab-canonic",
       "id": "gov:hadleylab-canonic:VITAE",
       "label": "VITAE",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#ec4899",
       "category": "SERVICES",
       "inherits": "gov:hadleylab-canonic:."
@@ -2324,6 +2599,83 @@
       "color": "#64748b",
       "category": "ORG",
       "inherits": null
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
+      "id": "gov:runner-canonic:APPS",
+      "label": "APPS",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:runner-canonic:."
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
+      "id": "gov:runner-canonic:APPS:AUDITOR",
+      "label": "AUDITOR",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:runner-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
+      "id": "gov:runner-canonic:APPS:OPS",
+      "label": "OPS",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:runner-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
+      "id": "gov:runner-canonic:APPS:PRO",
+      "label": "PRO",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:runner-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
+      "id": "gov:runner-canonic:APPS:RUNNER",
+      "label": "RUNNER",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:runner-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
+      "id": "gov:runner-canonic:APPS:SHOP",
+      "label": "SHOP",
+      "bits": 255,
+      "size": 80,
+      "color": "#ff9f0a",
+      "category": "COMMERCE",
+      "inherits": "gov:runner-canonic:APPS"
+    },
+    {
+      "source": "gov",
+      "repo": "runner-canonic",
+      "id": "gov:runner-canonic:APPS:VERIFIER",
+      "label": "VERIFIER",
+      "bits": 255,
+      "size": 80,
+      "color": "#64748b",
+      "category": "ORG",
+      "inherits": "gov:runner-canonic:APPS"
     },
     {
       "source": "gov",
@@ -2385,8 +2737,8 @@
       "repo": "runner-canonic",
       "id": "gov:runner-canonic:SERVICES:TALK",
       "label": "TALK",
-      "bits": 247,
-      "size": 60,
+      "bits": 255,
+      "size": 80,
       "color": "#ec4899",
       "category": "SERVICES",
       "inherits": "gov:runner-canonic:SERVICES"
@@ -2440,55 +2792,11 @@
       "repo": "runner-canonic",
       "id": "gov:runner-canonic:app",
       "label": "APP",
-      "bits": 247,
-      "size": 60,
-      "color": "#64748b",
-      "category": "ORG",
-      "inherits": "gov:runner-canonic:."
-    },
-    {
-      "source": "gov",
-      "repo": "runner-canonic",
-      "id": "gov:runner-canonic:canonic-canonic",
-      "label": "CANONIC-CANONIC",
       "bits": 255,
       "size": 80,
       "color": "#64748b",
       "category": "ORG",
       "inherits": "gov:runner-canonic:."
-    },
-    {
-      "source": "gov",
-      "repo": "runner-canonic",
-      "id": "gov:runner-canonic:canonic-canonic:FOUNDATION",
-      "label": "FOUNDATION",
-      "bits": 255,
-      "size": 80,
-      "color": "#ffd60a",
-      "category": "GOVERNANCE",
-      "inherits": "gov:runner-canonic:canonic-canonic"
-    },
-    {
-      "source": "gov",
-      "repo": "runner-canonic",
-      "id": "gov:runner-canonic:canonic-canonic:INDUSTRIES",
-      "label": "INDUSTRIES",
-      "bits": 255,
-      "size": 80,
-      "color": "#bf5af2",
-      "category": "KNOWLEDGE",
-      "inherits": "gov:runner-canonic:canonic-canonic"
-    },
-    {
-      "source": "gov",
-      "repo": "runner-canonic",
-      "id": "gov:runner-canonic:canonic-canonic:MAGIC",
-      "label": "MAGIC",
-      "bits": 255,
-      "size": 80,
-      "color": "#00ff88",
-      "category": "RUNTIME",
-      "inherits": "gov:runner-canonic:canonic-canonic"
     },
     {
       "source": "magic",

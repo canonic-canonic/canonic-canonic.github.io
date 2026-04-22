@@ -2,7 +2,7 @@
 layout: default
 scope: CHAIN
 title: "CHAIN"
-description: "Every WALLET event chains to its predecessor. Balance is provable."
+description: "CHAIN is WALLET event linkage — every event chains to its predecessor, balance is provable, the build gates on chain integrity."
 footerTagline: "CHAIN"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: CHAIN
   title: "CHAIN"
-  description: "Every WALLET event chains to its predecessor. Balance is provable."
+  description: "CHAIN is WALLET event linkage — every event chains to its predecessor, balance is provable, the build gates on chain integrity."
   cta:
     - label: "Open CHAIN"
       href: /MAGIC/SERVICES/CHAIN/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **EVENT_CHAINS_TO_PREV** — every TIMELINE event includes a `prev` field (hash of the previous event, or 000000000000 for genesis); no gaps allowed.
+- **BALANCE_IS_PROVABLE** — the derived balance matches WALLET.json; the chain is verifiable forward from genesis to HEAD.
+- **BUILD_GATES_ON_CHAIN** — `verify-wallet` gates the build pipeline; a broken chain is a build failure, not a warning.
 ## Constraints
 
 ```

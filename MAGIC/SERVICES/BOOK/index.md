@@ -2,7 +2,7 @@
 layout: default
 scope: BOOK
 title: "BOOK"
-description: "BOOK is the long-form publishing lane. Every manuscript is a governed artifact — authored in markdown, compiled through the MAGIC pipeline, and surfaced on the governed frontend."
+description: "BOOK is the long-form publishing lane — every manuscript a governed artifact authored in markdown, compiled through MAGIC, surfaced on the governed frontend."
 footerTagline: "BOOK"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: BOOK
   title: "BOOK"
-  description: "BOOK is the long-form publishing lane. Every manuscript is a governed artifact — authored in markdown, compiled through the MAGIC pipeline, and surfaced on the governed frontend."
+  description: "BOOK is the long-form publishing lane — every manuscript a governed artifact authored in markdown, compiled through MAGIC, surfaced on the governed frontend."
   cta:
     - label: "Open BOOK"
       href: /MAGIC/SERVICES/BOOK/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **MANUSCRIPT_IS_GOVERNED** — every chapter sources its claims from governed inputs; chapters are individual files, one chapter per file.
+- **COMPILED_THROUGH_MAGIC** — manuscripts compile through the MAGIC pipeline and validate before deployment; no hand-rendered output ships.
+- **PROOF_WITH_EVERY_PUBLICATION** — every publication emits proofs (author, title, chapter count, commit hash) and each child scope declares a domain-specific Axiom.
 ## Constraints
 
 ```

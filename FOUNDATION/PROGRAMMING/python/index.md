@@ -2,7 +2,7 @@
 layout: default
 scope: python
 title: "python"
-description: "PYTHON = Ancestral runtime. The server. The intelligence."
+description: "PYTHON is the ancestral runtime — the server, the intelligence, the canonical HTTP surface."
 footerTagline: "python"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: python
   title: "python"
-  description: "PYTHON = Ancestral runtime. The server. The intelligence."
+  description: "PYTHON is the ancestral runtime — the server, the intelligence, the canonical HTTP surface."
   cta:
     - label: "Open python"
       href: /FOUNDATION/PROGRAMMING/python/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **PYTHON_IS_ANCESTRAL** — Python is the ancestral runtime from which other runtimes neofunctionalize; it defines the shape.
+- **PYTHON_IS_SERVER** — the canonical HTTP interface is served from Python; other runtimes consume it.
+- **SCORING_IS_GOVERNED** — scoring logic is read from governed configuration; no paths or module names are hardcoded in law.
 ## Constraints
 
 ```

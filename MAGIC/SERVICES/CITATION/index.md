@@ -2,7 +2,7 @@
 layout: default
 scope: CITATION
 title: "CITATION"
-description: "CITATION is the evidence spine. Every claim resolves to a source. Every source carries freshness. Every surface resolves through CITATION."
+description: "CITATION is the evidence spine — every claim resolves to a source, every source carries freshness, every surface resolves through CITATION."
 footerTagline: "CITATION"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: CITATION
   title: "CITATION"
-  description: "CITATION is the evidence spine. Every claim resolves to a source. Every source carries freshness. Every surface resolves through CITATION."
+  description: "CITATION is the evidence spine — every claim resolves to a source, every source carries freshness, every surface resolves through CITATION."
   cta:
     - label: "Open CITATION"
       href: /MAGIC/SERVICES/CITATION/
@@ -28,6 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **CLAIM_RESOLVES_TO_SOURCE** — every claim resolves to a governed source; unresolved citation codes are never published.
+- **SOURCE_CARRIES_FRESHNESS** — sources carry freshness timestamps; stale evidence is flagged, not silently served.
+- **BIBLIOGRAPHY_IS_SPINE** — the bibliography is the single authored spine; the registry is compiled, not hand-maintained.
+- **SURFACE_RESOLUTION_UNIFORM** — citation codes resolve on every surface (WEB, TEX, PDF) with the same identifier.
 ## Constraints
 
 ```

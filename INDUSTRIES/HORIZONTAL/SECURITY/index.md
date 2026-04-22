@@ -2,7 +2,7 @@
 layout: default
 scope: SECURITY
 title: "SECURITY"
-description: "Example"
+description: "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain."
 footerTagline: "SECURITY"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: SECURITY
   title: "SECURITY"
-  description: "Example"
+  description: "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain."
   cta:
     - label: "Open SECURITY"
       href: /INDUSTRIES/HORIZONTAL/SECURITY/
@@ -27,6 +27,13 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+- **INDUSTRY_IS_VARIABLE** — SERVICE equals PRIMITIVE composed with INDUSTRY; swap the industry, get a new service.
+- **EVERY_INDUSTRY_WIRES_THREE** — each vertical wires INTEL, CHAT, and COIN before it counts as governed.
+- **LANGUAGE_CASCADES_FROM_MAGIC** — industry language inherits from MAGIC; no per-industry DESIGN or lexicon fork.
+## Axioms
+
+### 1. Threat Modeling
 
 Threats MUST be identified, categorized, and assessed before controls are applied.
 
@@ -80,6 +87,7 @@ Data at rest and in transit MUST be protected using approved cryptographic stand
 MUST:     Cite specific framework control or standard for security claims
 MUST:     Distinguish between compliance frameworks by scope and applicability
 MUST NOT: Present compliance as equivalent to security
+MUST: SAFETY and SECURITY are ENTERPRISE (#63) — no exceptions, no shortcuts
 ```
 
 ---

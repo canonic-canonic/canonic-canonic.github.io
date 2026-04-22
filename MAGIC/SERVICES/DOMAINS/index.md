@@ -2,7 +2,7 @@
 layout: default
 scope: DOMAINS
 title: "DOMAINS"
-description: "Every vanity surface conflict-cleared. Every acquisition preflight-checked. Every zone governed."
+description: "DOMAINS governs vanity surfaces — every acquisition preflight-checked, every vanity conflict-cleared, every zone governed."
 footerTagline: "DOMAINS"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: DOMAINS
   title: "DOMAINS"
-  description: "Every vanity surface conflict-cleared. Every acquisition preflight-checked. Every zone governed."
+  description: "DOMAINS governs vanity surfaces — every acquisition preflight-checked, every vanity conflict-cleared, every zone governed."
   cta:
     - label: "Open DOMAINS"
       href: /MAGIC/SERVICES/DOMAINS/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **ACQUISITION_PREFLIGHT** — every domain acquisition is preflight-checked against the governed process; ad-hoc registrations are not allowed.
+- **CONFLICT_CLEARED** — every vanity surface is conflict-cleared against the existing fleet before it lands.
+- **ZONE_IS_GOVERNED** — every DNS zone is governed and every domain event (register, transfer, expire) is ledgered.
 ## Constraints
 
 ```

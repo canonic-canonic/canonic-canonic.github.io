@@ -2,7 +2,7 @@
 layout: default
 scope: protestant
 title: "protestant"
-description: "Reformation Christianity. Sola scriptura, sola fide, priesthood of all believers."
+description: "Reformation Christianity governed by confessional standards — sola scriptura, sola fide, priesthood of all believers."
 footerTagline: "protestant"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: protestant
   title: "protestant"
-  description: "Reformation Christianity. Sola scriptura, sola fide, priesthood of all believers."
+  description: "Reformation Christianity governed by confessional standards — sola scriptura, sola fide, priesthood of all believers."
   cta:
     - label: "Open protestant"
       href: /INDUSTRIES/VERTICALS/RELIGION/christianity/protestant/
@@ -28,6 +28,8 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **CONFESSIONAL_STANDARD** — doctrinal claims cite a named confessional standard (Augsburg, Westminster, Heidelberg, or equivalent).
+- **REFORMATION_BRANCH_DISTINCT** — magisterial and radical Reformation branches stay distinct; denominational distinctives never conflate across traditions.
 ## Constraints
 
 ```

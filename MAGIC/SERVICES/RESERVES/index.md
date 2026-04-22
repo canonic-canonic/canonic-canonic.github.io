@@ -2,7 +2,7 @@
 layout: default
 scope: RESERVES
 title: "RESERVES"
-description: "RESERVES holds governed capital. Every allocation evidenced."
+description: "RESERVES holds governed capital — every allocation evidenced, every movement ledgered, private by default."
 footerTagline: "RESERVES"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: RESERVES
   title: "RESERVES"
-  description: "RESERVES holds governed capital. Every allocation evidenced."
+  description: "RESERVES holds governed capital — every allocation evidenced, every movement ledgered, private by default."
   cta:
     - label: "Open RESERVES"
       href: /MAGIC/SERVICES/RESERVES/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **ALLOCATION_IS_EVIDENCED** — every allocation carries evidence; unevidenced allocations are not allowed.
+- **MOVEMENT_IS_LEDGERED** — every capital movement is ledgered end-to-end.
+- **PRIVATE_BY_DEFAULT** — reserve data is never exposed on public surfaces; access is auth-gated.
 ## Constraints
 
 ```

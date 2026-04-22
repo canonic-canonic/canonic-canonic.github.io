@@ -2,7 +2,7 @@
 layout: default
 scope: RUNTIME
 title: "RUNTIME"
-description: "Shared fleet primitives. talk.js + fleet.json. JEKYLL is the compiler. remote_theme is the distribution."
+description: "RUNTIME is shared fleet primitives — talk.js + fleet.json, JEKYLL compiles, remote_theme distributes."
 footerTagline: "RUNTIME"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: RUNTIME
   title: "RUNTIME"
-  description: "Shared fleet primitives. talk.js + fleet.json. JEKYLL is the compiler. remote_theme is the distribution."
+  description: "RUNTIME is shared fleet primitives — talk.js + fleet.json, JEKYLL compiles, remote_theme distributes."
   cta:
     - label: "Open RUNTIME"
       href: /MAGIC/TOOLCHAIN/RUNTIME/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **ONE_TALK_JS** — one `talk.js` across the fleet; scope-specific INTEL is wired via `systemPrompt`, not forked code.
+- **JEKYLL_IS_COMPILER** — Jekyll is the compiler; no custom compilers are introduced at the runtime layer.
+- **REMOTE_THEME_DISTRIBUTES** — Jekyll `remote_theme` distributes DESIGN to all fleet sites; site-specific content is never hardcoded in shared assets.
 ## Constraints
 
 ```

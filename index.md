@@ -35,7 +35,7 @@ stats:
     source: "MammoChat + clinical fleet — real patients, real data"
   - value: "51"
     label: "ENTERPRISE HOSPITALS"
-    href: "https://app.mammochat.ai/"
+    href: "https://hadleylab.org/TALKS/MAMMOCHAT/"
     source: "AdventHealth — 550 facilities, 9 states"
 hero:
   badge: AI GOVERNANCE PLATFORM
@@ -200,7 +200,7 @@ sections:
       tabs:
         - label: Clinical AI
           title: "Four AIs governing patient care."
-          text: "<a href=\"https://app.mammochat.ai/\">MammoChat</a> is a free breast health companion running as a live clinical trial (<a href=\"https://clinicaltrials.gov/study/NCT06604078\">NCT06604078</a>). <a href=\"https://onconex.ai/\">OncoChat</a> governs oncology. <a href=\"https://app.omicschat.ai/\">OmicsChat</a> governs precision genomics. <a href=\"https://medchat.ai/\">MedChat</a> governs general medicine. Every recommendation traced to NCCN guidelines. 20,000+ governed encounters across 51 enterprise hospitals."
+          text: "<a href=\"https://hadleylab.org/TALKS/MAMMOCHAT/\">MammoChat</a> is a free breast health companion running as a live clinical trial (<a href=\"https://clinicaltrials.gov/study/NCT06604078\">NCT06604078</a>). <a href=\"https://hadleylab.org/TALKS/ONCOCHAT/\">OncoChat</a> governs oncology. <a href=\"https://hadleylab.org/TALKS/OMICSCHAT/\">OmicsChat</a> governs precision genomics. <a href=\"https://hadleylab.org/TALKS/MEDCHAT/\">MedChat</a> governs general medicine. Every recommendation traced to NCCN guidelines. 20,000+ governed encounters across 51 enterprise hospitals."
           bullets:
             - "NCT06604078 — registered on ClinicalTrials.gov"
             - "$2M — Florida Department of Health grant"
@@ -210,19 +210,19 @@ sections:
             type: app-grid
             apps:
               - label: MammoChat
-                href: https://app.mammochat.ai/
+                href: https://hadleylab.org/TALKS/MAMMOCHAT/
               - label: OncoChat
-                href: https://onconex.ai/
+                href: https://hadleylab.org/TALKS/ONCOCHAT/
               - label: OmicsChat
-                href: https://app.omicschat.ai/
+                href: https://hadleylab.org/TALKS/OMICSCHAT/
               - label: MedChat
-                href: https://medchat.ai/
+                href: https://hadleylab.org/TALKS/MEDCHAT/
           cta:
             label: Try MammoChat
-            href: https://app.mammochat.ai/
+            href: https://hadleylab.org/TALKS/MAMMOCHAT/
         - label: Real Estate
           title: "$12.2M portfolio. RUNNER is the flagship."
-          text: "<a href=\"https://gorunner.pro/\">RUNNER</a> handles every listing task from signs to closings — the real estate flagship. <a href=\"https://gorunner.pro/\">REAL TALK</a> answers property questions from public records. <a href=\"https://gorunner.pro/\">NONA</a> connects buyers and sellers in real time. Two countries. Three properties. Every interaction ledgered. Every COIN minted."
+          text: "<a href=\"https://hadleylab.org/TALKS/RUNNER/\">RUNNER</a> handles every listing task from signs to closings — the real estate flagship. <a href=\"https://hadleylab.org/TALKS/REALTY/\">REAL TALK</a> answers property questions from public records. <a href=\"https://hadleylab.org/TALKS/NONA/\">NONA</a> connects buyers and sellers in real time. Two countries. Three properties. Every interaction ledgered. Every COIN minted."
           bullets:
             - "$12.2M — 3 properties, 2 countries"
             - "JP Capital Realty — licensed brokerage"
@@ -231,14 +231,14 @@ sections:
             type: app-grid
             apps:
               - label: RUNNER
-                href: https://gorunner.pro/
+                href: https://hadleylab.org/TALKS/RUNNER/
               - label: REAL TALK
-                href: https://gorunner.pro/
+                href: https://hadleylab.org/TALKS/REALTY/
               - label: NONA
-                href: https://gorunner.pro/
+                href: https://hadleylab.org/TALKS/NONA/
           cta:
             label: Try RUNNER
-            href: https://gorunner.pro/
+            href: https://hadleylab.org/TALKS/RUNNER/
         - label: Coming Soon
           title: "Finance and law — in development."
           text: "FinChat will trace every financial claim to regulatory filings (SOX, Dodd-Frank, Basel III). LawChat will provide legal literacy with full citation. Non-advisory by construction, not by disclaimer. Same governance engine, new domains."
@@ -266,7 +266,7 @@ sections:
       tabs:
         - label: Medicine
           title: "Clinical AI"
-          text: "HIPAA. NCCN. mCODE. Every recommendation traced to evidence. <a href=\"https://app.mammochat.ai/\">MammoChat</a> is the reference — 20,000+ governed encounters at a <a href=\"https://app.mammochat.ai/\">550-facility health system</a> across 9 states."
+          text: "HIPAA. NCCN. mCODE. Every recommendation traced to evidence. <a href=\"https://hadleylab.org/TALKS/MAMMOCHAT/\">MammoChat</a> is the reference — 20,000+ governed encounters at a <a href=\"https://hadleylab.org/TALKS/MAMMOCHAT/\">550-facility health system</a> across 9 states."
           figure:
             type: pipeline
             steps:
@@ -276,7 +276,7 @@ sections:
               - "Audit"
         - label: Real Estate
           title: "Governed Transactions"
-          text: "A <a href=\"https://gorunner.pro/\">$12.2M portfolio</a> across Lake Nona and London. Every listing task tracked by <a href=\"https://gorunner.pro/\">RUNNER</a>. Every transaction governed. Every interaction ledgered."
+          text: "A <a href=\"https://hadleylab.org/TALKS/REALTY/\">$12.2M portfolio</a> across Lake Nona and London. Every listing task tracked by <a href=\"https://hadleylab.org/TALKS/RUNNER/\">RUNNER</a>. Every transaction governed. Every interaction ledgered."
           figure:
             type: flow-chain
             nodes:
@@ -440,7 +440,7 @@ sections:
   - id: proof
     eyebrow: "PROVEN IN PRODUCTION"
     title: "Built by a lab that lives under its own governance."
-    description: "[Hadley Lab](https://hadleylab.org) is the first organization certified to 255. A clinical research lab that governs four AIs, a [$12.2M real estate portfolio](https://gorunner.pro/), and professional intelligence under the same compliance engine. The lab is the proof that the platform works at production scale."
+    description: "[Hadley Lab](https://hadleylab.org) is the first organization certified to 255. A clinical research lab that governs four AIs, a [$12.2M real estate portfolio](https://hadleylab.org/TALKS/REALTY/), and professional intelligence under the same compliance engine. The lab is the proof that the platform works at production scale."
     cta:
       buttons:
         - label: Visit Hadley Lab

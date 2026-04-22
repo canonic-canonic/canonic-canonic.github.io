@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "python",
-    "description": "PYTHON = Ancestral runtime. The server. The intelligence.",
+    "description": "PYTHON is the ancestral runtime — the server, the intelligence, the canonical HTTP surface.",
     "cta": [
       {
         "label": "Open python",
@@ -54,6 +54,28 @@
       ]
     },
     {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Next",
+                "[ ] Metalearning Optimizations — GOV-First Implementation Plan <!-- freshen:floo"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "canon-ecosystem",
       "eyebrow": "ECOSYSTEM",
       "title": "Ecosystem",
@@ -89,7 +111,7 @@
   },
   "footerTagline": "python | CANONIC",
   "canon": {
-    "axiom": "PYTHON = Ancestral runtime. The server. The intelligence.",
+    "axiom": "PYTHON is the ancestral runtime — the server, the intelligence, the canonical HTTP surface.",
     "constraints": "MUST:     Serve as the canonical HTTP interface\nMUST:     Read scoring logic from governed configuration\nMUST NOT: Hardcode paths or module names in law",
     "inherits": "canonic-canonic/FOUNDATION/PROGRAMMING/",
     "spec": [
@@ -109,12 +131,12 @@
       }
     ],
     "coverage": "255/255",
-    "roadmap": {},
+    "roadmap": {
+      "next": [
+        "[ ] Metalearning Optimizations — GOV-First Implementation Plan <!-- freshen:floofy-gliding-map@python -->"
+      ]
+    },
     "vocab": [
-      {
-        "term": "FOUNDATION",
-        "definition": "Governed term in this scope vocabulary."
-      },
       {
         "term": "HTTP",
         "definition": "Governed term in this scope vocabulary."
@@ -125,18 +147,18 @@
       },
       {
         "term": "PYTHON",
-        "definition": "Governed term in this scope vocabulary."
+        "definition": "New concept: PYTHON"
       }
     ],
     "chain": [
       {
         "scope": "PROGRAMMING",
-        "axiom": "DEV — programming language implementations."
+        "axiom": "PROGRAMMING hosts the language runtimes — all compliant, all neofunctionalized from a shared INTEL family."
       },
       {
         "scope": "FOUNDATION",
-        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
-        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+        "axiom": "FOUNDATION defines the LANGUAGE — three axioms, compiler correspondence, the paper proves itself.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition\nMUST: New constraint: MUST: Surface FOUNDATION thesis, axioms, and programming correspondence from governed content\nMUST: New constraint: MUST: Declare governance.\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every tier must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these axioms"
       }
     ]
   }

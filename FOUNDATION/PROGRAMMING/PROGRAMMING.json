@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "PROGRAMMING",
-    "description": "DEV — programming language implementations.",
+    "description": "PROGRAMMING hosts the language runtimes — all compliant, all neofunctionalized from a shared INTEL family.",
     "cta": [
       {
         "label": "Open PROGRAMMING",
@@ -151,28 +151,28 @@
         {
           "icon": "∩",
           "title": "c",
-          "desc": "FFI = Foreign function interface. Kernel. Bare metal.",
+          "desc": "C is the kernel runtime — bare-metal compliance and the universal FFI bridge every other runtime crosses.",
           "href": "/FOUNDATION/PROGRAMMING/c/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "python",
-          "desc": "PYTHON = Ancestral runtime. The server. The intelligence.",
+          "desc": "PYTHON is the ancestral runtime — the server, the intelligence, the canonical HTTP surface.",
           "href": "/FOUNDATION/PROGRAMMING/python/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "swift",
-          "desc": "IOS_NATIVE = Apple ecosystem. Mobile SHOP.",
+          "desc": "SWIFT is the Apple-native compliance runtime — the mobile SHOP, neofunctionalized from Python for declarative UI.",
           "href": "/FOUNDATION/PROGRAMMING/swift/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "typescript",
-          "desc": "TYPESCRIPT = Web runtime wrapper for MAGIC kernel interfaces.",
+          "desc": "TYPESCRIPT is the web runtime wrapper — governed web and frontend integration around the MAGIC kernel.",
           "href": "/FOUNDATION/PROGRAMMING/typescript/",
           "class": "card"
         }
@@ -185,7 +185,7 @@
   },
   "footerTagline": "PROGRAMMING | CANONIC",
   "canon": {
-    "axiom": "DEV — programming language implementations.",
+    "axiom": "PROGRAMMING hosts the language runtimes — all compliant, all neofunctionalized from a shared INTEL family.",
     "inherits": "canonic-canonic/FOUNDATION",
     "spec": [],
     "learning": [
@@ -204,27 +204,23 @@
     },
     "vocab": [
       {
-        "term": "FOUNDATION",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
         "term": "INTEL",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
-        "term": "PROGRAMMING",
         "definition": "Governed term in this scope vocabulary."
       },
       {
         "term": "RUNTIME_FAMILY",
         "definition": "Governed term in this scope vocabulary."
+      },
+      {
+        "term": "PROGRAMMING",
+        "definition": "New concept: PROGRAMMING"
       }
     ],
     "chain": [
       {
         "scope": "FOUNDATION",
-        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
-        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+        "axiom": "FOUNDATION defines the LANGUAGE — three axioms, compiler correspondence, the paper proves itself.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition\nMUST: New constraint: MUST: Surface FOUNDATION thesis, axioms, and programming correspondence from governed content\nMUST: New constraint: MUST: Declare governance.\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every tier must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these axioms"
       }
     ]
   }

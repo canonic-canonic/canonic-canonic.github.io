@@ -2,7 +2,7 @@
 layout: default
 scope: SHOP
 title: "SHOP"
-description: "SHOP compiles the public projection aggregate. Every USER is a SHOP. Every artifact has a price."
+description: "SHOP compiles the public projection aggregate — every USER is a SHOP, every artifact has a price, purchase wires to WALLET."
 footerTagline: "SHOP"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: SHOP
   title: "SHOP"
-  description: "SHOP compiles the public projection aggregate. Every USER is a SHOP. Every artifact has a price."
+  description: "SHOP compiles the public projection aggregate — every USER is a SHOP, every artifact has a price, purchase wires to WALLET."
   cta:
     - label: "Open SHOP"
       href: /MAGIC/SERVICES/SHOP/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **USER_IS_SHOP** — every USER principal with artifacts has a SHOP surface; projections are discovered by walking `{USER}/**/SHOP.md`, not just `SERVICES/**/SHOP.md`.
+- **ARTIFACT_HAS_PRICE** — each SHOP product may declare a COIN price; free products omit price.
+- **PURCHASE_WIRES_WALLET** — purchase creates a SPEND event in the buyer WALLET and a credit in the seller WALLET; aggregation is deterministic and rerun-safe.
 ## Constraints
 
 ```

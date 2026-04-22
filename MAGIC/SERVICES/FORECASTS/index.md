@@ -2,7 +2,7 @@
 layout: default
 scope: FORECASTS
 title: "FORECASTS"
-description: "FORECASTS projects governed economics. Every projection evidenced."
+description: "FORECASTS projects governed economics — every projection evidenced, every forecast versioned, never presented as actuals."
 footerTagline: "FORECASTS"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: FORECASTS
   title: "FORECASTS"
-  description: "FORECASTS projects governed economics. Every projection evidenced."
+  description: "FORECASTS projects governed economics — every projection evidenced, every forecast versioned, never presented as actuals."
   cta:
     - label: "Open FORECASTS"
       href: /MAGIC/SERVICES/FORECASTS/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **PROJECTION_IS_EVIDENCED** — every projection cites its source data; forecasts are not fabricated.
+- **FORECAST_IS_VERSIONED** — every forecast is versioned; silent updates are not allowed.
+- **PROJECTION_NOT_ACTUAL** — forecasts are never presented as actuals and public-surface exposure always carries a disclaimer.
 ## Constraints
 
 ```

@@ -2,7 +2,7 @@
 layout: default
 scope: FINDER
 title: "FINDER"
-description: "FINDER is hierarchical navigation for the governed topology."
+description: "FINDER is hierarchical navigation for the governed topology — breadcrumbs are the spine, scopes are folders, leaves open detail surfaces."
 footerTagline: "FINDER"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: FINDER
   title: "FINDER"
-  description: "FINDER is hierarchical navigation for the governed topology."
+  description: "FINDER is hierarchical navigation for the governed topology — breadcrumbs are the spine, scopes are folders, leaves open detail surfaces."
   cta:
     - label: "Open FINDER"
       href: /MAGIC/GALAXY/FINDER/
@@ -28,6 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **FINDER_IS_HIERARCHICAL** — users navigate into scopes like folders and read intelligence like files; every click either navigates deeper or opens a detail surface.
+- **BREADCRUMBS_ARE_SPINE** — breadcrumbs render the scope path as clickable segments at the top and are the spine of navigation.
+- **GRAPH_IS_SECONDARY** — the force-directed graph view is secondary and toggled on demand; the hierarchical list is primary.
+- **MAGIC_URI_IS_ROUTE** — every navigation updates the `magic://` URI hash so browser back/forward work natively.
 ## Constraints
 
 ```
@@ -44,6 +48,7 @@ MUST:     Scope search to current Finder context (with "search all" toggle)
 MUST NOT: Show all 302 nodes at once (scoped to current breadcrumb level)
 MUST NOT: Require pinch-zoom or pan to navigate (breadcrumbs replace spatial memory)
 MUST NOT: Break browser history (every navigation is a pushState)
+MUST NOT: HUD elements must overlay content. Control panel is narrow, breadcrumb bar is full-width but thin, card grid clears both with padding. No modals, no traps.
 ```
 
 ---

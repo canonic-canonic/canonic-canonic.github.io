@@ -2,7 +2,7 @@
 layout: default
 scope: DEAL
 title: "DEAL"
-description: "DEAL governs relationships. Every deal ledgered. Every stage evidenced."
+description: "DEAL governs relationships — every deal ledgered, every stage evidenced, no stage advance without proof."
 footerTagline: "DEAL"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: DEAL
   title: "DEAL"
-  description: "DEAL governs relationships. Every deal ledgered. Every stage evidenced."
+  description: "DEAL governs relationships — every deal ledgered, every stage evidenced, no stage advance without proof."
   cta:
     - label: "Open DEAL"
       href: /MAGIC/SERVICES/DEAL/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **DEAL_IS_LEDGERED** — every stage transition is ledgered; the deal history is an append-only audit trail.
+- **STAGE_GATED_BY_EVIDENCE** — stage transitions (QUALIFY → NEGOTIATE → CLOSE) require evidence; no advance without proof.
+- **PARTIES_CROSS_REFERENCED** — deal parties cross-reference into CONTACTS so every participant resolves to a governed identity.
 ## Constraints
 
 ```

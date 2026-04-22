@@ -2,7 +2,7 @@
 layout: default
 scope: LATEX
 title: "LATEX"
-description: "LATEX is a compiled surface. Governance lives in markdown. No raw LATEX in the GOV layer."
+description: "LATEX is a compiled surface — governance lives in markdown, no raw LATEX in GOV, compilation is deterministic."
 footerTagline: "LATEX"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: LATEX
   title: "LATEX"
-  description: "LATEX is a compiled surface. Governance lives in markdown. No raw LATEX in the GOV layer."
+  description: "LATEX is a compiled surface — governance lives in markdown, no raw LATEX in GOV, compilation is deterministic."
   cta:
     - label: "Open LATEX"
       href: /MAGIC/SERVICES/LATEX/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **MARKDOWN_IS_GOV** — governance lives in markdown; raw LaTeX is never stored in the GOV layer and compiled outputs are never hand-edited.
+- **COMPILATION_IS_DETERMINISTIC** — the LaTeX surface produces deterministic output from the same governed inputs.
+- **CITATIONS_RESOLVE** — every citation resolves in the compiled output; unresolved codes do not ship.
 ## Constraints
 
 ```

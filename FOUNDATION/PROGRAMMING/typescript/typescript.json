@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "typescript",
-    "description": "TYPESCRIPT = Web runtime wrapper for MAGIC kernel interfaces.",
+    "description": "TYPESCRIPT is the web runtime wrapper — governed web and frontend integration around the MAGIC kernel.",
     "cta": [
       {
         "label": "Open typescript",
@@ -89,7 +89,7 @@
   },
   "footerTagline": "typescript | CANONIC",
   "canon": {
-    "axiom": "TYPESCRIPT = Web runtime wrapper for MAGIC kernel interfaces.",
+    "axiom": "TYPESCRIPT is the web runtime wrapper — governed web and frontend integration around the MAGIC kernel.",
     "inherits": "canonic-canonic/FOUNDATION/PROGRAMMING/",
     "spec": [
       {
@@ -106,10 +106,6 @@
     "roadmap": {},
     "vocab": [
       {
-        "term": "FOUNDATION",
-        "definition": "Root governance layer."
-      },
-      {
         "term": "MAGIC",
         "definition": "The operations layer composing INTEL + CHAT + COIN into governed services"
       },
@@ -119,18 +115,18 @@
       },
       {
         "term": "TYPESCRIPT",
-        "definition": "JavaScript superset runtime layer for governed interfaces."
+        "definition": "New concept: TYPESCRIPT"
       }
     ],
     "chain": [
       {
         "scope": "PROGRAMMING",
-        "axiom": "DEV — programming language implementations."
+        "axiom": "PROGRAMMING hosts the language runtimes — all compliant, all neofunctionalized from a shared INTEL family."
       },
       {
         "scope": "FOUNDATION",
-        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
-        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+        "axiom": "FOUNDATION defines the LANGUAGE — three axioms, compiler correspondence, the paper proves itself.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition\nMUST: New constraint: MUST: Surface FOUNDATION thesis, axioms, and programming correspondence from governed content\nMUST: New constraint: MUST: Declare governance.\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every tier must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these axioms"
       }
     ]
   }

@@ -2,7 +2,7 @@
 layout: default
 scope: PATENT
 title: "PATENT"
-description: "PATENT governs intellectual property. Every filing evidenced. Every disclosure tracked."
+description: "PATENT governs intellectual property — every filing evidenced, every disclosure tracked, every stage transition ledgered and minted."
 footerTagline: "PATENT"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: PATENT
   title: "PATENT"
-  description: "PATENT governs intellectual property. Every filing evidenced. Every disclosure tracked."
+  description: "PATENT governs intellectual property — every filing evidenced, every disclosure tracked, every stage transition ledgered and minted."
   cta:
     - label: "Open PATENT"
       href: /MAGIC/SERVICES/PATENT/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **FILING_IS_EVIDENCED** — every filing carries evidence; no filing advances without proof.
+- **DISCLOSURE_IS_TRACKED** — every disclosure is tracked from inception; the IDF is the entry point into the patent pipeline.
+- **STAGE_GATED_AND_MINTED** — every stage transition (DISCLOSE → FILE → APPLY) is gated, ledgered, and mints COIN on promotion.
 ## Constraints
 
 ```

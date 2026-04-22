@@ -2,7 +2,7 @@
 layout: default
 scope: MONITORING
 title: "MONITORING"
-description: "MONITORING is continuous governance scoring. Real-time visibility, not snapshots."
+description: "MONITORING is continuous governance scoring — real-time visibility, not snapshots, fleet discovered from HTTP.md."
 footerTagline: "MONITORING"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: MONITORING
   title: "MONITORING"
-  description: "MONITORING is continuous governance scoring. Real-time visibility, not snapshots."
+  description: "MONITORING is continuous governance scoring — real-time visibility, not snapshots, fleet discovered from HTTP.md."
   cta:
     - label: "Open MONITORING"
       href: /MAGIC/SERVICES/MONITORING/
@@ -28,6 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **CONTINUOUS_NOT_SNAPSHOT** — scoring is continuous and real-time; snapshot-based dashboards do not satisfy the contract.
+- **METRICS_ENDPOINT_STANDARD** — the API service exposes a Prometheus-compatible `/metrics` endpoint with request count, latency p50/p95/p99, and error rate per endpoint.
+- **ALERT_ON_DROP** — governance-score drops (`magic validate < 255`) fire alerts and all metric collection lands in the LEDGER.
+- **FLEET_DISCOVERED** — fleet sites, lanes, and proxy domains are discovered from HTTP.md and never hardcoded.
 ## Constraints
 
 ```

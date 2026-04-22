@@ -2,7 +2,7 @@
 layout: default
 scope: NOTIFIER
 title: "NOTIFIER"
-description: "NOTIFIER is NOTIFY + INTEL composed. Scope determines the route. Ledger determines the proof."
+description: "NOTIFIER is NOTIFY + INTEL composed — scope determines the route, ledger determines the proof, delivery is inline and governed."
 footerTagline: "NOTIFIER"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: NOTIFIER
   title: "NOTIFIER"
-  description: "NOTIFIER is NOTIFY + INTEL composed. Scope determines the route. Ledger determines the proof."
+  description: "NOTIFIER is NOTIFY + INTEL composed — scope determines the route, ledger determines the proof, delivery is inline and governed."
   cta:
     - label: "Open NOTIFIER"
       href: /MAGIC/SERVICES/NOTIFIER/
@@ -28,6 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **INTEL_WIRED_INTO_DELIVERY** — NOTIFIER never delivers without context; INTEL is wired into every notification.
+- **SCOPE_DETERMINES_ROUTE** — the `notify:` header in GOV maps directly to the delivery route at write time; routes are declared, not inferred.
+- **LEDGER_IS_PROOF** — every delivery is ledgered with sender scope, receiver scope, timestamp, and content hash; inbox per principal is governed and bounded.
+- **INLINE_AT_WRITE** — delivery is inline at ledger write; no polling, no delay, no queue.
 ## Constraints
 
 ```

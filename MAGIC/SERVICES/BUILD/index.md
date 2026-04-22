@@ -2,7 +2,7 @@
 layout: default
 scope: BUILD
 title: "BUILD"
-description: "Build is governed DAG traversal. Phases are nodes. Dependencies are edges. Parallelism is discovered, not hardcoded. GOV is the only hardcoded path."
+description: "BUILD is governed DAG traversal — phases are nodes, dependencies are edges, parallelism is discovered, GOV is the only hardcoded path."
 footerTagline: "BUILD"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: BUILD
   title: "BUILD"
-  description: "Build is governed DAG traversal. Phases are nodes. Dependencies are edges. Parallelism is discovered, not hardcoded. GOV is the only hardcoded path."
+  description: "BUILD is governed DAG traversal — phases are nodes, dependencies are edges, parallelism is discovered, GOV is the only hardcoded path."
   cta:
     - label: "Open BUILD"
       href: /MAGIC/SERVICES/BUILD/
@@ -28,6 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **BUILD_IS_DAG** — compilation is DAG traversal; phases are nodes and dependencies are edges discovered from the governed pipeline config.
+- **PARALLELISM_IS_DISCOVERED** — parallelism is derived from the DAG by topological sort, never hardcoded; phases glob-discover themselves.
+- **GOV_BOUNDARY_GATED** — the compiler gates the GOV boundary at compile time; the build FAILS if runtime files live in GOV.
+- **GENERATED_MARKER_REQUIRED** — every file written back to GOV carries a `_generated` marker so the boundary between authored and compiled is always visible.
 ## Constraints
 
 ```

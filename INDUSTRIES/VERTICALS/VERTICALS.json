@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "VERTICALS",
-    "description": "VERTICALS surface.",
+    "description": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
     "cta": [
       {
         "label": "Open VERTICALS",
@@ -151,105 +151,105 @@
         {
           "icon": "∩",
           "title": "AEROSPACE",
-          "desc": "Example",
+          "desc": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
           "href": "/INDUSTRIES/VERTICALS/AEROSPACE/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "AGRICULTURE",
-          "desc": "Example",
+          "desc": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
           "href": "/INDUSTRIES/VERTICALS/AGRICULTURE/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "AUTOMOTIVE",
-          "desc": "Example",
+          "desc": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
           "href": "/INDUSTRIES/VERTICALS/AUTOMOTIVE/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "DEFENSE",
-          "desc": "Example",
+          "desc": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
           "href": "/INDUSTRIES/VERTICALS/DEFENSE/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "EDUCATION",
-          "desc": "Example",
+          "desc": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
           "href": "/INDUSTRIES/VERTICALS/EDUCATION/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "ENERGY",
-          "desc": "Example",
+          "desc": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
           "href": "/INDUSTRIES/VERTICALS/ENERGY/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "FINANCE",
-          "desc": "Example",
+          "desc": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
           "href": "/INDUSTRIES/VERTICALS/FINANCE/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "GENOMICS",
-          "desc": "Example",
+          "desc": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
           "href": "/INDUSTRIES/VERTICALS/GENOMICS/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "LOGISTICS",
-          "desc": "Example",
+          "desc": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
           "href": "/INDUSTRIES/VERTICALS/LOGISTICS/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "MANUFACTURING",
-          "desc": "Example",
+          "desc": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
           "href": "/INDUSTRIES/VERTICALS/MANUFACTURING/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "MEDICINE",
-          "desc": "Example",
+          "desc": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
           "href": "/INDUSTRIES/VERTICALS/MEDICINE/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "QUALITY",
-          "desc": "Example",
+          "desc": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
           "href": "/INDUSTRIES/VERTICALS/QUALITY/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "REAL_ESTATE",
-          "desc": "Example",
+          "desc": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
           "href": "/INDUSTRIES/VERTICALS/REAL_ESTATE/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "RELIGION",
-          "desc": "RELIGION scope.",
+          "desc": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
           "href": "/INDUSTRIES/VERTICALS/RELIGION/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "ROBOTICS",
-          "desc": "Example",
+          "desc": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
           "href": "/INDUSTRIES/VERTICALS/ROBOTICS/",
           "class": "card"
         }
@@ -473,5 +473,80 @@
     "contract": "/Users/iDrDex/CANONIC/canonic-canonic/INDUSTRIES/VERTICALS/VERTICALS.md",
     "rule": "edit the contract or compiler — not this file"
   },
-  "footerTagline": "VERTICALS | CANONIC"
+  "footerTagline": "VERTICALS | CANONIC",
+  "canon": {
+    "axiom": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
+    "inherits": "canonic-canonic/INDUSTRIES",
+    "spec": [
+      {
+        "title": "Lattice",
+        "body": "All verticals default to **ENTERPRISE (#63)** — 6 governance checks. Full governance. Because every vertical maps to real-world standards with institutional enforcement.\n\n---"
+      },
+      {
+        "title": "Children",
+        "body": "| Vertical | Standard | Tier | Status |\n|----------|----------|------|--------|\n| AEROSPACE | DO-178C / ARP4754A | ENTERPRISE (#63) | Governed |\n| AGRICULTURE | USDA GAP / ISOBUS | ENTERPRISE (#63) | Governed |\n| AUTOMOTIVE | ISO 26262 / SAE J3016 | ENTERPRISE (#63) | Governed |\n| DEFENSE | CMMC / NIST 800-171 | ENTERPRISE (#63) | Governed |\n| EDUCATION | FERPA / SACSCOC | ENTERPRISE (#63) | Governed |\n| ENERGY | NERC CIP / NRC 10 CFR | ENTERPRISE (#63) | Governed |\n| FINANCE | GAAP / SOX / Basel | ENTERPRISE (#63) | Governed |\n| GENOMICS | ACMG/AMP / GA4GH | ENTERPRISE (#63) | Governed |\n| LOGISTICS | GS1 / ISO 28000 | ENTERPRISE (#63) | Governed |\n| MANUFACTURING | ISA-95 / IEC 62443 | ENTERPRISE (#63) | Governed |\n| MEDICINE | mCODE / FHIR / HIPAA | ENTERPRISE (#63) | Governed |\n| QUALITY | ISO 9001 / AS9100 | ENTERPRISE (#63) | Governed |\n| REAL_ESTATE | FAR/BAR / USPAP | ENTERPRISE (#63) | Governed |\n| RELIGION | Canonical texts / institutional forms | ENTERPRISE (#63) | Governed |\n| ROBOTICS | IEC 61508 / ISO 10218 | ENTERPRISE (#63) | Governed |\n\n---"
+      },
+      {
+        "title": "Composition Rules",
+        "body": "- **VERTICAL × HORIZONTAL** = domain-specific compliance (e.g., MEDICINE × SAFETY = medical device safety)\n- **VERTICAL × REGULATORY** = domain-specific regulation (e.g., FINANCE × LAW = financial regulation)\n- **VERTICAL × VERTICAL** = cross-domain product (e.g., MEDICINE × GENOMICS = precision medicine)\n\n---"
+      },
+      {
+        "title": "Onboarding",
+        "body": "To add a new vertical:\n\n1. Create directory under `VERTICALS/[NAME]/`\n2. Write CANON.md inheriting `canonic-canonic/INDUSTRIES/VERTICALS`\n3. Define 5 domain axioms with examples\n4. Map domain standard to lattice formula\n5. Define subdomains with SIL/DAL/ASIL-to-MAGIC tier mapping\n6. Write validators, examples (DECLARE), and application steps\n7. Run `magic validate` — 255 or reject\n\n---\n\n---"
+      },
+      {
+        "title": "Status",
+        "body": "| Vertical | Status | Evidence |\n|----------|--------|----------|\n| MEDICINE | LIVE | SERVICE proof: TALK, SHOP, INTEL |\n| FINANCE | LIVE | SERVICE proof: TALK, INTEL |\n| AEROSPACE | DEFERRED | Governed, no service proof |\n| AGRICULTURE | DEFERRED | Governed, no service proof |\n| AUTOMOTIVE | DEFERRED | Governed, no service proof |\n| DEFENSE | DEFERRED | Governed, no service proof |\n| EDUCATION | DEFERRED | Governed, no service proof |\n| ENERGY | DEFERRED | Governed, no service proof |\n| GENOMICS | DEFERRED | Governed, no service proof |\n| LOGISTICS | DEFERRED | Governed, no service proof |\n| MANUFACTURING | DEFERRED | Governed, no service proof |\n| QUALITY | DEFERRED | Governed, no service proof |\n| REAL_ESTATE | DEFERRED | Governed, no service proof |\n| RELIGION | DEFERRED | Governed, no service proof |\n| ROBOTICS | DEFERRED | Governed, no service proof |\n\nLIVE = has at least one deployed SERVICE. DEFERRED = governance complete, awaiting service proof.\n\n---"
+      }
+    ],
+    "learning": [
+      {
+        "title": "INTEL Axioms (absorbed from META)",
+        "body": "1. Every pattern MUST have evidence (commit hash, transcript, operational data).\n2. Patterns appearing in 3+ verticals become kernel candidates.\n3. LEARNING terminals observe governance — they do not enact it.\n4. Undated observations are invalid. Every row MUST carry a timestamp.\n\n---"
+      },
+      {
+        "title": "Patterns",
+        "body": "| Date | Signal | Pattern | Source |\n|------|--------|---------|--------|\n| 2026-02-14 | SEED | All verticals = ENTERPRISE (#63) — no exceptions | INDUSTRIES.md |\n| 2026-02-14 | SEED | Two valid spec patterns coexist: traditional (MEDICINE) and modernized (ROBOTICS) | MEDICINE.md, ROBOTICS.md |\n| 2026-02-14 | SEED | Cross-domain compositions strengthen patent claims (PROV-001 through PROV-006) | Per-vertical Patent Mapping |\n| 2026-02-14 | SEED | Medical verticals have deepest nesting (oncology → breast → MAMMOCHAT) | MEDICINE.md |\n| 2026-02-14 | SEED | SIL/DAL/ASIL-to-MAGIC tier mapping is the bridge between domain safety levels and governance | ROBOTICS.md, AEROSPACE.md, AUTOMOTIVE.md |\n| 2026-02-19 | NEW_COMPOSITION | Axioms + Validators + Examples + Application added to all 8 modernized verticals | Gap closure |\n| 2026-02-19 | EVOLUTION | META dissolved into INTEL→LEARNING — ontological not strata | Architecture review |\n| 2026-02-19 | NEW_COMPOSITION | INDUSTRIES made ontological — nodes not strings, instance binding via SHOP.md | DESIGN.md |\n\n---"
+      }
+    ],
+    "coverage": "255/255",
+    "roadmap": {
+      "later": [
+        "Every vertical operates as autonomous governance node with full #63 ENTERPRISE compliance",
+        "Verticals self-register and self-validate through magic scan",
+        "Federated vertical network: cross-vertical intelligence sharing via INTEL layer"
+      ]
+    },
+    "vocab": [
+      {
+        "term": "ENTERPRISE",
+        "definition": "Lattice composition 6 governance checks — full institutional governance"
+      },
+      {
+        "term": "MAGIC",
+        "definition": "The operations layer composing INTEL + CHAT + COIN into governed services"
+      },
+      {
+        "term": "VERTICALS",
+        "definition": "New concept: VERTICALS"
+      }
+    ],
+    "chain": [
+      {
+        "scope": "INDUSTRIES",
+        "axiom": "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain.",
+        "constraints": "MUST:     Every INDUSTRY wires INTEL + CHAT + COIN\nMUST:     Standards mapped to governance dimensions\nMUST:     LANGUAGE cascades from MAGIC — no per-industry DESIGN.md\nMUST NOT: Create INDUSTRY without SERVICE proof\nMUST: New constraint: MUST: Declare governance."
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "MAGIC is the enforcement layer — three primitives, one governed economy, COMPLIANCE as the product.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract\nMUST: New constraint: MUST NOT: Expose private kernel internals\nMUST: New constraint: MUST: Declare governance.\nMUST: New constraint: COVERAGE.md MUST be generated by build-surfaces — not hand-authored\nMUST: New constraint: README.md MUST be lean (scope + inherits + axiom) — no boilerplate"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "FOUNDATION defines the LANGUAGE — three axioms, compiler correspondence, the paper proves itself.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition\nMUST: New constraint: MUST: Surface FOUNDATION thesis, axioms, and programming correspondence from governed content\nMUST: New constraint: MUST: Declare governance.\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every tier must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these axioms"
+      }
+    ]
+  }
 }

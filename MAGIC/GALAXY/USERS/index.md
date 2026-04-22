@@ -2,7 +2,7 @@
 layout: default
 scope: USERS
 title: "USERS"
-description: "USERS are GitHub identities projected into ORGs."
+description: "USERS are GitHub identities projected into ORGs — each projection ORG-owned, each signature key-bound, duplication is a feature."
 footerTagline: "USERS"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: USERS
   title: "USERS"
-  description: "USERS are GitHub identities projected into ORGs."
+  description: "USERS are GitHub identities projected into ORGs — each projection ORG-owned, each signature key-bound, duplication is a feature."
   cta:
     - label: "Open USERS"
       href: /MAGIC/GALAXY/USERS/
@@ -28,10 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-A USER can appear (duplicate) across many ORGs. The duplication is a feature: each ORG owns its USER projection and can revoke it.
-
----
-
+- **GITHUB_IS_KYC_ANCHOR** — the GitHub account identity is the initial KYC anchor; ORG membership is required to project a USER into that ORG.
+- **USER_DUPLICATES_ACROSS_ORGS** — the same USER slug may exist across many ORGs, each projection owned by its ORG and revocable by removing membership or keys.
+- **SIGNING_KEY_BOUND_TO_VITAE** — every USER signing key is bound to their VITAE and verified for distributed actions.
+- **NO_GLOBAL_NAMESPACE** — USER identity is never collapsed into a single global unmanaged namespace; runtime deploy repos are not identity sources.
 ## Constraints
 
 ```

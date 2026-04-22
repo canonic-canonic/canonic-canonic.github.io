@@ -1,0 +1,245 @@
+{
+  "hero": {
+    "badge": "USER",
+    "title": "FEDERATION",
+    "description": "A federation is a governed ORG with its own repo, apex, apex-signed manifest, and ledger scope — CANONIC is the permanent root, never a federation.",
+    "cta": [
+      {
+        "label": "Open FEDERATION",
+        "href": "/MAGIC/SERVICES/FEDERATION/",
+        "class": "btn-secondary",
+        "talk": true
+      }
+    ]
+  },
+  "nav": [],
+  "fleet": {
+    "brand": {
+      "mark": "∩",
+      "label": "CANONIC",
+      "url": "/"
+    },
+    "sites": [
+      {
+        "scope": "FOUNDATION",
+        "label": "Foundation",
+        "url": "https://canonic.org/FOUNDATION"
+      },
+      {
+        "scope": "INDUSTRIES",
+        "label": "Industries",
+        "url": "https://canonic.org/INDUSTRIES"
+      },
+      {
+        "scope": "MAGIC",
+        "label": "MAGIC",
+        "url": "https://canonic.org/MAGIC"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "status",
+      "eyebrow": "SCOPE",
+      "title": "FEDERATION",
+      "dashboard": [
+        {
+          "metric": {
+            "label": "MAGIC",
+            "value": "255/255",
+            "change": "FULL",
+            "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "LEARNING",
+            "value": "2",
+            "change": "patterns",
+            "trend": "up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Next",
+                "[ ] **Phase 3 — migrate generators to registry** — `build-cors-gen`, `build-host"
+              ],
+              [
+                "Next",
+                "[ ] **Phase 3a — `verify_federation_root_header_parity` gate** — `build-verify` "
+              ],
+              [
+                "Next",
+                "[ ] **Phase 3b — credential primitive code** — shared worker helper `checkCreden"
+              ],
+              [
+                "Next",
+                "[ ] **Phase 4 — `bin/build-federation-graduate`** — automation for the 7-step gr"
+              ],
+              [
+                "Next",
+                "[ ] **Phase 5 — per-federation cashout** — `stripe_account_id` in tuple becomes "
+              ],
+              [
+                "Later",
+                "[ ] **Federation-native SDK** — any external ORG can register by publishing a `F"
+              ],
+              [
+                "Later",
+                "[ ] **Retired-federation flow** — when a federation is sunset, mark `status: ret"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "eyebrow": "LEARNING",
+      "title": "Recent Activity",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Date",
+              "Signal",
+              "Pattern"
+            ],
+            "rows": [
+              [
+                "2026-04-19",
+                "FEDERATION_PRIMITIVE_DECLARED",
+                "Federation identity was implicit across two federations + one root kernel: each "
+              ],
+              [
+                "2026-04-19",
+                "FEDERATION_CASHOUT_DELEGATION",
+                "Registry held the empty shape before cashout was live; sibling session provision"
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "_generated": {
+    "contract": "/Users/iDrDex/CANONIC/canonic-canonic/MAGIC/SERVICES/FEDERATION/FEDERATION.md",
+    "rule": "edit the contract or compiler — not this file"
+  },
+  "footerTagline": "FEDERATION | CANONIC",
+  "canon": {
+    "axiom": "A federation is a governed ORG with its own repo, apex, apex-signed manifest, and ledger scope — CANONIC is the permanent root, never a federation.",
+    "constraints": "Any field declared in the tuple schema but not applicable to a particular federation is set explicitly to `null` or `[]` — never omitted.\n\n---\n\n## Promotion\n\nA scope living inside an incubator federation promotes to its own federation when **any one** of these thresholds is met:\n\n1. **Independent cashout** — own Stripe account, own 1099 entity, own LLC\n2. **Independent legal/compliance posture** — different jurisdiction or liability stance\n3. **Independent governance stewardship** — governor not aligned with incubator's\n4. **Independent release cadence** — shipping decoupled from the incubator's timeline\n\n### Graduation ritual (declared now; automated in Phase 4)\n\n1. Create `canonic-<name>` repo on GitHub; register in `CANONIC.git` manifest (role=GOV)\n2. Move the scope's content tree from incubator → new federation\n3. Author `FEDERATIONS/<name>/CANON.md` with the full tuple\n4. Regenerate shared artifacts (CORS, HOSTNAMES, cashout routing, magic peer manifests)\n5. Deploy: CF zone, Pages binding, Stripe sub-account, magic:// manifest at new apex\n6. Ledger `FEDERATION_GRADUATED` at CANONIC root + `SCOPE_GRADUATED` in the source incubator\n7. The incubator's former scope path becomes a `magic://` reference (no dual-write)\n\n---\n\n## Credentials\n\nA federation issues credentials signed with its `federation_pubkey`; any service that can resolve the issuer in the registry can verify them.\n\n### Credential shape",
+    "inherits": "canonic-canonic/MAGIC/SERVICES",
+    "spec": [],
+    "learning": [],
+    "coverage": "255/255",
+    "roadmap": {
+      "next": [
+        "[ ] **Phase 3 — migrate generators to registry** — `build-cors-gen`, `build-hostname-routes`, `build-rate-limits-gen` read from `FEDERATIONS/` via a new `magic_lib.load_federations()` helper instead of hardcoded `hadleylab-canonic` paths. Unlocks any new federation without touching generator code.",
+        "[ ] **Phase 3a — `verify_federation_root_header_parity` gate** — `build-verify` asserts each federation's root CANON.md `federation_endpoint` + `federation_pubkey` + `federation_manifest_path` match the registry entry exactly. Out-of-sync fails the build.",
+        "[ ] **Phase 3b — credential primitive code** — shared worker helper `checkCredentials(request, required)`; issuer script per `issues_credentials:` entry; verifier wiring for `trusts_credentials_from:`. Services start declaring `§ Feature Gates` in their CANON.md.",
+        "[ ] **Phase 4 — `bin/build-federation-graduate`** — automation for the 7-step graduation ritual: repo create, content move, registry entry, CF ops, stripe sub-account, magic manifest, ledger events. `ABOPM` + `CAOH` are the first candidates.",
+        "[ ] **Phase 5 — per-federation cashout** — `stripe_account_id` in tuple becomes routing key; `/coin/cashout/initiate` resolves target Stripe account via scope → federation → `stripe_account_id` lookup at request time.",
+        "[ ] **Phase 6 — kernel-nesting fix** — `runner-canonic` stops embedding `canonic-canonic` as nested submodule; pulls kernel via magic:// peer protocol (read-only at build time). Eliminates sibling-session pointer-drift class of bugs.",
+        "[ ] Federation primitive — declare + register (Phases 1+2) <!-- freshen:federation-primitive-phases-1-2@federation -->",
+        "[ ] Where it lives (governed surfaces, not memory) <!-- freshen:project_galaxy_magic_landed@federation -->"
+      ],
+      "later": [
+        "[ ] **Federation-native SDK** — any external ORG can register by publishing a `FEDERATIONS/<name>/CANON.md` (in their own `canonic-<name>` repo) with the full tuple + `/.well-known/magic-manifest.json` at their apex. Promotes federation from an internal primitive to a public protocol.",
+        "[ ] **Retired-federation flow** — when a federation is sunset, mark `status: retired` + emit `FEDERATION_RETIRED` ledger event; generators skip retired entries; registry keeps the tuple for historical verification of pre-retirement signatures."
+      ]
+    },
+    "vocab": [
+      {
+        "term": "CANONIC_ROOT",
+        "definition": "The permanent kernel root (`canonic-canonic` itself). Declared in `CANONIC.git` with `role=ROOT`. Never appears in the federation registry."
+      },
+      {
+        "term": "SCOPE",
+        "definition": "A governed directory tree inside a federation (TALKS/*, APPS/*, SERVICES/*-plugin, DEALS/*, PATENTS/*, etc.). A scope is not a federation unless it has met promotion criteria."
+      },
+      {
+        "term": "TUPLE",
+        "definition": "The complete set of federation-identity fields declared in `FEDERATIONS/<name>/CANON.md`. The source of truth for generators; root CANON headers are a projection."
+      },
+      {
+        "term": "INCUBATOR",
+        "definition": "A federation whose `bootstrap_model: incubator` — it hosts scopes that may later promote to their own federation (e.g. hadleylab today)."
+      },
+      {
+        "term": "DE_NOVO",
+        "definition": "A federation whose `bootstrap_model: de_novo` — bootstrapped independently, not graduated from another federation (e.g. runner today)."
+      },
+      {
+        "term": "GRADUATED",
+        "definition": "A federation whose `bootstrap_model: graduated` — promoted out of an incubator; retains a `magic://` reference back to its origin scope path."
+      },
+      {
+        "term": "PROMOTION",
+        "definition": "The act of a scope meeting one or more criteria (independent cashout / legal / governance / release cadence) that qualify it to become its own federation."
+      },
+      {
+        "term": "GRADUATION",
+        "definition": "The 7-step ritual that executes promotion: repo create → content move → registry entry → artifact regen → deploy → ledger events → magic:// reference left behind."
+      },
+      {
+        "term": "GOVERNOR",
+        "definition": "The decision-maker for a federation (`governor:` field). May equal or differ from the `governor_general`."
+      },
+      {
+        "term": "GOVERNOR_GENERAL",
+        "definition": "The operator for a federation (`governor_general:` field). In single-operator federations, governor and governor_general may differ (e.g. runner: governor=rglover, governor_general=iDrDex)."
+      },
+      {
+        "term": "CREDENTIAL",
+        "definition": "A signed claim about a subject issued by a federation — tier, rank, external board, or platform premium. Verifiable by any service that can resolve the issuer in the registry."
+      },
+      {
+        "term": "FEDERATION_PUBKEY",
+        "definition": "The Ed25519 public key that signs the federation's manifest + issued credentials. Declared in the tuple and in the root CANON.md header — the two MUST match."
+      },
+      {
+        "term": "FEDERATION",
+        "definition": "New concept: FEDERATION"
+      }
+    ],
+    "chain": [
+      {
+        "scope": "SERVICES",
+        "axiom": "SERVICES are SURFACE routes with governed boundaries — they project GOV into runtime products without adding policy in code.",
+        "constraints": "MUST:     Every service composes INTEL (mandatory — knowledge backs every operation)\nMUST:     Primitives are files, services are directories: INTEL→LEARNING, CHAT→TALK, COIN→SHOP\nMUST:     COIN is optional — adds economics (the economic shadow of WORK)\nMUST:     TALK is optional — adds governed conversation product\nMUST:     NOTIFIER is optional — adds governed cross-scope delivery (NOTIFY + INTEL)\nMUST:     Treat each service scope as a governed boundary (no cross-scope leakage)\nMUST:     Drive routes and UI from governed indices (no hardcoding)\nMUST:     NETWORK services MUST declare Routes table with Method + Primitive\nMUST:     NETWORK services MUST declare Architecture showing client → worker → backend\nMUST:     NETWORK services MUST declare Configuration with all vars and secrets\nMUST:     COMPILER services MUST declare Interface with input/output contract\nMUST NOT: Embed runtime state into governed scopes\nMUST NOT: Ship a service without declaring its API surface in CANON.md\nMUST NOT: All compiled JSON outputs carry _generated — fix compiler or contract, the output"
+      },
+      {
+        "scope": "SURFACE",
+        "axiom": "SURFACE is the platform lane — GOV declares, runtime projects, MAGIC validates.",
+        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST:     APP surface_type — Next.js App Router, reads galaxy.json + CANON.json directly\nMUST:     GALAXY surface_type — chrome-free operating surface (auth gate, Finder)\nMUST:     APP scopes compile CANON.md → CANON.json (same as SURFACE, different target)\nMUST:     APP scopes wire COIN + INTEL + TALK primitives into compiled CANON.json\nMUST NOT: Declare `surface_type: JEKYLL_*` in any GOV CANON.md — JEKYLL is extincted. Production (`canonic.org`, `hadleylab.org`, `founderof.ai`) is served by the Next.js monorepo at `hadleylab-canonic/APPS/CANONIC/app/`; the Jekyll trees at `~/.canonic/{canonic-org, hadleylab-org, founderof-ai}/` are dead compile output (gitignored, no tracked files, not serving traffic). Phase 1 (2026-04-19): 6 GOV stragglers migrated to VIEW or no-surface-type. Phase 2 (2026-04-20): `jekyll build` removed from deploy; `build_surfaces_*.py` JEKYLL_* defaults → VIEW; JEKYLL_TALK capability mapping removed; `MAGIC/SURFACE/JEKYLL/` axiom tree deleted. VIEW (Next.js parent renderer) is the unified successor.\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
+      },
+      {
+        "scope": "MAGIC",
+        "axiom": "MAGIC is the enforcement layer — three primitives, one governed economy, COMPLIANCE as the product.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract\nMUST: New constraint: MUST NOT: Expose private kernel internals\nMUST: New constraint: MUST: Declare governance.\nMUST: New constraint: COVERAGE.md MUST be generated by build-surfaces — not hand-authored\nMUST: New constraint: README.md MUST be lean (scope + inherits + axiom) — no boilerplate"
+      },
+      {
+        "scope": "FOUNDATION",
+        "axiom": "FOUNDATION defines the LANGUAGE — three axioms, compiler correspondence, the paper proves itself.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition\nMUST: New constraint: MUST: Surface FOUNDATION thesis, axioms, and programming correspondence from governed content\nMUST: New constraint: MUST: Declare governance.\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every tier must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these axioms"
+      }
+    ]
+  }
+}

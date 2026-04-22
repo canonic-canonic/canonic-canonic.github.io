@@ -48,6 +48,7 @@ The minimal ledger record MUST support:
 | DIGEST | ORG LEDGER state snapshot (signed) | DIGEST_PUBLISHED | SHA-256 HEAD |
 | WITNESS | Cross-ORG countersignature of DIGEST | WITNESS_RECORDED | digest_hash |
 | ANCHOR | Bitcoin OP_RETURN Merkle root | ANCHOR_BROADCAST | btc_txid |
+| FEDERATION | Federation registry lifecycle | FEDERATION_REGISTERED \| FEDERATION_GRADUATED \| SCOPE_GRADUATED | registry commit hash |
 
 ---
 
@@ -71,6 +72,7 @@ Signal derived from type:
   DIGEST      → DIGEST_PUBLISHED
   WITNESS     → WITNESS_RECORDED
   ANCHOR      → ANCHOR_BROADCAST
+  FEDERATION  → FEDERATION_REGISTERED | FEDERATION_GRADUATED | SCOPE_GRADUATED
 ```
 
 ---
@@ -108,7 +110,7 @@ OUTPUT:
       id:         SHA-256 content address
       prev:       chain pointer to previous record
       ts:         nanosecond timestamp
-      type:       GRADIENT | TALK | CONTRIBUTE | EMAIL | PROVISION | SHOP | AUTH | OMICS | DIRECTIVE | DEAL | VETO | POLICY | DIGEST | WITNESS | ANCHOR
+      type:       GRADIENT | TALK | CONTRIBUTE | EMAIL | PROVISION | SHOP | AUTH | OMICS | DIRECTIVE | DEAL | VETO | POLICY | DIGEST | WITNESS | ANCHOR | FEDERATION
       key:        domain/repo/scope key
       scope:      governed scope where event originated
       from_bits:  int 0..255

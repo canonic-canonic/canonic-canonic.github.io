@@ -2,7 +2,7 @@
 layout: default
 scope: PAPERS
 title: "PAPERS"
-description: "PAPERS are governed academic artifacts. Each paper IS a scope. SPEC = {SCOPE}."
+description: "PAPERS are governed academic artifacts — each paper IS a scope, every claim cited, every method reproducible."
 footerTagline: "PAPERS"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: PAPERS
   title: "PAPERS"
-  description: "PAPERS are governed academic artifacts. Each paper IS a scope. SPEC = {SCOPE}."
+  description: "PAPERS are governed academic artifacts — each paper IS a scope, every claim cited, every method reproducible."
   cta:
     - label: "Open PAPERS"
       href: /MAGIC/SURFACE/JEKYLL/PAPERS/
@@ -28,10 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
-A paper is a timestamped intellectual disclosure with verifiable structure. Every claim cited. Every method reproducible. The .md is the source. The compiled surface renders TOC, figures, appendices, and math. PDF export with LaTeX hidden.
-
----
-
+- **PAPER_IS_SCOPE** — each paper is a scope; the `.md` source follows Abstract, TOC, Body, Appendices, References with declared front matter.
+- **INTELLECTUAL_DISCLOSURE** — a paper is a timestamped disclosure with verifiable structure; every claim is cited and every method is reproducible.
+- **MD_COMPILES_ALL_SURFACES** — the compiled surface renders TOC, figures, and math; PDF export hides LaTeX behind the same source.
 ## Constraints
 
 ```

@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "SERVICES",
-    "description": "SERVICES are SURFACE routes with governed boundaries.",
+    "description": "SERVICES are SURFACE routes with governed boundaries — they project GOV into runtime products without adding policy in code.",
     "cta": [
       {
         "label": "Open SERVICES",
@@ -62,7 +62,7 @@
         {
           "metric": {
             "label": "CHILDREN",
-            "value": "52",
+            "value": "54",
             "change": "scopes",
             "trend": "neutral"
           }
@@ -151,357 +151,371 @@
         {
           "icon": "∩",
           "title": "API",
-          "desc": "API is the network surface for COIN. Every endpoint authenticated. Every response governed.",
+          "desc": "API is the network surface for COIN — every endpoint authenticated, every response governed, vault commands wrapped not duplicated.",
           "href": "/MAGIC/SERVICES/API/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "AUTH",
-          "desc": "AUTH gates scope access. Identity is the KYC anchor. Scope-level readers/writers declared in CANON.md.",
+          "desc": "AUTH gates scope access — identity is the KYC anchor, scope-level readers/writers declared in CANON.md, fail-closed by default.",
           "href": "/MAGIC/SERVICES/AUTH/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "BLOG",
-          "desc": "BLOG is the editorial voice. Every post is a governed artifact — sourced, compiled, and surfaced. The blog publishes what the system proves.",
+          "desc": "BLOG is the editorial voice — every post a governed artifact, sourced, compiled, and surfaced; the blog publishes what the system proves.",
           "href": "/MAGIC/SERVICES/BLOG/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "BOOK",
-          "desc": "BOOK is the long-form publishing lane. Every manuscript is a governed artifact — authored in markdown, compiled through the MAGIC pipeline, and surfaced on the governed frontend.",
+          "desc": "BOOK is the long-form publishing lane — every manuscript a governed artifact authored in markdown, compiled through MAGIC, surfaced on the governed frontend.",
           "href": "/MAGIC/SERVICES/BOOK/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "BUILD",
-          "desc": "Build is governed DAG traversal. Phases are nodes. Dependencies are edges. Parallelism is discovered, not hardcoded. GOV is the only hardcoded path.",
+          "desc": "BUILD is governed DAG traversal — phases are nodes, dependencies are edges, parallelism is discovered, GOV is the only hardcoded path.",
           "href": "/MAGIC/SERVICES/BUILD/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "CALENDAR",
-          "desc": "CALENDAR is the time axis of the galaxy. Every meeting governed. Every participant resolved. Every event visualized.",
+          "desc": "CALENDAR is the time axis of the galaxy — every meeting governed, every participant resolved, every event visualized.",
           "href": "/MAGIC/SERVICES/CALENDAR/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "CAMPAIGN",
-          "desc": "CAMPAIGN is the repeatable event-to-emission framework. One event. All platforms. Governed cascade.",
+          "desc": "CAMPAIGN is the event-to-emission framework — one event, all platforms, governed cascade.",
           "href": "/MAGIC/SERVICES/CAMPAIGN/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "CHAIN",
-          "desc": "Every WALLET event chains to its predecessor. Balance is provable.",
+          "desc": "CHAIN is WALLET event linkage — every event chains to its predecessor, balance is provable, the build gates on chain integrity.",
           "href": "/MAGIC/SERVICES/CHAIN/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "CITATION",
-          "desc": "CITATION is the evidence spine. Every claim resolves to a source. Every source carries freshness. Every surface resolves through CITATION.",
+          "desc": "CITATION is the evidence spine — every claim resolves to a source, every source carries freshness, every surface resolves through CITATION.",
           "href": "/MAGIC/SERVICES/CITATION/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "CLAUDE",
-          "desc": "CLAUDE is the governed agent context surface. Compilation is graph traversal. The galaxy is the input graph. BFS from any starting node discovers contextual INTEL and optimized LEARNING by graph distance.",
+          "desc": "CLAUDE is the governed agent context surface — compilation is graph traversal from the galaxy, with contextual INTEL and optimized LEARNING by distance.",
           "href": "/MAGIC/SERVICES/CLAUDE/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "COIN",
-          "desc": "COIN is the economic shadow of WORK. Every mint ledgered. Every burn evidenced.",
+          "desc": "COIN is the economic shadow of WORK — every mint ledgered, every burn evidenced, supply ceiling validated on every build.",
           "href": "/MAGIC/SERVICES/COIN/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "CONTACTS",
-          "desc": "CONTACTS is the resolution spine. Every identifier resolves to a node. Every node carries INTEL. Every service resolves through CONTACTS.",
+          "desc": "CONTACTS is the resolution spine — every identifier resolves to a node, every node carries INTEL, every service resolves through CONTACTS.",
           "href": "/MAGIC/SERVICES/CONTACTS/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "CONTRIBUTE",
-          "desc": "CONTRIBUTE is WORK recorded. Every contribution ledgered. Every WORK mints COIN.",
+          "desc": "CONTRIBUTE is WORK recorded — every contribution ledgered, every valid submission mints COIN, every contribution composes INTEL.",
           "href": "/MAGIC/SERVICES/CONTRIBUTE/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "DEAL",
-          "desc": "DEAL governs relationships. Every deal ledgered. Every stage evidenced.",
+          "desc": "DEAL governs relationships — every deal ledgered, every stage evidenced, no stage advance without proof.",
           "href": "/MAGIC/SERVICES/DEAL/",
           "class": "card"
         },
         {
           "icon": "∩",
+          "title": "DEBUG",
+          "desc": "DEBUG is the governed runtime ledger — every error structured, every warning keyed, every event TTL-bounded, no ephemeral console logs.",
+          "href": "/MAGIC/SERVICES/DEBUG/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
           "title": "DECK",
-          "desc": "DECK is the governed presentation lane. Every slide is a published artifact — authored in markdown, compiled through the MAGIC pipeline, and surfaced as interactive slides.",
+          "desc": "DECK is the governed presentation lane — every slide a published artifact, authored in markdown, compiled through MAGIC, surfaced as interactive slides.",
           "href": "/MAGIC/SERVICES/DECK/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "DEMO",
-          "desc": "DEMO is the governed product demonstration lane. Every demo is a reproducible walkthrough captured as evidence and compiled into a shareable artifact.",
+          "desc": "DEMO is the governed product-demonstration lane — every demo a reproducible walkthrough captured as evidence and compiled into a shareable artifact.",
           "href": "/MAGIC/SERVICES/DEMO/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "DEPLOY",
-          "desc": "DEPLOY is governed artifact delivery. Build validates, deploy ships, rollback recovers.",
+          "desc": "DEPLOY is governed artifact delivery — build validates, deploy ships, rollback recovers, FROZEN stops the line.",
           "href": "/MAGIC/SERVICES/DEPLOY/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "DESIGN",
-          "desc": "DESIGN is the visual authoring surface for fleet composition. Tokens remain the source of truth. The visual tool is INPUT, governed, validated, and ledgered. No ungoverned pixels reach production.",
+          "desc": "DESIGN is the visual authoring surface for fleet composition — tokens are truth, the tool is INPUT, no ungoverned pixels reach production.",
           "href": "/MAGIC/SERVICES/DESIGN/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "DEV",
-          "desc": "DEV is the Governor General's intel center. Every user visible. Every issue surfaced.",
+          "desc": "DEV is the Governor General's intel center — every user visible, every issue surfaced, aggregated from all service scopes.",
           "href": "/MAGIC/SERVICES/DEV/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "DOMAINS",
-          "desc": "Every vanity surface conflict-cleared. Every acquisition preflight-checked. Every zone governed.",
+          "desc": "DOMAINS governs vanity surfaces — every acquisition preflight-checked, every vanity conflict-cleared, every zone governed.",
           "href": "/MAGIC/SERVICES/DOMAINS/",
           "class": "card"
         },
         {
           "icon": "∩",
+          "title": "FEDERATION",
+          "desc": "A federation is a governed ORG with its own repo, apex, apex-signed manifest, and ledger scope — CANONIC is the permanent root, never a federation.",
+          "href": "/MAGIC/SERVICES/FEDERATION/",
+          "class": "card"
+        },
+        {
+          "icon": "∩",
           "title": "FINANCIALS",
-          "desc": "FINANCIALS governs the economic record. Every event ledgered. Every close reconciled.",
+          "desc": "FINANCIALS governs the economic record — every event ledgered, every close reconciled, closed periods immutable.",
           "href": "/MAGIC/SERVICES/FINANCIALS/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "FORECASTS",
-          "desc": "FORECASTS projects governed economics. Every projection evidenced.",
+          "desc": "FORECASTS projects governed economics — every projection evidenced, every forecast versioned, never presented as actuals.",
           "href": "/MAGIC/SERVICES/FORECASTS/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "IDENTITY",
-          "desc": "Every COIN action is signed. Every signature is verified.",
+          "desc": "IDENTITY signs and verifies — every COIN action signed, every signature verified, keys bound to governed VITAE.",
           "href": "/MAGIC/SERVICES/IDENTITY/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "KYC",
-          "desc": "KYC validates identity and compliance. Every claim verified.",
+          "desc": "KYC validates identity and compliance — every claim verified, every verification ledgered, unverified claims never accepted.",
           "href": "/MAGIC/SERVICES/KYC/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "LATEX",
-          "desc": "LATEX is a compiled surface. Governance lives in markdown. No raw LATEX in the GOV layer.",
+          "desc": "LATEX is a compiled surface — governance lives in markdown, no raw LATEX in GOV, compilation is deterministic.",
           "href": "/MAGIC/SERVICES/LATEX/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "LEARNING",
-          "desc": "LEARNING is INTEL applied. Every discovery governed. Every gradient evidenced.",
+          "desc": "LEARNING is INTEL applied — governed discovery extraction at scale, the IDF generalized beyond patents to every scope.",
           "href": "/MAGIC/SERVICES/LEARNING/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "LEDGER",
-          "desc": "LEDGER is the append-only truth. Every economic event recorded. No erasure.",
+          "desc": "LEDGER is the append-only truth — every economic event recorded, hash-chain intact, no erasure, every record projects to LEARNING.",
           "href": "/MAGIC/SERVICES/LEDGER/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "MINT",
-          "desc": "MINT bridges WORK and ATTENTION to WALLET. Gradients mint COIN. Reads mint COIN. Every mint ledgered.",
+          "desc": "MINT bridges WORK and ATTENTION to WALLET — gradients mint COIN, reads mint COIN, every mint ledgered.",
           "href": "/MAGIC/SERVICES/MINT/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "MONITORING",
-          "desc": "MONITORING is continuous governance scoring. Real-time visibility, not snapshots.",
+          "desc": "MONITORING is continuous governance scoring — real-time visibility, not snapshots, fleet discovered from HTTP.md.",
           "href": "/MAGIC/SERVICES/MONITORING/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "MUSIC",
-          "desc": "MUSIC governs media. Every track governed. Every source traced. Every artist respected.",
+          "desc": "MUSIC governs media — every track governed, every source traced, every artist respected.",
           "href": "/MAGIC/SERVICES/MUSIC/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "NAS",
-          "desc": "NAS is the local canonical store. Every transcript archived. Every media file served. Every backup governed. The single source of truth for content that lives outside git.",
+          "desc": "NAS is the local canonical store — every transcript archived, every media file served, every backup governed, single source of truth for content outside git.",
           "href": "/MAGIC/SERVICES/NAS/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "NOTIFIER",
-          "desc": "NOTIFIER is NOTIFY + INTEL composed. Scope determines the route. Ledger determines the proof.",
+          "desc": "NOTIFIER is NOTIFY + INTEL composed — scope determines the route, ledger determines the proof, delivery is inline and governed.",
           "href": "/MAGIC/SERVICES/NOTIFIER/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "PAPER",
-          "desc": "PAPER is the research publishing lane. Every manuscript is a governed artifact — authored in markdown, compiled through the MAGIC pipeline, and surfaced with citation governance.",
+          "desc": "PAPER is the research publishing lane — every manuscript a governed artifact, authored in markdown, compiled through MAGIC, surfaced with citation governance.",
           "href": "/MAGIC/SERVICES/PAPER/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "PATENT",
-          "desc": "PATENT governs intellectual property. Every filing evidenced. Every disclosure tracked.",
+          "desc": "PATENT governs intellectual property — every filing evidenced, every disclosure tracked, every stage transition ledgered and minted.",
           "href": "/MAGIC/SERVICES/PATENT/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "PLAYBOOKS",
-          "desc": "PLAYBOOKS governs operational procedures. Every playbook validated.",
+          "desc": "PLAYBOOKS governs operational procedures — every playbook validated, every procedure versioned, no hardcoded environments.",
           "href": "/MAGIC/SERVICES/PLAYBOOKS/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "PLUGINS",
-          "desc": "PLUGINS are composable client-side extensions. One plugin, one concern. Channels compose.",
+          "desc": "PLUGINS are composable client-side extensions — one plugin one concern, channels compose, no ungoverned plugins in production.",
           "href": "/MAGIC/SERVICES/PLUGINS/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "RESERVES",
-          "desc": "RESERVES holds governed capital. Every allocation evidenced.",
+          "desc": "RESERVES holds governed capital — every allocation evidenced, every movement ledgered, private by default.",
           "href": "/MAGIC/SERVICES/RESERVES/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "SEED",
-          "desc": "SEED is the media acquisition lane. Every instance declared. Every sync verified. Every source archived.",
+          "desc": "SEED is the media acquisition lane — every instance declared, every sync verified, every source archived.",
           "href": "/MAGIC/SERVICES/SEED/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "SEO",
-          "desc": "Every page declares its canonical. Every surface indexed under the domain it serves. Every sitemap references governed URLs only. 255 or reject.",
+          "desc": "SEO is URL governance — every page declares its canonical, every surface indexed under its serving domain, 255 or reject.",
           "href": "/MAGIC/SERVICES/SEO/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "SHOP",
-          "desc": "SHOP compiles the public projection aggregate. Every USER is a SHOP. Every artifact has a price.",
+          "desc": "SHOP compiles the public projection aggregate — every USER is a SHOP, every artifact has a price, purchase wires to WALLET.",
           "href": "/MAGIC/SERVICES/SHOP/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "STAR",
-          "desc": "STAR is your personal portal in the GALAXY. INTEL + CHAT + COIN composed into a unified personal surface. The TIMELINE is the joint lane for all cross-axiomatic intel.",
+          "desc": "STAR is your personal portal in the GALAXY — INTEL + CHAT + COIN composed into a unified personal surface, TIMELINE joins the primitives.",
           "href": "/MAGIC/SERVICES/STAR/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "STORY",
-          "desc": "STORY is the visual storytelling lane. Every screenplay is a governed artifact — compiled through the MAGIC pipeline and surfaced on the governed frontend. Deterministic. Drift-gated.",
+          "desc": "STORY is the visual storytelling lane — every screenplay a governed artifact, compiled through MAGIC, deterministic and drift-gated.",
           "href": "/MAGIC/SERVICES/STORY/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "TALK",
-          "desc": "TALK is CHAT + INTEL + COIN composed. Industry determines the voice. INTEL provides the knowledge. COIN gates premium access.",
+          "desc": "TALK is CHAT + INTEL + COIN composed — CHAT is the primitive, TALK is the product, COIN closes the revenue loop.",
           "href": "/MAGIC/SERVICES/TALK/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "TASK",
-          "desc": "TASK governs the remote agent fleet. Every scheduled agent is a governed scope. Every poll is ledgered. Every alert is evidence.",
+          "desc": "TASK governs the remote agent fleet — every scheduled agent a governed scope, every poll ledgered, every alert evidence.",
           "href": "/MAGIC/SERVICES/TASK/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "TIMELINE",
-          "desc": "TIMELINE is the temporal index of the galaxy. Every governed event timestamped. Every lane joined. Every source immutable.",
+          "desc": "TIMELINE is the temporal index of the galaxy — every governed event timestamped, every lane joined, every source immutable.",
           "href": "/MAGIC/SERVICES/TIMELINE/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "TRANSCRIPT",
-          "desc": "TRANSCRIPT is the universal evidence substrate. Every conversation hashed. Every stream immutable. Every transcript ledgered.",
+          "desc": "TRANSCRIPT is the universal evidence substrate — every conversation hashed, every stream immutable, every transcript ledgered.",
           "href": "/MAGIC/SERVICES/TRANSCRIPT/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "UPTIME",
-          "desc": "UPTIME monitors all product domains and critical surfaces. Every domain checked. Every outage is evidence. Every recovery is ledgered.",
+          "desc": "UPTIME monitors all product domains and critical surfaces — every domain checked, every outage evidence, every recovery ledgered.",
           "href": "/MAGIC/SERVICES/UPTIME/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "USER",
-          "desc": "USER governs identity. Every person onboarded. Every credential verified. Every contribution ledgered.",
+          "desc": "USER governs identity — every person onboarded, every credential verified, every contribution ledgered, identity portable across ORGs.",
           "href": "/MAGIC/SERVICES/USER/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "VAULT",
-          "desc": "VAULT compiles the private aggregate. Auth-gated. Ledger-backed.",
+          "desc": "VAULT compiles the private aggregate — auth-gated, ledger-backed, discovered by walking VAULT.md across the tree.",
           "href": "/MAGIC/SERVICES/VAULT/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "VITAE",
-          "desc": "VITAE governs professional identity. Every claim evidenced.",
+          "desc": "VITAE governs professional identity — every claim evidenced, every credential versioned, cross-referenced to governed sources.",
           "href": "/MAGIC/SERVICES/VITAE/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "WALLET",
-          "desc": "WALLET is the per-USER economic identity. Every USER has one. Every COIN lives in one.",
+          "desc": "WALLET is the per-USER economic identity — every USER has one, every COIN lives in one, balance is derived from TIMELINE.",
           "href": "/MAGIC/SERVICES/WALLET/",
           "class": "card"
         }
@@ -606,8 +620,8 @@
   },
   "footerTagline": "SERVICES | CANONIC",
   "canon": {
-    "axiom": "SERVICES are SURFACE routes with governed boundaries.",
-    "constraints": "MUST:     Every service composes INTEL (mandatory — knowledge backs every operation)\nMUST:     Primitives are files, services are directories: INTEL→LEARNING, CHAT→TALK, COIN→SHOP\nMUST:     COIN is optional — adds economics (the economic shadow of WORK)\nMUST:     TALK is optional — adds governed conversation product\nMUST:     NOTIFIER is optional — adds governed cross-scope delivery (NOTIFY + INTEL)\nMUST:     Treat each service scope as a governed boundary (no cross-scope leakage)\nMUST:     Drive routes and UI from governed indices (no hardcoding)\nMUST:     NETWORK services MUST declare Routes table with Method + Primitive\nMUST:     NETWORK services MUST declare Architecture showing client → worker → backend\nMUST:     NETWORK services MUST declare Configuration with all vars and secrets\nMUST:     COMPILER services MUST declare Interface with input/output contract\nMUST NOT: Embed runtime state into governed scopes\nMUST NOT: Ship a service without declaring its API surface in CANON.md",
+    "axiom": "SERVICES are SURFACE routes with governed boundaries — they project GOV into runtime products without adding policy in code.",
+    "constraints": "MUST:     Every service composes INTEL (mandatory — knowledge backs every operation)\nMUST:     Primitives are files, services are directories: INTEL→LEARNING, CHAT→TALK, COIN→SHOP\nMUST:     COIN is optional — adds economics (the economic shadow of WORK)\nMUST:     TALK is optional — adds governed conversation product\nMUST:     NOTIFIER is optional — adds governed cross-scope delivery (NOTIFY + INTEL)\nMUST:     Treat each service scope as a governed boundary (no cross-scope leakage)\nMUST:     Drive routes and UI from governed indices (no hardcoding)\nMUST:     NETWORK services MUST declare Routes table with Method + Primitive\nMUST:     NETWORK services MUST declare Architecture showing client → worker → backend\nMUST:     NETWORK services MUST declare Configuration with all vars and secrets\nMUST:     COMPILER services MUST declare Interface with input/output contract\nMUST NOT: Embed runtime state into governed scopes\nMUST NOT: Ship a service without declaring its API surface in CANON.md\nMUST NOT: All compiled JSON outputs carry _generated — fix compiler or contract, the output",
     "inherits": "canonic-canonic/MAGIC/SURFACE",
     "spec": [
       {
@@ -651,10 +665,6 @@
     },
     "vocab": [
       {
-        "term": "MAGIC",
-        "definition": "The operations layer composing INTEL + CHAT + COIN into governed services."
-      },
-      {
         "term": "SERVICES",
         "definition": "Governed term in this scope vocabulary."
       },
@@ -666,18 +676,18 @@
     "chain": [
       {
         "scope": "SURFACE",
-        "axiom": "SURFACE is the platform lane.",
-        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST:     APP surface_type — Next.js App Router, reads galaxy.json + CANON.json directly\nMUST:     GALAXY surface_type — chrome-free operating surface (auth gate, Finder)\nMUST:     APP scopes compile CANON.md → CANON.json (same as SURFACE, different target)\nMUST:     APP scopes wire COIN + INTEL + TALK primitives into compiled CANON.json\nMUST NOT: Emit new JEKYLL_* surface types — existing types frozen, deprecated\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
+        "axiom": "SURFACE is the platform lane — GOV declares, runtime projects, MAGIC validates.",
+        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST:     APP surface_type — Next.js App Router, reads galaxy.json + CANON.json directly\nMUST:     GALAXY surface_type — chrome-free operating surface (auth gate, Finder)\nMUST:     APP scopes compile CANON.md → CANON.json (same as SURFACE, different target)\nMUST:     APP scopes wire COIN + INTEL + TALK primitives into compiled CANON.json\nMUST NOT: Declare `surface_type: JEKYLL_*` in any GOV CANON.md — JEKYLL is extincted. Production (`canonic.org`, `hadleylab.org`, `founderof.ai`) is served by the Next.js monorepo at `hadleylab-canonic/APPS/CANONIC/app/`; the Jekyll trees at `~/.canonic/{canonic-org, hadleylab-org, founderof-ai}/` are dead compile output (gitignored, no tracked files, not serving traffic). Phase 1 (2026-04-19): 6 GOV stragglers migrated to VIEW or no-surface-type. Phase 2 (2026-04-20): `jekyll build` removed from deploy; `build_surfaces_*.py` JEKYLL_* defaults → VIEW; JEKYLL_TALK capability mapping removed; `MAGIC/SURFACE/JEKYLL/` axiom tree deleted. VIEW (Next.js parent renderer) is the unified successor.\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
       },
       {
         "scope": "MAGIC",
-        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
-        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+        "axiom": "MAGIC is the enforcement layer — three primitives, one governed economy, COMPLIANCE as the product.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract\nMUST: New constraint: MUST NOT: Expose private kernel internals\nMUST: New constraint: MUST: Declare governance.\nMUST: New constraint: COVERAGE.md MUST be generated by build-surfaces — not hand-authored\nMUST: New constraint: README.md MUST be lean (scope + inherits + axiom) — no boilerplate"
       },
       {
         "scope": "FOUNDATION",
-        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
-        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+        "axiom": "FOUNDATION defines the LANGUAGE — three axioms, compiler correspondence, the paper proves itself.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition\nMUST: New constraint: MUST: Surface FOUNDATION thesis, axioms, and programming correspondence from governed content\nMUST: New constraint: MUST: Declare governance.\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every tier must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these axioms"
       }
     ]
   }

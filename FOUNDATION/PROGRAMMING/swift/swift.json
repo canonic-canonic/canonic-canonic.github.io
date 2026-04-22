@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "swift",
-    "description": "IOS_NATIVE = Apple ecosystem. Mobile SHOP.",
+    "description": "SWIFT is the Apple-native compliance runtime — the mobile SHOP, neofunctionalized from Python for declarative UI.",
     "cta": [
       {
         "label": "Open swift",
@@ -119,7 +119,7 @@
   },
   "footerTagline": "swift | CANONIC",
   "canon": {
-    "axiom": "IOS_NATIVE = Apple ecosystem. Mobile SHOP.",
+    "axiom": "SWIFT is the Apple-native compliance runtime — the mobile SHOP, neofunctionalized from Python for declarative UI.",
     "inherits": "canonic-canonic/FOUNDATION",
     "spec": [
       {
@@ -147,10 +147,6 @@
     },
     "vocab": [
       {
-        "term": "FOUNDATION",
-        "definition": "Governed term in this scope vocabulary."
-      },
-      {
         "term": "IOS_NATIVE",
         "definition": "Governed term in this scope vocabulary."
       },
@@ -164,14 +160,14 @@
       },
       {
         "term": "SWIFT",
-        "definition": "Governed term in this scope vocabulary."
+        "definition": "New concept: SWIFT"
       }
     ],
     "chain": [
       {
         "scope": "FOUNDATION",
-        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
-        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+        "axiom": "FOUNDATION defines the LANGUAGE — three axioms, compiler correspondence, the paper proves itself.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition\nMUST: New constraint: MUST: Surface FOUNDATION thesis, axioms, and programming correspondence from governed content\nMUST: New constraint: MUST: Declare governance.\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every tier must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these axioms"
       }
     ]
   }

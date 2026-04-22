@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "CONTROLS",
-    "description": "CONTROLS is the unified control interface for all content surfaces. Five dimensions: talk position, download assets, view mode, available views, content gate. Every control in the bar acts on the content it controls — within the same page, within the same context. GOV declares. Compiler emits. Theme renders.",
+    "description": "CONTROLS is the unified control interface — five dimensions, single bar, GOV declares, compiler emits, theme renders.",
     "cta": [
       {
         "label": "Open CONTROLS",
@@ -46,9 +46,9 @@
         {
           "metric": {
             "label": "MAGIC",
-            "value": "255/255",
-            "change": "FULL",
-            "trend": "up"
+            "value": "253/255",
+            "change": "NONE",
+            "trend": "neutral"
           }
         },
         {
@@ -57,6 +57,14 @@
             "value": "3",
             "change": "patterns",
             "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "GAPS",
+            "value": "1",
+            "change": "E",
+            "trend": "down"
           }
         }
       ]
@@ -97,16 +105,6 @@
               "Pattern"
             ],
             "rows": [
-              [
-                "2026-02-27",
-                "CONTROLS_FORMALIZED",
-                "Three dimensions (talk, download, view) declared in SURFACE.json per type — comp"
-              ],
-              [
-                "2026-03-04",
-                "GATE_DIMENSION",
-                "Fifth dimension added: gate (contribute \\"
-              ],
               [
                 "2026-03-04",
                 "WITHIN_CONTEXT",
@@ -337,7 +335,7 @@
   },
   "footerTagline": "CONTROLS | CANONIC",
   "canon": {
-    "axiom": "CONTROLS is the unified control interface for all content surfaces. Five dimensions: talk position, download assets, view mode, available views, content gate. Every control in the bar acts on the content it controls — within the same page, within the same context. GOV declares. Compiler emits. Theme renders.",
+    "axiom": "CONTROLS is the unified control interface — five dimensions, single bar, GOV declares, compiler emits, theme renders.",
     "constraints": "MUST:     Declare controls per surface_type in SURFACE.json\nMUST:     Compiler discovers defaults from SURFACE.json at build time\nMUST:     Compiler merges CANON.md header overrides with GOV defaults\nMUST:     Emit resolved controls to front matter (talk, downloads, view, views, gate)\nMUST:     Theme reads front matter only — zero layout-specific logic\nMUST:     Every nav-right control acts on content within the same page context\nMUST:     Gate anchor uses event.preventDefault + scrollIntoView — no hash navigation\nMUST NOT: Hardcode control behavior in theme layouts\nMUST NOT: Hardcode per-type defaults in compiler\nMUST NOT: Navigate away from the page — all controls are in-page actions",
     "inherits": "canonic-canonic/MAGIC/SURFACE",
     "spec": [
@@ -378,51 +376,21 @@
         "Per-page control overrides via CANON.md header"
       ]
     },
-    "vocab": [
-      {
-        "term": "CONTROLS",
-        "definition": "Unified control interface — five dimensions per surface type. Every control acts on content within context."
-      },
-      {
-        "term": "TALK",
-        "definition": "Control dimension — overlay position (top or side). TALK.open() / TALK.close()."
-      },
-      {
-        "term": "DOWNLOAD",
-        "definition": "Control dimension — downloadable asset types (pdf, ppt, word, or none). Direct href."
-      },
-      {
-        "term": "VIEW",
-        "definition": "Control dimension — default content rendering mode (gov, web, tex). CONTROLS.viewTo()."
-      },
-      {
-        "term": "VIEWS",
-        "definition": "Control dimension — available view set. GOV is universal. Toggle bar when >1."
-      },
-      {
-        "term": "GATE",
-        "definition": "Control dimension — content gate type (contribute or none). Renders identity gate + nav anchor."
-      },
-      {
-        "term": "SURFACE_TYPE",
-        "definition": "Content category — compiler reads defaults from SURFACE.json."
-      }
-    ],
     "chain": [
       {
         "scope": "SURFACE",
-        "axiom": "SURFACE is the platform lane.",
-        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST:     APP surface_type — Next.js App Router, reads galaxy.json + CANON.json directly\nMUST:     GALAXY surface_type — chrome-free operating surface (auth gate, Finder)\nMUST:     APP scopes compile CANON.md → CANON.json (same as SURFACE, different target)\nMUST:     APP scopes wire COIN + INTEL + TALK primitives into compiled CANON.json\nMUST NOT: Emit new JEKYLL_* surface types — existing types frozen, deprecated\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
+        "axiom": "SURFACE is the platform lane — GOV declares, runtime projects, MAGIC validates.",
+        "constraints": "MUST:     Keep build/sync/deploy deterministic and replay-safe\nMUST:     Treat GOV tree as the only source of truth\nMUST:     Keep runtime code minimal; enforce via governed data\nMUST:     Separate concerns — platform sells tiers, proof features evidence\nMUST:     Leaf pages with layout: paper get inheriting CANON.json — TALK walks inheritance chain\nMUST:     APP surface_type — Next.js App Router, reads galaxy.json + CANON.json directly\nMUST:     GALAXY surface_type — chrome-free operating surface (auth gate, Finder)\nMUST:     APP scopes compile CANON.md → CANON.json (same as SURFACE, different target)\nMUST:     APP scopes wire COIN + INTEL + TALK primitives into compiled CANON.json\nMUST NOT: Declare `surface_type: JEKYLL_*` in any GOV CANON.md — JEKYLL is extincted. Production (`canonic.org`, `hadleylab.org`, `founderof.ai`) is served by the Next.js monorepo at `hadleylab-canonic/APPS/CANONIC/app/`; the Jekyll trees at `~/.canonic/{canonic-org, hadleylab-org, founderof-ai}/` are dead compile output (gitignored, no tracked files, not serving traffic). Phase 1 (2026-04-19): 6 GOV stragglers migrated to VIEW or no-surface-type. Phase 2 (2026-04-20): `jekyll build` removed from deploy; `build_surfaces_*.py` JEKYLL_* defaults → VIEW; JEKYLL_TALK capability mapping removed; `MAGIC/SURFACE/JEKYLL/` axiom tree deleted. VIEW (Next.js parent renderer) is the unified successor.\nMUST NOT: Hardcode fleet membership, surfaces, or identity maps\nMUST NOT: Embed proof-site URLs in platform-site content (fleet.json eco-bar only)"
       },
       {
         "scope": "MAGIC",
-        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
-        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+        "axiom": "MAGIC is the enforcement layer — three primitives, one governed economy, COMPLIANCE as the product.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract\nMUST: New constraint: MUST NOT: Expose private kernel internals\nMUST: New constraint: MUST: Declare governance.\nMUST: New constraint: COVERAGE.md MUST be generated by build-surfaces — not hand-authored\nMUST: New constraint: README.md MUST be lean (scope + inherits + axiom) — no boilerplate"
       },
       {
         "scope": "FOUNDATION",
-        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
-        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+        "axiom": "FOUNDATION defines the LANGUAGE — three axioms, compiler correspondence, the paper proves itself.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition\nMUST: New constraint: MUST: Surface FOUNDATION thesis, axioms, and programming correspondence from governed content\nMUST: New constraint: MUST: Declare governance.\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every tier must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these axioms"
       }
     ]
   }

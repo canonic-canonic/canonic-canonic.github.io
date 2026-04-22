@@ -2,7 +2,7 @@
 layout: default
 scope: RELIGION
 title: "RELIGION"
-description: ""
+description: "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain."
 footerTagline: "RELIGION"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: RELIGION
   title: "RELIGION"
-  description: ""
+  description: "INDUSTRY is the variable in the SERVICE equation — every vertical wires primitives into a governed domain."
   cta:
     - label: "Open RELIGION"
       href: /INDUSTRIES/VERTICALS/RELIGION/
@@ -27,6 +27,20 @@ hero:
       talk: true
 ---
 <!-- _generated: build-surfaces -->
+
+- **INDUSTRY_IS_VARIABLE** — SERVICE equals PRIMITIVE composed with INDUSTRY; swap the industry, get a new service.
+- **EVERY_INDUSTRY_WIRES_THREE** — each vertical wires INTEL, CHAT, and COIN before it counts as governed.
+- **LANGUAGE_CASCADES_FROM_MAGIC** — industry language inherits from MAGIC; no per-industry DESIGN or lexicon fork.
+## Axioms
+
+- All doctrine MUST derive from declared sacred claims.
+- Claims MUST reference authoritative texts as evidential basis.
+- Sacred history MUST establish temporal grounding.
+- Community boundaries MUST be defined through relational governance.
+- Ethical practice MUST be enforced through operational mechanisms.
+- Institutional forms MUST provide structural persistence.
+
+---
 
 ## Constraints
 

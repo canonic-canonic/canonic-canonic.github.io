@@ -2,7 +2,7 @@
 layout: default
 scope: OPERATIONS
 title: "OPERATIONS"
-description: "Fleet operations. Sites declared. Assets synced. Recovery documented."
+description: "OPERATIONS is fleet runbooks — sites declared, assets synced, recovery documented."
 footerTagline: "OPERATIONS"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: OPERATIONS
   title: "OPERATIONS"
-  description: "Fleet operations. Sites declared. Assets synced. Recovery documented."
+  description: "OPERATIONS is fleet runbooks — sites declared, assets synced, recovery documented."
   cta:
     - label: "Open OPERATIONS"
       href: /MAGIC/TOOLCHAIN/OPERATIONS/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **SITES_DECLARED** — all fleet sites are declared in FLEET.md; undeclared sites are never deployed.
+- **ASSETS_SYNCED** — shared assets sync via `bin/sync-fleet`; manual asset copying is not allowed.
+- **RECOVERY_DOCUMENTED** — recovery is documented so the full runtime can be restored in five commands.
 ## Constraints
 
 ```

@@ -2,7 +2,7 @@
 layout: default
 scope: CONTRIBUTE
 title: "CONTRIBUTE"
-description: "CONTRIBUTE is WORK recorded. Every contribution ledgered. Every WORK mints COIN."
+description: "CONTRIBUTE is WORK recorded — every contribution ledgered, every valid submission mints COIN, every contribution composes INTEL."
 footerTagline: "CONTRIBUTE"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: CONTRIBUTE
   title: "CONTRIBUTE"
-  description: "CONTRIBUTE is WORK recorded. Every contribution ledgered. Every WORK mints COIN."
+  description: "CONTRIBUTE is WORK recorded — every contribution ledgered, every valid submission mints COIN, every contribution composes INTEL."
   cta:
     - label: "Open CONTRIBUTE"
       href: /MAGIC/SERVICES/CONTRIBUTE/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **CONTRIBUTION_IS_LEDGERED** — every contribution is appended to the scope-keyed ledger with a provenance receipt (id + timestamp).
+- **WORK_MINTS_COIN** — every valid submission emits a `MINT:CONTRIBUTE` COIN event; WORK and COIN are the same loop.
+- **CURATION_GATES_GOLD** — contributions pass a curation gate before extraction to GOLD evidence; every contribution is knowledge and composes INTEL.
 ## Constraints
 
 ```

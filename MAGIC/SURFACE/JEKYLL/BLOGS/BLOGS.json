@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "BLOGS",
-    "description": "BLOGS are governed literary artifacts. Every post is a timestamped disclosure.",
+    "description": "BLOGS are governed literary artifacts — every post a timestamped disclosure, governance rendered as readable story.",
     "cta": [
       {
         "label": "Open BLOGS",
@@ -196,7 +196,7 @@
   },
   "footerTagline": "BLOGS | CANONIC",
   "canon": {
-    "axiom": "BLOGS are governed literary artifacts. Every post is a timestamped disclosure.",
+    "axiom": "BLOGS are governed literary artifacts — every post a timestamped disclosure, governance rendered as readable story.",
     "constraints": "MUST:     Every post declares front matter (title, date, layout: post)\nMUST:     Posts live in _posts/ following Jekyll naming: YYYY-MM-DD-slug.md\nMUST:     BLOGS.json index is compiled — never hand-edited\nMUST:     CANON.json is compiled — never hand-edited\nMUST:     Post content maps to governed work (LEDGER commits, MAGIC discoveries)\nMUST NOT: Publish ungoverned narrative (fiction without evidence)\nMUST NOT: Hand-edit compiled indices (BLOGS.json, CANON.json)",
     "inherits": "canonic-canonic/MAGIC/SURFACE/JEKYLL",
     "spec": [
@@ -239,10 +239,6 @@
     },
     "vocab": [
       {
-        "term": "CANON",
-        "definition": "Governance contract. Axiom + constraints for this scope."
-      },
-      {
         "term": "SURFACE",
         "definition": "The rendering layer. Compiles GOV into native UI."
       }
@@ -250,8 +246,8 @@
     "chain": [
       {
         "scope": "JEKYLL",
-        "axiom": "JEKYLL is MAGIC made visible. DESIGN is the language. JEKYLL is the compiler.",
-        "constraints": "MUST:     Derive visuals from governed primitives (no ad hoc style drift)\nMUST:     Keep design language in GOV; runtime renders only\nMUST:     Card icons render inline preceding the card title (not stacked)\nMUST:     Hero demo cycles all governed TALK products (not a subset)\nMUST NOT: Introduce visual rules outside governed contracts"
+        "axiom": "JEKYLL is MAGIC made visible — DESIGN is the language, JEKYLL is the compiler, every pixel maps to a governed primitive.",
+        "constraints": "MUST:     Derive visuals from governed primitives (no ad hoc style drift)\nMUST:     Keep design language in GOV; runtime renders only\nMUST:     Card icons render inline preceding the card title (not stacked)\nMUST:     Hero demo cycles all governed TALK products (not a subset)\nMUST NOT: Introduce visual rules outside governed contracts\nMUST NOT: include.X → page.X → site.data[scope].X → site.X` — the discoverable shape. Templates hardcode data, only enforce structure."
       }
     ]
   }

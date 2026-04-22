@@ -2,7 +2,7 @@
 layout: default
 scope: LEDGER
 title: "LEDGER"
-description: "LEDGER is the append-only truth. Every economic event recorded. No erasure."
+description: "LEDGER is the append-only truth — every economic event recorded, hash-chain intact, no erasure, every record projects to LEARNING."
 footerTagline: "LEDGER"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: LEDGER
   title: "LEDGER"
-  description: "LEDGER is the append-only truth. Every economic event recorded. No erasure."
+  description: "LEDGER is the append-only truth — every economic event recorded, hash-chain intact, no erasure, every record projects to LEARNING."
   cta:
     - label: "Open LEDGER"
       href: /MAGIC/SERVICES/LEDGER/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **APPEND_ONLY** — economic events are recorded with timestamps and never retroactively modified; erasure is not allowed.
+- **HASH_CHAIN_INTEGRITY** — the ledger maintains hash-chain integrity end-to-end; a broken chain is a build failure.
+- **LEDGER_IS_INTEL** — every ledger record is INTEL; on ingestion it projects to scope LEARNING and backpropagates patterns as gradients.
 ## Constraints
 
 ```

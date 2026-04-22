@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "RunnerMVP",
-    "description": "RUNNER is the real estate task marketplace. Post a task. A pro handles it. Every effort earns COIN. Robert Glover is GOVERNOR. Dexter Hadley is GOVERNOR_GENERAL.",
+    "description": "RUNNER is the real-estate task marketplace — post a task, a pro handles it, every effort earns COIN.",
     "cta": [
       {
         "label": "Open RunnerMVP",
@@ -208,7 +208,7 @@
   },
   "footerTagline": "RunnerMVP | CANONIC",
   "canon": {
-    "axiom": "RUNNER is the real estate task marketplace. Post a task. A pro handles it. Every effort earns COIN. Robert Glover is GOVERNOR. Dexter Hadley is GOVERNOR_GENERAL.",
+    "axiom": "RUNNER is the real-estate task marketplace — post a task, a pro handles it, every effort earns COIN.",
     "constraints": "MUST:     ORG declares governance scope and domains\nMUST:     ORG inherits from GALAXY/ORGS\nMUST:     GOVERNOR (Robert) decides — GOVERNOR_GENERAL (Dexter) executes\nMUST:     All task types governed in .md — compiled to CANON.json — consumed by app\nMUST:     Vendor credentialing via KYC (FL DBPR, USPAP, FREAB, NMLS)\nMUST:     Fiduciary compliance (FL 475.278) enforced per task\nMUST:     Every task lifecycle event ledgered — post, claim, evidence, complete\nMUST NOT: Deploy ungoverned task types\nMUST NOT: Skip vendor credential verification",
     "inherits": "canonic-canonic/MAGIC/GALAXY/ORGS",
     "spec": [
@@ -230,7 +230,7 @@
       }
     ],
     "learning": [],
-    "coverage": "",
+    "coverage": "255/255",
     "roadmap": {
       "later": [
         "Multi-agent fleet: multiple Lake Nona realtors",
@@ -242,12 +242,16 @@
     },
     "vocab": [
       {
-        "term": "GOVERNOR",
-        "definition": "Robert Glover — decides what gets built. Surface: CHAT."
+        "term": "COIN",
+        "definition": "Work ledger — every completed task earns COIN."
       },
       {
         "term": "GOVERNOR_GENERAL",
         "definition": "Dexter Hadley — executes governance + toolchain. Surface: CLAUDE + git."
+      },
+      {
+        "term": "KYC",
+        "definition": "Vendor credentialing — FL DBPR, USPAP, FREAB, NMLS."
       },
       {
         "term": "PROOF",
@@ -264,47 +268,23 @@
       {
         "term": "RUNNERMVP",
         "definition": "GitHub ORG boundary for RunnerMVP."
-      },
-      {
-        "term": "PRO",
-        "definition": "Agent role — posts tasks, tracks runners, rates completions."
-      },
-      {
-        "term": "RUNNER_VENDOR",
-        "definition": "Runner role — accepts tasks, navigates, provides evidence, earns."
-      },
-      {
-        "term": "OPS",
-        "definition": "Operations role — platform management."
-      },
-      {
-        "term": "COIN",
-        "definition": "Work ledger — every completed task earns COIN."
-      },
-      {
-        "term": "LEDGER",
-        "definition": "Immutable hash-chained task lifecycle record."
-      },
-      {
-        "term": "KYC",
-        "definition": "Vendor credentialing — FL DBPR, USPAP, FREAB, NMLS."
       }
     ],
     "chain": [
       {
         "scope": "ORGS",
-        "axiom": "ORGS = federation identity. Users authenticate. Users maintain VITAE.",
+        "axiom": "ORGS are federation identity — each ORG a GitHub boundary, each USER a projection, each scope inherits the ORG's governance.",
         "constraints": "MUST:     Authenticate before access\nMUST:     Every member maintains VITAE\nMUST:     Each ORG maps to one GitHub organization boundary\nMUST:     Each USER is projected as an ORG-owned repo: `github.com/{org}/{user}` (duplicate across ORGs allowed)\nMUST:     ORG runtime repos remain deploy targets, not identity sources\nMUST:     Every per-ORG CANON.md declares role: and domains: headers\nMUST:     domains: values resolve to canonic-canonic/INDUSTRIES/ paths\nMUST:     Compiler discovers ORG entries by scanning GALAXY/ORGS/*/CANON.md\nMUST NOT: Expose member identity without consent\nMUST NOT: Collapse ORG and USER ownership boundaries\nMUST NOT: Hardcode org lists — discovery is filesystem-only"
       },
       {
         "scope": "MAGIC",
-        "axiom": "INTEL. CHAT. COIN. — Three primitives. One governed economy.",
-        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract"
+        "axiom": "MAGIC is the enforcement layer — three primitives, one governed economy, COMPLIANCE as the product.",
+        "constraints": "MUST:     CANON.md in every scope\nMUST:     Services compose primitives — never duplicate\nMUST:     Primitive structure is fixed — industry is the only variable\nMUST:     Primitives compose into services — never duplicate\nMUST:     Services connect through SHOP.md and VAULT.md projection files\nMUST:     SHOP.md = public projection file (filesystem-discoverable, UPPERCASE per LANGUAGE)\nMUST:     VAULT.md = private projection file (filesystem-discoverable, auth-gated, UPPERCASE per LANGUAGE)\nMUST:     Instance = service projected through user governance context\nMUST:     Instance directories live at USER scope ({USER}/{PLURAL}/), not nested in SERVICES/\nMUST:     Service directories (SERVICES/{SINGULAR}/) define schemas — instances hold content\nMUST:     Every .md compiles to .json with the same name (direct mapping)\nMUST:     CANON.md = axiom + universal constraints only (no service names, no paths, no implementation)\nMUST:     README.md = how to run the CANON only\nMUST:     {SCOPE}.md = SPEC — the interface (purpose, routes, projections, ecosystem)\nMUST NOT: Hardcode service names in CANON constraints (law speaks universals)\nMUST:     Inheritance resolves upward — scopes compose by directories\nMUST:     Tier algebra is canonical — DESIGN.md is the single source (COMPLIANCE tier algebra)\nMUST NOT: Expose dimension internals to users or developers\nMUST NOT: Hardcode outside governed contracts\nMUST:     Nonprofits get enterprise for free\nMUST:     ORG is the container; USER is the repo (`github.com/{org}/{user}`; duplicates across orgs allowed)\nMUST:     MARKET/ SALES/ GTM/ exist (META self-closure; one primitive each)\nMUST:     Each META sub-scope maps exactly one primitive (INTEL, CHAT, COIN)\nMUST NOT: Add META business knowledge outside MAGIC/ scope\nMUST NOT: Remove META sub-scope without replacing its primitive coverage\nMUST:     `{SCOPE}.md` is the scope contract surface; it MUST NOT be treated as a generic filename placeholder\nMUST:     LEARNING.md is the terminal — governance evidence, patterns, epoch rotation\nMUST:     LEARNING/ is the IDF directory — machine-generated individual data files\nMUST:     LEARNING.md rotates at epoch boundaries — frozen epochs archive as LEARNING-{EPOCH}.md at scope root\nMUST:     LEARNING.md is always the current epoch — active, append-only\nMUST:     Epoch boundary = EVOLUTION signal in LEARNING.md (named, dated, sourced)\nMUST NOT: Delete archived LEARNING epochs — append-only history\nMUST:     MAGIC defines the triad interface directly:\nMUST:     COMPLIANCE/ + GALAXY/ + SURFACE/\nMUST NOT: Define conflicting tier algebra in downstream scopes; downstream must inherit this contract\nMUST: New constraint: MUST NOT: Expose private kernel internals\nMUST: New constraint: MUST: Declare governance.\nMUST: New constraint: COVERAGE.md MUST be generated by build-surfaces — not hand-authored\nMUST: New constraint: README.md MUST be lean (scope + inherits + axiom) — no boilerplate"
       },
       {
         "scope": "FOUNDATION",
-        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
-        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+        "axiom": "FOUNDATION defines the LANGUAGE — three axioms, compiler correspondence, the paper proves itself.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition\nMUST: New constraint: MUST: Surface FOUNDATION thesis, axioms, and programming correspondence from governed content\nMUST: New constraint: MUST: Declare governance.\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every tier must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these axioms"
       }
     ]
   }

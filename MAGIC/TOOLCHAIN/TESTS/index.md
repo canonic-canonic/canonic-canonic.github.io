@@ -2,7 +2,7 @@
 layout: default
 scope: TESTS
 title: "TESTS"
-description: "Compiler correctness is verified by deterministic fixture tests. Given a known GOV input, the compiler MUST produce the expected JSON output."
+description: "TESTS verify compiler correctness — deterministic fixture tests over governed inputs produce expected JSON outputs."
 footerTagline: "TESTS"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: TESTS
   title: "TESTS"
-  description: "Compiler correctness is verified by deterministic fixture tests. Given a known GOV input, the compiler MUST produce the expected JSON output."
+  description: "TESTS verify compiler correctness — deterministic fixture tests over governed inputs produce expected JSON outputs."
   cta:
     - label: "Open TESTS"
       href: /MAGIC/TOOLCHAIN/TESTS/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **FIXTURE_IS_SELF_CONTAINED** — every fixture is a self-contained scope with CANON.md + VOCAB.md + README.md; fixtures do not leak state.
+- **DETERMINISTIC_COMPARISON** — expected output strips volatile fields (`_generated` timestamp) so the comparison is deterministic.
+- **FIXTURES_DISCOVERED_BY_WALK** — the test runner discovers fixtures by walking, never from a hardcoded list; compiler regressions cannot reach deploy.
 ## Constraints
 
 ```

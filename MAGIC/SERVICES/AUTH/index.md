@@ -2,7 +2,7 @@
 layout: default
 scope: AUTH
 title: "AUTH"
-description: "AUTH gates scope access. Identity is the KYC anchor. Scope-level readers/writers declared in CANON.md."
+description: "AUTH gates scope access — identity is the KYC anchor, scope-level readers/writers declared in CANON.md, fail-closed by default."
 footerTagline: "AUTH"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: AUTH
   title: "AUTH"
-  description: "AUTH gates scope access. Identity is the KYC anchor. Scope-level readers/writers declared in CANON.md."
+  description: "AUTH gates scope access — identity is the KYC anchor, scope-level readers/writers declared in CANON.md, fail-closed by default."
   cta:
     - label: "Open AUTH"
       href: /MAGIC/SERVICES/AUTH/
@@ -28,6 +28,10 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **AUTH_IS_SCOPE_GATE** — access is gated at scope granularity; every scope's CANON.md declares its readers and writers explicitly.
+- **IDENTITY_IS_KYC_ANCHOR** — identity resolves through the KYC anchor; session tokens are server-side, not client-only.
+- **FAIL_CLOSED** — PRIVATE scope with no matching reader denies by default; every surface with `privacy: PRIVATE` declares `auth: required`.
+- **AUTH_EVENTS_LEDGERED** — login, logout, grant, and deny events are all ledgered for audit.
 ## Constraints
 
 ```

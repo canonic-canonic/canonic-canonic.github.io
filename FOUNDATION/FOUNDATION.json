@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "FOUNDATION",
-    "description": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
+    "description": "FOUNDATION defines the LANGUAGE — three axioms, compiler correspondence, the paper proves itself.",
     "cta": [
       {
         "label": "Open FOUNDATION",
@@ -70,6 +70,28 @@
       ]
     },
     {
+      "id": "roadmap",
+      "eyebrow": "ROADMAP",
+      "title": "Now / Next / Later",
+      "dashboard": [
+        {
+          "span": 2,
+          "table": {
+            "headers": [
+              "Phase",
+              "Item"
+            ],
+            "rows": [
+              [
+                "Next",
+                "[ ] Plan: Harden CANONIC (Foundation) vs HADLEYLAB (Proof) <!-- freshen:swirling"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "activity",
       "eyebrow": "LEARNING",
       "title": "Recent Activity",
@@ -121,28 +143,28 @@
         {
           "icon": "∩",
           "title": "DEVELOPERS",
-          "desc": "DEVELOPERS is the certification surface. Every certified developer is discoverable. Every credential is verifiable. Git proves it.",
+          "desc": "DEVELOPERS is the certification surface — every certified developer is discoverable, every credential verifiable, and git proves it.",
           "href": "/FOUNDATION/DEVELOPERS/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "DOCTRINE",
-          "desc": "DOCTRINE is fixed. DRY. Mathematical. Enforced by structure.",
+          "desc": "DOCTRINE is fixed, DRY, mathematical, and enforced by structure — the spine every other scope inherits from.",
           "href": "/FOUNDATION/DOCTRINE/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "ONBOARDING",
-          "desc": "ONBOARDING is the contributor entry point. One runbook. Ten minutes. Your first governed scope.",
+          "desc": "ONBOARDING is the contributor entry point — one runbook, ten minutes, your first governed scope.",
           "href": "/FOUNDATION/ONBOARDING/",
           "class": "card"
         },
         {
           "icon": "∩",
           "title": "PROGRAMMING",
-          "desc": "DEV — programming language implementations.",
+          "desc": "PROGRAMMING hosts the language runtimes — all compliant, all neofunctionalized from a shared INTEL family.",
           "href": "/FOUNDATION/PROGRAMMING/",
           "class": "card"
         },
@@ -230,8 +252,8 @@
   },
   "footerTagline": "FOUNDATION | CANONIC",
   "canon": {
-    "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
-    "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition",
+    "axiom": "FOUNDATION defines the LANGUAGE — three axioms, compiler correspondence, the paper proves itself.",
+    "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition\nMUST: New constraint: MUST: Surface FOUNDATION thesis, axioms, and programming correspondence from governed content\nMUST: New constraint: MUST: Declare governance.\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every tier must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these axioms",
     "inherits": "canonic-canonic/FOUNDATION",
     "spec": [
       {
@@ -266,39 +288,19 @@
       }
     ],
     "coverage": "255/255",
-    "roadmap": {},
+    "roadmap": {
+      "next": [
+        "[ ] Plan: Harden CANONIC (Foundation) vs HADLEYLAB (Proof) <!-- freshen:swirling-kindling-galaxy -->"
+      ]
+    },
     "vocab": [
-      {
-        "term": "CHAT",
-        "definition": "Primitive for governed conversation (composable into TALK service)."
-      },
-      {
-        "term": "COIN",
-        "definition": "Primitive for governed economics (composable into SHOP service)."
-      },
       {
         "term": "FOUNDATION",
         "definition": "The rules. Defines LANGUAGE, DIMENSIONS, RESERVES. MAGIC enforces them."
       },
       {
-        "term": "INSTANCE",
-        "definition": "Service specialized with domain credential (e.g. TALK/MAMMOCHAT/)."
-      },
-      {
-        "term": "INTEL",
-        "definition": "Primitive for governed knowledge (mandatory — every service composes INTEL)."
-      },
-      {
         "term": "LANGUAGE",
         "definition": "Human-readable contract layer. Cascades: LANGUAGE.md → DESIGN.md → DESIGN.css."
-      },
-      {
-        "term": "LEARNING",
-        "definition": "Service lane for governed knowledge gradients (served at /LEARNING/)."
-      },
-      {
-        "term": "PRIMITIVE",
-        "definition": "Atomic operation — INTEL, CHAT, COIN. File-level."
       },
       {
         "term": "README",
@@ -309,24 +311,216 @@
         "definition": "A governed directory. Has CANON.md."
       },
       {
-        "term": "SERVICE",
-        "definition": "Composite of primitives — LEARNING, TALK, SHOP. Directory-level."
-      },
-      {
-        "term": "SHOP",
-        "definition": "Service lane for governed publications and economics (served at /SHOP/)."
-      },
-      {
-        "term": "SPEC",
-        "definition": "{SCOPE}.md — existence IS specification. The fixed point. No recursion."
-      },
-      {
-        "term": "TALK",
-        "definition": "Service lane for governed conversations (served at /TALK/)."
-      },
-      {
         "term": "VOCAB",
         "definition": "Closed terminology. Only SCREAMING_CASE terms from CANON. One per scope."
+      },
+      {
+        "term": "MCODE",
+        "definition": "New concept: MCODE"
+      },
+      {
+        "term": "SWITCHER",
+        "definition": "New concept: SWITCHER"
+      },
+      {
+        "term": "LIVE_TRIALS_CONTEXT",
+        "definition": "New concept: LIVE_TRIALS_CONTEXT"
+      },
+      {
+        "term": "INVEST",
+        "definition": "New concept: INVEST"
+      },
+      {
+        "term": "SALE",
+        "definition": "New concept: SALE"
+      },
+      {
+        "term": "DONATION",
+        "definition": "New concept: DONATION"
+      },
+      {
+        "term": "BILL",
+        "definition": "New concept: BILL"
+      },
+      {
+        "term": "AUTOHIDE",
+        "definition": "New concept: AUTOHIDE"
+      },
+      {
+        "term": "SEQUENTIAL",
+        "definition": "New concept: SEQUENTIAL"
+      },
+      {
+        "term": "MAX_INHERIT_DEPTH",
+        "definition": "New concept: MAX_INHERIT_DEPTH"
+      },
+      {
+        "term": "DERIVED",
+        "definition": "New concept: DERIVED"
+      },
+      {
+        "term": "BARS",
+        "definition": "New concept: BARS"
+      },
+      {
+        "term": "OFFSETS",
+        "definition": "New concept: OFFSETS"
+      },
+      {
+        "term": "GENERATED",
+        "definition": "New concept: GENERATED"
+      },
+      {
+        "term": "RENDERER",
+        "definition": "New concept: RENDERER"
+      },
+      {
+        "term": "POLISH",
+        "definition": "New concept: POLISH"
+      },
+      {
+        "term": "SECTORS",
+        "definition": "New concept: SECTORS"
+      },
+      {
+        "term": "VIOLATION",
+        "definition": "New concept: VIOLATION"
+      },
+      {
+        "term": "UNGOVERNED",
+        "definition": "New concept: UNGOVERNED"
+      },
+      {
+        "term": "HERO",
+        "definition": "New concept: HERO"
+      },
+      {
+        "term": "ACCENT",
+        "definition": "New concept: ACCENT"
+      },
+      {
+        "term": "SECTIONS",
+        "definition": "New concept: SECTIONS"
+      },
+      {
+        "term": "STATS",
+        "definition": "New concept: STATS"
+      },
+      {
+        "term": "UTIL",
+        "definition": "New concept: UTIL"
+      },
+      {
+        "term": "PRODUCTS",
+        "definition": "New concept: PRODUCTS"
+      },
+      {
+        "term": "TOGGLE",
+        "definition": "New concept: TOGGLE"
+      },
+      {
+        "term": "BANNER",
+        "definition": "New concept: BANNER"
+      },
+      {
+        "term": "CARDS",
+        "definition": "New concept: CARDS"
+      },
+      {
+        "term": "MOCK",
+        "definition": "New concept: MOCK"
+      },
+      {
+        "term": "CONTROL",
+        "definition": "New concept: CONTROL"
+      },
+      {
+        "term": "POPULAR",
+        "definition": "New concept: POPULAR"
+      },
+      {
+        "term": "LAYER",
+        "definition": "New concept: LAYER"
+      },
+      {
+        "term": "CERTIFIED",
+        "definition": "New concept: CERTIFIED"
+      },
+      {
+        "term": "AXIOMS",
+        "definition": "New concept: AXIOMS"
+      },
+      {
+        "term": "RESPONSIVE",
+        "definition": "New concept: RESPONSIVE"
+      },
+      {
+        "term": "RESOLUTION",
+        "definition": "New concept: RESOLUTION"
+      },
+      {
+        "term": "RESET",
+        "definition": "New concept: RESET"
+      },
+      {
+        "term": "ANIMATION",
+        "definition": "New concept: ANIMATION"
+      },
+      {
+        "term": "GRID",
+        "definition": "New concept: GRID"
+      },
+      {
+        "term": "CODE",
+        "definition": "New concept: CODE"
+      },
+      {
+        "term": "BASE",
+        "definition": "New concept: BASE"
+      },
+      {
+        "term": "SYNTAX",
+        "definition": "New concept: SYNTAX"
+      },
+      {
+        "term": "TOKENS",
+        "definition": "New concept: TOKENS"
+      },
+      {
+        "term": "COMPONENTS",
+        "definition": "New concept: COMPONENTS"
+      },
+      {
+        "term": "DARK",
+        "definition": "New concept: DARK"
+      },
+      {
+        "term": "UTILITIES",
+        "definition": "New concept: UTILITIES"
+      },
+      {
+        "term": "COMPOSITIONS",
+        "definition": "New concept: COMPOSITIONS"
+      },
+      {
+        "term": "QUOTE",
+        "definition": "New concept: QUOTE"
+      },
+      {
+        "term": "ACCENTS",
+        "definition": "New concept: ACCENTS"
+      },
+      {
+        "term": "THEMES",
+        "definition": "New concept: THEMES"
+      },
+      {
+        "term": "OVERLAY",
+        "definition": "New concept: OVERLAY"
+      },
+      {
+        "term": "REDACTED",
+        "definition": "New concept: [REDACTED]"
       }
     ]
   }

@@ -2,7 +2,7 @@
   "hero": {
     "badge": "USER",
     "title": "DEVELOPERS",
-    "description": "DEVELOPERS is the certification surface. Every certified developer is discoverable. Every credential is verifiable. Git proves it.",
+    "description": "DEVELOPERS is the certification surface — every certified developer is discoverable, every credential verifiable, and git proves it.",
     "cta": [
       {
         "label": "Open DEVELOPERS",
@@ -46,9 +46,9 @@
         {
           "metric": {
             "label": "MAGIC",
-            "value": "255/255",
-            "change": "FULL",
-            "trend": "up"
+            "value": "253/255",
+            "change": "NONE",
+            "trend": "neutral"
           }
         },
         {
@@ -57,6 +57,14 @@
             "value": "1",
             "change": "patterns",
             "trend": "up"
+          }
+        },
+        {
+          "metric": {
+            "label": "GAPS",
+            "value": "1",
+            "change": "E",
+            "trend": "down"
           }
         }
       ]
@@ -180,7 +188,7 @@
   },
   "footerTagline": "DEVELOPERS | CANONIC",
   "canon": {
-    "axiom": "DEVELOPERS is the certification surface. Every certified developer is discoverable. Every credential is verifiable. Git proves it.",
+    "axiom": "DEVELOPERS is the certification surface — every certified developer is discoverable, every credential verifiable, and git proves it.",
     "constraints": "MUST:     Discover developers from GOV tree — walk VITAE.md + cert/ tags\nMUST:     Compile to _data/developers.json via build-surfaces\nMUST:     Render on FOUNDATION site with tier badges\nMUST:     Every listed developer has a matching cert/ tag in TAGS.md\nMUST NOT: List uncertified developers\nMUST NOT: Hardcode developer lists — discover from GOV tree\nMUST NOT: Hand-edit developers.json — fix the compiler or contract",
     "inherits": "canonic-canonic/FOUNDATION",
     "spec": [
@@ -223,29 +231,11 @@
     ],
     "coverage": "255/255",
     "roadmap": {},
-    "vocab": [
-      {
-        "term": "DEVELOPER",
-        "definition": "A governed USER with a cert/ tag. Discovered from GOV tree."
-      },
-      {
-        "term": "DIRECTORY",
-        "definition": "The compiled listing of certified developers on FOUNDATION."
-      },
-      {
-        "term": "LISTING",
-        "definition": "A single developer card in the directory. Compiled from VITAE + cert tag."
-      },
-      {
-        "term": "VERIFIED",
-        "definition": "A developer whose cert/ tag has been independently validated via magic validate."
-      }
-    ],
     "chain": [
       {
         "scope": "FOUNDATION",
-        "axiom": "SPEC = {SCOPE}. The LANGUAGE. The v0 discovery.",
-        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition"
+        "axiom": "FOUNDATION defines the LANGUAGE — three axioms, compiler correspondence, the paper proves itself.",
+        "constraints": "MUST:     LANGUAGE defines all governance primitives\nMUST:     Every scope inherits from FOUNDATION\nMUST:     Triad (CANON.md + VOCAB.md + README.md) in every scope\nMUST NOT: Define terms outside VOCAB.md\nMUST NOT: Hardcode outside the kernel\nSHOULD:   Vocabulary closure — every term resolves to a definition\nMUST: New constraint: MUST: Surface FOUNDATION thesis, axioms, and programming correspondence from governed content\nMUST: New constraint: MUST: Declare governance.\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every scope must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every tier must satisfy all three\nMUST: TRIAD, INHERITANCE, INTROSPECTION — every service must validate against these axioms"
       }
     ]
   }

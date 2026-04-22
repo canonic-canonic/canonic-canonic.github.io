@@ -2,7 +2,7 @@
 layout: default
 scope: MARKET
 title: "MARKET"
-description: "INTEL about MAGIC. What MAGIC knows about its market."
+description: "MARKET is INTEL about MAGIC — what the enforcement layer knows about its buyers, grounded in verifiable data."
 footerTagline: "MARKET"
 accent: "#00ff88"
 accent_rgb: "0, 255, 136"
@@ -19,7 +19,7 @@ downloads:
 hero:
   badge: MARKET
   title: "MARKET"
-  description: "INTEL about MAGIC. What MAGIC knows about its market."
+  description: "MARKET is INTEL about MAGIC — what the enforcement layer knows about its buyers, grounded in verifiable data."
   cta:
     - label: "Open MARKET"
       href: /MAGIC/COMPLIANCE/MARKET/
@@ -28,6 +28,9 @@ hero:
 ---
 <!-- _generated: build-surfaces -->
 
+- **MARKET_IS_INTEL_ABOUT_MAGIC** — market knowledge is the INTEL projection of MAGIC: sizing, personas, and signal composed through governed primitives.
+- **TAM_IS_GROUNDED** — total addressable market is sized from verifiable data with explicit methodology, not from inflated top-down claims.
+- **BUYER_IS_MAPPED** — every sales engagement maps to defined buyer personas with documented pain points and decision authority.
 ## Axioms
 
 ### 1. Total Addressable Market
@@ -101,6 +104,7 @@ Window: 2026-2028 is the compliance crunch. Organizations that don't have AI gov
 MUST:     Cite verifiable data source for market sizing claims
 MUST:     Name specific competitors — never use "others" or "competitors"
 MUST NOT: Present TAM as revenue projection — TAM ≠ revenue
+MUST: Market sizing must cite verifiable data sources; TAM ($50B governance) != revenue projection
 ```
 
 ---
