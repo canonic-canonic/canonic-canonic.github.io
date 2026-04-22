@@ -52,101 +52,37 @@ compiler: http
 | darioisms.com | cloudflare | 73a7cdd5a8be98f45816da1c87b7518a |
 | gorunner.pro | cloudflare | 73a7cdd5a8be98f45816da1c87b7518a |
 | founderof.ai | cloudflare | 73a7cdd5a8be98f45816da1c87b7518a |
-| singu.ar | cloudflare | 73a7cdd5a8be98f45816da1c87b7518a |
 
 ## Domains
 
-TALK surface model: `{scope}.ai` = canonical sink (community learning + SEO primary), `app.{scope}.ai` = chat instance (noindex, canonical → `{scope}.ai`). Community surfaces colocated with instance at `/talks/{scope}/community/`. Service contract at `/services/talk/` stays pure (no instance projections).
+TALK surface model: `{scope}.ai` = canonical sink (community learning + SEO primary, served by `apps-canonic` CF Pages custom domain → Next.js middleware → `/talk/{scope}/community`), `app.{scope}.ai` = chat instance (noindex, canonical → `{scope}.ai`, served by `apps-canonic` CF Pages custom domain → `/talk/{scope}`). Community surfaces render through the unified `CommunityView` Next.js component (SERVICES/TALK/CANON.md § Community Learning Surface Contract). No proxy Workers — Jekyll origin is extinct.
 
 | Domain | Target | Serve | Surface |
 |--------|--------|-------|---------|
-| mammo.chat | hadleylab.org/talks/mammochat/ | proxy | instance (legacy alias) |
-| mammochat.ai | hadleylab.org/talks/mammochat/community/ | proxy | community (SEO sink) |
-| app.mammochat.ai | hadleylab.org/talks/mammochat/ | instance | instance (noindex) |
-| mammochat.com | hadleylab.org/talks/mammochat/ | proxy | instance (legacy alias) |
-| carib.chat | hadleylab.org/talks/caribchat/ | proxy | instance (legacy alias) |
-| caribchat.ai | hadleylab.org/talks/caribchat/community/ | proxy | community (SEO sink) |
-| app.caribchat.ai | hadleylab.org/talks/caribchat/ | instance | instance (noindex) |
-| caribchat.org | hadleylab.org/talks/caribchat/ | proxy | instance (legacy alias) |
-| omicschat.ai | hadleylab.org/talks/omicschat/community/ | proxy | community (SEO sink) |
-| app.omicschat.ai | hadleylab.org/talks/omicschat/ | instance | instance (noindex) |
-| onconex.ai | APPS/ONCONEX | app | Next.js orchestrator (7 views, subdomain dispatch) |
-| app.onconex.ai | hadleylab.org/talks/oncochat/ | instance | instance (noindex) |
-| atulisms.com | hadleylab.org/books/atulisms/ | proxy | book |
-| darioisms.com | hadleylab.org/books/darioisms/ | proxy | book |
-| omicschat.hadleylab.org | hadleylab.org/talks/omicschat/ | subdomain | instance |
-| oncochat.hadleylab.org | hadleylab.org/talks/oncochat/ | subdomain | instance |
-| medchat.hadleylab.org | hadleylab.org/talks/medchat/ | subdomain |
-| finchat.hadleylab.org | hadleylab.org/talks/finchat/ | subdomain |
-| lawchat.hadleylab.org | hadleylab.org/talks/lawchat/ | subdomain |
-| nona.hadleylab.org | hadleylab.org/talks/nona/ | subdomain |
-| realty.hadleylab.org | hadleylab.org/talks/realty/ | subdomain |
-| vitae.hadleylab.org | hadleylab.org/talks/vitae/ | subdomain |
-| dev.hadleylab.org | hadleylab.org/talks/dev/ | subdomain |
-| star.hadleylab.org | hadleylab.org/services/star/ | subdomain |
-| shop.hadleylab.org | hadleylab.org/services/shop/ | subdomain |
+| app.mammochat.ai | apps-canonic (Pages) | instance | instance (noindex) |
+| app.caribchat.ai | apps-canonic (Pages) | instance | instance (noindex) |
+| app.omicschat.ai | apps-canonic (Pages) | instance | instance (noindex) |
+| app.onconex.ai | apps-canonic (Pages) | instance | instance (noindex) |
+| omicschat.hadleylab.org | https://app.omicschat.ai/ | subdomain | redirect to product |
+| oncochat.hadleylab.org | https://onconex.ai/ | subdomain | redirect to product |
+| medchat.hadleylab.org | https://medchat.ai/ | subdomain | redirect to product |
+| realty.hadleylab.org | https://gorunner.pro/ | subdomain | redirect to product |
+| vitae.hadleylab.org | https://founderof.ai/idrdex/ | subdomain | redirect to credential surface |
 | health.hadleylab.org | hadleylab.org | health | proof fleet dashboard |
 | health.canonic.org | canonic.org | health | federation dashboard |
+| musicchat.hadleylab.org | musicchat-api | api | MusicChat API endpoint (workers/musicchat-api; routes `/api/*`) |
 | founderof.ai | founderof.ai | pages | founder landing |
 | idrdex.founderof.ai | founderof.ai/dexter/ | subdomain | founder profile |
 | marisa.founderof.ai | founderof.ai/marisa/ | subdomain | founder profile |
 | nicholas.founderof.ai | founderof.ai/nicholas/ | subdomain | founder profile |
 | anil.founderof.ai | founderof.ai/anil/ | subdomain | founder profile |
-| singu.ar | founderof.ai | redirect | founders (alias) |
 
-### Proxy Scope Resolution
+### Retired: Proxy Scope Resolution
 
-Proxy Workers rewrite scope-relative files to the target path. When `CANON.json`, `scopes.json`, or other scope data files are requested at the proxy root, they resolve to the target scope — not the fleet root.
+The Jekyll-origin proxy Worker model (9 proxy Workers targeting `hadleylab-org` at `/TALKS/{SCOPE}/COMMUNITY/`, `/BOOKS/{SCOPE}/`, etc.) was retired 2026-04-18. All `.ai`, `.chat`, `.com`, `.org` domains that previously required a proxy Worker are now:
 
-```
-# .chat surface — consumer chat
-mammo.chat/                 → hadleylab.org/talks/mammochat/     (page)
-mammo.chat/CANON.json       → hadleylab.org/talks/mammochat/CANON.json  (scope data)
-mammo.chat/assets/js/*      → hadleylab.org/assets/js/*          (shared assets — no rewrite)
-mammo.chat/talks/*          → hadleylab.org/talks/*              (passthrough)
-
-# .ai surface — community learning
-mammochat.ai/               → hadleylab.org/services/talk/mammochat/     (page)
-mammochat.ai/CANON.json     → hadleylab.org/services/talk/mammochat/CANON.json  (scope data)
-mammochat.ai/assets/js/*    → hadleylab.org/assets/js/*          (shared assets — no rewrite)
-mammochat.ai/services/*     → hadleylab.org/services/*           (passthrough)
-
-# .com legacy — aliases .chat surface
-mammochat.com/              → hadleylab.org/talks/mammochat/     (page)
-mammochat.com/CANON.json    → hadleylab.org/talks/mammochat/CANON.json  (scope data)
-mammochat.com/assets/js/*   → hadleylab.org/assets/js/*          (shared assets — no rewrite)
-mammochat.com/talks/*       → hadleylab.org/talks/*              (passthrough)
-
-# .chat surface — consumer chat
-carib.chat/                 → hadleylab.org/talks/caribchat/     (page)
-carib.chat/CANON.json       → hadleylab.org/talks/caribchat/CANON.json  (scope data)
-carib.chat/assets/js/*      → hadleylab.org/assets/js/*          (shared assets — no rewrite)
-carib.chat/talks/*          → hadleylab.org/talks/*              (passthrough)
-
-# .ai surface — community learning
-caribchat.ai/               → hadleylab.org/services/talk/caribchat/     (page)
-caribchat.ai/CANON.json     → hadleylab.org/services/talk/caribchat/CANON.json  (scope data)
-caribchat.ai/assets/js/*    → hadleylab.org/assets/js/*          (shared assets — no rewrite)
-caribchat.ai/services/*     → hadleylab.org/services/*           (passthrough)
-
-# .org legacy — aliases .chat surface
-caribchat.org/              → hadleylab.org/talks/caribchat/     (page)
-caribchat.org/CANON.json    → hadleylab.org/talks/caribchat/CANON.json  (scope data)
-caribchat.org/assets/js/*   → hadleylab.org/assets/js/*          (shared assets — no rewrite)
-caribchat.org/talks/*       → hadleylab.org/talks/*              (passthrough)
-
-# non-TALK proxy
-atulisms.com/               → hadleylab.org/books/atulisms/      (page)
-atulisms.com/CANON.json     → hadleylab.org/books/atulisms/CANON.json   (scope data)
-atulisms.com/assets/js/*    → hadleylab.org/assets/js/*          (shared assets — no rewrite)
-atulisms.com/books/*        → hadleylab.org/books/*              (passthrough)
-
-# .pro — SHOP surface (Cloudflare Pages — governed Next.js app)
-gorunner.pro/               → Cloudflare Pages (gorunner-pro)     (SHOP surface — CANONIC governed)
-gorunner.pro/api/v1/canon   → runner-canonic CANON.json           (governed data endpoint)
-```
-
-Rule: paths that do NOT start with a known shared prefix (`/assets/`, `/talks/`, `/blogs/`, `/books/`, `/papers/`, `/decks/`, `/services/`, `/dexter/`, `/plugins/`, `/_data/`) AND are at depth 1 (single segment like `/CANON.json`) are prefixed with TARGET_PATH.
+- Served directly by `apps-canonic` CF Pages custom domain → Next.js `middleware.ts` hostname rewrite (for active `.ai` roots: `mammochat.ai`, `caribchat.ai`, `omicschat.ai`, `onconex.ai`, `app.*.ai`)
+- Or fully decommissioned (legacy aliases: `mammo.chat`, `mammochat.com`, `carib.chat`, `caribchat.org`, `atulisms.com`, `darioisms.com` — DNS zones remain but no worker emitted; they return 403)
 
 ## Fleets
 
@@ -221,8 +157,6 @@ Rule: paths that do NOT start with a known shared prefix (`/assets/`, `/talks/`,
 | https://www.gorunner.pro |
 | https://founderof.ai |
 | https://www.founderof.ai |
-| https://singu.ar |
-| https://www.singu.ar |
 
 ## OAuth
 
@@ -322,7 +256,6 @@ Every page emits `<link rel="canonical">` via DESIGN `HEAD.html`. Uses `site.url
 | darioisms.com | `https://darioisms.com` (Worker rewrite) |
 | gorunner.pro | `https://gorunner.pro` (Worker rewrite) |
 | founderof.ai | `https://founderof.ai` (Worker rewrite) |
-| singu.ar | `https://founderof.ai` (301 redirect) |
 
 ### og:image
 
@@ -535,7 +468,6 @@ Existing A records (GitHub Pages IPs) set to proxied (orange cloud) via Cloudfla
 | darioisms.com | darioisms-com | hadleylab.org (proxy) | 4× A proxied + www CNAME proxied |
 | gorunner.pro | (Pages) | Cloudflare Pages (gorunner-pro) | CNAME proxied → gorunner-pro.pages.dev |
 | founderof.ai | founderof-ai | CF Pages (founderof-ai) | CNAME proxied → founderof-ai.pages.dev |
-| singu.ar | singu-ar | founderof.ai (redirect) | 4× A proxied + www CNAME proxied |
 
 ```toml
 # wrangler.toml pattern
